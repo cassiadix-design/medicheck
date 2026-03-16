@@ -677,7 +677,7 @@ border-radius:0 0 20px 20px;
                 • <strong>Distribuidoras:</strong> Logística farmacêutica, controle de qualidade, distribuição de medicamentos<br><br>
                 
                 <strong>📧 Contato:</strong><br>
-                <a href="mailto:medicheck@medicheck.med.br">medicheck@medicheck.med.br</a></p>
+                <a href="/cdn-cgi/l/email-protection#96fbf3f2fff5fef3f5fdd6fbf3f2fff5fef3f5fdb8fbf3f2b8f4e4"><span class="__cf_email__" data-cfemail="6b060e0f0208030e08002b060e0f0208030e080045060e0f450919">[email&#160;protected]</span></a></p>
 
                 <h3>📱 Como Usar o Aplicativo</h3>
                 <p><strong>1. Buscar um Medicamento:</strong> Use a barra de pesquisa para encontrar o medicamento pelo nome ou princípio ativo. A busca é em tempo real e mostra resultados instantaneamente.<br><br>
@@ -723,7 +723,7 @@ border-radius:0 0 20px 20px;
 
                 <h3>❓ Dúvidas ou Sugestões?</h3>
                 <p>Se tiver dúvidas sobre um medicamento específico ou sugestões para melhorar o MediCheck, entre em contato:<br><br>
-                📧 <strong><a href="mailto:medicheck@medicheck.med.br">medicheck@medicheck.med.br</a></strong><br><br>
+                📧 <strong><a href="/cdn-cgi/l/email-protection#cea3abaaa7ada6abada58ea3abaaa7ada6abada5e0a3abaae0acbc"><span class="__cf_email__" data-cfemail="8fe2eaebe6ece7eaece4cfe2eaebe6ece7eaece4a1e2eaeba1edfd">[email&#160;protected]</span></a></strong><br><br>
                 Ficaremos felizes em ajudar! 😊</p>
 
                 <p style="margin-top: 40px; padding-top: 20px; border-top: 2px solid #ddd; color: #999; font-size: 13px; text-align: center;">MediCheck © 2026 — Responsabilidade Técnica: Rita de Cássia Oliveira Soares da Silva — CRF-SP 33.109</p>
@@ -746,7 +746,7 @@ border-radius:0 0 20px 20px;
         </div>
     </div>
 
-    <script>
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
         let medicamentosData = [];
 
 // Carrega os medicamentos após a página renderizar (lazy loading)
@@ -949,16 +949,23 @@ window.addEventListener('DOMContentLoaded', () => {
 
         tabButtons.forEach(btn => {
             btn.addEventListener('click', () => {
+                const tab = btn.dataset.tab;
+
                 tabButtons.forEach(b => b.classList.remove('active'));
-                tabContents.forEach(c => c.classList.remove('active'));
                 btn.classList.add('active');
-                const tabId = btn.dataset.tab;
-                document.getElementById(tabId).classList.add('active');
-       
+
+                if (tab === 'about') {
+                    document.getElementById('about').classList.add('active');
+                    document.body.style.overflow = 'hidden';
+                } else {
+                    document.getElementById('home').style.display = '';
+                }
             });
         });
 
-    </script>
+        // Inicializa na aba Home
+        document.querySelector('[data-tab="home"]').classList.add('active');
 
+    </script>
 </body>
 </html>
