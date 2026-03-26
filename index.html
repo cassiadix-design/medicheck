@@ -4,7 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="google-site-verification" content="5YaZ4KPtq8mx9TxaV1IWs-S7U1oITQ13kbKjYGO6vbw" />
-    <title>MediCheck - Seu Medicamento Explicado | Revisão: Pág 1 (06-03-2026), Pág 2 (06-03-2026), Pág 3 (09-03-2026), Pág 4 (10-03-2026)</title>
+    <title>MediCheck - Consulta de Medicamentos | medicheck.med.br</title>
+    <meta name="description" content="MediCheck — Consulte informações completas sobre medicamentos: para que serve, efeitos colaterais, receita e interações. Conteúdo revisado por farmacêutica responsável CRF-SP 33.109." />
+    <meta name="keywords" content="medicamentos, bula, para que serve, efeitos colaterais, receita médica, interações medicamentosas, farmácia, farmacêutico, idosos, critérios de beers" />
+    <meta property="og:title" content="MediCheck - Seu Medicamento Explicado" />
+    <meta property="og:description" content="Consulte informações completas sobre medicamentos de forma clara e segura. Revisado por farmacêutica responsável." />
+    <meta property="og:url" content="https://medicheck.med.br" />
+    <meta property="og:type" content="website" /><br>
+    <link rel="canonical" href="https://medicheck.med.br/" />
     <style>
 .footer-crf{
 text-align:center;
@@ -514,6 +521,103 @@ border-radius:0 0 20px 20px;
             font-size: 16px;
         }
 
+        /* SEÇÃO INTERAÇÕES */
+        .interacoes-content { display: none; }
+        .interacoes-content.active { display: block; }
+        .interacao-header {
+            background: linear-gradient(135deg, #c0392b, #922b21);
+            color: white; padding: 20px; border-radius: 12px;
+            margin-bottom: 20px; text-align: center;
+        }
+        .interacao-header h2 { font-size: 22px; margin-bottom: 8px; }
+        .interacao-header p { font-size: 13px; opacity: 0.95; line-height: 1.6; }
+        .interacao-busca {
+            display: flex; gap: 10px; margin-bottom: 20px; flex-wrap: wrap;
+        }
+        .interacao-busca input {
+            flex: 1; min-width: 140px; padding: 12px;
+            border: 2px solid #ddd; border-radius: 8px; font-size: 15px;
+        }
+        .interacao-busca button {
+            padding: 12px 20px; background: #c0392b; color: white;
+            border: none; border-radius: 8px; font-weight: 700;
+            cursor: pointer; font-size: 15px;
+        }
+        .interacao-busca button:hover { background: #922b21; }
+        .interacao-resultado {
+            display: none; border-radius: 12px; overflow: hidden;
+            margin-bottom: 20px; border: 2px solid #ddd;
+        }
+        .interacao-resultado.ativo { display: block; }
+        .inter-nivel {
+            padding: 14px 18px; color: white; font-weight: 700; font-size: 16px;
+        }
+        .inter-nivel.alto { background: #c0392b; }
+        .inter-nivel.moderado { background: #e8751a; }
+        .inter-nivel.baixo { background: #27ae60; }
+        .inter-corpo { padding: 16px 18px; background: white; }
+        .inter-corpo p { font-size: 14px; color: #444; line-height: 1.8; margin-bottom: 8px; }
+        .inter-corpo strong { color: #222; }
+        .inter-lista-fixa { margin-top: 10px; }
+        .inter-lista-fixa h3 {
+            font-size: 15px; color: #333; margin-bottom: 12px;
+            border-bottom: 2px solid #eee; padding-bottom: 8px; font-weight: 700;
+        }
+        .inter-card {
+            border: 1px solid #eee; border-radius: 8px;
+            margin-bottom: 10px; overflow: hidden; cursor: pointer;
+        }
+        .inter-card-titulo {
+            padding: 12px 14px; font-weight: 700; font-size: 14px;
+            display: flex; justify-content: space-between; align-items: center;
+        }
+        .inter-card-titulo.alto { background: #fde8e8; color: #c0392b; border-left: 5px solid #c0392b; }
+        .inter-card-titulo.moderado { background: #fef3e2; color: #e8751a; border-left: 5px solid #e8751a; }
+        .inter-card-titulo.baixo { background: #e8f8f0; color: #27ae60; border-left: 5px solid #27ae60; }
+        .inter-card-corpo {
+            display: none; padding: 12px 14px; font-size: 13px;
+            color: #444; line-height: 1.8; background: #fafafa;
+            border-top: 1px solid #eee;
+        }
+        .inter-card-corpo.aberto { display: block; }
+
+        /* SEÇÕES INSTITUCIONAIS */
+        .inst-content { display: none; }
+        .inst-content.active { display: block; }
+        .inst-header {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white; padding: 20px; border-radius: 12px;
+            margin-bottom: 20px; text-align: center;
+        }
+        .inst-header h2 { font-size: 22px; margin-bottom: 6px; }
+        .inst-header p { font-size: 13px; opacity: 0.9; }
+        .inst-section { margin-bottom: 20px; }
+        .inst-section h3 {
+            font-size: 16px; font-weight: 700; color: #667eea;
+            margin-bottom: 10px; padding-bottom: 6px;
+            border-bottom: 2px solid #e8eaf6;
+        }
+        .inst-section p, .inst-section li {
+            font-size: 14px; color: #555; line-height: 1.8;
+        }
+        .inst-section ul { padding-left: 20px; margin-top: 6px; }
+        .inst-section li { margin-bottom: 4px; }
+        .inst-rodape {
+            background: #f8f9fa; border: 1px solid #ddd; border-radius: 8px;
+            padding: 14px; text-align: center; font-size: 13px; color: #666;
+            margin-top: 20px;
+        }
+        .contato-form { margin-top: 10px; }
+        .contato-item {
+            display: flex; align-items: center; gap: 12px;
+            padding: 14px; border: 1px solid #eee; border-radius: 10px;
+            margin-bottom: 10px; background: #f9f9ff;
+        }
+        .contato-item .icon { font-size: 28px; }
+        .contato-item .info { font-size: 14px; color: #444; line-height: 1.6; }
+        .contato-item .info strong { color: #667eea; display: block; }
+        .contato-item .info a { color: #667eea; text-decoration: none; }
+
         /* SEÇÃO IDOSOS */
         .idosos-content {
             display: none;
@@ -719,9 +823,12 @@ border-radius:0 0 20px 20px;
 
         <div class="content">
             <div class="nav-buttons">
-                <button class="nav-btn active" data-tab="home">Home</button>
+                <button class="nav-btn active" data-tab="home">🏠 Home</button>
                 <button class="nav-btn" data-tab="idosos">🧓 Idosos</button>
-                <button class="nav-btn" data-tab="about">Sobre</button>
+                <button class="nav-btn" data-tab="interacoes">⚡ Interações</button>
+                <button class="nav-btn" data-tab="privacidade">🔒 Privacidade</button>
+                <button class="nav-btn" data-tab="termos">📋 Termos</button>
+                <button class="nav-btn" data-tab="contato">📧 Contato</button>
             </div>
 
             <div id="home" class="tab-content">
@@ -936,6 +1043,267 @@ border-radius:0 0 20px 20px;
                     <small>MediCheck © 2026 — Não substitui orientação médica ou farmacêutica profissional.</small>
                 </div>
 
+            </div>
+
+            <!-- SEÇÃO INTERAÇÕES -->
+            <div id="interacoes" class="interacoes-content">
+                <div class="interacao-header">
+                    <h2>⚡ Interações Medicamentosas</h2>
+                    <p>Consulte combinações perigosas entre medicamentos.<br>Conteúdo educacional revisado por farmacêutica responsável — CRF-SP 33.109.</p>
+                </div>
+
+                <div class="beers-aviso">
+                    ⚠️ <strong>Importante:</strong> Esta seção apresenta interações educacionais. Sempre consulte seu médico ou farmacêutico antes de combinar medicamentos. Não suspenda nenhum medicamento por conta própria.
+                </div>
+
+                <div class="interacao-busca">
+                    <input type="text" id="inter1" placeholder="💊 Medicamento 1 (ex: alprazolam)" />
+                    <input type="text" id="inter2" placeholder="💊 Medicamento 2 (ex: codeína)" />
+                    <button onclick="buscarInteracao()">🔍 Verificar</button>
+                </div>
+
+                <div id="interacaoResultado" class="interacao-resultado">
+                    <div id="interacaoNivel" class="inter-nivel alto"></div>
+                    <div id="interacaoCorpo" class="inter-corpo"></div>
+                </div>
+
+                <div class="inter-lista-fixa">
+                    <h3>⚠️ Interações mais importantes — clique para expandir</h3>
+
+                    <div class="inter-card" onclick="toggleInteracao(this)">
+                        <div class="inter-card-titulo alto">🔴 Alprazolam + Codeína <span>▼</span></div>
+                        <div class="inter-card-corpo">
+                            <p><strong>Risco: ALTO</strong></p>
+                            <p><strong>Efeito:</strong> Depressão respiratória grave e sedação profunda. A combinação de benzodiazepínico com opioide pode causar parada respiratória.</p>
+                            <p><strong>Conduta:</strong> ❌ Evitar a associação. Se necessário uso conjunto, monitoramento hospitalar rigoroso.</p>
+                        </div>
+                    </div>
+
+                    <div class="inter-card" onclick="toggleInteracao(this)">
+                        <div class="inter-card-titulo alto">🔴 Warfarina + Ibuprofeno / Diclofenaco <span>▼</span></div>
+                        <div class="inter-card-corpo">
+                            <p><strong>Risco: ALTO</strong></p>
+                            <p><strong>Efeito:</strong> Anti-inflamatórios aumentam muito o risco de sangramento em pacientes que usam anticoagulantes. Pode causar hemorragia grave.</p>
+                            <p><strong>Conduta:</strong> ❌ Evitar. Use paracetamol ou dipirona para dor quando necessário. Informe sempre ao médico.</p>
+                        </div>
+                    </div>
+
+                    <div class="inter-card" onclick="toggleInteracao(this)">
+                        <div class="inter-card-titulo alto">🔴 Diazepam + Álcool <span>▼</span></div>
+                        <div class="inter-card-corpo">
+                            <p><strong>Risco: ALTO</strong></p>
+                            <p><strong>Efeito:</strong> Potencialização da sedação do sistema nervoso central. Risco de depressão respiratória, desmaio e morte.</p>
+                            <p><strong>Conduta:</strong> ❌ Proibido. Álcool é contraindicado com qualquer benzodiazepínico.</p>
+                        </div>
+                    </div>
+
+                    <div class="inter-card" onclick="toggleInteracao(this)">
+                        <div class="inter-card-titulo alto">🔴 Sildenafila + Nitratos <span>▼</span></div>
+                        <div class="inter-card-corpo">
+                            <p><strong>Risco: ALTO</strong></p>
+                            <p><strong>Efeito:</strong> Queda grave e súbita da pressão arterial — pode ser fatal. Nitratos incluem spray de nitroglicerina e dinitrato de isossorbida.</p>
+                            <p><strong>Conduta:</strong> ❌ Contraindicado absolutamente. Informe ao médico todos os medicamentos em uso.</p>
+                        </div>
+                    </div>
+
+                    <div class="inter-card" onclick="toggleInteracao(this)">
+                        <div class="inter-card-titulo alto">🔴 Metotrexato + Ibuprofeno / Diclofenaco <span>▼</span></div>
+                        <div class="inter-card-corpo">
+                            <p><strong>Risco: ALTO</strong></p>
+                            <p><strong>Efeito:</strong> AINEs reduzem a eliminação do metotrexato pelos rins, causando acúmulo tóxico. Risco de supressão grave da medula óssea.</p>
+                            <p><strong>Conduta:</strong> ❌ Evitar. Informe sempre ao reumatologista sobre qualquer anti-inflamatório.</p>
+                        </div>
+                    </div>
+
+                    <div class="inter-card" onclick="toggleInteracao(this)">
+                        <div class="inter-card-titulo moderado">🟡 Metformina + Álcool <span>▼</span></div>
+                        <div class="inter-card-corpo">
+                            <p><strong>Risco: MODERADO</strong></p>
+                            <p><strong>Efeito:</strong> Aumento do risco de acidose lática — condição grave em que o ácido se acumula no sangue.</p>
+                            <p><strong>Conduta:</strong> ⚠️ Evitar consumo excessivo de álcool. Consumo leve ocasional pode ser tolerado — consulte o médico.</p>
+                        </div>
+                    </div>
+
+                    <div class="inter-card" onclick="toggleInteracao(this)">
+                        <div class="inter-card-titulo moderado">🟡 Fluoxetina + Tramadol <span>▼</span></div>
+                        <div class="inter-card-corpo">
+                            <p><strong>Risco: MODERADO</strong></p>
+                            <p><strong>Efeito:</strong> Risco de síndrome serotoninérgica — excesso de serotonina causando agitação, tremores, febre e confusão mental.</p>
+                            <p><strong>Conduta:</strong> ⚠️ Usar com cautela. Informe o médico sobre todos os medicamentos. Atenção a sintomas neurológicos.</p>
+                        </div>
+                    </div>
+
+                    <div class="inter-card" onclick="toggleInteracao(this)">
+                        <div class="inter-card-titulo moderado">🟡 Atorvastatina + Claritromicina / Eritromicina <span>▼</span></div>
+                        <div class="inter-card-corpo">
+                            <p><strong>Risco: MODERADO</strong></p>
+                            <p><strong>Efeito:</strong> Antibióticos aumentam os níveis de estatinas no sangue, elevando o risco de miopatia (dor muscular) e rabdomiólise.</p>
+                            <p><strong>Conduta:</strong> ⚠️ Suspender a estatina temporariamente durante o antibiótico, conforme orientação médica.</p>
+                        </div>
+                    </div>
+
+                    <div class="inter-card" onclick="toggleInteracao(this)">
+                        <div class="inter-card-titulo moderado">🟡 Captopril / Losartana + Suplemento de Potássio <span>▼</span></div>
+                        <div class="inter-card-corpo">
+                            <p><strong>Risco: MODERADO</strong></p>
+                            <p><strong>Efeito:</strong> IECAs e BRAs já elevam o potássio. Suplementos adicionais podem causar hipercalemia grave — arritmias cardíacas.</p>
+                            <p><strong>Conduta:</strong> ⚠️ Evitar suplementos de potássio sem orientação médica. Monitorar exames regularmente.</p>
+                        </div>
+                    </div>
+
+                    <div class="inter-card" onclick="toggleInteracao(this)">
+                        <div class="inter-card-titulo baixo">🟢 Paracetamol + Dipirona <span>▼</span></div>
+                        <div class="inter-card-corpo">
+                            <p><strong>Risco: BAIXO</strong></p>
+                            <p><strong>Efeito:</strong> Combinação geralmente segura em doses normais. Pode potencializar o efeito analgésico.</p>
+                            <p><strong>Conduta:</strong> ✅ Pode ser usada sob orientação médica. Respeitar as doses máximas de cada medicamento.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="beers-rodape">
+                    Conteúdo educacional revisado por <strong>Rita de Cássia Oliveira Soares da Silva — CRF-SP 33.109 — Farmacêutica</strong><br>
+                    <small>MediCheck © 2026 — Não substitui orientação médica ou farmacêutica profissional.</small>
+                </div>
+            </div>
+
+            <!-- POLÍTICA DE PRIVACIDADE -->
+            <div id="privacidade" class="inst-content">
+                <div class="inst-header">
+                    <h2>🔒 Política de Privacidade</h2>
+                    <p>Última atualização: 2026 — medicheck.med.br</p>
+                </div>
+                <div class="inst-section">
+                    <h3>1. Coleta de Informações</h3>
+                    <p>Podemos coletar informações como:</p>
+                    <ul>
+                        <li>Dados de navegação (cookies, IP, dispositivo)</li>
+                        <li>Informações fornecidas voluntariamente pelo usuário (contato)</li>
+                    </ul>
+                </div>
+                <div class="inst-section">
+                    <h3>2. Uso das Informações</h3>
+                    <p>As informações são utilizadas para:</p>
+                    <ul>
+                        <li>Melhorar a experiência do usuário</li>
+                        <li>Personalizar conteúdo</li>
+                        <li>Exibir anúncios relevantes (Google AdSense)</li>
+                        <li>Análise de desempenho do site</li>
+                    </ul>
+                </div>
+                <div class="inst-section">
+                    <h3>3. Cookies</h3>
+                    <p>Utilizamos cookies para funcionamento do site, estatísticas (Google Analytics) e publicidade (Google AdSense). O usuário pode desativar cookies nas configurações do navegador.</p>
+                </div>
+                <div class="inst-section">
+                    <h3>4. Google AdSense</h3>
+                    <p>Utilizamos o Google AdSense, que pode usar cookies para exibir anúncios relevantes com base nas visitas do usuário a este e a outros sites.</p>
+                </div>
+                <div class="inst-section">
+                    <h3>5. Compartilhamento de Dados</h3>
+                    <p>Não vendemos dados pessoais. Informações podem ser compartilhadas com serviços do Google (Analytics e AdSense) e autoridades legais, quando exigido.</p>
+                </div>
+                <div class="inst-section">
+                    <h3>6. Segurança</h3>
+                    <p>Adotamos medidas para proteger os dados, mas nenhum sistema é 100% seguro.</p>
+                </div>
+                <div class="inst-section">
+                    <h3>7. Direitos do Usuário (LGPD)</h3>
+                    <p>Conforme a Lei Geral de Proteção de Dados (LGPD — Lei nº 13.709/2018), o usuário pode solicitar acesso, correção ou exclusão dos seus dados a qualquer momento.</p>
+                </div>
+                <div class="inst-section">
+                    <h3>8. Aviso Importante</h3>
+                    <p>O MediCheck é uma plataforma educacional e não substitui orientação médica ou farmacêutica profissional.</p>
+                </div>
+                <div class="inst-rodape">
+                    Dúvidas: 📧 <a href="mailto:contato@medicheck.med.br">contato@medicheck.med.br</a><br>
+                    <small>MediCheck © 2026 — medicheck.med.br</small>
+                </div>
+            </div>
+
+            <!-- TERMOS DE USO -->
+            <div id="termos" class="inst-content">
+                <div class="inst-header">
+                    <h2>📋 Termos de Uso</h2>
+                    <p>Ao acessar medicheck.med.br, você concorda com os termos abaixo.</p>
+                </div>
+                <div class="inst-section">
+                    <h3>1. Finalidade</h3>
+                    <p>O MediCheck fornece informações educacionais sobre medicamentos, revisadas por farmacêutica responsável (CRF-SP 33.109).</p>
+                </div>
+                <div class="inst-section">
+                    <h3>2. Uso das Informações</h3>
+                    <p>O conteúdo:</p>
+                    <ul>
+                        <li>Não substitui consulta médica ou farmacêutica</li>
+                        <li>Não deve ser usado para automedicação</li>
+                        <li>É de caráter exclusivamente educacional</li>
+                    </ul>
+                </div>
+                <div class="inst-section">
+                    <h3>3. Responsabilidade</h3>
+                    <p>O usuário é responsável pelo uso das informações. O MediCheck não se responsabiliza por decisões tomadas com base no conteúdo sem orientação profissional.</p>
+                </div>
+                <div class="inst-section">
+                    <h3>4. Propriedade Intelectual</h3>
+                    <p>Todo conteúdo do site é protegido por direitos autorais e não pode ser copiado, reproduzido ou distribuído sem autorização expressa.</p>
+                </div>
+                <div class="inst-section">
+                    <h3>5. Modificações</h3>
+                    <p>Os termos podem ser atualizados a qualquer momento. O uso continuado do site implica aceite dos novos termos.</p>
+                </div>
+                <div class="inst-section">
+                    <h3>6. Legislação Aplicável</h3>
+                    <p>Estes termos são regidos pelas leis brasileiras, incluindo o Código de Defesa do Consumidor e a LGPD (Lei nº 13.709/2018).</p>
+                </div>
+                <div class="inst-rodape">
+                    Dúvidas: 📧 <a href="mailto:contato@medicheck.med.br">contato@medicheck.med.br</a><br>
+                    <small>MediCheck © 2026 — medicheck.med.br</small>
+                </div>
+            </div>
+
+            <!-- CONTATO -->
+            <div id="contato" class="inst-content">
+                <div class="inst-header">
+                    <h2>📧 Contato</h2>
+                    <p>Entre em contato com a equipe MediCheck</p>
+                </div>
+                <div class="contato-item">
+                    <div class="icon">📧</div>
+                    <div class="info">
+                        <strong>E-mail</strong>
+                        <a href="mailto:contato@medicheck.med.br">contato@medicheck.med.br</a>
+                    </div>
+                </div>
+                <div class="contato-item">
+                    <div class="icon">🌐</div>
+                    <div class="info">
+                        <strong>Site</strong>
+                        <a href="https://medicheck.med.br">medicheck.med.br</a>
+                    </div>
+                </div>
+                <div class="contato-item">
+                    <div class="icon">👩‍⚕️</div>
+                    <div class="info">
+                        <strong>Responsável Técnica</strong>
+                        Rita de Cássia Oliveira Soares da Silva — CRF-SP 33.109 — Farmacêutica
+                    </div>
+                </div>
+                <div class="contato-item">
+                    <div class="icon">⏰</div>
+                    <div class="info">
+                        <strong>Retorno</strong>
+                        Respondemos em até 2 dias úteis
+                    </div>
+                </div>
+                <div class="inst-section" style="margin-top:20px;">
+                    <h3>💡 Sugestões de Medicamentos</h3>
+                    <p>Quer sugerir um medicamento para incluirmos no MediCheck? Envie o nome para <a href="mailto:contato@medicheck.med.br" style="color:#667eea;">contato@medicheck.med.br</a> com o assunto <strong>"Sugestão de Medicamento"</strong>. Analisamos todas as sugestões!</p>
+                </div>
+                <div class="inst-rodape">
+                    <small>MediCheck © 2026 — Conteúdo educacional. Não substitui orientação profissional.</small>
+                </div>
             </div>
 
             <div id="about" class="about-content">
@@ -1237,33 +1605,98 @@ window.addEventListener('DOMContentLoaded', () => {
             renderMedicines(0);
         });
 
+        // Dados de interações para busca
+        const interacoesDB = [
+            { med1: ['alprazolam','clonazepam','diazepam','bromazepam','benzodiazepínico'], med2: ['codeína','tramadol','opioide','morfina'], nivel: 'alto', titulo: 'Benzodiazepínico + Opioide', efeito: 'Depressão respiratória grave e sedação profunda. Risco de parada respiratória.', conduta: '❌ Evitar a associação. Se necessário, monitoramento hospitalar rigoroso.' },
+            { med1: ['warfarina','varfarina'], med2: ['ibuprofeno','diclofenaco','nimesulida','aine','anti-inflamatório'], nivel: 'alto', titulo: 'Warfarina + Anti-inflamatório (AINE)', efeito: 'AINEs aumentam muito o risco de sangramento grave em pacientes anticoagulados.', conduta: '❌ Evitar. Usar paracetamol ou dipirona para dor. Informar sempre ao médico.' },
+            { med1: ['diazepam','alprazolam','clonazepam','zolpidem','zopiclona'], med2: ['álcool','alcool','bebida'], nivel: 'alto', titulo: 'Benzodiazepínico / Hipnótico + Álcool', efeito: 'Potencialização da sedação do SNC. Risco de depressão respiratória e morte.', conduta: '❌ Proibido. Álcool é contraindicado com benzodiazepínicos e hipnóticos.' },
+            { med1: ['sildenafila','tadalafila'], med2: ['nitrato','nitroglicerina','isossorbida'], nivel: 'alto', titulo: 'Sildenafila/Tadalafila + Nitratos', efeito: 'Queda grave e súbita da pressão arterial — pode ser fatal.', conduta: '❌ Contraindicado absolutamente.' },
+            { med1: ['metotrexato'], med2: ['ibuprofeno','diclofenaco','nimesulida','aine'], nivel: 'alto', titulo: 'Metotrexato + AINE', efeito: 'AINEs reduzem eliminação do metotrexato, causando toxicidade grave na medula óssea.', conduta: '❌ Evitar. Informar sempre ao reumatologista.' },
+            { med1: ['fluoxetina','sertralina','escitalopram','paroxetina'], med2: ['tramadol'], nivel: 'moderado', titulo: 'Antidepressivo ISRS + Tramadol', efeito: 'Risco de síndrome serotoninérgica — agitação, tremores, febre e confusão mental.', conduta: '⚠️ Usar com cautela. Atenção a sintomas neurológicos.' },
+            { med1: ['atorvastatina','sinvastatina'], med2: ['claritromicina','eritromicina'], nivel: 'moderado', titulo: 'Estatina + Antibiótico Macrolídeo', efeito: 'Antibióticos elevam concentração da estatina, aumentando risco de miopatia e rabdomiólise.', conduta: '⚠️ Suspender estatina temporariamente durante o antibiótico.' },
+            { med1: ['captopril','enalapril','losartana','valsartana','lisinopril'], med2: ['potássio','suplemento'], nivel: 'moderado', titulo: 'IECA/BRA + Suplemento de Potássio', efeito: 'Risco de hipercalemia (potássio alto) — pode causar arritmias cardíacas graves.', conduta: '⚠️ Evitar suplementos de potássio sem orientação médica.' },
+            { med1: ['metformina'], med2: ['álcool','alcool'], nivel: 'moderado', titulo: 'Metformina + Álcool', efeito: 'Aumento do risco de acidose lática — acúmulo de ácido no sangue.', conduta: '⚠️ Evitar consumo excessivo de álcool.' },
+            { med1: ['paracetamol'], med2: ['dipirona'], nivel: 'baixo', titulo: 'Paracetamol + Dipirona', efeito: 'Combinação geralmente segura em doses normais. Pode potencializar o efeito analgésico.', conduta: '✅ Pode ser usada sob orientação médica. Respeitar as doses máximas.' },
+        ];
+
+        function buscarInteracao() {
+            const m1 = document.getElementById('inter1').value.toLowerCase().trim();
+            const m2 = document.getElementById('inter2').value.toLowerCase().trim();
+            const resultado = document.getElementById('interacaoResultado');
+            const nivel = document.getElementById('interacaoNivel');
+            const corpo = document.getElementById('interacaoCorpo');
+
+            if (!m1 || !m2) {
+                alert('Por favor, preencha os dois medicamentos.');
+                return;
+            }
+
+            let encontrado = null;
+            for (const inter of interacoesDB) {
+                const m1match = inter.med1.some(m => m1.includes(m) || m.includes(m1));
+                const m2match = inter.med2.some(m => m2.includes(m) || m.includes(m2));
+                const m1matchRev = inter.med2.some(m => m1.includes(m) || m.includes(m1));
+                const m2matchRev = inter.med1.some(m => m2.includes(m) || m.includes(m2));
+                if ((m1match && m2match) || (m1matchRev && m2matchRev)) {
+                    encontrado = inter;
+                    break;
+                }
+            }
+
+            resultado.classList.add('ativo');
+            if (encontrado) {
+                const cores = { alto: '#c0392b', moderado: '#e8751a', baixo: '#27ae60' };
+                const textos = { alto: '🔴 RISCO ALTO', moderado: '🟡 RISCO MODERADO', baixo: '🟢 RISCO BAIXO' };
+                nivel.className = `inter-nivel ${encontrado.nivel}`;
+                nivel.textContent = `${textos[encontrado.nivel]} — ${encontrado.titulo}`;
+                corpo.innerHTML = `<p><strong>⚠️ Efeito da interação:</strong><br>${encontrado.efeito}</p><p><strong>✅ Conduta recomendada:</strong><br>${encontrado.conduta}</p><p style="font-size:12px;color:#999;margin-top:10px;">Conteúdo educacional — consulte sempre seu médico ou farmacêutico.</p>`;
+            } else {
+                nivel.className = 'inter-nivel baixo';
+                nivel.textContent = '🟢 Interação não encontrada na base de dados';
+                corpo.innerHTML = `<p>Não encontramos interação registrada entre <strong>${m1}</strong> e <strong>${m2}</strong> na nossa base de dados.</p><p>Isso não significa que a combinação seja completamente segura — sempre consulte seu farmacêutico ou médico antes de combinar medicamentos.</p>`;
+            }
+        }
+
+        function toggleInteracao(card) {
+            const corpo = card.querySelector('.inter-card-corpo');
+            const seta = card.querySelector('span');
+            corpo.classList.toggle('aberto');
+            seta.textContent = corpo.classList.contains('aberto') ? '▲' : '▼';
+        }
+
         tabButtons.forEach(btn => {
             btn.addEventListener('click', () => {
                 const tab = btn.dataset.tab;
-
                 tabButtons.forEach(b => b.classList.remove('active'));
                 btn.classList.add('active');
 
-                // Esconde todas as seções
+                // Esconde tudo
                 document.getElementById('home').style.display = 'none';
-                document.getElementById('idosos').classList.remove('active');
+                ['idosos','interacoes','privacidade','termos','contato'].forEach(id => {
+                    const el = document.getElementById(id);
+                    if (el) el.classList.remove('active');
+                });
                 document.getElementById('about').classList.remove('active');
                 document.body.style.overflow = 'auto';
 
                 if (tab === 'home') {
                     document.getElementById('home').style.display = '';
-                } else if (tab === 'idosos') {
-                    document.getElementById('idosos').classList.add('active');
                 } else if (tab === 'about') {
                     document.getElementById('about').classList.add('active');
                     document.body.style.overflow = 'hidden';
+                } else {
+                    const el = document.getElementById(tab);
+                    if (el) el.classList.add('active');
                 }
             });
         });
 
         // Inicializa na aba Home
         document.querySelector('[data-tab="home"]').classList.add('active');
-        document.getElementById('idosos').classList.remove('active');
+        ['idosos','interacoes','privacidade','termos','contato'].forEach(id => {
+            const el = document.getElementById(id);
+            if (el) el.classList.remove('active');
+        });
 
     </script>
 </body>
