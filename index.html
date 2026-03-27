@@ -842,6 +842,11 @@ border-radius:0 0 20px 20px;
 
                 <div class="medicines-list">
                     <h3>📋 MEDICAMENTOS</h3>
+                    <p style="font-size:13px;color:#888;margin-bottom:12px;">
+                        <a href="/medicamentos/" style="color:#667eea;text-decoration:none;font-weight:600;">
+                            📄 Ver todos em página indexável →
+                        </a>
+                    </p>
                     <div class="medicine-grid" id="medicineGrid"></div>
 
                     <div style="text-align:center;padding:16px 10px 8px;font-size:14px;color:#666;border-top:1px solid #ddd;margin-top:10px;">
@@ -1430,6 +1435,14 @@ window.addEventListener('DOMContentLoaded', () => {
         const pagination = document.getElementById('pagination');
         const pageInfo = document.getElementById('pageInfo');
 
+        
+        function slugify(text) {
+            return text.toLowerCase()
+                .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+                .replace(/[^a-z0-9\s-]/g, '')
+                .replace(/[\s-]+/g, '-').trim('-');
+        }
+        
         function renderMedicines(page = 0) {
             currentPage = page;
             medicineGrid.innerHTML = '';
@@ -1449,6 +1462,13 @@ window.addEventListener('DOMContentLoaded', () => {
                 btn.className = 'medicine-btn';
                 btn.innerHTML = `<span>${med.nome}</span>`;
                 btn.onclick = () => openMedicineModal(med);
+                const linkIcon = document.createElement('a');
+                linkIcon.href = '/medicamentos/' + slugify(med.generico || med.nome) + '/';
+                linkIcon.title = 'Ver página completa de ' + med.nome;
+                linkIcon.style.cssText = 'color:#667eea;font-size:12px;text-decoration:none;margin-left:8px;opacity:0.7;';
+                linkIcon.textContent = '🔗';
+                linkIcon.onclick = (e) => e.stopPropagation();
+                btn.appendChild(linkIcon);
                 btn.addEventListener('keydown', (e) => {
                     if (e.key === 'Enter') {
                         e.preventDefault();
