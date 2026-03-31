@@ -1415,7 +1415,7 @@ border-radius:0 0 20px 20px;
 
 // Carrega os medicamentos após a página renderizar (lazy loading)
 window.addEventListener('DOMContentLoaded', () => {
-    fetch('medicamentos.json')
+    fetch('/medicamentos.json')
         .then(r => r.json())
         .then(data => {
             medicamentosData = data;
