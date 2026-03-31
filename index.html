@@ -1411,7 +1411,6 @@ border-radius:0 0 20px 20px;
 
     <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
         let medicamentosData = [];
-        let searchResults = [];
 
 // Carrega os medicamentos após a página renderizar (lazy loading)
 window.addEventListener('DOMContentLoaded', () => {
@@ -1431,6 +1430,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
         const itemsPerPage = 15;
         let currentPage = 0;
+        let searchResults = medicamentosData;
 
         const tabButtons = document.querySelectorAll('.nav-btn');
         const tabContents = document.querySelectorAll('.tab-content, .about-content');
@@ -1707,4 +1707,12 @@ window.addEventListener('DOMContentLoaded', () => {
 
                 if (tab === 'home') {
                     document.getElementById('home').style.display = '';
-                } else 
+                } else {
+                    const el = document.getElementById(tab);
+                    if (el) el.classList.add('active');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
