@@ -1052,125 +1052,270 @@ border-radius:0 0 20px 20px;
 
             <!-- SEÇÃO INTERAÇÕES -->
             <div id="interacoes" class="interacoes-content">
-                <div class="interacao-header">
+
+                <style>
+                .mc-header { background: linear-gradient(135deg, #c0392b, #922b21); color: white; padding: 20px; border-radius: 12px; margin-bottom: 16px; text-align: center; }
+                .mc-header h2 { font-size: 22px; margin-bottom: 6px; font-weight: 700; }
+                .mc-header p { font-size: 13px; opacity: 0.92; line-height: 1.5; margin: 0; }
+                .mc-badge-ia { display: inline-block; background: rgba(255,255,255,0.2); border: 1px solid rgba(255,255,255,0.4); border-radius: 20px; padding: 3px 12px; font-size: 11px; font-weight: 700; margin-top: 8px; letter-spacing: 0.5px; }
+                .mc-tab-bar { display: flex; gap: 8px; margin-bottom: 16px; }
+                .mc-tab { flex: 1; padding: 10px; border: 2px solid #ddd; border-radius: 8px; background: white; font-size: 13px; font-weight: 700; cursor: pointer; font-family: inherit; color: #666; transition: 0.2s; }
+                .mc-tab.active { border-color: #667eea; color: #667eea; background: #f0f4ff; }
+                .mc-tab:hover { border-color: #667eea; color: #667eea; }
+                .mc-panel { display: none; }
+                .mc-panel.active { display: block; }
+                .mc-busca-ia { display: flex; gap: 10px; margin-bottom: 14px; flex-wrap: wrap; }
+                .mc-busca-wrap { flex: 1; min-width: 180px; position: relative; }
+                .mc-busca-wrap input { width: 100%; padding: 12px 14px; border: 2px solid #ddd; border-radius: 8px; font-size: 15px; box-sizing: border-box; font-family: inherit; }
+                .mc-busca-wrap input:focus { outline: none; border-color: #667eea; box-shadow: 0 0 8px rgba(102,126,234,0.2); }
+                .mc-autocomplete { position: absolute; top: 100%; left: 0; right: 0; background: white; border: 2px solid #667eea; border-top: none; border-radius: 0 0 8px 8px; max-height: 180px; overflow-y: auto; z-index: 100; display: none; box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+                .mc-autocomplete.show { display: block; }
+                .mc-autocomplete-item { padding: 10px 14px; font-size: 14px; cursor: pointer; color: #333; border-bottom: 1px solid #f0f0f0; }
+                .mc-autocomplete-item:hover { background: #f0f4ff; color: #667eea; font-weight: 600; }
+                .mc-btn-verificar { padding: 12px 22px; background: #c0392b; color: white; border: none; border-radius: 8px; font-weight: 700; cursor: pointer; font-size: 15px; font-family: inherit; white-space: nowrap; transition: 0.2s; }
+                .mc-btn-verificar:hover { background: #922b21; }
+                .mc-btn-verificar:disabled { background: #aaa; cursor: not-allowed; }
+                .mc-chips { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 16px; }
+                .mc-chip-lbl { font-size: 12px; color: #888; margin-bottom: 8px; font-weight: 600; display: block; }
+                .mc-chip { padding: 6px 14px; border-radius: 20px; font-size: 12px; font-weight: 700; cursor: pointer; border: none; font-family: inherit; transition: 0.2s; }
+                .mc-chip.alto { background: #fde8e8; color: #c0392b; border: 1px solid #c0392b; }
+                .mc-chip.alto:hover { background: #c0392b; color: white; }
+                .mc-chip.moderado { background: #fef3e2; color: #e8751a; border: 1px solid #e8751a; }
+                .mc-chip.moderado:hover { background: #e8751a; color: white; }
+                .mc-chip.baixo { background: #e8f8f0; color: #27ae60; border: 1px solid #27ae60; }
+                .mc-chip.baixo:hover { background: #27ae60; color: white; }
+                .mc-resultado-ia { border-radius: 12px; overflow: hidden; margin-bottom: 16px; border: 2px solid #ddd; display: none; }
+                .mc-resultado-ia.show { display: block; }
+                .mc-nivel-ia { padding: 14px 18px; color: white; font-weight: 700; font-size: 15px; }
+                .mc-nivel-ia.alto { background: #c0392b; }
+                .mc-nivel-ia.moderado { background: #e8751a; }
+                .mc-nivel-ia.baixo { background: #27ae60; }
+                .mc-nivel-ia.neutro { background: #667eea; }
+                .mc-corpo-ia { padding: 16px 18px; background: white; font-size: 14px; color: #444; line-height: 1.8; }
+                .mc-corpo-ia p { margin-bottom: 10px; }
+                .mc-corpo-ia strong { color: #222; }
+                .mc-spinner-wrap { text-align: center; padding: 24px; }
+                .mc-spinner { display: inline-block; width: 28px; height: 28px; border: 3px solid #ddd; border-top-color: #c0392b; border-radius: 50%; animation: mcSpin 0.8s linear infinite; }
+                @keyframes mcSpin { to { transform: rotate(360deg); } }
+                .mc-spinner-txt { font-size: 14px; color: #666; margin-top: 10px; }
+                </style>
+
+                <div class="mc-header">
                     <h2>⚡ Interações Medicamentosas</h2>
-                    <p>Consulte combinações perigosas entre medicamentos.<br>Conteúdo educacional revisado por farmacêutica responsável — CRF-SP 33.109.</p>
+                    <p>Verifique combinações perigosas entre medicamentos.<br>Base fixa + análise por Inteligência Artificial.</p>
+                    <span class="mc-badge-ia">✦ IA INTEGRADA</span>
                 </div>
 
-                <div class="beers-aviso">
-                    ⚠️ <strong>Importante:</strong> Esta seção apresenta interações educacionais. Sempre consulte seu médico ou farmacêutico antes de combinar medicamentos. Não suspenda nenhum medicamento por conta própria.
+                <div class="mc-tab-bar">
+                    <button class="mc-tab active" onclick="mcMudarTab('mc-panel-verificar', this)">🔍 Verificar Combinação</button>
+                    <button class="mc-tab" onclick="mcMudarTab('mc-panel-lista', this)">📋 Interações Conhecidas</button>
                 </div>
 
-                <div class="interacao-busca">
-                    <input type="text" id="inter1" placeholder="💊 Medicamento 1 (ex: alprazolam)" />
-                    <input type="text" id="inter2" placeholder="💊 Medicamento 2 (ex: codeína)" />
-                    <button onclick="buscarInteracao()">🔍 Verificar</button>
+                <!-- PAINEL VERIFICAR -->
+                <div id="mc-panel-verificar" class="mc-panel active">
+                    <div class="beers-aviso">
+                        ⚠️ <strong>Importante:</strong> Conteúdo educacional. Sempre consulte seu médico ou farmacêutico antes de combinar medicamentos. Não suspenda nenhum medicamento por conta própria.
+                    </div>
+
+                    <div class="mc-busca-ia">
+                        <div class="mc-busca-wrap">
+                            <input type="text" id="mc-inter1" placeholder="💊 Medicamento 1 (ex: alprazolam)" oninput="mcFiltrarAuto(this,'mc-ac1')" onblur="mcFecharAuto('mc-ac1',300)" autocomplete="off" />
+                            <div id="mc-ac1" class="mc-autocomplete"></div>
+                        </div>
+                        <div class="mc-busca-wrap">
+                            <input type="text" id="mc-inter2" placeholder="💊 Medicamento 2 (ex: codeína)" oninput="mcFiltrarAuto(this,'mc-ac2')" onblur="mcFecharAuto('mc-ac2',300)" autocomplete="off" />
+                            <div id="mc-ac2" class="mc-autocomplete"></div>
+                        </div>
+                        <button class="mc-btn-verificar" id="mc-btn" onclick="mcVerificar()">🔍 Verificar</button>
+                    </div>
+
+                    <span class="mc-chip-lbl">COMBINAÇÕES FREQUENTES — clique para testar:</span>
+                    <div class="mc-chips">
+                        <button class="mc-chip alto" onclick="mcTestar('alprazolam','codeína')">Alprazolam + Codeína</button>
+                        <button class="mc-chip alto" onclick="mcTestar('sildenafila','nitroglicerina')">Sildenafila + Nitrato</button>
+                        <button class="mc-chip alto" onclick="mcTestar('warfarina','ibuprofeno')">Warfarina + Ibuprofeno</button>
+                        <button class="mc-chip moderado" onclick="mcTestar('fluoxetina','tramadol')">Fluoxetina + Tramadol</button>
+                        <button class="mc-chip moderado" onclick="mcTestar('atorvastatina','claritromicina')">Estatina + Claritromicina</button>
+                        <button class="mc-chip baixo" onclick="mcTestar('paracetamol','dipirona')">Paracetamol + Dipirona</button>
+                    </div>
+
+                    <div id="mc-resultado-ia" class="mc-resultado-ia">
+                        <div id="mc-nivel-ia" class="mc-nivel-ia neutro"></div>
+                        <div id="mc-corpo-ia" class="mc-corpo-ia"></div>
+                    </div>
                 </div>
 
-                <div id="interacaoResultado" class="interacao-resultado">
-                    <div id="interacaoNivel" class="inter-nivel alto"></div>
-                    <div id="interacaoCorpo" class="inter-corpo"></div>
-                </div>
-
-                <div class="inter-lista-fixa">
-                    <h3>⚠️ Interações mais importantes — clique para expandir</h3>
-
-                    <div class="inter-card" onclick="toggleInteracao(this)">
-                        <div class="inter-card-titulo alto">🔴 Alprazolam + Codeína <span>▼</span></div>
-                        <div class="inter-card-corpo">
-                            <p><strong>Risco: ALTO</strong></p>
-                            <p><strong>Efeito:</strong> Depressão respiratória grave e sedação profunda. A combinação de benzodiazepínico com opioide pode causar parada respiratória.</p>
-                            <p><strong>Conduta:</strong> ❌ Evitar a associação. Se necessário uso conjunto, monitoramento hospitalar rigoroso.</p>
-                        </div>
+                <!-- PAINEL LISTA -->
+                <div id="mc-panel-lista" class="mc-panel">
+                    <div class="inter-lista-fixa">
+                        <h3>⚠️ Interações mais importantes — clique para expandir</h3>
+                        <div id="mc-lista-cards"></div>
                     </div>
-
-                    <div class="inter-card" onclick="toggleInteracao(this)">
-                        <div class="inter-card-titulo alto">🔴 Warfarina + Ibuprofeno / Diclofenaco <span>▼</span></div>
-                        <div class="inter-card-corpo">
-                            <p><strong>Risco: ALTO</strong></p>
-                            <p><strong>Efeito:</strong> Anti-inflamatórios aumentam muito o risco de sangramento em pacientes que usam anticoagulantes. Pode causar hemorragia grave.</p>
-                            <p><strong>Conduta:</strong> ❌ Evitar. Use paracetamol ou dipirona para dor quando necessário. Informe sempre ao médico.</p>
-                        </div>
-                    </div>
-
-                    <div class="inter-card" onclick="toggleInteracao(this)">
-                        <div class="inter-card-titulo alto">🔴 Diazepam + Álcool <span>▼</span></div>
-                        <div class="inter-card-corpo">
-                            <p><strong>Risco: ALTO</strong></p>
-                            <p><strong>Efeito:</strong> Potencialização da sedação do sistema nervoso central. Risco de depressão respiratória, desmaio e morte.</p>
-                            <p><strong>Conduta:</strong> ❌ Proibido. Álcool é contraindicado com qualquer benzodiazepínico.</p>
-                        </div>
-                    </div>
-
-                    <div class="inter-card" onclick="toggleInteracao(this)">
-                        <div class="inter-card-titulo alto">🔴 Sildenafila + Nitratos <span>▼</span></div>
-                        <div class="inter-card-corpo">
-                            <p><strong>Risco: ALTO</strong></p>
-                            <p><strong>Efeito:</strong> Queda grave e súbita da pressão arterial — pode ser fatal. Nitratos incluem spray de nitroglicerina e dinitrato de isossorbida.</p>
-                            <p><strong>Conduta:</strong> ❌ Contraindicado absolutamente. Informe ao médico todos os medicamentos em uso.</p>
-                        </div>
-                    </div>
-
-                    <div class="inter-card" onclick="toggleInteracao(this)">
-                        <div class="inter-card-titulo alto">🔴 Metotrexato + Ibuprofeno / Diclofenaco <span>▼</span></div>
-                        <div class="inter-card-corpo">
-                            <p><strong>Risco: ALTO</strong></p>
-                            <p><strong>Efeito:</strong> AINEs reduzem a eliminação do metotrexato pelos rins, causando acúmulo tóxico. Risco de supressão grave da medula óssea.</p>
-                            <p><strong>Conduta:</strong> ❌ Evitar. Informe sempre ao reumatologista sobre qualquer anti-inflamatório.</p>
-                        </div>
-                    </div>
-
-                    <div class="inter-card" onclick="toggleInteracao(this)">
-                        <div class="inter-card-titulo moderado">🟡 Metformina + Álcool <span>▼</span></div>
-                        <div class="inter-card-corpo">
-                            <p><strong>Risco: MODERADO</strong></p>
-                            <p><strong>Efeito:</strong> Aumento do risco de acidose lática — condição grave em que o ácido se acumula no sangue.</p>
-                            <p><strong>Conduta:</strong> ⚠️ Evitar consumo excessivo de álcool. Consumo leve ocasional pode ser tolerado — consulte o médico.</p>
-                        </div>
-                    </div>
-
-                    <div class="inter-card" onclick="toggleInteracao(this)">
-                        <div class="inter-card-titulo moderado">🟡 Fluoxetina + Tramadol <span>▼</span></div>
-                        <div class="inter-card-corpo">
-                            <p><strong>Risco: MODERADO</strong></p>
-                            <p><strong>Efeito:</strong> Risco de síndrome serotoninérgica — excesso de serotonina causando agitação, tremores, febre e confusão mental.</p>
-                            <p><strong>Conduta:</strong> ⚠️ Usar com cautela. Informe o médico sobre todos os medicamentos. Atenção a sintomas neurológicos.</p>
-                        </div>
-                    </div>
-
-                    <div class="inter-card" onclick="toggleInteracao(this)">
-                        <div class="inter-card-titulo moderado">🟡 Atorvastatina + Claritromicina / Eritromicina <span>▼</span></div>
-                        <div class="inter-card-corpo">
-                            <p><strong>Risco: MODERADO</strong></p>
-                            <p><strong>Efeito:</strong> Antibióticos aumentam os níveis de estatinas no sangue, elevando o risco de miopatia (dor muscular) e rabdomiólise.</p>
-                            <p><strong>Conduta:</strong> ⚠️ Suspender a estatina temporariamente durante o antibiótico, conforme orientação médica.</p>
-                        </div>
-                    </div>
-
-                    <div class="inter-card" onclick="toggleInteracao(this)">
-                        <div class="inter-card-titulo moderado">🟡 Captopril / Losartana + Suplemento de Potássio <span>▼</span></div>
-                        <div class="inter-card-corpo">
-                            <p><strong>Risco: MODERADO</strong></p>
-                            <p><strong>Efeito:</strong> IECAs e BRAs já elevam o potássio. Suplementos adicionais podem causar hipercalemia grave — arritmias cardíacas.</p>
-                            <p><strong>Conduta:</strong> ⚠️ Evitar suplementos de potássio sem orientação médica. Monitorar exames regularmente.</p>
-                        </div>
-                    </div>
-
-                    <div class="inter-card" onclick="toggleInteracao(this)">
-                        <div class="inter-card-titulo baixo">🟢 Paracetamol + Dipirona <span>▼</span></div>
-                        <div class="inter-card-corpo">
-                            <p><strong>Risco: BAIXO</strong></p>
-                            <p><strong>Efeito:</strong> Combinação geralmente segura em doses normais. Pode potencializar o efeito analgésico.</p>
-                            <p><strong>Conduta:</strong> ✅ Pode ser usada sob orientação médica. Respeitar as doses máximas de cada medicamento.</p>
-                        </div>
-                    </div>
-
                 </div>
 
                 <div class="beers-rodape">
                     Conteúdo educacional revisado por <strong>Rita de Cássia Oliveira Soares da Silva — CRF-SP 33.109 — Farmacêutica</strong><br>
                     <small>MediCheck © 2026 — Não substitui orientação médica ou farmacêutica profissional.</small>
                 </div>
+
+                <script>
+                const mcInteracoesDB = [
+                    { med1: ['alprazolam','clonazepam','diazepam','bromazepam','zolpidem','zopiclona'], med2: ['codeína','tramadol','morfina','opioide','fentanila','tapentadol'], nivel: 'alto', titulo: 'Benzodiazepínico / Hipnótico + Opioide', efeito: 'Depressão respiratória grave e sedação profunda. Risco de parada respiratória e morte.', conduta: '❌ Evitar a associação. Se necessário, monitoramento hospitalar rigoroso.' },
+                    { med1: ['warfarina','varfarina'], med2: ['ibuprofeno','diclofenaco','nimesulida','cetoprofeno','meloxicam','etoricoxibe','celecoxibe'], nivel: 'alto', titulo: 'Warfarina + Anti-inflamatório (AINE)', efeito: 'AINEs aumentam muito o risco de sangramento grave em pacientes anticoagulados.', conduta: '❌ Evitar. Usar paracetamol ou dipirona para dor. Informar sempre ao médico.' },
+                    { med1: ['diazepam','alprazolam','clonazepam','zolpidem','zopiclona','bromazepam'], med2: ['álcool','alcool','bebida'], nivel: 'alto', titulo: 'Benzodiazepínico / Hipnótico + Álcool', efeito: 'Potencialização da sedação do SNC. Risco de depressão respiratória e morte.', conduta: '❌ Proibido. Álcool é contraindicado com benzodiazepínicos e hipnóticos.' },
+                    { med1: ['sildenafila','tadalafila'], med2: ['nitroglicerina','nitrato','isossorbida'], nivel: 'alto', titulo: 'Sildenafila / Tadalafila + Nitratos', efeito: 'Queda grave e súbita da pressão arterial — pode ser fatal.', conduta: '❌ Contraindicado absolutamente.' },
+                    { med1: ['metotrexato'], med2: ['ibuprofeno','diclofenaco','nimesulida','cetoprofeno','meloxicam'], nivel: 'alto', titulo: 'Metotrexato + AINE', efeito: 'AINEs reduzem eliminação do metotrexato, causando toxicidade grave na medula óssea.', conduta: '❌ Evitar. Informar sempre ao reumatologista.' },
+                    { med1: ['dissulfiram'], med2: ['álcool','alcool','metronidazol'], nivel: 'alto', titulo: 'Dissulfiram + Álcool / Metronidazol', efeito: 'Reação grave: rubor intenso, vômito, taquicardia, hipotensão. Pode ser fatal.', conduta: '❌ Absolutamente contraindicado.' },
+                    { med1: ['lítio','carbonato de lítio'], med2: ['ibuprofeno','diclofenaco','captopril','enalapril','losartana'], nivel: 'alto', titulo: 'Lítio + AINE / IECA', efeito: 'Elevação do nível sérico de lítio — risco de toxicidade grave (tremores, confusão, convulsões).', conduta: '❌ Monitorar níveis de lítio rigorosamente. Evitar AINE sem orientação.' },
+                    { med1: ['fluoxetina','sertralina','escitalopram','paroxetina','citalopram','venlafaxina','duloxetina'], med2: ['tramadol'], nivel: 'moderado', titulo: 'Antidepressivo ISRS/IRSN + Tramadol', efeito: 'Risco de síndrome serotoninérgica — agitação, tremores, febre e confusão mental.', conduta: '⚠️ Usar com cautela. Atenção a sintomas neurológicos.' },
+                    { med1: ['atorvastatina','sinvastatina','rosuvastatina'], med2: ['claritromicina','eritromicina','itraconazol','cetoconazol'], nivel: 'moderado', titulo: 'Estatina + Macrolídeo / Antifúngico', efeito: 'Antibióticos/antifúngicos elevam concentração da estatina, aumentando risco de miopatia e rabdomiólise.', conduta: '⚠️ Suspender estatina temporariamente durante o antibiótico ou antifúngico.' },
+                    { med1: ['captopril','enalapril','losartana','valsartana','lisinopril','candesartana'], med2: ['potássio','suplemento de potássio','espironolactona'], nivel: 'moderado', titulo: 'IECA / BRA + Potássio / Espironolactona', efeito: 'Risco de hipercalemia (potássio alto) — pode causar arritmias cardíacas graves.', conduta: '⚠️ Monitorar potássio regularmente. Evitar suplementos sem orientação.' },
+                    { med1: ['metformina'], med2: ['álcool','alcool'], nivel: 'moderado', titulo: 'Metformina + Álcool', efeito: 'Aumento do risco de acidose lática — acúmulo de ácido no sangue.', conduta: '⚠️ Evitar consumo excessivo de álcool.' },
+                    { med1: ['warfarina','varfarina'], med2: ['fluconazol','itraconazol','claritromicina','metronidazol'], nivel: 'moderado', titulo: 'Warfarina + Antifúngico / Antibiótico', efeito: 'Potencializam o efeito anticoagulante — risco de sangramento.', conduta: '⚠️ Monitorar INR com frequência durante o tratamento.' },
+                    { med1: ['omeprazol','pantoprazol','esomeprazol','lansoprazol'], med2: ['clopidogrel'], nivel: 'moderado', titulo: 'IBP (omeprazol) + Clopidogrel', efeito: 'Omeprazol e esomeprazol reduzem a eficácia do clopidogrel — risco cardiovascular aumentado.', conduta: '⚠️ Preferir pantoprazol ou rabeprazol se IBP for necessário.' },
+                    { med1: ['paracetamol'], med2: ['álcool','alcool'], nivel: 'moderado', titulo: 'Paracetamol + Álcool', efeito: 'Álcool aumenta o risco de dano ao fígado com paracetamol, especialmente em doses altas.', conduta: '⚠️ Evitar paracetamol em altas doses em quem bebe regularmente.' },
+                    { med1: ['ibuprofeno','diclofenaco'], med2: ['captopril','enalapril','losartana','atenolol','metoprolol'], nivel: 'moderado', titulo: 'AINE + Anti-hipertensivo', efeito: 'AINEs podem reduzir o efeito anti-hipertensivo e piorar a função renal.', conduta: '⚠️ Usar com cautela. Preferir paracetamol para dor em hipertensos.' },
+                    { med1: ['paracetamol'], med2: ['dipirona'], nivel: 'baixo', titulo: 'Paracetamol + Dipirona', efeito: 'Combinação geralmente segura em doses normais. Pode potencializar o efeito analgésico.', conduta: '✅ Pode ser usada sob orientação médica. Respeitar as doses máximas.' },
+                ];
+
+                const mcMedNomes = ["Acetazolamida","Acetilcisteína","Aciclovir","Acitretina","Adapaleno","Albendazol","Alendronato","Alfaepoetina","Alopurinol","Alprazolam","Ambroxol","Amiodarona","Amitriptilina","Amoxicilina","Amoxicilina + Clavulanato","Anfotericina B","Anlodipino","Aripiprazol","Atenolol","Atorvastatina","Azatioprina","Azitromicina","Baclofen","Beclometasona","Betaistina","Betametasona","Biperideno","Bisacodil","Bisoprolol","Bromazepam","Bromocriptina","Budesonida","Buprenorfina","Bupropiona","Cabergolina","Cafeína","Captopril","Carbamazepina","Carbidopa + Levodopa","Carbonato de Lítio","Carvedilol","Carisoprodol","Cefalexina","Ceftriaxona","Celecoxibe","Cetirizina","Cetoconazol","Cetoprofeno","Ciclobenzaprina","Ciprofloxacino","Citalopram","Claritromicina","Clindamicina","Clomifeno","Clonazepam","Clopidogrel","Cloroquina","Clozapina","Codeína","Colestiramina","Colchicina","Colecalciferol","Dapagliflozina","Denosumabe","Desloratadina","Desmopressina","Dexametasona","Diazepam","Diclofenaco","Digoxina","Diltiazem","Dipirona","Dissulfiram","Donepezila","Doxiciclina","Duloxetina","Dutasterida","Empagliflozina","Enalapril","Enoxaparina","Epoetina Alfa","Escitalopram","Esomeprazol","Espironolactona","Etoricoxibe","Ezetimiba","Fenofibrato","Fenitoína","Fenoterol","Fentanila","Finasterida","Fluconazol","Fluoxetina","Formoterol + Budesonida","Furosemida","Gabapentina","Glibenclamida","Griseofulvina","Haloperidol","Heparina","Hidroclorotiazida","Hidrocortisona","Hidroquinona","Hidroxizina","Ibuprofeno","Infliximabe","Insulina NPH","Insulina Regular","Ipratrópio","Isoniazida","Isotretinoína","Itraconazol","Ivabradina","Ivermectina","Lactulose","Lamotrigina","Lansoprazol","Leflunomida","Levetiracetam","Levofloxacina","Levonorgestrel","Levotiroxina","Linagliptina","Liraglutida","Lisdexanfetamina","Lisinopril","Loperamida","Loratadina","Losartana","Magnésio","Meloxicam","Memantina","Mesalazina","Metformina","Metilfenidato","Metocarbamol","Metoclopramida","Metotrexato","Metoprolol","Metronidazol","Miconazol","Minoxidil","Mirtazapina","Montelucaste","Morfina","Moxifloxacino","Mupirocina","Naloxona","Naltrexona","Nifedipina","Nimesulida","Nitroglicerina","Olanzapina","Omeprazol","Ondansetrom","Oseltamivir","Oxcarbazepina","Oxibutinina","Pantoprazol","Paracetamol","Paroxetina","Permetrina","Pioglitazona","Pramipexol","Prednisona","Pregabalina","Progesterona","Prometazina","Propranolol","Quetiapina","Rabeprazol","Rasagilina","Rifampicina","Risperidona","Rivaroxabana","Rosuvastatina","Salbutamol","Semaglutida","Sertralina","Sildenafila","Silodosina","Sinvastatina","Sitagliptina","Solifenacina","Sulfato Ferroso","Tacrolimo","Tadalafila","Tamsulosina","Tapentadol","Terbinafina","Tiotropio","Topiramato","Tramadol","Trazodona","Tretinoína","Vancomicina","Vareniclina","Venlafaxina","Verapamil","Warfarina","Zinco","Zolpidem","Zopiclona","Ácido Fólico","Ácido Zoledrónico","Álcool","Ômega-3"];
+
+                const mcCacheIA = {};
+
+                function mcFiltrarAuto(input, acId) {
+                    const val = input.value.toLowerCase().trim();
+                    const ac = document.getElementById(acId);
+                    if (val.length < 2) { ac.classList.remove('show'); return; }
+                    const matches = mcMedNomes.filter(n => n.toLowerCase().includes(val)).slice(0, 8);
+                    if (!matches.length) { ac.classList.remove('show'); return; }
+                    ac.innerHTML = matches.map(n => '<div class="mc-autocomplete-item" onmousedown="mcSelecionarAuto(\'' + acId + '\',\'' + n + '\')">' + n + '</div>').join('');
+                    ac.classList.add('show');
+                }
+
+                function mcSelecionarAuto(acId, nome) {
+                    const inputId = acId === 'mc-ac1' ? 'mc-inter1' : 'mc-inter2';
+                    document.getElementById(inputId).value = nome;
+                    document.getElementById(acId).classList.remove('show');
+                }
+
+                function mcFecharAuto(acId, delay) {
+                    setTimeout(() => document.getElementById(acId).classList.remove('show'), delay);
+                }
+
+                function mcTestar(m1, m2) {
+                    document.getElementById('mc-inter1').value = m1;
+                    document.getElementById('mc-inter2').value = m2;
+                    mcVerificar();
+                }
+
+                function mcBuscarFixo(m1, m2) {
+                    for (const inter of mcInteracoesDB) {
+                        const a = inter.med1.some(m => m1.includes(m) || m.includes(m1));
+                        const b = inter.med2.some(m => m2.includes(m) || m.includes(m2));
+                        const c = inter.med2.some(m => m1.includes(m) || m.includes(m1));
+                        const d = inter.med1.some(m => m2.includes(m) || m.includes(m2));
+                        if ((a && b) || (c && d)) return inter;
+                    }
+                    return null;
+                }
+
+                async function mcVerificar() {
+                    const m1 = document.getElementById('mc-inter1').value.trim();
+                    const m2 = document.getElementById('mc-inter2').value.trim();
+                    if (!m1 || !m2) { alert('Por favor, preencha os dois medicamentos.'); return; }
+
+                    const resultado = document.getElementById('mc-resultado-ia');
+                    const nivel = document.getElementById('mc-nivel-ia');
+                    const corpo = document.getElementById('mc-corpo-ia');
+                    const btn = document.getElementById('mc-btn');
+
+                    resultado.classList.add('show');
+
+                    const fixo = mcBuscarFixo(m1.toLowerCase(), m2.toLowerCase());
+                    if (fixo) {
+                        const textos = { alto: '🔴 RISCO ALTO', moderado: '🟡 RISCO MODERADO', baixo: '🟢 RISCO BAIXO' };
+                        nivel.className = 'mc-nivel-ia ' + fixo.nivel;
+                        nivel.textContent = textos[fixo.nivel] + ' — ' + fixo.titulo;
+                        corpo.innerHTML = '<p><strong>⚠️ Efeito da interação:</strong><br>' + fixo.efeito + '</p><p><strong>✅ Conduta recomendada:</strong><br>' + fixo.conduta + '</p><p style="font-size:11px;color:#999;margin-top:8px;">Base de dados fixa — Conteúdo educacional revisado por farmacêutica responsável.</p>';
+                        return;
+                    }
+
+                    const cacheKey = [m1.toLowerCase(), m2.toLowerCase()].sort().join('|');
+                    if (mcCacheIA[cacheKey]) {
+                        const c = mcCacheIA[cacheKey];
+                        nivel.className = 'mc-nivel-ia ' + c.nivel;
+                        nivel.textContent = c.titulo;
+                        corpo.innerHTML = c.html + '<p style="font-size:11px;color:#999;margin-top:8px;">✦ Analisado por IA — <span style="background:#e8f0fe;padding:2px 8px;border-radius:10px;color:#667eea;font-weight:700;">CACHE</span> — Conteúdo educacional.</p>';
+                        return;
+                    }
+
+                    nivel.className = 'mc-nivel-ia neutro';
+                    nivel.textContent = '✦ Analisando com Inteligência Artificial...';
+                    corpo.innerHTML = '<div class="mc-spinner-wrap"><div class="mc-spinner"></div><div class="mc-spinner-txt">Consultando a IA sobre <strong>' + m1 + '</strong> + <strong>' + m2 + '</strong>...</div></div>';
+                    btn.disabled = true;
+
+                    try {
+                        const res = await fetch('https://api.anthropic.com/v1/messages', {
+                            method: 'POST',
+                            headers: { 'Content-Type': 'application/json' },
+                            body: JSON.stringify({
+                                model: 'claude-sonnet-4-20250514',
+                                max_tokens: 1000,
+                                system: 'Você é uma farmacêutica especialista em interações medicamentosas. Analise a combinação e responda APENAS em JSON válido, sem markdown, sem explicação extra.\n\nFormato obrigatório:\n{"nivel":"alto"|"moderado"|"baixo"|"nenhum","titulo":"texto curto","efeito":"descrição clara do efeito","conduta":"conduta recomendada com emoji ❌ ⚠️ ou ✅","mecanismo":"mecanismo em 1 frase"}\n\nSe não houver interação relevante conhecida, use nivel "nenhum". Nunca invente interações graves que não existem.',
+                                messages: [{ role: 'user', content: 'Analise a interação entre: ' + m1 + ' e ' + m2 }]
+                            })
+                        });
+                        const data = await res.json();
+                        const texto = (data.content && data.content[0] && data.content[0].text) ? data.content[0].text : '{}';
+                        let parsed;
+                        try { parsed = JSON.parse(texto); } catch(e) { parsed = { nivel: 'nenhum', titulo: 'Erro ao processar', efeito: texto, conduta: 'Consulte seu farmacêutico.', mecanismo: '' }; }
+
+                        const cores = { alto: 'alto', moderado: 'moderado', baixo: 'baixo', nenhum: 'baixo' };
+                        const icones = { alto: '🔴 RISCO ALTO', moderado: '🟡 RISCO MODERADO', baixo: '🟢 RISCO BAIXO', nenhum: '🟢 Sem interação relevante encontrada' };
+
+                        const html = '<p><strong>⚠️ Efeito da interação:</strong><br>' + (parsed.efeito || 'Não identificado.') + '</p>' + (parsed.mecanismo ? '<p><strong>🔬 Mecanismo:</strong><br>' + parsed.mecanismo + '</p>' : '') + '<p><strong>✅ Conduta recomendada:</strong><br>' + (parsed.conduta || 'Consulte seu médico ou farmacêutico.') + '</p>';
+
+                        const cor = cores[parsed.nivel] || 'baixo';
+                        const tituloFinal = (icones[parsed.nivel] || icones.nenhum) + (parsed.titulo ? ' — ' + parsed.titulo : '');
+                        nivel.className = 'mc-nivel-ia ' + cor;
+                        nivel.textContent = tituloFinal;
+                        corpo.innerHTML = html + '<p style="font-size:11px;color:#999;margin-top:8px;">✦ Analisado por Inteligência Artificial — Conteúdo educacional. Consulte sempre seu farmacêutico.</p>';
+                        mcCacheIA[cacheKey] = { nivel: cor, titulo: tituloFinal, html: html };
+                    } catch(e) {
+                        nivel.className = 'mc-nivel-ia neutro';
+                        nivel.textContent = 'Erro na análise';
+                        corpo.innerHTML = '<p>Não foi possível consultar a IA no momento. Verifique sua conexão e tente novamente.</p>';
+                    }
+                    btn.disabled = false;
+                }
+
+                function mcMudarTab(panelId, el) {
+                    document.querySelectorAll('.mc-tab').forEach(t => t.classList.remove('active'));
+                    document.querySelectorAll('.mc-panel').forEach(p => p.classList.remove('active'));
+                    el.classList.add('active');
+                    document.getElementById(panelId).classList.add('active');
+                }
+
+                function mcToggleCard(card) {
+                    const corpo = card.querySelector('.inter-card-corpo');
+                    const seta = card.querySelector('span');
+                    corpo.classList.toggle('aberto');
+                    seta.textContent = corpo.classList.contains('aberto') ? '▲' : '▼';
+                }
+
+                (function mcRenderLista() {
+                    const lista = document.getElementById('mc-lista-cards');
+                    if (!lista) return;
+                    mcInteracoesDB.forEach(inter => {
+                        const div = document.createElement('div');
+                        div.className = 'inter-card';
+                        div.onclick = function() { mcToggleCard(div); };
+                        const icone = inter.nivel === 'alto' ? '🔴' : inter.nivel === 'moderado' ? '🟡' : '🟢';
+                        div.innerHTML = '<div class="inter-card-titulo ' + inter.nivel + '">' + icone + ' ' + inter.titulo + ' <span>▼</span></div><div class="inter-card-corpo"><p><strong>⚠️ Efeito:</strong> ' + inter.efeito + '</p><p><strong>✅ Conduta:</strong> ' + inter.conduta + '</p></div>';
+                        lista.appendChild(div);
+                    });
+                })();
+                </script>
             </div>
 
             <!-- POLÍTICA DE PRIVACIDADE -->
