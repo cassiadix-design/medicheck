@@ -12,42 +12,57 @@
         .container { background: white; border-radius: 20px; max-width: 900px; margin: 0 auto; overflow: hidden; box-shadow: 0 20px 60px rgba(0,0,0,0.3); }
         .header { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 40px 30px; text-align: center; }
         .header h1 { font-size: 32px; margin-bottom: 10px; }
-        .header p { font-size: 16px; opacity: 0.9; }
-        .back-link { display: inline-block; margin-top: 16px; color: white; text-decoration: none; font-weight: 700; font-size: 14px; background: rgba(255,255,255,0.2); padding: 8px 18px; border-radius: 20px; }
+        .header p { font-size: 16px; opacity: 0.9; margin-bottom: 6px; }
+        .header-stats { font-size: 13px; opacity: 0.8; margin-bottom: 16px; }
+        .back-link { display: inline-block; color: white; text-decoration: none; font-weight: 700; font-size: 14px; background: rgba(255,255,255,0.2); padding: 8px 18px; border-radius: 20px; }
         .back-link:hover { background: rgba(255,255,255,0.35); }
         .search-wrap { padding: 20px 24px 10px; }
         .search-wrap input { width: 100%; padding: 14px; border: 2px solid #ddd; border-radius: 10px; font-size: 16px; font-family: inherit; }
-        .search-wrap input:focus { outline: none; border-color: #667eea; }
-        .stats { padding: 8px 24px 16px; font-size: 13px; color: #888; }
+        .search-wrap input:focus { outline: none; border-color: #667eea; box-shadow: 0 0 8px rgba(102,126,234,0.2); }
+        .filtros { padding: 8px 24px 14px; display: flex; gap: 8px; flex-wrap: wrap; }
+        .filtro-btn { padding: 6px 14px; border-radius: 20px; font-size: 12px; font-weight: 700; cursor: pointer; border: 2px solid #ddd; background: white; font-family: inherit; transition: 0.2s; }
+        .filtro-btn.ativo { border-color: #667eea; background: #667eea; color: white; }
+        .filtro-btn.vl { border-color: #27ae60; color: #27ae60; }
+        .filtro-btn.vl.ativo { background: #27ae60; color: white; }
+        .filtro-btn.cr { border-color: #c0392b; color: #c0392b; }
+        .filtro-btn.cr.ativo { background: #c0392b; color: white; }
+        .stats { padding: 4px 24px 14px; font-size: 13px; color: #888; }
         .med-list { padding: 0 24px 24px; }
-        .med-item { border: 1px solid #eee; border-radius: 10px; padding: 16px 20px; margin-bottom: 10px; display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; transition: 0.2s; }
-        .med-item:hover { border-color: #667eea; background: #f8f9ff; }
+        .med-item { border: 1px solid #eee; border-radius: 10px; padding: 16px 20px; margin-bottom: 8px; display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; transition: 0.2s; }
+        .med-item:hover { border-color: #667eea; background: #f8f9ff; transform: translateX(3px); }
         .med-info { flex: 1; }
         .med-nome { font-size: 15px; font-weight: 700; color: #333; margin-bottom: 3px; }
         .med-generico { font-size: 13px; color: #667eea; font-weight: 600; margin-bottom: 3px; }
         .med-tipo { font-size: 12px; color: #888; }
-        .med-receita { font-size: 12px; font-weight: 700; padding: 3px 10px; border-radius: 12px; white-space: nowrap; flex-shrink: 0; }
+        .med-receita { font-size: 12px; font-weight: 700; padding: 4px 12px; border-radius: 12px; white-space: nowrap; flex-shrink: 0; }
         .med-receita.sim { background: #fde8e8; color: #c0392b; }
         .med-receita.nao { background: #e8f8f0; color: #27ae60; }
-        .letra-grupo { font-size: 11px; font-weight: 700; color: #667eea; letter-spacing: 2px; text-transform: uppercase; padding: 12px 0 6px; border-bottom: 2px solid #667eea; margin-bottom: 10px; }
+        .letra-grupo { font-size: 11px; font-weight: 700; color: #667eea; letter-spacing: 2px; text-transform: uppercase; padding: 14px 0 6px; border-bottom: 2px solid #667eea; margin-bottom: 8px; }
         .hidden { display: none; }
-        .footer { text-align: center; padding: 20px; font-size: 12px; color: #aaa; border-top: 1px solid #eee; }
+        .sem-resultado { text-align: center; padding: 40px; color: #888; font-size: 15px; }
+        .footer { text-align: center; padding: 20px; font-size: 12px; color: #aaa; border-top: 1px solid #eee; line-height: 1.8; }
     </style>
 </head>
 <body>
 <div class="container">
     <div class="header">
         <h1>💊 Lista de Medicamentos</h1>
-        <p>299 medicamentos com informações completas</p>
+        <p>Consulte informações completas sobre cada medicamento</p>
+        <div class="header-stats">299 medicamentos cadastrados · Revisado por farmacêutica CRF-SP 33.109</div>
         <a class="back-link" href="/">← Voltar ao MediCheck</a>
     </div>
     <div class="search-wrap">
-        <input type="text" id="busca" placeholder="🔍 Buscar medicamento, princípio ativo ou nome comercial..." oninput="filtrar()">
+        <input type="text" id="busca" placeholder="🔍 Buscar por nome, princípio ativo ou nome comercial..." oninput="filtrar()">
+    </div>
+    <div class="filtros">
+        <button class="filtro-btn ativo" onclick="setFiltro('todos', this)">Todos (299)</button>
+        <button class="filtro-btn vl" onclick="setFiltro('nao', this)">🟢 Venda Livre (65)</button>
+        <button class="filtro-btn cr" onclick="setFiltro('sim', this)">🔴 Com Receita (234)</button>
     </div>
     <div class="stats" id="stats">Exibindo 299 medicamentos</div>
     <div class="med-list" id="lista">
         <div class="letra-grupo" data-letra="A">A</div>
-        <div class="med-item" data-busca="acetazolamida 250mg acetazolamida diamox acetazolamida sandoz">
+        <div class="med-item" data-receita="sim" data-busca="acetazolamida 250mg acetazolamida diamox acetazolamida sandoz">
             <div class="med-info">
                 <div class="med-nome">Acetazolamida 250mg</div>
                 <div class="med-generico">Acetazolamida</div>
@@ -55,7 +70,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="acetilcisteína 200mg - 600mg acetilcisteína fluimucil acetilcisteína ems nac secrelyt">
+        <div class="med-item" data-receita="nao" data-busca="acetilcisteína 200mg - 600mg acetilcisteína fluimucil acetilcisteína ems nac secrelyt">
             <div class="med-info">
                 <div class="med-nome">Acetilcisteína 200mg - 600mg</div>
                 <div class="med-generico">Acetilcisteína</div>
@@ -63,7 +78,7 @@
             </div>
             <span class="med-receita nao">Venda Livre</span>
         </div>
-        <div class="med-item" data-busca="aciclovir 200mg - 400mg - creme aciclovir ">
+        <div class="med-item" data-receita="nao" data-busca="aciclovir 200mg - 400mg - creme aciclovir ">
             <div class="med-info">
                 <div class="med-nome">Aciclovir 200mg - 400mg - Creme</div>
                 <div class="med-generico">Aciclovir</div>
@@ -71,7 +86,7 @@
             </div>
             <span class="med-receita nao">Venda Livre</span>
         </div>
-        <div class="med-item" data-busca="acitretina 10mg - 25mg acitretina neotigason soriatane">
+        <div class="med-item" data-receita="sim" data-busca="acitretina 10mg - 25mg acitretina neotigason soriatane">
             <div class="med-info">
                 <div class="med-nome">Acitretina 10mg - 25mg</div>
                 <div class="med-generico">Acitretina</div>
@@ -79,7 +94,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="adapaleno 0,1% - 0,3% gel adapaleno differin adapaleno ems epiduo (com peróxido) adacne">
+        <div class="med-item" data-receita="nao" data-busca="adapaleno 0,1% - 0,3% gel adapaleno differin adapaleno ems epiduo (com peróxido) adacne">
             <div class="med-info">
                 <div class="med-nome">Adapaleno 0,1% - 0,3% Gel</div>
                 <div class="med-generico">Adapaleno</div>
@@ -87,7 +102,7 @@
             </div>
             <span class="med-receita nao">Venda Livre</span>
         </div>
-        <div class="med-item" data-busca="agomelatina 25mg - 50mg agomelatina valdoxan agomelatina ems thymanax">
+        <div class="med-item" data-receita="sim" data-busca="agomelatina 25mg - 50mg agomelatina valdoxan agomelatina ems thymanax">
             <div class="med-info">
                 <div class="med-nome">Agomelatina 25mg - 50mg</div>
                 <div class="med-generico">Agomelatina</div>
@@ -95,7 +110,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="albendazol 400mg - suspensão e comprimido mastigável albendazol ">
+        <div class="med-item" data-receita="nao" data-busca="albendazol 400mg - suspensão e comprimido mastigável albendazol ">
             <div class="med-info">
                 <div class="med-nome">Albendazol 400mg - Suspensão e Comprimido Mastigável</div>
                 <div class="med-generico">Albendazol</div>
@@ -103,23 +118,23 @@
             </div>
             <span class="med-receita nao">Venda Livre</span>
         </div>
-        <div class="med-item" data-busca="alendronato 70mg alendronato ">
+        <div class="med-item" data-receita="sim" data-busca="alendronato 70mg alendronato ">
             <div class="med-info">
                 <div class="med-nome">Alendronato 70mg</div>
                 <div class="med-generico">Alendronato</div>
                 <div class="med-tipo">Antirreabsorção Óssea</div>
             </div>
-            <span class="med-receita nao">Venda Livre</span>
+            <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="alopurinol 100mg - 300mg alopurinol ">
+        <div class="med-item" data-receita="sim" data-busca="alopurinol 100mg - 300mg alopurinol ">
             <div class="med-info">
                 <div class="med-nome">Alopurinol 100mg - 300mg</div>
                 <div class="med-generico">Alopurinol</div>
                 <div class="med-tipo">Xantina Oxidase Inibidor</div>
             </div>
-            <span class="med-receita nao">Venda Livre</span>
+            <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="alprazolam 0,25mg - 0,5mg - 1,0mg - 2,0mg alprazolam ">
+        <div class="med-item" data-receita="sim" data-busca="alprazolam 0,25mg - 0,5mg - 1,0mg - 2,0mg alprazolam ">
             <div class="med-info">
                 <div class="med-nome">Alprazolam 0,25mg - 0,5mg - 1,0mg - 2,0mg</div>
                 <div class="med-generico">Alprazolam</div>
@@ -127,7 +142,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="amantadina 100mg cloridrato de amantadina mantidan amantadina ems symmetrel">
+        <div class="med-item" data-receita="sim" data-busca="amantadina 100mg cloridrato de amantadina mantidan amantadina ems symmetrel">
             <div class="med-info">
                 <div class="med-nome">Amantadina 100mg</div>
                 <div class="med-generico">Cloridrato de Amantadina</div>
@@ -135,7 +150,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="ambroxol 15mg/5ml - 30mg ambroxol mucosolvan bisolvon fluibron ambroxol ems">
+        <div class="med-item" data-receita="nao" data-busca="ambroxol 15mg/5ml - 30mg ambroxol mucosolvan bisolvon fluibron ambroxol ems">
             <div class="med-info">
                 <div class="med-nome">Ambroxol 15mg/5mL - 30mg</div>
                 <div class="med-generico">Ambroxol</div>
@@ -143,15 +158,15 @@
             </div>
             <span class="med-receita nao">Venda Livre</span>
         </div>
-        <div class="med-item" data-busca="amiodarona 100mg - 200mg amiodarona ">
+        <div class="med-item" data-receita="sim" data-busca="amiodarona 100mg - 200mg amiodarona ">
             <div class="med-info">
                 <div class="med-nome">Amiodarona 100mg - 200mg</div>
                 <div class="med-generico">Amiodarona</div>
                 <div class="med-tipo">Antiarrítmico</div>
             </div>
-            <span class="med-receita nao">Venda Livre</span>
+            <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="amitriptilina 25mg amitriptilina ">
+        <div class="med-item" data-receita="sim" data-busca="amitriptilina 25mg amitriptilina ">
             <div class="med-info">
                 <div class="med-nome">Amitriptilina 25mg</div>
                 <div class="med-generico">Amitriptilina</div>
@@ -159,7 +174,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="amoxicilina + clavulanato 500mg/125mg - 875mg/125mg amoxicilina + clavulanato de potássio clavulin augmentin amoxicilina+clavulanato ems amoxil bd">
+        <div class="med-item" data-receita="sim" data-busca="amoxicilina + clavulanato 500mg/125mg - 875mg/125mg amoxicilina + clavulanato de potássio clavulin augmentin amoxicilina+clavulanato ems amoxil bd">
             <div class="med-info">
                 <div class="med-nome">Amoxicilina + Clavulanato 500mg/125mg - 875mg/125mg</div>
                 <div class="med-generico">Amoxicilina + Clavulanato de Potássio</div>
@@ -167,7 +182,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="amoxicilina 500mg - 875mg amoxicilina ">
+        <div class="med-item" data-receita="sim" data-busca="amoxicilina 500mg - 875mg amoxicilina ">
             <div class="med-info">
                 <div class="med-nome">Amoxicilina 500mg - 875mg</div>
                 <div class="med-generico">Amoxicilina</div>
@@ -175,7 +190,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="anfotericina b anfotericina b ">
+        <div class="med-item" data-receita="sim" data-busca="anfotericina b anfotericina b ">
             <div class="med-info">
                 <div class="med-nome">Anfotericina B</div>
                 <div class="med-generico">Anfotericina B</div>
@@ -183,7 +198,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="anlodipino + atorvastatina 5mg/10mg - 10mg/20mg anlodipino + atorvastatina caduet anlot anlodipino+atorvastatina genérico">
+        <div class="med-item" data-receita="sim" data-busca="anlodipino + atorvastatina 5mg/10mg - 10mg/20mg anlodipino + atorvastatina caduet anlot anlodipino+atorvastatina genérico">
             <div class="med-info">
                 <div class="med-nome">Anlodipino + Atorvastatina 5mg/10mg - 10mg/20mg</div>
                 <div class="med-generico">Anlodipino + Atorvastatina</div>
@@ -191,15 +206,15 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="anlodipino 5mg - 10mg anlodipino ">
+        <div class="med-item" data-receita="sim" data-busca="anlodipino 5mg - 10mg anlodipino ">
             <div class="med-info">
                 <div class="med-nome">Anlodipino 5mg - 10mg</div>
                 <div class="med-generico">Anlodipino</div>
                 <div class="med-tipo">Bloqueador de Cálcio</div>
             </div>
-            <span class="med-receita nao">Venda Livre</span>
+            <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="anticoncepcional combinado (yasmin / diane 35 / selene) etinilestradiol + progestogênio yasmin diane 35 selene yaz elani microvlar ciclo 21 gynera">
+        <div class="med-item" data-receita="sim" data-busca="anticoncepcional combinado (yasmin / diane 35 / selene) etinilestradiol + progestogênio yasmin diane 35 selene yaz elani microvlar ciclo 21 gynera">
             <div class="med-info">
                 <div class="med-nome">Anticoncepcional Combinado (Yasmin / Diane 35 / Selene)</div>
                 <div class="med-generico">Etinilestradiol + Progestogênio</div>
@@ -207,7 +222,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="aripiprazol 10mg aripiprazol ">
+        <div class="med-item" data-receita="sim" data-busca="aripiprazol 10mg aripiprazol ">
             <div class="med-info">
                 <div class="med-nome">Aripiprazol 10mg</div>
                 <div class="med-generico">Aripiprazol</div>
@@ -215,7 +230,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="aspirina 100mg - ácido acetilsalicílico 100mg ácido acetilsalicílico ">
+        <div class="med-item" data-receita="nao" data-busca="aspirina 100mg - ácido acetilsalicílico 100mg ácido acetilsalicílico ">
             <div class="med-info">
                 <div class="med-nome">Aspirina 100mg - Ácido Acetilsalicílico 100mg</div>
                 <div class="med-generico">Ácido Acetilsalicílico</div>
@@ -223,7 +238,7 @@
             </div>
             <span class="med-receita nao">Venda Livre</span>
         </div>
-        <div class="med-item" data-busca="aspirina 500mg - ácido acetilsalicílico 500mg ácido acetilsalicílico ">
+        <div class="med-item" data-receita="nao" data-busca="aspirina 500mg - ácido acetilsalicílico 500mg ácido acetilsalicílico ">
             <div class="med-info">
                 <div class="med-nome">Aspirina 500mg - Ácido Acetilsalicílico 500mg</div>
                 <div class="med-generico">Ácido Acetilsalicílico</div>
@@ -231,7 +246,7 @@
             </div>
             <span class="med-receita nao">Venda Livre</span>
         </div>
-        <div class="med-item" data-busca="atenolol 25mg - 50mg - 100mg atenolol ">
+        <div class="med-item" data-receita="nao" data-busca="atenolol 25mg - 50mg - 100mg atenolol ">
             <div class="med-info">
                 <div class="med-nome">Atenolol 25mg - 50mg - 100mg</div>
                 <div class="med-generico">Atenolol</div>
@@ -239,7 +254,7 @@
             </div>
             <span class="med-receita nao">Venda Livre</span>
         </div>
-        <div class="med-item" data-busca="atomoxetina 10mg - 18mg - 25mg - 40mg - 60mg - 80mg cloridrato de atomoxetina strattera atomoxetina ems attentin">
+        <div class="med-item" data-receita="sim" data-busca="atomoxetina 10mg - 18mg - 25mg - 40mg - 60mg - 80mg cloridrato de atomoxetina strattera atomoxetina ems attentin">
             <div class="med-info">
                 <div class="med-nome">Atomoxetina 10mg - 18mg - 25mg - 40mg - 60mg - 80mg</div>
                 <div class="med-generico">Cloridrato de Atomoxetina</div>
@@ -247,7 +262,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="atorvastatina + ezetimiba (atozet / liptruzet) atorvastatina + ezetimiba atozet liptruzet">
+        <div class="med-item" data-receita="sim" data-busca="atorvastatina + ezetimiba (atozet / liptruzet) atorvastatina + ezetimiba atozet liptruzet">
             <div class="med-info">
                 <div class="med-nome">Atorvastatina + Ezetimiba (Atozet / Liptruzet)</div>
                 <div class="med-generico">Atorvastatina + Ezetimiba</div>
@@ -255,7 +270,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="atorvastatina 10mg - 20mg - 40mg atorvastatina ">
+        <div class="med-item" data-receita="nao" data-busca="atorvastatina 10mg - 20mg - 40mg atorvastatina ">
             <div class="med-info">
                 <div class="med-nome">Atorvastatina 10mg - 20mg - 40mg</div>
                 <div class="med-generico">Atorvastatina</div>
@@ -263,15 +278,15 @@
             </div>
             <span class="med-receita nao">Venda Livre</span>
         </div>
-        <div class="med-item" data-busca="azatioprina 50mg azatioprina ">
+        <div class="med-item" data-receita="sim" data-busca="azatioprina 50mg azatioprina ">
             <div class="med-info">
                 <div class="med-nome">Azatioprina 50mg</div>
                 <div class="med-generico">Azatioprina</div>
                 <div class="med-tipo">Imunossupressor e Anti-inflamatório</div>
             </div>
-            <span class="med-receita nao">Venda Livre</span>
+            <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="azitromicina 500mg - 1,0g | suspensão 600mg - 900mg - 1500mg azitromicina ">
+        <div class="med-item" data-receita="sim" data-busca="azitromicina 500mg - 1,0g | suspensão 600mg - 900mg - 1500mg azitromicina ">
             <div class="med-info">
                 <div class="med-nome">Azitromicina 500mg - 1,0g | Suspensão 600mg - 900mg - 1500mg</div>
                 <div class="med-generico">Azitromicina</div>
@@ -280,23 +295,23 @@
             <span class="med-receita sim">Com Receita</span>
         </div>
         <div class="letra-grupo" data-letra="B">B</div>
-        <div class="med-item" data-busca="baclofen 10mg baclofen ">
+        <div class="med-item" data-receita="sim" data-busca="baclofen 10mg baclofen ">
             <div class="med-info">
                 <div class="med-nome">Baclofen 10mg</div>
                 <div class="med-generico">Baclofen</div>
                 <div class="med-tipo">Relaxante Muscular</div>
             </div>
-            <span class="med-receita nao">Venda Livre</span>
+            <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="beclometasona spray nasal beclometasona ">
+        <div class="med-item" data-receita="sim" data-busca="beclometasona spray nasal beclometasona ">
             <div class="med-info">
                 <div class="med-nome">Beclometasona Spray Nasal</div>
                 <div class="med-generico">Beclometasona</div>
                 <div class="med-tipo">Corticoesteroide</div>
             </div>
-            <span class="med-receita nao">Venda Livre</span>
+            <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="benzilpenicilina (benzetacil) 600.000ui - 1.200.000ui benzilpenicilina g benzatina ">
+        <div class="med-item" data-receita="sim" data-busca="benzilpenicilina (benzetacil) 600.000ui - 1.200.000ui benzilpenicilina g benzatina ">
             <div class="med-info">
                 <div class="med-nome">Benzilpenicilina (Benzetacil) 600.000UI - 1.200.000UI</div>
                 <div class="med-generico">Benzilpenicilina G Benzatina</div>
@@ -304,7 +319,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="benzoíla peroxida benzoíla peroxida ">
+        <div class="med-item" data-receita="nao" data-busca="benzoíla peroxida benzoíla peroxida ">
             <div class="med-info">
                 <div class="med-nome">Benzoíla Peroxida</div>
                 <div class="med-generico">Benzoíla Peroxida</div>
@@ -312,23 +327,23 @@
             </div>
             <span class="med-receita nao">Venda Livre</span>
         </div>
-        <div class="med-item" data-busca="betaistina 8mg - 16mg - 24mg betaistina ">
+        <div class="med-item" data-receita="sim" data-busca="betaistina 8mg - 16mg - 24mg betaistina ">
             <div class="med-info">
                 <div class="med-nome">Betaistina 8mg - 16mg - 24mg</div>
                 <div class="med-generico">Betaistina</div>
                 <div class="med-tipo">Vasorregulador</div>
             </div>
-            <span class="med-receita nao">Venda Livre</span>
+            <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="betametasona tópica betametasona ">
+        <div class="med-item" data-receita="sim" data-busca="betametasona tópica betametasona ">
             <div class="med-info">
                 <div class="med-nome">Betametasona Tópica</div>
                 <div class="med-generico">Betametasona</div>
                 <div class="med-tipo">Corticoide</div>
             </div>
-            <span class="med-receita nao">Venda Livre</span>
+            <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="biperideno 2mg biperideno ">
+        <div class="med-item" data-receita="sim" data-busca="biperideno 2mg biperideno ">
             <div class="med-info">
                 <div class="med-nome">Biperideno 2mg</div>
                 <div class="med-generico">Biperideno</div>
@@ -336,7 +351,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="bisacodil 5mg bisacodil ">
+        <div class="med-item" data-receita="nao" data-busca="bisacodil 5mg bisacodil ">
             <div class="med-info">
                 <div class="med-nome">Bisacodil 5mg</div>
                 <div class="med-generico">Bisacodil</div>
@@ -344,7 +359,7 @@
             </div>
             <span class="med-receita nao">Venda Livre</span>
         </div>
-        <div class="med-item" data-busca="bisoprolol 2,5mg - 5mg - 10mg bisoprolol concor bisoprolol ems bicor emcor">
+        <div class="med-item" data-receita="sim" data-busca="bisoprolol 2,5mg - 5mg - 10mg bisoprolol concor bisoprolol ems bicor emcor">
             <div class="med-info">
                 <div class="med-nome">Bisoprolol 2,5mg - 5mg - 10mg</div>
                 <div class="med-generico">Bisoprolol</div>
@@ -352,7 +367,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="bromazepam 3mg e 6mg bromazepam ">
+        <div class="med-item" data-receita="sim" data-busca="bromazepam 3mg e 6mg bromazepam ">
             <div class="med-info">
                 <div class="med-nome">Bromazepam 3mg e 6mg</div>
                 <div class="med-generico">Bromazepam</div>
@@ -360,7 +375,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="brometo de escopolamina (hioscina) 10mg escopolamina ">
+        <div class="med-item" data-receita="nao" data-busca="brometo de escopolamina (hioscina) 10mg escopolamina ">
             <div class="med-info">
                 <div class="med-nome">Brometo de Escopolamina (Hioscina) 10mg</div>
                 <div class="med-generico">Escopolamina</div>
@@ -368,23 +383,23 @@
             </div>
             <span class="med-receita nao">Venda Livre</span>
         </div>
-        <div class="med-item" data-busca="brometo de ipratrópio ipratrópio ">
+        <div class="med-item" data-receita="sim" data-busca="brometo de ipratrópio ipratrópio ">
             <div class="med-info">
                 <div class="med-nome">Brometo de Ipratrópio</div>
                 <div class="med-generico">Ipratrópio</div>
                 <div class="med-tipo">Broncodilatador</div>
             </div>
-            <span class="med-receita nao">Venda Livre</span>
+            <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="bromocriptina 2,5mg bromocriptina ">
+        <div class="med-item" data-receita="sim" data-busca="bromocriptina 2,5mg bromocriptina ">
             <div class="med-info">
                 <div class="med-nome">Bromocriptina 2,5mg</div>
                 <div class="med-generico">Bromocriptina</div>
                 <div class="med-tipo">Agonista de Dopamina</div>
             </div>
-            <span class="med-receita nao">Venda Livre</span>
+            <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="bromocriptina 2,5mg mesilato de bromocriptina parlodel bromocriptina ems cycloset">
+        <div class="med-item" data-receita="sim" data-busca="bromocriptina 2,5mg mesilato de bromocriptina parlodel bromocriptina ems cycloset">
             <div class="med-info">
                 <div class="med-nome">Bromocriptina 2,5mg</div>
                 <div class="med-generico">Mesilato de Bromocriptina</div>
@@ -392,7 +407,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="budesonida 32mcg/dose - 64mcg/dose spray nasal budesonida rhinocort miflonide budesonida ems pulmicort (inalatório)">
+        <div class="med-item" data-receita="nao" data-busca="budesonida 32mcg/dose - 64mcg/dose spray nasal budesonida rhinocort miflonide budesonida ems pulmicort (inalatório)">
             <div class="med-info">
                 <div class="med-nome">Budesonida 32mcg/dose - 64mcg/dose Spray Nasal</div>
                 <div class="med-generico">Budesonida</div>
@@ -400,7 +415,7 @@
             </div>
             <span class="med-receita nao">Venda Livre</span>
         </div>
-        <div class="med-item" data-busca="buprenorfina 5mg, 10mg, 20mg, 30mg e 40mg buprenorfina ">
+        <div class="med-item" data-receita="sim" data-busca="buprenorfina 5mg, 10mg, 20mg, 30mg e 40mg buprenorfina ">
             <div class="med-info">
                 <div class="med-nome">Buprenorfina 5mg, 10mg, 20mg, 30mg e 40mg</div>
                 <div class="med-generico">Buprenorfina</div>
@@ -408,7 +423,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="buprenorfina adesivo transdérmico (norspan) buprenorfina norspan buprenorfina adesivo transtec">
+        <div class="med-item" data-receita="sim" data-busca="buprenorfina adesivo transdérmico (norspan) buprenorfina norspan buprenorfina adesivo transtec">
             <div class="med-info">
                 <div class="med-nome">Buprenorfina Adesivo Transdérmico (Norspan)</div>
                 <div class="med-generico">Buprenorfina</div>
@@ -416,7 +431,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="bupropiona 150mg - 300mg bupropiona ">
+        <div class="med-item" data-receita="sim" data-busca="bupropiona 150mg - 300mg bupropiona ">
             <div class="med-info">
                 <div class="med-nome">Bupropiona 150mg - 300mg</div>
                 <div class="med-generico">Bupropiona</div>
@@ -424,7 +439,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="buspirona 5mg - 10mg cloridrato de buspirona buspirona ems buspar ansitec">
+        <div class="med-item" data-receita="sim" data-busca="buspirona 5mg - 10mg cloridrato de buspirona buspirona ems buspar ansitec">
             <div class="med-info">
                 <div class="med-nome">Buspirona 5mg - 10mg</div>
                 <div class="med-generico">Cloridrato de Buspirona</div>
@@ -433,7 +448,7 @@
             <span class="med-receita sim">Com Receita</span>
         </div>
         <div class="letra-grupo" data-letra="C">C</div>
-        <div class="med-item" data-busca="cabergolina 0,5mg cabergolina dostinex cabergolina ems">
+        <div class="med-item" data-receita="sim" data-busca="cabergolina 0,5mg cabergolina dostinex cabergolina ems">
             <div class="med-info">
                 <div class="med-nome">Cabergolina 0,5mg</div>
                 <div class="med-generico">Cabergolina</div>
@@ -441,7 +456,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="cafeína cafeína ">
+        <div class="med-item" data-receita="nao" data-busca="cafeína cafeína ">
             <div class="med-info">
                 <div class="med-nome">Cafeína</div>
                 <div class="med-generico">Cafeína</div>
@@ -449,15 +464,15 @@
             </div>
             <span class="med-receita nao">Venda Livre</span>
         </div>
-        <div class="med-item" data-busca="calcitriol 0,25mcg calcitriol ">
+        <div class="med-item" data-receita="sim" data-busca="calcitriol 0,25mcg calcitriol ">
             <div class="med-info">
                 <div class="med-nome">Calcitriol 0,25mcg</div>
                 <div class="med-generico">Calcitriol</div>
                 <div class="med-tipo">Vitamina D Ativa</div>
             </div>
-            <span class="med-receita nao">Venda Livre</span>
+            <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="canagliflozina 100mg - 300mg (invokana) canagliflozina invokana vokanamet (com metformina)">
+        <div class="med-item" data-receita="sim" data-busca="canagliflozina 100mg - 300mg (invokana) canagliflozina invokana vokanamet (com metformina)">
             <div class="med-info">
                 <div class="med-nome">Canagliflozina 100mg - 300mg (Invokana)</div>
                 <div class="med-generico">Canagliflozina</div>
@@ -465,15 +480,15 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="candesartana 8mg - 16mg - 32mg candesartana ">
+        <div class="med-item" data-receita="sim" data-busca="candesartana 8mg - 16mg - 32mg candesartana ">
             <div class="med-info">
                 <div class="med-nome">Candesartana 8mg - 16mg - 32mg</div>
                 <div class="med-generico">Candesartana</div>
                 <div class="med-tipo">ARA2</div>
             </div>
-            <span class="med-receita nao">Venda Livre</span>
+            <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="cannabis medicinal (cbd / thc) canabidiol / tetrahidrocanabinol epidiolex mevatyl cbd óleo de cannabis canabidiol">
+        <div class="med-item" data-receita="sim" data-busca="cannabis medicinal (cbd / thc) canabidiol / tetrahidrocanabinol epidiolex mevatyl cbd óleo de cannabis canabidiol">
             <div class="med-info">
                 <div class="med-nome">Cannabis Medicinal (CBD / THC)</div>
                 <div class="med-generico">Canabidiol / Tetrahidrocanabinol</div>
@@ -481,15 +496,15 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="captopril 12,5mg - 25mg - 50mg captopril ">
+        <div class="med-item" data-receita="sim" data-busca="captopril 12,5mg - 25mg - 50mg captopril ">
             <div class="med-info">
                 <div class="med-nome">Captopril 12,5mg - 25mg - 50mg</div>
                 <div class="med-generico">Captopril</div>
                 <div class="med-tipo">IECA</div>
             </div>
-            <span class="med-receita nao">Venda Livre</span>
+            <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="carbamazepina 200mg - 400mg - suspensão carbamazepina ">
+        <div class="med-item" data-receita="sim" data-busca="carbamazepina 200mg - 400mg - suspensão carbamazepina ">
             <div class="med-info">
                 <div class="med-nome">Carbamazepina 200mg - 400mg - Suspensão</div>
                 <div class="med-generico">Carbamazepina</div>
@@ -497,15 +512,15 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="carbidopa/levodopa 25/100mg - 25/250mg - 50/200mg carbidopa + levodopa ">
+        <div class="med-item" data-receita="sim" data-busca="carbidopa/levodopa 25/100mg - 25/250mg - 50/200mg carbidopa + levodopa ">
             <div class="med-info">
                 <div class="med-nome">Carbidopa/Levodopa 25/100mg - 25/250mg - 50/200mg</div>
                 <div class="med-generico">Carbidopa + Levodopa</div>
                 <div class="med-tipo">Antiparkinsoniano</div>
             </div>
-            <span class="med-receita nao">Venda Livre</span>
+            <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="carisoprodol 325mg - 350mg carisoprodol mioflex carisoma carisoprodol ems soma">
+        <div class="med-item" data-receita="sim" data-busca="carisoprodol 325mg - 350mg carisoprodol mioflex carisoma carisoprodol ems soma">
             <div class="med-info">
                 <div class="med-nome">Carisoprodol 325mg - 350mg</div>
                 <div class="med-generico">Carisoprodol</div>
@@ -513,7 +528,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="carnitina 500mg levo-carnitina ">
+        <div class="med-item" data-receita="nao" data-busca="carnitina 500mg levo-carnitina ">
             <div class="med-info">
                 <div class="med-nome">Carnitina 500mg</div>
                 <div class="med-generico">Levo-carnitina</div>
@@ -521,15 +536,15 @@
             </div>
             <span class="med-receita nao">Venda Livre</span>
         </div>
-        <div class="med-item" data-busca="carvedilol 3,125mg - 6,25mg - 12,5mg - 25mg carvedilol ">
+        <div class="med-item" data-receita="sim" data-busca="carvedilol 3,125mg - 6,25mg - 12,5mg - 25mg carvedilol ">
             <div class="med-info">
                 <div class="med-nome">Carvedilol 3,125mg - 6,25mg - 12,5mg - 25mg</div>
                 <div class="med-generico">Carvedilol</div>
                 <div class="med-tipo">Betabloqueador</div>
             </div>
-            <span class="med-receita nao">Venda Livre</span>
+            <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="cefalexina 500mg - 1,0g - suspensão cefalexina ">
+        <div class="med-item" data-receita="sim" data-busca="cefalexina 500mg - 1,0g - suspensão cefalexina ">
             <div class="med-info">
                 <div class="med-nome">Cefalexina 500mg - 1,0g - Suspensão</div>
                 <div class="med-generico">Cefalexina</div>
@@ -537,7 +552,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="ceftriaxona 250mg - 500mg - 1,0g injetável ceftriaxona ">
+        <div class="med-item" data-receita="sim" data-busca="ceftriaxona 250mg - 500mg - 1,0g injetável ceftriaxona ">
             <div class="med-info">
                 <div class="med-nome">Ceftriaxona 250mg - 500mg - 1,0g Injetável</div>
                 <div class="med-generico">Ceftriaxona</div>
@@ -545,7 +560,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="celecoxibe 100mg - 200mg celecoxibe ">
+        <div class="med-item" data-receita="sim" data-busca="celecoxibe 100mg - 200mg celecoxibe ">
             <div class="med-info">
                 <div class="med-nome">Celecoxibe 100mg - 200mg</div>
                 <div class="med-generico">Celecoxibe</div>
@@ -553,7 +568,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="cetirizina 10mg e xarope cetirizina ">
+        <div class="med-item" data-receita="nao" data-busca="cetirizina 10mg e xarope cetirizina ">
             <div class="med-info">
                 <div class="med-nome">Cetirizina 10mg e Xarope</div>
                 <div class="med-generico">Cetirizina</div>
@@ -561,7 +576,7 @@
             </div>
             <span class="med-receita nao">Venda Livre</span>
         </div>
-        <div class="med-item" data-busca="cetoconazol shampoo, 200mg e creme cetoconazol ">
+        <div class="med-item" data-receita="nao" data-busca="cetoconazol shampoo, 200mg e creme cetoconazol ">
             <div class="med-info">
                 <div class="med-nome">Cetoconazol Shampoo, 200mg e Creme</div>
                 <div class="med-generico">Cetoconazol</div>
@@ -569,7 +584,7 @@
             </div>
             <span class="med-receita nao">Venda Livre</span>
         </div>
-        <div class="med-item" data-busca="cetoprofeno 50mg - 100mg - 2,5% gel cetoprofeno profenid orudis cetoprofeno ems bi-profenid fastum gel">
+        <div class="med-item" data-receita="sim" data-busca="cetoprofeno 50mg - 100mg - 2,5% gel cetoprofeno profenid orudis cetoprofeno ems bi-profenid fastum gel">
             <div class="med-info">
                 <div class="med-nome">Cetoprofeno 50mg - 100mg - 2,5% Gel</div>
                 <div class="med-generico">Cetoprofeno</div>
@@ -577,7 +592,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="ciclobenzaprina 5mg - 10mg cloridrato de ciclobenzaprina miosan flexeril ciclobenzaprina ems yurelax">
+        <div class="med-item" data-receita="sim" data-busca="ciclobenzaprina 5mg - 10mg cloridrato de ciclobenzaprina miosan flexeril ciclobenzaprina ems yurelax">
             <div class="med-info">
                 <div class="med-nome">Ciclobenzaprina 5mg - 10mg</div>
                 <div class="med-generico">Cloridrato de Ciclobenzaprina</div>
@@ -585,7 +600,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="ciprofloxacino 250mg - 500mg - 750mg - injetável e colírio oftálmico ciprofloxacino ">
+        <div class="med-item" data-receita="sim" data-busca="ciprofloxacino 250mg - 500mg - 750mg - injetável e colírio oftálmico ciprofloxacino ">
             <div class="med-info">
                 <div class="med-nome">Ciprofloxacino 250mg - 500mg - 750mg - Injetável e Colírio Oftálmico</div>
                 <div class="med-generico">Ciprofloxacino</div>
@@ -593,7 +608,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="citalopram 20mg citalopram ">
+        <div class="med-item" data-receita="sim" data-busca="citalopram 20mg citalopram ">
             <div class="med-info">
                 <div class="med-nome">Citalopram 20mg</div>
                 <div class="med-generico">Citalopram</div>
@@ -601,7 +616,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="claritromicina 250mg - 500mg claritromicina klaricid claritromicina ems biaxin clamicil">
+        <div class="med-item" data-receita="sim" data-busca="claritromicina 250mg - 500mg claritromicina klaricid claritromicina ems biaxin clamicil">
             <div class="med-info">
                 <div class="med-nome">Claritromicina 250mg - 500mg</div>
                 <div class="med-generico">Claritromicina</div>
@@ -609,7 +624,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="clindamicina 150mg - 300mg - injetável clindamicina ">
+        <div class="med-item" data-receita="sim" data-busca="clindamicina 150mg - 300mg - injetável clindamicina ">
             <div class="med-info">
                 <div class="med-nome">Clindamicina 150mg - 300mg - Injetável</div>
                 <div class="med-generico">Clindamicina</div>
@@ -617,7 +632,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="clomifeno 50mg citrato de clomifeno serofene indux clomifeno ems clomid">
+        <div class="med-item" data-receita="sim" data-busca="clomifeno 50mg citrato de clomifeno serofene indux clomifeno ems clomid">
             <div class="med-info">
                 <div class="med-nome">Clomifeno 50mg</div>
                 <div class="med-generico">Citrato de Clomifeno</div>
@@ -625,7 +640,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="clonazepam - solução oral 2,5mg/ml, 0,5mg e 2mg, 0,25mg clonazepam ">
+        <div class="med-item" data-receita="sim" data-busca="clonazepam - solução oral 2,5mg/ml, 0,5mg e 2mg, 0,25mg clonazepam ">
             <div class="med-info">
                 <div class="med-nome">Clonazepam - Solução oral 2,5mg/mL, 0,5mg e 2mg, 0,25mg</div>
                 <div class="med-generico">Clonazepam</div>
@@ -633,7 +648,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="clopidogrel 75mg clopidogrel ">
+        <div class="med-item" data-receita="sim" data-busca="clopidogrel 75mg clopidogrel ">
             <div class="med-info">
                 <div class="med-nome">Clopidogrel 75mg</div>
                 <div class="med-generico">Clopidogrel</div>
@@ -641,7 +656,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="cloreto de sódio 0,9% nasal - solução fisiológica (neosoro) cloreto de sódio ">
+        <div class="med-item" data-receita="nao" data-busca="cloreto de sódio 0,9% nasal - solução fisiológica (neosoro) cloreto de sódio ">
             <div class="med-info">
                 <div class="med-nome">Cloreto de Sódio 0,9% Nasal - Solução Fisiológica (Neosoro)</div>
                 <div class="med-generico">Cloreto de Sódio</div>
@@ -649,7 +664,7 @@
             </div>
             <span class="med-receita nao">Venda Livre</span>
         </div>
-        <div class="med-item" data-busca="clorexidina 0.12% clorexidina ">
+        <div class="med-item" data-receita="nao" data-busca="clorexidina 0.12% clorexidina ">
             <div class="med-info">
                 <div class="med-nome">Clorexidina 0.12%</div>
                 <div class="med-generico">Clorexidina</div>
@@ -657,7 +672,7 @@
             </div>
             <span class="med-receita nao">Venda Livre</span>
         </div>
-        <div class="med-item" data-busca="cloroquina 250mg cloroquina ">
+        <div class="med-item" data-receita="sim" data-busca="cloroquina 250mg cloroquina ">
             <div class="med-info">
                 <div class="med-nome">Cloroquina 250mg</div>
                 <div class="med-generico">Cloroquina</div>
@@ -665,7 +680,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="clozapina 25mg - 100mg clozapina ">
+        <div class="med-item" data-receita="sim" data-busca="clozapina 25mg - 100mg clozapina ">
             <div class="med-info">
                 <div class="med-nome">Clozapina 25mg - 100mg</div>
                 <div class="med-generico">Clozapina</div>
@@ -673,7 +688,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="codeína 30mg - 60mg fosfato de codeína codeína ems tylenol com codeína codein fentuss (antitussígeno)">
+        <div class="med-item" data-receita="sim" data-busca="codeína 30mg - 60mg fosfato de codeína codeína ems tylenol com codeína codein fentuss (antitussígeno)">
             <div class="med-info">
                 <div class="med-nome">Codeína 30mg - 60mg</div>
                 <div class="med-generico">Fosfato de Codeína</div>
@@ -681,7 +696,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="codeína 30mg - 60mg, xarope e injetável codeína ">
+        <div class="med-item" data-receita="sim" data-busca="codeína 30mg - 60mg, xarope e injetável codeína ">
             <div class="med-info">
                 <div class="med-nome">Codeína 30mg - 60mg, Xarope e Injetável</div>
                 <div class="med-generico">Codeína</div>
@@ -689,7 +704,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="coenzima q10 100mg ubiquinona ">
+        <div class="med-item" data-receita="nao" data-busca="coenzima q10 100mg ubiquinona ">
             <div class="med-info">
                 <div class="med-nome">Coenzima Q10 100mg</div>
                 <div class="med-generico">Ubiquinona</div>
@@ -697,7 +712,7 @@
             </div>
             <span class="med-receita nao">Venda Livre</span>
         </div>
-        <div class="med-item" data-busca="colchicina 0,5mg - 1mg colchicina colchis colcin">
+        <div class="med-item" data-receita="sim" data-busca="colchicina 0,5mg - 1mg colchicina colchis colcin">
             <div class="med-info">
                 <div class="med-nome">Colchicina 0,5mg - 1mg</div>
                 <div class="med-generico">Colchicina</div>
@@ -705,7 +720,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="colesevelam 625mg colesevelam ">
+        <div class="med-item" data-receita="sim" data-busca="colesevelam 625mg colesevelam ">
             <div class="med-info">
                 <div class="med-nome">Colesevelam 625mg</div>
                 <div class="med-generico">Colesevelam</div>
@@ -713,7 +728,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="colestipol 1,0g colestipol ">
+        <div class="med-item" data-receita="sim" data-busca="colestipol 1,0g colestipol ">
             <div class="med-info">
                 <div class="med-nome">Colestipol 1,0g</div>
                 <div class="med-generico">Colestipol</div>
@@ -721,7 +736,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="colestiramina 4g sachê colestiramina questran colestiramina ems prevalite">
+        <div class="med-item" data-receita="sim" data-busca="colestiramina 4g sachê colestiramina questran colestiramina ems prevalite">
             <div class="med-info">
                 <div class="med-nome">Colestiramina 4g sachê</div>
                 <div class="med-generico">Colestiramina</div>
@@ -729,7 +744,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="complexo b (b1+b2+b3+b5+b6+b7+b9+b12) complexo de vitaminas do complexo b complexo b ems neurobion anemifer heptavit">
+        <div class="med-item" data-receita="nao" data-busca="complexo b (b1+b2+b3+b5+b6+b7+b9+b12) complexo de vitaminas do complexo b complexo b ems neurobion anemifer heptavit">
             <div class="med-info">
                 <div class="med-nome">Complexo B (B1+B2+B3+B5+B6+B7+B9+B12)</div>
                 <div class="med-generico">Complexo de Vitaminas do Complexo B</div>
@@ -737,7 +752,7 @@
             </div>
             <span class="med-receita nao">Venda Livre</span>
         </div>
-        <div class="med-item" data-busca="cálcio + vitamina d cálcio/vitamina d ">
+        <div class="med-item" data-receita="nao" data-busca="cálcio + vitamina d cálcio/vitamina d ">
             <div class="med-info">
                 <div class="med-nome">Cálcio + Vitamina D</div>
                 <div class="med-generico">Cálcio/Vitamina D</div>
@@ -746,7 +761,7 @@
             <span class="med-receita nao">Venda Livre</span>
         </div>
         <div class="letra-grupo" data-letra="D">D</div>
-        <div class="med-item" data-busca="dapagliflozina + metformina (xigduo) dapagliflozina + metformina xigduo xigduo xr">
+        <div class="med-item" data-receita="sim" data-busca="dapagliflozina + metformina (xigduo) dapagliflozina + metformina xigduo xigduo xr">
             <div class="med-info">
                 <div class="med-nome">Dapagliflozina + Metformina (Xigduo)</div>
                 <div class="med-generico">Dapagliflozina + Metformina</div>
@@ -754,7 +769,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="dapagliflozina 10mg (forxiga) dapagliflozina ">
+        <div class="med-item" data-receita="sim" data-busca="dapagliflozina 10mg (forxiga) dapagliflozina ">
             <div class="med-info">
                 <div class="med-nome">Dapagliflozina 10mg (Forxiga)</div>
                 <div class="med-generico">Dapagliflozina</div>
@@ -762,7 +777,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="denosumabe 60mg - 120mg injetável denosumabe prolia (60mg) xgeva (120mg) denosumabe ems">
+        <div class="med-item" data-receita="sim" data-busca="denosumabe 60mg - 120mg injetável denosumabe prolia (60mg) xgeva (120mg) denosumabe ems">
             <div class="med-info">
                 <div class="med-nome">Denosumabe 60mg - 120mg Injetável</div>
                 <div class="med-generico">Denosumabe</div>
@@ -770,7 +785,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="depakote sprinkle 125mg (liberação entérica) divalproato de sódio depakote sprinkle divalproato sprinkle">
+        <div class="med-item" data-receita="sim" data-busca="depakote sprinkle 125mg (liberação entérica) divalproato de sódio depakote sprinkle divalproato sprinkle">
             <div class="med-info">
                 <div class="med-nome">Depakote Sprinkle 125mg (Liberação Entérica)</div>
                 <div class="med-generico">Divalproato de Sódio</div>
@@ -778,7 +793,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="desloratadina 5mg - xarope desloratadina ">
+        <div class="med-item" data-receita="nao" data-busca="desloratadina 5mg - xarope desloratadina ">
             <div class="med-info">
                 <div class="med-nome">Desloratadina 5mg - Xarope</div>
                 <div class="med-generico">Desloratadina</div>
@@ -786,7 +801,7 @@
             </div>
             <span class="med-receita nao">Venda Livre</span>
         </div>
-        <div class="med-item" data-busca="desmopressina (ddavp) desmopressina ddavp minirin desmopressina ferring">
+        <div class="med-item" data-receita="sim" data-busca="desmopressina (ddavp) desmopressina ddavp minirin desmopressina ferring">
             <div class="med-info">
                 <div class="med-nome">Desmopressina (DDAVP)</div>
                 <div class="med-generico">Desmopressina</div>
@@ -794,7 +809,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="desogestrel 75mcg (cerazette) — minipílula desogestrel cerazette nactali desogestrel sandoz">
+        <div class="med-item" data-receita="sim" data-busca="desogestrel 75mcg (cerazette) — minipílula desogestrel cerazette nactali desogestrel sandoz">
             <div class="med-info">
                 <div class="med-nome">Desogestrel 75mcg (Cerazette) — Minipílula</div>
                 <div class="med-generico">Desogestrel</div>
@@ -802,7 +817,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="dexametasona 0,5mg - 4,0mg - xarope - injetável dexametasona ">
+        <div class="med-item" data-receita="sim" data-busca="dexametasona 0,5mg - 4,0mg - xarope - injetável dexametasona ">
             <div class="med-info">
                 <div class="med-nome">Dexametasona 0,5mg - 4,0mg - Xarope - Injetável</div>
                 <div class="med-generico">Dexametasona</div>
@@ -810,7 +825,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="diazepam comprimido 5mg - 10 mg - injetavel diazepam ">
+        <div class="med-item" data-receita="sim" data-busca="diazepam comprimido 5mg - 10 mg - injetavel diazepam ">
             <div class="med-info">
                 <div class="med-nome">Diazepam comprimido 5mg - 10 mg - Injetavel</div>
                 <div class="med-generico">Diazepam</div>
@@ -818,7 +833,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="diclofenaco 50mg - 75mg - gel tópico diclofenaco de sódio / diclofenaco potássico ">
+        <div class="med-item" data-receita="sim" data-busca="diclofenaco 50mg - 75mg - gel tópico diclofenaco de sódio / diclofenaco potássico ">
             <div class="med-info">
                 <div class="med-nome">Diclofenaco 50mg - 75mg - Gel Tópico</div>
                 <div class="med-generico">Diclofenaco de Sódio / Diclofenaco Potássico</div>
@@ -826,7 +841,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="digoxina comprimido 0,25 mg - solução digoxina ">
+        <div class="med-item" data-receita="sim" data-busca="digoxina comprimido 0,25 mg - solução digoxina ">
             <div class="med-info">
                 <div class="med-nome">Digoxina comprimido 0,25 mg - Solução</div>
                 <div class="med-generico">Digoxina</div>
@@ -834,7 +849,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="diltiazem 30mg - 60mg diltiazem ">
+        <div class="med-item" data-receita="sim" data-busca="diltiazem 30mg - 60mg diltiazem ">
             <div class="med-info">
                 <div class="med-nome">Diltiazem 30mg - 60mg</div>
                 <div class="med-generico">Diltiazem</div>
@@ -842,7 +857,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="dipirona comprimido 500 mg - 1,0 g - gotas - xarope - injetável dipirona ">
+        <div class="med-item" data-receita="sim" data-busca="dipirona comprimido 500 mg - 1,0 g - gotas - xarope - injetável dipirona ">
             <div class="med-info">
                 <div class="med-nome">Dipirona comprimido 500 mg - 1,0 g - Gotas - Xarope - Injetável</div>
                 <div class="med-generico">Dipirona</div>
@@ -850,7 +865,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="dissulfiram 250mg - 500mg dissulfiram antabuse dissulfiram ems antietanol">
+        <div class="med-item" data-receita="sim" data-busca="dissulfiram 250mg - 500mg dissulfiram antabuse dissulfiram ems antietanol">
             <div class="med-info">
                 <div class="med-nome">Dissulfiram 250mg - 500mg</div>
                 <div class="med-generico">Dissulfiram</div>
@@ -858,7 +873,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="domperidona 10mg - suspensão domperidona ">
+        <div class="med-item" data-receita="sim" data-busca="domperidona 10mg - suspensão domperidona ">
             <div class="med-info">
                 <div class="med-nome">Domperidona 10mg - Suspensão</div>
                 <div class="med-generico">Domperidona</div>
@@ -866,7 +881,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="donepezila 5mg - 10mg cloridrato de donepezila eranz aricept donepezila ems dozil">
+        <div class="med-item" data-receita="sim" data-busca="donepezila 5mg - 10mg cloridrato de donepezila eranz aricept donepezila ems dozil">
             <div class="med-info">
                 <div class="med-nome">Donepezila 5mg - 10mg</div>
                 <div class="med-generico">Cloridrato de Donepezila</div>
@@ -874,7 +889,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="doxiciclina 100mg doxiciclina ">
+        <div class="med-item" data-receita="sim" data-busca="doxiciclina 100mg doxiciclina ">
             <div class="med-info">
                 <div class="med-nome">Doxiciclina 100mg</div>
                 <div class="med-generico">Doxiciclina</div>
@@ -882,7 +897,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="droperidol 2,5mg injetável droperidol ">
+        <div class="med-item" data-receita="sim" data-busca="droperidol 2,5mg injetável droperidol ">
             <div class="med-info">
                 <div class="med-nome">Droperidol 2,5mg Injetável</div>
                 <div class="med-generico">Droperidol</div>
@@ -890,7 +905,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="duloxetina 30mg - 60mg cloridrato de duloxetina cymbalta duloxetina ems cymbax dulex">
+        <div class="med-item" data-receita="sim" data-busca="duloxetina 30mg - 60mg cloridrato de duloxetina cymbalta duloxetina ems cymbax dulex">
             <div class="med-info">
                 <div class="med-nome">Duloxetina 30mg - 60mg</div>
                 <div class="med-generico">Cloridrato de Duloxetina</div>
@@ -898,7 +913,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="duloxetina 60mg duloxetina ">
+        <div class="med-item" data-receita="sim" data-busca="duloxetina 60mg duloxetina ">
             <div class="med-info">
                 <div class="med-nome">Duloxetina 60mg</div>
                 <div class="med-generico">Duloxetina</div>
@@ -906,7 +921,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="dutasterida 0,5mg dutasterida avodart dutoprol">
+        <div class="med-item" data-receita="sim" data-busca="dutasterida 0,5mg dutasterida avodart dutoprol">
             <div class="med-info">
                 <div class="med-nome">Dutasterida 0,5mg</div>
                 <div class="med-generico">Dutasterida</div>
@@ -915,7 +930,7 @@
             <span class="med-receita sim">Com Receita</span>
         </div>
         <div class="letra-grupo" data-letra="E">E</div>
-        <div class="med-item" data-busca="efavirenz 200mg - 600mg - solução efavirenz ">
+        <div class="med-item" data-receita="sim" data-busca="efavirenz 200mg - 600mg - solução efavirenz ">
             <div class="med-info">
                 <div class="med-nome">Efavirenz 200mg - 600mg - Solução</div>
                 <div class="med-generico">Efavirenz</div>
@@ -923,7 +938,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="empagliflozina 10mg - 25mg (jardiance) empagliflozina jardiance glyxambi (com linagliptina)">
+        <div class="med-item" data-receita="sim" data-busca="empagliflozina 10mg - 25mg (jardiance) empagliflozina jardiance glyxambi (com linagliptina)">
             <div class="med-info">
                 <div class="med-nome">Empagliflozina 10mg - 25mg (Jardiance)</div>
                 <div class="med-generico">Empagliflozina</div>
@@ -931,7 +946,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="enalapril 5mg - 10mg - 20mg enalapril ">
+        <div class="med-item" data-receita="sim" data-busca="enalapril 5mg - 10mg - 20mg enalapril ">
             <div class="med-info">
                 <div class="med-nome">Enalapril 5mg - 10mg - 20mg</div>
                 <div class="med-generico">Enalapril</div>
@@ -939,7 +954,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="enoxaparina 20mg - 40mg - 60mg - 80mg - 100mg injetável enoxaparina sódica ">
+        <div class="med-item" data-receita="sim" data-busca="enoxaparina 20mg - 40mg - 60mg - 80mg - 100mg injetável enoxaparina sódica ">
             <div class="med-info">
                 <div class="med-nome">Enoxaparina 20mg - 40mg - 60mg - 80mg - 100mg Injetável</div>
                 <div class="med-generico">Enoxaparina Sódica</div>
@@ -947,7 +962,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="eritropoetina (epo) 2000ui - 4000ui - 10000ui injetável alfaepoetina ">
+        <div class="med-item" data-receita="sim" data-busca="eritropoetina (epo) 2000ui - 4000ui - 10000ui injetável alfaepoetina ">
             <div class="med-info">
                 <div class="med-nome">Eritropoetina (EPO) 2000UI - 4000UI - 10000UI Injetável</div>
                 <div class="med-generico">Alfaepoetina</div>
@@ -955,7 +970,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="eritropoetina alfa / epoetina alfa 2.000ui - 4.000ui - 10.000ui epoetina alfa eritromax eprex hemax bionephril epoetina ems">
+        <div class="med-item" data-receita="sim" data-busca="eritropoetina alfa / epoetina alfa 2.000ui - 4.000ui - 10.000ui epoetina alfa eritromax eprex hemax bionephril epoetina ems">
             <div class="med-info">
                 <div class="med-nome">Eritropoetina Alfa / Epoetina Alfa 2.000UI - 4.000UI - 10.000UI</div>
                 <div class="med-generico">Epoetina Alfa</div>
@@ -963,7 +978,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="escitalopram 10mg - 15mg - 20mg - gotas escitalopram ">
+        <div class="med-item" data-receita="sim" data-busca="escitalopram 10mg - 15mg - 20mg - gotas escitalopram ">
             <div class="med-info">
                 <div class="med-nome">Escitalopram 10mg - 15mg - 20mg - Gotas</div>
                 <div class="med-generico">Escitalopram</div>
@@ -971,7 +986,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="esomeprazol 20mg - 40mg esomeprazol magnésico ">
+        <div class="med-item" data-receita="nao" data-busca="esomeprazol 20mg - 40mg esomeprazol magnésico ">
             <div class="med-info">
                 <div class="med-nome">Esomeprazol 20mg - 40mg</div>
                 <div class="med-generico">Esomeprazol Magnésico</div>
@@ -979,7 +994,7 @@
             </div>
             <span class="med-receita nao">Venda Livre</span>
         </div>
-        <div class="med-item" data-busca="espironolactona + hidroclorotiazida 25mg/25mg - 50mg/50mg espironolactona + hidroclorotiazida aldactazine espironolactona + hct genérico aldopur">
+        <div class="med-item" data-receita="sim" data-busca="espironolactona + hidroclorotiazida 25mg/25mg - 50mg/50mg espironolactona + hidroclorotiazida aldactazine espironolactona + hct genérico aldopur">
             <div class="med-info">
                 <div class="med-nome">Espironolactona + Hidroclorotiazida 25mg/25mg - 50mg/50mg</div>
                 <div class="med-generico">Espironolactona + Hidroclorotiazida</div>
@@ -987,7 +1002,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="espironolactona 25mg - 50mg - 100mg espironolactona ">
+        <div class="med-item" data-receita="sim" data-busca="espironolactona 25mg - 50mg - 100mg espironolactona ">
             <div class="med-info">
                 <div class="med-nome">Espironolactona 25mg - 50mg - 100mg</div>
                 <div class="med-generico">Espironolactona</div>
@@ -995,7 +1010,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="etambutol 400mg - solução oral etambutol ">
+        <div class="med-item" data-receita="sim" data-busca="etambutol 400mg - solução oral etambutol ">
             <div class="med-info">
                 <div class="med-nome">Etambutol 400mg - Solução Oral</div>
                 <div class="med-generico">Etambutol</div>
@@ -1003,7 +1018,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="etoricoxibe 30mg - 60mg - 90mg - 120mg etoricoxibe arcoxia etoricoxibe ems algix">
+        <div class="med-item" data-receita="sim" data-busca="etoricoxibe 30mg - 60mg - 90mg - 120mg etoricoxibe arcoxia etoricoxibe ems algix">
             <div class="med-info">
                 <div class="med-nome">Etoricoxibe 30mg - 60mg - 90mg - 120mg</div>
                 <div class="med-generico">Etoricoxibe</div>
@@ -1011,7 +1026,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="ezetimiba 10mg ezetimiba zetia ezeta ezetrol">
+        <div class="med-item" data-receita="sim" data-busca="ezetimiba 10mg ezetimiba zetia ezeta ezetrol">
             <div class="med-info">
                 <div class="med-nome">Ezetimiba 10mg</div>
                 <div class="med-generico">Ezetimiba</div>
@@ -1020,7 +1035,7 @@
             <span class="med-receita sim">Com Receita</span>
         </div>
         <div class="letra-grupo" data-letra="F">F</div>
-        <div class="med-item" data-busca="febuxostate 40mg - 80mg - 120mg febuxostate adenuric uloric">
+        <div class="med-item" data-receita="sim" data-busca="febuxostate 40mg - 80mg - 120mg febuxostate adenuric uloric">
             <div class="med-info">
                 <div class="med-nome">Febuxostate 40mg - 80mg - 120mg</div>
                 <div class="med-generico">Febuxostate</div>
@@ -1028,7 +1043,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="fenitoína 100mg - 50mg/ml injetável fenitoína sódica hidantal fenitoína ems dilantin">
+        <div class="med-item" data-receita="sim" data-busca="fenitoína 100mg - 50mg/ml injetável fenitoína sódica hidantal fenitoína ems dilantin">
             <div class="med-info">
                 <div class="med-nome">Fenitoína 100mg - 50mg/mL Injetável</div>
                 <div class="med-generico">Fenitoína Sódica</div>
@@ -1036,7 +1051,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="fenitoína 100mg - injetável fenitoína ">
+        <div class="med-item" data-receita="sim" data-busca="fenitoína 100mg - injetável fenitoína ">
             <div class="med-info">
                 <div class="med-nome">Fenitoína 100mg - Injetável</div>
                 <div class="med-generico">Fenitoína</div>
@@ -1044,7 +1059,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="fenofibrato 145mg - 200mg fenofibrato lipanon triglide fenofibrato ems lofibra">
+        <div class="med-item" data-receita="sim" data-busca="fenofibrato 145mg - 200mg fenofibrato lipanon triglide fenofibrato ems lofibra">
             <div class="med-info">
                 <div class="med-nome">Fenofibrato 145mg - 200mg</div>
                 <div class="med-generico">Fenofibrato</div>
@@ -1052,7 +1067,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="fenoterol 0,1mg/dose spray / 5mg/ml solução bromidrato de fenoterol berotec fenoterol ems dosberotec">
+        <div class="med-item" data-receita="sim" data-busca="fenoterol 0,1mg/dose spray / 5mg/ml solução bromidrato de fenoterol berotec fenoterol ems dosberotec">
             <div class="med-info">
                 <div class="med-nome">Fenoterol 0,1mg/dose Spray / 5mg/mL Solução</div>
                 <div class="med-generico">Bromidrato de Fenoterol</div>
@@ -1060,7 +1075,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="fentanila adesivo 12mcg/h - 25mcg/h - 50mcg/h - 100mcg/h citrato de fentanila durogesic fentanila ems matrifen victanyl">
+        <div class="med-item" data-receita="sim" data-busca="fentanila adesivo 12mcg/h - 25mcg/h - 50mcg/h - 100mcg/h citrato de fentanila durogesic fentanila ems matrifen victanyl">
             <div class="med-info">
                 <div class="med-nome">Fentanila Adesivo 12mcg/h - 25mcg/h - 50mcg/h - 100mcg/h</div>
                 <div class="med-generico">Citrato de Fentanila</div>
@@ -1068,7 +1083,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="fentolamina 40mg - injetável mesilato de fentolamina ">
+        <div class="med-item" data-receita="sim" data-busca="fentolamina 40mg - injetável mesilato de fentolamina ">
             <div class="med-info">
                 <div class="med-nome">Fentolamina 40mg - Injetável</div>
                 <div class="med-generico">Mesilato de Fentolamina</div>
@@ -1076,7 +1091,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="ferro injetável (sacarato de hidróxido férrico) sacarato de hidróxido férrico ">
+        <div class="med-item" data-receita="sim" data-busca="ferro injetável (sacarato de hidróxido férrico) sacarato de hidróxido férrico ">
             <div class="med-info">
                 <div class="med-nome">Ferro Injetável (Sacarato de Hidróxido Férrico)</div>
                 <div class="med-generico">Sacarato de Hidróxido Férrico</div>
@@ -1084,7 +1099,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="ferro quelato bisglicinato ferro quelato bisglicinato ">
+        <div class="med-item" data-receita="sim" data-busca="ferro quelato bisglicinato ferro quelato bisglicinato ">
             <div class="med-info">
                 <div class="med-nome">Ferro Quelato Bisglicinato</div>
                 <div class="med-generico">Ferro Quelato Bisglicinato</div>
@@ -1092,7 +1107,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="ferro sacarato / sacarato de hidróxido férrico 100mg injetável ferro sacarato noripurum venofer feriv ferro sacarato ems">
+        <div class="med-item" data-receita="sim" data-busca="ferro sacarato / sacarato de hidróxido férrico 100mg injetável ferro sacarato noripurum venofer feriv ferro sacarato ems">
             <div class="med-info">
                 <div class="med-nome">Ferro Sacarato / Sacarato de Hidróxido Férrico 100mg Injetável</div>
                 <div class="med-generico">Ferro Sacarato</div>
@@ -1100,7 +1115,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="fesoterodina 4mg - 8mg fumarato de fesoterodina toviaz fesoterodina ems">
+        <div class="med-item" data-receita="sim" data-busca="fesoterodina 4mg - 8mg fumarato de fesoterodina toviaz fesoterodina ems">
             <div class="med-info">
                 <div class="med-nome">Fesoterodina 4mg - 8mg</div>
                 <div class="med-generico">Fumarato de Fesoterodina</div>
@@ -1108,7 +1123,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="finasterida 1mg - 5mg finasterida ">
+        <div class="med-item" data-receita="sim" data-busca="finasterida 1mg - 5mg finasterida ">
             <div class="med-info">
                 <div class="med-nome">Finasterida 1mg - 5mg</div>
                 <div class="med-generico">Finasterida</div>
@@ -1116,7 +1131,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="fluconazol 50mg - 100mg - 150mg - 200mg - suspensão - injetável fluconazol ">
+        <div class="med-item" data-receita="sim" data-busca="fluconazol 50mg - 100mg - 150mg - 200mg - suspensão - injetável fluconazol ">
             <div class="med-info">
                 <div class="med-nome">Fluconazol 50mg - 100mg - 150mg - 200mg - Suspensão - Injetável</div>
                 <div class="med-generico">Fluconazol</div>
@@ -1124,7 +1139,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="fluoxetina 10mg - 20mg - gotas fluoxetina ">
+        <div class="med-item" data-receita="sim" data-busca="fluoxetina 10mg - 20mg - gotas fluoxetina ">
             <div class="med-info">
                 <div class="med-nome">Fluoxetina 10mg - 20mg - Gotas</div>
                 <div class="med-generico">Fluoxetina</div>
@@ -1132,7 +1147,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="formoterol + budesonida 6mcg/200mcg - 12mcg/400mcg formoterol + budesonida symbicort vannair formoterol+budesonida genérico bufomix">
+        <div class="med-item" data-receita="sim" data-busca="formoterol + budesonida 6mcg/200mcg - 12mcg/400mcg formoterol + budesonida symbicort vannair formoterol+budesonida genérico bufomix">
             <div class="med-info">
                 <div class="med-nome">Formoterol + Budesonida 6mcg/200mcg - 12mcg/400mcg</div>
                 <div class="med-generico">Formoterol + Budesonida</div>
@@ -1140,7 +1155,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="fosfomicina 3g - granulado para solução oral trometamol de fosfomicina ">
+        <div class="med-item" data-receita="sim" data-busca="fosfomicina 3g - granulado para solução oral trometamol de fosfomicina ">
             <div class="med-info">
                 <div class="med-nome">Fosfomicina 3g - Granulado para Solução Oral</div>
                 <div class="med-generico">Trometamol de Fosfomicina</div>
@@ -1148,7 +1163,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="furoato de mometasona 50mcg/dose spray nasal furoato de mometasona nasonex mometasona ems asocort moment nasal">
+        <div class="med-item" data-receita="nao" data-busca="furoato de mometasona 50mcg/dose spray nasal furoato de mometasona nasonex mometasona ems asocort moment nasal">
             <div class="med-info">
                 <div class="med-nome">Furoato de Mometasona 50mcg/dose Spray Nasal</div>
                 <div class="med-generico">Furoato de Mometasona</div>
@@ -1156,7 +1171,7 @@
             </div>
             <span class="med-receita nao">Venda Livre</span>
         </div>
-        <div class="med-item" data-busca="furosemida 20mg - 40mg - 80mg - injetável furosemida ">
+        <div class="med-item" data-receita="sim" data-busca="furosemida 20mg - 40mg - 80mg - injetável furosemida ">
             <div class="med-info">
                 <div class="med-nome">Furosemida 20mg - 40mg - 80mg - Injetável</div>
                 <div class="med-generico">Furosemida</div>
@@ -1165,7 +1180,7 @@
             <span class="med-receita sim">Com Receita</span>
         </div>
         <div class="letra-grupo" data-letra="G">G</div>
-        <div class="med-item" data-busca="gabapentina 300mg - 400mg - 600mg - 800mg gabapentina ">
+        <div class="med-item" data-receita="sim" data-busca="gabapentina 300mg - 400mg - 600mg - 800mg gabapentina ">
             <div class="med-info">
                 <div class="med-nome">Gabapentina 300mg - 400mg - 600mg - 800mg</div>
                 <div class="med-generico">Gabapentina</div>
@@ -1173,7 +1188,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="ganciclovir 500mg ganciclovir ">
+        <div class="med-item" data-receita="sim" data-busca="ganciclovir 500mg ganciclovir ">
             <div class="med-info">
                 <div class="med-nome">Ganciclovir 500mg</div>
                 <div class="med-generico">Ganciclovir</div>
@@ -1181,7 +1196,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="glibenclamida 5mg glibenclamida ">
+        <div class="med-item" data-receita="sim" data-busca="glibenclamida 5mg glibenclamida ">
             <div class="med-info">
                 <div class="med-nome">Glibenclamida 5mg</div>
                 <div class="med-generico">Glibenclamida</div>
@@ -1189,7 +1204,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="griseofulvina 125mg - 500mg griseofulvina fulvicin grisovin griseofulvina ems">
+        <div class="med-item" data-receita="sim" data-busca="griseofulvina 125mg - 500mg griseofulvina fulvicin grisovin griseofulvina ems">
             <div class="med-info">
                 <div class="med-nome">Griseofulvina 125mg - 500mg</div>
                 <div class="med-generico">Griseofulvina</div>
@@ -1198,7 +1213,7 @@
             <span class="med-receita sim">Com Receita</span>
         </div>
         <div class="letra-grupo" data-letra="H">H</div>
-        <div class="med-item" data-busca="haloperidol 1mg - 5mg - gotas - injetável haloperidol ">
+        <div class="med-item" data-receita="sim" data-busca="haloperidol 1mg - 5mg - gotas - injetável haloperidol ">
             <div class="med-info">
                 <div class="med-nome">Haloperidol 1mg - 5mg - Gotas - Injetável</div>
                 <div class="med-generico">Haloperidol</div>
@@ -1206,7 +1221,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="heparina injetável heparina sódica ">
+        <div class="med-item" data-receita="sim" data-busca="heparina injetável heparina sódica ">
             <div class="med-info">
                 <div class="med-nome">Heparina Injetável</div>
                 <div class="med-generico">Heparina Sódica</div>
@@ -1214,7 +1229,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="hidralazina 25mg - 50mg - injetável hidralazina ">
+        <div class="med-item" data-receita="sim" data-busca="hidralazina 25mg - 50mg - injetável hidralazina ">
             <div class="med-info">
                 <div class="med-nome">Hidralazina 25mg - 50mg - Injetável</div>
                 <div class="med-generico">Hidralazina</div>
@@ -1222,7 +1237,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="hidroclorotiazida 12,5mg - 25mg - 50mg hidroclorotiazida ">
+        <div class="med-item" data-receita="sim" data-busca="hidroclorotiazida 12,5mg - 25mg - 50mg hidroclorotiazida ">
             <div class="med-info">
                 <div class="med-nome">Hidroclorotiazida 12,5mg - 25mg - 50mg</div>
                 <div class="med-generico">Hidroclorotiazida</div>
@@ -1230,7 +1245,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="hidrocortisona injetável - pomada hidrocortisona ">
+        <div class="med-item" data-receita="sim" data-busca="hidrocortisona injetável - pomada hidrocortisona ">
             <div class="med-info">
                 <div class="med-nome">Hidrocortisona Injetável - Pomada</div>
                 <div class="med-generico">Hidrocortisona</div>
@@ -1238,7 +1253,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="hidroquinona 2% - 4% creme hidroquinona clariderm lustra hidroquinona manipulada tri-luma (fórmula combinada)">
+        <div class="med-item" data-receita="sim" data-busca="hidroquinona 2% - 4% creme hidroquinona clariderm lustra hidroquinona manipulada tri-luma (fórmula combinada)">
             <div class="med-info">
                 <div class="med-nome">Hidroquinona 2% - 4% Creme</div>
                 <div class="med-generico">Hidroquinona</div>
@@ -1246,7 +1261,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="hidroxicloroquina 400mg hidroxicloroquina plaquinil reuquinol hidroxicloroquina medley">
+        <div class="med-item" data-receita="sim" data-busca="hidroxicloroquina 400mg hidroxicloroquina plaquinil reuquinol hidroxicloroquina medley">
             <div class="med-info">
                 <div class="med-nome">Hidroxicloroquina 400mg</div>
                 <div class="med-generico">Hidroxicloroquina</div>
@@ -1254,7 +1269,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="hidroxizina 10mg - 25mg - 50mg cloridrato de hidroxizina hixizine ucerax hidroxizina ems vistagan">
+        <div class="med-item" data-receita="sim" data-busca="hidroxizina 10mg - 25mg - 50mg cloridrato de hidroxizina hixizine ucerax hidroxizina ems vistagan">
             <div class="med-info">
                 <div class="med-nome">Hidroxizina 10mg - 25mg - 50mg</div>
                 <div class="med-generico">Cloridrato de Hidroxizina</div>
@@ -1262,7 +1277,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="hidróxido de alumínio antiácido ">
+        <div class="med-item" data-receita="nao" data-busca="hidróxido de alumínio antiácido ">
             <div class="med-info">
                 <div class="med-nome">Hidróxido de Alumínio</div>
                 <div class="med-generico">Antiácido</div>
@@ -1270,7 +1285,7 @@
             </div>
             <span class="med-receita nao">Venda Livre</span>
         </div>
-        <div class="med-item" data-busca="hioscina / escopolamina 10mg - 20mg butilbrometo de escopolamina buscopan buscopan composto hioscina escopam">
+        <div class="med-item" data-receita="nao" data-busca="hioscina / escopolamina 10mg - 20mg butilbrometo de escopolamina buscopan buscopan composto hioscina escopam">
             <div class="med-info">
                 <div class="med-nome">Hioscina / Escopolamina 10mg - 20mg</div>
                 <div class="med-generico">Butilbrometo de Escopolamina</div>
@@ -1279,7 +1294,7 @@
             <span class="med-receita nao">Venda Livre</span>
         </div>
         <div class="letra-grupo" data-letra="I">I</div>
-        <div class="med-item" data-busca="ibuprofeno 200mg - 400mg - 600mg - gotas ibuprofeno ">
+        <div class="med-item" data-receita="sim" data-busca="ibuprofeno 200mg - 400mg - 600mg - gotas ibuprofeno ">
             <div class="med-info">
                 <div class="med-nome">Ibuprofeno 200mg - 400mg - 600mg - Gotas</div>
                 <div class="med-generico">Ibuprofeno</div>
@@ -1287,7 +1302,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="infliximabe 100mg (injetável) infliximabe remicade remsima inflectra infliximabe biosimilar">
+        <div class="med-item" data-receita="sim" data-busca="infliximabe 100mg (injetável) infliximabe remicade remsima inflectra infliximabe biosimilar">
             <div class="med-info">
                 <div class="med-nome">Infliximabe 100mg (injetável)</div>
                 <div class="med-generico">Infliximabe</div>
@@ -1295,7 +1310,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="insulina nph 100u/ml insulina nph ">
+        <div class="med-item" data-receita="sim" data-busca="insulina nph 100u/ml insulina nph ">
             <div class="med-info">
                 <div class="med-nome">Insulina NPH 100U/ml</div>
                 <div class="med-generico">Insulina NPH</div>
@@ -1303,7 +1318,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="insulina regular 100u/ml insulina regular (insulina humana de ação curta) ">
+        <div class="med-item" data-receita="sim" data-busca="insulina regular 100u/ml insulina regular (insulina humana de ação curta) ">
             <div class="med-info">
                 <div class="med-nome">Insulina Regular 100U/ml</div>
                 <div class="med-generico">Insulina Regular (Insulina Humana de Ação Curta)</div>
@@ -1311,7 +1326,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="isoniazida 300mg isoniazida ">
+        <div class="med-item" data-receita="nao" data-busca="isoniazida 300mg isoniazida ">
             <div class="med-info">
                 <div class="med-nome">Isoniazida 300mg</div>
                 <div class="med-generico">Isoniazida</div>
@@ -1319,7 +1334,7 @@
             </div>
             <span class="med-receita nao">Venda Livre</span>
         </div>
-        <div class="med-item" data-busca="isotretinoína 10mg - 20mg isotretinoína ">
+        <div class="med-item" data-receita="sim" data-busca="isotretinoína 10mg - 20mg isotretinoína ">
             <div class="med-info">
                 <div class="med-nome">Isotretinoína 10mg - 20mg</div>
                 <div class="med-generico">Isotretinoína</div>
@@ -1327,7 +1342,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="itraconazol 100mg itraconazol sporanox itraconazol ems itranox canadiol">
+        <div class="med-item" data-receita="sim" data-busca="itraconazol 100mg itraconazol sporanox itraconazol ems itranox canadiol">
             <div class="med-info">
                 <div class="med-nome">Itraconazol 100mg</div>
                 <div class="med-generico">Itraconazol</div>
@@ -1335,7 +1350,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="ivabradina 5mg - 7,5mg (procoralan) ivabradina procoralan coralan">
+        <div class="med-item" data-receita="sim" data-busca="ivabradina 5mg - 7,5mg (procoralan) ivabradina procoralan coralan">
             <div class="med-info">
                 <div class="med-nome">Ivabradina 5mg - 7,5mg (Procoralan)</div>
                 <div class="med-generico">Ivabradina</div>
@@ -1343,7 +1358,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="ivermectina 6mg ivermectina ">
+        <div class="med-item" data-receita="nao" data-busca="ivermectina 6mg ivermectina ">
             <div class="med-info">
                 <div class="med-nome">Ivermectina 6mg</div>
                 <div class="med-generico">Ivermectina</div>
@@ -1352,7 +1367,7 @@
             <span class="med-receita nao">Venda Livre</span>
         </div>
         <div class="letra-grupo" data-letra="L">L</div>
-        <div class="med-item" data-busca="lactulose 667mg/ml - xarope lactulose ">
+        <div class="med-item" data-receita="nao" data-busca="lactulose 667mg/ml - xarope lactulose ">
             <div class="med-info">
                 <div class="med-nome">Lactulose 667mg/mL - Xarope</div>
                 <div class="med-generico">Lactulose</div>
@@ -1360,7 +1375,7 @@
             </div>
             <span class="med-receita nao">Venda Livre</span>
         </div>
-        <div class="med-item" data-busca="lamotrigina 25mg - 50mg - 100mg - 150mg - 200mg lamotrigina ">
+        <div class="med-item" data-receita="sim" data-busca="lamotrigina 25mg - 50mg - 100mg - 150mg - 200mg lamotrigina ">
             <div class="med-info">
                 <div class="med-nome">Lamotrigina 25mg - 50mg - 100mg - 150mg - 200mg</div>
                 <div class="med-generico">Lamotrigina</div>
@@ -1368,7 +1383,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="lansoprazol 15mg - 30mg lansoprazol ogastro prevacid lansoprazol ems lanzol">
+        <div class="med-item" data-receita="nao" data-busca="lansoprazol 15mg - 30mg lansoprazol ogastro prevacid lansoprazol ems lanzol">
             <div class="med-info">
                 <div class="med-nome">Lansoprazol 15mg - 30mg</div>
                 <div class="med-generico">Lansoprazol</div>
@@ -1376,7 +1391,7 @@
             </div>
             <span class="med-receita nao">Venda Livre</span>
         </div>
-        <div class="med-item" data-busca="leflunomida 10mg - 20mg leflunomida arava leflunomida ems arabloc">
+        <div class="med-item" data-receita="sim" data-busca="leflunomida 10mg - 20mg leflunomida arava leflunomida ems arabloc">
             <div class="med-info">
                 <div class="med-nome">Leflunomida 10mg - 20mg</div>
                 <div class="med-generico">Leflunomida</div>
@@ -1384,7 +1399,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="levamisol 80mg - 150mg levamisol ">
+        <div class="med-item" data-receita="nao" data-busca="levamisol 80mg - 150mg levamisol ">
             <div class="med-info">
                 <div class="med-nome">Levamisol 80mg - 150mg</div>
                 <div class="med-generico">Levamisol</div>
@@ -1392,7 +1407,7 @@
             </div>
             <span class="med-receita nao">Venda Livre</span>
         </div>
-        <div class="med-item" data-busca="levetiracetam 250mg - 500mg - 750mg - 1000mg - solução oral levetiracetam ">
+        <div class="med-item" data-receita="sim" data-busca="levetiracetam 250mg - 500mg - 750mg - 1000mg - solução oral levetiracetam ">
             <div class="med-info">
                 <div class="med-nome">Levetiracetam 250mg - 500mg - 750mg - 1000mg - Solução Oral</div>
                 <div class="med-generico">Levetiracetam</div>
@@ -1400,7 +1415,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="levofloxacina 500mg - 750mg - injetável levofloxacina ">
+        <div class="med-item" data-receita="sim" data-busca="levofloxacina 500mg - 750mg - injetável levofloxacina ">
             <div class="med-info">
                 <div class="med-nome">Levofloxacina 500mg - 750mg - Injetável</div>
                 <div class="med-generico">Levofloxacina</div>
@@ -1408,7 +1423,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="levonorgestrel diu (mirena / kyleena) levonorgestrel mirena kyleena diu mirena diu hormonal">
+        <div class="med-item" data-receita="sim" data-busca="levonorgestrel diu (mirena / kyleena) levonorgestrel mirena kyleena diu mirena diu hormonal">
             <div class="med-info">
                 <div class="med-nome">Levonorgestrel DIU (Mirena / Kyleena)</div>
                 <div class="med-generico">Levonorgestrel</div>
@@ -1416,7 +1431,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="levotiroxina 25mcg - 50mcg - 75mcg - 100mcg - 125mcg - 150mcg (puran t4) levotiroxina sódica ">
+        <div class="med-item" data-receita="sim" data-busca="levotiroxina 25mcg - 50mcg - 75mcg - 100mcg - 125mcg - 150mcg (puran t4) levotiroxina sódica ">
             <div class="med-info">
                 <div class="med-nome">Levotiroxina 25mcg - 50mcg - 75mcg - 100mcg - 125mcg - 150mcg (Puran T4)</div>
                 <div class="med-generico">Levotiroxina Sódica</div>
@@ -1424,7 +1439,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="linagliptina 5mg (trayenta) linagliptina trayenta jentadueto (com metformina)">
+        <div class="med-item" data-receita="sim" data-busca="linagliptina 5mg (trayenta) linagliptina trayenta jentadueto (com metformina)">
             <div class="med-info">
                 <div class="med-nome">Linagliptina 5mg (Trayenta)</div>
                 <div class="med-generico">Linagliptina</div>
@@ -1432,7 +1447,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="lisdexanfetamina 20mg - 30mg - 50mg - 70mg dimesilato de lisdexanfetamina vyvanse venvanse lisdexanfetamina ems">
+        <div class="med-item" data-receita="sim" data-busca="lisdexanfetamina 20mg - 30mg - 50mg - 70mg dimesilato de lisdexanfetamina vyvanse venvanse lisdexanfetamina ems">
             <div class="med-info">
                 <div class="med-nome">Lisdexanfetamina 20mg - 30mg - 50mg - 70mg</div>
                 <div class="med-generico">Dimesilato de Lisdexanfetamina</div>
@@ -1440,7 +1455,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="lisinopril 5mg - 10mg - 20mg - 30mg lisinopril ">
+        <div class="med-item" data-receita="sim" data-busca="lisinopril 5mg - 10mg - 20mg - 30mg lisinopril ">
             <div class="med-info">
                 <div class="med-nome">Lisinopril 5mg - 10mg - 20mg - 30mg</div>
                 <div class="med-generico">Lisinopril</div>
@@ -1448,7 +1463,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="loperamida 2mg loperamida ">
+        <div class="med-item" data-receita="nao" data-busca="loperamida 2mg loperamida ">
             <div class="med-info">
                 <div class="med-nome">Loperamida 2mg</div>
                 <div class="med-generico">Loperamida</div>
@@ -1456,7 +1471,7 @@
             </div>
             <span class="med-receita nao">Venda Livre</span>
         </div>
-        <div class="med-item" data-busca="lopinavir/ritonavir 200mg/50mg - comprimido | solução oral lopinavir + ritonavir ">
+        <div class="med-item" data-receita="sim" data-busca="lopinavir/ritonavir 200mg/50mg - comprimido | solução oral lopinavir + ritonavir ">
             <div class="med-info">
                 <div class="med-nome">Lopinavir/Ritonavir 200mg/50mg - Comprimido | Solução Oral</div>
                 <div class="med-generico">Lopinavir + Ritonavir</div>
@@ -1464,7 +1479,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="loratadina 10mg - xarope loratadina ">
+        <div class="med-item" data-receita="nao" data-busca="loratadina 10mg - xarope loratadina ">
             <div class="med-info">
                 <div class="med-nome">Loratadina 10mg - Xarope</div>
                 <div class="med-generico">Loratadina</div>
@@ -1472,7 +1487,7 @@
             </div>
             <span class="med-receita nao">Venda Livre</span>
         </div>
-        <div class="med-item" data-busca="losartana 50mg - 100mg losartana ">
+        <div class="med-item" data-receita="nao" data-busca="losartana 50mg - 100mg losartana ">
             <div class="med-info">
                 <div class="med-nome">Losartana 50mg - 100mg</div>
                 <div class="med-generico">Losartana</div>
@@ -1480,7 +1495,7 @@
             </div>
             <span class="med-receita nao">Venda Livre</span>
         </div>
-        <div class="med-item" data-busca="lítio carbonato 300mg carbonato de lítio ">
+        <div class="med-item" data-receita="sim" data-busca="lítio carbonato 300mg carbonato de lítio ">
             <div class="med-info">
                 <div class="med-nome">Lítio Carbonato 300mg</div>
                 <div class="med-generico">Carbonato de Lítio</div>
@@ -1489,7 +1504,7 @@
             <span class="med-receita sim">Com Receita</span>
         </div>
         <div class="letra-grupo" data-letra="M">M</div>
-        <div class="med-item" data-busca="magnésio quelato / dimalato 150mg - 300mg - 400mg magnésio quelato / dimalato de magnésio magnésio ems sundown magnésio now foods magnesium chelated magnesium">
+        <div class="med-item" data-receita="nao" data-busca="magnésio quelato / dimalato 150mg - 300mg - 400mg magnésio quelato / dimalato de magnésio magnésio ems sundown magnésio now foods magnesium chelated magnesium">
             <div class="med-info">
                 <div class="med-nome">Magnésio Quelato / Dimalato 150mg - 300mg - 400mg</div>
                 <div class="med-generico">Magnésio Quelato / Dimalato de Magnésio</div>
@@ -1497,7 +1512,7 @@
             </div>
             <span class="med-receita nao">Venda Livre</span>
         </div>
-        <div class="med-item" data-busca="mebendazol 100mg - suspensão mebendazol ">
+        <div class="med-item" data-receita="nao" data-busca="mebendazol 100mg - suspensão mebendazol ">
             <div class="med-info">
                 <div class="med-nome">Mebendazol 100mg - Suspensão</div>
                 <div class="med-generico">Mebendazol</div>
@@ -1505,7 +1520,7 @@
             </div>
             <span class="med-receita nao">Venda Livre</span>
         </div>
-        <div class="med-item" data-busca="medroxiprogesterona injetável (depo-provera) acetato de medroxiprogesterona depo-provera contracep medroxiprogesterona depot">
+        <div class="med-item" data-receita="sim" data-busca="medroxiprogesterona injetável (depo-provera) acetato de medroxiprogesterona depo-provera contracep medroxiprogesterona depot">
             <div class="med-info">
                 <div class="med-nome">Medroxiprogesterona Injetável (Depo-Provera)</div>
                 <div class="med-generico">Acetato de Medroxiprogesterona</div>
@@ -1513,7 +1528,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="melatonina 0,21mg - 0,5mg - 1mg - 2mg - 3mg - 5mg - 10mg melatonina ">
+        <div class="med-item" data-receita="nao" data-busca="melatonina 0,21mg - 0,5mg - 1mg - 2mg - 3mg - 5mg - 10mg melatonina ">
             <div class="med-info">
                 <div class="med-nome">Melatonina 0,21mg - 0,5mg - 1mg - 2mg - 3mg - 5mg - 10mg</div>
                 <div class="med-generico">Melatonina</div>
@@ -1521,7 +1536,7 @@
             </div>
             <span class="med-receita nao">Venda Livre</span>
         </div>
-        <div class="med-item" data-busca="meloxicam 7,5mg - 15mg meloxicam movatec mobic meloxicam ems inflamen">
+        <div class="med-item" data-receita="sim" data-busca="meloxicam 7,5mg - 15mg meloxicam movatec mobic meloxicam ems inflamen">
             <div class="med-info">
                 <div class="med-nome">Meloxicam 7,5mg - 15mg</div>
                 <div class="med-generico">Meloxicam</div>
@@ -1529,7 +1544,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="memantina 10mg - 20mg cloridrato de memantina ebix memantine ems namenda akatinol">
+        <div class="med-item" data-receita="sim" data-busca="memantina 10mg - 20mg cloridrato de memantina ebix memantine ems namenda akatinol">
             <div class="med-info">
                 <div class="med-nome">Memantina 10mg - 20mg</div>
                 <div class="med-generico">Cloridrato de Memantina</div>
@@ -1537,7 +1552,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="mesalazina / mesalamina 400mg - 800mg - 1g mesalazina asacol pentasa mesacol salofalk">
+        <div class="med-item" data-receita="sim" data-busca="mesalazina / mesalamina 400mg - 800mg - 1g mesalazina asacol pentasa mesacol salofalk">
             <div class="med-info">
                 <div class="med-nome">Mesalazina / Mesalamina 400mg - 800mg - 1g</div>
                 <div class="med-generico">Mesalazina</div>
@@ -1545,7 +1560,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="metformina 500mg - 850mg - 1000mg - xr (liberação prolongada) metformina ">
+        <div class="med-item" data-receita="sim" data-busca="metformina 500mg - 850mg - 1000mg - xr (liberação prolongada) metformina ">
             <div class="med-info">
                 <div class="med-nome">Metformina 500mg - 850mg - 1000mg - XR (Liberação Prolongada)</div>
                 <div class="med-generico">Metformina</div>
@@ -1553,7 +1568,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="metilfenidato (ritalina / concerta) metilfenidato ritalina ritalina la concerta venvanse medikinet rubifen">
+        <div class="med-item" data-receita="sim" data-busca="metilfenidato (ritalina / concerta) metilfenidato ritalina ritalina la concerta venvanse medikinet rubifen">
             <div class="med-info">
                 <div class="med-nome">Metilfenidato (Ritalina / Concerta)</div>
                 <div class="med-generico">Metilfenidato</div>
@@ -1561,7 +1576,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="metocarbamol 750mg metocarbamol robaxin metocarbamol ems miolax">
+        <div class="med-item" data-receita="sim" data-busca="metocarbamol 750mg metocarbamol robaxin metocarbamol ems miolax">
             <div class="med-info">
                 <div class="med-nome">Metocarbamol 750mg</div>
                 <div class="med-generico">Metocarbamol</div>
@@ -1569,7 +1584,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="metoclopramida 10mg - gotas - injetável metoclopramida ">
+        <div class="med-item" data-receita="sim" data-busca="metoclopramida 10mg - gotas - injetável metoclopramida ">
             <div class="med-info">
                 <div class="med-nome">Metoclopramida 10mg - Gotas - Injetável</div>
                 <div class="med-generico">Metoclopramida</div>
@@ -1577,7 +1592,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="metoprolol 25mg - 50mg - 100mg metoprolol ">
+        <div class="med-item" data-receita="sim" data-busca="metoprolol 25mg - 50mg - 100mg metoprolol ">
             <div class="med-info">
                 <div class="med-nome">Metoprolol 25mg - 50mg - 100mg</div>
                 <div class="med-generico">Metoprolol</div>
@@ -1585,7 +1600,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="metotrexato 2,5mg - 7,5mg - 10mg - 15mg - 25mg - injetável metotrexato ">
+        <div class="med-item" data-receita="nao" data-busca="metotrexato 2,5mg - 7,5mg - 10mg - 15mg - 25mg - injetável metotrexato ">
             <div class="med-info">
                 <div class="med-nome">Metotrexato 2,5mg - 7,5mg - 10mg - 15mg - 25mg - Injetável</div>
                 <div class="med-generico">Metotrexato</div>
@@ -1593,7 +1608,7 @@
             </div>
             <span class="med-receita nao">Venda Livre</span>
         </div>
-        <div class="med-item" data-busca="metronidazol 250mg - 400mg - 500mg metronidazol flagyl metronidazol ems rozex (tópico) metrogel (vaginal)">
+        <div class="med-item" data-receita="sim" data-busca="metronidazol 250mg - 400mg - 500mg metronidazol flagyl metronidazol ems rozex (tópico) metrogel (vaginal)">
             <div class="med-info">
                 <div class="med-nome">Metronidazol 250mg - 400mg - 500mg</div>
                 <div class="med-generico">Metronidazol</div>
@@ -1601,7 +1616,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="miconazol creme - pó - gel oral miconazol ">
+        <div class="med-item" data-receita="nao" data-busca="miconazol creme - pó - gel oral miconazol ">
             <div class="med-info">
                 <div class="med-nome">Miconazol Creme - Pó - Gel Oral</div>
                 <div class="med-generico">Miconazol</div>
@@ -1609,7 +1624,7 @@
             </div>
             <span class="med-receita nao">Venda Livre</span>
         </div>
-        <div class="med-item" data-busca="minoxidil 2% - 5% - solução tópica | espuma minoxidil ">
+        <div class="med-item" data-receita="nao" data-busca="minoxidil 2% - 5% - solução tópica | espuma minoxidil ">
             <div class="med-info">
                 <div class="med-nome">Minoxidil 2% - 5% - Solução Tópica | Espuma</div>
                 <div class="med-generico">Minoxidil</div>
@@ -1617,7 +1632,7 @@
             </div>
             <span class="med-receita nao">Venda Livre</span>
         </div>
-        <div class="med-item" data-busca="mirtazapina 15mg - 30mg - 45mg mirtazapina ">
+        <div class="med-item" data-receita="sim" data-busca="mirtazapina 15mg - 30mg - 45mg mirtazapina ">
             <div class="med-info">
                 <div class="med-nome">Mirtazapina 15mg - 30mg - 45mg</div>
                 <div class="med-generico">Mirtazapina</div>
@@ -1625,7 +1640,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="montelucaste 4mg - 5mg - 10mg montelucaste de sódio ">
+        <div class="med-item" data-receita="sim" data-busca="montelucaste 4mg - 5mg - 10mg montelucaste de sódio ">
             <div class="med-info">
                 <div class="med-nome">Montelucaste 4mg - 5mg - 10mg</div>
                 <div class="med-generico">Montelucaste de Sódio</div>
@@ -1633,7 +1648,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="morfina 10mg - 30mg - 10mg/ml injetável sulfato de morfina dimorf mst continus morfina ems ms contin">
+        <div class="med-item" data-receita="sim" data-busca="morfina 10mg - 30mg - 10mg/ml injetável sulfato de morfina dimorf mst continus morfina ems ms contin">
             <div class="med-info">
                 <div class="med-nome">Morfina 10mg - 30mg - 10mg/mL Injetável</div>
                 <div class="med-generico">Sulfato de Morfina</div>
@@ -1641,7 +1656,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="mounjaro (tirzepatida) tirzepatida ">
+        <div class="med-item" data-receita="sim" data-busca="mounjaro (tirzepatida) tirzepatida ">
             <div class="med-info">
                 <div class="med-nome">Mounjaro (Tirzepatida)</div>
                 <div class="med-generico">Tirzepatida</div>
@@ -1649,7 +1664,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="moxifloxacino 400mg cloridrato de moxifloxacino avalox moxifloxacino ems avelon">
+        <div class="med-item" data-receita="sim" data-busca="moxifloxacino 400mg cloridrato de moxifloxacino avalox moxifloxacino ems avelon">
             <div class="med-info">
                 <div class="med-nome">Moxifloxacino 400mg</div>
                 <div class="med-generico">Cloridrato de Moxifloxacino</div>
@@ -1657,7 +1672,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="mupirocina 2% pomada mupirocina bactroban mupirocina ems turixin">
+        <div class="med-item" data-receita="sim" data-busca="mupirocina 2% pomada mupirocina bactroban mupirocina ems turixin">
             <div class="med-info">
                 <div class="med-nome">Mupirocina 2% Pomada</div>
                 <div class="med-generico">Mupirocina</div>
@@ -1666,7 +1681,7 @@
             <span class="med-receita sim">Com Receita</span>
         </div>
         <div class="letra-grupo" data-letra="N">N</div>
-        <div class="med-item" data-busca="naloxona (narcan) naloxona narcan kloxxado">
+        <div class="med-item" data-receita="nao" data-busca="naloxona (narcan) naloxona narcan kloxxado">
             <div class="med-info">
                 <div class="med-nome">Naloxona (Narcan)</div>
                 <div class="med-generico">Naloxona</div>
@@ -1674,7 +1689,7 @@
             </div>
             <span class="med-receita nao">Venda Livre</span>
         </div>
-        <div class="med-item" data-busca="naltrexona 50mg naltrexona revia vivitrol naltrexona hcl">
+        <div class="med-item" data-receita="sim" data-busca="naltrexona 50mg naltrexona revia vivitrol naltrexona hcl">
             <div class="med-info">
                 <div class="med-nome">Naltrexona 50mg</div>
                 <div class="med-generico">Naltrexona</div>
@@ -1682,7 +1697,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="naltrexona 50mg cloridrato de naltrexona revia vivitrol (injetável) naltrexona ems">
+        <div class="med-item" data-receita="sim" data-busca="naltrexona 50mg cloridrato de naltrexona revia vivitrol (injetável) naltrexona ems">
             <div class="med-info">
                 <div class="med-nome">Naltrexona 50mg</div>
                 <div class="med-generico">Cloridrato de Naltrexona</div>
@@ -1690,7 +1705,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="neomicina pomada neomicina ">
+        <div class="med-item" data-receita="nao" data-busca="neomicina pomada neomicina ">
             <div class="med-info">
                 <div class="med-nome">Neomicina Pomada</div>
                 <div class="med-generico">Neomicina</div>
@@ -1698,7 +1713,7 @@
             </div>
             <span class="med-receita nao">Venda Livre</span>
         </div>
-        <div class="med-item" data-busca="nifedipina 10mg - 20mg - 30mg retard (liberação prolongada) nifedipina ">
+        <div class="med-item" data-receita="sim" data-busca="nifedipina 10mg - 20mg - 30mg retard (liberação prolongada) nifedipina ">
             <div class="med-info">
                 <div class="med-nome">Nifedipina 10mg - 20mg - 30mg Retard (Liberação Prolongada)</div>
                 <div class="med-generico">Nifedipina</div>
@@ -1706,7 +1721,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="nimesulida 100mg - suspensão nimesulida ">
+        <div class="med-item" data-receita="sim" data-busca="nimesulida 100mg - suspensão nimesulida ">
             <div class="med-info">
                 <div class="med-nome">Nimesulida 100mg - Suspensão</div>
                 <div class="med-generico">Nimesulida</div>
@@ -1714,7 +1729,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="nitazoxanida 500mg - suspensão nitazoxanida ">
+        <div class="med-item" data-receita="nao" data-busca="nitazoxanida 500mg - suspensão nitazoxanida ">
             <div class="med-info">
                 <div class="med-nome">Nitazoxanida 500mg - Suspensão</div>
                 <div class="med-generico">Nitazoxanida</div>
@@ -1722,7 +1737,7 @@
             </div>
             <span class="med-receita nao">Venda Livre</span>
         </div>
-        <div class="med-item" data-busca="nitrofurantoína 100mg nitrofurantoína ">
+        <div class="med-item" data-receita="sim" data-busca="nitrofurantoína 100mg nitrofurantoína ">
             <div class="med-info">
                 <div class="med-nome">Nitrofurantoína 100mg</div>
                 <div class="med-generico">Nitrofurantoína</div>
@@ -1730,7 +1745,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="nitroglicerina / trinitrato de glicerina spray 0,4mg/dose nitroglicerina nitrostat ntg spray nitroglicerina tridil">
+        <div class="med-item" data-receita="sim" data-busca="nitroglicerina / trinitrato de glicerina spray 0,4mg/dose nitroglicerina nitrostat ntg spray nitroglicerina tridil">
             <div class="med-info">
                 <div class="med-nome">Nitroglicerina / Trinitrato de Glicerina Spray 0,4mg/dose</div>
                 <div class="med-generico">Nitroglicerina</div>
@@ -1739,7 +1754,7 @@
             <span class="med-receita sim">Com Receita</span>
         </div>
         <div class="letra-grupo" data-letra="O">O</div>
-        <div class="med-item" data-busca="olanzapina 2,5mg - 5mg - 10mg - 15mg - 20mg olanzapina ">
+        <div class="med-item" data-receita="sim" data-busca="olanzapina 2,5mg - 5mg - 10mg - 15mg - 20mg olanzapina ">
             <div class="med-info">
                 <div class="med-nome">Olanzapina 2,5mg - 5mg - 10mg - 15mg - 20mg</div>
                 <div class="med-generico">Olanzapina</div>
@@ -1747,7 +1762,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="omeprazol 10mg - 20mg - 40mg omeprazol ">
+        <div class="med-item" data-receita="nao" data-busca="omeprazol 10mg - 20mg - 40mg omeprazol ">
             <div class="med-info">
                 <div class="med-nome">Omeprazol 10mg - 20mg - 40mg</div>
                 <div class="med-generico">Omeprazol</div>
@@ -1755,7 +1770,7 @@
             </div>
             <span class="med-receita nao">Venda Livre</span>
         </div>
-        <div class="med-item" data-busca="ondansetrom 4mg - 8mg cloridrato de ondansetrom vonau zofran ondansetrom ems nausedron">
+        <div class="med-item" data-receita="sim" data-busca="ondansetrom 4mg - 8mg cloridrato de ondansetrom vonau zofran ondansetrom ems nausedron">
             <div class="med-info">
                 <div class="med-nome">Ondansetrom 4mg - 8mg</div>
                 <div class="med-generico">Cloridrato de Ondansetrom</div>
@@ -1763,7 +1778,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="ondansetrom 4mg - 8mg - injetável ondansetrom ">
+        <div class="med-item" data-receita="sim" data-busca="ondansetrom 4mg - 8mg - injetável ondansetrom ">
             <div class="med-info">
                 <div class="med-nome">Ondansetrom 4mg - 8mg - Injetável</div>
                 <div class="med-generico">Ondansetrom</div>
@@ -1771,7 +1786,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="oseltamivir 75mg - suspensão oseltamivir ">
+        <div class="med-item" data-receita="sim" data-busca="oseltamivir 75mg - suspensão oseltamivir ">
             <div class="med-info">
                 <div class="med-nome">Oseltamivir 75mg - Suspensão</div>
                 <div class="med-generico">Oseltamivir</div>
@@ -1779,7 +1794,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="oxcarbazepina 300mg - 600mg oxcarbazepina trileptal oxcarbazepina ems oxcazepan">
+        <div class="med-item" data-receita="sim" data-busca="oxcarbazepina 300mg - 600mg oxcarbazepina trileptal oxcarbazepina ems oxcazepan">
             <div class="med-info">
                 <div class="med-nome">Oxcarbazepina 300mg - 600mg</div>
                 <div class="med-generico">Oxcarbazepina</div>
@@ -1787,7 +1802,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="oxibutinina 5mg - 10mg cloridrato de oxibutinina retemic oxibutinina ems ditropan kentera (adesivo)">
+        <div class="med-item" data-receita="sim" data-busca="oxibutinina 5mg - 10mg cloridrato de oxibutinina retemic oxibutinina ems ditropan kentera (adesivo)">
             <div class="med-info">
                 <div class="med-nome">Oxibutinina 5mg - 10mg</div>
                 <div class="med-generico">Cloridrato de Oxibutinina</div>
@@ -1796,7 +1811,7 @@
             <span class="med-receita sim">Com Receita</span>
         </div>
         <div class="letra-grupo" data-letra="P">P</div>
-        <div class="med-item" data-busca="pantoprazol 20mg - 40mg pantoprazol sódico ">
+        <div class="med-item" data-receita="nao" data-busca="pantoprazol 20mg - 40mg pantoprazol sódico ">
             <div class="med-info">
                 <div class="med-nome">Pantoprazol 20mg - 40mg</div>
                 <div class="med-generico">Pantoprazol Sódico</div>
@@ -1804,7 +1819,7 @@
             </div>
             <span class="med-receita nao">Venda Livre</span>
         </div>
-        <div class="med-item" data-busca="pantoprazol 20mg - 40mg pantoprazol sódico sesqui-hidratado pantozol pantoprazol ems panto zurcal">
+        <div class="med-item" data-receita="nao" data-busca="pantoprazol 20mg - 40mg pantoprazol sódico sesqui-hidratado pantozol pantoprazol ems panto zurcal">
             <div class="med-info">
                 <div class="med-nome">Pantoprazol 20mg - 40mg</div>
                 <div class="med-generico">Pantoprazol Sódico Sesqui-hidratado</div>
@@ -1812,7 +1827,7 @@
             </div>
             <span class="med-receita nao">Venda Livre</span>
         </div>
-        <div class="med-item" data-busca="paracetamol 500mg - 750mg - gotas - xarope paracetamol ">
+        <div class="med-item" data-receita="nao" data-busca="paracetamol 500mg - 750mg - gotas - xarope paracetamol ">
             <div class="med-info">
                 <div class="med-nome">Paracetamol 500mg - 750mg - Gotas - Xarope</div>
                 <div class="med-generico">Paracetamol</div>
@@ -1820,7 +1835,7 @@
             </div>
             <span class="med-receita nao">Venda Livre</span>
         </div>
-        <div class="med-item" data-busca="paroxetina 10mg - 20mg - 40mg paroxetina ">
+        <div class="med-item" data-receita="sim" data-busca="paroxetina 10mg - 20mg - 40mg paroxetina ">
             <div class="med-info">
                 <div class="med-nome">Paroxetina 10mg - 20mg - 40mg</div>
                 <div class="med-generico">Paroxetina</div>
@@ -1828,7 +1843,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="permetrina 1% - 5% loção / creme permetrina kwell scabio permetrina ems nix (1%) elimite (5%)">
+        <div class="med-item" data-receita="nao" data-busca="permetrina 1% - 5% loção / creme permetrina kwell scabio permetrina ems nix (1%) elimite (5%)">
             <div class="med-info">
                 <div class="med-nome">Permetrina 1% - 5% Loção / Creme</div>
                 <div class="med-generico">Permetrina</div>
@@ -1836,7 +1851,7 @@
             </div>
             <span class="med-receita nao">Venda Livre</span>
         </div>
-        <div class="med-item" data-busca="peróxido de benzoíla 2,5% - 5% - 10% gel peróxido de benzoíla benzac panoxyl acnefree peróxido de benzoíla ems epiduo (com adapaleno)">
+        <div class="med-item" data-receita="nao" data-busca="peróxido de benzoíla 2,5% - 5% - 10% gel peróxido de benzoíla benzac panoxyl acnefree peróxido de benzoíla ems epiduo (com adapaleno)">
             <div class="med-info">
                 <div class="med-nome">Peróxido de Benzoíla 2,5% - 5% - 10% Gel</div>
                 <div class="med-generico">Peróxido de Benzoíla</div>
@@ -1844,7 +1859,7 @@
             </div>
             <span class="med-receita nao">Venda Livre</span>
         </div>
-        <div class="med-item" data-busca="peróxido de hidrogênio 3% - água oxigenada peróxido de hidrogênio ">
+        <div class="med-item" data-receita="nao" data-busca="peróxido de hidrogênio 3% - água oxigenada peróxido de hidrogênio ">
             <div class="med-info">
                 <div class="med-nome">Peróxido de Hidrogênio 3% - Água Oxigenada</div>
                 <div class="med-generico">Peróxido de Hidrogênio</div>
@@ -1852,7 +1867,7 @@
             </div>
             <span class="med-receita nao">Venda Livre</span>
         </div>
-        <div class="med-item" data-busca="pioglitazona 15mg - 30mg - 45mg pioglitazona actos pioglit">
+        <div class="med-item" data-receita="sim" data-busca="pioglitazona 15mg - 30mg - 45mg pioglitazona actos pioglit">
             <div class="med-info">
                 <div class="med-nome">Pioglitazona 15mg - 30mg - 45mg</div>
                 <div class="med-generico">Pioglitazona</div>
@@ -1860,7 +1875,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="pirazinamida 500mg pirazinamida ">
+        <div class="med-item" data-receita="sim" data-busca="pirazinamida 500mg pirazinamida ">
             <div class="med-info">
                 <div class="med-nome">Pirazinamida 500mg</div>
                 <div class="med-generico">Pirazinamida</div>
@@ -1868,7 +1883,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="pramipexol 0,125mg - 0,25mg - 1mg dicloridrato de pramipexol sifrol mirapex pramipexol ems">
+        <div class="med-item" data-receita="sim" data-busca="pramipexol 0,125mg - 0,25mg - 1mg dicloridrato de pramipexol sifrol mirapex pramipexol ems">
             <div class="med-info">
                 <div class="med-nome">Pramipexol 0,125mg - 0,25mg - 1mg</div>
                 <div class="med-generico">Dicloridrato de Pramipexol</div>
@@ -1876,7 +1891,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="prednisona 5mg - 20mg prednisona ">
+        <div class="med-item" data-receita="sim" data-busca="prednisona 5mg - 20mg prednisona ">
             <div class="med-info">
                 <div class="med-nome">Prednisona 5mg - 20mg</div>
                 <div class="med-generico">Prednisona</div>
@@ -1884,7 +1899,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="pregabalina 25mg - 50mg - 75mg - 150mg - 300mg pregabalina ">
+        <div class="med-item" data-receita="sim" data-busca="pregabalina 25mg - 50mg - 75mg - 150mg - 300mg pregabalina ">
             <div class="med-info">
                 <div class="med-nome">Pregabalina 25mg - 50mg - 75mg - 150mg - 300mg</div>
                 <div class="med-generico">Pregabalina</div>
@@ -1892,7 +1907,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="progesterona micronizada 100mg - 200mg progesterona micronizada utrogestan crinone (gel) progesterona ems endogest">
+        <div class="med-item" data-receita="sim" data-busca="progesterona micronizada 100mg - 200mg progesterona micronizada utrogestan crinone (gel) progesterona ems endogest">
             <div class="med-info">
                 <div class="med-nome">Progesterona Micronizada 100mg - 200mg</div>
                 <div class="med-generico">Progesterona Micronizada</div>
@@ -1900,7 +1915,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="prometazina 25mg - creme - xarope - injetável prometazina ">
+        <div class="med-item" data-receita="sim" data-busca="prometazina 25mg - creme - xarope - injetável prometazina ">
             <div class="med-info">
                 <div class="med-nome">Prometazina 25mg - Creme - Xarope - Injetável</div>
                 <div class="med-generico">Prometazina</div>
@@ -1908,7 +1923,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="propranolol 10mg - 40mg - 80mg propranolol ">
+        <div class="med-item" data-receita="sim" data-busca="propranolol 10mg - 40mg - 80mg propranolol ">
             <div class="med-info">
                 <div class="med-nome">Propranolol 10mg - 40mg - 80mg</div>
                 <div class="med-generico">Propranolol</div>
@@ -1917,7 +1932,7 @@
             <span class="med-receita sim">Com Receita</span>
         </div>
         <div class="letra-grupo" data-letra="Q">Q</div>
-        <div class="med-item" data-busca="quetiapina 25mg - 50mg - 100mg - 200mg - 300mg - xr (liberação prolongada) quetiapina ">
+        <div class="med-item" data-receita="sim" data-busca="quetiapina 25mg - 50mg - 100mg - 200mg - 300mg - xr (liberação prolongada) quetiapina ">
             <div class="med-info">
                 <div class="med-nome">Quetiapina 25mg - 50mg - 100mg - 200mg - 300mg - XR (Liberação Prolongada)</div>
                 <div class="med-generico">Quetiapina</div>
@@ -1926,7 +1941,7 @@
             <span class="med-receita sim">Com Receita</span>
         </div>
         <div class="letra-grupo" data-letra="R">R</div>
-        <div class="med-item" data-busca="rabeprazol 10mg - 20mg rabeprazol sódico pariet rabeloc rabeprazol ems">
+        <div class="med-item" data-receita="sim" data-busca="rabeprazol 10mg - 20mg rabeprazol sódico pariet rabeloc rabeprazol ems">
             <div class="med-info">
                 <div class="med-nome">Rabeprazol 10mg - 20mg</div>
                 <div class="med-generico">Rabeprazol Sódico</div>
@@ -1934,7 +1949,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="ranitidina 150mg - 300mg - solução - injetável ranitidina ">
+        <div class="med-item" data-receita="nao" data-busca="ranitidina 150mg - 300mg - solução - injetável ranitidina ">
             <div class="med-info">
                 <div class="med-nome">Ranitidina 150mg - 300mg - Solução - Injetável</div>
                 <div class="med-generico">Ranitidina</div>
@@ -1942,7 +1957,7 @@
             </div>
             <span class="med-receita nao">Venda Livre</span>
         </div>
-        <div class="med-item" data-busca="rasagilina 1mg mesilato de rasagilina azilect rasagilina ems">
+        <div class="med-item" data-receita="sim" data-busca="rasagilina 1mg mesilato de rasagilina azilect rasagilina ems">
             <div class="med-info">
                 <div class="med-nome">Rasagilina 1mg</div>
                 <div class="med-generico">Mesilato de Rasagilina</div>
@@ -1950,7 +1965,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="ribavirina 200mg - 250mg ribavirina ">
+        <div class="med-item" data-receita="sim" data-busca="ribavirina 200mg - 250mg ribavirina ">
             <div class="med-info">
                 <div class="med-nome">Ribavirina 200mg - 250mg</div>
                 <div class="med-generico">Ribavirina</div>
@@ -1958,7 +1973,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="rifampicina 300mg cápsula - suspensão rifampicina ">
+        <div class="med-item" data-receita="sim" data-busca="rifampicina 300mg cápsula - suspensão rifampicina ">
             <div class="med-info">
                 <div class="med-nome">Rifampicina 300mg Cápsula - Suspensão</div>
                 <div class="med-generico">Rifampicina</div>
@@ -1966,7 +1981,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="rifaximina 200mg - 550mg rifaximina ">
+        <div class="med-item" data-receita="sim" data-busca="rifaximina 200mg - 550mg rifaximina ">
             <div class="med-info">
                 <div class="med-nome">Rifaximina 200mg - 550mg</div>
                 <div class="med-generico">Rifaximina</div>
@@ -1974,7 +1989,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="risperidona 0,5mg - 1mg - 2mg - 3mg - 4mg - solução oral risperidona ">
+        <div class="med-item" data-receita="sim" data-busca="risperidona 0,5mg - 1mg - 2mg - 3mg - 4mg - solução oral risperidona ">
             <div class="med-info">
                 <div class="med-nome">Risperidona 0,5mg - 1mg - 2mg - 3mg - 4mg - Solução Oral</div>
                 <div class="med-generico">Risperidona</div>
@@ -1982,7 +1997,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="rivaroxabana 10mg - 15mg - 20mg (xarelto) rivaroxabana ">
+        <div class="med-item" data-receita="sim" data-busca="rivaroxabana 10mg - 15mg - 20mg (xarelto) rivaroxabana ">
             <div class="med-info">
                 <div class="med-nome">Rivaroxabana 10mg - 15mg - 20mg (Xarelto)</div>
                 <div class="med-generico">Rivaroxabana</div>
@@ -1990,7 +2005,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="rizatriptana 5mg - 10mg benzoato de rizatriptana maxalt rizatriptana ems rizalt">
+        <div class="med-item" data-receita="sim" data-busca="rizatriptana 5mg - 10mg benzoato de rizatriptana maxalt rizatriptana ems rizalt">
             <div class="med-info">
                 <div class="med-nome">Rizatriptana 5mg - 10mg</div>
                 <div class="med-generico">Benzoato de Rizatriptana</div>
@@ -1998,7 +2013,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="rosuvastatina 5mg - 10mg - 20mg - 40mg rosuvastatina crestor rosuvax vivacor">
+        <div class="med-item" data-receita="sim" data-busca="rosuvastatina 5mg - 10mg - 20mg - 40mg rosuvastatina crestor rosuvax vivacor">
             <div class="med-info">
                 <div class="med-nome">Rosuvastatina 5mg - 10mg - 20mg - 40mg</div>
                 <div class="med-generico">Rosuvastatina</div>
@@ -2006,7 +2021,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="rybelsus 3mg - 7mg - 14mg (semaglutida oral) semaglutida rybelsus semaglutida oral ozempic comprimido">
+        <div class="med-item" data-receita="sim" data-busca="rybelsus 3mg - 7mg - 14mg (semaglutida oral) semaglutida rybelsus semaglutida oral ozempic comprimido">
             <div class="med-info">
                 <div class="med-nome">Rybelsus 3mg - 7mg - 14mg (Semaglutida Oral)</div>
                 <div class="med-generico">Semaglutida</div>
@@ -2015,7 +2030,7 @@
             <span class="med-receita sim">Com Receita</span>
         </div>
         <div class="letra-grupo" data-letra="S">S</div>
-        <div class="med-item" data-busca="sacubitril + valsartana (entresto) sacubitril / valsartana entresto vymada">
+        <div class="med-item" data-receita="sim" data-busca="sacubitril + valsartana (entresto) sacubitril / valsartana entresto vymada">
             <div class="med-info">
                 <div class="med-nome">Sacubitril + Valsartana (Entresto)</div>
                 <div class="med-generico">Sacubitril / Valsartana</div>
@@ -2023,7 +2038,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="salbutamol spray inalatório - solução para nebulização salbutamol ">
+        <div class="med-item" data-receita="nao" data-busca="salbutamol spray inalatório - solução para nebulização salbutamol ">
             <div class="med-info">
                 <div class="med-nome">Salbutamol Spray Inalatório - Solução para Nebulização</div>
                 <div class="med-generico">Salbutamol</div>
@@ -2031,7 +2046,7 @@
             </div>
             <span class="med-receita nao">Venda Livre</span>
         </div>
-        <div class="med-item" data-busca="salmeterol + fluticasona 25mcg/125mcg - 50mcg/250mcg salmeterol + propionato de fluticasona seretide advair salmeterol+fluticasona genérico">
+        <div class="med-item" data-receita="sim" data-busca="salmeterol + fluticasona 25mcg/125mcg - 50mcg/250mcg salmeterol + propionato de fluticasona seretide advair salmeterol+fluticasona genérico">
             <div class="med-info">
                 <div class="med-nome">Salmeterol + Fluticasona 25mcg/125mcg - 50mcg/250mcg</div>
                 <div class="med-generico">Salmeterol + Propionato de Fluticasona</div>
@@ -2039,7 +2054,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="saxagliptina 2,5mg - 5mg (onglyza) saxagliptina onglyza komboglyze (com metformina)">
+        <div class="med-item" data-receita="sim" data-busca="saxagliptina 2,5mg - 5mg (onglyza) saxagliptina onglyza komboglyze (com metformina)">
             <div class="med-info">
                 <div class="med-nome">Saxagliptina 2,5mg - 5mg (Onglyza)</div>
                 <div class="med-generico">Saxagliptina</div>
@@ -2047,7 +2062,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="saxenda (liraglutida) 6mg/ml liraglutida ">
+        <div class="med-item" data-receita="sim" data-busca="saxenda (liraglutida) 6mg/ml liraglutida ">
             <div class="med-info">
                 <div class="med-nome">Saxenda (Liraglutida) 6mg/mL</div>
                 <div class="med-generico">Liraglutida</div>
@@ -2055,7 +2070,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="secnidazol 1g - 2g - suspensão secnidazol ">
+        <div class="med-item" data-receita="sim" data-busca="secnidazol 1g - 2g - suspensão secnidazol ">
             <div class="med-info">
                 <div class="med-nome">Secnidazol 1g - 2g - Suspensão</div>
                 <div class="med-generico">Secnidazol</div>
@@ -2063,7 +2078,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="semaglutida 0,25mg - 0,5mg - 1mg - 2,4mg (ozempic / wegovy / poviztra / extensior) semaglutida ">
+        <div class="med-item" data-receita="sim" data-busca="semaglutida 0,25mg - 0,5mg - 1mg - 2,4mg (ozempic / wegovy / poviztra / extensior) semaglutida ">
             <div class="med-info">
                 <div class="med-nome">Semaglutida 0,25mg - 0,5mg - 1mg - 2,4mg (Ozempic / Wegovy / Poviztra / Extensior)</div>
                 <div class="med-generico">Semaglutida</div>
@@ -2071,7 +2086,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="sertralina 25mg - 50mg - 75mg - 100mg sertralina ">
+        <div class="med-item" data-receita="sim" data-busca="sertralina 25mg - 50mg - 75mg - 100mg sertralina ">
             <div class="med-info">
                 <div class="med-nome">Sertralina 25mg - 50mg - 75mg - 100mg</div>
                 <div class="med-generico">Sertralina</div>
@@ -2079,7 +2094,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="sildenafila 25mg - 50mg - 100mg sildenafila ">
+        <div class="med-item" data-receita="sim" data-busca="sildenafila 25mg - 50mg - 100mg sildenafila ">
             <div class="med-info">
                 <div class="med-nome">Sildenafila 25mg - 50mg - 100mg</div>
                 <div class="med-generico">Sildenafila</div>
@@ -2087,7 +2102,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="silodosina 4mg - 8mg silodosina urorec silodosina ems rapaflo">
+        <div class="med-item" data-receita="sim" data-busca="silodosina 4mg - 8mg silodosina urorec silodosina ems rapaflo">
             <div class="med-info">
                 <div class="med-nome">Silodosina 4mg - 8mg</div>
                 <div class="med-generico">Silodosina</div>
@@ -2095,7 +2110,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="simeticona 40mg - 80mg - 125mg - gotas simeticona ">
+        <div class="med-item" data-receita="nao" data-busca="simeticona 40mg - 80mg - 125mg - gotas simeticona ">
             <div class="med-info">
                 <div class="med-nome">Simeticona 40mg - 80mg - 125mg - Gotas</div>
                 <div class="med-generico">Simeticona</div>
@@ -2103,7 +2118,7 @@
             </div>
             <span class="med-receita nao">Venda Livre</span>
         </div>
-        <div class="med-item" data-busca="sinvastatina 10mg - 20mg - 40mg - 80mg sinvastatina ">
+        <div class="med-item" data-receita="sim" data-busca="sinvastatina 10mg - 20mg - 40mg - 80mg sinvastatina ">
             <div class="med-info">
                 <div class="med-nome">Sinvastatina 10mg - 20mg - 40mg - 80mg</div>
                 <div class="med-generico">Sinvastatina</div>
@@ -2111,7 +2126,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="sitagliptina 100mg (januvia) sitagliptina januvia janumet (com metformina)">
+        <div class="med-item" data-receita="sim" data-busca="sitagliptina 100mg (januvia) sitagliptina januvia janumet (com metformina)">
             <div class="med-info">
                 <div class="med-nome">Sitagliptina 100mg (Januvia)</div>
                 <div class="med-generico">Sitagliptina</div>
@@ -2119,7 +2134,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="solifenacina 5mg - 10mg succinato de solifenacina vesicare solifenacina ems vesitab">
+        <div class="med-item" data-receita="sim" data-busca="solifenacina 5mg - 10mg succinato de solifenacina vesicare solifenacina ems vesitab">
             <div class="med-info">
                 <div class="med-nome">Solifenacina 5mg - 10mg</div>
                 <div class="med-generico">Succinato de Solifenacina</div>
@@ -2127,7 +2142,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="sucralfato 1g - suspensão sucralfato ">
+        <div class="med-item" data-receita="sim" data-busca="sucralfato 1g - suspensão sucralfato ">
             <div class="med-info">
                 <div class="med-nome">Sucralfato 1g - Suspensão</div>
                 <div class="med-generico">Sucralfato</div>
@@ -2135,7 +2150,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="sulfametoxazol + trimetoprima 400mg/80mg - 800mg/160mg - suspensão sulfametoxazol + trimetoprima ">
+        <div class="med-item" data-receita="sim" data-busca="sulfametoxazol + trimetoprima 400mg/80mg - 800mg/160mg - suspensão sulfametoxazol + trimetoprima ">
             <div class="med-info">
                 <div class="med-nome">Sulfametoxazol + Trimetoprima 400mg/80mg - 800mg/160mg - Suspensão</div>
                 <div class="med-generico">Sulfametoxazol + Trimetoprima</div>
@@ -2143,7 +2158,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="sulfato ferroso 40mg - 300mg - gotas - xarope - injetável sulfato ferroso ">
+        <div class="med-item" data-receita="sim" data-busca="sulfato ferroso 40mg - 300mg - gotas - xarope - injetável sulfato ferroso ">
             <div class="med-info">
                 <div class="med-nome">Sulfato Ferroso 40mg - 300mg - Gotas - Xarope - Injetável</div>
                 <div class="med-generico">Sulfato Ferroso</div>
@@ -2151,7 +2166,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="sulpirida 50mg - 200mg sulpirida dogmatil sulpirida ems equilid">
+        <div class="med-item" data-receita="sim" data-busca="sulpirida 50mg - 200mg sulpirida dogmatil sulpirida ems equilid">
             <div class="med-info">
                 <div class="med-nome">Sulpirida 50mg - 200mg</div>
                 <div class="med-generico">Sulpirida</div>
@@ -2159,7 +2174,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="sumatriptana 50mg - 100mg - 6mg/0,5ml injetável succinato de sumatriptana imigran sumax sumatriptana ems imitrex">
+        <div class="med-item" data-receita="sim" data-busca="sumatriptana 50mg - 100mg - 6mg/0,5ml injetável succinato de sumatriptana imigran sumax sumatriptana ems imitrex">
             <div class="med-info">
                 <div class="med-nome">Sumatriptana 50mg - 100mg - 6mg/0,5mL Injetável</div>
                 <div class="med-generico">Succinato de Sumatriptana</div>
@@ -2168,7 +2183,7 @@
             <span class="med-receita sim">Com Receita</span>
         </div>
         <div class="letra-grupo" data-letra="T">T</div>
-        <div class="med-item" data-busca="tacrolimo 0,03% - 0,1% pomada tacrolimo protopic tacrolimo ems fk-506 tópico">
+        <div class="med-item" data-receita="sim" data-busca="tacrolimo 0,03% - 0,1% pomada tacrolimo protopic tacrolimo ems fk-506 tópico">
             <div class="med-info">
                 <div class="med-nome">Tacrolimo 0,03% - 0,1% Pomada</div>
                 <div class="med-generico">Tacrolimo</div>
@@ -2176,7 +2191,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="tadalafila 5mg - 10mg - 20mg tadalafila ">
+        <div class="med-item" data-receita="sim" data-busca="tadalafila 5mg - 10mg - 20mg tadalafila ">
             <div class="med-info">
                 <div class="med-nome">Tadalafila 5mg - 10mg - 20mg</div>
                 <div class="med-generico">Tadalafila</div>
@@ -2184,7 +2199,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="tamsulosina 0,4mg cloridrato de tamsulosina secotex tamsulosina ems flomaxtra urimax">
+        <div class="med-item" data-receita="sim" data-busca="tamsulosina 0,4mg cloridrato de tamsulosina secotex tamsulosina ems flomaxtra urimax">
             <div class="med-info">
                 <div class="med-nome">Tamsulosina 0,4mg</div>
                 <div class="med-generico">Cloridrato de Tamsulosina</div>
@@ -2192,7 +2207,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="tapentadol 50mg - 100mg - 150mg - 200mg - 250mg cloridrato de tapentadol palexia tapentadol ems nucynta">
+        <div class="med-item" data-receita="sim" data-busca="tapentadol 50mg - 100mg - 150mg - 200mg - 250mg cloridrato de tapentadol palexia tapentadol ems nucynta">
             <div class="med-info">
                 <div class="med-nome">Tapentadol 50mg - 100mg - 150mg - 200mg - 250mg</div>
                 <div class="med-generico">Cloridrato de Tapentadol</div>
@@ -2200,7 +2215,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="tenofovir 300mg tenofovir disoproxila ">
+        <div class="med-item" data-receita="sim" data-busca="tenofovir 300mg tenofovir disoproxila ">
             <div class="med-info">
                 <div class="med-nome">Tenofovir 300mg</div>
                 <div class="med-generico">Tenofovir Disoproxila</div>
@@ -2208,7 +2223,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="terbinafina 250mg - creme terbinafina ">
+        <div class="med-item" data-receita="sim" data-busca="terbinafina 250mg - creme terbinafina ">
             <div class="med-info">
                 <div class="med-nome">Terbinafina 250mg - Creme</div>
                 <div class="med-generico">Terbinafina</div>
@@ -2216,7 +2231,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="tiotropio 18mcg inalador brometo de tiotrópio spiriva tiotrópio ems braltus">
+        <div class="med-item" data-receita="sim" data-busca="tiotropio 18mcg inalador brometo de tiotrópio spiriva tiotrópio ems braltus">
             <div class="med-info">
                 <div class="med-nome">Tiotropio 18mcg Inalador</div>
                 <div class="med-generico">Brometo de Tiotrópio</div>
@@ -2224,7 +2239,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="topiramato 25mg - 50mg - 100mg topiramato ">
+        <div class="med-item" data-receita="sim" data-busca="topiramato 25mg - 50mg - 100mg topiramato ">
             <div class="med-info">
                 <div class="med-nome">Topiramato 25mg - 50mg - 100mg</div>
                 <div class="med-generico">Topiramato</div>
@@ -2232,7 +2247,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="tramadol 50mg - 100mg - gotas - injetável tramadol ">
+        <div class="med-item" data-receita="nao" data-busca="tramadol 50mg - 100mg - gotas - injetável tramadol ">
             <div class="med-info">
                 <div class="med-nome">Tramadol 50mg - 100mg - Gotas - Injetável</div>
                 <div class="med-generico">Tramadol</div>
@@ -2240,7 +2255,7 @@
             </div>
             <span class="med-receita nao">Venda Livre</span>
         </div>
-        <div class="med-item" data-busca="trazodona 50mg - 100mg - 150mg trazodona ">
+        <div class="med-item" data-receita="sim" data-busca="trazodona 50mg - 100mg - 150mg trazodona ">
             <div class="med-info">
                 <div class="med-nome">Trazodona 50mg - 100mg - 150mg</div>
                 <div class="med-generico">Trazodona</div>
@@ -2248,7 +2263,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="tretinoína 0,025% - 0,05% - 0,1% - creme tretinoína ">
+        <div class="med-item" data-receita="sim" data-busca="tretinoína 0,025% - 0,05% - 0,1% - creme tretinoína ">
             <div class="med-info">
                 <div class="med-nome">Tretinoína 0,025% - 0,05% - 0,1% - Creme</div>
                 <div class="med-generico">Tretinoína</div>
@@ -2256,7 +2271,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="trimebutina 100mg - 200mg maleato de trimebutina modulon trimebutina ems debridat">
+        <div class="med-item" data-receita="sim" data-busca="trimebutina 100mg - 200mg maleato de trimebutina modulon trimebutina ems debridat">
             <div class="med-info">
                 <div class="med-nome">Trimebutina 100mg - 200mg</div>
                 <div class="med-generico">Maleato de Trimebutina</div>
@@ -2264,7 +2279,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="trimetazidina 20mg - 35mg mr trimetazidina vastarel trimetazidina ems tmz">
+        <div class="med-item" data-receita="sim" data-busca="trimetazidina 20mg - 35mg mr trimetazidina vastarel trimetazidina ems tmz">
             <div class="med-info">
                 <div class="med-nome">Trimetazidina 20mg - 35mg MR</div>
                 <div class="med-generico">Trimetazidina</div>
@@ -2273,7 +2288,7 @@
             <span class="med-receita sim">Com Receita</span>
         </div>
         <div class="letra-grupo" data-letra="V">V</div>
-        <div class="med-item" data-busca="valproato de sódio 250mg - 500mg - solução oral ácido valproico / valproato de sódio ">
+        <div class="med-item" data-receita="sim" data-busca="valproato de sódio 250mg - 500mg - solução oral ácido valproico / valproato de sódio ">
             <div class="med-info">
                 <div class="med-nome">Valproato de Sódio 250mg - 500mg - Solução Oral</div>
                 <div class="med-generico">Ácido Valproico / Valproato de Sódio</div>
@@ -2281,7 +2296,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="valproato de sódio lp 250mg - 500mg (liberação prolongada) ácido valpróico / valproato de sódio depakote er depakote lp valpakine cr depakene lp">
+        <div class="med-item" data-receita="sim" data-busca="valproato de sódio lp 250mg - 500mg (liberação prolongada) ácido valpróico / valproato de sódio depakote er depakote lp valpakine cr depakene lp">
             <div class="med-info">
                 <div class="med-nome">Valproato de Sódio LP 250mg - 500mg (Liberação Prolongada)</div>
                 <div class="med-generico">Ácido Valpróico / Valproato de Sódio</div>
@@ -2289,7 +2304,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="valsartana 80mg - 160mg - 320mg valsartana ">
+        <div class="med-item" data-receita="sim" data-busca="valsartana 80mg - 160mg - 320mg valsartana ">
             <div class="med-info">
                 <div class="med-nome">Valsartana 80mg - 160mg - 320mg</div>
                 <div class="med-generico">Valsartana</div>
@@ -2297,7 +2312,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="vancomicina 500mg - 1g (injetável) vancomicina vancocin vancomicina hospira vancomicina ems">
+        <div class="med-item" data-receita="sim" data-busca="vancomicina 500mg - 1g (injetável) vancomicina vancocin vancomicina hospira vancomicina ems">
             <div class="med-info">
                 <div class="med-nome">Vancomicina 500mg - 1g (injetável)</div>
                 <div class="med-generico">Vancomicina</div>
@@ -2305,7 +2320,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="vareniclina (champix) vareniclina champix chantix">
+        <div class="med-item" data-receita="sim" data-busca="vareniclina (champix) vareniclina champix chantix">
             <div class="med-info">
                 <div class="med-nome">Vareniclina (Champix)</div>
                 <div class="med-generico">Vareniclina</div>
@@ -2313,7 +2328,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="venlafaxina 37,5mg - 75mg - 150mg - xr (liberação prolongada) venlafaxina ">
+        <div class="med-item" data-receita="sim" data-busca="venlafaxina 37,5mg - 75mg - 150mg - xr (liberação prolongada) venlafaxina ">
             <div class="med-info">
                 <div class="med-nome">Venlafaxina 37,5mg - 75mg - 150mg - XR (Liberação Prolongada)</div>
                 <div class="med-generico">Venlafaxina</div>
@@ -2321,7 +2336,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="verapamil 80mg - 120mg - 240mg - injetável verapamil ">
+        <div class="med-item" data-receita="sim" data-busca="verapamil 80mg - 120mg - 240mg - injetável verapamil ">
             <div class="med-info">
                 <div class="med-nome">Verapamil 80mg - 120mg - 240mg - Injetável</div>
                 <div class="med-generico">Verapamil</div>
@@ -2329,7 +2344,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="vitamina b1 (tiamina) 100mg - 300mg tiamina / cloridrato de tiamina tiamina ems benerva vitamina b1">
+        <div class="med-item" data-receita="nao" data-busca="vitamina b1 (tiamina) 100mg - 300mg tiamina / cloridrato de tiamina tiamina ems benerva vitamina b1">
             <div class="med-info">
                 <div class="med-nome">Vitamina B1 (Tiamina) 100mg - 300mg</div>
                 <div class="med-generico">Tiamina / Cloridrato de Tiamina</div>
@@ -2337,7 +2352,7 @@
             </div>
             <span class="med-receita nao">Venda Livre</span>
         </div>
-        <div class="med-item" data-busca="vitamina b12 500mcg - 1000mcg - injetável cianocobalamina / cobalamina ">
+        <div class="med-item" data-receita="nao" data-busca="vitamina b12 500mcg - 1000mcg - injetável cianocobalamina / cobalamina ">
             <div class="med-info">
                 <div class="med-nome">Vitamina B12 500mcg - 1000mcg - Injetável</div>
                 <div class="med-generico">Cianocobalamina / Cobalamina</div>
@@ -2345,7 +2360,7 @@
             </div>
             <span class="med-receita nao">Venda Livre</span>
         </div>
-        <div class="med-item" data-busca="vitamina d3 1000ui - 2000ui - 5000ui - 7000ui - 10000ui - gotas colecalciferol ">
+        <div class="med-item" data-receita="nao" data-busca="vitamina d3 1000ui - 2000ui - 5000ui - 7000ui - 10000ui - gotas colecalciferol ">
             <div class="med-info">
                 <div class="med-nome">Vitamina D3 1000UI - 2000UI - 5000UI - 7000UI - 10000UI - Gotas</div>
                 <div class="med-generico">Colecalciferol</div>
@@ -2353,7 +2368,7 @@
             </div>
             <span class="med-receita nao">Venda Livre</span>
         </div>
-        <div class="med-item" data-busca="vitamina d3 50.000ui cápsula (semanal) colecalciferol alta dose addera d3 50.000 vitamina d3 ems deltius vit d3 legrand">
+        <div class="med-item" data-receita="sim" data-busca="vitamina d3 50.000ui cápsula (semanal) colecalciferol alta dose addera d3 50.000 vitamina d3 ems deltius vit d3 legrand">
             <div class="med-info">
                 <div class="med-nome">Vitamina D3 50.000UI Cápsula (Semanal)</div>
                 <div class="med-generico">Colecalciferol Alta Dose</div>
@@ -2362,7 +2377,7 @@
             <span class="med-receita sim">Com Receita</span>
         </div>
         <div class="letra-grupo" data-letra="W">W</div>
-        <div class="med-item" data-busca="warfarina / varfarina 1mg - 2,5mg - 5mg warfarina (também conhecida como varfarina) ">
+        <div class="med-item" data-receita="sim" data-busca="warfarina / varfarina 1mg - 2,5mg - 5mg warfarina (também conhecida como varfarina) ">
             <div class="med-info">
                 <div class="med-nome">Warfarina / Varfarina 1mg - 2,5mg - 5mg</div>
                 <div class="med-generico">Warfarina (também conhecida como Varfarina)</div>
@@ -2371,7 +2386,7 @@
             <span class="med-receita sim">Com Receita</span>
         </div>
         <div class="letra-grupo" data-letra="Z">Z</div>
-        <div class="med-item" data-busca="zinco 7mg - 20mg - 40mg zinco (sulfato, glicinato ou quelato) zinco ems zinc now foods sundown zinco forté pharma zinco">
+        <div class="med-item" data-receita="nao" data-busca="zinco 7mg - 20mg - 40mg zinco (sulfato, glicinato ou quelato) zinco ems zinc now foods sundown zinco forté pharma zinco">
             <div class="med-info">
                 <div class="med-nome">Zinco 7mg - 20mg - 40mg</div>
                 <div class="med-generico">Zinco (Sulfato, Glicinato ou Quelato)</div>
@@ -2379,7 +2394,7 @@
             </div>
             <span class="med-receita nao">Venda Livre</span>
         </div>
-        <div class="med-item" data-busca="zolendronato / ácido zoledrónico 4mg - 5mg injetável ácido zoledrónico zometa (4mg) aclasta (5mg) ácido zoledrónico ems">
+        <div class="med-item" data-receita="sim" data-busca="zolendronato / ácido zoledrónico 4mg - 5mg injetável ácido zoledrónico zometa (4mg) aclasta (5mg) ácido zoledrónico ems">
             <div class="med-info">
                 <div class="med-nome">Zolendronato / Ácido Zoledrónico 4mg - 5mg Injetável</div>
                 <div class="med-generico">Ácido Zoledrónico</div>
@@ -2387,7 +2402,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="zolpidem 5mg - 10mg zolpidem ">
+        <div class="med-item" data-receita="sim" data-busca="zolpidem 5mg - 10mg zolpidem ">
             <div class="med-info">
                 <div class="med-nome">Zolpidem 5mg - 10mg</div>
                 <div class="med-generico">Zolpidem</div>
@@ -2395,7 +2410,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="zopiclona 3,75mg - 7,5mg zopiclona ">
+        <div class="med-item" data-receita="sim" data-busca="zopiclona 3,75mg - 7,5mg zopiclona ">
             <div class="med-info">
                 <div class="med-nome">Zopiclona 3,75mg - 7,5mg</div>
                 <div class="med-generico">Zopiclona</div>
@@ -2404,7 +2419,7 @@
             <span class="med-receita sim">Com Receita</span>
         </div>
         <div class="letra-grupo" data-letra="Á">Á</div>
-        <div class="med-item" data-busca="ácido ascórbico 5% - 20% vitamina c ">
+        <div class="med-item" data-receita="nao" data-busca="ácido ascórbico 5% - 20% vitamina c ">
             <div class="med-info">
                 <div class="med-nome">Ácido Ascórbico 5% - 20%</div>
                 <div class="med-generico">Vitamina C</div>
@@ -2412,7 +2427,7 @@
             </div>
             <span class="med-receita nao">Venda Livre</span>
         </div>
-        <div class="med-item" data-busca="ácido fólico 5mg ácido fólico ">
+        <div class="med-item" data-receita="nao" data-busca="ácido fólico 5mg ácido fólico ">
             <div class="med-info">
                 <div class="med-nome">Ácido Fólico 5mg</div>
                 <div class="med-generico">Ácido Fólico</div>
@@ -2420,7 +2435,7 @@
             </div>
             <span class="med-receita nao">Venda Livre</span>
         </div>
-        <div class="med-item" data-busca="ácido hialurônico sérum ácido hialurônico ">
+        <div class="med-item" data-receita="nao" data-busca="ácido hialurônico sérum ácido hialurônico ">
             <div class="med-info">
                 <div class="med-nome">Ácido Hialurônico Sérum</div>
                 <div class="med-generico">Ácido Hialurônico</div>
@@ -2428,7 +2443,7 @@
             </div>
             <span class="med-receita nao">Venda Livre</span>
         </div>
-        <div class="med-item" data-busca="ácido salicílico 2% ácido salicílico ">
+        <div class="med-item" data-receita="nao" data-busca="ácido salicílico 2% ácido salicílico ">
             <div class="med-info">
                 <div class="med-nome">Ácido Salicílico 2%</div>
                 <div class="med-generico">Ácido Salicílico</div>
@@ -2436,7 +2451,7 @@
             </div>
             <span class="med-receita nao">Venda Livre</span>
         </div>
-        <div class="med-item" data-busca="ácido úrico / benzbromarona 50mg - 100mg benzbromarona narcaricin desuric benzbromarona">
+        <div class="med-item" data-receita="sim" data-busca="ácido úrico / benzbromarona 50mg - 100mg benzbromarona narcaricin desuric benzbromarona">
             <div class="med-info">
                 <div class="med-nome">Ácido Úrico / Benzbromarona 50mg - 100mg</div>
                 <div class="med-generico">Benzbromarona</div>
@@ -2444,7 +2459,7 @@
             </div>
             <span class="med-receita sim">Com Receita</span>
         </div>
-        <div class="med-item" data-busca="álcool etílico 70% álcool ">
+        <div class="med-item" data-receita="nao" data-busca="álcool etílico 70% álcool ">
             <div class="med-info">
                 <div class="med-nome">Álcool Etílico 70%</div>
                 <div class="med-generico">Álcool</div>
@@ -2453,7 +2468,7 @@
             <span class="med-receita nao">Venda Livre</span>
         </div>
         <div class="letra-grupo" data-letra="Ô">Ô</div>
-        <div class="med-item" data-busca="ômega-3 (epa+dha) 1g ácidos graxos ômega-3 (epa + dha) ômega-3 ems naturomega epax lovaza (prescrição) vascepa">
+        <div class="med-item" data-receita="nao" data-busca="ômega-3 (epa+dha) 1g ácidos graxos ômega-3 (epa + dha) ômega-3 ems naturomega epax lovaza (prescrição) vascepa">
             <div class="med-info">
                 <div class="med-nome">Ômega-3 (EPA+DHA) 1g</div>
                 <div class="med-generico">Ácidos Graxos Ômega-3 (EPA + DHA)</div>
@@ -2462,32 +2477,50 @@
             <span class="med-receita nao">Venda Livre</span>
         </div>
     </div>
+    <div id="sem-resultado" class="sem-resultado hidden">Nenhum medicamento encontrado para esta busca.</div>
     <div class="footer">
         Conteúdo educacional revisado por <strong>Rita de Cássia Oliveira Soares da Silva — CRF-SP 33.109 — Farmacêutica</strong><br>
-        MediCheck © 2026 — medicheck.med.br — Não substitui orientação médica ou farmacêutica profissional.
+        MediCheck © 2026 — medicheck.med.br<br>
+        <small>Não substitui orientação médica ou farmacêutica profissional.</small>
     </div>
 </div>
 <script>
+let filtroAtivo = 'todos';
+
+function setFiltro(tipo, btn) {
+    filtroAtivo = tipo;
+    document.querySelectorAll('.filtro-btn').forEach(b => b.classList.remove('ativo'));
+    btn.classList.add('ativo');
+    filtrar();
+}
+
 function filtrar() {
-    const termo = document.getElementById("busca").value.toLowerCase().trim();
-    const itens = document.querySelectorAll(".med-item");
-    const grupos = document.querySelectorAll(".letra-grupo");
+    const termo = document.getElementById('busca').value.toLowerCase().trim();
+    const itens = document.querySelectorAll('.med-item');
+    const grupos = document.querySelectorAll('.letra-grupo');
     let visiveis = 0;
+
     itens.forEach(item => {
-        const busca = item.dataset.busca || "";
-        const match = !termo || busca.includes(termo);
-        item.classList.toggle("hidden", !match);
-        if (match) visiveis++;
+        const busca = item.dataset.busca || '';
+        const receita = item.dataset.receita || '';
+        const matchBusca = !termo || busca.includes(termo);
+        const matchFiltro = filtroAtivo === 'todos' || receita === filtroAtivo;
+        const visivel = matchBusca && matchFiltro;
+        item.classList.toggle('hidden', !visivel);
+        if (visivel) visiveis++;
     });
+
     grupos.forEach(g => {
         const letra = g.dataset.letra;
-        const temVisivel = Array.from(document.querySelectorAll(".med-item")).some(i => {
-            const nome = i.querySelector(".med-nome").textContent;
-            return nome[0].toUpperCase() === letra && !i.classList.contains("hidden");
+        const temVisivel = Array.from(document.querySelectorAll('.med-item')).some(i => {
+            const nome = i.querySelector('.med-nome').textContent;
+            return nome[0].toUpperCase() === letra && !i.classList.contains('hidden');
         });
-        g.classList.toggle("hidden", !temVisivel);
+        g.classList.toggle('hidden', !temVisivel);
     });
-    document.getElementById("stats").textContent = "Exibindo " + visiveis + " medicamento" + (visiveis !== 1 ? "s" : "");
+
+    document.getElementById('stats').textContent = 'Exibindo ' + visiveis + ' medicamento' + (visiveis !== 1 ? 's' : '');
+    document.getElementById('sem-resultado').classList.toggle('hidden', visiveis > 0);
 }
 </script>
 </body>
