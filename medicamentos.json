@@ -17,6 +17,9 @@
       "Inicie ao primeiro sinal de herpes",
       "Beba bastante água durante o uso",
       "Creme: aplique com as mãos bem higienizadas"
+    ],
+    "sinonimos": [
+      "Zovirax"
     ]
   },
   {
@@ -35,6 +38,9 @@
       "Dose única ou ciclos curtos",
       "Tome com alimento gorduroso",
       "Crianças acima de 2 anos"
+    ],
+    "sinonimos": [
+      "Zentel"
     ]
   },
   {
@@ -93,6 +99,11 @@
       "Pode causar dependência — uso curto",
       "Não misture com álcool — perigoso",
       "Não pare abruptamente"
+    ],
+    "sinonimos": [
+      "Frontal",
+      "Frontal XR",
+      "Frontal gotas"
     ]
   },
   {
@@ -131,6 +142,10 @@
       "Demora 2-4 semanas para fazer efeito",
       "Causa sonolência — tome à noite",
       "NUNCA combine com álcool"
+    ],
+    "sinonimos": [
+      "Amytril",
+      "Tryptanol"
     ]
   },
   {
@@ -149,6 +164,10 @@
       "Tome até o fim do tratamento, mesmo se sentir melhora antes",
       "Pode causar diarreia e reação alérgica",
       "Nunca use sem diagnóstico médico"
+    ],
+    "sinonimos": [
+      "Amoxil",
+      "Flemoxin"
     ]
   },
   {
@@ -187,6 +206,11 @@
       "Tome sempre no mesmo horário",
       "Pode causar inchaço nos tornozelos",
       "Não pare sem orientação médica"
+    ],
+    "sinonimos": [
+      "Norvasc",
+      "Cordil",
+      "Amlodil"
     ]
   },
   {
@@ -205,6 +229,9 @@
       "Efeito começa em semanas",
       "Pode causar agitação no início",
       "Não interrompa sem orientação médica"
+    ],
+    "sinonimos": [
+      "Abilify"
     ]
   },
   {
@@ -261,6 +288,9 @@
       "Não pare abruptamente — risco cardíaco",
       "Pode mascarar hipoglicemia em diabéticos",
       "Evite em asma e DPOC"
+    ],
+    "sinonimos": [
+      "Tenormin"
     ]
   },
   {
@@ -281,6 +311,11 @@
       "Tome à noite — mais eficaz",
       "Evite toranja (grapefruit)",
       "Relate dores musculares ao médico"
+    ],
+    "sinonimos": [
+      "Lipitor",
+      "Citalor",
+      "Torvacard"
     ]
   },
   {
@@ -301,6 +336,9 @@
       "Exames de sangue frequentes obrigatórios",
       "Risco de infecções — fique atento a sintomas",
       "NUNCA interrompa sem orientação médica"
+    ],
+    "sinonimos": [
+      "Imuran"
     ]
   },
   {
@@ -319,6 +357,10 @@
       "Dose única ou 3-5 dias conforme indicação",
       "Tome com estômago vazio",
       "Pode alterar ritmo cardíaco — evite junto com outros medicamentos"
+    ],
+    "sinonimos": [
+      "Zithromax",
+      "Astro"
     ]
   },
   {
@@ -377,6 +419,9 @@
       "Risco de reação alérgica grave",
       "Informe alergias a penicilina ANTES",
       "Aguarde 30 min após aplicação em observação"
+    ],
+    "sinonimos": [
+      "Benzetacil"
     ]
   },
   {
@@ -489,6 +534,9 @@
       "Risco de dependência — use pelo menor tempo",
       "NUNCA combine com álcool",
       "NUNCA interrompa abruptamente"
+    ],
+    "sinonimos": [
+      "Lexotan"
     ]
   },
   {
@@ -583,6 +631,10 @@
       "Demora 2-4 semanas para fazer efeito",
       "Pode causar insônia e boca seca",
       "Reduz o limiar de convulsão — informe histórico"
+    ],
+    "sinonimos": [
+      "Wellbutrin",
+      "Zyban"
     ]
   },
   {
@@ -661,6 +713,10 @@
       "Pode causar tosse seca persistente",
       "Tome com estômago vazio",
       "Monitorize a pressão regularmente"
+    ],
+    "sinonimos": [
+      "Capoten",
+      "Capril"
     ]
   },
   {
@@ -679,6 +735,9 @@
       "Interação com muitos medicamentos",
       "Faça exames de sangue regularmente",
       "Pode causar tontura e visão dupla"
+    ],
+    "sinonimos": [
+      "Tegretol"
     ]
   },
   {
@@ -737,6 +796,10 @@
       "NUNCA pare abruptamente",
       "Tome com alimento",
       "Medir o pulso regularmente"
+    ],
+    "sinonimos": [
+      "Coreg",
+      "Cardilol"
     ]
   },
   {
@@ -791,6 +854,9 @@
       "Menos lesão gástrica que ibuprofeno",
       "⚠ Risco cardiovascular aumentado",
       "Não use com histórico de infarto ou AVC"
+    ],
+    "sinonimos": [
+      "Celebra"
     ]
   },
   {
@@ -809,6 +875,10 @@
       "Pode causar sonolência",
       "Efeito dura 24 horas — dose única diária",
       "Segura para uso prolongado"
+    ],
+    "sinonimos": [
+      "Zyrtec",
+      "Alergis"
     ]
   },
   {
@@ -845,6 +915,10 @@
       "Não tome com leite ou antiácidos",
       "Evite sol direto durante o uso",
       "Pode causar ruptura de tendão — evite exercício intenso"
+    ],
+    "sinonimos": [
+      "Cipro",
+      "Kilbac"
     ]
   },
   {
@@ -899,6 +973,11 @@
       "Alto risco de dependência",
       "Não misture com álcool",
       "Não interrompa abruptamente — risco de convulsão"
+    ],
+    "sinonimos": [
+      "Rivotril",
+      "Rivotril gotas",
+      "Rivotril 2mg"
     ]
   },
   {
@@ -917,6 +996,10 @@
       "Não suspenda sem orientação — risco de infarto",
       "Informe dentista e médico antes de procedimentos",
       "Pode causar hematomas com facilidade"
+    ],
+    "sinonimos": [
+      "Plavix",
+      "Iscover"
     ]
   },
   {
@@ -1009,6 +1092,9 @@
       "Risco de dependência — use com cautela",
       "NUNCA combine com álcool",
       "Não dirija durante o tratamento"
+    ],
+    "sinonimos": [
+      "Tylex"
     ]
   },
   {
@@ -1085,6 +1171,10 @@
       "Tome com alimento gorduroso — melhor absorção",
       "Doses altas podem ser tóxicas — siga a prescrição",
       "Faça exame antes de suplementar"
+    ],
+    "sinonimos": [
+      "Caltrate",
+      "Os-Cal"
     ]
   },
   {
@@ -1105,6 +1195,10 @@
       "Elimina açúcar pela urina",
       "Higiene íntima reforçada — risco de infecção",
       "Beba bastante água"
+    ],
+    "sinonimos": [
+      "Forxiga",
+      "Farxiga"
     ]
   },
   {
@@ -1123,6 +1217,10 @@
       "Não causa sonolência na maioria",
       "Efeito dura 24 horas",
       "Segura para uso prolongado"
+    ],
+    "sinonimos": [
+      "Desalex",
+      "Aerius"
     ]
   },
   {
@@ -1143,6 +1241,9 @@
       "NUNCA interrompa abruptamente após uso prolongado",
       "Tome com alimento para proteger o estômago",
       "Monitore glicemia e pressão durante uso prolongado"
+    ],
+    "sinonimos": [
+      "Decadron"
     ]
   },
   {
@@ -1161,6 +1262,10 @@
       "Alto risco de dependência",
       "Não misture com álcool — perigoso",
       "Não dirija durante o uso"
+    ],
+    "sinonimos": [
+      "Valium",
+      "Dienpax"
     ]
   },
   {
@@ -1181,6 +1286,10 @@
       "Tome sempre com alimento",
       "Evite na dengue — risco de sangramento",
       "Não use com outros anti-inflamatórios"
+    ],
+    "sinonimos": [
+      "Voltaren",
+      "Cataflan"
     ]
   },
   {
@@ -1241,6 +1350,10 @@
       "✅ Seguro na dengue",
       "Pode baixar a pressão — cuidado em hipotensos",
       "Procure médico se febre não ceder em 2 dias"
+    ],
+    "sinonimos": [
+      "Novalgina",
+      "Anador"
     ]
   },
   {
@@ -1261,6 +1374,9 @@
       "Tome 15-30min antes das refeições",
       "Pode estimular produção de leite",
       "Não ultrapasse a dose máxima — risco cardíaco"
+    ],
+    "sinonimos": [
+      "Motilium"
     ]
   },
   {
@@ -1354,6 +1470,10 @@
       "Pode causar tosse seca persistente",
       "Monitorize pressão regularmente",
       "Evite na gravidez — teratogênico (pode causar malformações ou morte do bebê)"
+    ],
+    "sinonimos": [
+      "Renitec",
+      "Vasotec"
     ]
   },
   {
@@ -1374,6 +1494,10 @@
       "Aplique no abdômen — alterne os lados",
       "Não aplique no músculo",
       "Risco de sangramento — observe sinais de alerta"
+    ],
+    "sinonimos": [
+      "Clexane",
+      "Lovenox"
     ]
   },
   {
@@ -1412,6 +1536,11 @@
       "Efeito em 2-4 semanas",
       "Não interrompa abruptamente",
       "Evite álcool durante o tratamento"
+    ],
+    "sinonimos": [
+      "Lexapro",
+      "Exodus",
+      "Reconter"
     ]
   },
   {
@@ -1430,6 +1559,9 @@
       "Tome 1 hora antes das refeições",
       "Não mastigue o comprimido",
       "Não use por longos períodos sem orientação"
+    ],
+    "sinonimos": [
+      "Nexium"
     ]
   },
   {
@@ -1450,6 +1582,9 @@
       "Pode elevar o potássio — evite sal de potássio",
       "Aumenta a urina — tome pela manhã",
       "Monitorize exames de sangue regularmente"
+    ],
+    "sinonimos": [
+      "Aldactone"
     ]
   },
   {
@@ -1567,6 +1702,11 @@
       "Pode causar disfunção sexual — informe o médico",
       "Mulheres grávidas NÃO devem manusear comprimidos partidos",
       "Atenção para mudanças de humor"
+    ],
+    "sinonimos": [
+      "Propecia",
+      "Proscar",
+      "Finalop"
     ]
   },
   {
@@ -1587,6 +1727,10 @@
       "Dose única para candidíase vaginal simples",
       "Pode interagir com vários medicamentos",
       "Informe uso de outros remédios ao médico"
+    ],
+    "sinonimos": [
+      "Diflucan",
+      "Triazol"
     ]
   },
   {
@@ -1605,6 +1749,11 @@
       "Efeito em 2-4 semanas — não desista antes",
       "Pode causar insônia e agitação no início",
       "Não interrompa abruptamente"
+    ],
+    "sinonimos": [
+      "Prozac",
+      "Daforin",
+      "Verotina"
     ]
   },
   {
@@ -1643,6 +1792,9 @@
       "Tome pela manhã para não acordar à noite",
       "Beba água suficiente — risco de desidratação",
       "Monitore potássio — pode baixar"
+    ],
+    "sinonimos": [
+      "Lasix"
     ]
   },
   {
@@ -1661,6 +1813,10 @@
       "Pode causar tontura e sonolência",
       "Não dirija no início do tratamento",
       "Não interrompa abruptamente"
+    ],
+    "sinonimos": [
+      "Neurontin",
+      "Gralise"
     ]
   },
   {
@@ -1699,6 +1855,9 @@
       "Pode causar rigidez muscular e tremores",
       "Tome regularmente — não pule doses",
       "Relate movimentos involuntários ao médico"
+    ],
+    "sinonimos": [
+      "Haldol"
     ]
   },
   {
@@ -1759,6 +1918,9 @@
       "Tome pela manhã",
       "Pode baixar o potássio — coma banana",
       "Proteja-se do sol — fotossensibilidade"
+    ],
+    "sinonimos": [
+      "Clorotiazida"
     ]
   },
   {
@@ -1817,6 +1979,11 @@
       "Tome sempre com alimento",
       "Pode irritar o estômago",
       "Evite na dengue e cuidado com pressão alta"
+    ],
+    "sinonimos": [
+      "Advil",
+      "Alivium",
+      "Motrin"
     ]
   },
   {
@@ -1915,6 +2082,12 @@
       "Use hidratante e protetor solar DIARIAMENTE",
       "PROIBIDO na gravidez — malformações gravíssimas",
       "Exames mensais obrigatórios"
+    ],
+    "sinonimos": [
+      "Roacutan",
+      "Accutane",
+      "Acnova",
+      "Neotrex"
     ]
   },
   {
@@ -1933,6 +2106,10 @@
       "Dose calculada pelo peso",
       "Tome em jejum",
       "Não tem eficácia comprovada contra COVID-19"
+    ],
+    "sinonimos": [
+      "Revectina",
+      "Mectizan"
     ]
   },
   {
@@ -1969,6 +2146,9 @@
       "Inicie com dose baixa e aumente gradualmente",
       "Reação alérgica grave na pele — procure médico",
       "Não interrompa abruptamente"
+    ],
+    "sinonimos": [
+      "Lamictal"
     ]
   },
   {
@@ -2005,6 +2185,9 @@
       "Pode causar irritabilidade e mudanças de humor",
       "NUNCA interrompa abruptamente",
       "Tome no mesmo horário todo dia"
+    ],
+    "sinonimos": [
+      "Keppra"
     ]
   },
   {
@@ -2023,6 +2206,10 @@
       "Risco de ruptura de tendão",
       "Evite sol durante o uso",
       "Não tome com antiácidos ou leite"
+    ],
+    "sinonimos": [
+      "Tavanic",
+      "Levaquin"
     ]
   },
   {
@@ -2043,6 +2230,12 @@
       "Tome em jejum 30-60min antes do café",
       "Não tome com leite, café ou antiácidos",
       "Dose ajustada por exame de TSH"
+    ],
+    "sinonimos": [
+      "Puran T4",
+      "Synthroid",
+      "Euthyrox",
+      "Levoid"
     ]
   },
   {
@@ -2118,6 +2311,10 @@
       "Não causa sonolência na maioria",
       "Efeito dura 24 horas",
       "Segura para uso prolongado"
+    ],
+    "sinonimos": [
+      "Claritin",
+      "Histadin"
     ]
   },
   {
@@ -2138,6 +2335,12 @@
       "Boa alternativa para quem tem tosse seca com IECA (enalapril, lisinopril)",
       "Monitore pressão regularmente",
       "Evite suplementos de potássio sem orientação"
+    ],
+    "sinonimos": [
+      "Cozaar",
+      "Aradois",
+      "Losartec",
+      "Hyzaar"
     ]
   },
   {
@@ -2156,6 +2359,10 @@
       "Exames de sangue regulares OBRIGATÓRIOS",
       "Mantenha hidratação e sal constantes",
       "Sinais de intoxicação: tremor intenso e confusão — EMERGÊNCIA"
+    ],
+    "sinonimos": [
+      "Carbolitium",
+      "Neurolitium"
     ]
   },
   {
@@ -2174,6 +2381,10 @@
       "Pode ser tomado com ou sem alimento",
       "Trate toda a família simultaneamente",
       "Lave bem as mãos — transmissão fácil"
+    ],
+    "sinonimos": [
+      "Pantelmin",
+      "Vermox"
     ]
   },
   {
@@ -2192,6 +2403,9 @@
       "Tome 30-60 min antes de dormir",
       "Evite celular e TV após tomar",
       "Não causa dependência — doses baixas funcionam melhor"
+    ],
+    "sinonimos": [
+      "Circadin"
     ]
   },
   {
@@ -2212,6 +2426,12 @@
       "Tome com alimento para reduzir náusea",
       "Não cause hipoglicemia sozinho",
       "Suspenda antes de cirurgias e exames com contraste"
+    ],
+    "sinonimos": [
+      "Glifage",
+      "Glifage XR",
+      "Glucoformin",
+      "Dimefor"
     ]
   },
   {
@@ -2232,6 +2452,10 @@
       "Não use por mais de 5 dias seguidos",
       "Pode causar movimentos involuntários (discinesia)",
       "Cuidado em crianças — efeitos neurológicos"
+    ],
+    "sinonimos": [
+      "Plasil",
+      "Maxolon"
     ]
   },
   {
@@ -2252,6 +2476,10 @@
       "NUNCA pare abruptamente",
       "Medir o pulso regularmente",
       "Tome com alimento"
+    ],
+    "sinonimos": [
+      "Seloken",
+      "Lopressor"
     ]
   },
   {
@@ -2272,6 +2500,9 @@
       "Tome UMA VEZ POR SEMANA — não diariamente",
       "Use ácido fólico junto — reduz efeitos colaterais",
       "Teratogênico (pode causar malformações graves ou aborto) — contracepção obrigatória"
+    ],
+    "sinonimos": [
+      "Methofar"
     ]
   },
   {
@@ -2308,6 +2539,10 @@
       "Aplique no couro cabeludo — não no cabelo",
       "Resultados aparecem após 3-6 meses",
       "Se parar: os cabelos ganhos caem em 3-6 meses"
+    ],
+    "sinonimos": [
+      "Rogaine",
+      "Regaine"
     ]
   },
   {
@@ -2346,6 +2581,10 @@
       "Tome à noite antes de dormir",
       "NÃO substitui a bombinha — são ações diferentes",
       "Fique atento a mudanças de humor — efeito psiquiátrico possível"
+    ],
+    "sinonimos": [
+      "Singulair",
+      "Montelair"
     ]
   },
   {
@@ -2404,6 +2643,10 @@
       "Tome com alimento",
       "Proibido para menores de 12 anos",
       "Não use por mais de 15 dias sem orientação"
+    ],
+    "sinonimos": [
+      "Nisulid",
+      "Scaflan"
     ]
   },
   {
@@ -2440,6 +2683,10 @@
       "A urina fica escura — é normal",
       "Tome sempre com alimento",
       "Não serve para infecção de rim"
+    ],
+    "sinonimos": [
+      "Macrobid",
+      "Macrodantina"
     ]
   },
   {
@@ -2458,6 +2705,10 @@
       "Pode causar ganho de peso e diabetes",
       "Monitore glicemia e colesterol",
       "Não interrompa sem orientação médica"
+    ],
+    "sinonimos": [
+      "Zyprexa",
+      "Zalasta"
     ]
   },
   {
@@ -2476,6 +2727,11 @@
       "Tome 30 minutos antes do café da manhã",
       "Não use por meses sem indicação médica",
       "Pode reduzir absorção de vitamina B12 e magnésio"
+    ],
+    "sinonimos": [
+      "Losec",
+      "Peprazol",
+      "Mepral"
     ]
   },
   {
@@ -2494,6 +2750,10 @@
       "Pode ser tomado com ou sem alimento",
       "Versão sublingual e orodispersível: ideais quando há vômito intenso",
       "Risco cardíaco: informe histórico de arritmia"
+    ],
+    "sinonimos": [
+      "Zofran",
+      "Vonau"
     ]
   },
   {
@@ -2512,6 +2772,9 @@
       "Tome com alimento para reduzir náusea",
       "Tratamento: 5 dias completos",
       "Disponível no SUS para grupos de risco"
+    ],
+    "sinonimos": [
+      "Tamiflu"
     ]
   },
   {
@@ -2530,6 +2793,10 @@
       "Tome 30min antes do café da manhã",
       "Menos interações que omeprazol — bom com outros remédios",
       "Não use longos períodos sem orientação"
+    ],
+    "sinonimos": [
+      "Pantozol",
+      "Controloc"
     ]
   },
   {
@@ -2548,6 +2815,10 @@
       "Não ultrapasse 4g por dia — lesão hepática",
       "Evite álcool durante o uso",
       "Seguro na gravidez nas doses corretas"
+    ],
+    "sinonimos": [
+      "Tylenol",
+      "Efferalgan"
     ]
   },
   {
@@ -2566,6 +2837,11 @@
       "Efeito em 2-4 semanas",
       "Interrupção abrupta causa síndrome de descontinuação (tontura, choques elétricos, irritabilidade)",
       "Pode causar ganho de peso com uso prolongado"
+    ],
+    "sinonimos": [
+      "Aropax",
+      "Pondera",
+      "Cebrilin"
     ]
   },
   {
@@ -2621,6 +2897,9 @@
       "Tome pela manhã com alimento",
       "Não pare abruptamente — desmame gradual",
       "Uso prolongado causa muitos efeitos colaterais"
+    ],
+    "sinonimos": [
+      "Meticorten"
     ]
   },
   {
@@ -2639,6 +2918,9 @@
       "Pode causar tontura e sonolência",
       "Risco de dependência com uso prolongado",
       "Não interrompa abruptamente"
+    ],
+    "sinonimos": [
+      "Lyrica"
     ]
   },
   {
@@ -2679,6 +2961,9 @@
       "Não use em asma ou DPOC",
       "Não pare abruptamente",
       "Pode mascarar hipoglicemia em diabéticos"
+    ],
+    "sinonimos": [
+      "Inderal"
     ]
   },
   {
@@ -2697,6 +2982,11 @@
       "Pode causar sonolência e ganho de peso",
       "Tome à noite pelo efeito sedativo",
       "Não interrompa sem orientação médica"
+    ],
+    "sinonimos": [
+      "Seroquel",
+      "Seroquel XR",
+      "Quetros"
     ]
   },
   {
@@ -2715,6 +3005,10 @@
       "Retirada do mercado por risco de nitrosaminas (substâncias potencialmente cancerígenas)",
       "Omeprazol e pantoprazol são alternativas preferidas",
       "Consulte o médico sobre a melhor opção"
+    ],
+    "sinonimos": [
+      "Antak",
+      "Zantac"
     ]
   },
   {
@@ -2791,6 +3085,10 @@
       "Pode causar ganho de peso",
       "Tome regularmente — não pule doses",
       "Relate movimentos involuntários ao médico"
+    ],
+    "sinonimos": [
+      "Risperdal",
+      "Zargus"
     ]
   },
   {
@@ -2811,6 +3109,9 @@
       "Informe SEMPRE a todo profissional de saúde",
       "Nunca interrompa sem orientação médica",
       "Procure médico em caso de sangramento incomum"
+    ],
+    "sinonimos": [
+      "Xarelto"
     ]
   },
   {
@@ -2831,6 +3132,10 @@
       "Age em minutos — use na crise",
       "⚠ Se não melhorar após 3 jatos: EMERGÊNCIA",
       "Agite bem antes de usar"
+    ],
+    "sinonimos": [
+      "Aerolin",
+      "Ventolin"
     ]
   },
   {
@@ -2871,6 +3176,13 @@
       "Aplicação semanal subcutânea",
       "⚠️ RECEITA OBRIGATÓRIA com retenção — validade 90 dias",
       "NUNCA congele — geladeira antes de abrir, ambiente após"
+    ],
+    "sinonimos": [
+      "Ozempic",
+      "Wegovy",
+      "Poviztra",
+      "Extensior",
+      "Rybelsus"
     ]
   },
   {
@@ -2889,6 +3201,12 @@
       "Efeito em 2-4 semanas",
       "Tome pela manhã com alimento",
       "Não interrompa abruptamente"
+    ],
+    "sinonimos": [
+      "Zoloft",
+      "Assert",
+      "Tolrest",
+      "Serenata"
     ]
   },
   {
@@ -2909,6 +3227,10 @@
       "Tome 1 hora antes da atividade sexual",
       "NUNCA combine com nitratos (remédios para dor no peito) — pode ser fatal",
       "Não funciona sem estímulo sexual"
+    ],
+    "sinonimos": [
+      "Viagra",
+      "Revatio"
     ]
   },
   {
@@ -2947,6 +3269,11 @@
       "Tome à noite — mais eficaz",
       "Evite laranja-grapefruit (toranja)",
       "Relate dores musculares ao médico imediatamente"
+    ],
+    "sinonimos": [
+      "Zocor",
+      "Sinvacor",
+      "Liponorm"
     ]
   },
   {
@@ -2985,6 +3312,10 @@
       "Beba muita água durante o tratamento",
       "Evite sol — fotossensibilidade",
       "Informe se aparecer manchas ou bolhas na pele"
+    ],
+    "sinonimos": [
+      "Bactrim",
+      "Septra"
     ]
   },
   {
@@ -3005,6 +3336,9 @@
       "Tome com suco de laranja — potencializa absorção",
       "Fezes escuras são normais",
       "⚠ FATAL em crianças em excesso — guarde fora do alcance"
+    ],
+    "sinonimos": [
+      "Noripurum"
     ]
   },
   {
@@ -3025,6 +3359,9 @@
       "Dura até 36 horas — 'pílula do fim de semana'",
       "NUNCA combine com nitratos (remédios para dor no peito) — pode ser fatal",
       "Na dose diária (5mg), efeito é contínuo"
+    ],
+    "sinonimos": [
+      "Cialis"
     ]
   },
   {
@@ -3082,6 +3419,9 @@
       "Pode causar perda de peso e dificuldade de memória",
       "Beba bastante água — risco de cálculo renal",
       "Não interrompa abruptamente"
+    ],
+    "sinonimos": [
+      "Topamax"
     ]
   },
   {
@@ -3102,6 +3442,10 @@
       "Não misture com álcool — perigoso",
       "Pode causar dependência — use pelo menor tempo",
       "Medicamento controlado — receita especial"
+    ],
+    "sinonimos": [
+      "Tramal",
+      "Sylador"
     ]
   },
   {
@@ -3140,6 +3484,10 @@
       "Aplique somente à noite",
       "Use protetor solar FPS 30+ todo dia",
       "Pele piora antes de melhorar — tenha paciência"
+    ],
+    "sinonimos": [
+      "Retin-A",
+      "Vitacid"
     ]
   },
   {
@@ -3158,6 +3506,10 @@
       "ALTAMENTE TERATOGÊNICO (causa malformações no bebê) — contracepção obrigatória",
       "Tome com alimento",
       "Exames de sangue e fígado regulares"
+    ],
+    "sinonimos": [
+      "Depakote",
+      "Epilim"
     ]
   },
   {
@@ -3252,6 +3604,11 @@
       "Tome com alimento gorduroso — melhor absorção",
       "Doses altas podem ser tóxicas — siga a prescrição",
       "Faça exame antes de suplementar"
+    ],
+    "sinonimos": [
+      "Addera D3",
+      "Depura",
+      "Nativit D"
     ]
   },
   {
@@ -3270,6 +3627,10 @@
       "Exige exame de INR regular (mede o tempo de coagulação do sangue)",
       "Mantenha consumo de folhas verdes CONSTANTE",
       "Informe SEMPRE ao médico e dentista que usa"
+    ],
+    "sinonimos": [
+      "Coumadin",
+      "Marevan"
     ]
   },
   {
@@ -3290,6 +3651,9 @@
       "Age em dois hormônios — resultados mais expressivos",
       "⚠️ RECEITA OBRIGATÓRIA com retenção — validade 90 dias",
       "NUNCA congele — geladeira até abrir, ambiente após (até 30 dias)"
+    ],
+    "sinonimos": [
+      "Mounjaro"
     ]
   },
   {
@@ -3418,6 +3782,10 @@
       "⚠️ RECEITA OBRIGATÓRIA com retenção — validade 90 dias",
       "Dose iniciada baixa e aumentada gradualmente",
       "NUNCA congele — geladeira lacrado, ambiente após abrir (até 30 dias)"
+    ],
+    "sinonimos": [
+      "Saxenda",
+      "Victoza"
     ]
   },
   {
