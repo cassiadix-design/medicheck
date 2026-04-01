@@ -1623,10 +1623,12 @@ window.addEventListener('DOMContentLoaded', () => {
             if (term === '') {
                 searchResults = medicamentosData;
             } else {
-                searchResults = medicamentosData.filter(med => 
-                    med.nome.toLowerCase().includes(term) || 
-                    med.generico.toLowerCase().includes(term)
-                );
+                searchResults = medicamentosData.filter(med => {
+    const sinonimos = (med.sinonimos || []).join(' ').toLowerCase();
+    return med.nome.toLowerCase().includes(term) ||
+           med.generico.toLowerCase().includes(term) ||
+           sinonimos.includes(term);
+});
             }
             renderMedicines(0);
         });
