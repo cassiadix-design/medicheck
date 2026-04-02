@@ -1715,7 +1715,12 @@ window.addEventListener('DOMContentLoaded', () => {
             pageMeds.forEach((med, index) => {
                 const btn = document.createElement('button');
                 btn.className = 'medicine-btn';
-                btn.innerHTML = `<span>${med.nome}</span>`;
+                const cor = med.receita_cor === 'verde' ? '#27ae60' : med.receita_cor === 'amarelo' ? '#e8751a' : '#c0392b';
+                const bgCor = med.receita_cor === 'verde' ? '#e8f8f0' : med.receita_cor === 'amarelo' ? '#fef3e2' : '#fde8e8';
+                const icone = med.receita_cor === 'verde' ? '🟢' : med.receita_cor === 'amarelo' ? '🟡' : '🔴';
+                const textoReceita = med.receita_cor === 'verde' ? 'Venda Livre' : med.receita_cor === 'amarelo' ? 'Tarjado' : 'Com Receita';
+                btn.innerHTML = '<span style="flex:1;text-align:left;">' + med.nome + '</span><span style="font-size:11px;font-weight:700;padding:3px 10px;border-radius:12px;white-space:nowrap;background:' + bgCor + ';color:' + cor + ';border:1px solid ' + cor + ';">' + icone + ' ' + textoReceita + '</span>';
+                btn.style.cssText = 'display:flex;align-items:center;gap:10px;justify-content:space-between;';
                 btn.onclick = () => openMedicineModal(med);
                 btn.addEventListener('keydown', (e) => {
                     if (e.key === 'Enter') {
@@ -1809,10 +1814,27 @@ window.addEventListener('DOMContentLoaded', () => {
                 
                 <div class="section-title">🛑 Necessita Receita?</div>
                 <div class="section-content">
-                    ${medicine.receita_pratica ? 
-                        `<strong style="color: ${medicine.receita_pratica === 'Não' ? 'green' : 'red'}; font-size: 18px;">✓ ${medicine.receita_pratica} - Venda Livre em Farmácias</strong><br><small style="color: #666; margin-top: 8px; display: block;">⚠️ ${medicine.receita_nota || 'Tecnicamente controlado, mas é vendido livremente. Sempre consulte o farmacêutico'}</small>` 
-                        : (medicine.receita === 'Sim' ? '<strong style="color: red; font-size: 20px;">✓ SIM - Sob Prescrição Médica</strong>' : '<strong style="color: green; font-size: 20px;">✓ NÃO - Venda Livre</strong>')
-                    }
+                    ${medicine.receita_display ? `
+                        <div style="display:inline-flex;align-items:center;gap:10px;flex-wrap:wrap;">
+                            <strong style="font-size:17px;color:${
+                                medicine.receita_cor === 'verde' ? '#27ae60' :
+                                medicine.receita_cor === 'amarelo' ? '#e8751a' : '#c0392b'
+                            };">${medicine.receita_display}</strong>
+                        </div>
+                        <div style="margin-top:8px;padding:10px 14px;border-radius:8px;font-size:14px;line-height:1.6;background:${
+                            medicine.receita_cor === 'verde' ? '#e8f8f0' :
+                            medicine.receita_cor === 'amarelo' ? '#fef3e2' : '#fde8e8'
+                        };color:${
+                            medicine.receita_cor === 'verde' ? '#155724' :
+                            medicine.receita_cor === 'amarelo' ? '#856404' : '#721c24'
+                        };">
+                            ${medicine.receita_descricao || ''}
+                            ${medicine.receita_nota ? `<br><small>ℹ️ ${medicine.receita_nota}</small>` : ''}
+                        </div>
+                    ` : (medicine.receita === 'Sim' ?
+                        '<strong style="color:red;font-size:18px;">🔴 SIM — Sob Prescrição Médica</strong>' :
+                        '<strong style="color:green;font-size:18px;">🟢 NÃO — Venda Livre</strong>'
+                    )}
                 </div>
                 
                 <div class="section-title">⚠️ Efeitos Colaterais</div>
