@@ -1,0 +1,2099 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediCheck - Seu Medicamento Explicado</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            max-width: 900px;
+            width: 100%;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 50px 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 42px;
+            font-weight: bold;
+            margin-bottom: 12px;
+        }
+
+        .header p {
+            font-size: 18px;
+            opacity: 0.95;
+            margin-bottom: 8px;
+        }
+
+        .header-crf {
+            font-size: 14px;
+            color: rgba(255,255,255,0.95);
+            margin-top: 15px;
+        }
+
+        .content {
+            padding: 40px 30px;
+            max-height: 75vh;
+            overflow-y: auto;
+            min-height: 600px;
+        }
+
+        .nav-buttons {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+
+        .nav-btn {
+            flex: 1;
+            padding: 16px 20px;
+            border: 3px solid #667eea;
+            border-radius: 10px;
+            background: white;
+            color: #667eea;
+            cursor: pointer;
+            font-weight: 700;
+            transition: 0.3s;
+            font-size: 16px;
+        }
+
+        .nav-btn.active {
+            background: #667eea;
+            color: white;
+        }
+
+        .nav-btn:hover {
+            background: #667eea;
+            color: white;
+            transform: translateY(-2px);
+        }
+
+        .search-section {
+            margin-bottom: 30px;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 16px;
+            border: 3px solid #ddd;
+            border-radius: 10px;
+            font-size: 16px;
+            box-sizing: border-box;
+            font-weight: 500;
+        }
+
+        input[type="text"]::placeholder {
+            color: #999;
+        }
+
+        input[type="text"]:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 10px rgba(102, 126, 234, 0.2);
+        }
+
+        .medicines-list h3 {
+            font-size: 18px;
+            color: #333;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            margin-bottom: 20px;
+            font-weight: 700;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 12px;
+        }
+
+        .medicine-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 12px;
+            margin-bottom: 30px;
+        }
+
+        .medicine-btn {
+            padding: 20px 25px;
+            border: 2px solid #ddd;
+            border-radius: 10px;
+            background: white;
+            cursor: pointer;
+            text-align: left;
+            font-weight: 600;
+            color: #333;
+            transition: 0.3s;
+            font-size: 16px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .medicine-btn::after {
+            content: "→";
+            font-size: 20px;
+            color: #667eea;
+            opacity: 0;
+            transition: 0.3s;
+        }
+
+        .medicine-btn:hover {
+            border-color: #667eea;
+            background: #f8f9ff;
+            transform: translateX(5px);
+        }
+
+        .medicine-btn:hover::after {
+            opacity: 1;
+        }
+
+        .pagination {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 30px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+            padding-bottom: 20px;
+        }
+
+        .pagination button {
+            padding: 12px 18px;
+            border: 2px solid #667eea;
+            background: white;
+            color: #667eea;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 700;
+            transition: 0.3s;
+            font-size: 14px;
+            min-width: 45px;
+        }
+
+        .pagination button.active {
+            background: #667eea;
+            color: white;
+        }
+
+        .pagination button:hover {
+            background: #667eea;
+            color: white;
+            transform: translateY(-2px);
+        }
+
+        .page-info {
+            text-align: center;
+            font-size: 14px;
+            color: #666;
+            margin-top: 15px;
+            margin-bottom: 20px;
+            font-weight: 600;
+            padding-bottom: 15px;
+        }
+
+        .tip {
+            background: #cfe2ff;
+            border-left: 6px solid #0d6efd;
+            padding: 16px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            font-size: 15px;
+            color: #084298;
+            line-height: 1.6;
+        }
+
+        /* MODAL - TELA CHEIA */
+        .medicine-modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.6);
+            z-index: 1000;
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
+            animation: fadeIn 0.3s ease;
+        }
+
+        .medicine-modal.active {
+            display: flex;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        .medicine-modal-content {
+            background: white;
+            border-radius: 20px;
+            width: 95vw;
+            max-width: 1000px;
+            max-height: 95vh;
+            overflow-y: auto;
+            padding: 50px;
+            position: relative;
+            box-shadow: 0 20px 80px rgba(0, 0, 0, 0.5);
+            animation: slideUp 0.4s ease;
+        }
+
+        @keyframes slideUp {
+            from {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .medicine-modal-close {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: #667eea;
+            color: white;
+            border: none;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            font-size: 32px;
+            cursor: pointer;
+            transition: 0.3s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 1001;
+        }
+
+        .medicine-modal-close:hover {
+            background: #764ba2;
+            transform: scale(1.15);
+        }
+
+        .medicine-card h2 {
+            color: #667eea;
+            font-size: 48px;
+            margin-bottom: 30px;
+            border-bottom: 4px solid #667eea;
+            padding-bottom: 20px;
+        }
+
+        .section-title {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 22px;
+            font-weight: 700;
+            color: #333;
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+
+        .section-content {
+            font-size: 18px;
+            color: #555;
+            line-height: 1.9;
+            padding-left: 40px;
+            margin-bottom: 20px;
+        }
+
+        .aviso-urgente {
+            background: #ffe6e6;
+            border-left: 8px solid #dc3545;
+            border-radius: 8px;
+            padding: 20px;
+            margin-top: 25px;
+            margin-bottom: 15px;
+            font-size: 17px;
+            color: #721c24;
+            line-height: 1.8;
+            font-weight: 600;
+        }
+
+        .recomendacao {
+            background: #fff3cd;
+            border-left: 8px solid #ffc107;
+            border-radius: 8px;
+            padding: 20px;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            font-size: 17px;
+            color: #856404;
+            line-height: 1.8;
+            font-weight: 600;
+        }
+
+        .educacao {
+            background: #d4edda;
+            border-left: 8px solid #28a745;
+            border-radius: 8px;
+            padding: 20px;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            font-size: 16px;
+            color: #155724;
+            line-height: 1.8;
+        }
+
+        .danger {
+            background: #f8d7da;
+            border-left: 8px solid #dc3545;
+            padding: 22px;
+            border-radius: 8px;
+            margin-top: 25px;
+            font-size: 16px;
+            color: #721c24;
+            line-height: 1.8;
+        }
+
+        .about-content {
+            display: none;
+        }
+
+        .about-content.active {
+            display: block;
+        }
+
+        .about-content h2 {
+            color: #667eea;
+            margin-bottom: 20px;
+            font-size: 26px;
+            font-weight: 700;
+        }
+
+        .about-content h3 {
+            color: #667eea;
+            margin-top: 25px;
+            margin-bottom: 12px;
+            font-size: 18px;
+            font-weight: 700;
+        }
+
+        .about-content p {
+            color: #555;
+            line-height: 1.7;
+            margin-bottom: 15px;
+            font-size: 15px;
+        }
+
+        /* Responsividade Mobile */
+        @media (max-width: 480px) {
+            .header {
+                padding: 30px 20px;
+            }
+
+            .header h1 {
+                font-size: 28px;
+            }
+
+            .content {
+                padding: 20px 15px;
+            }
+
+            .medicine-modal-content {
+                padding: 30px 20px;
+                width: 98vw;
+            }
+
+            .medicine-card h2 {
+                font-size: 28px;
+            }
+
+            .section-title {
+                font-size: 18px;
+            }
+
+            .section-content {
+                font-size: 16px;
+                padding-left: 30px;
+            }
+
+            .pagination {
+                margin-bottom: 15px;
+            }
+
+            .medicine-modal-close {
+                width: 45px;
+                height: 45px;
+                font-size: 24px;
+            }
+        }
+
+        /* Paisagem (Landscape) */
+        @media (orientation: landscape) {
+            body {
+                overflow: hidden;
+            }
+
+            .container {
+                width: 100vw;
+                height: 100vh;
+                max-width: none;
+                border-radius: 0;
+                display: flex;
+                flex-direction: column;
+            }
+
+            .header {
+                padding: 12px 20px;
+                flex-shrink: 0;
+            }
+
+            .header h1 {
+                font-size: 22px;
+                margin-bottom: 4px;
+            }
+
+            .content {
+                flex: 1;
+                padding: 12px 15px;
+                overflow-y: auto;
+            }
+
+            .medicine-modal-content {
+                padding: 25px;
+                width: 98vw;
+                max-height: 98vh;
+            }
+
+            .medicine-card h2 {
+                font-size: 28px;
+                margin-bottom: 15px;
+            }
+
+            .pagination {
+                margin-bottom: 15px;
+                padding-bottom: 10px;
+            }
+
+            .page-info {
+                margin-bottom: 15px;
+                padding-bottom: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>💊 MediCheck</h1>
+            <p>Seu Medicamento Explicado</p>
+            <p class="header-crf">✓ Rita de Cássia | CRF SP nº 33.109</p>
+        </div>
+
+        <div class="content">
+            <div class="nav-buttons">
+                <button class="nav-btn active" data-tab="home">Home</button>
+                <button class="nav-btn" data-tab="about">Sobre</button>
+            </div>
+
+            <div id="home" class="tab-content">
+                <div class="search-section">
+                    <input type="text" id="searchInput" placeholder="🔍 Busque um medicamento...">
+                </div>
+
+                <div class="tip">
+                    💡 Dica: Clique em qualquer medicamento para ver detalhes completos e avisos importantes
+                </div>
+
+                <div class="medicines-list">
+                    <h3>📋 MEDICAMENTOS (Página <span id="currentPage">1</span>)</h3>
+                    <div class="medicine-grid" id="medicineGrid"></div>
+
+                    <div class="pagination" id="pagination"></div>
+                    <div class="page-info" id="pageInfo"></div>
+                </div>
+            </div>
+
+            <div id="about" class="about-content">
+                <h2>Sobre MediCheck</h2>
+                <p><strong>MediCheck</strong> é um aplicativo educacional que explica medicamentos com informações claras e precisas.</p>
+                
+                <h3>🎯 Nossa Missão</h3>
+                <p>Informar pacientes sobre medicamentos de forma clara, segura e acessível, ajudando no entendimento e uso correto de medicações.</p>
+                
+                <h3>⚠️ Avisos de Emergência</h3>
+                <p><strong>LIGUE SAMU (192)</strong> em caso de: Reação alérgica grave, dificuldade respiratória, perda de consciência, alucinações severas, sangramento anormal ou qualquer sintoma que ache preocupante.</p>
+
+                <h3>📋 Aviso Legal</h3>
+                <p><strong>As informações fornecidas são educacionais.</strong> Sempre consulte um farmacêutico ou médico antes de usar qualquer medicamento. MediCheck não substitui orientação profissional.</p>
+                
+                <h3>👩‍⚕️ Profissional Responsável</h3>
+                <p><strong>Rita de Cássia</strong> - Farmacêutica responsável<br>CRF SP nº 33.109</p>
+                
+                <p style="margin-top: 25px; color: #999; font-size: 13px;">© 2025 MediCheck. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL TELA CHEIA -->
+    <div class="medicine-modal" id="medicineModal">
+        <div class="medicine-modal-content">
+            <button class="medicine-modal-close" onclick="closeMedicineModal()">✕</button>
+            <div class="medicine-card" id="medicineCard"></div>
+        </div>
+    </div>
+
+    <script>
+        const medicamentosData = [
+  {
+    "nome": "Aciclovir 400mg",
+    "generico": "Aciclovir",
+    "tipo": "Antiviral",
+    "descricao": "Antiviral para herpes simples labial, genital e zoster (cobreiro). Eficaz se iniciado precocemente.",
+    "receita": "Sim",
+    "efeitos": "Nefrotoxicidade (hidratação importante), neurotoxicidade (em idosos), reações alérgicas, tremor, alucinações",
+    "aviso_grave": "Alucinações e comportamento anormal podem ocorrer em idosos",
+    "recomendacao": "☎️ LIGUE SAMU (192) se: Alucinações, confusão mental, dificuldade para urinar, tremores graves",
+    "educacao": "Importante beber bastante água durante o tratamento para proteger os rins"
+  },
+  {
+    "nome": "Ácido Fólico 5mg",
+    "generico": "Ácido Fólico",
+    "tipo": "Vitamina",
+    "descricao": "Essencial na gravidez. Previne anemia.",
+    "receita": "Não",
+    "efeitos": "Reações alérgicas raras",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Ácido Salicílico 2%",
+    "generico": "Ácido Salicílico",
+    "tipo": "Acneico",
+    "descricao": "Acne comedonal. Exfoliante.",
+    "receita": "Não",
+    "efeitos": "Irritação, ressecamento, sensibilidade",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Ácido Ascórbico 15%",
+    "generico": "Vitamina C",
+    "tipo": "Antienvelhecimento",
+    "descricao": "Antioxidante e iluminador.",
+    "receita": "Não",
+    "efeitos": "Irritação em pH baixo",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Ácido Hialurônico Sérum",
+    "generico": "Ácido Hialurônico",
+    "tipo": "Hidratante",
+    "descricao": "Hidratação profunda de pele.",
+    "receita": "Não",
+    "efeitos": "Reações alérgicas raras",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Álcool Etílico 70%",
+    "generico": "Álcool",
+    "tipo": "Antisséptico",
+    "descricao": "Desinfetante de pele.",
+    "receita": "Não",
+    "efeitos": "Ressecamento, irritação",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Alprazolam 0.5mg",
+    "generico": "Alprazolam",
+    "tipo": "Ansiolítico",
+    "descricao": "Reduz ansiedade e pânico. Ação rápida.",
+    "receita": "Sim",
+    "efeitos": "Dependência, sonolência, tontura",
+    "aviso_grave": "Risco de dependência com uso prolongado",
+    "recomendacao": "☎️ LIGUE SAMU (192) se: Dificuldade respiratória, perda de consciência, overdose",
+    "educacao": "Nunca misture com álcool ou outros sedativos. Pode causar sonolência - não dirija"
+  },
+  {
+    "nome": "Amiodarona 200mg",
+    "generico": "Amiodarona",
+    "tipo": "Antiarrítmico",
+    "descricao": "Classe III. Arritmias graves.",
+    "receita": "Sim",
+    "efeitos": "Hepatotoxicidade, fotossensibilidade, hipotireoidismo",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Amlodipino 5mg",
+    "generico": "Amlodipina",
+    "tipo": "Bloqueador de Cálcio",
+    "descricao": "Controla pressão alta e angina.",
+    "receita": "Sim",
+    "efeitos": "Edema, rubor facial, cefaleia",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Amoxicilina 500mg",
+    "generico": "Amoxicilina",
+    "tipo": "Antibiótico",
+    "descricao": "Trata infecções bacterianas. Muito prescrito para amigdalite.",
+    "receita": "Sim",
+    "efeitos": "Reações alérgicas, diarreia, náusea",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Aripiprazol 10mg",
+    "generico": "Aripiprazol",
+    "tipo": "Antipsicótico",
+    "descricao": "Psicose. Moderno e seguro.",
+    "receita": "Sim",
+    "efeitos": "Cefaleia, insônia, tremor",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Aspirina 500mg",
+    "generico": "Ácido Acetilsalicílico",
+    "tipo": "Anticoagulante",
+    "descricao": "Antiagregante. Preventivo de infarto.",
+    "receita": "Não",
+    "efeitos": "Úlcera, hemorragia GI, Síndrome Reye em crianças",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Atenolol 50mg",
+    "generico": "Atenolol",
+    "tipo": "Betabloqueador",
+    "descricao": "Reduz pressão e frequência cardíaca. Preventivo de infarto.",
+    "receita": "Sim",
+    "efeitos": "Fadiga, tontura, impotência",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Atorvastatina 20mg",
+    "generico": "Atorvastatina",
+    "tipo": "Redutor de Colesterol",
+    "descricao": "Reduz colesterol. Potente e seguro.",
+    "receita": "Sim",
+    "efeitos": "Mialgia, elevação de transaminases",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Azitromicina 500mg",
+    "generico": "Azitromicina",
+    "tipo": "Antibiótico",
+    "descricao": "Antibiótico de amplo espectro. Viral e bacteriana.",
+    "receita": "Sim",
+    "efeitos": "Diarreia, náusea, arritmia cardíaca",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Benzilpenicilina 400.000U",
+    "generico": "Penicilina",
+    "tipo": "Antibiótico",
+    "descricao": "Para infecções por estreptococos.",
+    "receita": "Sim",
+    "efeitos": "Anafilaxia, reações alérgicas",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Benzoíla Peroxida 2.5%",
+    "generico": "Benzoíla Peroxida",
+    "tipo": "Acneico",
+    "descricao": "Acne leve a moderada.",
+    "receita": "Não",
+    "efeitos": "Ressecamento, irritação, fotossensibilidade",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Betametasona Tópica",
+    "generico": "Betametasona",
+    "tipo": "Corticoide",
+    "descricao": "Para dermatite e inflamação de pele.",
+    "receita": "Não",
+    "efeitos": "Atrofia da pele, estriais, foliculite",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Bisacodil 5mg",
+    "generico": "Bisacodil",
+    "tipo": "Laxante",
+    "descricao": "Laxante estimulante rápido.",
+    "receita": "Não",
+    "efeitos": "Cólica abdominal, dependência",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Bromazepam 3mg",
+    "generico": "Bromazepam",
+    "tipo": "Benzodiazepínico",
+    "descricao": "Ansiedade e insônia.",
+    "receita": "Sim",
+    "efeitos": "Dependência, sonolência, ataxia",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Brometo de Ipratrópio",
+    "generico": "Ipratrópio",
+    "tipo": "Broncodilatador",
+    "descricao": "Para asma e DPOC. Anticolin",
+    "receita": "Sim",
+    "efeitos": "Boca seca, visão turva, tremor",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Bupropiona 300mg",
+    "generico": "Bupropiona",
+    "tipo": "Antidepressivo",
+    "descricao": "Depressão e cessação de tabagismo.",
+    "receita": "Sim",
+    "efeitos": "Insônia, cefaleia, convulsões",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Cafeína 200mg",
+    "generico": "Cafeína",
+    "tipo": "Estimulante",
+    "descricao": "Estimulante do SNC. Cefaleia.",
+    "receita": "Não",
+    "efeitos": "Insônia, taquicardia, dependência",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Cálcio + Vitamina D",
+    "generico": "Cálcio/Vitamina D",
+    "tipo": "Suplemento",
+    "descricao": "Previne osteoporose. Essencial em mulheres.",
+    "receita": "Não",
+    "efeitos": "Constipação, hipercalcemia",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Candesartana 8mg",
+    "generico": "Candesartana",
+    "tipo": "ARA2",
+    "descricao": "ARA2. ICC e pressão.",
+    "receita": "Sim",
+    "efeitos": "Hipercalemia, tonzia, síncope",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Carbamazepina 200mg",
+    "generico": "Carbamazepina",
+    "tipo": "Anticonvulsivante",
+    "descricao": "Epilepsia e neuralgia trigeminal.",
+    "receita": "Sim",
+    "efeitos": "Síndrome de DRESS, diplopia, hepatotoxicidade",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Carvedilol 6.25mg",
+    "generico": "Carvedilol",
+    "tipo": "Betabloqueador",
+    "descricao": "Alfabloqueador. ICC.",
+    "receita": "Sim",
+    "efeitos": "Tontura, fadiga, bradicardia",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Ceftriaxona 1g",
+    "generico": "Ceftriaxona",
+    "tipo": "Antibiótico",
+    "descricao": "Cefalosporina. Para infecções sérias.",
+    "receita": "Sim",
+    "efeitos": "Diarreia, reações alérgicas, colite",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Cetirizina 10mg",
+    "generico": "Cetirizina",
+    "tipo": "Anti-histamínico",
+    "descricao": "Anti-alérgico. Segunda geração, seguro.",
+    "receita": "Não",
+    "efeitos": "Sonolência leve, boca seca",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Cetoconazol Shampoo",
+    "generico": "Cetoconazol",
+    "tipo": "Antifúngico",
+    "descricao": "Para caspa e dermatite seborreica.",
+    "receita": "Não",
+    "efeitos": "Irritação do couro cabeludo",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Ciprofloxacina 500mg",
+    "generico": "Ciprofloxacina",
+    "tipo": "Antibiótico",
+    "descricao": "Fluorquinolona. Infecções urinárias.",
+    "receita": "Sim",
+    "efeitos": "Tendinite, arritmia, fototoxicidade",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Citalopram 20mg",
+    "generico": "Citalopram",
+    "tipo": "Antidepressivo",
+    "descricao": "ISRS. Depressão e pânico.",
+    "receita": "Sim",
+    "efeitos": "Prolongamento QT, síncope, disfunção sexual",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Clindamicina 300mg",
+    "generico": "Clindamicina",
+    "tipo": "Antibiótico",
+    "descricao": "Para infecções anaeróbias e acne.",
+    "receita": "Sim",
+    "efeitos": "Colite pseudomembranosa, reações alérgicas",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Clonazepam 0.5mg",
+    "generico": "Clonazepam",
+    "tipo": "Benzodiazepínico",
+    "descricao": "Ansiedade, pânico e anticonvulsivante.",
+    "receita": "Sim",
+    "efeitos": "Dependência, sonolência, tolerância",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Clopidogrel 75mg",
+    "generico": "Clopidogrel",
+    "tipo": "Anticoagulante",
+    "descricao": "Antiplaquetário. Pós-stent.",
+    "receita": "Sim",
+    "efeitos": "Hemorragia, neutropenia, trombose",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Clorexidina 0.12%",
+    "generico": "Clorexidina",
+    "tipo": "Antisséptico",
+    "descricao": "Bochechos. Anti-placa.",
+    "receita": "Não",
+    "efeitos": "Mancha de dentes, sabor metálico",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Clozapina 25mg",
+    "generico": "Clozapina",
+    "tipo": "Antipsicótico",
+    "descricao": "Psicose resistente. Atípico potente.",
+    "receita": "Sim",
+    "efeitos": "Agranulocitose, miocardite, síndrome metabólica",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Desloratadina 5mg",
+    "generico": "Desloratadina",
+    "tipo": "Anti-histamínico",
+    "descricao": "Alergia e urticária. Sem sonolência.",
+    "receita": "Não",
+    "efeitos": "Cefaleia, boca seca",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Dexametasona 4mg",
+    "generico": "Dexametasona",
+    "tipo": "Corticoide",
+    "descricao": "Corticoide potente. Anti-inflamação.",
+    "receita": "Sim",
+    "efeitos": "Osteoporose, imunossupressão, hiperglicemia",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Diazepam 5mg",
+    "generico": "Diazepam",
+    "tipo": "Benzodiazepínico",
+    "descricao": "Ansiolítico, relaxante muscular e anticonvulsivante.",
+    "receita": "Sim",
+    "efeitos": "Dependência, sonolência, ataxia",
+    "aviso_grave": "Pode causar dependência física e psicológica",
+    "recomendacao": "☎️ LIGUE SAMU (192) se: Dificuldade respiratória, perda de consciência, pensamentos suicidas",
+    "educacao": "Não interrompa abruptamente - pode causar convulsões. Reduzir gradualmente com médico"
+  },
+  {
+    "nome": "Digoxina 0.25mg",
+    "generico": "Digoxina",
+    "tipo": "Cardiotônico",
+    "descricao": "Para ICC e fibrilação atrial.",
+    "receita": "Sim",
+    "efeitos": "Toxicidade digital, arritmias, visuais",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Diltiazem 60mg",
+    "generico": "Diltiazem",
+    "tipo": "Bloqueador de Cálcio",
+    "descricao": "Bloqueador não-diidropiridínico.",
+    "receita": "Sim",
+    "efeitos": "Bradicardia, constipação, edema",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Dipirona 500mg",
+    "generico": "Dipirona",
+    "tipo": "Analgésico/Antitérmico",
+    "descricao": "Alivia dor e febre. Muito usado para cefaleias e dores corporais.",
+    "receita": "Não",
+    "efeitos": "Reações alérgicas raras, hipotensão em casos extremos",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Doxiciclina 100mg",
+    "generico": "Doxiciclina",
+    "tipo": "Antibiótico",
+    "descricao": "Para acne e infecções respiratórias.",
+    "receita": "Sim",
+    "efeitos": "Fotossensibilidade, esofagite, candidiase",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Duloxetina 60mg",
+    "generico": "Duloxetina",
+    "tipo": "Antidepressivo",
+    "descricao": "ISRSN. Dor e depressão.",
+    "receita": "Sim",
+    "efeitos": "Síndrome serotoninérgica, disfunção sexual",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Efavirenz 600mg",
+    "generico": "Efavirenz",
+    "tipo": "Antirretroviral",
+    "descricao": "NNRTI para HIV. Bem tolerado.",
+    "receita": "Sim",
+    "efeitos": "Sintomas neuropsiquiátricos, teratogenicidade",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Enalapril 10mg",
+    "generico": "Enalapril",
+    "tipo": "IECA",
+    "descricao": "Inibidor ECA. Hipertensão e ICC.",
+    "receita": "Sim",
+    "efeitos": "Tosse, hipercalemia, angioedema",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Enoxaparina 40mg",
+    "generico": "Enoxaparina",
+    "tipo": "Anticoagulante",
+    "descricao": "HBPM. Trombose e infarto.",
+    "receita": "Sim",
+    "efeitos": "Hemorragia, osteoporose, trombocitopenia",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Escitalopram 10mg",
+    "generico": "Escitalopram",
+    "tipo": "Antidepressivo",
+    "descricao": "ISRS. Eficaz e tolerado.",
+    "receita": "Sim",
+    "efeitos": "Disfunção sexual, síncope, síndrome serotoninérgica",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Espironolactona 25mg",
+    "generico": "Espironolactona",
+    "tipo": "Diurético",
+    "descricao": "Poupador de potássio. Cirrose.",
+    "receita": "Sim",
+    "efeitos": "Hipercalemia, ginecomastia, impotência",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Etambutol 1200mg",
+    "generico": "Etambutol",
+    "tipo": "Antituberculose",
+    "descricao": "Primeira linha TB. Bacteriostático.",
+    "receita": "Sim",
+    "efeitos": "Neurite óptica, daltonismo, neuropatia",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Fenitoína 100mg",
+    "generico": "Fenitoína",
+    "tipo": "Anticonvulsivante",
+    "descricao": "Epilepsia tônico-clônica. Clássico.",
+    "receita": "Sim",
+    "efeitos": "Hiperplasia gengival, síndrome de DRESS, ataxia",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Fentolamina",
+    "generico": "Fentolamina",
+    "tipo": "Alfabloqueador",
+    "descricao": "Crise hipertensiva e feocromocitoma.",
+    "receita": "Sim",
+    "efeitos": "Taquicardia reflexa, hipotensão, angina",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Ferro 325mg",
+    "generico": "Ferro",
+    "tipo": "Suplemento",
+    "descricao": "Trata anemia. Para deficiência de ferro.",
+    "receita": "Não",
+    "efeitos": "Constipação, fezes pretas, irritação gástrica",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Finasterida 1mg",
+    "generico": "Finasterida",
+    "tipo": "Antialopecia",
+    "descricao": "Queda de cabelo (DHT). Oral.",
+    "receita": "Sim",
+    "efeitos": "Disfunção sexual, diminuição libido, ginecomastia",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Fluconazol 150mg",
+    "generico": "Fluconazol",
+    "tipo": "Antifúngico",
+    "descricao": "Para candidíase. Dose única eficaz.",
+    "receita": "Sim",
+    "efeitos": "Cefaleia, náusea, hepatotoxicidade",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Fluoxetina 20mg",
+    "generico": "Fluoxetina",
+    "tipo": "Antidepressivo",
+    "descricao": "Trata depressão e ansiedade. ISRS eficaz.",
+    "receita": "Sim",
+    "efeitos": "Insônia, anorgasmia, síndrome serotoninérgica",
+    "aviso_grave": "Pode aumentar pensamentos suicidas em jovens",
+    "recomendacao": "☎️ LIGUE SAMU (192) ou CVV (188) se: Pensamentos suicidas, depressão severa",
+    "educacao": "Leva 2-4 semanas para fazer efeito. Não interrompa abruptamente"
+  },
+  {
+    "nome": "Furosemida 40mg",
+    "generico": "Furosemida",
+    "tipo": "Diurético",
+    "descricao": "Diurético potente. Edema e ICC.",
+    "receita": "Sim",
+    "efeitos": "Hipocalemia, ototoxicidade, hiponatremia",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Gabapentina 300mg",
+    "generico": "Gabapentina",
+    "tipo": "Neuromodulador",
+    "descricao": "Dor neuropática e epilepsia.",
+    "receita": "Sim",
+    "efeitos": "Sonolência, tontura, edema periférico",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Haloperidol 1mg",
+    "generico": "Haloperidol",
+    "tipo": "Antipsicótico",
+    "descricao": "Psicose aguda. Típico.",
+    "receita": "Sim",
+    "efeitos": "Parkinsonismo, acatisia, discinesia tardia",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Hidroclorotiazida 25mg",
+    "generico": "Hidroclorotiazida",
+    "tipo": "Diurético",
+    "descricao": "Diurético tiazídico. Hipertensão.",
+    "receita": "Sim",
+    "efeitos": "Hipocalemia, hiperglicemia, hiperuricemia",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Hidrocortisona 1%",
+    "generico": "Hidrocortisona",
+    "tipo": "Corticoide",
+    "descricao": "Corticoide fraco. Para pele sensível.",
+    "receita": "Não",
+    "efeitos": "Atrofia de pele com uso prolongado",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Hidróxido de Alumínio",
+    "generico": "Antiácido",
+    "tipo": "Antiácido",
+    "descricao": "Neutraliza ácido do estômago rapidamente.",
+    "receita": "Não",
+    "efeitos": "Constipação, hipercalcemia",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Ibuprofeno 200mg",
+    "generico": "Ibuprofeno",
+    "tipo": "Anti-inflamatório",
+    "descricao": "Reduz inflamação, dor e febre. Eficaz para dores musculares.",
+    "receita": "Não",
+    "efeitos": "Gastrite, úlcera em uso prolongado, alergia",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Insulina NPH 100U/ml",
+    "generico": "Insulina",
+    "tipo": "Hipoglicemiante",
+    "descricao": "Diabetes mellitus. Intermediária.",
+    "receita": "Sim",
+    "efeitos": "Hipoglicemia, lipodistrofia, alergia",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Isoniazida 300mg",
+    "generico": "Isoniazida",
+    "tipo": "Antituberculose",
+    "descricao": "Primeira linha TB. Essencial.",
+    "receita": "Sim",
+    "efeitos": "Neuropatia periférica, hepatotoxicidade",
+    "aviso_grave": "Hepatotoxicidade - pode danificar o fígado",
+    "recomendacao": "☎️ LIGUE SAMU (192) se: Icterícia (amarelamento), dor abdominal intensa, vômito",
+    "educacao": "Fazer testes de função hepática regularmente. Evitar álcool completamente"
+  },
+  {
+    "nome": "Isotretinoína 20mg",
+    "generico": "Isotretinoína",
+    "tipo": "Acneico",
+    "descricao": "Acne grave. Teratogênico.",
+    "receita": "Sim",
+    "efeitos": "Teratogenicidade, ressecamento, elevação lípides",
+    "aviso_grave": "TERATOGÊNICO - proibido em gravidez",
+    "recomendacao": "☔ Mulheres OBRIGATORIAMENTE devem usar contraceptivo e fazer teste de gravidez",
+    "educacao": "Um dos medicamentos mais potentes para acne. Requer acompanhamento mensal"
+  },
+  {
+    "nome": "Lactulose 667mg/ml",
+    "generico": "Lactulose",
+    "tipo": "Laxante",
+    "descricao": "Para constipação. Suave e seguro.",
+    "receita": "Não",
+    "efeitos": "Gases, inchaço, cólica",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Lamotrigina 25mg",
+    "generico": "Lamotrigina",
+    "tipo": "Anticonvulsivante",
+    "descricao": "Epilepsia e bipolaridade.",
+    "receita": "Sim",
+    "efeitos": "Síndrome de Stevens-Johnson, diplopia",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Levamisol 150mg",
+    "generico": "Levamisol",
+    "tipo": "Antiparasitário",
+    "descricao": "Para ascaridíase e ancilostomíase.",
+    "receita": "Não",
+    "efeitos": "Náusea, dor abdominal, agranulocitose rara",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Levetiracetam 500mg",
+    "generico": "Levetiracetam",
+    "tipo": "Anticonvulsivante",
+    "descricao": "Epilepsia focal. Moderno.",
+    "receita": "Sim",
+    "efeitos": "Irritabilidade, sonolência, alergia",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Levofloxacina 500mg",
+    "generico": "Levofloxacina",
+    "tipo": "Antibiótico",
+    "descricao": "Para pneumonia e infecções respiratórias.",
+    "receita": "Sim",
+    "efeitos": "Tendinite, prolongamento QT, fototoxicidade",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Lisinopril 10mg",
+    "generico": "Lisinopril",
+    "tipo": "IECA",
+    "descricao": "IECA. Pressão e coração.",
+    "receita": "Sim",
+    "efeitos": "Tosse, tontura, hipercalemia",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Lítio Carbonato 300mg",
+    "generico": "Lítio",
+    "tipo": "Estabilizador de Humor",
+    "descricao": "Bipolaridade. Ouro padrão.",
+    "receita": "Sim",
+    "efeitos": "Tremor, polidipsia, nefrotoxicidade, hipotireoidismo",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Loperamida 2mg",
+    "generico": "Loperamida",
+    "tipo": "Antidiarreico",
+    "descricao": "Para diarreia aguda. Rápido e eficaz.",
+    "receita": "Não",
+    "efeitos": "Constipação, megacólon tóxico em colite",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Lopinavir/Ritonavir",
+    "generico": "Kaletra",
+    "tipo": "Antirretroviral",
+    "descricao": "Inibidor de protease para HIV.",
+    "receita": "Sim",
+    "efeitos": "Hepatotoxicidade, pancreatite, lipodistrofia",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Loratadina 10mg",
+    "generico": "Loratadina",
+    "tipo": "Anti-histamínico",
+    "descricao": "Alívio rápido de alergias. Não causa sonolência.",
+    "receita": "Não",
+    "efeitos": "Cefaleia rara, boca seca",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Losartana 50mg",
+    "generico": "Losartana",
+    "tipo": "Antihipertensivo",
+    "descricao": "Controla pressão alta. Seguro e bem tolerado.",
+    "receita": "Sim",
+    "efeitos": "Tontura, tosse, hipercalemia",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Mebendazol 100mg",
+    "generico": "Mebendazol",
+    "tipo": "Antiparasitário",
+    "descricao": "Elimina vermes intestinais. Seguro.",
+    "receita": "Não",
+    "efeitos": "Dor abdominal, diarreia",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Melatonina 3mg",
+    "generico": "Melatonina",
+    "tipo": "Hipnótico",
+    "descricao": "Regulador de sono. Jet lag.",
+    "receita": "Não",
+    "efeitos": "Cefaleia, sonolência diurna, pesadelos",
+    "aviso_grave": "Pode causar pesadelos e depressão do humor",
+    "recomendacao": "☎️ LIGUE SAMU (192) se: Depressão severa, pensamentos estranhos",
+    "educacao": "Use 30-60 min antes de dormir. Não vicia, mas perde efetividade com tempo"
+  },
+  {
+    "nome": "Metformina 500mg",
+    "generico": "Metformina",
+    "tipo": "Antidiabético",
+    "descricao": "Controla glicose. Primeira linha para diabetes tipo 2.",
+    "receita": "Sim",
+    "efeitos": "Diarreia, acidose lática em insuficiência renal",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Metoclopramida 10mg",
+    "generico": "Metoclopramida",
+    "tipo": "Antiemético",
+    "descricao": "Combate náusea e vômito. Acelera digestão.",
+    "receita": "Não",
+    "efeitos": "Discinesia tardia, tremor, depressão",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Metoprolol 100mg",
+    "generico": "Metoprolol",
+    "tipo": "Betabloqueador",
+    "descricao": "Cardioseletivo. Infarto e pressão.",
+    "receita": "Sim",
+    "efeitos": "Bradicardia, fadiga, broncoespasmo",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Miconazol Creme",
+    "generico": "Miconazol",
+    "tipo": "Antifúngico",
+    "descricao": "Para dermatite fúngica e candidíase.",
+    "receita": "Não",
+    "efeitos": "Irritação local, reações alérgicas",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Minoxidil 5%",
+    "generico": "Minoxidil",
+    "tipo": "Antialopecia",
+    "descricao": "Queda de cabelo. Eficaz.",
+    "receita": "Não",
+    "efeitos": "Hipertricose, dermatite, taquicardia sistêmica",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Mirtazapina 30mg",
+    "generico": "Mirtazapina",
+    "tipo": "Antidepressivo",
+    "descricao": "Depressão com insônia.",
+    "receita": "Sim",
+    "efeitos": "Ganho de peso, sonolência, sedação",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Neomicina Pomada",
+    "generico": "Neomicina Tópica",
+    "tipo": "Antibiótico",
+    "descricao": "Infecção de feridas superficiais.",
+    "receita": "Não",
+    "efeitos": "Reações alérgicas, dermatite",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Nifedipina 20mg",
+    "generico": "Nifedipina",
+    "tipo": "Bloqueador de Cálcio",
+    "descricao": "Diidropiridínico. Angina.",
+    "receita": "Sim",
+    "efeitos": "Edema, rubor, cefaleia, hipotensão",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Nitazoxanida 500mg",
+    "generico": "Nitazoxanida",
+    "tipo": "Antiparasitário",
+    "descricao": "Amplo espectro. Viral e bacteriana.",
+    "receita": "Não",
+    "efeitos": "Náusea, vômito, diarreia",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Olanzapina 5mg",
+    "generico": "Olanzapina",
+    "tipo": "Antipsicótico",
+    "descricao": "Esquizofrenia e bipolaridade.",
+    "receita": "Sim",
+    "efeitos": "Ganho de peso severo, diabetes, lipidemia",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Omeprazol 20mg",
+    "generico": "Omeprazol",
+    "tipo": "Protetor Gástrico",
+    "descricao": "Reduz ácido do estômago. Para gastrite e úlcera.",
+    "receita": "Não",
+    "efeitos": "Deficiência de B12, reações alérgicas",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Ondansetrom 4mg",
+    "generico": "Ondansetrom",
+    "tipo": "Antiemético",
+    "descricao": "Para náusea pós-cirurgia ou quimioterapia.",
+    "receita": "Sim",
+    "efeitos": "Constipação, cefaleia, rubor",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Oseltamivir 75mg",
+    "generico": "Oseltamivir",
+    "tipo": "Antiviral",
+    "descricao": "Para gripe (H1N1). Eficaz se precoce.",
+    "receita": "Sim",
+    "efeitos": "Náusea, vômito, cefaleia",
+    "aviso_grave": "Pode piorar comportamento psicológico em crianças",
+    "recomendacao": "☎️ LIGUE SAMU (192) se: Delirium, alucinações, comportamento agressivo",
+    "educacao": "Mais eficaz se iniciado nas primeiras 48h de sintomas"
+  },
+  {
+    "nome": "Paracetamol 500mg",
+    "generico": "Paracetamol",
+    "tipo": "Analgésico",
+    "descricao": "Alivia dor e febre. Mais suave que a dipirona.",
+    "receita": "Não",
+    "efeitos": "Hepatotoxicidade em overdose, reações alérgicas",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Paroxetina 20mg",
+    "generico": "Paroxetina",
+    "tipo": "Antidepressivo",
+    "descricao": "ISRS. Depressão e ansiedade.",
+    "receita": "Sim",
+    "efeitos": "Disfunção sexual, ganho de peso, abstinência",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Peróxido de Hidrogênio 3%",
+    "generico": "Água Oxigenada",
+    "tipo": "Antisséptico",
+    "descricao": "Desinfetante. Limpeza de feridas.",
+    "receita": "Não",
+    "efeitos": "Irritação, embolia gás rara",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Pirazinamida 500mg",
+    "generico": "Pirazinamida",
+    "tipo": "Antituberculose",
+    "descricao": "Primeira linha TB.",
+    "receita": "Sim",
+    "efeitos": "Hiperuricemia, hepatotoxicidade, artralgia",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Prednisona 5mg",
+    "generico": "Prednisona",
+    "tipo": "Corticoide",
+    "descricao": "Anti-inflamatório potente. Múltiplos usos.",
+    "receita": "Sim",
+    "efeitos": "Osteoporose, imunossupressão, insônia",
+    "aviso_grave": "Imunossupressão - aumenta risco de infecções",
+    "recomendacao": "☎️ LIGUE SAMU (192) se: Febre alta, infecção grave, pneumonia",
+    "educacao": "Tomar com alimento. Não interromper abruptamente - reduzir gradualmente"
+  },
+  {
+    "nome": "Pregabalina 150mg",
+    "generico": "Pregabalina",
+    "tipo": "Neuromodulador",
+    "descricao": "Dor neuropática e ansiedade.",
+    "receita": "Sim",
+    "efeitos": "Sonolência, ganho de peso, dependência",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Propranolol 40mg",
+    "generico": "Propranolol",
+    "tipo": "Betabloqueador",
+    "descricao": "Angina e arritmia.",
+    "receita": "Sim",
+    "efeitos": "Bradicardia, fadiga, impotência",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Protetor Solar FPS 50",
+    "generico": "Filtro UV",
+    "tipo": "Fotoprotetor",
+    "descricao": "Proteção contra raios UVA/UVB.",
+    "receita": "Não",
+    "efeitos": "Dermatite de contato, acne",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Quetiapina 100mg",
+    "generico": "Quetiapina",
+    "tipo": "Antipsicótico",
+    "descricao": "Psicose e bipolaridade. Sedante.",
+    "receita": "Sim",
+    "efeitos": "Ganho de peso, sonolência, síndrome metabólica",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Ranitidina 150mg",
+    "generico": "Ranitidina",
+    "tipo": "Protetor Gástrico",
+    "descricao": "Reduz ácido. Alternativa ao omeprazol.",
+    "receita": "Não",
+    "efeitos": "Cefaleia, diarreia, ginecomastia",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Ribavirina 200mg",
+    "generico": "Ribavirina",
+    "tipo": "Antiviral",
+    "descricao": "Para hepatite C (com interferom).",
+    "receita": "Sim",
+    "efeitos": "Anemia, teratogenicidade, hepatotoxicidade",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Rifampicina 600mg",
+    "generico": "Rifampicina",
+    "tipo": "Antituberculose",
+    "descricao": "Primeira linha TB. Bactericida.",
+    "receita": "Sim",
+    "efeitos": "Hepatotoxicidade, coloração urina, interações",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Risperidona 2mg",
+    "generico": "Risperidona",
+    "tipo": "Antipsicótico",
+    "descricao": "Psicose e bipolaridade. Atípico.",
+    "receita": "Sim",
+    "efeitos": "Ganho de peso, hiperprolactinemia, síndrome metabólica",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Salbutamol Inalado",
+    "generico": "Salbutamol",
+    "tipo": "Broncodilatador",
+    "descricao": "Alívio rápido da asma e DPOC.",
+    "receita": "Não",
+    "efeitos": "Tremor, taquicardia, cefaleia",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Sertralina 50mg",
+    "generico": "Sertralina",
+    "tipo": "Antidepressivo",
+    "descricao": "Para depressão, ansiedade e TOC.",
+    "receita": "Sim",
+    "efeitos": "Insônia, disfunção sexual, tremor",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Sinvastatina 20mg",
+    "generico": "Sinvastatina",
+    "tipo": "Redutor de Colesterol",
+    "descricao": "Reduz colesterol LDL. Preventivo de infarto.",
+    "receita": "Sim",
+    "efeitos": "Mialgia, rabdomiólise rara, hepatotoxicidade",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Sucralfato 1g",
+    "generico": "Sucralfato",
+    "tipo": "Protetor Gástrico",
+    "descricao": "Cria barreira protetora no estômago.",
+    "receita": "Não",
+    "efeitos": "Constipação, gosto metálico",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Sulfametoxazol + Trimetoprima",
+    "generico": "Sulfametoxazol + Trimetoprima",
+    "tipo": "Antibiótico",
+    "descricao": "Bronquite e infecção urinária.",
+    "receita": "Sim",
+    "efeitos": "Síndrome de Stevens-Johnson, anemia",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Tenofovir 300mg",
+    "generico": "Tenofovir",
+    "tipo": "Antirretroviral",
+    "descricao": "Para HIV. Classe nucleotídica.",
+    "receita": "Sim",
+    "efeitos": "Nefrotoxicidade, hipofosforemia, osteoporose",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Terbinafina 250mg",
+    "generico": "Terbinafina",
+    "tipo": "Antifúngico",
+    "descricao": "Para micose de unhas. Eficaz.",
+    "receita": "Sim",
+    "efeitos": "Hepatotoxicidade, disgeusia, alopecia",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Topiramato 25mg",
+    "generico": "Topiramato",
+    "tipo": "Estabilizador",
+    "descricao": "Bipolaridade e enxaqueca.",
+    "receita": "Sim",
+    "efeitos": "Perda de peso, miopia aguda, acidose metabólica",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Trazodona 50mg",
+    "generico": "Trazodona",
+    "tipo": "Antidepressivo",
+    "descricao": "Depressão com insônia. Sedante.",
+    "receita": "Sim",
+    "efeitos": "Sonolência, tontura, priapismo",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Tretinoína 0.025%",
+    "generico": "Tretinoína",
+    "tipo": "Antienvelhecimento",
+    "descricao": "Rugas e manchas. Retinóide.",
+    "receita": "Sim",
+    "efeitos": "Fotossensibilidade, irritação, descamação",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Valproato de Sódio 500mg",
+    "generico": "Ácido Valproico",
+    "tipo": "Anticonvulsivante",
+    "descricao": "Amplo espectro. Epilepsia.",
+    "receita": "Sim",
+    "efeitos": "Hepatotoxicidade, teratogenicidade, pancreatite",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Valsartana 80mg",
+    "generico": "Valsartana",
+    "tipo": "ARA2",
+    "descricao": "Bloqueador AT2. Pressão alta.",
+    "receita": "Sim",
+    "efeitos": "Tontura, hipercalemia, hipotensão",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Venlafaxina 75mg",
+    "generico": "Venlafaxina",
+    "tipo": "Antidepressivo",
+    "descricao": "ISRSN. Depressão e ansiedade.",
+    "receita": "Sim",
+    "efeitos": "Síndrome de abstinência, disfunção sexual",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Verapamil 80mg",
+    "generico": "Verapamil",
+    "tipo": "Bloqueador de Cálcio",
+    "descricao": "Bradicardia, arritmia e pressão.",
+    "receita": "Sim",
+    "efeitos": "Constipação severa, bradicardia, AV block",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Vitamina D3 1000UI",
+    "generico": "Vitamina D",
+    "tipo": "Suplemento",
+    "descricao": "Fortalece ossos e imunidade.",
+    "receita": "Não",
+    "efeitos": "Hipercalcemia em doses altas",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Vitamina B12 1000mcg",
+    "generico": "Cobalamina",
+    "tipo": "Vitamina",
+    "descricao": "Energia e sistema nervoso. Para veganos.",
+    "receita": "Não",
+    "efeitos": "Reações alérgicas, trombose",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Warfarina 5mg",
+    "generico": "Warfarina",
+    "tipo": "Anticoagulante",
+    "descricao": "Anticoagulante oral. Fibrilação atrial.",
+    "receita": "Sim",
+    "efeitos": "Hemorragia, teratogenicidade, necrose de pele",
+    "aviso_grave": "Anticoagulante - risco alto de hemorragia",
+    "recomendacao": "☎️ LIGUE SAMU (192) se: Sangramento anormal, hematomas, fezes pretas, vômito com sangue",
+    "educacao": "INR deve ser monitorado regularmente. Consistência de vitamina K é importante"
+  },
+  {
+    "nome": "Zolpidem 5mg",
+    "generico": "Zolpidem",
+    "tipo": "Hipnótico",
+    "descricao": "Insônia crônica. Z-drug.",
+    "receita": "Sim",
+    "efeitos": "Dependência, sonambulismo, amnésia",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  },
+  {
+    "nome": "Zopiclona 7.5mg",
+    "generico": "Zopiclona",
+    "tipo": "Hipnótico",
+    "descricao": "Insônia. Z-drug.",
+    "receita": "Sim",
+    "efeitos": "Dependência, gosto metálico, amnésia",
+    "aviso_grave": "",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
+    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
+  }
+];
+        const itemsPerPage = 15;
+        let currentPage = 0;
+        let searchResults = medicamentosData;
+
+        const tabButtons = document.querySelectorAll('.nav-btn');
+        const tabContents = document.querySelectorAll('.tab-content, .about-content');
+        const searchInput = document.getElementById('searchInput');
+        const medicineGrid = document.getElementById('medicineGrid');
+        const medicineCard = document.getElementById('medicineCard');
+        const medicineModal = document.getElementById('medicineModal');
+        const pagination = document.getElementById('pagination');
+        const pageInfo = document.getElementById('pageInfo');
+        const currentPageSpan = document.getElementById('currentPage');
+
+        function renderMedicines(page = 0) {
+            currentPage = page;
+            medicineGrid.innerHTML = '';
+
+            const totalPages = Math.ceil(searchResults.length / itemsPerPage);
+            const start = page * itemsPerPage;
+            const end = start + itemsPerPage;
+            const pageMeds = searchResults.slice(start, end);
+
+            pageMeds.forEach(med => {
+                const btn = document.createElement('button');
+                btn.className = 'medicine-btn';
+                btn.innerHTML = `<span>${med.nome}</span>`;
+                btn.onclick = () => openMedicineModal(med);
+                medicineGrid.appendChild(btn);
+            });
+
+            currentPageSpan.textContent = page + 1;
+            renderPagination(totalPages, page);
+            pageInfo.textContent = `Mostrando ${start + 1} a ${Math.min(end, searchResults.length)} de ${searchResults.length} medicamentos`;
+        }
+
+        function renderPagination(total, current) {
+            pagination.innerHTML = '';
+            
+            const maxButtons = 5;
+            let start = Math.max(0, current - Math.floor(maxButtons / 2));
+            let end = Math.min(total, start + maxButtons);
+            
+            if (end - start < maxButtons) {
+                start = Math.max(0, end - maxButtons);
+            }
+
+            for (let i = start; i < end; i++) {
+                const btn = document.createElement('button');
+                btn.textContent = i + 1;
+                btn.className = i === current ? 'active' : '';
+                btn.onclick = () => renderMedicines(i);
+                pagination.appendChild(btn);
+            }
+        }
+
+        function openMedicineModal(medicine) {
+            let avisoHtml = '';
+            
+            if (medicine.aviso_grave) {
+                avisoHtml += `
+                    <div class="aviso-urgente">
+                        ⚠️ AVISO IMPORTANTE: ${medicine.aviso_grave}
+                    </div>
+                `;
+            }
+
+            if (medicine.recomendacao) {
+                avisoHtml += `
+                    <div class="recomendacao">
+                        ${medicine.recomendacao}
+                    </div>
+                `;
+            }
+
+            if (medicine.educacao) {
+                avisoHtml += `
+                    <div class="educacao">
+                        💡 ${medicine.educacao}
+                    </div>
+                `;
+            }
+
+            medicineCard.innerHTML = `
+                <h2>${medicine.nome}</h2>
+                
+                <div class="section-title">💊 Princípio Ativo</div>
+                <div class="section-content"><strong>${medicine.generico}</strong></div>
+                
+                <div class="section-title">🏷️ Tipo</div>
+                <div class="section-content"><strong>${medicine.tipo}</strong></div>
+                
+                <div class="section-title">📝 Para Que Serve</div>
+                <div class="section-content">${medicine.descricao}</div>
+                
+                <div class="section-title">🛑 Necessita Receita?</div>
+                <div class="section-content">${medicine.receita === 'Sim' ? '<strong style="color: red; font-size: 20px;">✓ SIM - Sob Prescrição Médica</strong>' : '<strong style="color: green; font-size: 20px;">✓ NÃO - Venda Livre</strong>'}</div>
+                
+                <div class="section-title">⚠️ Efeitos Colaterais</div>
+                <div class="section-content">${medicine.efeitos}</div>
+                
+                ${avisoHtml}
+                
+                <div class="danger">
+                    <strong>📋 NOTA EDUCACIONAL:</strong> Este é conteúdo educacional fornecido por farmacêutica responsável. Sempre consulte um profissional de saúde antes de usar qualquer medicamento. MediCheck não substitui orientação profissional.
+                </div>
+            `;
+            medicineModal.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeMedicineModal() {
+            medicineModal.classList.remove('active');
+            document.body.style.overflow = 'auto';
+        }
+
+        medicineModal.addEventListener('click', (e) => {
+            if (e.target === medicineModal) {
+                closeMedicineModal();
+            }
+        });
+
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && medicineModal.classList.contains('active')) {
+                closeMedicineModal();
+            }
+        });
+
+        searchInput.addEventListener('input', (e) => {
+            const term = e.target.value.toLowerCase();
+            if (term === '') {
+                searchResults = medicamentosData;
+            } else {
+                searchResults = medicamentosData.filter(med => 
+                    med.nome.toLowerCase().includes(term) || 
+                    med.generico.toLowerCase().includes(term)
+                );
+            }
+            renderMedicines(0);
+        });
+
+        tabButtons.forEach(btn => {
+            btn.addEventListener('click', () => {
+                tabButtons.forEach(b => b.classList.remove('active'));
+                tabContents.forEach(c => c.classList.remove('active'));
+                btn.classList.add('active');
+                document.getElementById(btn.dataset.tab).classList.add('active');
+            });
+        });
+
+        renderMedicines(0);
+    </script>
+</body>
+</html>

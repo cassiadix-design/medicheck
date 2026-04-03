@@ -1,0 +1,90 @@
+[
+  {
+    "slug": "ibuprofeno",
+    "nome": "Ibuprofeno",
+    "paraQue": "Alivia dor de cabeça, dor muscular, cólica e febre. Funciona reduzindo a inflamação no corpo.",
+    "comoTomar": "Normalmente 1 comprimido a cada 6-8 horas. Máximo 3-4 comprimidos por dia. Sempre com comida no estômago.",
+    "efeitos": "Azia, dor de estômago, dor de cabeça (em algumas pessoas), alergia em casos raros.",
+    "avisos": "NÃO tomar se tem úlcera, problema renal ou estômago sensível. Não misturar com álcool.",
+    "interacoes": "⚠️ CUIDADO: Não tomar junto com Aspirina ou Dipirona (aumenta risco de úlcera). Se toma medicamento para pressão, avise o farmacêutico.",
+    "generico": "Ibuprofeno 200mg (genérico) custa ~R$ 2-5. Marca Advil/Ibupirol custa R$ 10-15. São iguais!",
+    "dica": "💡 Sempre tomar a menor dose possível e pelo menor tempo possível."
+  },
+  {
+    "slug": "dipirona",
+    "nome": "Dipirona (Analgésico)",
+    "paraQue": "Alivia dor e febre. Funciona bloqueando a dor no cérebro.",
+    "comoTomar": "1-2 comprimidos a cada 6 horas. Máximo 3 doses por dia. Tomar com água.",
+    "efeitos": "Sonolência, alergia (rara), tontura em algumas pessoas.",
+    "avisos": "Pode baixar defesas do corpo com uso muito frequente. Não é ideal para tomar todo dia.",
+    "interacoes": "⚠️ NÃO misturar com Ibuprofeno ou Aspirina. Aumenta risco de efeito colateral grave.",
+    "generico": "Dipirona genérica: R$ 1-3. Marca (Novalgina): R$ 5-8. Funcionam igual.",
+    "dica": "💡 Fenômeno estranho no Brasil: alguns países baniram dipirona. No Brasil ainda é liberada, mas use com cuidado."
+  },
+  {
+    "slug": "amoxicilina",
+    "nome": "Amoxicilina (Antibiótico)",
+    "paraQue": "Mata bactéria que causa infecção. Serve para infecção de garganta, ouvido, urina, ferida, etc.",
+    "comoTomar": "Normalmente 1 cápsula a cada 8 horas, por 7 dias. IMPORTANTE: tomar até o final!",
+    "efeitos": "Dor de estômago, diarreia, alergia (se alérgico a penicilina = perigo).",
+    "avisos": "ALERGIA: Se tem alergia a penicilina, NÃO tomar! Se sentir alergia: parar na hora e correr pro hospital.",
+    "interacoes": "Anticoncepcional: pode parar de funcionar. Use camisinha como reforço!",
+    "generico": "Amoxicilina genérica: R$ 3-10. Marca (Amoxil): R$ 15-25. São biologicamente iguais.",
+    "dica": "💡 NUNCA interrompa antibiótico no meio! Pode criar bactéria resistente que fica mais perigosa."
+  },
+  {
+    "slug": "losartana",
+    "nome": "Losartana (Pressão Alta)",
+    "paraQue": "Baixa pressão arterial. Relaxa os vasos sanguíneos deixando a pressão mais normal.",
+    "comoTomar": "1 comprimido por dia, normalmente pela manhã. Tomar todo dia (sem faltar!).",
+    "efeitos": "Tontura, cansaço, tosse seca (alguns casos), hipotensão (pressão muito baixa).",
+    "avisos": "Se sentir desmaio ou tontura forte, avise o médico. Precisa medir pressão regularmente.",
+    "interacoes": "Cuidado com diuréticos (remédio que tira água). Potássio pode ficar alto (converse com médico).",
+    "generico": "Losartana genérica: R$ 5-15. Marca (Cozaar): R$ 30-50. Genérico funciona igual!",
+    "dica": "💡 É para vida toda (normalmente). Não parar de tomar porque \"se sentindo melhor\"."
+  },
+  {
+    "slug": "omeprazol",
+    "nome": "Omeprazol (Protetor de Estômago)",
+    "paraQue": "Protege estômago reduzindo ácido. Usado para azia, refluxo, úlcera.",
+    "comoTomar": "1 cápsula por dia, normalmente pela manhã, 30 min antes de comer.",
+    "efeitos": "Prisão de ventre ou diarreia, dor de cabeça rara, alergia rara.",
+    "avisos": "Uso prolongado pode afetar absorção de cálcio e vitamina B12. Se usar mais de 3 meses, avise médico.",
+    "interacoes": "Pode interferir em absorção de outros medicamentos. Tomar com 30 min de diferença.",
+    "generico": "Omeprazol genérico: R$ 3-8. Marca (Losec): R$ 15-25. Genérico é bom.",
+    "dica": "💡 Não é para tomar \"por precaução\". Só se realmente tem problema de ácido."
+  },
+  {
+    "slug": "metformina",
+    "nome": "Metformina (Diabetes)",
+    "paraQue": "Controla açúcar no sangue. Diminui resistência do corpo à insulina.",
+    "comoTomar": "Normalmente 1-2 comprimidos com refeição. Tomar todo dia sem faltar.",
+    "efeitos": "Dor de estômago (muito comum), diarreia, gosto metálico na boca, perda de peso (às vezes).",
+    "avisos": "Se tomar bebida alcoólica frequentemente = problema. Precisa fazer exame de rim todo ano.",
+    "interacoes": "Contraste de tomografia pode prejudicar rim. Avisar médico se vai fazer exame.",
+    "generico": "Metformina genérica: R$ 5-15. Marca (Glucophage): R$ 25-50. Iguais.",
+    "dica": "💡 Não cura diabetes. Apenas ajuda a controlar. Precisar de dieta + exercício também."
+  },
+  {
+    "slug": "paracetamol",
+    "nome": "Paracetamol (Analgésico/Antitérmico)",
+    "paraQue": "Alivia dor e febre. Mais seguro que ibuprofeno para algumas pessoas.",
+    "comoTomar": "1-2 comprimidos (500mg) a cada 6 horas. Máximo 4g por dia (8 comprimidos de 500mg).",
+    "efeitos": "Alergia rara, falta de apetite, erupção cutânea rara.",
+    "avisos": "Não exceder dose máxima! Overdose pode prejudicar fígado. Nunca tomar junto com bebida alcoólica.",
+    "interacoes": "Se toma medicamento com paracetamol, contar a dose total (xaropes contêm paracetamol).",
+    "generico": "Paracetamol genérico: R$ 2-5. Marca (Tylenol): R$ 8-15. Genérico funciona igual.",
+    "dica": "💡 Mais seguro que ibuprofeno para crianças e gravidez. Melhor para dor leve/moderada."
+  },
+  {
+    "slug": "aspirina",
+    "nome": "Aspirina (Anticoagulante/Analgésico)",
+    "paraQue": "Alivia dor, protege coração (toma idoso para prevenir infarto/AVC), afina o sangue.",
+    "comoTomar": "Para dor: 1-2 comprimidos a cada 4-6 horas. Para proteção cardíaca: 1 comprimido por dia.",
+    "efeitos": "Dor de estômago (muito comum), sangramento leve (raro), alergia (rara).",
+    "avisos": "Problema de estômago ou úlcera = cuidado. Usar junto com álcool = risco maior de sangramento.",
+    "interacoes": "⚠️ NÃO tomar junto com Ibuprofeno ou Dipirona! Aumenta risco de úlcera gravíssimo.",
+    "generico": "Aspirina genérica: R$ 2-5. Marca (Aspirina Bayer): R$ 10-20. Iguais.",
+    "dica": "💡 Idoso toma \"meia aspirina\" por dia para prevenir problema do coração. Peça orientação!"
+  }
+]
