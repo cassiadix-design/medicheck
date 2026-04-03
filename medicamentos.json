@@ -256,9 +256,9 @@
       "Pode causar danos nos rins — monitoramento obrigatório",
       "Beba muita água durante o tratamento"
     ],
-    "classe_receita": "RECEITA_ESPECIAL",
-    "receita_display": "🔴 Receita Médica Obrigatória",
-    "receita_descricao": "Exige receita médica obrigatória para dispensação.",
+    "classe_receita": "HOSPITALAR_SUS",
+    "receita_display": "🔴 Uso Hospitalar / SUS / Alto Custo",
+    "receita_descricao": "Dispensação em âmbito hospitalar, SUS ou programa de alto custo. Exige prescrição médica.",
     "receita_cor": "vermelho"
   },
   {
@@ -1991,9 +1991,9 @@
       "Pode causar sonhos vívidos (sonhos muito intensos e realistas) no início",
       "Distribuído gratuitamente pelo SUS"
     ],
-    "classe_receita": "RECEITA_ESPECIAL",
-    "receita_display": "🔴 Receita Médica Obrigatória",
-    "receita_descricao": "Exige receita médica obrigatória para dispensação.",
+    "classe_receita": "HOSPITALAR_SUS",
+    "receita_display": "🔴 Uso Hospitalar / SUS / Alto Custo",
+    "receita_descricao": "Dispensação em âmbito hospitalar, SUS ou programa de alto custo. Exige prescrição médica.",
     "receita_cor": "vermelho"
   },
   {
@@ -2471,9 +2471,9 @@
       "Beba muita água",
       "Monitoramento laboratorial obrigatório"
     ],
-    "classe_receita": "RECEITA_ESPECIAL",
-    "receita_display": "🔴 Receita Médica Obrigatória",
-    "receita_descricao": "Exige receita médica obrigatória para dispensação.",
+    "classe_receita": "HOSPITALAR_SUS",
+    "receita_display": "🔴 Uso Hospitalar / SUS / Alto Custo",
+    "receita_descricao": "Dispensação em âmbito hospitalar, SUS ou programa de alto custo. Exige prescrição médica.",
     "receita_cor": "vermelho"
   },
   {
@@ -3093,9 +3093,9 @@
       "Muitas interações medicamentosas",
       "Distribuído gratuitamente pelo SUS"
     ],
-    "classe_receita": "RECEITA_ESPECIAL",
-    "receita_display": "🔴 Receita Médica Obrigatória",
-    "receita_descricao": "Exige receita médica obrigatória para dispensação.",
+    "classe_receita": "HOSPITALAR_SUS",
+    "receita_display": "🔴 Uso Hospitalar / SUS / Alto Custo",
+    "receita_descricao": "Dispensação em âmbito hospitalar, SUS ou programa de alto custo. Exige prescrição médica.",
     "receita_cor": "vermelho"
   },
   {
@@ -3478,7 +3478,7 @@
     ],
     "classe_receita": "RECEITA_ESPECIAL",
     "receita_display": "🔴 Receita Médica Obrigatória",
-    "receita_descricao": "Exige receita médica obrigatória para dispensação.",
+    "receita_descricao": "Agonista GLP-1 — exige receita médica obrigatória. Dispensação controlada.",
     "receita_cor": "vermelho"
   },
   {
@@ -3713,10 +3713,10 @@
       "Versão sublingual e orodispersível: ideais quando há vômito intenso",
       "Risco cardíaco: informe histórico de arritmia"
     ],
-    "classe_receita": "RECEITA_ESPECIAL",
-    "receita_display": "🔴 Receita Médica Obrigatória",
-    "receita_descricao": "Exige receita médica obrigatória para dispensação.",
-    "receita_cor": "vermelho"
+    "classe_receita": "TARJADO_PRATICA",
+    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
+    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_cor": "amarelo"
   },
   {
     "nome": "Oseltamivir 75mg - Suspensão",
@@ -4033,9 +4033,9 @@
       "Homens e mulheres: contracepção rigorosa",
       "Tome com alimento"
     ],
-    "classe_receita": "RECEITA_ESPECIAL",
-    "receita_display": "🔴 Receita Médica Obrigatória",
-    "receita_descricao": "Exige receita médica obrigatória para dispensação.",
+    "classe_receita": "HOSPITALAR_SUS",
+    "receita_display": "🔴 Uso Hospitalar / SUS / Alto Custo",
+    "receita_descricao": "Dispensação em âmbito hospitalar, SUS ou programa de alto custo. Exige prescrição médica.",
     "receita_cor": "vermelho"
   },
   {
@@ -4186,7 +4186,7 @@
     ],
     "classe_receita": "RECEITA_ESPECIAL",
     "receita_display": "🔴 Receita Médica Obrigatória",
-    "receita_descricao": "Exige receita médica obrigatória para dispensação.",
+    "receita_descricao": "Agonista GLP-1 — exige receita médica obrigatória. Dispensação controlada.",
     "receita_cor": "vermelho"
   },
   {
@@ -4290,7 +4290,7 @@
     ],
     "classe_receita": "RECEITA_ESPECIAL",
     "receita_display": "🔴 Receita Médica Obrigatória",
-    "receita_descricao": "Exige receita médica obrigatória para dispensação.",
+    "receita_descricao": "Agonista GLP-1 — exige receita médica obrigatória. Dispensação controlada.",
     "receita_cor": "vermelho"
   },
   {
@@ -4338,7 +4338,7 @@
     ],
     "classe_receita": "RECEITA_ESPECIAL",
     "receita_display": "🔴 Receita Médica Obrigatória",
-    "receita_descricao": "Exige receita médica obrigatória para dispensação.",
+    "receita_descricao": "Agonista GLP-1 — exige receita médica obrigatória. Dispensação controlada.",
     "receita_cor": "vermelho"
   },
   {
@@ -4573,9 +4573,9 @@
       "Nunca interrompa por conta própria",
       "Distribuído gratuitamente pelo SUS"
     ],
-    "classe_receita": "RECEITA_ESPECIAL",
-    "receita_display": "🔴 Receita Médica Obrigatória",
-    "receita_descricao": "Exige receita médica obrigatória para dispensação.",
+    "classe_receita": "HOSPITALAR_SUS",
+    "receita_display": "🔴 Uso Hospitalar / SUS / Alto Custo",
+    "receita_descricao": "Dispensação em âmbito hospitalar, SUS ou programa de alto custo. Exige prescrição médica.",
     "receita_cor": "vermelho"
   },
   {
@@ -5460,9 +5460,9 @@
       "Inflectra",
       "Infliximabe Biosimilar"
     ],
-    "classe_receita": "HOSPITALAR",
-    "receita_display": "🔴 Uso Hospitalar / Alto Custo",
-    "receita_descricao": "Uso hospitalar ou dispensação especial (alto custo SUS). Requer prescrição médica.",
+    "classe_receita": "HOSPITALAR_SUS",
+    "receita_display": "🔴 Uso Hospitalar / SUS / Alto Custo",
+    "receita_descricao": "Dispensação em âmbito hospitalar, SUS ou programa de alto custo. Exige prescrição médica.",
     "receita_cor": "vermelho"
   },
   {
@@ -6004,9 +6004,9 @@
       "Mupirocina EMS",
       "Turixin"
     ],
-    "classe_receita": "RECEITA_ESPECIAL",
-    "receita_display": "🔴 Receita Médica Obrigatória",
-    "receita_descricao": "Exige receita médica obrigatória para dispensação.",
+    "classe_receita": "RECEITA_ANTIBIOTICO",
+    "receita_display": "🔴 Receita Obrigatória — Antibiótico",
+    "receita_descricao": "Antibiótico — receita simples retida obrigatória (ANVISA RDC 20/2011).",
     "receita_cor": "vermelho"
   },
   {
@@ -6522,7 +6522,7 @@
     "receita_cor": "vermelho"
   },
   {
-    "nome": "Dissulfiram 250mg - 500mg",
+    "nome": "Dissulfiram 250mg - 500mg — DESCONTINUADO",
     "generico": "Dissulfiram",
     "tipo": "Tratamento de Dependência / Inibidor da Aldeído Desidrogenase",
     "descricao": "Inibe a aldeído desidrogenase, causando acúmulo de acetaldeído quando álcool é ingerido — produzindo reação extremamente desagradável (rubor, taquicardia, náusea, vômito, hipotensão). Usado como dissuasor no tratamento da dependência alcoólica.",
@@ -6544,10 +6544,10 @@
       "Dissulfiram EMS",
       "Antietanol"
     ],
-    "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
-    "receita_cor": "amarelo"
+    "classe_receita": "DESCONTINUADO_CONTROLADO",
+    "receita_display": "⚫ Descontinuado — Era Controlado",
+    "receita_descricao": "Medicamento descontinuado no Brasil. Era controlado com receita especial.",
+    "receita_cor": "cinza"
   },
   {
     "nome": "Sumatriptana 50mg - 100mg - 6mg/0,5mL Injetável",
