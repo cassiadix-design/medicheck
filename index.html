@@ -3,8 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MediCheck - Seu Medicamento Explicado</title>
+    <meta name="google-site-verification" content="5YaZ4KPtq8mx9TxaV1IWs-S7U1oITQ13kbKjYGO6vbw" />
+    <title>MediCheck - Consulta de Medicamentos | medicheck.med.br</title>
+    <meta name="description" content="MediCheck — Consulte informações completas sobre medicamentos: para que serve, efeitos colaterais, receita e interações. Conteúdo revisado por farmacêutica responsável CRF-SP 33.109." />
+    <meta name="keywords" content="medicamentos, bula, para que serve, efeitos colaterais, receita médica, interações medicamentosas, farmácia, farmacêutico, idosos, critérios de beers" />
+    <meta property="og:title" content="MediCheck - Seu Medicamento Explicado" />
+    <meta property="og:description" content="Consulte informações completas sobre medicamentos de forma clara e segura. Revisado por farmacêutica responsável." />
+    <meta property="og:url" content="https://medicheck.med.br" />
+    <meta property="og:type" content="website" /><br>
+    <link rel="canonical" href="https://medicheck.med.br/" />
     <style>
+.footer-crf{
+text-align:center;
+padding:18px 30px;
+font-size:14px;
+color:#666;
+border-top:1px solid #ddd;
+margin-top:0;
+background:#fafafa;
+border-radius:0 0 20px 20px;
+}
         * {
             margin: 0;
             padding: 0;
@@ -27,7 +45,7 @@
             box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
             max-width: 900px;
             width: 100%;
-            overflow: hidden;
+            overflow: visible;
             position: relative;
         }
 
@@ -36,6 +54,7 @@
             color: white;
             padding: 50px 30px;
             text-align: center;
+            border-radius: 20px 20px 0 0;
         }
 
         .header h1 {
@@ -149,6 +168,7 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
+            text-decoration: none;
         }
 
         .medicine-btn::after {
@@ -173,14 +193,17 @@
             display: flex;
             justify-content: center;
             gap: 10px;
-            margin-top: 30px;
-            margin-bottom: 20px;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            padding-top: 50px;
+            padding-bottom: 50px;
+            border-top: 2px solid #ddd;
+            border-bottom: 2px solid #ddd;
             flex-wrap: wrap;
-            padding-bottom: 20px;
         }
 
         .pagination button {
-            padding: 12px 18px;
+            padding: 16px 24px;
             border: 2px solid #667eea;
             background: white;
             color: #667eea;
@@ -188,8 +211,8 @@
             cursor: pointer;
             font-weight: 700;
             transition: 0.3s;
-            font-size: 14px;
-            min-width: 45px;
+            font-size: 16px;
+            min-width: 55px;
         }
 
         .pagination button.active {
@@ -205,12 +228,14 @@
 
         .page-info {
             text-align: center;
-            font-size: 14px;
+            font-size: 16px;
             color: #666;
-            margin-top: 15px;
-            margin-bottom: 20px;
+            margin-top: 30px;
+            margin-bottom: 50px;
+            padding-top: 30px;
+            padding-bottom: 30px;
             font-weight: 600;
-            padding-bottom: 15px;
+            border-bottom: 2px solid #ddd;
         }
 
         .tip {
@@ -366,6 +391,36 @@
             line-height: 1.8;
         }
 
+        .resposta-rapida {
+            background: linear-gradient(135deg, #e8f4fd, #d0e8f8);
+            border: 2px solid #2196F3;
+            border-radius: 12px;
+            padding: 16px 20px;
+            margin: 16px 0 20px 0;
+        }
+        .rr-label {
+            font-weight: 700;
+            font-size: 15px;
+            color: #1565C0;
+            margin-bottom: 10px;
+            letter-spacing: 0.5px;
+        }
+        .rr-items {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+        .rr-item {
+            background: #ffffff;
+            border: 1px solid #90CAF9;
+            border-radius: 20px;
+            padding: 5px 13px;
+            font-size: 13.5px;
+            color: #1565C0;
+            font-weight: 500;
+            line-height: 1.4;
+        }
+
         .danger {
             background: #f8d7da;
             border-left: 8px solid #dc3545;
@@ -379,10 +434,58 @@
 
         .about-content {
             display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.6);
+            z-index: 1000;
+            padding: 20px;
+            overflow-y: auto;
         }
 
         .about-content.active {
-            display: block;
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            padding-top: 20px;
+        }
+
+        .about-modal-wrapper {
+            background: white;
+            border-radius: 20px;
+            max-width: 800px;
+            width: 100%;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            position: relative;
+            max-height: 90vh;
+            overflow-y: auto;
+        }
+
+        .about-modal-close {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: #667eea;
+            color: white;
+            border: none;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            font-size: 28px;
+            cursor: pointer;
+            transition: 0.3s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 1001;
+        }
+
+        .about-modal-close:hover {
+            background: #764ba2;
+            transform: scale(1.15);
         }
 
         .about-content h2 {
@@ -407,7 +510,214 @@
             font-size: 15px;
         }
 
-        /* Responsividade Mobile */
+        .page-label {
+            background: #d4edda;
+            border: 2px solid #28a745;
+            padding: 12px 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            text-align: center;
+            font-weight: 700;
+            color: #155724;
+            font-size: 16px;
+        }
+
+        /* SEÇÃO INTERAÇÕES */
+        .interacoes-content { display: none; }
+        .interacoes-content.active { display: block; }
+        .interacao-header {
+            background: linear-gradient(135deg, #c0392b, #922b21);
+            color: white; padding: 20px; border-radius: 12px;
+            margin-bottom: 20px; text-align: center;
+        }
+        .interacao-header h2 { font-size: 22px; margin-bottom: 8px; }
+        .interacao-header p { font-size: 13px; opacity: 0.95; line-height: 1.6; }
+        .interacao-busca {
+            display: flex; gap: 10px; margin-bottom: 20px; flex-wrap: wrap;
+        }
+        .interacao-busca input {
+            flex: 1; min-width: 140px; padding: 12px;
+            border: 2px solid #ddd; border-radius: 8px; font-size: 15px;
+        }
+        .interacao-busca button {
+            padding: 12px 20px; background: #c0392b; color: white;
+            border: none; border-radius: 8px; font-weight: 700;
+            cursor: pointer; font-size: 15px;
+        }
+        .interacao-busca button:hover { background: #922b21; }
+        .interacao-resultado {
+            display: none; border-radius: 12px; overflow: hidden;
+            margin-bottom: 20px; border: 2px solid #ddd;
+        }
+        .interacao-resultado.ativo { display: block; }
+        .inter-nivel {
+            padding: 14px 18px; color: white; font-weight: 700; font-size: 16px;
+        }
+        .inter-nivel.alto { background: #c0392b; }
+        .inter-nivel.moderado { background: #e8751a; }
+        .inter-nivel.baixo { background: #27ae60; }
+        .inter-corpo { padding: 16px 18px; background: white; }
+        .inter-corpo p { font-size: 14px; color: #444; line-height: 1.8; margin-bottom: 8px; }
+        .inter-corpo strong { color: #222; }
+        .inter-lista-fixa { margin-top: 10px; }
+        .inter-lista-fixa h3 {
+            font-size: 15px; color: #333; margin-bottom: 12px;
+            border-bottom: 2px solid #eee; padding-bottom: 8px; font-weight: 700;
+        }
+        .inter-card {
+            border: 1px solid #eee; border-radius: 8px;
+            margin-bottom: 10px; overflow: hidden; cursor: pointer;
+        }
+        .inter-card-titulo {
+            padding: 12px 14px; font-weight: 700; font-size: 14px;
+            display: flex; justify-content: space-between; align-items: center;
+        }
+        .inter-card-titulo.alto { background: #fde8e8; color: #c0392b; border-left: 5px solid #c0392b; }
+        .inter-card-titulo.moderado { background: #fef3e2; color: #e8751a; border-left: 5px solid #e8751a; }
+        .inter-card-titulo.baixo { background: #e8f8f0; color: #27ae60; border-left: 5px solid #27ae60; }
+        .inter-card-corpo {
+            display: none; padding: 12px 14px; font-size: 13px;
+            color: #444; line-height: 1.8; background: #fafafa;
+            border-top: 1px solid #eee;
+        }
+        .inter-card-corpo.aberto { display: block; }
+
+        /* SEÇÕES INSTITUCIONAIS */
+        .inst-content { display: none; }
+        .inst-content.active { display: block; }
+        .inst-header {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white; padding: 20px; border-radius: 12px;
+            margin-bottom: 20px; text-align: center;
+        }
+        .inst-header h2 { font-size: 22px; margin-bottom: 6px; }
+        .inst-header p { font-size: 13px; opacity: 0.9; }
+        .inst-section { margin-bottom: 20px; }
+        .inst-section h3 {
+            font-size: 16px; font-weight: 700; color: #667eea;
+            margin-bottom: 10px; padding-bottom: 6px;
+            border-bottom: 2px solid #e8eaf6;
+        }
+        .inst-section p, .inst-section li {
+            font-size: 14px; color: #555; line-height: 1.8;
+        }
+        .inst-section ul { padding-left: 20px; margin-top: 6px; }
+        .inst-section li { margin-bottom: 4px; }
+        .inst-rodape {
+            background: #f8f9fa; border: 1px solid #ddd; border-radius: 8px;
+            padding: 14px; text-align: center; font-size: 13px; color: #666;
+            margin-top: 20px;
+        }
+        .contato-form { margin-top: 10px; }
+        .contato-item {
+            display: flex; align-items: center; gap: 12px;
+            padding: 14px; border: 1px solid #eee; border-radius: 10px;
+            margin-bottom: 10px; background: #f9f9ff;
+        }
+        .contato-item .icon { font-size: 28px; }
+        .contato-item .info { font-size: 14px; color: #444; line-height: 1.6; }
+        .contato-item .info strong { color: #667eea; display: block; }
+        .contato-item .info a { color: #667eea; text-decoration: none; }
+
+        /* SEÇÃO IDOSOS */
+        .idosos-content {
+            display: none;
+        }
+        .idosos-content.active {
+            display: block;
+        }
+        .idosos-header {
+            background: linear-gradient(135deg, #e8751a, #c0392b);
+            color: white;
+            padding: 20px;
+            border-radius: 12px;
+            margin-bottom: 25px;
+            text-align: center;
+        }
+        .idosos-header h2 {
+            font-size: 24px;
+            margin-bottom: 8px;
+        }
+        .idosos-header p {
+            font-size: 14px;
+            opacity: 0.95;
+            line-height: 1.6;
+        }
+        .beers-aviso {
+            background: #fff3cd;
+            border-left: 6px solid #e8751a;
+            padding: 16px;
+            border-radius: 8px;
+            margin-bottom: 25px;
+            font-size: 14px;
+            color: #856404;
+            line-height: 1.7;
+        }
+        .beers-categoria {
+            margin-bottom: 30px;
+        }
+        .beers-categoria-titulo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 18px;
+            font-weight: 700;
+            color: white;
+            padding: 12px 18px;
+            border-radius: 10px 10px 0 0;
+            margin-bottom: 0;
+        }
+        .beers-categoria-titulo.evitar { background: #c0392b; }
+        .beers-categoria-titulo.cautela { background: #e8751a; }
+        .beers-categoria-titulo.queda { background: #8e44ad; }
+        .beers-categoria-titulo.cognitivo { background: #2980b9; }
+        .beers-categoria-titulo.polifarmacia { background: #27ae60; }
+        .beers-lista {
+            border: 2px solid #ddd;
+            border-top: none;
+            border-radius: 0 0 10px 10px;
+            overflow: hidden;
+        }
+        .beers-item {
+            padding: 14px 18px;
+            border-bottom: 1px solid #eee;
+            font-size: 14px;
+            line-height: 1.7;
+        }
+        .beers-item:last-child { border-bottom: none; }
+        .beers-item:nth-child(even) { background: #f9f9f9; }
+        .beers-item strong { color: #333; font-size: 15px; }
+        .beers-item .motivo {
+            color: #666;
+            font-size: 13px;
+            margin-top: 4px;
+            display: block;
+        }
+        .beers-badge {
+            display: inline-block;
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-size: 11px;
+            font-weight: 700;
+            margin-left: 8px;
+            vertical-align: middle;
+        }
+        .badge-evitar { background: #fde8e8; color: #c0392b; }
+        .badge-cautela { background: #fef3e2; color: #e8751a; }
+        .badge-queda { background: #f0e6f6; color: #8e44ad; }
+        .badge-cognitivo { background: #e6f2fb; color: #2980b9; }
+        .beers-rodape {
+            background: #f8f9fa;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 16px;
+            margin-top: 25px;
+            font-size: 13px;
+            color: #666;
+            line-height: 1.7;
+            text-align: center;
+        }
+    
         @media (max-width: 480px) {
             .header {
                 padding: 30px 20px;
@@ -504,18 +814,22 @@
         }
     </style>
 </head>
+
 <body>
     <div class="container">
         <div class="header">
-            <h1>💊 MediCheck</h1>
-            <p>Seu Medicamento Explicado</p>
-            <p class="header-crf">✓ Rita de Cássia | CRF SP nº 33.109</p>
-        </div>
+    <h1>💊 MediCheck</h1>
+    <p>Seu Medicamento Explicado</p>
+</div>
 
         <div class="content">
             <div class="nav-buttons">
-                <button class="nav-btn active" data-tab="home">Home</button>
-                <button class="nav-btn" data-tab="about">Sobre</button>
+                <button class="nav-btn active" data-tab="home">🏠 Home</button>
+                <button class="nav-btn" data-tab="idosos">🧓 Idosos</button>
+                <button class="nav-btn" data-tab="interacoes">⚡ Interações</button>
+                <button class="nav-btn" data-tab="privacidade">🔒 Privacidade</button>
+                <button class="nav-btn" data-tab="termos">📋 Termos</button>
+                <button class="nav-btn" data-tab="contato">📧 Contato</button>
             </div>
 
             <div id="home" class="tab-content">
@@ -528,33 +842,813 @@
                 </div>
 
                 <div class="medicines-list">
-                    <h3>📋 MEDICAMENTOS (Página <span id="currentPage">1</span>)</h3>
+                    <h3>📋 MEDICAMENTOS</h3>
+                    <p style="font-size:13px;color:#888;margin-bottom:12px;">
+                        <a href="/medicamentos/" style="color:#667eea;text-decoration:none;font-weight:600;">
+                            📄 Ver todos em página indexável →
+                        </a>
+                    </p>
                     <div class="medicine-grid" id="medicineGrid"></div>
+
+                    <div style="text-align:center;padding:16px 10px 8px;font-size:14px;color:#666;border-top:1px solid #ddd;margin-top:10px;">
+                        Revisado por <strong>Rita de Cássia Oliveira Soares da Silva</strong> — CRF-SP 33.109 · Farmacêutica responsável<br>
+                        <small style="color:#999;">MediCheck © 2026 — medicheck.med.br — Conteúdo educacional. Não substitui orientação profissional.</small>
+                    </div>
 
                     <div class="pagination" id="pagination"></div>
                     <div class="page-info" id="pageInfo"></div>
+
+                </div>
+            </div>
+
+            <!-- SEÇÃO IDOSOS -->
+            <div id="idosos" class="idosos-content">
+
+                <div class="idosos-header">
+                    <h2>🧓 Segurança de Medicamentos em Idosos</h2>
+                    <p>Baseado nos Critérios de Beers 2023 — American Geriatrics Society<br>
+                    Referência internacional usada por geriatras e farmacêuticos para identificar medicamentos de risco em pessoas com 65 anos ou mais.</p>
+                </div>
+
+                <div class="beers-aviso">
+                    ⚠️ <strong>Importante:</strong> Esta seção é educacional e baseada nos Critérios de Beers 2023. Cada paciente é único — nunca interrompa ou substitua medicamentos sem orientação médica ou farmacêutica. Conteúdo revisado por <strong>Rita de Cássia Oliveira Soares da Silva — CRF-SP 33.109</strong>.
+                </div>
+
+                <!-- EVITAR -->
+                <div class="beers-categoria">
+                    <div class="beers-categoria-titulo evitar">🚫 Medicamentos a EVITAR em Idosos</div>
+                    <div class="beers-lista">
+                        <div class="beers-item">
+                            <strong>Benzodiazepínicos</strong> <span class="beers-badge badge-evitar">EVITAR</span>
+                            <span class="motivo">Diazepam, Clonazepam, Alprazolam, Bromazepam — Aumentam risco de sedação excessiva, quedas, fraturas e comprometimento cognitivo. Idosos metabolizam mais lentamente, acumulando o medicamento no organismo.</span>
+                        </div>
+                        <div class="beers-item">
+                            <strong>Anti-histamínicos de 1ª geração</strong> <span class="beers-badge badge-evitar">EVITAR</span>
+                            <span class="motivo">Prometazina — Forte ação anticolinérgica. Causa confusão mental, retenção urinária, constipação e visão turva em idosos. Risco de delirium.</span>
+                        </div>
+                        <div class="beers-item">
+                            <strong>Antidepressivos tricíclicos</strong> <span class="beers-badge badge-evitar">EVITAR</span>
+                            <span class="motivo">Amitriptilina — Altamente anticolinérgico e sedativo. Causa hipotensão ortostática (tontura ao levantar), aumentando risco de queda e fratura de quadril.</span>
+                        </div>
+                        <div class="beers-item">
+                            <strong>Anti-inflamatórios (AINEs) de uso contínuo</strong> <span class="beers-badge badge-evitar">EVITAR</span>
+                            <span class="motivo">Ibuprofeno, Diclofenaco, Nimesulida — Uso crônico aumenta risco de sangramento gastrointestinal, insuficiência renal e elevação da pressão arterial em idosos.</span>
+                        </div>
+                        <div class="beers-item">
+                            <strong>Hipnóticos Z-drugs</strong> <span class="beers-badge badge-evitar">EVITAR</span>
+                            <span class="motivo">Zolpidem, Zopiclona — Aumentam risco de quedas, fraturas, delirium e acidentes de trânsito. Efeitos sedativos são mais intensos e prolongados em idosos.</span>
+                        </div>
+                        <div class="beers-item">
+                            <strong>Relaxantes musculares</strong> <span class="beers-badge badge-evitar">EVITAR</span>
+                            <span class="motivo">Baclofen — Causa sedação excessiva, confusão mental e fraqueza muscular em idosos, aumentando o risco de quedas.</span>
+                        </div>
+                        <div class="beers-item">
+                            <strong>Anticolinérgicos para bexiga</strong> <span class="beers-badge badge-evitar">EVITAR</span>
+                            <span class="motivo">Biperideno — Causa retenção urinária, constipação, confusão mental e visão turva. Risco aumentado de delirium em idosos.</span>
+                        </div>
+                        <div class="beers-item">
+                            <strong>Glibenclamida</strong> <span class="beers-badge badge-evitar">EVITAR</span>
+                            <span class="motivo">Sulfonilureia de longa duração — causa hipoglicemia grave e prolongada em idosos. Idosos frequentemente têm hipoglicemia assintomática (não sentem os sintomas), tornando o quadro ainda mais perigoso. Os Critérios de Beers recomendam evitar — prefira antidiabéticos mais seguros como metformina ou inibidores DPP-4.</span>
+                        </div>
+                        <div class="beers-item">
+                            <strong>Digoxina em doses altas (acima de 0,125mg/dia)</strong> <span class="beers-badge badge-evitar">EVITAR</span>
+                            <span class="motivo">Rins dos idosos eliminam a digoxina mais lentamente, aumentando o risco de intoxicação mesmo em doses consideradas normais para adultos jovens.</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CAUTELA -->
+                <div class="beers-categoria">
+                    <div class="beers-categoria-titulo cautela">⚠️ Usar com CAUTELA em Idosos</div>
+                    <div class="beers-lista">
+                        <div class="beers-item">
+                            <strong>Inibidores da ECA e BRAs</strong> <span class="beers-badge badge-cautela">CAUTELA</span>
+                            <span class="motivo">Enalapril, Losartana, Captopril — Monitorar função renal e potássio regularmente. Risco de hipotensão e tontura ao levantar.</span>
+                        </div>
+                        <div class="beers-item">
+                            <strong>Diuréticos</strong> <span class="beers-badge badge-cautela">CAUTELA</span>
+                            <span class="motivo">Furosemida, Hidroclorotiazida — Podem causar desidratação, desequilíbrio de eletrólitos e hipotensão em idosos. Monitorar sódio, potássio e função renal.</span>
+                        </div>
+                        <div class="beers-item">
+                            <strong>Anticoagulantes orais</strong> <span class="beers-badge badge-cautela">CAUTELA</span>
+                            <span class="motivo">Warfarina, Rivaroxabana — Idosos têm maior risco de sangramento. Monitoramento rigoroso do INR e sinais de sangramento é essencial.</span>
+                        </div>
+                        <div class="beers-item">
+                            <strong>Antipsicóticos</strong> <span class="beers-badge badge-cautela">CAUTELA</span>
+                            <span class="motivo">Haloperidol, Quetiapina, Risperidona, Olanzapina — Em idosos com demência, aumentam risco de AVC e morte. Usar apenas quando benefício supera claramente o risco.</span>
+                        </div>
+                        <div class="beers-item">
+                            <strong>Opioides</strong> <span class="beers-badge badge-cautela">CAUTELA</span>
+                            <span class="motivo">Codeína, Tramadol — Maior risco de sedação, constipação grave, confusão mental e quedas. Tramadol pode causar hipoglicemia em idosos diabéticos.</span>
+                        </div>
+                        <div class="beers-item">
+                            <strong>Inibidores de bomba de prótons crônicos</strong> <span class="beers-badge badge-cautela">CAUTELA</span>
+                            <span class="motivo">Omeprazol, Pantoprazol — Uso prolongado em idosos aumenta risco de deficiência de vitamina B12, magnésio, fraturas ósseas e infecções intestinais.</span>
+                        </div>
+                        <div class="beers-item">
+                            <strong>Insulinas (Regular e NPH)</strong> <span class="beers-badge badge-cautela">CAUTELA</span>
+                            <span class="motivo">Idosos têm maior risco de hipoglicemia grave com insulina — menor percepção dos sintomas (hipoglicemia assintomática), alimentação irregular, função renal reduzida e múltiplos medicamentos aumentam o risco. Monitoramento frequente da glicemia é essencial. Metas glicêmicas menos rígidas são recomendadas para idosos frágeis. Mantenha sempre açúcar ou suco por perto.</span>
+                        </div>
+                        <div class="beers-item">
+                            <strong>Metformina</strong> <span class="beers-badge badge-cautela">CAUTELA</span>
+                            <span class="motivo">Monitorar função renal regularmente. Contraindicada em insuficiência renal grave. Risco de acidose lática aumentado com a piora da função renal que ocorre com o envelhecimento.</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- RISCO DE QUEDAS -->
+                <div class="beers-categoria">
+                    <div class="beers-categoria-titulo queda">🦯 Medicamentos com RISCO DE QUEDAS</div>
+                    <div class="beers-lista">
+                        <div class="beers-item">
+                            <strong>Benzodiazepínicos e Z-drugs</strong> <span class="beers-badge badge-queda">QUEDA</span>
+                            <span class="motivo">Diazepam, Clonazepam, Zolpidem — Sedação e comprometimento do equilíbrio. Principal causa de fraturas de quadril em idosos.</span>
+                        </div>
+                        <div class="beers-item">
+                            <strong>Anti-hipertensivos</strong> <span class="beers-badge badge-queda">QUEDA</span>
+                            <span class="motivo">Anlodipino, Atenolol, Metoprolol, Losartana — Hipotensão ortostática ao levantar rápido. Idosos devem levantar devagar e segurar em apoios.</span>
+                        </div>
+                        <div class="beers-item">
+                            <strong>Diuréticos</strong> <span class="beers-badge badge-queda">QUEDA</span>
+                            <span class="motivo">Furosemida, Hidroclorotiazida — Urgência urinária e pressa ao se levantar para ir ao banheiro aumentam risco de queda, especialmente à noite.</span>
+                        </div>
+                        <div class="beers-item">
+                            <strong>Antidepressivos</strong> <span class="beers-badge badge-queda">QUEDA</span>
+                            <span class="motivo">Amitriptilina, Mirtazapina, Trazodona — Sedação, tontura e hipotensão ortostática. Atenção especial nas primeiras semanas de tratamento.</span>
+                        </div>
+                        <div class="beers-item">
+                            <strong>Antipsicóticos</strong> <span class="beers-badge badge-queda">QUEDA</span>
+                            <span class="motivo">Haloperidol, Quetiapina — Sedação, hipotensão e rigidez muscular comprometem o equilíbrio e aumentam risco de quedas.</span>
+                        </div>
+                        <div class="beers-item">
+                            <strong>Opioides</strong> <span class="beers-badge badge-queda">QUEDA</span>
+                            <span class="motivo">Tramadol, Codeína — Tontura, sedação e comprometimento da coordenação motora. Risco dobrado de quedas nos primeiros dias de uso.</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- RISCO COGNITIVO -->
+                <div class="beers-categoria">
+                    <div class="beers-categoria-titulo cognitivo">🧠 Medicamentos com RISCO COGNITIVO e DEMÊNCIA</div>
+                    <div class="beers-lista">
+                        <div class="beers-item">
+                            <strong>Anticolinérgicos em geral</strong> <span class="beers-badge badge-cognitivo">COGNITIVO</span>
+                            <span class="motivo">Biperideno, Prometazina, Amitriptilina — Bloqueiam a acetilcolina, neurotransmissor essencial para a memória. Uso prolongado associado a maior risco de demência.</span>
+                        </div>
+                        <div class="beers-item">
+                            <strong>Benzodiazepínicos</strong> <span class="beers-badge badge-cognitivo">COGNITIVO</span>
+                            <span class="motivo">Diazepam, Clonazepam, Alprazolam — Comprometem a memória, atenção e aprendizado. Uso crônico associado ao aumento do risco de Alzheimer.</span>
+                        </div>
+                        <div class="beers-item">
+                            <strong>Hipnóticos</strong> <span class="beers-badge badge-cognitivo">COGNITIVO</span>
+                            <span class="motivo">Zolpidem, Zopiclona — Além de comprometer a memória, podem causar comportamentos automáticos durante a noite sem que o idoso se lembre.</span>
+                        </div>
+                        <div class="beers-item">
+                            <strong>Corticoides sistêmicos em altas doses</strong> <span class="beers-badge badge-cognitivo">COGNITIVO</span>
+                            <span class="motivo">Prednisona, Dexametasona — Uso prolongado pode causar psicose esteroidal, confusão mental e alterações de humor em idosos.</span>
+                        </div>
+                        <div class="beers-item">
+                            <strong>Opioides</strong> <span class="beers-badge badge-cognitivo">COGNITIVO</span>
+                            <span class="motivo">Tramadol, Codeína — Causam confusão mental, delirium e comprometimento da memória. Risco aumentado em idosos com demência prévia.</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- POLIFARMÁCIA -->
+                <div class="beers-categoria">
+                    <div class="beers-categoria-titulo polifarmacia">💊 Alerta de POLIFARMÁCIA</div>
+                    <div class="beers-lista">
+                        <div class="beers-item">
+                            <strong>O que é polifarmácia?</strong>
+                            <span class="motivo">Uso simultâneo de 5 ou mais medicamentos. Muito comum em idosos — quanto mais medicamentos, maior o risco de interações perigosas e efeitos adversos.</span>
+                        </div>
+                        <div class="beers-item">
+                            <strong>Cascata de prescrição</strong>
+                            <span class="motivo">Ocorre quando o efeito colateral de um medicamento é tratado com outro medicamento, que gera outro efeito colateral, e assim por diante. Muito frequente em idosos.</span>
+                        </div>
+                        <div class="beers-item">
+                            <strong>Combinações de alto risco</strong>
+                            <span class="motivo">⚠️ Anti-hipertensivo + Diurético + Opioide = alto risco de queda<br>
+                            ⚠️ Benzodiazepínico + Antipsicótico = risco elevado de sedação grave<br>
+                            ⚠️ Anticoagulante + AINE = risco elevado de sangramento<br>
+                            ⚠️ Múltiplos anticolinérgicos = risco de delirium e demência</span>
+                        </div>
+                        <div class="beers-item">
+                            <strong>O que fazer?</strong>
+                            <span class="motivo">✅ Leve todos os medicamentos (incluindo os sem receita) nas consultas<br>
+                            ✅ Peça ao médico ou farmacêutico uma revisão completa anual dos remédios<br>
+                            ✅ Questione se cada medicamento ainda é necessário<br>
+                            ✅ Nunca pare um medicamento por conta própria — converse com o profissional de saúde</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="beers-rodape">
+                    <strong>📚 Referência:</strong> American Geriatrics Society Beers Criteria® Update Expert Panel. 2023 AGS Beers Criteria® for Potentially Inappropriate Medication Use in Older Adults. <em>J Am Geriatr Soc.</em> 2023.<br><br>
+                    Conteúdo educacional revisado por <strong>Rita de Cássia Oliveira Soares da Silva — CRF-SP 33.109 — Farmacêutica</strong><br>
+                    <small>MediCheck © 2026 — Não substitui orientação médica ou farmacêutica profissional.</small>
+                </div>
+
+            </div>
+
+            <!-- SEÇÃO INTERAÇÕES -->
+            <div id="interacoes" class="interacoes-content">
+
+                <style>
+                .mc-header { background: linear-gradient(135deg, #c0392b, #922b21); color: white; padding: 20px; border-radius: 12px; margin-bottom: 16px; text-align: center; }
+                .mc-header h2 { font-size: 22px; margin-bottom: 6px; font-weight: 700; }
+                .mc-header p { font-size: 13px; opacity: 0.92; line-height: 1.5; margin: 0; }
+                .mc-badge-ia { display: inline-block; background: rgba(255,255,255,0.2); border: 1px solid rgba(255,255,255,0.4); border-radius: 20px; padding: 3px 12px; font-size: 11px; font-weight: 700; margin-top: 8px; letter-spacing: 0.5px; }
+                .mc-tab-bar { display: flex; gap: 8px; margin-bottom: 16px; }
+                .mc-tab { flex: 1; padding: 10px; border: 2px solid #ddd; border-radius: 8px; background: white; font-size: 13px; font-weight: 700; cursor: pointer; font-family: inherit; color: #666; transition: 0.2s; }
+                .mc-tab.active { border-color: #667eea; color: #667eea; background: #f0f4ff; }
+                .mc-tab:hover { border-color: #667eea; color: #667eea; }
+                .mc-panel { display: none; }
+                .mc-panel.active { display: block; }
+                .mc-busca-ia { display: flex; gap: 10px; margin-bottom: 14px; flex-wrap: wrap; }
+                .mc-busca-wrap { flex: 1; min-width: 180px; position: relative; }
+                .mc-busca-wrap input { width: 100%; padding: 12px 14px; border: 2px solid #ddd; border-radius: 8px; font-size: 15px; box-sizing: border-box; font-family: inherit; }
+                .mc-busca-wrap input:focus { outline: none; border-color: #667eea; box-shadow: 0 0 8px rgba(102,126,234,0.2); }
+                .mc-autocomplete { position: absolute; top: 100%; left: 0; right: 0; background: white; border: 2px solid #667eea; border-top: none; border-radius: 0 0 8px 8px; max-height: 180px; overflow-y: auto; z-index: 100; display: none; box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+                .mc-autocomplete.show { display: block; }
+                .mc-autocomplete-item { padding: 10px 14px; font-size: 14px; cursor: pointer; color: #333; border-bottom: 1px solid #f0f0f0; }
+                .mc-autocomplete-item:hover { background: #f0f4ff; color: #667eea; font-weight: 600; }
+                .mc-btn-verificar { padding: 12px 22px; background: #c0392b; color: white; border: none; border-radius: 8px; font-weight: 700; cursor: pointer; font-size: 15px; font-family: inherit; white-space: nowrap; transition: 0.2s; }
+                .mc-btn-verificar:hover { background: #922b21; }
+                .mc-btn-verificar:disabled { background: #aaa; cursor: not-allowed; }
+                .mc-chips { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 16px; }
+                .mc-chip-lbl { font-size: 12px; color: #888; margin-bottom: 8px; font-weight: 600; display: block; }
+                .mc-chip { padding: 6px 14px; border-radius: 20px; font-size: 12px; font-weight: 700; cursor: pointer; border: none; font-family: inherit; transition: 0.2s; }
+                .mc-chip.alto { background: #fde8e8; color: #c0392b; border: 1px solid #c0392b; }
+                .mc-chip.alto:hover { background: #c0392b; color: white; }
+                .mc-chip.moderado { background: #fef3e2; color: #e8751a; border: 1px solid #e8751a; }
+                .mc-chip.moderado:hover { background: #e8751a; color: white; }
+                .mc-chip.baixo { background: #e8f8f0; color: #27ae60; border: 1px solid #27ae60; }
+                .mc-chip.baixo:hover { background: #27ae60; color: white; }
+                .mc-resultado-ia { border-radius: 12px; overflow: hidden; margin-bottom: 16px; border: 2px solid #ddd; display: none; }
+                .mc-resultado-ia.show { display: block; }
+                .mc-nivel-ia { padding: 14px 18px; color: white; font-weight: 700; font-size: 15px; }
+                .mc-nivel-ia.alto { background: #c0392b; }
+                .mc-nivel-ia.moderado { background: #e8751a; }
+                .mc-nivel-ia.baixo { background: #27ae60; }
+                .mc-nivel-ia.neutro { background: #667eea; }
+                .mc-corpo-ia { padding: 16px 18px; background: white; font-size: 14px; color: #444; line-height: 1.8; }
+                .mc-corpo-ia p { margin-bottom: 10px; }
+                .mc-corpo-ia strong { color: #222; }
+                .mc-spinner-wrap { text-align: center; padding: 24px; }
+                .mc-spinner { display: inline-block; width: 28px; height: 28px; border: 3px solid #ddd; border-top-color: #c0392b; border-radius: 50%; animation: mcSpin 0.8s linear infinite; }
+                @keyframes mcSpin { to { transform: rotate(360deg); } }
+                .mc-spinner-txt { font-size: 14px; color: #666; margin-top: 10px; }
+                </style>
+
+                <div class="mc-header">
+                    <h2>⚡ Interações Medicamentosas</h2>
+                    <p>Verifique combinações perigosas entre medicamentos.<br>Base fixa + análise por Inteligência Artificial.</p>
+                    <span class="mc-badge-ia">✦ IA INTEGRADA</span>
+                </div>
+
+                <div class="mc-tab-bar">
+                    <button class="mc-tab active" onclick="mcMudarTab('mc-panel-verificar', this)">🔍 Verificar Combinação</button>
+                    <button class="mc-tab" onclick="mcMudarTab('mc-panel-lista', this)">📋 Interações Conhecidas</button>
+                </div>
+
+                <!-- PAINEL VERIFICAR -->
+                <div id="mc-panel-verificar" class="mc-panel active">
+                    <div class="beers-aviso">
+                        ⚠️ <strong>Importante:</strong> Conteúdo educacional. Sempre consulte seu médico ou farmacêutico antes de combinar medicamentos. Não suspenda nenhum medicamento por conta própria.
+                    </div>
+
+                    <div class="mc-busca-ia">
+                        <div class="mc-busca-wrap">
+                            <input type="text" id="mc-inter1" placeholder="💊 Medicamento 1 (ex: alprazolam)" oninput="mcFiltrarAuto(this,'mc-ac1')" onblur="mcFecharAuto('mc-ac1',300)" autocomplete="off" />
+                            <div id="mc-ac1" class="mc-autocomplete"></div>
+                        </div>
+                        <div class="mc-busca-wrap">
+                            <input type="text" id="mc-inter2" placeholder="💊 Medicamento 2 (ex: codeína)" oninput="mcFiltrarAuto(this,'mc-ac2')" onblur="mcFecharAuto('mc-ac2',300)" autocomplete="off" />
+                            <div id="mc-ac2" class="mc-autocomplete"></div>
+                        </div>
+                        <button class="mc-btn-verificar" id="mc-btn" onclick="mcVerificar()">🔍 Verificar</button>
+                    </div>
+
+                    <span class="mc-chip-lbl">COMBINAÇÕES FREQUENTES — clique para testar:</span>
+                    <div class="mc-chips">
+                        <button class="mc-chip alto" onclick="mcTestar('alprazolam','codeína')">Alprazolam + Codeína</button>
+                        <button class="mc-chip alto" onclick="mcTestar('sildenafila','nitroglicerina')">Sildenafila + Nitrato</button>
+                        <button class="mc-chip alto" onclick="mcTestar('warfarina','ibuprofeno')">Warfarina + Ibuprofeno</button>
+                        <button class="mc-chip moderado" onclick="mcTestar('fluoxetina','tramadol')">Fluoxetina + Tramadol</button>
+                        <button class="mc-chip moderado" onclick="mcTestar('atorvastatina','claritromicina')">Estatina + Claritromicina</button>
+                        <button class="mc-chip baixo" onclick="mcTestar('paracetamol','dipirona')">Paracetamol + Dipirona</button>
+                    </div>
+
+                    <div id="mc-resultado-ia" class="mc-resultado-ia">
+                        <div id="mc-nivel-ia" class="mc-nivel-ia neutro"></div>
+                        <div id="mc-corpo-ia" class="mc-corpo-ia"></div>
+                    </div>
+                </div>
+
+                <!-- PAINEL LISTA -->
+                <div id="mc-panel-lista" class="mc-panel">
+                    <div class="inter-lista-fixa">
+                        <h3>⚠️ Interações mais importantes — clique para expandir</h3>
+                        <div id="mc-lista-cards"></div>
+                    </div>
+                </div>
+
+                <div class="beers-rodape">
+                    Conteúdo educacional revisado por <strong>Rita de Cássia Oliveira Soares da Silva — CRF-SP 33.109 — Farmacêutica</strong><br>
+                    <small>MediCheck © 2026 — Não substitui orientação médica ou farmacêutica profissional.</small>
+                </div>
+
+                <script>
+                const mcInteracoesDB = [
+                    // ===== RISCO ALTO =====
+                    { med1: ['alprazolam','clonazepam','diazepam','bromazepam','zolpidem','zopiclona'], med2: ['codeína','tramadol','morfina','fentanila','tapentadol','buprenorfina'], nivel: 'alto', titulo: 'Benzodiazepínico / Hipnótico + Opioide', efeito: 'Depressão respiratória grave e sedação profunda. Risco de parada respiratória e morte.', conduta: '❌ Evitar a associação. Se necessário, monitoramento hospitalar rigoroso.' },
+                    { med1: ['alprazolam','clonazepam','diazepam','bromazepam','zolpidem','zopiclona'], med2: ['álcool','alcool','bebida'], nivel: 'alto', titulo: 'Benzodiazepínico / Hipnótico + Álcool', efeito: 'Potencialização da sedação do SNC. Risco de depressão respiratória e morte.', conduta: '❌ Proibido. Álcool é contraindicado com benzodiazepínicos e hipnóticos.' },
+                    { med1: ['sildenafila','tadalafila'], med2: ['nitroglicerina','nitrato','isossorbida'], nivel: 'alto', titulo: 'Sildenafila / Tadalafila + Nitratos', efeito: 'Queda grave e súbita da pressão arterial — pode ser fatal.', conduta: '❌ Contraindicado absolutamente.' },
+                    { med1: ['warfarina','varfarina'], med2: ['ibuprofeno','diclofenaco','nimesulida','cetoprofeno','meloxicam','etoricoxibe','celecoxibe','aine'], nivel: 'alto', titulo: 'Warfarina + Anti-inflamatório (AINE)', efeito: 'AINEs aumentam muito o risco de sangramento grave em pacientes anticoagulados.', conduta: '❌ Evitar. Usar paracetamol ou dipirona para dor. Informar sempre ao médico.' },
+                    { med1: ['warfarina','varfarina'], med2: ['fluconazol','itraconazol','claritromicina','metronidazol','ciprofloxacino'], nivel: 'alto', titulo: 'Warfarina + Antifúngico / Antibiótico', efeito: 'Potencializam muito o efeito anticoagulante — risco de sangramento grave.', conduta: '❌ Monitorar INR com muita frequência. Ajustar dose com médico.' },
+                    { med1: ['metotrexato'], med2: ['ibuprofeno','diclofenaco','nimesulida','cetoprofeno','meloxicam','aine'], nivel: 'alto', titulo: 'Metotrexato + AINE', efeito: 'AINEs reduzem eliminação do metotrexato, causando toxicidade grave na medula óssea.', conduta: '❌ Evitar. Informar sempre ao reumatologista.' },
+                    { med1: ['dissulfiram'], med2: ['álcool','alcool','metronidazol','bebida'], nivel: 'alto', titulo: 'Dissulfiram + Álcool / Metronidazol', efeito: 'Reação grave: rubor intenso, vômito, taquicardia, hipotensão. Pode ser fatal.', conduta: '❌ Absolutamente contraindicado.' },
+                    { med1: ['lítio','carbonato de lítio'], med2: ['ibuprofeno','diclofenaco','captopril','enalapril','losartana','aine'], nivel: 'alto', titulo: 'Lítio + AINE / IECA', efeito: 'Elevação do nível sérico de lítio — risco de toxicidade grave (tremores, confusão, convulsões).', conduta: '❌ Monitorar níveis de lítio rigorosamente. Evitar AINE sem orientação.' },
+                    { med1: ['amiodarona'], med2: ['warfarina','varfarina'], nivel: 'alto', titulo: 'Amiodarona + Warfarina', efeito: 'Amiodarona potencializa fortemente o efeito anticoagulante da warfarina — risco de hemorragia grave.', conduta: '❌ Reduzir dose de warfarina em 30-50% e monitorar INR semanalmente.' },
+                    { med1: ['amiodarona'], med2: ['digoxina'], nivel: 'alto', titulo: 'Amiodarona + Digoxina', efeito: 'Amiodarona eleva os níveis de digoxina podendo causar intoxicação digitálica — arritmias graves.', conduta: '❌ Reduzir dose de digoxina pela metade. Monitorar nível sérico e ECG.' },
+                    { med1: ['amiodarona'], med2: ['sinvastatina','atorvastatina'], nivel: 'alto', titulo: 'Amiodarona + Estatina', efeito: 'Amiodarona inibe metabolismo das estatinas — risco aumentado de rabdomiólise e insuficiência renal.', conduta: '❌ Limitar dose de sinvastatina a 20mg/dia. Preferir rosuvastatina com cautela.' },
+                    { med1: ['carbamazepina'], med2: ['contraceptivo','etinilestradiol','levonorgestrel','desogestrel'], nivel: 'alto', titulo: 'Carbamazepina + Anticoncepcional', efeito: 'Carbamazepina acelera o metabolismo dos hormônios anticoncepcionais, reduzindo drasticamente a eficácia contraceptiva.', conduta: '❌ Usar método contraceptivo adicional (preservativo). Discutir alternativas com médico.' },
+                    { med1: ['carbamazepina'], med2: ['claritromicina','eritromicina','fluconazol','itraconazol'], nivel: 'alto', titulo: 'Carbamazepina + Macrolídeo / Antifúngico', efeito: 'Antibióticos/antifúngicos inibem metabolismo da carbamazepina — risco de toxicidade (diplopia, ataxia, confusão).', conduta: '❌ Evitar ou monitorar nível sérico de carbamazepina rigorosamente.' },
+                    { med1: ['isotretinoína','acitretina'], med2: ['tetraciclina','doxiciclina','minociclina'], nivel: 'alto', titulo: 'Retinoide + Tetraciclina', efeito: 'Combinação causa pseudotumor cerebri (hipertensão intracraniana) — cefaleia intensa, alteração visual, risco de perda de visão.', conduta: '❌ Contraindicado absolutamente. Nunca combinar.' },
+                    { med1: ['rasagilina','selegilina'], med2: ['tramadol','petidina','meperidina'], nivel: 'alto', titulo: 'Inibidor MAO-B + Tramadol', efeito: 'Risco de síndrome serotoninérgica grave e síndrome hipertensiva aguda — potencialmente fatal.', conduta: '❌ Contraindicado. Aguardar 14 dias após suspender o inibidor de MAO.' },
+                    { med1: ['rasagilina'], med2: ['fluoxetina','sertralina','escitalopram','paroxetina','venlafaxina'], nivel: 'alto', titulo: 'Inibidor MAO-B + Antidepressivo', efeito: 'Risco de síndrome serotoninérgica grave — agitação, hipertermia, convulsões, risco de morte.', conduta: '❌ Contraindicado. Aguardar 14 dias de washout entre os medicamentos.' },
+                    { med1: ['rivaroxabana','apixabana'], med2: ['ibuprofeno','diclofenaco','aine','aspirina','ácido acetilsalicílico'], nivel: 'alto', titulo: 'Anticoagulante Oral (NOAC) + AINE / AAS', efeito: 'Combinação multiplica o risco de sangramento gastrointestinal grave.', conduta: '❌ Evitar. Usar paracetamol para dor quando necessário. Consultar médico.' },
+                    { med1: ['tacrolimo'], med2: ['claritromicina','eritromicina','fluconazol','itraconazol','cetoconazol'], nivel: 'alto', titulo: 'Tacrolimo + Macrolídeo / Antifúngico', efeito: 'Inibem metabolismo do tacrolimo — concentrações tóxicas podem causar insuficiência renal aguda e neurotoxicidade.', conduta: '❌ Monitorar nível sérico de tacrolimo e função renal rigorosamente.' },
+                    { med1: ['digoxina'], med2: ['amiodarona','verapamil','diltiazem'], nivel: 'alto', titulo: 'Digoxina + Antiarrítmico', efeito: 'Verapamil, diltiazem e amiodarona elevam os níveis de digoxina — risco de intoxicação digitálica (bradicardia, arritmias).', conduta: '❌ Reduzir dose de digoxina. Monitorar nível sérico e ECG.' },
+                    { med1: ['clopidogrel'], med2: ['omeprazol','esomeprazol'], nivel: 'alto', titulo: 'Clopidogrel + Omeprazol / Esomeprazol', efeito: 'Omeprazol e esomeprazol inibem a ativação do clopidogrel — risco cardiovascular aumentado (infarto, trombose de stent).', conduta: '❌ Substituir por pantoprazol ou rabeprazol se IBP for necessário.' },
+                    { med1: ['fenitoína'], med2: ['fluconazol','itraconazol','claritromicina','amiodarona'], nivel: 'alto', titulo: 'Fenitoína + Inibidores de CYP', efeito: 'Elevam os níveis de fenitoína — risco de toxicidade (nistagmo, ataxia, confusão mental).', conduta: '❌ Monitorar nível sérico de fenitoína. Ajustar dose com médico.' },
+                    // ===== RISCO MODERADO =====
+                    { med1: ['fluoxetina','sertralina','escitalopram','paroxetina','citalopram','venlafaxina','duloxetina'], med2: ['tramadol','tapentadol'], nivel: 'moderado', titulo: 'Antidepressivo ISRS/IRSN + Tramadol', efeito: 'Risco de síndrome serotoninérgica — agitação, tremores, febre e confusão mental.', conduta: '⚠️ Usar com cautela. Atenção a sintomas neurológicos.' },
+                    { med1: ['atorvastatina','sinvastatina','rosuvastatina'], med2: ['claritromicina','itraconazol','cetoconazol','fluconazol'], nivel: 'moderado', titulo: 'Estatina + Macrolídeo / Antifúngico', efeito: 'Elevam concentração da estatina — risco de miopatia e rabdomiólise.', conduta: '⚠️ Suspender estatina temporariamente ou reduzir dose. Orientação médica.' },
+                    { med1: ['captopril','enalapril','losartana','valsartana','lisinopril','candesartana'], med2: ['espironolactona','potássio','suplemento de potássio'], nivel: 'moderado', titulo: 'IECA / BRA + Potássio / Espironolactona', efeito: 'Risco de hipercalemia (potássio alto) — pode causar arritmias cardíacas graves.', conduta: '⚠️ Monitorar potássio regularmente. Evitar suplementos sem orientação.' },
+                    { med1: ['metformina'], med2: ['álcool','alcool'], nivel: 'moderado', titulo: 'Metformina + Álcool', efeito: 'Aumento do risco de acidose lática — acúmulo de ácido no sangue.', conduta: '⚠️ Evitar consumo excessivo de álcool.' },
+                    { med1: ['ibuprofeno','diclofenaco','nimesulida','aine'], med2: ['captopril','enalapril','losartana','atenolol','metoprolol','bisoprolol'], nivel: 'moderado', titulo: 'AINE + Anti-hipertensivo', efeito: 'AINEs podem reduzir o efeito anti-hipertensivo e piorar a função renal.', conduta: '⚠️ Usar com cautela. Preferir paracetamol para dor em hipertensos.' },
+                    { med1: ['paracetamol'], med2: ['álcool','alcool'], nivel: 'moderado', titulo: 'Paracetamol + Álcool', efeito: 'Álcool aumenta risco de hepatotoxicidade com paracetamol, especialmente em doses altas ou uso crônico.', conduta: '⚠️ Evitar paracetamol em altas doses em quem bebe regularmente.' },
+                    { med1: ['fluoxetina','paroxetina'], med2: ['tamoxifeno'], nivel: 'moderado', titulo: 'Fluoxetina / Paroxetina + Tamoxifeno', efeito: 'Inibem metabolização do tamoxifeno em seu metabólito ativo, reduzindo eficácia no tratamento do câncer de mama.', conduta: '⚠️ Preferir sertralina ou venlafaxina como antidepressivo. Discutir com oncologista.' },
+                    { med1: ['metronidazol'], med2: ['álcool','alcool','bebida'], nivel: 'moderado', titulo: 'Metronidazol + Álcool', efeito: 'Reação tipo dissulfiram — rubor, náusea, taquicardia. Evitar álcool durante e 48h após o tratamento.', conduta: '⚠️ Proibido álcool durante o tratamento e por 48 horas após a última dose.' },
+                    { med1: ['fluoroquinolona','ciprofloxacino','levofloxacino','moxifloxacino'], med2: ['antiácido','cálcio','magnésio','ferro','zinco'], nivel: 'moderado', titulo: 'Fluoroquinolona + Antiácido / Minerais', efeito: 'Antiácidos com alumínio, magnésio, cálcio, ferro e zinco quelam as fluoroquinolonas, reduzindo drasticamente a absorção.', conduta: '⚠️ Tomar fluoroquinolona 2 horas antes ou 6 horas depois de antiácidos e minerais.' },
+                    { med1: ['ciprofloxacino','levofloxacino'], med2: ['teofilina','cafeína'], nivel: 'moderado', titulo: 'Fluoroquinolona + Teofilina / Cafeína', efeito: 'Fluoroquinolonas inibem metabolismo da teofilina — risco de toxicidade (náusea, taquicardia, convulsões).', conduta: '⚠️ Monitorar nível sérico de teofilina e reduzir dose se necessário.' },
+                    { med1: ['doxiciclina','tetraciclina'], med2: ['antiácido','cálcio','ferro','magnésio','leite'], nivel: 'moderado', titulo: 'Tetraciclina / Doxiciclina + Antiácido / Leite', efeito: 'Cálcio, magnésio e ferro quelam as tetraciclinas, reduzindo muito a absorção e eficácia antibiótica.', conduta: '⚠️ Tomar 2 horas antes ou 3 horas depois de antiácidos, leite e suplementos minerais.' },
+                    { med1: ['levotiroxina'], med2: ['cálcio','ferro','antiácido','colestiramina'], nivel: 'moderado', titulo: 'Levotiroxina + Cálcio / Ferro / Antiácido', efeito: 'Reduzem absorção da levotiroxina — hipotireoidismo pode não ser controlado adequadamente.', conduta: '⚠️ Tomar levotiroxina 30-60 minutos antes do café e 4 horas antes de suplementos minerais.' },
+                    { med1: ['propranolol','atenolol','metoprolol','bisoprolol','carvedilol'], med2: ['verapamil','diltiazem'], nivel: 'moderado', titulo: 'Betabloqueador + Verapamil / Diltiazem', efeito: 'Combinação pode causar bradicardia grave, bloqueio atrioventricular e insuficiência cardíaca.', conduta: '⚠️ Usar somente sob supervisão cardiológica com monitoramento de ECG.' },
+                    { med1: ['insulina','insulina nph','insulina regular'], med2: ['propranolol','atenolol','metoprolol','betabloqueador'], nivel: 'moderado', titulo: 'Insulina + Betabloqueador', efeito: 'Betabloqueadores mascaram os sintomas de hipoglicemia (tremor, taquicardia). Suor pode ser o único sinal restante.', conduta: '⚠️ Monitorar glicemia com mais frequência. Preferir betabloqueadores cardiosseletivos.' },
+                    { med1: ['glibenclamida','glicazida','glimepirida'], med2: ['fluconazol','ciprofloxacino','claritromicina'], nivel: 'moderado', titulo: 'Sulfonilureia + Antibiótico / Antifúngico', efeito: 'Potencialização do efeito hipoglicemiante — risco de hipoglicemia grave.', conduta: '⚠️ Monitorar glicemia com frequência durante o tratamento combinado.' },
+                    { med1: ['semaglutida','liraglutida','tirzepatida'], med2: ['insulina','sulfonilureia','glibenclamida'], nivel: 'moderado', titulo: 'GLP-1 + Insulina / Sulfonilureia', efeito: 'Combinação potencializa a redução da glicose — risco aumentado de hipoglicemia.', conduta: '⚠️ Reduzir dose de insulina ou sulfonilureia ao iniciar GLP-1. Monitorar glicemia.' },
+                    { med1: ['dapagliflozina','empagliflozina','canagliflozina'], med2: ['diurético','furosemida','hidroclorotiazida'], nivel: 'moderado', titulo: 'SGLT-2 + Diurético', efeito: 'Combinação pode causar desidratação e hipotensão, especialmente em idosos.', conduta: '⚠️ Monitorar pressão arterial e sinais de desidratação. Ajustar doses.' },
+                    { med1: ['colchicina'], med2: ['claritromicina','eritromicina','cetoconazol','itraconazol'], nivel: 'moderado', titulo: 'Colchicina + Macrolídeo / Antifúngico', efeito: 'Inibem metabolismo da colchicina — risco de toxicidade grave (miopatia, mielossupressão, insuficiência de múltiplos órgãos).', conduta: '⚠️ Reduzir dose de colchicina ou evitar a combinação. Risco elevado.' },
+                    { med1: ['pregabalina','gabapentina'], med2: ['opioides','morfina','codeína','tramadol','fentanila'], nivel: 'moderado', titulo: 'Pregabalina / Gabapentina + Opioide', efeito: 'Potencialização da depressão respiratória e sedação — risco aumentado de overdose.', conduta: '⚠️ Usar com cautela. Monitorar função respiratória. Evitar em pacientes de alto risco.' },
+                    { med1: ['pregabalina','gabapentina'], med2: ['álcool','alcool','benzodiazepínico','alprazolam','diazepam'], nivel: 'moderado', titulo: 'Pregabalina / Gabapentina + Álcool / BZD', efeito: 'Potencialização da sedação do SNC — tontura, confusão, risco de quedas.', conduta: '⚠️ Evitar álcool. Usar benzodiazepínico com muita cautela e em doses mínimas.' },
+                    { med1: ['rifampicina'], med2: ['contraceptivo','etinilestradiol','levonorgestrel'], nivel: 'moderado', titulo: 'Rifampicina + Anticoncepcional', efeito: 'Rifampicina é potente indutor enzimático — reduz drasticamente a eficácia do anticoncepcional hormonal.', conduta: '⚠️ Usar método contraceptivo adicional durante e por 28 dias após o término da rifampicina.' },
+                    { med1: ['rifampicina'], med2: ['warfarina','varfarina'], nivel: 'moderado', titulo: 'Rifampicina + Warfarina', efeito: 'Rifampicina reduz muito o efeito anticoagulante da warfarina — risco de trombose.', conduta: '⚠️ Aumentar dose de warfarina e monitorar INR frequentemente.' },
+                    { med1: ['isoniazida'], med2: ['fenitoína','carbamazepina'], nivel: 'moderado', titulo: 'Isoniazida + Anticonvulsivante', efeito: 'Isoniazida inibe metabolismo da fenitoína e carbamazepina — risco de toxicidade neurológica.', conduta: '⚠️ Monitorar nível sérico dos anticonvulsivantes. Ajustar doses.' },
+                    { med1: ['fluoxetina','paroxetina','sertralina','escitalopram'], med2: ['sumatriptana','rizatriptana','triptano'], nivel: 'moderado', titulo: 'ISRS + Triptano', efeito: 'Risco de síndrome serotoninérgica leve a moderada — cefaleia, agitação, tremores, sudorese.', conduta: '⚠️ Usar com cautela. Monitorar sintomas após a combinação. Orientar o paciente.' },
+                    { med1: ['haloperidol','quetiapina','risperidona','olanzapina'], med2: ['lítio','carbonato de lítio'], nivel: 'moderado', titulo: 'Antipsicótico + Lítio', efeito: 'Risco aumentado de neurotoxicidade — sintomas extrapiramidais, síndrome neuroléptica maligna em casos raros.', conduta: '⚠️ Monitorar nível sérico de lítio e sinais neurológicos regularmente.' },
+                    { med1: ['bupropiona'], med2: ['tramadol','antidepressivo','amitriptilina','venlafaxina'], nivel: 'moderado', titulo: 'Bupropiona + Tramadol / Antidepressivo', efeito: 'Risco aumentado de convulsões — especialmente com tramadol. Bupropiona já abaixa o limiar convulsivante.', conduta: '⚠️ Evitar tramadol com bupropiona. Monitorar se combinação de antidepressivos for necessária.' },
+                    { med1: ['verapamil','diltiazem'], med2: ['sinvastatina','atorvastatina'], nivel: 'moderado', titulo: 'Verapamil / Diltiazem + Estatina', efeito: 'Inibem metabolismo das estatinas — risco de miopatia e rabdomiólise, especialmente com sinvastatina.', conduta: '⚠️ Limitar sinvastatina a 10mg/dia. Preferir rosuvastatina ou pravastatina.' },
+                    { med1: ['mirtazapina'], med2: ['álcool','alcool','benzodiazepínico','diazepam','alprazolam'], nivel: 'moderado', titulo: 'Mirtazapina + Álcool / Benzodiazepínico', efeito: 'Potencialização da sedação — sonolência intensa, comprometimento psicomotor, risco de quedas.', conduta: '⚠️ Evitar álcool. Usar benzodiazepínico com cautela e preferir doses baixas.' },
+                    { med1: ['amitriptilina','nortriptilina'], med2: ['tramadol','opioides'], nivel: 'moderado', titulo: 'Antidepressivo Tricíclico + Tramadol', efeito: 'Risco de síndrome serotoninérgica e potencialização da depressão do SNC.', conduta: '⚠️ Usar com cautela e em doses mínimas. Monitorar sintomas neurológicos.' },
+                    { med1: ['sulfametoxazol','sulfametoxazol + trimetoprima'], med2: ['warfarina','varfarina'], nivel: 'moderado', titulo: 'Sulfametoxazol-Trimetoprima + Warfarina', efeito: 'Potencializa muito o efeito anticoagulante — risco elevado de sangramento.', conduta: '⚠️ Monitorar INR frequentemente durante e após o antibiótico.' },
+                    { med1: ['sulfametoxazol','sulfametoxazol + trimetoprima'], med2: ['captopril','enalapril','losartana','espironolactona'], nivel: 'moderado', titulo: 'Sulfametoxazol-Trimetoprima + IECA / Espironolactona', efeito: 'Trimetoprima bloqueia excreção renal de potássio — risco de hipercalemia grave com IECA ou espironolactona.', conduta: '⚠️ Monitorar potássio sérico durante o tratamento combinado.' },
+                    { med1: ['alopurinol'], med2: ['azatioprina','mercaptopurina'], nivel: 'moderado', titulo: 'Alopurinol + Azatioprina', efeito: 'Alopurinol inibe metabolismo da azatioprina — risco de toxicidade grave na medula óssea.', conduta: '⚠️ Reduzir dose de azatioprina para 25-33% do normal. Monitorar hemograma.' },
+                    { med1: ['alopurinol'], med2: ['amoxicilina','ampicilina'], nivel: 'moderado', titulo: 'Alopurinol + Amoxicilina / Ampicilina', efeito: 'Combinação aumenta muito o risco de erupção cutânea alérgica (rash maculopapular).', conduta: '⚠️ Informar médico e farmacêutico. Monitorar surgimento de lesões na pele.' },
+                    { med1: ['espironolactona'], med2: ['captopril','enalapril','lisinopril','losartana','valsartana'], nivel: 'moderado', titulo: 'Espironolactona + IECA / BRA', efeito: 'Ambos elevam o potássio — risco de hipercalemia grave com arritmias potencialmente fatais.', conduta: '⚠️ Monitorar potássio regularmente. Evitar suplementos de potássio.' },
+                    { med1: ['furosemida','hidroclorotiazida'], med2: ['lítio','carbonato de lítio'], nivel: 'moderado', titulo: 'Diurético + Lítio', efeito: 'Diuréticos reduzem a eliminação renal de lítio — risco de intoxicação por lítio.', conduta: '⚠️ Monitorar nível sérico de lítio com mais frequência ao iniciar diurético.' },
+                    { med1: ['metilfenidato','lisdexanfetamina'], med2: ['inibidor de mao','isocarboxazida'], nivel: 'moderado', titulo: 'Estimulante TDAH + Inibidor de MAO', efeito: 'Risco de crise hipertensiva grave e síndrome serotoninérgica.', conduta: '⚠️ Contraindicado. Aguardar 14 dias após suspender inibidor de MAO.' },
+                    { med1: ['metilfenidato','lisdexanfetamina'], med2: ['antidepressivo','amitriptilina','imipramina'], nivel: 'moderado', titulo: 'Estimulante TDAH + Antidepressivo Tricíclico', efeito: 'Estimulantes elevam nível sérico dos tricíclicos — risco de arritmias e toxicidade cardiovascular.', conduta: '⚠️ Monitorar ECG e pressão arterial. Usar doses mínimas necessárias.' },
+                    { med1: ['donepezila','rivastigmina'], med2: ['biperideno','escopolamina','oxibutinina','amitriptilina'], nivel: 'moderado', titulo: 'Inibidor de Colinesterase + Anticolinérgico', efeito: 'Mecanismos opostos — anticolinérgicos antagonizam completamente o efeito do inibidor de colinesterase.', conduta: '⚠️ Evitar a combinação. Revisar necessidade de anticolinérgico com médico.' },
+                    { med1: ['haloperidol','quetiapina','risperidona','olanzapina','clozapina'], med2: ['metoclopramida','domperidona'], nivel: 'moderado', titulo: 'Antipsicótico + Metoclopramida / Domperidona', efeito: 'Todos bloqueiam dopamina — risco aumentado de efeitos extrapiramidais e síndrome neuroléptica maligna.', conduta: '⚠️ Evitar a combinação. Usar ondansetrom como alternativa antiemética.' },
+                    { med1: ['ondansetrom'], med2: ['amiodarona','haloperidol','azitromicina','moxifloxacino'], nivel: 'moderado', titulo: 'Ondansetrom + Prolongadores de QT', efeito: 'Combinação de medicamentos que prolongam o intervalo QT — risco de arritmia ventricular grave (Torsades de Pointes).', conduta: '⚠️ Evitar combinação. Se necessário, monitoramento com ECG.' },
+                    { med1: ['vareniclina'], med2: ['álcool','alcool'], nivel: 'moderado', titulo: 'Vareniclina + Álcool', efeito: 'Vareniclina pode aumentar os efeitos intoxicantes do álcool e reduzir a tolerância.', conduta: '⚠️ Limitar consumo de álcool durante o tratamento de cessação do tabagismo.' },
+                    { med1: ['topiramato'], med2: ['contraceptivo','etinilestradiol'], nivel: 'moderado', titulo: 'Topiramato + Anticoncepcional Hormonal', efeito: 'Topiramato em doses altas reduz eficácia dos anticoncepcionais hormonais.', conduta: '⚠️ Usar método contraceptivo adicional ou considerar anticoncepcional de alta dose.' },
+                    { med1: ['isotretinoína'], med2: ['vitamina a','suplemento vitamina a'], nivel: 'moderado', titulo: 'Isotretinoína + Vitamina A', efeito: 'Ambos são retinoides — combinação causa hipervitaminose A com cefaleia, náusea, descamação grave.', conduta: '⚠️ Suspender suplementos de vitamina A durante o tratamento com isotretinoína.' },
+                    { med1: ['melatonina'], med2: ['fluvoxamina','cimetidina'], nivel: 'moderado', titulo: 'Melatonina + Fluvoxamina / Cimetidina', efeito: 'Inibem metabolismo da melatonina — concentrações podem ficar muito elevadas causando sedação excessiva.', conduta: '⚠️ Reduzir dose de melatonina. Monitorar sedação.' },
+                    { med1: ['ômega-3'], med2: ['warfarina','varfarina','rivaroxabana','clopidogrel'], nivel: 'moderado', titulo: 'Ômega-3 + Anticoagulante / Antiagregante', efeito: 'Em doses altas, ômega-3 tem efeito antiagregante plaquetário — pode potencializar sangramento.', conduta: '⚠️ Informar médico sobre uso de ômega-3. Monitorar sinais de sangramento.' },
+                    { med1: ['zinco'], med2: ['ciprofloxacino','levofloxacino','doxiciclina','tetraciclina'], nivel: 'moderado', titulo: 'Zinco + Antibiótico', efeito: 'Zinco quela e reduz absorção de fluoroquinolonas e tetraciclinas — eficácia antibiótica comprometida.', conduta: '⚠️ Tomar antibiótico 2 horas antes ou 6 horas depois do zinco.' },
+                    { med1: ['magnésio'], med2: ['ciprofloxacino','levofloxacino','doxiciclina','levotiroxina'], nivel: 'moderado', titulo: 'Magnésio + Antibiótico / Levotiroxina', efeito: 'Magnésio quela e reduz absorção de fluoroquinolonas, tetraciclinas e levotiroxina.', conduta: '⚠️ Separar a administração por no mínimo 2-4 horas.' },
+                    { med1: ['desmopressina'], med2: ['ibuprofeno','diclofenaco','aine'], nivel: 'moderado', titulo: 'Desmopressina + AINE', efeito: 'AINEs potencializam o efeito antidiurético da desmopressina — risco de hiponatremia (sódio baixo).', conduta: '⚠️ Monitorar sódio sérico. Evitar AINE ou usar com cautela.' },
+                    // ===== RISCO BAIXO / INFORMATIVO =====
+                    { med1: ['paracetamol'], med2: ['dipirona'], nivel: 'baixo', titulo: 'Paracetamol + Dipirona', efeito: 'Combinação geralmente segura em doses normais. Pode potencializar o efeito analgésico.', conduta: '✅ Pode ser usada sob orientação médica. Respeitar as doses máximas.' },
+                    { med1: ['ibuprofeno','diclofenaco'], med2: ['paracetamol'], nivel: 'baixo', titulo: 'AINE + Paracetamol', efeito: 'Combinação segura e frequentemente usada para potencializar analgesia. Mecanismos complementares.', conduta: '✅ Combinação válida. Respeitar as doses máximas de cada medicamento.' },
+                    { med1: ['omeprazol','pantoprazol','lansoprazol'], med2: ['ibuprofeno','diclofenaco','aine','aspirina'], nivel: 'baixo', titulo: 'IBP + AINE (combinação protetora)', efeito: 'O IBP protege a mucosa gástrica dos danos causados pelos AINEs. Combinação frequentemente recomendada.', conduta: '✅ Combinação adequada e protetora. Usar pelo menor tempo necessário.' },
+                    { med1: ['ácido fólico'], med2: ['metotrexato'], nivel: 'baixo', titulo: 'Ácido Fólico + Metotrexato', efeito: 'O ácido fólico reduz toxicidade do metotrexato (mucosite, náusea) sem reduzir sua eficácia terapêutica.', conduta: '✅ Combinação recomendada. Tomar ácido fólico 24h após a dose semanal de metotrexato.' },
+                    { med1: ['furosemida'], med2: ['espironolactona'], nivel: 'baixo', titulo: 'Furosemida + Espironolactona', efeito: 'Combinação diurética complementar — furosemida perde potássio e espironolactona poupa, equilibrando o efeito.', conduta: '✅ Combinação frequentemente intencional. Monitorar eletrólitos periodicamente.' },
+                    { med1: ['metformina'], med2: ['semaglutida','liraglutida','sitagliptina','linagliptina'], nivel: 'baixo', titulo: 'Metformina + Antidiabético (complementar)', efeito: 'Combinação de mecanismos complementares para controle glicêmico. Amplamente recomendada.', conduta: '✅ Combinação padrão no tratamento do DM2. Monitorar glicemia regularmente.' },
+                    { med1: ['atorvastatina','rosuvastatina','sinvastatina'], med2: ['ezetimiba'], nivel: 'baixo', titulo: 'Estatina + Ezetimiba', efeito: 'Combinação complementar para redução do colesterol — mecanismos diferentes e sinérgicos.', conduta: '✅ Combinação recomendada para dislipidemia resistente à estatina isolada.' },
+                    { med1: ['anlodipino','nifedipina'], med2: ['atorvastatina','sinvastatina'], nivel: 'baixo', titulo: 'Anlodipino + Estatina', efeito: 'Anlodipino pode aumentar levemente os níveis de sinvastatina — efeito clínico geralmente irrelevante.', conduta: '✅ Combinação geralmente segura. Limitar sinvastatina a 20mg com anlodipino.' },
+                    { med1: ['captopril','enalapril','losartana'], med2: ['diurético','hidroclorotiazida','furosemida'], nivel: 'baixo', titulo: 'IECA / BRA + Diurético', efeito: 'Combinação anti-hipertensiva clássica e muito utilizada. Efeitos complementares.', conduta: '✅ Combinação amplamente recomendada. Monitorar pressão e eletrólitos.' },
+                    { med1: ['aspirina','ácido acetilsalicílico'], med2: ['clopidogrel'], nivel: 'baixo', titulo: 'AAS + Clopidogrel (dupla antiagregação)', efeito: 'Dupla antiagregação plaquetária — aumento do risco de sangramento, mas indicada em situações específicas (stent coronariano, SCA).', conduta: '✅ Combinação indicada em contextos cardiovasculares específicos. Monitorar sangramentos.' },
+                    { med1: ['vitamina d','colecalciferol'], med2: ['cálcio'], nivel: 'baixo', titulo: 'Vitamina D + Cálcio', efeito: 'Combinação sinérgica — vitamina D aumenta a absorção intestinal de cálcio. Amplamente recomendada.', conduta: '✅ Combinação ideal para prevenção de osteoporose. Respeitar doses adequadas.' },
+                    // ===== LOTE 2 =====
+                    { med1: ['clozapina'], med2: ['ciprofloxacino','levofloxacino','claritromicina'], nivel: 'alto', titulo: 'Clozapina + Antibiótico Inibidor de CYP1A2', efeito: 'Antibióticos elevam drasticamente os níveis de clozapina — risco de convulsões, agranulocitose e toxicidade grave.', conduta: '❌ Monitorar nível sérico de clozapina e hemograma rigorosamente.' },
+                    { med1: ['clozapina'], med2: ['carbamazepina','fenitoína'], nivel: 'alto', titulo: 'Clozapina + Carbamazepina / Fenitoína', efeito: 'Indutores enzimáticos reduzem muito os níveis de clozapina. Carbamazepina também potencializa agranulocitose.', conduta: '❌ Evitar carbamazepina com clozapina. Monitorar nível sérico.' },
+                    { med1: ['metotrexato'], med2: ['sulfametoxazol','trimetoprima','sulfametoxazol + trimetoprima'], nivel: 'alto', titulo: 'Metotrexato + Sulfametoxazol-Trimetoprima', efeito: 'Ambos inibem o folato — risco extremo de mielossupressão grave, pancitopenia e toxicidade fatal.', conduta: '❌ Contraindicado. Se inevitável, monitoramento hematológico intensivo.' },
+                    { med1: ['tacrolimo'], med2: ['ibuprofeno','diclofenaco','aine','nimesulida'], nivel: 'alto', titulo: 'Imunossupressor + AINE', efeito: 'AINEs potencializam nefrotoxicidade do tacrolimo — risco de insuficiência renal aguda.', conduta: '❌ Evitar AINEs. Usar paracetamol. Monitorar função renal.' },
+                    { med1: ['fentanila','morfina','codeína','tramadol'], med2: ['álcool','alcool'], nivel: 'alto', titulo: 'Opioide + Álcool', efeito: 'Potencialização da depressão do SNC e respiratória — risco muito alto de overdose fatal.', conduta: '❌ Proibido. Álcool é contraindicado com qualquer opioide.' },
+                    { med1: ['naltrexona'], med2: ['codeína','morfina','tramadol','fentanila'], nivel: 'alto', titulo: 'Naltrexona + Opioide', efeito: 'Naltrexona bloqueia completamente o efeito dos opioides e precipita abstinência grave em dependentes.', conduta: '❌ Nunca iniciar naltrexona sem estar limpo de opioides há pelo menos 7-10 dias.' },
+                    { med1: ['bupropiona'], med2: ['álcool','alcool'], nivel: 'moderado', titulo: 'Bupropiona + Álcool', efeito: 'Álcool reduz o limiar convulsivante já baixo da bupropiona — risco aumentado de convulsões.', conduta: '⚠️ Evitar ou minimizar muito o consumo de álcool durante o tratamento.' },
+                    { med1: ['quetiapina','olanzapina','risperidona'], med2: ['álcool','alcool'], nivel: 'moderado', titulo: 'Antipsicótico + Álcool', efeito: 'Potencialização da sedação, hipotensão ortostática e comprometimento cognitivo.', conduta: '⚠️ Evitar álcool. Risco aumentado de quedas e acidentes.' },
+                    { med1: ['metoclopramida'], med2: ['levodopa','carbidopa + levodopa'], nivel: 'moderado', titulo: 'Metoclopramida + Levodopa', efeito: 'Metoclopramida antagoniza o efeito da levodopa no SNC — piora dos sintomas parkinsonianos.', conduta: '⚠️ Contraindicado em parkinsonianos. Usar domperidona como alternativa antiemética.' },
+                    { med1: ['trazodona'], med2: ['fluoxetina','paroxetina','sertralina','escitalopram'], nivel: 'moderado', titulo: 'Trazodona + ISRS', efeito: 'Risco de síndrome serotoninérgica leve e potencialização da sedação — hipotensão ortostática aumentada.', conduta: '⚠️ Iniciar trazodona em dose baixa. Monitorar pressão ao levantar.' },
+                    { med1: ['dapagliflozina','empagliflozina','canagliflozina'], med2: ['insulina','insulina nph','insulina regular'], nivel: 'moderado', titulo: 'SGLT-2 + Insulina', efeito: 'Combinação eficaz mas com risco de cetoacidose diabética euglicêmica — glicose pode parecer normal.', conduta: '⚠️ Reduzir dose de insulina ao iniciar SGLT-2. Monitorar cetones.' },
+                    { med1: ['pioglitazona'], med2: ['insulina','insulina nph'], nivel: 'moderado', titulo: 'Pioglitazona + Insulina', efeito: 'Combinação potencializa retenção de líquidos — risco de edema e insuficiência cardíaca descompensada.', conduta: '⚠️ Contraindicado em insuficiência cardíaca. Monitorar retenção hídrica.' },
+                    { med1: ['colchicina'], med2: ['atorvastatina','sinvastatina','rosuvastatina'], nivel: 'moderado', titulo: 'Colchicina + Estatina', efeito: 'Combinação aumenta risco de miopatia — ambos podem causar dano muscular com risco aditivo.', conduta: '⚠️ Monitorar sintomas musculares. Usar dose mínima eficaz de colchicina.' },
+                    { med1: ['alopurinol'], med2: ['warfarina','varfarina'], nivel: 'moderado', titulo: 'Alopurinol + Warfarina', efeito: 'Alopurinol pode inibir metabolismo da warfarina — potencialização do efeito anticoagulante.', conduta: '⚠️ Monitorar INR após iniciar ou ajustar alopurinol.' },
+                    { med1: ['ciprofloxacino','levofloxacino'], med2: ['warfarina','varfarina'], nivel: 'moderado', titulo: 'Fluoroquinolona + Warfarina', efeito: 'Fluoroquinolonas potencializam o efeito anticoagulante da warfarina — risco de sangramento.', conduta: '⚠️ Monitorar INR durante e após o antibiótico.' },
+                    { med1: ['azitromicina'], med2: ['warfarina','varfarina'], nivel: 'moderado', titulo: 'Azitromicina + Warfarina', efeito: 'Azitromicina pode potencializar o efeito da warfarina.', conduta: '⚠️ Monitorar INR durante o tratamento com azitromicina.' },
+                    { med1: ['isotretinoína'], med2: ['álcool','alcool'], nivel: 'moderado', titulo: 'Isotretinoína + Álcool', efeito: 'Álcool potencializa hepatotoxicidade e eleva triglicerídeos — dois efeitos da isotretinoína.', conduta: '⚠️ Evitar álcool durante todo o tratamento. Monitorar perfil lipídico.' },
+                    { med1: ['tamsulosina','silodosina'], med2: ['sildenafila','tadalafila'], nivel: 'moderado', titulo: 'Alfabloqueador + Inibidor PDE-5', efeito: 'Combinação causa hipotensão ortostática significativa — risco de síncope nas primeiras doses.', conduta: '⚠️ Iniciar inibidor PDE-5 na menor dose. Não tomar junto com alfabloqueador.' },
+                    { med1: ['colestiramina','colestipol'], med2: ['levotiroxina','digoxina','warfarina','paracetamol'], nivel: 'moderado', titulo: 'Colestiramina / Colestipol + Vários Medicamentos', efeito: 'Resinas quelam praticamente todos os medicamentos no intestino — redução da absorção de quase qualquer fármaco.', conduta: '⚠️ Tomar TODOS os outros medicamentos 1h antes ou 4-6h depois das resinas.' },
+                    { med1: ['carbamazepina'], med2: ['varfarina','warfarina'], nivel: 'moderado', titulo: 'Carbamazepina + Warfarina', efeito: 'Carbamazepina induz metabolismo da warfarina — redução do efeito anticoagulante.', conduta: '⚠️ Monitorar INR frequentemente. Pode ser necessário aumentar dose de warfarina.' },
+                    { med1: ['fenitoína'], med2: ['contraceptivo','etinilestradiol','levonorgestrel'], nivel: 'moderado', titulo: 'Fenitoína + Anticoncepcional', efeito: 'Fenitoína induz metabolismo dos hormônios contraceptivos — redução significativa da eficácia.', conduta: '⚠️ Usar método contraceptivo adicional. Considerar anticoncepcionais alternativos.' },
+                    { med1: ['lamotrigina'], med2: ['contraceptivo','etinilestradiol','levonorgestrel'], nivel: 'moderado', titulo: 'Lamotrigina + Anticoncepcional Hormonal', efeito: 'Anticoncepcionais reduzem os níveis de lamotrigina em até 50% — perda de controle das crises epilépticas.', conduta: '⚠️ Ajustar dose de lamotrigina ao iniciar ou parar anticoncepcional.' },
+                    { med1: ['valproato','ácido valproico','divalproato'], med2: ['carbamazepina','fenitoína','lamotrigina'], nivel: 'moderado', titulo: 'Valproato + Outro Anticonvulsivante', efeito: 'Interações complexas — valproato inibe metabolismo da lamotrigina (toxicidade) e é induzido pela carbamazepina (menor eficácia).', conduta: '⚠️ Monitorar nível sérico de ambos. Ajustes de dose frequentes.' },
+                    { med1: ['sumatriptana','rizatriptana'], med2: ['ergotamina'], nivel: 'moderado', titulo: 'Triptano + Ergotamina', efeito: 'Ambos causam vasoconstrição — combinação pode causar isquemia grave.', conduta: '⚠️ Não usar triptano dentro de 24h após ergotamina e vice-versa.' },
+                    { med1: ['denosumabe'], med2: ['cálcio','vitamina d'], nivel: 'moderado', titulo: 'Denosumabe + Cálcio / Vitamina D (obrigatório)', efeito: 'Denosumabe causa hipocalcemia — cálcio e vitamina D devem ser suplementados obrigatoriamente.', conduta: '⚠️ Suplementação de cálcio e vitamina D é OBRIGATÓRIA com denosumabe.' },
+                    { med1: ['ácido zoledrónico','alendronato'], med2: ['cálcio','vitamina d'], nivel: 'moderado', titulo: 'Bisfosfonato + Cálcio / Vitamina D', efeito: 'Bisfosfonatos requerem cálcio e vitamina D adequados — deficiência compromete a eficácia.', conduta: '⚠️ Suplementar cálcio e vitamina D antes e durante o tratamento.' },
+                    { med1: ['epoetina','eritropoetina'], med2: ['ferro','sulfato ferroso','ferro sacarato'], nivel: 'moderado', titulo: 'Eritropoetina + Ferro (necessário)', efeito: 'A eritropoetina requer estoques de ferro adequados para funcionar — sem ferro, a resposta eritropoiética falha.', conduta: '⚠️ Garantir estoques de ferro adequados antes e durante o tratamento.' },
+                    { med1: ['escopolamina','hioscina'], med2: ['amitriptilina','prometazina','biperideno','oxibutinina'], nivel: 'moderado', titulo: 'Múltiplos Anticolinérgicos', efeito: 'Efeitos anticolinérgicos cumulativos — boca seca intensa, retenção urinária, confusão mental, delirium em idosos.', conduta: '⚠️ Evitar múltiplos anticolinérgicos. Revisar polifarmácia com médico.' },
+                    { med1: ['rifampicina'], med2: ['fluconazol','itraconazol'], nivel: 'moderado', titulo: 'Rifampicina + Antifúngico Azólico', efeito: 'Rifampicina induz metabolismo dos azólicos — redução drástica da eficácia antifúngica.', conduta: '⚠️ Evitar combinação ou aumentar dose do antifúngico com monitoramento.' },
+                    { med1: ['metformina'], med2: ['vitamina b12','cianocobalamina'], nivel: 'baixo', titulo: 'Metformina + Vitamina B12 (monitorar)', efeito: 'Metformina reduz absorção de vitamina B12 com uso prolongado — risco de deficiência e neuropatia.', conduta: '✅ Monitorar vitamina B12 a cada 1-2 anos. Suplementar se níveis baixos.' },
+                    { med1: ['prednisona','dexametasona','hidrocortisona'], med2: ['cálcio','vitamina d'], nivel: 'baixo', titulo: 'Corticoide + Cálcio / Vitamina D (protetora)', efeito: 'Corticoides causam perda óssea — suplementação de cálcio e vitamina D é protetora no uso crônico.', conduta: '✅ Suplementação recomendada em uso crônico de corticoides.' },
+                    { med1: ['isoniazida'], med2: ['vitamina b6','piridoxina'], nivel: 'baixo', titulo: 'Isoniazida + Vitamina B6 (protetora)', efeito: 'Isoniazida causa deficiência de B6 — neuropatia periférica preventível com suplementação.', conduta: '✅ Suplementar vitamina B6 (10-50mg/dia) durante todo o tratamento com isoniazida.' },
+                    { med1: ['prednisona','dexametasona'], med2: ['omeprazol','pantoprazol'], nivel: 'baixo', titulo: 'Corticoide + IBP (protetora)', efeito: 'Corticoides em doses altas aumentam risco de úlcera — IBP é protetor gástrico recomendado.', conduta: '✅ IBP indicado no uso de corticoides sistêmicos por mais de 2 semanas.' },
+                    { med1: ['sinvastatina','atorvastatina','rosuvastatina'], med2: ['ubiquinona'], nivel: 'baixo', titulo: 'Estatina + Coenzima Q10', efeito: 'Estatinas reduzem síntese de CoQ10 — suplementação pode reduzir miopatia induzida por estatina.', conduta: '✅ CoQ10 (100-200mg/dia) é seguro e pode ajudar com dores musculares por estatina.' },
+                    { med1: ['sertralina','escitalopram','fluoxetina'], med2: ['ômega-3'], nivel: 'baixo', titulo: 'ISRS + Ômega-3', efeito: 'Ômega-3 pode ter efeito sinérgico antidepressivo — combinação frequentemente usada.', conduta: '✅ Combinação segura e potencialmente benéfica.' },
+                ];
+
+
+                const mcMedNomes = ["Acetazolamida","Acetilcisteína","Aciclovir","Acitretina","Adapaleno","Albendazol","Alendronato","Alfaepoetina","Alopurinol","Alprazolam","Ambroxol","Amiodarona","Amitriptilina","Amoxicilina","Amoxicilina + Clavulanato","Anfotericina B","Anlodipino","Aripiprazol","Atenolol","Atorvastatina","Azatioprina","Azitromicina","Baclofen","Beclometasona","Betaistina","Betametasona","Biperideno","Bisacodil","Bisoprolol","Bromazepam","Bromocriptina","Budesonida","Buprenorfina","Bupropiona","Cabergolina","Cafeína","Captopril","Carbamazepina","Carbidopa + Levodopa","Carbonato de Lítio","Carvedilol","Carisoprodol","Cefalexina","Ceftriaxona","Celecoxibe","Cetirizina","Cetoconazol","Cetoprofeno","Ciclobenzaprina","Ciprofloxacino","Citalopram","Claritromicina","Clindamicina","Clomifeno","Clonazepam","Clopidogrel","Cloroquina","Clozapina","Codeína","Colestiramina","Colchicina","Colecalciferol","Dapagliflozina","Denosumabe","Desloratadina","Desmopressina","Dexametasona","Diazepam","Diclofenaco","Digoxina","Diltiazem","Dipirona","Dissulfiram","Donepezila","Doxiciclina","Duloxetina","Dutasterida","Empagliflozina","Enalapril","Enoxaparina","Epoetina Alfa","Escitalopram","Esomeprazol","Espironolactona","Etoricoxibe","Ezetimiba","Fenofibrato","Fenitoína","Fenoterol","Fentanila","Finasterida","Fluconazol","Fluoxetina","Formoterol + Budesonida","Furosemida","Gabapentina","Glibenclamida","Griseofulvina","Haloperidol","Heparina","Hidroclorotiazida","Hidrocortisona","Hidroquinona","Hidroxizina","Ibuprofeno","Infliximabe","Insulina NPH","Insulina Regular","Ipratrópio","Isoniazida","Isotretinoína","Itraconazol","Ivabradina","Ivermectina","Lactulose","Lamotrigina","Lansoprazol","Leflunomida","Levetiracetam","Levofloxacina","Levonorgestrel","Levotiroxina","Linagliptina","Liraglutida","Lisdexanfetamina","Lisinopril","Loperamida","Loratadina","Losartana","Magnésio","Meloxicam","Memantina","Mesalazina","Metformina","Metilfenidato","Metocarbamol","Metoclopramida","Metotrexato","Metoprolol","Metronidazol","Miconazol","Minoxidil","Mirtazapina","Montelucaste","Morfina","Moxifloxacino","Mupirocina","Naloxona","Naltrexona","Nifedipina","Nimesulida","Nitroglicerina","Olanzapina","Omeprazol","Ondansetrom","Oseltamivir","Oxcarbazepina","Oxibutinina","Pantoprazol","Paracetamol","Paroxetina","Permetrina","Pioglitazona","Pramipexol","Prednisona","Pregabalina","Progesterona","Prometazina","Propranolol","Quetiapina","Rabeprazol","Rasagilina","Rifampicina","Risperidona","Rivaroxabana","Rosuvastatina","Salbutamol","Semaglutida","Sertralina","Sildenafila","Silodosina","Sinvastatina","Sitagliptina","Solifenacina","Sulfato Ferroso","Tacrolimo","Tadalafila","Tamsulosina","Tapentadol","Terbinafina","Tiotropio","Topiramato","Tramadol","Trazodona","Tretinoína","Vancomicina","Vareniclina","Venlafaxina","Verapamil","Warfarina","Zinco","Zolpidem","Zopiclona","Ácido Fólico","Ácido Zoledrónico","Álcool","Ômega-3"];
+
+                const mcCacheIA = {};
+
+                function mcFiltrarAuto(input, acId) {
+                    const val = input.value.toLowerCase().trim();
+                    const ac = document.getElementById(acId);
+                    if (val.length < 2) { ac.classList.remove('show'); return; }
+                    const matches = mcMedNomes.filter(n => n.toLowerCase().includes(val)).slice(0, 8);
+                    if (!matches.length) { ac.classList.remove('show'); return; }
+                    ac.innerHTML = matches.map(n => '<div class="mc-autocomplete-item" onmousedown="mcSelecionarAuto(\'' + acId + '\',\'' + n + '\')">' + n + '</div>').join('');
+                    ac.classList.add('show');
+                }
+
+                function mcSelecionarAuto(acId, nome) {
+                    const inputId = acId === 'mc-ac1' ? 'mc-inter1' : 'mc-inter2';
+                    document.getElementById(inputId).value = nome;
+                    document.getElementById(acId).classList.remove('show');
+                }
+
+                function mcFecharAuto(acId, delay) {
+                    setTimeout(() => document.getElementById(acId).classList.remove('show'), delay);
+                }
+
+                function mcTestar(m1, m2) {
+                    document.getElementById('mc-inter1').value = m1;
+                    document.getElementById('mc-inter2').value = m2;
+                    mcVerificar();
+                }
+
+                function mcBuscarFixo(m1, m2) {
+                    for (const inter of mcInteracoesDB) {
+                        const a = inter.med1.some(m => m1.includes(m) || m.includes(m1));
+                        const b = inter.med2.some(m => m2.includes(m) || m.includes(m2));
+                        const c = inter.med2.some(m => m1.includes(m) || m.includes(m1));
+                        const d = inter.med1.some(m => m2.includes(m) || m.includes(m2));
+                        if ((a && b) || (c && d)) return inter;
+                    }
+                    return null;
+                }
+
+                async function mcVerificar() {
+                    const m1 = document.getElementById('mc-inter1').value.trim();
+                    const m2 = document.getElementById('mc-inter2').value.trim();
+                    if (!m1 || !m2) { alert('Por favor, preencha os dois medicamentos.'); return; }
+
+                    const resultado = document.getElementById('mc-resultado-ia');
+                    const nivel = document.getElementById('mc-nivel-ia');
+                    const corpo = document.getElementById('mc-corpo-ia');
+                    const btn = document.getElementById('mc-btn');
+
+                    resultado.classList.add('show');
+
+                    const fixo = mcBuscarFixo(m1.toLowerCase(), m2.toLowerCase());
+                    if (fixo) {
+                        const textos = { alto: '🔴 RISCO ALTO', moderado: '🟡 RISCO MODERADO', baixo: '🟢 RISCO BAIXO' };
+                        nivel.className = 'mc-nivel-ia ' + fixo.nivel;
+                        nivel.textContent = textos[fixo.nivel] + ' — ' + fixo.titulo;
+                        corpo.innerHTML = '<p><strong>⚠️ Efeito da interação:</strong><br>' + fixo.efeito + '</p><p><strong>✅ Conduta recomendada:</strong><br>' + fixo.conduta + '</p><p style="font-size:11px;color:#999;margin-top:8px;">Base de dados fixa — Conteúdo educacional revisado por farmacêutica responsável.</p>';
+                        return;
+                    }
+
+                    const cacheKey = [m1.toLowerCase(), m2.toLowerCase()].sort().join('|');
+                    if (mcCacheIA[cacheKey]) {
+                        const c = mcCacheIA[cacheKey];
+                        nivel.className = 'mc-nivel-ia ' + c.nivel;
+                        nivel.textContent = c.titulo;
+                        corpo.innerHTML = c.html + '<p style="font-size:11px;color:#999;margin-top:8px;">✦ Analisado por IA — <span style="background:#e8f0fe;padding:2px 8px;border-radius:10px;color:#667eea;font-weight:700;">CACHE</span> — Conteúdo educacional.</p>';
+                        return;
+                    }
+
+                    nivel.className = 'mc-nivel-ia neutro';
+                    nivel.textContent = '✦ Analisando com Inteligência Artificial...';
+                    corpo.innerHTML = '<div class="mc-spinner-wrap"><div class="mc-spinner"></div><div class="mc-spinner-txt">Consultando a IA sobre <strong>' + m1 + '</strong> + <strong>' + m2 + '</strong>...</div></div>';
+                    btn.disabled = true;
+
+                    try {
+                        const res = await fetch('https://api.anthropic.com/v1/messages', {
+                            method: 'POST',
+                            headers: { 'Content-Type': 'application/json' },
+                            body: JSON.stringify({
+                                model: 'claude-sonnet-4-20250514',
+                                max_tokens: 1000,
+                                system: 'Você é uma farmacêutica especialista em interações medicamentosas. Analise a combinação e responda APENAS em JSON válido, sem markdown, sem explicação extra.\n\nFormato obrigatório:\n{"nivel":"alto"|"moderado"|"baixo"|"nenhum","titulo":"texto curto","efeito":"descrição clara do efeito","conduta":"conduta recomendada com emoji ❌ ⚠️ ou ✅","mecanismo":"mecanismo em 1 frase"}\n\nSe não houver interação relevante conhecida, use nivel "nenhum". Nunca invente interações graves que não existem.',
+                                messages: [{ role: 'user', content: 'Analise a interação entre: ' + m1 + ' e ' + m2 }]
+                            })
+                        });
+                        const data = await res.json();
+                        const texto = (data.content && data.content[0] && data.content[0].text) ? data.content[0].text : '{}';
+                        let parsed;
+                        try { parsed = JSON.parse(texto); } catch(e) { parsed = { nivel: 'nenhum', titulo: 'Erro ao processar', efeito: texto, conduta: 'Consulte seu farmacêutico.', mecanismo: '' }; }
+
+                        const cores = { alto: 'alto', moderado: 'moderado', baixo: 'baixo', nenhum: 'baixo' };
+                        const icones = { alto: '🔴 RISCO ALTO', moderado: '🟡 RISCO MODERADO', baixo: '🟢 RISCO BAIXO', nenhum: '🟢 Sem interação relevante encontrada' };
+
+                        const html = '<p><strong>⚠️ Efeito da interação:</strong><br>' + (parsed.efeito || 'Não identificado.') + '</p>' + (parsed.mecanismo ? '<p><strong>🔬 Mecanismo:</strong><br>' + parsed.mecanismo + '</p>' : '') + '<p><strong>✅ Conduta recomendada:</strong><br>' + (parsed.conduta || 'Consulte seu médico ou farmacêutico.') + '</p>';
+
+                        const cor = cores[parsed.nivel] || 'baixo';
+                        const tituloFinal = (icones[parsed.nivel] || icones.nenhum) + (parsed.titulo ? ' — ' + parsed.titulo : '');
+                        nivel.className = 'mc-nivel-ia ' + cor;
+                        nivel.textContent = tituloFinal;
+                        corpo.innerHTML = html + '<p style="font-size:11px;color:#999;margin-top:8px;">✦ Analisado por Inteligência Artificial — Conteúdo educacional. Consulte sempre seu farmacêutico.</p>';
+                        mcCacheIA[cacheKey] = { nivel: cor, titulo: tituloFinal, html: html };
+                    } catch(e) {
+                        nivel.className = 'mc-nivel-ia neutro';
+                        nivel.textContent = 'Erro na análise';
+                        corpo.innerHTML = '<p>Não foi possível consultar a IA no momento. Verifique sua conexão e tente novamente.</p>';
+                    }
+                    btn.disabled = false;
+                }
+
+                function mcMudarTab(panelId, el) {
+                    document.querySelectorAll('.mc-tab').forEach(t => t.classList.remove('active'));
+                    document.querySelectorAll('.mc-panel').forEach(p => p.classList.remove('active'));
+                    el.classList.add('active');
+                    document.getElementById(panelId).classList.add('active');
+                }
+
+                function mcToggleCard(card) {
+                    const corpo = card.querySelector('.inter-card-corpo');
+                    const seta = card.querySelector('span');
+                    corpo.classList.toggle('aberto');
+                    seta.textContent = corpo.classList.contains('aberto') ? '▲' : '▼';
+                }
+
+                (function mcRenderLista() {
+                    const lista = document.getElementById('mc-lista-cards');
+                    if (!lista) return;
+                    mcInteracoesDB.forEach(inter => {
+                        const div = document.createElement('div');
+                        div.className = 'inter-card';
+                        div.onclick = function() { mcToggleCard(div); };
+                        const icone = inter.nivel === 'alto' ? '🔴' : inter.nivel === 'moderado' ? '🟡' : '🟢';
+                        div.innerHTML = '<div class="inter-card-titulo ' + inter.nivel + '">' + icone + ' ' + inter.titulo + ' <span>▼</span></div><div class="inter-card-corpo"><p><strong>⚠️ Efeito:</strong> ' + inter.efeito + '</p><p><strong>✅ Conduta:</strong> ' + inter.conduta + '</p></div>';
+                        lista.appendChild(div);
+                    });
+                })();
+                </script>
+            </div>
+
+            <!-- POLÍTICA DE PRIVACIDADE -->
+            <div id="privacidade" class="inst-content">
+                <div class="inst-header">
+                    <h2>🔒 Política de Privacidade</h2>
+                    <p>Última atualização: 2026 — medicheck.med.br</p>
+                </div>
+                <div class="inst-section">
+                    <h3>1. Coleta de Informações</h3>
+                    <p>Podemos coletar informações como:</p>
+                    <ul>
+                        <li>Dados de navegação (cookies, IP, dispositivo)</li>
+                        <li>Informações fornecidas voluntariamente pelo usuário (contato)</li>
+                    </ul>
+                </div>
+                <div class="inst-section">
+                    <h3>2. Uso das Informações</h3>
+                    <p>As informações são utilizadas para:</p>
+                    <ul>
+                        <li>Melhorar a experiência do usuário</li>
+                        <li>Personalizar conteúdo</li>
+                        <li>Exibir anúncios relevantes (Google AdSense)</li>
+                        <li>Análise de desempenho do site</li>
+                    </ul>
+                </div>
+                <div class="inst-section">
+                    <h3>3. Cookies</h3>
+                    <p>Utilizamos cookies para funcionamento do site, estatísticas (Google Analytics) e publicidade (Google AdSense). O usuário pode desativar cookies nas configurações do navegador.</p>
+                </div>
+                <div class="inst-section">
+                    <h3>4. Google AdSense</h3>
+                    <p>Utilizamos o Google AdSense, que pode usar cookies para exibir anúncios relevantes com base nas visitas do usuário a este e a outros sites.</p>
+                </div>
+                <div class="inst-section">
+                    <h3>5. Compartilhamento de Dados</h3>
+                    <p>Não vendemos dados pessoais. Informações podem ser compartilhadas com serviços do Google (Analytics e AdSense) e autoridades legais, quando exigido.</p>
+                </div>
+                <div class="inst-section">
+                    <h3>6. Segurança</h3>
+                    <p>Adotamos medidas para proteger os dados, mas nenhum sistema é 100% seguro.</p>
+                </div>
+                <div class="inst-section">
+                    <h3>7. Direitos do Usuário (LGPD)</h3>
+                    <p>Conforme a Lei Geral de Proteção de Dados (LGPD — Lei nº 13.709/2018), o usuário pode solicitar acesso, correção ou exclusão dos seus dados a qualquer momento.</p>
+                </div>
+                <div class="inst-section">
+                    <h3>8. Aviso Importante</h3>
+                    <p>O MediCheck é uma plataforma educacional e não substitui orientação médica ou farmacêutica profissional.</p>
+                </div>
+                <div class="inst-rodape">
+                    Dúvidas: 📧 <a href="/cdn-cgi/l/email-protection#8cefe3e2f8edf8e3cce1e9e8e5efe4e9efe7a2e1e9e8a2eefe"><span class="__cf_email__" data-cfemail="81e2eeeff5e0f5eec1ece4e5e8e2e9e4e2eaafece4e5afe3f3">[email&#160;protected]</span></a><br>
+                    <small>MediCheck © 2026 — medicheck.med.br</small>
+                </div>
+            </div>
+
+            <!-- TERMOS DE USO -->
+            <div id="termos" class="inst-content">
+                <div class="inst-header">
+                    <h2>📋 Termos de Uso</h2>
+                    <p>Ao acessar medicheck.med.br, você concorda com os termos abaixo.</p>
+                </div>
+                <div class="inst-section">
+                    <h3>1. Finalidade</h3>
+                    <p>O MediCheck fornece informações educacionais sobre medicamentos, revisadas por farmacêutica responsável (CRF-SP 33.109).</p>
+                </div>
+                <div class="inst-section">
+                    <h3>2. Uso das Informações</h3>
+                    <p>O conteúdo:</p>
+                    <ul>
+                        <li>Não substitui consulta médica ou farmacêutica</li>
+                        <li>Não deve ser usado para automedicação</li>
+                        <li>É de caráter exclusivamente educacional</li>
+                    </ul>
+                </div>
+                <div class="inst-section">
+                    <h3>3. Responsabilidade</h3>
+                    <p>O usuário é responsável pelo uso das informações. O MediCheck não se responsabiliza por decisões tomadas com base no conteúdo sem orientação profissional.</p>
+                </div>
+                <div class="inst-section">
+                    <h3>4. Propriedade Intelectual</h3>
+                    <p>Todo conteúdo do site é protegido por direitos autorais e não pode ser copiado, reproduzido ou distribuído sem autorização expressa.</p>
+                </div>
+                <div class="inst-section">
+                    <h3>5. Modificações</h3>
+                    <p>Os termos podem ser atualizados a qualquer momento. O uso continuado do site implica aceite dos novos termos.</p>
+                </div>
+                <div class="inst-section">
+                    <h3>6. Legislação Aplicável</h3>
+                    <p>Estes termos são regidos pelas leis brasileiras, incluindo o Código de Defesa do Consumidor e a LGPD (Lei nº 13.709/2018).</p>
+                </div>
+                <div class="inst-rodape">
+                    Dúvidas: 📧 <a href="/cdn-cgi/l/email-protection#2e4d41405a4f5a416e434b4a474d464b4d4500434b4a004c5c"><span class="__cf_email__" data-cfemail="31525e5f4550455e715c545558525954525a1f5c54551f5343">[email&#160;protected]</span></a><br>
+                    <small>MediCheck © 2026 — medicheck.med.br</small>
+                </div>
+            </div>
+
+            <!-- CONTATO -->
+            <div id="contato" class="inst-content">
+                <div class="inst-header">
+                    <h2>📧 Contato</h2>
+                    <p>Entre em contato com a equipe MediCheck</p>
+                </div>
+                <div class="contato-item">
+                    <div class="icon">📧</div>
+                    <div class="info">
+                        <strong>E-mail</strong>
+                        <a href="/cdn-cgi/l/email-protection#71121e1f0510051e311c141518121914121a5f1c14155f1303"><span class="__cf_email__" data-cfemail="6d0e0203190c19022d000809040e05080e0643000809430f1f">[email&#160;protected]</span></a>
+                    </div>
+                </div>
+                <div class="contato-item">
+                    <div class="icon">🌐</div>
+                    <div class="info">
+                        <strong>Site</strong>
+                        <a href="https://medicheck.med.br">medicheck.med.br</a>
+                    </div>
+                </div>
+                <div class="contato-item">
+                    <div class="icon">👩‍⚕️</div>
+                    <div class="info">
+                        <strong>Responsável Técnica</strong>
+                        Rita de Cássia Oliveira Soares da Silva — CRF-SP 33.109 — Farmacêutica
+                    </div>
+                </div>
+                <div class="contato-item">
+                    <div class="icon">⏰</div>
+                    <div class="info">
+                        <strong>Retorno</strong>
+                        Respondemos em até 2 dias úteis
+                    </div>
+                </div>
+                <div class="inst-section" style="margin-top:20px;">
+                    <h3>💡 Sugestões de Medicamentos</h3>
+                    <p>Quer sugerir um medicamento para incluirmos no MediCheck? Envie o nome para <a href="/cdn-cgi/l/email-protection#33505c5d4752475c735e56575a505b5650581d5e56571d5141" style="color:#667eea;"><span class="__cf_email__" data-cfemail="6f0c00011b0e1b002f020a0b060c070a0c0441020a0b410d1d">[email&#160;protected]</span></a> com o assunto <strong>"Sugestão de Medicamento"</strong>. Analisamos todas as sugestões!</p>
+                </div>
+                <div class="inst-rodape">
+                    <small>MediCheck © 2026 — Conteúdo educacional. Não substitui orientação profissional.</small>
                 </div>
             </div>
 
             <div id="about" class="about-content">
-                <h2>Sobre MediCheck</h2>
-                <p><strong>MediCheck</strong> é um aplicativo educacional que explica medicamentos com informações claras e precisas.</p>
+                <div class="about-modal-wrapper">
+                    <button class="about-modal-close" onclick="closeAboutModal()">✕</button>
+                    
+                    <h2>Sobre MediCheck</h2>
                 
-                <h3>🎯 Nossa Missão</h3>
-                <p>Informar pacientes sobre medicamentos de forma clara, segura e acessível, ajudando no entendimento e uso correto de medicações.</p>
+                <h3>🎯 Missão</h3>
+                <p>Fornecer informações claras, precisas e acessíveis sobre medicamentos, promovendo o uso correto e responsável de medicações, empoderando pacientes com conhecimento para melhor entender seus tratamentos.</p>
                 
-                <h3>⚠️ Avisos de Emergência</h3>
-                <p><strong>LIGUE SAMU (192)</strong> em caso de: Reação alérgica grave, dificuldade respiratória, perda de consciência, alucinações severas, sangramento anormal ou qualquer sintoma que ache preocupante.</p>
+                <h3>👁️ Visão</h3>
+                <p>Ser a principal ferramenta educacional de referência sobre medicamentos, contribuindo para a saúde pública e a segurança de pacientes em todo o Brasil.</p>
 
-                <h3>📋 Aviso Legal</h3>
-                <p><strong>As informações fornecidas são educacionais.</strong> Sempre consulte um farmacêutico ou médico antes de usar qualquer medicamento. MediCheck não substitui orientação profissional.</p>
+                <h3>💼 Profissional Responsável</h3>
+                <p><strong>Rita de Cássia Oliveira Soares da Silva</strong><br>
+                <strong>CRF SP nº 33.109</strong><br>
+                <strong>Farmacêutica</strong> - 20 anos de experiência na área de Saúde<br><br>
                 
-                <h3>👩‍⚕️ Profissional Responsável</h3>
-                <p><strong>Rita de Cássia</strong> - Farmacêutica responsável<br>CRF SP nº 33.109</p>
+                <strong>📚 Formação Acadêmica:</strong><br>
+                • Graduação - Universidade Sorocaba (UNISO)<br>
+                • Pós-Graduação - Faculdade Oswaldo Cruz<br>
+                • Especialização em Gestão Hospitalar<br><br>
                 
-                <p style="margin-top: 25px; color: #999; font-size: 13px;">© 2025 MediCheck. Todos os direitos reservados.</p>
+                <strong>🏢 Experiência Profissional (20 anos):</strong><br>
+                • <strong>Drogarias:</strong> Atendimento ao público, orientação farmacêutica, venda de medicamentos<br>
+                • <strong>Clínicas:</strong> Gestão de medicamentos, orientação a pacientes, apoio médico<br>
+                • <strong>Hospitais:</strong> Farmácia hospitalar, controle de estoque, segurança do paciente<br>
+                • <strong>Distribuidoras:</strong> Logística farmacêutica, controle de qualidade, distribuição de medicamentos<br><br>
+                
+                <strong>📧 Contato:</strong><br>
+                <a href="/cdn-cgi/l/email-protection#96fbf3f2fff5fef3f5fdd6fbf3f2fff5fef3f5fdb8fbf3f2b8f4e4"><span class="__cf_email__" data-cfemail="6b060e0f0208030e08002b060e0f0208030e080045060e0f450919">[email&#160;protected]</span></a></p>
+
+                <h3>📱 Como Usar o Aplicativo</h3>
+                <p><strong>1. Buscar um Medicamento:</strong> Use a barra de pesquisa para encontrar o medicamento pelo nome ou princípio ativo. A busca é em tempo real e mostra resultados instantaneamente.<br><br>
+                <strong>2. Entender as Informações:</strong> Clique em qualquer medicamento para ver detalhes completos incluindo:<br>
+                • Princípio ativo (genérico)<br>
+                • Tipo de medicamento<br>
+                • Para que serve (indicações)<br>
+                • Necessidade de receita<br>
+                • Efeitos colaterais<br>
+                • Avisos de segurança<br>
+                • Dicas educacionais<br><br>
+                <strong>3. Navegação:</strong> Use as páginas numeradas para navegar entre medicamentos. Cada página mostra 15 medicamentos em ordem alfabética.<br><br>
+                <strong>4. Dúvidas:</strong> Se tiver dúvidas sobre um medicamento, sempre consulte um farmacêutico ou médico.</p>
+
+                <h3>⚠️ Avisos de Responsabilidade Legal</h3>
+                <p><strong>IMPORTANTE - LEIA COM ATENÇÃO:</strong><br><br>
+                ✓ As informações fornecidas neste aplicativo são <strong>EDUCACIONAIS</strong> e destinadas apenas para fins informativos.<br><br>
+                ✓ MediCheck <strong>NÃO SUBSTITUI</strong> a orientação, diagnóstico ou tratamento de um médico ou farmacêutico licenciado.<br><br>
+                ✓ Sempre consulte um profissional de saúde qualificado antes de:<br>
+                • Iniciar, modificar ou descontinuar qualquer medicamento<br>
+                • Tomar medicamentos com receita controlada<br>
+                • Combinar medicamentos<br>
+                • Se estiver grávida, amamentando ou planejando engravidar<br><br>
+                ✓ Este aplicativo não responsabiliza-se por qualquer efeito adverso resultante do uso inadequado de medicamentos.<br><br>
+                ✓ As informações são baseadas em conhecimento farmacêutico profissional, mas podem estar sujeitas a atualizações.</p>
+
+                <h3>🚨 Quando Procurar Emergência?</h3>
+                <p><strong>LIGUE SAMU (192) IMEDIATAMENTE em caso de:</strong><br><br>
+                🔴 <strong>Reações Alérgicas Graves:</strong> Inchaço de lábios, língua ou rosto; dificuldade para respirar<br>
+                🔴 <strong>Dificuldade Respiratória:</strong> Falta de ar, chiado no peito<br>
+                🔴 <strong>Problemas Cardíacos:</strong> Dor no peito, batidas aceleradas ou muito lentas<br>
+                🔴 <strong>Perda de Consciência:</strong> Desmaio ou confusão severa<br>
+                🔴 <strong>Sangramento Anormal:</strong> Sangue na urina, fezes pretas, vômito com sangue<br>
+                🔴 <strong>Tremores ou Convulsões</strong><br>
+                🔴 <strong>Alucinações ou Comportamento Estranho</strong><br>
+                🔴 <strong>Qualquer Sintoma que Ache Preocupante</strong><br><br>
+                <strong>Não espere!</strong> Em caso de dúvida, procure atendimento médico urgente.</p>
+
+                <h3>🏥 Disclaimer</h3>
+                <p><strong>MediCheck é uma ferramenta educacional e não substitui consulta médica.</strong><br><br>
+                As informações aqui contidas são fornecidas por um farmacêutico qualificado, mas cada pessoa é única. O que funciona para uma pessoa pode não funcionar (ou causar reações diferentes) em outra.<br><br>
+                <strong>Seu médico ou farmacêutico conhecem seu histórico médico completo</strong> e podem fornecer orientações personalizadas. Sempre consulte um profissional antes de tomar qualquer decisão sobre seus medicamentos.</p>
+
+                <h3>❓ Dúvidas ou Sugestões?</h3>
+                <p>Se tiver dúvidas sobre um medicamento específico ou sugestões para melhorar o MediCheck, entre em contato:<br><br>
+                📧 <strong><a href="/cdn-cgi/l/email-protection#cea3abaaa7ada6abada58ea3abaaa7ada6abada5e0a3abaae0acbc"><span class="__cf_email__" data-cfemail="8fe2eaebe6ece7eaece4cfe2eaebe6ece7eaece4a1e2eaeba1edfd">[email&#160;protected]</span></a></strong><br><br>
+                Ficaremos felizes em ajudar! 😊</p>
+
+                <p style="margin-top: 40px; padding-top: 20px; border-top: 2px solid #ddd; color: #999; font-size: 13px; text-align: center;">MediCheck © 2026 — Responsabilidade Técnica: Rita de Cássia Oliveira Soares da Silva — CRF-SP 33.109</p>
+                </div>
             </div>
         </div>
+
+    <div class="footer-crf">
+        Revisado por <strong>Rita de Cássia Oliveira Soares da Silva</strong> — CRF-SP 33.109 · Farmacêutica responsável<br>
+        <small>MediCheck © 2026 — medicheck.med.br — Conteúdo educacional. Não substitui orientação profissional.</small>
+    </div>
+
     </div>
 
     <!-- MODAL TELA CHEIA -->
@@ -565,1384 +1659,25 @@
         </div>
     </div>
 
-    <script>
-        const medicamentosData = [
-  {
-    "nome": "Aciclovir 400mg",
-    "generico": "Aciclovir",
-    "tipo": "Antiviral",
-    "descricao": "Antiviral para herpes simples labial, genital e zoster (cobreiro). Eficaz se iniciado precocemente.",
-    "receita": "Sim",
-    "efeitos": "Nefrotoxicidade (hidratação importante), neurotoxicidade (em idosos), reações alérgicas, tremor, alucinações",
-    "aviso_grave": "Alucinações e comportamento anormal podem ocorrer em idosos",
-    "recomendacao": "☎️ LIGUE SAMU (192) se: Alucinações, confusão mental, dificuldade para urinar, tremores graves",
-    "educacao": "Importante beber bastante água durante o tratamento para proteger os rins"
-  },
-  {
-    "nome": "Ácido Fólico 5mg",
-    "generico": "Ácido Fólico",
-    "tipo": "Vitamina",
-    "descricao": "Essencial na gravidez. Previne anemia.",
-    "receita": "Não",
-    "efeitos": "Reações alérgicas raras",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Ácido Salicílico 2%",
-    "generico": "Ácido Salicílico",
-    "tipo": "Acneico",
-    "descricao": "Acne comedonal. Exfoliante.",
-    "receita": "Não",
-    "efeitos": "Irritação, ressecamento, sensibilidade",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Ácido Ascórbico 15%",
-    "generico": "Vitamina C",
-    "tipo": "Antienvelhecimento",
-    "descricao": "Antioxidante e iluminador.",
-    "receita": "Não",
-    "efeitos": "Irritação em pH baixo",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Ácido Hialurônico Sérum",
-    "generico": "Ácido Hialurônico",
-    "tipo": "Hidratante",
-    "descricao": "Hidratação profunda de pele.",
-    "receita": "Não",
-    "efeitos": "Reações alérgicas raras",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Álcool Etílico 70%",
-    "generico": "Álcool",
-    "tipo": "Antisséptico",
-    "descricao": "Desinfetante de pele.",
-    "receita": "Não",
-    "efeitos": "Ressecamento, irritação",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Alprazolam 0.5mg",
-    "generico": "Alprazolam",
-    "tipo": "Ansiolítico",
-    "descricao": "Reduz ansiedade e pânico. Ação rápida.",
-    "receita": "Sim",
-    "efeitos": "Dependência, sonolência, tontura",
-    "aviso_grave": "Risco de dependência com uso prolongado",
-    "recomendacao": "☎️ LIGUE SAMU (192) se: Dificuldade respiratória, perda de consciência, overdose",
-    "educacao": "Nunca misture com álcool ou outros sedativos. Pode causar sonolência - não dirija"
-  },
-  {
-    "nome": "Amiodarona 200mg",
-    "generico": "Amiodarona",
-    "tipo": "Antiarrítmico",
-    "descricao": "Classe III. Arritmias graves.",
-    "receita": "Sim",
-    "efeitos": "Hepatotoxicidade, fotossensibilidade, hipotireoidismo",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Amlodipino 5mg",
-    "generico": "Amlodipina",
-    "tipo": "Bloqueador de Cálcio",
-    "descricao": "Controla pressão alta e angina.",
-    "receita": "Sim",
-    "efeitos": "Edema, rubor facial, cefaleia",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Amoxicilina 500mg",
-    "generico": "Amoxicilina",
-    "tipo": "Antibiótico",
-    "descricao": "Trata infecções bacterianas. Muito prescrito para amigdalite.",
-    "receita": "Sim",
-    "efeitos": "Reações alérgicas, diarreia, náusea",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Aripiprazol 10mg",
-    "generico": "Aripiprazol",
-    "tipo": "Antipsicótico",
-    "descricao": "Psicose. Moderno e seguro.",
-    "receita": "Sim",
-    "efeitos": "Cefaleia, insônia, tremor",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Aspirina 500mg",
-    "generico": "Ácido Acetilsalicílico",
-    "tipo": "Anticoagulante",
-    "descricao": "Antiagregante. Preventivo de infarto.",
-    "receita": "Não",
-    "efeitos": "Úlcera, hemorragia GI, Síndrome Reye em crianças",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Atenolol 50mg",
-    "generico": "Atenolol",
-    "tipo": "Betabloqueador",
-    "descricao": "Reduz pressão e frequência cardíaca. Preventivo de infarto.",
-    "receita": "Sim",
-    "efeitos": "Fadiga, tontura, impotência",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Atorvastatina 20mg",
-    "generico": "Atorvastatina",
-    "tipo": "Redutor de Colesterol",
-    "descricao": "Reduz colesterol. Potente e seguro.",
-    "receita": "Sim",
-    "efeitos": "Mialgia, elevação de transaminases",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Azitromicina 500mg",
-    "generico": "Azitromicina",
-    "tipo": "Antibiótico",
-    "descricao": "Antibiótico de amplo espectro. Viral e bacteriana.",
-    "receita": "Sim",
-    "efeitos": "Diarreia, náusea, arritmia cardíaca",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Benzilpenicilina 400.000U",
-    "generico": "Penicilina",
-    "tipo": "Antibiótico",
-    "descricao": "Para infecções por estreptococos.",
-    "receita": "Sim",
-    "efeitos": "Anafilaxia, reações alérgicas",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Benzoíla Peroxida 2.5%",
-    "generico": "Benzoíla Peroxida",
-    "tipo": "Acneico",
-    "descricao": "Acne leve a moderada.",
-    "receita": "Não",
-    "efeitos": "Ressecamento, irritação, fotossensibilidade",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Betametasona Tópica",
-    "generico": "Betametasona",
-    "tipo": "Corticoide",
-    "descricao": "Para dermatite e inflamação de pele.",
-    "receita": "Não",
-    "efeitos": "Atrofia da pele, estriais, foliculite",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Bisacodil 5mg",
-    "generico": "Bisacodil",
-    "tipo": "Laxante",
-    "descricao": "Laxante estimulante rápido.",
-    "receita": "Não",
-    "efeitos": "Cólica abdominal, dependência",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Bromazepam 3mg",
-    "generico": "Bromazepam",
-    "tipo": "Benzodiazepínico",
-    "descricao": "Ansiedade e insônia.",
-    "receita": "Sim",
-    "efeitos": "Dependência, sonolência, ataxia",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Brometo de Ipratrópio",
-    "generico": "Ipratrópio",
-    "tipo": "Broncodilatador",
-    "descricao": "Para asma e DPOC. Anticolin",
-    "receita": "Sim",
-    "efeitos": "Boca seca, visão turva, tremor",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Bupropiona 300mg",
-    "generico": "Bupropiona",
-    "tipo": "Antidepressivo",
-    "descricao": "Depressão e cessação de tabagismo.",
-    "receita": "Sim",
-    "efeitos": "Insônia, cefaleia, convulsões",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Cafeína 200mg",
-    "generico": "Cafeína",
-    "tipo": "Estimulante",
-    "descricao": "Estimulante do SNC. Cefaleia.",
-    "receita": "Não",
-    "efeitos": "Insônia, taquicardia, dependência",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Cálcio + Vitamina D",
-    "generico": "Cálcio/Vitamina D",
-    "tipo": "Suplemento",
-    "descricao": "Previne osteoporose. Essencial em mulheres.",
-    "receita": "Não",
-    "efeitos": "Constipação, hipercalcemia",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Candesartana 8mg",
-    "generico": "Candesartana",
-    "tipo": "ARA2",
-    "descricao": "ARA2. ICC e pressão.",
-    "receita": "Sim",
-    "efeitos": "Hipercalemia, tonzia, síncope",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Carbamazepina 200mg",
-    "generico": "Carbamazepina",
-    "tipo": "Anticonvulsivante",
-    "descricao": "Epilepsia e neuralgia trigeminal.",
-    "receita": "Sim",
-    "efeitos": "Síndrome de DRESS, diplopia, hepatotoxicidade",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Carvedilol 6.25mg",
-    "generico": "Carvedilol",
-    "tipo": "Betabloqueador",
-    "descricao": "Alfabloqueador. ICC.",
-    "receita": "Sim",
-    "efeitos": "Tontura, fadiga, bradicardia",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Ceftriaxona 1g",
-    "generico": "Ceftriaxona",
-    "tipo": "Antibiótico",
-    "descricao": "Cefalosporina. Para infecções sérias.",
-    "receita": "Sim",
-    "efeitos": "Diarreia, reações alérgicas, colite",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Cetirizina 10mg",
-    "generico": "Cetirizina",
-    "tipo": "Anti-histamínico",
-    "descricao": "Anti-alérgico. Segunda geração, seguro.",
-    "receita": "Não",
-    "efeitos": "Sonolência leve, boca seca",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Cetoconazol Shampoo",
-    "generico": "Cetoconazol",
-    "tipo": "Antifúngico",
-    "descricao": "Para caspa e dermatite seborreica.",
-    "receita": "Não",
-    "efeitos": "Irritação do couro cabeludo",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Ciprofloxacina 500mg",
-    "generico": "Ciprofloxacina",
-    "tipo": "Antibiótico",
-    "descricao": "Fluorquinolona. Infecções urinárias.",
-    "receita": "Sim",
-    "efeitos": "Tendinite, arritmia, fototoxicidade",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Citalopram 20mg",
-    "generico": "Citalopram",
-    "tipo": "Antidepressivo",
-    "descricao": "ISRS. Depressão e pânico.",
-    "receita": "Sim",
-    "efeitos": "Prolongamento QT, síncope, disfunção sexual",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Clindamicina 300mg",
-    "generico": "Clindamicina",
-    "tipo": "Antibiótico",
-    "descricao": "Para infecções anaeróbias e acne.",
-    "receita": "Sim",
-    "efeitos": "Colite pseudomembranosa, reações alérgicas",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Clonazepam 0.5mg",
-    "generico": "Clonazepam",
-    "tipo": "Benzodiazepínico",
-    "descricao": "Ansiedade, pânico e anticonvulsivante.",
-    "receita": "Sim",
-    "efeitos": "Dependência, sonolência, tolerância",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Clopidogrel 75mg",
-    "generico": "Clopidogrel",
-    "tipo": "Anticoagulante",
-    "descricao": "Antiplaquetário. Pós-stent.",
-    "receita": "Sim",
-    "efeitos": "Hemorragia, neutropenia, trombose",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Clorexidina 0.12%",
-    "generico": "Clorexidina",
-    "tipo": "Antisséptico",
-    "descricao": "Bochechos. Anti-placa.",
-    "receita": "Não",
-    "efeitos": "Mancha de dentes, sabor metálico",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Clozapina 25mg",
-    "generico": "Clozapina",
-    "tipo": "Antipsicótico",
-    "descricao": "Psicose resistente. Atípico potente.",
-    "receita": "Sim",
-    "efeitos": "Agranulocitose, miocardite, síndrome metabólica",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Desloratadina 5mg",
-    "generico": "Desloratadina",
-    "tipo": "Anti-histamínico",
-    "descricao": "Alergia e urticária. Sem sonolência.",
-    "receita": "Não",
-    "efeitos": "Cefaleia, boca seca",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Dexametasona 4mg",
-    "generico": "Dexametasona",
-    "tipo": "Corticoide",
-    "descricao": "Corticoide potente. Anti-inflamação.",
-    "receita": "Sim",
-    "efeitos": "Osteoporose, imunossupressão, hiperglicemia",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Diazepam 5mg",
-    "generico": "Diazepam",
-    "tipo": "Benzodiazepínico",
-    "descricao": "Ansiolítico, relaxante muscular e anticonvulsivante.",
-    "receita": "Sim",
-    "efeitos": "Dependência, sonolência, ataxia",
-    "aviso_grave": "Pode causar dependência física e psicológica",
-    "recomendacao": "☎️ LIGUE SAMU (192) se: Dificuldade respiratória, perda de consciência, pensamentos suicidas",
-    "educacao": "Não interrompa abruptamente - pode causar convulsões. Reduzir gradualmente com médico"
-  },
-  {
-    "nome": "Digoxina 0.25mg",
-    "generico": "Digoxina",
-    "tipo": "Cardiotônico",
-    "descricao": "Para ICC e fibrilação atrial.",
-    "receita": "Sim",
-    "efeitos": "Toxicidade digital, arritmias, visuais",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Diltiazem 60mg",
-    "generico": "Diltiazem",
-    "tipo": "Bloqueador de Cálcio",
-    "descricao": "Bloqueador não-diidropiridínico.",
-    "receita": "Sim",
-    "efeitos": "Bradicardia, constipação, edema",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Dipirona 500mg",
-    "generico": "Dipirona",
-    "tipo": "Analgésico/Antitérmico",
-    "descricao": "Alivia dor e febre. Muito usado para cefaleias e dores corporais.",
-    "receita": "Não",
-    "efeitos": "Reações alérgicas raras, hipotensão em casos extremos",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Doxiciclina 100mg",
-    "generico": "Doxiciclina",
-    "tipo": "Antibiótico",
-    "descricao": "Para acne e infecções respiratórias.",
-    "receita": "Sim",
-    "efeitos": "Fotossensibilidade, esofagite, candidiase",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Duloxetina 60mg",
-    "generico": "Duloxetina",
-    "tipo": "Antidepressivo",
-    "descricao": "ISRSN. Dor e depressão.",
-    "receita": "Sim",
-    "efeitos": "Síndrome serotoninérgica, disfunção sexual",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Efavirenz 600mg",
-    "generico": "Efavirenz",
-    "tipo": "Antirretroviral",
-    "descricao": "NNRTI para HIV. Bem tolerado.",
-    "receita": "Sim",
-    "efeitos": "Sintomas neuropsiquiátricos, teratogenicidade",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Enalapril 10mg",
-    "generico": "Enalapril",
-    "tipo": "IECA",
-    "descricao": "Inibidor ECA. Hipertensão e ICC.",
-    "receita": "Sim",
-    "efeitos": "Tosse, hipercalemia, angioedema",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Enoxaparina 40mg",
-    "generico": "Enoxaparina",
-    "tipo": "Anticoagulante",
-    "descricao": "HBPM. Trombose e infarto.",
-    "receita": "Sim",
-    "efeitos": "Hemorragia, osteoporose, trombocitopenia",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Escitalopram 10mg",
-    "generico": "Escitalopram",
-    "tipo": "Antidepressivo",
-    "descricao": "ISRS. Eficaz e tolerado.",
-    "receita": "Sim",
-    "efeitos": "Disfunção sexual, síncope, síndrome serotoninérgica",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Espironolactona 25mg",
-    "generico": "Espironolactona",
-    "tipo": "Diurético",
-    "descricao": "Poupador de potássio. Cirrose.",
-    "receita": "Sim",
-    "efeitos": "Hipercalemia, ginecomastia, impotência",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Etambutol 1200mg",
-    "generico": "Etambutol",
-    "tipo": "Antituberculose",
-    "descricao": "Primeira linha TB. Bacteriostático.",
-    "receita": "Sim",
-    "efeitos": "Neurite óptica, daltonismo, neuropatia",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Fenitoína 100mg",
-    "generico": "Fenitoína",
-    "tipo": "Anticonvulsivante",
-    "descricao": "Epilepsia tônico-clônica. Clássico.",
-    "receita": "Sim",
-    "efeitos": "Hiperplasia gengival, síndrome de DRESS, ataxia",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Fentolamina",
-    "generico": "Fentolamina",
-    "tipo": "Alfabloqueador",
-    "descricao": "Crise hipertensiva e feocromocitoma.",
-    "receita": "Sim",
-    "efeitos": "Taquicardia reflexa, hipotensão, angina",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Ferro 325mg",
-    "generico": "Ferro",
-    "tipo": "Suplemento",
-    "descricao": "Trata anemia. Para deficiência de ferro.",
-    "receita": "Não",
-    "efeitos": "Constipação, fezes pretas, irritação gástrica",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Finasterida 1mg",
-    "generico": "Finasterida",
-    "tipo": "Antialopecia",
-    "descricao": "Queda de cabelo (DHT). Oral.",
-    "receita": "Sim",
-    "efeitos": "Disfunção sexual, diminuição libido, ginecomastia",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Fluconazol 150mg",
-    "generico": "Fluconazol",
-    "tipo": "Antifúngico",
-    "descricao": "Para candidíase. Dose única eficaz.",
-    "receita": "Sim",
-    "efeitos": "Cefaleia, náusea, hepatotoxicidade",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Fluoxetina 20mg",
-    "generico": "Fluoxetina",
-    "tipo": "Antidepressivo",
-    "descricao": "Trata depressão e ansiedade. ISRS eficaz.",
-    "receita": "Sim",
-    "efeitos": "Insônia, anorgasmia, síndrome serotoninérgica",
-    "aviso_grave": "Pode aumentar pensamentos suicidas em jovens",
-    "recomendacao": "☎️ LIGUE SAMU (192) ou CVV (188) se: Pensamentos suicidas, depressão severa",
-    "educacao": "Leva 2-4 semanas para fazer efeito. Não interrompa abruptamente"
-  },
-  {
-    "nome": "Furosemida 40mg",
-    "generico": "Furosemida",
-    "tipo": "Diurético",
-    "descricao": "Diurético potente. Edema e ICC.",
-    "receita": "Sim",
-    "efeitos": "Hipocalemia, ototoxicidade, hiponatremia",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Gabapentina 300mg",
-    "generico": "Gabapentina",
-    "tipo": "Neuromodulador",
-    "descricao": "Dor neuropática e epilepsia.",
-    "receita": "Sim",
-    "efeitos": "Sonolência, tontura, edema periférico",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Haloperidol 1mg",
-    "generico": "Haloperidol",
-    "tipo": "Antipsicótico",
-    "descricao": "Psicose aguda. Típico.",
-    "receita": "Sim",
-    "efeitos": "Parkinsonismo, acatisia, discinesia tardia",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Hidroclorotiazida 25mg",
-    "generico": "Hidroclorotiazida",
-    "tipo": "Diurético",
-    "descricao": "Diurético tiazídico. Hipertensão.",
-    "receita": "Sim",
-    "efeitos": "Hipocalemia, hiperglicemia, hiperuricemia",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Hidrocortisona 1%",
-    "generico": "Hidrocortisona",
-    "tipo": "Corticoide",
-    "descricao": "Corticoide fraco. Para pele sensível.",
-    "receita": "Não",
-    "efeitos": "Atrofia de pele com uso prolongado",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Hidróxido de Alumínio",
-    "generico": "Antiácido",
-    "tipo": "Antiácido",
-    "descricao": "Neutraliza ácido do estômago rapidamente.",
-    "receita": "Não",
-    "efeitos": "Constipação, hipercalcemia",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Ibuprofeno 200mg",
-    "generico": "Ibuprofeno",
-    "tipo": "Anti-inflamatório",
-    "descricao": "Reduz inflamação, dor e febre. Eficaz para dores musculares.",
-    "receita": "Não",
-    "efeitos": "Gastrite, úlcera em uso prolongado, alergia",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Insulina NPH 100U/ml",
-    "generico": "Insulina",
-    "tipo": "Hipoglicemiante",
-    "descricao": "Diabetes mellitus. Intermediária.",
-    "receita": "Sim",
-    "efeitos": "Hipoglicemia, lipodistrofia, alergia",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Isoniazida 300mg",
-    "generico": "Isoniazida",
-    "tipo": "Antituberculose",
-    "descricao": "Primeira linha TB. Essencial.",
-    "receita": "Sim",
-    "efeitos": "Neuropatia periférica, hepatotoxicidade",
-    "aviso_grave": "Hepatotoxicidade - pode danificar o fígado",
-    "recomendacao": "☎️ LIGUE SAMU (192) se: Icterícia (amarelamento), dor abdominal intensa, vômito",
-    "educacao": "Fazer testes de função hepática regularmente. Evitar álcool completamente"
-  },
-  {
-    "nome": "Isotretinoína 20mg",
-    "generico": "Isotretinoína",
-    "tipo": "Acneico",
-    "descricao": "Acne grave. Teratogênico.",
-    "receita": "Sim",
-    "efeitos": "Teratogenicidade, ressecamento, elevação lípides",
-    "aviso_grave": "TERATOGÊNICO - proibido em gravidez",
-    "recomendacao": "☔ Mulheres OBRIGATORIAMENTE devem usar contraceptivo e fazer teste de gravidez",
-    "educacao": "Um dos medicamentos mais potentes para acne. Requer acompanhamento mensal"
-  },
-  {
-    "nome": "Lactulose 667mg/ml",
-    "generico": "Lactulose",
-    "tipo": "Laxante",
-    "descricao": "Para constipação. Suave e seguro.",
-    "receita": "Não",
-    "efeitos": "Gases, inchaço, cólica",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Lamotrigina 25mg",
-    "generico": "Lamotrigina",
-    "tipo": "Anticonvulsivante",
-    "descricao": "Epilepsia e bipolaridade.",
-    "receita": "Sim",
-    "efeitos": "Síndrome de Stevens-Johnson, diplopia",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Levamisol 150mg",
-    "generico": "Levamisol",
-    "tipo": "Antiparasitário",
-    "descricao": "Para ascaridíase e ancilostomíase.",
-    "receita": "Não",
-    "efeitos": "Náusea, dor abdominal, agranulocitose rara",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Levetiracetam 500mg",
-    "generico": "Levetiracetam",
-    "tipo": "Anticonvulsivante",
-    "descricao": "Epilepsia focal. Moderno.",
-    "receita": "Sim",
-    "efeitos": "Irritabilidade, sonolência, alergia",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Levofloxacina 500mg",
-    "generico": "Levofloxacina",
-    "tipo": "Antibiótico",
-    "descricao": "Para pneumonia e infecções respiratórias.",
-    "receita": "Sim",
-    "efeitos": "Tendinite, prolongamento QT, fototoxicidade",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Lisinopril 10mg",
-    "generico": "Lisinopril",
-    "tipo": "IECA",
-    "descricao": "IECA. Pressão e coração.",
-    "receita": "Sim",
-    "efeitos": "Tosse, tontura, hipercalemia",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Lítio Carbonato 300mg",
-    "generico": "Lítio",
-    "tipo": "Estabilizador de Humor",
-    "descricao": "Bipolaridade. Ouro padrão.",
-    "receita": "Sim",
-    "efeitos": "Tremor, polidipsia, nefrotoxicidade, hipotireoidismo",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Loperamida 2mg",
-    "generico": "Loperamida",
-    "tipo": "Antidiarreico",
-    "descricao": "Para diarreia aguda. Rápido e eficaz.",
-    "receita": "Não",
-    "efeitos": "Constipação, megacólon tóxico em colite",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Lopinavir/Ritonavir",
-    "generico": "Kaletra",
-    "tipo": "Antirretroviral",
-    "descricao": "Inibidor de protease para HIV.",
-    "receita": "Sim",
-    "efeitos": "Hepatotoxicidade, pancreatite, lipodistrofia",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Loratadina 10mg",
-    "generico": "Loratadina",
-    "tipo": "Anti-histamínico",
-    "descricao": "Alívio rápido de alergias. Não causa sonolência.",
-    "receita": "Não",
-    "efeitos": "Cefaleia rara, boca seca",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Losartana 50mg",
-    "generico": "Losartana",
-    "tipo": "Antihipertensivo",
-    "descricao": "Controla pressão alta. Seguro e bem tolerado.",
-    "receita": "Sim",
-    "efeitos": "Tontura, tosse, hipercalemia",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Mebendazol 100mg",
-    "generico": "Mebendazol",
-    "tipo": "Antiparasitário",
-    "descricao": "Elimina vermes intestinais. Seguro.",
-    "receita": "Não",
-    "efeitos": "Dor abdominal, diarreia",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Melatonina 3mg",
-    "generico": "Melatonina",
-    "tipo": "Hipnótico",
-    "descricao": "Regulador de sono. Jet lag.",
-    "receita": "Não",
-    "efeitos": "Cefaleia, sonolência diurna, pesadelos",
-    "aviso_grave": "Pode causar pesadelos e depressão do humor",
-    "recomendacao": "☎️ LIGUE SAMU (192) se: Depressão severa, pensamentos estranhos",
-    "educacao": "Use 30-60 min antes de dormir. Não vicia, mas perde efetividade com tempo"
-  },
-  {
-    "nome": "Metformina 500mg",
-    "generico": "Metformina",
-    "tipo": "Antidiabético",
-    "descricao": "Controla glicose. Primeira linha para diabetes tipo 2.",
-    "receita": "Sim",
-    "efeitos": "Diarreia, acidose lática em insuficiência renal",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Metoclopramida 10mg",
-    "generico": "Metoclopramida",
-    "tipo": "Antiemético",
-    "descricao": "Combate náusea e vômito. Acelera digestão.",
-    "receita": "Não",
-    "efeitos": "Discinesia tardia, tremor, depressão",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Metoprolol 100mg",
-    "generico": "Metoprolol",
-    "tipo": "Betabloqueador",
-    "descricao": "Cardioseletivo. Infarto e pressão.",
-    "receita": "Sim",
-    "efeitos": "Bradicardia, fadiga, broncoespasmo",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Miconazol Creme",
-    "generico": "Miconazol",
-    "tipo": "Antifúngico",
-    "descricao": "Para dermatite fúngica e candidíase.",
-    "receita": "Não",
-    "efeitos": "Irritação local, reações alérgicas",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Minoxidil 5%",
-    "generico": "Minoxidil",
-    "tipo": "Antialopecia",
-    "descricao": "Queda de cabelo. Eficaz.",
-    "receita": "Não",
-    "efeitos": "Hipertricose, dermatite, taquicardia sistêmica",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Mirtazapina 30mg",
-    "generico": "Mirtazapina",
-    "tipo": "Antidepressivo",
-    "descricao": "Depressão com insônia.",
-    "receita": "Sim",
-    "efeitos": "Ganho de peso, sonolência, sedação",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Neomicina Pomada",
-    "generico": "Neomicina Tópica",
-    "tipo": "Antibiótico",
-    "descricao": "Infecção de feridas superficiais.",
-    "receita": "Não",
-    "efeitos": "Reações alérgicas, dermatite",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Nifedipina 20mg",
-    "generico": "Nifedipina",
-    "tipo": "Bloqueador de Cálcio",
-    "descricao": "Diidropiridínico. Angina.",
-    "receita": "Sim",
-    "efeitos": "Edema, rubor, cefaleia, hipotensão",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Nitazoxanida 500mg",
-    "generico": "Nitazoxanida",
-    "tipo": "Antiparasitário",
-    "descricao": "Amplo espectro. Viral e bacteriana.",
-    "receita": "Não",
-    "efeitos": "Náusea, vômito, diarreia",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Olanzapina 5mg",
-    "generico": "Olanzapina",
-    "tipo": "Antipsicótico",
-    "descricao": "Esquizofrenia e bipolaridade.",
-    "receita": "Sim",
-    "efeitos": "Ganho de peso severo, diabetes, lipidemia",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Omeprazol 20mg",
-    "generico": "Omeprazol",
-    "tipo": "Protetor Gástrico",
-    "descricao": "Reduz ácido do estômago. Para gastrite e úlcera.",
-    "receita": "Não",
-    "efeitos": "Deficiência de B12, reações alérgicas",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Ondansetrom 4mg",
-    "generico": "Ondansetrom",
-    "tipo": "Antiemético",
-    "descricao": "Para náusea pós-cirurgia ou quimioterapia.",
-    "receita": "Sim",
-    "efeitos": "Constipação, cefaleia, rubor",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Oseltamivir 75mg",
-    "generico": "Oseltamivir",
-    "tipo": "Antiviral",
-    "descricao": "Para gripe (H1N1). Eficaz se precoce.",
-    "receita": "Sim",
-    "efeitos": "Náusea, vômito, cefaleia",
-    "aviso_grave": "Pode piorar comportamento psicológico em crianças",
-    "recomendacao": "☎️ LIGUE SAMU (192) se: Delirium, alucinações, comportamento agressivo",
-    "educacao": "Mais eficaz se iniciado nas primeiras 48h de sintomas"
-  },
-  {
-    "nome": "Paracetamol 500mg",
-    "generico": "Paracetamol",
-    "tipo": "Analgésico",
-    "descricao": "Alivia dor e febre. Mais suave que a dipirona.",
-    "receita": "Não",
-    "efeitos": "Hepatotoxicidade em overdose, reações alérgicas",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Paroxetina 20mg",
-    "generico": "Paroxetina",
-    "tipo": "Antidepressivo",
-    "descricao": "ISRS. Depressão e ansiedade.",
-    "receita": "Sim",
-    "efeitos": "Disfunção sexual, ganho de peso, abstinência",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Peróxido de Hidrogênio 3%",
-    "generico": "Água Oxigenada",
-    "tipo": "Antisséptico",
-    "descricao": "Desinfetante. Limpeza de feridas.",
-    "receita": "Não",
-    "efeitos": "Irritação, embolia gás rara",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Pirazinamida 500mg",
-    "generico": "Pirazinamida",
-    "tipo": "Antituberculose",
-    "descricao": "Primeira linha TB.",
-    "receita": "Sim",
-    "efeitos": "Hiperuricemia, hepatotoxicidade, artralgia",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Prednisona 5mg",
-    "generico": "Prednisona",
-    "tipo": "Corticoide",
-    "descricao": "Anti-inflamatório potente. Múltiplos usos.",
-    "receita": "Sim",
-    "efeitos": "Osteoporose, imunossupressão, insônia",
-    "aviso_grave": "Imunossupressão - aumenta risco de infecções",
-    "recomendacao": "☎️ LIGUE SAMU (192) se: Febre alta, infecção grave, pneumonia",
-    "educacao": "Tomar com alimento. Não interromper abruptamente - reduzir gradualmente"
-  },
-  {
-    "nome": "Pregabalina 150mg",
-    "generico": "Pregabalina",
-    "tipo": "Neuromodulador",
-    "descricao": "Dor neuropática e ansiedade.",
-    "receita": "Sim",
-    "efeitos": "Sonolência, ganho de peso, dependência",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Propranolol 40mg",
-    "generico": "Propranolol",
-    "tipo": "Betabloqueador",
-    "descricao": "Angina e arritmia.",
-    "receita": "Sim",
-    "efeitos": "Bradicardia, fadiga, impotência",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Protetor Solar FPS 50",
-    "generico": "Filtro UV",
-    "tipo": "Fotoprotetor",
-    "descricao": "Proteção contra raios UVA/UVB.",
-    "receita": "Não",
-    "efeitos": "Dermatite de contato, acne",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Quetiapina 100mg",
-    "generico": "Quetiapina",
-    "tipo": "Antipsicótico",
-    "descricao": "Psicose e bipolaridade. Sedante.",
-    "receita": "Sim",
-    "efeitos": "Ganho de peso, sonolência, síndrome metabólica",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Ranitidina 150mg",
-    "generico": "Ranitidina",
-    "tipo": "Protetor Gástrico",
-    "descricao": "Reduz ácido. Alternativa ao omeprazol.",
-    "receita": "Não",
-    "efeitos": "Cefaleia, diarreia, ginecomastia",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Ribavirina 200mg",
-    "generico": "Ribavirina",
-    "tipo": "Antiviral",
-    "descricao": "Para hepatite C (com interferom).",
-    "receita": "Sim",
-    "efeitos": "Anemia, teratogenicidade, hepatotoxicidade",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Rifampicina 600mg",
-    "generico": "Rifampicina",
-    "tipo": "Antituberculose",
-    "descricao": "Primeira linha TB. Bactericida.",
-    "receita": "Sim",
-    "efeitos": "Hepatotoxicidade, coloração urina, interações",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Risperidona 2mg",
-    "generico": "Risperidona",
-    "tipo": "Antipsicótico",
-    "descricao": "Psicose e bipolaridade. Atípico.",
-    "receita": "Sim",
-    "efeitos": "Ganho de peso, hiperprolactinemia, síndrome metabólica",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Salbutamol Inalado",
-    "generico": "Salbutamol",
-    "tipo": "Broncodilatador",
-    "descricao": "Alívio rápido da asma e DPOC.",
-    "receita": "Não",
-    "efeitos": "Tremor, taquicardia, cefaleia",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Sertralina 50mg",
-    "generico": "Sertralina",
-    "tipo": "Antidepressivo",
-    "descricao": "Para depressão, ansiedade e TOC.",
-    "receita": "Sim",
-    "efeitos": "Insônia, disfunção sexual, tremor",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Sinvastatina 20mg",
-    "generico": "Sinvastatina",
-    "tipo": "Redutor de Colesterol",
-    "descricao": "Reduz colesterol LDL. Preventivo de infarto.",
-    "receita": "Sim",
-    "efeitos": "Mialgia, rabdomiólise rara, hepatotoxicidade",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Sucralfato 1g",
-    "generico": "Sucralfato",
-    "tipo": "Protetor Gástrico",
-    "descricao": "Cria barreira protetora no estômago.",
-    "receita": "Não",
-    "efeitos": "Constipação, gosto metálico",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Sulfametoxazol + Trimetoprima",
-    "generico": "Sulfametoxazol + Trimetoprima",
-    "tipo": "Antibiótico",
-    "descricao": "Bronquite e infecção urinária.",
-    "receita": "Sim",
-    "efeitos": "Síndrome de Stevens-Johnson, anemia",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Tenofovir 300mg",
-    "generico": "Tenofovir",
-    "tipo": "Antirretroviral",
-    "descricao": "Para HIV. Classe nucleotídica.",
-    "receita": "Sim",
-    "efeitos": "Nefrotoxicidade, hipofosforemia, osteoporose",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Terbinafina 250mg",
-    "generico": "Terbinafina",
-    "tipo": "Antifúngico",
-    "descricao": "Para micose de unhas. Eficaz.",
-    "receita": "Sim",
-    "efeitos": "Hepatotoxicidade, disgeusia, alopecia",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Topiramato 25mg",
-    "generico": "Topiramato",
-    "tipo": "Estabilizador",
-    "descricao": "Bipolaridade e enxaqueca.",
-    "receita": "Sim",
-    "efeitos": "Perda de peso, miopia aguda, acidose metabólica",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Trazodona 50mg",
-    "generico": "Trazodona",
-    "tipo": "Antidepressivo",
-    "descricao": "Depressão com insônia. Sedante.",
-    "receita": "Sim",
-    "efeitos": "Sonolência, tontura, priapismo",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Tretinoína 0.025%",
-    "generico": "Tretinoína",
-    "tipo": "Antienvelhecimento",
-    "descricao": "Rugas e manchas. Retinóide.",
-    "receita": "Sim",
-    "efeitos": "Fotossensibilidade, irritação, descamação",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Valproato de Sódio 500mg",
-    "generico": "Ácido Valproico",
-    "tipo": "Anticonvulsivante",
-    "descricao": "Amplo espectro. Epilepsia.",
-    "receita": "Sim",
-    "efeitos": "Hepatotoxicidade, teratogenicidade, pancreatite",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Valsartana 80mg",
-    "generico": "Valsartana",
-    "tipo": "ARA2",
-    "descricao": "Bloqueador AT2. Pressão alta.",
-    "receita": "Sim",
-    "efeitos": "Tontura, hipercalemia, hipotensão",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Venlafaxina 75mg",
-    "generico": "Venlafaxina",
-    "tipo": "Antidepressivo",
-    "descricao": "ISRSN. Depressão e ansiedade.",
-    "receita": "Sim",
-    "efeitos": "Síndrome de abstinência, disfunção sexual",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Verapamil 80mg",
-    "generico": "Verapamil",
-    "tipo": "Bloqueador de Cálcio",
-    "descricao": "Bradicardia, arritmia e pressão.",
-    "receita": "Sim",
-    "efeitos": "Constipação severa, bradicardia, AV block",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Vitamina D3 1000UI",
-    "generico": "Vitamina D",
-    "tipo": "Suplemento",
-    "descricao": "Fortalece ossos e imunidade.",
-    "receita": "Não",
-    "efeitos": "Hipercalcemia em doses altas",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Vitamina B12 1000mcg",
-    "generico": "Cobalamina",
-    "tipo": "Vitamina",
-    "descricao": "Energia e sistema nervoso. Para veganos.",
-    "receita": "Não",
-    "efeitos": "Reações alérgicas, trombose",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Warfarina 5mg",
-    "generico": "Warfarina",
-    "tipo": "Anticoagulante",
-    "descricao": "Anticoagulante oral. Fibrilação atrial.",
-    "receita": "Sim",
-    "efeitos": "Hemorragia, teratogenicidade, necrose de pele",
-    "aviso_grave": "Anticoagulante - risco alto de hemorragia",
-    "recomendacao": "☎️ LIGUE SAMU (192) se: Sangramento anormal, hematomas, fezes pretas, vômito com sangue",
-    "educacao": "INR deve ser monitorado regularmente. Consistência de vitamina K é importante"
-  },
-  {
-    "nome": "Zolpidem 5mg",
-    "generico": "Zolpidem",
-    "tipo": "Hipnótico",
-    "descricao": "Insônia crônica. Z-drug.",
-    "receita": "Sim",
-    "efeitos": "Dependência, sonambulismo, amnésia",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  },
-  {
-    "nome": "Zopiclona 7.5mg",
-    "generico": "Zopiclona",
-    "tipo": "Hipnótico",
-    "descricao": "Insônia. Z-drug.",
-    "receita": "Sim",
-    "efeitos": "Dependência, gosto metálico, amnésia",
-    "aviso_grave": "",
-    "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
-    "educacao": "Sempre consulte um farmacêutico ou médico antes de usar"
-  }
-];
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+        let medicamentosData = [];
+
+// Carrega os medicamentos após a página renderizar (lazy loading)
+window.addEventListener('DOMContentLoaded', () => {
+    fetch('/medicamentos.json')
+        .then(r => r.json())
+        .then(data => {
+            medicamentosData = data;
+            medicamentosData.sort((a, b) => a.nome.localeCompare(b.nome, 'pt-BR'));
+            searchResults = [...medicamentosData];
+            renderMedicines(0);
+        })
+        .catch(err => {
+            console.error('Erro ao carregar medicamentos:', err);
+            document.getElementById('medicineGrid').innerHTML = '<p style="color:red;text-align:center;padding:20px;">Erro ao carregar medicamentos. Verifique sua conexão.</p>';
+        });
+});
+
         const itemsPerPage = 15;
         let currentPage = 0;
         let searchResults = medicamentosData;
@@ -1955,26 +1690,66 @@
         const medicineModal = document.getElementById('medicineModal');
         const pagination = document.getElementById('pagination');
         const pageInfo = document.getElementById('pageInfo');
-        const currentPageSpan = document.getElementById('currentPage');
 
+        
+        function slugify(text) {
+            return text.toLowerCase()
+                .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+                .replace(/[^a-z0-9\s-]/g, '')
+                .replace(/[\s-]+/g, '-').trim('-');
+        }
+        
         function renderMedicines(page = 0) {
             currentPage = page;
             medicineGrid.innerHTML = '';
+            
+            // Scroll automático para o topo
+            document.querySelector('.content').scrollTop = 0;
 
             const totalPages = Math.ceil(searchResults.length / itemsPerPage);
             const start = page * itemsPerPage;
             const end = start + itemsPerPage;
             const pageMeds = searchResults.slice(start, end);
 
-            pageMeds.forEach(med => {
-                const btn = document.createElement('button');
+            let currentMedicineIndex = -1;
+
+            pageMeds.forEach((med, index) => {
+                // Usando <a> com href real para o Google rastrear e indexar cada página
+                const btn = document.createElement('a');
                 btn.className = 'medicine-btn';
-                btn.innerHTML = `<span>${med.nome}</span>`;
-                btn.onclick = () => openMedicineModal(med);
+                const slug = slugify(med.generico || med.nome);
+                btn.href = '/medicamentos/' + slug + '/';
+                const cor = med.receita_cor === 'verde' ? '#27ae60' : med.receita_cor === 'amarelo' ? '#e8751a' : '#c0392b';
+                const bgCor = med.receita_cor === 'verde' ? '#e8f8f0' : med.receita_cor === 'amarelo' ? '#fef3e2' : '#fde8e8';
+                const icone = med.receita_cor === 'verde' ? '🟢' : med.receita_cor === 'amarelo' ? '🟡' : '🔴';
+                const textoReceita = med.receita_cor === 'verde' ? 'Venda Livre' : med.receita_cor === 'amarelo' ? 'Tarjado' : 'Com Receita';
+                btn.innerHTML = '<span style="flex:1;text-align:left;">' + med.nome + '</span><span style="font-size:11px;font-weight:700;padding:3px 10px;border-radius:12px;white-space:nowrap;background:' + bgCor + ';color:' + cor + ';border:1px solid ' + cor + ';">' + icone + ' ' + textoReceita + '</span>';
+                btn.style.cssText = 'display:flex;align-items:center;gap:10px;justify-content:space-between;';
+                // Abre modal no clique (experiência do usuário), mas o href garante indexação
+                btn.onclick = (e) => {
+                    e.preventDefault();
+                    openMedicineModal(med);
+                };
+                btn.addEventListener('keydown', (e) => {
+                    if (e.key === 'Enter') {
+                        e.preventDefault();
+                        currentMedicineIndex = index;
+                        // Próximo medicamento
+                        if (currentMedicineIndex < pageMeds.length - 1) {
+                            const nextBtn = medicineGrid.querySelectorAll('.medicine-btn')[currentMedicineIndex + 1];
+                            if (nextBtn) nextBtn.focus();
+                        } else if (currentPage < totalPages - 1) {
+                            renderMedicines(currentPage + 1);
+                            setTimeout(() => {
+                                const firstBtn = medicineGrid.querySelector('.medicine-btn');
+                                if (firstBtn) firstBtn.focus();
+                            }, 100);
+                        }
+                    }
+                });
                 medicineGrid.appendChild(btn);
             });
 
-            currentPageSpan.textContent = page + 1;
             renderPagination(totalPages, page);
             pageInfo.textContent = `Mostrando ${start + 1} a ${Math.min(end, searchResults.length)} de ${searchResults.length} medicamentos`;
         }
@@ -2026,9 +1801,16 @@
                 `;
             }
 
+            // Build resposta_rapida block
+            let rrHtml = '';
+            if (medicine.resposta_rapida && medicine.resposta_rapida.length > 0) {
+                const rrItems = medicine.resposta_rapida.map(item => `<span class="rr-item">✔ ${item}</span>`).join('');
+                rrHtml = `<div class="resposta-rapida"><div class="rr-label">⚡ Resposta Rápida</div><div class="rr-items">${rrItems}</div></div>`;
+            }
+
             medicineCard.innerHTML = `
                 <h2>${medicine.nome}</h2>
-                
+                ${rrHtml}
                 <div class="section-title">💊 Princípio Ativo</div>
                 <div class="section-content"><strong>${medicine.generico}</strong></div>
                 
@@ -2039,7 +1821,29 @@
                 <div class="section-content">${medicine.descricao}</div>
                 
                 <div class="section-title">🛑 Necessita Receita?</div>
-                <div class="section-content">${medicine.receita === 'Sim' ? '<strong style="color: red; font-size: 20px;">✓ SIM - Sob Prescrição Médica</strong>' : '<strong style="color: green; font-size: 20px;">✓ NÃO - Venda Livre</strong>'}</div>
+                <div class="section-content">
+                    ${medicine.receita_display ? `
+                        <div style="display:inline-flex;align-items:center;gap:10px;flex-wrap:wrap;">
+                            <strong style="font-size:17px;color:${
+                                medicine.receita_cor === 'verde' ? '#27ae60' :
+                                medicine.receita_cor === 'amarelo' ? '#e8751a' : '#c0392b'
+                            };">${medicine.receita_display}</strong>
+                        </div>
+                        <div style="margin-top:8px;padding:10px 14px;border-radius:8px;font-size:14px;line-height:1.6;background:${
+                            medicine.receita_cor === 'verde' ? '#e8f8f0' :
+                            medicine.receita_cor === 'amarelo' ? '#fef3e2' : '#fde8e8'
+                        };color:${
+                            medicine.receita_cor === 'verde' ? '#155724' :
+                            medicine.receita_cor === 'amarelo' ? '#856404' : '#721c24'
+                        };">
+                            ${medicine.receita_descricao || ''}
+                            ${medicine.receita_nota ? `<br><small>ℹ️ ${medicine.receita_nota}</small>` : ''}
+                        </div>
+                    ` : (medicine.receita === 'Sim' ?
+                        '<strong style="color:red;font-size:18px;">🔴 SIM — Sob Prescrição Médica</strong>' :
+                        '<strong style="color:green;font-size:18px;">🟢 NÃO — Venda Livre</strong>'
+                    )}
+                </div>
                 
                 <div class="section-title">⚠️ Efeitos Colaterais</div>
                 <div class="section-content">${medicine.efeitos}</div>
@@ -2059,6 +1863,12 @@
             document.body.style.overflow = 'auto';
         }
 
+        function closeAboutModal() {
+            const aboutContent = document.getElementById('about');
+            aboutContent.classList.remove('active');
+            document.body.style.overflow = 'auto';
+        }
+
         medicineModal.addEventListener('click', (e) => {
             if (e.target === medicineModal) {
                 closeMedicineModal();
@@ -2069,6 +1879,15 @@
             if (e.key === 'Escape' && medicineModal.classList.contains('active')) {
                 closeMedicineModal();
             }
+            if (e.key === 'Escape' && document.getElementById('about').classList.contains('active')) {
+                closeAboutModal();
+            }
+        });
+
+        document.getElementById('about').addEventListener('click', (e) => {
+            if (e.target === document.getElementById('about')) {
+                closeAboutModal();
+            }
         });
 
         searchInput.addEventListener('input', (e) => {
@@ -2076,24 +1895,98 @@
             if (term === '') {
                 searchResults = medicamentosData;
             } else {
-                searchResults = medicamentosData.filter(med => 
-                    med.nome.toLowerCase().includes(term) || 
-                    med.generico.toLowerCase().includes(term)
-                );
+                searchResults = medicamentosData.filter(med => {
+    const sinonimos = (med.sinonimos || []).join(' ').toLowerCase();
+    return med.nome.toLowerCase().includes(term) ||
+           med.generico.toLowerCase().includes(term) ||
+           sinonimos.includes(term);
+});
             }
             renderMedicines(0);
         });
 
+        // Dados de interações para busca
+        const interacoesDB = [
+            { med1: ['alprazolam','clonazepam','diazepam','bromazepam','benzodiazepínico'], med2: ['codeína','tramadol','opioide','morfina'], nivel: 'alto', titulo: 'Benzodiazepínico + Opioide', efeito: 'Depressão respiratória grave e sedação profunda. Risco de parada respiratória.', conduta: '❌ Evitar a associação. Se necessário, monitoramento hospitalar rigoroso.' },
+            { med1: ['warfarina','varfarina'], med2: ['ibuprofeno','diclofenaco','nimesulida','aine','anti-inflamatório'], nivel: 'alto', titulo: 'Warfarina + Anti-inflamatório (AINE)', efeito: 'AINEs aumentam muito o risco de sangramento grave em pacientes anticoagulados.', conduta: '❌ Evitar. Usar paracetamol ou dipirona para dor. Informar sempre ao médico.' },
+            { med1: ['diazepam','alprazolam','clonazepam','zolpidem','zopiclona'], med2: ['álcool','alcool','bebida'], nivel: 'alto', titulo: 'Benzodiazepínico / Hipnótico + Álcool', efeito: 'Potencialização da sedação do SNC. Risco de depressão respiratória e morte.', conduta: '❌ Proibido. Álcool é contraindicado com benzodiazepínicos e hipnóticos.' },
+            { med1: ['sildenafila','tadalafila'], med2: ['nitrato','nitroglicerina','isossorbida'], nivel: 'alto', titulo: 'Sildenafila/Tadalafila + Nitratos', efeito: 'Queda grave e súbita da pressão arterial — pode ser fatal.', conduta: '❌ Contraindicado absolutamente.' },
+            { med1: ['metotrexato'], med2: ['ibuprofeno','diclofenaco','nimesulida','aine'], nivel: 'alto', titulo: 'Metotrexato + AINE', efeito: 'AINEs reduzem eliminação do metotrexato, causando toxicidade grave na medula óssea.', conduta: '❌ Evitar. Informar sempre ao reumatologista.' },
+            { med1: ['fluoxetina','sertralina','escitalopram','paroxetina'], med2: ['tramadol'], nivel: 'moderado', titulo: 'Antidepressivo ISRS + Tramadol', efeito: 'Risco de síndrome serotoninérgica — agitação, tremores, febre e confusão mental.', conduta: '⚠️ Usar com cautela. Atenção a sintomas neurológicos.' },
+            { med1: ['atorvastatina','sinvastatina'], med2: ['claritromicina','eritromicina'], nivel: 'moderado', titulo: 'Estatina + Antibiótico Macrolídeo', efeito: 'Antibióticos elevam concentração da estatina, aumentando risco de miopatia e rabdomiólise.', conduta: '⚠️ Suspender estatina temporariamente durante o antibiótico.' },
+            { med1: ['captopril','enalapril','losartana','valsartana','lisinopril'], med2: ['potássio','suplemento'], nivel: 'moderado', titulo: 'IECA/BRA + Suplemento de Potássio', efeito: 'Risco de hipercalemia (potássio alto) — pode causar arritmias cardíacas graves.', conduta: '⚠️ Evitar suplementos de potássio sem orientação médica.' },
+            { med1: ['metformina'], med2: ['álcool','alcool'], nivel: 'moderado', titulo: 'Metformina + Álcool', efeito: 'Aumento do risco de acidose lática — acúmulo de ácido no sangue.', conduta: '⚠️ Evitar consumo excessivo de álcool.' },
+            { med1: ['paracetamol'], med2: ['dipirona'], nivel: 'baixo', titulo: 'Paracetamol + Dipirona', efeito: 'Combinação geralmente segura em doses normais. Pode potencializar o efeito analgésico.', conduta: '✅ Pode ser usada sob orientação médica. Respeitar as doses máximas.' },
+        ];
+
+        function buscarInteracao() {
+            const m1 = document.getElementById('inter1').value.toLowerCase().trim();
+            const m2 = document.getElementById('inter2').value.toLowerCase().trim();
+            const resultado = document.getElementById('interacaoResultado');
+            const nivel = document.getElementById('interacaoNivel');
+            const corpo = document.getElementById('interacaoCorpo');
+
+            if (!m1 || !m2) {
+                alert('Por favor, preencha os dois medicamentos.');
+                return;
+            }
+
+            let encontrado = null;
+            for (const inter of interacoesDB) {
+                const m1match = inter.med1.some(m => m1.includes(m) || m.includes(m1));
+                const m2match = inter.med2.some(m => m2.includes(m) || m.includes(m2));
+                const m1matchRev = inter.med2.some(m => m1.includes(m) || m.includes(m1));
+                const m2matchRev = inter.med1.some(m => m2.includes(m) || m.includes(m2));
+                if ((m1match && m2match) || (m1matchRev && m2matchRev)) {
+                    encontrado = inter;
+                    break;
+                }
+            }
+
+            resultado.classList.add('ativo');
+            if (encontrado) {
+                const cores = { alto: '#c0392b', moderado: '#e8751a', baixo: '#27ae60' };
+                const textos = { alto: '🔴 RISCO ALTO', moderado: '🟡 RISCO MODERADO', baixo: '🟢 RISCO BAIXO' };
+                nivel.className = `inter-nivel ${encontrado.nivel}`;
+                nivel.textContent = `${textos[encontrado.nivel]} — ${encontrado.titulo}`;
+                corpo.innerHTML = `<p><strong>⚠️ Efeito da interação:</strong><br>${encontrado.efeito}</p><p><strong>✅ Conduta recomendada:</strong><br>${encontrado.conduta}</p><p style="font-size:12px;color:#999;margin-top:10px;">Conteúdo educacional — consulte sempre seu médico ou farmacêutico.</p>`;
+            } else {
+                nivel.className = 'inter-nivel baixo';
+                nivel.textContent = '🟢 Interação não encontrada na base de dados';
+                corpo.innerHTML = `<p>Não encontramos interação registrada entre <strong>${m1}</strong> e <strong>${m2}</strong> na nossa base de dados.</p><p>Isso não significa que a combinação seja completamente segura — sempre consulte seu farmacêutico ou médico antes de combinar medicamentos.</p>`;
+            }
+        }
+
+        function toggleInteracao(card) {
+            const corpo = card.querySelector('.inter-card-corpo');
+            const seta = card.querySelector('span');
+            corpo.classList.toggle('aberto');
+            seta.textContent = corpo.classList.contains('aberto') ? '▲' : '▼';
+        }
+
         tabButtons.forEach(btn => {
             btn.addEventListener('click', () => {
+                const tab = btn.dataset.tab;
                 tabButtons.forEach(b => b.classList.remove('active'));
-                tabContents.forEach(c => c.classList.remove('active'));
                 btn.classList.add('active');
-                document.getElementById(btn.dataset.tab).classList.add('active');
+
+                // Esconde tudo
+                document.getElementById('home').style.display = 'none';
+                ['idosos','interacoes','privacidade','termos','contato'].forEach(id => {
+                    const el = document.getElementById(id);
+                    if (el) el.classList.remove('active');
+                });
+                document.getElementById('about').classList.remove('active');
+                document.body.style.overflow = 'auto';
+
+                if (tab === 'home') {
+                    document.getElementById('home').style.display = '';
+                } else {
+                    const el = document.getElementById(tab);
+                    if (el) el.classList.add('active');
+                }
             });
         });
-
-        renderMedicines(0);
     </script>
 </body>
 </html>
