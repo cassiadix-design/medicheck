@@ -11,12 +11,27 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://medicheck.med.br/medicamentos/acetilcisteina/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://medicheck.med.br/medicamentos/aciclovir/</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamentos/acitretina/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://medicheck.med.br/medicamentos/adapaleno/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://medicheck.med.br/medicamentos/agomelatina/</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
@@ -41,6 +56,16 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://medicheck.med.br/medicamentos/cloridrato-de-amantadina/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://medicheck.med.br/medicamentos/ambroxol/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://medicheck.med.br/medicamentos/amiodarona/</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
@@ -51,12 +76,27 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://medicheck.med.br/medicamentos/amoxicilina-clavulanato-de-potassio/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://medicheck.med.br/medicamentos/amoxicilina-sulbactam/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://medicheck.med.br/medicamentos/amoxicilina/</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamentos/anfotericina-b/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://medicheck.med.br/medicamentos/anlodipino-atorvastatina/</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
@@ -87,6 +127,11 @@
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamentos/atenolol/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://medicheck.med.br/medicamentos/cloridrato-de-atomoxetina/</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
@@ -151,6 +196,16 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://medicheck.med.br/medicamentos/bisoprolol-hidroclorotiazida/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://medicheck.med.br/medicamentos/bisoprolol/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://medicheck.med.br/medicamentos/bromazepam/</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
@@ -171,6 +226,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://medicheck.med.br/medicamentos/budesonida/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://medicheck.med.br/medicamentos/buprenorfina/</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
@@ -182,6 +242,21 @@
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamentos/bupropiona/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://medicheck.med.br/medicamentos/cloridrato-de-buspirona/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://medicheck.med.br/medicamentos/butilbrometo-de-escopolamina-dipirona/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://medicheck.med.br/medicamentos/cabergolina/</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
@@ -226,6 +301,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://medicheck.med.br/medicamentos/carisoprodol/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://medicheck.med.br/medicamentos/levo-carnitina/</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
@@ -261,6 +341,16 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://medicheck.med.br/medicamentos/cetoprofeno/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://medicheck.med.br/medicamentos/cloridrato-de-ciclobenzaprina/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://medicheck.med.br/medicamentos/ciprofloxacino/</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
@@ -271,7 +361,17 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://medicheck.med.br/medicamentos/claritromicina/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://medicheck.med.br/medicamentos/clindamicina/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://medicheck.med.br/medicamentos/citrato-de-clomifeno/</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
@@ -331,6 +431,16 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://medicheck.med.br/medicamentos/colestiramina/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://medicheck.med.br/medicamentos/complexo-de-vitaminas-do-complexo-b/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://medicheck.med.br/medicamentos/calciovitamina-d/</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
@@ -342,6 +452,11 @@
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamentos/dapagliflozina/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://medicheck.med.br/medicamentos/denosumabe/</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
@@ -371,6 +486,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://medicheck.med.br/medicamentos/dexclorfeniramina/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://medicheck.med.br/medicamentos/diazepam/</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
@@ -396,7 +516,22 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://medicheck.med.br/medicamentos/dissulfiram/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://medicheck.med.br/medicamentos/domperidona/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://medicheck.med.br/medicamentos/cloridrato-de-donepezila/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://medicheck.med.br/medicamentos/dipirona-orfenadrina-cafeina/</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
@@ -441,6 +576,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://medicheck.med.br/medicamentos/epoetina-alfa/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://medicheck.med.br/medicamentos/escitalopram/</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
@@ -451,12 +591,22 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://medicheck.med.br/medicamentos/espironolactona-hidroclorotiazida/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://medicheck.med.br/medicamentos/espironolactona/</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamentos/etambutol/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://medicheck.med.br/medicamentos/etoricoxibe/</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
@@ -476,6 +626,26 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://medicheck.med.br/medicamentos/fenobarbital/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://medicheck.med.br/medicamentos/fenofibrato/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://medicheck.med.br/medicamentos/bromidrato-de-fenoterol/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://medicheck.med.br/medicamentos/citrato-de-fentanila/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://medicheck.med.br/medicamentos/mesilato-de-fentolamina/</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
@@ -487,6 +657,16 @@
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamentos/ferro-quelato-bisglicinato/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://medicheck.med.br/medicamentos/ferro-sacarato/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://medicheck.med.br/medicamentos/fumarato-de-fesoterodina/</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
@@ -506,7 +686,17 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://medicheck.med.br/medicamentos/formoterol-budesonida/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://medicheck.med.br/medicamentos/trometamol-de-fosfomicina/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://medicheck.med.br/medicamentos/furoato-de-mometasona/</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
@@ -521,12 +711,32 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://medicheck.med.br/medicamentos/galantamina/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://medicheck.med.br/medicamentos/ganciclovir/</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamentos/glibenclamida/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://medicheck.med.br/medicamentos/glicazida/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://medicheck.med.br/medicamentos/glimepirida/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://medicheck.med.br/medicamentos/griseofulvina/</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
@@ -556,7 +766,17 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://medicheck.med.br/medicamentos/hidroquinona/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://medicheck.med.br/medicamentos/hidroxicloroquina/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://medicheck.med.br/medicamentos/cloridrato-de-hidroxizina/</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
@@ -566,7 +786,17 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://medicheck.med.br/medicamentos/butilbrometo-de-escopolamina/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://medicheck.med.br/medicamentos/ibuprofeno/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://medicheck.med.br/medicamentos/infliximabe/</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
@@ -591,6 +821,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://medicheck.med.br/medicamentos/itraconazol/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://medicheck.med.br/medicamentos/ivabradina/</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
@@ -607,6 +842,16 @@
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamentos/lamotrigina/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://medicheck.med.br/medicamentos/lansoprazol/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://medicheck.med.br/medicamentos/leflunomida/</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
@@ -641,6 +886,16 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://medicheck.med.br/medicamentos/dipirona-adifenina-prometazina/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://medicheck.med.br/medicamentos/dimesilato-de-lisdexanfetamina/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://medicheck.med.br/medicamentos/lisinopril/</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
@@ -652,6 +907,11 @@
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamentos/lopinavir-ritonavir/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://medicheck.med.br/medicamentos/loratadina-pseudoefedrina/</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
@@ -671,6 +931,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://medicheck.med.br/medicamentos/magnesio-quelato-dimalato-de-magnesio/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://medicheck.med.br/medicamentos/mebendazol/</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
@@ -686,12 +951,32 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://medicheck.med.br/medicamentos/meloxicam/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://medicheck.med.br/medicamentos/cloridrato-de-memantina/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://medicheck.med.br/medicamentos/mesalazina/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://medicheck.med.br/medicamentos/metformina/</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamentos/metilfenidato/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://medicheck.med.br/medicamentos/metocarbamol/</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
@@ -707,6 +992,11 @@
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamentos/metotrexato/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://medicheck.med.br/medicamentos/metronidazol/</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
@@ -731,7 +1021,22 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://medicheck.med.br/medicamentos/sulfato-de-morfina/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://medicheck.med.br/medicamentos/tirzepatida/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://medicheck.med.br/medicamentos/cloridrato-de-moxifloxacino/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://medicheck.med.br/medicamentos/mupirocina/</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
@@ -751,7 +1056,17 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://medicheck.med.br/medicamentos/dipirona-cafeina-isometepteno/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://medicheck.med.br/medicamentos/nifedipina/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://medicheck.med.br/medicamentos/nimesulida-ciclobenzaprina/</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
@@ -767,6 +1082,11 @@
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamentos/nitrofurantoina/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://medicheck.med.br/medicamentos/nitroglicerina/</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
@@ -791,7 +1111,22 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://medicheck.med.br/medicamentos/oxcarbazepina/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://medicheck.med.br/medicamentos/cloridrato-de-oxibutinina/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://medicheck.med.br/medicamentos/pantoprazol-sodico/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://medicheck.med.br/medicamentos/pantoprazol-sodico-sesqui-hidratado/</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
@@ -802,6 +1137,16 @@
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamentos/paroxetina/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://medicheck.med.br/medicamentos/permetrina/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://medicheck.med.br/medicamentos/peroxido-de-benzoila/</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
@@ -821,12 +1166,22 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://medicheck.med.br/medicamentos/dicloridrato-de-pramipexol/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://medicheck.med.br/medicamentos/prednisona/</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamentos/pregabalina/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://medicheck.med.br/medicamentos/progesterona-micronizada/</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
@@ -846,7 +1201,22 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://medicheck.med.br/medicamentos/rabeprazol-sodico/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://medicheck.med.br/medicamentos/ramipril/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://medicheck.med.br/medicamentos/ranitidina/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://medicheck.med.br/medicamentos/mesilato-de-rasagilina/</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
@@ -876,6 +1246,16 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://medicheck.med.br/medicamentos/rivastigmina/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://medicheck.med.br/medicamentos/benzoato-de-rizatriptana/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://medicheck.med.br/medicamentos/rosuvastatina/</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
@@ -892,6 +1272,11 @@
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamentos/salbutamol/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://medicheck.med.br/medicamentos/salmeterol-propionato-de-fluticasona/</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
@@ -921,7 +1306,17 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://medicheck.med.br/medicamentos/sibutramina/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://medicheck.med.br/medicamentos/sildenafila/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://medicheck.med.br/medicamentos/silodosina/</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
@@ -941,6 +1336,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://medicheck.med.br/medicamentos/succinato-de-solifenacina/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://medicheck.med.br/medicamentos/sucralfato/</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
@@ -956,7 +1356,32 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://medicheck.med.br/medicamentos/sulpirida/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://medicheck.med.br/medicamentos/succinato-de-sumatriptana/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://medicheck.med.br/medicamentos/tacrolimo/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://medicheck.med.br/medicamentos/tadalafila/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://medicheck.med.br/medicamentos/cloridrato-de-tamsulosina/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://medicheck.med.br/medicamentos/cloridrato-de-tapentadol/</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
@@ -967,6 +1392,11 @@
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamentos/terbinafina/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://medicheck.med.br/medicamentos/brometo-de-tiotropio/</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
@@ -991,6 +1421,16 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://medicheck.med.br/medicamentos/maleato-de-trimebutina/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://medicheck.med.br/medicamentos/trimetazidina/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://medicheck.med.br/medicamentos/acido-valproico-valproato-de-sodio/</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
@@ -1002,6 +1442,11 @@
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamentos/valsartana/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://medicheck.med.br/medicamentos/vancomicina/</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
@@ -1021,6 +1466,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://medicheck.med.br/medicamentos/tiamina-cloridrato-de-tiamina/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://medicheck.med.br/medicamentos/cianocobalamina-cobalamina/</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
@@ -1031,7 +1481,22 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://medicheck.med.br/medicamentos/colecalciferol-alta-dose/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://medicheck.med.br/medicamentos/warfarina-tambem-conhecida-como-varfarina/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://medicheck.med.br/medicamentos/zinco-sulfato-glicinato-ou-quelato/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://medicheck.med.br/medicamentos/acido-zoledronico/</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
@@ -1071,392 +1536,7 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://medicheck.med.br/medicamentos/ambroxol/</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://medicheck.med.br/medicamentos/acetilcisteina/</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://medicheck.med.br/medicamentos/anlodipino-atorvastatina/</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://medicheck.med.br/medicamentos/bisoprolol/</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://medicheck.med.br/medicamentos/espironolactona-hidroclorotiazida/</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://medicheck.med.br/medicamentos/trimetazidina/</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://medicheck.med.br/medicamentos/nitroglicerina/</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://medicheck.med.br/medicamentos/pantoprazol-sodico-sesqui-hidratado/</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://medicheck.med.br/medicamentos/rabeprazol-sodico/</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://medicheck.med.br/medicamentos/lansoprazol/</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://medicheck.med.br/medicamentos/butilbrometo-de-escopolamina/</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://medicheck.med.br/medicamentos/maleato-de-trimebutina/</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://medicheck.med.br/medicamentos/mesalazina/</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://medicheck.med.br/medicamentos/infliximabe/</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://medicheck.med.br/medicamentos/sulpirida/</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://medicheck.med.br/medicamentos/colestiramina/</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://medicheck.med.br/medicamentos/fenofibrato/</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://medicheck.med.br/medicamentos/budesonida/</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://medicheck.med.br/medicamentos/furoato-de-mometasona/</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://medicheck.med.br/medicamentos/brometo-de-tiotropio/</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://medicheck.med.br/medicamentos/formoterol-budesonida/</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://medicheck.med.br/medicamentos/salmeterol-propionato-de-fluticasona/</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://medicheck.med.br/medicamentos/bromidrato-de-fenoterol/</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://medicheck.med.br/medicamentos/claritromicina/</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://medicheck.med.br/medicamentos/amoxicilina-clavulanato-de-potassio/</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://medicheck.med.br/medicamentos/cloridrato-de-moxifloxacino/</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://medicheck.med.br/medicamentos/vancomicina/</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://medicheck.med.br/medicamentos/adapaleno/</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://medicheck.med.br/medicamentos/peroxido-de-benzoila/</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://medicheck.med.br/medicamentos/tacrolimo/</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://medicheck.med.br/medicamentos/hidroquinona/</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://medicheck.med.br/medicamentos/permetrina/</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://medicheck.med.br/medicamentos/mupirocina/</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://medicheck.med.br/medicamentos/metronidazol/</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://medicheck.med.br/medicamentos/itraconazol/</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://medicheck.med.br/medicamentos/griseofulvina/</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://medicheck.med.br/medicamentos/leflunomida/</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://medicheck.med.br/medicamentos/tiamina-cloridrato-de-tiamina/</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://medicheck.med.br/medicamentos/complexo-de-vitaminas-do-complexo-b/</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>https://medicheck.med.br/medicamentos/acidos-graxos-omega-3-epa-dha/</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://medicheck.med.br/medicamentos/magnesio-quelato-dimalato-de-magnesio/</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://medicheck.med.br/medicamentos/zinco-sulfato-glicinato-ou-quelato/</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://medicheck.med.br/medicamentos/oxcarbazepina/</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://medicheck.med.br/medicamentos/cloridrato-de-donepezila/</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://medicheck.med.br/medicamentos/cloridrato-de-memantina/</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://medicheck.med.br/medicamentos/mesilato-de-rasagilina/</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://medicheck.med.br/medicamentos/dicloridrato-de-pramipexol/</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://medicheck.med.br/medicamentos/cloridrato-de-amantadina/</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://medicheck.med.br/medicamentos/agomelatina/</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://medicheck.med.br/medicamentos/dimesilato-de-lisdexanfetamina/</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://medicheck.med.br/medicamentos/cloridrato-de-atomoxetina/</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://medicheck.med.br/medicamentos/dissulfiram/</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://medicheck.med.br/medicamentos/succinato-de-sumatriptana/</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://medicheck.med.br/medicamentos/benzoato-de-rizatriptana/</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://medicheck.med.br/medicamentos/cloridrato-de-tamsulosina/</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://medicheck.med.br/medicamentos/silodosina/</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://medicheck.med.br/medicamentos/succinato-de-solifenacina/</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://medicheck.med.br/medicamentos/fumarato-de-fesoterodina/</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://medicheck.med.br/medicamentos/cloridrato-de-oxibutinina/</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://medicheck.med.br/medicamentos/progesterona-micronizada/</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://medicheck.med.br/medicamentos/citrato-de-clomifeno/</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://medicheck.med.br/medicamentos/cabergolina/</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://medicheck.med.br/medicamentos/metocarbamol/</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://medicheck.med.br/medicamentos/cloridrato-de-ciclobenzaprina/</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://medicheck.med.br/medicamentos/carisoprodol/</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://medicheck.med.br/medicamentos/cetoprofeno/</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://medicheck.med.br/medicamentos/meloxicam/</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://medicheck.med.br/medicamentos/etoricoxibe/</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://medicheck.med.br/medicamentos/sulfato-de-morfina/</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://medicheck.med.br/medicamentos/citrato-de-fentanila/</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://medicheck.med.br/medicamentos/cloridrato-de-hidroxizina/</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://medicheck.med.br/medicamentos/cloridrato-de-buspirona/</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://medicheck.med.br/medicamentos/cloridrato-de-tapentadol/</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://medicheck.med.br/medicamentos/denosumabe/</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://medicheck.med.br/medicamentos/acido-zoledronico/</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://medicheck.med.br/medicamentos/colecalciferol-alta-dose/</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://medicheck.med.br/medicamentos/ferro-sacarato/</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://medicheck.med.br/medicamentos/epoetina-alfa/</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
