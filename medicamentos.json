@@ -96,10 +96,10 @@
       "Tome com alimento gorduroso",
       "Crianças acima de 2 anos"
     ],
-    "classe_receita": "MIP",
-    "receita_display": "🟢 Venda Livre — MIP",
-    "receita_descricao": "Medicamento Isento de Prescrição. Não necessita receita.",
-    "receita_cor": "verde"
+    "classe_receita": "TARJADO_PRATICA",
+    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
+    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_cor": "amarelo"
   },
   {
     "nome": "Alendronato 70mg",
@@ -190,10 +190,10 @@
       "Pode afetar tireoide, pulmão e pele",
       "Exige acompanhamento médico rigoroso"
     ],
-    "classe_receita": "RECEITA_ESPECIAL",
-    "receita_display": "🔴 Receita Médica Obrigatória",
-    "receita_descricao": "Exige receita médica obrigatória para dispensação.",
-    "receita_cor": "vermelho"
+    "classe_receita": "TARJADO_PRATICA",
+    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
+    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_cor": "amarelo"
   },
   {
     "nome": "Amitriptilina 25mg",
@@ -218,7 +218,7 @@
     "receita_cor": "vermelho"
   },
   {
-    "nome": "Amoxicilina 500mg - 875mg",
+    "nome": "Amoxicilina 250mg - 500mg - Suspensão",
     "generico": "Amoxicilina",
     "tipo": "Antibiótico",
     "descricao": "Trata infecções bacterianas: pneumonia, bronquite, amigdalite, sinusite, otite e infecções urinárias ou de pele.",
@@ -480,10 +480,10 @@
       "Risco de infecções — fique atento a sintomas",
       "NUNCA interrompa sem orientação médica"
     ],
-    "classe_receita": "RECEITA_ESPECIAL",
-    "receita_display": "🔴 Receita Médica Obrigatória",
-    "receita_descricao": "Exige receita médica obrigatória para dispensação.",
-    "receita_cor": "vermelho"
+    "classe_receita": "TARJADO_PRATICA",
+    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
+    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_cor": "amarelo"
   },
   {
     "nome": "Azitromicina 500mg - 1,0g | Suspensão 600mg - 900mg - 1500mg",
@@ -1162,10 +1162,10 @@
       "⚠ Risco cardiovascular aumentado",
       "Não use com histórico de infarto ou AVC"
     ],
-    "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
-    "receita_cor": "amarelo"
+    "classe_receita": "RECEITA_ESPECIAL",
+    "receita_display": "🔴 Receita Médica Obrigatória",
+    "receita_descricao": "Exige receita médica obrigatória para dispensação.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Cetirizina 10mg e Xarope",
@@ -1184,10 +1184,10 @@
       "Efeito dura 24 horas — dose única diária",
       "Segura para uso prolongado"
     ],
-    "classe_receita": "MIP",
-    "receita_display": "🟢 Venda Livre — MIP",
-    "receita_descricao": "Medicamento Isento de Prescrição. Não necessita receita.",
-    "receita_cor": "verde"
+    "classe_receita": "TARJADO_PRATICA",
+    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
+    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_cor": "amarelo"
   },
   {
     "nome": "Cetoconazol Shampoo, 200mg e Creme",
@@ -1206,10 +1206,10 @@
       "Use por 2 semanas após melhora",
       "Comprimido: muitas interações — use com cuidado"
     ],
-    "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
-    "receita_cor": "amarelo"
+    "classe_receita": "MIP",
+    "receita_display": "🟢 Venda Livre — MIP",
+    "receita_descricao": "Medicamento Isento de Prescrição. Não necessita receita.",
+    "receita_cor": "verde"
   },
   {
     "nome": "Ciprofloxacino 250mg - 500mg - 750mg - Injetável e Colírio Oftálmico",
@@ -1650,10 +1650,10 @@
       "Efeito dura 24 horas",
       "Segura para uso prolongado"
     ],
-    "classe_receita": "MIP",
-    "receita_display": "🟢 Venda Livre — MIP",
-    "receita_descricao": "Medicamento Isento de Prescrição. Não necessita receita.",
-    "receita_cor": "verde"
+    "classe_receita": "TARJADO_PRATICA",
+    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
+    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_cor": "amarelo"
   },
   {
     "nome": "Desmopressina (DDAVP)",
@@ -1760,7 +1760,7 @@
     "receita_cor": "vermelho"
   },
   {
-    "nome": "Diclofenaco 50mg - 75mg - Gel Tópico",
+    "nome": "Diclofenaco 50mg - 75mg - 100mg - Injetável",
     "generico": "Diclofenaco de Sódio / Diclofenaco Potássico",
     "tipo": "Anti-inflamatório (AINE)",
     "descricao": "Indicado para tratar dores e inflamações de intensidade leve a moderada: artrite, dores musculares, dores nas costas (lombalgia), torções, entorses, tendinite, dor pós-operatória, cólica menstrual e gota aguda. O gel tópico é aplicado diretamente na área dolorida, com menor absorção sistêmica e menos risco de efeitos gastrointestinais.",
@@ -1896,10 +1896,10 @@
       "Evite sol — causa queimaduras fáceis",
       "Não tome com leite ou antiácidos"
     ],
-    "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
-    "receita_cor": "amarelo"
+    "classe_receita": "RECEITA_ANTIBIOTICO",
+    "receita_display": "🔴 Receita Obrigatória — Antibiótico",
+    "receita_descricao": "Antibiótico — receita simples retida obrigatória (ANVISA RDC 20/2011).",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Droperidol 2,5mg Injetável",
@@ -2066,30 +2066,6 @@
       "Aplique no abdômen — alterne os lados",
       "Não aplique no músculo",
       "Risco de sangramento — observe sinais de alerta"
-    ],
-    "classe_receita": "RECEITA_ESPECIAL",
-    "receita_display": "🔴 Receita Médica Obrigatória",
-    "receita_descricao": "Exige receita médica obrigatória para dispensação.",
-    "receita_cor": "vermelho"
-  },
-  {
-    "nome": "Eritropoetina (EPO) 2000UI - 4000UI - 10000UI Injetável",
-    "generico": "Alfaepoetina",
-    "tipo": "Estimulador da Produção de Glóbulos Vermelhos",
-    "descricao": "Indicado para tratar anemias graves, especialmente em pessoas com doença renal crônica (quando os rins não funcionam bem), pacientes com câncer fazendo quimioterapia e pessoas com HIV em tratamento com AZT. Este medicamento estimula a produção de glóbulos vermelhos (células que carregam oxigênio no sangue), aumentando os níveis de hemoglobina e reduzindo a necessidade de transfusões de sangue.",
-    "receita": "Sim",
-    "receita_pratica": "Sim",
-    "receita_nota": "Recomenda-se receita médica, mas pode ser encontrado em farmácias sem ela. Sempre consulte um farmacêutico.",
-    "efeitos": "Os efeitos mais comuns incluem pressão alta, dor de cabeça, febre e dores musculares ou nas articulações. Efeitos graves podem acontecer: aumento do risco de coágulos no sangue (trombose), infarto do coração e derrame cerebral (AVC), pois o medicamento deixa o sangue mais espesso e viscoso. Em casos raros, pode parar de produzir células vermelhas (aplasia pura). Por isso, o tratamento exige acompanhamento médico constante com exames regulares.",
-    "aviso_grave": "⚠️ ATENÇÃO: Este medicamento aumenta a espessura do sangue, o que pode causar coágulos graves, infarto ou derrame. Procure atendimento de emergência imediatamente se sentir dor no peito, falta de ar súbita, dor ou inchaço em uma perna, fraqueza repentina de um lado do corpo, dificuldade para falar ou perda de visão.",
-    "recomendacao": "☎️ LIGUE SAMU (192) se tiver dor no peito intensa, falta de ar grave, fraqueza súbita de um lado do corpo, dificuldade para falar ou dor forte em uma perna com inchaço.",
-    "educacao": "Não falhe nas consultas médicas — seu médico precisa monitorar sua pressão arterial e fazer exames de sangue regularmente para ajustar a dose. Nunca use mais do que o prescrito, pois doses elevadas aumentam muito o risco de complicações graves. Este medicamento é aplicado por injeção e requer receita médica controlada.",
-    "resposta_rapida": [
-      "Estimulante da produção de glóbulos vermelhos",
-      "Anemia em insuficiência renal e quimioterapia",
-      "Aumenta risco de coágulos — monitoramento obrigatório",
-      "Aplicação subcutânea ou intravenosa hospitalar",
-      "Exames regulares obrigatórios"
     ],
     "classe_receita": "TARJADO_PRATICA",
     "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
@@ -2425,10 +2401,10 @@
       "Tome com estômago vazio",
       "Se não melhorar em 3 dias, procure médico"
     ],
-    "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
-    "receita_cor": "amarelo"
+    "classe_receita": "RECEITA_ANTIBIOTICO",
+    "receita_display": "🔴 Receita Obrigatória — Antibiótico",
+    "receita_descricao": "Antibiótico — receita simples retida obrigatória (ANVISA RDC 20/2011).",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Furosemida 20mg - 40mg - 80mg - Injetável",
@@ -2471,10 +2447,10 @@
       "Não dirija no início do tratamento",
       "Não interrompa abruptamente"
     ],
-    "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
-    "receita_cor": "amarelo"
+    "classe_receita": "PSICOTR_B2",
+    "receita_display": "🔴 Receita Especial B2 — Psicotrópico / Controlado",
+    "receita_descricao": "Controlado — receita de controle especial (notificação B2). Retirada máxima 60 dias.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Ganciclovir 500mg",
@@ -2565,9 +2541,9 @@
       "Risco de sangramento grave",
       "Monitoramento laboratorial contínuo obrigatório"
     ],
-    "classe_receita": "RECEITA_ESPECIAL",
-    "receita_display": "🔴 Receita Médica Obrigatória",
-    "receita_descricao": "Exige receita médica obrigatória para dispensação.",
+    "classe_receita": "HOSPITALAR",
+    "receita_display": "🔴 Uso Hospitalar / Alto Custo",
+    "receita_descricao": "Uso hospitalar ou dispensação especial (alto custo SUS). Requer prescrição médica.",
     "receita_cor": "vermelho"
   },
   {
@@ -2736,10 +2712,10 @@
       "Alterne os locais de aplicação",
       "Tenha açúcar sempre à mão — risco de hipoglicemia"
     ],
-    "classe_receita": "RECEITA_ESPECIAL",
-    "receita_display": "🔴 Receita Médica Obrigatória",
-    "receita_descricao": "Exige receita médica obrigatória para dispensação.",
-    "receita_cor": "vermelho"
+    "classe_receita": "TARJADO_PRATICA",
+    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
+    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_cor": "amarelo"
   },
   {
     "nome": "Insulina Regular 100U/ml",
@@ -2760,10 +2736,10 @@
       "Alterne os locais de aplicação",
       "Tenha açúcar sempre à mão — risco de hipoglicemia"
     ],
-    "classe_receita": "RECEITA_ESPECIAL",
-    "receita_display": "🔴 Receita Médica Obrigatória",
-    "receita_descricao": "Exige receita médica obrigatória para dispensação.",
-    "receita_cor": "vermelho"
+    "classe_receita": "TARJADO_PRATICA",
+    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
+    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_cor": "amarelo"
   },
   {
     "nome": "Isoniazida 300mg",
@@ -2856,10 +2832,10 @@
       "Tome em jejum",
       "Não tem eficácia comprovada contra COVID-19"
     ],
-    "classe_receita": "MIP",
-    "receita_display": "🟢 Venda Livre — MIP",
-    "receita_descricao": "Medicamento Isento de Prescrição. Não necessita receita.",
-    "receita_cor": "verde"
+    "classe_receita": "TARJADO_PRATICA",
+    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
+    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_cor": "amarelo"
   },
   {
     "nome": "Lactulose 667mg/mL - Xarope",
@@ -2900,13 +2876,13 @@
       "Reação alérgica grave na pele — procure médico",
       "Não interrompa abruptamente"
     ],
-    "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
-    "receita_cor": "amarelo"
+    "classe_receita": "PSICOTR_B2",
+    "receita_display": "🔴 Receita Especial B2 — Psicotrópico / Controlado",
+    "receita_descricao": "Controlado — receita de controle especial (notificação B2). Retirada máxima 60 dias.",
+    "receita_cor": "vermelho"
   },
   {
-    "nome": "Levamisol 80mg - 150mg",
+    "nome": "Levamisol 80mg - 150mg — DESCONTINUADO",
     "generico": "Levamisol",
     "tipo": "Antiparasitário",
     "descricao": "Indicado para eliminar vermes intestinais, especialmente a ascaridíase (lombriga) e a ancilostomíase (amarelão). Age paralisando o sistema nervoso dos parasitas, impedindo que se movam e se fixem no intestino, sendo eliminados naturalmente pelas fezes. Geralmente é tomado em dose única.",
@@ -2922,10 +2898,10 @@
       "Pode ser tomado com ou sem alimento",
       "Trate a família ao mesmo tempo"
     ],
-    "classe_receita": "RECEITA_ANTIBIOTICO",
-    "receita_display": "🔴 Receita Obrigatória — Antibiótico",
-    "receita_descricao": "Antibiótico — receita simples retida obrigatória (ANVISA RDC 20/2011).",
-    "receita_cor": "vermelho"
+    "classe_receita": "DESCONTINUADO",
+    "receita_display": "⚫ Medicamento Descontinuado",
+    "receita_descricao": "Medicamento descontinuado no Brasil. Não está mais disponível comercialmente.",
+    "receita_cor": "cinza"
   },
   {
     "nome": "Levetiracetam 250mg - 500mg - 750mg - 1000mg - Solução Oral",
@@ -2944,10 +2920,10 @@
       "NUNCA interrompa abruptamente",
       "Tome no mesmo horário todo dia"
     ],
-    "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
-    "receita_cor": "amarelo"
+    "classe_receita": "PSICOTR_B2",
+    "receita_display": "🔴 Receita Especial B2 — Psicotrópico / Controlado",
+    "receita_descricao": "Controlado — receita de controle especial (notificação B2). Retirada máxima 60 dias.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Levofloxacina 500mg - 750mg - Injetável",
@@ -3094,10 +3070,10 @@
       "Não use em crianças abaixo de 2 anos",
       "Hidrate-se bem durante a diarreia"
     ],
-    "classe_receita": "MIP",
-    "receita_display": "🟢 Venda Livre — MIP",
-    "receita_descricao": "Medicamento Isento de Prescrição. Não necessita receita.",
-    "receita_cor": "verde"
+    "classe_receita": "TARJADO_PRATICA",
+    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
+    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_cor": "amarelo"
   },
   {
     "nome": "Lopinavir/Ritonavir 200mg/50mg - Comprimido | Solução Oral",
@@ -3386,10 +3362,10 @@
       "Use ácido fólico junto — reduz efeitos colaterais",
       "Teratogênico (pode causar malformações graves ou aborto) — contracepção obrigatória"
     ],
-    "classe_receita": "RECEITA_ESPECIAL",
-    "receita_display": "🔴 Receita Médica Obrigatória",
-    "receita_descricao": "Exige receita médica obrigatória para dispensação.",
-    "receita_cor": "vermelho"
+    "classe_receita": "TARJADO_PRATICA",
+    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
+    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_cor": "amarelo"
   },
   {
     "nome": "Miconazol Creme - Pó - Gel Oral",
@@ -3408,10 +3384,10 @@
       "Continue por 2 semanas após melhora",
       "Gel oral: seguro para bebês"
     ],
-    "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
-    "receita_cor": "amarelo"
+    "classe_receita": "MIP",
+    "receita_display": "🟢 Venda Livre — MIP",
+    "receita_descricao": "Medicamento Isento de Prescrição. Não necessita receita.",
+    "receita_cor": "verde"
   },
   {
     "nome": "Minoxidil 2% - 5% - Solução Tópica | Espuma",
@@ -3528,10 +3504,10 @@
       "Narcan",
       "Kloxxado"
     ],
-    "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
-    "receita_cor": "amarelo"
+    "classe_receita": "PSICOTR_B2",
+    "receita_display": "🔴 Receita Especial B2 — Psicotrópico / Controlado",
+    "receita_descricao": "Controlado — receita de controle especial (notificação B2). Retirada máxima 60 dias.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Naltrexona 50mg",
@@ -3557,10 +3533,10 @@
       "Vivitrol",
       "Naltrexona HCl"
     ],
-    "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
-    "receita_cor": "amarelo"
+    "classe_receita": "PSICOTR_B2",
+    "receita_display": "🔴 Receita Especial B2 — Psicotrópico / Controlado",
+    "receita_descricao": "Controlado — receita de controle especial (notificação B2). Retirada máxima 60 dias.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Neomicina Pomada",
@@ -3671,10 +3647,10 @@
       "Tome sempre com alimento",
       "Não serve para infecção de rim"
     ],
-    "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
-    "receita_cor": "amarelo"
+    "classe_receita": "RECEITA_ANTIBIOTICO",
+    "receita_display": "🔴 Receita Obrigatória — Antibiótico",
+    "receita_descricao": "Antibiótico — receita simples retida obrigatória (ANVISA RDC 20/2011).",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Olanzapina 2,5mg - 5mg - 10mg - 15mg - 20mg",
@@ -3737,10 +3713,10 @@
       "Versão sublingual e orodispersível: ideais quando há vômito intenso",
       "Risco cardíaco: informe histórico de arritmia"
     ],
-    "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
-    "receita_cor": "amarelo"
+    "classe_receita": "RECEITA_ESPECIAL",
+    "receita_display": "🔴 Receita Médica Obrigatória",
+    "receita_descricao": "Exige receita médica obrigatória para dispensação.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Oseltamivir 75mg - Suspensão",
@@ -4643,10 +4619,10 @@
       "Beba bastante água — risco de cálculo renal",
       "Não interrompa abruptamente"
     ],
-    "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
-    "receita_cor": "amarelo"
+    "classe_receita": "PSICOTR_B2",
+    "receita_display": "🔴 Receita Especial B2 — Psicotrópico / Controlado",
+    "receita_descricao": "Controlado — receita de controle especial (notificação B2). Retirada máxima 60 dias.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Tramadol 50mg - 100mg - Gotas - Injetável",
@@ -4795,7 +4771,7 @@
     "receita_cor": "amarelo"
   },
   {
-    "nome": "Vareniclina (Champix)",
+    "nome": "Vareniclina (Champix) — DESCONTINUADO",
     "generico": "Vareniclina",
     "tipo": "Auxiliar para cessação do tabagismo",
     "descricao": "Medicamento específico e mais eficaz disponível para parar de fumar. Age nos receptores de nicotina do cérebro, reduzindo o prazer do cigarro e os sintomas de abstinência ao mesmo tempo — mecanismo duplo que o diferencia de outros tratamentos. O tratamento dura 12 semanas, com dose aumentada gradualmente na primeira semana. Disponível gratuitamente pelo SUS para fumantes.",
@@ -4817,10 +4793,10 @@
       "Champix",
       "Chantix"
     ],
-    "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
-    "receita_cor": "amarelo"
+    "classe_receita": "DESCONTINUADO",
+    "receita_display": "⚫ Medicamento Descontinuado",
+    "receita_descricao": "Este medicamento foi descontinuado no Brasil e não está mais disponível comercialmente.",
+    "receita_cor": "cinza"
   },
   {
     "nome": "Venlafaxina 37,5mg - 75mg - 150mg - XR (Liberação Prolongada)",
@@ -5017,10 +4993,10 @@
       "Raramente causa efeitos colaterais",
       "Essencial para quem planeja gravidez"
     ],
-    "classe_receita": "MIP",
-    "receita_display": "🟢 Venda Livre — MIP",
-    "receita_descricao": "Medicamento Isento de Prescrição. Não necessita receita.",
-    "receita_cor": "verde"
+    "classe_receita": "TARJADO_PRATICA",
+    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
+    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_cor": "amarelo"
   },
   {
     "nome": "Ácido Hialurônico Sérum",
@@ -5118,7 +5094,7 @@
     "receita_cor": "verde"
   },
   {
-    "nome": "Acetilcisteína 200mg - 600mg",
+    "nome": "Acetilcisteína 100mg - 200mg - 600mg - Injetável",
     "generico": "Acetilcisteína",
     "tipo": "Mucolítico / Antioxidante",
     "descricao": "Mucolítico potente que quebra as pontes dissulfeto do muco, tornando-o mais fluido. Também é o antídoto do paracetamol em overdose e possui ação antioxidante. Usado em doenças respiratórias com hipersecreção como DPOC, bronquiectasia e fibrose cística.",
@@ -5145,34 +5121,6 @@
     "receita_display": "🟢 Venda Livre — MIP",
     "receita_descricao": "Medicamento Isento de Prescrição. Não necessita receita.",
     "receita_cor": "verde"
-  },
-  {
-    "nome": "Ácido Úrico / Benzbromarona 50mg - 100mg",
-    "generico": "Benzbromarona",
-    "tipo": "Uricosúrico / Antigotoso",
-    "descricao": "Medicamento que aumenta a eliminação de ácido úrico pela urina, usado no tratamento da gota crônica e hiperuricemia quando o alopurinol não é tolerado. Reduz os depósitos de urato nas articulações ao longo do tempo.",
-    "receita": "Sim",
-    "receita_pratica": "Sim",
-    "receita_nota": "Exige prescrição médica.",
-    "efeitos": "Diarreia, cólicas abdominais, cálculos renais de urato, elevação de enzimas hepáticas.",
-    "aviso_grave": "Risco raro mas grave de hepatotoxicidade fulminante. Contraindicado em insuficiência renal grave e urolitíase (pedras nos rins de urato). Monitorar função hepática.",
-    "recomendacao": "🔴 Avisar médico imediatamente se: icterícia (amarelamento), dor abdominal intensa, urina escura.",
-    "educacao": "Beba pelo menos 2 litros de água por dia para evitar cristalização de urato na urina. Alcalinizar a urina com bicarbonato pode ajudar. Evite álcool e alimentos ricos em purinas.",
-    "resposta_rapida": [
-      "Elimina ácido úrico pela urina",
-      "Beba muito líquido para evitar pedras",
-      "Monitorar fígado regularmente",
-      "Prescrição obrigatória"
-    ],
-    "sinonimos": [
-      "Narcaricin",
-      "Desuric",
-      "Benzbromarona"
-    ],
-    "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
-    "receita_cor": "amarelo"
   },
   {
     "nome": "Anlodipino + Atorvastatina 5mg/10mg - 10mg/20mg",
@@ -5512,39 +5460,10 @@
       "Inflectra",
       "Infliximabe Biosimilar"
     ],
-    "classe_receita": "RECEITA_ESPECIAL",
-    "receita_display": "🔴 Receita Médica Obrigatória",
-    "receita_descricao": "Exige receita médica obrigatória para dispensação.",
+    "classe_receita": "HOSPITALAR",
+    "receita_display": "🔴 Uso Hospitalar / Alto Custo",
+    "receita_descricao": "Uso hospitalar ou dispensação especial (alto custo SUS). Requer prescrição médica.",
     "receita_cor": "vermelho"
-  },
-  {
-    "nome": "Ondansetrom 4mg - 8mg",
-    "generico": "Cloridrato de Ondansetrom",
-    "tipo": "Antiemético / Antagonista 5-HT3",
-    "descricao": "Antiemético potente que bloqueia receptores de serotonina (5-HT3) no trato gastrointestinal e no SNC. Indicado para náuseas e vômitos induzidos por quimioterapia, radioterapia e pós-operatório. Também muito usado off-label em gastroenterite aguda.",
-    "receita": "Sim",
-    "receita_pratica": "Sim",
-    "receita_nota": "Prescrição médica necessária.",
-    "efeitos": "Constipação (muito comum), cefaleia, sensação de calor, prolongamento do QT (relevante em doses altas ou IV).",
-    "aviso_grave": "Pode prolongar o intervalo QT — cuidado em pacientes com arritmias ou em uso de outros medicamentos que prolongam o QT. Evitar doses altas em pacientes com doença hepática.",
-    "recomendacao": "🟡 Avisar médico se: palpitações, desmaio ou batimento cardíaco irregular durante o uso.",
-    "educacao": "Muito eficaz para náusea severa. A constipação é o efeito adverso mais frequente — hidrate-se bem. Dissolve-se rapidamente na língua nas apresentações ODT (orodispersível).",
-    "resposta_rapida": [
-      "Antiemético potente (náuseas e vômitos)",
-      "Constipação é efeito colateral comum",
-      "Existe versão que dissolve na língua",
-      "Prescrição obrigatória"
-    ],
-    "sinonimos": [
-      "Vonau",
-      "Zofran",
-      "Ondansetrom EMS",
-      "Nausedron"
-    ],
-    "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
-    "receita_cor": "amarelo"
   },
   {
     "nome": "Sulpirida 50mg - 200mg",
@@ -5569,10 +5488,10 @@
       "Sulpirida EMS",
       "Equilid"
     ],
-    "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
-    "receita_cor": "amarelo"
+    "classe_receita": "PSICOTR_B2",
+    "receita_display": "🔴 Receita Especial B2 — Psicotrópico / Controlado",
+    "receita_descricao": "Controlado — receita de controle especial (notificação B2). Retirada máxima 60 dias.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Colestiramina 4g sachê",
@@ -5684,10 +5603,10 @@
       "Asocort",
       "Moment Nasal"
     ],
-    "classe_receita": "MIP",
-    "receita_display": "🟢 Venda Livre — MIP",
-    "receita_descricao": "Medicamento Isento de Prescrição. Não necessita receita.",
-    "receita_cor": "verde"
+    "classe_receita": "TARJADO_PRATICA",
+    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
+    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_cor": "amarelo"
   },
   {
     "nome": "Tiotropio 18mcg Inalador",
@@ -6085,10 +6004,10 @@
       "Mupirocina EMS",
       "Turixin"
     ],
-    "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
-    "receita_cor": "amarelo"
+    "classe_receita": "RECEITA_ESPECIAL",
+    "receita_display": "🔴 Receita Médica Obrigatória",
+    "receita_descricao": "Exige receita médica obrigatória para dispensação.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Metronidazol 250mg - 400mg - 500mg",
@@ -6114,10 +6033,10 @@
       "Rozex (tópico)",
       "Metrogel (vaginal)"
     ],
-    "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
-    "receita_cor": "amarelo"
+    "classe_receita": "RECEITA_ANTIBIOTICO",
+    "receita_display": "🔴 Receita Obrigatória — Antibiótico",
+    "receita_descricao": "Antibiótico — receita simples retida obrigatória (ANVISA RDC 20/2011).",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Itraconazol 100mg",
@@ -6372,37 +6291,9 @@
       "Oxcarbazepina EMS",
       "Oxcazepan"
     ],
-    "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
-    "receita_cor": "amarelo"
-  },
-  {
-    "nome": "Fenitoína 100mg - 50mg/mL Injetável",
-    "generico": "Fenitoína Sódica",
-    "tipo": "Anticonvulsivante",
-    "descricao": "Anticonvulsivante clássico de primeira geração com farmacocinética não linear (pequenas variações de dose causam grandes mudanças no nível sérico). Usado em epilepsia focal e generalizada, estado epiléptico e como profilaxia em neurocirurgia.",
-    "receita": "Sim",
-    "receita_pratica": "Sim",
-    "receita_nota": "Receita de controle especial obrigatória.",
-    "efeitos": "Nistagmo, ataxia, diplopia, confusão (sinais de toxicidade), hiperplasia gengival (uso crônico), hirsutismo, acne, osteoporose.",
-    "aviso_grave": "Janela terapêutica estreita — monitorar nível sérico. Cinética não linear: dobrando a dose, o nível pode quadruplicar. Múltiplas interações. Síndrome de hipersensibilidade grave (DRESS) rara.",
-    "recomendacao": "🔴 Monitorar nível sérico regularmente. Avisar médico se: marcha instável, fala enrolada, visão dupla (sinais de toxicidade).",
-    "educacao": "Higiene dental rigorosa e massagem gengival previnem parcialmente a hiperplasia. Suplementar vitamina D e cálcio para reduzir osteoporose. Não alterar a marca sem orientação — biodisponibilidades variam.",
-    "resposta_rapida": [
-      "Anticonvulsivante clássico com janela estreita",
-      "Monitorar nível no sangue regularmente",
-      "Cuidado com gengivas — escovar com rigor",
-      "Não trocar de marca sem médico"
-    ],
-    "sinonimos": [
-      "Hidantal",
-      "Fenitoína EMS",
-      "Dilantin"
-    ],
-    "classe_receita": "RECEITA_ESPECIAL",
-    "receita_display": "🔴 Receita Médica Obrigatória",
-    "receita_descricao": "Exige receita médica obrigatória para dispensação.",
+    "classe_receita": "PSICOTR_B2",
+    "receita_display": "🔴 Receita Especial B2 — Psicotrópico / Controlado",
+    "receita_descricao": "Controlado — receita de controle especial (notificação B2). Retirada máxima 60 dias.",
     "receita_cor": "vermelho"
   },
   {
@@ -6429,10 +6320,10 @@
       "Donepezila EMS",
       "Dozil"
     ],
-    "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
-    "receita_cor": "amarelo"
+    "classe_receita": "RECEITA_ESPECIAL",
+    "receita_display": "🔴 Receita Médica Obrigatória",
+    "receita_descricao": "Exige receita médica obrigatória para dispensação.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Memantina 10mg - 20mg",
@@ -6485,10 +6376,10 @@
       "Azilect",
       "Rasagilina EMS"
     ],
-    "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
-    "receita_cor": "amarelo"
+    "classe_receita": "PSICOTR_B2",
+    "receita_display": "🔴 Receita Especial B2 — Psicotrópico / Controlado",
+    "receita_descricao": "Controlado — receita de controle especial (notificação B2). Retirada máxima 60 dias.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Pramipexol 0,125mg - 0,25mg - 1mg",
@@ -6513,10 +6404,10 @@
       "Mirapex",
       "Pramipexol EMS"
     ],
-    "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
-    "receita_cor": "amarelo"
+    "classe_receita": "PSICOTR_B2",
+    "receita_display": "🔴 Receita Especial B2 — Psicotrópico / Controlado",
+    "receita_descricao": "Controlado — receita de controle especial (notificação B2). Retirada máxima 60 dias.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Amantadina 100mg",
@@ -6541,38 +6432,9 @@
       "Amantadina EMS",
       "Symmetrel"
     ],
-    "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
-    "receita_cor": "amarelo"
-  },
-  {
-    "nome": "Duloxetina 30mg - 60mg",
-    "generico": "Cloridrato de Duloxetina",
-    "tipo": "Antidepressivo IRSN / Analgésico para Dor Neuropática",
-    "descricao": "Inibidor da recaptação de serotonina e noradrenalina (IRSN) com indicações múltiplas: depressão maior, ansiedade generalizada, dor neuropática (neuropatia diabética, fibromialgia), dor musculoesquelética crônica e incontinência urinária de esforço.",
-    "receita": "Sim",
-    "receita_pratica": "Sim",
-    "receita_nota": "Prescrição médica obrigatória.",
-    "efeitos": "Náusea (muito comum no início), boca seca, insônia, sudorese, constipação, taquicardia, aumento da pressão arterial.",
-    "aviso_grave": "Síndrome de descontinuação intensa — retirada deve ser muito gradual. Monitorar pressão arterial. Não usar com inibidores de MAO. Risco de ideação suicida em jovens no início do tratamento.",
-    "recomendacao": "🔴 Nunca parar bruscamente. Jovens: monitorar humor nas primeiras semanas. Avisar médico se: pressão alta, agitação ou pensamentos de se machucar.",
-    "educacao": "Tomar com refeição para reduzir a náusea do início. A náusea geralmente passa após 1-2 semanas. Engolir a cápsula inteira — não abrir nem mastigar.",
-    "resposta_rapida": [
-      "Para depressão, ansiedade e dor neuropática",
-      "Tomar com comida — a náusea inicial passa",
-      "Nunca parar de repente",
-      "Cápsula: engolir inteira"
-    ],
-    "sinonimos": [
-      "Cymbalta",
-      "Duloxetina EMS",
-      "Cymbax",
-      "Dulex"
-    ],
     "classe_receita": "PSICOTR_B2",
-    "receita_display": "🔴 Receita Especial B2 — Psicotrópico",
-    "receita_descricao": "Psicotrópico — receita de controle especial (notificação azul B2). Retirada máxima 60 dias.",
+    "receita_display": "🔴 Receita Especial B2 — Psicotrópico / Controlado",
+    "receita_descricao": "Controlado — receita de controle especial (notificação B2). Retirada máxima 60 dias.",
     "receita_cor": "vermelho"
   },
   {
@@ -6658,34 +6520,6 @@
     "receita_display": "🔴 Receita Médica Obrigatória",
     "receita_descricao": "Exige receita médica obrigatória para dispensação.",
     "receita_cor": "vermelho"
-  },
-  {
-    "nome": "Naltrexona 50mg",
-    "generico": "Cloridrato de Naltrexona",
-    "tipo": "Antagonista Opioide / Tratamento de Dependência",
-    "descricao": "Antagonista opioide de longa ação usado para manutenção da abstinência em dependência de opioides e álcool. Bloqueia os receptores mu, eliminando o efeito euforizante do álcool e opioides. Também usada em baixa dose (LDN) off-label para diversas condições.",
-    "receita": "Sim",
-    "receita_pratica": "Sim",
-    "receita_nota": "Prescrição médica obrigatória.",
-    "efeitos": "Náusea, cefaleia, fadiga, insônia, dor abdominal, hepatotoxicidade em doses altas.",
-    "aviso_grave": "NUNCA usar em dependentes ativos de opioides sem desintoxicação prévia — precipita síndrome de abstinência grave e imediata. Monitorar função hepática. Alertar paciente para não usar opioides — analgesia não funcionará.",
-    "recomendacao": "🔴 Não iniciar sem estar limpo de opioides por pelo menos 7-10 dias. Em emergência, analgesia com opioides pode ser ineficaz — informar equipe médica.",
-    "educacao": "Carregar identificação informando que usa naltrexona — importante em emergências onde opioides seriam necessários. Para álcool: o método Sinclair (tomar 1h antes de beber) tem evidências crescentes.",
-    "resposta_rapida": [
-      "Bloqueia efeito do álcool e opioides",
-      "Nunca iniciar sem estar limpo de opioides",
-      "Carregar identificação médica",
-      "Analgesia com opioide pode não funcionar"
-    ],
-    "sinonimos": [
-      "Revia",
-      "Vivitrol (injetável)",
-      "Naltrexona EMS"
-    ],
-    "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
-    "receita_cor": "amarelo"
   },
   {
     "nome": "Dissulfiram 250mg - 500mg",
@@ -6972,34 +6806,6 @@
     "receita_cor": "amarelo"
   },
   {
-    "nome": "Bromocriptina 2,5mg",
-    "generico": "Mesilato de Bromocriptina",
-    "tipo": "Agonista Dopaminérgico / Inibidor da Prolactina",
-    "descricao": "Agonista dopaminérgico que inibe a secreção de prolactina pela hipófise. Indicado para hiperprolactinemia (galactorreia, amenorreia), prolactinoma, acromegalia e doença de Parkinson. Também aprovado para diabetes tipo 2 (formulação específica).",
-    "receita": "Sim",
-    "receita_pratica": "Sim",
-    "receita_nota": "Prescrição médica obrigatória.",
-    "efeitos": "Náusea (muito comum no início), hipotensão postural, cefaleia, tontura, congestão nasal, constipação.",
-    "aviso_grave": "Iniciar com dose mínima (1,25mg à noite) e aumentar gradualmente para minimizar náusea e hipotensão. Pode causar compulsões (jogo, sexualidade) como todos os agonistas dopaminérgicos.",
-    "recomendacao": "🔴 Avisar médico se: comportamento compulsivo ou impulsivo. Levantar devagar — risco de desmaio.",
-    "educacao": "Tomar com refeição para reduzir náusea. Começar à noite em dose baixa. Para mulheres que querem engravidar: suspender ao confirmar a gravidez (geralmente segura, mas cautela).",
-    "resposta_rapida": [
-      "Reduz prolactina e trata prolactinoma",
-      "Começar com dose mínima à noite com alimento",
-      "Levantar devagar — queda de pressão",
-      "Alertar médico sobre comportamentos compulsivos"
-    ],
-    "sinonimos": [
-      "Parlodel",
-      "Bromocriptina EMS",
-      "Cycloset"
-    ],
-    "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
-    "receita_cor": "amarelo"
-  },
-  {
     "nome": "Cabergolina 0,5mg",
     "generico": "Cabergolina",
     "tipo": "Agonista Dopaminérgico / Inibidor da Prolactina",
@@ -7107,13 +6913,13 @@
       "Carisoprodol EMS",
       "Soma"
     ],
-    "classe_receita": "PSICOTR_B2",
-    "receita_display": "🔴 Receita Especial B2 — Psicotrópico",
-    "receita_descricao": "Psicotrópico — receita de controle especial (notificação azul B2). Retirada máxima 60 dias.",
-    "receita_cor": "vermelho"
+    "classe_receita": "TARJADO_PRATICA",
+    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
+    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_cor": "amarelo"
   },
   {
-    "nome": "Cetoprofeno 50mg - 100mg - 2,5% Gel",
+    "nome": "Cetoprofeno 50mg - 100mg - 150mg - Injetável - 2,5% Gel",
     "generico": "Cetoprofeno",
     "tipo": "Anti-inflamatório Não Esteroidal (AINE)",
     "descricao": "AINE com potente ação anti-inflamatória e analgésica, inibindo as cicloxigenases COX-1 e COX-2. Disponível oral, injetável e em gel tópico para uso local. Indicado para dor musculoesquelética, artrite, lombalgia e dismenorreia.",
@@ -7194,38 +7000,9 @@
       "Etoricoxibe EMS",
       "Algix"
     ],
-    "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
-    "receita_cor": "amarelo"
-  },
-  {
-    "nome": "Codeína 30mg - 60mg",
-    "generico": "Fosfato de Codeína",
-    "tipo": "Opioide Fraco / Antitussígeno",
-    "descricao": "Opioide fraco pró-droga convertida em morfina no organismo. Indicada para dor moderada a moderadamente grave e como antitussígeno em tosse seca intratável. Teto analgésico a partir de 60mg por dose — aumentar a dose não melhora a analgesia.",
-    "receita": "Sim",
-    "receita_pratica": "Sim",
-    "receita_nota": "Receita de controle especial obrigatória (notificação de receita B2).",
-    "efeitos": "Constipação (universal — usar laxante preventivamente), náusea, sonolência, tontura, prurido, depressão respiratória em doses altas.",
-    "aviso_grave": "Metabolizadores ultrarrápidos (CYP2D6) convertem codeína em morfina muito rapidamente — risco de overdose em doses padrão. Proibido em crianças abaixo de 12 anos e em amamentação. Proibido em amigdalectomia pediátrica.",
-    "recomendacao": "🔴 Proibido em crianças < 12 anos. Proibido em amamentação. Sempre associar laxante para constipação.",
-    "educacao": "A constipação é inevitável com opioides — iniciar laxante (lactulose ou senna) desde o primeiro dia. Ao contrário de outros opioides, a codeína tem teto de eficácia — acima de 60mg por dose não há ganho analgésico.",
-    "resposta_rapida": [
-      "Opioide fraco para dor moderada",
-      "Proibido em crianças e amamentação",
-      "Usar laxante desde o primeiro dia",
-      "Receita especial obrigatória"
-    ],
-    "sinonimos": [
-      "Codeína EMS",
-      "Tylenol com Codeína",
-      "Codein",
-      "Fentuss (antitussígeno)"
-    ],
-    "classe_receita": "OPIOIDE_B2",
-    "receita_display": "🔴 Receita Especial B2 — Opioide",
-    "receita_descricao": "Opioide — receita de controle especial notificação B2. Retirada máxima 30 dias.",
+    "classe_receita": "RECEITA_ESPECIAL",
+    "receita_display": "🔴 Receita Médica Obrigatória",
+    "receita_descricao": "Exige receita médica obrigatória para dispensação.",
     "receita_cor": "vermelho"
   },
   {
@@ -7338,10 +7115,10 @@
       "Buspar",
       "Ansitec"
     ],
-    "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
-    "receita_cor": "amarelo"
+    "classe_receita": "PSICOTR_B2",
+    "receita_display": "🔴 Receita Especial B2 — Psicotrópico / Controlado",
+    "receita_descricao": "Controlado — receita de controle especial (notificação B2). Retirada máxima 60 dias.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Tapentadol 50mg - 100mg - 150mg - 200mg - 250mg",
