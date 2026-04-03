@@ -1,0 +1,147 @@
+---
+import Layout from '../layouts/Layout.astro';
+import medicamentos from '../data/medicamento.json';
+
+const slugs = medicamentos.map(m => m.slug);
+const baseUrl = import.meta.env.BASE_URL;
+---
+<Layout title="MediCheck - Seu Medicamento Explicado">
+  <div class="container">
+    <div class="header">
+      <h1>💊 MediCheck</h1>
+      <p>Seu medicamento explicado em linguagem simples</p>
+    </div>
+
+    <div class="content">
+      <div class="camera-section">
+        <div class="button-group" style="display:flex;gap:10px;margin-bottom:20px;">
+          <button class="btn-camera" id="btnCamera">📸 Tirar Foto</button>
+          <button class="btn-manual" id="btnManual">⌨️ Digitar Nome</button>
+        </div>
+
+        <video id="video" style="width:100%;border-radius:12px;margin-bottom:15px;display:none;background:#000;"></video>
+        <canvas id="canvas" style="display:none;"></canvas>
+
+        <div class="input-section" id="manualInput" style="display:none;margin-bottom:20px;">
+          <input type="text" id="medicineName" placeholder="Ex: Ibuprofeno 200mg, Amoxicilina 500mg" />
+          <button class="btn-search" id="btnSearch">Buscar</button>
+          <div class="example-medicine">
+            <strong>Exemplos:</strong> Dipirona, Omeprazol, Losartana, Metformina, Amoxicilina...
+          </div>
+        </div>
+      </div>
+
+      <div id="result" style="display:none;animation:slideIn 0.5s ease;"></div>
+      <div id="loading" class="loading" style="display:none;">
+        <div class="spinner"></div>
+        <p>Analisando medicamento...</p>
+      </div>
+
+      <div style="margin-top:25px;">
+        <p style="font-size:13px;color:#888;margin-bottom:10px;text-align:center;">Ou navegue diretamente:</p>
+        <div class="medicine-list">
+          {medicamentos.map(m => (
+            <a class="medicine-link" href={`${baseUrl}medicamento/${m.slug}`}>{m.nome.split(' ')[0]}</a>
+          ))}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tesseract.js/5.0.4/tesseract.min.js" is:inline></script>
+  <script define:vars={{ slugs, baseUrl }}>
+    let stream = null;
+
+    const manualInput = document.getElementById('manualInput');
+    const video = document.getElementById('video');
+    const result = document.getElementById('result');
+    const loading = document.getElementById('loading');
+
+    document.getElementById('btnManual').addEventListener('click', () => {
+      if (manualInput.style.display === 'block') {
+        manualInput.style.display = 'none';
+        stopCamera();
+      } else {
+        manualInput.style.display = 'block';
+        result.style.display = 'none';
+        result.innerHTML = '';
+      }
+    });
+
+    document.getElementById('btnCamera').addEventListener('click', startCamera);
+    document.getElementById('btnSearch').addEventListener('click', searchMedicine);
+    document.getElementById('medicineName').addEventListener('keypress', (e) => {
+      if (e.key === 'Enter') searchMedicine();
+    });
+
+    function startCamera() {
+      if (video.style.display === 'block') { stopCamera(); return; }
+      manualInput.style.display = 'none';
+      navigator.mediaDevices.getUserMedia({ video: { facingMode: 'environment' } })
+        .then(s => {
+          stream = s;
+          video.srcObject = stream;
+          video.play();
+          video.style.display = 'block';
+          setTimeout(capturePhoto, 2000);
+        })
+        .catch(() => alert('Erro ao acessar câmera. Tente digitar o nome do medicamento.'));
+    }
+
+    function stopCamera() {
+      if (stream) {
+        stream.getTracks().forEach(t => t.stop());
+        video.style.display = 'none';
+        stream = null;
+      }
+    }
+
+    function capturePhoto() {
+      const canvas = document.getElementById('canvas');
+      const ctx = canvas.getContext('2d');
+      canvas.width = video.videoWidth;
+      canvas.height = video.videoHeight;
+      ctx.drawImage(video, 0, 0);
+      loading.style.display = 'block';
+      result.style.display = 'none';
+      Tesseract.recognize(canvas, 'por', { logger: m => console.log(m) })
+        .then(({ data: { text } }) => {
+          stopCamera();
+          const extracted = text.split('\n')[0].trim();
+          document.getElementById('medicineName').value = extracted;
+          manualInput.style.display = 'block';
+          searchMedicine();
+        })
+        .catch(() => {
+          loading.style.display = 'none';
+          alert('Erro ao ler a imagem. Tente digitar o nome do medicamento.');
+        });
+    }
+
+    function searchMedicine() {
+      const name = document.getElementById('medicineName').value.trim().toLowerCase();
+      if (!name) { alert('Digite o nome do medicamento'); return; }
+
+      loading.style.display = 'block';
+      result.style.display = 'none';
+
+      setTimeout(() => {
+        const found = slugs.find(slug => name.includes(slug) || slug.includes(name));
+        loading.style.display = 'none';
+        if (found) {
+          window.location.href = `${baseUrl}medicamento/${found}`;
+        } else {
+          result.innerHTML = `
+            <div class="warning">
+              <strong>Medicamento não encontrado</strong>
+              <p>Desculpe, não temos informação de "${name}" no banco de dados.</p>
+              <p><strong>Medicamentos disponíveis:</strong> Ibuprofeno, Dipirona, Amoxicilina, Losartana, Omeprazol, Metformina, Paracetamol, Aspirina</p>
+            </div>
+            <button class="btn-reset" onclick="document.getElementById('result').style.display='none';document.getElementById('medicineName').value=''">🔄 Tentar Outro</button>
+          `;
+          result.style.display = 'block';
+        }
+      }, 1000);
+    }
+  </script>
+</Layout>
