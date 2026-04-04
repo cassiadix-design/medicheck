@@ -188,6 +188,36 @@
     "receita_cor": "amarelo"
   },
   {
+    "nome": "Albumina Humana 20% - 25% (Solução Injetável)",
+    "generico": "Albumina Humana",
+    "tipo": "Expansor Plasmático / Proteína Plasmática",
+    "descricao": "Proteína plasmática usada para expansão de volume em hipoalbuminemia grave, síndrome nefrótica, cirrose hepática com ascite, queimaduras extensas e cirurgias de grande porte. Uso exclusivamente hospitalar e intravenoso.",
+    "receita": "Sim",
+    "classe_receita": "HOSPITALAR",
+    "receita_display": "🔴 Uso Hospitalar — Receita Obrigatória",
+    "receita_descricao": "Medicamento de uso hospitalar. Exige prescrição médica e administração em ambiente hospitalar.",
+    "receita_cor": "vermelho",
+    "receita_nota": "Uso restrito a ambiente hospitalar. Administração intravenosa.",
+    "efeitos": "Reações alérgicas, sobrecarga de volume (edema pulmonar), hipertensão, taquicardia, febre.",
+    "aviso_grave": "Risco de sobrecarga circulatória — monitoramento rigoroso durante infusão. Não usar em insuficiência cardíaca descompensada. Produto derivado de plasma humano — rastreabilidade obrigatória.",
+    "recomendacao": "🔴 Monitorar sinais vitais durante toda a infusão. Interromper imediatamente em reações alérgicas.",
+    "educacao": "Administração exclusivamente intravenosa em ambiente hospitalar. Conservar entre 2-25°C. Não agitar — pode desnaturar a proteína.",
+    "resposta_rapida": [
+      "Expansor de volume hospitalar",
+      "Hipoalbuminemia e ascite",
+      "Uso exclusivamente hospitalar IV",
+      "Monitorar durante infusão",
+      "Derivado de plasma humano"
+    ],
+    "sinonimos": [
+      "Albumina Humana",
+      "Albuminar",
+      "Albusol",
+      "Human Albumin"
+    ],
+    "receita_pratica": "Sim"
+  },
+  {
     "nome": "Alendronato 70mg",
     "generico": "Alendronato",
     "tipo": "Antirreabsorção Óssea",
@@ -210,6 +240,62 @@
     "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
     "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
     "receita_cor": "amarelo"
+  },
+  {
+    "nome": "Alogliptina + Metformina (Nesina Met)",
+    "generico": "Alogliptina + Metformina",
+    "tipo": "Antidiabético Oral — Inibidor DPP-4 + Biguanida",
+    "descricao": "Associação de alogliptina (inibidor DPP-4) com metformina, indicada para diabetes tipo 2 quando a monoterapia não é suficiente. Combina os mecanismos de ação complementares de ambos os medicamentos. Comercialmente conhecido como Nesina Met.",
+    "receita": "Sim",
+    "classe_receita": "TARJADO_PRATICA",
+    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
+    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_cor": "amarelo",
+    "receita_nota": "Tarjado. Consulte sempre o farmacêutico.",
+    "efeitos": "Náusea, diarreia, dor abdominal (metformina — geralmente melhora com o tempo), nasofaringite, infecção urinária.",
+    "aviso_grave": "Contraindicado em insuficiência renal grave. Suspender antes de cirurgias e exames com contraste. Risco raro de acidose lática com metformina.",
+    "recomendacao": "⚠️ Avisar médico se: dor abdominal intensa, náuseas persistentes, fraqueza muscular intensa (sinal de acidose lática).",
+    "educacao": "Tomar com alimento para reduzir efeitos gastrointestinais. Monitorar função renal periodicamente. Não usar álcool em excesso.",
+    "resposta_rapida": [
+      "Diabetes tipo 2",
+      "Nesina Met",
+      "Tomar com alimento",
+      "Monitorar função renal",
+      "Receita obrigatória"
+    ],
+    "sinonimos": [
+      "Nesina Met",
+      "Alogliptina + Metformina Takeda"
+    ],
+    "receita_pratica": "Sim"
+  },
+  {
+    "nome": "Alogliptina 6,25mg - 12,5mg - 25mg (Nesina)",
+    "generico": "Alogliptina",
+    "tipo": "Antidiabético Oral — Inibidor DPP-4",
+    "descricao": "Antidiabético oral da classe dos inibidores da DPP-4 (gliptinas), indicado para diabetes tipo 2. Age aumentando os níveis de incretinas, estimulando a secreção de insulina de forma dependente da glicose. Comercialmente conhecido como Nesina.",
+    "receita": "Sim",
+    "classe_receita": "TARJADO_PRATICA",
+    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
+    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_cor": "amarelo",
+    "receita_nota": "Tarjado. Consulte sempre o farmacêutico.",
+    "efeitos": "Nasofaringite, dor de cabeça, infecção do trato urinário. Risco baixo de hipoglicemia quando usado isoladamente.",
+    "aviso_grave": "Raro mas grave: pancreatite aguda — interromper se dor abdominal intensa. Insuficiência cardíaca relatada em estudos — monitorar pacientes cardiopatas.",
+    "recomendacao": "⚠️ Avisar médico se: dor abdominal intensa e persistente, falta de ar ou inchaço nas pernas.",
+    "educacao": "Pode ser tomado com ou sem alimento. Baixo risco de hipoglicemia isoladamente. Ajuste de dose necessário em insuficiência renal.",
+    "resposta_rapida": [
+      "Diabetes tipo 2",
+      "Nesina — inibidor DPP-4",
+      "Baixo risco de hipoglicemia",
+      "Pode tomar com ou sem alimento",
+      "Receita obrigatória"
+    ],
+    "sinonimos": [
+      "Nesina",
+      "Alogliptina Takeda"
+    ],
+    "receita_pratica": "Sim"
   },
   {
     "nome": "Alopurinol 100mg - 300mg",
@@ -1102,6 +1188,35 @@
     "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
     "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
     "receita_cor": "amarelo"
+  },
+  {
+    "nome": "Bromoprida 10mg - Gotas",
+    "generico": "Bromoprida",
+    "tipo": "Antiemético / Procinético",
+    "descricao": "Antiemético e procinético indicado para náuseas, vômitos, refluxo gastroesofágico e gastroparesia. Similar à metoclopramida, age bloqueando receptores dopaminérgicos no sistema digestivo.",
+    "receita": "Sim",
+    "classe_receita": "TARJADO_PRATICA",
+    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
+    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_cor": "amarelo",
+    "receita_nota": "Tarjado. Consulte sempre o farmacêutico.",
+    "efeitos": "Sonolência, fadiga, diarreia. Uso prolongado: sintomas extrapiramidais (tremores, rigidez — especialmente em idosos e crianças).",
+    "aviso_grave": "CUIDADO em idosos e crianças — risco de reações extrapiramidais (movimentos involuntários). Não usar por mais de 5 dias sem orientação médica.",
+    "recomendacao": "⚠️ IDOSOS: preferir ondansetrona. Procure médico se: tremores, rigidez muscular ou movimentos involuntários.",
+    "educacao": "Tomar 30 minutos antes das refeições. Não usar por mais de 5 dias. Evitar em idosos quando possível.",
+    "resposta_rapida": [
+      "Náuseas e vômitos",
+      "Procinético — melhora motilidade",
+      "Tomar 30 min antes das refeições",
+      "Máximo 5 dias",
+      "Cuidado em idosos e crianças"
+    ],
+    "sinonimos": [
+      "Digesan",
+      "Bromoprida EMS",
+      "Plamet"
+    ],
+    "receita_pratica": "Sim"
   },
   {
     "nome": "Budesonida 32mcg/dose - 64mcg/dose Spray Nasal",
@@ -2532,6 +2647,35 @@
     "receita_cor": "amarelo"
   },
   {
+    "nome": "Dimenidrinato 50mg (Dramin)",
+    "generico": "Dimenidrinato",
+    "tipo": "Antiemético / Anti-histamínico",
+    "descricao": "Antiemético e anti-histamínico indicado para enjoo de movimento (cinetose), náuseas e vômitos, inclusive os da gravidez (com orientação médica). Muito conhecido como Dramin.",
+    "receita": "Sim",
+    "classe_receita": "TARJADO_PRATICA",
+    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
+    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_cor": "amarelo",
+    "receita_nota": "Tarjado. Consulte sempre o farmacêutico.",
+    "efeitos": "Sonolência intensa, boca seca, visão turva, retenção urinária, constipação.",
+    "aviso_grave": "Causa sonolência intensa — não dirija. Contraindicado em glaucoma e hipertrofia prostática. CUIDADO em idosos — risco de quedas e confusão (Critérios de Beers).",
+    "recomendacao": "⚠️ IDOSOS: evitar. Tomar 30 minutos antes da viagem para enjoo de movimento.",
+    "educacao": "Para enjoo: tomar 30 minutos antes de viajar. Para náuseas: tomar conforme orientação. Evitar álcool.",
+    "resposta_rapida": [
+      "Enjoo de viagem e náuseas",
+      "Dramin — venda livre",
+      "Tomar 30 min antes de viajar",
+      "Causa sonolência — não dirija",
+      "Evitar em idosos"
+    ],
+    "sinonimos": [
+      "Dramin",
+      "Dramin B6",
+      "Dimenidrinato EMS"
+    ],
+    "receita_pratica": "Sim"
+  },
+  {
     "nome": "Dipirona comprimido 500 mg - 1,0 g - Gotas - Xarope - Injetável",
     "generico": "Dipirona",
     "tipo": "Analgésico e antitérmico",
@@ -3948,6 +4092,36 @@
     "receita_cor": "verde"
   },
   {
+    "nome": "Hidróxido de Magnésio / Hidróxido de Alumínio (Leite de Magnésia)",
+    "generico": "Hidróxido de Magnésio + Hidróxido de Alumínio",
+    "tipo": "Antiácido / Laxativo",
+    "descricao": "Antiácido e laxativo osmótico indicado para azia, queimação estomacal, constipação e como antiácido de alívio rápido. O hidróxido de magnésio tem efeito laxativo, enquanto o alumínio tende a causar constipação — o equilíbrio entre os dois é o objetivo da associação. Muito conhecido como Leite de Magnésia.",
+    "receita": "Não",
+    "classe_receita": "ISENTO",
+    "receita_display": "🟢 Venda Livre",
+    "receita_descricao": "Não exige receita médica.",
+    "receita_cor": "verde",
+    "receita_nota": "Venda livre. Consulte o farmacêutico.",
+    "efeitos": "Diarreia ou constipação (dependendo da dose), náusea. Uso excessivo pode causar alterações eletrolíticas.",
+    "aviso_grave": "Não usar por mais de 2 semanas sem orientação médica. Cuidado em insuficiência renal — acúmulo de magnésio e alumínio. Pode interferir na absorção de outros medicamentos.",
+    "recomendacao": "⚠️ Tomar outros medicamentos 2 horas antes ou depois do antiácido para evitar interferência na absorção.",
+    "educacao": "Agitar bem antes de usar. Tomar 1-3 horas após as refeições ou ao deitar. Para constipação: tomar à noite com bastante água.",
+    "resposta_rapida": [
+      "Azia, queimação e constipação",
+      "Leite de Magnésia",
+      "Venda livre",
+      "Agitar antes de usar",
+      "Não usar por mais de 2 semanas"
+    ],
+    "sinonimos": [
+      "Leite de Magnésia",
+      "Phillips",
+      "Magnésia Bisurada",
+      "Maalox"
+    ],
+    "receita_pratica": "Nao"
+  },
+  {
     "nome": "Hioscina / Escopolamina 10mg - 20mg",
     "generico": "Butilbrometo de Escopolamina",
     "tipo": "Antiespasmódico / Anticolinérgico",
@@ -4028,6 +4202,91 @@
     "receita_display": "🔴 Uso Hospitalar / SUS / Alto Custo",
     "receita_descricao": "Dispensação em âmbito hospitalar, SUS ou programa de alto custo. Exige prescrição médica.",
     "receita_cor": "vermelho"
+  },
+  {
+    "nome": "Insulina Asparte 100UI/mL (NovoRapid)",
+    "generico": "Insulina Asparte",
+    "tipo": "Insulina Ultrarrápida — Análogo de Ação Rápida",
+    "descricao": "Insulina análoga de ação ultrarrápida usada para controle da glicemia pós-refeição em diabetes tipo 1 e tipo 2. Age em 10-20 minutos e dura cerca de 3-5 horas. Comercialmente conhecida como NovoRapid.",
+    "receita": "Sim",
+    "classe_receita": "TARJADO_PRATICA",
+    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
+    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_cor": "amarelo",
+    "receita_nota": "Tarjado. Consulte sempre o farmacêutico.",
+    "efeitos": "Hipoglicemia (principal risco — ação rápida exige atenção), reações no local da injeção, ganho de peso.",
+    "aviso_grave": "Aplicar imediatamente antes das refeições. Hipoglicemia rápida e intensa — ter sempre algo doce à mão. Não usar se não for comer após a aplicação.",
+    "recomendacao": "🔴 Em caso de hipoglicemia: consumir açúcar ou suco imediatamente. Se inconsciente: ligar 192 (SAMU).",
+    "educacao": "Aplicar 0-15 minutos antes das refeições. Rodízio dos locais de aplicação. Conservar em geladeira — frasco em uso pode ficar em temperatura ambiente por até 28 dias.",
+    "resposta_rapida": [
+      "Insulina das refeições",
+      "NovoRapid — ação ultrarrápida",
+      "Aplicar antes de comer",
+      "Sempre ter algo doce à mão",
+      "Conservar em geladeira"
+    ],
+    "sinonimos": [
+      "NovoRapid",
+      "NovoLog"
+    ],
+    "receita_pratica": "Sim"
+  },
+  {
+    "nome": "Insulina Glargina 100UI/mL (Lantus / Basaglar)",
+    "generico": "Insulina Glargina",
+    "tipo": "Insulina Basal de Ação Prolongada",
+    "descricao": "Insulina análoga de ação prolongada (24h), usada como insulina basal no tratamento de diabetes tipo 1 e tipo 2. Fornece cobertura insulínica estável ao longo do dia. Comercialmente conhecida como Lantus e Basaglar.",
+    "receita": "Sim",
+    "classe_receita": "TARJADO_PRATICA",
+    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
+    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_cor": "amarelo",
+    "receita_nota": "Tarjado. Consulte sempre o farmacêutico.",
+    "efeitos": "Hipoglicemia (principal risco), reações no local da injeção (vermelhidão, inchaço), ganho de peso.",
+    "aviso_grave": "Hipoglicemia grave pode ser fatal. NÃO misturar com outras insulinas na mesma seringa. Não agitar — rolar suavemente entre as mãos.",
+    "recomendacao": "🔴 Em caso de hipoglicemia: consumir açúcar ou suco. Se inconsciente: ligar 192 (SAMU).",
+    "educacao": "Aplicar no mesmo horário todos os dias (geralmente à noite). Rodízio dos locais de aplicação. Conservar em geladeira (2-8°C) — frasco em uso pode ficar em temperatura ambiente por até 28 dias.",
+    "resposta_rapida": [
+      "Insulina basal — 1x ao dia",
+      "Lantus / Basaglar",
+      "Não misturar com outras insulinas",
+      "Conservar em geladeira",
+      "Risco de hipoglicemia"
+    ],
+    "sinonimos": [
+      "Lantus",
+      "Basaglar",
+      "Toujeo"
+    ],
+    "receita_pratica": "Sim"
+  },
+  {
+    "nome": "Insulina Lispro 100UI/mL (Humalog)",
+    "generico": "Insulina Lispro",
+    "tipo": "Insulina Ultrarrápida — Análogo de Ação Rápida",
+    "descricao": "Insulina análoga de ação ultrarrápida para controle da glicemia pós-refeição. Similar à insulina asparte, age em 15 minutos e dura 3-5 horas. Comercialmente conhecida como Humalog.",
+    "receita": "Sim",
+    "classe_receita": "TARJADO_PRATICA",
+    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
+    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_cor": "amarelo",
+    "receita_nota": "Tarjado. Consulte sempre o farmacêutico.",
+    "efeitos": "Hipoglicemia, reações no local da injeção, ganho de peso.",
+    "aviso_grave": "Aplicar imediatamente antes das refeições. Não usar se não for comer. Hipoglicemia rápida e intensa.",
+    "recomendacao": "🔴 Em caso de hipoglicemia: consumir açúcar ou suco. Se inconsciente: ligar 192 (SAMU).",
+    "educacao": "Aplicar 0-15 minutos antes das refeições. Rodízio dos locais. Conservar em geladeira — frasco em uso por até 28 dias em temperatura ambiente.",
+    "resposta_rapida": [
+      "Insulina das refeições",
+      "Humalog — ação ultrarrápida",
+      "Aplicar antes de comer",
+      "Sempre ter algo doce à mão",
+      "Conservar em geladeira"
+    ],
+    "sinonimos": [
+      "Humalog",
+      "Insulin Lispro Lilly"
+    ],
+    "receita_pratica": "Sim"
   },
   {
     "nome": "Insulina NPH 100U/ml",
@@ -4724,6 +4983,35 @@
     "receita_display": "🟢 Venda Livre — MIP",
     "receita_descricao": "Medicamento Isento de Prescrição. Não necessita receita.",
     "receita_cor": "verde"
+  },
+  {
+    "nome": "Meclizina 25mg",
+    "generico": "Meclizina",
+    "tipo": "Antiemético / Anti-histamínico — Antivertiginoso",
+    "descricao": "Anti-histamínico de ação central indicado para vertigem, enjoo de movimento e náuseas. Tem menor efeito sedativo que o dimenidrinato. Ação mais prolongada — uma dose por dia é suficiente.",
+    "receita": "Sim",
+    "classe_receita": "TARJADO_PRATICA",
+    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
+    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_cor": "amarelo",
+    "receita_nota": "Tarjado. Consulte sempre o farmacêutico.",
+    "efeitos": "Sonolência (menor que dimenidrinato), boca seca, visão turva.",
+    "aviso_grave": "Contraindicado em glaucoma. Cuidado em idosos. Não dirija se sentir sonolência.",
+    "recomendacao": "⚠️ Para vertigem persistente, investigar a causa com médico — pode ser VPPB, labirintite ou outro problema.",
+    "educacao": "Tomar 1 hora antes de viajar para enjoo. Para vertigem: tomar conforme orientação médica. Ação prolongada — geralmente 1x ao dia.",
+    "resposta_rapida": [
+      "Vertigem e enjoo de movimento",
+      "Venda livre",
+      "Menos sonolência que Dramin",
+      "1x ao dia — ação prolongada",
+      "Cuidado em idosos"
+    ],
+    "sinonimos": [
+      "Meclin",
+      "Meclizina EMS",
+      "Bonatrip"
+    ],
+    "receita_pratica": "Sim"
   },
   {
     "nome": "Medroxiprogesterona Injetável (Depo-Provera)",
@@ -5432,6 +5720,35 @@
     "receita_cor": "amarelo"
   },
   {
+    "nome": "Nistatina 100.000UI/mL Suspensão Oral",
+    "generico": "Nistatina",
+    "tipo": "Antifúngico Oral / Tópico",
+    "descricao": "Antifúngico poliênico indicado para candidíase oral (sapinho), candidíase esofágica e candidíase intestinal. Muito usado em bebês e imunossuprimidos. Não é absorvido pelo intestino — age localmente.",
+    "receita": "Sim",
+    "classe_receita": "TARJADO_PRATICA",
+    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
+    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_cor": "amarelo",
+    "receita_nota": "Tarjado. Consulte sempre o farmacêutico.",
+    "efeitos": "Muito bem tolerado. Raramente: náusea, diarreia, irritação local.",
+    "aviso_grave": "Não é eficaz para candidíase sistêmica — age apenas localmente. Manter boa higiene oral durante o tratamento.",
+    "recomendacao": "⚠️ Candidíase recorrente em adultos pode indicar imunossupressão — investigar com médico.",
+    "educacao": "Fazer bochecho e engolir (adultos) ou aplicar na boca com conta-gotas (bebês). Aplicar após as refeições. Não comer ou beber por 30 minutos após a aplicação.",
+    "resposta_rapida": [
+      "Sapinho (candidíase oral)",
+      "Venda livre",
+      "Aplicar após as refeições",
+      "Não comer/beber por 30 min",
+      "Age apenas localmente"
+    ],
+    "sinonimos": [
+      "Micostatin",
+      "Nistatina EMS",
+      "Candicort"
+    ],
+    "receita_pratica": "Sim"
+  },
+  {
     "nome": "Nitazoxanida 500mg - Suspensão",
     "generico": "Nitazoxanida",
     "tipo": "Antiparasitário / Antiprotozoário",
@@ -5570,6 +5887,35 @@
     "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
     "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
     "receita_cor": "amarelo"
+  },
+  {
+    "nome": "Ondansetrona ODT 4mg - 8mg (Zofran)",
+    "generico": "Ondansetrona ODT",
+    "tipo": "Antiemético — Antagonista 5-HT3",
+    "descricao": "Antiemético potente da classe dos antagonistas 5-HT3, disponível em comprimido de dissolução oral (ODT — dissolve na língua sem precisar de água). Indicado para náuseas e vômitos por quimioterapia, radioterapia, pós-operatório e gravidez. Muito conhecido como Zofran.",
+    "receita": "Sim",
+    "classe_receita": "TARJADO_PRATICA",
+    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
+    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_cor": "amarelo",
+    "receita_nota": "Tarjado. Consulte sempre o farmacêutico.",
+    "efeitos": "Cefaleia, constipação, sensação de calor, tontura. Raramente: prolongamento do QT (monitorar em cardiopatas).",
+    "aviso_grave": "Cuidado em pacientes com arritmias cardíacas ou que usam outros medicamentos que prolongam o QT. Não usar doses altas em cardiopatas.",
+    "recomendacao": "⚠️ Avisar médico se: palpitações, tontura intensa ou desmaio durante o uso.",
+    "educacao": "Colocar o comprimido ODT na língua — dissolve sem precisar de água. Ideal para quem tem dificuldade de engolir comprimidos ou está vomitando. Ótima opção para idosos e crianças.",
+    "resposta_rapida": [
+      "Náuseas e vômitos intensos",
+      "Zofran ODT — dissolve na língua",
+      "Não precisa de água",
+      "Ótimo para quimioterapia",
+      "Tarjado — venda livre na prática"
+    ],
+    "sinonimos": [
+      "Zofran",
+      "Zofran ODT",
+      "Ondansetrona EMS"
+    ],
+    "receita_pratica": "Sim"
   },
   {
     "nome": "Oseltamivir 75mg - Suspensão",
@@ -5906,6 +6252,35 @@
     "receita_display": "🔴 Controlado — Receituário Branco em 2 Vias (C1)",
     "receita_descricao": "Medicamento controlado categoria C1. Exige receituário branco em duas vias: uma fica no estabelecimento, outra vai com o paciente.",
     "receita_cor": "vermelho"
+  },
+  {
+    "nome": "Prednisolona 1mg/mL - 3mg/mL Solução Oral",
+    "generico": "Prednisolona",
+    "tipo": "Corticoide / Anti-inflamatório",
+    "descricao": "Corticoide de uso oral muito utilizado em pediatria, indicado para asma, crupe, reações alérgicas graves, doenças inflamatórias e autoimunes. A forma líquida facilita o uso em crianças.",
+    "receita": "Sim",
+    "classe_receita": "TARJADO_PRATICA",
+    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
+    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_cor": "amarelo",
+    "receita_nota": "Tarjado. Consulte sempre o farmacêutico.",
+    "efeitos": "Aumento do apetite, agitação, insônia, irritabilidade (comuns e transitórios em uso curto). Uso prolongado: imunossupressão, ganho de peso, hipertensão, osteoporose.",
+    "aviso_grave": "Não interromper abruptamente em uso prolongado — reduzir gradualmente. Risco de infecções oportunistas com uso crônico.",
+    "recomendacao": "⚠️ Em uso curto (até 5 dias) os efeitos são transitórios. Avisar médico se: febre durante o tratamento, comportamento muito alterado.",
+    "educacao": "Tomar pela manhã com alimento para minimizar efeitos colaterais. Cursos curtos (3-5 dias) são bem tolerados. Não vacinar com vacinas vivas durante o tratamento.",
+    "resposta_rapida": [
+      "Asma, crupe e alergias — pediatria",
+      "Solução oral para crianças",
+      "Tomar pela manhã com alimento",
+      "Uso curto bem tolerado",
+      "Receita obrigatória"
+    ],
+    "sinonimos": [
+      "Prelone",
+      "Prednisolona EMS",
+      "Predsim"
+    ],
+    "receita_pratica": "Sim"
   },
   {
     "nome": "Prednisona 5mg - 20mg",
@@ -7416,6 +7791,62 @@
     "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
     "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
     "receita_cor": "amarelo"
+  },
+  {
+    "nome": "Vildagliptina + Metformina (Galvus Met)",
+    "generico": "Vildagliptina + Metformina",
+    "tipo": "Antidiabético Oral — Inibidor DPP-4 + Biguanida",
+    "descricao": "Associação de vildagliptina com metformina, indicada para diabetes tipo 2. Combina dois mecanismos complementares de controle da glicemia. Comercialmente conhecido como Galvus Met.",
+    "receita": "Sim",
+    "classe_receita": "TARJADO_PRATICA",
+    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
+    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_cor": "amarelo",
+    "receita_nota": "Tarjado. Consulte sempre o farmacêutico.",
+    "efeitos": "Náusea, diarreia, dor abdominal (metformina), tontura, cefaleia. Geralmente bem tolerado.",
+    "aviso_grave": "Contraindicado em insuficiência renal e hepática. Monitorar função hepática. Suspender antes de cirurgias e contraste.",
+    "recomendacao": "⚠️ Avisar médico se: sintomas de problema hepático ou renal, náuseas persistentes.",
+    "educacao": "Tomar com alimento. Monitorar função renal e hepática regularmente. Não usar álcool em excesso.",
+    "resposta_rapida": [
+      "Diabetes tipo 2",
+      "Galvus Met",
+      "Tomar com alimento",
+      "Monitorar fígado e rins",
+      "Receita obrigatória"
+    ],
+    "sinonimos": [
+      "Galvus Met",
+      "Vildagliptina + Metformina Novartis"
+    ],
+    "receita_pratica": "Sim"
+  },
+  {
+    "nome": "Vildagliptina 50mg (Galvus)",
+    "generico": "Vildagliptina",
+    "tipo": "Antidiabético Oral — Inibidor DPP-4",
+    "descricao": "Antidiabético oral da classe dos inibidores da DPP-4, indicado para diabetes tipo 2. Age inibindo a enzima DPP-4, aumentando os níveis de incretinas ativas e estimulando a secreção de insulina. Comercialmente conhecido como Galvus.",
+    "receita": "Sim",
+    "classe_receita": "TARJADO_PRATICA",
+    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
+    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_cor": "amarelo",
+    "receita_nota": "Tarjado. Consulte sempre o farmacêutico.",
+    "efeitos": "Tontura, cefaleia, nasofaringite, edema periférico. Raramente hepatotoxicidade — monitorar enzimas hepáticas.",
+    "aviso_grave": "Monitorar função hepática — casos raros de hepatite relatados. Não usar em insuficiência hepática. Ajuste de dose em insuficiência renal.",
+    "recomendacao": "⚠️ Avisar médico se: icterícia, urina escura, dor no abdome superior direito (sinais de problema hepático).",
+    "educacao": "Tomar 50mg duas vezes ao dia (manhã e noite). Pode ser tomado com ou sem alimento. Monitorar enzimas hepáticas a cada 3 meses no primeiro ano.",
+    "resposta_rapida": [
+      "Diabetes tipo 2",
+      "Galvus — inibidor DPP-4",
+      "2x ao dia — manhã e noite",
+      "Monitorar função hepática",
+      "Receita obrigatória"
+    ],
+    "sinonimos": [
+      "Galvus",
+      "Vildagliptina Novartis"
+    ],
+    "receita_pratica": "Sim"
   },
   {
     "nome": "Vitamina B1 (Tiamina) 100mg - 300mg",

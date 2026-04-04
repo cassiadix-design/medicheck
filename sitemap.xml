@@ -41,7 +41,22 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://medicheck.med.br/medicamentos/albumina-humana/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://medicheck.med.br/medicamentos/alendronato/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://medicheck.med.br/medicamentos/alogliptina-metformina/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://medicheck.med.br/medicamentos/alogliptina/</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
@@ -222,6 +237,11 @@
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamentos/bromocriptina/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://medicheck.med.br/medicamentos/bromoprida/</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
@@ -511,6 +531,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://medicheck.med.br/medicamentos/dimenidrinato/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://medicheck.med.br/medicamentos/dipirona/</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
@@ -786,6 +811,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://medicheck.med.br/medicamentos/hidroxido-de-magnesio-hidroxido-de-aluminio/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://medicheck.med.br/medicamentos/butilbrometo-de-escopolamina/</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
@@ -797,6 +827,21 @@
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamentos/infliximabe/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://medicheck.med.br/medicamentos/insulina-asparte/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://medicheck.med.br/medicamentos/insulina-glargina/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://medicheck.med.br/medicamentos/insulina-lispro/</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
@@ -941,6 +986,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://medicheck.med.br/medicamentos/meclizina/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://medicheck.med.br/medicamentos/acetato-de-medroxiprogesterona/</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
@@ -1076,6 +1126,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://medicheck.med.br/medicamentos/nistatina/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://medicheck.med.br/medicamentos/nitazoxanida/</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
@@ -1102,6 +1157,11 @@
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamentos/ondansetrom/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://medicheck.med.br/medicamentos/ondansetrona-odt/</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
@@ -1167,6 +1227,11 @@
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamentos/dicloridrato-de-pramipexol/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://medicheck.med.br/medicamentos/prednisolona/</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
@@ -1462,6 +1527,16 @@
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamentos/verapamil/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://medicheck.med.br/medicamentos/vildagliptina-metformina/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://medicheck.med.br/medicamentos/vildagliptina/</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
