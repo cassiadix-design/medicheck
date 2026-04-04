@@ -236,6 +236,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://medicheck.med.br/medicamentos/bromexina/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://medicheck.med.br/medicamentos/bromocriptina/</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
@@ -407,6 +412,16 @@
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamentos/cloreto-de-sodio/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://medicheck.med.br/medicamentos/cloreto-de-sodio-09-solucao-nasal/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://medicheck.med.br/medicamentos/cloreto-de-sodio-3-solucao-nasal-hipertonica/</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
@@ -712,6 +727,11 @@
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamentos/formoterol-budesonida/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://medicheck.med.br/medicamentos/formoterol-fluticasona/</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
@@ -1181,12 +1201,32 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://medicheck.med.br/medicamentos/oximetazolina/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://medicheck.med.br/medicamentos/pantoprazol-sodico/</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamentos/pantoprazol-sodico-sesqui-hidratado/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://medicheck.med.br/medicamentos/paracetamol-fenilefrina-clorfeniramina/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://medicheck.med.br/medicamentos/paracetamol-clorfeniramina-fenilefrina/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://medicheck.med.br/medicamentos/paracetamol-pseudoefedrina/</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>

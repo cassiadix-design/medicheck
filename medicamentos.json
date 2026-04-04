@@ -342,7 +342,10 @@
     "receita_display": "🔴 Controlado B1 — Receita Azul (Benzodiazepínico)",
     "receita_descricao": "Psicotrópico benzodiazepínico categoria B1. Exige receita azul de controle especial em duas vias. Retirada máxima: 30 dias.",
     "receita_cor": "vermelho",
-    "receita_nota": "Receita azul obrigatória. Válida por 30 dias."
+    "receita_nota": "Receita azul obrigatória. Válida por 30 dias.",
+    "sinonimos": [
+      "Frontal"
+    ]
   },
   {
     "nome": "Amantadina 100mg",
@@ -1117,7 +1120,10 @@
     "receita_display": "🔴 Controlado B1 — Receita Azul (Benzodiazepínico)",
     "receita_descricao": "Psicotrópico benzodiazepínico categoria B1. Exige receita azul de controle especial em duas vias. Retirada máxima: 30 dias.",
     "receita_cor": "vermelho",
-    "receita_nota": "Receita azul obrigatória. Válida por 30 dias."
+    "receita_nota": "Receita azul obrigatória. Válida por 30 dias.",
+    "sinonimos": [
+      "Lexotan"
+    ]
   },
   {
     "nome": "Brometo de Escopolamina (Hioscina) 10mg",
@@ -1163,7 +1169,40 @@
     "classe_receita": "TARJADO_PRATICA",
     "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
     "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
-    "receita_cor": "amarelo"
+    "receita_cor": "amarelo",
+    "sinonimos": [
+      "Atrovent",
+      "Atrovent Aerossol"
+    ]
+  },
+  {
+    "nome": "Bromexina 4mg - 8mg",
+    "generico": "Bromexina",
+    "tipo": "Mucolítico / Expectorante",
+    "descricao": "Mucolítico indicado para fluidificar e facilitar a eliminação do muco nas vias respiratórias em bronquite, tosse produtiva, asma com secreção e DPOC. Age reduzindo a viscosidade do muco. Muito conhecido como Bisolvon.",
+    "receita": "Sim",
+    "classe_receita": "TARJADO_PRATICA",
+    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
+    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_cor": "amarelo",
+    "receita_nota": "Tarjado. Consulte sempre o farmacêutico.",
+    "efeitos": "Náusea, diarreia, dor de estômago, reações alérgicas cutâneas raras.",
+    "aviso_grave": "Não usar em úlcera gástrica ativa. Beber bastante água para potencializar o efeito mucolítico. Cuidado em asmáticos — pode provocar broncoespasmo.",
+    "recomendacao": "⚠️ Se a tosse persistir por mais de 7 dias ou vier acompanhada de febre alta, consulte médico.",
+    "educacao": "Beber pelo menos 2 litros de água por dia para fluidificar melhor o muco. Tomar com alimento para reduzir náuseas. O efeito máximo ocorre após 2-3 dias de uso.",
+    "resposta_rapida": [
+      "Tosse com catarro",
+      "Bisolvon — mucolítico",
+      "Beber bastante água",
+      "Tomar com alimento",
+      "Tarjado — venda livre na prática"
+    ],
+    "sinonimos": [
+      "Bisolvon",
+      "Bromexina EMS",
+      "Bromexin"
+    ],
+    "receita_pratica": "Sim"
   },
   {
     "nome": "Bromocriptina 2,5mg",
@@ -1995,7 +2034,10 @@
     "receita_display": "🔴 Controlado B1 — Receita Azul (Benzodiazepínico)",
     "receita_descricao": "Psicotrópico benzodiazepínico categoria B1. Exige receita azul de controle especial em duas vias. Retirada máxima: 30 dias.",
     "receita_cor": "vermelho",
-    "receita_nota": "Receita azul obrigatória. Válida por 30 dias."
+    "receita_nota": "Receita azul obrigatória. Válida por 30 dias.",
+    "sinonimos": [
+      "Rivotril"
+    ]
   },
   {
     "nome": "Clopidogrel 75mg",
@@ -2040,6 +2082,65 @@
     "receita_display": "🟢 Venda Livre — MIP",
     "receita_descricao": "Medicamento Isento de Prescrição. Não necessita receita.",
     "receita_cor": "verde"
+  },
+  {
+    "nome": "Cloreto de Sódio 0,9% Spray Nasal (Sorine / Soro Fisiológico Nasal)",
+    "generico": "Cloreto de Sódio 0,9% Solução Nasal",
+    "tipo": "Solução Nasal Isotônica — Higiene e Hidratação Nasal",
+    "descricao": "Soro fisiológico isotônico para higiene, hidratação e limpeza nasal. Indicado para congestão nasal leve, ressecamento, rinite, sinusite e higiene nasal em bebês. Não contém medicamento — é apenas solução salina. Muito conhecido como Sorine.",
+    "receita": "Nao",
+    "classe_receita": "ISENTO",
+    "receita_display": "🟢 Venda Livre",
+    "receita_descricao": "Não exige receita médica. Disponível livremente nas farmácias.",
+    "receita_cor": "verde",
+    "receita_nota": "Venda livre. Seguro para todas as idades incluindo bebês.",
+    "efeitos": "Praticamente sem efeitos colaterais. Pode causar leve desconforto ao aplicar em bebês.",
+    "aviso_grave": "Produto seguro. Verificar prazo de validade e não compartilhar o frasco para evitar contaminação.",
+    "recomendacao": "✅ Pode ser usado quantas vezes necessário. Ideal antes de aplicar outros sprays nasais.",
+    "educacao": "Usar antes de outras medicações nasais para limpar e preparar a mucosa. Em bebês, aplicar antes de amamentar para desobstruir. Seguro para uso diário.",
+    "resposta_rapida": [
+      "Higiene e limpeza nasal",
+      "Sorine — venda livre",
+      "Seguro para bebês",
+      "Sem limite de uso",
+      "Usar antes de outros sprays"
+    ],
+    "sinonimos": [
+      "Sorine",
+      "Soro Fisiológico Nasal",
+      "Nasal Saline",
+      "Fisiologico Nasal"
+    ],
+    "receita_pratica": "Nao"
+  },
+  {
+    "nome": "Cloreto de Sódio 3% Spray Nasal Hipertônico (Rhinosoro)",
+    "generico": "Cloreto de Sódio 3% Solução Nasal Hipertônica",
+    "tipo": "Solução Nasal Hipertônica — Descongestionante Natural",
+    "descricao": "Soro nasal hipertônico (concentração maior que o soro fisiológico) que age osmoticamente, reduzindo o inchaço da mucosa nasal e fluidificando o muco. Indicado para congestão nasal, rinite, sinusite e higiene nasal intensa. Muito conhecido como Rhinosoro.",
+    "receita": "Nao",
+    "classe_receita": "ISENTO",
+    "receita_display": "🟢 Venda Livre",
+    "receita_descricao": "Não exige receita médica.",
+    "receita_cor": "verde",
+    "receita_nota": "Venda livre. Alternativa natural para descongestionamento.",
+    "efeitos": "Ardência ou desconforto nasal transitório (normal pela alta concentração de sal). Espirros após aplicação.",
+    "aviso_grave": "Pode causar ardência — normal e transitória. Não usar em bebês menores de 1 ano sem orientação médica.",
+    "recomendacao": "✅ Boa alternativa ao descongestionante medicamentoso. Pode ser usado com mais frequência que o Afrin.",
+    "educacao": "A ardência inicial é normal e passa rapidamente. Mais eficaz que o soro fisiológico para desobstruir. Pode usar várias vezes ao dia. Boa opção para grávidas e crianças.",
+    "resposta_rapida": [
+      "Congestão nasal — descongestionante natural",
+      "Rhinosoro — venda livre",
+      "Leve ardência é normal",
+      "Alternativa ao Afrin",
+      "Seguro para grávidas e crianças"
+    ],
+    "sinonimos": [
+      "Rhinosoro",
+      "Soro Hipertônico Nasal",
+      "Maresis"
+    ],
+    "receita_pratica": "Nao"
   },
   {
     "nome": "Clorexidina 0.12%",
@@ -3596,12 +3697,41 @@
       "Symbicort",
       "Vannair",
       "Formoterol+Budesonida Genérico",
-      "Bufomix"
+      "Bufomix",
+      "Alenia"
     ],
     "classe_receita": "TARJADO_PRATICA",
     "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
     "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
     "receita_cor": "amarelo"
+  },
+  {
+    "nome": "Formoterol + Propionato de Fluticasona (Lugano)",
+    "generico": "Formoterol + Fluticasona",
+    "tipo": "Broncodilatador + Corticoide Inalatório",
+    "descricao": "Associação de formoterol (broncodilatador de longa ação — LABA) com propionato de fluticasona (corticoide inalatório), indicada para asma e DPOC. Combinação que abre os brônquios e reduz a inflamação simultaneamente. Comercialmente conhecido como Lugano.",
+    "receita": "Sim",
+    "classe_receita": "TARJADO_PRATICA",
+    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
+    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_cor": "amarelo",
+    "receita_nota": "Tarjado. Consulte sempre o farmacêutico.",
+    "efeitos": "Candidíase oral (enxaguar a boca após uso), rouquidão, tosse, palpitações, tremor fino nas mãos (formoterol).",
+    "aviso_grave": "Não usar para crises agudas — é medicamento de manutenção. Para crises usar broncodilatador de alívio rápido (salbutamol). Enxaguar a boca após cada uso para evitar candidíase.",
+    "recomendacao": "⚠️ Se a crise não melhorar com salbutamol, procure emergência. Não aumentar a dose sem orientação médica.",
+    "educacao": "Usar diariamente mesmo sem sintomas — é preventivo. Enxaguar a boca com água após cada uso. Nunca parar abruptamente.",
+    "resposta_rapida": [
+      "Asma e DPOC — uso diário",
+      "Lugano — broncodilatador + corticoide",
+      "Enxaguar a boca após usar",
+      "Não é para crise aguda",
+      "Tarjado — venda livre na prática"
+    ],
+    "sinonimos": [
+      "Lugano",
+      "Formoterol + Fluticasona"
+    ],
+    "receita_pratica": "Sim"
   },
   {
     "nome": "Fosfomicina 3g - Granulado para Solução Oral",
@@ -5173,7 +5303,11 @@
     "classe_receita": "TARJADO_PRATICA",
     "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
     "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
-    "receita_cor": "amarelo"
+    "receita_cor": "amarelo",
+    "sinonimos": [
+      "Glifage",
+      "Glifage XR"
+    ]
   },
   {
     "nome": "Metilfenidato (Ritalina / Concerta)",
@@ -5997,6 +6131,35 @@
     "receita_cor": "amarelo"
   },
   {
+    "nome": "Oximetazolina 0,05% Spray Nasal (Afrin)",
+    "generico": "Oximetazolina",
+    "tipo": "Descongestionante Nasal Tópico",
+    "descricao": "Descongestionante nasal tópico de ação rápida (5-10 minutos) e prolongada (até 12 horas). Indicado para congestão nasal por resfriado, rinite e sinusite. Muito conhecido como Afrin.",
+    "receita": "Sim",
+    "classe_receita": "TARJADO_PRATICA",
+    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
+    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_cor": "amarelo",
+    "receita_nota": "Tarjado. Não usar por mais de 3 dias consecutivos.",
+    "efeitos": "Ardência e ressecamento nasal, espirros. Uso prolongado causa efeito rebote — congestão pior que antes (rinite medicamentosa).",
+    "aviso_grave": "NÃO USAR por mais de 3 dias consecutivos — causa dependência e rinite medicamentosa (congestão de rebote). Contraindicado em crianças menores de 6 anos.",
+    "recomendacao": "⚠️ Limite rigoroso de 3 dias! Após esse período a congestão volta pior. Se precisar por mais tempo, consulte médico.",
+    "educacao": "Aplicar 1-2 jatos em cada narina até 2x ao dia. Nunca ultrapassar 3 dias de uso. Assoar o nariz antes de aplicar para melhor efeito.",
+    "resposta_rapida": [
+      "Congestão nasal rápida",
+      "Afrin — spray nasal",
+      "MÁXIMO 3 dias — causa dependência",
+      "Efeito em 5-10 minutos",
+      "Não usar em menores de 6 anos"
+    ],
+    "sinonimos": [
+      "Afrin",
+      "Afrin Mentol",
+      "Nasivin"
+    ],
+    "receita_pratica": "Sim"
+  },
+  {
     "nome": "Pantoprazol 20mg - 40mg",
     "generico": "Pantoprazol Sódico",
     "tipo": "Inibidor de Bomba de Prótons / Protetor Gástrico",
@@ -6046,6 +6209,94 @@
     "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
     "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
     "receita_cor": "amarelo"
+  },
+  {
+    "nome": "Paracetamol + Fenilefrina + Clorfeniramina (Resfenol / Coristina D / Naldecon)",
+    "generico": "Paracetamol + Fenilefrina + Clorfeniramina",
+    "tipo": "Antigripal — Analgésico + Descongestionante + Anti-histamínico",
+    "descricao": "Combinação antigripal com paracetamol (analgésico/antitérmico), fenilefrina (descongestionante nasal) e clorfeniramina (anti-histamínico para coriza e espirros). Indicado para alívio dos sintomas de gripe e resfriado. Conhecido comercialmente como Resfenol, Coristina D e Naldecon.",
+    "receita": "Sim",
+    "classe_receita": "TARJADO_PRATICA",
+    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
+    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_cor": "amarelo",
+    "receita_nota": "Tarjado. Consulte sempre o farmacêutico.",
+    "efeitos": "Sonolência (clorfeniramina), boca seca, aumento da pressão arterial (fenilefrina), retenção urinária, náusea.",
+    "aviso_grave": "CONTRAINDICADO em hipertensão não controlada, cardiopatias, hipertireoidismo e glaucoma. Alergia ao paracetamol é contraindicação absoluta.",
+    "recomendacao": "⚠️ Hipertensos devem evitar — fenilefrina eleva a pressão. Não usar em crianças menores de 12 anos sem orientação médica. Não dirigir — causa sonolência.",
+    "educacao": "Para alívio sintomático da gripe e resfriado. Não usar por mais de 5 dias sem orientação médica. Tomar com água e alimento.",
+    "resposta_rapida": [
+      "Gripe e resfriado",
+      "Resfenol, Coristina D, Naldecon",
+      "Causa sonolência — não dirija",
+      "Evitar em hipertensos",
+      "Máximo 5 dias"
+    ],
+    "sinonimos": [
+      "Resfenol",
+      "Coristina D",
+      "Naldecon",
+      "Coristina",
+      "Gripolan"
+    ],
+    "receita_pratica": "Sim"
+  },
+  {
+    "nome": "Paracetamol + Maleato de Clorfeniramina + Fenilefrina (Benegrip)",
+    "generico": "Paracetamol + Clorfeniramina + Fenilefrina",
+    "tipo": "Antigripal — Analgésico + Anti-histamínico + Descongestionante",
+    "descricao": "Combinação antigripal indicada para alívio dos sintomas de gripe e resfriado: febre, dor de cabeça, coriza, espirros e congestão nasal. Muito conhecido comercialmente como Benegrip.",
+    "receita": "Sim",
+    "classe_receita": "TARJADO_PRATICA",
+    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
+    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_cor": "amarelo",
+    "receita_nota": "Tarjado. Consulte sempre o farmacêutico.",
+    "efeitos": "Sonolência intensa (clorfeniramina), boca seca, aumento da pressão arterial, retenção urinária.",
+    "aviso_grave": "CONTRAINDICADO em hipertensão, cardiopatias e glaucoma. Não usar com outros medicamentos que contenham paracetamol para evitar superdose.",
+    "recomendacao": "⚠️ Não tomar junto com outro antigripal ou paracetamol. Hipertensos devem evitar. Não dirigir.",
+    "educacao": "Tomar com água. Não usar por mais de 5 dias. Verificar se outros medicamentos que esteja tomando não contêm paracetamol.",
+    "resposta_rapida": [
+      "Gripe e resfriado",
+      "Benegrip",
+      "Não misturar com outro paracetamol",
+      "Causa sonolência",
+      "Máximo 5 dias"
+    ],
+    "sinonimos": [
+      "Benegrip",
+      "Benegrip Multi",
+      "Benegrip Noite"
+    ],
+    "receita_pratica": "Sim"
+  },
+  {
+    "nome": "Paracetamol + Pseudoefedrina (Tylenol Sinus)",
+    "generico": "Paracetamol + Pseudoefedrina",
+    "tipo": "Antigripal — Analgésico + Descongestionante",
+    "descricao": "Combinação de paracetamol com pseudoefedrina (descongestionante potente), indicada para congestão nasal intensa, sinusite e resfriado com dor de cabeça. Muito conhecida como Tylenol Sinus.",
+    "receita": "Sim",
+    "classe_receita": "TARJADO_PRATICA",
+    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
+    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_cor": "amarelo",
+    "receita_nota": "Pseudoefedrina é controlada — pode exigir documento de identidade na compra.",
+    "efeitos": "Insônia, agitação, aumento da pressão arterial, palpitações, boca seca, nervosismo.",
+    "aviso_grave": "CONTRAINDICADO em hipertensão, cardiopatias, hipertireoidismo e glaucoma. Pseudoefedrina é estimulante — não tomar à noite.",
+    "recomendacao": "⚠️ Hipertensos devem evitar absolutamente. Tomar pela manhã — causa insônia. Não usar em crianças menores de 12 anos.",
+    "educacao": "Tomar pela manhã para evitar insônia. A pseudoefedrina é mais eficaz que a fenilefrina para desobstruir o nariz. Não usar por mais de 5 dias.",
+    "resposta_rapida": [
+      "Congestão nasal e sinusite",
+      "Tylenol Sinus",
+      "Tomar pela manhã — causa insônia",
+      "Evitar em hipertensos",
+      "Máximo 5 dias"
+    ],
+    "sinonimos": [
+      "Tylenol Sinus",
+      "Tylenol Sinus Noite"
+    ],
+    "receita_pratica": "Sim"
   },
   {
     "nome": "Paracetamol 500mg - 750mg - Gotas - Xarope",
@@ -6815,7 +7066,12 @@
     "classe_receita": "TARJADO_PRATICA",
     "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
     "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
-    "receita_cor": "amarelo"
+    "receita_cor": "amarelo",
+    "sinonimos": [
+      "Aerolin",
+      "Aerolin Spray",
+      "Aerolin Expectorante"
+    ]
   },
   {
     "nome": "Salmeterol + Fluticasona 25mcg/125mcg - 50mcg/250mcg",
@@ -6838,7 +7094,8 @@
     "sinonimos": [
       "Seretide",
       "Advair",
-      "Salmeterol+Fluticasona Genérico"
+      "Salmeterol+Fluticasona Genérico",
+      "Seretide Diskus"
     ],
     "classe_receita": "TARJADO_PRATICA",
     "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
