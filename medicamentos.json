@@ -1,5 +1,33 @@
 [
   {
+    "nome": "Acarbose 50mg - 100mg",
+    "generico": "Acarbose",
+    "tipo": "Antidiabético oral — Inibidor de alfa-glucosidase",
+    "sinonimos": [
+      "acarbose",
+      "glucobay",
+      "acarbose 50mg",
+      "glucobay 100mg"
+    ],
+    "descricao": "Antidiabético oral que age no intestino — inibe as enzimas que digerem os carboidratos, retardando a absorção de açúcares após as refeições. Reduz a hiperglicemia pós-prandial (pico de açúcar após comer) sem causar hipoglicemia quando usado sozinho.",
+    "receita": "Sim",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica Necessária",
+    "receita_cor": "amarelo",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
+    "receita_nota": "Tomar obrigatoriamente com a primeira garfada de cada refeição principal.",
+    "efeitos": "Flatulência intensa, distensão abdominal, diarreia — efeitos muito comuns e relacionados ao mecanismo de ação. Melhoram com o tempo.",
+    "aviso_grave": "Se ocorrer hipoglicemia em conjunto com outros antidiabéticos, usar glucose pura (não sacarose) — a acarbose bloqueia a digestão de sacarose. Contraindicada em doenças intestinais inflamatórias.",
+    "recomendacao": "⚠️ A flatulência intensa no início é esperada e melhora gradualmente. Iniciar com doses baixas e aumentar lentamente para melhorar a tolerância intestinal.",
+    "educacao": "Em caso de hipoglicemia durante o uso de acarbose, usar glucose pura (dextrose) — não açúcar de mesa (sacarose) nem leite com lactose, pois a acarbose bloqueia sua absorção.",
+    "resposta_rapida": [
+      "Diabetes tipo 2 — pico pós-refeição",
+      "Tomar com a primeira garfada",
+      "Tarja amarela",
+      "Flatulência é comum no início",
+      "Hipoglicemia: usar glucose pura"
+    ]
+  },
+  {
     "nome": "Aceclofenaco 100mg",
     "generico": "Aceclofenaco",
     "tipo": "Anti-inflamatório não esteroidal (AINE)",
@@ -871,6 +899,33 @@
     ]
   },
   {
+    "nome": "Anlodipino + Hidroclorotiazida",
+    "generico": "Anlodipino besilato + Hidroclorotiazida",
+    "tipo": "Anti-hipertensivo combinado — BCC + Diurético",
+    "sinonimos": [
+      "anlodipino hidroclorotiazida",
+      "amlodipino hidroclorotiazida",
+      "norvasc hct"
+    ],
+    "descricao": "Combinação de anlodipino (bloqueador de canal de cálcio) com hidroclorotiazida (diurético tiazídico) em um único comprimido para hipertensão arterial. A combinação tem efeito sinérgico — cada componente age por mecanismo diferente, potencializando o controle da pressão.",
+    "receita": "Sim",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica Necessária",
+    "receita_cor": "amarelo",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
+    "receita_nota": "Combinação em dose fixa — facilita a adesão ao tratamento com um único comprimido.",
+    "efeitos": "Edema nos tornozelos (anlodipino), aumento da frequência urinária (hidroclorotiazida), tontura, cefaleia, hipocalemia.",
+    "aviso_grave": "A hidroclorotiazida pode elevar o ácido úrico (risco em gotosos) e reduzir o potássio. Monitorar eletrólitos regularmente.",
+    "recomendacao": "⚠️ Tomar pela manhã para evitar idas ao banheiro durante a noite. Monitorar potássio e ácido úrico regularmente.",
+    "educacao": "Combinações de anti-hipertensivos em dose fixa melhoram muito a adesão ao tratamento — um comprimido no lugar de dois. A maioria dos hipertensos precisa de mais de um medicamento para controlar adequadamente a pressão.",
+    "resposta_rapida": [
+      "Anti-hipertensivo combinado",
+      "Um comprimido — dois efeitos",
+      "Tarja amarela",
+      "Tomar pela manhã",
+      "Monitorar potássio"
+    ]
+  },
+  {
     "nome": "Anlodipino 5mg - 10mg",
     "generico": "Anlodipino",
     "tipo": "Bloqueador de Cálcio",
@@ -1462,6 +1517,35 @@
     "receita_cor": "verde"
   },
   {
+    "nome": "Bismuto — Subcitrato de Bismuto",
+    "generico": "Subcitrato de bismuto potássico",
+    "tipo": "Gastroprotetor / Antibacteriano gástrico",
+    "sinonimos": [
+      "bismuto",
+      "subcitrato de bismuto",
+      "de-nol",
+      "bismuto coloidal",
+      "tripotassio dicitrato bismutato"
+    ],
+    "descricao": "Usado no tratamento de úlcera péptica e erradicação do Helicobacter pylori (em combinação com antibióticos). Age formando uma camada protetora sobre a úlcera, inibindo a ação da pepsina e estimulando a produção de muco gástrico. Também tem ação bactericida direta contra H. pylori.",
+    "receita": "Sim",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica Necessária",
+    "receita_cor": "amarelo",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
+    "receita_nota": "Tomar 30 minutos antes das refeições e ao deitar. Não tomar junto com antiácidos.",
+    "efeitos": "Fezes pretas ou escurecidas (normal — não é sangue), língua escurecida (normal), náusea, constipação.",
+    "aviso_grave": "As fezes pretas são esperadas e normais — não confundir com sangramento digestivo. Não usar por mais de 8 semanas consecutivas — risco de encefalopatia por bismuto.",
+    "recomendacao": "⚠️ As fezes escurecidas são efeito normal do bismuto — não se assustar. Não exceder 8 semanas de uso contínuo.",
+    "educacao": "O bismuto faz parte do esquema quádruplo para erradicação do H. pylori quando o esquema tríplice falhou. É um dos componentes da chamada 'terapia de resgate' para H. pylori resistente.",
+    "resposta_rapida": [
+      "Úlcera e H. pylori",
+      "Fezes pretas são normais",
+      "Tarja amarela",
+      "Não exceder 8 semanas",
+      "Tomar antes das refeições"
+    ]
+  },
+  {
     "nome": "Bisoprolol + Hidroclorotiazida 5mg/6,25mg - 10mg/6,25mg",
     "generico": "Bisoprolol + Hidroclorotiazida",
     "tipo": "Beta-bloqueador + Diurético Tiazídico",
@@ -1518,6 +1602,34 @@
     "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
     "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
+  },
+  {
+    "nome": "Brivaracetam 10mg - 25mg - 50mg - 75mg - 100mg",
+    "generico": "Brivaracetam",
+    "tipo": "Antiepiléptico — Análogo do levetiracetam",
+    "sinonimos": [
+      "brivaracetam",
+      "briviact",
+      "brivaracetam 50mg",
+      "briviact 50mg"
+    ],
+    "descricao": "Antiepiléptico de nova geração, análogo mais potente do levetiracetam. Aprovado para crises focais em adultos e adolescentes. Age ligando-se à proteína SV2A das vesículas sinápticas com alta afinidade — 10-30 vezes maior que o levetiracetam.",
+    "receita": "Sim",
+    "receita_display": "🔴 Receita de Controle Especial — Branca 2 vias",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Receita de Controle Especial (branca, duas vias). A 1ª via fica retida na farmácia. Validade de 30 dias.",
+    "receita_nota": "Tem menos efeitos comportamentais que o levetiracetam — vantagem importante para alguns pacientes.",
+    "efeitos": "Sonolência, tontura, fadiga, náusea. Menos irritabilidade e alterações de humor que o levetiracetam.",
+    "aviso_grave": "Nunca interromper abruptamente. Pode reduzir o efeito de anticoncepcionais — usar método adicional de contracepção.",
+    "recomendacao": "⚠️ Mulheres em uso de anticoncepcionais devem usar método adicional de barreira — o brivaracetam pode reduzir a eficácia das pílulas.",
+    "educacao": "O brivaracetam é considerado uma versão otimizada do levetiracetam — mesma família, maior potência e menos efeitos comportamentais (irritabilidade, agressividade) que são comuns com o levetiracetam.",
+    "resposta_rapida": [
+      "Antiepiléptico para crises focais",
+      "Menos irritabilidade que levetiracetam",
+      "Receita branca 2 vias",
+      "Cuidado com anticoncepcionais",
+      "Nunca parar abruptamente"
+    ]
   },
   {
     "nome": "Bromazepam 3mg e 6mg",
@@ -2193,6 +2305,34 @@
     "receita_cor": "amarelo"
   },
   {
+    "nome": "Cefadroxila 500mg - 1g",
+    "generico": "Cefadroxila monoidratada",
+    "tipo": "Antibiótico — Cefalosporina de 1ª geração",
+    "sinonimos": [
+      "cefadroxila",
+      "cefamox",
+      "cefadroxila 500mg",
+      "cefamox 500mg"
+    ],
+    "descricao": "Cefalosporina de 1ª geração muito usada para infecções de pele, tecidos moles, infecções urinárias não complicadas e faringite estreptocócica. Tem boa cobertura para estafilococos e estreptococos. Pode ser tomada uma ou duas vezes ao dia.",
+    "receita": "Sim",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica Necessária",
+    "receita_cor": "amarelo",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
+    "receita_nota": "Antibiótico — receita simples retida obrigatória (ANVISA RDC 20/2011).",
+    "efeitos": "Diarreia, náusea, vômito, candidíase. Raramente: reação alérgica, reação cruzada com penicilina.",
+    "aviso_grave": "Informar alergia à penicilina antes de usar. Completar o tratamento mesmo com melhora dos sintomas.",
+    "recomendacao": "⚠️ Pode ser tomada com ou sem alimentos. A posologia de 1 ou 2 vezes ao dia facilita a adesão ao tratamento.",
+    "educacao": "A cefadroxila tem meia-vida mais longa que outras cefalosporinas de 1ª geração, permitindo doses menos frequentes. É uma boa opção para infecções de pele por estafilococos.",
+    "resposta_rapida": [
+      "Antibiótico para pele e urina",
+      "1 ou 2 vezes ao dia",
+      "Tarja amarela com receita",
+      "Informar alergia à penicilina",
+      "Completar o tratamento"
+    ]
+  },
+  {
     "nome": "Cefalexina 500mg - 1,0g - Suspensão",
     "generico": "Cefalexina",
     "tipo": "Antibiótico",
@@ -2215,6 +2355,34 @@
     "receita_cor": "vermelho"
   },
   {
+    "nome": "Cefpodoxima 100mg - 200mg",
+    "generico": "Proxetila de cefpodoxima",
+    "tipo": "Antibiótico — Cefalosporina de 3ª geração oral",
+    "sinonimos": [
+      "cefpodoxima",
+      "orelox",
+      "cefpodoxima 200mg",
+      "orelox 200mg"
+    ],
+    "descricao": "Cefalosporina oral de 3ª geração com amplo espectro, usada em infecções respiratórias (pneumonia, sinusite, otite), infecções urinárias e gonorreia não complicada. Tem excelente cobertura para gram-negativos e é resistente a muitas betalactamases.",
+    "receita": "Sim",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica Necessária",
+    "receita_cor": "amarelo",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
+    "receita_nota": "Antibiótico — receita simples retida obrigatória (ANVISA RDC 20/2011).",
+    "efeitos": "Diarreia, náusea, dor abdominal, candidíase, cefaleia. Raramente: reação alérgica.",
+    "aviso_grave": "Tomar obrigatoriamente com alimentos — a absorção aumenta significativamente com comida. Informar alergia à penicilina.",
+    "recomendacao": "⚠️ SEMPRE tomar com alimentos — a absorção sem alimentação cai muito. Completar o tratamento prescrito.",
+    "educacao": "As cefalosporinas de 3ª geração têm cobertura mais ampla para bactérias gram-negativas. A cefpodoxima é uma das poucas cefalosporinas de 3ª geração disponíveis em formulação oral.",
+    "resposta_rapida": [
+      "Antibiótico amplo espectro",
+      "TOMAR COM ALIMENTOS",
+      "Tarja amarela com receita",
+      "Infecções respiratórias e urinárias",
+      "Completar o tratamento"
+    ]
+  },
+  {
     "nome": "Ceftriaxona 250mg - 500mg - 1,0g Injetável",
     "generico": "Ceftriaxona",
     "tipo": "Antibiótico",
@@ -2235,6 +2403,34 @@
     "receita_display": "🔴 Receita Obrigatória — Antibiótico",
     "receita_descricao": "Antibiótico — receita simples retida obrigatória (ANVISA RDC 20/2011).",
     "receita_cor": "vermelho"
+  },
+  {
+    "nome": "Cefuroxima 250mg - 500mg",
+    "generico": "Cefuroxima axetila",
+    "tipo": "Antibiótico — Cefalosporina de 2ª geração",
+    "sinonimos": [
+      "cefuroxima",
+      "zinnat",
+      "cefuroxima 500mg",
+      "zinnat 500mg"
+    ],
+    "descricao": "Antibiótico cefalosporínico de 2ª geração usado em infecções respiratórias (sinusite, pneumonia, bronquite), infecções urinárias, otite média e infecções de pele. Tem boa cobertura contra bactérias gram-positivas e algumas gram-negativas, incluindo Haemophilus influenzae.",
+    "receita": "Sim",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica Necessária",
+    "receita_cor": "amarelo",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
+    "receita_nota": "Antibiótico — receita simples retida obrigatória (ANVISA RDC 20/2011).",
+    "efeitos": "Diarreia, náusea, dor abdominal, candidíase oral ou vaginal, reações alérgicas. Raramente: reação cruzada em alérgicos à penicilina (5-10% de chance).",
+    "aviso_grave": "Informar ao médico sobre alergia à penicilina — pode haver reação cruzada. Completar sempre o tratamento completo mesmo com melhora dos sintomas.",
+    "recomendacao": "⚠️ Tomar com alimentos para melhorar a absorção e reduzir efeitos gastrointestinais. Completar o curso completo do antibiótico.",
+    "educacao": "A cefuroxima é uma cefalosporina de 2ª geração com melhor cobertura para gram-negativos que as de 1ª geração (cefalexina). É frequentemente usada quando a amoxicilina não é suficiente.",
+    "resposta_rapida": [
+      "Antibiótico cefalosporina",
+      "Infecções respiratórias e urinárias",
+      "Tarja amarela com receita",
+      "Tomar com alimentos",
+      "Completar o tratamento"
+    ]
   },
   {
     "nome": "Celecoxibe 100mg - 200mg",
@@ -2737,6 +2933,35 @@
     "receita_nota": "Prescrição médica obrigatória. Receita válida por 30 dias."
   },
   {
+    "nome": "Cobre — Gluconato ou Bisglicinato de Cobre",
+    "generico": "Gluconato de cobre / Bisglicinato de cobre",
+    "tipo": "Suplemento mineral essencial",
+    "sinonimos": [
+      "cobre",
+      "gluconato de cobre",
+      "bisglicinato de cobre",
+      "copper",
+      "cobre 2mg"
+    ],
+    "descricao": "Mineral essencial para formação de hemoglobina, colágeno, melanina e função imunológica. A deficiência de cobre é rara mas pode ocorrer em pessoas que suplementam muito zinco (zinco em excesso bloqueia a absorção de cobre), após cirurgia bariátrica ou em síndromes de má absorção.",
+    "receita": "Não",
+    "receita_display": "🟢 Venda Livre — Sem Receita",
+    "receita_cor": "verde",
+    "receita_descricao": "Suplemento mineral disponível sem prescrição.",
+    "receita_nota": "Quem suplementa zinco em doses altas (>40mg/dia) por tempo prolongado deve considerar suplementar cobre também — o zinco bloqueia a absorção de cobre.",
+    "efeitos": "Em doses normais: muito bem tolerado. Em excesso: náusea, vômito, dor abdominal, danos hepáticos (toxicidade por cobre — raro).",
+    "aviso_grave": "Doença de Wilson (acúmulo genético de cobre) é contraindicação absoluta. Excesso de cobre é hepatotóxico.",
+    "recomendacao": "⚠️ Quem toma zinco acima de 40mg/dia por períodos prolongados deve balancear com cobre para evitar deficiência. A proporção usual é 1mg de cobre para cada 15mg de zinco.",
+    "educacao": "O balanço zinco-cobre é importante: o zinco em doses altas compete com o cobre pela absorção intestinal. Isso é especialmente relevante em pessoas que suplementam zinco em doses elevadas por longo prazo.",
+    "resposta_rapida": [
+      "Suplemento mineral essencial",
+      "Venda livre",
+      "Zinco alto bloqueia absorção de cobre",
+      "Deficiência rara",
+      "Contraindicado na doença de Wilson"
+    ]
+  },
+  {
     "nome": "Codeína 30mg - 60mg, Xarope e Injetável",
     "generico": "Codeína",
     "tipo": "Opioide",
@@ -3028,6 +3253,36 @@
       "Efeito lento 4–8 semanas",
       "Cuidado em diabéticos",
       "Tomar com alimentação"
+    ]
+  },
+  {
+    "nome": "Curcumina — Cúrcuma",
+    "generico": "Curcumina (Curcuma longa)",
+    "tipo": "Suplemento fitoterápico anti-inflamatório",
+    "sinonimos": [
+      "curcumina",
+      "curcuma",
+      "açafrão da terra",
+      "curcumin",
+      "cúrcuma",
+      "turmeric"
+    ],
+    "descricao": "Polifenol ativo extraído da cúrcuma (Curcuma longa) com potente ação anti-inflamatória e antioxidante. Estudado para artrite, síndrome metabólica, saúde intestinal e neuroproteção. A biodisponibilidade oral é naturalmente baixa — formulações com piperina ou lipossomadas melhoram a absorção.",
+    "receita": "Não",
+    "receita_display": "🟢 Venda Livre — Sem Receita",
+    "receita_cor": "verde",
+    "receita_descricao": "Suplemento fitoterápico disponível sem prescrição.",
+    "receita_nota": "Formulas com piperina (extrato de pimenta preta) aumentam a absorção em até 2000%. Tomar com gordura também melhora a biodisponibilidade.",
+    "efeitos": "Geralmente muito bem tolerada. Em doses altas: náusea, diarreia, desconforto gástrico. Pode colorir fezes e urina de amarelo.",
+    "aviso_grave": "Pode potencializar anticoagulantes — cuidado com varfarina e aspirina. Contraindicada em obstrução biliar e cálculos biliares. Evitar no período pré-cirúrgico.",
+    "recomendacao": "⚠️ Preferir formulações com piperina ou lipossomadas para melhor absorção. Tomar com refeição que contenha gordura. Usuários de anticoagulantes: monitorar.",
+    "educacao": "A curcumina tem absorção oral muito baixa — a maior parte é eliminada sem ser absorvida. Por isso, as formulações modernas usam estratégias como piperina, nanopartículas ou lipossomas para aumentar a biodisponibilidade e eficácia.",
+    "resposta_rapida": [
+      "Anti-inflamatório natural",
+      "Venda livre",
+      "Tomar com piperina e gordura",
+      "Cuidado com anticoagulantes",
+      "Pode colorir fezes de amarelo"
     ]
   },
   {
@@ -3802,6 +4057,34 @@
     "receita_nota": "Prescrição médica obrigatória. Receita válida por 30 dias."
   },
   {
+    "nome": "Dupilumabe (Dupixent)",
+    "generico": "Dupilumabe",
+    "tipo": "Imunobiológico — Anticorpo monoclonal anti-IL-4/IL-13",
+    "sinonimos": [
+      "dupilumabe",
+      "dupixent",
+      "dupilumab",
+      "dupixent 300mg"
+    ],
+    "descricao": "Anticorpo monoclonal injetável que bloqueia as interleucinas IL-4 e IL-13, principais mediadores da inflamação tipo 2. Indicado para dermatite atópica moderada a grave, asma eosinofílica, rinossinusite crônica com pólipos e esofagite eosinofílica que não responderam a tratamentos convencionais.",
+    "receita": "Sim",
+    "receita_display": "🟡 Tarja Amarela — Medicamento Biológico de Alto Custo",
+    "receita_cor": "amarelo",
+    "receita_descricao": "Exige prescrição médica de especialista. Medicamento biológico de alto custo — acesso via plano de saúde com laudo ou processo judicial junto ao SUS.",
+    "receita_nota": "Injeção subcutânea a cada 2-4 semanas. Guardar na geladeira (2-8°C).",
+    "efeitos": "Reação no local da injeção, conjuntivite (muito comum na dermatite atópica — tratar com colírio), cefaleia, herpes oral.",
+    "aviso_grave": "Conjuntivite é efeito colateral muito comum na dermatite atópica — comunicar ao médico para tratamento com colírio. Não fazer vacinas de vírus vivo durante o tratamento.",
+    "recomendacao": "⚠️ Guardar sempre na geladeira. Retirar da geladeira 30-45 minutos antes de aplicar para atingir temperatura ambiente — reduz dor na injeção.",
+    "educacao": "O dupilumabe revolucionou o tratamento da dermatite atópica grave — é o primeiro biológico aprovado para essa condição e proporciona melhora dramática na qualidade de vida de pacientes que não respondiam a nenhum tratamento convencional.",
+    "resposta_rapida": [
+      "Dermatite atópica grave e asma",
+      "Injeção a cada 2-4 semanas",
+      "Alto custo — plano ou processo judicial",
+      "Guardar na geladeira",
+      "Conjuntivite é efeito comum"
+    ]
+  },
+  {
     "nome": "Dutasterida 0,5mg",
     "generico": "Dutasterida",
     "tipo": "Inibidor da 5-alfa-redutase",
@@ -3927,6 +4210,35 @@
     "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
     "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
+  },
+  {
+    "nome": "Eritromicina tópica 2%",
+    "generico": "Eritromicina base",
+    "tipo": "Antibiótico tópico — Dermatologia",
+    "sinonimos": [
+      "eritromicina topica",
+      "eritromicina gel",
+      "eritromicina 2%",
+      "eryacne",
+      "eryderm"
+    ],
+    "descricao": "Antibiótico macrolídeo de uso tópico para tratamento de acne inflamatória (pápulas e pústulas). Age reduzindo a proliferação de Cutibacterium acnes (bactéria relacionada à acne) e tem efeito anti-inflamatório local.",
+    "receita": "Sim",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica Necessária",
+    "receita_cor": "amarelo",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
+    "receita_nota": "Frequentemente combinada com peróxido de benzoíla para reduzir resistência bacteriana.",
+    "efeitos": "Ressecamento e descamação local, ardência leve, irritação cutânea. Raramente: alergia de contato.",
+    "aviso_grave": "Resistência bacteriana é crescente com uso isolado — preferir combinação com peróxido de benzoíla. Evitar olhos, boca e mucosas.",
+    "recomendacao": "⚠️ Aplicar em pele limpa e seca. Resultados aparecem em 6-8 semanas — persistir no tratamento. Usar protetor solar — pele tratada com antibiótico tópico pode ser mais sensível ao sol.",
+    "educacao": "A eritromicina tópica é mais eficaz quando combinada com peróxido de benzoíla — a combinação reduz a resistência bacteriana e potencializa o efeito antibacteriano. Essa combinação está disponível em formulações prontas.",
+    "resposta_rapida": [
+      "Antibiótico tópico para acne",
+      "Tarja amarela",
+      "Resultados em 6-8 semanas",
+      "Combinar com peróxido de benzoíla",
+      "Usar protetor solar"
+    ]
   },
   {
     "nome": "Eritropoetina Alfa / Epoetina Alfa 2.000UI - 4.000UI - 10.000UI",
@@ -4100,6 +4412,36 @@
     "receita_cor": "amarelo"
   },
   {
+    "nome": "Estradiol gel tópico / transdérmico",
+    "generico": "Estradiol hemi-hidratado",
+    "tipo": "Hormônio estrogênico — Terapia de reposição hormonal",
+    "sinonimos": [
+      "estradiol gel",
+      "estradiol topico",
+      "estrogel",
+      "divigel",
+      "estradiol transdermal",
+      "estradiol patch"
+    ],
+    "descricao": "Reposição de estrogênio para tratamento dos sintomas do climatério/menopausa: fogachos, suores noturnos, secura vaginal, alterações de humor e prevenção da osteoporose. A via tópica/transdérmica tem vantagens sobre a oral — menor risco de trombose e efeitos hepáticos.",
+    "receita": "Sim",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica Necessária",
+    "receita_cor": "amarelo",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
+    "receita_nota": "Mulheres com útero intacto devem usar progesterona associada para proteger o endométrio.",
+    "efeitos": "Mastodinia (dor nas mamas), sangramento irregular, retenção de líquidos, cefaleia, irritação no local de aplicação (adesivo).",
+    "aviso_grave": "Contraindicado em câncer de mama ou endométrio, tromboembolismo ativo, doença hepática grave. Mulheres com útero devem usar progesterona — estrogênio isolado aumenta risco de câncer de endométrio.",
+    "recomendacao": "⚠️ Mulheres com útero: NUNCA usar estradiol sem progesterona associada. Rodiziar o local de aplicação do gel/adesivo. Fazer mamografia e ultrassom anualmente.",
+    "educacao": "A via transdérmica é preferida por não passar pelo fígado (efeito de primeira passagem), resultando em menor risco de trombose e eventos cardiovasculares comparado ao estrogênio oral.",
+    "resposta_rapida": [
+      "Menopausa e climatério",
+      "Via gel ou adesivo",
+      "Tarja amarela",
+      "Com útero: usar progesterona associada",
+      "Menor risco de trombose que a via oral"
+    ]
+  },
+  {
     "nome": "Etambutol 400mg - Solução Oral",
     "generico": "Etambutol",
     "tipo": "Antibiótico Antituberculose",
@@ -4149,6 +4491,35 @@
     "receita_display": "🔴 Receita Médica Obrigatória",
     "receita_descricao": "Exige receita médica obrigatória para dispensação.",
     "receita_cor": "vermelho"
+  },
+  {
+    "nome": "Exenatida (Byetta / Bydureon)",
+    "generico": "Exenatida",
+    "tipo": "Análogo do GLP-1 — Antidiabético injetável",
+    "sinonimos": [
+      "exenatida",
+      "byetta",
+      "bydureon",
+      "exenatida semanal",
+      "exenatida 2mg"
+    ],
+    "descricao": "Análogo do GLP-1 para diabetes tipo 2. Disponível em duas formas: Byetta (injeção 2x/dia) e Bydureon (injeção semanal de liberação prolongada). Estimula a secreção de insulina dependente de glicose, reduz o glucagon e o apetite, e retarda o esvaziamento gástrico.",
+    "receita": "Sim",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica Necessária",
+    "receita_cor": "amarelo",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
+    "receita_nota": "Byetta: aplicar 60 minutos antes do café e jantar. Bydureon: aplicar uma vez por semana, qualquer horário.",
+    "efeitos": "Náusea (muito comum no início), vômito, diarreia, reação no local da injeção. Raramente: pancreatite.",
+    "aviso_grave": "Contraindicada em histórico pessoal ou familiar de carcinoma medular de tireoide ou NEM tipo 2. Suspender se houver suspeita de pancreatite.",
+    "recomendacao": "⚠️ A náusea melhora muito com o tempo — iniciar com dose baixa e aumentar gradualmente. Comer porções menores ajuda a reduzir o desconforto.",
+    "educacao": "A exenatida foi o primeiro análogo do GLP-1 aprovado e é derivada de uma proteína encontrada na saliva do lagarto Heloderma suspectum. A versão semanal (Bydureon) melhorou muito a adesão ao tratamento.",
+    "resposta_rapida": [
+      "Diabetes tipo 2 — injetável",
+      "Versão diária ou semanal",
+      "Tarja amarela",
+      "Náusea no início é comum",
+      "Contraindicado em câncer de tireoide familiar"
+    ]
   },
   {
     "nome": "Ezetimiba 10mg",
@@ -4206,6 +4577,35 @@
     "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
     "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
+  },
+  {
+    "nome": "Febuxostato 40mg - 80mg",
+    "generico": "Febuxostato",
+    "tipo": "Antigotoso — Inibidor da xantina oxidase",
+    "sinonimos": [
+      "febuxostato",
+      "adenuric",
+      "uloric",
+      "febuxostate",
+      "febuxostato 80mg"
+    ],
+    "descricao": "Medicamento para tratamento crônico da hiperuricemia (ácido úrico elevado) e prevenção de crises de gota. Age inibindo a enzima xantina oxidase, reduzindo a produção de ácido úrico. É uma alternativa ao alopurinol especialmente em pacientes com insuficiência renal moderada.",
+    "receita": "Sim",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica Necessária",
+    "receita_cor": "amarelo",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
+    "receita_nota": "Pode ser tomado com ou sem alimentos. No início do tratamento, pode paradoxalmente precipitar crises de gota — usar profilaxia com colchicina ou AINE.",
+    "efeitos": "Crises de gota no início do tratamento (mobilização do urato), náusea, diarreia, cefaleia, aumento de enzimas hepáticas.",
+    "aviso_grave": "FDA emitiu alerta sobre possível aumento de risco cardiovascular comparado ao alopurinol. Usar com cautela em pacientes com doença cardiovascular estabelecida.",
+    "recomendacao": "⚠️ No início do tratamento, usar profilaxia com colchicina ou anti-inflamatório por 3-6 meses — o febuxostato pode precipitar crises de gota ao mobilizar depósitos de urato.",
+    "educacao": "O febuxostato tem a vantagem sobre o alopurinol de não requerer ajuste de dose na insuficiência renal moderada, sendo uma boa alternativa para pacientes com função renal reduzida.",
+    "resposta_rapida": [
+      "Gota e hiperuricemia",
+      "Alternativa ao alopurinol na insuficiência renal",
+      "Tarja amarela",
+      "Profilaxia no início com colchicina",
+      "Cuidado em cardiopatas"
+    ]
   },
   {
     "nome": "Fenitoína 100mg - Injetável",
@@ -5584,6 +5984,64 @@
     "receita_cor": "amarelo"
   },
   {
+    "nome": "Iodo — Iodeto de Potássio",
+    "generico": "Iodeto de potássio / Iodo molecular",
+    "tipo": "Suplemento mineral — Saúde da tireoide",
+    "sinonimos": [
+      "iodo",
+      "iodeto de potassio",
+      "iodo lugol",
+      "lugol",
+      "iodo 150mcg"
+    ],
+    "descricao": "Mineral essencial para a síntese dos hormônios tireoidianos (T3 e T4). A deficiência de iodo é causa de bócio e hipotireoidismo. No Brasil, a suplementação é feita pelo sal iodado. Suplementos são indicados em deficiência comprovada, gravidez, amamentação e algumas condições especiais.",
+    "receita": "Não",
+    "receita_display": "🟢 Venda Livre — Sem Receita",
+    "receita_cor": "verde",
+    "receita_descricao": "Suplemento mineral disponível sem prescrição nas doses fisiológicas.",
+    "receita_nota": "O sal de cozinha iodado já fornece iodo suficiente para a maioria das pessoas. Suplementação adicional raramente é necessária.",
+    "efeitos": "Em doses normais: muito bem tolerado. Em excesso: paradoxalmente pode causar hipotireoidismo ou hipertireoidismo (efeito Wolff-Chaikoff). Sabor metálico, irritação gástrica.",
+    "aviso_grave": "Pacientes com doenças da tireoide (Hashimoto, Graves, nódulos) devem consultar o médico antes de suplementar iodo — pode precipitar ou agravar disfunção tireoidiana.",
+    "recomendacao": "⚠️ Pacientes com doença tireoidiana: NÃO suplementar iodo sem orientação médica. O excesso pode descompensar a tireoide.",
+    "educacao": "No Brasil, a deficiência de iodo é rara graças à iodização obrigatória do sal de cozinha desde os anos 1950. Suplementar iodo sem necessidade comprovada pode ser prejudicial, especialmente em pessoas com predisposição a doenças da tireoide.",
+    "resposta_rapida": [
+      "Suporte à tireoide",
+      "Venda livre",
+      "Sal iodado já basta para a maioria",
+      "Doença tireoidiana: consultar médico",
+      "Excesso pode descompensar a tireoide"
+    ]
+  },
+  {
+    "nome": "Irbesartana 150mg - 300mg",
+    "generico": "Irbesartana",
+    "tipo": "Anti-hipertensivo — Antagonista do receptor de angiotensina II (BRA)",
+    "sinonimos": [
+      "irbesartana",
+      "aprovel",
+      "avapro",
+      "irbesartana 300mg",
+      "aprovel 300mg"
+    ],
+    "descricao": "BRA indicado para hipertensão arterial e nefropatia diabética (proteção renal em diabéticos tipo 2 com pressão alta e proteína na urina). Tem efeito protetor renal independente do controle pressórico.",
+    "receita": "Sim",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica Necessária",
+    "receita_cor": "amarelo",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
+    "receita_nota": "Contraindicado na gravidez. Boa opção para diabéticos hipertensos com proteína na urina.",
+    "efeitos": "Tontura, hipercalemia, cefaleia, fadiga. Raramente: angioedema.",
+    "aviso_grave": "Contraindicado na gravidez. Monitorar potássio e função renal especialmente em diabéticos e pacientes com doença renal.",
+    "recomendacao": "⚠️ Em diabéticos com proteína na urina, a irbesartana tem benefício renal comprovado além do controle da pressão. Monitorar creatinina e potássio regularmente.",
+    "educacao": "A irbesartana é uma das opções preferenciais para hipertensos diabéticos com microalbuminúria (proteína na urina) — tem evidência sólida de proteção renal nesse grupo específico.",
+    "resposta_rapida": [
+      "Anti-hipertensivo BRA",
+      "Proteção renal no diabetes",
+      "Tarja amarela",
+      "Proibido na gravidez",
+      "Monitorar potássio e função renal"
+    ]
+  },
+  {
     "nome": "Isoniazida 300mg",
     "generico": "Isoniazida",
     "tipo": "Antibiótico Antituberculose",
@@ -5606,6 +6064,35 @@
     "receita_display": "🔴 Receita Obrigatória — Antibiótico",
     "receita_descricao": "Antibiótico — receita simples retida obrigatória (ANVISA RDC 20/2011).",
     "receita_cor": "vermelho"
+  },
+  {
+    "nome": "Isossorbida 5mg - 10mg - 20mg - 40mg",
+    "generico": "Mononitrato ou dinitrato de isossorbida",
+    "tipo": "Antianginoso — Nitrato orgânico",
+    "sinonimos": [
+      "isossorbida",
+      "monocordil",
+      "isordil",
+      "isossorbida 20mg",
+      "mononitrato isossorbida"
+    ],
+    "descricao": "Nitrato orgânico usado na prevenção e tratamento da angina pectoris e na insuficiência cardíaca. Dilata as veias e artérias coronárias, reduzindo a carga de trabalho do coração e melhorando o fluxo sanguíneo. Disponível em comprimido comum e liberação prolongada.",
+    "receita": "Sim",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica Necessária",
+    "receita_cor": "amarelo",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
+    "receita_nota": "Necessário período livre de nitrato (8-12h) para evitar tolerância — geralmente omitindo a dose noturna.",
+    "efeitos": "Cefaleia intensa (muito comum no início — melhora com o tempo), hipotensão, tontura, rubor facial, palpitações.",
+    "aviso_grave": "CONTRAINDICADO com sildenafila, tadalafila e vardenafila (viagra e similares) — queda grave e súbita da pressão arterial, potencialmente fatal.",
+    "recomendacao": "⚠️ A cefaleia no início é muito comum e incomoda bastante — melhora nas primeiras semanas. Não usar sildenafila/tadalafila em nenhuma circunstância durante o tratamento.",
+    "educacao": "Para evitar tolerância ao nitrato (quando o medicamento perde eficácia), é necessário um intervalo diário sem o medicamento. Por isso geralmente não se toma a dose noturna — o médico orientará o esquema.",
+    "resposta_rapida": [
+      "Angina e insuficiência cardíaca",
+      "Tarja amarela",
+      "Cefaleia no início é comum",
+      "PROIBIDO com viagra/cialis",
+      "Intervalo livre de nitrato necessário"
+    ]
   },
   {
     "nome": "Isotretinoína 10mg - 20mg",
@@ -5735,6 +6222,34 @@
       "Tarja amarela",
       "Resultados em 4–8 semanas",
       "Não confundir com ivermectina oral"
+    ]
+  },
+  {
+    "nome": "Lacosamida 50mg - 100mg - 150mg - 200mg",
+    "generico": "Lacosamida",
+    "tipo": "Antiepiléptico de nova geração",
+    "sinonimos": [
+      "lacosamida",
+      "vimpat",
+      "lacosamida 100mg",
+      "vimpat 100mg"
+    ],
+    "descricao": "Antiepiléptico de nova geração aprovado para crises focais (parciais) em adultos e adolescentes, como monoterapia ou em combinação. Age de forma única — potencializa a inativação lenta dos canais de sódio voltagem-dependentes, reduzindo a hiperexcitabilidade neuronal.",
+    "receita": "Sim",
+    "receita_display": "🔴 Receita de Controle Especial — Branca 2 vias",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Receita de Controle Especial (branca, duas vias). A 1ª via fica retida na farmácia. Validade de 30 dias.",
+    "receita_nota": "Iniciar com dose baixa e aumentar gradualmente para minimizar efeitos colaterais.",
+    "efeitos": "Tontura, cefaleia, diplopia (visão dupla), náusea, tremor, fadiga. Prolongamento do intervalo PR no ECG.",
+    "aviso_grave": "Monitorar ECG antes e durante o tratamento — pode prolongar o intervalo PR, causando alterações de condução cardíaca. Nunca interromper abruptamente — risco de convulsões.",
+    "recomendacao": "⚠️ Nunca parar abruptamente — risco grave de convulsões. O ajuste de dose deve ser lento e sempre orientado pelo neurologista.",
+    "educacao": "A lacosamida tem mecanismo de ação diferente dos outros antiepilépticos, tornando-a útil quando outros medicamentos não controlaram as crises. Disponível também em formulação injetável para uso hospitalar.",
+    "resposta_rapida": [
+      "Antiepiléptico para crises focais",
+      "Receita branca 2 vias",
+      "Nunca parar abruptamente",
+      "Monitorar ECG",
+      "Inicio com dose baixa"
     ]
   },
   {
@@ -6016,6 +6531,34 @@
     "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
     "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
+  },
+  {
+    "nome": "Linezolida 400mg - 600mg",
+    "generico": "Linezolida",
+    "tipo": "Antibiótico — Oxazolidinona — Uso hospitalar",
+    "sinonimos": [
+      "linezolida",
+      "zyvox",
+      "zyvoxid",
+      "linezolida 600mg"
+    ],
+    "descricao": "Antibiótico reservado para infecções graves por bactérias multirresistentes, especialmente MRSA (Staphylococcus aureus resistente à meticilina) e enterococos resistentes à vancomicina (VRE). Disponível em comprimido e solução injetável.",
+    "receita": "Sim",
+    "receita_display": "🔴 Uso Hospitalar — Prescrição Médica Obrigatória",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Antibiótico de uso restrito hospitalar ou especializado para infecções por bactérias multirresistentes.",
+    "receita_nota": "Medicamento de uso controlado — prescrito apenas por infectologistas em infecções graves com resistência comprovada.",
+    "efeitos": "Náusea, diarreia, cefaleia, trombocitopenia (queda de plaquetas) no uso prolongado, neuropatia periférica e óptica no uso prolongado.",
+    "aviso_grave": "Interação grave com antidepressivos (ISRSs, IRSNs, IMAOs) — risco de síndrome serotoninérgica potencialmente fatal. Evitar alimentos ricos em tiramina (queijo curado, vinho tinto, embutidos) durante o tratamento.",
+    "recomendacao": "⚠️ Informar TODOS os medicamentos em uso antes de iniciar — interações graves com antidepressivos. Monitorar hemograma semanalmente no uso prolongado.",
+    "educacao": "A linezolida é um antibiótico de 'último recurso' — usada apenas quando outros antibióticos falharam ou quando a bactéria é resistente a tudo mais. Seu uso racional é fundamental para preservar sua eficácia.",
+    "resposta_rapida": [
+      "Antibiótico para bactérias resistentes (MRSA)",
+      "Uso hospitalar restrito",
+      "Interação grave com antidepressivos",
+      "Evitar queijos curados e vinho",
+      "Monitorar plaquetas"
+    ]
   },
   {
     "nome": "Lisador (Dipirona + Adifenina + Prometazina)",
@@ -6793,6 +7336,34 @@
     "receita_cor": "verde"
   },
   {
+    "nome": "Minociclina 50mg - 100mg",
+    "generico": "Cloridrato de minociclina",
+    "tipo": "Antibiótico — Tetraciclina de 2ª geração",
+    "sinonimos": [
+      "minociclina",
+      "minocin",
+      "minociclina 100mg",
+      "acnamin"
+    ],
+    "descricao": "Tetraciclina de 2ª geração com amplo espectro. Muito usada no tratamento de acne moderada a grave, rosacea, infecções por clamídia, micoplasma e rickettsias. Tem melhor absorção e penetração nos tecidos que a doxiciclina.",
+    "receita": "Sim",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica Necessária",
+    "receita_cor": "amarelo",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
+    "receita_nota": "Antibiótico — receita simples retida obrigatória (ANVISA RDC 20/2011).",
+    "efeitos": "Tontura, vertigem (mais comum que com doxiciclina), náusea, fotossensibilidade, pigmentação azulada da pele e dentes no uso prolongado.",
+    "aviso_grave": "Não usar em crianças menores de 8 anos e gestantes — mancha os dentes em formação. Proteger a pele do sol. Pode causar tontura intensa — cuidado ao dirigir.",
+    "recomendacao": "⚠️ Tomar na posição vertical e com bastante água para evitar irritação esofágica. Proteger a pele do sol — usar protetor solar diariamente.",
+    "educacao": "A minociclina tem a vantagem de poder ser tomada com alimentos sem perda significativa de absorção, diferente da doxiciclina. Porém causa mais tontura — efeito que melhora com o tempo.",
+    "resposta_rapida": [
+      "Antibiótico para acne e rosácea",
+      "Tarja amarela com receita",
+      "Pode causar tontura",
+      "Protetor solar obrigatório",
+      "Não usar em menores de 8 anos"
+    ]
+  },
+  {
     "nome": "Minoxidil 2% - 5% - Solução Tópica | Espuma",
     "generico": "Minoxidil",
     "tipo": "Antialopecia",
@@ -6813,6 +7384,35 @@
     "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
     "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
+  },
+  {
+    "nome": "Mirabegrona 25mg - 50mg",
+    "generico": "Mirabegrona",
+    "tipo": "Agonista beta-3 adrenérgico — Bexiga hiperativa",
+    "sinonimos": [
+      "mirabegrona",
+      "betmiga",
+      "myrbetriq",
+      "mirabegrona 50mg",
+      "betmiga 50mg"
+    ],
+    "descricao": "Medicamento para bexiga hiperativa (urgência urinária, frequência aumentada, urge-incontinência). Mecanismo único — ativa receptores beta-3 na bexiga, relaxando o músculo detrusor e aumentando a capacidade vesical. Alternativa aos anticolinérgicos com menos efeitos colaterais.",
+    "receita": "Sim",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica Necessária",
+    "receita_cor": "amarelo",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
+    "receita_nota": "Pode ser tomado com ou sem alimentos. Não partir ou mastigar — liberação prolongada.",
+    "efeitos": "Hipertensão arterial (monitorar), infecção urinária, taquicardia, cefaleia, boca seca (menos que anticolinérgicos).",
+    "aviso_grave": "Monitorar pressão arterial regularmente — pode elevar a PA. Contraindicado em hipertensão grave não controlada.",
+    "recomendacao": "⚠️ Monitorar a pressão arterial especialmente no início do tratamento. Vantagem sobre anticolinérgicos: menos boca seca, constipação e confusão mental — melhor opção para idosos.",
+    "educacao": "A mirabegrona foi um avanço no tratamento da bexiga hiperativa por ter mecanismo completamente diferente dos anticolinérgicos (oxibutinina, solifenacina). Causa menos efeitos colaterais cognitivos, sendo preferida em idosos.",
+    "resposta_rapida": [
+      "Bexiga hiperativa",
+      "Menos efeitos que anticolinérgicos",
+      "Tarja amarela",
+      "Monitorar pressão arterial",
+      "Não partir os comprimidos"
+    ]
   },
   {
     "nome": "Mirtazapina 15mg - 30mg - 45mg",
@@ -6836,6 +7436,34 @@
     "receita_descricao": "Medicamento controlado categoria C1. Exige receituário branco em duas vias: uma fica no estabelecimento, outra vai com o paciente.",
     "receita_cor": "vermelho",
     "receita_nota": "Prescrição médica obrigatória. Receita válida por 30 dias."
+  },
+  {
+    "nome": "Misoprostol 25mcg - 200mcg",
+    "generico": "Misoprostol",
+    "tipo": "Análogo da prostaglandina E1 — Gastroprotetor / Uterotônico",
+    "sinonimos": [
+      "misoprostol",
+      "cytotec",
+      "prostokos",
+      "misoprostol 200mcg"
+    ],
+    "descricao": "Análogo sintético da prostaglandina E1 com múltiplas indicações: proteção gástrica em usuários de AINEs (prevenção de úlcera), indução do parto, tratamento de hemorragia pós-parto e esvaziamento uterino. Causa contrações uterinas e proteção da mucosa gástrica.",
+    "receita": "Sim",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica Necessária",
+    "receita_cor": "amarelo",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
+    "receita_nota": "Uso ginecológico/obstétrico deve ser feito exclusivamente em ambiente hospitalar com monitoramento.",
+    "efeitos": "Diarreia, cólicas abdominais, náusea, sangramento uterino (quando usado em ginecologia).",
+    "aviso_grave": "CONTRAINDICADO na gravidez quando a intenção é manter a gestação — causa contrações uterinas e pode levar ao aborto. Uso obstétrico apenas em ambiente hospitalar supervisionado.",
+    "recomendacao": "⚠️ Para proteção gástrica: tomar com as refeições. Para uso ginecológico/obstétrico: apenas em hospital com supervisão médica e monitoramento fetal.",
+    "educacao": "O misoprostol tem dupla função: gastroenterológica (proteção da mucosa gástrica) e obstétrica (indução do parto e controle de hemorragia). As doses e vias de administração são completamente diferentes para cada indicação.",
+    "resposta_rapida": [
+      "Proteção gástrica e uso obstétrico",
+      "Tarja amarela",
+      "Contraindicado na gravidez (uso gástrico)",
+      "Uso obstétrico apenas em hospital",
+      "Causa contrações uterinas"
+    ]
   },
   {
     "nome": "Montelucaste 4mg - 5mg - 10mg",
@@ -7083,6 +7711,34 @@
       "Tarja amarela",
       "Não combinar com outros triptanos",
       "Não é preventivo"
+    ]
+  },
+  {
+    "nome": "Nebivolol 5mg",
+    "generico": "Cloridrato de nebivolol",
+    "tipo": "Anti-hipertensivo — Betabloqueador de 3ª geração",
+    "sinonimos": [
+      "nebivolol",
+      "nebilet",
+      "nebivolol 5mg",
+      "nebilet 5mg"
+    ],
+    "descricao": "Betabloqueador de 3ª geração com alta cardiosseletividade e efeito vasodilatador único (libera óxido nítrico). Usado na hipertensão arterial e insuficiência cardíaca. Causa menos efeitos colaterais que betabloqueadores tradicionais, especialmente menos disfunção erétil.",
+    "receita": "Sim",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica Necessária",
+    "receita_cor": "amarelo",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
+    "receita_nota": "Uso contínuo — nunca interromper abruptamente.",
+    "efeitos": "Bradicardia, cefaleia, tontura, fadiga, extremidades frias. Menor impacto na função erétil comparado a outros betabloqueadores.",
+    "aviso_grave": "NUNCA interromper abruptamente — risco de angina rebote e infarto. Usar com cautela em asmáticos — apesar da alta seletividade, pode afetar os brônquios em doses altas.",
+    "recomendacao": "⚠️ Diferente dos betabloqueadores tradicionais, o nebivolol tem efeito vasodilatador que melhora a circulação periférica. Monitorar frequência cardíaca regularmente.",
+    "educacao": "O nebivolol é considerado o betabloqueador mais moderno — sua ação vasodilatadora via óxido nítrico o diferencia dos demais, causando menos efeitos colaterais vasculares e menor impacto na função sexual.",
+    "resposta_rapida": [
+      "Anti-hipertensivo betabloqueador",
+      "Menos disfunção erétil que outros betabloqueadores",
+      "Tarja amarela",
+      "Nunca parar abruptamente",
+      "Cuidado em asmáticos"
     ]
   },
   {
@@ -7397,6 +8053,34 @@
     "receita_cor": "vermelho"
   },
   {
+    "nome": "Nitrofurantoína 100mg macrocristal",
+    "generico": "Nitrofurantoína macrocristalina",
+    "tipo": "Antibiótico urinário",
+    "sinonimos": [
+      "nitrofurantoina",
+      "macrodantina",
+      "nitrofurantoina 100mg",
+      "macrobid"
+    ],
+    "descricao": "Antibiótico específico para infecções do trato urinário inferior (cistite). Age acumulando-se na urina e na bexiga em concentrações bactericidas. A forma macrocristalina tem melhor tolerabilidade gástrica e é tomada apenas 2 vezes ao dia.",
+    "receita": "Sim",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica Necessária",
+    "receita_cor": "amarelo",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
+    "receita_nota": "Antibiótico — receita simples retida obrigatória (ANVISA RDC 20/2011).",
+    "efeitos": "Náusea, vômito, diarreia (menores na forma macrocristalina). Pode colorir a urina de amarelo-marrom — normal. Raramente: toxicidade pulmonar no uso prolongado.",
+    "aviso_grave": "Contraindicada na insuficiência renal grave — não se acumula suficientemente na urina para ser eficaz e pode causar toxicidade. Evitar no último trimestre da gravidez e em recém-nascidos.",
+    "recomendacao": "⚠️ Tomar sempre com alimentos — reduz muito a náusea. A urina pode ficar amarelada ou acastanhada — é normal e inofensivo.",
+    "educacao": "A nitrofurantoína age somente no trato urinário — não é eficaz para infecções em outros locais como rins (pielonefrite) ou corrente sanguínea. Por isso é usada apenas para cistite (bexiga).",
+    "resposta_rapida": [
+      "Antibiótico para cistite (bexiga)",
+      "Tomar com alimentos",
+      "Tarja amarela com receita",
+      "Urina pode ficar amarelada — normal",
+      "Não usar na insuficiência renal grave"
+    ]
+  },
+  {
     "nome": "Nitroglicerina / Trinitrato de Glicerina Spray 0,4mg/dose",
     "generico": "Nitroglicerina",
     "tipo": "Nitrato / Antianginoso de Ação Rápida",
@@ -7527,6 +8211,34 @@
     "receita_descricao": "Medicamento controlado categoria C1. Exige receituário branco em duas vias: uma fica no estabelecimento, outra vai com o paciente.",
     "receita_cor": "vermelho",
     "receita_nota": "Prescrição médica obrigatória. Receita válida por 30 dias."
+  },
+  {
+    "nome": "Olmesartana 20mg - 40mg",
+    "generico": "Medoxomila de olmesartana",
+    "tipo": "Anti-hipertensivo — Antagonista do receptor de angiotensina II (BRA)",
+    "sinonimos": [
+      "olmesartana",
+      "benicar",
+      "olmetec",
+      "olmesartana 40mg"
+    ],
+    "descricao": "BRA (bloqueador do receptor de angiotensina II) de longa duração para tratamento da hipertensão arterial. Dose única diária. Considerado um dos BRAs mais potentes e duradouros disponíveis, com controle de 24 horas da pressão arterial.",
+    "receita": "Sim",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica Necessária",
+    "receita_cor": "amarelo",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
+    "receita_nota": "Contraindicado na gravidez — pode causar malformações fetais graves.",
+    "efeitos": "Tontura, hipercalemia (potássio elevado), elevação de creatinina, raramente angioedema. Raramente: enteropatia (diarreia crônica com perda de peso — efeito incomum mas específico da olmesartana).",
+    "aviso_grave": "Contraindicado na gravidez. Associado a enteropatia tipo esprú (diarreia grave e perda de peso) em alguns pacientes — se isso ocorrer, comunicar ao médico imediatamente.",
+    "recomendacao": "⚠️ Se desenvolver diarreia crônica intensa com perda de peso durante o uso — comunicar ao médico. Pode ser enteropatia por olmesartana, um efeito raro mas importante.",
+    "educacao": "A olmesartana é um dos BRAs com maior potência anti-hipertensiva. O efeito de enteropatia, embora raro, é específico desse medicamento e pode ser confundido com doença celíaca ou doença de Crohn.",
+    "resposta_rapida": [
+      "Anti-hipertensivo BRA",
+      "Dose única diária",
+      "Tarja amarela",
+      "Proibido na gravidez",
+      "Diarreia crônica: comunicar ao médico"
+    ]
   },
   {
     "nome": "Omeprazol 10mg - 20mg - 40mg",
@@ -8032,6 +8744,34 @@
     "receita_nota": "Prescrição médica obrigatória. Receita válida por 30 dias."
   },
   {
+    "nome": "Perampanel 2mg - 4mg - 6mg - 8mg - 10mg - 12mg",
+    "generico": "Perampanel",
+    "tipo": "Antiepiléptico de nova geração — Antagonista AMPA",
+    "sinonimos": [
+      "perampanel",
+      "fycompa",
+      "perampanel 4mg",
+      "fycompa 4mg"
+    ],
+    "descricao": "Antiepiléptico de última geração com mecanismo único — é o primeiro antagonista seletivo não competitivo dos receptores AMPA de glutamato. Aprovado para crises focais e crises tônico-clônicas generalizadas como terapia adjuvante em pacientes a partir de 12 anos.",
+    "receita": "Sim",
+    "receita_display": "🔴 Receita de Controle Especial — Branca 2 vias",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Receita de Controle Especial (branca, duas vias). A 1ª via fica retida na farmácia. Validade de 30 dias.",
+    "receita_nota": "Tomar à noite — causa sonolência intensa. Titular a dose lentamente.",
+    "efeitos": "Sonolência intensa, tontura, irritabilidade, agressividade e alterações de comportamento (especialmente em adolescentes), cefaleia, náusea.",
+    "aviso_grave": "Alterações de comportamento e agressividade são efeitos importantes — monitorar humor e comportamento, especialmente em adolescentes. Nunca interromper abruptamente. Potencializa efeito do álcool.",
+    "recomendacao": "⚠️ Tomar exclusivamente à noite pela sonolência intensa. Evitar álcool completamente — potencializa drasticamente o efeito sedativo. Informar ao médico qualquer mudança de humor ou comportamento.",
+    "educacao": "O perampanel tem mecanismo único entre os antiepilépticos — age no receptor AMPA, que é o principal receptor excitatório do cérebro. Isso o torna útil quando outros antiepilépticos falharam.",
+    "resposta_rapida": [
+      "Antiepiléptico nova geração",
+      "Tomar à noite",
+      "Receita branca 2 vias",
+      "Monitorar comportamento e humor",
+      "Evitar álcool completamente"
+    ]
+  },
+  {
     "nome": "Permetrina 1% - 5% Loção / Creme",
     "generico": "Permetrina",
     "tipo": "Antiparasitário Tópico / Pediculicida / Escabicida",
@@ -8140,6 +8880,34 @@
       "Venda livre",
       "Tomar com refeições",
       "Diabéticos: monitorar glicemia"
+    ]
+  },
+  {
+    "nome": "Pimecrolimo 1% creme",
+    "generico": "Pimecrolimo",
+    "tipo": "Imunossupressor tópico — Inibidor de calcineurina",
+    "sinonimos": [
+      "pimecrolimo",
+      "elidel",
+      "pimecrolimo creme",
+      "elidel 1%"
+    ],
+    "descricao": "Imunossupressor tópico da classe dos inibidores de calcineurina, indicado para dermatite atópica leve a moderada em adultos e crianças acima de 2 anos. Alternativa aos corticoides tópicos — não causa atrofia da pele com uso prolongado.",
+    "receita": "Sim",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica Necessária",
+    "receita_cor": "amarelo",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
+    "receita_nota": "Não usar em crianças menores de 2 anos. Usar protetor solar — aumenta sensibilidade ao sol.",
+    "efeitos": "Sensação de calor, ardência e prurido local nos primeiros dias (transitório), herpes simples pode ser reativado.",
+    "aviso_grave": "FDA emitiu alerta sobre possível risco teórico de linfoma — usar pelo menor tempo necessário e não em áreas extensas de forma contínua. Não usar em imunossuprimidos ou com infecção ativa na pele.",
+    "recomendacao": "⚠️ Usar protetor solar diariamente nas áreas tratadas. A ardência inicial nos primeiros dias é normal e melhora. Não usar de forma contínua indefinidamente.",
+    "educacao": "O pimecrolimo é uma excelente opção para dermatite atópica em áreas sensíveis (face, pescoço, dobras) onde os corticoides causariam atrofia. Sua vantagem é não causar afinamento da pele.",
+    "resposta_rapida": [
+      "Dermatite atópica",
+      "Não afina a pele como corticoide",
+      "Tarja amarela",
+      "Protetor solar obrigatório",
+      "Não usar em menores de 2 anos"
     ]
   },
   {
@@ -8557,6 +9325,34 @@
     "receita_cor": "amarelo"
   },
   {
+    "nome": "Ranolazina 500mg - 1000mg",
+    "generico": "Ranolazina",
+    "tipo": "Antianginoso — Inibidor de corrente de sódio tardia",
+    "sinonimos": [
+      "ranolazina",
+      "ranexa",
+      "ranolazina 500mg",
+      "ranexa 500mg"
+    ],
+    "descricao": "Medicamento para angina crônica estável refratária a outros tratamentos. Age por mecanismo único — inibe a corrente de sódio tardia no coração, reduzindo a sobrecarga de cálcio e melhorando a função cardíaca sem alterar a frequência cardíaca ou pressão arterial.",
+    "receita": "Sim",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica Necessária",
+    "receita_cor": "amarelo",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
+    "receita_nota": "Comprimidos de liberação prolongada — não partir, mastigar ou triturar.",
+    "efeitos": "Tontura, cefaleia, constipação, náusea, prolongamento do QT (risco de arritmia).",
+    "aviso_grave": "Contraindicada com inibidores potentes do CYP3A4 (cetoconazol, itraconazol, claritromicina) — aumentam muito os níveis de ranolazina. Monitorar ECG regularmente.",
+    "recomendacao": "⚠️ Não partir os comprimidos — são de liberação prolongada. Informar todos os medicamentos em uso pelo risco de interações.",
+    "educacao": "A ranolazina é usada como medicamento adicional quando outros antianginosos (nitratos, betabloqueadores, bloqueadores de cálcio) não controlam adequadamente a angina. Sua vantagem é não alterar a frequência cardíaca.",
+    "resposta_rapida": [
+      "Angina crônica refratária",
+      "Não parte os comprimidos",
+      "Tarja amarela",
+      "Monitorar ECG",
+      "Múltiplas interações medicamentosas"
+    ]
+  },
+  {
     "nome": "Rasagilina 1mg",
     "generico": "Mesilato de Rasagilina",
     "tipo": "Inibidor da MAO-B / Antiparkinsoniano",
@@ -8582,6 +9378,62 @@
     "receita_display": "🔴 Controlado — Receituário Branco em 2 Vias (C1)",
     "receita_descricao": "Medicamento controlado categoria C1. Exige receituário branco em duas vias: uma fica no estabelecimento, outra vai com o paciente.",
     "receita_cor": "vermelho"
+  },
+  {
+    "nome": "Repaglinida 0,5mg - 1mg - 2mg",
+    "generico": "Repaglinida",
+    "tipo": "Antidiabético oral — Glinida (secretagogo de insulina)",
+    "sinonimos": [
+      "repaglinida",
+      "novonorm",
+      "prandin",
+      "repaglinida 2mg"
+    ],
+    "descricao": "Antidiabético oral de ação rápida e curta duração que estimula a secreção de insulina pelo pâncreas. Tomada antes de cada refeição — age especificamente no pico glicêmico pós-prandial. Flexível para pacientes com horários irregulares de refeição.",
+    "receita": "Sim",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica Necessária",
+    "receita_cor": "amarelo",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
+    "receita_nota": "Tomar 15-30 minutos antes de cada refeição. Se pular a refeição, pular a dose também.",
+    "efeitos": "Hipoglicemia (principal risco), ganho de peso, náusea, diarreia, infecções respiratórias.",
+    "aviso_grave": "Risco de hipoglicemia — nunca tomar sem comer a seguir. Se pular uma refeição, PULAR a dose correspondente.",
+    "recomendacao": "⚠️ A grande vantagem é a flexibilidade — se não vai comer, não toma. Sempre ter açúcar ou suco disponível para hipoglicemia.",
+    "educacao": "Diferente das sulfonilureias (glibenclamida, glicazida) que agem continuamente, a repaglinida tem ação curta e específica para cada refeição — isso reduz o risco de hipoglicemia entre as refeições.",
+    "resposta_rapida": [
+      "Diabetes tipo 2 — pós-refeição",
+      "Tomar antes de cada refeição",
+      "Tarja amarela",
+      "Pular dose se pular refeição",
+      "Risco de hipoglicemia"
+    ]
+  },
+  {
+    "nome": "Resveratrol",
+    "generico": "Trans-resveratrol",
+    "tipo": "Suplemento fitoterápico antioxidante",
+    "sinonimos": [
+      "resveratrol",
+      "trans-resveratrol",
+      "resveratrol 500mg",
+      "reservatrol"
+    ],
+    "descricao": "Polifenol natural encontrado na casca da uva, vinho tinto e amendoim com potente ação antioxidante. Estudado por seus efeitos anti-inflamatórios, cardioprotetores, anticancerígenos e antienvelhecimento (ativa sirtuínas — proteínas ligadas à longevidade). Usado como suplemento para saúde cardiovascular e antioxidante.",
+    "receita": "Não",
+    "receita_display": "🟢 Venda Livre — Sem Receita",
+    "receita_cor": "verde",
+    "receita_descricao": "Suplemento fitoterápico disponível sem prescrição.",
+    "receita_nota": "Biodisponibilidade oral é baixa — formas com maior absorção incluem resveratrol micronizado ou lipossomado.",
+    "efeitos": "Geralmente muito bem tolerado. Em doses altas: diarreia, náusea. Raramente: interação com anticoagulantes.",
+    "aviso_grave": "Pode potencializar o efeito de anticoagulantes (varfarina) — monitorar INR. Evidências em humanos ainda limitadas apesar dos resultados promissores em estudos laboratoriais.",
+    "recomendacao": "⚠️ Usuários de varfarina ou outros anticoagulantes devem monitorar o INR ao iniciar resveratrol. Tomar com gordura para melhorar absorção.",
+    "educacao": "Apesar do grande entusiasmo científico, os estudos em humanos com resveratrol ainda são limitados. Os benefícios comprovados em laboratório e animais nem sempre se traduzem para humanos na mesma magnitude.",
+    "resposta_rapida": [
+      "Antioxidante e cardioprotetor",
+      "Venda livre",
+      "Evidências em humanos ainda limitadas",
+      "Cuidado com anticoagulantes",
+      "Tomar com gordura para absorção"
+    ]
   },
   {
     "nome": "Ribavirina 200mg - 250mg",
@@ -9064,6 +9916,35 @@
     "receita_cor": "amarelo"
   },
   {
+    "nome": "Selênio 55mcg - 200mcg",
+    "generico": "Selenometionina / Selenito de sódio",
+    "tipo": "Suplemento mineral antioxidante",
+    "sinonimos": [
+      "selenio",
+      "selênio",
+      "selenometionina",
+      "selenio 200mcg",
+      "selênio orgânico"
+    ],
+    "descricao": "Mineral essencial com função antioxidante, componente de enzimas importantes como a glutationa peroxidase. Usado em deficiência de selênio, suporte à tireoide (tireoidite de Hashimoto), função imunológica e como antioxidante. O Brasil tem solos pobres em selênio — deficiência é comum.",
+    "receita": "Não",
+    "receita_display": "🟢 Venda Livre — Sem Receita",
+    "receita_cor": "verde",
+    "receita_descricao": "Suplemento mineral disponível sem prescrição.",
+    "receita_nota": "A castanha-do-pará é a fonte alimentar mais rica em selênio — 1 unidade/dia já fornece a dose diária recomendada.",
+    "efeitos": "Em doses normais: muito bem tolerado. Em doses excessivas (>400mcg/dia): selenose — queda de cabelo, unhas frágeis, hálito alho, náusea, diarreia, neuropatia.",
+    "aviso_grave": "Selênio em excesso é tóxico (selenose). Não exceder 400mcg/dia. Suplementar sem necessidade comprovada pode ser prejudicial.",
+    "recomendacao": "⚠️ Não exagerar na dose — o excesso de selênio é tóxico. Uma castanha-do-pará por dia já pode fornecer a dose diária recomendada (55mcg).",
+    "educacao": "O selênio tem papel importante na conversão do T4 em T3 (hormônio tireoidiano ativo) — por isso é frequentemente suplementado em pacientes com Hashimoto. Também é antioxidante potente que atua sinergicamente com a vitamina E.",
+    "resposta_rapida": [
+      "Antioxidante e suporte à tireoide",
+      "Venda livre",
+      "1 castanha-do-pará = dose diária",
+      "Não exceder 400mcg/dia",
+      "Excesso é tóxico"
+    ]
+  },
+  {
     "nome": "Semaglutida 0,25mg - 0,5mg - 1mg - 2,4mg (Ozempic / Wegovy / Poviztra / Extensior)",
     "generico": "Semaglutida",
     "tipo": "Agonista do GLP-1 / Antidiabético / Antiobesidade",
@@ -9370,6 +10251,35 @@
     "receita_cor": "amarelo"
   },
   {
+    "nome": "Sulfadiazina de Prata 1% creme",
+    "generico": "Sulfadiazina de prata",
+    "tipo": "Antibiótico tópico — Queimaduras e feridas",
+    "sinonimos": [
+      "sulfadiazina de prata",
+      "silvazine",
+      "dermazine",
+      "sulfadiazina prata creme",
+      "sulfadiazina 1%"
+    ],
+    "descricao": "Antibiótico tópico de amplo espectro indicado para prevenção e tratamento de infecções em queimaduras de 2º e 3º grau, úlceras de pressão, feridas cirúrgicas e enxertos de pele. A prata tem ação bactericida e bacteriostática contra gram-positivos e gram-negativos, incluindo Pseudomonas.",
+    "receita": "Sim",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica Necessária",
+    "receita_cor": "amarelo",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
+    "receita_nota": "Antibiótico — receita simples retida obrigatória (ANVISA RDC 20/2011).",
+    "efeitos": "Ardência transitória no local da aplicação, coloração acinzentada da pele (argiria — rara com uso tópico), leucopenia (queda de glóbulos brancos) no uso extenso.",
+    "aviso_grave": "Não usar em recém-nascidos prematuros e crianças menores de 2 meses — risco de kernicterus. Evitar em alérgicos a sulfonamidas. Não aplicar nos olhos.",
+    "recomendacao": "⚠️ Aplicar camada fina (2-4mm) sobre a área limpa uma vez ao dia ou conforme orientação médica. Manter o curativo úmido com o creme para melhor resultado.",
+    "educacao": "A sulfadiazina de prata é o padrão-ouro para tratamento tópico de queimaduras há décadas. A prata ions liberados têm ação antimicrobiana ampla, prevenindo infecções nas feridas abertas.",
+    "resposta_rapida": [
+      "Antibiótico para queimaduras e feridas",
+      "Tarja amarela com receita",
+      "Camada fina 1x ao dia",
+      "Não usar em bebês menores de 2 meses",
+      "Não aplicar nos olhos"
+    ]
+  },
+  {
     "nome": "Sulfametoxazol + Trimetoprima 400mg/80mg - 800mg/160mg - Suspensão",
     "generico": "Sulfametoxazol + Trimetoprima",
     "tipo": "Antibiótico Sulfonamida",
@@ -9389,7 +10299,40 @@
     "classe_receita": "RECEITA_ANTIBIOTICO",
     "receita_display": "🔴 Receita Obrigatória — Antibiótico",
     "receita_descricao": "Antibiótico — receita simples retida obrigatória (ANVISA RDC 20/2011).",
-    "receita_cor": "vermelho"
+    "receita_cor": "vermelho",
+    "sinonimos": [
+      "bactrim",
+      "bactrim f",
+      "bactrim forte"
+    ]
+  },
+  {
+    "nome": "Sulfassalazina 500mg",
+    "generico": "Sulfassalazina",
+    "tipo": "Anti-inflamatório intestinal / DMARD",
+    "sinonimos": [
+      "sulfassalazina",
+      "azulfidine",
+      "salazopyrin",
+      "sulfassalazina 500mg"
+    ],
+    "descricao": "Usado no tratamento de doença inflamatória intestinal (retocolite ulcerativa, doença de Crohn leve a moderada) e como DMARD (medicamento modificador do curso da doença) em artrite reumatoide e artrite psoriásica. Age por múltiplos mecanismos anti-inflamatórios.",
+    "receita": "Sim",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica Necessária",
+    "receita_cor": "amarelo",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
+    "receita_nota": "Iniciar com doses baixas e aumentar gradualmente. Pode colorir a urina e lágrimas de laranja-amarelado — normal.",
+    "efeitos": "Náusea, cefaleia, anorexia, oligospermia reversível em homens (redução de espermatozoides — reversível após suspensão), coloração alaranjada da urina.",
+    "aviso_grave": "Deficiência de G6PD é contraindicação — pode causar anemia hemolítica. Alérgicos a sulfonamidas ou aspirina podem ter reação cruzada. Monitorar hemograma e função hepática.",
+    "recomendacao": "⚠️ Homens que desejam ter filhos devem comunicar ao médico — a sulfassalazina causa oligospermia reversível durante o uso. A fertilidade retorna após suspender.",
+    "educacao": "A sulfassalazina é convertida no intestino em duas substâncias: ácido 5-aminossalicílico (5-ASA, ativo na doença intestinal) e sulfapiridina (ativo na artrite). A mesalazina é o 5-ASA puro, sem sulfapiridina.",
+    "resposta_rapida": [
+      "Doença intestinal e artrite reumatoide",
+      "Urina laranja é normal",
+      "Tarja amarela",
+      "Homens: pode afetar fertilidade temporariamente",
+      "Monitorar hemograma"
+    ]
   },
   {
     "nome": "Sulfato Ferroso 40mg - 300mg - Gotas - Xarope - Injetável",
@@ -9584,6 +10527,35 @@
     "receita_cor": "vermelho"
   },
   {
+    "nome": "Telmisartana 40mg - 80mg",
+    "generico": "Telmisartana",
+    "tipo": "Anti-hipertensivo — Antagonista do receptor de angiotensina II (BRA)",
+    "sinonimos": [
+      "telmisartana",
+      "micardis",
+      "telmisartana 80mg",
+      "micardis 80mg",
+      "telma"
+    ],
+    "descricao": "BRA de longa duração (24 horas) para hipertensão arterial. Tem a maior meia-vida entre os BRAs disponíveis, garantindo cobertura completa de 24 horas com dose única diária. Também tem efeitos metabólicos favoráveis — melhora a sensibilidade à insulina.",
+    "receita": "Sim",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica Necessária",
+    "receita_cor": "amarelo",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
+    "receita_nota": "Contraindicado na gravidez. Pode ser tomado com ou sem alimentos.",
+    "efeitos": "Tontura, hipercalemia, cefaleia, diarreia, dor nas costas. Raramente: angioedema.",
+    "aviso_grave": "Contraindicado na gravidez e em combinação com alisquireno em diabéticos e insuficientes renais.",
+    "recomendacao": "⚠️ Não usar na gravidez. Monitorar potássio e função renal regularmente, especialmente se usar junto com diuréticos poupadores de potássio.",
+    "educacao": "A telmisartana tem a meia-vida mais longa entre os BRAs (24 horas), o que a torna ideal para pacientes que às vezes esquecem de tomar o medicamento — a cobertura é mais duradoura.",
+    "resposta_rapida": [
+      "Anti-hipertensivo BRA",
+      "Maior duração entre os BRAs",
+      "Tarja amarela",
+      "Proibido na gravidez",
+      "Dose única diária"
+    ]
+  },
+  {
     "nome": "Tenofovir 300mg",
     "generico": "Tenofovir Disoproxila",
     "tipo": "Antirretroviral / Antiviral",
@@ -9605,6 +10577,35 @@
     "receita_display": "🔴 Uso Hospitalar / SUS / Alto Custo",
     "receita_descricao": "Dispensação em âmbito hospitalar, SUS ou programa de alto custo. Exige prescrição médica.",
     "receita_cor": "vermelho"
+  },
+  {
+    "nome": "Teofilina 100mg - 200mg - 300mg",
+    "generico": "Teofilina anidra",
+    "tipo": "Broncodilatador — Metilxantina",
+    "sinonimos": [
+      "teofilina",
+      "teolong",
+      "eufilina",
+      "teofilina 300mg",
+      "aminofilina"
+    ],
+    "descricao": "Broncodilatador oral da classe das metilxantinas, usado em asma e DPOC. Age inibindo a fosfodiesterase, aumentando o AMPc e relaxando a musculatura brônquica. Hoje é considerado medicamento de terceira linha pela janela terapêutica estreita e muitas interações.",
+    "receita": "Sim",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica Necessária",
+    "receita_cor": "amarelo",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
+    "receita_nota": "Monitorar nível sérico regularmente — janela terapêutica estreita (10-20 mcg/mL). Acima de 20 mcg/mL: risco de toxicidade grave.",
+    "efeitos": "Náusea, vômito, cefaleia, insônia, taquicardia, tremor. Em níveis tóxicos: convulsões e arritmias graves.",
+    "aviso_grave": "Janela terapêutica muito estreita — pequenas variações na dose podem causar toxicidade grave. Múltiplas interações: ciprofloxacino, claritromicina, cimetidina, fenitoína e cafeína alteram significativamente os níveis.",
+    "recomendacao": "⚠️ Monitorar a teofilinemia (nível no sangue) regularmente. Evitar cafeína (café, chá, energéticos) — aumenta os efeitos e a toxicidade.",
+    "educacao": "A teofilina caiu em desuso com o surgimento dos broncodilatadores inalatórios modernos — mais eficazes e com menos efeitos colaterais. Hoje é usada principalmente em países com acesso limitado a inaladores.",
+    "resposta_rapida": [
+      "Broncodilatador oral",
+      "Asma e DPOC",
+      "Tarja amarela",
+      "Monitorar nível no sangue",
+      "Evitar cafeína durante o tratamento"
+    ]
   },
   {
     "nome": "Terbinafina 250mg - Creme",
@@ -9689,6 +10690,34 @@
       "CID e CPF do médico obrigatórios",
       "Risco de infertilidade",
       "Não usar sem diagnóstico"
+    ]
+  },
+  {
+    "nome": "Tibolona 2,5mg",
+    "generico": "Tibolona",
+    "tipo": "Esteroide sintético — Terapia de reposição hormonal",
+    "sinonimos": [
+      "tibolona",
+      "livial",
+      "tibolona 2,5mg",
+      "livial 2,5mg"
+    ],
+    "descricao": "Esteroide sintético com ações estrogênica, progestagênica e androgênica fraca. Usado para tratamento dos sintomas da menopausa (fogachos, sudorese, secura vaginal) e prevenção da osteoporose em mulheres na pós-menopausa (pelo menos 1 ano após a última menstruação).",
+    "receita": "Sim",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica Necessária",
+    "receita_cor": "amarelo",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
+    "receita_nota": "Usar somente em mulheres com pelo menos 1 ano de amenorreia (pós-menopausa estabelecida).",
+    "efeitos": "Sangramento ou manchas vaginais (especialmente no início), ganho de peso, acne, hirsutismo leve, edema.",
+    "aviso_grave": "Contraindicada em câncer de mama, endométrio, tromboembolismo, doença cardiovascular grave e AVC. Aumenta ligeiramente o risco de AVC em mulheres acima de 60 anos.",
+    "recomendacao": "⚠️ Não usar em mulheres que ainda menstruam ou que tiveram a última menstruação há menos de 1 ano. Qualquer sangramento vaginal após o início deve ser investigado.",
+    "educacao": "A tibolona tem a vantagem de combinar efeitos estrogênicos, progestagênicos e androgênicos em uma única molécula. Isso significa que mulheres com útero podem usá-la sem precisar adicionar progesterona separada — ao contrário do estradiol.",
+    "resposta_rapida": [
+      "Menopausa estabelecida",
+      "Não precisa de progesterona separada",
+      "Tarja amarela",
+      "Somente após 1 ano sem menstruar",
+      "Investigar qualquer sangramento"
     ]
   },
   {
@@ -10390,6 +11419,33 @@
     "receita_cor": "amarelo"
   },
   {
+    "nome": "Zafirlucaste 20mg",
+    "generico": "Zafirlucaste",
+    "tipo": "Antiasmático — Antagonista de leucotrienos",
+    "sinonimos": [
+      "zafirlucaste",
+      "accolate",
+      "zafirlucaste 20mg"
+    ],
+    "descricao": "Antagonista dos receptores de leucotrienos para tratamento preventivo da asma leve a moderada e rinite alérgica. Similar ao montelucaste, mas tomado duas vezes ao dia e com mais restrições alimentares. Age bloqueando leucotrienos — mediadores inflamatórios que contraem os brônquios.",
+    "receita": "Sim",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica Necessária",
+    "receita_cor": "amarelo",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
+    "receita_nota": "Tomar em jejum ou 2 horas após a refeição — alimentos reduzem significativamente a absorção.",
+    "efeitos": "Cefaleia, náusea, diarreia, infecção respiratória, elevação de enzimas hepáticas.",
+    "aviso_grave": "Monitorar função hepática — casos raros de hepatite e insuficiência hepática foram relatados. Não usar para crise aguda de asma — é preventivo.",
+    "recomendacao": "⚠️ Tomar em jejum ou longe das refeições — alimentos prejudicam muito a absorção. Não substituir broncodilatador de resgate pelo zafirlucaste em crises.",
+    "educacao": "O zafirlucaste e o montelucaste têm o mesmo mecanismo de ação, mas o montelucaste é mais conveniente (dose única diária, sem restrição alimentar) e por isso tem suplantado o zafirlucaste na prática clínica.",
+    "resposta_rapida": [
+      "Prevenção da asma",
+      "Tomar em jejum",
+      "Tarja amarela",
+      "Não é para crise aguda",
+      "Monitorar o fígado"
+    ]
+  },
+  {
     "nome": "Zinco 7mg - 20mg - 40mg",
     "generico": "Zinco (Sulfato, Glicinato ou Quelato)",
     "tipo": "Suplemento Mineral",
@@ -10497,6 +11553,34 @@
     "receita_descricao": "Psicotrópico benzodiazepínico categoria B1. Exige receita azul de controle especial em duas vias. Retirada máxima: 30 dias.",
     "receita_cor": "vermelho",
     "receita_nota": "Receita azul obrigatória. Válida por 30 dias."
+  },
+  {
+    "nome": "Zonisamida 25mg - 50mg - 100mg",
+    "generico": "Zonisamida",
+    "tipo": "Antiepiléptico",
+    "sinonimos": [
+      "zonisamida",
+      "zonegran",
+      "zonisamida 100mg",
+      "zonegran 100mg"
+    ],
+    "descricao": "Antiepiléptico usado em crises focais e generalizadas. Também tem efeito favorável sobre o peso corporal — pode causar perda de peso, sendo às vezes preferido em pacientes com obesidade. Age bloqueando canais de sódio e cálcio.",
+    "receita": "Sim",
+    "receita_display": "🔴 Receita de Controle Especial — Branca 2 vias",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Receita de Controle Especial (branca, duas vias). A 1ª via fica retida na farmácia. Validade de 30 dias.",
+    "receita_nota": "Beber bastante água durante o tratamento — risco de cálculo renal.",
+    "efeitos": "Sonolência, tontura, anorexia e perda de peso, dificuldade de concentração, cálculo renal, alterações de humor.",
+    "aviso_grave": "Risco de cálculo renal — beber bastante água. Risco de oligoidrose (suor reduzido) e hipertermia em crianças. Nunca interromper abruptamente.",
+    "recomendacao": "⚠️ Beber pelo menos 2 litros de água por dia para reduzir o risco de pedra nos rins. Nunca parar sem orientação médica.",
+    "educacao": "A zonisamida é um dos poucos antiepilépticos que não causa ganho de peso — ao contrário, frequentemente causa perda de peso, tornando-a interessante para pacientes epilépticos com obesidade.",
+    "resposta_rapida": [
+      "Antiepiléptico",
+      "Pode causar perda de peso",
+      "Receita branca 2 vias",
+      "Beber bastante água",
+      "Nunca parar abruptamente"
+    ]
   },
   {
     "nome": "Zopiclona 3,75mg - 7,5mg",
@@ -10630,6 +11714,37 @@
     "receita_display": "🟢 Venda Livre — MIP",
     "receita_descricao": "Medicamento Isento de Prescrição. Não necessita receita.",
     "receita_cor": "verde"
+  },
+  {
+    "nome": "Ômega 3 concentrado EPA + DHA",
+    "generico": "Ácidos graxos ômega-3 (EPA + DHA concentrado)",
+    "tipo": "Suplemento de ácidos graxos essenciais",
+    "sinonimos": [
+      "omega 3",
+      "ômega 3",
+      "epa dha",
+      "omega 3 concentrado",
+      "omega 3 1000mg",
+      "fish oil",
+      "oleo de peixe"
+    ],
+    "descricao": "Suplemento de ácidos graxos poli-insaturados ômega-3 (EPA e DHA) de alta concentração. Usado para redução de triglicerídeos, saúde cardiovascular, anti-inflamatório, saúde cerebral e ocular. A forma concentrada tem maior quantidade de EPA+DHA por cápsula que o óleo de peixe comum.",
+    "receita": "Não",
+    "receita_display": "🟢 Venda Livre — Sem Receita",
+    "receita_cor": "verde",
+    "receita_descricao": "Suplemento alimentar disponível sem prescrição.",
+    "receita_nota": "Para triglicerídeos muito altos, doses farmacológicas (2-4g/dia de EPA+DHA) são prescritas pelo médico.",
+    "efeitos": "Eructação com gosto de peixe (menor nas formulações entéricas), diarreia em doses altas, aumento leve do LDL em algumas pessoas.",
+    "aviso_grave": "Em doses altas (>3g/dia), pode aumentar o risco de sangramento — cuidado com anticoagulantes. Suspender 1-2 semanas antes de cirurgias.",
+    "recomendacao": "⚠️ Tomar com refeições para reduzir o eructo de peixe. Guardar na geladeira após aberto para evitar oxidação. Verificar a quantidade real de EPA+DHA no rótulo — muitos produtos têm pouco princípio ativo.",
+    "educacao": "A diferença entre ômega-3 'comum' e 'concentrado' está na quantidade de EPA+DHA por cápsula. Uma cápsula de 1g de óleo de peixe comum tem ~300mg de EPA+DHA, enquanto versões concentradas têm 600-900mg — menos cápsulas para a mesma dose.",
+    "resposta_rapida": [
+      "Triglicerídeos e saúde cardiovascular",
+      "Venda livre",
+      "Tomar com refeições",
+      "Verificar EPA+DHA no rótulo",
+      "Cuidado com anticoagulantes em doses altas"
+    ]
   },
   {
     "nome": "Ômega-3 (EPA+DHA) 1g",
