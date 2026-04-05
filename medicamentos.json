@@ -11,9 +11,9 @@
     ],
     "descricao": "Antidiabético oral que age no intestino — inibe as enzimas que digerem os carboidratos, retardando a absorção de açúcares após as refeições. Reduz a hiperglicemia pós-prandial (pico de açúcar após comer) sem causar hipoglicemia quando usado sozinho.",
     "receita": "Sim",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica Necessária",
-    "receita_cor": "amarelo",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
+    "receita_display": "🔴 Receita Simples",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
     "receita_nota": "Tomar obrigatoriamente com a primeira garfada de cada refeição principal.",
     "efeitos": "Flatulência intensa, distensão abdominal, diarreia — efeitos muito comuns e relacionados ao mecanismo de ação. Melhoram com o tempo.",
     "aviso_grave": "Se ocorrer hipoglicemia em conjunto com outros antidiabéticos, usar glucose pura (não sacarose) — a acarbose bloqueia a digestão de sacarose. Contraindicada em doenças intestinais inflamatórias.",
@@ -40,9 +40,9 @@
     ],
     "descricao": "Anti-inflamatório da classe dos AINEs, derivado do diclofenaco. Usado no tratamento de artrite reumatoide, osteoartrose, espondilite anquilosante e dores musculoesqueléticas. Estudos sugerem que pode ter menor impacto na cartilagem articular comparado a outros AINEs.",
     "receita": "Não",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_cor": "amarelo",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
+    "receita_display": "🔴 Receita Simples",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
     "receita_nota": "Geralmente prescrito 2 vezes ao dia (100mg de manhã e 100mg à noite) com as refeições.",
     "efeitos": "Dor de estômago, náusea, diarreia, tontura, cefaleia. Risco cardiovascular e renal no uso prolongado.",
     "aviso_grave": "Mesmas contraindicações dos AINEs: insuficiência renal, úlcera ativa, insuficiência cardíaca, último trimestre da gravidez. Interação com anticoagulantes.",
@@ -102,9 +102,9 @@
       "Acetazolamida Sandoz"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Acetilcisteína 100mg - 200mg - 600mg - Injetável",
@@ -155,9 +155,9 @@
       "Creme: aplique com as mãos bem higienizadas"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Acitretina 10mg - 25mg",
@@ -183,8 +183,8 @@
       "Soriatane"
     ],
     "classe_receita": "RECEITA_ESPECIAL",
-    "receita_display": "🔴 Receita Médica Obrigatória",
-    "receita_descricao": "Exige receita médica obrigatória para dispensação.",
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
     "receita_cor": "vermelho"
   },
   {
@@ -212,9 +212,9 @@
       "Adacne"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Agomelatina 25mg - 50mg",
@@ -262,9 +262,9 @@
       "Crianças acima de 2 anos"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Albumina Humana 20% - 25% (Solução Injetável)",
@@ -316,9 +316,9 @@
       "Não deite logo após — risco de esofagite"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Almeida Prado nº 35",
@@ -383,9 +383,9 @@
     "descricao": "Associação de alogliptina (inibidor DPP-4) com metformina, indicada para diabetes tipo 2 quando a monoterapia não é suficiente. Combina os mecanismos de ação complementares de ambos os medicamentos. Comercialmente conhecido como Nesina Met.",
     "receita": "Sim",
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo",
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho",
     "receita_nota": "Tarjado. Consulte sempre o farmacêutico.",
     "efeitos": "Náusea, diarreia, dor abdominal (metformina — geralmente melhora com o tempo), nasofaringite, infecção urinária.",
     "aviso_grave": "Contraindicado em insuficiência renal grave. Suspender antes de cirurgias e exames com contraste. Risco raro de acidose lática com metformina.",
@@ -433,9 +433,9 @@
     "descricao": "Antidiabético oral da classe dos inibidores da DPP-4 (gliptinas), indicado para diabetes tipo 2. Age aumentando os níveis de incretinas, estimulando a secreção de insulina de forma dependente da glicose. Comercialmente conhecido como Nesina.",
     "receita": "Sim",
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo",
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho",
     "receita_nota": "Tarjado. Consulte sempre o farmacêutico.",
     "efeitos": "Nasofaringite, dor de cabeça, infecção do trato urinário. Risco baixo de hipoglicemia quando usado isoladamente.",
     "aviso_grave": "Raro mas grave: pancreatite aguda — interromper se dor abdominal intensa. Insuficiência cardíaca relatada em estudos — monitorar pacientes cardiopatas.",
@@ -474,9 +474,9 @@
       "Não tome durante crise de gota aguda"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Alprazolam 0,25mg - 0,5mg - 1,0mg - 2,0mg",
@@ -603,9 +603,9 @@
       "Exige acompanhamento médico rigoroso"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Amitriptilina 25mg",
@@ -810,9 +810,9 @@
     ],
     "descricao": "Anador é outro nome comercial muito popular da dipirona no Brasil, especialmente conhecido nas formulações em gotas e comprimidos. Indicado para dor e febre de intensidade leve a moderada.",
     "receita": "Não",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_cor": "amarelo",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
+    "receita_display": "🔴 Receita Simples",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
     "receita_nota": "Mesma substância ativa da Novalgina — dipirona sódica. A diferença é apenas o fabricante e apresentação.",
     "efeitos": "Reações alérgicas, raramente agranulocitose. Geralmente muito bem tolerada em uso pontual.",
     "aviso_grave": "Não usar em alérgicos à dipirona. Suspender e procurar médico se surgir febre alta ou feridas na boca durante uso prolongado.",
@@ -894,9 +894,9 @@
       "Anlodipino+Atorvastatina Genérico"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo",
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho",
     "perguntas_frequentes": [
       {
         "pergunta": "Atorvastatina dói muscular?",
@@ -931,9 +931,9 @@
     ],
     "descricao": "Combinação de anlodipino (bloqueador de canal de cálcio) com hidroclorotiazida (diurético tiazídico) em um único comprimido para hipertensão arterial. A combinação tem efeito sinérgico — cada componente age por mecanismo diferente, potencializando o controle da pressão.",
     "receita": "Sim",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica Necessária",
-    "receita_cor": "amarelo",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
+    "receita_display": "🔴 Receita Simples",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
     "receita_nota": "Combinação em dose fixa — facilita a adesão ao tratamento com um único comprimido.",
     "efeitos": "Edema nos tornozelos (anlodipino), aumento da frequência urinária (hidroclorotiazida), tontura, cefaleia, hipocalemia.",
     "aviso_grave": "A hidroclorotiazida pode elevar o ácido úrico (risco em gotosos) e reduzir o potássio. Monitorar eletrólitos regularmente.",
@@ -967,9 +967,9 @@
       "Não pare sem orientação médica"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Anticoncepcional Combinado (Yasmin / Diane 35 / Selene)",
@@ -1001,9 +1001,9 @@
       "Gynera"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Aripiprazol 10mg",
@@ -1046,9 +1046,9 @@
       "Informe dentista e médico que usa aspirina"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Aspirina 500mg - Ácido Acetilsalicílico 500mg",
@@ -1068,9 +1068,9 @@
       "⚠ NUNCA use em crianças — risco de Síndrome de Reye (doença grave que afeta o fígado e o cérebro)"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Atenolol 25mg - 50mg - 100mg",
@@ -1092,9 +1092,9 @@
       "Evite em asma e DPOC"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo",
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho",
     "perguntas_frequentes": [
       {
         "pergunta": "Atenolol causa cansaço?",
@@ -1170,9 +1170,9 @@
       "Liptruzet"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo",
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho",
     "perguntas_frequentes": [
       {
         "pergunta": "Atorvastatina dói muscular?",
@@ -1216,9 +1216,9 @@
       "Relate dores musculares ao médico"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo",
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho",
     "perguntas_frequentes": [
       {
         "pergunta": "Atorvastatina dói muscular?",
@@ -1262,9 +1262,9 @@
       "NUNCA interrompa sem orientação médica"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Azitromicina 500mg - 1,0g | Suspensão 600mg - 900mg - 1500mg",
@@ -1308,9 +1308,9 @@
       "Não combine com álcool"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Baricitinibe (Olumiant)",
@@ -1325,9 +1325,9 @@
     ],
     "descricao": "Medicamento imunomodulador oral indicado para artrite reumatoide moderada a grave que não respondeu adequadamente ao metotrexato. Também aprovado para dermatite atópica grave e alopecia areata. Age inibindo enzimas JAK que transmitem sinais inflamatórios.",
     "receita": "Sim",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_cor": "amarelo",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
+    "receita_display": "🔴 Receita Simples",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
     "receita_nota": "Antes de iniciar: rastrear tuberculose latente, hepatites B e C, e realizar hemograma completo.",
     "efeitos": "Infecções (respiratórias, urinárias, herpes zóster), aumento de colesterol, náusea, trombose venosa (risco aumentado em doses maiores).",
     "aviso_grave": "Risco aumentado de infecções graves, trombose, eventos cardiovasculares e neoplasias. Não usar com imunossupressores biológicos simultaneamente. Rastrear tuberculose antes de iniciar.",
@@ -1361,9 +1361,9 @@
       "Pode causar sangramento nasal leve"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Benalet — Pastilha para Garganta",
@@ -1457,9 +1457,9 @@
       "Evite em úlcera gástrica ativa"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Betametasona Tópica",
@@ -1481,9 +1481,9 @@
       "Não use por longos períodos"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Biotina — Vitamina B7",
@@ -1573,9 +1573,9 @@
     ],
     "descricao": "Usado no tratamento de úlcera péptica e erradicação do Helicobacter pylori (em combinação com antibióticos). Age formando uma camada protetora sobre a úlcera, inibindo a ação da pepsina e estimulando a produção de muco gástrico. Também tem ação bactericida direta contra H. pylori.",
     "receita": "Sim",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica Necessária",
-    "receita_cor": "amarelo",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
+    "receita_display": "🔴 Receita Simples",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
     "receita_nota": "Tomar 30 minutos antes das refeições e ao deitar. Não tomar junto com antiácidos.",
     "efeitos": "Fezes pretas ou escurecidas (normal — não é sangue), língua escurecida (normal), náusea, constipação.",
     "aviso_grave": "As fezes pretas são esperadas e normais — não confundir com sangramento digestivo. Não usar por mais de 8 semanas consecutivas — risco de encefalopatia por bismuto.",
@@ -1596,8 +1596,8 @@
     "descricao": "Associação de beta-bloqueador (bisoprolol) com diurético tiazídico (hidroclorotiazida), indicada para hipertensão arterial. A combinação potencializa o efeito anti-hipertensivo de cada componente.",
     "receita": "Sim",
     "classe_receita": "TARJADO",
-    "receita_display": "🔴 Tarjado — Receita Simples Obrigatória",
-    "receita_descricao": "Exige receita médica simples. Medicamento de uso contínuo para hipertensão.",
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
     "receita_cor": "vermelho",
     "receita_nota": "Receita médica obrigatória. Não interromper sem orientação médica.",
     "efeitos": "Bradicardia, fadiga, extremidades frias, tontura, aumento de ureia/creatinina, alterações eletrolíticas (potássio baixo), sensibilidade ao sol.",
@@ -1643,9 +1643,9 @@
       "Emcor"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Brivaracetam 10mg - 25mg - 50mg - 75mg - 100mg",
@@ -1765,9 +1765,9 @@
       "Complementa o salbutamol no tratamento da DPOC"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo",
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho",
     "sinonimos": [
       "Atrovent",
       "Atrovent Aerossol"
@@ -1780,9 +1780,9 @@
     "descricao": "Mucolítico indicado para fluidificar e facilitar a eliminação do muco nas vias respiratórias em bronquite, tosse produtiva, asma com secreção e DPOC. Age reduzindo a viscosidade do muco. Muito conhecido como Bisolvon.",
     "receita": "Sim",
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo",
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho",
     "receita_nota": "Tarjado. Consulte sempre o farmacêutico.",
     "efeitos": "Náusea, diarreia, dor de estômago, reações alérgicas cutâneas raras.",
     "aviso_grave": "Não usar em úlcera gástrica ativa. Beber bastante água para potencializar o efeito mucolítico. Cuidado em asmáticos — pode provocar broncoespasmo.",
@@ -1822,9 +1822,9 @@
       "Procure médico se tiver alucinações"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Bromoprida 10mg - Gotas",
@@ -1833,9 +1833,9 @@
     "descricao": "Antiemético e procinético indicado para náuseas, vômitos, refluxo gastroesofágico e gastroparesia. Similar à metoclopramida, age bloqueando receptores dopaminérgicos no sistema digestivo.",
     "receita": "Sim",
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo",
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho",
     "receita_nota": "Tarjado. Consulte sempre o farmacêutico.",
     "efeitos": "Sonolência, fadiga, diarreia. Uso prolongado: sintomas extrapiramidais (tremores, rigidez — especialmente em idosos e crianças).",
     "aviso_grave": "CUIDADO em idosos e crianças — risco de reações extrapiramidais (movimentos involuntários). Não usar por mais de 5 dias sem orientação médica.",
@@ -2060,9 +2060,9 @@
       "Cabergolina EMS"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Cafeína",
@@ -2106,9 +2106,9 @@
       "Requer acompanhamento médico rigoroso"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Canagliflozina 100mg - 300mg (Invokana)",
@@ -2134,9 +2134,9 @@
       "Vokanamet (com metformina)"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Candesartana 8mg - 16mg - 32mg",
@@ -2158,9 +2158,9 @@
       "⚠ PROIBIDO na gravidez"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Cannabis Medicinal (CBD / THC)",
@@ -2189,8 +2189,8 @@
       "canabidiol"
     ],
     "classe_receita": "RECEITA_ESPECIAL",
-    "receita_display": "🔴 Receita Médica Obrigatória",
-    "receita_descricao": "Exige receita médica obrigatória para dispensação.",
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
     "receita_cor": "vermelho"
   },
   {
@@ -2213,9 +2213,9 @@
       "Monitorize a pressão regularmente"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo",
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho",
     "perguntas_frequentes": [
       {
         "pergunta": "Captopril causa tosse?",
@@ -2257,8 +2257,8 @@
       "Pode causar tontura e visão dupla"
     ],
     "classe_receita": "RECEITA_ESPECIAL",
-    "receita_display": "🔴 Receita Médica Obrigatória",
-    "receita_descricao": "Exige receita médica obrigatória para dispensação.",
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
     "receita_cor": "vermelho"
   },
   {
@@ -2342,9 +2342,9 @@
       "Soma"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Carnitina 500mg",
@@ -2388,9 +2388,9 @@
       "Medir o pulso regularmente"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Cefadroxila 500mg - 1g",
@@ -2584,9 +2584,9 @@
       "Segura para uso prolongado"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Cetoconazol Shampoo, 200mg e Creme",
@@ -2636,9 +2636,9 @@
       "Fastum Gel"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Ciclobenzaprina 5mg - 10mg",
@@ -2665,9 +2665,9 @@
       "Yurelax"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Ciprofloxacino 250mg - 500mg - 750mg - Injetável e Colírio Oftálmico",
@@ -2812,9 +2812,9 @@
       "Clomid"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Clomipramina 10mg - 25mg - 75mg",
@@ -2911,9 +2911,9 @@
       "Pode causar hematomas com facilidade"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo",
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho",
     "perguntas_frequentes": [
       {
         "pergunta": "Clopidogrel pode parar de tomar de repente?",
@@ -3060,9 +3060,9 @@
       "Não suspenda sem orientação médica"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Clozapina 25mg - 100mg",
@@ -3173,9 +3173,9 @@
     ],
     "descricao": "Combinação de colagenase (enzima que remove tecido necrótico) com cloranfenicol (antibiótico de amplo espectro). Indicada para feridas infectadas ou com risco de infecção que também necessitam de desbridamento enzimático.",
     "receita": "Sim",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_cor": "amarelo",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
+    "receita_display": "🔴 Receita Simples",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
     "receita_nota": "O cloranfenicol sistêmico é restrito por risco de aplasia medular, mas na forma tópica tem uso aceito em feridas com baixa absorção sistêmica.",
     "efeitos": "Ardência ou irritação local. Raramente reação alérgica ao cloranfenicol. Uso prolongado pode selecionar bactérias resistentes.",
     "aviso_grave": "Evitar uso prolongado sem reavaliação médica — risco de resistência bacteriana. Não usar em grandes áreas de pele ou mucosas (risco de absorção sistêmica do cloranfenicol).",
@@ -3201,9 +3201,9 @@
     ],
     "descricao": "Enzima proteolítica de uso tópico que dissolve o tecido necrótico (morto) em feridas crônicas, úlceras de pressão, úlceras varicosas e queimaduras. Facilita o desbridamento (limpeza) da ferida sem danificar o tecido sadio ao redor.",
     "receita": "Sim",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_cor": "amarelo",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
+    "receita_display": "🔴 Receita Simples",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
     "receita_nota": "Aplicar apenas sobre o tecido necrótico — evitar contato com a pele sã ao redor da ferida.",
     "efeitos": "Leve ardência ou irritação local no início. Raramente: reação alérgica.",
     "aviso_grave": "Não usar em feridas com infecção ativa não controlada sem tratamento antibiótico concomitante. Não aplicar em olhos ou mucosas.",
@@ -3241,9 +3241,9 @@
       "Colcin"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Colesevelam 625mg",
@@ -3265,9 +3265,9 @@
       "Exames regulares de colesterol"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Colestipol 1,0g",
@@ -3289,9 +3289,9 @@
       "Pode reduzir absorção de vitaminas A, D, E e K"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Colestiramina 4g sachê",
@@ -3317,9 +3317,9 @@
       "Prevalite"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Colágeno hidrolisado",
@@ -3394,9 +3394,9 @@
     ],
     "descricao": "Usados no tratamento da osteoartrite (artrose) de joelho, quadril e outras articulações. A glucosamina participa da síntese de cartilagem e a condroitina retém água nas articulações, melhorando a lubrificação e reduzindo a dor.",
     "receita": "Sim",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_cor": "amarelo",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
+    "receita_display": "🔴 Receita Simples",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
     "receita_nota": "O efeito é lento — melhora gradual em 4–8 semanas. Tratamento de longa duração.",
     "efeitos": "Náusea, diarreia, desconforto gástrico. A glucosamina pode elevar levemente a glicemia em diabéticos.",
     "aviso_grave": "Diabéticos devem monitorar a glicemia durante o uso — a glucosamina pode interferir na sensibilidade à insulina. Alérgicos a crustáceos devem ter cautela (glucosamina de origem marinha).",
@@ -3486,9 +3486,9 @@
       "Xigduo XR"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo",
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho",
     "perguntas_frequentes": [
       {
         "pergunta": "Metformina emagrece?",
@@ -3532,9 +3532,9 @@
       "Beba bastante água"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Denosumabe 60mg - 120mg Injetável",
@@ -3560,9 +3560,9 @@
       "Denosumabe EMS"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Depakote Sprinkle 125mg (Liberação Entérica)",
@@ -3588,8 +3588,8 @@
       "Divalproato Sprinkle"
     ],
     "classe_receita": "RECEITA_ESPECIAL",
-    "receita_display": "🔴 Receita Médica Obrigatória",
-    "receita_descricao": "Exige receita médica obrigatória para dispensação.",
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
     "receita_cor": "vermelho"
   },
   {
@@ -3610,9 +3610,9 @@
       "Segura para uso prolongado"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Desmopressina (DDAVP)",
@@ -3639,9 +3639,9 @@
       "Desmopressina Ferring"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Desogestrel 75mcg (Cerazette) — Minipílula",
@@ -3668,9 +3668,9 @@
       "Desogestrel Sandoz"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Dexametasona 0,5mg - 4,0mg - Xarope - Injetável",
@@ -3692,9 +3692,9 @@
       "Monitore glicemia e pressão durante uso prolongado"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo",
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho",
     "perguntas_frequentes": [
       {
         "pergunta": "Dexametasona engorda?",
@@ -3812,9 +3812,9 @@
       "Não use com outros anti-inflamatórios"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo",
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho",
     "perguntas_frequentes": [
       {
         "pergunta": "Diclofenaco pode tomar com paracetamol?",
@@ -3850,9 +3850,9 @@
     ],
     "descricao": "Formulação especial do diclofenaco associado à colestiramina, desenvolvida para reduzir os efeitos irritantes no estômago. Indicada para pacientes que precisam de anti-inflamatório mas têm sensibilidade gástrica. Libera o diclofenaco de forma mais gradual no intestino.",
     "receita": "Não",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_cor": "amarelo",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
+    "receita_display": "🔴 Receita Simples",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
     "receita_nota": "Formulação com menor agressividade gástrica comparada ao diclofenaco sódico ou potássico convencional.",
     "efeitos": "Menor irritação gástrica que outras formas de diclofenaco. Pode causar náusea leve, constipação. Mesmos riscos cardiovasculares e renais do diclofenaco.",
     "aviso_grave": "Apesar da formulação mais suave, mantém os riscos cardiovasculares e renais do diclofenaco. Não usar em insuficiência renal, cardíaca ou úlcera ativa.",
@@ -3901,9 +3901,9 @@
     ],
     "descricao": "Forma de ação mais rápida do diclofenaco. Indicado para dor aguda, cólica menstrual, dor de dente, dor pós-operatória e situações onde se precisa de alívio mais rápido. A forma potássica é absorvida mais rapidamente que a sódica.",
     "receita": "Não",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_cor": "amarelo",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
+    "receita_display": "🔴 Receita Simples",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
     "receita_nota": "Início de ação mais rápido que o diclofenaco sódico — por isso preferido para dor aguda e cólica menstrual.",
     "efeitos": "Dor de estômago, náusea, azia, úlcera gástrica no uso prolongado, aumento da pressão arterial, retenção de líquidos.",
     "aviso_grave": "Mesmas contraindicações do diclofenaco sódico: insuficiência renal, úlcera ativa, insuficiência cardíaca, terceiro trimestre da gravidez.",
@@ -3954,9 +3954,9 @@
     ],
     "descricao": "Anti-inflamatório potente usado para dor e inflamação em artrite reumatoide, osteoartrose, dor lombar, cólica menstrual, dor pós-operatória e dor aguda. A forma sódica tem absorção mais lenta que o potássico, com ação mais duradoura.",
     "receita": "Não",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_cor": "amarelo",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
+    "receita_display": "🔴 Receita Simples",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
     "receita_nota": "Disponível em comprimidos 50mg e 75mg (liberação prolongada), supositório, injetável e gel tópico (Voltaren Emulgel).",
     "efeitos": "Dor de estômago, náusea, úlcera gástrica, aumento da pressão arterial, retenção de líquidos, risco renal e cardiovascular no uso prolongado.",
     "aviso_grave": "Contraindicado em insuficiência renal, úlcera ativa, insuficiência cardíaca e terceiro trimestre da gravidez. Interação grave com anticoagulantes.",
@@ -4012,9 +4012,9 @@
       "Relate náusea, visão amarelada ao médico"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Diltiazem 30mg - 60mg",
@@ -4036,9 +4036,9 @@
       "Medir o pulso regularmente"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Dimenidrinato 50mg (Dramin)",
@@ -4047,9 +4047,9 @@
     "descricao": "Antiemético e anti-histamínico indicado para enjoo de movimento (cinetose), náuseas e vômitos, inclusive os da gravidez (com orientação médica). Muito conhecido como Dramin.",
     "receita": "Sim",
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo",
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho",
     "receita_nota": "Tarjado. Consulte sempre o farmacêutico.",
     "efeitos": "Sonolência intensa, boca seca, visão turva, retenção urinária, constipação.",
     "aviso_grave": "Causa sonolência intensa — não dirija. Contraindicado em glaucoma e hipertrofia prostática. CUIDADO em idosos — risco de quedas e confusão (Critérios de Beers).",
@@ -4163,9 +4163,9 @@
       "Não ultrapasse a dose máxima — risco cardíaco"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo",
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho",
     "perguntas_frequentes": [
       {
         "pergunta": "Domperidona serve para enjoo?",
@@ -4214,8 +4214,8 @@
       "Dozil"
     ],
     "classe_receita": "RECEITA_ESPECIAL",
-    "receita_display": "🔴 Receita Médica Obrigatória",
-    "receita_descricao": "Exige receita médica obrigatória para dispensação.",
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
     "receita_cor": "vermelho"
   },
   {
@@ -4225,9 +4225,9 @@
     "descricao": "Associação de dipirona monoidratada (analgésico), citrato de orfenadrina (relaxante muscular) e cafeína anidra (potencializador do efeito analgésico). Indicado para dores musculares, contraturas e tensão muscular. Muito conhecido como Dorflex.",
     "receita": "Sim",
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo",
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho",
     "receita_nota": "Tarjado. Consulte sempre o farmacêutico.",
     "efeitos": "Sonolência (orfenadrina), boca seca, taquicardia, agitação ou insônia (cafeína), tontura, náusea.",
     "aviso_grave": "Contraindicado em glaucoma, miastenia grave, obstrução urinária. Alergia à dipirona é contraindicação absoluta. Cuidado em cardiopatas — orfenadrina pode causar taquicardia.",
@@ -4348,9 +4348,9 @@
     ],
     "descricao": "Análogo do GLP-1 de administração subcutânea semanal para diabetes tipo 2. Estimula a secreção de insulina dependente de glicose, reduz o glucagon, retarda o esvaziamento gástrico e reduz o apetite. Também tem benefícios cardiovasculares comprovados.",
     "receita": "Sim",
-    "receita_display": "🔴 Receita Branca em Duas Vias — Prescrição Obrigatória",
+    "receita_display": "🔴 Receita com Retenção — Branca 2 Vias",
     "receita_cor": "vermelho",
-    "receita_descricao": "Requer receita médica branca em duas vias com retenção de uma via na farmácia.",
+    "receita_descricao": "Exige prescrição médica com retenção da 1ª via na farmácia. Validade de 30 dias.",
     "receita_nota": "Caneta autoinjetora de uso único — aplicar no abdome, coxa ou braço. Pode ser aplicada em qualquer dia da semana, sempre no mesmo dia.",
     "efeitos": "Náusea, vômito, diarreia, dor abdominal (especialmente no início), perda de apetite e peso. Raramente: pancreatite.",
     "aviso_grave": "Contraindicada em histórico pessoal ou familiar de carcinoma medular de tireoide ou neoplasia endócrina múltipla tipo 2 (NEM 2). Suspender se houver suspeita de pancreatite.",
@@ -4399,9 +4399,9 @@
     ],
     "descricao": "Anticorpo monoclonal injetável que bloqueia as interleucinas IL-4 e IL-13, principais mediadores da inflamação tipo 2. Indicado para dermatite atópica moderada a grave, asma eosinofílica, rinossinusite crônica com pólipos e esofagite eosinofílica que não responderam a tratamentos convencionais.",
     "receita": "Sim",
-    "receita_display": "🟡 Tarja Amarela — Medicamento Biológico de Alto Custo",
-    "receita_cor": "amarelo",
-    "receita_descricao": "Exige prescrição médica de especialista. Medicamento biológico de alto custo — acesso via plano de saúde com laudo ou processo judicial junto ao SUS.",
+    "receita_display": "🔴 Receita com Retenção — Medicamento de Alto Custo",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Exige prescrição médica com retenção de receita. Medicamento de alto custo — acesso via plano de saúde com laudo ou SUS.",
     "receita_nota": "Injeção subcutânea a cada 2-4 semanas. Guardar na geladeira (2-8°C).",
     "efeitos": "Reação no local da injeção, conjuntivite (muito comum na dermatite atópica — tratar com colírio), cefaleia, herpes oral.",
     "aviso_grave": "Conjuntivite é efeito colateral muito comum na dermatite atópica — comunicar ao médico para tratamento com colírio. Não fazer vacinas de vírus vivo durante o tratamento.",
@@ -4439,9 +4439,9 @@
       "Dutoprol"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Efavirenz 200mg - 600mg - Solução",
@@ -4490,9 +4490,9 @@
       "Glyxambi (com linagliptina)"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Enalapril 5mg - 10mg - 20mg",
@@ -4514,9 +4514,9 @@
       "Evite na gravidez — teratogênico (pode causar malformações ou morte do bebê)"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo",
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho",
     "perguntas_frequentes": [
       {
         "pergunta": "Enalapril causa tosse?",
@@ -4560,9 +4560,9 @@
       "Risco de sangramento — observe sinais de alerta"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Eritromicina tópica 2%",
@@ -4619,9 +4619,9 @@
       "Epoetina EMS"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Escitalopram 10mg - 15mg - 20mg - Gotas",
@@ -4686,9 +4686,9 @@
       "Não use por longos períodos sem orientação"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo",
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho",
     "perguntas_frequentes": [
       {
         "pergunta": "Omeprazol pode tomar todo dia?",
@@ -4736,9 +4736,9 @@
       "Aldopur"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Espironolactona 25mg - 50mg - 100mg",
@@ -4760,9 +4760,9 @@
       "Monitorize exames de sangue regularmente"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Estradiol gel tópico / transdérmico",
@@ -4778,9 +4778,9 @@
     ],
     "descricao": "Reposição de estrogênio para tratamento dos sintomas do climatério/menopausa: fogachos, suores noturnos, secura vaginal, alterações de humor e prevenção da osteoporose. A via tópica/transdérmica tem vantagens sobre a oral — menor risco de trombose e efeitos hepáticos.",
     "receita": "Sim",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica Necessária",
-    "receita_cor": "amarelo",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
+    "receita_display": "🔴 Receita Simples",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
     "receita_nota": "Mulheres com útero intacto devem usar progesterona associada para proteger o endométrio.",
     "efeitos": "Mastodinia (dor nas mamas), sangramento irregular, retenção de líquidos, cefaleia, irritação no local de aplicação (adesivo).",
     "aviso_grave": "Contraindicado em câncer de mama ou endométrio, tromboembolismo ativo, doença hepática grave. Mulheres com útero devem usar progesterona — estrogênio isolado aumenta risco de câncer de endométrio.",
@@ -4841,8 +4841,8 @@
       "Algix"
     ],
     "classe_receita": "RECEITA_ESPECIAL",
-    "receita_display": "🔴 Receita Médica Obrigatória",
-    "receita_descricao": "Exige receita médica obrigatória para dispensação.",
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
     "receita_cor": "vermelho"
   },
   {
@@ -4858,9 +4858,9 @@
     ],
     "descricao": "Análogo do GLP-1 para diabetes tipo 2. Disponível em duas formas: Byetta (injeção 2x/dia) e Bydureon (injeção semanal de liberação prolongada). Estimula a secreção de insulina dependente de glicose, reduz o glucagon e o apetite, e retarda o esvaziamento gástrico.",
     "receita": "Sim",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica Necessária",
-    "receita_cor": "amarelo",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
+    "receita_display": "🔴 Receita Simples",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
     "receita_nota": "Byetta: aplicar 60 minutos antes do café e jantar. Bydureon: aplicar uma vez por semana, qualquer horário.",
     "efeitos": "Náusea (muito comum no início), vômito, diarreia, reação no local da injeção. Raramente: pancreatite.",
     "aviso_grave": "Contraindicada em histórico pessoal ou familiar de carcinoma medular de tireoide ou NEM tipo 2. Suspender se houver suspeita de pancreatite.",
@@ -4899,9 +4899,9 @@
       "Ezetrol"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Febuxostate 40mg - 80mg - 120mg",
@@ -4927,9 +4927,9 @@
       "Uloric"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Febuxostato 40mg - 80mg",
@@ -4944,9 +4944,9 @@
     ],
     "descricao": "Medicamento para tratamento crônico da hiperuricemia (ácido úrico elevado) e prevenção de crises de gota. Age inibindo a enzima xantina oxidase, reduzindo a produção de ácido úrico. É uma alternativa ao alopurinol especialmente em pacientes com insuficiência renal moderada.",
     "receita": "Sim",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica Necessária",
-    "receita_cor": "amarelo",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
+    "receita_display": "🔴 Receita Simples",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
     "receita_nota": "Pode ser tomado com ou sem alimentos. No início do tratamento, pode paradoxalmente precipitar crises de gota — usar profilaxia com colchicina ou AINE.",
     "efeitos": "Crises de gota no início do tratamento (mobilização do urato), náusea, diarreia, cefaleia, aumento de enzimas hepáticas.",
     "aviso_grave": "FDA emitiu alerta sobre possível aumento de risco cardiovascular comparado ao alopurinol. Usar com cautela em pacientes com doença cardiovascular estabelecida.",
@@ -4978,8 +4978,8 @@
       "Interação com muitos medicamentos"
     ],
     "classe_receita": "RECEITA_ESPECIAL",
-    "receita_display": "🔴 Receita Médica Obrigatória",
-    "receita_descricao": "Exige receita médica obrigatória para dispensação.",
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
     "receita_cor": "vermelho"
   },
   {
@@ -5036,9 +5036,9 @@
       "Lofibra"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Fenoterol 0,1mg/dose Spray / 5mg/mL Solução",
@@ -5064,9 +5064,9 @@
       "Dosberotec"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Fentanila Adesivo 12mcg/h - 25mcg/h - 50mcg/h - 100mcg/h",
@@ -5117,9 +5117,9 @@
       "Nunca ajuste a dose sozinho"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Ferro Injetável (Sacarato de Hidróxido Férrico)",
@@ -5141,9 +5141,9 @@
       "Efeito mais rápido que ferro oral"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Ferro Quelato Bisglicinato",
@@ -5194,9 +5194,9 @@
       "Ferro Sacarato EMS"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Fesoterodina 4mg - 8mg",
@@ -5221,9 +5221,9 @@
       "Fesoterodina EMS"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Finasterida 1mg - 5mg",
@@ -5245,9 +5245,9 @@
       "Atenção para mudanças de humor"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Fluconazol 50mg - 100mg - 150mg - 200mg - Suspensão - Injetável",
@@ -5269,9 +5269,9 @@
       "Informe uso de outros remédios ao médico"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Fluoxetina 10mg - 20mg - Gotas",
@@ -5344,9 +5344,9 @@
       "Alenia"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Formoterol + Propionato de Fluticasona (Lugano)",
@@ -5355,9 +5355,9 @@
     "descricao": "Associação de formoterol (broncodilatador de longa ação — LABA) com propionato de fluticasona (corticoide inalatório), indicada para asma e DPOC. Combinação que abre os brônquios e reduz a inflamação simultaneamente. Comercialmente conhecido como Lugano.",
     "receita": "Sim",
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo",
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho",
     "receita_nota": "Tarjado. Consulte sempre o farmacêutico.",
     "efeitos": "Candidíase oral (enxaguar a boca após uso), rouquidão, tosse, palpitações, tremor fino nas mãos (formoterol).",
     "aviso_grave": "Não usar para crises agudas — é medicamento de manutenção. Para crises usar broncodilatador de alívio rápido (salbutamol). Enxaguar a boca após cada uso para evitar candidíase.",
@@ -5389,9 +5389,9 @@
     ],
     "descricao": "Broncodilatador de longa duração (até 12 horas) usado na manutenção de asma e DPOC. Mantém os brônquios abertos de forma sustentada. Diferente do salbutamol (curta duração), não é indicado como resgate em crises agudas.",
     "receita": "Sim",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_cor": "amarelo",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
+    "receita_display": "🔴 Receita Simples",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
     "receita_nota": "LABAs (beta-2 de longa duração) NÃO devem ser usados isoladamente na asma sem corticoide inalatório associado — aumenta risco de morte por asma grave.",
     "efeitos": "Tremor fino nas mãos, taquicardia, palpitações, cefaleia, cãibras, hipocalemia (potássio baixo) em doses altas.",
     "aviso_grave": "NA ASMA: nunca usar LABA isolado sem corticoide inalatório — risco de morte aumentado. Sempre associado a budesonida, fluticasona ou outro corticoide inalatório. Na DPOC: pode ser usado isolado.",
@@ -5452,9 +5452,9 @@
       "Moment Nasal"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Furosemida 20mg - 40mg - 80mg - Injetável",
@@ -5476,9 +5476,9 @@
       "Monitore potássio — pode baixar"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo",
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho",
     "perguntas_frequentes": [
       {
         "pergunta": "Furosemida pode tomar de noite?",
@@ -5554,8 +5554,8 @@
     "descricao": "Inibidor da colinesterase indicado para tratamento sintomático da doença de Alzheimer leve a moderada. Age aumentando os níveis de acetilcolina no cérebro, melhorando cognição e memória.",
     "receita": "Sim",
     "classe_receita": "TARJADO",
-    "receita_display": "🔴 Tarjado — Receita Simples Obrigatória",
-    "receita_descricao": "Exige receita médica simples. Medicamento de uso contínuo para demência.",
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
     "receita_cor": "vermelho",
     "receita_nota": "Receita médica obrigatória.",
     "efeitos": "Náusea, vômito, diarreia, perda de apetite, tontura, cefaleia, bradicardia.",
@@ -5620,9 +5620,9 @@
       "Mantenha açúcar sempre à mão"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo",
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho",
     "perguntas_frequentes": [
       {
         "pergunta": "Glibenclamida causa hipoglicemia?",
@@ -5653,8 +5653,8 @@
     "descricao": "Antidiabético oral da classe das sulfonilureias, indicado para diabetes tipo 2. Estimula a liberação de insulina pelo pâncreas. Tem efeito protetor cardiovascular e renal diferencial em relação a outras sulfonilureias.",
     "receita": "Sim",
     "classe_receita": "TARJADO",
-    "receita_display": "🔴 Tarjado — Receita Simples Obrigatória",
-    "receita_descricao": "Exige receita médica simples. Uso contínuo para diabetes tipo 2.",
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
     "receita_cor": "vermelho",
     "receita_nota": "Receita médica obrigatória. Disponível pelo SUS.",
     "efeitos": "Hipoglicemia (principal risco), ganho de peso, náusea, diarreia.",
@@ -5688,9 +5688,9 @@
     ],
     "descricao": "Anticolinérgico inalatório de longa duração (LAMA) para tratamento de manutenção da DPOC. Dilata os brônquios bloqueando receptores muscarínicos M3. Dose única diária via inalador Breezhaler.",
     "receita": "Sim",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_cor": "amarelo",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
+    "receita_display": "🔴 Receita Simples",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
     "receita_nota": "Disponível também em combinação com indacaterol (Ultibro Breezhaler) — LAMA+LABA em dose única.",
     "efeitos": "Boca seca, nasofaringite, infecção urinária, constipação. Raramente: taquicardia, retenção urinária.",
     "aviso_grave": "Cuidado em glaucoma de ângulo fechado e hipertrofia prostática — pode agravar retenção urinária. Não usar para crise aguda.",
@@ -5711,8 +5711,8 @@
     "descricao": "Antidiabético oral da classe das sulfonilureias de 3ª geração, indicado para diabetes tipo 2. Estimula a secreção de insulina. Pode ser usada em combinação com metformina ou insulina.",
     "receita": "Sim",
     "classe_receita": "TARJADO",
-    "receita_display": "🔴 Tarjado — Receita Simples Obrigatória",
-    "receita_descricao": "Exige receita médica simples. Uso contínuo para diabetes tipo 2.",
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
     "receita_cor": "vermelho",
     "receita_nota": "Receita médica obrigatória.",
     "efeitos": "Hipoglicemia, ganho de peso, náusea, dor de cabeça, reações alérgicas cutâneas.",
@@ -5757,9 +5757,9 @@
       "Griseofulvina EMS"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Haloperidol 1mg - 5mg - Gotas - Injetável",
@@ -5849,9 +5849,9 @@
       "Não interrompa abruptamente"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Hidroclorotiazida 12,5mg - 25mg - 50mg",
@@ -5873,9 +5873,9 @@
       "Proteja-se do sol — fotossensibilidade"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Hidrocortisona Injetável - Pomada",
@@ -5897,9 +5897,9 @@
       "Não use por mais tempo que o indicado"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Hidroquinona 2% - 4% Creme",
@@ -5926,9 +5926,9 @@
       "Tri-Luma (fórmula combinada)"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Hidroxicloroquina 400mg",
@@ -5955,9 +5955,9 @@
       "Hidroxicloroquina Medley"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Hidroxizina 10mg - 25mg - 50mg",
@@ -5984,9 +5984,9 @@
       "Vistagan"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Hidróxido de Alumínio",
@@ -6083,9 +6083,9 @@
     ],
     "descricao": "Bisfosfonato usado no tratamento da osteoporose em mulheres na pós-menopausa. Reduz a reabsorção óssea, aumentando a densidade mineral dos ossos e reduzindo o risco de fraturas. Disponível em comprimido mensal (150mg) e injeção trimestral.",
     "receita": "Sim",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_cor": "amarelo",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
+    "receita_display": "🔴 Receita Simples",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
     "receita_nota": "Tomar em jejum, com copo cheio de água (200ml), e permanecer em pé ou sentado por pelo menos 60 minutos após.",
     "efeitos": "Irritação esofágica e gástrica (se não seguir as instruções), dor musculoesquelética, febre e sintomas gripais na primeira dose injetável.",
     "aviso_grave": "Osteonecrose de mandíbula (rara, mais em uso prolongado ou IV) — informar ao dentista antes de procedimentos invasivos. Fratura atípica de fêmur com uso muito prolongado (>5 anos).",
@@ -6217,9 +6217,9 @@
     ],
     "descricao": "Broncodilatador beta-2 agonista de ação ultralonga (24 horas) — dose única diária. Indicado para manutenção e alívio de sintomas na DPOC (doença pulmonar obstrutiva crônica). Não é indicado para asma nem para crises agudas.",
     "receita": "Sim",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_cor": "amarelo",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
+    "receita_display": "🔴 Receita Simples",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
     "receita_nota": "Dose única diária — grande vantagem para adesão ao tratamento. Usar sempre no mesmo horário.",
     "efeitos": "Tosse após inalação (transitória), nasofaringite, cefaleia, tremor fino nas mãos, taquicardia.",
     "aviso_grave": "NÃO usar na asma como monoterapia — risco aumentado de morte. Indicado exclusivamente para DPOC. Não é broncodilatador de resgate — usar salbutamol para crises.",
@@ -6269,9 +6269,9 @@
     "descricao": "Insulina análoga de ação ultrarrápida usada para controle da glicemia pós-refeição em diabetes tipo 1 e tipo 2. Age em 10-20 minutos e dura cerca de 3-5 horas. Comercialmente conhecida como NovoRapid.",
     "receita": "Sim",
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo",
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho",
     "receita_nota": "Tarjado. Consulte sempre o farmacêutico.",
     "efeitos": "Hipoglicemia (principal risco — ação rápida exige atenção), reações no local da injeção, ganho de peso.",
     "aviso_grave": "Aplicar imediatamente antes das refeições. Hipoglicemia rápida e intensa — ter sempre algo doce à mão. Não usar se não for comer após a aplicação.",
@@ -6303,9 +6303,9 @@
     ],
     "descricao": "Insulina análoga de longa duração (16-24 horas) usada no controle glicêmico basal em diabetes tipo 1 e tipo 2. Fornece cobertura insulínica contínua entre as refeições e durante a noite. Pode ser aplicada uma ou duas vezes ao dia.",
     "receita": "Sim",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_cor": "amarelo",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
+    "receita_display": "🔴 Receita Simples",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
     "receita_nota": "Guardar na geladeira antes de abrir (2-8°C). Após aberta, pode ficar em temperatura ambiente por até 42 dias.",
     "efeitos": "Hipoglicemia (principal risco), reação no local da aplicação, ganho de peso (menor que insulina NPH).",
     "aviso_grave": "Hipoglicemia é o principal risco — nunca pular refeições após aplicar. Ter sempre açúcar ou suco de laranja disponível. Não confundir com insulina de ação rápida.",
@@ -6326,9 +6326,9 @@
     "descricao": "Insulina análoga de ação prolongada (24h), usada como insulina basal no tratamento de diabetes tipo 1 e tipo 2. Fornece cobertura insulínica estável ao longo do dia. Comercialmente conhecida como Lantus e Basaglar.",
     "receita": "Sim",
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo",
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho",
     "receita_nota": "Tarjado. Consulte sempre o farmacêutico.",
     "efeitos": "Hipoglicemia (principal risco), reações no local da injeção (vermelhidão, inchaço), ganho de peso.",
     "aviso_grave": "Hipoglicemia grave pode ser fatal. NÃO misturar com outras insulinas na mesma seringa. Não agitar — rolar suavemente entre as mãos.",
@@ -6355,9 +6355,9 @@
     "descricao": "Insulina análoga de ação ultrarrápida para controle da glicemia pós-refeição. Similar à insulina asparte, age em 15 minutos e dura 3-5 horas. Comercialmente conhecida como Humalog.",
     "receita": "Sim",
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo",
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho",
     "receita_nota": "Tarjado. Consulte sempre o farmacêutico.",
     "efeitos": "Hipoglicemia, reações no local da injeção, ganho de peso.",
     "aviso_grave": "Aplicar imediatamente antes das refeições. Não usar se não for comer. Hipoglicemia rápida e intensa.",
@@ -6396,9 +6396,9 @@
       "Tenha açúcar sempre à mão — risco de hipoglicemia"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Insulina Regular 100U/ml",
@@ -6420,9 +6420,9 @@
       "Tenha açúcar sempre à mão — risco de hipoglicemia"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Iodo — Iodeto de Potássio",
@@ -6466,9 +6466,9 @@
     ],
     "descricao": "BRA indicado para hipertensão arterial e nefropatia diabética (proteção renal em diabéticos tipo 2 com pressão alta e proteína na urina). Tem efeito protetor renal independente do controle pressórico.",
     "receita": "Sim",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica Necessária",
-    "receita_cor": "amarelo",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
+    "receita_display": "🔴 Receita Simples",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
     "receita_nota": "Contraindicado na gravidez. Boa opção para diabéticos hipertensos com proteína na urina.",
     "efeitos": "Tontura, hipercalemia, cefaleia, fadiga. Raramente: angioedema.",
     "aviso_grave": "Contraindicado na gravidez. Monitorar potássio e função renal especialmente em diabéticos e pacientes com doença renal.",
@@ -6519,9 +6519,9 @@
     ],
     "descricao": "Nitrato orgânico usado na prevenção e tratamento da angina pectoris e na insuficiência cardíaca. Dilata as veias e artérias coronárias, reduzindo a carga de trabalho do coração e melhorando o fluxo sanguíneo. Disponível em comprimido comum e liberação prolongada.",
     "receita": "Sim",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica Necessária",
-    "receita_cor": "amarelo",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
+    "receita_display": "🔴 Receita Simples",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
     "receita_nota": "Necessário período livre de nitrato (8-12h) para evitar tolerância — geralmente omitindo a dose noturna.",
     "efeitos": "Cefaleia intensa (muito comum no início — melhora com o tempo), hipotensão, tontura, rubor facial, palpitações.",
     "aviso_grave": "CONTRAINDICADO com sildenafila, tadalafila e vardenafila (viagra e similares) — queda grave e súbita da pressão arterial, potencialmente fatal.",
@@ -6553,8 +6553,8 @@
       "Exames mensais obrigatórios"
     ],
     "classe_receita": "RECEITA_ESPECIAL",
-    "receita_display": "🔴 Receita Médica Obrigatória",
-    "receita_descricao": "Exige receita médica obrigatória para dispensação.",
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
     "receita_cor": "vermelho"
   },
   {
@@ -6582,9 +6582,9 @@
       "Canadiol"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Ivabradina 5mg - 7,5mg (Procoralan)",
@@ -6610,9 +6610,9 @@
       "Coralan"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Ivermectina 6mg",
@@ -6632,9 +6632,9 @@
       "Não tem eficácia comprovada contra COVID-19"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Ivermectina tópica 1% — Soolantra (Rosácea)",
@@ -6649,9 +6649,9 @@
     ],
     "descricao": "Creme de ivermectina 1% para uso tópico facial, indicado especificamente para rosácea papulopustulosa (tipo de rosácea com pápulas e pústulas, semelhante à acne). Age eliminando o ácaro Demodex folliculorum e reduzindo a inflamação local.",
     "receita": "Sim",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_cor": "amarelo",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
+    "receita_display": "🔴 Receita Simples",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
     "receita_nota": "Diferente da ivermectina oral (usada para parasitas sistêmicos) — esta é exclusivamente de uso tópico facial para rosácea.",
     "efeitos": "Sensação de ardência ou prurido local no início do tratamento. Geralmente transitório e leve.",
     "aviso_grave": "Uso exclusivamente facial — não ingerir. Não aplicar em olhos, boca ou mucosas. Não confundir com a ivermectina oral comprimido.",
@@ -6763,9 +6763,9 @@
       "Lanzol"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo",
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho",
     "perguntas_frequentes": [
       {
         "pergunta": "Lansoprazol pode tomar todo dia?",
@@ -6909,9 +6909,9 @@
       "DIU hormonal"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Levotiroxina 25mcg - 50mcg - 75mcg - 100mcg - 125mcg - 150mcg (Puran T4)",
@@ -6933,9 +6933,9 @@
       "Dose ajustada por exame de TSH"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo",
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho",
     "perguntas_frequentes": [
       {
         "pergunta": "Levotiroxina pode tomar com café?",
@@ -6973,9 +6973,9 @@
     ],
     "descricao": "Anestésico local de uso tópico em gel. Usado para anestesia de mucosas antes de procedimentos (cateterismo, endoscopia, sondagem uretral), alívio de dor em feridas, úlceras orais, fissuras anais e hemorroidas.",
     "receita": "Sim",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_cor": "amarelo",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
+    "receita_display": "🔴 Receita Simples",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
     "receita_nota": "Disponível em gel 2% para uso tópico. A forma injetável requer prescrição e aplicação por profissional de saúde.",
     "efeitos": "Irritação local transitória, formigamento. Em caso de absorção sistêmica excessiva (uso exagerado): tontura, confusão, arritmia (raro).",
     "aviso_grave": "Não aplicar em grandes áreas ou pele lesionada extensamente — risco de absorção sistêmica e toxicidade. Não usar próximo aos olhos.",
@@ -7013,9 +7013,9 @@
       "Jentadueto (com metformina)"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Linezolida 400mg - 600mg",
@@ -7052,9 +7052,9 @@
     "descricao": "Associação de dipirona monoidratada (analgésico/antitérmico), cloridrato de adifenina (antiespasmódico) e cloridrato de prometazina (anti-histamínico). Indicado para cólicas, dores musculares e espasmos com componente alérgico. Comercialmente conhecido como Lisador.",
     "receita": "Sim",
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo",
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho",
     "receita_nota": "Tarjado. Consulte sempre o farmacêutico.",
     "efeitos": "Sonolência intensa (prometazina), boca seca, tontura, visão turva, retenção urinária. Dipirona pode causar reações alérgicas raras mas graves.",
     "aviso_grave": "A prometazina causa sonolência intensa — não dirija. Contraindicado em glaucoma e hipertrofia prostática. Alergia à dipirona é contraindicação absoluta.",
@@ -7143,9 +7143,9 @@
       "Evite na gravidez"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Loperamida 2mg",
@@ -7165,9 +7165,9 @@
       "Hidrate-se bem durante a diarreia"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Lopinavir/Ritonavir 200mg/50mg - Comprimido | Solução Oral",
@@ -7199,9 +7199,9 @@
     "descricao": "Associação de anti-histamínico (loratadina) com descongestionante nasal (pseudoefedrina), indicada para rinite alérgica com congestão nasal. Comercialmente conhecido como Claritin-D e similares.",
     "receita": "Sim",
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo",
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho",
     "receita_nota": "Pseudoefedrina é controlada — pode exigir documento de identidade na compra.",
     "efeitos": "Insônia, agitação, aumento da pressão arterial, palpitações, boca seca, dor de cabeça.",
     "aviso_grave": "CONTRAINDICADO em hipertensão não controlada, doenças cardíacas, hipertireoidismo, glaucoma e uso de IMAO. A pseudoefedrina aumenta a pressão arterial.",
@@ -7263,9 +7263,9 @@
       "Evite suplementos de potássio sem orientação"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo",
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho",
     "perguntas_frequentes": [
       {
         "pergunta": "Losartana dá tosse?",
@@ -7336,8 +7336,8 @@
       "Sinais de intoxicação: tremor intenso e confusão — EMERGÊNCIA"
     ],
     "classe_receita": "RECEITA_ESPECIAL",
-    "receita_display": "🔴 Receita Médica Obrigatória",
-    "receita_descricao": "Exige receita médica obrigatória para dispensação.",
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
     "receita_cor": "vermelho"
   },
   {
@@ -7427,9 +7427,9 @@
     "descricao": "Anti-histamínico de ação central indicado para vertigem, enjoo de movimento e náuseas. Tem menor efeito sedativo que o dimenidrinato. Ação mais prolongada — uma dose por dia é suficiente.",
     "receita": "Sim",
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo",
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho",
     "receita_nota": "Tarjado. Consulte sempre o farmacêutico.",
     "efeitos": "Sonolência (menor que dimenidrinato), boca seca, visão turva.",
     "aviso_grave": "Contraindicado em glaucoma. Cuidado em idosos. Não dirija se sentir sonolência.",
@@ -7474,9 +7474,9 @@
       "Medroxiprogesterona Depot"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Melatonina 0,21mg - 0,5mg - 1mg - 2mg - 3mg - 5mg - 10mg",
@@ -7525,9 +7525,9 @@
       "Inflamen"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Memantina 10mg - 20mg",
@@ -7554,9 +7554,9 @@
       "Akatinol"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Mesalazina / Mesalamina 400mg - 800mg - 1g",
@@ -7583,9 +7583,9 @@
       "Salofalk"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Metformina 500mg - 850mg - 1000mg - XR (Liberação Prolongada)",
@@ -7607,9 +7607,9 @@
       "Suspenda antes de cirurgias e exames com contraste"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo",
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho",
     "sinonimos": [
       "Glifage",
       "Glifage XR"
@@ -7715,9 +7715,9 @@
       "Miolax"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Metoclopramida 10mg - Gotas - Injetável",
@@ -7739,9 +7739,9 @@
       "Cuidado em crianças — efeitos neurológicos"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Metoprolol 25mg - 50mg - 100mg",
@@ -7763,9 +7763,9 @@
       "Tome com alimento"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Metotrexato 2,5mg - 7,5mg - 10mg - 15mg - 25mg - Injetável",
@@ -7787,9 +7787,9 @@
       "Teratogênico (pode causar malformações graves ou aborto) — contracepção obrigatória"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Metronidazol 250mg - 400mg - 500mg",
@@ -7888,9 +7888,9 @@
       "Se parar: os cabelos ganhos caem em 3-6 meses"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Mirabegrona 25mg - 50mg",
@@ -7905,9 +7905,9 @@
     ],
     "descricao": "Medicamento para bexiga hiperativa (urgência urinária, frequência aumentada, urge-incontinência). Mecanismo único — ativa receptores beta-3 na bexiga, relaxando o músculo detrusor e aumentando a capacidade vesical. Alternativa aos anticolinérgicos com menos efeitos colaterais.",
     "receita": "Sim",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica Necessária",
-    "receita_cor": "amarelo",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
+    "receita_display": "🔴 Receita Simples",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
     "receita_nota": "Pode ser tomado com ou sem alimentos. Não partir ou mastigar — liberação prolongada.",
     "efeitos": "Hipertensão arterial (monitorar), infecção urinária, taquicardia, cefaleia, boca seca (menos que anticolinérgicos).",
     "aviso_grave": "Monitorar pressão arterial regularmente — pode elevar a PA. Contraindicado em hipertensão grave não controlada.",
@@ -7956,9 +7956,9 @@
     ],
     "descricao": "Análogo sintético da prostaglandina E1 com múltiplas indicações: proteção gástrica em usuários de AINEs (prevenção de úlcera), indução do parto, tratamento de hemorragia pós-parto e esvaziamento uterino. Causa contrações uterinas e proteção da mucosa gástrica.",
     "receita": "Sim",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica Necessária",
-    "receita_cor": "amarelo",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
+    "receita_display": "🔴 Receita Simples",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
     "receita_nota": "Uso ginecológico/obstétrico deve ser feito exclusivamente em ambiente hospitalar com monitoramento.",
     "efeitos": "Diarreia, cólicas abdominais, náusea, sangramento uterino (quando usado em ginecologia).",
     "aviso_grave": "CONTRAINDICADO na gravidez quando a intenção é manter a gestação — causa contrações uterinas e pode levar ao aborto. Uso obstétrico apenas em ambiente hospitalar supervisionado.",
@@ -7992,9 +7992,9 @@
       "Fique atento a mudanças de humor — efeito psiquiátrico possível"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Morfina 10mg - 30mg - 10mg/mL Injetável",
@@ -8067,8 +8067,8 @@
       "NUNCA congele — geladeira até abrir, ambiente após (até 30 dias)"
     ],
     "classe_receita": "RECEITA_ESPECIAL",
-    "receita_display": "🔴 Receita Médica Obrigatória",
-    "receita_descricao": "Agonista GLP-1 — exige receita médica obrigatória. Dispensação controlada.",
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
     "receita_cor": "vermelho"
   },
   {
@@ -8226,9 +8226,9 @@
     ],
     "descricao": "Indicada para tratamento agudo da enxaqueca com ou sem aura em adultos. Age contraindo vasos dilatados e bloqueando substâncias que causam dor na crise. Tem ação mais lenta que outros triptanos, mas efeito mais duradouro e menor taxa de recorrência.",
     "receita": "Sim",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_cor": "amarelo",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
+    "receita_display": "🔴 Receita Simples",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
     "receita_nota": "Não indicada para prevenção — apenas para tratamento da crise aguda.",
     "efeitos": "Tontura, sensação de calor, formigamento, fadiga, náusea, sensação de pressão no peito (geralmente não cardíaca).",
     "aviso_grave": "Contraindicada em doenças cardiovasculares, hipertensão não controlada, insuficiência hepática ou renal grave. Não combinar com outros triptanos ou ergotamina no mesmo dia.",
@@ -8254,9 +8254,9 @@
     ],
     "descricao": "Betabloqueador de 3ª geração com alta cardiosseletividade e efeito vasodilatador único (libera óxido nítrico). Usado na hipertensão arterial e insuficiência cardíaca. Causa menos efeitos colaterais que betabloqueadores tradicionais, especialmente menos disfunção erétil.",
     "receita": "Sim",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica Necessária",
-    "receita_cor": "amarelo",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
+    "receita_display": "🔴 Receita Simples",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
     "receita_nota": "Uso contínuo — nunca interromper abruptamente.",
     "efeitos": "Bradicardia, cefaleia, tontura, fadiga, extremidades frias. Menor impacto na função erétil comparado a outros betabloqueadores.",
     "aviso_grave": "NUNCA interromper abruptamente — risco de angina rebote e infarto. Usar com cautela em asmáticos — apesar da alta seletividade, pode afetar os brônquios em doses altas.",
@@ -8452,9 +8452,9 @@
       "Pode causar inchaço nas pernas e rubor facial"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Nimesulida + Ciclobenzaprina (Nivux)",
@@ -8463,9 +8463,9 @@
     "descricao": "Associação de anti-inflamatório (nimesulida) com relaxante muscular (ciclobenzaprina), indicada para dores musculares, contraturas e processos inflamatórios com espasmo muscular. Comercialmente conhecido como Nivux.",
     "receita": "Sim",
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo",
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho",
     "receita_nota": "Tarjado. Consulte sempre o farmacêutico.",
     "efeitos": "Sonolência intensa (ciclobenzaprina), náusea, dor de estômago, tontura, boca seca.",
     "aviso_grave": "Não dirigir — ciclobenzaprina causa sonolência. Nimesulida é hepatotóxica — não usar por mais de 15 dias. Contraindicado em insuficiência hepática.",
@@ -8526,9 +8526,9 @@
       "Não use por mais de 15 dias sem orientação"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo",
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho",
     "perguntas_frequentes": [
       {
         "pergunta": "Nimesulida faz mal para o fígado?",
@@ -8559,9 +8559,9 @@
     "descricao": "Antifúngico poliênico indicado para candidíase oral (sapinho), candidíase esofágica e candidíase intestinal. Muito usado em bebês e imunossuprimidos. Não é absorvido pelo intestino — age localmente.",
     "receita": "Sim",
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo",
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho",
     "receita_nota": "Tarjado. Consulte sempre o farmacêutico.",
     "efeitos": "Muito bem tolerado. Raramente: náusea, diarreia, irritação local.",
     "aviso_grave": "Não é eficaz para candidíase sistêmica — age apenas localmente. Manter boa higiene oral durante o tratamento.",
@@ -8679,9 +8679,9 @@
       "Tridil"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Nortriptilina 10mg - 25mg - 50mg - 75mg",
@@ -8725,9 +8725,9 @@
     ],
     "descricao": "Novalgina é o nome comercial mais conhecido da dipirona no Brasil. Usada para dor de cabeça, dor de dente, cólica, febre e dores em geral. Age inibindo a síntese de prostaglandinas e atuando diretamente no centro da dor e da febre no sistema nervoso central.",
     "receita": "Não",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_cor": "amarelo",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
+    "receita_display": "🔴 Receita Simples",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
     "receita_nota": "Apesar de ser tarjado, é um dos medicamentos mais vendidos sem receita no Brasil.",
     "efeitos": "Reações alérgicas (urticária, broncoespasmo). Raramente agranulocitose (queda grave de glóbulos brancos). Em geral muito bem tolerada.",
     "aviso_grave": "Agranulocitose é rara mas grave — suspender imediatamente e procurar médico se aparecer febre alta, dor de garganta intensa ou feridas na boca durante uso prolongado.",
@@ -8820,9 +8820,9 @@
     ],
     "descricao": "BRA (bloqueador do receptor de angiotensina II) de longa duração para tratamento da hipertensão arterial. Dose única diária. Considerado um dos BRAs mais potentes e duradouros disponíveis, com controle de 24 horas da pressão arterial.",
     "receita": "Sim",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica Necessária",
-    "receita_cor": "amarelo",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
+    "receita_display": "🔴 Receita Simples",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
     "receita_nota": "Contraindicado na gravidez — pode causar malformações fetais graves.",
     "efeitos": "Tontura, hipercalemia (potássio elevado), elevação de creatinina, raramente angioedema. Raramente: enteropatia (diarreia crônica com perda de peso — efeito incomum mas específico da olmesartana).",
     "aviso_grave": "Contraindicado na gravidez. Associado a enteropatia tipo esprú (diarreia grave e perda de peso) em alguns pacientes — se isso ocorrer, comunicar ao médico imediatamente.",
@@ -8854,9 +8854,9 @@
       "Pode reduzir absorção de vitamina B12 e magnésio"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo",
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho",
     "perguntas_frequentes": [
       {
         "pergunta": "Omeprazol pode tomar todo dia?",
@@ -8898,9 +8898,9 @@
       "Risco cardíaco: informe histórico de arritmia"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Ondansetrona ODT 4mg - 8mg (Zofran)",
@@ -8909,9 +8909,9 @@
     "descricao": "Antiemético potente da classe dos antagonistas 5-HT3, disponível em comprimido de dissolução oral (ODT — dissolve na língua sem precisar de água). Indicado para náuseas e vômitos por quimioterapia, radioterapia, pós-operatório e gravidez. Muito conhecido como Zofran.",
     "receita": "Sim",
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo",
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho",
     "receita_nota": "Tarjado. Consulte sempre o farmacêutico.",
     "efeitos": "Cefaleia, constipação, sensação de calor, tontura. Raramente: prolongamento do QT (monitorar em cardiopatas).",
     "aviso_grave": "Cuidado em pacientes com arritmias cardíacas ou que usam outros medicamentos que prolongam o QT. Não usar doses altas em cardiopatas.",
@@ -8949,9 +8949,9 @@
       "Disponível no SUS para grupos de risco"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Oxcarbazepina 300mg - 600mg",
@@ -9006,9 +9006,9 @@
       "Kentera (adesivo)"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Oximetazolina 0,05% Spray Nasal (Afrin)",
@@ -9017,9 +9017,9 @@
     "descricao": "Descongestionante nasal tópico de ação rápida (5-10 minutos) e prolongada (até 12 horas). Indicado para congestão nasal por resfriado, rinite e sinusite. Muito conhecido como Afrin.",
     "receita": "Sim",
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo",
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho",
     "receita_nota": "Tarjado. Não usar por mais de 3 dias consecutivos.",
     "efeitos": "Ardência e ressecamento nasal, espirros. Uso prolongado causa efeito rebote — congestão pior que antes (rinite medicamentosa).",
     "aviso_grave": "NÃO USAR por mais de 3 dias consecutivos — causa dependência e rinite medicamentosa (congestão de rebote). Contraindicado em crianças menores de 6 anos.",
@@ -9085,9 +9085,9 @@
       "Não use longos períodos sem orientação"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo",
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho",
     "perguntas_frequentes": [
       {
         "pergunta": "Pantoprazol pode tomar todo dia?",
@@ -9136,9 +9136,9 @@
       "Zurcal"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo",
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho",
     "perguntas_frequentes": [
       {
         "pergunta": "Pantoprazol pode tomar todo dia?",
@@ -9169,9 +9169,9 @@
     "descricao": "Combinação antigripal com paracetamol (analgésico/antitérmico), fenilefrina (descongestionante nasal) e clorfeniramina (anti-histamínico para coriza e espirros). Indicado para alívio dos sintomas de gripe e resfriado. Conhecido comercialmente como Resfenol, Coristina D e Naldecon.",
     "receita": "Sim",
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo",
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho",
     "receita_nota": "Tarjado. Consulte sempre o farmacêutico.",
     "efeitos": "Sonolência (clorfeniramina), boca seca, aumento da pressão arterial (fenilefrina), retenção urinária, náusea.",
     "aviso_grave": "CONTRAINDICADO em hipertensão não controlada, cardiopatias, hipertireoidismo e glaucoma. Alergia ao paracetamol é contraindicação absoluta.",
@@ -9222,9 +9222,9 @@
     "descricao": "Combinação antigripal indicada para alívio dos sintomas de gripe e resfriado: febre, dor de cabeça, coriza, espirros e congestão nasal. Muito conhecido comercialmente como Benegrip.",
     "receita": "Sim",
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo",
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho",
     "receita_nota": "Tarjado. Consulte sempre o farmacêutico.",
     "efeitos": "Sonolência intensa (clorfeniramina), boca seca, aumento da pressão arterial, retenção urinária.",
     "aviso_grave": "CONTRAINDICADO em hipertensão, cardiopatias e glaucoma. Não usar com outros medicamentos que contenham paracetamol para evitar superdose.",
@@ -9273,9 +9273,9 @@
     "descricao": "Combinação de paracetamol com pseudoefedrina (descongestionante potente), indicada para congestão nasal intensa, sinusite e resfriado com dor de cabeça. Muito conhecida como Tylenol Sinus.",
     "receita": "Sim",
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo",
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho",
     "receita_nota": "Pseudoefedrina é controlada — pode exigir documento de identidade na compra.",
     "efeitos": "Insônia, agitação, aumento da pressão arterial, palpitações, boca seca, nervosismo.",
     "aviso_grave": "CONTRAINDICADO em hipertensão, cardiopatias, hipertireoidismo e glaucoma. Pseudoefedrina é estimulante — não tomar à noite.",
@@ -9437,9 +9437,9 @@
       "Elimite (5%)"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Peróxido de Benzoíla 2,5% - 5% - 10% Gel",
@@ -9534,9 +9534,9 @@
     ],
     "descricao": "Imunossupressor tópico da classe dos inibidores de calcineurina, indicado para dermatite atópica leve a moderada em adultos e crianças acima de 2 anos. Alternativa aos corticoides tópicos — não causa atrofia da pele com uso prolongado.",
     "receita": "Sim",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica Necessária",
-    "receita_cor": "amarelo",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
+    "receita_display": "🔴 Receita Simples",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
     "receita_nota": "Não usar em crianças menores de 2 anos. Usar protetor solar — aumenta sensibilidade ao sol.",
     "efeitos": "Sensação de calor, ardência e prurido local nos primeiros dias (transitório), herpes simples pode ser reativado.",
     "aviso_grave": "FDA emitiu alerta sobre possível risco teórico de linfoma — usar pelo menor tempo necessário e não em áreas extensas de forma contínua. Não usar em imunossuprimidos ou com infecção ativa na pele.",
@@ -9574,9 +9574,9 @@
       "Pioglit"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Pirazinamida 500mg",
@@ -9667,9 +9667,9 @@
     "descricao": "Corticoide de uso oral muito utilizado em pediatria, indicado para asma, crupe, reações alérgicas graves, doenças inflamatórias e autoimunes. A forma líquida facilita o uso em crianças.",
     "receita": "Sim",
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo",
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho",
     "receita_nota": "Tarjado. Consulte sempre o farmacêutico.",
     "efeitos": "Aumento do apetite, agitação, insônia, irritabilidade (comuns e transitórios em uso curto). Uso prolongado: imunossupressão, ganho de peso, hipertensão, osteoporose.",
     "aviso_grave": "Não interromper abruptamente em uso prolongado — reduzir gradualmente. Risco de infecções oportunistas com uso crônico.",
@@ -9707,9 +9707,9 @@
       "Uso prolongado causa muitos efeitos colaterais"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo",
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho",
     "perguntas_frequentes": [
       {
         "pergunta": "Prednisona engorda?",
@@ -9803,9 +9803,9 @@
       "Endogest"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Prometazina 25mg - Creme - Xarope - Injetável",
@@ -9827,9 +9827,9 @@
       "Idosos: risco de confusão mental"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Propranolol 10mg - 40mg - 80mg",
@@ -9851,9 +9851,9 @@
       "Pode mascarar hipoglicemia em diabéticos"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo",
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho",
     "perguntas_frequentes": [
       {
         "pergunta": "Propranolol serve para ansiedade?",
@@ -9946,9 +9946,9 @@
       "Rabeprazol EMS"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Raloxifeno (Evista)",
@@ -9963,9 +9963,9 @@
     ],
     "descricao": "Usado na prevenção e tratamento da osteoporose em mulheres na pós-menopausa. Age como estrogênio nos ossos (aumentando a densidade óssea) mas como antiestrogênio na mama e no útero, sem estimular esses tecidos. Também reduz o risco de câncer de mama invasivo.",
     "receita": "Sim",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_cor": "amarelo",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
+    "receita_display": "🔴 Receita Simples",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
     "receita_nota": "Exclusivo para mulheres na pós-menopausa. Não usar em homens ou mulheres na pré-menopausa.",
     "efeitos": "Fogachos (calores), cãibras nas pernas, edema periférico, trombose venosa profunda (risco aumentado).",
     "aviso_grave": "Risco aumentado de trombose venosa profunda e embolia pulmonar — contraindicado em pacientes com histórico de trombose. Suspender antes de cirurgias ou períodos prolongados de imobilização.",
@@ -9986,8 +9986,8 @@
     "descricao": "IECA indicado para hipertensão arterial, insuficiência cardíaca, pós-infarto do miocárdio e proteção renal em diabéticos. Muito eficaz para reduzir mortalidade cardiovascular.",
     "receita": "Sim",
     "classe_receita": "TARJADO",
-    "receita_display": "🔴 Tarjado — Receita Simples Obrigatória",
-    "receita_descricao": "Exige receita médica simples. Uso contínuo para hipertensão e proteção cardiovascular.",
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
     "receita_cor": "vermelho",
     "receita_nota": "Receita médica obrigatória.",
     "efeitos": "Tosse seca persistente (efeito de classe dos IECAs — muito comum), tontura, hipotensão na primeira dose, hipercalemia, piora da função renal.",
@@ -10026,9 +10026,9 @@
       "Consulte o médico sobre a melhor opção"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo",
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho",
     "perguntas_frequentes": [
       {
         "pergunta": "Ranitidina ainda existe?",
@@ -10064,9 +10064,9 @@
     ],
     "descricao": "Medicamento para angina crônica estável refratária a outros tratamentos. Age por mecanismo único — inibe a corrente de sódio tardia no coração, reduzindo a sobrecarga de cálcio e melhorando a função cardíaca sem alterar a frequência cardíaca ou pressão arterial.",
     "receita": "Sim",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica Necessária",
-    "receita_cor": "amarelo",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
+    "receita_display": "🔴 Receita Simples",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
     "receita_nota": "Comprimidos de liberação prolongada — não partir, mastigar ou triturar.",
     "efeitos": "Tontura, cefaleia, constipação, náusea, prolongamento do QT (risco de arritmia).",
     "aviso_grave": "Contraindicada com inibidores potentes do CYP3A4 (cetoconazol, itraconazol, claritromicina) — aumentam muito os níveis de ranolazina. Monitorar ECG regularmente.",
@@ -10119,9 +10119,9 @@
     ],
     "descricao": "Antidiabético oral de ação rápida e curta duração que estimula a secreção de insulina pelo pâncreas. Tomada antes de cada refeição — age especificamente no pico glicêmico pós-prandial. Flexível para pacientes com horários irregulares de refeição.",
     "receita": "Sim",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica Necessária",
-    "receita_cor": "amarelo",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
+    "receita_display": "🔴 Receita Simples",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
     "receita_nota": "Tomar 15-30 minutos antes de cada refeição. Se pular a refeição, pular a dose também.",
     "efeitos": "Hipoglicemia (principal risco), ganho de peso, náusea, diarreia, infecções respiratórias.",
     "aviso_grave": "Risco de hipoglicemia — nunca tomar sem comer a seguir. Se pular uma refeição, PULAR a dose correspondente.",
@@ -10326,9 +10326,9 @@
       "Procure médico em caso de sangramento incomum"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Rivastigmina 1,5mg - 3mg - 4,5mg - 6mg - Adesivo",
@@ -10337,8 +10337,8 @@
     "descricao": "Inibidor da colinesterase indicado para tratamento sintomático da doença de Alzheimer leve a moderada e demência associada ao Parkinson. Disponível em cápsulas e adesivo transdérmico (patch).",
     "receita": "Sim",
     "classe_receita": "TARJADO",
-    "receita_display": "🔴 Tarjado — Receita Simples Obrigatória",
-    "receita_descricao": "Exige receita médica simples. Medicamento de uso contínuo para demência.",
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
     "receita_cor": "vermelho",
     "receita_nota": "Receita médica obrigatória. Disponível pelo SUS (RENAME).",
     "efeitos": "Náusea, vômito, diarreia, perda de apetite, tontura, cefaleia. O adesivo causa menos efeitos gastrointestinais que as cápsulas.",
@@ -10383,9 +10383,9 @@
       "Rizalt"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Roflumilaste (Daxas)",
@@ -10399,9 +10399,9 @@
     ],
     "descricao": "Medicamento oral anti-inflamatório específico para DPOC grave com bronquite crônica e histórico de exacerbações frequentes. Reduz a inflamação nas vias aéreas por mecanismo diferente dos corticoides, diminuindo as crises de piora da DPOC.",
     "receita": "Sim",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_cor": "amarelo",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
+    "receita_display": "🔴 Receita Simples",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
     "receita_nota": "Indicado apenas para DPOC grave — não usar em asma. Iniciar com dose menor por 4 semanas para reduzir efeitos gastrointestinais.",
     "efeitos": "Diarreia, náusea, perda de peso (significativa e frequente), cefaleia, insônia, tontura, humor deprimido.",
     "aviso_grave": "Pode causar ou agravar depressão e ideação suicida — monitorar humor durante o tratamento. Perda de peso significativa é comum — monitorar peso mensalmente.",
@@ -10440,9 +10440,9 @@
       "Vivacor"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Rybelsus 3mg - 7mg - 14mg (Semaglutida Oral)",
@@ -10469,8 +10469,8 @@
       "Ozempic comprimido"
     ],
     "classe_receita": "RECEITA_ESPECIAL",
-    "receita_display": "🔴 Receita Médica Obrigatória",
-    "receita_descricao": "Agonista GLP-1 — exige receita médica obrigatória. Dispensação controlada.",
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
     "receita_cor": "vermelho"
   },
   {
@@ -10527,9 +10527,9 @@
       "Vymada"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Salbutamol Spray Inalatório - Solução para Nebulização",
@@ -10551,9 +10551,9 @@
       "Agite bem antes de usar"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo",
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho",
     "sinonimos": [
       "Aerolin",
       "Aerolin Spray",
@@ -10585,9 +10585,9 @@
       "Seretide Diskus"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Saxagliptina 2,5mg - 5mg (Onglyza)",
@@ -10613,9 +10613,9 @@
       "Komboglyze (com metformina)"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Saxenda (Liraglutida) 6mg/mL",
@@ -10637,8 +10637,8 @@
       "NUNCA congele — geladeira lacrado, ambiente após abrir (até 30 dias)"
     ],
     "classe_receita": "RECEITA_ESPECIAL",
-    "receita_display": "🔴 Receita Médica Obrigatória",
-    "receita_descricao": "Agonista GLP-1 — exige receita médica obrigatória. Dispensação controlada.",
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
     "receita_cor": "vermelho"
   },
   {
@@ -10714,8 +10714,8 @@
       "NUNCA congele — geladeira antes de abrir, ambiente após"
     ],
     "classe_receita": "RECEITA_ESPECIAL",
-    "receita_display": "🔴 Receita Médica Obrigatória",
-    "receita_descricao": "Agonista GLP-1 — exige receita médica obrigatória. Dispensação controlada.",
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
     "receita_cor": "vermelho"
   },
   {
@@ -10813,9 +10813,9 @@
       "Não funciona sem estímulo sexual"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Silodosina 4mg - 8mg",
@@ -10841,9 +10841,9 @@
       "Rapaflo"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Simeticona 40mg - 80mg - 125mg - Gotas",
@@ -10887,9 +10887,9 @@
       "Relate dores musculares ao médico imediatamente"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo",
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho",
     "perguntas_frequentes": [
       {
         "pergunta": "Sinvastatina causa dor muscular?",
@@ -10937,9 +10937,9 @@
       "Janumet (com metformina)"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Solifenacina 5mg - 10mg",
@@ -10965,9 +10965,9 @@
       "Vesitab"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Strepsils — Pastilha para Garganta",
@@ -11018,9 +11018,9 @@
       "Beba bastante água — pode causar prisão de ventre"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Sulfadiazina de Prata 1% creme",
@@ -11090,9 +11090,9 @@
     ],
     "descricao": "Usado no tratamento de doença inflamatória intestinal (retocolite ulcerativa, doença de Crohn leve a moderada) e como DMARD (medicamento modificador do curso da doença) em artrite reumatoide e artrite psoriásica. Age por múltiplos mecanismos anti-inflamatórios.",
     "receita": "Sim",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica Necessária",
-    "receita_cor": "amarelo",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
+    "receita_display": "🔴 Receita Simples",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
     "receita_nota": "Iniciar com doses baixas e aumentar gradualmente. Pode colorir a urina e lágrimas de laranja-amarelado — normal.",
     "efeitos": "Náusea, cefaleia, anorexia, oligospermia reversível em homens (redução de espermatozoides — reversível após suspensão), coloração alaranjada da urina.",
     "aviso_grave": "Deficiência de G6PD é contraindicação — pode causar anemia hemolítica. Alérgicos a sulfonamidas ou aspirina podem ter reação cruzada. Monitorar hemograma e função hepática.",
@@ -11183,9 +11183,9 @@
       "Imitrex"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Tacrolimo 0,03% - 0,1% Pomada",
@@ -11211,9 +11211,9 @@
       "FK-506 tópico"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Tadalafila 5mg - 10mg - 20mg",
@@ -11235,9 +11235,9 @@
       "Na dose diária (5mg), efeito é contínuo"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Tansulosina 0,4mg",
@@ -11266,9 +11266,9 @@
       "tansulosina ems"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Tapentadol 50mg - 100mg - 150mg - 200mg - 250mg",
@@ -11311,9 +11311,9 @@
     ],
     "descricao": "BRA de longa duração (24 horas) para hipertensão arterial. Tem a maior meia-vida entre os BRAs disponíveis, garantindo cobertura completa de 24 horas com dose única diária. Também tem efeitos metabólicos favoráveis — melhora a sensibilidade à insulina.",
     "receita": "Sim",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica Necessária",
-    "receita_cor": "amarelo",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
+    "receita_display": "🔴 Receita Simples",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
     "receita_nota": "Contraindicado na gravidez. Pode ser tomado com ou sem alimentos.",
     "efeitos": "Tontura, hipercalemia, cefaleia, diarreia, dor nas costas. Raramente: angioedema.",
     "aviso_grave": "Contraindicado na gravidez e em combinação com alisquireno em diabéticos e insuficientes renais.",
@@ -11363,9 +11363,9 @@
     ],
     "descricao": "Broncodilatador oral da classe das metilxantinas, usado em asma e DPOC. Age inibindo a fosfodiesterase, aumentando o AMPc e relaxando a musculatura brônquica. Hoje é considerado medicamento de terceira linha pela janela terapêutica estreita e muitas interações.",
     "receita": "Sim",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica Necessária",
-    "receita_cor": "amarelo",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
+    "receita_display": "🔴 Receita Simples",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
     "receita_nota": "Monitorar nível sérico regularmente — janela terapêutica estreita (10-20 mcg/mL). Acima de 20 mcg/mL: risco de toxicidade grave.",
     "efeitos": "Náusea, vômito, cefaleia, insônia, taquicardia, tremor. Em níveis tóxicos: convulsões e arritmias graves.",
     "aviso_grave": "Janela terapêutica muito estreita — pequenas variações na dose podem causar toxicidade grave. Múltiplas interações: ciprofloxacino, claritromicina, cimetidina, fenitoína e cafeína alteram significativamente os níveis.",
@@ -11399,9 +11399,9 @@
       "Tome até o fim do tratamento, mesmo se sentir melhora antes"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Teriparatida (Forteo)",
@@ -11416,9 +11416,9 @@
     ],
     "descricao": "Único anabólico ósseo aprovado para osteoporose — estimula a formação de osso novo ao invés de apenas inibir a reabsorção. Indicado para osteoporose grave com múltiplas fraturas ou falha a outros tratamentos. Administração subcutânea diária por no máximo 2 anos.",
     "receita": "Sim",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_cor": "amarelo",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
+    "receita_display": "🔴 Receita Simples",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
     "receita_nota": "Uso limitado a 2 anos no total de vida — após esse período não pode ser reutilizado. Manter refrigerado entre 2-8°C.",
     "efeitos": "Náusea, dor de cabeça, tontura, cãibras nas pernas, hipercalcemia leve. Dor no local da injeção.",
     "aviso_grave": "Contraindicado em pacientes com histórico de radioterapia óssea, doença de Paget, hipercalcemia, tumores ósseos malignos ou metástases ósseas. Risco teórico de osteossarcoma (observado em ratos em doses muito altas).",
@@ -11476,9 +11476,9 @@
     ],
     "descricao": "Esteroide sintético com ações estrogênica, progestagênica e androgênica fraca. Usado para tratamento dos sintomas da menopausa (fogachos, sudorese, secura vaginal) e prevenção da osteoporose em mulheres na pós-menopausa (pelo menos 1 ano após a última menstruação).",
     "receita": "Sim",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica Necessária",
-    "receita_cor": "amarelo",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
+    "receita_display": "🔴 Receita Simples",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
     "receita_nota": "Usar somente em mulheres com pelo menos 1 ano de amenorreia (pós-menopausa estabelecida).",
     "efeitos": "Sangramento ou manchas vaginais (especialmente no início), ganho de peso, acne, hirsutismo leve, edema.",
     "aviso_grave": "Contraindicada em câncer de mama, endométrio, tromboembolismo, doença cardiovascular grave e AVC. Aumenta ligeiramente o risco de AVC em mulheres acima de 60 anos.",
@@ -11516,9 +11516,9 @@
       "Braltus"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Tofacitinibe (Xeljanz)",
@@ -11534,9 +11534,9 @@
     ],
     "descricao": "Primeiro inibidor de JAK aprovado para artrite reumatoide. Também indicado para artrite psoriásica, colite ulcerativa e espondilite anquilosante. Age bloqueando as quinases JAK1 e JAK3, reduzindo a cascata inflamatória.",
     "receita": "Sim",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_cor": "amarelo",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
+    "receita_display": "🔴 Receita Simples",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
     "receita_nota": "Disponível em comprimido de liberação imediata (2x/dia) e liberação prolongada XR (1x/dia).",
     "efeitos": "Infecções (herpes zóster frequente), aumento de colesterol e creatinina, náusea, diarreia, cefaleia. Risco de trombose venosa profunda em doses maiores.",
     "aviso_grave": "FDA emitiu alerta de segurança em 2021 sobre risco aumentado de eventos cardiovasculares graves, trombose e câncer em pacientes de alto risco. Avaliar risco-benefício cuidadosamente.",
@@ -11662,9 +11662,9 @@
       "Pele piora antes de melhorar — tenha paciência"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Trimebutina 100mg - 200mg",
@@ -11690,9 +11690,9 @@
       "Debridat"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Trimetazidina 20mg - 35mg MR",
@@ -11718,9 +11718,9 @@
       "TMZ"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Umeclidínio (Incruse)",
@@ -11734,9 +11734,9 @@
     ],
     "descricao": "Anticolinérgico inalatório de longa duração (LAMA) indicado para manutenção do tratamento da DPOC. Age bloqueando receptores muscarínicos nos brônquios, mantendo-os dilatados. Dose única diária via inalador Ellipta.",
     "receita": "Sim",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_cor": "amarelo",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
+    "receita_display": "🔴 Receita Simples",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
     "receita_nota": "Frequentemente combinado com vilanterol (LABA) no produto Anoro Ellipta para DPOC moderada a grave.",
     "efeitos": "Nasofaringite, infecção do trato respiratório superior, boca seca, tosse, taquicardia (raro).",
     "aviso_grave": "Não usar para crise aguda de broncoespasmo. Usar com cautela em glaucoma de ângulo fechado e retenção urinária — efeito anticolinérgico pode agravar essas condições.",
@@ -11768,8 +11768,8 @@
       "Exames de sangue e fígado regulares"
     ],
     "classe_receita": "RECEITA_ESPECIAL",
-    "receita_display": "🔴 Receita Médica Obrigatória",
-    "receita_descricao": "Exige receita médica obrigatória para dispensação.",
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
     "receita_cor": "vermelho"
   },
   {
@@ -11798,8 +11798,8 @@
       "Depakene LP"
     ],
     "classe_receita": "RECEITA_ESPECIAL",
-    "receita_display": "🔴 Receita Médica Obrigatória",
-    "receita_descricao": "Exige receita médica obrigatória para dispensação.",
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
     "receita_cor": "vermelho"
   },
   {
@@ -11822,9 +11822,9 @@
       "Evite suplementos de potássio sem orientação"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Vancomicina 500mg - 1g (injetável)",
@@ -11925,9 +11925,9 @@
       "Cuidado com betabloqueadores juntos"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Vildagliptina + Metformina (Galvus Met)",
@@ -11936,9 +11936,9 @@
     "descricao": "Associação de vildagliptina com metformina, indicada para diabetes tipo 2. Combina dois mecanismos complementares de controle da glicemia. Comercialmente conhecido como Galvus Met.",
     "receita": "Sim",
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo",
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho",
     "receita_nota": "Tarjado. Consulte sempre o farmacêutico.",
     "efeitos": "Náusea, diarreia, dor abdominal (metformina), tontura, cefaleia. Geralmente bem tolerado.",
     "aviso_grave": "Contraindicado em insuficiência renal e hepática. Monitorar função hepática. Suspender antes de cirurgias e contraste.",
@@ -11986,9 +11986,9 @@
     "descricao": "Antidiabético oral da classe dos inibidores da DPP-4, indicado para diabetes tipo 2. Age inibindo a enzima DPP-4, aumentando os níveis de incretinas ativas e estimulando a secreção de insulina. Comercialmente conhecido como Galvus.",
     "receita": "Sim",
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo",
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho",
     "receita_nota": "Tarjado. Consulte sempre o farmacêutico.",
     "efeitos": "Tontura, cefaleia, nasofaringite, edema periférico. Raramente hepatotoxicidade — monitorar enzimas hepáticas.",
     "aviso_grave": "Monitorar função hepática — casos raros de hepatite relatados. Não usar em insuficiência hepática. Ajuste de dose em insuficiência renal.",
@@ -12053,9 +12053,9 @@
       "Injetável tem absorção superior ao oral"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Vitamina D3 1000UI - 2000UI - 5000UI - 7000UI - 10000UI - Gotas",
@@ -12104,9 +12104,9 @@
       "Vit D3 Legrand"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Vitamina E (Tocoferol)",
@@ -12186,9 +12186,9 @@
       "Informe SEMPRE ao médico e dentista que usa"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo",
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho",
     "perguntas_frequentes": [
       {
         "pergunta": "Warfarina pode comer salada?",
@@ -12223,9 +12223,9 @@
     ],
     "descricao": "Antagonista dos receptores de leucotrienos para tratamento preventivo da asma leve a moderada e rinite alérgica. Similar ao montelucaste, mas tomado duas vezes ao dia e com mais restrições alimentares. Age bloqueando leucotrienos — mediadores inflamatórios que contraem os brônquios.",
     "receita": "Sim",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica Necessária",
-    "receita_cor": "amarelo",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
+    "receita_display": "🔴 Receita Simples",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
     "receita_nota": "Tomar em jejum ou 2 horas após a refeição — alimentos reduzem significativamente a absorção.",
     "efeitos": "Cefaleia, náusea, diarreia, infecção respiratória, elevação de enzimas hepáticas.",
     "aviso_grave": "Monitorar função hepática — casos raros de hepatite e insuficiência hepática foram relatados. Não usar para crise aguda de asma — é preventivo.",
@@ -12321,9 +12321,9 @@
       "Ácido Zoledrónico EMS"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Zolpidem 5mg - 10mg",
@@ -12461,9 +12461,9 @@
       "Essencial para quem planeja gravidez"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
-    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho"
   },
   {
     "nome": "Ácido Hialurônico Sérum",
