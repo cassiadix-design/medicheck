@@ -26,6 +26,28 @@
       "Tarjado venda livre na prática",
       "Tomar com alimentação",
       "Não combinar com outros AINEs"
+    ],
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Aceclofenaco dá sono?",
+        "resposta": "Não é um efeito comum. Pode causar tontura em algumas pessoas, mas raramente sonolência."
+      },
+      {
+        "pergunta": "Aceclofenaco pode tomar com dipirona?",
+        "resposta": "Pode ser usado junto, mas com cautela. Evitar uso prolongado da combinação — aumenta o risco de efeitos gástricos e renais."
+      },
+      {
+        "pergunta": "Aceclofenaco é antibiótico?",
+        "resposta": "Não. É um anti-inflamatório (AINE) — não combate infecções bacterianas."
+      },
+      {
+        "pergunta": "Aceclofenaco faz mal para o rim?",
+        "resposta": "Pode prejudicar os rins no uso prolongado ou em doses altas. Evitar em pacientes com insuficiência renal."
+      },
+      {
+        "pergunta": "Aceclofenaco serve para dor de cabeça?",
+        "resposta": "Não é a primeira escolha para cefaleia. É mais indicado para dores musculoesqueléticas, artrite e inflamações articulares."
+      }
     ]
   },
   {
@@ -352,7 +374,29 @@
       "Nesina Met",
       "Alogliptina + Metformina Takeda"
     ],
-    "receita_pratica": "Sim"
+    "receita_pratica": "Sim",
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Metformina emagrece?",
+        "resposta": "Pode causar leve redução de peso em algumas pessoas por reduzir o apetite, mas não é um medicamento para emagrecimento. Seu objetivo é controlar a glicemia."
+      },
+      {
+        "pergunta": "Metformina dá enjoo?",
+        "resposta": "Sim, náusea e desconforto gástrico são os efeitos mais comuns, especialmente no início. Tomar com alimentos reduz bastante esses efeitos."
+      },
+      {
+        "pergunta": "Metformina pode tomar à noite?",
+        "resposta": "Sim, deve ser tomada com as refeições — pode ser no jantar. O importante é sempre tomar junto com alimentação."
+      },
+      {
+        "pergunta": "Metformina causa hipoglicemia?",
+        "resposta": "Não quando usada sozinha. Diferente de outros antidiabéticos, a metformina sozinha não causa hipoglicemia — é uma grande vantagem."
+      },
+      {
+        "pergunta": "Metformina faz mal para o rim?",
+        "resposta": "Em pacientes com insuficiência renal grave é contraindicada. Para os demais, é segura com monitoramento regular da função renal."
+      }
+    ]
   },
   {
     "nome": "Alogliptina 6,25mg - 12,5mg - 25mg (Nesina)",
@@ -430,6 +474,28 @@
     "receita_nota": "Receita azul obrigatória. Válida por 30 dias.",
     "sinonimos": [
       "Frontal"
+    ],
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Alprazolam vicia?",
+        "resposta": "Sim, tem alto potencial de dependência física e psicológica. É indicado para uso de curto prazo. Nunca interromper abruptamente."
+      },
+      {
+        "pergunta": "Alprazolam dá sono?",
+        "resposta": "Sim, sonolência é um dos efeitos mais comuns. Não dirigir ou operar máquinas após tomar."
+      },
+      {
+        "pergunta": "Alprazolam pode tomar com álcool?",
+        "resposta": "Não. Combinação perigosa — pode causar depressão respiratória grave e risco de morte."
+      },
+      {
+        "pergunta": "Alprazolam serve para dormir?",
+        "resposta": "Não é a indicação principal, mas pode ser prescrito em curto prazo para insônia associada à ansiedade intensa. Não deve ser usado cronicamente para dormir."
+      },
+      {
+        "pergunta": "Alprazolam é para ansiedade?",
+        "resposta": "Sim, é prescrito para transtorno de ansiedade e pânico. Porém pelo risco de dependência, o uso deve ser de curto prazo e monitorado pelo médico."
+      }
     ]
   },
   {
@@ -563,7 +629,29 @@
     "classe_receita": "RECEITA_ANTIBIOTICO",
     "receita_display": "🔴 Receita Obrigatória — Antibiótico",
     "receita_descricao": "Antibiótico — receita simples retida obrigatória (ANVISA RDC 20/2011).",
-    "receita_cor": "vermelho"
+    "receita_cor": "vermelho",
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Amoxicilina pode tomar com leite?",
+        "resposta": "Sim, pode ser tomada com leite ou alimentos. Ao contrário de alguns antibióticos, a amoxicilina não tem sua absorção prejudicada pelos alimentos."
+      },
+      {
+        "pergunta": "Amoxicilina dá sono?",
+        "resposta": "Não é um efeito comum. A amoxicilina raramente causa sonolência."
+      },
+      {
+        "pergunta": "Amoxicilina serve para dor de garganta?",
+        "resposta": "Depende da causa. Se a dor de garganta for bacteriana (como estreptococo), sim. Se for viral (que é mais comum), antibiótico não resolve."
+      },
+      {
+        "pergunta": "Amoxicilina pode tomar de 8 em 8 horas?",
+        "resposta": "Sim, a dose habitual é de 8 em 8 horas (3 vezes ao dia). Manter o intervalo regular é importante para manter o nível do antibiótico no sangue."
+      },
+      {
+        "pergunta": "Amoxicilina pode beber álcool?",
+        "resposta": "Não é recomendado. O álcool pode reduzir a imunidade e prejudicar a recuperação, além de potencializar efeitos gastrointestinais."
+      }
+    ]
   },
   {
     "nome": "Amoxicilina + Sulbactam 875mg/125mg",
@@ -592,7 +680,29 @@
       "Unasyn oral",
       "Amoxicilina + Sulbactam Sandoz"
     ],
-    "receita_pratica": "Sim"
+    "receita_pratica": "Sim",
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Amoxicilina pode tomar com leite?",
+        "resposta": "Sim, pode ser tomada com leite ou alimentos. Ao contrário de alguns antibióticos, a amoxicilina não tem sua absorção prejudicada pelos alimentos."
+      },
+      {
+        "pergunta": "Amoxicilina dá sono?",
+        "resposta": "Não é um efeito comum. A amoxicilina raramente causa sonolência."
+      },
+      {
+        "pergunta": "Amoxicilina serve para dor de garganta?",
+        "resposta": "Depende da causa. Se a dor de garganta for bacteriana (como estreptococo), sim. Se for viral (que é mais comum), antibiótico não resolve."
+      },
+      {
+        "pergunta": "Amoxicilina pode tomar de 8 em 8 horas?",
+        "resposta": "Sim, a dose habitual é de 8 em 8 horas (3 vezes ao dia). Manter o intervalo regular é importante para manter o nível do antibiótico no sangue."
+      },
+      {
+        "pergunta": "Amoxicilina pode beber álcool?",
+        "resposta": "Não é recomendado. O álcool pode reduzir a imunidade e prejudicar a recuperação, além de potencializar efeitos gastrointestinais."
+      }
+    ]
   },
   {
     "nome": "Amoxicilina 250mg - 500mg - Suspensão",
@@ -614,7 +724,29 @@
     "classe_receita": "RECEITA_ANTIBIOTICO",
     "receita_display": "🔴 Receita Obrigatória — Antibiótico",
     "receita_descricao": "Antibiótico — receita simples retida obrigatória (ANVISA RDC 20/2011).",
-    "receita_cor": "vermelho"
+    "receita_cor": "vermelho",
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Amoxicilina pode tomar com leite?",
+        "resposta": "Sim, pode ser tomada com leite ou alimentos. Ao contrário de alguns antibióticos, a amoxicilina não tem sua absorção prejudicada pelos alimentos."
+      },
+      {
+        "pergunta": "Amoxicilina dá sono?",
+        "resposta": "Não é um efeito comum. A amoxicilina raramente causa sonolência."
+      },
+      {
+        "pergunta": "Amoxicilina serve para dor de garganta?",
+        "resposta": "Depende da causa. Se a dor de garganta for bacteriana (como estreptococo), sim. Se for viral (que é mais comum), antibiótico não resolve."
+      },
+      {
+        "pergunta": "Amoxicilina pode tomar de 8 em 8 horas?",
+        "resposta": "Sim, a dose habitual é de 8 em 8 horas (3 vezes ao dia). Manter o intervalo regular é importante para manter o nível do antibiótico no sangue."
+      },
+      {
+        "pergunta": "Amoxicilina pode beber álcool?",
+        "resposta": "Não é recomendado. O álcool pode reduzir a imunidade e prejudicar a recuperação, além de potencializar efeitos gastrointestinais."
+      }
+    ]
   },
   {
     "nome": "Anador — Dipirona Sódica",
@@ -642,6 +774,28 @@
       "Tarjado venda livre na prática",
       "Mesma substância da Novalgina",
       "Evitar na gravidez"
+    ],
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Dipirona dá sono?",
+        "resposta": "Não é um efeito comum da dipirona. Raramente pode causar sonolência leve em pessoas mais sensíveis."
+      },
+      {
+        "pergunta": "Dipirona pode tomar com ibuprofeno?",
+        "resposta": "Pode, mas com cautela — ambos têm efeito analgésico e a combinação pode aumentar o risco de efeitos gástricos. Evitar uso prolongado junto."
+      },
+      {
+        "pergunta": "Dipirona faz mal para o rim?",
+        "resposta": "Em uso pontual e doses corretas, é segura para os rins. O uso excessivo e crônico pode sobrecarregar os rins, especialmente em pessoas com doenças renais."
+      },
+      {
+        "pergunta": "Dipirona pode tomar na gravidez?",
+        "resposta": "Não é recomendada no primeiro e terceiro trimestres da gravidez. Consulte sempre o médico antes de usar qualquer medicamento na gestação."
+      },
+      {
+        "pergunta": "Quantas dipironas posso tomar por dia?",
+        "resposta": "A dose habitual é de 500mg a 1g (1 a 2 comprimidos) até 4 vezes ao dia, respeitando intervalo de 6 horas. Não exceder 4g por dia."
+      }
     ]
   },
   {
@@ -692,7 +846,29 @@
     "classe_receita": "TARJADO_PRATICA",
     "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
     "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_cor": "amarelo",
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Atorvastatina dói muscular?",
+        "resposta": "Sim, dor muscular (mialgia) é um dos efeitos colaterais mais comuns. Comunicar ao médico se surgir dor muscular intensa, especialmente com fraqueza."
+      },
+      {
+        "pergunta": "Atorvastatina pode tomar de manhã?",
+        "resposta": "Pode ser tomada em qualquer horário, mas muitos médicos preferem à noite pois o fígado produz mais colesterol durante o sono."
+      },
+      {
+        "pergunta": "Atorvastatina serve para quê?",
+        "resposta": "Para reduzir o colesterol LDL (ruim) e triglicerídeos, e prevenir infartos e AVCs em pessoas com risco cardiovascular elevado."
+      },
+      {
+        "pergunta": "Atorvastatina pode tomar com suco de laranja?",
+        "resposta": "Sim. O suco problemático é o de toranja (grapefruit/pomelo) — este sim deve ser evitado pois aumenta muito o nível da atorvastatina no sangue."
+      },
+      {
+        "pergunta": "Atorvastatina engorda?",
+        "resposta": "Não há evidência de que a atorvastatina cause ganho de peso diretamente."
+      }
+    ]
   },
   {
     "nome": "Anlodipino 5mg - 10mg",
@@ -897,7 +1073,29 @@
     "classe_receita": "TARJADO_PRATICA",
     "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
     "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_cor": "amarelo",
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Atorvastatina dói muscular?",
+        "resposta": "Sim, dor muscular (mialgia) é um dos efeitos colaterais mais comuns. Comunicar ao médico se surgir dor muscular intensa, especialmente com fraqueza."
+      },
+      {
+        "pergunta": "Atorvastatina pode tomar de manhã?",
+        "resposta": "Pode ser tomada em qualquer horário, mas muitos médicos preferem à noite pois o fígado produz mais colesterol durante o sono."
+      },
+      {
+        "pergunta": "Atorvastatina serve para quê?",
+        "resposta": "Para reduzir o colesterol LDL (ruim) e triglicerídeos, e prevenir infartos e AVCs em pessoas com risco cardiovascular elevado."
+      },
+      {
+        "pergunta": "Atorvastatina pode tomar com suco de laranja?",
+        "resposta": "Sim. O suco problemático é o de toranja (grapefruit/pomelo) — este sim deve ser evitado pois aumenta muito o nível da atorvastatina no sangue."
+      },
+      {
+        "pergunta": "Atorvastatina engorda?",
+        "resposta": "Não há evidência de que a atorvastatina cause ganho de peso diretamente."
+      }
+    ]
   },
   {
     "nome": "Atorvastatina 10mg - 20mg - 40mg",
@@ -921,7 +1119,29 @@
     "classe_receita": "TARJADO_PRATICA",
     "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
     "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_cor": "amarelo",
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Atorvastatina dói muscular?",
+        "resposta": "Sim, dor muscular (mialgia) é um dos efeitos colaterais mais comuns. Comunicar ao médico se surgir dor muscular intensa, especialmente com fraqueza."
+      },
+      {
+        "pergunta": "Atorvastatina pode tomar de manhã?",
+        "resposta": "Pode ser tomada em qualquer horário, mas muitos médicos preferem à noite pois o fígado produz mais colesterol durante o sono."
+      },
+      {
+        "pergunta": "Atorvastatina serve para quê?",
+        "resposta": "Para reduzir o colesterol LDL (ruim) e triglicerídeos, e prevenir infartos e AVCs em pessoas com risco cardiovascular elevado."
+      },
+      {
+        "pergunta": "Atorvastatina pode tomar com suco de laranja?",
+        "resposta": "Sim. O suco problemático é o de toranja (grapefruit/pomelo) — este sim deve ser evitado pois aumenta muito o nível da atorvastatina no sangue."
+      },
+      {
+        "pergunta": "Atorvastatina engorda?",
+        "resposta": "Não há evidência de que a atorvastatina cause ganho de peso diretamente."
+      }
+    ]
   },
   {
     "nome": "Azatioprina 50mg",
@@ -1615,7 +1835,29 @@
       "Buscapina Composta",
       "Espasmo Buscopan"
     ],
-    "receita_pratica": "Nao"
+    "receita_pratica": "Nao",
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Dipirona dá sono?",
+        "resposta": "Não é um efeito comum da dipirona. Raramente pode causar sonolência leve em pessoas mais sensíveis."
+      },
+      {
+        "pergunta": "Dipirona pode tomar com ibuprofeno?",
+        "resposta": "Pode, mas com cautela — ambos têm efeito analgésico e a combinação pode aumentar o risco de efeitos gástricos. Evitar uso prolongado junto."
+      },
+      {
+        "pergunta": "Dipirona faz mal para o rim?",
+        "resposta": "Em uso pontual e doses corretas, é segura para os rins. O uso excessivo e crônico pode sobrecarregar os rins, especialmente em pessoas com doenças renais."
+      },
+      {
+        "pergunta": "Dipirona pode tomar na gravidez?",
+        "resposta": "Não é recomendada no primeiro e terceiro trimestres da gravidez. Consulte sempre o médico antes de usar qualquer medicamento na gestação."
+      },
+      {
+        "pergunta": "Quantas dipironas posso tomar por dia?",
+        "resposta": "A dose habitual é de 500mg a 1g (1 a 2 comprimidos) até 4 vezes ao dia, respeitando intervalo de 6 horas. Não exceder 4g por dia."
+      }
+    ]
   },
   {
     "nome": "Cabergolina 0,5mg",
@@ -2298,6 +2540,28 @@
     "receita_nota": "Receita azul obrigatória. Válida por 30 dias.",
     "sinonimos": [
       "Rivotril"
+    ],
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Clonazepam vicia?",
+        "resposta": "Sim, tem potencial de dependência física e psicológica, especialmente com uso prolongado. Nunca interromper abruptamente sem orientação médica."
+      },
+      {
+        "pergunta": "Clonazepam dá sono?",
+        "resposta": "Sim, sonolência é um dos efeitos mais comuns. Por isso muitas vezes é prescrito para ser tomado à noite."
+      },
+      {
+        "pergunta": "Clonazepam pode tomar com álcool?",
+        "resposta": "Não. A combinação é perigosa e pode causar depressão respiratória grave, sedação profunda e risco de morte."
+      },
+      {
+        "pergunta": "Clonazepam serve para ansiedade?",
+        "resposta": "Sim, é prescrito para ansiedade, pânico e crises epilépticas. Porém o uso deve ser monitorado pelo médico pelo risco de dependência."
+      },
+      {
+        "pergunta": "Clonazepam pode parar de tomar de repente?",
+        "resposta": "Não. A interrupção abrupta pode causar síndrome de abstinência grave com convulsões, tremores e agitação intensa. A retirada deve ser gradual e orientada pelo médico."
+      }
     ]
   },
   {
@@ -2814,7 +3078,29 @@
     "classe_receita": "TARJADO_PRATICA",
     "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
     "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_cor": "amarelo",
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Metformina emagrece?",
+        "resposta": "Pode causar leve redução de peso em algumas pessoas por reduzir o apetite, mas não é um medicamento para emagrecimento. Seu objetivo é controlar a glicemia."
+      },
+      {
+        "pergunta": "Metformina dá enjoo?",
+        "resposta": "Sim, náusea e desconforto gástrico são os efeitos mais comuns, especialmente no início. Tomar com alimentos reduz bastante esses efeitos."
+      },
+      {
+        "pergunta": "Metformina pode tomar à noite?",
+        "resposta": "Sim, deve ser tomada com as refeições — pode ser no jantar. O importante é sempre tomar junto com alimentação."
+      },
+      {
+        "pergunta": "Metformina causa hipoglicemia?",
+        "resposta": "Não quando usada sozinha. Diferente de outros antidiabéticos, a metformina sozinha não causa hipoglicemia — é uma grande vantagem."
+      },
+      {
+        "pergunta": "Metformina faz mal para o rim?",
+        "resposta": "Em pacientes com insuficiência renal grave é contraindicada. Para os demais, é segura com monitoramento regular da função renal."
+      }
+    ]
   },
   {
     "nome": "Dapagliflozina 10mg (Forxiga)",
@@ -3263,7 +3549,29 @@
     "classe_receita": "MIP",
     "receita_display": "🟢 Venda Livre — MIP",
     "receita_descricao": "Medicamento Isento de Prescrição. Não necessita receita.",
-    "receita_cor": "verde"
+    "receita_cor": "verde",
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Dipirona dá sono?",
+        "resposta": "Não é um efeito comum da dipirona. Raramente pode causar sonolência leve em pessoas mais sensíveis."
+      },
+      {
+        "pergunta": "Dipirona pode tomar com ibuprofeno?",
+        "resposta": "Pode, mas com cautela — ambos têm efeito analgésico e a combinação pode aumentar o risco de efeitos gástricos. Evitar uso prolongado junto."
+      },
+      {
+        "pergunta": "Dipirona faz mal para o rim?",
+        "resposta": "Em uso pontual e doses corretas, é segura para os rins. O uso excessivo e crônico pode sobrecarregar os rins, especialmente em pessoas com doenças renais."
+      },
+      {
+        "pergunta": "Dipirona pode tomar na gravidez?",
+        "resposta": "Não é recomendada no primeiro e terceiro trimestres da gravidez. Consulte sempre o médico antes de usar qualquer medicamento na gestação."
+      },
+      {
+        "pergunta": "Quantas dipironas posso tomar por dia?",
+        "resposta": "A dose habitual é de 500mg a 1g (1 a 2 comprimidos) até 4 vezes ao dia, respeitando intervalo de 6 horas. Não exceder 4g por dia."
+      }
+    ]
   },
   {
     "nome": "Dissulfiram 250mg - 500mg — DESCONTINUADO",
@@ -3372,7 +3680,29 @@
       "Dorflex",
       "Dorflex composto"
     ],
-    "receita_pratica": "Sim"
+    "receita_pratica": "Sim",
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Dipirona dá sono?",
+        "resposta": "Não é um efeito comum da dipirona. Raramente pode causar sonolência leve em pessoas mais sensíveis."
+      },
+      {
+        "pergunta": "Dipirona pode tomar com ibuprofeno?",
+        "resposta": "Pode, mas com cautela — ambos têm efeito analgésico e a combinação pode aumentar o risco de efeitos gástricos. Evitar uso prolongado junto."
+      },
+      {
+        "pergunta": "Dipirona faz mal para o rim?",
+        "resposta": "Em uso pontual e doses corretas, é segura para os rins. O uso excessivo e crônico pode sobrecarregar os rins, especialmente em pessoas com doenças renais."
+      },
+      {
+        "pergunta": "Dipirona pode tomar na gravidez?",
+        "resposta": "Não é recomendada no primeiro e terceiro trimestres da gravidez. Consulte sempre o médico antes de usar qualquer medicamento na gestação."
+      },
+      {
+        "pergunta": "Quantas dipironas posso tomar por dia?",
+        "resposta": "A dose habitual é de 500mg a 1g (1 a 2 comprimidos) até 4 vezes ao dia, respeitando intervalo de 6 horas. Não exceder 4g por dia."
+      }
+    ]
   },
   {
     "nome": "Doxiciclina 100mg",
@@ -3649,7 +3979,29 @@
     "receita_display": "🔴 Controlado — Receituário Branco em 2 Vias (C1)",
     "receita_descricao": "Medicamento controlado categoria C1. Exige receituário branco em duas vias: uma fica no estabelecimento, outra vai com o paciente.",
     "receita_cor": "vermelho",
-    "receita_nota": "Prescrição médica obrigatória. Receita válida por 30 dias."
+    "receita_nota": "Prescrição médica obrigatória. Receita válida por 30 dias.",
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Escitalopram engorda?",
+        "resposta": "É um dos antidepressivos com menor tendência a causar ganho de peso, mas algumas pessoas relatam aumento moderado de apetite no uso prolongado."
+      },
+      {
+        "pergunta": "Escitalopram dá sono?",
+        "resposta": "Pode causar sonolência ou insônia dependendo da pessoa. Geralmente é tomado à noite por quem sente sonolência e pela manhã por quem tem insônia."
+      },
+      {
+        "pergunta": "Escitalopram serve para ansiedade?",
+        "resposta": "Sim, é aprovado tanto para depressão quanto para transtorno de ansiedade generalizada, transtorno de pânico e fobia social."
+      },
+      {
+        "pergunta": "Escitalopram vicia?",
+        "resposta": "Não causa dependência. Mas nunca interromper abruptamente — pode causar síndrome de descontinuação com tontura, irritabilidade e sensações elétricas."
+      },
+      {
+        "pergunta": "Escitalopram demora quanto para fazer efeito?",
+        "resposta": "Efeito completo em 2 a 4 semanas. Alguns pacientes percebem melhora do sono e ansiedade antes, mas o efeito antidepressivo pleno leva mais tempo."
+      }
+    ]
   },
   {
     "nome": "Esomeprazol 20mg - 40mg",
@@ -3671,7 +4023,29 @@
     "classe_receita": "TARJADO_PRATICA",
     "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
     "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_cor": "amarelo",
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Omeprazol pode tomar todo dia?",
+        "resposta": "Não é recomendado usar por tempo prolongado sem orientação médica. O uso crônico pode causar deficiência de magnésio, vitamina B12 e aumentar risco de fraturas."
+      },
+      {
+        "pergunta": "Omeprazol precisa tomar em jejum?",
+        "resposta": "Sim. Deve ser tomado 30 minutos antes do café da manhã para ter máxima eficácia."
+      },
+      {
+        "pergunta": "Omeprazol engorda?",
+        "resposta": "Não existe evidência de que o omeprazol cause ganho de peso diretamente."
+      },
+      {
+        "pergunta": "Omeprazol pode tomar com dipirona?",
+        "resposta": "Sim, não há interação significativa entre omeprazol e dipirona. Podem ser usados juntos com segurança."
+      },
+      {
+        "pergunta": "Omeprazol é para gastrite?",
+        "resposta": "Sim, é um dos tratamentos mais usados para gastrite, úlcera e refluxo gastroesofágico."
+      }
+    ]
   },
   {
     "nome": "Espironolactona + Hidroclorotiazida 25mg/25mg - 50mg/50mg",
@@ -4167,7 +4541,29 @@
     "receita_display": "🔴 Controlado — Receituário Branco em 2 Vias (C1)",
     "receita_descricao": "Medicamento controlado categoria C1. Exige receituário branco em duas vias: uma fica no estabelecimento, outra vai com o paciente.",
     "receita_cor": "vermelho",
-    "receita_nota": "Prescrição médica obrigatória. Receita válida por 30 dias."
+    "receita_nota": "Prescrição médica obrigatória. Receita válida por 30 dias.",
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Fluoxetina engorda?",
+        "resposta": "No início pode até reduzir o apetite. No uso prolongado, algumas pessoas relatam ganho de peso moderado, mas é menos comum que com outros antidepressivos."
+      },
+      {
+        "pergunta": "Fluoxetina dá sono?",
+        "resposta": "Não, geralmente causa o efeito contrário — pode causar insônia e agitação, por isso é preferível tomar pela manhã."
+      },
+      {
+        "pergunta": "Fluoxetina demora quanto para fazer efeito?",
+        "resposta": "O efeito antidepressivo pleno leva de 2 a 4 semanas para aparecer. Não interromper antes desse prazo achando que não está funcionando."
+      },
+      {
+        "pergunta": "Fluoxetina vicia?",
+        "resposta": "Não causa dependência física como os benzodiazepínicos. Porém a interrupção abrupta pode causar síndrome de descontinuação — sempre reduzir gradualmente com orientação médica."
+      },
+      {
+        "pergunta": "Fluoxetina pode tomar com álcool?",
+        "resposta": "Não é recomendado. O álcool pode potencializar efeitos colaterais, piorar a depressão e reduzir a eficácia do tratamento."
+      }
+    ]
   },
   {
     "nome": "Formoterol + Budesonida 6mcg/200mcg - 12mcg/400mcg",
@@ -4884,7 +5280,29 @@
     "classe_receita": "MIP",
     "receita_display": "🟢 Venda Livre — MIP",
     "receita_descricao": "Medicamento Isento de Prescrição. Não necessita receita.",
-    "receita_cor": "verde"
+    "receita_cor": "verde",
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Ibuprofeno dá sono?",
+        "resposta": "Não é comum. O ibuprofeno raramente causa sonolência. Se isso ocorrer, pode ser sinal de reação adversa."
+      },
+      {
+        "pergunta": "Ibuprofeno pode tomar com paracetamol?",
+        "resposta": "Sim, podem ser combinados com segurança pois têm mecanismos de ação diferentes. Essa combinação é inclusive usada em hospitais para dor moderada."
+      },
+      {
+        "pergunta": "Ibuprofeno faz mal para o estômago?",
+        "resposta": "Sim, pode causar irritação gástrica, azia e úlcera — especialmente em jejum ou uso prolongado. Sempre tomar com alimentos."
+      },
+      {
+        "pergunta": "Ibuprofeno pode tomar na gravidez?",
+        "resposta": "Contraindicado no terceiro trimestre. No primeiro e segundo trimestres, deve ser evitado e só usado se indicado pelo médico."
+      },
+      {
+        "pergunta": "Ibuprofeno é antibiótico?",
+        "resposta": "Não. O ibuprofeno é um anti-inflamatório analgésico. Não combate infecções — não substitui antibiótico."
+      }
+    ]
   },
   {
     "nome": "Imipramina 10mg - 25mg",
@@ -5625,7 +6043,29 @@
       "Lisador",
       "Lisador composto"
     ],
-    "receita_pratica": "Sim"
+    "receita_pratica": "Sim",
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Dipirona dá sono?",
+        "resposta": "Não é um efeito comum da dipirona. Raramente pode causar sonolência leve em pessoas mais sensíveis."
+      },
+      {
+        "pergunta": "Dipirona pode tomar com ibuprofeno?",
+        "resposta": "Pode, mas com cautela — ambos têm efeito analgésico e a combinação pode aumentar o risco de efeitos gástricos. Evitar uso prolongado junto."
+      },
+      {
+        "pergunta": "Dipirona faz mal para o rim?",
+        "resposta": "Em uso pontual e doses corretas, é segura para os rins. O uso excessivo e crônico pode sobrecarregar os rins, especialmente em pessoas com doenças renais."
+      },
+      {
+        "pergunta": "Dipirona pode tomar na gravidez?",
+        "resposta": "Não é recomendada no primeiro e terceiro trimestres da gravidez. Consulte sempre o médico antes de usar qualquer medicamento na gestação."
+      },
+      {
+        "pergunta": "Quantas dipironas posso tomar por dia?",
+        "resposta": "A dose habitual é de 500mg a 1g (1 a 2 comprimidos) até 4 vezes ao dia, respeitando intervalo de 6 horas. Não exceder 4g por dia."
+      }
+    ]
   },
   {
     "nome": "Lisdexanfetamina 20mg - 30mg - 50mg - 70mg",
@@ -5797,7 +6237,29 @@
     "classe_receita": "TARJADO_PRATICA",
     "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
     "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_cor": "amarelo",
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Losartana dá tosse?",
+        "resposta": "Raramente. A losartana é justamente preferida por quem não tolera a tosse seca causada por outros anti-hipertensivos como captopril e enalapril."
+      },
+      {
+        "pergunta": "Losartana pode tomar com anti-inflamatório?",
+        "resposta": "Com cautela. AINEs como ibuprofeno e diclofenaco podem reduzir o efeito da losartana e prejudicar os rins. Evitar uso prolongado junto."
+      },
+      {
+        "pergunta": "Losartana pode tomar à noite?",
+        "resposta": "Sim, pode ser tomada à noite. Alguns médicos preferem prescrever à noite para controlar a pressão durante o sono."
+      },
+      {
+        "pergunta": "Losartana engorda?",
+        "resposta": "Não. A losartana não causa ganho de peso. Pode causar leve retenção de líquidos em algumas pessoas."
+      },
+      {
+        "pergunta": "Losartana é para pressão alta?",
+        "resposta": "Sim, é um dos anti-hipertensivos mais prescritos no Brasil para tratamento da hipertensão arterial."
+      }
+    ]
   },
   {
     "nome": "Lurasidona (Latuda)",
@@ -6123,6 +6585,28 @@
     "sinonimos": [
       "Glifage",
       "Glifage XR"
+    ],
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Metformina emagrece?",
+        "resposta": "Pode causar leve redução de peso em algumas pessoas por reduzir o apetite, mas não é um medicamento para emagrecimento. Seu objetivo é controlar a glicemia."
+      },
+      {
+        "pergunta": "Metformina dá enjoo?",
+        "resposta": "Sim, náusea e desconforto gástrico são os efeitos mais comuns, especialmente no início. Tomar com alimentos reduz bastante esses efeitos."
+      },
+      {
+        "pergunta": "Metformina pode tomar à noite?",
+        "resposta": "Sim, deve ser tomada com as refeições — pode ser no jantar. O importante é sempre tomar junto com alimentação."
+      },
+      {
+        "pergunta": "Metformina causa hipoglicemia?",
+        "resposta": "Não quando usada sozinha. Diferente de outros antidiabéticos, a metformina sozinha não causa hipoglicemia — é uma grande vantagem."
+      },
+      {
+        "pergunta": "Metformina faz mal para o rim?",
+        "resposta": "Em pacientes com insuficiência renal grave é contraindicada. Para os demais, é segura com monitoramento regular da função renal."
+      }
     ]
   },
   {
@@ -6678,7 +7162,29 @@
       "Neosaldina",
       "Cefalium"
     ],
-    "receita_pratica": "Nao"
+    "receita_pratica": "Nao",
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Dipirona dá sono?",
+        "resposta": "Não é um efeito comum da dipirona. Raramente pode causar sonolência leve em pessoas mais sensíveis."
+      },
+      {
+        "pergunta": "Dipirona pode tomar com ibuprofeno?",
+        "resposta": "Pode, mas com cautela — ambos têm efeito analgésico e a combinação pode aumentar o risco de efeitos gástricos. Evitar uso prolongado junto."
+      },
+      {
+        "pergunta": "Dipirona faz mal para o rim?",
+        "resposta": "Em uso pontual e doses corretas, é segura para os rins. O uso excessivo e crônico pode sobrecarregar os rins, especialmente em pessoas com doenças renais."
+      },
+      {
+        "pergunta": "Dipirona pode tomar na gravidez?",
+        "resposta": "Não é recomendada no primeiro e terceiro trimestres da gravidez. Consulte sempre o médico antes de usar qualquer medicamento na gestação."
+      },
+      {
+        "pergunta": "Quantas dipironas posso tomar por dia?",
+        "resposta": "A dose habitual é de 500mg a 1g (1 a 2 comprimidos) até 4 vezes ao dia, respeitando intervalo de 6 horas. Não exceder 4g por dia."
+      }
+    ]
   },
   {
     "nome": "Neozine — Levomepromazina gotas - 25mg - 100mg",
@@ -6975,6 +7481,28 @@
       "Tarjado venda livre na prática",
       "Não usar em alérgicos",
       "Evitar na gravidez"
+    ],
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Dipirona dá sono?",
+        "resposta": "Não é um efeito comum da dipirona. Raramente pode causar sonolência leve em pessoas mais sensíveis."
+      },
+      {
+        "pergunta": "Dipirona pode tomar com ibuprofeno?",
+        "resposta": "Pode, mas com cautela — ambos têm efeito analgésico e a combinação pode aumentar o risco de efeitos gástricos. Evitar uso prolongado junto."
+      },
+      {
+        "pergunta": "Dipirona faz mal para o rim?",
+        "resposta": "Em uso pontual e doses corretas, é segura para os rins. O uso excessivo e crônico pode sobrecarregar os rins, especialmente em pessoas com doenças renais."
+      },
+      {
+        "pergunta": "Dipirona pode tomar na gravidez?",
+        "resposta": "Não é recomendada no primeiro e terceiro trimestres da gravidez. Consulte sempre o médico antes de usar qualquer medicamento na gestação."
+      },
+      {
+        "pergunta": "Quantas dipironas posso tomar por dia?",
+        "resposta": "A dose habitual é de 500mg a 1g (1 a 2 comprimidos) até 4 vezes ao dia, respeitando intervalo de 6 horas. Não exceder 4g por dia."
+      }
     ]
   },
   {
@@ -7020,7 +7548,29 @@
     "classe_receita": "TARJADO_PRATICA",
     "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
     "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_cor": "amarelo",
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Omeprazol pode tomar todo dia?",
+        "resposta": "Não é recomendado usar por tempo prolongado sem orientação médica. O uso crônico pode causar deficiência de magnésio, vitamina B12 e aumentar risco de fraturas."
+      },
+      {
+        "pergunta": "Omeprazol precisa tomar em jejum?",
+        "resposta": "Sim. Deve ser tomado 30 minutos antes do café da manhã para ter máxima eficácia."
+      },
+      {
+        "pergunta": "Omeprazol engorda?",
+        "resposta": "Não existe evidência de que o omeprazol cause ganho de peso diretamente."
+      },
+      {
+        "pergunta": "Omeprazol pode tomar com dipirona?",
+        "resposta": "Sim, não há interação significativa entre omeprazol e dipirona. Podem ser usados juntos com segurança."
+      },
+      {
+        "pergunta": "Omeprazol é para gastrite?",
+        "resposta": "Sim, é um dos tratamentos mais usados para gastrite, úlcera e refluxo gastroesofágico."
+      }
+    ]
   },
   {
     "nome": "Ondansetrom 4mg - 8mg - Injetável",
@@ -7289,7 +7839,29 @@
       "Coristina",
       "Gripolan"
     ],
-    "receita_pratica": "Sim"
+    "receita_pratica": "Sim",
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Paracetamol pode tomar de 4 em 4 horas?",
+        "resposta": "Sim, o intervalo mínimo é de 4 a 6 horas. Não exceder 4g por dia (8 comprimidos de 500mg) para evitar toxicidade hepática."
+      },
+      {
+        "pergunta": "Paracetamol faz mal para o fígado?",
+        "resposta": "Em doses corretas, é seguro. Em doses excessivas ou com uso de álcool, pode causar lesão hepática grave. Nunca ultrapassar 4g por dia."
+      },
+      {
+        "pergunta": "Paracetamol serve para dor de cabeça?",
+        "resposta": "Sim, é um dos medicamentos mais indicados para cefaleia tensional e dores leves a moderadas em geral."
+      },
+      {
+        "pergunta": "Paracetamol pode tomar com álcool?",
+        "resposta": "Não. A combinação de paracetamol com álcool aumenta muito o risco de lesão hepática grave, mesmo em doses terapêuticas."
+      },
+      {
+        "pergunta": "Paracetamol é anti-inflamatório?",
+        "resposta": "Não. O paracetamol é analgésico e antipirético, mas não tem ação anti-inflamatória significativa. Para inflamação, são usados AINEs como ibuprofeno e diclofenaco."
+      }
+    ]
   },
   {
     "nome": "Paracetamol + Maleato de Clorfeniramina + Fenilefrina (Benegrip)",
@@ -7318,7 +7890,29 @@
       "Benegrip Multi",
       "Benegrip Noite"
     ],
-    "receita_pratica": "Sim"
+    "receita_pratica": "Sim",
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Paracetamol pode tomar de 4 em 4 horas?",
+        "resposta": "Sim, o intervalo mínimo é de 4 a 6 horas. Não exceder 4g por dia (8 comprimidos de 500mg) para evitar toxicidade hepática."
+      },
+      {
+        "pergunta": "Paracetamol faz mal para o fígado?",
+        "resposta": "Em doses corretas, é seguro. Em doses excessivas ou com uso de álcool, pode causar lesão hepática grave. Nunca ultrapassar 4g por dia."
+      },
+      {
+        "pergunta": "Paracetamol serve para dor de cabeça?",
+        "resposta": "Sim, é um dos medicamentos mais indicados para cefaleia tensional e dores leves a moderadas em geral."
+      },
+      {
+        "pergunta": "Paracetamol pode tomar com álcool?",
+        "resposta": "Não. A combinação de paracetamol com álcool aumenta muito o risco de lesão hepática grave, mesmo em doses terapêuticas."
+      },
+      {
+        "pergunta": "Paracetamol é anti-inflamatório?",
+        "resposta": "Não. O paracetamol é analgésico e antipirético, mas não tem ação anti-inflamatória significativa. Para inflamação, são usados AINEs como ibuprofeno e diclofenaco."
+      }
+    ]
   },
   {
     "nome": "Paracetamol + Pseudoefedrina (Tylenol Sinus)",
@@ -7346,7 +7940,29 @@
       "Tylenol Sinus",
       "Tylenol Sinus Noite"
     ],
-    "receita_pratica": "Sim"
+    "receita_pratica": "Sim",
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Paracetamol pode tomar de 4 em 4 horas?",
+        "resposta": "Sim, o intervalo mínimo é de 4 a 6 horas. Não exceder 4g por dia (8 comprimidos de 500mg) para evitar toxicidade hepática."
+      },
+      {
+        "pergunta": "Paracetamol faz mal para o fígado?",
+        "resposta": "Em doses corretas, é seguro. Em doses excessivas ou com uso de álcool, pode causar lesão hepática grave. Nunca ultrapassar 4g por dia."
+      },
+      {
+        "pergunta": "Paracetamol serve para dor de cabeça?",
+        "resposta": "Sim, é um dos medicamentos mais indicados para cefaleia tensional e dores leves a moderadas em geral."
+      },
+      {
+        "pergunta": "Paracetamol pode tomar com álcool?",
+        "resposta": "Não. A combinação de paracetamol com álcool aumenta muito o risco de lesão hepática grave, mesmo em doses terapêuticas."
+      },
+      {
+        "pergunta": "Paracetamol é anti-inflamatório?",
+        "resposta": "Não. O paracetamol é analgésico e antipirético, mas não tem ação anti-inflamatória significativa. Para inflamação, são usados AINEs como ibuprofeno e diclofenaco."
+      }
+    ]
   },
   {
     "nome": "Paracetamol 500mg - 750mg - Gotas - Xarope",
@@ -7368,7 +7984,29 @@
     "classe_receita": "MIP",
     "receita_display": "🟢 Venda Livre — MIP",
     "receita_descricao": "Medicamento Isento de Prescrição. Não necessita receita.",
-    "receita_cor": "verde"
+    "receita_cor": "verde",
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Paracetamol pode tomar de 4 em 4 horas?",
+        "resposta": "Sim, o intervalo mínimo é de 4 a 6 horas. Não exceder 4g por dia (8 comprimidos de 500mg) para evitar toxicidade hepática."
+      },
+      {
+        "pergunta": "Paracetamol faz mal para o fígado?",
+        "resposta": "Em doses corretas, é seguro. Em doses excessivas ou com uso de álcool, pode causar lesão hepática grave. Nunca ultrapassar 4g por dia."
+      },
+      {
+        "pergunta": "Paracetamol serve para dor de cabeça?",
+        "resposta": "Sim, é um dos medicamentos mais indicados para cefaleia tensional e dores leves a moderadas em geral."
+      },
+      {
+        "pergunta": "Paracetamol pode tomar com álcool?",
+        "resposta": "Não. A combinação de paracetamol com álcool aumenta muito o risco de lesão hepática grave, mesmo em doses terapêuticas."
+      },
+      {
+        "pergunta": "Paracetamol é anti-inflamatório?",
+        "resposta": "Não. O paracetamol é analgésico e antipirético, mas não tem ação anti-inflamatória significativa. Para inflamação, são usados AINEs como ibuprofeno e diclofenaco."
+      }
+    ]
   },
   {
     "nome": "Paroxetina 10mg - 20mg - 40mg",
@@ -7663,7 +8301,29 @@
     "classe_receita": "TARJADO_PRATICA",
     "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
     "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_cor": "amarelo",
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Prednisona engorda?",
+        "resposta": "Sim, pode causar aumento de apetite e retenção de líquidos, levando ao ganho de peso. Mais comum no uso prolongado."
+      },
+      {
+        "pergunta": "Prednisona pode tomar à noite?",
+        "resposta": "Não é recomendado. Deve ser tomada pela manhã com alimentos — imita o ritmo natural do cortisol e causa menos insônia."
+      },
+      {
+        "pergunta": "Prednisona pode parar de tomar de repente?",
+        "resposta": "Não. Após uso prolongado, nunca interromper abruptamente — risco de crise adrenal grave. A retirada deve ser gradual conforme orientação médica."
+      },
+      {
+        "pergunta": "Prednisona baixa a imunidade?",
+        "resposta": "Sim, corticoides suprimem o sistema imunológico. Pacientes em uso de prednisona têm maior risco de infecções e devem evitar contato com pessoas doentes."
+      },
+      {
+        "pergunta": "Prednisona serve para alergia?",
+        "resposta": "Sim, é muito usada em reações alérgicas graves, crises de asma, urticária intensa e outras condições inflamatórias."
+      }
+    ]
   },
   {
     "nome": "Pregabalina 25mg - 50mg - 75mg - 150mg - 300mg",
@@ -8448,7 +9108,29 @@
     "receita_display": "🔴 Controlado — Receituário Branco em 2 Vias (C1)",
     "receita_descricao": "Medicamento controlado categoria C1. Exige receituário branco em duas vias: uma fica no estabelecimento, outra vai com o paciente.",
     "receita_cor": "vermelho",
-    "receita_nota": "Prescrição médica obrigatória. Receita válida por 30 dias."
+    "receita_nota": "Prescrição médica obrigatória. Receita válida por 30 dias.",
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Sertralina engorda?",
+        "resposta": "Pode causar leve ganho de peso no uso prolongado, mas é um dos antidepressivos com menor impacto no peso."
+      },
+      {
+        "pergunta": "Sertralina dá sono?",
+        "resposta": "Pode causar tanto sonolência quanto insônia dependendo da pessoa. O horário ideal de tomada (manhã ou noite) varia — o médico orientará conforme o efeito em cada paciente."
+      },
+      {
+        "pergunta": "Sertralina demora quanto para fazer efeito?",
+        "resposta": "O efeito completo leva de 2 a 4 semanas. Nos primeiros dias, pode haver aumento temporário de ansiedade — isso é normal e passa."
+      },
+      {
+        "pergunta": "Sertralina vicia?",
+        "resposta": "Não causa dependência física. Mas a interrupção abrupta pode causar síndrome de descontinuação. Sempre reduzir gradualmente com orientação médica."
+      },
+      {
+        "pergunta": "Sertralina pode tomar na gravidez?",
+        "resposta": "É considerada uma das opções mais seguras entre os antidepressivos na gravidez, mas deve ser usada apenas se o médico avaliar que o benefício supera o risco."
+      }
+    ]
   },
   {
     "nome": "Sibutramina 10mg - 15mg",
@@ -9112,7 +9794,29 @@
     "classe_receita": "C1",
     "receita_display": "🔴 Controlado — Receituário Branco em 2 Vias (C1)",
     "receita_descricao": "Medicamento controlado categoria C1. Exige receituário branco em duas vias: uma fica no estabelecimento, outra vai com o paciente.",
-    "receita_cor": "vermelho"
+    "receita_cor": "vermelho",
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Tramadol vicia?",
+        "resposta": "Sim, tem potencial de dependência por ser um opioide. Usar apenas conforme prescrito e pelo menor tempo necessário."
+      },
+      {
+        "pergunta": "Tramadol dá sono?",
+        "resposta": "Sim, sonolência e tontura são efeitos muito comuns. Não dirigir ou operar máquinas durante o uso."
+      },
+      {
+        "pergunta": "Tramadol pode tomar com dipirona?",
+        "resposta": "Sim, essa combinação é frequentemente usada em dor moderada a intensa sob orientação médica. A dipirona potencializa o efeito analgésico do tramadol."
+      },
+      {
+        "pergunta": "Tramadol pode tomar com álcool?",
+        "resposta": "Não. Combinação muito perigosa — risco de depressão respiratória grave e morte."
+      },
+      {
+        "pergunta": "Tramadol serve para que tipo de dor?",
+        "resposta": "Para dor moderada a intensa que não responde a analgésicos comuns como dipirona e paracetamol — dor pós-operatória, dor crônica, câncer e fibromialgia."
+      }
+    ]
   },
   {
     "nome": "Trazodona 50mg - 100mg - 150mg",
@@ -9450,7 +10154,29 @@
       "Galvus Met",
       "Vildagliptina + Metformina Novartis"
     ],
-    "receita_pratica": "Sim"
+    "receita_pratica": "Sim",
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Metformina emagrece?",
+        "resposta": "Pode causar leve redução de peso em algumas pessoas por reduzir o apetite, mas não é um medicamento para emagrecimento. Seu objetivo é controlar a glicemia."
+      },
+      {
+        "pergunta": "Metformina dá enjoo?",
+        "resposta": "Sim, náusea e desconforto gástrico são os efeitos mais comuns, especialmente no início. Tomar com alimentos reduz bastante esses efeitos."
+      },
+      {
+        "pergunta": "Metformina pode tomar à noite?",
+        "resposta": "Sim, deve ser tomada com as refeições — pode ser no jantar. O importante é sempre tomar junto com alimentação."
+      },
+      {
+        "pergunta": "Metformina causa hipoglicemia?",
+        "resposta": "Não quando usada sozinha. Diferente de outros antidiabéticos, a metformina sozinha não causa hipoglicemia — é uma grande vantagem."
+      },
+      {
+        "pergunta": "Metformina faz mal para o rim?",
+        "resposta": "Em pacientes com insuficiência renal grave é contraindicada. Para os demais, é segura com monitoramento regular da função renal."
+      }
+    ]
   },
   {
     "nome": "Vildagliptina 50mg (Galvus)",
