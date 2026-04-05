@@ -628,7 +628,29 @@
     "receita_display": "🔴 Controlado — Receituário Branco em 2 Vias (C1)",
     "receita_descricao": "Medicamento controlado categoria C1. Exige receituário branco em duas vias: uma fica no estabelecimento, outra vai com o paciente.",
     "receita_cor": "vermelho",
-    "receita_nota": "Prescrição médica obrigatória. Receita válida por 30 dias."
+    "receita_nota": "Prescrição médica obrigatória. Receita válida por 30 dias.",
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Amitriptilina engorda?",
+        "resposta": "Sim, ganho de peso é um efeito colateral comum, especialmente no uso prolongado. Aumenta o apetite e causa retenção de líquidos."
+      },
+      {
+        "pergunta": "Amitriptilina dá sono?",
+        "resposta": "Sim, causa sonolência intensa — por isso é geralmente tomada à noite. Esse efeito é usado para melhorar o sono em pacientes com dor crônica."
+      },
+      {
+        "pergunta": "Amitriptilina serve para dor crônica?",
+        "resposta": "Sim, em doses baixas (10 a 25mg) é muito usada para dor crônica neuropática, fibromialgia e prevenção de enxaqueca, independentemente de depressão."
+      },
+      {
+        "pergunta": "Amitriptilina demora quanto para fazer efeito?",
+        "resposta": "Para depressão: 2 a 4 semanas. Para dor crônica e insônia, o efeito pode aparecer mais rápido, em dias a uma semana."
+      },
+      {
+        "pergunta": "Amitriptilina pode tomar com álcool?",
+        "resposta": "Não. O álcool potencializa a sedação da amitriptilina e pode causar depressão grave do sistema nervoso central."
+      }
+    ]
   },
   {
     "nome": "Amoxicilina + Clavulanato 500mg/125mg - 875mg/125mg",
@@ -1072,7 +1094,29 @@
     "classe_receita": "TARJADO_PRATICA",
     "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
     "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_cor": "amarelo",
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Atenolol causa cansaço?",
+        "resposta": "Sim, fadiga e cansaço são efeitos comuns dos betabloqueadores. Geralmente melhoram com o tempo. Comunicar ao médico se for muito incômodo."
+      },
+      {
+        "pergunta": "Atenolol pode parar de tomar de repente?",
+        "resposta": "Nunca. A interrupção abrupta pode causar angina rebote e infarto. A retirada deve ser gradual ao longo de semanas."
+      },
+      {
+        "pergunta": "Atenolol serve para ansiedade?",
+        "resposta": "Pode ser usado para controlar sintomas físicos da ansiedade situacional como tremor e palpitação. Não trata a ansiedade em si."
+      },
+      {
+        "pergunta": "Atenolol pode tomar com anti-inflamatório?",
+        "resposta": "Com cautela. AINEs podem reduzir o efeito anti-hipertensivo do atenolol. Evitar uso prolongado junto."
+      },
+      {
+        "pergunta": "Atenolol é perigoso para asmáticos?",
+        "resposta": "Sim, betabloqueadores como atenolol podem desencadear broncoespasmo em asmáticos. Informar ao médico — existem alternativas mais seguras."
+      }
+    ]
   },
   {
     "nome": "Atomoxetina 10mg - 18mg - 25mg - 40mg - 60mg - 80mg",
@@ -1655,6 +1699,28 @@
     "receita_nota": "Receita azul obrigatória. Válida por 30 dias.",
     "sinonimos": [
       "Lexotan"
+    ],
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Bromazepam vicia?",
+        "resposta": "Sim, tem potencial de dependência física e psicológica com uso prolongado. Usar pelo menor tempo possível e nunca interromper abruptamente."
+      },
+      {
+        "pergunta": "Bromazepam dá sono?",
+        "resposta": "Sim, sonolência é um dos efeitos mais comuns. Não dirigir ou operar máquinas durante o uso."
+      },
+      {
+        "pergunta": "Bromazepam pode tomar com álcool?",
+        "resposta": "Não. Combinação muito perigosa — pode causar depressão respiratória grave e risco de morte."
+      },
+      {
+        "pergunta": "Bromazepam serve para ansiedade?",
+        "resposta": "Sim, é prescrito para ansiedade e tensão emocional. Porém o uso deve ser de curto prazo pelo risco de dependência."
+      },
+      {
+        "pergunta": "Bromazepam pode parar de tomar de repente?",
+        "resposta": "Não. A interrupção abrupta pode causar síndrome de abstinência grave com convulsões e agitação. A retirada deve ser gradual e orientada pelo médico."
+      }
     ]
   },
   {
@@ -2149,7 +2215,29 @@
     "classe_receita": "TARJADO_PRATICA",
     "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
     "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_cor": "amarelo",
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Captopril causa tosse?",
+        "resposta": "Sim, tosse seca é o efeito colateral mais comum, afetando até 15% dos pacientes. É uma característica de toda a classe dos IECAs."
+      },
+      {
+        "pergunta": "Captopril precisa tomar em jejum?",
+        "resposta": "Sim, deve ser tomado em jejum ou 1 hora antes das refeições — alimentos reduzem significativamente sua absorção."
+      },
+      {
+        "pergunta": "Captopril serve para crise hipertensiva?",
+        "resposta": "Sim, o captopril sublingual é muito usado em urgências hipertensivas para redução rápida da pressão arterial."
+      },
+      {
+        "pergunta": "Captopril pode tomar com anti-inflamatório?",
+        "resposta": "Com cautela. AINEs reduzem o efeito anti-hipertensivo e aumentam o risco renal. Evitar uso prolongado junto."
+      },
+      {
+        "pergunta": "Captopril pode tomar na gravidez?",
+        "resposta": "Não. Contraindicado na gravidez — pode causar malformações fetais graves e morte fetal."
+      }
+    ]
   },
   {
     "nome": "Carbamazepina 200mg - 400mg - Suspensão",
@@ -2352,7 +2440,29 @@
     "classe_receita": "RECEITA_ANTIBIOTICO",
     "receita_display": "🔴 Receita Obrigatória — Antibiótico",
     "receita_descricao": "Antibiótico — receita simples retida obrigatória (ANVISA RDC 20/2011).",
-    "receita_cor": "vermelho"
+    "receita_cor": "vermelho",
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Cefalexina pode tomar com leite?",
+        "resposta": "Sim, pode ser tomada com alimentos ou leite — não prejudica a absorção e ajuda a reduzir efeitos gastrointestinais."
+      },
+      {
+        "pergunta": "Cefalexina serve para infecção urinária?",
+        "resposta": "Sim, é uma das opções para infecção urinária não complicada, embora nitrofurantoína e sulfametoxazol sejam frequentemente preferidos."
+      },
+      {
+        "pergunta": "Cefalexina pode tomar se sou alérgico à penicilina?",
+        "resposta": "Com cautela — existe chance de 5 a 10% de reação cruzada. Informar ao médico sobre a alergia antes de usar."
+      },
+      {
+        "pergunta": "Cefalexina de quantas em quantas horas?",
+        "resposta": "Geralmente de 6 em 6 horas (4 vezes ao dia). Manter os intervalos regulares é importante para manter o nível do antibiótico no sangue."
+      },
+      {
+        "pergunta": "Cefalexina pode beber álcool?",
+        "resposta": "Não é recomendado. O álcool pode reduzir a imunidade e prejudicar a recuperação durante o tratamento com antibiótico."
+      }
+    ]
   },
   {
     "nome": "Cefpodoxima 100mg - 200mg",
@@ -2579,7 +2689,29 @@
     "classe_receita": "RECEITA_ANTIBIOTICO",
     "receita_display": "🔴 Receita Obrigatória — Antibiótico",
     "receita_descricao": "Antibiótico — receita simples retida obrigatória (ANVISA RDC 20/2011).",
-    "receita_cor": "vermelho"
+    "receita_cor": "vermelho",
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Ciprofloxacino pode tomar com leite?",
+        "resposta": "Não. Laticínios, cálcio e antiácidos reduzem muito a absorção. Tomar com água, 1 hora antes ou 2 horas após laticínios."
+      },
+      {
+        "pergunta": "Ciprofloxacino serve para infecção urinária?",
+        "resposta": "Sim, é muito eficaz para infecções urinárias, especialmente as complicadas ou por bactérias resistentes a outros antibióticos."
+      },
+      {
+        "pergunta": "Ciprofloxacino pode tomar com café?",
+        "resposta": "Com cautela — a cafeína aumenta no sangue quando combinada com ciprofloxacino, podendo causar agitação e taquicardia. Reduzir o consumo durante o tratamento."
+      },
+      {
+        "pergunta": "Ciprofloxacino causa tendinite?",
+        "resposta": "Sim, fluoroquinolonas aumentam o risco de tendinite e ruptura de tendão, especialmente em idosos e usuários de corticoides. Suspender e avisar ao médico se surgir dor no tendão."
+      },
+      {
+        "pergunta": "Ciprofloxacino pode tomar com anti-inflamatório?",
+        "resposta": "Com cautela — a combinação com AINEs pode aumentar o risco de convulsões. Preferir paracetamol se precisar de analgésico durante o tratamento."
+      }
+    ]
   },
   {
     "nome": "Citalopram 20mg",
@@ -2781,7 +2913,29 @@
     "classe_receita": "TARJADO_PRATICA",
     "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
     "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_cor": "amarelo",
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Clopidogrel pode parar de tomar de repente?",
+        "resposta": "Nunca sem orientação médica — especialmente com stent coronariano. A interrupção abrupta pode causar trombose do stent e infarto grave."
+      },
+      {
+        "pergunta": "Clopidogrel pode tomar com ibuprofeno?",
+        "resposta": "Com cautela. AINEs aumentam o risco de sangramento em pacientes antiagregados. Preferir paracetamol para dor."
+      },
+      {
+        "pergunta": "Clopidogrel pode fazer cirurgia?",
+        "resposta": "Geralmente deve ser suspenso 5 a 7 dias antes de cirurgias eletivas. Nunca suspender sem orientação do cardiologista e cirurgião."
+      },
+      {
+        "pergunta": "Clopidogrel serve para quê?",
+        "resposta": "Para prevenção de infarto e AVC em pacientes com doença cardiovascular, após stent coronariano e síndrome coronariana aguda."
+      },
+      {
+        "pergunta": "Clopidogrel pode tomar com omeprazol?",
+        "resposta": "Com cautela. O omeprazol pode reduzir o efeito do clopidogrel. O pantoprazol é uma opção com menor interação para proteção gástrica."
+      }
+    ]
   },
   {
     "nome": "Cloreto de Sódio 0,9% Nasal - Solução Fisiológica (Neosoro)",
@@ -3540,7 +3694,29 @@
     "classe_receita": "TARJADO_PRATICA",
     "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
     "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_cor": "amarelo",
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Dexametasona engorda?",
+        "resposta": "Sim, pode causar retenção de líquidos e aumento de apetite, levando ao ganho de peso. Mais evidente no uso prolongado."
+      },
+      {
+        "pergunta": "Dexametasona serve para alergia?",
+        "resposta": "Sim, é um corticoide potente usado em reações alérgicas graves, edema de glote, anafilaxia e outras emergências inflamatórias."
+      },
+      {
+        "pergunta": "Dexametasona pode parar de tomar de repente?",
+        "resposta": "Não após uso prolongado — risco de crise adrenal grave. Cursos curtos podem ser interrompidos com mais facilidade, mas sempre conforme orientação médica."
+      },
+      {
+        "pergunta": "Dexametasona baixa a imunidade?",
+        "resposta": "Sim, suprime o sistema imunológico. Pacientes em uso têm maior risco de infecções e devem evitar contato com pessoas doentes."
+      },
+      {
+        "pergunta": "Dexametasona injetável precisa de receita?",
+        "resposta": "Sim, requer prescrição médica. A aplicação intramuscular pode ser feita em clínicas e drogarias com serviço de enfermagem habilitado."
+      }
+    ]
   },
   {
     "nome": "Dexclorfeniramina 2mg - Xarope",
@@ -3592,7 +3768,29 @@
     "receita_display": "🔴 Controlado B1 — Receita Azul (Benzodiazepínico)",
     "receita_descricao": "Psicotrópico benzodiazepínico categoria B1. Exige receita azul de controle especial em duas vias. Retirada máxima: 30 dias.",
     "receita_cor": "vermelho",
-    "receita_nota": "Receita azul obrigatória. Válida por 30 dias."
+    "receita_nota": "Receita azul obrigatória. Válida por 30 dias.",
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Diazepam vicia?",
+        "resposta": "Sim, é um dos benzodiazepínicos com maior potencial de dependência. Nunca usar por tempo prolongado sem supervisão médica."
+      },
+      {
+        "pergunta": "Diazepam dá sono?",
+        "resposta": "Sim, causa sedação intensa. É usado justamente por esse efeito em procedimentos médicos e para ansiedade aguda."
+      },
+      {
+        "pergunta": "Diazepam pode tomar com álcool?",
+        "resposta": "Absolutamente não. A combinação pode ser fatal — causa depressão respiratória grave."
+      },
+      {
+        "pergunta": "Diazepam serve para convulsão?",
+        "resposta": "Sim, é um dos medicamentos de escolha para cessar convulsões em emergências, especialmente na forma injetável."
+      },
+      {
+        "pergunta": "Diazepam pode parar de tomar de repente?",
+        "resposta": "Nunca. A interrupção abrupta pode causar convulsões graves, mesmo em quem não é epiléptico. A retirada deve ser sempre gradual e orientada pelo médico."
+      }
+    ]
   },
   {
     "nome": "Diclofenaco 50mg - 75mg - 100mg - Injetável",
@@ -3616,7 +3814,29 @@
     "classe_receita": "TARJADO_PRATICA",
     "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
     "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_cor": "amarelo",
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Diclofenaco pode tomar com paracetamol?",
+        "resposta": "Sim, podem ser usados juntos com segurança pois têm mecanismos diferentes. Essa combinação é usada para dor moderada a intensa."
+      },
+      {
+        "pergunta": "Diclofenaco faz mal para o rim?",
+        "resposta": "Pode prejudicar os rins no uso prolongado ou em doses altas, especialmente em pessoas com doença renal, desidratadas ou idosas."
+      },
+      {
+        "pergunta": "Diclofenaco faz mal para o estômago?",
+        "resposta": "Sim, pode causar gastrite, azia e úlcera. Sempre tomar com alimentos e evitar uso prolongado sem orientação médica."
+      },
+      {
+        "pergunta": "Diclofenaco gel pode usar na gravidez?",
+        "resposta": "Contraindicado no terceiro trimestre. No primeiro e segundo trimestres, evitar e consultar o médico. O gel tópico tem menor absorção sistêmica que o comprimido."
+      },
+      {
+        "pergunta": "Diclofenaco pode tomar com pressão alta?",
+        "resposta": "Com cautela. Pode elevar a pressão arterial e reduzir o efeito de anti-hipertensivos. Monitorar a pressão durante o uso."
+      }
+    ]
   },
   {
     "nome": "Diclofenaco de Colestiramina — Voltaren Suave",
@@ -3644,6 +3864,28 @@
       "Para quem tem sensibilidade gástrica",
       "Tarjado venda livre na prática",
       "Mesmos riscos cardiovasculares do diclofenaco"
+    ],
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Diclofenaco pode tomar com paracetamol?",
+        "resposta": "Sim, podem ser usados juntos com segurança pois têm mecanismos diferentes. Essa combinação é usada para dor moderada a intensa."
+      },
+      {
+        "pergunta": "Diclofenaco faz mal para o rim?",
+        "resposta": "Pode prejudicar os rins no uso prolongado ou em doses altas, especialmente em pessoas com doença renal, desidratadas ou idosas."
+      },
+      {
+        "pergunta": "Diclofenaco faz mal para o estômago?",
+        "resposta": "Sim, pode causar gastrite, azia e úlcera. Sempre tomar com alimentos e evitar uso prolongado sem orientação médica."
+      },
+      {
+        "pergunta": "Diclofenaco gel pode usar na gravidez?",
+        "resposta": "Contraindicado no terceiro trimestre. No primeiro e segundo trimestres, evitar e consultar o médico. O gel tópico tem menor absorção sistêmica que o comprimido."
+      },
+      {
+        "pergunta": "Diclofenaco pode tomar com pressão alta?",
+        "resposta": "Com cautela. Pode elevar a pressão arterial e reduzir o efeito de anti-hipertensivos. Monitorar a pressão durante o uso."
+      }
     ]
   },
   {
@@ -3673,6 +3915,28 @@
       "Cólica menstrual e dor aguda",
       "Tarjado venda livre na prática",
       "Age mais rápido que o Voltaren"
+    ],
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Diclofenaco pode tomar com paracetamol?",
+        "resposta": "Sim, podem ser usados juntos com segurança pois têm mecanismos diferentes. Essa combinação é usada para dor moderada a intensa."
+      },
+      {
+        "pergunta": "Diclofenaco faz mal para o rim?",
+        "resposta": "Pode prejudicar os rins no uso prolongado ou em doses altas, especialmente em pessoas com doença renal, desidratadas ou idosas."
+      },
+      {
+        "pergunta": "Diclofenaco faz mal para o estômago?",
+        "resposta": "Sim, pode causar gastrite, azia e úlcera. Sempre tomar com alimentos e evitar uso prolongado sem orientação médica."
+      },
+      {
+        "pergunta": "Diclofenaco gel pode usar na gravidez?",
+        "resposta": "Contraindicado no terceiro trimestre. No primeiro e segundo trimestres, evitar e consultar o médico. O gel tópico tem menor absorção sistêmica que o comprimido."
+      },
+      {
+        "pergunta": "Diclofenaco pode tomar com pressão alta?",
+        "resposta": "Com cautela. Pode elevar a pressão arterial e reduzir o efeito de anti-hipertensivos. Monitorar a pressão durante o uso."
+      }
     ]
   },
   {
@@ -3704,6 +3968,28 @@
       "Tarjado venda livre na prática",
       "Tomar com alimentação",
       "Não usar por mais de 5 dias sem orientação"
+    ],
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Diclofenaco pode tomar com paracetamol?",
+        "resposta": "Sim, podem ser usados juntos com segurança pois têm mecanismos diferentes. Essa combinação é usada para dor moderada a intensa."
+      },
+      {
+        "pergunta": "Diclofenaco faz mal para o rim?",
+        "resposta": "Pode prejudicar os rins no uso prolongado ou em doses altas, especialmente em pessoas com doença renal, desidratadas ou idosas."
+      },
+      {
+        "pergunta": "Diclofenaco faz mal para o estômago?",
+        "resposta": "Sim, pode causar gastrite, azia e úlcera. Sempre tomar com alimentos e evitar uso prolongado sem orientação médica."
+      },
+      {
+        "pergunta": "Diclofenaco gel pode usar na gravidez?",
+        "resposta": "Contraindicado no terceiro trimestre. No primeiro e segundo trimestres, evitar e consultar o médico. O gel tópico tem menor absorção sistêmica que o comprimido."
+      },
+      {
+        "pergunta": "Diclofenaco pode tomar com pressão alta?",
+        "resposta": "Com cautela. Pode elevar a pressão arterial e reduzir o efeito de anti-hipertensivos. Monitorar a pressão durante o uso."
+      }
     ]
   },
   {
@@ -3879,7 +4165,29 @@
     "classe_receita": "TARJADO_PRATICA",
     "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
     "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_cor": "amarelo",
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Domperidona serve para enjoo?",
+        "resposta": "Sim, é antiemético usado para náusea, vômito e sensação de estômago cheio. Age acelerando o esvaziamento gástrico."
+      },
+      {
+        "pergunta": "Domperidona pode tomar na gravidez?",
+        "resposta": "Não é recomendada sem orientação médica — dados de segurança são limitados. Consultar o médico antes de usar."
+      },
+      {
+        "pergunta": "Domperidona causa arritmia?",
+        "resposta": "Em doses altas e especialmente em idosos, pode prolongar o intervalo QT e causar arritmias. Usar a menor dose eficaz pelo menor tempo possível."
+      },
+      {
+        "pergunta": "Domperidona pode dar para criança?",
+        "resposta": "Com cautela e apenas sob orientação médica. A dose deve ser calculada pelo peso da criança."
+      },
+      {
+        "pergunta": "Domperidona aumenta o leite materno?",
+        "resposta": "Sim, pode estimular a prolactina e aumentar a produção de leite. Algumas mães usam off-label para isso, mas sempre com orientação médica."
+      }
+    ]
   },
   {
     "nome": "Donepezila 5mg - 10mg",
@@ -3980,7 +4288,29 @@
     "classe_receita": "RECEITA_ANTIBIOTICO",
     "receita_display": "🔴 Receita Obrigatória — Antibiótico",
     "receita_descricao": "Antibiótico — receita simples retida obrigatória (ANVISA RDC 20/2011).",
-    "receita_cor": "vermelho"
+    "receita_cor": "vermelho",
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Doxiciclina pode tomar com leite?",
+        "resposta": "Preferencialmente não. Tomar com bastante água e ficar na posição vertical por 30 minutos para evitar irritação esofágica."
+      },
+      {
+        "pergunta": "Doxiciclina serve para acne?",
+        "resposta": "Sim, é um dos antibióticos mais usados para acne inflamatória moderada a grave, geralmente por 3 a 6 meses."
+      },
+      {
+        "pergunta": "Doxiciclina mancha os dentes?",
+        "resposta": "Não em adultos. Em crianças menores de 8 anos pode manchar os dentes em formação — contraindicada nessa faixa etária."
+      },
+      {
+        "pergunta": "Doxiciclina precisa de protetor solar?",
+        "resposta": "Sim, obrigatoriamente. Causa fotossensibilidade intensa — usar protetor solar FPS 50+ diariamente durante o tratamento."
+      },
+      {
+        "pergunta": "Doxiciclina pode tomar na gravidez?",
+        "resposta": "Não. Contraindicada na gravidez e amamentação — pode afetar o desenvolvimento dos ossos e dentes do bebê."
+      }
+    ]
   },
   {
     "nome": "Droperidol 2,5mg Injetável",
@@ -4186,7 +4516,29 @@
     "classe_receita": "TARJADO_PRATICA",
     "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
     "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_cor": "amarelo",
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Enalapril causa tosse?",
+        "resposta": "Sim, tosse seca persistente é o efeito colateral mais comum, afetando 10 a 15% dos pacientes. O médico pode trocar por losartana, que não causa tosse."
+      },
+      {
+        "pergunta": "Enalapril pode tomar à noite?",
+        "resposta": "Pode ser tomado de manhã ou à noite. Alguns estudos sugerem benefício em tomar à noite para melhor controle da pressão durante o sono."
+      },
+      {
+        "pergunta": "Enalapril engorda?",
+        "resposta": "Não. O enalapril não causa ganho de peso."
+      },
+      {
+        "pergunta": "Enalapril pode tomar com anti-inflamatório?",
+        "resposta": "Com cautela. AINEs como ibuprofeno e diclofenaco podem reduzir o efeito do enalapril e aumentar o risco de lesão renal. Evitar uso prolongado junto."
+      },
+      {
+        "pergunta": "Enalapril é para pressão alta?",
+        "resposta": "Sim, é um IECA amplamente usado para hipertensão arterial, insuficiência cardíaca e proteção renal em diabéticos."
+      }
+    ]
   },
   {
     "nome": "Enoxaparina 20mg - 40mg - 60mg - 80mg - 100mg Injetável",
@@ -5126,7 +5478,29 @@
     "classe_receita": "TARJADO_PRATICA",
     "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
     "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_cor": "amarelo",
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Furosemida pode tomar de noite?",
+        "resposta": "Não é recomendado. Tomar pela manhã ou no máximo até as 16h para evitar idas ao banheiro durante a noite que podem causar quedas."
+      },
+      {
+        "pergunta": "Furosemida causa cãibra?",
+        "resposta": "Sim, cãibras são comuns porque elimina potássio e magnésio na urina. O médico pode prescrever suplementação de potássio."
+      },
+      {
+        "pergunta": "Furosemida emagrece?",
+        "resposta": "Causa perda de peso por eliminação de líquidos (edema), não de gordura. A perda é temporária e de líquido, não de massa corporal."
+      },
+      {
+        "pergunta": "Furosemida serve para pressão alta?",
+        "resposta": "Sim, é usada como anti-hipertensivo especialmente em pacientes com insuficiência cardíaca e renal, onde outros diuréticos são menos eficazes."
+      },
+      {
+        "pergunta": "Furosemida faz mal para o rim?",
+        "resposta": "Em uso correto, não. Mas em desidratação ou doses muito altas pode comprometer os rins. Monitorar função renal e eletrólitos regularmente."
+      }
+    ]
   },
   {
     "nome": "Gabapentina 300mg - 400mg - 600mg - 800mg",
@@ -5149,7 +5523,29 @@
     "receita_display": "🔴 Controlado — Receituário Branco em 2 Vias (C1)",
     "receita_descricao": "Medicamento controlado categoria C1. Exige receituário branco em duas vias: uma fica no estabelecimento, outra vai com o paciente.",
     "receita_cor": "vermelho",
-    "receita_nota": "Prescrição médica obrigatória. Receita válida por 30 dias."
+    "receita_nota": "Prescrição médica obrigatória. Receita válida por 30 dias.",
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Gabapentina dá sono?",
+        "resposta": "Sim, sonolência e tontura são os efeitos mais comuns, especialmente no início. Começa-se com doses baixas que são aumentadas gradualmente."
+      },
+      {
+        "pergunta": "Gabapentina vicia?",
+        "resposta": "Tem potencial de dependência — é medicamento controlado. O uso prolongado pode causar dependência física e a interrupção abrupta causa síndrome de abstinência."
+      },
+      {
+        "pergunta": "Gabapentina pode tomar com álcool?",
+        "resposta": "Não. Potencializa muito a sedação e pode causar depressão respiratória. Evitar completamente."
+      },
+      {
+        "pergunta": "Gabapentina serve para dor neuropática?",
+        "resposta": "Sim, é aprovada para dor neuropática como nevralgia pós-herpética e neuropatia diabética."
+      },
+      {
+        "pergunta": "Gabapentina serve para ansiedade?",
+        "resposta": "Não é aprovada para ansiedade, mas é usada off-label em alguns casos. Para ansiedade existem tratamentos mais adequados e aprovados."
+      }
+    ]
   },
   {
     "nome": "Galantamina 8mg - 16mg - 24mg",
@@ -5226,7 +5622,29 @@
     "classe_receita": "TARJADO_PRATICA",
     "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
     "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_cor": "amarelo",
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Glibenclamida causa hipoglicemia?",
+        "resposta": "Sim, hipoglicemia é o principal risco. Sempre tomar com refeição e ter açúcar ou suco disponível para emergências."
+      },
+      {
+        "pergunta": "Glibenclamida engorda?",
+        "resposta": "Pode causar leve ganho de peso por estimular a secreção de insulina. Manter dieta equilibrada durante o tratamento."
+      },
+      {
+        "pergunta": "Glibenclamida pode tomar com metformina?",
+        "resposta": "Sim, a combinação é muito usada no diabetes tipo 2. A metformina complementa o efeito sem aumentar o risco de hipoglicemia."
+      },
+      {
+        "pergunta": "Glibenclamida é perigosa para idosos?",
+        "resposta": "Sim, idosos têm maior risco de hipoglicemia grave. Muitos médicos preferem outras opções mais seguras em pacientes idosos."
+      },
+      {
+        "pergunta": "Glibenclamida pode tomar em jejum?",
+        "resposta": "Não. Deve ser tomada com ou logo antes das refeições — tomar em jejum aumenta muito o risco de hipoglicemia."
+      }
+    ]
   },
   {
     "nome": "Glicazida 30mg - 60mg - 80mg MR",
@@ -5363,7 +5781,29 @@
     "classe_receita": "PSICOTR_B2",
     "receita_display": "🔴 Receita Especial B2 — Psicotrópico",
     "receita_descricao": "Psicotrópico — receita de controle especial (notificação azul B2). Retirada máxima 60 dias.",
-    "receita_cor": "vermelho"
+    "receita_cor": "vermelho",
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Haloperidol dá sono?",
+        "resposta": "Pode causar sedação, mas é menos sedativo que outros antipsicóticos. O principal efeito é o controle da agitação e sintomas psicóticos."
+      },
+      {
+        "pergunta": "Haloperidol causa tremor?",
+        "resposta": "Sim, sintomas extrapiramidais como tremor, rigidez muscular e acatisia são efeitos comuns — mais frequentes que com antipsicóticos atípicos."
+      },
+      {
+        "pergunta": "Haloperidol serve para agitação?",
+        "resposta": "Sim, é muito usado em emergências para controle de agitação psicomotora intensa, especialmente na forma injetável."
+      },
+      {
+        "pergunta": "Haloperidol pode parar de tomar de repente?",
+        "resposta": "Não. Nunca interromper abruptamente — pode causar recaída e síndrome de abstinência. Redução deve ser gradual."
+      },
+      {
+        "pergunta": "Haloperidol é perigoso para idosos?",
+        "resposta": "Sim, idosos com demência têm risco aumentado de AVC e morte com antipsicóticos. Listado nos Critérios de Beers como medicamento potencialmente inapropriado em idosos."
+      }
+    ]
   },
   {
     "nome": "Heparina Injetável",
@@ -6325,7 +6765,29 @@
     "classe_receita": "TARJADO_PRATICA",
     "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
     "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_cor": "amarelo",
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Lansoprazol pode tomar todo dia?",
+        "resposta": "Não por tempo indefinido sem orientação médica. O uso prolongado tem riscos como deficiência de magnésio e vitamina B12."
+      },
+      {
+        "pergunta": "Lansoprazol precisa tomar em jejum?",
+        "resposta": "Sim, tomar 30 minutos antes do café da manhã para máxima eficácia."
+      },
+      {
+        "pergunta": "Lansoprazol pode abrir a cápsula?",
+        "resposta": "Pode abrir e misturar os grânulos em água ou suco de maçã para quem tem dificuldade de engolir. Não mastigar os grânulos."
+      },
+      {
+        "pergunta": "Lansoprazol é igual ao omeprazol?",
+        "resposta": "São da mesma classe com pequenas diferenças. O lansoprazol tem início de ação ligeiramente mais rápido. A escolha depende da resposta individual."
+      },
+      {
+        "pergunta": "Lansoprazol serve para úlcera?",
+        "resposta": "Sim, é muito eficaz para úlcera gástrica e duodenal, refluxo gastroesofágico e síndrome de Zollinger-Ellison."
+      }
+    ]
   },
   {
     "nome": "Leflunomida 10mg - 20mg",
@@ -6473,7 +6935,29 @@
     "classe_receita": "TARJADO_PRATICA",
     "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
     "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_cor": "amarelo",
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Levotiroxina pode tomar com café?",
+        "resposta": "Não junto. O café reduz a absorção da levotiroxina. Tomar com água em jejum e aguardar pelo menos 30 a 60 minutos antes do café."
+      },
+      {
+        "pergunta": "Levotiroxina engorda ou emagrece?",
+        "resposta": "Quando a dose está correta e o hipotireoidismo controlado, ajuda a normalizar o metabolismo. Não é medicamento para emagrecer — usar sem hipotireoidismo pode causar arritmias."
+      },
+      {
+        "pergunta": "Levotiroxina pode tomar com cálcio?",
+        "resposta": "Não junto. O cálcio reduz muito a absorção da levotiroxina. Separar por pelo menos 4 horas."
+      },
+      {
+        "pergunta": "Levotiroxina pode tomar à noite?",
+        "resposta": "Alguns estudos mostram que tomar à noite pode ter absorção melhor. Converse com seu médico sobre o melhor horário para o seu caso."
+      },
+      {
+        "pergunta": "Levotiroxina pode trocar de marca?",
+        "resposta": "Não sem avisar o médico — pequenas diferenças na absorção entre marcas podem alterar os níveis do hormônio e requerer ajuste de dose."
+      }
+    ]
   },
   {
     "nome": "Lidocaína gel 2%",
@@ -7183,7 +7667,29 @@
     "classe_receita": "A",
     "receita_display": "🔴 Controlado A — Notificação Amarela",
     "receita_descricao": "Psicotrópico de alto controle categoria A. Exige notificação de receita amarela (talonário especial). Retirada máxima: 30 dias.",
-    "receita_cor": "vermelho"
+    "receita_cor": "vermelho",
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Ritalina vicia?",
+        "resposta": "Quando usada corretamente nas doses prescritas para TDAH, o risco de dependência é baixo. O uso recreativo em doses altas tem potencial de abuso."
+      },
+      {
+        "pergunta": "Ritalina causa insônia?",
+        "resposta": "Sim, insônia é um dos efeitos mais comuns. Por isso geralmente não se toma após as 16h."
+      },
+      {
+        "pergunta": "Ritalina inibe o crescimento?",
+        "resposta": "Pode reduzir levemente o ganho de peso e altura em crianças no uso prolongado. O médico monitorará o crescimento regularmente."
+      },
+      {
+        "pergunta": "Ritalina pode tomar sem TDAH?",
+        "resposta": "Não é recomendado e é ilegal sem prescrição. O uso não médico pode causar dependência, ansiedade e problemas cardíacos."
+      },
+      {
+        "pergunta": "Ritalina perde o efeito com o tempo?",
+        "resposta": "Tolerância ao efeito terapêutico não é comum com o uso correto. Se parecer menos eficaz, pode ser necessário ajuste de dose — consultar o médico."
+      }
+    ]
   },
   {
     "nome": "Metocarbamol 750mg",
@@ -7517,7 +8023,29 @@
     "classe_receita": "OPIOIDE_A",
     "receita_display": "🔴 Receita Especial A — Opioide Forte",
     "receita_descricao": "Opioide forte — receita amarela (notificação A). Retirada máxima 30 dias.",
-    "receita_cor": "vermelho"
+    "receita_cor": "vermelho",
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Morfina vicia?",
+        "resposta": "Tem alto potencial de dependência por ser um opioide. Quando usada para dor grave em doenças sérias, o benefício supera o risco. Nunca usar sem indicação médica."
+      },
+      {
+        "pergunta": "Morfina dá sono?",
+        "resposta": "Sim, sonolência e sedação são efeitos muito comuns, especialmente no início do tratamento. Não dirigir ou operar máquinas."
+      },
+      {
+        "pergunta": "Morfina serve para que tipo de dor?",
+        "resposta": "Para dor moderada a grave que não responde a outros analgésicos — principalmente dor oncológica, pós-operatória grave e dor crônica intensa."
+      },
+      {
+        "pergunta": "Morfina causa constipação?",
+        "resposta": "Sim, constipação é um efeito universal dos opioides. O médico geralmente prescreve laxante preventivo junto com a morfina."
+      },
+      {
+        "pergunta": "Morfina pode parar de tomar de repente?",
+        "resposta": "Nunca. A interrupção abrupta causa síndrome de abstinência grave. A retirada deve ser sempre gradual e supervisionada pelo médico."
+      }
+    ]
   },
   {
     "nome": "Mounjaro (Tirzepatida)",
@@ -7954,7 +8482,29 @@
       "Nivux",
       "Nimesulida + Ciclobenzaprina"
     ],
-    "receita_pratica": "Sim"
+    "receita_pratica": "Sim",
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Nimesulida faz mal para o fígado?",
+        "resposta": "Sim, tem risco de hepatotoxicidade maior que outros AINEs. Contraindicada em pacientes com doenças hepáticas e não deve ser usada por mais de 15 dias."
+      },
+      {
+        "pergunta": "Nimesulida pode tomar com dipirona?",
+        "resposta": "Pode ser usada junto, mas com cautela e por curto prazo. Evitar uso prolongado da combinação."
+      },
+      {
+        "pergunta": "Nimesulida pode dar para criança?",
+        "resposta": "Não é recomendada para menores de 12 anos. Para febre e dor em crianças, preferir paracetamol ou ibuprofeno."
+      },
+      {
+        "pergunta": "Nimesulida pode tomar na gravidez?",
+        "resposta": "Contraindicada na gravidez, especialmente no terceiro trimestre. Pode causar problemas no coração e rins do bebê."
+      },
+      {
+        "pergunta": "Nimesulida é antibiótico?",
+        "resposta": "Não. É um anti-inflamatório — não combate infecções bacterianas."
+      }
+    ]
   },
   {
     "nome": "Nimesulida 100mg - Suspensão",
@@ -7978,7 +8528,29 @@
     "classe_receita": "TARJADO_PRATICA",
     "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
     "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_cor": "amarelo",
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Nimesulida faz mal para o fígado?",
+        "resposta": "Sim, tem risco de hepatotoxicidade maior que outros AINEs. Contraindicada em pacientes com doenças hepáticas e não deve ser usada por mais de 15 dias."
+      },
+      {
+        "pergunta": "Nimesulida pode tomar com dipirona?",
+        "resposta": "Pode ser usada junto, mas com cautela e por curto prazo. Evitar uso prolongado da combinação."
+      },
+      {
+        "pergunta": "Nimesulida pode dar para criança?",
+        "resposta": "Não é recomendada para menores de 12 anos. Para febre e dor em crianças, preferir paracetamol ou ibuprofeno."
+      },
+      {
+        "pergunta": "Nimesulida pode tomar na gravidez?",
+        "resposta": "Contraindicada na gravidez, especialmente no terceiro trimestre. Pode causar problemas no coração e rins do bebê."
+      },
+      {
+        "pergunta": "Nimesulida é antibiótico?",
+        "resposta": "Não. É um anti-inflamatório — não combate infecções bacterianas."
+      }
+    ]
   },
   {
     "nome": "Nistatina 100.000UI/mL Suspensão Oral",
@@ -8212,7 +8784,29 @@
     "receita_display": "🔴 Controlado — Receituário Branco em 2 Vias (C1)",
     "receita_descricao": "Medicamento controlado categoria C1. Exige receituário branco em duas vias: uma fica no estabelecimento, outra vai com o paciente.",
     "receita_cor": "vermelho",
-    "receita_nota": "Prescrição médica obrigatória. Receita válida por 30 dias."
+    "receita_nota": "Prescrição médica obrigatória. Receita válida por 30 dias.",
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Olanzapina engorda?",
+        "resposta": "Sim, é um dos antipsicóticos com maior tendência a causar ganho de peso significativo. Também eleva colesterol, triglicerídeos e pode causar diabetes."
+      },
+      {
+        "pergunta": "Olanzapina dá sono?",
+        "resposta": "Sim, causa sedação intensa. Geralmente tomada à noite por esse motivo."
+      },
+      {
+        "pergunta": "Olanzapina serve para bipolar?",
+        "resposta": "Sim, é aprovada para episódios maníacos agudos e prevenção de recaídas no transtorno bipolar."
+      },
+      {
+        "pergunta": "Olanzapina pode tomar com álcool?",
+        "resposta": "Não. Potencializa a sedação e pode causar hipotensão grave. Evitar completamente."
+      },
+      {
+        "pergunta": "Olanzapina causa diabetes?",
+        "resposta": "Pode aumentar o risco de diabetes tipo 2 pelo impacto metabólico. Monitorar glicemia regularmente durante o tratamento."
+      }
+    ]
   },
   {
     "nome": "Olmesartana 20mg - 40mg",
@@ -8493,7 +9087,29 @@
     "classe_receita": "TARJADO_PRATICA",
     "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
     "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_cor": "amarelo",
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Pantoprazol pode tomar todo dia?",
+        "resposta": "Não é recomendado uso crônico sem orientação médica. O uso prolongado pode causar deficiência de magnésio e vitamina B12."
+      },
+      {
+        "pergunta": "Pantoprazol precisa tomar em jejum?",
+        "resposta": "Sim, deve ser tomado 30 a 60 minutos antes da primeira refeição do dia para máxima eficácia."
+      },
+      {
+        "pergunta": "Pantoprazol é igual ao omeprazol?",
+        "resposta": "São da mesma classe e têm efeito similar. O pantoprazol tem menos interações medicamentosas, sendo preferido em pacientes que usam muitos medicamentos."
+      },
+      {
+        "pergunta": "Pantoprazol engorda?",
+        "resposta": "Não há evidência de que cause ganho de peso diretamente."
+      },
+      {
+        "pergunta": "Pantoprazol serve para gastrite?",
+        "resposta": "Sim, é indicado para gastrite, úlcera péptica, refluxo gastroesofágico e proteção gástrica em usuários de anti-inflamatórios."
+      }
+    ]
   },
   {
     "nome": "Pantoprazol 20mg - 40mg",
@@ -8522,7 +9138,29 @@
     "classe_receita": "TARJADO_PRATICA",
     "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
     "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_cor": "amarelo",
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Pantoprazol pode tomar todo dia?",
+        "resposta": "Não é recomendado uso crônico sem orientação médica. O uso prolongado pode causar deficiência de magnésio e vitamina B12."
+      },
+      {
+        "pergunta": "Pantoprazol precisa tomar em jejum?",
+        "resposta": "Sim, deve ser tomado 30 a 60 minutos antes da primeira refeição do dia para máxima eficácia."
+      },
+      {
+        "pergunta": "Pantoprazol é igual ao omeprazol?",
+        "resposta": "São da mesma classe e têm efeito similar. O pantoprazol tem menos interações medicamentosas, sendo preferido em pacientes que usam muitos medicamentos."
+      },
+      {
+        "pergunta": "Pantoprazol engorda?",
+        "resposta": "Não há evidência de que cause ganho de peso diretamente."
+      },
+      {
+        "pergunta": "Pantoprazol serve para gastrite?",
+        "resposta": "Sim, é indicado para gastrite, úlcera péptica, refluxo gastroesofágico e proteção gástrica em usuários de anti-inflamatórios."
+      }
+    ]
   },
   {
     "nome": "Paracetamol + Fenilefrina + Clorfeniramina (Resfenol / Coristina D / Naldecon)",
@@ -9116,7 +9754,29 @@
     "receita_display": "🔴 Controlado — Receituário Branco em 2 Vias (C1)",
     "receita_descricao": "Medicamento controlado categoria C1. Exige receituário branco em duas vias: uma fica no estabelecimento, outra vai com o paciente.",
     "receita_cor": "vermelho",
-    "receita_nota": "Prescrição médica obrigatória. Receita válida por 30 dias."
+    "receita_nota": "Prescrição médica obrigatória. Receita válida por 30 dias.",
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Pregabalina dá sono?",
+        "resposta": "Sim, sonolência e tontura são muito comuns. Não dirigir ou operar máquinas no início do tratamento."
+      },
+      {
+        "pergunta": "Pregabalina vicia?",
+        "resposta": "Sim, tem potencial de dependência e é medicamento controlado (C1). Nunca interromper abruptamente — reduzir gradualmente com orientação médica."
+      },
+      {
+        "pergunta": "Pregabalina engorda?",
+        "resposta": "Sim, ganho de peso e inchaço são efeitos comuns, especialmente com uso prolongado."
+      },
+      {
+        "pergunta": "Pregabalina serve para fibromialgia?",
+        "resposta": "Sim, é aprovada para fibromialgia. Reduz a sensibilidade à dor generalizada característica dessa condição."
+      },
+      {
+        "pergunta": "Pregabalina pode tomar com álcool?",
+        "resposta": "Não. Potencializa a sedação e pode causar depressão respiratória grave. Evitar completamente."
+      }
+    ]
   },
   {
     "nome": "Progesterona Micronizada 100mg - 200mg",
@@ -9193,7 +9853,29 @@
     "classe_receita": "TARJADO_PRATICA",
     "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
     "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_cor": "amarelo",
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Propranolol serve para ansiedade?",
+        "resposta": "Sim, é muito usado para controlar os sintomas físicos da ansiedade situacional como tremor, palpitação e taquicardia — como antes de apresentações."
+      },
+      {
+        "pergunta": "Propranolol pode parar de tomar de repente?",
+        "resposta": "Nunca. A interrupção abrupta pode causar angina rebote e infarto. A retirada deve ser gradual ao longo de 1 a 2 semanas."
+      },
+      {
+        "pergunta": "Propranolol é perigoso para asmáticos?",
+        "resposta": "Sim, é contraindicado em asma e DPOC — pode causar broncoespasmo grave. Asmáticos devem informar ao médico."
+      },
+      {
+        "pergunta": "Propranolol serve para enxaqueca?",
+        "resposta": "Sim, é aprovado para prevenção de enxaqueca. Reduz a frequência das crises mas não trata a crise aguda."
+      },
+      {
+        "pergunta": "Propranolol causa impotência?",
+        "resposta": "Pode causar disfunção erétil em alguns homens. Comunicar ao médico se isso ocorrer — existem alternativas com menor impacto na função sexual."
+      }
+    ]
   },
   {
     "nome": "Quetiapina 25mg - 50mg - 100mg - 200mg - 300mg - XR (Liberação Prolongada)",
@@ -9216,7 +9898,29 @@
     "receita_display": "🔴 Controlado — Receituário Branco em 2 Vias (C1)",
     "receita_descricao": "Medicamento controlado categoria C1. Exige receituário branco em duas vias: uma fica no estabelecimento, outra vai com o paciente.",
     "receita_cor": "vermelho",
-    "receita_nota": "Prescrição médica obrigatória. Receita válida por 30 dias."
+    "receita_nota": "Prescrição médica obrigatória. Receita válida por 30 dias.",
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Quetiapina engorda?",
+        "resposta": "Sim, ganho de peso é um dos efeitos mais comuns. Também pode elevar colesterol, triglicerídeos e glicemia — monitorar regularmente."
+      },
+      {
+        "pergunta": "Quetiapina dá sono?",
+        "resposta": "Sim, causa sedação intensa, especialmente em doses baixas. Por isso é muito usada para insônia e ansiedade em doses de 12,5 a 50mg."
+      },
+      {
+        "pergunta": "Quetiapina pode tomar com álcool?",
+        "resposta": "Não. Potencializa a sedação e pode causar depressão respiratória. Evitar completamente."
+      },
+      {
+        "pergunta": "Quetiapina serve para bipolar?",
+        "resposta": "Sim, é aprovada para episódios maníacos e depressivos do transtorno bipolar, além da esquizofrenia."
+      },
+      {
+        "pergunta": "Quetiapina vicia?",
+        "resposta": "Não causa dependência clássica, mas a interrupção abrupta pode causar insônia rebote. Sempre reduzir gradualmente com orientação médica."
+      }
+    ]
   },
   {
     "nome": "Rabeprazol 10mg - 20mg",
@@ -9324,7 +10028,29 @@
     "classe_receita": "TARJADO_PRATICA",
     "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
     "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_cor": "amarelo",
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Ranitidina ainda existe?",
+        "resposta": "No Brasil, a ranitidina foi retirada do mercado em 2020 pela Anvisa por contaminação com NDMA, substância potencialmente cancerígena."
+      },
+      {
+        "pergunta": "O que substituiu a ranitidina?",
+        "resposta": "A famotidina é o substituto direto na mesma classe. Os IBPs como omeprazol e pantoprazol são alternativas mais potentes."
+      },
+      {
+        "pergunta": "Ranitidina foi proibida?",
+        "resposta": "Sim, foi suspensa em 2020 no Brasil e em vários países. Não está mais disponível nas farmácias."
+      },
+      {
+        "pergunta": "Qual remédio é igual à ranitidina?",
+        "resposta": "A famotidina é o substituto mais próximo na mesma classe. Para refluxo e úlcera, os IBPs como omeprazol e pantoprazol são mais eficazes."
+      },
+      {
+        "pergunta": "Ranitidina serve para gastrite?",
+        "resposta": "Historicamente era usada para gastrite e refluxo. Hoje foi substituída por medicamentos mais seguros — procure omeprazol, pantoprazol ou famotidina."
+      }
+    ]
   },
   {
     "nome": "Ranolazina 500mg - 1000mg",
@@ -9556,7 +10282,29 @@
     "receita_display": "🔴 Controlado — Receituário Branco em 2 Vias (C1)",
     "receita_descricao": "Medicamento controlado categoria C1. Exige receituário branco em duas vias: uma fica no estabelecimento, outra vai com o paciente.",
     "receita_cor": "vermelho",
-    "receita_nota": "Prescrição médica obrigatória. Receita válida por 30 dias."
+    "receita_nota": "Prescrição médica obrigatória. Receita válida por 30 dias.",
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Risperidona engorda?",
+        "resposta": "Sim, ganho de peso é comum. Também pode elevar a prolactina causando irregularidade menstrual em mulheres e ginecomastia em homens."
+      },
+      {
+        "pergunta": "Risperidona dá sono?",
+        "resposta": "Pode causar sonolência, especialmente no início. O efeito sedativo é menor que outros antipsicóticos como quetiapina e olanzapina."
+      },
+      {
+        "pergunta": "Risperidona serve para autismo?",
+        "resposta": "Sim, é aprovada para tratamento da irritabilidade associada ao transtorno do espectro autista (TEA) em crianças e adolescentes."
+      },
+      {
+        "pergunta": "Risperidona pode parar de tomar de repente?",
+        "resposta": "Não. A interrupção abrupta pode causar sintomas de abstinência e recaída. A retirada deve ser sempre gradual sob orientação do médico."
+      },
+      {
+        "pergunta": "Risperidona causa tremor?",
+        "resposta": "Pode causar sintomas extrapiramidais como tremor, rigidez e inquietação (acatisia). Comunicar ao médico se esses sintomas aparecerem."
+      }
+    ]
   },
   {
     "nome": "Rivaroxabana 10mg - 15mg - 20mg (Xarelto)",
@@ -10141,7 +10889,29 @@
     "classe_receita": "TARJADO_PRATICA",
     "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
     "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_cor": "amarelo",
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Sinvastatina causa dor muscular?",
+        "resposta": "Sim, dor muscular é o efeito colateral mais comum. Comunicar ao médico se surgir dor muscular intensa com fraqueza — pode ser sinal de rabdomiólise."
+      },
+      {
+        "pergunta": "Sinvastatina pode tomar de manhã?",
+        "resposta": "Preferencialmente à noite — o fígado produz mais colesterol durante o sono, então a eficácia é maior à noite."
+      },
+      {
+        "pergunta": "Sinvastatina pode tomar com grapefruit?",
+        "resposta": "Não. O suco de toranja (grapefruit) aumenta muito o nível da sinvastatina no sangue e o risco de rabdomiólise."
+      },
+      {
+        "pergunta": "Sinvastatina pode tomar com antibiótico macrolídeo?",
+        "resposta": "Não. Claritromicina e eritromicina têm interação grave — suspender a sinvastatina durante esse antibiótico. Sempre consultar o médico."
+      },
+      {
+        "pergunta": "Sinvastatina engorda?",
+        "resposta": "Não há evidência de que cause ganho de peso diretamente."
+      }
+    ]
   },
   {
     "nome": "Sitagliptina 100mg (Januvia)",
@@ -11418,7 +12188,29 @@
     "classe_receita": "TARJADO_PRATICA",
     "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
     "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
-    "receita_cor": "amarelo"
+    "receita_cor": "amarelo",
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Warfarina pode comer salada?",
+        "resposta": "Com moderação e consistência. Alimentos ricos em vitamina K (couve, espinafre, brócolis) afetam o efeito. O importante é manter a quantidade constante — não variar muito."
+      },
+      {
+        "pergunta": "Warfarina pode tomar ibuprofeno?",
+        "resposta": "Não. AINEs aumentam muito o risco de sangramento em pacientes anticoagulados. Usar paracetamol para dor."
+      },
+      {
+        "pergunta": "Warfarina o que é INR?",
+        "resposta": "INR mede o tempo de coagulação do sangue. Com warfarina, o alvo é geralmente entre 2 e 3. Fora dessa faixa: risco de sangramento ou trombose."
+      },
+      {
+        "pergunta": "Warfarina pode tomar com paracetamol?",
+        "resposta": "Com cautela em doses altas — paracetamol acima de 2g por dia pode elevar o INR. Em doses habituais geralmente é seguro."
+      },
+      {
+        "pergunta": "Warfarina pode beber álcool?",
+        "resposta": "Não é recomendado. O álcool interfere no metabolismo da warfarina e aumenta o risco de sangramento. Evitar especialmente o consumo excessivo."
+      }
+    ]
   },
   {
     "nome": "Zafirlucaste 20mg",
@@ -11554,7 +12346,29 @@
     "receita_display": "🔴 Controlado B1 — Receita Azul (Benzodiazepínico)",
     "receita_descricao": "Psicotrópico benzodiazepínico categoria B1. Exige receita azul de controle especial em duas vias. Retirada máxima: 30 dias.",
     "receita_cor": "vermelho",
-    "receita_nota": "Receita azul obrigatória. Válida por 30 dias."
+    "receita_nota": "Receita azul obrigatória. Válida por 30 dias.",
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Zolpidem vicia?",
+        "resposta": "Sim, tem potencial de dependência, especialmente com uso prolongado. É indicado para uso de curto prazo (7 a 14 dias)."
+      },
+      {
+        "pergunta": "Zolpidem pode tomar com álcool?",
+        "resposta": "Não. Combinação perigosa — potencializa a sedação e pode causar depressão respiratória grave."
+      },
+      {
+        "pergunta": "Zolpidem causa amnésia?",
+        "resposta": "Pode causar amnésia anterógrada — a pessoa pode fazer coisas à noite sem lembrar no dia seguinte. Tomar apenas quando já estiver na cama pronto para dormir."
+      },
+      {
+        "pergunta": "Zolpidem é para dormir?",
+        "resposta": "Sim, é um hipnótico indicado para insônia de curto prazo. Não deve ser usado cronicamente sem avaliação médica."
+      },
+      {
+        "pergunta": "Zolpidem pode parar de tomar de repente?",
+        "resposta": "Não é recomendado parar abruptamente após uso prolongado — pode causar insônia rebote intensa. Reduzir gradualmente com orientação médica."
+      }
+    ]
   },
   {
     "nome": "Zonisamida 25mg - 50mg - 100mg",
