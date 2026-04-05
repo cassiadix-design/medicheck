@@ -1,5 +1,34 @@
 [
   {
+    "nome": "Aceclofenaco 100mg",
+    "generico": "Aceclofenaco",
+    "tipo": "Anti-inflamatório não esteroidal (AINE)",
+    "sinonimos": [
+      "aceclofenaco",
+      "preservex",
+      "beofenac",
+      "aceclofenaco 100mg",
+      "bristaflam"
+    ],
+    "descricao": "Anti-inflamatório da classe dos AINEs, derivado do diclofenaco. Usado no tratamento de artrite reumatoide, osteoartrose, espondilite anquilosante e dores musculoesqueléticas. Estudos sugerem que pode ter menor impacto na cartilagem articular comparado a outros AINEs.",
+    "receita": "Não",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_cor": "amarelo",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
+    "receita_nota": "Geralmente prescrito 2 vezes ao dia (100mg de manhã e 100mg à noite) com as refeições.",
+    "efeitos": "Dor de estômago, náusea, diarreia, tontura, cefaleia. Risco cardiovascular e renal no uso prolongado.",
+    "aviso_grave": "Mesmas contraindicações dos AINEs: insuficiência renal, úlcera ativa, insuficiência cardíaca, último trimestre da gravidez. Interação com anticoagulantes.",
+    "recomendacao": "⚠️ Tomar sempre com alimentos. Não combinar com outros AINEs (ibuprofeno, diclofenaco, nimesulida) — aumenta risco de efeitos adversos sem benefício adicional.",
+    "educacao": "O aceclofenaco é um pró-fármaco que se converte parcialmente em diclofenaco no organismo. Tem perfil de efeitos colaterais similar ao diclofenaco, com possível vantagem na tolerabilidade gástrica.",
+    "resposta_rapida": [
+      "Anti-inflamatório",
+      "Artrite e dores articulares",
+      "Tarjado venda livre na prática",
+      "Tomar com alimentação",
+      "Não combinar com outros AINEs"
+    ]
+  },
+  {
     "nome": "Acetazolamida 250mg",
     "generico": "Acetazolamida",
     "tipo": "Inibidor da Anidrase Carbônica / Diurético",
@@ -23,8 +52,8 @@
       "Acetazolamida Sandoz"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -76,8 +105,8 @@
       "Creme: aplique com as mãos bem higienizadas"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -133,8 +162,8 @@
       "Adacne"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -183,8 +212,8 @@
       "Crianças acima de 2 anos"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -237,8 +266,8 @@
       "Não deite logo após — risco de esofagite"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -304,8 +333,8 @@
     "descricao": "Associação de alogliptina (inibidor DPP-4) com metformina, indicada para diabetes tipo 2 quando a monoterapia não é suficiente. Combina os mecanismos de ação complementares de ambos os medicamentos. Comercialmente conhecido como Nesina Met.",
     "receita": "Sim",
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo",
     "receita_nota": "Tarjado. Consulte sempre o farmacêutico.",
     "efeitos": "Náusea, diarreia, dor abdominal (metformina — geralmente melhora com o tempo), nasofaringite, infecção urinária.",
@@ -332,8 +361,8 @@
     "descricao": "Antidiabético oral da classe dos inibidores da DPP-4 (gliptinas), indicado para diabetes tipo 2. Age aumentando os níveis de incretinas, estimulando a secreção de insulina de forma dependente da glicose. Comercialmente conhecido como Nesina.",
     "receita": "Sim",
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo",
     "receita_nota": "Tarjado. Consulte sempre o farmacêutico.",
     "efeitos": "Nasofaringite, dor de cabeça, infecção do trato urinário. Risco baixo de hipoglicemia quando usado isoladamente.",
@@ -373,8 +402,8 @@
       "Não tome durante crise de gota aguda"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -480,8 +509,8 @@
       "Exige acompanhamento médico rigoroso"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -588,6 +617,34 @@
     "receita_cor": "vermelho"
   },
   {
+    "nome": "Anador — Dipirona Sódica",
+    "generico": "Dipirona sódica monoidratada",
+    "tipo": "Analgésico / Antipirético",
+    "sinonimos": [
+      "anador",
+      "anador gotas",
+      "anador comprimido",
+      "dipirona anador"
+    ],
+    "descricao": "Anador é outro nome comercial muito popular da dipirona no Brasil, especialmente conhecido nas formulações em gotas e comprimidos. Indicado para dor e febre de intensidade leve a moderada.",
+    "receita": "Não",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_cor": "amarelo",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
+    "receita_nota": "Mesma substância ativa da Novalgina — dipirona sódica. A diferença é apenas o fabricante e apresentação.",
+    "efeitos": "Reações alérgicas, raramente agranulocitose. Geralmente muito bem tolerada em uso pontual.",
+    "aviso_grave": "Não usar em alérgicos à dipirona. Suspender e procurar médico se surgir febre alta ou feridas na boca durante uso prolongado.",
+    "recomendacao": "⚠️ Evitar na gravidez. Não combinar com outros analgésicos sem orientação médica.",
+    "educacao": "Anador e Novalgina têm exatamente o mesmo princípio ativo — a dipirona sódica. A escolha entre eles é apenas de preferência ou disponibilidade na farmácia.",
+    "resposta_rapida": [
+      "Nome comercial da dipirona",
+      "Dor e febre",
+      "Tarjado venda livre na prática",
+      "Mesma substância da Novalgina",
+      "Evitar na gravidez"
+    ]
+  },
+  {
     "nome": "Anfotericina B",
     "generico": "Anfotericina B",
     "tipo": "Antifúngico",
@@ -633,8 +690,8 @@
       "Anlodipino+Atorvastatina Genérico"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -657,8 +714,8 @@
       "Não pare sem orientação médica"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -691,8 +748,8 @@
       "Gynera"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -736,8 +793,8 @@
       "Informe dentista e médico que usa aspirina"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -758,8 +815,8 @@
       "⚠ NUNCA use em crianças — risco de Síndrome de Reye (doença grave que afeta o fígado e o cérebro)"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -782,8 +839,8 @@
       "Evite em asma e DPOC"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -838,8 +895,8 @@
       "Liptruzet"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -862,8 +919,8 @@
       "Relate dores musculares ao médico"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -886,8 +943,8 @@
       "NUNCA interrompa sem orientação médica"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -932,9 +989,38 @@
       "Não combine com álcool"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
+  },
+  {
+    "nome": "Baricitinibe (Olumiant)",
+    "generico": "Baricitinibe",
+    "tipo": "Inibidor de JAK (Janus Quinase) — Imunomodulador",
+    "sinonimos": [
+      "olumiant",
+      "baricitinibe",
+      "baricitinib",
+      "olumiant 2mg",
+      "olumiant 4mg"
+    ],
+    "descricao": "Medicamento imunomodulador oral indicado para artrite reumatoide moderada a grave que não respondeu adequadamente ao metotrexato. Também aprovado para dermatite atópica grave e alopecia areata. Age inibindo enzimas JAK que transmitem sinais inflamatórios.",
+    "receita": "Sim",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_cor": "amarelo",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
+    "receita_nota": "Antes de iniciar: rastrear tuberculose latente, hepatites B e C, e realizar hemograma completo.",
+    "efeitos": "Infecções (respiratórias, urinárias, herpes zóster), aumento de colesterol, náusea, trombose venosa (risco aumentado em doses maiores).",
+    "aviso_grave": "Risco aumentado de infecções graves, trombose, eventos cardiovasculares e neoplasias. Não usar com imunossupressores biológicos simultaneamente. Rastrear tuberculose antes de iniciar.",
+    "recomendacao": "⚠️ Vacinar contra herpes zóster antes de iniciar se possível — o risco de reativação é significativo. Qualquer febre ou sinal de infecção durante o tratamento requer avaliação médica urgente.",
+    "educacao": "Os inibidores de JAK como baricitinibe representam uma revolução no tratamento de doenças autoimunes — são medicamentos orais com eficácia comparável aos biológicos injetáveis, com mais comodidade.",
+    "resposta_rapida": [
+      "Artrite reumatoide e dermatite atópica",
+      "Imunomodulador oral",
+      "Alto custo — acessar via SUS ou plano",
+      "Rastrear tuberculose antes",
+      "Risco de infecções e trombose"
+    ]
   },
   {
     "nome": "Beclometasona Spray Nasal",
@@ -956,9 +1042,37 @@
       "Pode causar sangramento nasal leve"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
+  },
+  {
+    "nome": "Benalet — Pastilha para Garganta",
+    "generico": "Benzocaína + Tirotricina",
+    "tipo": "Anestésico local + Antisséptico — Pastilha",
+    "sinonimos": [
+      "benalet",
+      "pastilha benalet",
+      "benalet pastilha",
+      "benalet garganta"
+    ],
+    "descricao": "Pastilha que combina benzocaína (anestésico local) com tirotricina (antibiótico tópico). A benzocaína promove alívio rápido da dor por anestesia local da mucosa, enquanto a tirotricina age contra bactérias gram-positivas comuns na garganta.",
+    "receita": "Não",
+    "receita_display": "🟢 Venda Livre — Sem Receita",
+    "receita_cor": "verde",
+    "receita_descricao": "Disponível sem prescrição médica.",
+    "receita_nota": "O alívio da dor é mais rápido que em outras pastilhas por conter anestésico local (benzocaína).",
+    "efeitos": "Dormência local temporária (efeito esperado da benzocaína). Raramente: reação alérgica à benzocaína.",
+    "aviso_grave": "Alérgicos a anestésicos do tipo éster (benzocaína, procaína, tetracaína) devem evitar. Não usar em crianças menores de 6 anos.",
+    "recomendacao": "⚠️ O alívio da dor é rápido mas temporário. Se a dor de garganta persistir mais de 3 dias ou vier com febre alta, procurar avaliação médica.",
+    "educacao": "A diferença entre Benalet e Strepsils é que o Benalet contém anestésico local (benzocaína), proporcionando alívio mais imediato da dor, enquanto o Strepsils age mais como antisséptico puro.",
+    "resposta_rapida": [
+      "Pastilha com anestésico",
+      "Alívio rápido da dor de garganta",
+      "Venda livre",
+      "Não usar em menores de 6 anos",
+      "Procurar médico se persistir"
+    ]
   },
   {
     "nome": "Benzilpenicilina (Benzetacil) 600.000UI - 1.200.000UI",
@@ -1024,8 +1138,8 @@
       "Evite em úlcera gástrica ativa"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -1048,9 +1162,39 @@
       "Não use por longos períodos"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
+  },
+  {
+    "nome": "Biotina — Vitamina B7",
+    "generico": "Biotina (D-biotina)",
+    "tipo": "Suplemento vitamínico — Complexo B",
+    "sinonimos": [
+      "biotina",
+      "vitamina b7",
+      "vitamina h",
+      "biotina 5000mcg",
+      "biotina 10000mcg",
+      "inbiotina"
+    ],
+    "descricao": "Vitamina do complexo B essencial para o metabolismo de carboidratos, gorduras e proteínas. Muito popular como suplemento para queda de cabelo, crescimento das unhas e saúde da pele. A deficiência real de biotina é rara na população geral.",
+    "receita": "Não",
+    "receita_display": "🟢 Venda Livre — Sem Receita",
+    "receita_cor": "verde",
+    "receita_descricao": "Suplemento disponível sem prescrição médica.",
+    "receita_nota": "Disponível em doses que variam de 1.000 a 10.000 mcg. A dose diária recomendada é de apenas 30 mcg — as doses dos suplementos são muito superiores ao necessário.",
+    "efeitos": "Muito bem tolerada. Pode causar acne em algumas pessoas. Interfere em vários exames laboratoriais em doses altas.",
+    "aviso_grave": "Doses altas de biotina (≥5.000 mcg) interferem em exames como TSH (tireoide), troponina (coração), hormônios e vitamina D — podem causar resultados falsos. Sempre informar ao médico e laboratório sobre o uso antes de exames.",
+    "recomendacao": "⚠️ Suspender a biotina por pelo menos 2-3 dias antes de qualquer exame de sangue — pode falsear resultados de TSH, hormônios tireoidianos, troponina e outros marcadores importantes.",
+    "educacao": "A maioria das pessoas não tem deficiência de biotina, pois ela é encontrada em muitos alimentos. Os estudos sobre biotina para cabelo e unhas são limitados — o benefício é mais evidente em quem realmente tem deficiência.",
+    "resposta_rapida": [
+      "Cabelos, unhas e pele",
+      "Venda livre",
+      "Suspender antes de exames de sangue",
+      "Interfere no TSH e troponina",
+      "Deficiência real é rara"
+    ]
   },
   {
     "nome": "Biperideno 2mg",
@@ -1151,8 +1295,8 @@
       "Emcor"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -1223,8 +1367,8 @@
       "Complementa o salbutamol no tratamento da DPOC"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo",
     "sinonimos": [
       "Atrovent",
@@ -1238,8 +1382,8 @@
     "descricao": "Mucolítico indicado para fluidificar e facilitar a eliminação do muco nas vias respiratórias em bronquite, tosse produtiva, asma com secreção e DPOC. Age reduzindo a viscosidade do muco. Muito conhecido como Bisolvon.",
     "receita": "Sim",
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo",
     "receita_nota": "Tarjado. Consulte sempre o farmacêutico.",
     "efeitos": "Náusea, diarreia, dor de estômago, reações alérgicas cutâneas raras.",
@@ -1280,8 +1424,8 @@
       "Procure médico se tiver alucinações"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -1291,8 +1435,8 @@
     "descricao": "Antiemético e procinético indicado para náuseas, vômitos, refluxo gastroesofágico e gastroparesia. Similar à metoclopramida, age bloqueando receptores dopaminérgicos no sistema digestivo.",
     "receita": "Sim",
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo",
     "receita_nota": "Tarjado. Consulte sempre o farmacêutico.",
     "efeitos": "Sonolência, fadiga, diarreia. Uso prolongado: sintomas extrapiramidais (tremores, rigidez — especialmente em idosos e crianças).",
@@ -1496,8 +1640,8 @@
       "Cabergolina EMS"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -1542,8 +1686,8 @@
       "Requer acompanhamento médico rigoroso"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -1570,8 +1714,8 @@
       "Vokanamet (com metformina)"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -1594,8 +1738,8 @@
       "⚠ PROIBIDO na gravidez"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -1649,8 +1793,8 @@
       "Monitorize a pressão regularmente"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -1700,6 +1844,38 @@
     "receita_cor": "vermelho"
   },
   {
+    "nome": "Cariprazina (Reagila)",
+    "generico": "Cloridrato de cariprazina",
+    "tipo": "Antipsicótico atípico — Agonista parcial D3/D2",
+    "sinonimos": [
+      "reagila",
+      "cariprazina",
+      "cariprazine",
+      "vraylar",
+      "reagila 1,5mg",
+      "reagila 3mg",
+      "reagila 4,5mg",
+      "reagila 6mg"
+    ],
+    "descricao": "Antipsicótico atípico de nova geração indicado para esquizofrenia e mania bipolar. Diferencia-se por ter alta afinidade pelo receptor D3 de dopamina, o que pode trazer benefícios nos sintomas negativos da esquizofrenia (apatia, isolamento, falta de motivação).",
+    "receita": "Sim",
+    "receita_display": "🔴 Receita de Controle Especial — Branca 2 vias",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Receita de Controle Especial (branca, duas vias). A 1ª via fica retida na farmácia. Validade de 30 dias.",
+    "receita_nota": "Meia-vida muito longa (2-3 semanas do metabólito ativo) — efeitos e ajustes de dose são percebidos lentamente.",
+    "efeitos": "Acatisia (muito comum), parkinsonismo, cefaleia, tontura, náusea, constipação. Menor tendência a ganho de peso e sedação que outros antipsicóticos.",
+    "aviso_grave": "A acatisia pode ser intensa — comunicar ao médico se surgir agitação, incapacidade de ficar parado ou sensação de inquietação interna. Não interromper abruptamente.",
+    "recomendacao": "⚠️ Devido à meia-vida longa, os efeitos de uma mudança de dose só serão completamente percebidos após 1-2 semanas. Ter paciência com os ajustes.",
+    "educacao": "A cariprazina é a única medicação aprovada com evidência robusta para os sintomas negativos da esquizofrenia (apatia, embotamento afetivo, isolamento social), que são frequentemente os mais difíceis de tratar.",
+    "resposta_rapida": [
+      "Esquizofrenia e mania bipolar",
+      "Receita branca 2 vias",
+      "Benefício nos sintomas negativos",
+      "Acatisia é o efeito mais comum",
+      "Meia-vida muito longa"
+    ]
+  },
+  {
     "nome": "Carisoprodol 325mg - 350mg",
     "generico": "Carisoprodol",
     "tipo": "Relaxante Muscular de Ação Central",
@@ -1724,8 +1900,8 @@
       "Soma"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -1770,8 +1946,8 @@
       "Medir o pulso regularmente"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -1859,8 +2035,8 @@
       "Segura para uso prolongado"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -1911,8 +2087,8 @@
       "Fastum Gel"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -1940,8 +2116,8 @@
       "Yurelax"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -2065,8 +2241,8 @@
       "Clomid"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -2142,8 +2318,8 @@
       "Pode causar hematomas com facilidade"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -2269,8 +2445,8 @@
       "Não suspenda sem orientação médica"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -2353,9 +2529,9 @@
     ],
     "descricao": "Combinação de colagenase (enzima que remove tecido necrótico) com cloranfenicol (antibiótico de amplo espectro). Indicada para feridas infectadas ou com risco de infecção que também necessitam de desbridamento enzimático.",
     "receita": "Sim",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica Necessária",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
     "receita_cor": "amarelo",
-    "receita_descricao": "Requer receita médica simples.",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_nota": "O cloranfenicol sistêmico é restrito por risco de aplasia medular, mas na forma tópica tem uso aceito em feridas com baixa absorção sistêmica.",
     "efeitos": "Ardência ou irritação local. Raramente reação alérgica ao cloranfenicol. Uso prolongado pode selecionar bactérias resistentes.",
     "aviso_grave": "Evitar uso prolongado sem reavaliação médica — risco de resistência bacteriana. Não usar em grandes áreas de pele ou mucosas (risco de absorção sistêmica do cloranfenicol).",
@@ -2381,9 +2557,9 @@
     ],
     "descricao": "Enzima proteolítica de uso tópico que dissolve o tecido necrótico (morto) em feridas crônicas, úlceras de pressão, úlceras varicosas e queimaduras. Facilita o desbridamento (limpeza) da ferida sem danificar o tecido sadio ao redor.",
     "receita": "Sim",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica Necessária",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
     "receita_cor": "amarelo",
-    "receita_descricao": "Requer receita médica simples.",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_nota": "Aplicar apenas sobre o tecido necrótico — evitar contato com a pele sã ao redor da ferida.",
     "efeitos": "Leve ardência ou irritação local no início. Raramente: reação alérgica.",
     "aviso_grave": "Não usar em feridas com infecção ativa não controlada sem tratamento antibiótico concomitante. Não aplicar em olhos ou mucosas.",
@@ -2421,8 +2597,8 @@
       "Colcin"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -2445,8 +2621,8 @@
       "Exames regulares de colesterol"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -2469,8 +2645,8 @@
       "Pode reduzir absorção de vitaminas A, D, E e K"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -2497,8 +2673,8 @@
       "Prevalite"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -2574,9 +2750,9 @@
     ],
     "descricao": "Usados no tratamento da osteoartrite (artrose) de joelho, quadril e outras articulações. A glucosamina participa da síntese de cartilagem e a condroitina retém água nas articulações, melhorando a lubrificação e reduzindo a dor.",
     "receita": "Sim",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica Necessária",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
     "receita_cor": "amarelo",
-    "receita_descricao": "Requer receita médica simples na apresentação farmacêutica (medicamento). Suplementos alimentares podem ser vendidos sem receita.",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_nota": "O efeito é lento — melhora gradual em 4–8 semanas. Tratamento de longa duração.",
     "efeitos": "Náusea, diarreia, desconforto gástrico. A glucosamina pode elevar levemente a glicemia em diabéticos.",
     "aviso_grave": "Diabéticos devem monitorar a glicemia durante o uso — a glucosamina pode interferir na sensibilidade à insulina. Alérgicos a crustáceos devem ter cautela (glucosamina de origem marinha).",
@@ -2636,8 +2812,8 @@
       "Xigduo XR"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -2660,8 +2836,8 @@
       "Beba bastante água"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -2688,8 +2864,8 @@
       "Denosumabe EMS"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -2738,8 +2914,8 @@
       "Segura para uso prolongado"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -2767,8 +2943,8 @@
       "Desmopressina Ferring"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -2796,8 +2972,8 @@
       "Desogestrel Sandoz"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -2820,8 +2996,8 @@
       "Monitore glicemia e pressão durante uso prolongado"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -2896,9 +3072,97 @@
       "Não use com outros anti-inflamatórios"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
+  },
+  {
+    "nome": "Diclofenaco de Colestiramina — Voltaren Suave",
+    "generico": "Diclofenaco de colestiramina",
+    "tipo": "Anti-inflamatório não esteroidal (AINE) — Formulação gástrica suave",
+    "sinonimos": [
+      "voltaren suave",
+      "diclofenaco colestiramina",
+      "diclofenaco de colestiramina",
+      "voltaren suave 70mg"
+    ],
+    "descricao": "Formulação especial do diclofenaco associado à colestiramina, desenvolvida para reduzir os efeitos irritantes no estômago. Indicada para pacientes que precisam de anti-inflamatório mas têm sensibilidade gástrica. Libera o diclofenaco de forma mais gradual no intestino.",
+    "receita": "Não",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_cor": "amarelo",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
+    "receita_nota": "Formulação com menor agressividade gástrica comparada ao diclofenaco sódico ou potássico convencional.",
+    "efeitos": "Menor irritação gástrica que outras formas de diclofenaco. Pode causar náusea leve, constipação. Mesmos riscos cardiovasculares e renais do diclofenaco.",
+    "aviso_grave": "Apesar da formulação mais suave, mantém os riscos cardiovasculares e renais do diclofenaco. Não usar em insuficiência renal, cardíaca ou úlcera ativa.",
+    "recomendacao": "⚠️ Boa opção para quem tem estômago sensível e precisa de anti-inflamatório. Mesmo assim, tomar com alimentação e não usar por períodos prolongados sem avaliação médica.",
+    "educacao": "A colestiramina funciona como carreador, liberando o diclofenaco de forma mais lenta no trato digestivo, reduzindo o contato direto com a mucosa gástrica e diminuindo a irritação local.",
+    "resposta_rapida": [
+      "Anti-inflamatório menos agressivo ao estômago",
+      "Voltaren Suave",
+      "Para quem tem sensibilidade gástrica",
+      "Tarjado venda livre na prática",
+      "Mesmos riscos cardiovasculares do diclofenaco"
+    ]
+  },
+  {
+    "nome": "Diclofenaco Potássico — Cataflam",
+    "generico": "Diclofenaco potássico",
+    "tipo": "Anti-inflamatório não esteroidal (AINE) — Ação rápida",
+    "sinonimos": [
+      "cataflam",
+      "diclofenaco potassico",
+      "diclofenaco de potassio",
+      "cataflam 50mg",
+      "diclofenaco potassico 50mg"
+    ],
+    "descricao": "Forma de ação mais rápida do diclofenaco. Indicado para dor aguda, cólica menstrual, dor de dente, dor pós-operatória e situações onde se precisa de alívio mais rápido. A forma potássica é absorvida mais rapidamente que a sódica.",
+    "receita": "Não",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_cor": "amarelo",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
+    "receita_nota": "Início de ação mais rápido que o diclofenaco sódico — por isso preferido para dor aguda e cólica menstrual.",
+    "efeitos": "Dor de estômago, náusea, azia, úlcera gástrica no uso prolongado, aumento da pressão arterial, retenção de líquidos.",
+    "aviso_grave": "Mesmas contraindicações do diclofenaco sódico: insuficiência renal, úlcera ativa, insuficiência cardíaca, terceiro trimestre da gravidez.",
+    "recomendacao": "⚠️ Tomar com alimentação para proteger o estômago. Para cólica menstrual, tomar ao primeiro sinal de dor para maior eficácia.",
+    "educacao": "Cataflam e Voltaren têm o mesmo princípio ativo (diclofenaco), mas em formas de sal diferentes. O Cataflam (potássico) age mais rápido; o Voltaren (sódico) tem ação mais prolongada.",
+    "resposta_rapida": [
+      "Anti-inflamatório ação rápida",
+      "Nome comercial Cataflam",
+      "Cólica menstrual e dor aguda",
+      "Tarjado venda livre na prática",
+      "Age mais rápido que o Voltaren"
+    ]
+  },
+  {
+    "nome": "Diclofenaco Sódico — Voltaren",
+    "generico": "Diclofenaco sódico",
+    "tipo": "Anti-inflamatório não esteroidal (AINE)",
+    "sinonimos": [
+      "voltaren",
+      "diclofenaco sodico",
+      "diclofenaco de sodio",
+      "voltaren 50mg",
+      "voltaren injetavel",
+      "diclofenaco sodico 50mg",
+      "diclofenaco sodico 75mg"
+    ],
+    "descricao": "Anti-inflamatório potente usado para dor e inflamação em artrite reumatoide, osteoartrose, dor lombar, cólica menstrual, dor pós-operatória e dor aguda. A forma sódica tem absorção mais lenta que o potássico, com ação mais duradoura.",
+    "receita": "Não",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_cor": "amarelo",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
+    "receita_nota": "Disponível em comprimidos 50mg e 75mg (liberação prolongada), supositório, injetável e gel tópico (Voltaren Emulgel).",
+    "efeitos": "Dor de estômago, náusea, úlcera gástrica, aumento da pressão arterial, retenção de líquidos, risco renal e cardiovascular no uso prolongado.",
+    "aviso_grave": "Contraindicado em insuficiência renal, úlcera ativa, insuficiência cardíaca e terceiro trimestre da gravidez. Interação grave com anticoagulantes.",
+    "recomendacao": "⚠️ Sempre tomar com alimentos. Não usar por mais de 5 dias sem orientação médica. Idosos e hipertensos devem usar com cautela.",
+    "educacao": "O Voltaren é o nome comercial mais conhecido do diclofenaco sódico. O gel tópico (Voltaren Emulgel) tem muito menos efeitos sistêmicos que o comprimido e é uma boa opção para dores localizadas.",
+    "resposta_rapida": [
+      "Anti-inflamatório potente",
+      "Nome comercial Voltaren",
+      "Tarjado venda livre na prática",
+      "Tomar com alimentação",
+      "Não usar por mais de 5 dias sem orientação"
+    ]
   },
   {
     "nome": "Digoxina comprimido 0,25 mg - Solução",
@@ -2920,8 +3184,8 @@
       "Relate náusea, visão amarelada ao médico"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -2944,8 +3208,8 @@
       "Medir o pulso regularmente"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -2955,8 +3219,8 @@
     "descricao": "Antiemético e anti-histamínico indicado para enjoo de movimento (cinetose), náuseas e vômitos, inclusive os da gravidez (com orientação médica). Muito conhecido como Dramin.",
     "receita": "Sim",
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo",
     "receita_nota": "Tarjado. Consulte sempre o farmacêutico.",
     "efeitos": "Sonolência intensa, boca seca, visão turva, retenção urinária, constipação.",
@@ -3049,8 +3313,8 @@
       "Não ultrapasse a dose máxima — risco cardíaco"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -3089,8 +3353,8 @@
     "descricao": "Associação de dipirona monoidratada (analgésico), citrato de orfenadrina (relaxante muscular) e cafeína anidra (potencializador do efeito analgésico). Indicado para dores musculares, contraturas e tensão muscular. Muito conhecido como Dorflex.",
     "receita": "Sim",
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo",
     "receita_nota": "Tarjado. Consulte sempre o farmacêutico.",
     "efeitos": "Sonolência (orfenadrina), boca seca, taquicardia, agitação ou insônia (cafeína), tontura, náusea.",
@@ -3156,6 +3420,35 @@
     "receita_nota": "Uso restrito a ambiente hospitalar."
   },
   {
+    "nome": "Dulaglutida (Trulicity)",
+    "generico": "Dulaglutida",
+    "tipo": "Análogo do GLP-1 — Antidiabético injetável semanal",
+    "sinonimos": [
+      "trulicity",
+      "dulaglutida",
+      "dulaglutide",
+      "trulicity 0,75mg",
+      "trulicity 1,5mg"
+    ],
+    "descricao": "Análogo do GLP-1 de administração subcutânea semanal para diabetes tipo 2. Estimula a secreção de insulina dependente de glicose, reduz o glucagon, retarda o esvaziamento gástrico e reduz o apetite. Também tem benefícios cardiovasculares comprovados.",
+    "receita": "Sim",
+    "receita_display": "🔴 Receita Branca em Duas Vias — Prescrição Obrigatória",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Requer receita médica branca em duas vias com retenção de uma via na farmácia.",
+    "receita_nota": "Caneta autoinjetora de uso único — aplicar no abdome, coxa ou braço. Pode ser aplicada em qualquer dia da semana, sempre no mesmo dia.",
+    "efeitos": "Náusea, vômito, diarreia, dor abdominal (especialmente no início), perda de apetite e peso. Raramente: pancreatite.",
+    "aviso_grave": "Contraindicada em histórico pessoal ou familiar de carcinoma medular de tireoide ou neoplasia endócrina múltipla tipo 2 (NEM 2). Suspender se houver suspeita de pancreatite.",
+    "recomendacao": "⚠️ Náusea é muito comum no início — começa com dose baixa e aumenta gradualmente. Comer porções menores e evitar alimentos gordurosos ajuda a reduzir a náusea.",
+    "educacao": "A dulaglutida tem benefícios além do controle glicêmico: reduz eventos cardiovasculares em pacientes de alto risco e promove perda de peso, tornando-a especialmente útil em diabéticos com obesidade e doença cardiovascular.",
+    "resposta_rapida": [
+      "Diabetes tipo 2 — injeção semanal",
+      "Reduz peso e risco cardiovascular",
+      "Receita branca 2 vias",
+      "Náusea no início é comum",
+      "Mesmo dia da semana sempre"
+    ]
+  },
+  {
     "nome": "Duloxetina 60mg",
     "generico": "Duloxetina",
     "tipo": "Antidepressivo",
@@ -3202,8 +3495,8 @@
       "Dutoprol"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -3253,8 +3546,8 @@
       "Glyxambi (com linagliptina)"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -3277,8 +3570,8 @@
       "Evite na gravidez — teratogênico (pode causar malformações ou morte do bebê)"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -3301,8 +3594,8 @@
       "Risco de sangramento — observe sinais de alerta"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -3331,8 +3624,8 @@
       "Epoetina EMS"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -3376,8 +3669,8 @@
       "Não use por longos períodos sem orientação"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -3404,8 +3697,8 @@
       "Aldopur"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -3428,8 +3721,8 @@
       "Monitorize exames de sangue regularmente"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -3508,8 +3801,8 @@
       "Ezetrol"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -3536,8 +3829,8 @@
       "Uloric"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -3616,8 +3909,8 @@
       "Lofibra"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -3644,8 +3937,8 @@
       "Dosberotec"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -3697,8 +3990,8 @@
       "Nunca ajuste a dose sozinho"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -3721,8 +4014,8 @@
       "Efeito mais rápido que ferro oral"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -3774,8 +4067,8 @@
       "Ferro Sacarato EMS"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -3801,8 +4094,8 @@
       "Fesoterodina EMS"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -3825,8 +4118,8 @@
       "Atenção para mudanças de humor"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -3849,8 +4142,8 @@
       "Informe uso de outros remédios ao médico"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -3902,8 +4195,8 @@
       "Alenia"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -3913,8 +4206,8 @@
     "descricao": "Associação de formoterol (broncodilatador de longa ação — LABA) com propionato de fluticasona (corticoide inalatório), indicada para asma e DPOC. Combinação que abre os brônquios e reduz a inflamação simultaneamente. Comercialmente conhecido como Lugano.",
     "receita": "Sim",
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo",
     "receita_nota": "Tarjado. Consulte sempre o farmacêutico.",
     "efeitos": "Candidíase oral (enxaguar a boca após uso), rouquidão, tosse, palpitações, tremor fino nas mãos (formoterol).",
@@ -3947,9 +4240,9 @@
     ],
     "descricao": "Broncodilatador de longa duração (até 12 horas) usado na manutenção de asma e DPOC. Mantém os brônquios abertos de forma sustentada. Diferente do salbutamol (curta duração), não é indicado como resgate em crises agudas.",
     "receita": "Sim",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica Necessária",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
     "receita_cor": "amarelo",
-    "receita_descricao": "Requer receita médica simples.",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_nota": "LABAs (beta-2 de longa duração) NÃO devem ser usados isoladamente na asma sem corticoide inalatório associado — aumenta risco de morte por asma grave.",
     "efeitos": "Tremor fino nas mãos, taquicardia, palpitações, cefaleia, cãibras, hipocalemia (potássio baixo) em doses altas.",
     "aviso_grave": "NA ASMA: nunca usar LABA isolado sem corticoide inalatório — risco de morte aumentado. Sempre associado a budesonida, fluticasona ou outro corticoide inalatório. Na DPOC: pode ser usado isolado.",
@@ -4010,8 +4303,8 @@
       "Moment Nasal"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -4034,8 +4327,8 @@
       "Monitore potássio — pode baixar"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -4134,8 +4427,8 @@
       "Mantenha açúcar sempre à mão"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -4166,6 +4459,35 @@
       "Azukon MR"
     ],
     "receita_pratica": "Sim"
+  },
+  {
+    "nome": "Glicopirrônio (Seebri)",
+    "generico": "Brometo de glicopirrônio",
+    "tipo": "Anticolinérgico inalatório LAMA — DPOC",
+    "sinonimos": [
+      "seebri",
+      "glicopirronio",
+      "glycopyrronium",
+      "seebri breezhaler",
+      "tovanor"
+    ],
+    "descricao": "Anticolinérgico inalatório de longa duração (LAMA) para tratamento de manutenção da DPOC. Dilata os brônquios bloqueando receptores muscarínicos M3. Dose única diária via inalador Breezhaler.",
+    "receita": "Sim",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_cor": "amarelo",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
+    "receita_nota": "Disponível também em combinação com indacaterol (Ultibro Breezhaler) — LAMA+LABA em dose única.",
+    "efeitos": "Boca seca, nasofaringite, infecção urinária, constipação. Raramente: taquicardia, retenção urinária.",
+    "aviso_grave": "Cuidado em glaucoma de ângulo fechado e hipertrofia prostática — pode agravar retenção urinária. Não usar para crise aguda.",
+    "recomendacao": "⚠️ Pacientes com próstata aumentada devem informar o médico — o glicopirrônio pode agravar sintomas urinários pelo efeito anticolinérgico.",
+    "educacao": "O glicopirrônio tem seletividade pelos receptores M3 nos brônquios. A combinação com indacaterol (Ultibro) oferece broncodilatação dupla — LAMA+LABA — em um único inalador, simplificando o tratamento da DPOC.",
+    "resposta_rapida": [
+      "DPOC — anticolinérgico LAMA",
+      "Dose única diária",
+      "Tarjado venda livre na prática",
+      "Cuidado com próstata e glaucoma",
+      "Disponível combinado com indacaterol"
+    ]
   },
   {
     "nome": "Glimepirida 1mg - 2mg - 4mg",
@@ -4220,8 +4542,8 @@
       "Griseofulvina EMS"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -4290,8 +4612,8 @@
       "Não interrompa abruptamente"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -4314,8 +4636,8 @@
       "Proteja-se do sol — fotossensibilidade"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -4338,8 +4660,8 @@
       "Não use por mais tempo que o indicado"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -4367,8 +4689,8 @@
       "Tri-Luma (fórmula combinada)"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -4396,8 +4718,8 @@
       "Hidroxicloroquina Medley"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -4425,8 +4747,8 @@
       "Vistagan"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -4511,6 +4833,36 @@
     "receita_cor": "verde"
   },
   {
+    "nome": "Ibandronato (Bonviva)",
+    "generico": "Ácido ibandrônico / Ibandronato de sódio",
+    "tipo": "Bisfosfonato — Osteoporose",
+    "sinonimos": [
+      "bonviva",
+      "ibandronato",
+      "ibandronate",
+      "bonviva 150mg",
+      "ibandronato 150mg",
+      "bondronat"
+    ],
+    "descricao": "Bisfosfonato usado no tratamento da osteoporose em mulheres na pós-menopausa. Reduz a reabsorção óssea, aumentando a densidade mineral dos ossos e reduzindo o risco de fraturas. Disponível em comprimido mensal (150mg) e injeção trimestral.",
+    "receita": "Sim",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_cor": "amarelo",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
+    "receita_nota": "Tomar em jejum, com copo cheio de água (200ml), e permanecer em pé ou sentado por pelo menos 60 minutos após.",
+    "efeitos": "Irritação esofágica e gástrica (se não seguir as instruções), dor musculoesquelética, febre e sintomas gripais na primeira dose injetável.",
+    "aviso_grave": "Osteonecrose de mandíbula (rara, mais em uso prolongado ou IV) — informar ao dentista antes de procedimentos invasivos. Fratura atípica de fêmur com uso muito prolongado (>5 anos).",
+    "recomendacao": "⚠️ Tomar com copo cheio de água em jejum e ficar em pé por 60 minutos — crucial para evitar úlcera de esôfago. Informar ao dentista sobre o uso.",
+    "educacao": "A comodidade do ibandronato mensal melhora muito a adesão ao tratamento comparado com os bisfosfonatos semanais (alendronato). A forma injetável trimestral é indicada quando há intolerância oral.",
+    "resposta_rapida": [
+      "Osteoporose pós-menopausa",
+      "Comprimido mensal ou injeção trimestral",
+      "Tarjado venda livre na prática",
+      "Tomar em jejum com água e ficar em pé 60 min",
+      "Informar ao dentista"
+    ]
+  },
+  {
     "nome": "Ibuprofeno 200mg - 400mg - 600mg - Gotas",
     "generico": "Ibuprofeno",
     "tipo": "Anti-inflamatório / Analgésico / Antitérmico",
@@ -4563,6 +4915,66 @@
     ]
   },
   {
+    "nome": "Imunoglobulina Humana",
+    "generico": "Imunoglobulina humana normal",
+    "tipo": "Imunobiológico — Uso hospitalar",
+    "sinonimos": [
+      "imunoglobulina",
+      "ivig",
+      "imunoglobulina intravenosa",
+      "gammaglobulina",
+      "flebogamma",
+      "octagam",
+      "privigen"
+    ],
+    "descricao": "Concentrado de anticorpos (IgG) obtido do plasma humano. Usada no tratamento de imunodeficiências primárias, doenças autoimunes (púrpura trombocitopênica imune, síndrome de Guillain-Barré, miastenia grave, dermatomiosite), e prevenção de infecções em transplantados.",
+    "receita": "Sim",
+    "receita_display": "🔴 Uso Hospitalar — Prescrição e Administração Médica",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Medicamento de uso exclusivamente hospitalar ou ambulatorial especializado. Administração intravenosa supervisionada por profissional de saúde.",
+    "receita_nota": "Medicamento de alto custo — frequentemente fornecido pelo SUS mediante laudo médico e aprovação judicial ou administrativa.",
+    "efeitos": "Cefaleia, febre, calafrios, náusea durante a infusão. Raramente: reação anafilática, meningite asséptica, hemólise, trombose.",
+    "aviso_grave": "Pacientes com deficiência de IgA têm risco elevado de reações anafiláticas graves. Infundir lentamente e monitorar durante toda a administração.",
+    "recomendacao": "⚠️ Administração exclusivamente hospitalar com monitoramento contínuo. Velocidade de infusão deve ser controlada rigorosamente para evitar reações.",
+    "educacao": "A imunoglobulina intravenosa contém anticorpos de milhares de doadores, fornecendo proteção passiva imediata. É um dos medicamentos mais caros do mercado, com custo que pode chegar a dezenas de milhares de reais por ciclo.",
+    "resposta_rapida": [
+      "Uso hospitalar exclusivo",
+      "Imunodeficiências e autoimunes",
+      "Administração intravenosa",
+      "Alto custo — disponível pelo SUS com laudo",
+      "Monitoramento durante infusão"
+    ]
+  },
+  {
+    "nome": "Indacaterol (Onbrez)",
+    "generico": "Maleato de indacaterol",
+    "tipo": "Broncodilatador LABA de ultralonga duração — DPOC",
+    "sinonimos": [
+      "onbrez",
+      "indacaterol",
+      "arcapta",
+      "indacaterol 150mcg",
+      "indacaterol 300mcg"
+    ],
+    "descricao": "Broncodilatador beta-2 agonista de ação ultralonga (24 horas) — dose única diária. Indicado para manutenção e alívio de sintomas na DPOC (doença pulmonar obstrutiva crônica). Não é indicado para asma nem para crises agudas.",
+    "receita": "Sim",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_cor": "amarelo",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
+    "receita_nota": "Dose única diária — grande vantagem para adesão ao tratamento. Usar sempre no mesmo horário.",
+    "efeitos": "Tosse após inalação (transitória), nasofaringite, cefaleia, tremor fino nas mãos, taquicardia.",
+    "aviso_grave": "NÃO usar na asma como monoterapia — risco aumentado de morte. Indicado exclusivamente para DPOC. Não é broncodilatador de resgate — usar salbutamol para crises.",
+    "recomendacao": "⚠️ Usar o inalador (cápsula Breezhaler) corretamente: perfurar a cápsula, inalar vigorosamente e verificar se a cápsula girou. A tosse imediatamente após é normal.",
+    "educacao": "O indacaterol tem duração de 24 horas — o mais longo entre os LABAs disponíveis. Isso permite dosagem uma vez ao dia, melhorando muito a adesão ao tratamento da DPOC.",
+    "resposta_rapida": [
+      "DPOC — dose única diária",
+      "Broncodilatador 24 horas",
+      "Tarjado venda livre na prática",
+      "NÃO para asma",
+      "Não é resgate — usar salbutamol na crise"
+    ]
+  },
+  {
     "nome": "Infliximabe 100mg (injetável)",
     "generico": "Infliximabe",
     "tipo": "Imunobiológico / Anti-TNF",
@@ -4598,8 +5010,8 @@
     "descricao": "Insulina análoga de ação ultrarrápida usada para controle da glicemia pós-refeição em diabetes tipo 1 e tipo 2. Age em 10-20 minutos e dura cerca de 3-5 horas. Comercialmente conhecida como NovoRapid.",
     "receita": "Sim",
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo",
     "receita_nota": "Tarjado. Consulte sempre o farmacêutico.",
     "efeitos": "Hipoglicemia (principal risco — ação rápida exige atenção), reações no local da injeção, ganho de peso.",
@@ -4620,14 +5032,43 @@
     "receita_pratica": "Sim"
   },
   {
+    "nome": "Insulina Detemir (Levemir)",
+    "generico": "Insulina detemir",
+    "tipo": "Insulina análoga de longa duração",
+    "sinonimos": [
+      "levemir",
+      "insulina detemir",
+      "detemir",
+      "levemir flexpen",
+      "levemir injetavel"
+    ],
+    "descricao": "Insulina análoga de longa duração (16-24 horas) usada no controle glicêmico basal em diabetes tipo 1 e tipo 2. Fornece cobertura insulínica contínua entre as refeições e durante a noite. Pode ser aplicada uma ou duas vezes ao dia.",
+    "receita": "Sim",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_cor": "amarelo",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
+    "receita_nota": "Guardar na geladeira antes de abrir (2-8°C). Após aberta, pode ficar em temperatura ambiente por até 42 dias.",
+    "efeitos": "Hipoglicemia (principal risco), reação no local da aplicação, ganho de peso (menor que insulina NPH).",
+    "aviso_grave": "Hipoglicemia é o principal risco — nunca pular refeições após aplicar. Ter sempre açúcar ou suco de laranja disponível. Não confundir com insulina de ação rápida.",
+    "recomendacao": "⚠️ Aplicar sempre no mesmo horário. Rodiziar os locais de aplicação para evitar lipodistrofia. Nunca agitar — apenas rolar entre as mãos para misturar.",
+    "educacao": "A detemir tem menor variabilidade de ação que a insulina NPH, proporcionando controle glicêmico mais previsível. Causa menos ganho de peso que a NPH e glargina, sendo preferida em alguns pacientes.",
+    "resposta_rapida": [
+      "Insulina basal de longa duração",
+      "Diabetes tipo 1 e 2",
+      "Tarjado — disponível no SUS",
+      "Guardar na geladeira",
+      "Rodiziar locais de aplicação"
+    ]
+  },
+  {
     "nome": "Insulina Glargina 100UI/mL (Lantus / Basaglar)",
     "generico": "Insulina Glargina",
     "tipo": "Insulina Basal de Ação Prolongada",
     "descricao": "Insulina análoga de ação prolongada (24h), usada como insulina basal no tratamento de diabetes tipo 1 e tipo 2. Fornece cobertura insulínica estável ao longo do dia. Comercialmente conhecida como Lantus e Basaglar.",
     "receita": "Sim",
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo",
     "receita_nota": "Tarjado. Consulte sempre o farmacêutico.",
     "efeitos": "Hipoglicemia (principal risco), reações no local da injeção (vermelhidão, inchaço), ganho de peso.",
@@ -4655,8 +5096,8 @@
     "descricao": "Insulina análoga de ação ultrarrápida para controle da glicemia pós-refeição. Similar à insulina asparte, age em 15 minutos e dura 3-5 horas. Comercialmente conhecida como Humalog.",
     "receita": "Sim",
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo",
     "receita_nota": "Tarjado. Consulte sempre o farmacêutico.",
     "efeitos": "Hipoglicemia, reações no local da injeção, ganho de peso.",
@@ -4696,8 +5137,8 @@
       "Tenha açúcar sempre à mão — risco de hipoglicemia"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -4720,8 +5161,8 @@
       "Tenha açúcar sempre à mão — risco de hipoglicemia"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -4795,8 +5236,8 @@
       "Canadiol"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -4823,8 +5264,8 @@
       "Coralan"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -4845,8 +5286,8 @@
       "Não tem eficácia comprovada contra COVID-19"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -4862,9 +5303,9 @@
     ],
     "descricao": "Creme de ivermectina 1% para uso tópico facial, indicado especificamente para rosácea papulopustulosa (tipo de rosácea com pápulas e pústulas, semelhante à acne). Age eliminando o ácaro Demodex folliculorum e reduzindo a inflamação local.",
     "receita": "Sim",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica Necessária",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
     "receita_cor": "amarelo",
-    "receita_descricao": "Requer receita médica simples.",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_nota": "Diferente da ivermectina oral (usada para parasitas sistêmicos) — esta é exclusivamente de uso tópico facial para rosácea.",
     "efeitos": "Sensação de ardência ou prurido local no início do tratamento. Geralmente transitório e leve.",
     "aviso_grave": "Uso exclusivamente facial — não ingerir. Não aplicar em olhos, boca ou mucosas. Não confundir com a ivermectina oral comprimido.",
@@ -4948,8 +5389,8 @@
       "Lanzol"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -5072,8 +5513,8 @@
       "DIU hormonal"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -5096,8 +5537,8 @@
       "Dose ajustada por exame de TSH"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -5114,9 +5555,9 @@
     ],
     "descricao": "Anestésico local de uso tópico em gel. Usado para anestesia de mucosas antes de procedimentos (cateterismo, endoscopia, sondagem uretral), alívio de dor em feridas, úlceras orais, fissuras anais e hemorroidas.",
     "receita": "Sim",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica Necessária",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
     "receita_cor": "amarelo",
-    "receita_descricao": "Requer receita médica simples.",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_nota": "Disponível em gel 2% para uso tópico. A forma injetável requer prescrição e aplicação por profissional de saúde.",
     "efeitos": "Irritação local transitória, formigamento. Em caso de absorção sistêmica excessiva (uso exagerado): tontura, confusão, arritmia (raro).",
     "aviso_grave": "Não aplicar em grandes áreas ou pele lesionada extensamente — risco de absorção sistêmica e toxicidade. Não usar próximo aos olhos.",
@@ -5154,8 +5595,8 @@
       "Jentadueto (com metformina)"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -5165,8 +5606,8 @@
     "descricao": "Associação de dipirona monoidratada (analgésico/antitérmico), cloridrato de adifenina (antiespasmódico) e cloridrato de prometazina (anti-histamínico). Indicado para cólicas, dores musculares e espasmos com componente alérgico. Comercialmente conhecido como Lisador.",
     "receita": "Sim",
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo",
     "receita_nota": "Tarjado. Consulte sempre o farmacêutico.",
     "efeitos": "Sonolência intensa (prometazina), boca seca, tontura, visão turva, retenção urinária. Dipirona pode causar reações alérgicas raras mas graves.",
@@ -5234,8 +5675,8 @@
       "Evite na gravidez"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -5256,8 +5697,8 @@
       "Hidrate-se bem durante a diarreia"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -5290,8 +5731,8 @@
     "descricao": "Associação de anti-histamínico (loratadina) com descongestionante nasal (pseudoefedrina), indicada para rinite alérgica com congestão nasal. Comercialmente conhecido como Claritin-D e similares.",
     "receita": "Sim",
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo",
     "receita_nota": "Pseudoefedrina é controlada — pode exigir documento de identidade na compra.",
     "efeitos": "Insônia, agitação, aumento da pressão arterial, palpitações, boca seca, dor de cabeça.",
@@ -5354,9 +5795,38 @@
       "Evite suplementos de potássio sem orientação"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
+  },
+  {
+    "nome": "Lurasidona (Latuda)",
+    "generico": "Cloridrato de lurasidona",
+    "tipo": "Antipsicótico atípico",
+    "sinonimos": [
+      "latuda",
+      "lurasidona",
+      "lurasidone",
+      "latuda 40mg",
+      "latuda 80mg"
+    ],
+    "descricao": "Antipsicótico atípico indicado para esquizofrenia e depressão bipolar (bipolar I). Tem perfil metabólico favorável — menor ganho de peso e menos alterações metabólicas que outros antipsicóticos. Age bloqueando receptores de dopamina D2 e serotonina 5-HT2A.",
+    "receita": "Sim",
+    "receita_display": "🔴 Receita de Controle Especial — Branca 2 vias",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Receita de Controle Especial (branca, duas vias). A 1ª via fica retida na farmácia. Validade de 30 dias.",
+    "receita_nota": "DEVE ser tomado com alimentos (mínimo 350 calorias) — a absorção cai drasticamente em jejum.",
+    "efeitos": "Acatisia (inquietação — efeito mais comum), sonolência, náusea, parkinsonismo. Menor ganho de peso e impacto metabólico que outros antipsicóticos.",
+    "aviso_grave": "Não combinar com cetoconazol, itraconazol ou ritonavir — aumentam muito os níveis de lurasidona. Também não combinar com rifampicina — reduz muito a eficácia.",
+    "recomendacao": "⚠️ SEMPRE tomar com refeição de pelo menos 350 calorias. Sem alimentação adequada, a absorção pode cair até 50%, comprometendo o tratamento.",
+    "educacao": "A lurasidona se destaca entre os antipsicóticos por causar muito menos ganho de peso e alterações metabólicas, além de ter boa eficácia nos sintomas depressivos do transtorno bipolar.",
+    "resposta_rapida": [
+      "Esquizofrenia e depressão bipolar",
+      "Receita branca 2 vias",
+      "TOMAR COM REFEIÇÃO",
+      "Menos ganho de peso",
+      "Cuidado com antifúngicos azólicos"
+    ]
   },
   {
     "nome": "Lítio Carbonato 300mg",
@@ -5410,6 +5880,35 @@
     "receita_cor": "verde"
   },
   {
+    "nome": "Magnésio Treonato (Magtein)",
+    "generico": "L-Treonato de magnésio",
+    "tipo": "Suplemento de magnésio — Saúde cognitiva",
+    "sinonimos": [
+      "magnesio treonato",
+      "magtein",
+      "l-treonato de magnesio",
+      "magnesium threonate",
+      "magnesio cognitivo"
+    ],
+    "descricao": "Forma de magnésio com alta capacidade de atravessar a barreira hematoencefálica, aumentando os níveis de magnésio no cérebro. Estudado para melhora cognitiva, memória, aprendizado, qualidade do sono e prevenção do declínio cognitivo relacionado à idade.",
+    "receita": "Não",
+    "receita_display": "🟢 Venda Livre — Sem Receita",
+    "receita_cor": "verde",
+    "receita_descricao": "Suplemento alimentar disponível sem prescrição.",
+    "receita_nota": "É a forma mais cara de magnésio, mas a única com evidências de atravessar a barreira hematoencefálica de forma significativa.",
+    "efeitos": "Bem tolerado. Pode causar sonolência (tomar à noite), diarreia em doses altas, tontura.",
+    "aviso_grave": "Pacientes com insuficiência renal devem evitar suplementação de magnésio sem orientação médica — risco de hipermagnesemia.",
+    "recomendacao": "⚠️ Tomar à noite — o efeito relaxante do magnésio melhora a qualidade do sono. Insuficientes renais não devem usar sem avaliação médica.",
+    "educacao": "Diferente do magnésio quelado (para músculos e energia) e dimalato (para fibromialgia), o treonato tem ação específica no sistema nervoso central. É a forma preferida para quem busca benefícios cognitivos e de memória.",
+    "resposta_rapida": [
+      "Memória e cognição",
+      "Atravessa a barreira cerebral",
+      "Venda livre",
+      "Tomar à noite",
+      "Mais caro que outras formas de magnésio"
+    ]
+  },
+  {
     "nome": "Mebendazol 100mg - Suspensão",
     "generico": "Mebendazol",
     "tipo": "Antiparasitário",
@@ -5438,8 +5937,8 @@
     "descricao": "Anti-histamínico de ação central indicado para vertigem, enjoo de movimento e náuseas. Tem menor efeito sedativo que o dimenidrinato. Ação mais prolongada — uma dose por dia é suficiente.",
     "receita": "Sim",
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo",
     "receita_nota": "Tarjado. Consulte sempre o farmacêutico.",
     "efeitos": "Sonolência (menor que dimenidrinato), boca seca, visão turva.",
@@ -5485,8 +5984,8 @@
       "Medroxiprogesterona Depot"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -5536,8 +6035,8 @@
       "Inflamen"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -5565,8 +6064,8 @@
       "Akatinol"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -5594,8 +6093,8 @@
       "Salofalk"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -5618,8 +6117,8 @@
       "Suspenda antes de cirurgias e exames com contraste"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo",
     "sinonimos": [
       "Glifage",
@@ -5682,8 +6181,8 @@
       "Miolax"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -5706,8 +6205,8 @@
       "Cuidado em crianças — efeitos neurológicos"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -5730,8 +6229,8 @@
       "Tome com alimento"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -5754,8 +6253,8 @@
       "Teratogênico (pode causar malformações graves ou aborto) — contracepção obrigatória"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -5827,8 +6326,8 @@
       "Se parar: os cabelos ganhos caem em 3-6 meses"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -5874,8 +6373,8 @@
       "Fique atento a mudanças de humor — efeito psiquiátrico possível"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -5988,6 +6487,37 @@
     "receita_cor": "vermelho"
   },
   {
+    "nome": "NAC 600mg — N-Acetilcisteína",
+    "generico": "N-Acetilcisteína (NAC)",
+    "tipo": "Mucolítico / Antioxidante / Hepatoprotetor",
+    "sinonimos": [
+      "nac",
+      "nac 600",
+      "n-acetilcisteina",
+      "acetilcisteina 600",
+      "fluimucil 600",
+      "nac 600mg",
+      "acetilcisteína efervescente"
+    ],
+    "descricao": "A N-Acetilcisteína tem múltiplas indicações: mucolítico (dissolve o muco em bronquite e DPOC), antídoto na intoxicação por paracetamol, hepatoprotetor, e antioxidante. Também usada off-label para saúde mental, SOP e fertilidade.",
+    "receita": "Não",
+    "receita_display": "🟢 Venda Livre — Sem Receita",
+    "receita_cor": "verde",
+    "receita_descricao": "Disponível sem prescrição nas apresentações mucolíticas.",
+    "receita_nota": "A forma injetável (para intoxicação por paracetamol) é de uso hospitalar exclusivo. O efervescente 600mg é venda livre como mucolítico.",
+    "efeitos": "Náusea, vômito, diarreia, dor de estômago. Raramente: reação alérgica com broncoespasmo (especialmente em asmáticos).",
+    "aviso_grave": "Asmáticos devem usar com cautela — pode desencadear broncoespasmo em pessoas sensíveis. Na intoxicação por paracetamol, a NAC intravenosa deve ser iniciada o mais rápido possível para ser eficaz.",
+    "recomendacao": "⚠️ Tomar com bastante água e, se possível, com alimentos para reduzir o desconforto gástrico. Asmáticos devem iniciar com doses menores.",
+    "educacao": "A NAC é o precursor da glutationa, o principal antioxidante do organismo. Na intoxicação por paracetamol, é o antídoto de escolha — restaura os estoques de glutationa hepática e previne a lesão do fígado.",
+    "resposta_rapida": [
+      "Mucolítico e antioxidante",
+      "Antídoto da intoxicação por paracetamol",
+      "Venda livre 600mg",
+      "Cuidado em asmáticos",
+      "Beber bastante água"
+    ]
+  },
+  {
     "nome": "Naloxona (Narcan)",
     "generico": "Naloxona",
     "tipo": "Antagonista Opioide / Antídoto de Emergência",
@@ -6055,9 +6585,9 @@
     ],
     "descricao": "Indicada para tratamento agudo da enxaqueca com ou sem aura em adultos. Age contraindo vasos dilatados e bloqueando substâncias que causam dor na crise. Tem ação mais lenta que outros triptanos, mas efeito mais duradouro e menor taxa de recorrência.",
     "receita": "Sim",
-    "receita_display": "🟡 Tarja Amarela — Prescrição Médica Necessária",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
     "receita_cor": "amarelo",
-    "receita_descricao": "Requer receita médica simples.",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_nota": "Não indicada para prevenção — apenas para tratamento da crise aguda.",
     "efeitos": "Tontura, sensação de calor, formigamento, fadiga, náusea, sensação de pressão no peito (geralmente não cardíaca).",
     "aviso_grave": "Contraindicada em doenças cardiovasculares, hipertensão não controlada, insuficiência hepática ou renal grave. Não combinar com outros triptanos ou ergotamina no mesmo dia.",
@@ -6069,6 +6599,35 @@
       "Tarja amarela",
       "Não combinar com outros triptanos",
       "Não é preventivo"
+    ]
+  },
+  {
+    "nome": "Neo-angin — Pastilha para Garganta",
+    "generico": "Diclorobenzil álcool + Amilmetacresol + Mentol",
+    "tipo": "Antisséptico oral com mentol — Pastilha",
+    "sinonimos": [
+      "neo-angin",
+      "neo angin",
+      "neoangin",
+      "pastilha neo-angin",
+      "neo-angin mentol"
+    ],
+    "descricao": "Pastilha antisséptica com sensação refrescante de mentol. Indicada para dor de garganta, rouquidão, irritação e inflamação da mucosa oral e faríngea. O mentol proporciona sensação de frescor e alívio adicional.",
+    "receita": "Não",
+    "receita_display": "🟢 Venda Livre — Sem Receita",
+    "receita_cor": "verde",
+    "receita_descricao": "Disponível sem prescrição médica.",
+    "receita_nota": "Dissolver lentamente na boca. A sensação de frescor do mentol contribui para o alívio sintomático.",
+    "efeitos": "Bem tolerada. Raramente: irritação local, reação alérgica ao mentol em pessoas sensíveis.",
+    "aviso_grave": "Não usar em bebês e crianças muito pequenas — o mentol pode causar espasmo laríngeo em crianças menores de 2 anos. Procurar médico se sintomas persistirem mais de 3 dias.",
+    "recomendacao": "⚠️ Como as demais pastilhas, não substitui antibiótico quando há infecção bacteriana. Febre alta, dificuldade de engolir ou placas na garganta requerem avaliação médica.",
+    "educacao": "O mentol presente no Neo-angin não tem ação antisséptica direta, mas estimula receptores de frio (TRPM8) na mucosa, proporcionando sensação de alívio e frescor que complementa o efeito antisséptico.",
+    "resposta_rapida": [
+      "Pastilha com mentol",
+      "Garganta e rouquidão",
+      "Venda livre",
+      "Não usar em bebês",
+      "Médico se persistir mais de 3 dias"
     ]
   },
   {
@@ -6202,8 +6761,8 @@
       "Pode causar inchaço nas pernas e rubor facial"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -6213,8 +6772,8 @@
     "descricao": "Associação de anti-inflamatório (nimesulida) com relaxante muscular (ciclobenzaprina), indicada para dores musculares, contraturas e processos inflamatórios com espasmo muscular. Comercialmente conhecido como Nivux.",
     "receita": "Sim",
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo",
     "receita_nota": "Tarjado. Consulte sempre o farmacêutico.",
     "efeitos": "Sonolência intensa (ciclobenzaprina), náusea, dor de estômago, tontura, boca seca.",
@@ -6254,8 +6813,8 @@
       "Não use por mais de 15 dias sem orientação"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -6265,8 +6824,8 @@
     "descricao": "Antifúngico poliênico indicado para candidíase oral (sapinho), candidíase esofágica e candidíase intestinal. Muito usado em bebês e imunossuprimidos. Não é absorvido pelo intestino — age localmente.",
     "receita": "Sim",
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo",
     "receita_nota": "Tarjado. Consulte sempre o farmacêutico.",
     "efeitos": "Muito bem tolerado. Raramente: náusea, diarreia, irritação local.",
@@ -6305,8 +6864,8 @@
       "Hidrate-se bem durante o tratamento"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -6356,8 +6915,8 @@
       "Tridil"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -6387,6 +6946,35 @@
       "Receita branca 2 vias",
       "Efeito em 2–4 semanas",
       "Cuidado em idosos"
+    ]
+  },
+  {
+    "nome": "Novalgina — Dipirona Sódica",
+    "generico": "Dipirona sódica monoidratada",
+    "tipo": "Analgésico / Antipirético",
+    "sinonimos": [
+      "novalgina",
+      "novalgina gotas",
+      "novalgina comprimido",
+      "novalgina injetavel",
+      "dipirona novalgina"
+    ],
+    "descricao": "Novalgina é o nome comercial mais conhecido da dipirona no Brasil. Usada para dor de cabeça, dor de dente, cólica, febre e dores em geral. Age inibindo a síntese de prostaglandinas e atuando diretamente no centro da dor e da febre no sistema nervoso central.",
+    "receita": "Não",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_cor": "amarelo",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
+    "receita_nota": "Apesar de ser tarjado, é um dos medicamentos mais vendidos sem receita no Brasil.",
+    "efeitos": "Reações alérgicas (urticária, broncoespasmo). Raramente agranulocitose (queda grave de glóbulos brancos). Em geral muito bem tolerada.",
+    "aviso_grave": "Agranulocitose é rara mas grave — suspender imediatamente e procurar médico se aparecer febre alta, dor de garganta intensa ou feridas na boca durante uso prolongado.",
+    "recomendacao": "⚠️ Não usar em pessoas com alergia conhecida à dipirona ou AINEs. Evitar na gravidez, especialmente no primeiro e terceiro trimestres.",
+    "educacao": "A dipirona é proibida em alguns países como EUA e Reino Unido pelo risco de agranulocitose, mas permanece aprovada no Brasil onde é amplamente usada e considerada segura para uso pontual.",
+    "resposta_rapida": [
+      "Analgésico e antipirético",
+      "Nome comercial da dipirona",
+      "Tarjado venda livre na prática",
+      "Não usar em alérgicos",
+      "Evitar na gravidez"
     ]
   },
   {
@@ -6430,8 +7018,8 @@
       "Pode reduzir absorção de vitamina B12 e magnésio"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -6452,8 +7040,8 @@
       "Risco cardíaco: informe histórico de arritmia"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -6463,8 +7051,8 @@
     "descricao": "Antiemético potente da classe dos antagonistas 5-HT3, disponível em comprimido de dissolução oral (ODT — dissolve na língua sem precisar de água). Indicado para náuseas e vômitos por quimioterapia, radioterapia, pós-operatório e gravidez. Muito conhecido como Zofran.",
     "receita": "Sim",
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo",
     "receita_nota": "Tarjado. Consulte sempre o farmacêutico.",
     "efeitos": "Cefaleia, constipação, sensação de calor, tontura. Raramente: prolongamento do QT (monitorar em cardiopatas).",
@@ -6503,8 +7091,8 @@
       "Disponível no SUS para grupos de risco"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -6560,8 +7148,8 @@
       "Kentera (adesivo)"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -6571,8 +7159,8 @@
     "descricao": "Descongestionante nasal tópico de ação rápida (5-10 minutos) e prolongada (até 12 horas). Indicado para congestão nasal por resfriado, rinite e sinusite. Muito conhecido como Afrin.",
     "receita": "Sim",
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo",
     "receita_nota": "Tarjado. Não usar por mais de 3 dias consecutivos.",
     "efeitos": "Ardência e ressecamento nasal, espirros. Uso prolongado causa efeito rebote — congestão pior que antes (rinite medicamentosa).",
@@ -6639,8 +7227,8 @@
       "Não use longos períodos sem orientação"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -6668,8 +7256,8 @@
       "Zurcal"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -6679,8 +7267,8 @@
     "descricao": "Combinação antigripal com paracetamol (analgésico/antitérmico), fenilefrina (descongestionante nasal) e clorfeniramina (anti-histamínico para coriza e espirros). Indicado para alívio dos sintomas de gripe e resfriado. Conhecido comercialmente como Resfenol, Coristina D e Naldecon.",
     "receita": "Sim",
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo",
     "receita_nota": "Tarjado. Consulte sempre o farmacêutico.",
     "efeitos": "Sonolência (clorfeniramina), boca seca, aumento da pressão arterial (fenilefrina), retenção urinária, náusea.",
@@ -6710,8 +7298,8 @@
     "descricao": "Combinação antigripal indicada para alívio dos sintomas de gripe e resfriado: febre, dor de cabeça, coriza, espirros e congestão nasal. Muito conhecido comercialmente como Benegrip.",
     "receita": "Sim",
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo",
     "receita_nota": "Tarjado. Consulte sempre o farmacêutico.",
     "efeitos": "Sonolência intensa (clorfeniramina), boca seca, aumento da pressão arterial, retenção urinária.",
@@ -6739,8 +7327,8 @@
     "descricao": "Combinação de paracetamol com pseudoefedrina (descongestionante potente), indicada para congestão nasal intensa, sinusite e resfriado com dor de cabeça. Muito conhecida como Tylenol Sinus.",
     "receita": "Sim",
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo",
     "receita_nota": "Pseudoefedrina é controlada — pode exigir documento de identidade na compra.",
     "efeitos": "Insônia, agitação, aumento da pressão arterial, palpitações, boca seca, nervosismo.",
@@ -6831,8 +7419,8 @@
       "Elimite (5%)"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -6888,6 +7476,35 @@
     "receita_cor": "verde"
   },
   {
+    "nome": "Picolinato de Cromo",
+    "generico": "Picolinato de cromo",
+    "tipo": "Suplemento mineral — Metabolismo glicêmico",
+    "sinonimos": [
+      "picolinato de cromo",
+      "cromo picolinato",
+      "chromium picolinate",
+      "cromo 200mcg",
+      "picolinato cromo"
+    ],
+    "descricao": "Forma quelada de cromo com alta biodisponibilidade. O cromo é um mineral essencial que potencializa a ação da insulina. Usado como coadjuvante no controle glicêmico, redução da compulsão por carboidratos e açúcar, e como auxílio em dietas de emagrecimento.",
+    "receita": "Não",
+    "receita_display": "🟢 Venda Livre — Sem Receita",
+    "receita_cor": "verde",
+    "receita_descricao": "Suplemento mineral disponível sem prescrição.",
+    "receita_nota": "Dose usual: 200-400 mcg/dia. Tomar com refeições para melhor aproveitamento.",
+    "efeitos": "Geralmente bem tolerado. Em doses muito altas: dor de cabeça, tontura, irritabilidade. Raramente: lesão hepática e renal com uso crônico em doses excessivas.",
+    "aviso_grave": "Diabéticos que usam medicamentos para controle glicêmico devem monitorar a glicemia — o cromo pode potencializar o efeito hipoglicemiante e requerer ajuste de dose do medicamento.",
+    "recomendacao": "⚠️ Diabéticos em uso de medicamentos: monitorar glicemia ao iniciar a suplementação — pode ser necessário ajustar a dose do antidiabético com o médico.",
+    "educacao": "As evidências científicas do picolinato de cromo são mistas — alguns estudos mostram redução modesta da glicemia e compulsão alimentar, outros não confirmam o benefício. É seguro nas doses recomendadas e pode ser uma opção complementar.",
+    "resposta_rapida": [
+      "Controle glicêmico",
+      "Reduz compulsão por carboidratos",
+      "Venda livre",
+      "Tomar com refeições",
+      "Diabéticos: monitorar glicemia"
+    ]
+  },
+  {
     "nome": "Pioglitazona 15mg - 30mg - 45mg",
     "generico": "Pioglitazona",
     "tipo": "Antidiabético / Glitazona",
@@ -6911,8 +7528,8 @@
       "Pioglit"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -7004,8 +7621,8 @@
     "descricao": "Corticoide de uso oral muito utilizado em pediatria, indicado para asma, crupe, reações alérgicas graves, doenças inflamatórias e autoimunes. A forma líquida facilita o uso em crianças.",
     "receita": "Sim",
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo",
     "receita_nota": "Tarjado. Consulte sempre o farmacêutico.",
     "efeitos": "Aumento do apetite, agitação, insônia, irritabilidade (comuns e transitórios em uso curto). Uso prolongado: imunossupressão, ganho de peso, hipertensão, osteoporose.",
@@ -7044,8 +7661,8 @@
       "Uso prolongado causa muitos efeitos colaterais"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -7096,8 +7713,8 @@
       "Endogest"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -7120,8 +7737,8 @@
       "Idosos: risco de confusão mental"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -7144,8 +7761,8 @@
       "Pode mascarar hipoglicemia em diabéticos"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -7195,9 +7812,38 @@
       "Rabeprazol EMS"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
+  },
+  {
+    "nome": "Raloxifeno (Evista)",
+    "generico": "Cloridrato de raloxifeno",
+    "tipo": "Modulador seletivo do receptor de estrogênio (SERM) — Osteoporose",
+    "sinonimos": [
+      "evista",
+      "raloxifeno",
+      "raloxifene",
+      "evista 60mg",
+      "raloxifeno 60mg"
+    ],
+    "descricao": "Usado na prevenção e tratamento da osteoporose em mulheres na pós-menopausa. Age como estrogênio nos ossos (aumentando a densidade óssea) mas como antiestrogênio na mama e no útero, sem estimular esses tecidos. Também reduz o risco de câncer de mama invasivo.",
+    "receita": "Sim",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_cor": "amarelo",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
+    "receita_nota": "Exclusivo para mulheres na pós-menopausa. Não usar em homens ou mulheres na pré-menopausa.",
+    "efeitos": "Fogachos (calores), cãibras nas pernas, edema periférico, trombose venosa profunda (risco aumentado).",
+    "aviso_grave": "Risco aumentado de trombose venosa profunda e embolia pulmonar — contraindicado em pacientes com histórico de trombose. Suspender antes de cirurgias ou períodos prolongados de imobilização.",
+    "recomendacao": "⚠️ Suspender 72 horas antes de cirurgias ou viagens longas (>4 horas) pelo risco de trombose. Movimentar as pernas regularmente.",
+    "educacao": "O raloxifeno é uma alternativa aos bisfosfonatos (alendronato, ibandronato) para osteoporose, com a vantagem adicional de reduzir o risco de câncer de mama hormônio-dependente em mulheres de alto risco.",
+    "resposta_rapida": [
+      "Osteoporose pós-menopausa",
+      "Reduz risco de câncer de mama",
+      "Tarjado venda livre na prática",
+      "Risco de trombose",
+      "Suspender antes de cirurgias"
+    ]
   },
   {
     "nome": "Ramipril 2,5mg - 5mg - 10mg",
@@ -7246,8 +7892,8 @@
       "Consulte o médico sobre a melhor opção"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -7418,8 +8064,8 @@
       "Procure médico em caso de sangramento incomum"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -7475,9 +8121,37 @@
       "Rizalt"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
+  },
+  {
+    "nome": "Roflumilaste (Daxas)",
+    "generico": "Roflumilaste",
+    "tipo": "Inibidor da fosfodiesterase-4 (PDE4) — DPOC grave",
+    "sinonimos": [
+      "daxas",
+      "roflumilaste",
+      "roflumilast",
+      "daxas 500mcg"
+    ],
+    "descricao": "Medicamento oral anti-inflamatório específico para DPOC grave com bronquite crônica e histórico de exacerbações frequentes. Reduz a inflamação nas vias aéreas por mecanismo diferente dos corticoides, diminuindo as crises de piora da DPOC.",
+    "receita": "Sim",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_cor": "amarelo",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
+    "receita_nota": "Indicado apenas para DPOC grave — não usar em asma. Iniciar com dose menor por 4 semanas para reduzir efeitos gastrointestinais.",
+    "efeitos": "Diarreia, náusea, perda de peso (significativa e frequente), cefaleia, insônia, tontura, humor deprimido.",
+    "aviso_grave": "Pode causar ou agravar depressão e ideação suicida — monitorar humor durante o tratamento. Perda de peso significativa é comum — monitorar peso mensalmente.",
+    "recomendacao": "⚠️ Comunicar imediatamente ao médico qualquer alteração de humor, tristeza persistente ou pensamentos negativos durante o tratamento.",
+    "educacao": "O roflumilaste é o único medicamento oral da classe dos inibidores de PDE4 aprovado para DPOC. Não é broncodilatador — não alivia sintomas agudos. Seu benefício é reduzir as exacerbações ao longo do tempo.",
+    "resposta_rapida": [
+      "DPOC grave com bronquite",
+      "Reduz exacerbações",
+      "Tarjado venda livre na prática",
+      "Monitorar humor e peso",
+      "Não é broncodilatador"
+    ]
   },
   {
     "nome": "Rosuvastatina 5mg - 10mg - 20mg - 40mg",
@@ -7504,8 +8178,8 @@
       "Vivacor"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -7591,8 +8265,8 @@
       "Vymada"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -7615,8 +8289,8 @@
       "Agite bem antes de usar"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo",
     "sinonimos": [
       "Aerolin",
@@ -7649,8 +8323,8 @@
       "Seretide Diskus"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -7677,8 +8351,8 @@
       "Komboglyze (com metformina)"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -7725,8 +8399,8 @@
       "Para IST, trate o parceiro também"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -7826,8 +8500,8 @@
       "Não funciona sem estímulo sexual"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -7854,8 +8528,8 @@
       "Rapaflo"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -7900,8 +8574,8 @@
       "Relate dores musculares ao médico imediatamente"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -7928,8 +8602,8 @@
       "Janumet (com metformina)"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -7956,9 +8630,38 @@
       "Vesitab"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
+  },
+  {
+    "nome": "Strepsils — Pastilha para Garganta",
+    "generico": "Diclorobenzil álcool + Amilmetacresol",
+    "tipo": "Antisséptico oral — Pastilha",
+    "sinonimos": [
+      "strepsils",
+      "strepsils mel limao",
+      "strepsils mentol",
+      "strepsils laranja",
+      "pastilha strepsils"
+    ],
+    "descricao": "Pastilha antisséptica para alívio de dor de garganta, rouquidão e irritação oral. Contém dois agentes antissépticos (diclorobenzil álcool e amilmetacresol) que combatem bactérias e vírus na mucosa oral e da garganta.",
+    "receita": "Não",
+    "receita_display": "🟢 Venda Livre — Sem Receita",
+    "receita_cor": "verde",
+    "receita_descricao": "Disponível sem prescrição médica.",
+    "receita_nota": "Dissolver lentamente na boca — não mastigar. Disponível em vários sabores. Máximo 12 pastilhas por dia para adultos.",
+    "efeitos": "Geralmente muito bem tolerada. Raramente: irritação local, reação alérgica. Pode causar desconforto gástrico se engolida inteira.",
+    "aviso_grave": "Não usar em crianças menores de 6 anos. Se a dor de garganta for intensa, persistir mais de 3 dias ou vier acompanhada de febre alta, procurar médico — pode ser infecção bacteriana que necessite antibiótico.",
+    "recomendacao": "⚠️ Strepsils trata os sintomas mas não substitui antibiótico quando há infecção bacteriana confirmada. Dor de garganta com febre alta e placas brancas requer avaliação médica.",
+    "educacao": "As pastilhas para garganta aliviam os sintomas por ação antisséptica local e pelo estímulo da salivação. A maioria das dores de garganta é viral e se resolve sozinha em 5-7 dias — o tratamento é sintomático.",
+    "resposta_rapida": [
+      "Pastilha para garganta",
+      "Antisséptico oral",
+      "Venda livre",
+      "Dissolver na boca — não mastigar",
+      "Procurar médico se persistir mais de 3 dias"
+    ]
   },
   {
     "nome": "Sucralfato 1g - Suspensão",
@@ -7980,8 +8683,8 @@
       "Beba bastante água — pode causar prisão de ventre"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -8083,8 +8786,8 @@
       "Imitrex"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -8111,8 +8814,8 @@
       "FK-506 tópico"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -8135,8 +8838,8 @@
       "Na dose diária (5mg), efeito é contínuo"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -8166,8 +8869,8 @@
       "tansulosina ems"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -8241,9 +8944,38 @@
       "Tome até o fim do tratamento, mesmo se sentir melhora antes"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
+  },
+  {
+    "nome": "Teriparatida (Forteo)",
+    "generico": "Teriparatida (PTH 1-34 recombinante)",
+    "tipo": "Análogo do paratormônio — Osteoporose grave",
+    "sinonimos": [
+      "forteo",
+      "teriparatida",
+      "teriparatide",
+      "forteo injetavel",
+      "teriparatida injetavel"
+    ],
+    "descricao": "Único anabólico ósseo aprovado para osteoporose — estimula a formação de osso novo ao invés de apenas inibir a reabsorção. Indicado para osteoporose grave com múltiplas fraturas ou falha a outros tratamentos. Administração subcutânea diária por no máximo 2 anos.",
+    "receita": "Sim",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_cor": "amarelo",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
+    "receita_nota": "Uso limitado a 2 anos no total de vida — após esse período não pode ser reutilizado. Manter refrigerado entre 2-8°C.",
+    "efeitos": "Náusea, dor de cabeça, tontura, cãibras nas pernas, hipercalcemia leve. Dor no local da injeção.",
+    "aviso_grave": "Contraindicado em pacientes com histórico de radioterapia óssea, doença de Paget, hipercalcemia, tumores ósseos malignos ou metástases ósseas. Risco teórico de osteossarcoma (observado em ratos em doses muito altas).",
+    "recomendacao": "⚠️ Guardar na geladeira (2-8°C). Aplicar preferencialmente na coxa ou abdome. Sentar ou deitar por alguns minutos após a aplicação — pode causar tontura.",
+    "educacao": "Diferente de todos os outros tratamentos para osteoporose que apenas freiam a perda óssea, a teriparatida estimula ativamente a formação de osso novo. Por isso é reservada para os casos mais graves.",
+    "resposta_rapida": [
+      "Osteoporose grave",
+      "Forma osso novo",
+      "Injeção diária subcutânea",
+      "Máximo 2 anos de uso",
+      "Guardar na geladeira"
+    ]
   },
   {
     "nome": "Testosterona",
@@ -8301,9 +9033,39 @@
       "Braltus"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
+  },
+  {
+    "nome": "Tofacitinibe (Xeljanz)",
+    "generico": "Citrato de tofacitinibe",
+    "tipo": "Inibidor de JAK — Imunomodulador",
+    "sinonimos": [
+      "xeljanz",
+      "tofacitinibe",
+      "tofacitinib",
+      "xeljanz 5mg",
+      "xeljanz 10mg",
+      "xeljanz xr"
+    ],
+    "descricao": "Primeiro inibidor de JAK aprovado para artrite reumatoide. Também indicado para artrite psoriásica, colite ulcerativa e espondilite anquilosante. Age bloqueando as quinases JAK1 e JAK3, reduzindo a cascata inflamatória.",
+    "receita": "Sim",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_cor": "amarelo",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
+    "receita_nota": "Disponível em comprimido de liberação imediata (2x/dia) e liberação prolongada XR (1x/dia).",
+    "efeitos": "Infecções (herpes zóster frequente), aumento de colesterol e creatinina, náusea, diarreia, cefaleia. Risco de trombose venosa profunda em doses maiores.",
+    "aviso_grave": "FDA emitiu alerta de segurança em 2021 sobre risco aumentado de eventos cardiovasculares graves, trombose e câncer em pacientes de alto risco. Avaliar risco-benefício cuidadosamente.",
+    "recomendacao": "⚠️ Rastrear e tratar tuberculose latente antes de iniciar. Vacina contra herpes zóster recomendada. Monitorar lipídios e função renal regularmente.",
+    "educacao": "O tofacitinibe foi o pioneiro dos inibidores de JAK orais. Sua conveniência oral em relação aos biológicos injetáveis foi um marco, mas os alertas de segurança posteriores levaram a restrições de uso em pacientes de alto risco cardiovascular.",
+    "resposta_rapida": [
+      "Artrite reumatoide e colite ulcerativa",
+      "Imunomodulador oral",
+      "Alto custo — SUS ou plano",
+      "Rastrear tuberculose antes",
+      "Monitorar coração e rins"
+    ]
   },
   {
     "nome": "Topiramato 25mg - 50mg - 100mg",
@@ -8395,8 +9157,8 @@
       "Pele piora antes de melhorar — tenha paciência"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -8423,8 +9185,8 @@
       "Debridat"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -8451,9 +9213,37 @@
       "TMZ"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
+  },
+  {
+    "nome": "Umeclidínio (Incruse)",
+    "generico": "Brometo de umeclidínio",
+    "tipo": "Anticolinérgico inalatório LAMA — DPOC",
+    "sinonimos": [
+      "incruse",
+      "umeclidinio",
+      "umeclidinium",
+      "umeclidinio 62,5mcg"
+    ],
+    "descricao": "Anticolinérgico inalatório de longa duração (LAMA) indicado para manutenção do tratamento da DPOC. Age bloqueando receptores muscarínicos nos brônquios, mantendo-os dilatados. Dose única diária via inalador Ellipta.",
+    "receita": "Sim",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_cor": "amarelo",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
+    "receita_nota": "Frequentemente combinado com vilanterol (LABA) no produto Anoro Ellipta para DPOC moderada a grave.",
+    "efeitos": "Nasofaringite, infecção do trato respiratório superior, boca seca, tosse, taquicardia (raro).",
+    "aviso_grave": "Não usar para crise aguda de broncoespasmo. Usar com cautela em glaucoma de ângulo fechado e retenção urinária — efeito anticolinérgico pode agravar essas condições.",
+    "recomendacao": "⚠️ Usar no mesmo horário todo dia. Não exceder uma inalação por dia. Se tiver glaucoma, informar ao médico antes de iniciar.",
+    "educacao": "Os LAMAs como o umeclidínio funcionam de forma complementar aos LABAs (como indacaterol). A combinação LAMA+LABA é mais eficaz que cada um isolado para DPOC moderada a grave.",
+    "resposta_rapida": [
+      "DPOC — anticolinérgico",
+      "Dose única diária",
+      "Tarjado venda livre na prática",
+      "Cuidado com glaucoma",
+      "Não é para crise aguda"
+    ]
   },
   {
     "nome": "Valproato de Sódio 250mg - 500mg - Solução Oral",
@@ -8527,8 +9317,8 @@
       "Evite suplementos de potássio sem orientação"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -8630,8 +9420,8 @@
       "Cuidado com betabloqueadores juntos"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -8641,8 +9431,8 @@
     "descricao": "Associação de vildagliptina com metformina, indicada para diabetes tipo 2. Combina dois mecanismos complementares de controle da glicemia. Comercialmente conhecido como Galvus Met.",
     "receita": "Sim",
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo",
     "receita_nota": "Tarjado. Consulte sempre o farmacêutico.",
     "efeitos": "Náusea, diarreia, dor abdominal (metformina), tontura, cefaleia. Geralmente bem tolerado.",
@@ -8669,8 +9459,8 @@
     "descricao": "Antidiabético oral da classe dos inibidores da DPP-4, indicado para diabetes tipo 2. Age inibindo a enzima DPP-4, aumentando os níveis de incretinas ativas e estimulando a secreção de insulina. Comercialmente conhecido como Galvus.",
     "receita": "Sim",
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo",
     "receita_nota": "Tarjado. Consulte sempre o farmacêutico.",
     "efeitos": "Tontura, cefaleia, nasofaringite, edema periférico. Raramente hepatotoxicidade — monitorar enzimas hepáticas.",
@@ -8736,8 +9526,8 @@
       "Injetável tem absorção superior ao oral"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -8787,9 +9577,39 @@
       "Vit D3 Legrand"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
+  },
+  {
+    "nome": "Vitamina E (Tocoferol)",
+    "generico": "Acetato de tocoferol (Vitamina E)",
+    "tipo": "Suplemento vitamínico antioxidante",
+    "sinonimos": [
+      "vitamina e",
+      "tocoferol",
+      "vitamina e 400ui",
+      "alfa tocoferol",
+      "evion",
+      "ephynal"
+    ],
+    "descricao": "Vitamina lipossolúvel com potente ação antioxidante, que protege as células dos danos causados pelos radicais livres. Usada para deficiência de vitamina E, suplementação antioxidante, saúde da pele e como coadjuvante em doenças hepáticas gordurosas não alcoólicas (DHGNA/NASH).",
+    "receita": "Não",
+    "receita_display": "🟢 Venda Livre — Sem Receita",
+    "receita_cor": "verde",
+    "receita_descricao": "Suplemento vitamínico disponível sem prescrição.",
+    "receita_nota": "Por ser lipossolúvel, tomar com refeições que contenham gordura para melhor absorção.",
+    "efeitos": "Bem tolerada nas doses usuais. Em doses muito altas (>1000 UI/dia): risco de sangramento (inibe a agregação plaquetária), cefaleia, fadiga.",
+    "aviso_grave": "Doses altas podem aumentar o risco de sangramento — cuidado em pacientes que usam anticoagulantes (varfarina) ou antiagregantes (aspirina, clopidogrel). Suplementação de alto dose em fumantes pode aumentar risco de câncer de pulmão.",
+    "recomendacao": "⚠️ Doses acima de 400 UI/dia devem ser usadas somente com orientação médica. Informar ao médico sobre o uso se fizer uso de anticoagulantes.",
+    "educacao": "A vitamina E engloba 8 compostos — o alfa-tocoferol é o mais ativo biologicamente. Apesar do apelo antioxidante, grandes estudos não confirmaram benefício cardiovascular da suplementação em pessoas sem deficiência.",
+    "resposta_rapida": [
+      "Antioxidante",
+      "Saúde da pele e imunidade",
+      "Venda livre",
+      "Tomar com refeição gordurosa",
+      "Cuidado com anticoagulantes em doses altas"
+    ]
   },
   {
     "nome": "Vitamina K2 (MK-7)",
@@ -8839,8 +9659,8 @@
       "Informe SEMPRE ao médico e dentista que usa"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -8925,8 +9745,8 @@
       "Ácido Zoledrónico EMS"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
@@ -9015,8 +9835,8 @@
       "Essencial para quem planeja gravidez"
     ],
     "classe_receita": "TARJADO_PRATICA",
-    "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
-    "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica",
+    "receita_descricao": "Exige prescrição médica conforme legislação, embora possa haver variação na prática de dispensação.",
     "receita_cor": "amarelo"
   },
   {
