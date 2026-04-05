@@ -242,6 +242,62 @@
     "receita_cor": "amarelo"
   },
   {
+    "nome": "Almeida Prado nº 35",
+    "generico": "Medicamento homeopático composto",
+    "tipo": "Homeopático — Ansiedade / Nervosismo",
+    "sinonimos": [
+      "almeida prado 35",
+      "ap 35",
+      "homeopatia 35",
+      "almeida prado numero 35"
+    ],
+    "descricao": "Medicamento homeopático composto indicado para estados de ansiedade, nervosismo, irritabilidade, insônia leve e tensão emocional. Amplamente usado como coadjuvante em quadros de estresse e agitação.",
+    "receita": "Não",
+    "receita_display": "🟢 Venda Livre — Sem Receita",
+    "receita_cor": "verde",
+    "receita_descricao": "Medicamento homeopático registrado na Anvisa. Dispensado sem receita médica.",
+    "receita_nota": "Não substitui tratamento psiquiátrico em transtornos de ansiedade diagnosticados.",
+    "efeitos": "Muito raramente relatados. Excelente tolerabilidade nas doses homeopáticas.",
+    "aviso_grave": "Não substituir medicação psiquiátrica prescrita por médico. Quadros de ansiedade intensa, ataques de pânico ou depressão requerem avaliação profissional.",
+    "recomendacao": "⚠️ Para ansiedade leve e ocasional pode ser uma opção segura. Em casos moderados a graves, a avaliação médica é indispensável.",
+    "educacao": "O nº 35 da linha Almeida Prado é um dos mais populares da linha, voltado para queixas emocionais leves. Como homeopático, tem excelente perfil de segurança e pode ser usado por adultos e crianças.",
+    "resposta_rapida": [
+      "Homeopático para ansiedade",
+      "Venda livre",
+      "Nervosismo e insônia leve",
+      "Registrado na Anvisa",
+      "Não substitui tratamento psiquiátrico"
+    ]
+  },
+  {
+    "nome": "Almeida Prado nº 46",
+    "generico": "Medicamento homeopático composto",
+    "tipo": "Homeopático — Digestivo / Hepático",
+    "sinonimos": [
+      "almeida prado 46",
+      "ap 46",
+      "homeopatia 46",
+      "almeida prado numero 46"
+    ],
+    "descricao": "Medicamento homeopático composto indicado para distúrbios digestivos e hepáticos, como má digestão, flatulência, enjoo, náusea, desconforto abdominal e distúrbios de vesícula. Composição homeopática com complexos dinamizados.",
+    "receita": "Não",
+    "receita_display": "🟢 Venda Livre — Sem Receita",
+    "receita_cor": "verde",
+    "receita_descricao": "Medicamento homeopático registrado na Anvisa. Dispensado sem receita médica.",
+    "receita_nota": "Como todo medicamento homeopático, as evidências científicas convencionais são limitadas. Consultar médico para quadros persistentes.",
+    "efeitos": "Muito raramente relatados. Medicamentos homeopáticos nas doses dinamizadas geralmente apresentam excelente tolerabilidade.",
+    "aviso_grave": "Não substituir tratamento médico convencional em casos de doenças hepáticas diagnosticadas. Persistindo os sintomas, procurar avaliação médica.",
+    "recomendacao": "⚠️ Se os sintomas digestivos persistirem por mais de 7 dias ou forem acompanhados de febre, vômito intenso ou icterícia (pele amarelada), procurar médico.",
+    "educacao": "Os medicamentos da linha Almeida Prado são homeopáticos registrados na Anvisa. Cada número corresponde a uma indicação específica — o nº 46 é voltado para queixas digestivas e hepáticas.",
+    "resposta_rapida": [
+      "Homeopático digestivo e hepático",
+      "Venda livre",
+      "Náusea e má digestão",
+      "Registrado na Anvisa",
+      "Consultar médico se persistir"
+    ]
+  },
+  {
     "nome": "Alogliptina + Metformina (Nesina Met)",
     "generico": "Alogliptina + Metformina",
     "tipo": "Antidiabético Oral — Inibidor DPP-4 + Biguanida",
@@ -2014,6 +2070,35 @@
     "receita_cor": "amarelo"
   },
   {
+    "nome": "Clomipramina 10mg - 25mg - 75mg",
+    "generico": "Cloridrato de clomipramina",
+    "tipo": "Antidepressivo tricíclico",
+    "sinonimos": [
+      "anafranil",
+      "clomipramina",
+      "clomipramine",
+      "anafranil 25mg",
+      "anafranil 75mg"
+    ],
+    "descricao": "Antidepressivo tricíclico com potente efeito serotoninérgico. Primeira escolha no tratamento do transtorno obsessivo-compulsivo (TOC). Também usado em depressão grave, fobia, transtorno de pânico, narcolepsia com cataplexia e enurese noturna.",
+    "receita": "Sim",
+    "receita_display": "🔴 Receita de Controle Especial — Branca 2 vias",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Receita de Controle Especial (branca, duas vias). A 1ª via fica retida na farmácia. Validade de 30 dias.",
+    "receita_nota": "É o antidepressivo com maior evidência no TOC — efeito superior aos ISRSs para esse transtorno.",
+    "efeitos": "Boca seca intensa, sonolência, constipação, retenção urinária, ganho de peso, visão turva, taquicardia, sudorese, disfunção sexual.",
+    "aviso_grave": "Contraindicado após infarto recente e com IMAO. Risco de convulsões em doses altas. Nunca interromper abruptamente. Monitorar ECG em cardiopatas.",
+    "recomendacao": "⚠️ Efeitos colaterais anticolinérgicos são intensos — boca seca, constipação e retenção urinária são muito comuns. Idosos devem evitar (Critérios de Beers).",
+    "educacao": "Apesar de ser um antidepressivo antigo, a clomipramina permanece como padrão-ouro no tratamento do TOC, com eficácia superior aos antidepressivos mais modernos nessa indicação específica.",
+    "resposta_rapida": [
+      "TOC e depressão grave",
+      "Tricíclico",
+      "Receita branca 2 vias",
+      "Padrão-ouro no TOC",
+      "Efeitos anticolinérgicos intensos"
+    ]
+  },
+  {
     "nome": "Clonazepam - Solução oral 2,5mg/mL, 0,5mg e 2mg, 0,25mg",
     "generico": "Clonazepam",
     "tipo": "Benzodiazepínico",
@@ -2257,6 +2342,62 @@
     "receita_cor": "verde"
   },
   {
+    "nome": "Colagenase + Cloranfenicol pomada",
+    "generico": "Colagenase + Cloranfenicol",
+    "tipo": "Enzima desbridante + Antibiótico tópico",
+    "sinonimos": [
+      "colagenase cloranfenicol",
+      "iruxol mono",
+      "colagenase antibiotico",
+      "cloranfenicol colagenase"
+    ],
+    "descricao": "Combinação de colagenase (enzima que remove tecido necrótico) com cloranfenicol (antibiótico de amplo espectro). Indicada para feridas infectadas ou com risco de infecção que também necessitam de desbridamento enzimático.",
+    "receita": "Sim",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica Necessária",
+    "receita_cor": "amarelo",
+    "receita_descricao": "Requer receita médica simples.",
+    "receita_nota": "O cloranfenicol sistêmico é restrito por risco de aplasia medular, mas na forma tópica tem uso aceito em feridas com baixa absorção sistêmica.",
+    "efeitos": "Ardência ou irritação local. Raramente reação alérgica ao cloranfenicol. Uso prolongado pode selecionar bactérias resistentes.",
+    "aviso_grave": "Evitar uso prolongado sem reavaliação médica — risco de resistência bacteriana. Não usar em grandes áreas de pele ou mucosas (risco de absorção sistêmica do cloranfenicol).",
+    "recomendacao": "⚠️ Proteger a pele sã ao redor da ferida com vaselina antes de aplicar. Trocar o curativo conforme orientação médica.",
+    "educacao": "A combinação trata simultaneamente dois problemas da ferida crônica: o tecido necrótico (via colagenase) e a infecção bacteriana (via cloranfenicol). Muito usada em úlceras de pressão e feridas de difícil cicatrização.",
+    "resposta_rapida": [
+      "Ferida infectada com necrose",
+      "Desbridamento + antibiótico",
+      "Tarja amarela",
+      "Proteger pele sã ao redor",
+      "Não usar em grandes áreas"
+    ]
+  },
+  {
+    "nome": "Colagenase pomada",
+    "generico": "Colagenase",
+    "tipo": "Enzima desbridante — Uso tópico",
+    "sinonimos": [
+      "colagenase",
+      "iruxol",
+      "colagenase pomada",
+      "kollagenase"
+    ],
+    "descricao": "Enzima proteolítica de uso tópico que dissolve o tecido necrótico (morto) em feridas crônicas, úlceras de pressão, úlceras varicosas e queimaduras. Facilita o desbridamento (limpeza) da ferida sem danificar o tecido sadio ao redor.",
+    "receita": "Sim",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica Necessária",
+    "receita_cor": "amarelo",
+    "receita_descricao": "Requer receita médica simples.",
+    "receita_nota": "Aplicar apenas sobre o tecido necrótico — evitar contato com a pele sã ao redor da ferida.",
+    "efeitos": "Leve ardência ou irritação local no início. Raramente: reação alérgica.",
+    "aviso_grave": "Não usar em feridas com infecção ativa não controlada sem tratamento antibiótico concomitante. Não aplicar em olhos ou mucosas.",
+    "recomendacao": "⚠️ Cobrir a ferida após a aplicação. Proteger a pele sã ao redor com vaselina ou óxido de zinco — a colagenase pode irritar tecido sadio.",
+    "educacao": "A colagenase não cura a ferida — ela prepara o leito da ferida removendo tecido morto para que a cicatrização possa ocorrer. É um passo do tratamento, não o tratamento completo.",
+    "resposta_rapida": [
+      "Desbridamento de feridas",
+      "Úlceras e queimaduras",
+      "Tarja amarela",
+      "Proteger pele sã ao redor",
+      "Não cura — prepara a ferida"
+    ]
+  },
+  {
     "nome": "Colchicina 0,5mg - 1mg",
     "generico": "Colchicina",
     "tipo": "Antigotoso / Anti-inflamatório",
@@ -2361,6 +2502,36 @@
     "receita_cor": "amarelo"
   },
   {
+    "nome": "Colágeno hidrolisado",
+    "generico": "Colágeno hidrolisado",
+    "tipo": "Suplemento alimentar",
+    "sinonimos": [
+      "colageno",
+      "colágeno",
+      "colágeno hidrolisado",
+      "verisol",
+      "peptan",
+      "colageno tipo 2"
+    ],
+    "descricao": "Suplemento proteico derivado do colágeno animal, usado para saúde articular, óssea, pele, cabelos e unhas. O colágeno hidrolisado é absorvido mais facilmente pelo organismo. O tipo II é específico para cartilagens e articulações.",
+    "receita": "Não",
+    "receita_display": "🟢 Venda Livre — Sem Receita",
+    "receita_cor": "verde",
+    "receita_descricao": "Suplemento alimentar. Disponível sem prescrição em farmácias, lojas de suplementos e supermercados.",
+    "receita_nota": "Não substitui tratamento médico para artrite ou osteoporose. Consultar médico para uso em casos clínicos.",
+    "efeitos": "Geralmente bem tolerado. Pode causar desconforto gástrico leve, saciedade, sabor residual. Raramente: reações alérgicas em pessoas alérgicas a frutos do mar (colágeno marinho).",
+    "aviso_grave": "Alérgicos a frutos do mar devem evitar colágeno de origem marinha — optar pelo bovino ou suíno.",
+    "recomendacao": "⚠️ Para melhor absorção, consumir com vitamina C (auxilia na síntese de colágeno). Os efeitos são graduais — resultados aparecem após 8–12 semanas de uso contínuo.",
+    "educacao": "O organismo não direciona o colágeno ingerido especificamente para pele ou articulações — ele é distribuído conforme as necessidades metabólicas. Os benefícios existem, mas são graduais e dependem da dieta completa.",
+    "resposta_rapida": [
+      "Suplemento articular e de pele",
+      "Venda livre",
+      "Tomar com vitamina C",
+      "Resultados em 8–12 semanas",
+      "Alérgicos a frutos do mar: preferir bovino"
+    ]
+  },
+  {
     "nome": "Complexo B (B1+B2+B3+B5+B6+B7+B9+B12)",
     "generico": "Complexo de Vitaminas do Complexo B",
     "tipo": "Suplemento Vitamínico",
@@ -2388,6 +2559,36 @@
     "receita_display": "🟢 Venda Livre — MIP",
     "receita_descricao": "Medicamento Isento de Prescrição. Não necessita receita.",
     "receita_cor": "verde"
+  },
+  {
+    "nome": "Condroitina + Glucosamina",
+    "generico": "Sulfato de condroitina + Sulfato de glucosamina",
+    "tipo": "Condroprotetor — Suplemento articular",
+    "sinonimos": [
+      "condroitina",
+      "glucosamina",
+      "condroflex",
+      "artroflex",
+      "movexx",
+      "condroitina glucosamina"
+    ],
+    "descricao": "Usados no tratamento da osteoartrite (artrose) de joelho, quadril e outras articulações. A glucosamina participa da síntese de cartilagem e a condroitina retém água nas articulações, melhorando a lubrificação e reduzindo a dor.",
+    "receita": "Sim",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica Necessária",
+    "receita_cor": "amarelo",
+    "receita_descricao": "Requer receita médica simples na apresentação farmacêutica (medicamento). Suplementos alimentares podem ser vendidos sem receita.",
+    "receita_nota": "O efeito é lento — melhora gradual em 4–8 semanas. Tratamento de longa duração.",
+    "efeitos": "Náusea, diarreia, desconforto gástrico. A glucosamina pode elevar levemente a glicemia em diabéticos.",
+    "aviso_grave": "Diabéticos devem monitorar a glicemia durante o uso — a glucosamina pode interferir na sensibilidade à insulina. Alérgicos a crustáceos devem ter cautela (glucosamina de origem marinha).",
+    "recomendacao": "⚠️ Tomar com alimentação para reduzir desconforto gástrico. Diabéticos: monitorar glicemia. O efeito é lento — não interromper prematuramente.",
+    "educacao": "As evidências científicas são moderadas: funcionam melhor em osteoartrite moderada a grave. Em casos leves, a melhora pode ser comparável ao placebo. Ainda assim, são bem tolerados e seguros para uso prolongado.",
+    "resposta_rapida": [
+      "Artrose e articulações",
+      "Tarja amarela",
+      "Efeito lento 4–8 semanas",
+      "Cuidado em diabéticos",
+      "Tomar com alimentação"
+    ]
   },
   {
     "nome": "Cálcio + Vitamina D",
@@ -3734,6 +3935,35 @@
     "receita_pratica": "Sim"
   },
   {
+    "nome": "Formoterol isolado 12mcg",
+    "generico": "Fumarato de formoterol di-hidratado",
+    "tipo": "Broncodilatador de longa duração (LABA) — Beta-2 agonista",
+    "sinonimos": [
+      "foradil",
+      "formoterol",
+      "oxis",
+      "formoterol isolado",
+      "formoterol turbuhaler"
+    ],
+    "descricao": "Broncodilatador de longa duração (até 12 horas) usado na manutenção de asma e DPOC. Mantém os brônquios abertos de forma sustentada. Diferente do salbutamol (curta duração), não é indicado como resgate em crises agudas.",
+    "receita": "Sim",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica Necessária",
+    "receita_cor": "amarelo",
+    "receita_descricao": "Requer receita médica simples.",
+    "receita_nota": "LABAs (beta-2 de longa duração) NÃO devem ser usados isoladamente na asma sem corticoide inalatório associado — aumenta risco de morte por asma grave.",
+    "efeitos": "Tremor fino nas mãos, taquicardia, palpitações, cefaleia, cãibras, hipocalemia (potássio baixo) em doses altas.",
+    "aviso_grave": "NA ASMA: nunca usar LABA isolado sem corticoide inalatório — risco de morte aumentado. Sempre associado a budesonida, fluticasona ou outro corticoide inalatório. Na DPOC: pode ser usado isolado.",
+    "recomendacao": "⚠️ Em asmáticos: este medicamento deve ser sempre usado com um corticoide inalatório — nunca sozinho. Não usar como broncodilatador de resgate em crises agudas — usar salbutamol para isso.",
+    "educacao": "O formoterol tem início de ação mais rápido que o salmeterol (outro LABA), o que o torna versátil. Na estratégia MART (para asma), pode ser usado tanto para manutenção quanto para resgate quando combinado com budesonida.",
+    "resposta_rapida": [
+      "Broncodilatador de longa duração",
+      "Asma e DPOC",
+      "Tarja amarela",
+      "NA ASMA: sempre com corticoide",
+      "Não é para crise aguda"
+    ]
+  },
+  {
     "nome": "Fosfomicina 3g - Granulado para Solução Oral",
     "generico": "Trometamol de Fosfomicina",
     "tipo": "Antibiótico Urinário",
@@ -4305,6 +4535,34 @@
     "receita_cor": "verde"
   },
   {
+    "nome": "Imipramina 10mg - 25mg",
+    "generico": "Cloridrato de imipramina",
+    "tipo": "Antidepressivo tricíclico",
+    "sinonimos": [
+      "tofranil",
+      "imipramina",
+      "imipramine",
+      "tofranil 25mg"
+    ],
+    "descricao": "Um dos primeiros antidepressivos desenvolvidos. Usado em depressão maior, transtorno de pânico, enurese noturna em crianças (xixi na cama) e dor crônica neuropática. Age bloqueando a recaptação de serotonina e noradrenalina.",
+    "receita": "Sim",
+    "receita_display": "🔴 Receita de Controle Especial — Branca 2 vias",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Receita de Controle Especial (branca, duas vias). A 1ª via fica retida na farmácia. Validade de 30 dias.",
+    "receita_nota": "Em crianças, usada especificamente para enurese noturna em doses baixas, com monitoramento cuidadoso.",
+    "efeitos": "Boca seca, sonolência, constipação, ganho de peso, retenção urinária, visão turva, taquicardia, hipotensão ortostática.",
+    "aviso_grave": "Cardiotóxico em overdose — guarda-la fora do alcance de pacientes com risco de tentativa de suicídio. Contraindicado após infarto e com IMAO. Nunca interromper abruptamente.",
+    "recomendacao": "⚠️ Idosos têm alta sensibilidade aos efeitos anticolinérgicos (confusão, retenção urinária, quedas) — evitar sempre que possível (Critérios de Beers).",
+    "educacao": "A imipramina foi o primeiro antidepressivo tricíclico da história, descoberto na década de 1950. Ainda tem indicações específicas, especialmente para enurese noturna infantil onde é muito eficaz.",
+    "resposta_rapida": [
+      "Depressão e pânico",
+      "Enurese noturna em crianças",
+      "Tricíclico",
+      "Receita branca 2 vias",
+      "Cuidado em idosos e cardiopatas"
+    ]
+  },
+  {
     "nome": "Infliximabe 100mg (injetável)",
     "generico": "Infliximabe",
     "tipo": "Imunobiológico / Anti-TNF",
@@ -4592,6 +4850,35 @@
     "receita_cor": "amarelo"
   },
   {
+    "nome": "Ivermectina tópica 1% — Soolantra (Rosácea)",
+    "generico": "Ivermectina 1% creme",
+    "tipo": "Antiparasitário tópico / Antirrosácea",
+    "sinonimos": [
+      "soolantra",
+      "ivermectina topica",
+      "ivermectina creme",
+      "ivermectina 1% creme",
+      "ivermectina rosacea"
+    ],
+    "descricao": "Creme de ivermectina 1% para uso tópico facial, indicado especificamente para rosácea papulopustulosa (tipo de rosácea com pápulas e pústulas, semelhante à acne). Age eliminando o ácaro Demodex folliculorum e reduzindo a inflamação local.",
+    "receita": "Sim",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica Necessária",
+    "receita_cor": "amarelo",
+    "receita_descricao": "Requer receita médica simples.",
+    "receita_nota": "Diferente da ivermectina oral (usada para parasitas sistêmicos) — esta é exclusivamente de uso tópico facial para rosácea.",
+    "efeitos": "Sensação de ardência ou prurido local no início do tratamento. Geralmente transitório e leve.",
+    "aviso_grave": "Uso exclusivamente facial — não ingerir. Não aplicar em olhos, boca ou mucosas. Não confundir com a ivermectina oral comprimido.",
+    "recomendacao": "⚠️ Aplicar uma camada fina no rosto inteiro (não apenas nas lesões) uma vez ao dia à noite. Resultados visíveis após 4–8 semanas de uso contínuo. Não usar como hidratante.",
+    "educacao": "A rosácea tem como um dos fatores o ácaro Demodex, presente em maior quantidade na pele de pacientes com rosácea. A ivermectina tópica age especificamente nesse ácaro, diferindo dos outros tratamentos da rosácea.",
+    "resposta_rapida": [
+      "Rosácea papulopustulosa",
+      "Uso tópico facial",
+      "Tarja amarela",
+      "Resultados em 4–8 semanas",
+      "Não confundir com ivermectina oral"
+    ]
+  },
+  {
     "nome": "Lactulose 667mg/mL - Xarope",
     "generico": "Lactulose",
     "tipo": "Laxante Osmótico",
@@ -4812,6 +5099,36 @@
     "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
     "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
     "receita_cor": "amarelo"
+  },
+  {
+    "nome": "Lidocaína gel 2%",
+    "generico": "Cloridrato de lidocaína",
+    "tipo": "Anestésico local tópico",
+    "sinonimos": [
+      "lidocaina",
+      "lidocaína",
+      "lidocaina gel",
+      "xylocaine",
+      "xylestesin",
+      "gelicaína"
+    ],
+    "descricao": "Anestésico local de uso tópico em gel. Usado para anestesia de mucosas antes de procedimentos (cateterismo, endoscopia, sondagem uretral), alívio de dor em feridas, úlceras orais, fissuras anais e hemorroidas.",
+    "receita": "Sim",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica Necessária",
+    "receita_cor": "amarelo",
+    "receita_descricao": "Requer receita médica simples.",
+    "receita_nota": "Disponível em gel 2% para uso tópico. A forma injetável requer prescrição e aplicação por profissional de saúde.",
+    "efeitos": "Irritação local transitória, formigamento. Em caso de absorção sistêmica excessiva (uso exagerado): tontura, confusão, arritmia (raro).",
+    "aviso_grave": "Não aplicar em grandes áreas ou pele lesionada extensamente — risco de absorção sistêmica e toxicidade. Não usar próximo aos olhos.",
+    "recomendacao": "⚠️ Aplicar apenas na área e quantidade indicadas. Não usar em crianças pequenas sem orientação médica — risco de toxicidade por absorção.",
+    "educacao": "A lidocaína gel é muito usada em procedimentos urológicos (cateterismo) e para alívio de dor local. O efeito anestésico começa em 2–5 minutos e dura 20–40 minutos.",
+    "resposta_rapida": [
+      "Anestésico local em gel",
+      "Procedimentos e feridas",
+      "Tarja amarela",
+      "Efeito em 2–5 minutos",
+      "Não usar em grandes áreas"
+    ]
   },
   {
     "nome": "Linagliptina 5mg (Trayenta)",
@@ -5728,6 +6045,33 @@
     "receita_cor": "vermelho"
   },
   {
+    "nome": "Naratriptana 2,5mg",
+    "generico": "Naratriptana",
+    "tipo": "Triptano — Antimigrânoso",
+    "sinonimos": [
+      "naramig",
+      "naratriptana",
+      "naratriptano"
+    ],
+    "descricao": "Indicada para tratamento agudo da enxaqueca com ou sem aura em adultos. Age contraindo vasos dilatados e bloqueando substâncias que causam dor na crise. Tem ação mais lenta que outros triptanos, mas efeito mais duradouro e menor taxa de recorrência.",
+    "receita": "Sim",
+    "receita_display": "🟡 Tarja Amarela — Prescrição Médica Necessária",
+    "receita_cor": "amarelo",
+    "receita_descricao": "Requer receita médica simples.",
+    "receita_nota": "Não indicada para prevenção — apenas para tratamento da crise aguda.",
+    "efeitos": "Tontura, sensação de calor, formigamento, fadiga, náusea, sensação de pressão no peito (geralmente não cardíaca).",
+    "aviso_grave": "Contraindicada em doenças cardiovasculares, hipertensão não controlada, insuficiência hepática ou renal grave. Não combinar com outros triptanos ou ergotamina no mesmo dia.",
+    "recomendacao": "⚠️ Usar somente no início da crise. Não exceder 2 comprimidos em 24h. Não é analgésico comum.",
+    "educacao": "Boa opção para crises longas de enxaqueca por ter efeito mais duradouro. O início de ação é mais lento (1–2h), porém a recorrência da dor é menor.",
+    "resposta_rapida": [
+      "Enxaqueca aguda",
+      "Ação prolongada",
+      "Tarja amarela",
+      "Não combinar com outros triptanos",
+      "Não é preventivo"
+    ]
+  },
+  {
     "nome": "Neomicina Pomada",
     "generico": "Neomicina",
     "tipo": "Antibiótico Tópico",
@@ -5776,6 +6120,67 @@
       "Cefalium"
     ],
     "receita_pratica": "Nao"
+  },
+  {
+    "nome": "Neozine — Levomepromazina gotas - 25mg - 100mg",
+    "generico": "Maleato de levomepromazina",
+    "tipo": "Antipsicótico típico / Sedativo — Fenotiazínico",
+    "sinonimos": [
+      "neozine",
+      "levomepromazina",
+      "nozinan",
+      "neozine gotas",
+      "levomepromazina 25mg",
+      "levomepromazina 100mg"
+    ],
+    "descricao": "Antipsicótico típico com forte efeito sedativo. Usado em esquizofrenia, agitação psicomotora intensa, estados maníacos, dor crônica intratável (cuidados paliativos) e como pré-anestésico. Em doses baixas, usado para insônia e ansiedade grave.",
+    "receita": "Sim",
+    "receita_display": "🔴 Receita de Controle Especial — Branca 2 vias",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Receita de Controle Especial (branca, duas vias). A 1ª via fica retida na farmácia. Validade de 30 dias.",
+    "receita_nota": "A sedação é intensa — não dirigir ou operar máquinas durante o tratamento.",
+    "efeitos": "Sedação intensa, hipotensão ortostática (especialmente ao levantar), boca seca, constipação, fotossensibilidade, sintomas extrapiramidais, aumento de prolactina.",
+    "aviso_grave": "Hipotensão grave pode ocorrer — especialmente na forma injetável e em idosos. Síndrome neuroléptica maligna: emergência médica. Não combinar com álcool ou outros depressores do SNC.",
+    "recomendacao": "⚠️ Sedação muito intensa — não dirigir. Levantar devagar para evitar queda por tontura. Proteger a pele do sol (fotossensibilidade). Em idosos: risco elevado de quedas.",
+    "educacao": "A levomepromazina tem um dos maiores potenciais sedativos entre os antipsicóticos. Em cuidados paliativos, é muito usada para controle de agitação terminal e dor refratária.",
+    "resposta_rapida": [
+      "Antipsicótico sedativo",
+      "Agitação e esquizofrenia",
+      "Receita branca 2 vias",
+      "Sedação intensa — não dirigir",
+      "Cuidados paliativos"
+    ]
+  },
+  {
+    "nome": "Neuleptil — Periciazina 1% - 4% gotas - 10mg comprimido",
+    "generico": "Periciazina",
+    "tipo": "Antipsicótico típico — Fenotiazínico",
+    "sinonimos": [
+      "neuleptil",
+      "periciazina",
+      "propericiazina",
+      "neuleptil gotas",
+      "neuleptil 1%",
+      "neuleptil 4%",
+      "neuleptil 10mg"
+    ],
+    "descricao": "Antipsicótico típico (fenotiazínico) usado em transtornos de comportamento, agitação psicomotora, esquizofrenia e como coadjuvante em quadros de agressividade. As gotas permitem ajuste fino da dose.",
+    "receita": "Sim",
+    "receita_display": "🔴 Receita de Controle Especial — Branca 2 vias",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Receita de Controle Especial (branca, duas vias). A 1ª via fica retida na farmácia. Validade de 30 dias.",
+    "receita_nota": "As gotas a 1% e 4% têm concentrações diferentes — atenção ao calcular a dose prescrita. 1% = 1mg/ml; 4% = 4mg/ml.",
+    "efeitos": "Sedação, hipotensão ortostática, boca seca, constipação, retenção urinária, sintomas extrapiramidais (rigidez, tremor), aumento de prolactina, fotossensibilidade.",
+    "aviso_grave": "Síndrome neuroléptica maligna (rara, mas grave): febre alta, rigidez muscular intensa, confusão — emergência médica. Nunca interromper abruptamente. Idosos com demência: risco aumentado de AVC.",
+    "recomendacao": "⚠️ Atenção à concentração das gotas: 1% e 4% têm dosagens muito diferentes. Confirmar sempre com o médico ou farmacêutico a concentração prescrita e o número de gotas.",
+    "educacao": "A diferença entre as concentrações é importante: o Neuleptil 4% é 4 vezes mais concentrado que o 1%. Uma troca inadvertida pode causar subdose ou superdose significativa.",
+    "resposta_rapida": [
+      "Antipsicótico típico",
+      "Transtornos de comportamento",
+      "Receita branca 2 vias",
+      "Gotas 1% e 4% — concentrações diferentes",
+      "Cuidado em idosos"
+    ]
   },
   {
     "nome": "Nifedipina 10mg - 20mg - 30mg Retard (Liberação Prolongada)",
@@ -5954,6 +6359,35 @@
     "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
     "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
     "receita_cor": "amarelo"
+  },
+  {
+    "nome": "Nortriptilina 10mg - 25mg - 50mg - 75mg",
+    "generico": "Cloridrato de nortriptilina",
+    "tipo": "Antidepressivo tricíclico",
+    "sinonimos": [
+      "pamelor",
+      "nortriptilina",
+      "pamelor 25mg",
+      "pamelor 10mg",
+      "nortriptilina 25mg"
+    ],
+    "descricao": "Usada no tratamento de depressão maior, dor crônica neuropática (fibromialgia, nevralgia pós-herpética), ansiedade e prevenção de enxaqueca. Age aumentando os níveis de noradrenalina e serotonina no cérebro.",
+    "receita": "Sim",
+    "receita_display": "🔴 Receita de Controle Especial — Branca 2 vias",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Receita de Controle Especial (branca, duas vias). A 1ª via fica retida na farmácia. Validade de 30 dias.",
+    "receita_nota": "Notificação B1. Não pode ser adquirida sem prescrição médica.",
+    "efeitos": "Boca seca, sonolência, constipação, ganho de peso, retenção urinária, visão turva, tontura, palpitações.",
+    "aviso_grave": "Risco de ideação suicida nos primeiros meses, especialmente em jovens. Nunca interromper abruptamente. Contraindicado após infarto recente e com IMAO.",
+    "recomendacao": "⚠️ Idosos: risco elevado de quedas e confusão mental — listado nos Critérios de Beers. Desmame deve ser gradual com orientação médica.",
+    "educacao": "Em doses baixas (10–25mg) é muito usada para dor crônica e prevenção de enxaqueca, independentemente de depressão. O efeito antidepressivo pleno surge em 2–4 semanas.",
+    "resposta_rapida": [
+      "Antidepressivo tricíclico",
+      "Também para dor crônica",
+      "Receita branca 2 vias",
+      "Efeito em 2–4 semanas",
+      "Cuidado em idosos"
+    ]
   },
   {
     "nome": "Olanzapina 2,5mg - 5mg - 10mg - 15mg - 20mg",
@@ -6158,6 +6592,34 @@
       "Nasivin"
     ],
     "receita_pratica": "Sim"
+  },
+  {
+    "nome": "Paliperidona 3mg - 6mg - 9mg - 12mg",
+    "generico": "Paliperidona",
+    "tipo": "Antipsicótico atípico",
+    "sinonimos": [
+      "invega",
+      "paliperidona",
+      "xeplion",
+      "trevicta"
+    ],
+    "descricao": "Antipsicótico atípico usado no tratamento de esquizofrenia e transtorno esquizoafetivo. É o metabólito ativo da risperidona. Disponível em comprimidos de liberação prolongada e injeção de depósito mensal (Xeplion) ou trimestral (Trevicta).",
+    "receita": "Sim",
+    "receita_display": "🔴 Receita de Controle Especial — Branca 2 vias",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Receita de Controle Especial (branca, duas vias). A 1ª via fica retida na farmácia. Validade de 30 dias.",
+    "receita_nota": "A forma injetável de depósito (mensal ou trimestral) melhora muito a adesão ao tratamento.",
+    "efeitos": "Aumento de prolactina (galactorreia, irregularidade menstrual, disfunção erétil), ganho de peso, sedação, acatisia, prolongamento do QT, hipotensão ortostática.",
+    "aviso_grave": "Monitorar prolactina e ECG regularmente. Em idosos com demência: risco aumentado de AVC e morte. Nunca interromper abruptamente.",
+    "recomendacao": "⚠️ Os comprimidos de liberação prolongada não devem ser partidos, mastigados ou esmagados — o mecanismo de liberação seria destruído.",
+    "educacao": "A forma injetável de depósito é uma grande vantagem para pacientes com dificuldade de adesão ao tratamento oral — uma aplicação por mês ou trimestre substitui os comprimidos diários.",
+    "resposta_rapida": [
+      "Esquizofrenia",
+      "Antipsicótico atípico",
+      "Receita branca 2 vias",
+      "Disponível em injeção mensal",
+      "Não partir os comprimidos"
+    ]
   },
   {
     "nome": "Pantoprazol 20mg - 40mg",
@@ -6475,6 +6937,37 @@
     "receita_display": "🔴 Receita Obrigatória — Antibiótico",
     "receita_descricao": "Antibiótico — receita simples retida obrigatória (ANVISA RDC 20/2011).",
     "receita_cor": "vermelho"
+  },
+  {
+    "nome": "Polietilenoglicol — Movicol / Muvinlax",
+    "generico": "Macrogol 3350 (Polietilenoglicol)",
+    "tipo": "Laxante osmótico",
+    "sinonimos": [
+      "movicol",
+      "muvinlax",
+      "polietilenoglicol",
+      "macrogol",
+      "peg 3350",
+      "glycolax",
+      "lactulomax"
+    ],
+    "descricao": "Laxante osmótico que retém água no intestino, amolecendo as fezes e facilitando a evacuação. Usado no tratamento da constipação crônica e para preparo intestinal antes de exames. Não é absorvido pelo organismo.",
+    "receita": "Não",
+    "receita_display": "🟢 Venda Livre — Sem Receita",
+    "receita_cor": "verde",
+    "receita_descricao": "Disponível sem receita médica.",
+    "receita_nota": "Para constipação crônica, o uso deve ser orientado por médico. Para uso pontual, seguir as instruções da bula.",
+    "efeitos": "Distensão abdominal, flatulência, náusea. Em excesso: diarreia e desequilíbrio eletrolítico.",
+    "aviso_grave": "Não usar em obstrução intestinal. Uso prolongado sem avaliação médica pode mascarar causas subjacentes da constipação.",
+    "recomendacao": "⚠️ Dissolver completamente na quantidade de água indicada antes de tomar. Beber bastante água ao longo do dia para potencializar o efeito.",
+    "educacao": "O polietilenoglicol é considerado um dos laxantes mais seguros para uso prolongado pois não é absorvido e não causa dependência. É preferível a laxantes estimulantes (como bisacodil) no uso crônico.",
+    "resposta_rapida": [
+      "Laxante osmótico",
+      "Constipação crônica",
+      "Venda livre",
+      "Não causa dependência",
+      "Dissolver em água"
+    ]
   },
   {
     "nome": "Pramipexol 0,125mg - 0,25mg - 1mg",
@@ -6808,6 +7301,34 @@
     "receita_cor": "vermelho"
   },
   {
+    "nome": "Rifamicina spray",
+    "generico": "Rifamicina SV",
+    "tipo": "Antibiótico tópico",
+    "sinonimos": [
+      "rifocina",
+      "rifamicina",
+      "rifamicina spray",
+      "rifocina spray"
+    ],
+    "descricao": "Antibiótico de uso tópico (spray) indicado para tratamento e prevenção de infecções bacterianas em feridas, úlceras, queimaduras e cirurgias. Age inibindo a síntese de RNA bacteriano, sendo eficaz contra gram-positivos e alguns gram-negativos.",
+    "receita": "Sim",
+    "receita_display": "🔴 Receita de Controle Especial — Branca 2 vias",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Antibiótico de controle especial. Requer receita médica obrigatória — duas vias retidas na farmácia.",
+    "receita_nota": "Uso exclusivamente tópico (spray externo). Não ingerir.",
+    "efeitos": "Coloração laranja/avermelhada na pele e curativo (normal). Raramente: reação alérgica local.",
+    "aviso_grave": "Não usar em mucosas, olhos ou ouvidos. Não ingerir. O uso indiscriminado pode contribuir para resistência bacteriana — usar apenas com prescrição.",
+    "recomendacao": "⚠️ A coloração avermelhada/alaranjada na pele e no curativo é normal e esperada — não é sinal de problema. Aplicar somente na área indicada pelo médico.",
+    "educacao": "A rifamicina pertence à mesma família da rifampicina (usada na tuberculose), mas na forma tópica em spray tem absorção mínima e é usada exclusivamente para infecções de pele e feridas.",
+    "resposta_rapida": [
+      "Antibiótico tópico em spray",
+      "Feridas e queimaduras",
+      "Receita branca 2 vias",
+      "Coloração laranja é normal",
+      "Não ingerir"
+    ]
+  },
+  {
     "nome": "Rifampicina 300mg Cápsula - Suspensão",
     "generico": "Rifampicina",
     "tipo": "Antibiótico Antituberculose",
@@ -7015,6 +7536,36 @@
     "receita_display": "🔴 Receita Médica Obrigatória",
     "receita_descricao": "Agonista GLP-1 — exige receita médica obrigatória. Dispensação controlada.",
     "receita_cor": "vermelho"
+  },
+  {
+    "nome": "Saccharomyces boulardii (Floratil)",
+    "generico": "Saccharomyces boulardii",
+    "tipo": "Probiótico — Levedura medicinal",
+    "sinonimos": [
+      "floratil",
+      "saccharomyces boulardii",
+      "florax",
+      "probiótico",
+      "probiotico",
+      "saccharomyces"
+    ],
+    "descricao": "Probiótico (levedura medicinal não patogênica) usado para prevenção e tratamento de diarreia associada a antibióticos, diarreia do viajante, diarreia por Clostridioides difficile e colite. Restaura e protege a microbiota intestinal.",
+    "receita": "Não",
+    "receita_display": "🟢 Venda Livre — Sem Receita",
+    "receita_cor": "verde",
+    "receita_descricao": "Disponível sem receita médica.",
+    "receita_nota": "Por ser uma levedura (fungo), não é afetado por antibióticos bacterianos — pode ser tomado simultaneamente ao antibiótico.",
+    "efeitos": "Muito bem tolerado. Raramente: flatulência, distensão abdominal. Em imunossuprimidos graves: raramente pode causar fungemia (levedura na corrente sanguínea).",
+    "aviso_grave": "Imunossuprimidos graves (transplantados, HIV avançado, quimioterapia intensa) devem usar com cautela — risco raro mas real de fungemia. Consultar médico antes do uso nesses casos.",
+    "recomendacao": "⚠️ Pode e deve ser tomado junto com antibióticos para proteger a microbiota. Guardar em local fresco e seco — verificar se a apresentação específica necessita de refrigeração.",
+    "educacao": "Diferente dos probióticos bacterianos, o S. boulardii é uma levedura e por isso sobrevive ao uso de antibióticos antibacterianos. É uma das estratégias mais eficazes para prevenir diarreia associada a antibióticos.",
+    "resposta_rapida": [
+      "Probiótico para diarreia",
+      "Pode tomar com antibiótico",
+      "Venda livre",
+      "Diarreia do viajante",
+      "Cuidado em imunossuprimidos graves"
+    ]
   },
   {
     "nome": "Sacubitril + Valsartana (Entresto)",
@@ -7589,8 +8140,8 @@
     "receita_cor": "amarelo"
   },
   {
-    "nome": "Tamsulosina 0,4mg",
-    "generico": "Cloridrato de Tamsulosina",
+    "nome": "Tansulosina 0,4mg",
+    "generico": "Cloridrato de Tansulosina",
     "tipo": "Alfabloqueador Seletivo / Uropatia",
     "descricao": "Alfabloqueador seletivo alfa-1A, que relaxa a musculatura lisa da próstata e da uretra, melhorando o fluxo urinário em homens com hiperplasia prostática benigna (HPB). Também usado para facilitar a expulsão de cálculos ureterais distais (pedra nos rins).",
     "receita": "Sim",
@@ -7607,10 +8158,12 @@
       "Tomar após refeição"
     ],
     "sinonimos": [
-      "Secotex",
-      "Tamsulosina EMS",
-      "Flomaxtra",
-      "Urimax"
+      "secotex",
+      "tansulosina",
+      "tamsulosina",
+      "flomaxtra",
+      "urimax",
+      "tansulosina ems"
     ],
     "classe_receita": "TARJADO_PRATICA",
     "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
@@ -7691,6 +8244,38 @@
     "receita_display": "🟡 Tarjado — Vendido sem Receita na Prática",
     "receita_descricao": "Tecnicamente exige receita, mas costuma ser vendido livremente nas farmácias.",
     "receita_cor": "amarelo"
+  },
+  {
+    "nome": "Testosterona",
+    "generico": "Testosterona (cipionato, enantato, undecanoato, gel, transdérmica)",
+    "tipo": "Hormônio androgênico — Terapia de reposição hormonal",
+    "sinonimos": [
+      "testosterona",
+      "durateston",
+      "nebido",
+      "androgel",
+      "testogel",
+      "deposteron",
+      "testosterone",
+      "testosterona gel"
+    ],
+    "descricao": "Hormônio masculino usado na reposição hormonal em hipogonadismo masculino (deficiência de testosterona), atraso puberal e, em mulheres, em doses baixas para disfunção sexual e reposição hormonal. Disponível em injeções, gel transdérmico e cápsulas.",
+    "receita": "Sim",
+    "receita_display": "🔴 Receita C5 — Controle Especial de Anabolizante",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Receita C5 — controle especial para esteroides anabolizantes. Receita branca em duas vias, com retenção da 1ª via na farmácia, validade de 30 dias, CID obrigatório e CPF do médico.",
+    "receita_nota": "A receita C5 é exclusiva para anabolizantes e esteroides. Exige diagnóstico (CID) e CPF do médico obrigatoriamente. Uso sem indicação médica é considerado doping e ilegal.",
+    "efeitos": "Acne, queda de cabelo (alopecia androgênica), policitemia (sangue espesso), aumento da próstata, infertilidade (suprime produção própria de espermatozoides), alterações do humor, retenção de líquidos.",
+    "aviso_grave": "Em mulheres grávidas: risco de virilização do feto feminino. Nunca usar sem diagnóstico de hipogonadismo confirmado por exames. Uso recreativo/doping causa supressão permanente da produção hormonal natural e danos cardíacos.",
+    "recomendacao": "⚠️ Homens que desejam ter filhos: a testosterona exógena suprime a produção de espermatozoides — pode causar infertilidade temporária ou permanente. Discutir com o médico antes de iniciar.",
+    "educacao": "O uso de testosterona sem indicação médica para ganho muscular (doping) é ilegal no Brasil e causa riscos graves: infertilidade, doenças cardíacas, disfunção hepática e dependência hormonal.",
+    "resposta_rapida": [
+      "Reposição hormonal masculina",
+      "Receita C5 — anabolizante",
+      "CID e CPF do médico obrigatórios",
+      "Risco de infertilidade",
+      "Não usar sem diagnóstico"
+    ]
   },
   {
     "nome": "Tiotropio 18mcg Inalador",
@@ -8207,6 +8792,36 @@
     "receita_cor": "amarelo"
   },
   {
+    "nome": "Vitamina K2 (MK-7)",
+    "generico": "Menaquinona-7 (Vitamina K2)",
+    "tipo": "Suplemento vitamínico",
+    "sinonimos": [
+      "vitamina k2",
+      "mk7",
+      "mk-7",
+      "menaquinona",
+      "vitamina k2 mk7",
+      "k2"
+    ],
+    "descricao": "Forma ativa da vitamina K, essencial para direcionar o cálcio para os ossos e dentes e evitar sua deposição em vasos sanguíneos e tecidos moles. Frequentemente combinada com vitamina D3 para potencializar a saúde óssea.",
+    "receita": "Não",
+    "receita_display": "🟢 Venda Livre — Sem Receita",
+    "receita_cor": "verde",
+    "receita_descricao": "Suplemento alimentar disponível sem prescrição.",
+    "receita_nota": "Pacientes em uso de anticoagulantes (varfarina/warfarina) devem consultar o médico antes de usar — a vitamina K interfere na coagulação.",
+    "efeitos": "Geralmente muito bem tolerada. Raramente: desconforto gástrico leve.",
+    "aviso_grave": "CONTRAINDICADA com varfarina/warfarina — a vitamina K reverte o efeito anticoagulante e pode causar trombose. Pacientes anticoagulados NÃO devem usar sem autorização médica.",
+    "recomendacao": "⚠️ Usuários de varfarina (Marevan) NÃO devem usar vitamina K2 sem orientação médica — pode invalidar completamente o efeito do anticoagulante.",
+    "educacao": "A vitamina K2 (especialmente MK-7) complementa a ação da vitamina D3: enquanto o D3 aumenta a absorção de cálcio, o K2 direciona esse cálcio para os ossos, evitando calcificação arterial.",
+    "resposta_rapida": [
+      "Saúde óssea e cardiovascular",
+      "Venda livre",
+      "Complementa a vitamina D3",
+      "CONTRAINDICADA com varfarina",
+      "Forma MK-7 tem melhor absorção"
+    ]
+  },
+  {
     "nome": "Warfarina / Varfarina 1mg - 2,5mg - 5mg",
     "generico": "Warfarina (também conhecida como Varfarina)",
     "tipo": "Anticoagulante Oral",
@@ -8256,6 +8871,35 @@
     "receita_display": "🟢 Venda Livre — MIP",
     "receita_descricao": "Medicamento Isento de Prescrição. Não necessita receita.",
     "receita_cor": "verde"
+  },
+  {
+    "nome": "Ziprasidona 20mg - 40mg - 60mg - 80mg",
+    "generico": "Cloridrato de ziprasidona",
+    "tipo": "Antipsicótico atípico",
+    "sinonimos": [
+      "geodon",
+      "ziprasidona",
+      "ziprasidone",
+      "geodon 40mg",
+      "geodon 80mg"
+    ],
+    "descricao": "Antipsicótico atípico usado no tratamento de esquizofrenia e episódios maníacos do transtorno bipolar. Tem menor tendência a causar ganho de peso comparado a outros antipsicóticos atípicos. Disponível em cápsulas e forma injetável.",
+    "receita": "Sim",
+    "receita_display": "🔴 Receita de Controle Especial — Branca 2 vias",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Receita de Controle Especial (branca, duas vias). A 1ª via fica retida na farmácia. Validade de 30 dias.",
+    "receita_nota": "Deve ser tomado obrigatoriamente com alimentos — a absorção cai até 50% em jejum.",
+    "efeitos": "Prolongamento do intervalo QT (arritmia), sedação, tontura, acatisia, náusea, boca seca. Menor ganho de peso que outros antipsicóticos.",
+    "aviso_grave": "Prolonga o intervalo QT — contraindicado em pacientes com histórico de arritmia, QT longo congênito e uso de outros medicamentos que prolongam o QT. Monitorar ECG regularmente.",
+    "recomendacao": "⚠️ SEMPRE tomar com alimentos — a absorção sem alimentação é drasticamente reduzida. Informar ao médico todos os outros medicamentos em uso (risco de interação com QT).",
+    "educacao": "A ziprasidona se destaca entre os antipsicóticos por causar menor ganho de peso e menor impacto metabólico. Porém exige atenção ao ECG por seu efeito no intervalo QT.",
+    "resposta_rapida": [
+      "Esquizofrenia e bipolar",
+      "Antipsicótico atípico",
+      "Receita branca 2 vias",
+      "TOMAR COM ALIMENTOS",
+      "Monitorar ECG"
+    ]
   },
   {
     "nome": "Zolendronato / Ácido Zoledrónico 4mg - 5mg Injetável",
