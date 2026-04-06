@@ -22,7 +22,7 @@
     "resposta_rapida": [
       "Diabetes tipo 2 — pico pós-refeição",
       "Tomar com a primeira garfada",
-      "Tarja amarela",
+      "Receita simples",
       "Flatulência é comum no início",
       "Hipoglicemia: usar glucose pura"
     ]
@@ -51,7 +51,7 @@
     "resposta_rapida": [
       "Anti-inflamatório",
       "Artrite e dores articulares",
-      "Tarjado venda livre na prática",
+      "Receita simples",
       "Tomar com alimentação",
       "Não combinar com outros AINEs"
     ],
@@ -821,7 +821,7 @@
     "resposta_rapida": [
       "Nome comercial da dipirona",
       "Dor e febre",
-      "Tarjado venda livre na prática",
+      "Receita simples",
       "Mesma substância da Novalgina",
       "Evitar na gravidez"
     ],
@@ -942,7 +942,7 @@
     "resposta_rapida": [
       "Anti-hipertensivo combinado",
       "Um comprimido — dois efeitos",
-      "Tarja amarela",
+      "Receita simples",
       "Tomar pela manhã",
       "Monitorar potássio"
     ]
@@ -1584,7 +1584,7 @@
     "resposta_rapida": [
       "Úlcera e H. pylori",
       "Fezes pretas são normais",
-      "Tarja amarela",
+      "Receita simples",
       "Não exceder 8 semanas",
       "Tomar antes das refeições"
     ]
@@ -1793,7 +1793,7 @@
       "Bisolvon — mucolítico",
       "Beber bastante água",
       "Tomar com alimento",
-      "Tarjado — venda livre na prática"
+      "Receita simples"
     ],
     "sinonimos": [
       "Bisolvon",
@@ -2415,7 +2415,7 @@
     "resposta_rapida": [
       "Antibiótico para pele e urina",
       "1 ou 2 vezes ao dia",
-      "Tarja amarela com receita",
+      "Receita obrigatória — antibiótico",
       "Informar alergia à penicilina",
       "Completar o tratamento"
     ]
@@ -2487,7 +2487,7 @@
     "resposta_rapida": [
       "Antibiótico amplo espectro",
       "TOMAR COM ALIMENTOS",
-      "Tarja amarela com receita",
+      "Receita obrigatória — antibiótico",
       "Infecções respiratórias e urinárias",
       "Completar o tratamento"
     ]
@@ -2538,7 +2538,7 @@
     "resposta_rapida": [
       "Antibiótico cefalosporina",
       "Infecções respiratórias e urinárias",
-      "Tarja amarela com receita",
+      "Receita obrigatória — antibiótico",
       "Tomar com alimentos",
       "Completar o tratamento"
     ]
@@ -3184,7 +3184,7 @@
     "resposta_rapida": [
       "Ferida infectada com necrose",
       "Desbridamento + antibiótico",
-      "Tarja amarela",
+      "Receita simples",
       "Proteger pele sã ao redor",
       "Não usar em grandes áreas"
     ]
@@ -3212,7 +3212,7 @@
     "resposta_rapida": [
       "Desbridamento de feridas",
       "Úlceras e queimaduras",
-      "Tarja amarela",
+      "Receita simples",
       "Proteger pele sã ao redor",
       "Não cura — prepara a ferida"
     ]
@@ -3404,7 +3404,7 @@
     "educacao": "As evidências científicas são moderadas: funcionam melhor em osteoartrite moderada a grave. Em casos leves, a melhora pode ser comparável ao placebo. Ainda assim, são bem tolerados e seguros para uso prolongado.",
     "resposta_rapida": [
       "Artrose e articulações",
-      "Tarja amarela",
+      "Receita simples",
       "Efeito lento 4–8 semanas",
       "Cuidado em diabéticos",
       "Tomar com alimentação"
@@ -3862,7 +3862,7 @@
       "Anti-inflamatório menos agressivo ao estômago",
       "Voltaren Suave",
       "Para quem tem sensibilidade gástrica",
-      "Tarjado venda livre na prática",
+      "Receita simples",
       "Mesmos riscos cardiovasculares do diclofenaco"
     ],
     "perguntas_frequentes": [
@@ -3913,7 +3913,7 @@
       "Anti-inflamatório ação rápida",
       "Nome comercial Cataflam",
       "Cólica menstrual e dor aguda",
-      "Tarjado venda livre na prática",
+      "Receita simples",
       "Age mais rápido que o Voltaren"
     ],
     "perguntas_frequentes": [
@@ -3965,7 +3965,7 @@
     "resposta_rapida": [
       "Anti-inflamatório potente",
       "Nome comercial Voltaren",
-      "Tarjado venda livre na prática",
+      "Receita simples",
       "Tomar com alimentação",
       "Não usar por mais de 5 dias sem orientação"
     ],
@@ -4236,7 +4236,7 @@
     "resposta_rapida": [
       "Dor e contratura muscular",
       "Dorflex",
-      "Tarjado — venda livre na prática",
+      "Receita simples",
       "Pode causar sonolência",
       "Não usar por mais de 3 dias"
     ],
@@ -4587,7 +4587,7 @@
     "educacao": "A eritromicina tópica é mais eficaz quando combinada com peróxido de benzoíla — a combinação reduz a resistência bacteriana e potencializa o efeito antibacteriano. Essa combinação está disponível em formulações prontas.",
     "resposta_rapida": [
       "Antibiótico tópico para acne",
-      "Tarja amarela",
+      "Receita obrigatória — antibiótico",
       "Resultados em 6-8 semanas",
       "Combinar com peróxido de benzoíla",
       "Usar protetor solar"
@@ -4789,7 +4789,7 @@
     "resposta_rapida": [
       "Menopausa e climatério",
       "Via gel ou adesivo",
-      "Tarja amarela",
+      "Receita simples",
       "Com útero: usar progesterona associada",
       "Menor risco de trombose que a via oral"
     ]
@@ -4869,7 +4869,7 @@
     "resposta_rapida": [
       "Diabetes tipo 2 — injetável",
       "Versão diária ou semanal",
-      "Tarja amarela",
+      "Receita simples",
       "Náusea no início é comum",
       "Contraindicado em câncer de tireoide familiar"
     ]
@@ -4955,7 +4955,7 @@
     "resposta_rapida": [
       "Gota e hiperuricemia",
       "Alternativa ao alopurinol na insuficiência renal",
-      "Tarja amarela",
+      "Receita simples",
       "Profilaxia no início com colchicina",
       "Cuidado em cardiopatas"
     ]
@@ -5368,7 +5368,7 @@
       "Lugano — broncodilatador + corticoide",
       "Enxaguar a boca após usar",
       "Não é para crise aguda",
-      "Tarjado — venda livre na prática"
+      "Receita simples"
     ],
     "sinonimos": [
       "Lugano",
@@ -5400,7 +5400,7 @@
     "resposta_rapida": [
       "Broncodilatador de longa duração",
       "Asma e DPOC",
-      "Tarja amarela",
+      "Receita simples",
       "NA ASMA: sempre com corticoide",
       "Não é para crise aguda"
     ]
@@ -5699,7 +5699,7 @@
     "resposta_rapida": [
       "DPOC — anticolinérgico LAMA",
       "Dose única diária",
-      "Tarjado venda livre na prática",
+      "Receita simples",
       "Cuidado com próstata e glaucoma",
       "Disponível combinado com indacaterol"
     ]
@@ -6094,7 +6094,7 @@
     "resposta_rapida": [
       "Osteoporose pós-menopausa",
       "Comprimido mensal ou injeção trimestral",
-      "Tarjado venda livre na prática",
+      "Receita simples",
       "Tomar em jejum com água e ficar em pé 60 min",
       "Informar ao dentista"
     ]
@@ -6228,7 +6228,7 @@
     "resposta_rapida": [
       "DPOC — dose única diária",
       "Broncodilatador 24 horas",
-      "Tarjado venda livre na prática",
+      "Receita simples",
       "NÃO para asma",
       "Não é resgate — usar salbutamol na crise"
     ]
@@ -6314,7 +6314,7 @@
     "resposta_rapida": [
       "Insulina basal de longa duração",
       "Diabetes tipo 1 e 2",
-      "Tarjado — disponível no SUS",
+      "Receita simples",
       "Guardar na geladeira",
       "Rodiziar locais de aplicação"
     ]
@@ -6477,7 +6477,7 @@
     "resposta_rapida": [
       "Anti-hipertensivo BRA",
       "Proteção renal no diabetes",
-      "Tarja amarela",
+      "Receita simples",
       "Proibido na gravidez",
       "Monitorar potássio e função renal"
     ]
@@ -6529,7 +6529,7 @@
     "educacao": "Para evitar tolerância ao nitrato (quando o medicamento perde eficácia), é necessário um intervalo diário sem o medicamento. Por isso geralmente não se toma a dose noturna — o médico orientará o esquema.",
     "resposta_rapida": [
       "Angina e insuficiência cardíaca",
-      "Tarja amarela",
+      "Receita simples",
       "Cefaleia no início é comum",
       "PROIBIDO com viagra/cialis",
       "Intervalo livre de nitrato necessário"
@@ -6660,7 +6660,7 @@
     "resposta_rapida": [
       "Rosácea papulopustulosa",
       "Uso tópico facial",
-      "Tarja amarela",
+      "Receita simples",
       "Resultados em 4–8 semanas",
       "Não confundir com ivermectina oral"
     ]
@@ -6984,7 +6984,7 @@
     "resposta_rapida": [
       "Anestésico local em gel",
       "Procedimentos e feridas",
-      "Tarja amarela",
+      "Receita simples",
       "Efeito em 2–5 minutos",
       "Não usar em grandes áreas"
     ]
@@ -7064,7 +7064,7 @@
       "Cólicas e espasmos com dor",
       "Lisador",
       "Causa sonolência intensa",
-      "Tarjado — venda livre na prática",
+      "Receita simples",
       "Evitar em idosos"
     ],
     "sinonimos": [
@@ -7864,7 +7864,7 @@
     "educacao": "A minociclina tem a vantagem de poder ser tomada com alimentos sem perda significativa de absorção, diferente da doxiciclina. Porém causa mais tontura — efeito que melhora com o tempo.",
     "resposta_rapida": [
       "Antibiótico para acne e rosácea",
-      "Tarja amarela com receita",
+      "Receita obrigatória — antibiótico",
       "Pode causar tontura",
       "Protetor solar obrigatório",
       "Não usar em menores de 8 anos"
@@ -7916,7 +7916,7 @@
     "resposta_rapida": [
       "Bexiga hiperativa",
       "Menos efeitos que anticolinérgicos",
-      "Tarja amarela",
+      "Receita simples",
       "Monitorar pressão arterial",
       "Não partir os comprimidos"
     ]
@@ -7966,7 +7966,7 @@
     "educacao": "O misoprostol tem dupla função: gastroenterológica (proteção da mucosa gástrica) e obstétrica (indução do parto e controle de hemorragia). As doses e vias de administração são completamente diferentes para cada indicação.",
     "resposta_rapida": [
       "Proteção gástrica e uso obstétrico",
-      "Tarja amarela",
+      "Receita simples",
       "Contraindicado na gravidez (uso gástrico)",
       "Uso obstétrico apenas em hospital",
       "Causa contrações uterinas"
@@ -8237,7 +8237,7 @@
     "resposta_rapida": [
       "Enxaqueca aguda",
       "Ação prolongada",
-      "Tarja amarela",
+      "Receita simples",
       "Não combinar com outros triptanos",
       "Não é preventivo"
     ]
@@ -8265,7 +8265,7 @@
     "resposta_rapida": [
       "Anti-hipertensivo betabloqueador",
       "Menos disfunção erétil que outros betabloqueadores",
-      "Tarja amarela",
+      "Receita simples",
       "Nunca parar abruptamente",
       "Cuidado em asmáticos"
     ]
@@ -8649,7 +8649,7 @@
     "resposta_rapida": [
       "Antibiótico para cistite (bexiga)",
       "Tomar com alimentos",
-      "Tarja amarela com receita",
+      "Receita obrigatória — antibiótico",
       "Urina pode ficar amarelada — normal",
       "Não usar na insuficiência renal grave"
     ]
@@ -8736,7 +8736,7 @@
     "resposta_rapida": [
       "Analgésico e antipirético",
       "Nome comercial da dipirona",
-      "Tarjado venda livre na prática",
+      "Receita simples",
       "Não usar em alérgicos",
       "Evitar na gravidez"
     ],
@@ -8831,7 +8831,7 @@
     "resposta_rapida": [
       "Anti-hipertensivo BRA",
       "Dose única diária",
-      "Tarja amarela",
+      "Receita simples",
       "Proibido na gravidez",
       "Diarreia crônica: comunicar ao médico"
     ]
@@ -8922,7 +8922,7 @@
       "Zofran ODT — dissolve na língua",
       "Não precisa de água",
       "Ótimo para quimioterapia",
-      "Tarjado — venda livre na prática"
+      "Receita simples"
     ],
     "sinonimos": [
       "Zofran",
@@ -9545,7 +9545,7 @@
     "resposta_rapida": [
       "Dermatite atópica",
       "Não afina a pele como corticoide",
-      "Tarja amarela",
+      "Receita simples",
       "Protetor solar obrigatório",
       "Não usar em menores de 2 anos"
     ]
@@ -9974,7 +9974,7 @@
     "resposta_rapida": [
       "Osteoporose pós-menopausa",
       "Reduz risco de câncer de mama",
-      "Tarjado venda livre na prática",
+      "Receita simples",
       "Risco de trombose",
       "Suspender antes de cirurgias"
     ]
@@ -10075,7 +10075,7 @@
     "resposta_rapida": [
       "Angina crônica refratária",
       "Não parte os comprimidos",
-      "Tarja amarela",
+      "Receita simples",
       "Monitorar ECG",
       "Múltiplas interações medicamentosas"
     ]
@@ -10130,7 +10130,7 @@
     "resposta_rapida": [
       "Diabetes tipo 2 — pós-refeição",
       "Tomar antes de cada refeição",
-      "Tarja amarela",
+      "Receita simples",
       "Pular dose se pular refeição",
       "Risco de hipoglicemia"
     ]
@@ -10410,7 +10410,7 @@
     "resposta_rapida": [
       "DPOC grave com bronquite",
       "Reduz exacerbações",
-      "Tarjado venda livre na prática",
+      "Receita simples",
       "Monitorar humor e peso",
       "Não é broncodilatador"
     ]
@@ -11045,7 +11045,7 @@
     "educacao": "A sulfadiazina de prata é o padrão-ouro para tratamento tópico de queimaduras há décadas. A prata ions liberados têm ação antimicrobiana ampla, prevenindo infecções nas feridas abertas.",
     "resposta_rapida": [
       "Antibiótico para queimaduras e feridas",
-      "Tarja amarela com receita",
+      "Receita obrigatória — antibiótico",
       "Camada fina 1x ao dia",
       "Não usar em bebês menores de 2 meses",
       "Não aplicar nos olhos"
@@ -11101,7 +11101,7 @@
     "resposta_rapida": [
       "Doença intestinal e artrite reumatoide",
       "Urina laranja é normal",
-      "Tarja amarela",
+      "Receita simples",
       "Homens: pode afetar fertilidade temporariamente",
       "Monitorar hemograma"
     ]
@@ -11322,7 +11322,7 @@
     "resposta_rapida": [
       "Anti-hipertensivo BRA",
       "Maior duração entre os BRAs",
-      "Tarja amarela",
+      "Receita simples",
       "Proibido na gravidez",
       "Dose única diária"
     ]
@@ -11374,7 +11374,7 @@
     "resposta_rapida": [
       "Broncodilatador oral",
       "Asma e DPOC",
-      "Tarja amarela",
+      "Receita simples",
       "Monitorar nível no sangue",
       "Evitar cafeína durante o tratamento"
     ]
@@ -11487,7 +11487,7 @@
     "resposta_rapida": [
       "Menopausa estabelecida",
       "Não precisa de progesterona separada",
-      "Tarja amarela",
+      "Receita simples",
       "Somente após 1 ano sem menstruar",
       "Investigar qualquer sangramento"
     ]
@@ -11745,7 +11745,7 @@
     "resposta_rapida": [
       "DPOC — anticolinérgico",
       "Dose única diária",
-      "Tarjado venda livre na prática",
+      "Receita simples",
       "Cuidado com glaucoma",
       "Não é para crise aguda"
     ]
@@ -12234,7 +12234,7 @@
     "resposta_rapida": [
       "Prevenção da asma",
       "Tomar em jejum",
-      "Tarja amarela",
+      "Receita simples",
       "Não é para crise aguda",
       "Monitorar o fígado"
     ]
