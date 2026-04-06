@@ -2857,7 +2857,29 @@
     ],
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Brometo de Ipratrópio abre o brônquio?",
+        "resposta": "Sim. É um broncodilatador anticolinérgico que relaxa a musculatura das vias aéreas, facilitando a respiração em DPOC, bronquite crônica e crises de falta de ar."
+      },
+      {
+        "pergunta": "Brometo de Ipratrópio causa boca seca?",
+        "resposta": "Sim, é o efeito colateral mais comum. Beber água regularmente e manter boa higiene bucal ajuda a reduzir o desconforto."
+      },
+      {
+        "pergunta": "Brometo de Ipratrópio pode usar todo dia?",
+        "resposta": "Sim, quando prescrito para DPOC é de uso contínuo. Siga a orientação médica quanto à frequência das inalações."
+      },
+      {
+        "pergunta": "Brometo de Ipratrópio e salbutamol podem ser usados juntos?",
+        "resposta": "Sim, a combinação é muito comum e potencializa o efeito broncodilatador — inclusive existe formulação pronta com os dois (Combivent)."
+      },
+      {
+        "pergunta": "Brometo de Ipratrópio dá sono?",
+        "resposta": "Não é esperado. Os efeitos mais comuns são boca seca, visão turva e tremor. Se sentir sonolência intensa, comunique ao médico."
+      }
+    ]
   },
   {
     "nome": "Bromexina 4mg - 8mg",
@@ -4894,7 +4916,29 @@
     "receita_cor": "verde",
     "receita_obrigatoria": false,
     "tipo_receita": "MIP",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Neosoro pode usar todo dia?",
+        "resposta": "Sim, é seguro para uso diário em adultos e crianças. Não contém medicamento e não causa dependência."
+      },
+      {
+        "pergunta": "Neosoro pode usar em bebê?",
+        "resposta": "Sim, é indicado para higiene nasal em bebês. Usar com a cabeça levemente inclinada e em gotejamento suave."
+      },
+      {
+        "pergunta": "Neosoro ajuda na sinusite?",
+        "resposta": "Ajuda a fluidificar e remover secreções e aliviar a congestão. Não trata a infecção em si, mas complementa o tratamento."
+      },
+      {
+        "pergunta": "Qual a diferença entre Neosoro e Sorine?",
+        "resposta": "Ambos são soro fisiológico 0,9% para higiene nasal. A diferença é apenas o fabricante e a embalagem — o princípio ativo é idêntico."
+      },
+      {
+        "pergunta": "Neosoro pode ser usado quantas vezes ao dia?",
+        "resposta": "Quantas vezes forem necessárias. Por ser apenas solução salina sem medicamento, não há limite de uso diário."
+      }
+    ]
   },
   {
     "nome": "Cloreto de Sódio 0,9% Spray Nasal (Sorine / Soro Fisiológico Nasal)",
@@ -4926,7 +4970,29 @@
     ],
     "receita_obrigatoria": false,
     "tipo_receita": "MIP",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Sorine pode usar em bebê?",
+        "resposta": "Sim, é seguro para bebês. Aplicar com o bebê deitado de lado ou com a cabeça levemente inclinada, em jato suave."
+      },
+      {
+        "pergunta": "Sorine causa dependência?",
+        "resposta": "Não. Não contém medicamento — é apenas solução salina. Pode ser usado quantas vezes precisar sem risco de dependência."
+      },
+      {
+        "pergunta": "Sorine pode ser usado antes de outro spray nasal?",
+        "resposta": "Sim, é recomendado. Usar o soro fisiológico antes de sprays com corticoide ou descongestionante melhora a absorção do medicamento."
+      },
+      {
+        "pergunta": "Qual a diferença entre Sorine e Rhinosoro?",
+        "resposta": "Sorine é soro 0,9% (isotônico, igual ao corpo), ideal para higiene nasal. Rhinosoro é 3% (hipertônico), mais forte, indicado para congestão intensa e sinusite."
+      },
+      {
+        "pergunta": "Sorine tem prazo de validade após aberto?",
+        "resposta": "Sim. Após aberto, verificar na embalagem o prazo indicado pelo fabricante e não compartilhar o frasco para evitar contaminação."
+      }
+    ]
   },
   {
     "nome": "Cloreto de Sódio 3% Spray Nasal Hipertônico (Rhinosoro)",
@@ -4957,7 +5023,29 @@
     ],
     "receita_obrigatoria": false,
     "tipo_receita": "MIP",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Rhinosoro é mais forte que o soro comum?",
+        "resposta": "Sim. O Rhinosoro é hipertônico (3% de sal), mais concentrado que o soro fisiológico 0,9%. Age reduzindo o inchaço da mucosa e fluidificando o muco com mais eficiência."
+      },
+      {
+        "pergunta": "Rhinosoro pode usar em bebê?",
+        "resposta": "Não é recomendado em bebês menores de 1 ano sem orientação médica. Para bebês, prefira o soro fisiológico 0,9% (Neosoro ou Sorine)."
+      },
+      {
+        "pergunta": "Rhinosoro causa ardência?",
+        "resposta": "Sim, é normal sentir ardência ou desconforto nasal pelo alto teor de sal. É transitório e passa rapidamente após a aplicação."
+      },
+      {
+        "pergunta": "Rhinosoro serve para sinusite?",
+        "resposta": "Sim, é muito indicado na sinusite por fluidificar o muco espesso e reduzir o inchaço da mucosa, facilitando a drenagem dos seios paranasais."
+      },
+      {
+        "pergunta": "Rhinosoro pode substituir o descongestionante?",
+        "resposta": "Em muitos casos sim. É uma alternativa mais segura ao descongestionante (como o Afrin) por não causar dependência nem efeito rebote — e pode ser usado com mais frequência."
+      }
+    ]
   },
   {
     "nome": "Clorexidina 0.12%",
@@ -5180,7 +5268,29 @@
     "receita_nota": "Prescrição médica obrigatória. Receita válida por 30 dias.",
     "receita_obrigatoria": true,
     "tipo_receita": "C1",
-    "retencao_receita": true
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Codeína dá sono?",
+        "resposta": "Sim, sonolência e tontura são efeitos muito comuns. Evitar dirigir ou operar máquinas durante o uso."
+      },
+      {
+        "pergunta": "Codeína prende o intestino?",
+        "resposta": "Sim, constipação (prisão de ventre) é o efeito colateral mais comum. Ingerir bastante água e fibras ajuda — o médico pode prescrever laxante preventivo."
+      },
+      {
+        "pergunta": "Codeína causa dependência?",
+        "resposta": "Sim. É um opioide e pode causar dependência física e psicológica com o uso prolongado. Por isso exige receita controlada e deve ser usada pelo menor tempo possível."
+      },
+      {
+        "pergunta": "Codeína pode tomar com dipirona?",
+        "resposta": "Pode, desde que prescrito pelo médico. A combinação é usada para dor moderada a intensa, potencializando o efeito analgésico."
+      },
+      {
+        "pergunta": "Codeína é antibiótico?",
+        "resposta": "Não. Codeína é um analgésico opioide e antitussígeno. Não tem ação antibacteriana."
+      }
+    ]
   },
   {
     "nome": "Coenzima Q10 100mg",
@@ -5776,7 +5886,29 @@
     "receita_cor": "verde",
     "receita_obrigatoria": false,
     "tipo_receita": "MIP",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Cálcio com Vitamina D pode tomar todo dia?",
+        "resposta": "Sim, é de uso diário. A vitamina D é essencial para a absorção do cálcio e ambos trabalham juntos na saúde óssea."
+      },
+      {
+        "pergunta": "Cálcio prende o intestino?",
+        "resposta": "Sim, constipação é o efeito colateral mais comum do cálcio. Ingerir bastante água e fibras ajuda a reduzir o desconforto."
+      },
+      {
+        "pergunta": "Cálcio com Vitamina D pode tomar junto com outros medicamentos?",
+        "resposta": "Alguns medicamentos têm interação — como levotiroxina, bifosfonatos e antibióticos do tipo quinolona. Nesses casos, separar o horário por pelo menos 2 horas."
+      },
+      {
+        "pergunta": "Cálcio com Vitamina D serve para osteoporose?",
+        "resposta": "Sim, é parte essencial do tratamento e prevenção da osteoporose, principalmente em mulheres após a menopausa e idosos."
+      },
+      {
+        "pergunta": "Qual o melhor horário para tomar Cálcio com Vitamina D?",
+        "resposta": "Preferencialmente com as refeições, o que melhora a absorção do cálcio e reduz o risco de constipação."
+      }
+    ]
   },
   {
     "nome": "Dapagliflozina + Metformina (Xigduo)",
@@ -6720,7 +6852,29 @@
     "receita_cor": "cinza",
     "receita_obrigatoria": false,
     "tipo_receita": "descontinuado",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Dissulfiram funciona para parar de beber?",
+        "resposta": "É um dissuasor — não trata a dependência, mas causa reação muito desagradável se álcool for consumido (rubor, vômito, taquicardia), ajudando a manter a abstinência."
+      },
+      {
+        "pergunta": "Dissulfiram pode tomar com álcool?",
+        "resposta": "Nunca. A combinação causa reação grave que pode ser fatal: rubor intenso, vômito, queda de pressão, taquicardia e risco de morte. Evitar álcool em qualquer forma, inclusive em xaropes e perfumes."
+      },
+      {
+        "pergunta": "Dissulfiram ainda é vendido no Brasil?",
+        "resposta": "Está descontinuado no Brasil. Outras opções para dependência alcoólica incluem naltrexona e acamprosato — converse com um médico."
+      },
+      {
+        "pergunta": "Dissulfiram dá sono?",
+        "resposta": "Sem álcool, os efeitos mais comuns são sonolência, fadiga e gosto metálico na boca. Com álcool, a reação é muito mais grave."
+      },
+      {
+        "pergunta": "Quanto tempo o Dissulfiram fica no organismo?",
+        "resposta": "Seus efeitos persistem por até 14 dias após a última dose. Portanto, mesmo após parar o medicamento, consumir álcool nesse período ainda pode causar reação."
+      }
+    ]
   },
   {
     "nome": "Domperidona 10mg - Suspensão",
@@ -6776,7 +6930,7 @@
     "tipo": "Inibidor de Colinesterase / Antidemencial",
     "descricao": "Inibidor da acetilcolinesterase indicado para doença de Alzheimer leve a grave. Aumenta os níveis de acetilcolina no cérebro, melhorando temporariamente cognição, memória e comportamento. Não reverte a progressão da doença.",
     "receita": "Sim",
-    "receita_nota": "Prescrição médica obrigatória.",
+    "receita_nota": "Receita controlada C1 em 2 vias. Prescrição médica obrigatória. Receita retida na farmácia.",
     "efeitos": "Náusea, vômito, diarreia, cãibras musculares, insônia, pesadelos, bradicardia.",
     "aviso_grave": "Pode causar bradicardia e síncope — cuidado em cardiopatas. Insônia e pesadelos são comuns: tomar pela manhã em vez de à noite pode ajudar. Não suspender abruptamente.",
     "recomendacao": "🟡 Avisar médico se: desmaios, palpitações ou piora do comportamento.",
@@ -6794,12 +6948,12 @@
       "Dozil"
     ],
     "classe_receita": "RECEITA_ESPECIAL",
-    "receita_display": "🔴 Receita Simples",
-    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_display": "🔴 Receita Controlada C1",
+    "receita_descricao": "Exige receita de controle especial (Notificação de Receita C1) em 2 vias. A receita é retida na farmácia.",
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
-    "tipo_receita": "simples",
-    "retencao_receita": false,
+    "tipo_receita": "controlada_c1",
+    "retencao_receita": true,
     "perguntas_frequentes": [
       {
         "pergunta": "Donepezila serve para Alzheimer?",
@@ -6946,7 +7100,29 @@
     "receita_nota": "Uso restrito a ambiente hospitalar.",
     "receita_obrigatoria": true,
     "tipo_receita": "hospitalar",
-    "retencao_receita": true
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Droperidol é usado para enjoo?",
+        "resposta": "Sim, é muito usado para prevenir e tratar náuseas e vômitos pós-operatórios. É administrado em ambiente hospitalar, via injetável."
+      },
+      {
+        "pergunta": "Droperidol faz mal ao coração?",
+        "resposta": "Pode causar arritmias cardíacas graves. Por isso recebeu alerta de segurança e só deve ser usado em ambiente hospitalar com monitoramento cardíaco."
+      },
+      {
+        "pergunta": "Droperidol dá sono?",
+        "resposta": "Sim, sonolência intensa é um dos efeitos mais comuns. É esperado dado o seu uso em contexto hospitalar e cirúrgico."
+      },
+      {
+        "pergunta": "Droperidol pode ser comprado em farmácia?",
+        "resposta": "Não. É um medicamento injetável de uso hospitalar, administrado apenas por profissionais de saúde em ambiente controlado."
+      },
+      {
+        "pergunta": "Droperidol causa tremores?",
+        "resposta": "Sim, tremores e rigidez muscular (sintomas extrapiramidais) podem ocorrer. A equipe médica monitora e trata esses efeitos se necessário."
+      }
+    ]
   },
   {
     "nome": "Dulaglutida (Trulicity)",
@@ -7179,7 +7355,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "hospitalar",
-    "retencao_receita": true
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Efavirenz dá sono e pesadelos?",
+        "resposta": "Sim, são efeitos muito comuns — especialmente sonhos vívidos, pesadelos, tontura e dificuldade de concentração. Tendem a melhorar após as primeiras semanas. Tomar à noite antes de dormir ajuda."
+      },
+      {
+        "pergunta": "Efavirenz cura o HIV?",
+        "resposta": "Não. Controla o vírus, reduz a carga viral e protege o sistema imunológico, mas não elimina o HIV do organismo. O uso deve ser contínuo e combinado com outros antirretrovirais."
+      },
+      {
+        "pergunta": "Efavirenz pode tomar com outras medicações?",
+        "resposta": "Tem muitas interações medicamentosas. Sempre informar ao médico todos os medicamentos em uso — inclusive fitoterápicos como erva-de-são-joão, que reduz a eficácia do efavirenz."
+      },
+      {
+        "pergunta": "Efavirenz causa depressão?",
+        "resposta": "Sim, pode causar depressão, ansiedade e alterações de humor. Em casos mais graves pode haver pensamentos suicidas — comunicar ao médico imediatamente se isso ocorrer."
+      },
+      {
+        "pergunta": "Efavirenz engorda?",
+        "resposta": "Não é um efeito direto. Alterações no metabolismo de gorduras (dislipidemia) podem ocorrer com antirretrovirais, mas ganho de peso expressivo não é típico do efavirenz especificamente."
+      }
+    ]
   },
   {
     "nome": "Empagliflozina 10mg - 25mg (Jardiance)",
@@ -7359,7 +7557,29 @@
     ],
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": true
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Eritromicina tópica serve para acne?",
+        "resposta": "Sim, é antibiótico tópico indicado para acne inflamatória (pápulas e pústulas). Age reduzindo a bactéria Cutibacterium acnes e tem efeito anti-inflamatório local."
+      },
+      {
+        "pergunta": "Eritromicina tópica pode usar no rosto todo?",
+        "resposta": "Sim, aplica-se nas áreas afetadas pela acne. Evitar olhos, boca e mucosas. Aplicar em pele limpa e seca."
+      },
+      {
+        "pergunta": "Eritromicina tópica clareia a pele?",
+        "resposta": "Não tem efeito clareador. Age apenas contra a acne bacteriana. Para manchas, outros ativos como vitamina C ou niacinamida são mais indicados."
+      },
+      {
+        "pergunta": "Eritromicina tópica resseca a pele?",
+        "resposta": "Pode causar ressecamento e descamação leve no local de aplicação. Usar hidratante não comedogênico após a absorção ajuda a controlar esse efeito."
+      },
+      {
+        "pergunta": "Eritromicina tópica pode usar com outros produtos para acne?",
+        "resposta": "Sim, mas com cuidado. A combinação com peróxido de benzoíla é recomendada para reduzir resistência bacteriana. Evitar usar junto com retinoides sem orientação, pois pode irritar."
+      }
+    ]
   },
   {
     "nome": "Eritropoetina Alfa / Epoetina Alfa 2.000UI - 4.000UI - 10.000UI",
@@ -7391,7 +7611,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Eritropoetina serve para anemia?",
+        "resposta": "Sim, estimula a produção de glóbulos vermelhos na medula óssea. É indicada para anemia em insuficiência renal crônica e em pacientes em quimioterapia."
+      },
+      {
+        "pergunta": "Eritropoetina aumenta a pressão?",
+        "resposta": "Sim, hipertensão arterial é um efeito colateral importante. A pressão deve ser monitorada regularmente durante o tratamento."
+      },
+      {
+        "pergunta": "Eritropoetina é injetável?",
+        "resposta": "Sim, é administrada por injeção subcutânea ou intravenosa, geralmente em clínicas de diálise ou com orientação médica."
+      },
+      {
+        "pergunta": "Eritropoetina engorda?",
+        "resposta": "Não diretamente. O ganho de peso associado à diálise tem outras causas. A eritropoetina em si não causa ganho de peso."
+      },
+      {
+        "pergunta": "Eritropoetina tem limite de hemoglobina?",
+        "resposta": "Sim. A hemoglobina alvo é entre 10 e 12 g/dL. Valores acima aumentam risco cardiovascular — o médico monitora e ajusta a dose conforme os exames."
+      }
+    ]
   },
   {
     "nome": "Escitalopram 10mg - 15mg - 20mg - Gotas",
@@ -7773,7 +8015,29 @@
     ],
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Exenatida emagrece?",
+        "resposta": "Sim, promove perda de peso ao reduzir o apetite e retardar o esvaziamento gástrico. É um benefício adicional ao controle do diabetes."
+      },
+      {
+        "pergunta": "Exenatida causa enjoo?",
+        "resposta": "Sim, náusea é o efeito colateral mais comum, especialmente no início. Tende a melhorar com o tempo. Iniciar com dose baixa e comer porções menores ajuda."
+      },
+      {
+        "pergunta": "Exenatida e Ozempic são a mesma coisa?",
+        "resposta": "Não. Ambos são análogos do GLP-1, mas exenatida (Byetta/Bydureon) e semaglutida (Ozempic) são moléculas diferentes com posologias distintas."
+      },
+      {
+        "pergunta": "Exenatida é injetável?",
+        "resposta": "Sim. O Byetta é injetado 2 vezes ao dia e o Bydureon uma vez por semana (liberação prolongada), ambos por via subcutânea."
+      },
+      {
+        "pergunta": "Exenatida pode causar pancreatite?",
+        "resposta": "Raramente. Se houver dor abdominal intensa e persistente, comunicar ao médico imediatamente — pode ser sinal de pancreatite."
+      }
+    ]
   },
   {
     "nome": "Ezetimiba 10mg",
@@ -7804,7 +8068,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Ezetimiba baixa o colesterol?",
+        "resposta": "Sim, reduz o colesterol LDL inibindo sua absorção no intestino. Mecanismo diferente das estatinas, que agem no fígado — podem ser usados juntos para potencializar o resultado."
+      },
+      {
+        "pergunta": "Ezetimiba pode tomar com estatina?",
+        "resposta": "Sim, a combinação é muito usada. Quando a estatina isolada não atinge a meta de LDL, a ezetimiba é acrescentada para potencializar a redução."
+      },
+      {
+        "pergunta": "Ezetimiba tem efeitos colaterais?",
+        "resposta": "É geralmente bem tolerada. Os mais comuns são dor abdominal, diarreia e fadiga. Quando combinada com estatina, monitorar dor muscular."
+      },
+      {
+        "pergunta": "Ezetimiba pode substituir a estatina?",
+        "resposta": "Pode ser usada isoladamente em quem não tolera estatinas, mas é menos potente. A escolha depende do perfil do paciente e da meta de LDL."
+      },
+      {
+        "pergunta": "Ezetimiba engorda?",
+        "resposta": "Não. Não tem efeito sobre o peso corporal."
+      }
+    ]
   },
   {
     "nome": "Febuxostate 40mg - 80mg - 120mg",
@@ -7834,7 +8120,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Febuxostate serve para gota?",
+        "resposta": "Sim, é indicado para reduzir o ácido úrico cronicamente e prevenir crises de gota. Não deve ser usado durante a crise aguda."
+      },
+      {
+        "pergunta": "Febuxostate pode causar crise de gota no início?",
+        "resposta": "Sim, é comum no início do tratamento. Por isso o médico costuma prescrever colchicina ou anti-inflamatório preventivo por 3 a 6 meses junto com o febuxostate."
+      },
+      {
+        "pergunta": "Febuxostate faz mal ao coração?",
+        "resposta": "Estudos sugeriram possível aumento de eventos cardiovasculares em pacientes com doença cardíaca estabelecida. Discutir o risco-benefício com o médico antes de usar."
+      },
+      {
+        "pergunta": "Febuxostate é melhor que alopurinol?",
+        "resposta": "É mais potente na redução do ácido úrico, mas o alopurinol ainda é a primeira escolha. Febuxostate é alternativa para quem não tolera o alopurinol por reações alérgicas."
+      },
+      {
+        "pergunta": "Febuxostate pode tomar com colchicina?",
+        "resposta": "Sim, a combinação é frequentemente prescrita no início do tratamento justamente para prevenir as crises de gota que podem ocorrer com a queda do ácido úrico."
+      }
+    ]
   },
   {
     "nome": "Febuxostato 40mg - 80mg",
@@ -7866,7 +8174,29 @@
     ],
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Febuxostato serve para gota?",
+        "resposta": "Sim, reduz o ácido úrico cronicamente e prevenir crises de gota. Não deve ser usado durante a crise aguda."
+      },
+      {
+        "pergunta": "Febuxostato causa crise de gota no início?",
+        "resposta": "Sim, é comum no início. O médico costuma prescrever colchicina ou anti-inflamatório preventivo por 3 a 6 meses junto com o febuxostato."
+      },
+      {
+        "pergunta": "Febuxostato faz mal ao coração?",
+        "resposta": "O FDA emitiu alerta sobre possível aumento de risco cardiovascular comparado ao alopurinol. Usar com cautela em pacientes com doença cardiovascular estabelecida."
+      },
+      {
+        "pergunta": "Febuxostato pode ser usado em insuficiência renal?",
+        "resposta": "Sim, tem vantagem sobre o alopurinol em pacientes com insuficiência renal moderada, pois não depende tanto da eliminação renal."
+      },
+      {
+        "pergunta": "Febuxostato e alopurinol podem ser usados juntos?",
+        "resposta": "Não. São medicamentos com o mesmo mecanismo de ação — inibição da xantina oxidase. Usar apenas um deles conforme orientação médica."
+      }
+    ]
   },
   {
     "nome": "Fenitoína 100mg - Injetável",
@@ -7891,7 +8221,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Fenitoína serve para convulsão?",
+        "resposta": "Sim, é anticonvulsivante usado no tratamento de epilepsia e emergências como o estado de mal epiléptico (convulsões que não param)."
+      },
+      {
+        "pergunta": "Fenitoína dá sono?",
+        "resposta": "Sim, sonolência, tontura e dificuldade de coordenação são efeitos comuns. Evitar dirigir até saber como o medicamento afeta você."
+      },
+      {
+        "pergunta": "Fenitoína pode parar de tomar de repente?",
+        "resposta": "Não. Nunca interromper abruptamente — pode desencadear crises convulsivas graves. A dose deve ser reduzida gradualmente sob orientação médica."
+      },
+      {
+        "pergunta": "Fenitoína causa reação alérgica grave?",
+        "resposta": "Pode causar reações graves como Síndrome de Stevens-Johnson — feridas e bolhas na pele e mucosas. Ao primeiro sinal de erupção cutânea, comunicar o médico imediatamente."
+      },
+      {
+        "pergunta": "Fenitoína tem muitas interações?",
+        "resposta": "Sim, interage com muitos medicamentos — anticoagulantes, anticoncepcionais, outros anticonvulsivantes, entre outros. Sempre informar ao médico todos os medicamentos em uso."
+      }
+    ]
   },
   {
     "nome": "Fenobarbital 100mg",
@@ -7922,7 +8274,29 @@
     ],
     "receita_obrigatoria": true,
     "tipo_receita": "C1",
-    "retencao_receita": true
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Fenobarbital serve para epilepsia?",
+        "resposta": "Sim, é um anticonvulsivante barbitúrico usado principalmente em crises tônico-clônicas generalizadas. Também conhecido comercialmente como Gardenal."
+      },
+      {
+        "pergunta": "Fenobarbital dá sono?",
+        "resposta": "Sim, sonolência e sedação são os efeitos mais comuns. Esse efeito pode diminuir com o tempo de uso conforme o organismo se adapta."
+      },
+      {
+        "pergunta": "Fenobarbital causa dependência?",
+        "resposta": "Sim, com o uso crônico pode causar dependência física. Nunca interromper abruptamente — pode causar convulsões graves. A retirada deve ser gradual com orientação médica."
+      },
+      {
+        "pergunta": "Fenobarbital pode tomar com álcool?",
+        "resposta": "Não. A combinação aumenta perigosamente a depressão do sistema nervoso central, podendo causar sedação profunda e comprometimento respiratório."
+      },
+      {
+        "pergunta": "Fenobarbital é controlado?",
+        "resposta": "Sim, é medicamento controlado (lista C1) e exige receita de controle especial em 2 vias, retida na farmácia."
+      }
+    ]
   },
   {
     "nome": "Fenofibrato 145mg - 200mg",
@@ -7953,7 +8327,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Fenofibrato baixa triglicerídeos?",
+        "resposta": "Sim, é especialmente eficaz na redução de triglicerídeos elevados e no aumento do HDL (colesterol bom). Indicado principalmente em hipertrigliceridemia grave."
+      },
+      {
+        "pergunta": "Fenofibrato pode tomar com estatina?",
+        "resposta": "Pode em casos selecionados, mas com cautela — a combinação aumenta o risco de miopatia (dor muscular). O médico avalia o risco-benefício individualmente."
+      },
+      {
+        "pergunta": "Fenofibrato faz mal ao rim?",
+        "resposta": "Pode elevar a creatinina (marcador de função renal), geralmente de forma reversível. É contraindicado em insuficiência renal grave. Monitoramento é necessário."
+      },
+      {
+        "pergunta": "Fenofibrato dá dor muscular?",
+        "resposta": "Sim, mialgia é um efeito possível, especialmente combinado com estatinas. Comunicar ao médico se sentir dor muscular intensa ou urina escura."
+      },
+      {
+        "pergunta": "Fenofibrato pode substituir a estatina?",
+        "resposta": "Não diretamente. Têm efeitos diferentes: estatina reduz LDL principalmente, enquanto fenofibrato é mais eficaz nos triglicerídeos e HDL. Frequentemente usados juntos."
+      }
+    ]
   },
   {
     "nome": "Fenoterol 0,1mg/dose Spray / 5mg/mL Solução",
@@ -7983,7 +8379,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Fenoterol serve para crise de asma?",
+        "resposta": "Sim, é broncodilatador de curta ação (SABA) para alívio rápido de crises de broncoespasmo em asma e DPOC. Age em poucos minutos."
+      },
+      {
+        "pergunta": "Fenoterol causa tremor?",
+        "resposta": "Sim, tremor nas mãos é um efeito colateral comum, especialmente com doses mais altas em nebulização."
+      },
+      {
+        "pergunta": "Fenoterol acelerou meu coração — é normal?",
+        "resposta": "Taquicardia e palpitações podem ocorrer, especialmente com doses altas. Se for intensa ou persistente, comunicar ao médico."
+      },
+      {
+        "pergunta": "Fenoterol pode usar todo dia?",
+        "resposta": "Usar mais de 2 vezes por semana (exceto antes de exercício) indica asma mal controlada e deve ser avaliado pelo médico. Não é indicado para uso contínuo diário sem reavaliação."
+      },
+      {
+        "pergunta": "Fenoterol é igual ao salbutamol?",
+        "resposta": "São broncodilatadores de curta ação do mesmo grupo (beta-2 agonistas), mas são moléculas diferentes. O salbutamol tem perfil de segurança ligeiramente superior e é mais recomendado atualmente."
+      }
+    ]
   },
   {
     "nome": "Fentanila Adesivo 12mcg/h - 25mcg/h - 50mcg/h - 100mcg/h",
@@ -8014,7 +8432,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "A",
-    "retencao_receita": true
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Fentanila adesivo pode usar quem nunca tomou opioide?",
+        "resposta": "Não. É contraindicado em pacientes sem tolerância prévia a opioides — risco de morte por depressão respiratória. Exclusivo para quem já usa opioides regularmente."
+      },
+      {
+        "pergunta": "Fentanila adesivo quanto tempo dura?",
+        "resposta": "Cada adesivo libera medicamento continuamente por 72 horas (3 dias). Após esse período, substituir por um novo adesivo em local diferente da pele."
+      },
+      {
+        "pergunta": "Fentanila adesivo pode molhar?",
+        "resposta": "Sim, é resistente à água e pode tomar banho. Evitar exposição a calor intenso (sauna, compressa quente, febre alta) — aumenta a absorção e pode causar overdose."
+      },
+      {
+        "pergunta": "Fentanila adesivo causa prisão de ventre?",
+        "resposta": "Sim, constipação é um dos efeitos mais comuns de todos os opioides. O médico geralmente prescreve laxante preventivo junto com o tratamento."
+      },
+      {
+        "pergunta": "Como descartar o adesivo de fentanila usado?",
+        "resposta": "Dobrar ao meio com o lado adesivo para dentro e descartar em local seguro, longe do alcance de crianças e animais. Adesivos usados ainda contêm quantidade significativa de medicamento e podem ser fatais."
+      }
+    ]
   },
   {
     "nome": "Fentolamina 40mg - Injetável",
