@@ -8480,7 +8480,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Fentolamina serve para disfunção erétil?",
+        "resposta": "Sim, é usada em injeção intracavernosa (diretamente no pênis) para tratar disfunção erétil, geralmente combinada com outros medicamentos. Deve ser aplicada com orientação médica especializada."
+      },
+      {
+        "pergunta": "Fentolamina pode causar ereção prolongada?",
+        "resposta": "Sim, priapismo (ereção prolongada e dolorosa) é um risco grave. Se a ereção durar mais de 4 horas, procurar emergência imediatamente — pode causar dano permanente."
+      },
+      {
+        "pergunta": "Fentolamina baixa a pressão?",
+        "resposta": "Sim, queda de pressão (hipotensão) é um efeito comum. Por isso deve ser usada com monitoramento médico — especialmente na forma injetável intravenosa para crises hipertensivas."
+      },
+      {
+        "pergunta": "Fentolamina causa taquicardia?",
+        "resposta": "Sim, coração acelerado é um efeito colateral frequente, pois ao dilatar os vasos o corpo reage aumentando os batimentos cardíacos como compensação."
+      },
+      {
+        "pergunta": "Fentolamina pode comprar em farmácia?",
+        "resposta": "A forma injetável é de uso hospitalar ou clínico. Há formulações manipuladas para uso urológico, mas sempre com prescrição e orientação de especialista."
+      }
+    ]
   },
   {
     "nome": "Ferro Injetável (Sacarato de Hidróxido Férrico)",
@@ -8506,7 +8528,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Ferro injetável é mais eficaz que o comprimido?",
+        "resposta": "Sim, repõe os estoques de ferro mais rapidamente e é indicado quando o ferro oral não funciona, causa muita intolerância ou quando há má absorção intestinal, como após cirurgia bariátrica."
+      },
+      {
+        "pergunta": "Ferro injetável pode causar alergia?",
+        "resposta": "Sim, reação alérgica grave (anafilaxia) é um risco raro mas real. Por isso só pode ser administrado em ambiente hospitalar ou clínica com equipe preparada para emergências."
+      },
+      {
+        "pergunta": "Ferro injetável dói?",
+        "resposta": "Pode causar dor ou desconforto no local da infusão venosa. A aplicação deve ser lenta para reduzir reações locais e sistêmicas."
+      },
+      {
+        "pergunta": "Ferro injetável fica na pele?",
+        "resposta": "Se extravasar da veia pode manchar a pele permanentemente de marrom escuro. A técnica de aplicação cuidadosa é essencial para evitar isso."
+      },
+      {
+        "pergunta": "Ferro injetável serve para anemia na gestação?",
+        "resposta": "Sim, em gestantes com anemia grave que não respondem ao ferro oral, o ferro injetável pode ser indicado, geralmente a partir do segundo trimestre, com avaliação médica."
+      }
+    ]
   },
   {
     "nome": "Ferro Quelato Bisglicinato",
@@ -8532,7 +8576,29 @@
     "receita_cor": "verde",
     "receita_obrigatoria": false,
     "tipo_receita": "MIP",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Ferro quelato é melhor que sulfato ferroso?",
+        "resposta": "Tem melhor absorção e causa menos efeitos gastrointestinais (menos enjoo, constipação e gosto metálico) que o sulfato ferroso. É mais caro, mas melhor tolerado especialmente em gestantes e pessoas com estômago sensível."
+      },
+      {
+        "pergunta": "Ferro quelato escurece as fezes?",
+        "resposta": "Sim, fezes escuras ou enegrecidas são normais com qualquer suplemento de ferro. Não é sinal de problema — é o ferro que não foi absorvido sendo eliminado."
+      },
+      {
+        "pergunta": "Ferro quelato pode tomar em jejum?",
+        "resposta": "Sim, pode ser tomado em jejum para melhor absorção. Diferente do sulfato ferroso, o quelato bisglicinato é mais bem tolerado com o estômago vazio por causar menos irritação gástrica."
+      },
+      {
+        "pergunta": "Ferro quelato serve para gestante?",
+        "resposta": "Sim, é muito indicado na gestação por ser bem absorvido e ter menos efeitos colaterais gastrointestinais — importante numa fase em que enjoo já é frequente."
+      },
+      {
+        "pergunta": "Ferro quelato pode tomar com vitamina C?",
+        "resposta": "Sim, a vitamina C potencializa a absorção do ferro. Porém evitar junto com café, chá, leite e antiácidos, que reduzem a absorção."
+      }
+    ]
   },
   {
     "nome": "Ferro Sacarato / Sacarato de Hidróxido Férrico 100mg Injetável",
@@ -8563,7 +8629,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Ferro sacarato é o mesmo que ferro injetável?",
+        "resposta": "Sim, é uma das formas de ferro intravenoso. É administrado diretamente na veia em ambiente hospitalar ou clínica de diálise para reposição rápida de ferro."
+      },
+      {
+        "pergunta": "Ferro sacarato pode causar reação grave?",
+        "resposta": "Sim, reação anafilactoide é um risco. Por isso é obrigatória a presença de equipe médica e equipamento de ressuscitação durante a infusão."
+      },
+      {
+        "pergunta": "Ferro sacarato é indicado para quem faz diálise?",
+        "resposta": "Sim, é muito usado em pacientes com insuficiência renal em diálise, que frequentemente apresentam anemia e não absorvem bem o ferro oral."
+      },
+      {
+        "pergunta": "Quanto tempo dura o tratamento com ferro sacarato?",
+        "resposta": "Depende da gravidade da anemia e da causa. O médico calcula a dose total e o número de sessões de infusão com base em exames de ferritina e hemoglobina."
+      },
+      {
+        "pergunta": "Ferro sacarato pode ser aplicado em casa?",
+        "resposta": "Não. É exclusivamente hospitalar ou em clínicas especializadas, devido ao risco de reações graves que exigem monitoramento e suporte imediato."
+      }
+    ]
   },
   {
     "nome": "Fesoterodina 4mg - 8mg",
@@ -8592,7 +8680,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Fesoterodina serve para bexiga?",
+        "resposta": "Sim, é indicada para bexiga hiperativa — controla a urgência urinária, a frequência excessiva de idas ao banheiro e a perda involuntária de urina (incontinência de urgência)."
+      },
+      {
+        "pergunta": "Fesoterodina causa boca seca?",
+        "resposta": "Sim, boca seca é o efeito colateral mais comum dos antimuscarínicos como a fesoterodina. Beber água em pequenos goles ajuda, mas evitar aumentar muito o consumo de líquidos para não piorar a bexiga."
+      },
+      {
+        "pergunta": "Fesoterodina pode ser usada por idosos?",
+        "resposta": "Com cautela. Idosos são mais sensíveis a efeitos anticolinérgicos como confusão mental, constipação e retenção urinária. O médico avalia o risco-benefício individualmente."
+      },
+      {
+        "pergunta": "Fesoterodina prende o intestino?",
+        "resposta": "Sim, constipação é um efeito colateral possível. Aumentar fibras e líquidos na dieta ajuda a minimizar esse efeito."
+      },
+      {
+        "pergunta": "Fesoterodina demora quanto tempo para fazer efeito?",
+        "resposta": "Os primeiros efeitos podem ser percebidos em 1 a 2 semanas, mas o benefício completo geralmente aparece após 4 a 8 semanas de uso regular."
+      }
+    ]
   },
   {
     "nome": "Finasterida 1mg - 5mg",
@@ -8618,7 +8728,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Finasterida para queda de cabelo funciona?",
+        "resposta": "Sim, na dose de 1mg é eficaz para calvície de padrão masculino. Reduz a queda e em muitos casos estimula o crescimento de novos fios. O efeito começa a aparecer após 3 a 6 meses e requer uso contínuo."
+      },
+      {
+        "pergunta": "Finasterida afeta a libido?",
+        "resposta": "Pode reduzir o desejo sexual, causar dificuldade de ereção e reduzir o volume de ejaculação. Esses efeitos geralmente melhoram ao parar o medicamento, mas em casos raros podem persistir."
+      },
+      {
+        "pergunta": "Finasterida mulher pode usar?",
+        "resposta": "Mulheres em idade fértil não devem usar nem manusear comprimidos partidos — é teratogênica e pode causar malformações em fetos do sexo masculino. Em mulheres pós-menopausa pode ser usada com avaliação médica."
+      },
+      {
+        "pergunta": "Finasterida 1mg e 5mg têm diferença?",
+        "resposta": "Sim. 1mg é para calvície masculina. 5mg é para hiperplasia prostática benigna (próstata aumentada). O médico define a dose conforme a indicação."
+      },
+      {
+        "pergunta": "Finasterida pode parar de tomar de repente?",
+        "resposta": "Pode ser interrompida sem redução gradual, mas a queda de cabelo retorna progressivamente após alguns meses da suspensão — o efeito não é permanente."
+      }
+    ]
   },
   {
     "nome": "Fluconazol 50mg - 100mg - 150mg - 200mg - Suspensão - Injetável",
@@ -8644,7 +8776,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Fluconazol serve para candidíase?",
+        "resposta": "Sim, é o antifúngico mais usado para candidíase vaginal, oral (sapinho) e de pele. Para candidíase vaginal não complicada, uma única dose de 150mg costuma ser suficiente."
+      },
+      {
+        "pergunta": "Fluconazol uma dose resolve?",
+        "resposta": "Para candidíase vaginal não complicada sim — uma dose de 150mg geralmente resolve. Para infecções recorrentes ou em outros locais, o médico pode prescrever doses por vários dias."
+      },
+      {
+        "pergunta": "Fluconazol pode tomar na gravidez?",
+        "resposta": "Não. É contraindicado na gravidez — pode causar malformações no bebê. Para grávidas com candidíase, o médico indica antifúngico tópico (creme ou óvulo vaginal)."
+      },
+      {
+        "pergunta": "Fluconazol pode tomar com anticoncepcional?",
+        "resposta": "Pode reduzir a eficácia de alguns anticoncepcionais orais por interação hepática. Usar método adicional de proteção e avisar ao médico ou ginecologista."
+      },
+      {
+        "pergunta": "Fluconazol serve para micose de unha?",
+        "resposta": "Sim, mas o tratamento é longo — semanas a meses, pois a unha cresce lentamente. A taxa de cura é menor que para candidíase e o médico avalia se é o antifúngico mais adequado para o tipo de fungo."
+      }
+    ]
   },
   {
     "nome": "Fluoxetina 10mg - 20mg - Gotas",
@@ -8724,7 +8878,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Formoterol com Budesonida serve para asma?",
+        "resposta": "Sim, é uma das combinações mais usadas no controle da asma persistente. O formoterol abre os brônquios e a budesonida reduz a inflamação — os dois trabalhando juntos dão controle mais eficaz."
+      },
+      {
+        "pergunta": "Formoterol com Budesonida pode usar na crise?",
+        "resposta": "Em alguns protocolos médicos (estratégia MART) sim — o mesmo inalador serve para manutenção e resgate. Mas siga rigorosamente a orientação do seu médico, pois o uso incorreto pode ser perigoso."
+      },
+      {
+        "pergunta": "Formoterol com Budesonida causa candidíase na boca?",
+        "resposta": "Pode. O corticoide inalatório favorece o crescimento de fungo na boca. Bochechar com água e cuspir após cada uso reduz muito esse risco."
+      },
+      {
+        "pergunta": "Formoterol com Budesonida causa rouquidão?",
+        "resposta": "Sim, rouquidão e tosse são efeitos possíveis do corticoide inalatório. Bochechar com água após o uso e usar espaçador ajudam a reduzir esse efeito."
+      },
+      {
+        "pergunta": "Formoterol com Budesonida pode parar de usar?",
+        "resposta": "Não deve ser interrompido sem orientação médica mesmo que você esteja bem — é medicamento de controle e a melhora indica que está funcionando, não que pode parar."
+      }
+    ]
   },
   {
     "nome": "Formoterol + Propionato de Fluticasona (Lugano)",
@@ -8754,7 +8930,29 @@
     ],
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Lugano serve para asma?",
+        "resposta": "Sim, é indicado para asma e DPOC. Combina formoterol (broncodilatador de longa ação) com fluticasona (corticoide inalatório) num único inalador para controle diário."
+      },
+      {
+        "pergunta": "Lugano pode usar na crise de falta de ar?",
+        "resposta": "Não. É medicamento de manutenção, não de resgate. Para crises agudas usar broncodilatador de alívio rápido como salbutamol. Nunca substituir o Lugano pelo salbutamol no dia a dia."
+      },
+      {
+        "pergunta": "Lugano causa rouquidão?",
+        "resposta": "Pode. O corticoide inalatório pode causar rouquidão e candidíase oral. Bochechar com água e cuspir após cada uso ajuda a prevenir esses efeitos."
+      },
+      {
+        "pergunta": "Lugano pode ser usado por crianças?",
+        "resposta": "Depende da idade e da dose. Consultar o médico — há formulações pediátricas de corticoide inalatório mais adequadas para crianças pequenas."
+      },
+      {
+        "pergunta": "Lugano precisa de receita?",
+        "resposta": "Sim, é medicamento de uso contínuo para asma e DPOC que exige prescrição médica. Não usar sem orientação, pois a dose e a frequência devem ser definidas pelo médico."
+      }
+    ]
   },
   {
     "nome": "Formoterol isolado 12mcg",
@@ -8786,7 +8984,29 @@
     ],
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Formoterol isolado pode usar em asma?",
+        "resposta": "Com muito cuidado. Na asma, nunca deve ser usado sem corticoide inalatório — o uso isolado de LABA aumenta o risco de morte. Sempre associado à budesonida, fluticasona ou outro corticoide."
+      },
+      {
+        "pergunta": "Formoterol causa tremor?",
+        "resposta": "Sim, tremor fino nas mãos e palpitações são efeitos comuns dos broncodilatadores beta-2 como o formoterol, especialmente no início do tratamento."
+      },
+      {
+        "pergunta": "Formoterol dura quanto tempo?",
+        "resposta": "É broncodilatador de longa duração — age por até 12 horas. Por isso é usado 2 vezes ao dia para manutenção, diferente do salbutamol que dura apenas 4 a 6 horas."
+      },
+      {
+        "pergunta": "Formoterol serve para DPOC?",
+        "resposta": "Sim, é indicado para tratamento de manutenção da DPOC (doença pulmonar obstrutiva crônica). Frequentemente combinado com anticolinérgico e/ou corticoide inalatório."
+      },
+      {
+        "pergunta": "Formoterol pode baixar o potássio?",
+        "resposta": "Sim, hipocalemia (potássio baixo) é um efeito possível com doses altas. Pacientes com risco cardíaco ou usando diuréticos devem ter o potássio monitorado."
+      }
+    ]
   },
   {
     "nome": "Fosfomicina 3g - Granulado para Solução Oral",
@@ -8811,7 +9031,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": true
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Fosfomicina é dose única?",
+        "resposta": "Sim! É a grande vantagem — um único sachê de 3g dissolvido em água já trata a cistite aguda não complicada em mulheres adultas, sem necessidade de tomar antibiótico por dias."
+      },
+      {
+        "pergunta": "Fosfomicina serve para infecção urinária?",
+        "resposta": "Sim, especificamente para cistite aguda não complicada em mulheres (infecção de bexiga). Não é indicada para infecção de rim (pielonefrite) ou infecções complicadas."
+      },
+      {
+        "pergunta": "Fosfomicina pode tomar na gravidez?",
+        "resposta": "Pode ser usada na gestação com avaliação médica — é uma das opções mais seguras para cistite em grávidas por ser dose única e ter baixa absorção sistêmica."
+      },
+      {
+        "pergunta": "Fosfomicina pode usar o sachê com comida?",
+        "resposta": "Deve ser tomada de preferência 2 a 3 horas após uma refeição, dissolvida em água fria ou em temperatura ambiente. Não dissolver em líquidos quentes."
+      },
+      {
+        "pergunta": "Fosfomicina funciona para todos os tipos de bactéria?",
+        "resposta": "É eficaz principalmente contra E. coli e Enterococcus faecalis — os principais causadores de cistite. Para outros tipos de bactéria ou infecções resistentes, outros antibióticos podem ser mais adequados."
+      }
+    ]
   },
   {
     "nome": "Furoato de Mometasona 50mcg/dose Spray Nasal",
@@ -8842,7 +9084,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Furoato de Mometasona serve para rinite?",
+        "resposta": "Sim, é corticoide nasal de primeira linha para rinite alérgica. Reduz a inflamação da mucosa nasal, aliviando espirros, coriza, coceira e congestão."
+      },
+      {
+        "pergunta": "Furoato de Mometasona causa sangramento nasal?",
+        "resposta": "Pode causar sangramento nasal leve, especialmente no início do tratamento ou se aplicado incorretamente. Direcionar o spray para a lateral da narina, não para o septo nasal."
+      },
+      {
+        "pergunta": "Furoato de Mometasona pode usar em crianças?",
+        "resposta": "Sim, pode ser usado em crianças a partir de 2 anos em algumas indicações, com doses específicas para a faixa etária. Sempre com orientação médica."
+      },
+      {
+        "pergunta": "Furoato de Mometasona demora quanto para fazer efeito?",
+        "resposta": "Os primeiros efeitos aparecem em 12 a 24 horas, mas o efeito completo leva alguns dias de uso regular. É um medicamento de uso contínuo, não de alívio imediato."
+      },
+      {
+        "pergunta": "Furoato de Mometasona pode usar todo dia?",
+        "resposta": "Sim, é de uso diário. Por ter absorção sistêmica mínima (menos de 1%), é seguro para uso prolongado sem os efeitos sistêmicos dos corticoides orais."
+      }
+    ]
   },
   {
     "nome": "Furosemida 20mg - 40mg - 80mg - Injetável",
@@ -8969,7 +9233,29 @@
     ],
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Galantamina serve para Alzheimer?",
+        "resposta": "Sim, é indicada para tratamento sintomático do Alzheimer leve a moderado. Age aumentando os níveis de acetilcolina no cérebro, melhorando cognição e memória temporariamente."
+      },
+      {
+        "pergunta": "Galantamina é igual à donepezila?",
+        "resposta": "Têm o mesmo mecanismo de ação (inibidores da colinesterase) mas são moléculas diferentes. A donepezila pode ser usada em qualquer estágio do Alzheimer; a galantamina é indicada para estágios leve a moderado."
+      },
+      {
+        "pergunta": "Galantamina causa enjoo?",
+        "resposta": "Sim, náusea, vômito e diarreia são os efeitos mais comuns, especialmente no início ou ao aumentar a dose. Tomar com alimentos ajuda a reduzir o desconforto."
+      },
+      {
+        "pergunta": "Galantamina pode parar de tomar de repente?",
+        "resposta": "Não é recomendado. A interrupção abrupta pode piorar os sintomas do Alzheimer. Qualquer mudança deve ser feita com orientação do médico."
+      },
+      {
+        "pergunta": "Galantamina faz mal ao coração?",
+        "resposta": "Pode causar bradicardia (coração lento). Pacientes com problemas cardíacos devem ser monitorados, especialmente no início do tratamento."
+      }
+    ]
   },
   {
     "nome": "Ganciclovir 500mg",
@@ -8995,7 +9281,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "hospitalar",
-    "retencao_receita": true
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Ganciclovir serve para qual vírus?",
+        "resposta": "É antiviral específico para citomegalovírus (CMV). Usado em pacientes imunossuprimidos como transplantados e pessoas com HIV que desenvolvem infecção grave por CMV."
+      },
+      {
+        "pergunta": "Ganciclovir pode comprar em farmácia?",
+        "resposta": "Não. É medicamento de uso hospitalar, administrado em ambiente controlado por equipe de saúde, geralmente via intravenosa."
+      },
+      {
+        "pergunta": "Ganciclovir afeta o sangue?",
+        "resposta": "Sim, suprime a medula óssea — pode reduzir glóbulos brancos, vermelhos e plaquetas. Exames de sangue regulares são necessários durante o tratamento."
+      },
+      {
+        "pergunta": "Ganciclovir tem substituto em comprimido?",
+        "resposta": "Sim, o valganciclovir é a versão oral com melhor absorção, usada tanto para tratamento quanto para prevenção do CMV em pacientes de risco."
+      },
+      {
+        "pergunta": "Ganciclovir pode ser usado em crianças?",
+        "resposta": "Sim, é usado em recém-nascidos com infecção congênita por CMV e em crianças imunossuprimidas, com doses calculadas por peso e sempre com supervisão médica especializada."
+      }
+    ]
   },
   {
     "nome": "Glibenclamida 5mg",
@@ -9074,7 +9382,29 @@
     ],
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Glicazida serve para diabetes tipo 2?",
+        "resposta": "Sim, é antidiabético oral da classe das sulfonilureias. Estimula o pâncreas a liberar mais insulina. Indicada exclusivamente para diabetes tipo 2."
+      },
+      {
+        "pergunta": "Glicazida causa hipoglicemia?",
+        "resposta": "Sim, hipoglicemia (queda de açúcar no sangue) é o principal risco. Mais frequente em idosos, quem faz jejum prolongado ou usa álcool. Sintomas: tremor, suor, fraqueza, confusão."
+      },
+      {
+        "pergunta": "Glicazida MR o que significa?",
+        "resposta": "MR significa Modificação/Liberação Retardada — o comprimido libera o medicamento aos poucos ao longo do dia, permitindo dose única diária com efeito mais estável e menos picos de hipoglicemia."
+      },
+      {
+        "pergunta": "Glicazida pode tomar com metformina?",
+        "resposta": "Sim, a combinação é muito comum e complementar — a metformina age no fígado e a glicazida estimula o pâncreas, resultando em melhor controle glicêmico."
+      },
+      {
+        "pergunta": "Glicazida engorda?",
+        "resposta": "Pode causar leve ganho de peso, pois aumenta os níveis de insulina. Manter dieta equilibrada e atividade física ajuda a controlar o peso durante o tratamento."
+      }
+    ]
   },
   {
     "nome": "Glicopirrônio (Seebri)",
@@ -9106,7 +9436,29 @@
     ],
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Glicopirrônio serve para DPOC?",
+        "resposta": "Sim, é anticolinérgico inalatório de longa duração (LAMA) indicado para manutenção da DPOC. Dilata os brônquios e reduz a hiperinsuflação pulmonar, melhorando a capacidade de respirar."
+      },
+      {
+        "pergunta": "Glicopirrônio pode usar na crise?",
+        "resposta": "Não. É medicamento de manutenção de uso diário — não age rápido o suficiente para crises agudas. Para crises, usar broncodilatador de alívio rápido como salbutamol."
+      },
+      {
+        "pergunta": "Glicopirrônio causa boca seca?",
+        "resposta": "Sim, boca seca é o efeito colateral mais comum dos anticolinérgicos inalatórios. Beber água regularmente ajuda a aliviar o desconforto."
+      },
+      {
+        "pergunta": "Glicopirrônio e tiotrópio são iguais?",
+        "resposta": "São do mesmo grupo (LAMA — anticolinérgicos de longa ação) com mecanismo semelhante, mas moléculas diferentes. O médico escolhe conforme disponibilidade e perfil do paciente."
+      },
+      {
+        "pergunta": "Glicopirrônio pode piorar o glaucoma?",
+        "resposta": "Sim, anticolinérgicos podem agravar o glaucoma de ângulo fechado e a retenção urinária em hipertrofia prostática. Informar ao médico se tiver essas condições."
+      }
+    ]
   },
   {
     "nome": "Glimepirida 1mg - 2mg - 4mg",
@@ -9137,7 +9489,29 @@
     ],
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Glimepirida serve para diabetes tipo 2?",
+        "resposta": "Sim, é sulfonilureia de 3ª geração que estimula a liberação de insulina pelo pâncreas. Indicada para diabetes tipo 2, sozinha ou combinada com metformina ou insulina."
+      },
+      {
+        "pergunta": "Glimepirida causa hipoglicemia?",
+        "resposta": "Sim, é o principal risco. Mais grave em idosos, pacientes com insuficiência renal ou hepática, em jejum e com uso de álcool. Sintomas: tremor, suor frio, tontura, fraqueza."
+      },
+      {
+        "pergunta": "Glimepirida engorda?",
+        "resposta": "Pode causar leve ganho de peso por aumentar os níveis de insulina. É menor que com outras sulfonilureias mais antigas como a glibenclamida."
+      },
+      {
+        "pergunta": "Glimepirida pode tomar com metformina?",
+        "resposta": "Sim, a combinação é muito usada e complementar para controle do diabetes tipo 2. Cada um age por mecanismo diferente, potencializando o resultado."
+      },
+      {
+        "pergunta": "Glimepirida serve para diabetes tipo 1?",
+        "resposta": "Não. É contraindicada no diabetes tipo 1, pois nesses pacientes o pâncreas não produz insulina e estimulá-lo não terá efeito. O tratamento do tipo 1 é sempre com insulina."
+      }
+    ]
   },
   {
     "nome": "Griseofulvina 125mg - 500mg",
@@ -9167,7 +9541,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Griseofulvina serve para micose?",
+        "resposta": "Sim, é antifúngico oral clássico indicado para micoses de pele, cabelo e unhas causadas por dermatófitos (tinhas). É especialmente indicado para micose do couro cabeludo (tinea capitis) em crianças."
+      },
+      {
+        "pergunta": "Griseofulvina demora quanto para fazer efeito?",
+        "resposta": "O tratamento é longo — semanas a meses, dependendo do local da infecção. Micoses de couro cabeludo levam 4 a 8 semanas; de unhas podem levar meses. Persistência é essencial."
+      },
+      {
+        "pergunta": "Griseofulvina pode tomar na gravidez?",
+        "resposta": "Não. É teratogênica (pode causar malformações) e contraindicada na gravidez. Homens que desejam ter filhos também devem evitar por pelo menos 6 meses após o tratamento."
+      },
+      {
+        "pergunta": "Griseofulvina causa sensibilidade ao sol?",
+        "resposta": "Sim, fotossensibilidade é um efeito colateral — a pele fica mais sensível ao sol durante o tratamento. Usar protetor solar e evitar exposição solar intensa."
+      },
+      {
+        "pergunta": "Griseofulvina pode tomar com comida gordurosa?",
+        "resposta": "Sim, refeições com gordura aumentam significativamente a absorção da griseofulvina. Tomá-la junto com leite integral ou refeição gordurosa melhora a eficácia do tratamento."
+      }
+    ]
   },
   {
     "nome": "Haloperidol 1mg - 5mg - Gotas - Injetável",
@@ -9240,7 +9636,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "hospitalar",
-    "retencao_receita": true
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Heparina serve para trombose?",
+        "resposta": "Sim, é anticoagulante potente usado para prevenir e tratar trombose venosa profunda, embolia pulmonar, infarto e procedimentos cirúrgicos. Age impedindo a formação de coágulos."
+      },
+      {
+        "pergunta": "Heparina pode causar sangramento?",
+        "resposta": "Sim, hemorragia é o principal risco. Qualquer sangramento incomum (urina com sangue, fezes escuras, sangramento prolongado em cortes) deve ser comunicado imediatamente à equipe médica."
+      },
+      {
+        "pergunta": "Heparina é injetável ou comprimido?",
+        "resposta": "É exclusivamente injetável — subcutânea (abdominal, a famosa 'barriga') ou intravenosa. Não existe forma oral de heparina."
+      },
+      {
+        "pergunta": "Heparina pode ser usada na gravidez?",
+        "resposta": "Sim, é o anticoagulante de escolha na gravidez — não atravessa a placenta. A varfarina, ao contrário, é contraindicada na maioria das fases da gestação."
+      },
+      {
+        "pergunta": "Heparina e enoxaparina são iguais?",
+        "resposta": "São do mesmo grupo (anticoagulantes injetáveis) mas diferentes. A enoxaparina é heparina de baixo peso molecular — mais prática (dose fixa, sem precisar monitorar coagulação), usada mais ambulatorialmente."
+      }
+    ]
   },
   {
     "nome": "Hidralazina 25mg - 50mg - Injetável",
@@ -9266,7 +9684,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Hidralazina serve para pressão alta?",
+        "resposta": "Sim, é vasodilatador indicado para hipertensão moderada a grave, geralmente em combinação com outros medicamentos. A forma injetável é usada em emergências hipertensivas."
+      },
+      {
+        "pergunta": "Hidralazina pode usar na gravidez?",
+        "resposta": "Sim, é uma das poucas opções seguras para emergências hipertensivas na gravidez e pré-eclâmpsia. É amplamente utilizada nesse contexto em ambiente hospitalar."
+      },
+      {
+        "pergunta": "Hidralazina causa lúpus?",
+        "resposta": "Pode causar lúpus induzido por medicamento em 5 a 8% dos pacientes com uso prolongado, especialmente em doses altas. Sintomas incluem dor nas articulações, febre e erupção cutânea."
+      },
+      {
+        "pergunta": "Hidralazina causa coração acelerado?",
+        "resposta": "Sim, taquicardia e palpitações são efeitos comuns — o corpo reage à queda de pressão acelerando o coração. Por isso é frequentemente combinada com beta-bloqueador."
+      },
+      {
+        "pergunta": "Hidralazina ainda é usada?",
+        "resposta": "Sim, principalmente em emergências hipertensivas na gravidez e em países onde outros medicamentos têm acesso limitado. No tratamento crônico, foi em grande parte substituída por medicamentos mais modernos."
+      }
+    ]
   },
   {
     "nome": "Hidroclorotiazida 12,5mg - 25mg - 50mg",
@@ -9292,7 +9732,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Hidroclorotiazida serve para pressão alta?",
+        "resposta": "Sim, é diurético tiazídico muito usado para hipertensão arterial. Ajuda os rins a eliminar excesso de água e sal pela urina, reduzindo a pressão nos vasos sanguíneos."
+      },
+      {
+        "pergunta": "Hidroclorotiazida faz urinar muito?",
+        "resposta": "Sim, especialmente nas primeiras semanas. O efeito diurético é esperado — tomar pela manhã ajuda a não atrapalhar o sono."
+      },
+      {
+        "pergunta": "Hidroclorotiazida baixa o potássio?",
+        "resposta": "Sim, pode reduzir o potássio no sangue (hipocalemia). O médico pode solicitar exames periódicos e em alguns casos prescrever suplemento de potássio ou associar com diurético poupador de potássio."
+      },
+      {
+        "pergunta": "Hidroclorotiazida pode tomar com losartana?",
+        "resposta": "Sim, a combinação é muito comum e complementar para controle da pressão alta — inclusive existe comprimido que já associa os dois. O médico define a melhor combinação."
+      },
+      {
+        "pergunta": "Hidroclorotiazida causa sensibilidade ao sol?",
+        "resposta": "Sim, pode aumentar o risco de queimadura solar e com uso prolongado há risco aumentado de câncer de pele não melanoma. Usar protetor solar diariamente é fundamental."
+      }
+    ]
   },
   {
     "nome": "Hidrocortisona Injetável - Pomada",
@@ -9318,7 +9780,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Hidrocortisona pomada serve para coceira?",
+        "resposta": "Sim, é corticoide tópico indicado para dermatites, eczemas, picadas de inseto e outras condições inflamatórias que causam coceira, vermelhidão e inchaço na pele."
+      },
+      {
+        "pergunta": "Hidrocortisona pomada pode usar no rosto?",
+        "resposta": "Com cautela e por pouco tempo. A pele do rosto é mais fina e sensível — o uso prolongado pode causar afinamento da pele, rosácea e outros efeitos. Seguir orientação médica."
+      },
+      {
+        "pergunta": "Hidrocortisona pomada pode usar em criança?",
+        "resposta": "Pode ser usada em crianças com orientação médica, em pequenas áreas e por curto período. Crianças absorvem mais corticoide pela pele que adultos — evitar uso prolongado ou em grandes áreas."
+      },
+      {
+        "pergunta": "Hidrocortisona injetável serve para alergia grave?",
+        "resposta": "Sim, a forma injetável é usada em reações alérgicas graves, crises de asma severa e insuficiência adrenal aguda em ambiente hospitalar."
+      },
+      {
+        "pergunta": "Hidrocortisona afina a pele?",
+        "resposta": "Sim, o uso prolongado pode afinar a pele (atrofia cutânea), deixá-la mais frágil e com estrias. Por isso deve ser usado pelo menor tempo necessário e na menor dose eficaz."
+      }
+    ]
   },
   {
     "nome": "Hidroquinona 2% - 4% Creme",
@@ -9349,7 +9833,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Hidroquinona serve para melasma?",
+        "resposta": "Sim, é um dos principais ativos para tratar melasma, manchas pós-inflamatórias e manchas senis. Age inibindo a produção de melanina (pigmento da pele)."
+      },
+      {
+        "pergunta": "Hidroquinona clareia a pele permanentemente?",
+        "resposta": "Não. O efeito é temporário — ao parar o uso e sem protetor solar, as manchas tendem a voltar. O protetor solar diário é indispensável durante e após o tratamento."
+      },
+      {
+        "pergunta": "Hidroquinona pode usar todo dia?",
+        "resposta": "Sim, mas por tempo limitado — geralmente 3 a 6 meses seguidos. O uso contínuo excessivo pode causar ocronose exógena, uma complicação grave de manchas azul-acinzentadas irreversíveis."
+      },
+      {
+        "pergunta": "Hidroquinona pode usar em pele negra?",
+        "resposta": "Com muita cautela e sempre com supervisão médica. Peles negras têm maior risco de ocronose exógena — complicação grave e irreversível com uso prolongado sem orientação."
+      },
+      {
+        "pergunta": "Hidroquinona e tretinoína podem ser usadas juntas?",
+        "resposta": "Sim, a fórmula de Kligman (hidroquinona + tretinoína + corticoide) é um dos tratamentos mais eficazes para melasma. Deve ser manipulada e usada com orientação dermatológica."
+      }
+    ]
   },
   {
     "nome": "Hidroxicloroquina 400mg",
@@ -9433,7 +9939,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Hidroxizina dá sono?",
+        "resposta": "Sim, sonolência é o efeito mais comum e esperado. É usado justamente por isso em situações de ansiedade aguda, procedimentos e como pré-anestesia. Evitar dirigir após o uso."
+      },
+      {
+        "pergunta": "Hidroxizina serve para ansiedade?",
+        "resposta": "Sim, tem ação ansiolítica e é usado para ansiedade e tensão emocional. Tem vantagem sobre benzodiazepínicos por não causar dependência."
+      },
+      {
+        "pergunta": "Hidroxizina causa dependência?",
+        "resposta": "Não. Diferente dos benzodiazepínicos (como diazepam e clonazepam), a hidroxizina não causa dependência física nem psicológica — uma das suas principais vantagens."
+      },
+      {
+        "pergunta": "Hidroxizina serve para alergia?",
+        "resposta": "Sim, é anti-histamínico eficaz para coceira intensa, urticária e reações alérgicas de pele. A sonolência que causa pode ser um benefício adicional quando a coceira atrapalha o sono."
+      },
+      {
+        "pergunta": "Hidroxizina pode tomar com álcool?",
+        "resposta": "Não. A combinação aumenta muito a sedação e depressão do sistema nervoso central. Evitar completamente álcool durante o uso de hidroxizina."
+      }
+    ]
   },
   {
     "nome": "Hidróxido de Alumínio",
@@ -9458,7 +9986,29 @@
     "receita_cor": "verde",
     "receita_obrigatoria": false,
     "tipo_receita": "MIP",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Hidróxido de alumínio serve para gastrite?",
+        "resposta": "Sim, neutraliza rapidamente o ácido do estômago, aliviando azia, queimação e desconforto gástrico. O efeito é rápido mas temporário."
+      },
+      {
+        "pergunta": "Hidróxido de alumínio prende o intestino?",
+        "resposta": "Sim, constipação é o efeito colateral mais comum do alumínio. Por isso antiácidos frequentemente associam alumínio com magnésio (que tem efeito laxativo) para equilibrar."
+      },
+      {
+        "pergunta": "Hidróxido de alumínio pode tomar com outros remédios?",
+        "resposta": "Pode interferir na absorção de vários medicamentos — antibióticos, levotiroxina, ferro, entre outros. Separar por pelo menos 2 horas de outros medicamentos."
+      },
+      {
+        "pergunta": "Hidróxido de alumínio pode usar em insuficiência renal?",
+        "resposta": "Com cautela. Em pacientes com insuficiência renal grave, o alumínio pode se acumular no organismo causando toxicidade. Consultar o médico antes de usar."
+      },
+      {
+        "pergunta": "Hidróxido de alumínio pode tomar todo dia?",
+        "resposta": "Não deve ser usado por mais de 2 semanas sem orientação médica. Para gastrite ou refluxo crônico, o médico pode indicar tratamento mais específico como inibidores de bomba de prótons."
+      }
+    ]
   },
   {
     "nome": "Hidróxido de Magnésio / Hidróxido de Alumínio (Leite de Magnésia)",
@@ -9490,7 +10040,29 @@
     ],
     "receita_obrigatoria": false,
     "tipo_receita": "MIP",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Leite de Magnésia serve para prisão de ventre?",
+        "resposta": "Sim, é laxante osmótico eficaz para constipação. O magnésio atrai água para o intestino, amolecendo as fezes e facilitando a evacuação."
+      },
+      {
+        "pergunta": "Leite de Magnésia serve para azia?",
+        "resposta": "Sim, também é antiácido — neutraliza o ácido do estômago rapidamente. A combinação de alumínio (antiácido/constipante) e magnésio (laxativo) equilibra os efeitos intestinais."
+      },
+      {
+        "pergunta": "Leite de Magnésia pode tomar todo dia?",
+        "resposta": "Não é recomendado para uso diário prolongado. Usar por mais de 2 semanas sem orientação pode causar desequilíbrio de eletrólitos e dependência intestinal."
+      },
+      {
+        "pergunta": "Leite de Magnésia pode usar em criança?",
+        "resposta": "Pode ser usado em crianças com orientação médica e na dose adequada para o peso. Não usar em bebês sem prescrição."
+      },
+      {
+        "pergunta": "Leite de Magnésia faz mal ao rim?",
+        "resposta": "Em insuficiência renal grave, o magnésio e o alumínio podem se acumular causando toxicidade. Pacientes com problemas renais devem evitar uso sem orientação médica."
+      }
+    ]
   },
   {
     "nome": "Hioscina / Escopolamina 10mg - 20mg",
@@ -9521,7 +10093,29 @@
     "receita_cor": "verde",
     "receita_obrigatoria": false,
     "tipo_receita": "MIP",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Hioscina serve para cólica?",
+        "resposta": "Sim, é antiespasmódico muito popular no Brasil para cólicas abdominais, intestinais, menstruais e renais. Age relaxando a musculatura involuntária do trato digestivo e urinário."
+      },
+      {
+        "pergunta": "Hioscina é igual à Buscopan?",
+        "resposta": "Sim! Buscopan é o nome comercial mais famoso da escopolamina (hioscina). Têm o mesmo princípio ativo e o mesmo efeito antiespasmódico."
+      },
+      {
+        "pergunta": "Hioscina dá sono?",
+        "resposta": "Na dose oral habitual, sonolência não é comum porque não atravessa bem a barreira hematoencefálica. A forma injetável ou doses altas podem causar mais efeitos centrais."
+      },
+      {
+        "pergunta": "Hioscina pode usar na gravidez?",
+        "resposta": "Com cautela e sempre com orientação médica. É usada em algumas situações obstétricas (como facilitar o trabalho de parto), mas o uso sem prescrição não é recomendado na gestação."
+      },
+      {
+        "pergunta": "Hioscina pode tomar com dipirona?",
+        "resposta": "Sim, a combinação hioscina + dipirona existe em comprimido pronto (Buscopan Composto) e é muito usada para cólicas com componente de dor. O médico ou farmacêutico pode orientar o uso."
+      }
+    ]
   },
   {
     "nome": "Ibandronato (Bonviva)",
@@ -9554,7 +10148,29 @@
     ],
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Ibandronato serve para osteoporose?",
+        "resposta": "Sim, é bisfosfonato indicado para osteoporose em mulheres na pós-menopausa. Reduz a reabsorção óssea, aumentando a densidade dos ossos e reduzindo o risco de fraturas."
+      },
+      {
+        "pergunta": "Ibandronato como tomar corretamente?",
+        "resposta": "O comprimido mensal deve ser tomado em jejum, com copo cheio de água, 60 minutos antes do primeiro alimento ou medicamento, em pé ou sentado ereto. Não deitar por pelo menos 1 hora após tomar para evitar irritação esofágica."
+      },
+      {
+        "pergunta": "Ibandronato pode causar problema no osso do maxilar?",
+        "resposta": "Sim, osteonecrose de mandíbula é uma complicação rara, especialmente com uso prolongado. Informar ao dentista antes de qualquer procedimento invasivo (extração, implante) durante o tratamento."
+      },
+      {
+        "pergunta": "Ibandronato tem versão injetável?",
+        "resposta": "Sim, a injeção trimestral (a cada 3 meses) é uma alternativa prática para quem tem dificuldade de seguir as instruções do comprimido ou tem sensibilidade gástrica."
+      },
+      {
+        "pergunta": "Ibandronato pode parar de tomar?",
+        "resposta": "Após 3 a 5 anos de uso, o médico avalia a necessidade de continuar ou fazer uma pausa (férias do bisfosfonato). Nunca interromper sem orientação — o risco de fratura pode aumentar."
+      }
+    ]
   },
   {
     "nome": "Ibuprofeno 200mg - 400mg - 600mg - Gotas",
@@ -9633,7 +10249,29 @@
     ],
     "receita_obrigatoria": true,
     "tipo_receita": "C1",
-    "retencao_receita": true
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Imipramina serve para depressão?",
+        "resposta": "Sim, é um dos primeiros antidepressivos desenvolvidos. Ainda é usado para depressão maior, transtorno de pânico, dor crônica neuropática e enurese noturna em crianças."
+      },
+      {
+        "pergunta": "Imipramina serve para xixi na cama em criança?",
+        "resposta": "Sim, é usada para enurese noturna (xixi na cama) em crianças maiores de 6 anos quando outras medidas não funcionaram. Age reduzindo os episódios noturnos, mas o médico avalia o risco-benefício."
+      },
+      {
+        "pergunta": "Imipramina dá sono?",
+        "resposta": "Sim, sonolência é um efeito comum. Por isso é frequentemente tomada à noite, o que pode ser benéfico em pacientes com insônia associada à depressão."
+      },
+      {
+        "pergunta": "Imipramina causa boca seca?",
+        "resposta": "Sim, boca seca, constipação, visão turva e retenção urinária são efeitos anticolinérgicos comuns com antidepressivos tricíclicos como a imipramina."
+      },
+      {
+        "pergunta": "Imipramina é perigosa em overdose?",
+        "resposta": "Sim, é cardiotóxica em doses altas — pode causar arritmias graves e ser fatal. Deve ser guardada fora do alcance de pacientes com risco de tentativa de suicídio."
+      }
+    ]
   },
   {
     "nome": "Imunoglobulina Humana",
@@ -9667,7 +10305,29 @@
     ],
     "receita_obrigatoria": true,
     "tipo_receita": "hospitalar",
-    "retencao_receita": true
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Imunoglobulina serve para quê?",
+        "resposta": "É um concentrado de anticorpos usado para tratar imunodeficiências, doenças autoimunes (como púrpura trombocitopênica, Guillain-Barré, miastenia grave) e prevenir infecções em pacientes imunossuprimidos."
+      },
+      {
+        "pergunta": "Imunoglobulina pode causar reação alérgica?",
+        "resposta": "Sim, reações durante a infusão são possíveis — febre, calafrios, náusea, dor de cabeça. Reação anafilática grave é rara mas pode ocorrer, especialmente em pacientes com deficiência de IgA."
+      },
+      {
+        "pergunta": "Imunoglobulina é derivada do sangue humano?",
+        "resposta": "Sim, é obtida do plasma de doadores saudáveis. Passa por processos rigorosos de purificação e inativação viral, mas é importante informar ao médico sobre restrições religiosas ou pessoais ao uso de hemoderivados."
+      },
+      {
+        "pergunta": "Imunoglobulina pode ser aplicada em casa?",
+        "resposta": "Existem formulações subcutâneas que podem ser aplicadas em casa após treinamento adequado. A forma intravenosa é exclusivamente hospitalar."
+      },
+      {
+        "pergunta": "Imunoglobulina interfere em vacinas?",
+        "resposta": "Sim, pode reduzir a eficácia de vacinas de vírus vivos (sarampo, rubéola, varicela). Geralmente recomenda-se aguardar 3 a 11 meses após o uso de imunoglobulina antes de aplicar essas vacinas."
+      }
+    ]
   },
   {
     "nome": "Indacaterol (Onbrez)",
@@ -9699,7 +10359,29 @@
     ],
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Indacaterol serve para DPOC?",
+        "resposta": "Sim, é broncodilatador de ação ultralonga (24 horas) indicado para manutenção da DPOC. Uma única inalação por dia mantém os brônquios dilatados continuamente."
+      },
+      {
+        "pergunta": "Indacaterol pode usar na asma?",
+        "resposta": "Não. É contraindicado como monoterapia na asma — o uso isolado de LABA sem corticoide inalatório aumenta o risco de morte em asmáticos. É indicado exclusivamente para DPOC."
+      },
+      {
+        "pergunta": "Indacaterol pode usar em crise de falta de ar?",
+        "resposta": "Não. É medicamento de manutenção, não de resgate. Para crises agudas, usar broncodilatador de curta ação como salbutamol."
+      },
+      {
+        "pergunta": "Indacaterol causa tosse?",
+        "resposta": "Sim, tosse seca transitória logo após a inalação é o efeito mais comum. Geralmente dura poucos segundos e melhora com o tempo de uso."
+      },
+      {
+        "pergunta": "Indacaterol pode ser combinado com outros inaladores?",
+        "resposta": "Sim, é frequentemente combinado com anticolinérgico (como glicopirrônio) para potencializar o efeito broncodilatador na DPOC. Inclusive existe combinação fixa dos dois em único inalador."
+      }
+    ]
   },
   {
     "nome": "Infliximabe 100mg (injetável)",
@@ -9730,7 +10412,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "hospitalar",
-    "retencao_receita": true
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Infliximabe serve para Crohn?",
+        "resposta": "Sim, é um dos principais tratamentos para doença de Crohn moderada a grave. Age bloqueando o TNF-alfa, uma proteína central no processo inflamatório intestinal."
+      },
+      {
+        "pergunta": "Infliximabe pode reativar tuberculose?",
+        "resposta": "Sim, esse é um dos riscos mais importantes. O TNF-alfa é essencial para conter o bacilo da tuberculose — bloqueá-lo pode reativar TB latente. Por isso é obrigatório rastrear tuberculose antes de iniciar o tratamento."
+      },
+      {
+        "pergunta": "Infliximabe causa infecções?",
+        "resposta": "Sim, aumenta o risco de infecções por suprimir parte do sistema imunológico. Infecções respiratórias são as mais comuns. Comunicar qualquer sinal de infecção (febre, tosse, mal-estar) ao médico."
+      },
+      {
+        "pergunta": "Infliximabe é aplicado em casa?",
+        "resposta": "Não. É administrado em infusão intravenosa em ambiente hospitalar ou clínica especializada, com monitoramento durante e após a aplicação."
+      },
+      {
+        "pergunta": "Infliximabe perde o efeito com o tempo?",
+        "resposta": "Sim, alguns pacientes desenvolvem anticorpos contra o infliximabe, reduzindo sua eficácia. O médico pode ajustar a dose, reduzir o intervalo ou trocar para outro biológico se isso ocorrer."
+      }
+    ]
   },
   {
     "nome": "Insulina Asparte 100UI/mL (NovoRapid)",
@@ -9760,7 +10464,29 @@
     ],
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "NovoRapid é insulina rápida?",
+        "resposta": "Sim, é insulina análoga de ação ultrarrápida — age em 10 a 20 minutos e dura 3 a 5 horas. É aplicada imediatamente antes das refeições para controlar o pico de glicose pós-alimentar."
+      },
+      {
+        "pergunta": "NovoRapid pode misturar com NPH?",
+        "resposta": "Pode, mas com cuidado na técnica — aspirar o NovoRapid primeiro, depois a NPH. Consultar o médico ou enfermeiro para aprender a técnica correta de mistura."
+      },
+      {
+        "pergunta": "NovoRapid precisa refrigerar?",
+        "resposta": "O frasco em uso pode ficar em temperatura ambiente (até 30°C) por até 28 dias. Frascos não abertos devem ser refrigerados entre 2°C e 8°C. Não congelar."
+      },
+      {
+        "pergunta": "NovoRapid causa hipoglicemia?",
+        "resposta": "Sim, hipoglicemia é o principal risco — especialmente se aplicar e não comer. Sempre ter algo doce disponível (suco, açúcar, bala) para reverter rapidamente uma hipoglicemia."
+      },
+      {
+        "pergunta": "NovoRapid pode usar em criança?",
+        "resposta": "Sim, é aprovado para uso em crianças com diabetes tipo 1 e tipo 2. A dose é calculada pelo médico conforme o peso e a necessidade de insulina de cada criança."
+      }
+    ]
   },
   {
     "nome": "Insulina Detemir (Levemir)",
@@ -9792,7 +10518,29 @@
     ],
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Levemir é insulina basal?",
+        "resposta": "Sim, é insulina análoga de longa duração usada como insulina basal — fornece cobertura contínua entre as refeições e durante a noite. Pode ser aplicada uma ou duas vezes ao dia."
+      },
+      {
+        "pergunta": "Levemir engorda menos que NPH?",
+        "resposta": "Sim, estudos mostram menor ganho de peso com o Levemir comparado à insulina NPH. É uma das vantagens desse análogo de longa duração."
+      },
+      {
+        "pergunta": "Levemir pode misturar com insulina rápida?",
+        "resposta": "Não. O Levemir não deve ser misturado com outras insulinas na mesma seringa. Cada insulina deve ser aplicada separadamente."
+      },
+      {
+        "pergunta": "Levemir como guardar?",
+        "resposta": "O frasco em uso pode ficar em temperatura ambiente (até 30°C) por até 42 dias. Frascos não abertos devem ser refrigerados entre 2°C e 8°C. Nunca congelar."
+      },
+      {
+        "pergunta": "Levemir causa hipoglicemia?",
+        "resposta": "Sim, hipoglicemia é o principal risco de qualquer insulina. Nunca pular refeições após aplicar. Ter sempre açúcar ou suco disponível para reverter uma hipoglicemia."
+      }
+    ]
   },
   {
     "nome": "Insulina Glargina 100UI/mL (Lantus / Basaglar)",
@@ -9823,7 +10571,29 @@
     ],
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Lantus é insulina de 24 horas?",
+        "resposta": "Sim, é insulina análoga de ação prolongada que age por aproximadamente 24 horas sem pico pronunciado — fornecendo cobertura insulínica estável ao longo do dia e da noite."
+      },
+      {
+        "pergunta": "Lantus pode misturar com outra insulina?",
+        "resposta": "Não. A glargina não deve ser misturada com nenhuma outra insulina na mesma seringa — perde suas propriedades de longa duração. Aplicar sempre separado."
+      },
+      {
+        "pergunta": "Lantus e Basaglar são iguais?",
+        "resposta": "Basaglar é biossimilar do Lantus — mesma substância ativa (glargina), aprovado como equivalente terapêutico. São intercambiáveis com orientação médica."
+      },
+      {
+        "pergunta": "Lantus pode aplicar em qualquer horário?",
+        "resposta": "Sim, mas sempre no mesmo horário todos os dias. O médico define o melhor horário conforme a rotina do paciente — muitos preferem à noite para cobertura noturna."
+      },
+      {
+        "pergunta": "Lantus causa hipoglicemia noturna?",
+        "resposta": "É menos propensa à hipoglicemia noturna que a NPH por não ter pico de ação pronunciado. Mas hipoglicemia ainda é possível, especialmente com dose excessiva ou alimentação inadequada."
+      }
+    ]
   },
   {
     "nome": "Insulina Lispro 100UI/mL (Humalog)",
@@ -9853,7 +10623,29 @@
     ],
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Humalog é insulina rápida?",
+        "resposta": "Sim, é insulina análoga de ação ultrarrápida — age em 15 minutos e dura 3 a 5 horas. Aplicada imediatamente antes das refeições para controlar o pico de glicose pós-alimentar."
+      },
+      {
+        "pergunta": "Humalog e NovoRapid são iguais?",
+        "resposta": "São do mesmo grupo (análogos ultrarrápidos) mas moléculas diferentes — lispro (Humalog) e asparte (NovoRapid). Têm perfil de ação muito similar. A troca deve ser feita com orientação médica."
+      },
+      {
+        "pergunta": "Humalog pode misturar com NPH?",
+        "resposta": "Sim, pode ser misturado com NPH na mesma seringa — aspirar o Humalog primeiro. Consultar o médico ou enfermeiro para a técnica correta."
+      },
+      {
+        "pergunta": "Humalog precisa de receita?",
+        "resposta": "Sim, insulinas exigem prescrição médica no Brasil. São dispensadas gratuitamente pelo SUS para pacientes com diabetes cadastrados no programa."
+      },
+      {
+        "pergunta": "Humalog causa hipoglicemia?",
+        "resposta": "Sim, hipoglicemia é o principal risco por ser de ação rápida. Não aplicar sem ter certeza de que vai comer logo em seguida. Sempre ter algo doce disponível."
+      }
+    ]
   },
   {
     "nome": "Insulina NPH 100U/ml",
@@ -9879,7 +10671,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Insulina NPH é de ação intermediária?",
+        "resposta": "Sim, começa a agir em 1 a 2 horas, tem pico entre 4 e 10 horas e dura até 16 horas. Por isso geralmente é aplicada 1 a 2 vezes por dia conforme orientação médica."
+      },
+      {
+        "pergunta": "Insulina NPH precisa agitar antes de usar?",
+        "resposta": "Deve ser rolada suavemente entre as palmas das mãos para homogeneizar — nunca agitar vigorosamente. O aspecto leitoso e uniforme indica que está pronta para uso."
+      },
+      {
+        "pergunta": "Insulina NPH pode misturar com Regular?",
+        "resposta": "Sim, é a mistura mais comum. Aspirar sempre a Regular (transparente) primeiro, depois a NPH (leitosa) para evitar contaminar o frasco da Regular."
+      },
+      {
+        "pergunta": "Insulina NPH causa hipoglicemia?",
+        "resposta": "Sim, especialmente no pico de ação (entre 4 e 10 horas após a aplicação). Não pular refeições e ter sempre algo doce disponível para reverter hipoglicemia rapidamente."
+      },
+      {
+        "pergunta": "Insulina NPH o SUS fornece?",
+        "resposta": "Sim, a insulina NPH é fornecida gratuitamente pelo SUS para pacientes com diabetes cadastrados. Consultar a UBS (Unidade Básica de Saúde) mais próxima."
+      }
+    ]
   },
   {
     "nome": "Insulina Regular 100U/ml",
@@ -9905,7 +10719,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Insulina Regular quando aplicar?",
+        "resposta": "Deve ser aplicada 30 minutos antes das refeições — diferente das análogas ultrarrápidas (lispro, asparte) que são aplicadas imediatamente antes de comer."
+      },
+      {
+        "pergunta": "Insulina Regular é transparente?",
+        "resposta": "Sim, é completamente transparente. Se estiver turva, com grumos ou com coloração diferente, não usar — pode estar degradada."
+      },
+      {
+        "pergunta": "Insulina Regular serve para emergência de diabetes?",
+        "resposta": "Sim, é usada em cetoacidose diabética e em situações hospitalares de controle intensivo de glicose, além do uso pré-refeição no diabetes."
+      },
+      {
+        "pergunta": "Insulina Regular pode misturar com NPH?",
+        "resposta": "Sim, é a mistura mais comum. Aspirar sempre a Regular primeiro (transparente) para não contaminar o frasco com a NPH (leitosa)."
+      },
+      {
+        "pergunta": "Insulina Regular o SUS fornece?",
+        "resposta": "Sim, é disponibilizada gratuitamente pelo SUS para pacientes com diabetes cadastrados. Consultar a UBS mais próxima para o cadastro."
+      }
+    ]
   },
   {
     "nome": "Iodo — Iodeto de Potássio",
@@ -9937,7 +10773,29 @@
     ],
     "receita_obrigatoria": false,
     "tipo_receita": "MIP",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Iodo serve para a tireoide?",
+        "resposta": "Sim, o iodo é essencial para a produção dos hormônios tireoidianos T3 e T4. A deficiência causa bócio e hipotireoidismo. No Brasil, o sal de cozinha é iodado justamente para prevenir a deficiência."
+      },
+      {
+        "pergunta": "Iodo pode piorar doença da tireoide?",
+        "resposta": "Sim, paradoxalmente o excesso de iodo pode causar ou agravar hipo ou hipertireoidismo em pessoas com doenças como Hashimoto, Graves ou nódulos. Sempre consultar médico antes de suplementar."
+      },
+      {
+        "pergunta": "Gestante precisa de suplemento de iodo?",
+        "resposta": "A necessidade de iodo aumenta na gestação e amamentação. O médico avalia se a alimentação está suprindo a demanda ou se há necessidade de suplementação."
+      },
+      {
+        "pergunta": "Iodo pode ser tomado com remédio para tireoide?",
+        "resposta": "Depende do caso. Pacientes com hipotireoidismo em uso de levotiroxina podem precisar de iodo ou não — é o médico que avalia. Não suplementar por conta própria."
+      },
+      {
+        "pergunta": "Sal de cozinha supre o iodo necessário?",
+        "resposta": "Para a maioria das pessoas sim — o sal iodado fornece a quantidade diária recomendada. Suplementação adicional só é indicada em casos específicos avaliados pelo médico."
+      }
+    ]
   },
   {
     "nome": "Irbesartana 150mg - 300mg",
@@ -9969,7 +10827,29 @@
     ],
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Irbesartana serve para pressão alta?",
+        "resposta": "Sim, é bloqueador do receptor de angiotensina (BRA) indicado para hipertensão arterial. Também tem efeito protetor renal importante em diabéticos tipo 2 com pressão alta."
+      },
+      {
+        "pergunta": "Irbesartana protege o rim?",
+        "resposta": "Sim, tem efeito protetor renal independente do controle da pressão, especialmente em diabéticos tipo 2 com microalbuminúria (proteína na urina). É uma das indicações específicas desse medicamento."
+      },
+      {
+        "pergunta": "Irbesartana pode usar na gravidez?",
+        "resposta": "Não. É contraindicada na gravidez — pode causar malformações graves no bebê, especialmente nos rins. Trocar para medicamento seguro na gestação imediatamente se engravidar."
+      },
+      {
+        "pergunta": "Irbesartana aumenta o potássio?",
+        "resposta": "Pode elevar o potássio (hipercalemia), especialmente em diabéticos, pacientes com doença renal ou em uso de outros medicamentos que elevam o potássio. Monitoramento com exames é necessário."
+      },
+      {
+        "pergunta": "Irbesartana é igual à losartana?",
+        "resposta": "São do mesmo grupo (BRA — bloqueadores do receptor de angiotensina) com mecanismo similar, mas moléculas diferentes com características distintas. A irbesartana tem duração de ação um pouco mais longa."
+      }
+    ]
   },
   {
     "nome": "Isoniazida 300mg",
