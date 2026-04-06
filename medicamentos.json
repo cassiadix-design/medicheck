@@ -5258,7 +5258,29 @@
     ],
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Colagenase pomada serve para que?",
+        "resposta": "Para desbridamento enzimático de feridas — dissolve o tecido necrótico (morto) em úlceras de pressão, úlceras varicosas e queimaduras, preparando o leito da ferida para cicatrizar."
+      },
+      {
+        "pergunta": "Colagenase cura a ferida?",
+        "resposta": "Não diretamente — ela remove o tecido morto que impede a cicatrização. É um passo essencial do tratamento, mas a cura depende de outros cuidados com a ferida."
+      },
+      {
+        "pergunta": "Colagenase pode usar na pele sadia ao redor da ferida?",
+        "resposta": "Não. Aplicar apenas sobre o tecido necrótico. Proteger a pele sadia ao redor com vaselina ou curativo para evitar irritação."
+      },
+      {
+        "pergunta": "Colagenase com cloranfenicol é diferente da pomada simples?",
+        "resposta": "Sim. A versão com cloranfenicol tem antibiótico adicionado — indicada para feridas com infecção bacteriana. A simples é para desbridamento sem infecção ativa."
+      },
+      {
+        "pergunta": "Colagenase precisa de receita?",
+        "resposta": "Sim, requer prescrição médica. Deve ser usada conforme orientação do médico ou enfermeiro de curativos."
+      }
+    ]
   },
   {
     "nome": "Colagenase pomada",
@@ -5289,7 +5311,29 @@
     ],
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Colagenase pomada serve para que?",
+        "resposta": "Para desbridamento enzimático de feridas — dissolve o tecido necrótico (morto) em úlceras de pressão, úlceras varicosas e queimaduras, preparando o leito da ferida para cicatrizar."
+      },
+      {
+        "pergunta": "Colagenase cura a ferida?",
+        "resposta": "Não diretamente — ela remove o tecido morto que impede a cicatrização. É um passo essencial do tratamento, mas a cura depende de outros cuidados com a ferida."
+      },
+      {
+        "pergunta": "Colagenase pode usar na pele sadia ao redor da ferida?",
+        "resposta": "Não. Aplicar apenas sobre o tecido necrótico. Proteger a pele sadia ao redor com vaselina ou curativo para evitar irritação."
+      },
+      {
+        "pergunta": "Colagenase com cloranfenicol é diferente da pomada simples?",
+        "resposta": "Sim. A versão com cloranfenicol tem antibiótico adicionado — indicada para feridas com infecção bacteriana. A simples é para desbridamento sem infecção ativa."
+      },
+      {
+        "pergunta": "Colagenase precisa de receita?",
+        "resposta": "Sim, requer prescrição médica. Deve ser usada conforme orientação do médico ou enfermeiro de curativos."
+      }
+    ]
   },
   {
     "nome": "Colchicina 0,5mg - 1mg",
@@ -5319,7 +5363,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Colchicina serve para gota?",
+        "resposta": "Sim, é um dos tratamentos mais eficazes para a crise aguda de gota e para prevenção de novas crises. Age reduzindo a inflamação causada pelos cristais de ácido úrico."
+      },
+      {
+        "pergunta": "Colchicina pode causar diarreia?",
+        "resposta": "Sim, diarreia, náusea e cólicas são os efeitos mais comuns — especialmente em doses altas. Se ocorrer diarreia intensa, reduzir a dose ou suspender conforme orientação médica."
+      },
+      {
+        "pergunta": "Colchicina pode tomar com estatina?",
+        "resposta": "Com cautela — a combinação pode aumentar o risco de miopatia (dano muscular). Informar ao médico sobre o uso de estatina antes de iniciar colchicina."
+      },
+      {
+        "pergunta": "Colchicina serve para pericardite?",
+        "resposta": "Sim, é aprovada para tratamento e prevenção de recorrência de pericardite (inflamação do pericárdio) além da gota."
+      },
+      {
+        "pergunta": "Colchicina pode tomar na gravidez?",
+        "resposta": "Com cautela — dados de segurança são limitados. Em mulheres com febre mediterrânea familiar, geralmente é mantida na gravidez pois o benefício supera o risco. Sempre consultar o médico."
+      }
+    ]
   },
   {
     "nome": "Colesevelam 625mg",
@@ -5345,7 +5411,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Colesevelam serve para colesterol?",
+        "resposta": "Sim, é um sequestrador de ácidos biliares que reduz o LDL (colesterol ruim). Também aprovado como adjuvante no diabetes tipo 2 para reduzir a glicemia."
+      },
+      {
+        "pergunta": "Colesevelam pode tomar com outros medicamentos?",
+        "resposta": "Com atenção — pode reduzir a absorção de outros medicamentos. Tomar outros remédios pelo menos 4 horas antes do colesevelam."
+      },
+      {
+        "pergunta": "Colesevelam causa constipação?",
+        "resposta": "Sim, prisão de ventre e desconforto gastrointestinal são efeitos comuns. Tomar com bastante água e manter boa hidratação ajuda."
+      },
+      {
+        "pergunta": "Colesevelam pode tomar na gravidez?",
+        "resposta": "Pode ser considerado na gravidez pois não é absorvido — fica no intestino. Mas consultar o médico antes de usar."
+      },
+      {
+        "pergunta": "Colesevelam é diferente da colestiramina?",
+        "resposta": "Sim, ambos são sequestradores de ácidos biliares mas o colesevelam tem menos interações medicamentosas e geralmente é melhor tolerado."
+      }
+    ]
   },
   {
     "nome": "Colestipol 1,0g",
@@ -5371,7 +5459,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Colestipol serve para colesterol?",
+        "resposta": "Sim, é um sequestrador de ácidos biliares que reduz o LDL. Age no intestino sem ser absorvido pelo organismo."
+      },
+      {
+        "pergunta": "Colestipol pode reduzir a absorção de outros remédios?",
+        "resposta": "Sim, pode reduzir a absorção de muitos medicamentos. Tomar todos os outros remédios pelo menos 1 hora antes ou 4 horas depois do colestipol."
+      },
+      {
+        "pergunta": "Colestipol causa constipação?",
+        "resposta": "Sim, prisão de ventre é o efeito mais comum. Beber bastante água e consumir fibras ajuda a minimizar."
+      },
+      {
+        "pergunta": "Colestipol pode usar na gravidez?",
+        "resposta": "Geralmente considerado seguro na gravidez por não ser absorvido. Mas pode reduzir a absorção de vitaminas lipossolúveis (A, D, E, K) — monitorar."
+      },
+      {
+        "pergunta": "Colestipol é igual à colestiramina?",
+        "resposta": "São da mesma classe com mecanismo similar. A colestiramina vem em pó para dissolver; o colestipol também em pó ou grânulos. A escolha depende da tolerabilidade individual."
+      }
+    ]
   },
   {
     "nome": "Colestiramina 4g sachê",
@@ -5401,7 +5511,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Colestiramina serve para colesterol?",
+        "resposta": "Sim, reduz o LDL ao se ligar aos ácidos biliares no intestino, impedindo sua reabsorção. O fígado usa mais colesterol para produzir novos ácidos biliares, reduzindo o colesterol sanguíneo."
+      },
+      {
+        "pergunta": "Colestiramina como tomar?",
+        "resposta": "Dissolver o sachê em 200ml de água ou suco e tomar com refeições. Nunca tomar o pó seco — risco de engasgo."
+      },
+      {
+        "pergunta": "Colestiramina pode tomar com outros medicamentos?",
+        "resposta": "Tomar outros medicamentos pelo menos 1 hora antes ou 4 a 6 horas depois — a colestiramina pode reduzir a absorção de muitos remédios."
+      },
+      {
+        "pergunta": "Colestiramina causa prisão de ventre?",
+        "resposta": "Sim, constipação é o efeito mais comum. Beber bastante água, consumir fibras e se necessário usar laxante osmótico ajuda."
+      },
+      {
+        "pergunta": "Colestiramina serve para diarreia por bile?",
+        "resposta": "Sim, também é usada para diarreia causada por excesso de ácidos biliares no intestino (diarreia biliar) após cirurgias do intestino."
+      }
+    ]
   },
   {
     "nome": "Colágeno hidrolisado",
@@ -5434,7 +5566,29 @@
     ],
     "receita_obrigatoria": false,
     "tipo_receita": "MIP",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Colágeno hidrolisado melhora a pele?",
+        "resposta": "Estudos mostram melhora na elasticidade e hidratação da pele com uso contínuo por 8 a 12 semanas. Os resultados são graduais e variam entre as pessoas."
+      },
+      {
+        "pergunta": "Colágeno pode tomar todo dia?",
+        "resposta": "Sim, é seguro para uso diário. Para melhor absorção, tomar com vitamina C — essencial para a síntese de colágeno pelo organismo."
+      },
+      {
+        "pergunta": "Colágeno tipo 2 serve para articulações?",
+        "resposta": "Sim, o colágeno tipo 2 é específico para cartilagens e articulações — estudos mostram redução de dor e melhora da função em artrose de joelho."
+      },
+      {
+        "pergunta": "Alérgico a frutos do mar pode tomar colágeno?",
+        "resposta": "Depende da origem. Colágeno marinho (de peixe) pode causar reação em alérgicos a frutos do mar. Preferir colágeno bovino ou suíno nesses casos."
+      },
+      {
+        "pergunta": "Colágeno engorda?",
+        "resposta": "Não. O colágeno hidrolisado é uma proteína — pode até contribuir para saciedade. Não causa ganho de peso nas doses habituais."
+      }
+    ]
   },
   {
     "nome": "Complexo B (B1+B2+B3+B5+B6+B7+B9+B12)",
@@ -5465,7 +5619,29 @@
     "receita_cor": "verde",
     "receita_obrigatoria": false,
     "tipo_receita": "MIP",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Complexo B serve para cansaço?",
+        "resposta": "As vitaminas do complexo B são essenciais para produção de energia. A suplementação ajuda quando há deficiência, mas não tem efeito energizante em quem já tem níveis adequados."
+      },
+      {
+        "pergunta": "Complexo B pode tomar todo dia?",
+        "resposta": "Sim, é seguro para uso diário. Por serem vitaminas hidrossolúveis, o excesso é eliminado pela urina — dificilmente causa toxicidade nas doses habituais."
+      },
+      {
+        "pergunta": "Complexo B pode deixar a urina amarela?",
+        "resposta": "Sim, a riboflavina (B2) deixa a urina amarelo-brilhante intensa — é normal e inofensivo. Indica que o suplemento está sendo absorvido."
+      },
+      {
+        "pergunta": "Complexo B pode tomar na gravidez?",
+        "resposta": "Sim, as vitaminas do complexo B são importantes na gravidez. O ácido fólico (B9) é especialmente essencial para prevenção de defeitos do tubo neural."
+      },
+      {
+        "pergunta": "Complexo B serve para os nervos?",
+        "resposta": "Sim, especialmente B1 (tiamina), B6 (piridoxina) e B12 são essenciais para o sistema nervoso. A deficiência pode causar neuropatia — dormência e formigamento."
+      }
+    ]
   },
   {
     "nome": "Condroitina + Glucosamina",
@@ -5498,7 +5674,29 @@
     ],
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Condroitina com glucosamina serve para artrose?",
+        "resposta": "Estudos mostram benefício em artrose moderada a grave, com redução de dor e melhora da função. Em artrose leve, o efeito pode ser similar ao placebo."
+      },
+      {
+        "pergunta": "Condroitina demora para fazer efeito?",
+        "resposta": "Sim, o efeito é lento — melhora gradual em 4 a 8 semanas. Tratamento de longa duração, geralmente meses. Não desistir precocemente."
+      },
+      {
+        "pergunta": "Diabético pode tomar glucosamina?",
+        "resposta": "Com monitoramento — a glucosamina pode elevar levemente a glicemia em alguns diabéticos. Monitorar o açúcar no sangue ao iniciar a suplementação."
+      },
+      {
+        "pergunta": "Condroitina pode tomar com anti-inflamatório?",
+        "resposta": "Sim, podem ser usados juntos. Na fase inicial do tratamento, o anti-inflamatório controla a dor enquanto a condroitina age mais lentamente."
+      },
+      {
+        "pergunta": "Alérgico a frutos do mar pode tomar glucosamina?",
+        "resposta": "Com cautela — a glucosamina de origem marinha pode causar reação em alérgicos a crustáceos. Existem versões de origem vegetal ou sintética como alternativa."
+      }
+    ]
   },
   {
     "nome": "Curcumina — Cúrcuma",
@@ -5531,7 +5729,29 @@
     ],
     "receita_obrigatoria": false,
     "tipo_receita": "MIP",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Curcumina serve para inflamação?",
+        "resposta": "Sim, tem ação anti-inflamatória comprovada em estudos. Usada como adjuvante em artrite, doenças inflamatórias intestinais e outras condições inflamatórias."
+      },
+      {
+        "pergunta": "Curcumina como tomar para melhor absorção?",
+        "resposta": "Tomar com pimenta preta (piperina) — aumenta a absorção em até 2000%. Também tomar com refeição que contenha gordura melhora a biodisponibilidade."
+      },
+      {
+        "pergunta": "Curcumina pode tomar com anticoagulante?",
+        "resposta": "Com cautela — pode potencializar o efeito de anticoagulantes como varfarina, aumentando o risco de sangramento. Informar ao médico se usar anticoagulante."
+      },
+      {
+        "pergunta": "Curcumina pode tomar todo dia?",
+        "resposta": "Sim, é segura para uso diário nas doses recomendadas. Em doses muito altas pode causar desconforto gástrico e diarreia."
+      },
+      {
+        "pergunta": "Curcumina mancha as fezes?",
+        "resposta": "Pode deixar as fezes levemente amareladas — é normal e inofensivo. O mesmo pode ocorrer com a urina."
+      }
+    ]
   },
   {
     "nome": "Cálcio + Vitamina D",
@@ -5634,7 +5854,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Dapagliflozina serve para diabetes?",
+        "resposta": "Sim, é uma gliflozina para diabetes tipo 2 — elimina glicose pela urina. Também tem benefícios cardiovasculares e renais comprovados."
+      },
+      {
+        "pergunta": "Dapagliflozina causa infecção urinária?",
+        "resposta": "Pode aumentar o risco de infecções urinárias e genitais por fungos (candidíase) pois a glicose na urina favorece o crescimento de microrganismos."
+      },
+      {
+        "pergunta": "Dapagliflozina emagrece?",
+        "resposta": "Pode causar perda de peso moderada como efeito colateral — em média 2 a 3kg — por eliminar calorias pela urina."
+      },
+      {
+        "pergunta": "Dapagliflozina serve para insuficiência cardíaca?",
+        "resposta": "Sim, é aprovada para insuficiência cardíaca mesmo em pacientes sem diabetes, reduzindo hospitalização e morte cardiovascular."
+      },
+      {
+        "pergunta": "Dapagliflozina pode causar cetoacidose?",
+        "resposta": "Raramente pode causar cetoacidose diabética mesmo com glicemia relativamente normal. Suspender antes de cirurgias e em situações de jejum prolongado."
+      }
+    ]
   },
   {
     "nome": "Denosumabe 60mg - 120mg Injetável",
@@ -5664,7 +5906,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Denosumabe serve para osteoporose?",
+        "resposta": "Sim, é um anticorpo monoclonal injetável que reduz a reabsorção óssea, aumenta a densidade mineral óssea e reduz fraturas em osteoporose grave."
+      },
+      {
+        "pergunta": "Denosumabe de quanto em quanto tempo?",
+        "resposta": "Uma injeção subcutânea a cada 6 meses para osteoporose. Para câncer com metástase óssea, a frequência pode ser maior."
+      },
+      {
+        "pergunta": "Denosumabe pode parar de tomar de repente?",
+        "resposta": "Não. A interrupção abrupta causa rebote — perda óssea rápida e aumento do risco de fraturas múltiplas. Sempre planejar a transição para outro medicamento com o médico."
+      },
+      {
+        "pergunta": "Denosumabe pode causar problema no osso do maxilar?",
+        "resposta": "Sim, pode causar osteonecrose de mandíbula — risco maior em pacientes com procedimentos odontológicos invasivos. Informar ao dentista sobre o uso."
+      },
+      {
+        "pergunta": "Denosumabe precisa de cálcio e vitamina D?",
+        "resposta": "Sim, suplementação de cálcio e vitamina D é obrigatória durante o tratamento — o denosumabe pode causar hipocalcemia (cálcio baixo) sem essa suplementação."
+      }
+    ]
   },
   {
     "nome": "Depakote Sprinkle 125mg (Liberação Entérica)",
@@ -5719,7 +5983,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Desloratadina dá sono?",
+        "resposta": "Raramente — é um dos anti-histamínicos com menor sedação. Pode ser usada durante o dia sem prejuízo às atividades."
+      },
+      {
+        "pergunta": "Desloratadina serve para alergia?",
+        "resposta": "Sim, para rinite alérgica, urticária crônica e outras manifestações alérgicas. É um metabólito ativo da loratadina com ação similar."
+      },
+      {
+        "pergunta": "Desloratadina pode tomar todo dia?",
+        "resposta": "Sim, pode ser usada diariamente para alergias crônicas. É segura para uso prolongado."
+      },
+      {
+        "pergunta": "Desloratadina é melhor que loratadina?",
+        "resposta": "São muito similares. A desloratadina é o metabólito ativo da loratadina — tem início de ação ligeiramente mais rápido em algumas pessoas."
+      },
+      {
+        "pergunta": "Desloratadina pode tomar na gravidez?",
+        "resposta": "Não é a primeira escolha na gravidez — preferir loratadina ou cetirizina que têm mais dados de segurança. Consultar o médico antes de usar."
+      }
+    ]
   },
   {
     "nome": "Desmopressina (DDAVP)",
@@ -5750,7 +6036,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Desmopressina serve para enurese noturna?",
+        "resposta": "Sim, é muito eficaz para xixi na cama em crianças — reduz a produção de urina durante a noite. Usar junto com restrição de líquidos à noite."
+      },
+      {
+        "pergunta": "Desmopressina serve para diabetes insipidus?",
+        "resposta": "Sim, é o tratamento de escolha para diabetes insipidus central — repõe o hormônio ADH que o organismo não produz adequadamente."
+      },
+      {
+        "pergunta": "Desmopressina pode causar retenção de líquidos?",
+        "resposta": "Sim, hiponatremia (sódio baixo) por retenção de água é o principal risco. Restringir líquidos após a dose e não beber excessivamente."
+      },
+      {
+        "pergunta": "Desmopressina spray ou comprimido?",
+        "resposta": "Existem as duas formas. O spray nasal tem ação mais rápida. O comprimido é mais conveniente para uso crônico. A dose é diferente entre as formas — não substituir sem orientação."
+      },
+      {
+        "pergunta": "Desmopressina pode dar para criança?",
+        "resposta": "Sim, é aprovada para crianças acima de 5 anos para enurese noturna. A dose é individualizada e o monitoramento é importante para evitar hiponatremia."
+      }
+    ]
   },
   {
     "nome": "Desogestrel 75mcg (Cerazette) — Minipílula",
@@ -5781,7 +6089,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Desogestrel (Cerazette) pode tomar amamentando?",
+        "resposta": "Sim, a minipílula de progestogênio puro como o desogestrel é a opção preferida durante a amamentação — não interfere na produção de leite."
+      },
+      {
+        "pergunta": "Desogestrel protege mesmo sem menstruar?",
+        "resposta": "Sim, o desogestrel age principalmente inibindo a ovulação — diferente de outras minipílulas. Protege mesmo que a menstruação fique irregular ou ausente."
+      },
+      {
+        "pergunta": "Desogestrel pode atrasar a menstruação?",
+        "resposta": "Sim, irregularidade menstrual é comum — ciclos imprevisíveis, sangramento esporádico ou ausência de menstruação são efeitos esperados."
+      },
+      {
+        "pergunta": "Desogestrel tem janela de tolerância de atraso?",
+        "resposta": "Sim, 12 horas — diferente de outras minipílulas que têm apenas 3 horas. Se esquecer por menos de 12 horas, tomar assim que lembrar e continuar normalmente."
+      },
+      {
+        "pergunta": "Desogestrel pode usar quem tem enxaqueca?",
+        "resposta": "Sim, anticoncepcionais só com progestogênio como o desogestrel são seguros para mulheres com enxaqueca com aura — diferente dos combinados com estrogênio que são contraindicados."
+      }
+    ]
   },
   {
     "nome": "Dexametasona 0,5mg - 4,0mg - Xarope - Injetável",
@@ -5860,7 +6190,29 @@
     ],
     "receita_obrigatoria": false,
     "tipo_receita": "MIP",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Dexclorfeniramina dá sono?",
+        "resposta": "Sim, sonolência é o efeito mais comum — é um anti-histamínico de 1ª geração que atravessa a barreira cerebral. Por isso é frequentemente tomado à noite."
+      },
+      {
+        "pergunta": "Dexclorfeniramina serve para alergia?",
+        "resposta": "Sim, para rinite alérgica, urticária, coceira e outras reações alérgicas. É eficaz mas mais sedativa que anti-histamínicos modernos."
+      },
+      {
+        "pergunta": "Dexclorfeniramina pode dar para criança?",
+        "resposta": "Com orientação médica e na dose correta para o peso e idade. Não usar em crianças menores de 2 anos sem indicação médica."
+      },
+      {
+        "pergunta": "Dexclorfeniramina pode tomar com álcool?",
+        "resposta": "Não. O álcool potencializa muito a sedação. Combinação pode prejudicar muito a capacidade de dirigir e trabalhar."
+      },
+      {
+        "pergunta": "Dexclorfeniramina pode tomar na gravidez?",
+        "resposta": "Com cautela — evitar no primeiro trimestre. Consultar o médico antes de usar na gravidez. Prefere-se loratadina ou cetirizina na gestação."
+      }
+    ]
   },
   {
     "nome": "Diazepam comprimido 5mg - 10 mg - Injetavel",
@@ -6145,7 +6497,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Digoxina tem janela terapêutica estreita?",
+        "resposta": "Sim, é um dos medicamentos com menor margem entre dose eficaz e dose tóxica. Monitorar a digoxinemia (nível no sangue) regularmente é obrigatório."
+      },
+      {
+        "pergunta": "Digoxina pode causar intoxicação?",
+        "resposta": "Sim, a intoxicação por digoxina causa náusea, vômito, visão com halos amarelo-verdes, arritmias graves. Qualquer sintoma suspeito: ir à emergência imediatamente."
+      },
+      {
+        "pergunta": "Digoxina serve para fibrilação atrial?",
+        "resposta": "Sim, controla a frequência cardíaca na fibrilação atrial e é usada na insuficiência cardíaca. Hoje é mais usada como complemento quando outros medicamentos não são suficientes."
+      },
+      {
+        "pergunta": "Digoxina pode tomar com potássio baixo?",
+        "resposta": "Não — hipocalemia (potássio baixo) aumenta muito o risco de intoxicação por digoxina. Manter o potássio em níveis normais é fundamental durante o tratamento."
+      },
+      {
+        "pergunta": "Digoxina precisa de exames regulares?",
+        "resposta": "Sim, monitorar nível sérico da digoxina, potássio, magnésio e função renal regularmente — especialmente após ajustes de dose ou início de outros medicamentos."
+      }
+    ]
   },
   {
     "nome": "Diltiazem 30mg - 60mg",
@@ -6171,7 +6545,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Diltiazem serve para pressão alta?",
+        "resposta": "Sim, é bloqueador de canal de cálcio não diidropiridínico usado para hipertensão arterial, angina e arritmias como fibrilação atrial."
+      },
+      {
+        "pergunta": "Diltiazem pode tomar com betabloqueador?",
+        "resposta": "Com muita cautela — a combinação pode causar bradicardia grave (coração muito lento) e bloqueio cardíaco. Geralmente evitada ou usada com monitoramento rigoroso."
+      },
+      {
+        "pergunta": "Diltiazem pode tomar com estatina?",
+        "resposta": "Com cautela — o diltiazem aumenta os níveis de algumas estatinas como sinvastatina, elevando o risco de miopatia. Preferir rosuvastatina ou pravastatina."
+      },
+      {
+        "pergunta": "Diltiazem pode parar de tomar de repente?",
+        "resposta": "Não. A interrupção abrupta pode causar angina rebote e arritmias. Sempre reduzir gradualmente com orientação médica."
+      },
+      {
+        "pergunta": "Diltiazem gel serve para fissura anal?",
+        "resposta": "Sim, o diltiazem creme ou gel tópico 2% é muito usado para fissura anal crônica — relaxa o esfíncter interno sem os efeitos sistêmicos do comprimido."
+      }
+    ]
   },
   {
     "nome": "Dimenidrinato 50mg (Dramin)",
