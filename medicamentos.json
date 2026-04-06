@@ -10875,7 +10875,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": true
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Isoniazida serve para tuberculose?",
+        "resposta": "Sim, é um dos principais medicamentos do esquema de tratamento da tuberculose pelo Ministério da Saúde. O tratamento dura em média 6 meses e nunca deve ser interrompido antes do prazo."
+      },
+      {
+        "pergunta": "Isoniazida causa formigamento nas mãos?",
+        "resposta": "Sim, neuropatia periférica (formigamento, dormência ou queimação nas mãos e pés) é o efeito mais comum — causada pela redução da vitamina B6. Por isso muitos médicos prescrevem vitamina B6 junto."
+      },
+      {
+        "pergunta": "Isoniazida faz mal ao fígado?",
+        "resposta": "Pode causar hepatotoxicidade. Sinais de alerta: pele ou olhos amarelados, urina escura, dor abdominal intensa. Ao notar qualquer um desses sintomas, comunicar ao médico imediatamente."
+      },
+      {
+        "pergunta": "Isoniazida pode tomar com álcool?",
+        "resposta": "Não. O álcool aumenta significativamente o risco de hepatotoxicidade durante o tratamento com isoniazida. Evitar completamente durante todo o período de tratamento."
+      },
+      {
+        "pergunta": "Isoniazida pode parar antes do tempo?",
+        "resposta": "Não. Interromper o tratamento antes do prazo é uma das principais causas de tuberculose resistente — muito mais difícil de tratar. Completar os 6 meses mesmo sentindo-se bem é fundamental."
+      }
+    ]
   },
   {
     "nome": "Isossorbida 5mg - 10mg - 20mg - 40mg",
@@ -10907,7 +10929,29 @@
     ],
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Isossorbida serve para angina?",
+        "resposta": "Sim, é nitrato usado na prevenção e tratamento da angina (dor no peito por falta de sangue no coração). Dilata as coronárias, melhorando o fluxo sanguíneo e reduzindo a carga de trabalho do coração."
+      },
+      {
+        "pergunta": "Isossorbida pode tomar com Viagra?",
+        "resposta": "Não. A combinação de nitratos com sildenafila (Viagra), tadalafila ou vardenafila é contraindicada — pode causar queda grave e súbita da pressão arterial, potencialmente fatal."
+      },
+      {
+        "pergunta": "Isossorbida causa dor de cabeça?",
+        "resposta": "Sim, cefaleia intensa é o efeito colateral mais comum no início — causada pela dilatação dos vasos. Tende a melhorar com o tempo de uso conforme o organismo se adapta."
+      },
+      {
+        "pergunta": "Isossorbida pode parar de tomar de repente?",
+        "resposta": "Não. A interrupção abrupta pode desencadear crises de angina de rebote. A dose deve ser reduzida gradualmente sob orientação médica."
+      },
+      {
+        "pergunta": "Isossorbida sublingual e comprimido comum têm diferença?",
+        "resposta": "Sim. O sublingual age rapidamente e é para alívio de crise aguda de angina. O comprimido comum ou de liberação prolongada é para prevenção de crises no uso diário."
+      }
+    ]
   },
   {
     "nome": "Isotretinoína 10mg - 20mg",
@@ -10932,7 +10976,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Isotretinoína cura a acne?",
+        "resposta": "É o tratamento mais eficaz disponível para acne grave. Em muitos casos promove remissão completa e duradoura — mas o resultado depende da dose total acumulada e do tipo de acne."
+      },
+      {
+        "pergunta": "Isotretinoína resseca a pele?",
+        "resposta": "Sim, ressecamento intenso da pele, lábios, olhos e mucosas é o efeito mais comum. Hidratante facial e labial sem óleo, além de colírio lubrificante, são indispensáveis durante o tratamento."
+      },
+      {
+        "pergunta": "Isotretinoína pode engravidar?",
+        "resposta": "Não. É gravemente teratogênica — causa malformações fetais severas. Mulheres em idade fértil obrigatoriamente usam dois métodos contraceptivos durante o tratamento e por 1 mês após o término."
+      },
+      {
+        "pergunta": "Isotretinoína causa depressão?",
+        "resposta": "Há relatos de alterações de humor e depressão em alguns pacientes. Comunicar ao médico qualquer mudança de humor, tristeza persistente ou pensamentos negativos durante o tratamento."
+      },
+      {
+        "pergunta": "Isotretinoína demora quanto para fazer efeito?",
+        "resposta": "Os primeiros resultados aparecem entre 4 e 8 semanas, mas o tratamento completo dura de 4 a 6 meses. Nas primeiras semanas a acne pode piorar antes de melhorar — é esperado."
+      }
+    ]
   },
   {
     "nome": "Itraconazol 100mg",
@@ -10963,7 +11029,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Itraconazol serve para micose de unha?",
+        "resposta": "Sim, é um dos antifúngicos mais usados para onicomicose (micose de unhas). O tratamento é longo — semanas a meses — pois a unha cresce lentamente. Pode ser tomado em pulsos mensais."
+      },
+      {
+        "pergunta": "Itraconazol precisa tomar com comida?",
+        "resposta": "Sim, a absorção melhora muito com alimentos — preferencialmente refeição ácida ou bebida ácida (suco de laranja). Em jejum, a absorção é muito reduzida e o medicamento perde eficácia."
+      },
+      {
+        "pergunta": "Itraconazol tem muitas interações?",
+        "resposta": "Sim, é inibidor potente da enzima CYP3A4 — interage com dezenas de medicamentos, incluindo anticoagulantes, estatinas, ansiolíticos e antiarrítmicos. Sempre informar ao médico todos os medicamentos em uso."
+      },
+      {
+        "pergunta": "Itraconazol faz mal ao coração?",
+        "resposta": "Pode reduzir a força de contração cardíaca. É contraindicado em insuficiência cardíaca. Pacientes com problemas cardíacos devem informar ao médico antes de usar."
+      },
+      {
+        "pergunta": "Itraconazol pode tomar na gravidez?",
+        "resposta": "Não. É contraindicado na gravidez — pode causar malformações fetais. Usar método contraceptivo eficaz durante o tratamento."
+      }
+    ]
   },
   {
     "nome": "Ivabradina 5mg - 7,5mg (Procoralan)",
@@ -10993,7 +11081,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Ivabradina serve para insuficiência cardíaca?",
+        "resposta": "Sim, é indicada para insuficiência cardíaca crônica estável com frequência cardíaca elevada, especialmente em pacientes que não toleram betabloqueadores. Reduz os batimentos sem afetar a pressão arterial."
+      },
+      {
+        "pergunta": "Ivabradina causa flashes de luz na visão?",
+        "resposta": "Sim, fosfenesia (flashes de luz brilhante no campo visual) é o efeito mais característico — ocorre em até 15% dos pacientes. Geralmente é leve, transitório e não causa dano visual permanente."
+      },
+      {
+        "pergunta": "Ivabradina pode usar com frequência cardíaca baixa?",
+        "resposta": "Não. É contraindicada em frequência cardíaca abaixo de 70 batimentos por minuto em repouso — pode causar bradicardia grave. O médico monitora a frequência antes e durante o tratamento."
+      },
+      {
+        "pergunta": "Ivabradina pode usar na gravidez?",
+        "resposta": "Não. É contraindicada na gravidez. Usar método contraceptivo eficaz durante o tratamento e comunicar ao médico imediatamente em caso de gravidez."
+      },
+      {
+        "pergunta": "Ivabradina pode dirigir?",
+        "resposta": "Com cautela. Os flashes de luz visuais podem ocorrer especialmente ao olhar para fontes de luz — podem atrapalhar a direção noturna. Avaliar a própria capacidade antes de dirigir."
+      }
+    ]
   },
   {
     "nome": "Ivermectina 6mg",
@@ -11018,7 +11128,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Ivermectina serve para sarna?",
+        "resposta": "Sim, é eficaz para escabiose (sarna), pediculose (piolho), estrongiloidíase e outras parasitoses. É uma das principais indicações comprovadas do medicamento."
+      },
+      {
+        "pergunta": "Ivermectina funciona para COVID-19?",
+        "resposta": "Não. Todos os estudos clínicos sérios, incluindo o estudo Together realizado no Brasil, não encontraram benefício da ivermectina contra COVID-19. O uso sem indicação médica traz riscos sem benefício comprovado."
+      },
+      {
+        "pergunta": "Ivermectina pode tomar em jejum?",
+        "resposta": "Sim, deve ser tomada em jejum (pelo menos 2 horas antes de comer) com água. Alimentos aumentam a absorção de forma imprevisível, podendo elevar o risco de efeitos adversos."
+      },
+      {
+        "pergunta": "Ivermectina causa tontura?",
+        "resposta": "Tontura, náusea e coceira podem ocorrer — muitas vezes são reação à morte dos parasitas (reação de Mazzotti), não toxicidade do medicamento em si."
+      },
+      {
+        "pergunta": "Ivermectina pode usar em criança?",
+        "resposta": "Com cautela — não é recomendada em crianças abaixo de 15 kg ou menores de 5 anos sem orientação médica específica. A dose é calculada por peso corporal."
+      }
+    ]
   },
   {
     "nome": "Ivermectina tópica 1% — Soolantra (Rosácea)",
@@ -11050,7 +11182,29 @@
     ],
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Ivermectina tópica serve para rosácea?",
+        "resposta": "Sim, o creme de ivermectina 1% (Soolantra) é indicado especificamente para rosácea papulopustulosa — o tipo com pápulas e pústulas semelhantes à acne. Age eliminando o ácaro Demodex e reduzindo a inflamação."
+      },
+      {
+        "pergunta": "Ivermectina tópica é igual ao comprimido?",
+        "resposta": "Não. São formas completamente diferentes — a tópica é exclusivamente para uso na pele do rosto, enquanto o comprimido é sistêmico para parasitoses internas. Não ingerir o creme."
+      },
+      {
+        "pergunta": "Ivermectina tópica demora para fazer efeito?",
+        "resposta": "Os primeiros resultados aparecem em 4 semanas, mas o benefício completo é avaliado após 3 meses de uso contínuo. É de uso diário, geralmente à noite."
+      },
+      {
+        "pergunta": "Ivermectina tópica pode usar nos olhos?",
+        "resposta": "Não. Uso exclusivamente facial — evitar olhos, boca e mucosas. Se entrar nos olhos, lavar abundantemente com água."
+      },
+      {
+        "pergunta": "Ivermectina tópica pode usar na gravidez?",
+        "resposta": "Não é recomendada na gestação por precaução. Consultar o dermatologista para alternativas seguras no tratamento da rosácea durante a gravidez."
+      }
+    ]
   },
   {
     "nome": "Lacosamida 50mg - 100mg - 150mg - 200mg",
@@ -11081,7 +11235,29 @@
     ],
     "receita_obrigatoria": true,
     "tipo_receita": "C1",
-    "retencao_receita": true
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Lacosamida serve para epilepsia?",
+        "resposta": "Sim, é antiepiléptico moderno aprovado para crises focais em adultos e adolescentes. Pode ser usado sozinho ou combinado com outros anticonvulsivantes."
+      },
+      {
+        "pergunta": "Lacosamida pode parar de tomar de repente?",
+        "resposta": "Não. A interrupção abrupta pode desencadear crises convulsivas graves. A dose deve ser reduzida gradualmente sempre com orientação do médico."
+      },
+      {
+        "pergunta": "Lacosamida afeta o coração?",
+        "resposta": "Pode prolongar o intervalo PR no eletrocardiograma, causando alterações de condução cardíaca. O médico solicita ECG antes e durante o tratamento, especialmente em pacientes com problemas cardíacos."
+      },
+      {
+        "pergunta": "Lacosamida dá tontura?",
+        "resposta": "Sim, tontura, visão dupla e dor de cabeça são os efeitos mais comuns, especialmente no início do tratamento ou ao aumentar a dose. Tomar à noite pode ajudar a minimizar o impacto no dia a dia."
+      },
+      {
+        "pergunta": "Lacosamida tem interações com outros antiepilépticos?",
+        "resposta": "Tem menos interações que muitos antiepilépticos clássicos, mas o médico avalia sempre as combinações. Não modificar doses sem orientação."
+      }
+    ]
   },
   {
     "nome": "Lactulose 667mg/mL - Xarope",
@@ -11106,7 +11282,29 @@
     "receita_cor": "verde",
     "receita_obrigatoria": false,
     "tipo_receita": "MIP",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Lactulose serve para prisão de ventre?",
+        "resposta": "Sim, é laxante osmótico seguro e eficaz para constipação crônica, especialmente em idosos, grávidas e crianças. Age atraindo água para o intestino e amolecendo as fezes."
+      },
+      {
+        "pergunta": "Lactulose pode usar todo dia?",
+        "resposta": "Sim, pode ser usada diariamente por tempo prolongado — é considerada segura para uso crônico sob orientação médica, ao contrário de laxantes estimulantes que podem causar dependência intestinal."
+      },
+      {
+        "pergunta": "Lactulose dá gases?",
+        "resposta": "Sim, gases, inchaço e cólicas são os efeitos mais comuns, especialmente no início. Geralmente melhoram com a adaptação do organismo após alguns dias de uso."
+      },
+      {
+        "pergunta": "Lactulose serve para doença do fígado?",
+        "resposta": "Sim, em doses altas é usada na encefalopatia hepática — ajuda a eliminar amônia pelo intestino, reduzindo a toxicidade cerebral em pacientes com insuficiência hepática grave."
+      },
+      {
+        "pergunta": "Lactulose pode usar em bebê?",
+        "resposta": "Sim, é uma das opções mais seguras para constipação em lactentes e crianças pequenas. A dose é ajustada pelo pediatra conforme o peso e a idade."
+      }
+    ]
   },
   {
     "nome": "Lamotrigina 25mg - 50mg - 100mg - 150mg - 200mg",
@@ -11132,7 +11330,29 @@
     "receita_nota": "Prescrição médica obrigatória. Receita válida por 30 dias.",
     "receita_obrigatoria": true,
     "tipo_receita": "C1",
-    "retencao_receita": true
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Lamotrigina serve para bipolar?",
+        "resposta": "Sim, é estabilizador de humor usado no transtorno bipolar para prevenir episódios depressivos e maníacos. Também é antiepiléptico eficaz para crises focais e generalizadas."
+      },
+      {
+        "pergunta": "Lamotrigina pode causar mancha na pele?",
+        "resposta": "Sim, qualquer erupção na pele durante o tratamento deve ser comunicada ao médico imediatamente — pode ser sinal inicial da Síndrome de Stevens-Johnson, reação grave e potencialmente fatal. Por isso a dose é aumentada muito lentamente."
+      },
+      {
+        "pergunta": "Lamotrigina demora para fazer efeito?",
+        "resposta": "Sim, a dose é aumentada muito lentamente (semanas a meses) para reduzir o risco de reações graves. O efeito terapêutico completo é gradual — paciência é essencial."
+      },
+      {
+        "pergunta": "Lamotrigina pode parar de tomar de repente?",
+        "resposta": "Não. A interrupção abrupta pode causar crises convulsivas graves. A dose deve ser reduzida gradualmente sempre com orientação médica."
+      },
+      {
+        "pergunta": "Lamotrigina anticoncepcional reduz o efeito?",
+        "resposta": "Sim, anticoncepcionais hormonais podem reduzir os níveis de lamotrigina no sangue, diminuindo a eficácia. O médico ajusta a dose conforme necessário — nunca alterar sem orientação."
+      }
+    ]
   },
   {
     "nome": "Lansoprazol 15mg - 30mg",
@@ -11215,7 +11435,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": true
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Leflunomida serve para artrite reumatoide?",
+        "resposta": "Sim, é medicamento modificador da doença (DMARD) indicado para artrite reumatoide e artrite psoriásica. Reduz a inflamação e retarda a progressão do dano articular."
+      },
+      {
+        "pergunta": "Leflunomida pode engravidar?",
+        "resposta": "Não. É fortemente teratogênica. Mulheres devem usar contracepção eficaz durante o uso e por até 2 anos após parar — ou fazer lavagem com colestiramina para eliminar o medicamento mais rapidamente."
+      },
+      {
+        "pergunta": "Leflunomida causa queda de cabelo?",
+        "resposta": "Sim, alopecia é um efeito colateral possível. Geralmente é reversível ao reduzir a dose ou suspender o medicamento sob orientação médica."
+      },
+      {
+        "pergunta": "Leflunomida faz mal ao fígado?",
+        "resposta": "Pode elevar enzimas hepáticas. Exames de função hepática devem ser monitorados regularmente durante o tratamento, especialmente nos primeiros 6 meses."
+      },
+      {
+        "pergunta": "Leflunomida demora para fazer efeito?",
+        "resposta": "Sim, o efeito completo leva de 4 a 8 semanas. Alguns médicos prescrevem dose de ataque nos primeiros dias para acelerar o início do efeito terapêutico."
+      }
+    ]
   },
   {
     "nome": "Levamisol 80mg - 150mg — DESCONTINUADO",
@@ -11240,7 +11482,29 @@
     "receita_cor": "cinza",
     "receita_obrigatoria": false,
     "tipo_receita": "MIP",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Levamisol ainda é vendido no Brasil?",
+        "resposta": "Não, está descontinuado no Brasil. Para parasitoses intestinais como lombriga, o albendazol ou o mebendazol são as alternativas disponíveis atualmente."
+      },
+      {
+        "pergunta": "Levamisol serve para lombriga?",
+        "resposta": "Era indicado para ascaridíase (lombriga) e ancilostomíase. Com a descontinuação, o tratamento atual é feito com albendazol ou mebendazol, igualmente eficazes."
+      },
+      {
+        "pergunta": "Levamisol pode causar queda de defesas?",
+        "resposta": "Sim, agranulocitose (queda grave das células de defesa do sangue) era uma complicação rara mas grave, especialmente com uso prolongado — uma das razões para sua descontinuação."
+      },
+      {
+        "pergunta": "Qual substituto do Levamisol?",
+        "resposta": "Albendazol 400mg dose única ou mebendazol 100mg 2 vezes ao dia por 3 dias são os substitutos recomendados para tratamento de parasitoses intestinais."
+      },
+      {
+        "pergunta": "Levamisol era controlado?",
+        "resposta": "Não era controlado — era usado sem receita em muitos contextos. Sua descontinuação foi por decisão regulatória e de mercado, não por ser controlado."
+      }
+    ]
   },
   {
     "nome": "Levetiracetam 250mg - 500mg - 750mg - 1000mg - Solução Oral",
@@ -11265,7 +11529,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "B2",
-    "retencao_receita": true
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Levetiracetam serve para epilepsia?",
+        "resposta": "Sim, é anticonvulsivante moderno para crises focais e generalizadas em adultos e crianças. Tem boa tolerabilidade e menos interações que antiepilépticos mais antigos."
+      },
+      {
+        "pergunta": "Levetiracetam causa irritabilidade?",
+        "resposta": "Sim, irritabilidade, mudanças de humor e agitação são efeitos bastante relatados. Em alguns casos pode causar sintomas depressivos ou psicóticos. Comunicar ao médico se houver mudanças de comportamento."
+      },
+      {
+        "pergunta": "Levetiracetam pode parar de tomar de repente?",
+        "resposta": "Não. A interrupção abrupta pode desencadear crises convulsivas graves. A dose deve ser reduzida gradualmente sempre com orientação médica."
+      },
+      {
+        "pergunta": "Levetiracetam tem muitas interações?",
+        "resposta": "Tem menos interações que a maioria dos antiepilépticos clássicos — uma das suas vantagens. Ainda assim, informar ao médico todos os medicamentos em uso."
+      },
+      {
+        "pergunta": "Levetiracetam o SUS fornece?",
+        "resposta": "Sim, está disponível no programa de medicamentos de dispensação especial do SUS para pacientes com epilepsia cadastrados. Consultar a UBS ou farmácia de alto custo da sua região."
+      }
+    ]
   },
   {
     "nome": "Levofloxacina 500mg - 750mg - Injetável",
@@ -11290,7 +11576,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": true
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Levofloxacina serve para pneumonia?",
+        "resposta": "Sim, é antibiótico de amplo espectro muito usado para pneumonia adquirida na comunidade, sinusite grave e infecções urinárias complicadas. É uma fluorquinolona de terceira geração."
+      },
+      {
+        "pergunta": "Levofloxacina pode causar problema no tendão?",
+        "resposta": "Sim, tendinite e ruptura de tendão (especialmente o de Aquiles) são efeitos raros mas graves. Ao sentir dor, inchaço ou estalo no tendão, interromper e procurar atendimento imediatamente."
+      },
+      {
+        "pergunta": "Levofloxacina pode tomar com leite?",
+        "resposta": "Evitar tomar com laticínios, antiácidos, ferro ou zinco — reduzem a absorção. Tomar com água em jejum ou pelo menos 2 horas separado desses alimentos e suplementos."
+      },
+      {
+        "pergunta": "Levofloxacina causa sensibilidade ao sol?",
+        "resposta": "Sim, fotossensibilidade é um efeito possível. Usar protetor solar e evitar exposição solar intensa durante o tratamento."
+      },
+      {
+        "pergunta": "Levofloxacina é antibiótico de reserva?",
+        "resposta": "Sim, fluorquinolonas como a levofloxacina devem ser reservadas para infecções que realmente necessitam desse espectro — o uso indiscriminado favorece resistência bacteriana. Usar apenas com prescrição médica."
+      }
+    ]
   },
   {
     "nome": "Levonorgestrel DIU (Mirena / Kyleena)",
@@ -11322,7 +11630,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "DIU Mirena para que serve?",
+        "resposta": "É DIU hormonal que serve como contraceptivo altamente eficaz (>99,8%) e também para tratar endometriose, miomas e menstruação intensa. O Mirena dura 5 a 7 anos, o Kyleena dura 5 anos."
+      },
+      {
+        "pergunta": "DIU hormonal para a menstruação?",
+        "resposta": "Sim, após 3 a 6 meses de adaptação, a maioria das usuárias tem menstruação muito reduzida ou amenorreia (ausência de menstruação) — considerado um benefício por muitas mulheres."
+      },
+      {
+        "pergunta": "DIU Mirena engorda?",
+        "resposta": "Alguns relatos de leve ganho de peso existem, mas estudos não confirmam relação direta. Por liberar hormônio localmente em pequena quantidade, os efeitos sistêmicos são mínimos."
+      },
+      {
+        "pergunta": "DIU Mirena dói para colocar?",
+        "resposta": "A inserção pode causar cólica intensa durante e logo após o procedimento. Cólicas e sangramento irregular nas primeiras semanas são normais. O médico pode recomendar analgésico antes da inserção."
+      },
+      {
+        "pergunta": "DIU Mirena pode ser usado em quem nunca teve filho?",
+        "resposta": "Sim, é seguro para mulheres que nunca tiveram filhos. O útero nulíparo pode ser menor, tornando a inserção um pouco mais desconfortável, mas é perfeitamente possível."
+      }
+    ]
   },
   {
     "nome": "Levotiroxina 25mcg - 50mcg - 75mcg - 100mcg - 125mcg - 150mcg (Puran T4)",
@@ -11403,7 +11733,29 @@
     ],
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Lidocaína gel serve para anestesia?",
+        "resposta": "Sim, é anestésico local tópico usado para anestesiar mucosas antes de procedimentos como cateterismo, endoscopia, sondagem uretral e para alívio de dor em feridas e úlceras orais."
+      },
+      {
+        "pergunta": "Lidocaína gel pode usar na boca?",
+        "resposta": "Sim, é usada para aliviar dor de úlceras orais (aftas) e outros procedimentos na boca. Evitar engolir grandes quantidades — pode causar anestesia da garganta dificultando a deglutição."
+      },
+      {
+        "pergunta": "Lidocaína gel pode usar em hemorroida?",
+        "resposta": "Sim, é usada para alívio temporário da dor em fissuras anais e hemorroidas externas. Aplicar em pequena quantidade na área afetada conforme orientação médica."
+      },
+      {
+        "pergunta": "Lidocaína gel pode usar em grande área?",
+        "resposta": "Não. Aplicar em grandes áreas ou pele extensamente lesionada pode causar absorção sistêmica excessiva e toxicidade — tontura, confusão e arritmia. Usar apenas nas áreas indicadas."
+      },
+      {
+        "pergunta": "Lidocaína gel precisa de receita?",
+        "resposta": "Depende da formulação e indicação. Géis para uso odontológico e aftas em baixa concentração podem ser vendidos sem receita. Formulações para procedimentos médicos exigem prescrição."
+      }
+    ]
   },
   {
     "nome": "Linagliptina 5mg (Trayenta)",
@@ -11433,7 +11785,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Linagliptina serve para diabetes tipo 2?",
+        "resposta": "Sim, é inibidor da DPP-4 que estimula a produção de insulina somente quando a glicose está elevada. Age de forma dependente da glicose, reduzindo o risco de hipoglicemia."
+      },
+      {
+        "pergunta": "Linagliptina pode usar em doença renal?",
+        "resposta": "Sim, essa é sua principal vantagem — não precisa de ajuste de dose em nenhum grau de insuficiência renal, inclusive em pacientes em diálise. Diferencial importante em relação a outros antidiabéticos."
+      },
+      {
+        "pergunta": "Linagliptina causa hipoglicemia?",
+        "resposta": "Raramente quando usada sozinha — por agir somente quando a glicose está elevada. O risco aumenta quando combinada com sulfonilureias ou insulina."
+      },
+      {
+        "pergunta": "Linagliptina pode tomar com metformina?",
+        "resposta": "Sim, a combinação é muito usada e complementar. Inclusive existe comprimido que já associa os dois (Jentadueto) para facilitar o tratamento."
+      },
+      {
+        "pergunta": "Linagliptina pode causar pancreatite?",
+        "resposta": "É um risco raro mas descrito com os inibidores da DPP-4. Se sentir dor abdominal intensa e persistente, procurar atendimento médico imediatamente."
+      }
+    ]
   },
   {
     "nome": "Linezolida 400mg - 600mg",
@@ -11464,7 +11838,29 @@
     ],
     "receita_obrigatoria": true,
     "tipo_receita": "hospitalar",
-    "retencao_receita": true
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Linezolida serve para infecções resistentes?",
+        "resposta": "Sim, é antibiótico reservado para infecções graves por bactérias multirresistentes, especialmente MRSA e enterococos resistentes à vancomicina (VRE). É um antibiótico de reserva — usado quando outros falharam."
+      },
+      {
+        "pergunta": "Linezolida pode tomar com antidepressivo?",
+        "resposta": "Não sem avaliação médica cuidadosa. A combinação com ISRSs, IRSNs e IMAOs pode causar síndrome serotoninérgica — reação grave potencialmente fatal. Informar todos os medicamentos em uso."
+      },
+      {
+        "pergunta": "Linezolida afeta o sangue?",
+        "resposta": "Sim, queda de plaquetas (trombocitopenia) é um efeito importante no uso prolongado. Exames de sangue regulares são necessários durante o tratamento."
+      },
+      {
+        "pergunta": "Linezolida tem restrição alimentar?",
+        "resposta": "Sim, evitar alimentos ricos em tiramina (queijos curados, vinho tinto, embutidos, extrato de levedura) — pode causar crise hipertensiva grave pela inibição da MAO."
+      },
+      {
+        "pergunta": "Linezolida existe em comprimido e injeção?",
+        "resposta": "Sim, está disponível tanto em comprimido oral quanto em solução injetável. O comprimido tem boa absorção oral — em infecções que permitem uso oral, o comprimido é igualmente eficaz à injeção."
+      }
+    ]
   },
   {
     "nome": "Lisador (Dipirona + Adifenina + Prometazina)",
@@ -11546,7 +11942,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "A",
-    "retencao_receita": true
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Lisdexanfetamina serve para TDAH?",
+        "resposta": "Sim, é indicada para TDAH em crianças a partir de 6 anos, adolescentes e adultos. Melhora a atenção, reduz a impulsividade e a hiperatividade ao aumentar dopamina e noradrenalina no cérebro."
+      },
+      {
+        "pergunta": "Lisdexanfetamina causa insônia?",
+        "resposta": "Sim, insônia é um dos efeitos mais comuns. Tomar cedo pela manhã reduz o impacto no sono. Comunicar ao médico se a insônia persistir — ajuste de horário ou dose pode ser necessário."
+      },
+      {
+        "pergunta": "Lisdexanfetamina causa dependência?",
+        "resposta": "Sim, tem potencial de abuso e dependência — é substância controlada. Por isso exige acompanhamento médico regular e receita especial. Nunca compartilhar ou usar em doses maiores que as prescritas."
+      },
+      {
+        "pergunta": "Lisdexanfetamina diminui o apetite?",
+        "resposta": "Sim, perda de apetite é um efeito muito comum. Em crianças, monitorar peso e crescimento regularmente. Oferecer refeições nutritivas nos momentos em que o apetite retornar."
+      },
+      {
+        "pergunta": "Lisdexanfetamina é o mesmo que Venvanse?",
+        "resposta": "Sim, Venvanse é o nome comercial da lisdexanfetamina no Brasil — o mesmo medicamento, mesma substância ativa."
+      }
+    ]
   },
   {
     "nome": "Lisinopril 5mg - 10mg - 20mg - 30mg",
@@ -11572,7 +11990,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Lisinopril serve para pressão alta?",
+        "resposta": "Sim, é IECA (inibidor da enzima conversora de angiotensina) indicado para hipertensão, insuficiência cardíaca e proteção renal em diabéticos. É um dos anti-hipertensivos mais usados no mundo."
+      },
+      {
+        "pergunta": "Lisinopril causa tosse?",
+        "resposta": "Sim, tosse seca persistente afeta até 20% dos pacientes — é o efeito colateral mais comum dos IECAs. Se a tosse for intolerável, o médico pode substituir por um BRA (como losartana) que não causa esse efeito."
+      },
+      {
+        "pergunta": "Lisinopril pode usar na gravidez?",
+        "resposta": "Não. É contraindicado na gravidez — causa malformações graves nos rins do bebê e pode ser fatal. Trocar para medicamento seguro imediatamente ao engravidar."
+      },
+      {
+        "pergunta": "Lisinopril aumenta o potássio?",
+        "resposta": "Sim, pode elevar o potássio (hipercalemia), especialmente em diabéticos e pacientes com doença renal. Monitoramento com exames regulares é necessário."
+      },
+      {
+        "pergunta": "Lisinopril pode tomar com anti-inflamatório?",
+        "resposta": "Evitar sempre que possível. Anti-inflamatórios como ibuprofeno e diclofenaco reduzem a eficácia do lisinopril e aumentam o risco de lesão renal. Preferir paracetamol para dores eventuais."
+      }
+    ]
   },
   {
     "nome": "Loperamida 2mg",
