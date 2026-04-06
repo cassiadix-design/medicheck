@@ -28,7 +28,29 @@
     ],
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Acarbose causa hipoglicemia?",
+        "resposta": "Sozinha não. Mas combinada com outros antidiabéticos pode causar hipoglicemia — nesse caso usar glucose pura, pois a acarbose bloqueia a digestão do açúcar comum."
+      },
+      {
+        "pergunta": "Acarbose dá gases?",
+        "resposta": "Sim, flatulência e distensão abdominal são os efeitos mais comuns — são esperados pelo mecanismo de ação. Melhoram com o tempo e iniciando com doses baixas."
+      },
+      {
+        "pergunta": "Acarbose quando tomar?",
+        "resposta": "Deve ser tomada com a primeira garfada de cada refeição principal. Nunca tomar em jejum."
+      },
+      {
+        "pergunta": "Acarbose emagrece?",
+        "resposta": "Pode contribuir levemente para perda de peso por reduzir a absorção de carboidratos, mas não é medicamento para emagrecimento."
+      },
+      {
+        "pergunta": "Acarbose pode tomar com metformina?",
+        "resposta": "Sim, a combinação é usada no diabetes tipo 2. Cada um age por mecanismo diferente, complementando o controle glicêmico."
+      }
+    ]
   },
   {
     "nome": "Aceclofenaco 100mg",
@@ -143,7 +165,29 @@
     "receita_cor": "verde",
     "receita_obrigatoria": false,
     "tipo_receita": "MIP",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Acetilcisteína serve para tosse?",
+        "resposta": "Sim, age como mucolítico — fluidifica o muco tornando mais fácil de expectorar. Não suprime a tosse, mas facilita a eliminação da secreção."
+      },
+      {
+        "pergunta": "Acetilcisteína pode tomar em jejum?",
+        "resposta": "Pode, mas tomar com alimentos reduz o desconforto gástrico que pode ocorrer."
+      },
+      {
+        "pergunta": "Acetilcisteína 600mg para que serve?",
+        "resposta": "Para fluidificar secreções em bronquite, sinusite e DPOC. Também usada como antioxidante e antídoto na intoxicação por paracetamol."
+      },
+      {
+        "pergunta": "Acetilcisteína pode tomar com antibiótico?",
+        "resposta": "Sim, mas separar o horário por pelo menos 2 horas — a acetilcisteína pode reduzir a absorção de alguns antibióticos se tomada junto."
+      },
+      {
+        "pergunta": "Acetilcisteína faz mal para o estômago?",
+        "resposta": "Pode causar náusea e desconforto gástrico em algumas pessoas. Tomar com alimentos ou dissolver bem o efervescente antes de beber ajuda."
+      }
+    ]
   },
   {
     "nome": "Aciclovir 200mg - 400mg - Creme",
@@ -169,7 +213,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Aciclovir creme serve para herpes labial?",
+        "resposta": "Sim, é indicado para herpes labial (fogo selvagem). Aplicar assim que surgirem os primeiros sintomas (ardência, coceira) para maior eficácia."
+      },
+      {
+        "pergunta": "Aciclovir comprimido serve para herpes genital?",
+        "resposta": "Sim, o aciclovir oral é indicado para herpes genital — tanto para tratar o episódio agudo quanto para prevenção de recorrências."
+      },
+      {
+        "pergunta": "Aciclovir creme pode usar na gravidez?",
+        "resposta": "O creme tópico tem absorção mínima e é considerado seguro na gravidez. O aciclovir oral deve ser usado com orientação médica na gestação."
+      },
+      {
+        "pergunta": "Aciclovir cura o herpes?",
+        "resposta": "Não. O aciclovir controla os sintomas e reduz a duração das crises, mas o vírus permanece no organismo. As crises podem se repetir ao longo da vida."
+      },
+      {
+        "pergunta": "Aciclovir pode tomar com frequência?",
+        "resposta": "Para quem tem mais de 6 crises por ano, o médico pode indicar uso contínuo (supressivo) de aciclovir oral para reduzir a frequência das recorrências."
+      }
+    ]
   },
   {
     "nome": "Acitretina 10mg - 25mg",
@@ -230,7 +296,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Adapaleno resseca a pele?",
+        "resposta": "Sim, ressecamento, descamação e vermelhidão são comuns no início — especialmente nas primeiras 2 a 4 semanas. Usar hidratante não comedogênico e protetor solar."
+      },
+      {
+        "pergunta": "Adapaleno pode usar de dia?",
+        "resposta": "Não é recomendado. Usar à noite — o adapaleno aumenta a sensibilidade ao sol e pode ser inativado pela luz UV."
+      },
+      {
+        "pergunta": "Adapaleno demora quanto para fazer efeito?",
+        "resposta": "Os primeiros resultados aparecem em 8 a 12 semanas. O efeito completo pode levar 3 a 6 meses de uso contínuo."
+      },
+      {
+        "pergunta": "Adapaleno pode usar na gravidez?",
+        "resposta": "Não. Retinoide tópico contraindicado na gravidez. Usar método contraceptivo durante o tratamento."
+      },
+      {
+        "pergunta": "Adapaleno serve para acne?",
+        "resposta": "Sim, é um dos retinoides tópicos mais usados para acne — desobstrui os poros, reduz comedões e tem ação anti-inflamatória."
+      }
+    ]
   },
   {
     "nome": "Agomelatina 25mg - 50mg",
@@ -260,7 +348,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "C1",
-    "retencao_receita": true
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Agomelatina dá sono?",
+        "resposta": "Pode causar sonolência, especialmente no início. É tomada à noite justamente porque melhora o padrão do sono como parte do seu mecanismo de ação."
+      },
+      {
+        "pergunta": "Agomelatina engorda?",
+        "resposta": "É um dos antidepressivos com menor impacto no peso — raramente causa ganho de peso significativo."
+      },
+      {
+        "pergunta": "Agomelatina faz mal para o fígado?",
+        "resposta": "Sim, pode elevar enzimas hepáticas. Por isso exige monitoramento regular do fígado — antes de iniciar e periodicamente durante o tratamento."
+      },
+      {
+        "pergunta": "Agomelatina demora quanto para fazer efeito?",
+        "resposta": "O efeito antidepressivo costuma aparecer em 2 semanas, mais rápido que muitos outros antidepressivos. A melhora do sono pode ocorrer ainda antes."
+      },
+      {
+        "pergunta": "Agomelatina pode tomar com álcool?",
+        "resposta": "Não. O álcool aumenta o risco de hepatotoxicidade e potencializa a sedação. Evitar completamente durante o tratamento."
+      }
+    ]
   },
   {
     "nome": "Albendazol 400mg - Suspensão e Comprimido Mastigável",
@@ -285,7 +395,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Albendazol serve para oxiúrus?",
+        "resposta": "Sim, é eficaz para oxiúrus (bicha-coceira), além de lombriga, ancilostomíase, teníase e outras parasitoses intestinais."
+      },
+      {
+        "pergunta": "Albendazol pode tomar em jejum?",
+        "resposta": "Para parasitas intestinais pode ser tomado em jejum. Para cisticercose e equinococose, tomar com alimentos gordurosos melhora muito a absorção."
+      },
+      {
+        "pergunta": "Albendazol pode dar para criança?",
+        "resposta": "Sim, a partir de 2 anos. Para crianças entre 1 e 2 anos, usar apenas com orientação médica. Abaixo de 1 ano, contraindicado."
+      },
+      {
+        "pergunta": "Albendazol precisa repetir a dose?",
+        "resposta": "Para oxiúrus, geralmente repete a dose após 2 semanas para eliminar os vermes que eclodiram de ovos. Para outras parasitoses, o esquema varia."
+      },
+      {
+        "pergunta": "Albendazol pode tomar na gravidez?",
+        "resposta": "Contraindicado na gravidez — pode causar malformações fetais. Usar método contraceptivo durante o tratamento."
+      }
+    ]
   },
   {
     "nome": "Albumina Humana 20% - 25% (Solução Injetável)",
@@ -343,7 +475,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Alendronato como tomar corretamente?",
+        "resposta": "Em jejum absoluto, com copo cheio de água (200ml), ficar em pé ou sentado por pelo menos 30 minutos após. Não deitar, não comer e não tomar outros medicamentos nesse período."
+      },
+      {
+        "pergunta": "Alendronato pode tomar com café?",
+        "resposta": "Não. Tomar apenas com água pura em jejum. Café, suco e outros líquidos reduzem muito a absorção."
+      },
+      {
+        "pergunta": "Alendronato causa dor no esôfago?",
+        "resposta": "Pode irritar o esôfago se não tomado corretamente. Por isso é essencial ficar em pé por 30 minutos e tomar com bastante água."
+      },
+      {
+        "pergunta": "Alendronato é semanal ou diário?",
+        "resposta": "Existe nas duas formas — 10mg diário e 70mg semanal. O semanal é mais conveniente e tem melhor adesão ao tratamento."
+      },
+      {
+        "pergunta": "Alendronato pode causar problema no osso do maxilar?",
+        "resposta": "Raramente pode causar osteonecrose de mandíbula, especialmente com uso prolongado. Informar ao dentista sobre o uso antes de procedimentos invasivos."
+      }
+    ]
   },
   {
     "nome": "Almeida Prado nº 35",
@@ -513,7 +667,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Alopurinol serve para gota?",
+        "resposta": "Sim, é o medicamento de escolha para tratamento crônico da gota — reduz a produção de ácido úrico prevenindo novas crises."
+      },
+      {
+        "pergunta": "Alopurinol pode tomar durante a crise de gota?",
+        "resposta": "Não iniciar durante uma crise aguda — pode piorar a inflamação. Iniciar após a crise ceder, geralmente com colchicina ou anti-inflamatório profilático."
+      },
+      {
+        "pergunta": "Alopurinol causa alergia?",
+        "resposta": "Pode causar reações alérgicas, algumas graves (síndrome de Stevens-Johnson). Suspender imediatamente se surgir erupção na pele e comunicar ao médico."
+      },
+      {
+        "pergunta": "Alopurinol pode tomar com amoxicilina?",
+        "resposta": "Com cautela — a combinação aumenta o risco de reações alérgicas na pele. Informar ao médico sobre o uso de alopurinol se precisar de antibiótico."
+      },
+      {
+        "pergunta": "Alopurinol beber bastante água?",
+        "resposta": "Sim, beber pelo menos 2 litros de água por dia durante o tratamento — reduz o risco de cálculo renal de ácido úrico."
+      }
+    ]
   },
   {
     "nome": "Alprazolam 0,25mg - 0,5mg - 1,0mg - 2,0mg",
@@ -625,7 +801,29 @@
     "receita_cor": "verde",
     "receita_obrigatoria": false,
     "tipo_receita": "MIP",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Ambroxol serve para tosse?",
+        "resposta": "Serve para tosse produtiva com muco espesso — fluidifica a secreção facilitando a expectoração. Não é indicado para tosse seca."
+      },
+      {
+        "pergunta": "Ambroxol pode dar para criança?",
+        "resposta": "Sim, existe formulação em xarope para crianças. A dose é calculada pelo peso e idade — seguir sempre a orientação médica ou da bula."
+      },
+      {
+        "pergunta": "Ambroxol pode tomar com antibiótico?",
+        "resposta": "Sim, o ambroxol aumenta a concentração de alguns antibióticos no pulmão, potencializando o tratamento de infecções respiratórias."
+      },
+      {
+        "pergunta": "Ambroxol pode tomar na gravidez?",
+        "resposta": "Evitar no primeiro trimestre. No segundo e terceiro trimestres, usar apenas com orientação médica."
+      },
+      {
+        "pergunta": "Ambroxol é o mesmo que bromexina?",
+        "resposta": "São da mesma família — o ambroxol é um metabólito ativo da bromexina, com ação mucolítica mais potente e rápida."
+      }
+    ]
   },
   {
     "nome": "Amiodarona 100mg - 200mg",
@@ -651,7 +849,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Amiodarona pode tomar com sol?",
+        "resposta": "Não diretamente. A amiodarona causa fotossensibilidade intensa — usar protetor solar FPS 50+ e roupas protetoras. Pode causar manchas azuladas permanentes na pele."
+      },
+      {
+        "pergunta": "Amiodarona afeta a tireoide?",
+        "resposta": "Sim, pode causar tanto hipotireoidismo quanto hipertireoidismo — monitorar a função tireoidiana regularmente durante o tratamento."
+      },
+      {
+        "pergunta": "Amiodarona pode parar de tomar de repente?",
+        "resposta": "Nunca sem orientação médica — tem meia-vida muito longa (40 a 55 dias) e a interrupção abrupta pode causar arritmias graves."
+      },
+      {
+        "pergunta": "Amiodarona interage com muitos medicamentos?",
+        "resposta": "Sim, tem inúmeras interações importantes — com warfarina, digoxina, estatinas e muitos outros. Sempre informar todos os medicamentos em uso ao médico."
+      },
+      {
+        "pergunta": "Amiodarona faz mal para o pulmão?",
+        "resposta": "Pode causar toxicidade pulmonar — tosse seca persistente e falta de ar devem ser comunicadas imediatamente ao médico."
+      }
+    ]
   },
   {
     "nome": "Amitriptilina 25mg",
@@ -1012,7 +1232,29 @@
     ],
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Anlodipino causa inchaço?",
+        "resposta": "Sim, edema nos tornozelos e pés é o efeito colateral mais comum do anlodipino. Geralmente não é perigoso, mas incomoda. Comunicar ao médico se for intenso."
+      },
+      {
+        "pergunta": "Anlodipino pode tomar à noite?",
+        "resposta": "Pode ser tomado em qualquer horário, mas sempre no mesmo horário todo dia. Alguns médicos preferem à noite para melhor controle noturno da pressão."
+      },
+      {
+        "pergunta": "Anlodipino engorda?",
+        "resposta": "O inchaço nos tornozelos pode parecer ganho de peso, mas é retenção de líquido local, não ganho de gordura."
+      },
+      {
+        "pergunta": "Anlodipino serve para angina?",
+        "resposta": "Sim, além de anti-hipertensivo, é usado para angina estável — relaxa as artérias coronárias melhorando o fluxo de sangue para o coração."
+      },
+      {
+        "pergunta": "Anlodipino pode tomar com suco de grapefruit?",
+        "resposta": "Com cautela — o suco de toranja pode aumentar os níveis de anlodipino no sangue. Preferir evitar durante o tratamento."
+      }
+    ]
   },
   {
     "nome": "Anlodipino 5mg - 10mg",
@@ -1038,7 +1280,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Anlodipino causa inchaço?",
+        "resposta": "Sim, edema nos tornozelos e pés é o efeito colateral mais comum do anlodipino. Geralmente não é perigoso, mas incomoda. Comunicar ao médico se for intenso."
+      },
+      {
+        "pergunta": "Anlodipino pode tomar à noite?",
+        "resposta": "Pode ser tomado em qualquer horário, mas sempre no mesmo horário todo dia. Alguns médicos preferem à noite para melhor controle noturno da pressão."
+      },
+      {
+        "pergunta": "Anlodipino engorda?",
+        "resposta": "O inchaço nos tornozelos pode parecer ganho de peso, mas é retenção de líquido local, não ganho de gordura."
+      },
+      {
+        "pergunta": "Anlodipino serve para angina?",
+        "resposta": "Sim, além de anti-hipertensivo, é usado para angina estável — relaxa as artérias coronárias melhorando o fluxo de sangue para o coração."
+      },
+      {
+        "pergunta": "Anlodipino pode tomar com suco de grapefruit?",
+        "resposta": "Com cautela — o suco de toranja pode aumentar os níveis de anlodipino no sangue. Preferir evitar durante o tratamento."
+      }
+    ]
   },
   {
     "nome": "Anticoncepcional Combinado (Yasmin / Diane 35 / Selene)",
@@ -1074,7 +1338,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Anticoncepcional engorda?",
+        "resposta": "Alguns anticoncepcionais podem causar leve retenção de líquidos no início, mas estudos mostram que o ganho de peso significativo não é diretamente causado pela pílula. Pode variar conforme o tipo de hormônio."
+      },
+      {
+        "pergunta": "Anticoncepcional pode tomar na primeira semana sem camisinha?",
+        "resposta": "Depende de quando iniciou. Se iniciado no 1º dia da menstruação, já está protegida. Se iniciou em outro momento, usar preservativo nos primeiros 7 dias."
+      },
+      {
+        "pergunta": "Anticoncepcional protege contra DST?",
+        "resposta": "Não. O anticoncepcional previne gravidez mas não protege contra infecções sexualmente transmissíveis. Usar preservativo para proteção completa."
+      },
+      {
+        "pergunta": "Anticoncepcional pode tomar com antibiótico?",
+        "resposta": "A maioria dos antibióticos não interfere na eficácia. A rifampicina é uma exceção importante — reduz significativamente a proteção. Sempre consultar o médico."
+      },
+      {
+        "pergunta": "Esqueci de tomar o anticoncepcional, o que fazer?",
+        "resposta": "Se lembrou no mesmo dia, tomar assim que lembrar. Se passou mais de 24h, tomar assim que lembrar e usar preservativo nos próximos 7 dias. Consultar a bula do produto específico."
+      }
+    ]
   },
   {
     "nome": "Aripiprazol 10mg",
@@ -1100,7 +1386,29 @@
     "receita_nota": "Prescrição médica obrigatória. Receita válida por 30 dias.",
     "receita_obrigatoria": true,
     "tipo_receita": "C1",
-    "retencao_receita": true
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Aripiprazol engorda?",
+        "resposta": "Tem menor tendência a causar ganho de peso comparado a outros antipsicóticos como olanzapina e quetiapina. É uma vantagem importante desse medicamento."
+      },
+      {
+        "pergunta": "Aripiprazol causa acatisia?",
+        "resposta": "Sim, acatisia (inquietação, sensação de não conseguir ficar parado) é o efeito colateral mais comum. Comunicar ao médico se ocorrer — pode ser tratado com ajuste de dose."
+      },
+      {
+        "pergunta": "Aripiprazol serve para depressão?",
+        "resposta": "Sim, é aprovado como adjuvante no tratamento da depressão maior quando o antidepressivo isolado não foi suficiente."
+      },
+      {
+        "pergunta": "Aripiprazol pode tomar de manhã?",
+        "resposta": "Pode ser tomado em qualquer horário, mas sempre no mesmo horário. Quem sente insônia prefere tomar de manhã; quem sente sonolência prefere à noite."
+      },
+      {
+        "pergunta": "Aripiprazol pode parar de tomar de repente?",
+        "resposta": "Não. A interrupção abrupta pode causar sintomas de abstinência e recaída. Sempre reduzir gradualmente com orientação do médico."
+      }
+    ]
   },
   {
     "nome": "Aspirina 100mg - Ácido Acetilsalicílico 100mg",
@@ -1125,7 +1433,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Aspirina 100mg serve para coração?",
+        "resposta": "Sim, a aspirina 100mg é usada como antiagregante plaquetário para prevenção de infarto e AVC em pessoas com doença cardiovascular estabelecida ou alto risco."
+      },
+      {
+        "pergunta": "Aspirina pode tomar em jejum?",
+        "resposta": "Não é recomendado. Tomar com alimentação para reduzir o risco de irritação gástrica. Existem apresentações com revestimento entérico que reduzem esse efeito."
+      },
+      {
+        "pergunta": "Aspirina pode tomar com anticoagulante?",
+        "resposta": "Com muita cautela e apenas sob orientação médica — a combinação aumenta muito o risco de sangramento grave."
+      },
+      {
+        "pergunta": "Aspirina pode dar para criança com febre?",
+        "resposta": "Não. A aspirina é contraindicada em crianças e adolescentes com infecções virais — risco de síndrome de Reye, doença grave e potencialmente fatal. Usar paracetamol ou ibuprofeno."
+      },
+      {
+        "pergunta": "Aspirina pode tomar na gravidez?",
+        "resposta": "Contraindicada no terceiro trimestre. Em doses baixas, pode ser prescrita por médico no primeiro e segundo trimestres em casos específicos como prevenção de pré-eclâmpsia."
+      }
+    ]
   },
   {
     "nome": "Aspirina 500mg - Ácido Acetilsalicílico 500mg",
@@ -1150,7 +1480,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Aspirina 100mg serve para coração?",
+        "resposta": "Sim, a aspirina 100mg é usada como antiagregante plaquetário para prevenção de infarto e AVC em pessoas com doença cardiovascular estabelecida ou alto risco."
+      },
+      {
+        "pergunta": "Aspirina pode tomar em jejum?",
+        "resposta": "Não é recomendado. Tomar com alimentação para reduzir o risco de irritação gástrica. Existem apresentações com revestimento entérico que reduzem esse efeito."
+      },
+      {
+        "pergunta": "Aspirina pode tomar com anticoagulante?",
+        "resposta": "Com muita cautela e apenas sob orientação médica — a combinação aumenta muito o risco de sangramento grave."
+      },
+      {
+        "pergunta": "Aspirina pode dar para criança com febre?",
+        "resposta": "Não. A aspirina é contraindicada em crianças e adolescentes com infecções virais — risco de síndrome de Reye, doença grave e potencialmente fatal. Usar paracetamol ou ibuprofeno."
+      },
+      {
+        "pergunta": "Aspirina pode tomar na gravidez?",
+        "resposta": "Contraindicada no terceiro trimestre. Em doses baixas, pode ser prescrita por médico no primeiro e segundo trimestres em casos específicos como prevenção de pré-eclâmpsia."
+      }
+    ]
   },
   {
     "nome": "Atenolol 25mg - 50mg - 100mg",
@@ -1354,7 +1706,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Azatioprina baixa a imunidade?",
+        "resposta": "Sim, é um imunossupressor — reduz a resposta imunológica. Pacientes têm maior risco de infecções e devem evitar contato com pessoas doentes."
+      },
+      {
+        "pergunta": "Azatioprina pode tomar com alopurinol?",
+        "resposta": "Não sem ajuste de dose — interação grave. O alopurinol aumenta muito os níveis de azatioprina causando toxicidade. Informar ao médico se usar alopurinol."
+      },
+      {
+        "pergunta": "Azatioprina causa câncer?",
+        "resposta": "O uso prolongado aumenta levemente o risco de alguns cânceres de pele e linfomas. Usar protetor solar, evitar exposição excessiva ao sol e fazer acompanhamento regular."
+      },
+      {
+        "pergunta": "Azatioprina demora quanto para fazer efeito?",
+        "resposta": "É um medicamento de efeito lento — pode levar 3 a 6 meses para mostrar benefício completo em doenças autoimunes."
+      },
+      {
+        "pergunta": "Azatioprina precisa de exames regulares?",
+        "resposta": "Sim, hemograma e função hepática devem ser monitorados regularmente — especialmente no início do tratamento quando o risco de toxicidade é maior."
+      }
+    ]
   },
   {
     "nome": "Azitromicina 500mg - 1,0g | Suspensão 600mg - 900mg - 1500mg",
@@ -1379,7 +1753,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": true
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Azitromicina pode tomar com leite?",
+        "resposta": "Pode ser tomada com ou sem alimentos, mas a suspensão para crianças deve ser tomada em jejum. Verificar a bula da apresentação específica."
+      },
+      {
+        "pergunta": "Azitromicina serve para garganta?",
+        "resposta": "Sim, é indicada para faringite bacteriana, especialmente quando há alergia à penicilina. Mas a amoxicilina é geralmente a primeira escolha para infecções estreptocócicas."
+      },
+      {
+        "pergunta": "Azitromicina 3 ou 5 dias?",
+        "resposta": "Depende da indicação e do médico. Geralmente 3 dias (500mg/dia) para infecções respiratórias simples, ou 5 dias em casos específicos. Sempre completar o tratamento prescrito."
+      },
+      {
+        "pergunta": "Azitromicina pode tomar com sinvastatina?",
+        "resposta": "Não. A azitromicina inibe o metabolismo da sinvastatina, aumentando muito seu nível no sangue e o risco de miopatia grave. Suspender a sinvastatina durante o tratamento."
+      },
+      {
+        "pergunta": "Azitromicina causa diarreia?",
+        "resposta": "Sim, diarreia e desconforto gastrointestinal são os efeitos mais comuns. Tomar com alimentos pode reduzir esses efeitos."
+      }
+    ]
   },
   {
     "nome": "Baclofen 10mg",
@@ -1463,7 +1859,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Beclometasona spray nasal causa dependência?",
+        "resposta": "Não causa dependência. É um corticoide de ação local com absorção sistêmica mínima — pode ser usado por tempo prolongado com segurança."
+      },
+      {
+        "pergunta": "Beclometasona spray serve para rinite?",
+        "resposta": "Sim, é um dos tratamentos mais eficazes para rinite alérgica — reduz a inflamação nasal, coriza, espirros e obstrução."
+      },
+      {
+        "pergunta": "Beclometasona pode usar todo dia?",
+        "resposta": "Sim, é medicamento de uso diário regular — não é para uso só quando os sintomas aparecem. O efeito máximo ocorre após dias a semanas de uso contínuo."
+      },
+      {
+        "pergunta": "Beclometasona spray como usar corretamente?",
+        "resposta": "Agitar antes de usar, inclinar levemente a cabeça para frente, tampar uma narina e aplicar na outra. Respirar suavemente pelo nariz. Não aspirar com força."
+      },
+      {
+        "pergunta": "Beclometasona spray pode dar para criança?",
+        "resposta": "Sim, existem formulações aprovadas para crianças acima de 6 anos. A dose é menor que a do adulto — seguir orientação médica."
+      }
+    ]
   },
   {
     "nome": "Benalet — Pastilha para Garganta",
@@ -1570,7 +1988,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Betaistina serve para vertigem?",
+        "resposta": "Sim, é indicada para vertigem associada à doença de Ménière e outras vertigens de origem vestibular. Reduz a frequência e intensidade das crises."
+      },
+      {
+        "pergunta": "Betaistina demora quanto para fazer efeito?",
+        "resposta": "O efeito completo pode levar semanas a meses de uso contínuo. É um tratamento de longo prazo — não desistir precocemente."
+      },
+      {
+        "pergunta": "Betaistina pode tomar com pressão alta?",
+        "resposta": "Pode, geralmente não interfere com anti-hipertensivos. Mas sempre informar ao médico todos os medicamentos em uso."
+      },
+      {
+        "pergunta": "Betaistina causa sonolência?",
+        "resposta": "Raramente. É bem tolerada — náusea leve é o efeito colateral mais comum, especialmente no início."
+      },
+      {
+        "pergunta": "Betaistina pode tomar na gravidez?",
+        "resposta": "Não é recomendada na gravidez e amamentação por falta de dados de segurança. Consultar o médico para alternativas."
+      }
+    ]
   },
   {
     "nome": "Betametasona Tópica",
@@ -1743,7 +2183,29 @@
     ],
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Bisoprolol pode parar de tomar de repente?",
+        "resposta": "Nunca. A interrupção abrupta pode causar angina rebote e infarto. Reduzir gradualmente ao longo de 1 a 2 semanas com orientação médica."
+      },
+      {
+        "pergunta": "Bisoprolol causa cansaço?",
+        "resposta": "Sim, fadiga é um efeito comum dos betabloqueadores, especialmente no início. Geralmente melhora com o tempo."
+      },
+      {
+        "pergunta": "Bisoprolol é perigoso para asmáticos?",
+        "resposta": "Sim, betabloqueadores podem causar broncoespasmo em asmáticos. Informar ao médico sobre asma — existem alternativas mais seguras."
+      },
+      {
+        "pergunta": "Bisoprolol serve para insuficiência cardíaca?",
+        "resposta": "Sim, é um dos betabloqueadores aprovados para insuficiência cardíaca — reduz a sobrecarga do coração e melhora a função cardíaca ao longo do tempo."
+      },
+      {
+        "pergunta": "Bisoprolol pode tomar com anlodipino?",
+        "resposta": "Sim, a combinação é muito usada para hipertensão e angina. Os dois se complementam com mecanismos diferentes."
+      }
+    ]
   },
   {
     "nome": "Bisoprolol 2,5mg - 5mg - 10mg",
@@ -1774,7 +2236,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Bisoprolol pode parar de tomar de repente?",
+        "resposta": "Nunca. A interrupção abrupta pode causar angina rebote e infarto. Reduzir gradualmente ao longo de 1 a 2 semanas com orientação médica."
+      },
+      {
+        "pergunta": "Bisoprolol causa cansaço?",
+        "resposta": "Sim, fadiga é um efeito comum dos betabloqueadores, especialmente no início. Geralmente melhora com o tempo."
+      },
+      {
+        "pergunta": "Bisoprolol é perigoso para asmáticos?",
+        "resposta": "Sim, betabloqueadores podem causar broncoespasmo em asmáticos. Informar ao médico sobre asma — existem alternativas mais seguras."
+      },
+      {
+        "pergunta": "Bisoprolol serve para insuficiência cardíaca?",
+        "resposta": "Sim, é um dos betabloqueadores aprovados para insuficiência cardíaca — reduz a sobrecarga do coração e melhora a função cardíaca ao longo do tempo."
+      },
+      {
+        "pergunta": "Bisoprolol pode tomar com anlodipino?",
+        "resposta": "Sim, a combinação é muito usada para hipertensão e angina. Os dois se complementam com mecanismos diferentes."
+      }
+    ]
   },
   {
     "nome": "Brivaracetam 10mg - 25mg - 50mg - 75mg - 100mg",
@@ -8818,7 +9302,29 @@
     ],
     "receita_obrigatoria": false,
     "tipo_receita": "MIP",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Acetilcisteína serve para tosse?",
+        "resposta": "Sim, age como mucolítico — fluidifica o muco tornando mais fácil de expectorar. Não suprime a tosse, mas facilita a eliminação da secreção."
+      },
+      {
+        "pergunta": "Acetilcisteína pode tomar em jejum?",
+        "resposta": "Pode, mas tomar com alimentos reduz o desconforto gástrico que pode ocorrer."
+      },
+      {
+        "pergunta": "Acetilcisteína 600mg para que serve?",
+        "resposta": "Para fluidificar secreções em bronquite, sinusite e DPOC. Também usada como antioxidante e antídoto na intoxicação por paracetamol."
+      },
+      {
+        "pergunta": "Acetilcisteína pode tomar com antibiótico?",
+        "resposta": "Sim, mas separar o horário por pelo menos 2 horas — a acetilcisteína pode reduzir a absorção de alguns antibióticos se tomada junto."
+      },
+      {
+        "pergunta": "Acetilcisteína faz mal para o estômago?",
+        "resposta": "Pode causar náusea e desconforto gástrico em algumas pessoas. Tomar com alimentos ou dissolver bem o efervescente antes de beber ajuda."
+      }
+    ]
   },
   {
     "nome": "Naloxona (Narcan)",
