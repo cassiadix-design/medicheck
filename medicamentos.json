@@ -134,7 +134,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Acetazolamida serve para altitude?",
+        "resposta": "Sim, é usada para prevenção e tratamento do mal da altitude (doença da montanha). Iniciar 1 a 2 dias antes da subida."
+      },
+      {
+        "pergunta": "Acetazolamida serve para glaucoma?",
+        "resposta": "Sim, reduz a pressão intraocular inibindo a produção de humor aquoso. Usada no glaucoma agudo e como adjuvante no glaucoma crônico."
+      },
+      {
+        "pergunta": "Acetazolamida causa formigamento?",
+        "resposta": "Sim, formigamento nas mãos, pés e rosto é um efeito colateral muito comum — geralmente inofensivo e relacionado ao mecanismo de ação."
+      },
+      {
+        "pergunta": "Acetazolamida pode tomar com bastante água?",
+        "resposta": "Sim, beber bastante água é recomendado — reduz o risco de cálculo renal, que pode ocorrer com o uso prolongado."
+      },
+      {
+        "pergunta": "Acetazolamida é para epilepsia?",
+        "resposta": "Sim, também tem uso como antiepiléptico adjuvante em alguns tipos de crise, mas é menos comum que outros antiepilépticos modernos."
+      }
+    ]
   },
   {
     "nome": "Acetilcisteína 100mg - 200mg - 600mg - Injetável",
@@ -265,7 +287,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Acitretina serve para psoríase?",
+        "resposta": "Sim, é um retinoide oral indicado para psoríase grave e outras doenças da queratinização. Age normalizando o crescimento das células da pele."
+      },
+      {
+        "pergunta": "Acitretina pode tomar na gravidez?",
+        "resposta": "Absolutamente não. É um dos medicamentos mais teratogênicos existentes — causa malformações fetais graves. A contracepção deve ser mantida durante e por 3 anos após o tratamento."
+      },
+      {
+        "pergunta": "Acitretina resseca a pele?",
+        "resposta": "Sim intensamente — lábios secos, pele e mucosas ressecadas são efeitos muito comuns. Hidratação labial e corporal frequente é essencial."
+      },
+      {
+        "pergunta": "Acitretina pode beber álcool?",
+        "resposta": "Não. O álcool converte a acitretina em etretinato, que tem meia-vida muito mais longa no organismo, prolongando o risco de teratogenicidade por anos."
+      },
+      {
+        "pergunta": "Acitretina precisa de exames regulares?",
+        "resposta": "Sim, monitorar lipídios, função hepática e fazer testes de gravidez regularmente durante o tratamento são obrigatórios."
+      }
+    ]
   },
   {
     "nome": "Adapaleno 0,1% - 0,3% Gel",
@@ -528,7 +572,29 @@
     ],
     "receita_obrigatoria": false,
     "tipo_receita": "MIP",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Almeida Prado é homeopático?",
+        "resposta": "Sim, são medicamentos homeopáticos registrados na Anvisa. Cada número corresponde a uma indicação específica."
+      },
+      {
+        "pergunta": "Almeida Prado pode tomar junto com outros remédios?",
+        "resposta": "Geralmente sim, pois nas doses homeopáticas há mínima interação. Mas informe sempre ao médico ou farmacêutico todos os medicamentos em uso."
+      },
+      {
+        "pergunta": "Almeida Prado precisa de receita?",
+        "resposta": "Não, são medicamentos homeopáticos de venda livre registrados na Anvisa."
+      },
+      {
+        "pergunta": "Almeida Prado tem efeitos colaterais?",
+        "resposta": "Raramente relatados nas doses homeopáticas. São considerados medicamentos com excelente perfil de segurança."
+      },
+      {
+        "pergunta": "Almeida Prado pode dar para criança?",
+        "resposta": "Sim, em geral são seguros para crianças. Verificar a indicação específica do número e consultar o médico ou farmacêutico."
+      }
+    ]
   },
   {
     "nome": "Almeida Prado nº 46",
@@ -559,7 +625,29 @@
     ],
     "receita_obrigatoria": false,
     "tipo_receita": "MIP",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Almeida Prado é homeopático?",
+        "resposta": "Sim, são medicamentos homeopáticos registrados na Anvisa. Cada número corresponde a uma indicação específica."
+      },
+      {
+        "pergunta": "Almeida Prado pode tomar junto com outros remédios?",
+        "resposta": "Geralmente sim, pois nas doses homeopáticas há mínima interação. Mas informe sempre ao médico ou farmacêutico todos os medicamentos em uso."
+      },
+      {
+        "pergunta": "Almeida Prado precisa de receita?",
+        "resposta": "Não, são medicamentos homeopáticos de venda livre registrados na Anvisa."
+      },
+      {
+        "pergunta": "Almeida Prado tem efeitos colaterais?",
+        "resposta": "Raramente relatados nas doses homeopáticas. São considerados medicamentos com excelente perfil de segurança."
+      },
+      {
+        "pergunta": "Almeida Prado pode dar para criança?",
+        "resposta": "Sim, em geral são seguros para crianças. Verificar a indicação específica do número e consultar o médico ou farmacêutico."
+      }
+    ]
   },
   {
     "nome": "Alogliptina + Metformina (Nesina Met)",
@@ -641,7 +729,29 @@
     ],
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Alogliptina serve para diabetes?",
+        "resposta": "Sim, é uma gliptina (inibidor da DPP-4) para diabetes tipo 2. Estimula a secreção de insulina de forma dependente da glicose — não causa hipoglicemia quando usada sozinha."
+      },
+      {
+        "pergunta": "Alogliptina pode tomar com metformina?",
+        "resposta": "Sim, a combinação é muito usada e eficaz. Existe até apresentação com os dois juntos (Nesina Met) em comprimido único."
+      },
+      {
+        "pergunta": "Alogliptina causa hipoglicemia?",
+        "resposta": "Não quando usada sozinha — só estimula insulina quando a glicose está elevada. O risco aumenta quando combinada com sulfonilureias ou insulina."
+      },
+      {
+        "pergunta": "Alogliptina faz mal para o coração?",
+        "resposta": "Estudos mostram que é segura cardiovascularmente. Porém em pacientes com insuficiência cardíaca, pode haver risco de hospitalização — monitorar."
+      },
+      {
+        "pergunta": "Alogliptina pode tomar com ou sem alimentação?",
+        "resposta": "Pode ser tomada com ou sem alimentos — isso é uma vantagem em relação a alguns outros antidiabéticos que exigem ser tomados com refeição."
+      }
+    ]
   },
   {
     "nome": "Alopurinol 100mg - 300mg",
@@ -770,7 +880,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "C1",
-    "retencao_receita": true
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Amantadina serve para Parkinson?",
+        "resposta": "Sim, é usada no Parkinson para reduzir os movimentos involuntários (discinesias) causados pelo uso prolongado de levodopa."
+      },
+      {
+        "pergunta": "Amantadina serve para gripe?",
+        "resposta": "Historicamente foi usada para influenza A, mas o vírus desenvolveu resistência generalizada. Hoje raramente é usada para esse fim."
+      },
+      {
+        "pergunta": "Amantadina causa alucinações?",
+        "resposta": "Pode causar confusão mental, alucinações e outros efeitos neuropsiquiátricos, especialmente em idosos e em doses altas. Comunicar ao médico imediatamente se ocorrer."
+      },
+      {
+        "pergunta": "Amantadina pode tomar à noite?",
+        "resposta": "Não é recomendado tomar à noite — pode causar insônia. A última dose deve ser tomada no início da tarde."
+      },
+      {
+        "pergunta": "Amantadina precisa ser reduzida gradualmente?",
+        "resposta": "Sim, nunca interromper abruptamente — pode causar síndrome maligna similar ao neuroléptico. Reduzir progressivamente com orientação médica."
+      }
+    ]
   },
   {
     "nome": "Ambroxol 15mg/5mL - 30mg",
@@ -1580,7 +1712,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "C1",
-    "retencao_receita": true
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Atomoxetina serve para TDAH?",
+        "resposta": "Sim, é aprovada para TDAH em crianças, adolescentes e adultos. Diferente do metilfenidato, não é um estimulante — é um inibidor da recaptação de noradrenalina."
+      },
+      {
+        "pergunta": "Atomoxetina vicia?",
+        "resposta": "Não tem potencial de abuso ou dependência — essa é uma vantagem importante sobre o metilfenidato para pacientes com histórico de abuso de substâncias."
+      },
+      {
+        "pergunta": "Atomoxetina demora quanto para fazer efeito?",
+        "resposta": "Leva 4 a 6 semanas para efeito completo — mais lento que o metilfenidato. Não desistir precocemente achando que não está funcionando."
+      },
+      {
+        "pergunta": "Atomoxetina causa insônia?",
+        "resposta": "Pode causar insônia se tomada à noite. Geralmente é tomada pela manhã. Também pode causar diminuição de apetite e aumento leve da frequência cardíaca."
+      },
+      {
+        "pergunta": "Atomoxetina pode tomar com antidepressivo?",
+        "resposta": "Com cautela — combinação com ISRSs e IRSNs pode elevar muito os níveis de atomoxetina. Informar ao médico todos os medicamentos em uso."
+      }
+    ]
   },
   {
     "nome": "Atorvastatina + Ezetimiba (Atozet / Liptruzet)",
@@ -1801,7 +1955,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Baclofen serve para espasticidade?",
+        "resposta": "Sim, é o principal medicamento para espasticidade muscular em esclerose múltipla, lesão medular e paralisia cerebral. Relaxa os músculos espásticos."
+      },
+      {
+        "pergunta": "Baclofen dá sono?",
+        "resposta": "Sim, sonolência é o efeito mais comum. Não dirigir ou operar máquinas, especialmente no início do tratamento."
+      },
+      {
+        "pergunta": "Baclofen pode parar de tomar de repente?",
+        "resposta": "Nunca. A interrupção abrupta pode causar síndrome de abstinência grave com convulsões, alucinações e febre alta. Reduzir sempre gradualmente."
+      },
+      {
+        "pergunta": "Baclofen pode tomar com álcool?",
+        "resposta": "Não. Potencializa a sedação e pode causar depressão respiratória grave. Evitar completamente."
+      },
+      {
+        "pergunta": "Baclofen serve para dor crônica?",
+        "resposta": "É usado off-label para algumas condições de dor crônica com componente de espasmo muscular, mas não é sua indicação principal."
+      }
+    ]
   },
   {
     "nome": "Baricitinibe (Olumiant)",
@@ -1833,7 +2009,29 @@
     ],
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Baricitinibe serve para artrite reumatoide?",
+        "resposta": "Sim, é um inibidor de JAK aprovado para artrite reumatoide moderada a grave que não respondeu adequadamente ao metotrexato."
+      },
+      {
+        "pergunta": "Baricitinibe causa infecção?",
+        "resposta": "Sim, o risco de infecções é aumentado — herpes zóster é frequente. Vacinar antes de iniciar se possível e comunicar qualquer febre ou sinal de infecção."
+      },
+      {
+        "pergunta": "Baricitinibe pode tomar com metotrexato?",
+        "resposta": "Sim, frequentemente são combinados. O metotrexato potencializa o efeito do baricitinibe no controle da artrite reumatoide."
+      },
+      {
+        "pergunta": "Baricitinibe precisa de exames antes de começar?",
+        "resposta": "Sim, rastrear tuberculose latente, hepatites B e C e fazer hemograma antes de iniciar. Monitorar lipídios e função renal durante o tratamento."
+      },
+      {
+        "pergunta": "Baricitinibe aumenta risco de câncer?",
+        "resposta": "Pode aumentar levemente o risco de linfomas e outros cânceres com uso prolongado. O médico avaliará o risco-benefício individualmente."
+      }
+    ]
   },
   {
     "nome": "Beclometasona Spray Nasal",
@@ -1937,7 +2135,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": true
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Benzetacil dói muito?",
+        "resposta": "Sim, a injeção intramuscular de benzilpenicilina benzatina é conhecida por ser dolorosa. Aplicar lentamente e no músculo correto ajuda a reduzir a dor."
+      },
+      {
+        "pergunta": "Benzetacil serve para garganta?",
+        "resposta": "Sim, é a primeira escolha para faringite estreptocócica (strep throat) — uma dose única IM elimina o estreptococo e previne febre reumática."
+      },
+      {
+        "pergunta": "Benzetacil serve para sífilis?",
+        "resposta": "Sim, é o tratamento de escolha para sífilis em todas as fases. O número de doses depende do estágio da doença."
+      },
+      {
+        "pergunta": "Alérgico à penicilina pode tomar Benzetacil?",
+        "resposta": "Não. Benzetacil é uma penicilina — contraindicado em alérgicos. Informar sempre sobre alergia à penicilina antes de qualquer injeção."
+      },
+      {
+        "pergunta": "Benzetacil pode ser aplicado em farmácia?",
+        "resposta": "Sim, pode ser aplicado em drogarias e clínicas com serviço de enfermagem habilitado. Sempre aguardar 20 a 30 minutos após a aplicação por risco de reação alérgica."
+      }
+    ]
   },
   {
     "nome": "Benzoíla Peroxida",
@@ -2036,7 +2256,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Betametasona creme serve para que?",
+        "resposta": "Para inflamações de pele como dermatite, eczema, psoríase, picadas de inseto e reações alérgicas cutâneas. É um corticoide tópico potente."
+      },
+      {
+        "pergunta": "Betametasona pode usar no rosto?",
+        "resposta": "Com muita cautela e por curto prazo apenas — o rosto é uma área sensível onde corticoides potentes podem causar atrofia, rosácea e telangiectasias. Preferir corticoides mais fracos para o rosto."
+      },
+      {
+        "pergunta": "Betametasona pode usar na gravidez?",
+        "resposta": "Betametasona injetável é usada para maturação pulmonar fetal quando há risco de parto prematuro. O uso tópico deve ser avaliado pelo médico."
+      },
+      {
+        "pergunta": "Betametasona pode usar em criança?",
+        "resposta": "Com cautela e por curto período. Crianças absorvem mais corticoide pela pele que adultos — usar a menor quantidade eficaz."
+      },
+      {
+        "pergunta": "Betametasona afina a pele?",
+        "resposta": "Sim, o uso prolongado pode causar atrofia cutânea (pele fina e frágil), estrias e vasos aparentes. Nunca usar por tempo prolongado sem orientação médica."
+      }
+    ]
   },
   {
     "nome": "Biotina — Vitamina B7",
@@ -2069,7 +2311,29 @@
     ],
     "receita_obrigatoria": false,
     "tipo_receita": "MIP",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Biotina faz crescer o cabelo?",
+        "resposta": "Só ajuda se houver deficiência de biotina, que é rara. Para a maioria das pessoas com queda de cabelo, a biotina não tem efeito comprovado."
+      },
+      {
+        "pergunta": "Biotina interfere em exames?",
+        "resposta": "Sim, doses altas de biotina (acima de 5.000 mcg) podem falsear exames de TSH, troponina, hormônios tireoidianos e outros. Suspender 2 a 3 dias antes de exames de sangue."
+      },
+      {
+        "pergunta": "Biotina pode tomar todo dia?",
+        "resposta": "Sim, é um suplemento seguro para uso diário nas doses recomendadas. A necessidade diária real é de apenas 30 mcg — os suplementos têm doses bem maiores."
+      },
+      {
+        "pergunta": "Biotina causa acne?",
+        "resposta": "Algumas pessoas relatam piora da acne com doses altas de biotina. Não há consenso científico, mas se ocorrer, reduzir a dose ou suspender."
+      },
+      {
+        "pergunta": "Biotina pode tomar na gravidez?",
+        "resposta": "Sim, nas doses habituais é segura na gravidez. A biotina é importante para o desenvolvimento fetal. Consultar o médico sobre a dose adequada."
+      }
+    ]
   },
   {
     "nome": "Biperideno 2mg",
@@ -2095,7 +2359,29 @@
     "receita_nota": "Prescrição médica obrigatória. Receita válida por 30 dias.",
     "receita_obrigatoria": true,
     "tipo_receita": "C1",
-    "retencao_receita": true
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Biperideno serve para que?",
+        "resposta": "Para controlar os efeitos colaterais extrapiramidais causados por antipsicóticos (rigidez, tremor, distonia aguda) e como adjuvante no Parkinson."
+      },
+      {
+        "pergunta": "Biperideno dá sono?",
+        "resposta": "Pode causar sonolência e sedação. Também pode causar boca seca, visão turva, constipação e retenção urinária — efeitos anticolinérgicos típicos."
+      },
+      {
+        "pergunta": "Biperideno é controlado?",
+        "resposta": "Sim, é medicamento de controle especial que requer receita branca em duas vias."
+      },
+      {
+        "pergunta": "Biperideno pode usar em idosos?",
+        "resposta": "Com muito cuidado — idosos são muito sensíveis aos efeitos anticolinérgicos. Pode causar confusão mental, retenção urinária e constipação grave. Listado nos Critérios de Beers."
+      },
+      {
+        "pergunta": "Biperideno pode parar de tomar de repente?",
+        "resposta": "Não. A interrupção abrupta pode causar sintomas de abstinência. Reduzir gradualmente com orientação médica."
+      }
+    ]
   },
   {
     "nome": "Bisacodil 5mg",
@@ -2120,7 +2406,29 @@
     "receita_cor": "verde",
     "receita_obrigatoria": false,
     "tipo_receita": "MIP",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Bisacodil age rápido?",
+        "resposta": "O comprimido age em 6 a 12 horas. O supositório age em 15 a 60 minutos — por isso o supositório é usado quando se precisa de efeito mais rápido."
+      },
+      {
+        "pergunta": "Bisacodil pode usar todo dia?",
+        "resposta": "Não. Usar apenas pontualmente — o uso crônico pode causar dependência do intestino, desequilíbrio de eletrólitos e danos à mucosa intestinal."
+      },
+      {
+        "pergunta": "Bisacodil pode tomar com leite?",
+        "resposta": "Não tomar com leite ou antiácidos — podem dissolver o revestimento entérico do comprimido, causando irritação gástrica e cólicas intensas."
+      },
+      {
+        "pergunta": "Bisacodil causa cólica?",
+        "resposta": "Sim, cólicas abdominais são comuns — fazem parte do mecanismo de ação que estimula os movimentos intestinais."
+      },
+      {
+        "pergunta": "Bisacodil pode dar para criança?",
+        "resposta": "A partir de 6 anos com orientação médica. Abaixo de 6 anos, consultar o médico antes de usar qualquer laxante."
+      }
+    ]
   },
   {
     "nome": "Bismuto — Subcitrato de Bismuto",
@@ -2152,7 +2460,29 @@
     ],
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Bismuto deixa as fezes pretas?",
+        "resposta": "Sim, fezes pretas ou escurecidas são normais durante o uso de bismuto — não é sangue. É o bismuto sendo eliminado pelo intestino."
+      },
+      {
+        "pergunta": "Bismuto serve para H. pylori?",
+        "resposta": "Sim, faz parte do esquema quádruplo para erradicação do H. pylori resistente ao tratamento convencional."
+      },
+      {
+        "pergunta": "Bismuto pode usar por quanto tempo?",
+        "resposta": "Não usar por mais de 8 semanas consecutivas — risco de encefalopatia por bismuto com uso prolongado."
+      },
+      {
+        "pergunta": "Bismuto serve para diarreia?",
+        "resposta": "Sim, o subsalicilato de bismuto (Pepto-Bismol) é usado para diarreia e indigestão. O subcitrato de bismuto é mais usado para úlcera e H. pylori."
+      },
+      {
+        "pergunta": "Bismuto mancha a língua?",
+        "resposta": "Pode escurecer a língua temporariamente — é normal e inofensivo, assim como as fezes escuras."
+      }
+    ]
   },
   {
     "nome": "Bisoprolol + Hidroclorotiazida 5mg/6,25mg - 10mg/6,25mg",
@@ -2365,7 +2695,29 @@
     "receita_cor": "verde",
     "receita_obrigatoria": false,
     "tipo_receita": "MIP",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Buscopan simples serve para cólica?",
+        "resposta": "Sim, é antiespasmódico indicado para cólicas intestinais, cólica renal, cólica biliar e espasmos do trato urinário e gastrointestinal."
+      },
+      {
+        "pergunta": "Buscopan simples serve para cólica menstrual?",
+        "resposta": "Pode ajudar com o componente de espasmo, mas a cólica menstrual tem componente inflamatório — anti-inflamatórios como ibuprofeno e diclofenaco costumam ser mais eficazes."
+      },
+      {
+        "pergunta": "Buscopan simples pode tomar quantas vezes?",
+        "resposta": "Geralmente 1 a 2 comprimidos até 3 vezes ao dia. Não exceder a dose recomendada na bula."
+      },
+      {
+        "pergunta": "Buscopan simples pode tomar na gravidez?",
+        "resposta": "Com orientação médica. É geralmente considerado seguro em doses habituais na gravidez, mas sempre consultar o médico antes."
+      },
+      {
+        "pergunta": "Buscopan simples é diferente do composto?",
+        "resposta": "Sim. O simples tem só escopolamina (antiespasmódico). O composto tem escopolamina + dipirona (analgésico). O composto é mais potente para dor, mas tem mais contraindicações."
+      }
+    ]
   },
   {
     "nome": "Brometo de Ipratrópio",
@@ -2426,7 +2778,29 @@
     ],
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Bromexina serve para tosse?",
+        "resposta": "Para tosse produtiva com muco espesso — fluidifica a secreção facilitando a expectoração. Não é indicada para tosse seca."
+      },
+      {
+        "pergunta": "Bromexina pode dar para criança?",
+        "resposta": "Sim, existe formulação pediátrica em xarope. A dose é calculada pelo peso e idade da criança."
+      },
+      {
+        "pergunta": "Bromexina é igual ao ambroxol?",
+        "resposta": "São da mesma família — o ambroxol é um metabólito ativo da bromexina, geralmente considerado mais potente e com ação mais rápida."
+      },
+      {
+        "pergunta": "Bromexina pode tomar na gravidez?",
+        "resposta": "Evitar no primeiro trimestre. No segundo e terceiro trimestres, usar apenas com orientação médica."
+      },
+      {
+        "pergunta": "Bromexina quanto tempo para fazer efeito?",
+        "resposta": "O efeito mucolítico começa em algumas horas, mas o benefício completo é percebido após alguns dias de uso regular."
+      }
+    ]
   },
   {
     "nome": "Bromocriptina 2,5mg",
@@ -2452,7 +2826,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Bromocriptina serve para prolactina alta?",
+        "resposta": "Sim, é o tratamento clássico para hiperprolactinemia — reduz os níveis de prolactina e trata os prolactinomas (tumores benignos da hipófise)."
+      },
+      {
+        "pergunta": "Bromocriptina serve para Parkinson?",
+        "resposta": "Sim, é um agonista dopaminérgico usado no Parkinson, especialmente em estágios iniciais ou em combinação com levodopa."
+      },
+      {
+        "pergunta": "Bromocriptina causa enjoo?",
+        "resposta": "Sim, náusea e vômito são efeitos muito comuns no início. Tomar com alimentos e iniciar com doses baixas que são aumentadas gradualmente."
+      },
+      {
+        "pergunta": "Bromocriptina pode tomar na gravidez?",
+        "resposta": "Geralmente é suspensa ao confirmar gravidez, exceto em prolactinomas grandes onde o médico pode indicar manter. Sempre discutir com o endocrinologista."
+      },
+      {
+        "pergunta": "Bromocriptina inibe o leite materno?",
+        "resposta": "Sim, inibe a lactação por reduzir a prolactina. Antigamente era usada para suspender a amamentação, mas hoje existem alternativas mais seguras."
+      }
+    ]
   },
   {
     "nome": "Bromoprida 10mg - Gotas",
@@ -2483,7 +2879,29 @@
     ],
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Bromoprida serve para enjoo?",
+        "resposta": "Sim, é antiemético e procinético usado para náusea, vômito, refluxo e sensação de estômago cheio. Age acelerando o esvaziamento gástrico."
+      },
+      {
+        "pergunta": "Bromoprida pode dar para criança?",
+        "resposta": "Com cautela e apenas sob orientação médica. Existe formulação em gotas para crianças, com dose calculada pelo peso."
+      },
+      {
+        "pergunta": "Bromoprida pode causar tremor?",
+        "resposta": "Sim, pode causar efeitos extrapiramidais como tremor, rigidez e agitação — especialmente em crianças e com uso prolongado. Comunicar ao médico imediatamente."
+      },
+      {
+        "pergunta": "Bromoprida pode tomar na gravidez?",
+        "resposta": "Usar com cautela e apenas sob orientação médica na gravidez. O médico avaliará o risco-benefício."
+      },
+      {
+        "pergunta": "Bromoprida é igual à metoclopramida?",
+        "resposta": "São da mesma classe (benzamidas) e têm efeitos similares. A bromoprida tem estrutura ligeiramente diferente mas mecanismo de ação parecido."
+      }
+    ]
   },
   {
     "nome": "Budesonida 32mcg/dose - 64mcg/dose Spray Nasal",
