@@ -5958,7 +5958,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Depakote serve para epilepsia?",
+        "resposta": "Sim, é valproato de sódio em formulação de liberação prolongada (sprinkle) — usado para epilepsia, transtorno bipolar e prevenção de enxaqueca."
+      },
+      {
+        "pergunta": "Depakote Sprinkle pode abrir a cápsula?",
+        "resposta": "Sim, pode abrir e misturar os microgrânulos em alimentos moles como iogurte ou purê. Não mastigar os grânulos — engolir inteiros."
+      },
+      {
+        "pergunta": "Depakote pode tomar na gravidez?",
+        "resposta": "Contraindicado na gravidez — causa malformações fetais graves e comprometimento cognitivo no bebê. Usar contracepção eficaz durante o tratamento."
+      },
+      {
+        "pergunta": "Depakote faz mal para o fígado?",
+        "resposta": "Pode causar elevação de enzimas hepáticas. Monitorar a função hepática regularmente — especialmente nos primeiros 6 meses de tratamento."
+      },
+      {
+        "pergunta": "Depakote engorda?",
+        "resposta": "Sim, ganho de peso é um efeito colateral comum — aumenta o apetite. Manter dieta equilibrada e praticar atividade física durante o tratamento."
+      }
+    ]
   },
   {
     "nome": "Desloratadina 5mg - Xarope",
@@ -6598,7 +6620,29 @@
     ],
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Dramin serve para enjoo?",
+        "resposta": "Sim, é um dos antieméticos mais usados para enjoo de movimento (cinetose), tontura, náusea e vômito. Age bloqueando receptores de histamina no labirinto."
+      },
+      {
+        "pergunta": "Dramin dá sono?",
+        "resposta": "Sim, sonolência é o efeito mais comum — por isso é um anti-histamínico de 1ª geração. Não dirigir ou operar máquinas após tomar."
+      },
+      {
+        "pergunta": "Dramin pode dar para criança?",
+        "resposta": "Existe formulação pediátrica em gotas. Não usar em crianças menores de 2 anos. A dose é calculada pelo peso — seguir orientação médica."
+      },
+      {
+        "pergunta": "Dramin pode tomar antes de viagem?",
+        "resposta": "Sim, para prevenção do enjoo de movimento deve ser tomado 30 minutos antes de iniciar a viagem. O efeito dura 4 a 6 horas."
+      },
+      {
+        "pergunta": "Dramin pode tomar com álcool?",
+        "resposta": "Não. O álcool potencializa muito a sedação. A combinação pode ser perigosa especialmente para dirigir."
+      }
+    ]
   },
   {
     "nome": "Dipirona comprimido 500 mg - 1,0 g - Gotas - Xarope - Injetável",
@@ -6755,7 +6799,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Donepezila serve para Alzheimer?",
+        "resposta": "Sim, é um inibidor da colinesterase aprovado para todos os estágios do Alzheimer — leve, moderado e grave. Melhora temporariamente a memória e a função cognitiva."
+      },
+      {
+        "pergunta": "Donepezila cura o Alzheimer?",
+        "resposta": "Não. Melhora os sintomas e retarda a progressão temporariamente, mas não cura nem interrompe a doença. O benefício é sintomático."
+      },
+      {
+        "pergunta": "Donepezila pode tomar à noite?",
+        "resposta": "Sim, geralmente tomada à noite para reduzir efeitos gastrointestinais. Alguns pacientes preferem de manhã se causar insônia ou sonhos vívidos."
+      },
+      {
+        "pergunta": "Donepezila causa diarreia?",
+        "resposta": "Sim, diarreia, náusea e cólicas são efeitos comuns especialmente no início. Geralmente melhoram com o tempo ou com ajuste de dose."
+      },
+      {
+        "pergunta": "Donepezila pode parar de tomar de repente?",
+        "resposta": "Não é recomendado parar abruptamente — pode causar piora rápida dos sintomas cognitivos. Sempre discutir com o médico antes de suspender."
+      }
+    ]
   },
   {
     "nome": "Dorflex (Dipirona + Orfenadrina + Cafeína)",
@@ -6912,7 +6978,29 @@
     ],
     "receita_obrigatoria": true,
     "tipo_receita": "C1",
-    "retencao_receita": true
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Dulaglutida (Trulicity) serve para diabetes?",
+        "resposta": "Sim, é análogo do GLP-1 injetável semanal para diabetes tipo 2. Estimula insulina dependente de glicose, reduz apetite e tem benefícios cardiovasculares."
+      },
+      {
+        "pergunta": "Dulaglutida causa enjoo?",
+        "resposta": "Sim, náusea é muito comum no início — melhora com o tempo. Comer porções menores e evitar alimentos gordurosos ajuda a reduzir o desconforto."
+      },
+      {
+        "pergunta": "Dulaglutida emagrece?",
+        "resposta": "Pode causar perda de peso como efeito do redução do apetite e do esvaziamento gástrico mais lento — mas não é aprovada como medicamento para emagrecimento."
+      },
+      {
+        "pergunta": "Dulaglutida pode causar pancreatite?",
+        "resposta": "Raramente. Suspender imediatamente e ir à emergência se surgir dor abdominal intensa e persistente que irradia para as costas."
+      },
+      {
+        "pergunta": "Dulaglutida aplicar como?",
+        "resposta": "Caneta autoinjetora de uso único — aplicar no abdome, coxa ou braço. Pode ser aplicada em qualquer dia da semana, sempre no mesmo dia."
+      }
+    ]
   },
   {
     "nome": "Duloxetina 60mg",
@@ -6938,7 +7026,29 @@
     "receita_nota": "Prescrição médica obrigatória. Receita válida por 30 dias.",
     "receita_obrigatoria": true,
     "tipo_receita": "C1",
-    "retencao_receita": true
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Duloxetina engorda?",
+        "resposta": "Pode causar leve ganho de peso no uso prolongado, mas é menos comum que com outros antidepressivos. Perda de apetite é mais frequente no início."
+      },
+      {
+        "pergunta": "Duloxetina serve para dor crônica?",
+        "resposta": "Sim, além de depressão e ansiedade, é aprovada para dor neuropática diabética, fibromialgia e dor musculoesquelética crônica."
+      },
+      {
+        "pergunta": "Duloxetina pode tomar com álcool?",
+        "resposta": "Não. Aumenta o risco de hepatotoxicidade e potencializa a sedação. Evitar completamente durante o tratamento."
+      },
+      {
+        "pergunta": "Duloxetina pode parar de tomar de repente?",
+        "resposta": "Não. A síndrome de descontinuação pode ser intensa — tontura, choque elétrico, irritabilidade. Sempre reduzir gradualmente com orientação médica."
+      },
+      {
+        "pergunta": "Duloxetina cápsula pode abrir?",
+        "resposta": "Não. As cápsulas contêm microesferas de liberação entérica — abrir destrói o mecanismo e pode causar irritação gástrica. Engolir inteiras."
+      }
+    ]
   },
   {
     "nome": "Dupilumabe (Dupixent)",
@@ -6969,7 +7079,29 @@
     ],
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": true
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Dupilumabe serve para dermatite atópica?",
+        "resposta": "Sim, é o primeiro biológico aprovado para dermatite atópica moderada a grave — proporciona melhora dramática em pacientes que não responderam a tratamentos convencionais."
+      },
+      {
+        "pergunta": "Dupilumabe causa conjuntivite?",
+        "resposta": "Sim, conjuntivite é um efeito muito comum na dermatite atópica — afeta até 10% dos pacientes. Comunicar ao médico para tratamento com colírio específico."
+      },
+      {
+        "pergunta": "Dupilumabe de quanto em quanto tempo?",
+        "resposta": "Injeção subcutânea a cada 2 semanas para dermatite atópica grave. Para asma, pode ser a cada 2 ou 4 semanas conforme a prescrição."
+      },
+      {
+        "pergunta": "Dupilumabe precisa guardar na geladeira?",
+        "resposta": "Sim, guardar entre 2 e 8°C. Retirar da geladeira 30 a 45 minutos antes de aplicar para atingir temperatura ambiente — reduz a dor na injeção."
+      },
+      {
+        "pergunta": "Dupilumabe é caro?",
+        "resposta": "Sim, é um medicamento biológico de alto custo. O acesso pode ser via plano de saúde com laudo médico ou processo judicial junto ao SUS."
+      }
+    ]
   },
   {
     "nome": "Dutasterida 0,5mg",
@@ -6999,7 +7131,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Dutasterida serve para próstata?",
+        "resposta": "Sim, é inibidor da 5-alfa-redutase usado para hiperplasia prostática benigna (próstata aumentada) — reduz o volume da próstata e melhora os sintomas urinários."
+      },
+      {
+        "pergunta": "Dutasterida serve para queda de cabelo?",
+        "resposta": "Off-label, pode ser usada para alopecia androgenética masculina. É mais potente que a finasterida pois inibe os dois tipos de 5-alfa-redutase."
+      },
+      {
+        "pergunta": "Dutasterida pode causar disfunção sexual?",
+        "resposta": "Sim, pode causar disfunção erétil, diminuição da libido e redução do volume do ejaculado em alguns homens — geralmente reversível após suspensão."
+      },
+      {
+        "pergunta": "Dutasterida mulher pode tocar no comprimido?",
+        "resposta": "Mulheres grávidas não devem tocar nas cápsulas — pode ser absorvida pela pele e causar malformação em fetos masculinos."
+      },
+      {
+        "pergunta": "Dutasterida demora quanto para fazer efeito?",
+        "resposta": "Para próstata, o efeito começa em 3 a 6 meses e o benefício máximo em 12 meses. Para calvície, pode levar 6 a 12 meses para resultados visíveis."
+      }
+    ]
   },
   {
     "nome": "Efavirenz 200mg - 600mg - Solução",
@@ -7055,7 +7209,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Empagliflozina serve para diabetes?",
+        "resposta": "Sim, é uma gliflozina para diabetes tipo 2 — elimina glicose pela urina. Tem benefícios cardiovasculares e renais comprovados entre os melhores da classe."
+      },
+      {
+        "pergunta": "Empagliflozina serve para o coração?",
+        "resposta": "Sim, é aprovada para redução de risco cardiovascular em diabéticos e para insuficiência cardíaca mesmo sem diabetes."
+      },
+      {
+        "pergunta": "Empagliflozina causa infecção genital?",
+        "resposta": "Sim, candidíase genital é um efeito comum pela glicose eliminada na urina. Higiene adequada e roupas íntimas de algodão ajudam a prevenir."
+      },
+      {
+        "pergunta": "Empagliflozina pode causar cetoacidose?",
+        "resposta": "Raramente, mas pode. Suspender antes de cirurgias e em situações de jejum prolongado. Ir à emergência se surgir náusea, vômito e dor abdominal intensa."
+      },
+      {
+        "pergunta": "Empagliflozina emagrece?",
+        "resposta": "Pode causar perda de peso moderada — em média 2 a 3kg — por eliminar calorias na forma de glicose pela urina."
+      }
+    ]
   },
   {
     "nome": "Enalapril 5mg - 10mg - 20mg",
@@ -7129,7 +7305,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Enoxaparina serve para prevenção de trombose?",
+        "resposta": "Sim, é heparina de baixo peso molecular usada para prevenir e tratar trombose venosa profunda, embolia pulmonar e síndrome coronariana aguda."
+      },
+      {
+        "pergunta": "Enoxaparina dói na aplicação?",
+        "resposta": "Pode causar dor, hematoma e ardência no local. Aplicar lentamente, não massagear após e rodiziar os locais. O abdome é o local preferido."
+      },
+      {
+        "pergunta": "Enoxaparina pode aplicar em casa?",
+        "resposta": "Sim, pacientes e cuidadores podem ser treinados para aplicar em casa. O médico ou enfermeiro ensinará a técnica correta."
+      },
+      {
+        "pergunta": "Enoxaparina precisa de exames regulares?",
+        "resposta": "Sim, monitorar plaquetas (risco de trombocitopenia por heparina) e função renal regularmente — especialmente em idosos e pacientes renais."
+      },
+      {
+        "pergunta": "Enoxaparina pode tomar com anticoagulante oral?",
+        "resposta": "Geralmente não ao mesmo tempo — exceto em situações de transição entre anticoagulantes, sempre com orientação e monitoramento médico rigoroso."
+      }
+    ]
   },
   {
     "nome": "Eritromicina tópica 2%",
@@ -7318,7 +7516,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Espironolactona serve para SOP?",
+        "resposta": "Sim, o efeito antiandrogênico da espironolactona é muito usado para síndrome do ovário policístico — reduz acne, queda de cabelo e pelos indesejados."
+      },
+      {
+        "pergunta": "Espironolactona pode elevar o potássio?",
+        "resposta": "Sim, hipercalemia (potássio elevado) é o principal risco. Evitar suplementos de potássio e monitorar os níveis regularmente durante o tratamento."
+      },
+      {
+        "pergunta": "Espironolactona serve para pressão alta?",
+        "resposta": "Sim, é usada para hipertensão resistente — quando outros medicamentos não foram suficientes. Age como diurético poupador de potássio."
+      },
+      {
+        "pergunta": "Espironolactona pode tomar na gravidez?",
+        "resposta": "Contraindicada na gravidez — pode causar feminilização em fetos masculinos pelo efeito antiandrogênico."
+      },
+      {
+        "pergunta": "Espironolactona causa ginecomastia em homens?",
+        "resposta": "Sim, crescimento das mamas em homens (ginecomastia) é um efeito colateral comum pelo bloqueio dos andrógenos. Comunicar ao médico se ocorrer."
+      }
+    ]
   },
   {
     "nome": "Espironolactona 25mg - 50mg - 100mg",
@@ -7344,7 +7564,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Espironolactona serve para SOP?",
+        "resposta": "Sim, o efeito antiandrogênico da espironolactona é muito usado para síndrome do ovário policístico — reduz acne, queda de cabelo e pelos indesejados."
+      },
+      {
+        "pergunta": "Espironolactona pode elevar o potássio?",
+        "resposta": "Sim, hipercalemia (potássio elevado) é o principal risco. Evitar suplementos de potássio e monitorar os níveis regularmente durante o tratamento."
+      },
+      {
+        "pergunta": "Espironolactona serve para pressão alta?",
+        "resposta": "Sim, é usada para hipertensão resistente — quando outros medicamentos não foram suficientes. Age como diurético poupador de potássio."
+      },
+      {
+        "pergunta": "Espironolactona pode tomar na gravidez?",
+        "resposta": "Contraindicada na gravidez — pode causar feminilização em fetos masculinos pelo efeito antiandrogênico."
+      },
+      {
+        "pergunta": "Espironolactona causa ginecomastia em homens?",
+        "resposta": "Sim, crescimento das mamas em homens (ginecomastia) é um efeito colateral comum pelo bloqueio dos andrógenos. Comunicar ao médico se ocorrer."
+      }
+    ]
   },
   {
     "nome": "Estradiol gel tópico / transdérmico",
@@ -7377,7 +7619,29 @@
     ],
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Estradiol gel serve para menopausa?",
+        "resposta": "Sim, é reposição hormonal para aliviar fogachos, sudorese noturna, secura vaginal e outros sintomas do climatério."
+      },
+      {
+        "pergunta": "Estradiol gel tem menos risco de trombose?",
+        "resposta": "Sim, a via transdérmica (gel ou adesivo) tem menor risco de trombose que o estrogênio oral — não passa pelo fígado e tem menos efeito na coagulação."
+      },
+      {
+        "pergunta": "Mulher com útero pode usar estradiol gel sozinho?",
+        "resposta": "Não. Mulheres com útero intacto devem usar progesterona associada — o estrogênio isolado aumenta o risco de câncer de endométrio."
+      },
+      {
+        "pergunta": "Estradiol gel onde aplicar?",
+        "resposta": "Nas coxas, barriga ou braços — alternar os locais. Deixar secar por 2 a 3 minutos antes de cobrir. Não aplicar nos seios ou genitais."
+      },
+      {
+        "pergunta": "Estradiol gel pode transferir para outra pessoa?",
+        "resposta": "Sim, pode transferir para parceiros ou crianças pelo contato direto com a pele antes de secar. Cobrir a área ou lavar as mãos após aplicar."
+      }
+    ]
   },
   {
     "nome": "Etambutol 400mg - Solução Oral",
@@ -7403,7 +7667,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": true
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Etambutol serve para tuberculose?",
+        "resposta": "Sim, é um dos quatro medicamentos do esquema básico para tuberculose no Brasil, usado em combinação com rifampicina, isoniazida e pirazinamida."
+      },
+      {
+        "pergunta": "Etambutol afeta a visão?",
+        "resposta": "Sim, pode causar neurite óptica — alteração visual com dificuldade para distinguir as cores verde e vermelho. Exame oftalmológico antes e durante o tratamento é obrigatório."
+      },
+      {
+        "pergunta": "Etambutol precisa de exame de vista?",
+        "resposta": "Sim, avaliação oftalmológica antes de iniciar e regularmente durante o tratamento. Comunicar imediatamente ao médico qualquer alteração na visão."
+      },
+      {
+        "pergunta": "Etambutol é fornecido pelo SUS?",
+        "resposta": "Sim, é distribuído gratuitamente pelo SUS como parte do tratamento da tuberculose, junto com os outros medicamentos do esquema básico."
+      },
+      {
+        "pergunta": "Etambutol pode parar de tomar de repente?",
+        "resposta": "Nunca sem orientação médica — a interrupção pode levar ao desenvolvimento de resistência bacteriana e falha no tratamento da tuberculose."
+      }
+    ]
   },
   {
     "nome": "Etoricoxibe 30mg - 60mg - 90mg - 120mg",
@@ -7433,7 +7719,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Etoricoxibe faz mal para o estômago?",
+        "resposta": "Menos que outros anti-inflamatórios. Por ser inibidor seletivo da COX-2, causa menos irritação gástrica que ibuprofeno e diclofenaco."
+      },
+      {
+        "pergunta": "Etoricoxibe pode causar infarto?",
+        "resposta": "Pode aumentar o risco cardiovascular em uso prolongado e doses altas. Contraindicado em pacientes com doença cardiovascular estabelecida."
+      },
+      {
+        "pergunta": "Etoricoxibe serve para gota?",
+        "resposta": "Sim, é muito usado para crise aguda de gota pela sua potente ação anti-inflamatória. Também indicado para artrose e artrite reumatoide."
+      },
+      {
+        "pergunta": "Etoricoxibe pode tomar com AAS?",
+        "resposta": "Com cautela — a combinação reduz a vantagem gástrica do etoricoxibe. Quem usa aspirina para o coração deve consultar o médico se precisar de anti-inflamatório."
+      },
+      {
+        "pergunta": "Etoricoxibe pode tomar na gravidez?",
+        "resposta": "Contraindicado no terceiro trimestre. Evitar nos demais trimestres e consultar o médico se necessário."
+      }
+    ]
   },
   {
     "nome": "Exenatida (Byetta / Bydureon)",
