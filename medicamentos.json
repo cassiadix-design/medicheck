@@ -493,7 +493,29 @@
     ],
     "receita_obrigatoria": true,
     "tipo_receita": "hospitalar",
-    "retencao_receita": true
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Albumina humana serve para que?",
+        "resposta": "Para reposição de proteínas em casos graves como cirrose com ascite, síndrome nefrótica, grandes queimaduras, sepse e após paracentese de grande volume."
+      },
+      {
+        "pergunta": "Albumina humana pode ser comprada em farmácia?",
+        "resposta": "É de uso exclusivamente hospitalar, administrada por via intravenosa sob supervisão médica. Não é dispensada em farmácias comuns."
+      },
+      {
+        "pergunta": "Albumina baixa é perigoso?",
+        "resposta": "Sim, albumina muito baixa indica desnutrição grave ou doença hepática/renal avançada. Está associada a maior risco de complicações e mortalidade."
+      },
+      {
+        "pergunta": "Albumina humana tem efeitos colaterais?",
+        "resposta": "Pode causar reações durante a infusão como febre, calafrios, urticária e raramente reação anafilática. Por isso a infusão é monitorada continuamente."
+      },
+      {
+        "pergunta": "Qual a diferença entre albumina 20% e 25%?",
+        "resposta": "São concentrações diferentes. Ambas são hiperosmolares — atraem líquido do interstício para a corrente sanguínea. A escolha depende do quadro clínico e orientação médica."
+      }
+    ]
   },
   {
     "nome": "Alendronato 70mg",
@@ -1282,7 +1304,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "hospitalar",
-    "retencao_receita": true
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Anfotericina B serve para que?",
+        "resposta": "Para infecções fúngicas graves e sistêmicas como candidíase invasiva, aspergilose, criptococose e histoplasmose em pacientes imunossuprimidos."
+      },
+      {
+        "pergunta": "Anfotericina B faz mal para o rim?",
+        "resposta": "Sim, nefrotoxicidade é o principal efeito colateral — especialmente a formulação convencional. A forma lipossomal (AmBisome) tem menos toxicidade renal. Monitorar função renal continuamente."
+      },
+      {
+        "pergunta": "Anfotericina B é administrada como?",
+        "resposta": "Exclusivamente por via intravenosa em ambiente hospitalar, em infusão lenta de 2 a 6 horas. Nunca administrada rapidamente."
+      },
+      {
+        "pergunta": "Anfotericina B causa febre?",
+        "resposta": "Sim, febre, calafrios e tremores durante a infusão são muito comuns — chamados de reações infusionais. São manejados com pré-medicação (paracetamol, hidrocortisona)."
+      },
+      {
+        "pergunta": "Anfotericina B convencional e lipossomal são iguais?",
+        "resposta": "Não. A lipossomal (AmBisome) é encapsulada em lipossomas, tendo menor toxicidade renal e melhor tolerabilidade, mas custo muito mais elevado."
+      }
+    ]
   },
   {
     "nome": "Anlodipino + Atorvastatina 5mg/10mg - 10mg/20mg",
@@ -2110,7 +2154,29 @@
     ],
     "receita_obrigatoria": false,
     "tipo_receita": "MIP",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Benalet serve para dor de garganta?",
+        "resposta": "Sim, a benzocaína presente causa anestesia local rápida aliviando a dor. A tirotricina tem ação antibacteriana local."
+      },
+      {
+        "pergunta": "Benalet pode dar para criança?",
+        "resposta": "Não é recomendado para crianças menores de 6 anos. Consultar o médico antes de usar em crianças."
+      },
+      {
+        "pergunta": "Benalet pode usar quantas vezes ao dia?",
+        "resposta": "Geralmente até 6 pastilhas por dia para adultos, com intervalo mínimo de 2 a 3 horas entre cada uma. Seguir as instruções da bula."
+      },
+      {
+        "pergunta": "Benalet tem anestésico?",
+        "resposta": "Sim, contém benzocaína que é um anestésico local — por isso alivia a dor mais rapidamente que pastilhas apenas antissépticas."
+      },
+      {
+        "pergunta": "Se a dor de garganta não melhorar com Benalet, o que fazer?",
+        "resposta": "Se a dor persistir por mais de 3 dias, vier com febre alta ou dificuldade de engolir, procurar avaliação médica — pode ser infecção bacteriana que necessita antibiótico."
+      }
+    ]
   },
   {
     "nome": "Benzilpenicilina (Benzetacil) 600.000UI - 1.200.000UI",
@@ -2182,7 +2248,29 @@
     "receita_cor": "verde",
     "receita_obrigatoria": false,
     "tipo_receita": "MIP",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Peróxido de benzoíla resseca a pele?",
+        "resposta": "Sim, ressecamento e descamação são comuns especialmente no início. Usar hidratante não comedogênico e começar com concentrações mais baixas."
+      },
+      {
+        "pergunta": "Peróxido de benzoíla mancha a roupa?",
+        "resposta": "Sim, pode descolorir e manchar roupas, fronhas e toalhas. Usar roupas e fronhas antigas ou brancas durante o tratamento."
+      },
+      {
+        "pergunta": "Peróxido de benzoíla serve para acne?",
+        "resposta": "Sim, é um dos ingredientes mais eficazes para acne — elimina a bactéria causadora e desobstrui os poros."
+      },
+      {
+        "pergunta": "Peróxido de benzoíla pode usar de dia?",
+        "resposta": "Pode, mas usar protetor solar — aumenta sensibilidade ao sol. Muitos preferem usar à noite para evitar a fotossensibilidade."
+      },
+      {
+        "pergunta": "Peróxido de benzoíla pode combinar com adapaleno?",
+        "resposta": "Sim, a combinação é muito eficaz e complementar. Existem produtos que já combinam os dois em uma única formulação."
+      }
+    ]
   },
   {
     "nome": "Betaistina 8mg - 16mg - 24mg",
@@ -2619,7 +2707,29 @@
     ],
     "receita_obrigatoria": true,
     "tipo_receita": "C1",
-    "retencao_receita": true
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Brivaracetam serve para epilepsia?",
+        "resposta": "Sim, é antiepiléptico de nova geração aprovado para crises focais em adultos e adolescentes, como terapia adjuvante."
+      },
+      {
+        "pergunta": "Brivaracetam é melhor que levetiracetam?",
+        "resposta": "Tem eficácia similar mas causa menos irritabilidade e alterações comportamentais que o levetiracetam — vantagem importante para muitos pacientes."
+      },
+      {
+        "pergunta": "Brivaracetam pode tomar com álcool?",
+        "resposta": "Não. O álcool potencializa a sedação e pode aumentar o risco de convulsões. Evitar completamente."
+      },
+      {
+        "pergunta": "Brivaracetam interfere em anticoncepcionais?",
+        "resposta": "Pode reduzir a eficácia de anticoncepcionais hormonais. Mulheres em idade fértil devem usar método contraceptivo adicional."
+      },
+      {
+        "pergunta": "Brivaracetam pode parar de tomar de repente?",
+        "resposta": "Nunca. A interrupção abrupta pode precipitar convulsões graves. Sempre reduzir gradualmente com orientação do neurologista."
+      }
+    ]
   },
   {
     "nome": "Bromazepam 3mg e 6mg",
@@ -2957,7 +3067,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "A",
-    "retencao_receita": true
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Buprenorfina serve para dependência de opioides?",
+        "resposta": "Sim, é usada no tratamento da dependência de opioides (heroína, morfina) — reduz a síndrome de abstinência e o craving sem causar a euforia intensa."
+      },
+      {
+        "pergunta": "Buprenorfina vicia?",
+        "resposta": "Tem potencial de dependência por ser um opioide, mas é usado justamente para substituir opioides mais perigosos no tratamento da dependência. Uso controlado e supervisionado."
+      },
+      {
+        "pergunta": "Buprenorfina adesivo serve para dor crônica?",
+        "resposta": "Sim, o adesivo transdérmico (Norspan) é indicado para dor crônica moderada a intensa que não responde a outros analgésicos."
+      },
+      {
+        "pergunta": "Buprenorfina pode parar de tomar de repente?",
+        "resposta": "Não. A interrupção abrupta causa síndrome de abstinência. A retirada deve ser sempre gradual e supervisionada pelo médico."
+      },
+      {
+        "pergunta": "Buprenorfina pode tomar com álcool?",
+        "resposta": "Absolutamente não. A combinação pode ser fatal — causa depressão respiratória grave."
+      }
+    ]
   },
   {
     "nome": "Buprenorfina Adesivo Transdérmico (Norspan)",
@@ -2988,7 +3120,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "A",
-    "retencao_receita": true
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Buprenorfina serve para dependência de opioides?",
+        "resposta": "Sim, é usada no tratamento da dependência de opioides (heroína, morfina) — reduz a síndrome de abstinência e o craving sem causar a euforia intensa."
+      },
+      {
+        "pergunta": "Buprenorfina vicia?",
+        "resposta": "Tem potencial de dependência por ser um opioide, mas é usado justamente para substituir opioides mais perigosos no tratamento da dependência. Uso controlado e supervisionado."
+      },
+      {
+        "pergunta": "Buprenorfina adesivo serve para dor crônica?",
+        "resposta": "Sim, o adesivo transdérmico (Norspan) é indicado para dor crônica moderada a intensa que não responde a outros analgésicos."
+      },
+      {
+        "pergunta": "Buprenorfina pode parar de tomar de repente?",
+        "resposta": "Não. A interrupção abrupta causa síndrome de abstinência. A retirada deve ser sempre gradual e supervisionada pelo médico."
+      },
+      {
+        "pergunta": "Buprenorfina pode tomar com álcool?",
+        "resposta": "Absolutamente não. A combinação pode ser fatal — causa depressão respiratória grave."
+      }
+    ]
   },
   {
     "nome": "Bupropiona 150mg - 300mg",
@@ -3014,7 +3168,29 @@
     "receita_nota": "Prescrição médica obrigatória. Receita válida por 30 dias.",
     "receita_obrigatoria": true,
     "tipo_receita": "C1",
-    "retencao_receita": true
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Bupropiona emagrece?",
+        "resposta": "Pode causar perda de peso como efeito colateral por reduzir o apetite. Existe formulação combinada com naltrexona (Contrave) aprovada para obesidade, mas a bupropiona isolada não é aprovada para emagrecimento."
+      },
+      {
+        "pergunta": "Bupropiona causa insônia?",
+        "resposta": "Sim, insônia é um dos efeitos mais comuns. Por isso deve ser tomada pela manhã e nunca próximo à hora de dormir."
+      },
+      {
+        "pergunta": "Bupropiona pode tomar com álcool?",
+        "resposta": "Não. O álcool aumenta o risco de convulsões — o principal risco da bupropiona. Evitar completamente."
+      },
+      {
+        "pergunta": "Bupropiona ajuda a parar de fumar?",
+        "resposta": "Sim, é aprovada como auxiliar no tratamento do tabagismo. Reduz a vontade de fumar e os sintomas de abstinência à nicotina."
+      },
+      {
+        "pergunta": "Bupropiona causa disfunção sexual?",
+        "resposta": "Não — ao contrário, pode melhorar a função sexual. É um dos únicos antidepressivos que não prejudica e pode até melhorar a libido."
+      }
+    ]
   },
   {
     "nome": "Buspirona 5mg - 10mg",
@@ -3044,7 +3220,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "C1",
-    "retencao_receita": true
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Buspirona vicia?",
+        "resposta": "Não. Essa é a grande vantagem da buspirona — não causa dependência física como os benzodiazepínicos. Pode ser usada por períodos mais longos com segurança."
+      },
+      {
+        "pergunta": "Buspirona demora quanto para fazer efeito?",
+        "resposta": "Leva 2 a 4 semanas para efeito completo — diferente dos benzodiazepínicos que agem em minutos. Não desistir precocemente."
+      },
+      {
+        "pergunta": "Buspirona dá sono?",
+        "resposta": "Raramente. É bem menos sedativa que os benzodiazepínicos — pode ser usada durante o dia sem prejudicar o trabalho."
+      },
+      {
+        "pergunta": "Buspirona serve para ansiedade?",
+        "resposta": "Sim, é aprovada para transtorno de ansiedade generalizada. É uma boa alternativa aos benzodiazepínicos para ansiedade crônica."
+      },
+      {
+        "pergunta": "Buspirona pode tomar com antidepressivo?",
+        "resposta": "Com cautela — a combinação com ISRSs pode aumentar o risco de síndrome serotoninérgica. Sempre informar ao médico todos os medicamentos em uso."
+      }
+    ]
   },
   {
     "nome": "Butilbrometo de Escopolamina + Dipirona (Buscopan Composto)",
@@ -3126,7 +3324,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Cabergolina serve para prolactina alta?",
+        "resposta": "Sim, é o tratamento de escolha para hiperprolactinemia e prolactinomas. É mais eficaz e melhor tolerada que a bromocriptina."
+      },
+      {
+        "pergunta": "Cabergolina causa enjoo?",
+        "resposta": "Pode causar náusea, mas menos que a bromocriptina. Tomar com alimentos reduz o desconforto."
+      },
+      {
+        "pergunta": "Cabergolina pode tomar na gravidez?",
+        "resposta": "Geralmente suspensa ao confirmar gravidez. Em prolactinomas grandes, o médico avaliará o risco-benefício de manter."
+      },
+      {
+        "pergunta": "Cabergolina causa comportamentos compulsivos?",
+        "resposta": "Raramente pode causar comportamentos impulsivos como jogo compulsivo, hipersexualidade e compulsão alimentar. Comunicar ao médico imediatamente se ocorrer."
+      },
+      {
+        "pergunta": "Cabergolina pode afetar o coração?",
+        "resposta": "Em doses altas e uso prolongado pode causar fibrose nas válvulas cardíacas — monitorar com ecocardiograma periodicamente."
+      }
+    ]
   },
   {
     "nome": "Cafeína",
@@ -3151,7 +3371,29 @@
     "receita_cor": "verde",
     "receita_obrigatoria": false,
     "tipo_receita": "MIP",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Cafeína serve para dor de cabeça?",
+        "resposta": "Sim, a cafeína potencializa o efeito de analgésicos como paracetamol e dipirona em combinações como Doril e Dorflex. Sozinha tem efeito modesto na cefaleia tensional."
+      },
+      {
+        "pergunta": "Cafeína pode causar dependência?",
+        "resposta": "Sim, o uso regular causa dependência física leve. A interrupção abrupta pode causar cefaleia, fadiga e irritabilidade por alguns dias."
+      },
+      {
+        "pergunta": "Cafeína pode tomar na gravidez?",
+        "resposta": "Com moderação — até 200mg/dia (equivalente a 1 a 2 xícaras de café) é considerado seguro. Acima disso, aumenta o risco de restrição de crescimento fetal."
+      },
+      {
+        "pergunta": "Cafeína aumenta a pressão?",
+        "resposta": "Pode elevar temporariamente a pressão arterial. Hipertensos devem moderar o consumo e monitorar a pressão."
+      },
+      {
+        "pergunta": "Cafeína atrapalha o sono?",
+        "resposta": "Sim, tem meia-vida de 5 a 6 horas — uma xícara às 16h ainda tem metade da cafeína no organismo às 22h. Evitar após as 14h para não prejudicar o sono."
+      }
+    ]
   },
   {
     "nome": "Calcitriol 0,25mcg",
@@ -3177,7 +3419,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Calcitriol serve para que?",
+        "resposta": "É a forma ativa da vitamina D, usada em pacientes com insuficiência renal crônica, hipoparatireoidismo e osteoporose grave — situações onde o rim não consegue ativar a vitamina D3 comum."
+      },
+      {
+        "pergunta": "Calcitriol é diferente da vitamina D3?",
+        "resposta": "Sim. A vitamina D3 precisa ser ativada pelo rim. O calcitriol já é a forma ativa — indicado quando o rim não funciona bem o suficiente para fazer essa ativação."
+      },
+      {
+        "pergunta": "Calcitriol pode causar excesso de cálcio?",
+        "resposta": "Sim, hipercalcemia é o principal risco. Monitorar cálcio sérico regularmente e evitar suplementos de cálcio sem orientação durante o uso."
+      },
+      {
+        "pergunta": "Calcitriol precisa de receita?",
+        "resposta": "Sim, requer prescrição médica. A dose é muito individualizada e requer monitoramento laboratorial."
+      },
+      {
+        "pergunta": "Calcitriol pode tomar com vitamina D3?",
+        "resposta": "Com cautela e orientação médica — a combinação pode elevar muito o cálcio. Não combinar sem avaliação médica."
+      }
+    ]
   },
   {
     "nome": "Canagliflozina 100mg - 300mg (Invokana)",
@@ -3207,7 +3471,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Canagliflozina serve para diabetes?",
+        "resposta": "Sim, é uma gliflozina (SGLT2) para diabetes tipo 2 — elimina glicose pela urina reduzindo a glicemia. Também tem benefícios cardiovasculares e renais comprovados."
+      },
+      {
+        "pergunta": "Canagliflozina causa infecção urinária?",
+        "resposta": "Pode aumentar o risco de infecções urinárias e genitais por fungos (candidíase) pois a glicose na urina favorece o crescimento de microrganismos."
+      },
+      {
+        "pergunta": "Canagliflozina causa hipoglicemia?",
+        "resposta": "Raramente quando usada sozinha. O risco aumenta quando combinada com insulina ou sulfonilureias."
+      },
+      {
+        "pergunta": "Canagliflozina pode tomar com metformina?",
+        "resposta": "Sim, a combinação é muito usada e eficaz, com mecanismos complementares para controle glicêmico."
+      },
+      {
+        "pergunta": "Canagliflozina pode causar amputação?",
+        "resposta": "Estudos mostraram aumento no risco de amputação de membros inferiores. Monitorar os pés regularmente e comunicar qualquer ferida ou infecção nos pés ao médico."
+      }
+    ]
   },
   {
     "nome": "Candesartana 8mg - 16mg - 32mg",
@@ -3233,7 +3519,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Candesartana serve para pressão alta?",
+        "resposta": "Sim, é um BRA (bloqueador do receptor de angiotensina) muito eficaz para hipertensão arterial e insuficiência cardíaca."
+      },
+      {
+        "pergunta": "Candesartana causa tosse?",
+        "resposta": "Raramente — essa é uma vantagem dos BRAs sobre os IECAs (captopril, enalapril) que frequentemente causam tosse seca."
+      },
+      {
+        "pergunta": "Candesartana pode tomar na gravidez?",
+        "resposta": "Não. Contraindicada na gravidez — pode causar malformações e morte fetal."
+      },
+      {
+        "pergunta": "Candesartana pode tomar com anti-inflamatório?",
+        "resposta": "Com cautela. AINEs podem reduzir o efeito anti-hipertensivo e aumentar o risco renal. Evitar uso prolongado junto."
+      },
+      {
+        "pergunta": "Candesartana é melhor que losartana?",
+        "resposta": "Têm eficácia similar, mas a candesartana pode ter ligeira vantagem na insuficiência cardíaca. A escolha depende do perfil de cada paciente e resposta individual."
+      }
+    ]
   },
   {
     "nome": "Cannabis Medicinal (CBD / THC)",
@@ -3266,7 +3574,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Cannabis medicinal serve para que?",
+        "resposta": "É usada para epilepsia refratária, dor crônica, espasticidade na esclerose múltipla, náusea por quimioterapia e ansiedade em casos específicos."
+      },
+      {
+        "pergunta": "Cannabis medicinal precisa de receita?",
+        "resposta": "Sim, requer prescrição médica especial e autorização da Anvisa para importação. O processo envolve laudo médico detalhado."
+      },
+      {
+        "pergunta": "Cannabis medicinal dá pra criança?",
+        "resposta": "Em casos de epilepsia grave refratária (como síndrome de Dravet), o canabidiol (CBD) é aprovado para crianças. Sempre com acompanhamento neurológico especializado."
+      },
+      {
+        "pergunta": "Cannabis medicinal causa dependência?",
+        "resposta": "O CBD puro tem baixo potencial de dependência. Produtos com THC têm maior potencial. O uso medicinal supervisionado tem risco muito menor que o uso recreativo."
+      },
+      {
+        "pergunta": "Cannabis medicinal é legalizada no Brasil?",
+        "resposta": "Para uso medicinal, a Anvisa permite importação e uso de produtos derivados da cannabis com registro ou autorização especial. Não é liberada para cultivo ou uso recreativo."
+      }
+    ]
   },
   {
     "nome": "Captopril 12,5mg - 25mg - 50mg",
@@ -3339,7 +3669,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Carbamazepina serve para epilepsia?",
+        "resposta": "Sim, é antiepiléptico clássico usado para crises focais e tonicoclônicas generalizadas. Também usado para neuralgia do trigêmeo e transtorno bipolar."
+      },
+      {
+        "pergunta": "Carbamazepina pode tomar com suco de grapefruit?",
+        "resposta": "Não. O suco de toranja inibe o metabolismo da carbamazepina, elevando seus níveis e aumentando o risco de toxicidade."
+      },
+      {
+        "pergunta": "Carbamazepina afeta o anticoncepcional?",
+        "resposta": "Sim, reduz significativamente a eficácia dos anticoncepcionais hormonais. Mulheres devem usar método contraceptivo adicional (preservativo ou DIU)."
+      },
+      {
+        "pergunta": "Carbamazepina pode causar reação na pele?",
+        "resposta": "Sim, pode causar reações cutâneas graves como síndrome de Stevens-Johnson — especialmente em pessoas de origem asiática com variante genética HLA-B*1502. Suspender imediatamente se surgir erupção."
+      },
+      {
+        "pergunta": "Carbamazepina pode parar de tomar de repente?",
+        "resposta": "Nunca. A interrupção abrupta pode precipitar convulsões graves. Sempre reduzir gradualmente com orientação neurológica."
+      }
+    ]
   },
   {
     "nome": "Carbidopa/Levodopa 25/100mg - 25/250mg - 50/200mg",
@@ -3431,7 +3783,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Carisoprodol vicia?",
+        "resposta": "Sim, tem potencial de dependência e abuso — é uma das principais preocupações com esse medicamento. Usar pelo menor tempo possível."
+      },
+      {
+        "pergunta": "Carisoprodol dá sono?",
+        "resposta": "Sim, sonolência intensa é o efeito mais comum. Não dirigir ou operar máquinas durante o uso."
+      },
+      {
+        "pergunta": "Carisoprodol pode tomar com álcool?",
+        "resposta": "Não. Combinação muito perigosa — potencializa muito a sedação e pode causar depressão respiratória."
+      },
+      {
+        "pergunta": "Carisoprodol serve para contratura muscular?",
+        "resposta": "Sim, é relaxante muscular central usado para espasmos e contraturas musculares agudas. Indicado para uso de curto prazo (máximo 2 a 3 semanas)."
+      },
+      {
+        "pergunta": "Carisoprodol pode parar de tomar de repente?",
+        "resposta": "Após uso prolongado não é recomendado parar abruptamente — pode causar abstinência. Reduzir gradualmente com orientação médica."
+      }
+    ]
   },
   {
     "nome": "Carnitina 500mg",
@@ -3456,7 +3830,29 @@
     "receita_cor": "verde",
     "receita_obrigatoria": false,
     "tipo_receita": "MIP",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Carnitina emagrece?",
+        "resposta": "As evidências científicas são limitadas para emagrecimento. Pode ter pequeno efeito na oxidação de gorduras durante exercício intenso, mas não é medicamento para emagrecer."
+      },
+      {
+        "pergunta": "Carnitina serve para que?",
+        "resposta": "Para deficiência de carnitina em pacientes renais em diálise e erros inatos do metabolismo. Off-label é usada para fadiga, desempenho atlético e saúde cardiovascular."
+      },
+      {
+        "pergunta": "Carnitina pode tomar todo dia?",
+        "resposta": "Sim, é segura para uso diário nas doses recomendadas. Em doses muito altas pode causar odor corporal de peixe e desconforto gastrointestinal."
+      },
+      {
+        "pergunta": "Carnitina tem efeitos colaterais?",
+        "resposta": "Em doses altas: odor corporal e de urina semelhante a peixe, náusea, diarreia. Pode aumentar levemente o risco cardiovascular pelo metabolismo em TMAO — assunto ainda em estudo."
+      },
+      {
+        "pergunta": "Carnitina pode tomar na gravidez?",
+        "resposta": "Não há dados suficientes de segurança. Consultar o médico antes de usar na gravidez ou amamentação."
+      }
+    ]
   },
   {
     "nome": "Carvedilol 3,125mg - 6,25mg - 12,5mg - 25mg",
@@ -3482,7 +3878,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Carvedilol pode parar de tomar de repente?",
+        "resposta": "Nunca. A interrupção abrupta pode causar angina rebote e infarto. Reduzir gradualmente ao longo de 1 a 2 semanas."
+      },
+      {
+        "pergunta": "Carvedilol é perigoso para asmáticos?",
+        "resposta": "Sim, por não ser cardiosseletivo pode causar broncoespasmo. Asmáticos devem evitar ou usar com muita cautela e monitoramento."
+      },
+      {
+        "pergunta": "Carvedilol serve para insuficiência cardíaca?",
+        "resposta": "Sim, é um dos betabloqueadores com maior evidência na insuficiência cardíaca — reduz mortalidade e melhora a função do coração a longo prazo."
+      },
+      {
+        "pergunta": "Carvedilol causa cansaço?",
+        "resposta": "Sim, fadiga é um efeito comum especialmente no início. Geralmente melhora após algumas semanas de uso."
+      },
+      {
+        "pergunta": "Carvedilol pode tomar com anlodipino?",
+        "resposta": "Com cautela — a combinação pode causar hipotensão excessiva. O médico monitorará a pressão arterial e frequência cardíaca."
+      }
+    ]
   },
   {
     "nome": "Cefadroxila 500mg - 1g",
@@ -3513,7 +3931,29 @@
     ],
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": true
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Cefadroxila pode tomar com leite?",
+        "resposta": "Sim, pode ser tomada com ou sem alimentos — inclusive com leite. Isso facilita a adesão ao tratamento."
+      },
+      {
+        "pergunta": "Cefadroxila serve para infecção de pele?",
+        "resposta": "Sim, é muito usada para infecções de pele e tecidos moles por estafilococos e estreptococos, como celulite e impetigo."
+      },
+      {
+        "pergunta": "Cefadroxila de quantas em quantas horas?",
+        "resposta": "Geralmente 1 ou 2 vezes ao dia — é uma vantagem sobre outras cefalosporinas que precisam ser tomadas 4 vezes ao dia."
+      },
+      {
+        "pergunta": "Cefadroxila pode tomar se sou alérgico à penicilina?",
+        "resposta": "Com cautela — existe chance de 5 a 10% de reação cruzada. Informar sempre ao médico sobre alergia à penicilina."
+      },
+      {
+        "pergunta": "Cefadroxila precisa completar o tratamento?",
+        "resposta": "Sim, sempre completar o curso prescrito mesmo com melhora dos sintomas. Interromper antes pode causar resistência bacteriana e recidiva."
+      }
+    ]
   },
   {
     "nome": "Cefalexina 500mg - 1,0g - Suspensão",
@@ -3591,7 +4031,29 @@
     ],
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": true
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Cefpodoxima deve tomar com alimentos?",
+        "resposta": "Sim, obrigatoriamente. A absorção sem alimentação cai drasticamente — sempre tomar com refeição."
+      },
+      {
+        "pergunta": "Cefpodoxima serve para sinusite?",
+        "resposta": "Sim, é muito eficaz para sinusite bacteriana, otite média, pneumonia comunitária e infecções urinárias."
+      },
+      {
+        "pergunta": "Cefpodoxima pode tomar se sou alérgico à penicilina?",
+        "resposta": "Com cautela — existe chance de reação cruzada. Informar ao médico sobre a alergia antes de usar."
+      },
+      {
+        "pergunta": "Cefpodoxima é de amplo espectro?",
+        "resposta": "Sim, é cefalosporina de 3ª geração com boa cobertura para gram-negativos — mais ampla que cefadroxila e cefalexina."
+      },
+      {
+        "pergunta": "Cefpodoxima precisa completar o tratamento?",
+        "resposta": "Sim, sempre completar o curso mesmo com melhora. A interrupção precoce pode causar recidiva e resistência bacteriana."
+      }
+    ]
   },
   {
     "nome": "Ceftriaxona 250mg - 500mg - 1,0g Injetável",
