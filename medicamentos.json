@@ -1369,7 +1369,7 @@
       },
       {
         "pergunta": "Atorvastatina pode tomar com suco de laranja?",
-        "resposta": "Sim. O suco problemático é o de toranja (grapefruit/pomelo) — este sim deve ser evitado pois aumenta muito o nível da atorvastatina no sangue."
+        "resposta": "Sim. O suco problemático é o de grapefruit (grapefruit/pomelo) — este sim deve ser evitado pois aumenta muito o nível da atorvastatina no sangue."
       },
       {
         "pergunta": "Atorvastatina engorda?",
@@ -1427,8 +1427,8 @@
         "resposta": "Sim, além de anti-hipertensivo, é usado para angina estável — relaxa as artérias coronárias melhorando o fluxo de sangue para o coração."
       },
       {
-        "pergunta": "Anlodipino pode tomar com suco de grapefruit?",
-        "resposta": "Com cautela — o suco de toranja pode aumentar os níveis de anlodipino no sangue. Preferir evitar durante o tratamento."
+        "pergunta": "Anlodipino pode tomar com suco de grapefruit (também chamado de grapefruit ou pomelo)?",
+        "resposta": "Com cautela — o suco de grapefruit pode aumentar os níveis de anlodipino no sangue. Preferir evitar durante o tratamento."
       }
     ]
   },
@@ -1475,8 +1475,8 @@
         "resposta": "Sim, além de anti-hipertensivo, é usado para angina estável — relaxa as artérias coronárias melhorando o fluxo de sangue para o coração."
       },
       {
-        "pergunta": "Anlodipino pode tomar com suco de grapefruit?",
-        "resposta": "Com cautela — o suco de toranja pode aumentar os níveis de anlodipino no sangue. Preferir evitar durante o tratamento."
+        "pergunta": "Anlodipino pode tomar com suco de grapefruit (também chamado de grapefruit ou pomelo)?",
+        "resposta": "Com cautela — o suco de grapefruit pode aumentar os níveis de anlodipino no sangue. Preferir evitar durante o tratamento."
       }
     ]
   },
@@ -1788,15 +1788,15 @@
     "receita": "Sim",
     "receita_nota": "Recomenda-se receita médica.",
     "efeitos": "Mialgia (dor muscular), dor de cabeça, náusea, diarreia e fadiga. Em casos raros, rabdomiólise.",
-    "aviso_grave": "Procure médico imediatamente se tiver dor muscular intensa e generalizada com urina escura — sinal de rabdomiólise. Evite suco de toranja durante o uso.",
+    "aviso_grave": "Procure médico imediatamente se tiver dor muscular intensa e generalizada com urina escura — sinal de rabdomiólise. Evite suco de grapefruit durante o uso.",
     "recomendacao": "🔴 Avisar médico imediatamente se tiver dor muscular intensa com fraqueza generalizada.",
-    "educacao": "Pode ser tomado a qualquer hora do dia, com ou sem alimento. Evite suco de toranja (grapefruit). Exames de colesterol periódicos para confirmar as metas.",
+    "educacao": "Pode ser tomado a qualquer hora do dia, com ou sem alimento. Evite suco de grapefruit (também chamado de grapefruit ou pomelo) (também chamado de grapefruit ou pomelo). Exames de colesterol periódicos para confirmar as metas.",
     "resposta_rapida": [
       "Estatina + Inibidor de absorção em um comprimido",
       "Colesterol alto resistente à estatina isolada",
       "Pode ser tomado a qualquer hora",
       "Relate dores musculares ao médico",
-      "Evite toranja (grapefruit)"
+      "Evite grapefruit (grapefruit)"
     ],
     "sinonimos": [
       "Atozet",
@@ -1821,7 +1821,7 @@
       },
       {
         "pergunta": "Atorvastatina pode tomar com suco de laranja?",
-        "resposta": "Sim. O suco problemático é o de toranja (grapefruit/pomelo) — este sim deve ser evitado pois aumenta muito o nível da atorvastatina no sangue."
+        "resposta": "Sim. O suco problemático é o de grapefruit (grapefruit/pomelo) — este sim deve ser evitado pois aumenta muito o nível da atorvastatina no sangue."
       },
       {
         "pergunta": "Atorvastatina engorda?",
@@ -1847,7 +1847,7 @@
       "Redutor de colesterol",
       "Colesterol alto e prevenção cardiovascular",
       "Tome à noite — mais eficaz",
-      "Evite toranja (grapefruit)",
+      "Evite grapefruit (grapefruit)",
       "Relate dores musculares ao médico"
     ],
     "classe_receita": "TARJADO_PRATICA",
@@ -1869,7 +1869,7 @@
       },
       {
         "pergunta": "Atorvastatina pode tomar com suco de laranja?",
-        "resposta": "Sim. O suco problemático é o de toranja (grapefruit/pomelo) — este sim deve ser evitado pois aumenta muito o nível da atorvastatina no sangue."
+        "resposta": "Sim. O suco problemático é o de grapefruit (grapefruit/pomelo) — este sim deve ser evitado pois aumenta muito o nível da atorvastatina no sangue."
       },
       {
         "pergunta": "Atorvastatina engorda?",
@@ -3042,7 +3042,29 @@
     "receita_cor": "verde",
     "receita_obrigatoria": false,
     "tipo_receita": "MIP",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Budesonida spray nasal vicia?",
+        "resposta": "Não causa dependência. É corticoide de ação local com absorção sistêmica mínima — pode ser usado regularmente por tempo prolongado com segurança."
+      },
+      {
+        "pergunta": "Budesonida spray serve para rinite?",
+        "resposta": "Sim, é um dos corticoides nasais mais usados para rinite alérgica — reduz inflamação, coriza, obstrução e espirros."
+      },
+      {
+        "pergunta": "Budesonida spray pode usar todo dia?",
+        "resposta": "Sim, é medicamento de uso diário contínuo. O efeito máximo é atingido após alguns dias a semanas de uso regular."
+      },
+      {
+        "pergunta": "Budesonida spray como aplicar corretamente?",
+        "resposta": "Agitar o frasco, inclinar levemente a cabeça para frente, inserir o bico na narina e apertar enquanto inspira suavemente. Não inclinar a cabeça para trás."
+      },
+      {
+        "pergunta": "Budesonida spray pode dar para criança?",
+        "resposta": "Sim, a partir de 6 anos com orientação médica. É uma das opções mais seguras de corticoide nasal para crianças."
+      }
+    ]
   },
   {
     "nome": "Buprenorfina 5mg, 10mg, 20mg, 30mg e 40mg",
@@ -3676,8 +3698,8 @@
         "resposta": "Sim, é antiepiléptico clássico usado para crises focais e tonicoclônicas generalizadas. Também usado para neuralgia do trigêmeo e transtorno bipolar."
       },
       {
-        "pergunta": "Carbamazepina pode tomar com suco de grapefruit?",
-        "resposta": "Não. O suco de toranja inibe o metabolismo da carbamazepina, elevando seus níveis e aumentando o risco de toxicidade."
+        "pergunta": "Carbamazepina pode tomar com suco de grapefruit (também chamado de grapefruit ou pomelo)?",
+        "resposta": "Não. O suco de grapefruit inibe o metabolismo da carbamazepina, elevando seus níveis e aumentando o risco de toxicidade."
       },
       {
         "pergunta": "Carbamazepina afeta o anticoncepcional?",
@@ -3717,7 +3739,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "C1",
-    "retencao_receita": true
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Carbidopa levodopa serve para Parkinson?",
+        "resposta": "Sim, é o tratamento mais eficaz para a doença de Parkinson. A levodopa vira dopamina no cérebro e a carbidopa evita sua conversão prematura fora do cérebro."
+      },
+      {
+        "pergunta": "Carbidopa levodopa deve tomar com proteína?",
+        "resposta": "Não — refeições ricas em proteína (carne, ovos, leite) competem com a levodopa na absorção. Tomar 30 a 60 minutos antes das refeições."
+      },
+      {
+        "pergunta": "Carbidopa levodopa causa movimentos involuntários?",
+        "resposta": "Com o tempo pode surgir discinesia (movimentos involuntários) — efeito do uso prolongado. O médico pode ajustar a dose ou adicionar outros medicamentos."
+      },
+      {
+        "pergunta": "Carbidopa levodopa pode parar de tomar de repente?",
+        "resposta": "Nunca. A interrupção abrupta pode causar síndrome grave com rigidez e febre alta. Reduzir sempre gradualmente com orientação médica."
+      },
+      {
+        "pergunta": "Carbidopa levodopa perde eficácia com o tempo?",
+        "resposta": "Com os anos o efeito de cada dose pode diminuir — fenômeno de \"wearing off\". O médico ajustará o esquema de doses ao longo do tratamento."
+      }
+    ]
   },
   {
     "nome": "Cariprazina (Reagila)",
@@ -3752,7 +3796,29 @@
     ],
     "receita_obrigatoria": true,
     "tipo_receita": "C1",
-    "retencao_receita": true
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Cariprazina serve para esquizofrenia?",
+        "resposta": "Sim, é aprovada para esquizofrenia e mania bipolar. Tem benefício nos sintomas negativos da esquizofrenia (apatia, isolamento) que são difíceis de tratar."
+      },
+      {
+        "pergunta": "Cariprazina causa acatisia?",
+        "resposta": "Sim, acatisia (inquietação intensa, incapacidade de ficar parado) é o efeito colateral mais comum. Comunicar ao médico se ocorrer."
+      },
+      {
+        "pergunta": "Cariprazina engorda?",
+        "resposta": "Tem menor tendência a causar ganho de peso que outros antipsicóticos como olanzapina e quetiapina."
+      },
+      {
+        "pergunta": "Cariprazina demora para fazer efeito?",
+        "resposta": "Sim, tem meia-vida muito longa (2 a 3 semanas do metabólito ativo). Mudanças de dose só são percebidas completamente após 1 a 2 semanas."
+      },
+      {
+        "pergunta": "Cariprazina pode parar de tomar de repente?",
+        "resposta": "Não. Nunca interromper abruptamente — pode causar recaída. Sempre reduzir gradualmente com orientação do médico."
+      }
+    ]
   },
   {
     "nome": "Carisoprodol 325mg - 350mg",
@@ -4079,7 +4145,29 @@
     "receita_nota": "Via IM (intramuscular): pode ser aplicada em clínicas e drogarias com serviço de enfermagem habilitado. Via EV (intravenosa): uso hospitalar exclusivo.",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": true
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Ceftriaxona pode ser aplicada em drogaria?",
+        "resposta": "A via intramuscular (IM) pode ser aplicada em drogarias e clínicas com serviço de enfermagem habilitado. A via intravenosa (EV) é de uso exclusivamente hospitalar."
+      },
+      {
+        "pergunta": "Ceftriaxona dói na aplicação?",
+        "resposta": "A injeção intramuscular pode ser bastante dolorosa. Misturar com lidocaína (quando prescrito) reduz significativamente a dor."
+      },
+      {
+        "pergunta": "Ceftriaxona serve para que infecções?",
+        "resposta": "Para infecções graves como pneumonia, meningite, sepse, infecções urinárias complicadas, gonorreia e profilaxia cirúrgica."
+      },
+      {
+        "pergunta": "Alérgico à penicilina pode usar ceftriaxona?",
+        "resposta": "Com cautela — existe pequena chance de reação cruzada. Informar sempre ao médico sobre alergia à penicilina antes de usar qualquer cefalosporina."
+      },
+      {
+        "pergunta": "Ceftriaxona precisa de receita?",
+        "resposta": "Sim, é antibiótico que requer prescrição médica obrigatória com retenção de receita."
+      }
+    ]
   },
   {
     "nome": "Cefuroxima 250mg - 500mg",
@@ -4110,7 +4198,29 @@
     ],
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": true
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Cefuroxima deve tomar com alimentos?",
+        "resposta": "Sim, tomar com alimentos melhora a absorção e reduz efeitos gastrointestinais."
+      },
+      {
+        "pergunta": "Cefuroxima serve para sinusite?",
+        "resposta": "Sim, é muito eficaz para sinusite bacteriana, otite média, pneumonia e infecções do trato respiratório superior."
+      },
+      {
+        "pergunta": "Cefuroxima pode tomar se sou alérgico à penicilina?",
+        "resposta": "Com cautela — existe chance de 5 a 10% de reação cruzada. Informar sempre ao médico sobre alergia à penicilina."
+      },
+      {
+        "pergunta": "Cefuroxima é cefalosporina de que geração?",
+        "resposta": "É cefalosporina de 2ª geração — tem cobertura maior para bactérias gram-negativas que as de 1ª geração como cefalexina."
+      },
+      {
+        "pergunta": "Cefuroxima precisa completar o tratamento?",
+        "resposta": "Sim, sempre completar o curso completo mesmo com melhora. Interromper antes pode causar resistência e recidiva."
+      }
+    ]
   },
   {
     "nome": "Celecoxibe 100mg - 200mg",
@@ -4136,7 +4246,29 @@
     "receita_nota": "Prescrição médica obrigatória. Receita válida por 30 dias.",
     "receita_obrigatoria": true,
     "tipo_receita": "C1",
-    "retencao_receita": true
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Celecoxibe faz mal para o estômago?",
+        "resposta": "Menos que outros anti-inflamatórios. Por ser inibidor seletivo da COX-2, causa menos irritação gástrica que ibuprofeno e diclofenaco."
+      },
+      {
+        "pergunta": "Celecoxibe faz mal para o coração?",
+        "resposta": "Pode aumentar o risco cardiovascular (infarto, AVC) especialmente em doses altas e uso prolongado. Usar com cautela em pacientes com doenças cardíacas."
+      },
+      {
+        "pergunta": "Celecoxibe serve para artrose?",
+        "resposta": "Sim, é muito usado para artrose, artrite reumatoide e outras condições inflamatórias com dor crônica, justamente pela menor agressão gástrica."
+      },
+      {
+        "pergunta": "Celecoxibe pode tomar com AAS?",
+        "resposta": "Com cautela — a combinação reduz a vantagem gástrica do celecoxibe. Quem usa aspirina para coração e precisa de anti-inflamatório deve consultar o médico."
+      },
+      {
+        "pergunta": "Celecoxibe pode usar na gravidez?",
+        "resposta": "Contraindicado no terceiro trimestre. No primeiro e segundo trimestres, evitar e consultar o médico."
+      }
+    ]
   },
   {
     "nome": "Cetirizina 10mg e Xarope",
@@ -4161,7 +4293,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Cetirizina dá sono?",
+        "resposta": "Pode causar sonolência leve em algumas pessoas. Quem sentir sonolência deve tomar à noite. É menos sedativa que os anti-histamínicos de 1ª geração."
+      },
+      {
+        "pergunta": "Cetirizina pode tomar todo dia?",
+        "resposta": "Sim, pode ser usada diariamente para rinite alérgica crônica e urticária crônica. É segura para uso prolongado."
+      },
+      {
+        "pergunta": "Cetirizina serve para coceira?",
+        "resposta": "Sim, é muito eficaz para coceira intensa na dermatite atópica e urticária — pode ser preferida à loratadina nessas condições."
+      },
+      {
+        "pergunta": "Cetirizina pode tomar na gravidez?",
+        "resposta": "Geralmente considerada segura no segundo e terceiro trimestres. No primeiro trimestre, consultar o médico antes de usar."
+      },
+      {
+        "pergunta": "Cetirizina pode tomar com álcool?",
+        "resposta": "Não é recomendado — o álcool pode potencializar a sonolência causada pela cetirizina."
+      }
+    ]
   },
   {
     "nome": "Cetoconazol Shampoo, 200mg e Creme",
@@ -4186,7 +4340,29 @@
     "receita_cor": "verde",
     "receita_obrigatoria": false,
     "tipo_receita": "MIP",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Cetoconazol shampoo serve para caspa?",
+        "resposta": "Sim, é muito eficaz para caspa, dermatite seborreica e tinha do couro cabeludo. Age eliminando o fungo Malassezia que causa esses problemas."
+      },
+      {
+        "pergunta": "Cetoconazol shampoo quanto tempo deixar agir?",
+        "resposta": "Deixar agir por 3 a 5 minutos antes de enxaguar para máxima eficácia. Usar 2 vezes por semana no início e depois 1 vez por semana como manutenção."
+      },
+      {
+        "pergunta": "Cetoconazol comprimido é perigoso?",
+        "resposta": "O cetoconazol oral tem risco de hepatotoxicidade grave — hoje é raramente usado por via oral. O creme e shampoo tópicos são seguros."
+      },
+      {
+        "pergunta": "Cetoconazol creme serve para micose?",
+        "resposta": "Sim, o creme é eficaz para micoses de pele como tinea corporis, pé de atleta e candidíase cutânea."
+      },
+      {
+        "pergunta": "Cetoconazol shampoo pode usar no rosto?",
+        "resposta": "Sim, com cuidado — pode ser usado nas sobrancelhas e sulcos nasogenianos para dermatite seborreica facial. Evitar contato com os olhos."
+      }
+    ]
   },
   {
     "nome": "Cetoprofeno 50mg - 100mg - 150mg - Injetável - 2,5% Gel",
@@ -4218,7 +4394,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Cetoprofeno gel pode usar na gravidez?",
+        "resposta": "Contraindicado no terceiro trimestre. No primeiro e segundo trimestres evitar, especialmente próximo ao final. O gel tópico tem menor absorção que o comprimido."
+      },
+      {
+        "pergunta": "Cetoprofeno faz mal para o estômago?",
+        "resposta": "Pode causar irritação gástrica como todos os AINEs. Tomar com alimentos e evitar uso prolongado sem orientação médica."
+      },
+      {
+        "pergunta": "Cetoprofeno gel pode usar com sol?",
+        "resposta": "Não. O cetoprofeno gel causa fotossensibilidade intensa — pode causar queimaduras e manchas graves na pele exposta ao sol. Cobrir a área tratada ou usar à noite."
+      },
+      {
+        "pergunta": "Cetoprofeno comprimido para que serve?",
+        "resposta": "Para dor e inflamação em artrite, artrose, dor muscular, lesões esportivas e dismenorreia (cólica menstrual)."
+      },
+      {
+        "pergunta": "Cetoprofeno pode tomar com paracetamol?",
+        "resposta": "Sim, podem ser usados juntos com segurança para dor moderada a intensa, pois têm mecanismos diferentes."
+      }
+    ]
   },
   {
     "nome": "Ciclobenzaprina 5mg - 10mg",
@@ -4249,7 +4447,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Ciclobenzaprina dá sono?",
+        "resposta": "Sim, sonolência intensa é o efeito mais comum. Por isso é geralmente tomada à noite. Não dirigir ou operar máquinas durante o uso."
+      },
+      {
+        "pergunta": "Ciclobenzaprina pode tomar com álcool?",
+        "resposta": "Não. O álcool potencializa muito a sedação da ciclobenzaprina e pode causar depressão do sistema nervoso central."
+      },
+      {
+        "pergunta": "Ciclobenzaprina vicia?",
+        "resposta": "Tem baixo potencial de dependência quando usada por curto prazo (até 2 a 3 semanas). Uso prolongado não é recomendado."
+      },
+      {
+        "pergunta": "Ciclobenzaprina serve para contratura muscular?",
+        "resposta": "Sim, é relaxante muscular central indicado para espasmos e contraturas musculares agudas, geralmente combinado com anti-inflamatório."
+      },
+      {
+        "pergunta": "Ciclobenzaprina pode usar em idosos?",
+        "resposta": "Com cautela — idosos são sensíveis à sedação e efeitos anticolinérgicos (boca seca, retenção urinária). Listada nos Critérios de Beers como potencialmente inapropriada."
+      }
+    ]
   },
   {
     "nome": "Ciprofloxacino 250mg - 500mg - 750mg - Injetável e Colírio Oftálmico",
@@ -4322,7 +4542,29 @@
     "receita_nota": "Prescrição médica obrigatória. Receita válida por 30 dias.",
     "receita_obrigatoria": true,
     "tipo_receita": "C1",
-    "retencao_receita": true
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Citalopram engorda?",
+        "resposta": "Pode causar leve ganho de peso no uso prolongado, mas é um dos antidepressivos com menor impacto no peso."
+      },
+      {
+        "pergunta": "Citalopram dá sono?",
+        "resposta": "Pode causar tanto sonolência quanto insônia dependendo da pessoa. O horário ideal varia — o médico orientará conforme o efeito em cada paciente."
+      },
+      {
+        "pergunta": "Citalopram demora quanto para fazer efeito?",
+        "resposta": "O efeito antidepressivo completo leva de 2 a 4 semanas. Alguns pacientes percebem melhora do sono e ansiedade antes."
+      },
+      {
+        "pergunta": "Citalopram pode causar arritmia?",
+        "resposta": "Em doses altas pode prolongar o intervalo QT causando arritmia. Por isso a dose máxima é limitada a 40mg/dia (20mg em idosos e insuficiência hepática)."
+      },
+      {
+        "pergunta": "Citalopram pode parar de tomar de repente?",
+        "resposta": "Não. A interrupção abrupta pode causar síndrome de descontinuação com tontura, irritabilidade e sensações elétricas. Reduzir sempre gradualmente."
+      }
+    ]
   },
   {
     "nome": "Claritromicina 250mg - 500mg",
@@ -4353,7 +4595,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": true
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Claritromicina pode tomar com estatina?",
+        "resposta": "Não com sinvastatina — interação grave que aumenta muito o risco de miopatia. Suspender a estatina durante o tratamento com claritromicina."
+      },
+      {
+        "pergunta": "Claritromicina serve para H. pylori?",
+        "resposta": "Sim, faz parte do esquema tríplice para erradicação do H. pylori junto com omeprazol e amoxicilina."
+      },
+      {
+        "pergunta": "Claritromicina causa gosto amargo?",
+        "resposta": "Sim, sabor amargo ou metálico na boca é um efeito colateral muito comum e característico da claritromicina."
+      },
+      {
+        "pergunta": "Claritromicina pode tomar na gravidez?",
+        "resposta": "Evitar na gravidez — estudos em animais mostraram efeitos adversos. Usar apenas se não houver alternativa mais segura, com orientação médica."
+      },
+      {
+        "pergunta": "Claritromicina tem muitas interações?",
+        "resposta": "Sim, é um dos antibióticos com mais interações — afeta o metabolismo de muitos medicamentos. Informar sempre todos os medicamentos em uso ao médico."
+      }
+    ]
   },
   {
     "nome": "Clindamicina 150mg - 300mg - Injetável",
@@ -4378,7 +4642,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": true
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Clindamicina pode causar diarreia grave?",
+        "resposta": "Sim, pode causar colite por Clostridioides difficile — diarreia grave com sangue e febre. Suspender imediatamente e procurar médico se ocorrer diarreia intensa durante ou após o tratamento."
+      },
+      {
+        "pergunta": "Clindamicina serve para acne?",
+        "resposta": "A clindamicina tópica (gel ou loção) é muito usada para acne inflamatória. A forma oral é reservada para infecções mais graves."
+      },
+      {
+        "pergunta": "Clindamicina pode tomar de quantas em quantas horas?",
+        "resposta": "Geralmente de 6 em 6 horas (4 vezes ao dia) ou de 8 em 8 horas (3 vezes ao dia) conforme a prescrição. Manter os intervalos regulares."
+      },
+      {
+        "pergunta": "Clindamicina é para alérgicos à penicilina?",
+        "resposta": "Sim, é uma boa alternativa para infecções de pele e partes moles em pacientes alérgicos à penicilina."
+      },
+      {
+        "pergunta": "Clindamicina pode tomar com alimentos?",
+        "resposta": "Sim, pode ser tomada com ou sem alimentos. Tomar com alimentos pode ajudar a reduzir o desconforto gástrico."
+      }
+    ]
   },
   {
     "nome": "Clomifeno 50mg",
@@ -4409,7 +4695,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Clomifeno serve para engravidar?",
+        "resposta": "Sim, é indutor de ovulação usado para tratar infertilidade feminina por anovulação — estimula o ovário a liberar óvulos."
+      },
+      {
+        "pergunta": "Clomifeno pode causar gravidez múltipla?",
+        "resposta": "Sim, aumenta o risco de gravidez gemelar e, mais raramente, múltipla. O médico monitorará com ultrassom durante o tratamento."
+      },
+      {
+        "pergunta": "Clomifeno causa fogachos?",
+        "resposta": "Sim, ondas de calor (fogachos) são efeitos comuns por seu mecanismo antiestrogênico. Geralmente passam ao longo do ciclo."
+      },
+      {
+        "pergunta": "Clomifeno pode usar por quantos ciclos?",
+        "resposta": "Geralmente até 6 ciclos. Se não houver gravidez após esse período, o médico avaliará outras opções de tratamento para infertilidade."
+      },
+      {
+        "pergunta": "Clomifeno serve para homens também?",
+        "resposta": "Off-label, pode ser usado em homens para estimular a produção de testosterona e espermatozoides em casos de hipogonadismo. Sempre com avaliação especializada."
+      }
+    ]
   },
   {
     "nome": "Clomipramina 10mg - 25mg - 75mg",
@@ -4441,7 +4749,29 @@
     ],
     "receita_obrigatoria": true,
     "tipo_receita": "C1",
-    "retencao_receita": true
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Clomipramina serve para TOC?",
+        "resposta": "Sim, é o antidepressivo com maior evidência para o transtorno obsessivo-compulsivo — considerada padrão-ouro para TOC, com eficácia superior aos ISRSs."
+      },
+      {
+        "pergunta": "Clomipramina dá sono?",
+        "resposta": "Sim, sonolência intensa é comum. Por isso é geralmente tomada à noite. Não dirigir ou operar máquinas."
+      },
+      {
+        "pergunta": "Clomipramina engorda?",
+        "resposta": "Sim, ganho de peso é um efeito comum — aumenta o apetite e causa retenção de líquidos."
+      },
+      {
+        "pergunta": "Clomipramina demora quanto para fazer efeito no TOC?",
+        "resposta": "Para o TOC, o efeito pleno pode levar de 6 a 12 semanas — mais lento que o efeito antidepressivo. Ter paciência com o tratamento."
+      },
+      {
+        "pergunta": "Clomipramina pode parar de tomar de repente?",
+        "resposta": "Não. A interrupção abrupta causa síndrome de descontinuação intensa. Sempre reduzir gradualmente com orientação médica."
+      }
+    ]
   },
   {
     "nome": "Clonazepam - Solução oral 2,5mg/mL, 0,5mg e 2mg, 0,25mg",
@@ -4652,7 +4982,29 @@
     "receita_cor": "verde",
     "receita_obrigatoria": false,
     "tipo_receita": "MIP",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Clorexidina serve para que?",
+        "resposta": "Para antissepsia oral (enxaguante bucal), desinfecção de pele antes de procedimentos, tratamento de gengivite e como antisséptico em feridas."
+      },
+      {
+        "pergunta": "Clorexidina pode usar todo dia?",
+        "resposta": "O uso prolongado do enxaguante bucal pode manchar os dentes, a língua e alterar o paladar. Usar pelo tempo indicado pelo dentista — geralmente até 2 semanas."
+      },
+      {
+        "pergunta": "Clorexidina enxaguante pode engolir?",
+        "resposta": "Não. É para uso externo oral — cuspir após bochechar. Não engolir."
+      },
+      {
+        "pergunta": "Clorexidina pode usar na gravidez?",
+        "resposta": "O uso tópico e oral é geralmente considerado seguro na gravidez nas concentrações habituais. Consultar o dentista ou médico para confirmação."
+      },
+      {
+        "pergunta": "Clorexidina pode usar em criança?",
+        "resposta": "Com supervisão adulta para evitar engolir. Para crianças pequenas que não sabem cuspir, não é recomendado o enxaguante — usar apenas sob orientação do dentista."
+      }
+    ]
   },
   {
     "nome": "Cloroquina 250mg",
@@ -4678,7 +5030,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Cloroquina serve para lúpus?",
+        "resposta": "Sim, a cloroquina e a hidroxicloroquina são pilares do tratamento do lúpus eritematoso sistêmico e artrite reumatoide."
+      },
+      {
+        "pergunta": "Cloroquina afeta a visão?",
+        "resposta": "Sim, pode causar retinopatia (dano à retina) com uso prolongado e em doses altas. Exames oftalmológicos anuais são obrigatórios durante o tratamento."
+      },
+      {
+        "pergunta": "Cloroquina serve para malária?",
+        "resposta": "Sim, ainda é usada em algumas regiões para malária por P. vivax. Para P. falciparum há resistência em muitas áreas — consultar protocolos locais."
+      },
+      {
+        "pergunta": "Cloroquina pode tomar na gravidez?",
+        "resposta": "Em doses usadas para malária, é considerada segura na gravidez. Para lúpus, o médico avaliará o risco-benefício — geralmente o benefício supera o risco."
+      },
+      {
+        "pergunta": "Cloroquina pode parar de tomar de repente?",
+        "resposta": "Para lúpus, não interromper sem orientação médica — pode causar recaída da doença. Sempre discutir com o reumatologista antes de suspender."
+      }
+    ]
   },
   {
     "nome": "Clozapina 25mg - 100mg",
@@ -4704,7 +5078,29 @@
     "receita_nota": "Prescrição médica obrigatória. Receita válida por 30 dias.",
     "receita_obrigatoria": true,
     "tipo_receita": "C1",
-    "retencao_receita": true
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Clozapina é perigosa?",
+        "resposta": "É o antipsicótico mais eficaz para esquizofrenia resistente, mas tem risco de agranulocitose (queda grave de glóbulos brancos) — por isso exige monitoramento rigoroso do hemograma."
+      },
+      {
+        "pergunta": "Clozapina precisa de exames regulares?",
+        "resposta": "Sim, hemograma obrigatório semanalmente nas primeiras 18 semanas, depois mensalmente. Sem o exame em dia, a farmácia não pode dispensar o medicamento."
+      },
+      {
+        "pergunta": "Clozapina serve para esquizofrenia resistente?",
+        "resposta": "Sim, é reservada para esquizofrenia que não respondeu a pelo menos 2 outros antipsicóticos. Apesar dos riscos, é muito mais eficaz nesses casos."
+      },
+      {
+        "pergunta": "Clozapina causa salivação excessiva?",
+        "resposta": "Sim, sialorreia (salivação excessiva) especialmente à noite é um efeito muito comum. Pode ser manejado com medicação específica."
+      },
+      {
+        "pergunta": "Clozapina pode parar de tomar de repente?",
+        "resposta": "Nunca. A interrupção abrupta pode causar psicose de rebote grave. Sempre reduzir gradualmente com orientação psiquiátrica."
+      }
+    ]
   },
   {
     "nome": "Cobre — Gluconato ou Bisglicinato de Cobre",
@@ -4736,7 +5132,29 @@
     ],
     "receita_obrigatoria": false,
     "tipo_receita": "MIP",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Cobre suplemento para que serve?",
+        "resposta": "Para prevenção e tratamento da deficiência de cobre, que pode causar anemia, problemas neurológicos e ósseos. A deficiência é rara mas pode ocorrer com excesso de zinco."
+      },
+      {
+        "pergunta": "Cobre pode tomar junto com zinco?",
+        "resposta": "Não no mesmo horário — o zinco bloqueia a absorção do cobre. Tomar em horários diferentes. Quem suplementa zinco em doses altas por longo prazo deve considerar suplementar cobre também."
+      },
+      {
+        "pergunta": "Cobre pode causar intoxicação?",
+        "resposta": "Sim, excesso de cobre é tóxico para o fígado. Não exceder as doses recomendadas. A doença de Wilson é uma condição genética de acúmulo de cobre — contraindicação absoluta."
+      },
+      {
+        "pergunta": "Cobre tem efeitos colaterais?",
+        "resposta": "Em doses normais é muito bem tolerado. Em doses excessivas: náusea, vômito, dor abdominal e danos hepáticos."
+      },
+      {
+        "pergunta": "Cobre pode tomar na gravidez?",
+        "resposta": "Nas doses habituais é seguro — o cobre é necessário para o desenvolvimento fetal. Consultar o médico sobre a dose adequada durante a gravidez."
+      }
+    ]
   },
   {
     "nome": "Codeína 30mg - 60mg, Xarope e Injetável",
@@ -4787,7 +5205,29 @@
     "receita_cor": "verde",
     "receita_obrigatoria": false,
     "tipo_receita": "MIP",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Coenzima Q10 serve para que?",
+        "resposta": "Para suporte à saúde cardiovascular, redução da fadiga muscular em usuários de estatinas, hipertensão e como antioxidante geral. Também usada em insuficiência cardíaca como adjuvante."
+      },
+      {
+        "pergunta": "Coenzima Q10 pode tomar com estatina?",
+        "resposta": "Sim, muitos médicos recomendam a CoQ10 para pacientes em uso de estatinas — as estatinas reduzem os níveis naturais de CoQ10, o que pode contribuir para a dor muscular."
+      },
+      {
+        "pergunta": "Coenzima Q10 tem efeitos colaterais?",
+        "resposta": "É muito bem tolerada. Raramente pode causar desconforto gastrointestinal leve. Tomar com refeições melhora a absorção e reduz qualquer desconforto."
+      },
+      {
+        "pergunta": "Coenzima Q10 pode tomar na gravidez?",
+        "resposta": "Dados de segurança são limitados. Consultar o médico antes de usar na gravidez ou amamentação."
+      },
+      {
+        "pergunta": "Coenzima Q10 emagrece?",
+        "resposta": "Não tem evidência de efeito no emagrecimento. Seu benefício é na produção de energia celular e como antioxidante."
+      }
+    ]
   },
   {
     "nome": "Colagenase + Cloranfenicol pomada",
@@ -7796,7 +8236,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Cloroquina serve para lúpus?",
+        "resposta": "Sim, a cloroquina e a hidroxicloroquina são pilares do tratamento do lúpus eritematoso sistêmico e artrite reumatoide."
+      },
+      {
+        "pergunta": "Cloroquina afeta a visão?",
+        "resposta": "Sim, pode causar retinopatia (dano à retina) com uso prolongado e em doses altas. Exames oftalmológicos anuais são obrigatórios durante o tratamento."
+      },
+      {
+        "pergunta": "Cloroquina serve para malária?",
+        "resposta": "Sim, ainda é usada em algumas regiões para malária por P. vivax. Para P. falciparum há resistência em muitas áreas — consultar protocolos locais."
+      },
+      {
+        "pergunta": "Cloroquina pode tomar na gravidez?",
+        "resposta": "Em doses usadas para malária, é considerada segura na gravidez. Para lúpus, o médico avaliará o risco-benefício — geralmente o benefício supera o risco."
+      },
+      {
+        "pergunta": "Cloroquina pode parar de tomar de repente?",
+        "resposta": "Para lúpus, não interromper sem orientação médica — pode causar recaída da doença. Sempre discutir com o reumatologista antes de suspender."
+      }
+    ]
   },
   {
     "nome": "Hidroxizina 10mg - 25mg - 50mg",
@@ -10514,12 +10976,12 @@
     "efeitos": "Os efeitos mais comuns são dor de cabeça, vermelhidão no rosto (rubor), sensação de calor e inchaço nos tornozelos e pernas (edema). Esses efeitos tendem a diminuir com o tempo. Pode causar batimentos cardíacos acelerados (taquicardia reflexa), especialmente com a versão de liberação imediata.",
     "aviso_grave": "",
     "recomendacao": "☎️ LIGUE SAMU (192) em caso de dor no peito intensa, batimentos cardíacos muito acelerados, pressão muito baixa com desmaio ou inchaço súbito generalizado",
-    "educacao": "Evite suco de laranja-grapefruit (toranja) durante o tratamento — aumenta a concentração do medicamento no sangue e pode causar efeitos exagerados. Não mastigue nem parta os comprimidos de liberação prolongada. Levante-se devagar para evitar tontura. 🔍 Curiosidade: A nifedipina foi o primeiro bloqueador de canal de cálcio desenvolvido e aprovado no mundo, na década de 1970. Hoje é amplamente usada também em emergências hipertensivas e no controle de contrações prematuras durante a gravidez.",
+    "educacao": "Evite suco de laranja-grapefruit (grapefruit) durante o tratamento — aumenta a concentração do medicamento no sangue e pode causar efeitos exagerados. Não mastigue nem parta os comprimidos de liberação prolongada. Levante-se devagar para evitar tontura. 🔍 Curiosidade: A nifedipina foi o primeiro bloqueador de canal de cálcio desenvolvido e aprovado no mundo, na década de 1970. Hoje é amplamente usada também em emergências hipertensivas e no controle de contrações prematuras durante a gravidez.",
     "resposta_rapida": [
       "Bloqueador de cálcio para pressão e angina",
       "Hipertensão (pressão alta) e angina pectoris (dor no peito)",
       "Não mastigue o comprimido de liberação prolongada",
-      "Evite suco de laranja-grapefruit (toranja)",
+      "Evite suco de laranja-grapefruit (grapefruit)",
       "Pode causar inchaço nas pernas e rubor facial"
     ],
     "classe_receita": "TARJADO_PRATICA",
@@ -12652,7 +13114,7 @@
     "efeitos": "Mialgia (dor muscular) é o mais comum. Raramente causa miopatia grave ou rabdomiólise (destruição muscular com risco renal). Pode elevar enzimas hepáticas.",
     "aviso_grave": "Procure médico imediatamente se tiver dor muscular intensa e generalizada, especialmente com urina escura (cor de coca-cola) — sinal de rabdomiólise. O risco é maior nas doses mais altas (40mg).",
     "recomendacao": "🔴 LIGUE SAMU (192) se tiver dor muscular muito intensa com fraqueza e urina cor de coca-cola.",
-    "educacao": "Pode ser tomada a qualquer hora do dia, com ou sem alimento. Evite suco de toranja (grapefruit). Relate qualquer dor muscular ao médico imediatamente.",
+    "educacao": "Pode ser tomada a qualquer hora do dia, com ou sem alimento. Evite suco de grapefruit (também chamado de grapefruit ou pomelo) (também chamado de grapefruit ou pomelo). Relate qualquer dor muscular ao médico imediatamente.",
     "resposta_rapida": [
       "Estatina de alta potência",
       "Colesterol alto e prevenção cardiovascular",
@@ -13059,7 +13521,7 @@
     "efeitos": "Dor de cabeça, rubor facial, congestão nasal, alterações visuais (visão azulada ou embaçada) e indigestão são comuns. Queda de pressão pode ocorrer, especialmente com álcool ou nitratos.",
     "aviso_grave": "NUNCA combine com nitratos (medicamentos usados para dor no peito como a nitroglicerina e o dinitrato de isossorbida — se você usa spray ou comprimido para dor no peito, informe o médico antes de usar sildenafila) — a combinação pode causar queda grave de pressão e ser fatal. Não use em pacientes com doença cardiovascular grave. Priapismo (ereção acima de 4 horas) é emergência urológica.",
     "recomendacao": "☎️ LIGUE SAMU (192) se tiver ereção prolongada acima de 4 horas, dor no peito, perda súbita de visão ou audição.",
-    "educacao": "Tome 1 hora antes da atividade sexual, com o estômago vazio ou com refeição leve — refeições gordurosas atrasam o efeito. Não funciona sem estímulo sexual. Evite toranja (grapefruit) durante o uso.\n\n🔍 Curiosidade: O Viagra foi desenvolvido pela Pfizer para angina (dor no peito por doença cardíaca). Nas fases de teste, os pacientes relataram ereções como efeito colateral — e a Pfizer mudou completamente o foco do medicamento. Hoje é um dos medicamentos mais famosos do mundo.",
+    "educacao": "Tome 1 hora antes da atividade sexual, com o estômago vazio ou com refeição leve — refeições gordurosas atrasam o efeito. Não funciona sem estímulo sexual. Evite grapefruit (também chamado de grapefruit ou pomelo) durante o uso.\n\n🔍 Curiosidade: O Viagra foi desenvolvido pela Pfizer para angina (dor no peito por doença cardíaca). Nas fases de teste, os pacientes relataram ereções como efeito colateral — e a Pfizer mudou completamente o foco do medicamento. Hoje é um dos medicamentos mais famosos do mundo.",
     "resposta_rapida": [
       "Para disfunção erétil",
       "Disfunção erétil em homens",
@@ -13140,12 +13602,12 @@
     "efeitos": "O efeito colateral mais comum é a mialgia (dor e fraqueza muscular), que pode ocorrer em qualquer intensidade. Em casos raros, pode causar rabdomiólise (destruição grave das fibras musculares que pode lesionar os rins) — risco maior na dose de 80mg. Pode elevar as enzimas do fígado, por isso exames periódicos são recomendados.",
     "aviso_grave": "Procure o médico imediatamente se sentir dor muscular intensa, generalizada e inexplicável, especialmente acompanhada de urina escura (cor de coca-cola) — pode ser sinal de rabdomiólise, uma emergência médica. O risco aumenta com a dose de 80mg e com o uso simultâneo de certos medicamentos.",
     "recomendacao": "☎️ LIGUE SAMU (192) em caso de dor muscular muito intensa com urina escura, fraqueza muscular grave ou dificuldade para se mover",
-    "educacao": "Tome preferencialmente à noite — o fígado produz mais colesterol durante o sono, e a sinvastatina age melhor nesse horário. Evite suco de laranja-grapefruit (toranja) durante o tratamento — aumenta a concentração do medicamento no sangue. Dieta saudável e exercício potencializam muito o efeito. 🔍 Curiosidade: A sinvastatina foi desenvolvida a partir da lovastatina, substância encontrada naturalmente em um fungo. Hoje é um dos medicamentos mais prescritos no Brasil e está disponível gratuitamente pelo SUS — sua inclusão na Farmácia Popular impactou significativamente a saúde cardiovascular da população brasileira.",
+    "educacao": "Tome preferencialmente à noite — o fígado produz mais colesterol durante o sono, e a sinvastatina age melhor nesse horário. Evite suco de laranja-grapefruit (grapefruit) durante o tratamento — aumenta a concentração do medicamento no sangue. Dieta saudável e exercício potencializam muito o efeito. 🔍 Curiosidade: A sinvastatina foi desenvolvida a partir da lovastatina, substância encontrada naturalmente em um fungo. Hoje é um dos medicamentos mais prescritos no Brasil e está disponível gratuitamente pelo SUS — sua inclusão na Farmácia Popular impactou significativamente a saúde cardiovascular da população brasileira.",
     "resposta_rapida": [
       "Redutor de colesterol",
       "Colesterol alto e prevenção cardiovascular",
       "Tome à noite — mais eficaz",
-      "Evite laranja-grapefruit (toranja)",
+      "Evite laranja-grapefruit (grapefruit)",
       "Relate dores musculares ao médico imediatamente"
     ],
     "classe_receita": "TARJADO_PRATICA",
@@ -13163,7 +13625,7 @@
       },
       {
         "pergunta": "Sinvastatina pode tomar com grapefruit?",
-        "resposta": "Não. O suco de toranja (grapefruit) aumenta muito o nível da sinvastatina no sangue e o risco de rabdomiólise."
+        "resposta": "Não. O suco de grapefruit (também chamado de grapefruit ou pomelo) (também chamado de grapefruit ou pomelo) aumenta muito o nível da sinvastatina no sangue e o risco de rabdomiólise."
       },
       {
         "pergunta": "Sinvastatina pode tomar com antibiótico macrolídeo?",
@@ -14268,12 +14730,12 @@
     "efeitos": "O efeito colateral mais característico e frequente é a constipação intestinal intensa — afeta grande parte dos pacientes e pode ser bastante incômoda. Também pode causar tontura, dor de cabeça, inchaço nos tornozelos e vermelhidão no rosto. Pode causar bradicardia (coração batendo muito devagar) e bloqueio atrioventricular (interrupção na condução elétrica do coração) — risco maior em pacientes que já usam betabloqueadores.",
     "aviso_grave": "Nunca use verapamil junto com betabloqueadores (como propranolol ou metoprolol) sem orientação médica especializada — a combinação pode causar bloqueio cardíaco grave e parada cardíaca. Nunca interrompa abruptamente.",
     "recomendacao": "☎️ LIGUE SAMU (192) em caso de batimentos cardíacos muito lentos, desmaio, dor no peito intensa ou dificuldade para respirar",
-    "educacao": "Tome sempre com alimento. Aumente a ingestão de fibras e água para combater a constipação — efeito muito comum. Evite suco de laranja-grapefruit (toranja) durante o tratamento. Meça a frequência cardíaca regularmente — se estiver abaixo de 50 batimentos por minuto, comunique ao médico. 🔍 Curiosidade: O verapamil foi o primeiro bloqueador de canal de cálcio desenvolvido, na década de 1960, e por muitos anos foi o único da sua classe. Hoje, apesar de ter perdido espaço para bloqueadores mais modernos no tratamento da pressão alta, continua sendo insubstituível no controle de certos tipos de arritmia.",
+    "educacao": "Tome sempre com alimento. Aumente a ingestão de fibras e água para combater a constipação — efeito muito comum. Evite suco de laranja-grapefruit (grapefruit) durante o tratamento. Meça a frequência cardíaca regularmente — se estiver abaixo de 50 batimentos por minuto, comunique ao médico. 🔍 Curiosidade: O verapamil foi o primeiro bloqueador de canal de cálcio desenvolvido, na década de 1960, e por muitos anos foi o único da sua classe. Hoje, apesar de ter perdido espaço para bloqueadores mais modernos no tratamento da pressão alta, continua sendo insubstituível no controle de certos tipos de arritmia.",
     "resposta_rapida": [
       "Bloqueador de canal de cálcio",
       "Arritmias (batimento irregular) e pressão alta — antiarrítmico",
       "Pode causar constipação — beba água e coma fibras",
-      "Não tome com laranja-grapefruit (toranja)",
+      "Não tome com laranja-grapefruit (grapefruit)",
       "Cuidado com betabloqueadores juntos"
     ],
     "classe_receita": "TARJADO_PRATICA",
