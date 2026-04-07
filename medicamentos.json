@@ -19359,7 +19359,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Tiotropio serve para DPOC?",
+        "resposta": "Sim, é anticolinérgico inalatório de longa duração (24h), primeira escolha no tratamento de manutenção da DPOC. Reduz exacerbações, melhora a capacidade de exercício e qualidade de vida."
+      },
+      {
+        "pergunta": "Tiotropio pode usar na crise de falta de ar?",
+        "resposta": "Não. É medicamento de manutenção — não age rápido o suficiente para crises agudas. Para crises usar salbutamol (broncodilatador de alívio rápido)."
+      },
+      {
+        "pergunta": "Tiotropio causa boca seca?",
+        "resposta": "Sim, boca seca é o efeito mais comum dos anticolinérgicos inalatórios. Beber água regularmente e manter boa higiene bucal ajuda a reduzir o desconforto."
+      },
+      {
+        "pergunta": "Tiotropio pode piorar o glaucoma?",
+        "resposta": "Pode agravar o glaucoma de ângulo fechado. Informar ao médico se tiver glaucoma antes de iniciar. Evitar que o jato do inalador entre em contato com os olhos."
+      },
+      {
+        "pergunta": "Tiotropio e glicopirrônio são iguais?",
+        "resposta": "São do mesmo grupo (LAMA — anticolinérgicos de longa ação) com mecanismo semelhante, mas moléculas diferentes. O médico escolhe conforme disponibilidade e perfil do paciente."
+      }
+    ]
   },
   {
     "nome": "Tofacitinibe (Xeljanz)",
@@ -19392,7 +19414,29 @@
     ],
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Tofacitinibe serve para artrite reumatoide?",
+        "resposta": "Sim, é inibidor de JAK para artrite reumatoide, artrite psoriásica, colite ulcerativa e espondilite anquilosante. É medicamento oral, diferente dos biológicos injetáveis."
+      },
+      {
+        "pergunta": "Tofacitinibe pode causar herpes zóster?",
+        "resposta": "Sim, reativação de herpes zóster é um dos efeitos mais frequentes — mais que com outros imunossupressores. Vacina contra herpes zóster é recomendada antes de iniciar quando possível."
+      },
+      {
+        "pergunta": "Tofacitinibe aumenta risco de trombose?",
+        "resposta": "Sim, em doses altas há risco aumentado de trombose venosa profunda. O FDA emitiu alerta de segurança. O médico avalia o risco cardiovascular antes e durante o tratamento."
+      },
+      {
+        "pergunta": "Tofacitinibe pode causar infecções graves?",
+        "resposta": "Sim, por suprimir o sistema imunológico aumenta o risco de infecções — incluindo tuberculose reativada. Rastreamento de TB antes de iniciar é obrigatório."
+      },
+      {
+        "pergunta": "Tofacitinibe precisa de injeção?",
+        "resposta": "Não, é tomado em comprimido oral — vantagem sobre os biológicos injetáveis para muitos pacientes. Disponível em dose imediata (2x/dia) e liberação prolongada (1x/dia)."
+      }
+    ]
   },
   {
     "nome": "Topiramato 25mg - 50mg - 100mg",
@@ -19418,7 +19462,29 @@
     "receita_nota": "Prescrição médica obrigatória. Receita válida por 30 dias.",
     "receita_obrigatoria": true,
     "tipo_receita": "C1",
-    "retencao_receita": true
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Topiramato serve para epilepsia?",
+        "resposta": "Sim, é anticonvulsivante para crises focais e generalizadas. Também é muito usado para prevenção de enxaqueca e como estabilizador de humor no transtorno bipolar."
+      },
+      {
+        "pergunta": "Topiramato causa dificuldade de pensar?",
+        "resposta": "Sim, dificuldade de concentração e memória — chamada de 'névoa mental' pelos pacientes — é um efeito muito relatado. Aumentar a dose lentamente e usar doses menores ajuda a reduzir esse efeito."
+      },
+      {
+        "pergunta": "Topiramato emagrece?",
+        "resposta": "Sim, perda de apetite e peso é um efeito comum — pode ser vantajoso em alguns pacientes. É inclusive aprovado em combinação com fentermina para obesidade em alguns países."
+      },
+      {
+        "pergunta": "Topiramato pode causar pedra no rim?",
+        "resposta": "Sim, aumenta o risco de nefrolitíase (cálculos renais). Beber bastante água durante o tratamento é fundamental para reduzir esse risco."
+      },
+      {
+        "pergunta": "Topiramato pode parar de tomar de repente?",
+        "resposta": "Não. A interrupção abrupta pode desencadear crises convulsivas graves. Reduzir gradualmente sempre com orientação médica."
+      }
+    ]
   },
   {
     "nome": "Tramadol 50mg - 100mg - Gotas - Injetável",
@@ -19492,7 +19558,29 @@
     "receita_nota": "Prescrição médica obrigatória. Receita válida por 30 dias.",
     "receita_obrigatoria": true,
     "tipo_receita": "C1",
-    "retencao_receita": true
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Trazodona serve para insônia?",
+        "resposta": "Sim, em doses baixas é amplamente usada para insônia mesmo sem depressão — por seu efeito sedativo sem o risco de dependência dos benzodiazepínicos. Age de forma diferente dos hipnóticos tradicionais."
+      },
+      {
+        "pergunta": "Trazodona causa dependência?",
+        "resposta": "Não. Ao contrário dos benzodiazepínicos (diazepam, clonazepam), a trazodona não causa dependência física — uma das razões pela qual é preferida para insônia crônica."
+      },
+      {
+        "pergunta": "Trazodona dá muito sono?",
+        "resposta": "Sim, sonolência intensa é o efeito mais marcante — especialmente no início. Por isso é tomada à noite antes de dormir. Esse efeito pode diminuir com o tempo de uso."
+      },
+      {
+        "pergunta": "Trazodona pode parar de tomar de repente?",
+        "resposta": "Não é recomendado. Pode causar síndrome de descontinuação com ansiedade, irritabilidade e insônia de rebote. Reduzir gradualmente com orientação médica."
+      },
+      {
+        "pergunta": "Trazodona serve para depressão?",
+        "resposta": "Sim, é antidepressivo indicado para depressão especialmente com insônia e ansiedade associadas. Em doses terapêuticas plenas melhora o humor — as doses para insônia são menores."
+      }
+    ]
   },
   {
     "nome": "Tretinoína 0,025% - 0,05% - 0,1% - Creme",
@@ -19518,7 +19606,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Tretinoína serve para acne?",
+        "resposta": "Sim, é o retinoide tópico de referência para acne — desobstrui os poros, reduz cravos e espinhas e tem efeito anti-inflamatório. Também é muito usada para manchas e sinais de envelhecimento."
+      },
+      {
+        "pergunta": "Tretinoína descama a pele?",
+        "resposta": "Sim, vermelhidão, descamação e irritação são comuns no início — chamado de 'período de retinização'. Iniciar com concentração menor (0,025%) e usar em dias alternados até a pele se adaptar."
+      },
+      {
+        "pergunta": "Tretinoína pode usar de dia?",
+        "resposta": "Não — aplicar à noite. A tretinoína é degradada pela luz solar e aumenta a sensibilidade da pele ao sol. Usar protetor solar FPS 30 ou mais todos os dias durante o tratamento é obrigatório."
+      },
+      {
+        "pergunta": "Tretinoína pode usar na gravidez?",
+        "resposta": "Não. A tretinoína tópica é contraindicada na gravidez por precaução — pode ser absorvida em pequenas quantidades. Interromper ao engravidar e consultar o dermatologista."
+      },
+      {
+        "pergunta": "Tretinoína e isotretinoína são a mesma coisa?",
+        "resposta": "Não. Tretinoína é tópica (creme) para acne e envelhecimento. Isotretinoína é oral para acne grave. São derivados da vitamina A mas com usos e formas completamente diferentes."
+      }
+    ]
   },
   {
     "nome": "Trimebutina 100mg - 200mg",
@@ -19548,7 +19658,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Trimebutina serve para intestino irritável?",
+        "resposta": "Sim, é regulador da motilidade intestinal indicado para síndrome do intestino irritável, dispepsia funcional e transtornos da motilidade — funciona tanto para diarreia quanto para constipação."
+      },
+      {
+        "pergunta": "Trimebutina causa sono?",
+        "resposta": "Raramente em doses habituais. Tontura e sonolência são efeitos possíveis mas não comuns. É geralmente bem tolerada."
+      },
+      {
+        "pergunta": "Trimebutina pode usar na gravidez?",
+        "resposta": "Com orientação médica. Não há dados robustos de segurança na gestação — usar apenas se o benefício superar o risco e com avaliação médica."
+      },
+      {
+        "pergunta": "Trimebutina demora para fazer efeito?",
+        "resposta": "Os primeiros efeitos podem ser percebidos em alguns dias, mas o benefício completo na síndrome do intestino irritável leva geralmente 2 a 4 semanas de uso regular."
+      },
+      {
+        "pergunta": "Trimebutina é o mesmo que Buscofem?",
+        "resposta": "Não. Buscofem tem ibuprofeno. Trimebutina é um regulador da motilidade intestinal com mecanismo completamente diferente — age nos receptores opioides periféricos do intestino."
+      }
+    ]
   },
   {
     "nome": "Trimetazidina 20mg - 35mg MR",
@@ -19578,7 +19710,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Trimetazidina serve para angina?",
+        "resposta": "Sim, é antianginoso que age no metabolismo celular do coração, favorecendo o uso de glicose durante a isquemia. Usado como adjuvante na angina estável quando outros tratamentos são insuficientes."
+      },
+      {
+        "pergunta": "Trimetazidina pode causar sintomas de Parkinson?",
+        "resposta": "Sim, em idosos pode causar tremor, rigidez e sintomas parkinsonianos — que geralmente revertem ao suspender o medicamento. Comunicar ao médico imediatamente se esses sintomas aparecerem."
+      },
+      {
+        "pergunta": "Trimetazidina MR é melhor que a comum?",
+        "resposta": "A versão MR (modificação de liberação) permite dose única ou duas vezes ao dia com liberação mais estável, melhor tolerabilidade e aderência superior ao tratamento."
+      },
+      {
+        "pergunta": "Trimetazidina pode usar em idosos?",
+        "resposta": "Com cautela — risco aumentado de sintomas extrapiramidais (tremor, rigidez). A ANVISA restringiu o uso em pacientes com Parkinson, tremor essencial e distúrbios do movimento."
+      },
+      {
+        "pergunta": "Trimetazidina substitui outros medicamentos para angina?",
+        "resposta": "Não — é sempre adjuvante, nunca substituto. É adicionada ao tratamento quando betabloqueadores, nitratos ou bloqueadores de canal de cálcio não controlam adequadamente a angina."
+      }
+    ]
   },
   {
     "nome": "Umeclidínio (Incruse)",
@@ -19609,7 +19763,29 @@
     ],
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Umeclidínio serve para DPOC?",
+        "resposta": "Sim, é anticolinérgico inalatório de longa duração (LAMA) para manutenção da DPOC. Bloqueia receptores muscarínicos nos brônquios, mantendo-os dilatados. Dose única diária via inalador Ellipta."
+      },
+      {
+        "pergunta": "Umeclidínio pode usar na crise?",
+        "resposta": "Não. É medicamento de manutenção — não age rápido para crises agudas. Para crises usar broncodilatador de alívio rápido como salbutamol."
+      },
+      {
+        "pergunta": "Umeclidínio e tiotrópio são iguais?",
+        "resposta": "São do mesmo grupo (LAMA) com mecanismo semelhante, mas moléculas e inaladores diferentes. Ambos são eficazes para DPOC — o médico escolhe conforme preferência e facilidade de uso do paciente."
+      },
+      {
+        "pergunta": "Umeclidínio causa boca seca?",
+        "resposta": "Sim, boca seca é possível mas geralmente menos intensa que com tiotrópio. Beber água regularmente ajuda a minimizar o desconforto."
+      },
+      {
+        "pergunta": "Umeclidínio pode ser combinado com outros inaladores?",
+        "resposta": "Sim, frequentemente é combinado com beta-2 de longa ação (como vilanterol) em inalador único — como o Anoro Ellipta. O médico define a combinação mais adequada para cada paciente."
+      }
+    ]
   },
   {
     "nome": "Valproato de Sódio 250mg - 500mg - Solução Oral",
@@ -19634,7 +19810,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Valproato serve para epilepsia?",
+        "resposta": "Sim, é anticonvulsivante de amplo espectro para vários tipos de crises. Também é estabilizador de humor no transtorno bipolar e previne enxaqueca."
+      },
+      {
+        "pergunta": "Valproato pode engravidar?",
+        "resposta": "Não sem avaliação médica rigorosa. É altamente teratogênico — causa malformações graves (espinha bífida, defeitos cardíacos) e afeta o desenvolvimento cognitivo do bebê. Contraindicado na gravidez sempre que possível."
+      },
+      {
+        "pergunta": "Valproato causa queda de cabelo?",
+        "resposta": "Sim, queda de cabelo temporária é um efeito relativamente comum. Geralmente reversível e pode ser amenizada com suplementação de zinco e biotina — sempre com orientação médica."
+      },
+      {
+        "pergunta": "Valproato faz mal ao fígado?",
+        "resposta": "Pode causar hepatotoxicidade — mais grave em crianças pequenas em politerapia antiepiléptica. Monitoramento de enzimas hepáticas é obrigatório, especialmente no início do tratamento."
+      },
+      {
+        "pergunta": "Valproato pode parar de tomar de repente?",
+        "resposta": "Não. A interrupção abrupta pode desencadear crises convulsivas graves. Reduzir gradualmente sempre com orientação médica."
+      }
+    ]
   },
   {
     "nome": "Valproato de Sódio LP 250mg - 500mg (Liberação Prolongada)",
@@ -19666,7 +19864,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Valproato LP é melhor que o comum?",
+        "resposta": "A liberação prolongada mantém níveis mais estáveis no sangue, com menos picos de concentração — resulta em melhor tolerabilidade gastrointestinal (menos náusea) e aderência superior com doses menores ao dia."
+      },
+      {
+        "pergunta": "Valproato LP pode engravidar?",
+        "resposta": "Não sem avaliação médica rigorosa. É altamente teratogênico independente da formulação. Mulheres em idade fértil devem usar contracepção eficaz e discutir alternativas com o neurologista."
+      },
+      {
+        "pergunta": "Valproato LP pode partir o comprimido?",
+        "resposta": "Não. Comprimidos de liberação prolongada não devem ser partidos, mastigados ou esmagados — isso destrói o mecanismo de liberação controlada e pode causar toxicidade por liberar toda a dose de uma vez."
+      },
+      {
+        "pergunta": "Valproato LP causa sonolência?",
+        "resposta": "Sim, sonolência é comum especialmente no início ou ao aumentar a dose. Tomar à noite pode ajudar. O efeito tende a melhorar com o tempo de adaptação."
+      },
+      {
+        "pergunta": "Valproato LP faz mal ao fígado?",
+        "resposta": "Pode causar hepatotoxicidade — monitoramento regular de enzimas hepáticas é obrigatório, especialmente nos primeiros 6 meses de tratamento."
+      }
+    ]
   },
   {
     "nome": "Valsartana 80mg - 160mg - 320mg",
@@ -19692,7 +19912,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Valsartana serve para pressão alta?",
+        "resposta": "Sim, é BRA (bloqueador do receptor de angiotensina) indicado para hipertensão, insuficiência cardíaca e proteção cardíaca após infarto. Dilata os vasos sanguíneos ao bloquear a angiotensina II."
+      },
+      {
+        "pergunta": "Valsartana causa tosse?",
+        "resposta": "Raramente — ao contrário dos IECAs (como enalapril e lisinopril), os BRAs como a valsartana raramente causam tosse. É uma das principais razões para trocar de IECA para BRA."
+      },
+      {
+        "pergunta": "Valsartana pode usar na gravidez?",
+        "resposta": "Não. Contraindicada na gravidez — pode causar malformações graves nos rins do bebê. Trocar imediatamente ao engravidar."
+      },
+      {
+        "pergunta": "Valsartana pode tomar com diurético?",
+        "resposta": "Sim, a combinação com hidroclorotiazida é muito comum e complementar — inclusive existe comprimido que já associa os dois (Diovan HCT e similares)."
+      },
+      {
+        "pergunta": "Valsartana aumenta o potássio?",
+        "resposta": "Pode elevar o potássio (hipercalemia). Monitorar com exames regulares, especialmente em diabéticos, pacientes com doença renal ou em uso de outros medicamentos que elevam o potássio."
+      }
+    ]
   },
   {
     "nome": "Vancomicina 500mg - 1g (injetável)",
@@ -19722,7 +19964,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "hospitalar",
-    "retencao_receita": true
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Vancomicina serve para MRSA?",
+        "resposta": "Sim, é antibiótico de última linha para infecções graves por Staphylococcus aureus resistente à meticilina (MRSA) e outras bactérias gram-positivas resistentes. Uso exclusivamente hospitalar."
+      },
+      {
+        "pergunta": "Vancomicina pode causar problema no rim?",
+        "resposta": "Sim, nefrotoxicidade é um risco importante — monitoramento de função renal e dos níveis séricos do medicamento é obrigatório durante o tratamento."
+      },
+      {
+        "pergunta": "Vancomicina causa síndrome do homem vermelho?",
+        "resposta": "Sim, rubor intenso, urticária e queda de pressão podem ocorrer se a infusão for muito rápida. A infusão deve ser lenta (pelo menos 60 minutos) para prevenir essa reação."
+      },
+      {
+        "pergunta": "Vancomicina oral serve para C. difficile?",
+        "resposta": "Sim, a forma oral é usada para colite grave por Clostridioides difficile — nesse caso age localmente no intestino sem ser absorvida. É diferente do uso intravenoso para infecções sistêmicas."
+      },
+      {
+        "pergunta": "Vancomicina pode causar perda auditiva?",
+        "resposta": "Sim, ototoxicidade (zumbido e perda auditiva) é um risco com doses altas ou prolongadas. O monitoramento dos níveis séricos e da função auditiva é parte do protocolo de tratamento."
+      }
+    ]
   },
   {
     "nome": "Vareniclina (Champix) — DESCONTINUADO",
@@ -19752,7 +20016,29 @@
     "receita_cor": "cinza",
     "receita_obrigatoria": false,
     "tipo_receita": "descontinuado",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Champix ainda é vendido no Brasil?",
+        "resposta": "Está descontinuado no Brasil. Para parar de fumar, alternativas disponíveis incluem bupropiona, adesivos e gomas de nicotina, e aconselhamento comportamental. Consultar médico para o melhor plano individualizado."
+      },
+      {
+        "pergunta": "Vareniclina era o melhor para parar de fumar?",
+        "resposta": "Era considerado o medicamento mais eficaz disponível para cessação do tabagismo — com taxa de sucesso superior à bupropiona e à terapia de reposição de nicotina. A descontinuação foi por questões regulatórias e de impurezas detectadas."
+      },
+      {
+        "pergunta": "Vareniclina causava sonhos estranhos?",
+        "resposta": "Sim, sonhos vívidos e intensos eram um efeito muito relatado — característico do medicamento. Náusea no início também era comum."
+      },
+      {
+        "pergunta": "Qual substituto da vareniclina para parar de fumar?",
+        "resposta": "Bupropiona 150mg é a principal alternativa medicamentosa disponível no Brasil. Adesivos, gomas e pastilhas de nicotina também são opções. O médico pode orientar a melhor estratégia combinada."
+      },
+      {
+        "pergunta": "Vareniclina causava pensamentos suicidas?",
+        "resposta": "Havia alertas sobre possíveis alterações de humor e pensamentos suicidas em alguns pacientes, especialmente com histórico de transtornos psiquiátricos. Esse foi um dos pontos de preocupação regulatória com o medicamento."
+      }
+    ]
   },
   {
     "nome": "Venlafaxina 37,5mg - 75mg - 150mg - XR (Liberação Prolongada)",
@@ -19778,7 +20064,29 @@
     "receita_nota": "Prescrição médica obrigatória. Receita válida por 30 dias.",
     "receita_obrigatoria": true,
     "tipo_receita": "C1",
-    "retencao_receita": true
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Venlafaxina serve para depressão e ansiedade?",
+        "resposta": "Sim, é IRSN indicado para depressão, ansiedade generalizada, pânico e fobia social. Age em dois neurotransmissores (serotonina e noradrenalina), sendo eficaz em casos que não respondem a ISRSs."
+      },
+      {
+        "pergunta": "Venlafaxina pode parar de tomar de repente?",
+        "resposta": "Não. Tem síndrome de descontinuação intensa — choques elétricos, tontura, irritabilidade e ansiedade. Reduzir sempre muito gradualmente com orientação médica, especialmente a versão XR."
+      },
+      {
+        "pergunta": "Venlafaxina aumenta a pressão?",
+        "resposta": "Sim, pode elevar a pressão arterial — especialmente em doses mais altas. Monitorar a pressão regularmente durante o tratamento."
+      },
+      {
+        "pergunta": "Venlafaxina XR é melhor que a comum?",
+        "resposta": "A versão XR (liberação prolongada) é tomada uma vez ao dia e causa menos efeitos gastrointestinais. É a formulação preferida pela melhor tolerabilidade e praticidade."
+      },
+      {
+        "pergunta": "Venlafaxina demora quanto para fazer efeito?",
+        "resposta": "O efeito antidepressivo completo leva de 2 a 4 semanas. Náusea e outros efeitos iniciais tendem a melhorar nas primeiras semanas. Persistir no tratamento é fundamental."
+      }
+    ]
   },
   {
     "nome": "Verapamil 80mg - 120mg - 240mg - Injetável",
@@ -19804,7 +20112,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Verapamil serve para arritmia?",
+        "resposta": "Sim, é bloqueador de canal de cálcio não diidropiridiníco indicado para arritmias (especialmente taquicardias supraventriculares), angina e hipertensão. A forma injetável é usada em emergências de arritmia."
+      },
+      {
+        "pergunta": "Verapamil causa prisão de ventre?",
+        "resposta": "Sim, constipação intensa é o efeito mais característico e frequente — afeta grande parte dos pacientes. Aumentar fibras, líquidos e atividade física ajuda. Em casos graves, o médico pode indicar laxante."
+      },
+      {
+        "pergunta": "Verapamil pode tomar com betabloqueador?",
+        "resposta": "Geralmente não — a combinação pode causar bradicardia grave e bloqueio cardíaco. Em casos selecionados pode ser feita com monitoramento rigoroso. Sempre com orientação cardiológica."
+      },
+      {
+        "pergunta": "Verapamil pode tomar com estatina?",
+        "resposta": "Com cuidado — inibe o metabolismo de algumas estatinas (especialmente sinvastatina e lovastatina), aumentando o risco de miopatia. O médico pode ajustar a dose da estatina."
+      },
+      {
+        "pergunta": "Verapamil pode tomar com suco de toranja?",
+        "resposta": "Não. O grapefruit inibe a metabolização do verapamil, aumentando perigosamente seus níveis no sangue. Evitar completamente durante o tratamento."
+      }
+    ]
   },
   {
     "nome": "Vildagliptina + Metformina (Galvus Met)",
@@ -19886,7 +20216,29 @@
     ],
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Vildagliptina serve para diabetes tipo 2?",
+        "resposta": "Sim, é inibidor da DPP-4 que estimula a insulina somente quando a glicose está elevada. Pode ser usada com metformina, sulfonilureias e insulina."
+      },
+      {
+        "pergunta": "Vildagliptina causa hipoglicemia?",
+        "resposta": "Raramente quando usada isoladamente — por agir dependente da glicose. O risco aumenta quando combinada com sulfonilureias ou insulina."
+      },
+      {
+        "pergunta": "Vildagliptina faz mal ao fígado?",
+        "resposta": "Raramente pode causar hepatotoxicidade. Monitoramento de enzimas hepáticas antes e periodicamente durante o tratamento é recomendado."
+      },
+      {
+        "pergunta": "Galvus pode tomar com metformina?",
+        "resposta": "Sim, a combinação é muito usada. Existe comprimido que já associa os dois (Galvus Met) para facilitar o tratamento e melhorar a adesão."
+      },
+      {
+        "pergunta": "Vildagliptina pode causar pancreatite?",
+        "resposta": "É um risco raro descrito com os inibidores da DPP-4. Dor abdominal intensa e persistente deve ser avaliada pelo médico imediatamente."
+      }
+    ]
   },
   {
     "nome": "Vitamina B1 (Tiamina) 100mg - 300mg",
@@ -19916,7 +20268,29 @@
     "receita_cor": "verde",
     "receita_obrigatoria": false,
     "tipo_receita": "MIP",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Vitamina B1 serve para nervo?",
+        "resposta": "Sim, a tiamina é essencial para o funcionamento do sistema nervoso. A deficiência causa beribéri e encefalopatia de Wernicke — emergência neurológica em alcoolistas que afeta o cérebro."
+      },
+      {
+        "pergunta": "Vitamina B1 serve para alcoolismo?",
+        "resposta": "Sim, alcoolistas têm alto risco de deficiência de tiamina — o álcool interfere na sua absorção. A reposição é obrigatória e urgente em casos de suspeita de encefalopatia de Wernicke."
+      },
+      {
+        "pergunta": "Vitamina B1 pode tomar todo dia?",
+        "resposta": "Sim, é segura para uso diário nas doses terapêuticas. Por ser hidrossolúvel, o excesso é eliminado pela urina sem acúmulo tóxico."
+      },
+      {
+        "pergunta": "Vitamina B1 dá energia?",
+        "resposta": "Indiretamente — é essencial para o metabolismo de carboidratos e produção de energia. Em pessoas com deficiência, a reposição melhora a disposição. Em quem não tem deficiência, o efeito não é perceptível."
+      },
+      {
+        "pergunta": "Vitamina B1 pode tomar junto com outras vitaminas B?",
+        "resposta": "Sim, frequentemente é combinada com B6 e B12 em complexos vitamínicos para neuropatia e suplementação geral. A combinação é sinérgica e segura."
+      }
+    ]
   },
   {
     "nome": "Vitamina B12 500mcg - 1000mcg - Injetável",
@@ -19941,7 +20315,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Vitamina B12 serve para anemia?",
+        "resposta": "Sim, a deficiência causa anemia megaloblástica — glóbulos vermelhos grandes e defeituosos que não transportam oxigênio adequadamente. A reposição reverte a anemia progressivamente."
+      },
+      {
+        "pergunta": "Vitamina B12 injetável é melhor que o comprimido?",
+        "resposta": "Para quem não absorve B12 pelo intestino (anemia perniciosa, gastrectomia, uso de metformina), a injeção é necessária. Para deficiência por baixa ingestão, o comprimido em doses altas pode ser suficiente."
+      },
+      {
+        "pergunta": "Vegetariano precisa de B12?",
+        "resposta": "Sim, a vitamina B12 é encontrada principalmente em alimentos de origem animal. Vegetarianos estritos (veganos) precisam de suplementação regular para evitar deficiência."
+      },
+      {
+        "pergunta": "Vitamina B12 dá energia?",
+        "resposta": "Quando há deficiência, a reposição melhora a disposição e reduz o cansaço. Em quem não tem deficiência, a suplementação não aumenta a energia de forma perceptível."
+      },
+      {
+        "pergunta": "Metformina causa deficiência de B12?",
+        "resposta": "Sim, o uso prolongado de metformina pode reduzir a absorção de B12. Pacientes em uso crônico devem ter os níveis de B12 monitorados e suplementar se necessário."
+      }
+    ]
   },
   {
     "nome": "Vitamina D3 1000UI - 2000UI - 5000UI - 7000UI - 10000UI - Gotas",
@@ -19966,7 +20362,29 @@
     "receita_cor": "verde",
     "receita_obrigatoria": false,
     "tipo_receita": "MIP",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Vitamina D3 serve para imunidade?",
+        "resposta": "Sim, além da saúde óssea, a vitamina D tem papel importante na regulação do sistema imune, humor e função muscular. A deficiência é muito comum mesmo em países tropicais como o Brasil."
+      },
+      {
+        "pergunta": "Qual dose de vitamina D tomar?",
+        "resposta": "Depende do nível sérico — dosagem de 25(OH)D no sangue orienta a dose. Para manutenção geralmente 1000 a 2000UI/dia. Para reposição de deficiência, doses maiores por tempo limitado, sempre com orientação médica."
+      },
+      {
+        "pergunta": "Vitamina D3 pode tomar em excesso?",
+        "resposta": "Sim, vitamina D é lipossolúvel e pode se acumular. Hipervitaminose D causa hipercalcemia — náusea, fraqueza, cálculos renais. Não ultrapassar as doses recomendadas sem exames."
+      },
+      {
+        "pergunta": "Vitamina D3 e D2 têm diferença?",
+        "resposta": "Sim. D3 (colecalciferol) é mais eficaz para elevar os níveis séricos de vitamina D que a D2 (ergocalciferol). A D3 é a forma preferida na suplementação."
+      },
+      {
+        "pergunta": "Vitamina D3 pode tomar com K2?",
+        "resposta": "Sim, a combinação D3 + K2 é muito recomendada — a vitamina K2 direciona o cálcio absorvido pela D3 para os ossos, evitando que se deposite nos vasos sanguíneos."
+      }
+    ]
   },
   {
     "nome": "Vitamina D3 50.000UI Cápsula (Semanal)",
@@ -19997,7 +20415,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Vitamina D 50.000UI pode tomar todo dia?",
+        "resposta": "Não — é para uso semanal em esquema de reposição de deficiência grave. O médico define a duração (geralmente 8 a 12 semanas) e a manutenção posterior com doses menores diárias."
+      },
+      {
+        "pergunta": "Vitamina D 50.000UI pode causar toxicidade?",
+        "resposta": "Em uso semanal por tempo limitado conforme prescrito, o risco é baixo. O excesso causa hipercalcemia. Exames de acompanhamento são necessários durante a reposição."
+      },
+      {
+        "pergunta": "Vitamina D 50.000UI precisa de receita?",
+        "resposta": "Sim, a dose de 50.000UI exige prescrição médica. Não tomar sem orientação — doses altas sem indicação adequada podem causar toxicidade."
+      },
+      {
+        "pergunta": "Vitamina D 50.000UI pode tomar com cálcio?",
+        "resposta": "Sim, frequentemente são prescritos juntos — a vitamina D melhora a absorção do cálcio. O médico define as doses adequadas de ambos conforme os exames."
+      },
+      {
+        "pergunta": "Após a reposição com 50.000UI o que fazer?",
+        "resposta": "Após o esquema de ataque, geralmente se passa para manutenção com doses menores diárias (1000 a 2000UI) e acompanhamento dos níveis séricos a cada 3 a 6 meses."
+      }
+    ]
   },
   {
     "nome": "Vitamina E (Tocoferol)",
@@ -20030,7 +20470,29 @@
     ],
     "receita_obrigatoria": false,
     "tipo_receita": "MIP",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Vitamina E serve para pele?",
+        "resposta": "É antioxidante lipossolúvel que protege as células do dano oxidativo. Usada topicamente em produtos para pele e oralmente como suplemento antioxidante. As evidências para uso cosmético são mistas."
+      },
+      {
+        "pergunta": "Vitamina E em excesso faz mal?",
+        "resposta": "Sim, em doses muito altas (acima de 1000UI/dia) pode aumentar o risco de sangramento por inibir a agregação plaquetária. Não exceder as doses recomendadas."
+      },
+      {
+        "pergunta": "Vitamina E pode interferir em anticoagulante?",
+        "resposta": "Sim, em doses altas pode potencializar o efeito de anticoagulantes como varfarina. Informar ao médico sobre a suplementação antes de iniciar."
+      },
+      {
+        "pergunta": "Vitamina E pode tomar todo dia?",
+        "resposta": "Em doses fisiológicas (até 400UI/dia) é segura para uso diário. Doses acima de 1000UI por dia por períodos prolongados trazem riscos e não devem ser feitas sem orientação médica."
+      },
+      {
+        "pergunta": "Vitamina E serve para menopausa?",
+        "resposta": "Algumas mulheres relatam melhora de fogachos com vitamina E, mas a evidência científica é limitada. Pode ser uma alternativa complementar em quem não pode usar terapia hormonal — sempre com orientação médica."
+      }
+    ]
   },
   {
     "nome": "Vitamina K2 (MK-7)",
@@ -20063,7 +20525,29 @@
     ],
     "receita_obrigatoria": false,
     "tipo_receita": "MIP",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Vitamina K2 serve para os ossos?",
+        "resposta": "Sim, direciona o cálcio para os ossos e dentes evitando que se deposite em vasos sanguíneos e tecidos moles. Frequentemente combinada com vitamina D3 para potencializar a saúde óssea."
+      },
+      {
+        "pergunta": "Vitamina K2 pode tomar com anticoagulante?",
+        "resposta": "Com cuidado — a vitamina K pode antagonizar o efeito de anticoagulantes como a varfarina. Informar ao médico sobre a suplementação antes de iniciar. O rivaroxabana e apixabana têm menos interação."
+      },
+      {
+        "pergunta": "Vitamina K2 e K1 têm diferença?",
+        "resposta": "Sim. K1 (filoquinona) atua principalmente na coagulação sanguínea. K2 (menaquinona, especialmente MK-7) atua nos ossos e vasos — é a forma preferida para suplementação de saúde óssea e cardiovascular."
+      },
+      {
+        "pergunta": "Vitamina K2 pode tomar todo dia?",
+        "resposta": "Sim, é segura para uso diário nas doses habituais de suplemento (90 a 200mcg). O MK-7 tem meia-vida mais longa que outras formas de K2, sendo eficaz em dose única diária."
+      },
+      {
+        "pergunta": "Vitamina K2 previne calcificação arterial?",
+        "resposta": "Estudos sugerem que pode reduzir a calcificação arterial ao direcionar o cálcio para os ossos. As evidências são promissoras mas ainda não conclusivas para recomendação universal."
+      }
+    ]
   },
   {
     "nome": "Warfarina / Varfarina 1mg - 2,5mg - 5mg",
@@ -20140,7 +20624,29 @@
     ],
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Zafirlucaste serve para asma?",
+        "resposta": "Sim, é antagonista de leucotrienos para prevenção da asma leve a moderada e rinite alérgica — similar ao montelucaste, mas tomado duas vezes ao dia e com restrições alimentares."
+      },
+      {
+        "pergunta": "Zafirlucaste tem restrição alimentar?",
+        "resposta": "Sim, deve ser tomado 1 hora antes ou 2 horas após as refeições — alimentos reduzem significativamente sua absorção. Diferencial importante em relação ao montelucaste, que pode ser tomado com ou sem alimento."
+      },
+      {
+        "pergunta": "Zafirlucaste é melhor que montelucaste?",
+        "resposta": "Têm eficácia similar, mas o montelucaste tem posologia mais conveniente (dose única diária, sem restrição alimentar) e é mais usado. O zafirlucaste pode ser uma alternativa em casos específicos."
+      },
+      {
+        "pergunta": "Zafirlucaste faz mal ao fígado?",
+        "resposta": "Pode causar elevação de enzimas hepáticas. Monitoramento de função hepática é recomendado durante o tratamento. Comunicar ao médico qualquer sinal de icterícia."
+      },
+      {
+        "pergunta": "Zafirlucaste pode parar de tomar de repente?",
+        "resposta": "Pode ser interrompido sem redução gradual, mas a proteção contra crises de asma desaparece. Não interromper sem orientação médica — a asma pode piorar rapidamente."
+      }
+    ]
   },
   {
     "nome": "Zinco 7mg - 20mg - 40mg",
@@ -20171,7 +20677,29 @@
     "receita_cor": "verde",
     "receita_obrigatoria": false,
     "tipo_receita": "MIP",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Zinco serve para imunidade?",
+        "resposta": "Sim, é mineral essencial para o sistema imune, cicatrização, produção de testosterona e percepção de paladar e olfato. Pode reduzir a duração e gravidade de resfriados quando tomado no início dos sintomas."
+      },
+      {
+        "pergunta": "Zinco serve para acne?",
+        "resposta": "Sim, tem efeito anti-inflamatório e antibacteriano que pode ajudar na acne — especialmente o zinco quelato ou citrato. Geralmente menos eficaz que antibióticos tópicos, mas útil como complemento."
+      },
+      {
+        "pergunta": "Zinco em excesso faz mal?",
+        "resposta": "Sim, doses altas e crônicas de zinco podem causar deficiência de cobre — os dois minerais competem pela absorção. Não exceder 40mg/dia sem orientação médica."
+      },
+      {
+        "pergunta": "Zinco pode tomar com ferro?",
+        "resposta": "Evitar tomar juntos — zinco e ferro competem pela absorção. Separar por pelo menos 2 horas para garantir a absorção adequada de ambos."
+      },
+      {
+        "pergunta": "Zinco causa enjoo?",
+        "resposta": "Sim, náusea é um efeito comum especialmente em jejum. Tomar com alimento reduz significativamente o desconforto gástrico."
+      }
+    ]
   },
   {
     "nome": "Ziprasidona 20mg - 40mg - 60mg - 80mg",
@@ -20203,7 +20731,29 @@
     ],
     "receita_obrigatoria": true,
     "tipo_receita": "C1",
-    "retencao_receita": true
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Ziprasidona serve para esquizofrenia?",
+        "resposta": "Sim, é antipsicótico atípico para esquizofrenia e episódios maníacos do transtorno bipolar. Tem menor tendência a causar ganho de peso comparado a outros antipsicóticos como olanzapina e quetiapina."
+      },
+      {
+        "pergunta": "Ziprasidona engorda menos?",
+        "resposta": "Sim, é um dos antipsicóticos com menor impacto no peso — vantagem importante para pacientes preocupados com ganho de peso ou com síndrome metabólica."
+      },
+      {
+        "pergunta": "Ziprasidona pode afetar o coração?",
+        "resposta": "Sim, prolonga o intervalo QT — risco de arritmias. Contraindicada em pacientes com QT prolongado ou em uso de outros medicamentos que prolongam o QT. ECG antes e durante o tratamento é recomendado."
+      },
+      {
+        "pergunta": "Ziprasidona precisa tomar com comida?",
+        "resposta": "Sim, deve ser tomada com alimento (pelo menos 500 calorias) — a absorção aumenta significativamente com comida. Tomar em jejum reduz muito a eficácia."
+      },
+      {
+        "pergunta": "Ziprasidona pode parar de tomar de repente?",
+        "resposta": "Não. A interrupção abrupta pode causar recaída psicótica e sintomas de descontinuação. Qualquer mudança deve ser feita gradualmente com orientação do psiquiatra."
+      }
+    ]
   },
   {
     "nome": "Zolendronato / Ácido Zoledrónico 4mg - 5mg Injetável",
@@ -20233,7 +20783,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Zolendronato serve para osteoporose?",
+        "resposta": "Sim, é o bisfosfonato intravenoso mais potente para osteoporose — administrado uma vez ao ano (5mg), eliminando a necessidade de comprimido diário ou semanal. Ideal para quem tem dificuldade com os comprimidos orais."
+      },
+      {
+        "pergunta": "Zolendronato causa sintomas gripais?",
+        "resposta": "Sim, síndrome gripal (febre, dor muscular, dor nas articulações) nas primeiras 72 horas após a primeira infusão é muito comum. Paracetamol e boa hidratação aliviam os sintomas. Nas infusões seguintes, esse efeito é muito menor."
+      },
+      {
+        "pergunta": "Zolendronato pode causar problema no maxilar?",
+        "resposta": "Sim, osteonecrose de mandíbula é uma complicação rara mas grave — mais associada ao uso oncológico em doses maiores e mais frequentes. Informar ao dentista antes de procedimentos invasivos."
+      },
+      {
+        "pergunta": "Zolendronato faz mal ao rim?",
+        "resposta": "Pode causar nefrotoxicidade — infundir lentamente (pelo menos 15 minutos) e manter hidratação adequada reduz o risco. Contraindicado em insuficiência renal grave."
+      },
+      {
+        "pergunta": "Zolendronato 4mg e 5mg têm diferença?",
+        "resposta": "Sim. O 5mg (Aclasta/Zometa 5mg) é para osteoporose — infusão anual. O 4mg (Zometa 4mg) é para metástases ósseas e hipercalcemia tumoral — infusões mais frequentes. São indicações distintas."
+      }
+    ]
   },
   {
     "nome": "Zolpidem 5mg - 10mg",
@@ -20312,7 +20884,29 @@
     ],
     "receita_obrigatoria": true,
     "tipo_receita": "C1",
-    "retencao_receita": true
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Zonisamida serve para epilepsia?",
+        "resposta": "Sim, é antiepiléptico para crises focais e generalizadas. Tem efeito favorável no peso — pode causar perda de peso, sendo preferido em pacientes com obesidade."
+      },
+      {
+        "pergunta": "Zonisamida emagrece?",
+        "resposta": "Sim, perda de apetite e peso é um efeito comum — pode ser vantajoso em alguns pacientes. Em pacientes com baixo peso, monitorar e ajustar a dieta."
+      },
+      {
+        "pergunta": "Zonisamida pode causar pedra no rim?",
+        "resposta": "Sim, aumenta o risco de cálculos renais. Beber bastante água durante o tratamento é fundamental. Comunicar ao médico se houver dor lombar intensa."
+      },
+      {
+        "pergunta": "Zonisamida pode parar de tomar de repente?",
+        "resposta": "Não. Interrupção abrupta pode desencadear crises convulsivas graves. Reduzir gradualmente sempre com orientação médica."
+      },
+      {
+        "pergunta": "Zonisamida pode usar em criança?",
+        "resposta": "Sim, é aprovada para crianças a partir de 6 anos como terapia adjuvante para crises focais. A dose é calculada por peso corporal pelo médico."
+      }
+    ]
   },
   {
     "nome": "Zopiclona 3,75mg - 7,5mg",
@@ -20338,7 +20932,29 @@
     "receita_nota": "Receita azul obrigatória. Válida por 30 dias.",
     "receita_obrigatoria": true,
     "tipo_receita": "B1",
-    "retencao_receita": true
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Zopiclona serve para insônia?",
+        "resposta": "Sim, é hipnótico de curta duração para insônia — facilita o início do sono e reduz os despertares noturnos. Indicada para uso de curto prazo (2 a 4 semanas)."
+      },
+      {
+        "pergunta": "Zopiclona causa gosto amargo?",
+        "resposta": "Sim, gosto amargo ou metálico na boca que persiste no dia seguinte é o efeito mais característico e frequente — muito relatado pelos pacientes."
+      },
+      {
+        "pergunta": "Zopiclona causa dependência?",
+        "resposta": "Sim, tem potencial de dependência com uso prolongado — semelhante aos benzodiazepínicos. Por isso é indicada apenas para uso de curto prazo. Não usar por mais de 4 semanas sem orientação médica."
+      },
+      {
+        "pergunta": "Zopiclona pode dirigir no dia seguinte?",
+        "resposta": "Com cuidado — pode causar sonolência residual no dia seguinte, especialmente nas primeiras semanas. Avaliar a capacidade de direção antes de assumir o volante."
+      },
+      {
+        "pergunta": "Zopiclona pode usar em idoso?",
+        "resposta": "Com cautela — idosos são mais sensíveis aos efeitos sedativos e têm maior risco de quedas e confusão. A dose menor (3,75mg) é preferida e o uso deve ser pelo menor tempo possível."
+      }
+    ]
   },
   {
     "nome": "Ácido Ascórbico 5% - 20%",
@@ -20363,7 +20979,29 @@
     "receita_cor": "verde",
     "receita_obrigatoria": false,
     "tipo_receita": "MIP",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Ácido ascórbico serve para manchas na pele?",
+        "resposta": "Sim, a vitamina C tópica é antioxidante e iluminador eficaz para manchas, uniformização do tom e proteção contra danos solares. Também estimula a produção de colágeno."
+      },
+      {
+        "pergunta": "Ácido ascórbico pode irritar a pele?",
+        "resposta": "Sim, especialmente em concentrações mais altas (15-20%) e pH baixo. Iniciar com concentração menor e aplicar em pele seca. Vermelhidão e formigamento leves são comuns no início."
+      },
+      {
+        "pergunta": "Ácido ascórbico pode usar de manhã?",
+        "resposta": "Sim, é idealmente aplicado pela manhã sob o protetor solar — potencializa a proteção antioxidante contra radicais livres da exposição solar ao longo do dia."
+      },
+      {
+        "pergunta": "Ácido ascórbico pode usar com retinol?",
+        "resposta": "Com cuidado — podem ter pH incompatíveis e irritar a pele se usados ao mesmo tempo. Uma boa estratégia é vitamina C pela manhã e retinol à noite."
+      },
+      {
+        "pergunta": "Ácido ascórbico oxida e muda de cor?",
+        "resposta": "Sim, é instável e oxida ao contato com luz e ar — fica amarelado ou laranjado. Produto oxidado perde eficácia. Guardar em local escuro e fresco, bem fechado, e observar a validade após aberto."
+      }
+    ]
   },
   {
     "nome": "Ácido Fólico 5mg",
@@ -20388,7 +21026,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Ácido fólico é obrigatório na gravidez?",
+        "resposta": "Sim, é fundamental — previne malformações graves do tubo neural (espinha bífida, anencefalia). Deve ser iniciado pelo menos 1 mês antes de tentar engravidar e mantido até o fim do primeiro trimestre."
+      },
+      {
+        "pergunta": "Ácido fólico 5mg e 0,4mg têm diferença?",
+        "resposta": "Sim. 0,4mg (400mcg) é para prevenção de rotina em mulheres sem fatores de risco. 5mg é para mulheres com histórico de filho com defeito de tubo neural, epilepsia em uso de anticonvulsivantes ou diabetes."
+      },
+      {
+        "pergunta": "Ácido fólico serve para anemia?",
+        "resposta": "Sim, a deficiência causa anemia megaloblástica. Mas é importante identificar a causa — anemia por deficiência de B12 não deve ser tratada apenas com folato, pois pode mascarar sintomas neurológicos."
+      },
+      {
+        "pergunta": "Ácido fólico pode tomar todo dia?",
+        "resposta": "Sim, é seguro para uso diário. Por ser hidrossolúvel, o excesso é eliminado pela urina. A dose de 5mg é muito superior à dose fisiológica mas bem tolerada."
+      },
+      {
+        "pergunta": "Ácido fólico homem precisa tomar?",
+        "resposta": "Sim, tem papel na qualidade e produção do esperma. Casais planejando engravidar — tanto homem quanto mulher — se beneficiam da suplementação adequada de folato."
+      }
+    ]
   },
   {
     "nome": "Ácido Hialurônico Sérum",
@@ -20413,7 +21073,29 @@
     "receita_cor": "verde",
     "receita_obrigatoria": false,
     "tipo_receita": "MIP",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Ácido hialurônico hidrata a pele?",
+        "resposta": "Sim, é um dos melhores hidratantes tópicos — atrai e retém água na pele (até 1000x o próprio peso em água), reduzindo ressecamento, linhas finas e dando aparência mais jovem e plumper."
+      },
+      {
+        "pergunta": "Ácido hialurônico pode resseca a pele?",
+        "resposta": "Em ambientes muito secos, pode extrair umidade da derme para a superfície. Aplicar sobre pele úmida e selar com hidratante ou óleo ajuda a potencializar o efeito e evitar ressecamento paradoxal."
+      },
+      {
+        "pergunta": "Ácido hialurônico pode usar de manhã e à noite?",
+        "resposta": "Sim, pode ser usado duas vezes ao dia. É compatível com a maioria dos outros ativos — vitamina C pela manhã e retinol à noite, por exemplo, combinam bem com o ácido hialurônico."
+      },
+      {
+        "pergunta": "Ácido hialurônico injetável e tópico são iguais?",
+        "resposta": "Não. O injetável (preenchimento) age diretamente na derme com resultados mais intensos e duradouros. O tópico hidrata a superfície da pele — efeitos mais sutis mas seguros e sem necessidade de procedimento."
+      },
+      {
+        "pergunta": "Ácido hialurônico pode usar em pele oleosa?",
+        "resposta": "Sim, é não comedogênico e tem textura leve — ideal inclusive para peles oleosas e mistas que precisam de hidratação sem sensação de peso ou oclusão."
+      }
+    ]
   },
   {
     "nome": "Ácido Salicílico 2%",
@@ -20438,7 +21120,29 @@
     "receita_cor": "verde",
     "receita_obrigatoria": false,
     "tipo_receita": "MIP",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Ácido salicílico serve para acne?",
+        "resposta": "Sim, é queratolítico e comedolítico — desobstrui poros, remove células mortas e tem leve ação anti-inflamatória. Eficaz para acne comedonal (cravos e pontos negros)."
+      },
+      {
+        "pergunta": "Ácido salicílico pode usar todo dia?",
+        "resposta": "Sim, em concentrações de 2% é seguro para uso diário. Iniciar com uso em dias alternados para testar a tolerância — ressecamento e descamação são comuns no início."
+      },
+      {
+        "pergunta": "Ácido salicílico pode usar com niacinamida?",
+        "resposta": "Sim, a combinação é muito eficaz — o salicílico desobstrui os poros e a niacinamida regula a oleosidade e melhora a textura. Uma das duplas mais recomendadas para pele oleosa com acne."
+      },
+      {
+        "pergunta": "Ácido salicílico pode usar na gravidez?",
+        "resposta": "Concentrações baixas (até 2%) em área pequena geralmente são consideradas seguras, mas por precaução muitos dermatologistas recomendam evitar na gestação. Consultar o médico."
+      },
+      {
+        "pergunta": "Ácido salicílico pode usar com vitamina C?",
+        "resposta": "Com cuidado — ambos têm pH ácido e podem ser irritantes juntos. Usar em momentos diferentes (ex: vitamina C de manhã, salicílico à noite) é uma estratégia mais segura."
+      }
+    ]
   },
   {
     "nome": "Álcool Etílico 70%",
@@ -20463,7 +21167,29 @@
     "receita_cor": "verde",
     "receita_obrigatoria": false,
     "tipo_receita": "MIP",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Álcool 70% é melhor que 100% para desinfetar?",
+        "resposta": "Sim, o álcool 70% é mais eficaz que o 100% — a água presente na solução 70% facilita a penetração nas bactérias e vírus, melhorando a ação antimicrobiana."
+      },
+      {
+        "pergunta": "Álcool 70% mata o vírus da COVID?",
+        "resposta": "Sim, o álcool 70% é eficaz contra o SARS-CoV-2 e a maioria dos vírus com envelope lipídico. É uma das soluções desinfetantes recomendadas pela OMS."
+      },
+      {
+        "pergunta": "Álcool 70% pode usar em ferida?",
+        "resposta": "Não é recomendado em feridas abertas — irrita o tecido e pode retardar a cicatrização. Para limpeza de feridas, soro fisiológico ou água limpa são preferíveis."
+      },
+      {
+        "pergunta": "Álcool 70% pode usar em criança?",
+        "resposta": "Sim para higienizar as mãos em crianças maiores. Em bebês pequenos, usar com moderação e evitar inalação. O gel alcoólico é opção mais segura para mãos em crianças."
+      },
+      {
+        "pergunta": "Álcool 70% resseca as mãos?",
+        "resposta": "Sim, o uso frequente resseca a pele por remover os lipídios naturais. Usar hidratante após a higienização frequente ajuda a manter a barreira cutânea."
+      }
+    ]
   },
   {
     "nome": "Ômega 3 concentrado EPA + DHA",
@@ -20497,7 +21223,29 @@
     ],
     "receita_obrigatoria": false,
     "tipo_receita": "MIP",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Ômega 3 concentrado é melhor que o comum?",
+        "resposta": "Sim, a forma concentrada tem maior quantidade de EPA e DHA por cápsula — menos cápsulas para atingir a dose terapêutica. Ideal para quem precisa de doses altas para reduzir triglicerídeos."
+      },
+      {
+        "pergunta": "Ômega 3 concentrado serve para triglicerídeos?",
+        "resposta": "Sim, em doses altas (2 a 4g de EPA+DHA por dia) reduz significativamente os triglicerídeos. A forma concentrada facilita atingir essas doses com menos cápsulas."
+      },
+      {
+        "pergunta": "Ômega 3 concentrado causa arroto com gosto de peixe?",
+        "resposta": "Menos que as formas não concentradas — formulações entéricas (com revestimento) e de alta qualidade têm esse efeito minimizado. Tomar congelado também ajuda."
+      },
+      {
+        "pergunta": "Ômega 3 concentrado pode tomar com anticoagulante?",
+        "resposta": "Com cautela em doses altas — pode potencializar o efeito anticoagulante de varfarina e outros anticoagulantes. Informar ao médico sobre a suplementação."
+      },
+      {
+        "pergunta": "Qual a dose de ômega 3 concentrado?",
+        "resposta": "Para saúde cardiovascular geral: 1g de EPA+DHA/dia. Para redução de triglicerídeos: 2 a 4g de EPA+DHA/dia. O médico define a dose adequada conforme o objetivo e os exames."
+      }
+    ]
   },
   {
     "nome": "Ômega-3 (EPA+DHA) 1g",
@@ -20529,6 +21277,28 @@
     "receita_cor": "verde",
     "receita_obrigatoria": false,
     "tipo_receita": "MIP",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Ômega 3 serve para triglicerídeos?",
+        "resposta": "Sim, em doses altas (2 a 4g de EPA+DHA/dia) reduz significativamente os triglicerídeos. Em doses menores tem efeito cardioprotetor e anti-inflamatório geral."
+      },
+      {
+        "pergunta": "Ômega 3 causa arroto com gosto de peixe?",
+        "resposta": "Sim, eructações com gosto de peixe são o efeito colateral mais comum. Tomar com as refeições, escolher formulações entéricas ou congelar as cápsulas reduz bastante esse problema."
+      },
+      {
+        "pergunta": "Ômega 3 pode tomar todo dia?",
+        "resposta": "Sim, é seguro para uso diário nas doses habituais de suplemento. O azeite de peixe de qualidade com certificação de pureza é preferível para evitar contaminantes como mercúrio."
+      },
+      {
+        "pergunta": "Ômega 3 de peixe ou de algas?",
+        "resposta": "Ambos são eficazes. O de peixe tem maior concentração de EPA e DHA. O de algas é a fonte vegana — ideal para quem não consome peixe. A qualidade e a concentração são mais importantes que a fonte."
+      },
+      {
+        "pergunta": "Ômega 3 pode tomar com outros suplementos?",
+        "resposta": "Sim, é compatível com a maioria. Evitar doses altas combinadas com vitamina E em grandes quantidades ou anticoagulantes sem orientação médica — pode aumentar o risco de sangramento."
+      }
+    ]
   }
 ]
