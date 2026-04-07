@@ -13204,7 +13204,29 @@
     "receita_cor": "verde",
     "receita_obrigatoria": false,
     "tipo_receita": "MIP",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Miconazol serve para candidíase?",
+        "resposta": "Sim, é antifúngico tópico eficaz para candidíase de pele, mucosas e sapinho. Disponível em creme para pele, gel oral para sapinho e pó para regiões úmidas como pés e dobras."
+      },
+      {
+        "pergunta": "Miconazol gel oral pode usar em bebê?",
+        "resposta": "Sim, o gel oral é muito usado para tratar sapinho em bebês. Aplicar com o dedo limpo ou cotonete diretamente nas lesões brancas na boca, após as mamadas."
+      },
+      {
+        "pergunta": "Miconazol serve para pé de atleta?",
+        "resposta": "Sim, é eficaz para tinha dos pés (pé de atleta) e outras micoses de pele. O pó é especialmente útil para regiões úmidas como entre os dedos dos pés."
+      },
+      {
+        "pergunta": "Miconazol pode usar na gravidez?",
+        "resposta": "O uso tópico (creme e gel oral) é geralmente considerado seguro na gravidez, mas sempre com orientação médica. Evitar uso interno sem prescrição."
+      },
+      {
+        "pergunta": "Miconazol demora para fazer efeito?",
+        "resposta": "Os primeiros resultados aparecem em alguns dias, mas o tratamento completo geralmente leva de 2 a 4 semanas. Importante continuar mesmo após a melhora dos sintomas para evitar recidiva."
+      }
+    ]
   },
   {
     "nome": "Minociclina 50mg - 100mg",
@@ -13235,7 +13257,29 @@
     ],
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": true
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Minociclina serve para acne?",
+        "resposta": "Sim, é muito usada para acne moderada a grave. Tem boa penetração nos tecidos e age tanto pela ação antibiótica quanto pelo efeito anti-inflamatório na pele."
+      },
+      {
+        "pergunta": "Minociclina causa tontura?",
+        "resposta": "Sim, tontura e vertigem são mais comuns com a minociclina do que com outros antibióticos do grupo. Tomar deitado ou à noite pode ajudar. Comunicar ao médico se for intensa."
+      },
+      {
+        "pergunta": "Minociclina pode manchar os dentes?",
+        "resposta": "Sim, uso prolongado pode causar pigmentação azulada nos dentes e na pele — mais comum em crianças com dentes em formação. Por isso é contraindicada em menores de 8 anos."
+      },
+      {
+        "pergunta": "Minociclina pode tomar com comida?",
+        "resposta": "Diferente de outras tetraciclinas, a minociclina pode ser tomada com alimentos — o que ajuda a reduzir a náusea. Porém evitar laticínios, antiácidos e ferro próximo ao horário."
+      },
+      {
+        "pergunta": "Minociclina pode usar na gravidez?",
+        "resposta": "Não. Contraindicada na gravidez e em crianças menores de 8 anos — pode afetar o desenvolvimento dos dentes e ossos do bebê."
+      }
+    ]
   },
   {
     "nome": "Minoxidil 2% - 5% - Solução Tópica | Espuma",
@@ -13260,7 +13304,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Minoxidil funciona para queda de cabelo?",
+        "resposta": "Sim, é um dos tratamentos mais eficazes e comprovados para alopecia androgenética (calvície genética) em homens e mulheres. Estimula o crescimento e prolonga a fase ativa dos folículos capilares."
+      },
+      {
+        "pergunta": "Minoxidil causa crescimento de pelo no rosto?",
+        "resposta": "Sim, hipertricose (pelos em locais indesejados como rosto e pescoço) é um efeito colateral, mais comum na concentração de 5% em mulheres. Lavar as mãos após aplicar e não deixar escorrer no rosto minimiza o risco."
+      },
+      {
+        "pergunta": "Minoxidil pode parar de usar?",
+        "resposta": "Ao parar, o cabelo crescido com o minoxidil cai progressivamente em 3 a 6 meses. O efeito não é permanente — o uso deve ser contínuo para manter o resultado."
+      },
+      {
+        "pergunta": "Minoxidil 2% e 5% têm diferença?",
+        "resposta": "Sim. O 5% é mais eficaz mas com mais risco de hipertricose — por isso historicamente o 2% era recomendado para mulheres e o 5% para homens. Hoje o 5% é usado em ambos, com orientação médica."
+      },
+      {
+        "pergunta": "Minoxidil demora quanto para fazer efeito?",
+        "resposta": "Os primeiros resultados aparecem entre 3 e 6 meses de uso contínuo. Nas primeiras semanas pode ocorrer aumento temporário da queda — é normal, sinal de que o ciclo capilar está se renovando."
+      }
+    ]
   },
   {
     "nome": "Mirabegrona 25mg - 50mg",
@@ -13292,7 +13358,29 @@
     ],
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Mirabegrona serve para bexiga hiperativa?",
+        "resposta": "Sim, é indicada para bexiga hiperativa — controla a urgência urinária, frequência excessiva e incontinência de urgência. Tem mecanismo diferente dos anticolinérgicos, com melhor tolerabilidade."
+      },
+      {
+        "pergunta": "Mirabegrona causa boca seca?",
+        "resposta": "Muito menos que os anticolinérgicos (como oxibutinina e solifenacina) — essa é uma de suas principais vantagens, especialmente em idosos que não toleram boca seca."
+      },
+      {
+        "pergunta": "Mirabegrona aumenta a pressão?",
+        "resposta": "Sim, pode elevar a pressão arterial. Monitorar a pressão regularmente durante o tratamento, especialmente em hipertensos."
+      },
+      {
+        "pergunta": "Mirabegrona demora para fazer efeito?",
+        "resposta": "Os primeiros efeitos aparecem em 1 a 2 semanas, com benefício completo após 4 a 8 semanas de uso regular."
+      },
+      {
+        "pergunta": "Mirabegrona pode usar em idoso?",
+        "resposta": "Sim, é considerada uma boa opção em idosos justamente por ter menos efeitos anticolinérgicos (menos confusão mental, menos boca seca, menos constipação) que os medicamentos tradicionais para bexiga."
+      }
+    ]
   },
   {
     "nome": "Mirtazapina 15mg - 30mg - 45mg",
@@ -13318,7 +13406,29 @@
     "receita_nota": "Prescrição médica obrigatória. Receita válida por 30 dias.",
     "receita_obrigatoria": true,
     "tipo_receita": "C1",
-    "retencao_receita": true
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Mirtazapina dá sono?",
+        "resposta": "Sim, sonolência intensa é o efeito mais comum — especialmente nas doses menores. Paradoxalmente doses maiores causam menos sedação. Por isso é tomada à noite e pode ser vantajosa em depressão com insônia."
+      },
+      {
+        "pergunta": "Mirtazapina engorda?",
+        "resposta": "Sim, aumento do apetite e ganho de peso são efeitos muito comuns. Isso pode ser benéfico em pacientes deprimidos com perda de apetite, mas é um problema para quem já tem sobrepeso."
+      },
+      {
+        "pergunta": "Mirtazapina serve para depressão com ansiedade?",
+        "resposta": "Sim, é especialmente indicada quando a depressão vem acompanhada de ansiedade intensa, insônia e perda de apetite — age melhorando humor, sono e apetite ao mesmo tempo."
+      },
+      {
+        "pergunta": "Mirtazapina demora para fazer efeito?",
+        "resposta": "O efeito sobre o sono e apetite aparece rapidamente (primeiros dias). O efeito antidepressivo completo leva de 2 a 4 semanas. Persistir no tratamento é fundamental."
+      },
+      {
+        "pergunta": "Mirtazapina pode parar de tomar de repente?",
+        "resposta": "Não. A interrupção abrupta pode causar síndrome de descontinuação — ansiedade, irritabilidade, insônia e mal-estar. A dose deve ser reduzida gradualmente com orientação médica."
+      }
+    ]
   },
   {
     "nome": "Misoprostol 25mcg - 200mcg",
@@ -13349,7 +13459,29 @@
     ],
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Misoprostol serve para proteger o estômago?",
+        "resposta": "Sim, em dose baixa protege a mucosa gástrica em usuários de anti-inflamatórios (AINEs). Também é usado para indução do parto, tratamento de hemorragia pós-parto e esvaziamento uterino."
+      },
+      {
+        "pergunta": "Misoprostol causa contrações uterinas?",
+        "resposta": "Sim, uma de suas principais ações é causar contrações do útero. Por isso é usado para indução do parto e é contraindicado em grávidas que não desejam interromper a gestação."
+      },
+      {
+        "pergunta": "Misoprostol causa diarreia?",
+        "resposta": "Sim, diarreia e cólicas abdominais são os efeitos mais comuns — causados pela ação das prostaglandinas no intestino. Geralmente passageiros."
+      },
+      {
+        "pergunta": "Misoprostol precisa de receita?",
+        "resposta": "Sim, é medicamento controlado no Brasil. A venda sem receita é proibida. Deve ser usado exclusivamente com orientação e prescrição médica."
+      },
+      {
+        "pergunta": "Misoprostol sublingual e vaginal têm diferença?",
+        "resposta": "Sim. A via de administração afeta a velocidade e intensidade do efeito. O médico define a via mais adequada conforme a indicação — indução do parto, esvaziamento uterino ou proteção gástrica."
+      }
+    ]
   },
   {
     "nome": "Montelucaste 4mg - 5mg - 10mg",
@@ -13375,7 +13507,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Montelucaste serve para asma?",
+        "resposta": "Sim, é usado na manutenção da asma para prevenir crises — não é broncodilatador de alívio. Age bloqueando leucotrienos, substâncias que causam inflamação e broncoespasmo."
+      },
+      {
+        "pergunta": "Montelucaste serve para rinite?",
+        "resposta": "Sim, é indicado para rinite alérgica sazonal e perene em adultos e crianças a partir de 2 anos. Pode ser usado sozinho ou combinado com anti-histamínico."
+      },
+      {
+        "pergunta": "Montelucaste pode causar problemas de comportamento?",
+        "resposta": "Sim, o FDA emitiu alerta sobre alterações neuropsiquiátricas — ansiedade, pesadelos, comportamento agressivo e pensamentos suicidas em casos raros. Comunicar ao médico qualquer mudança de humor ou comportamento."
+      },
+      {
+        "pergunta": "Montelucaste pode usar em criança?",
+        "resposta": "Sim, há formulações pediátricas (4mg para 2-5 anos, 5mg para 6-14 anos). Monitorar comportamento e humor, especialmente nas primeiras semanas de uso."
+      },
+      {
+        "pergunta": "Montelucaste toma de dia ou à noite?",
+        "resposta": "Geralmente à noite — a maioria das crises de asma ocorre nas primeiras horas da manhã e tomar à noite garante níveis adequados do medicamento nesse período."
+      }
+    ]
   },
   {
     "nome": "Morfina 10mg - 30mg - 10mg/mL Injetável",
@@ -13454,7 +13608,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Mounjaro emagrece?",
+        "resposta": "Sim, é um dos medicamentos com maior redução de peso nos estudos clínicos — em média 15 a 20% do peso corporal. Age imitando dois hormônios (GLP-1 e GIP), reduzindo apetite e retardando o esvaziamento gástrico."
+      },
+      {
+        "pergunta": "Mounjaro serve para diabetes tipo 2?",
+        "resposta": "Sim, é indicado para diabetes tipo 2 e controle de peso em adultos com obesidade. Reduz a glicemia de forma dependente da glicose, com baixo risco de hipoglicemia quando usado isoladamente."
+      },
+      {
+        "pergunta": "Mounjaro causa enjoo?",
+        "resposta": "Sim, náusea, vômito e diarreia são muito comuns no início. Iniciar com dose baixa e aumentar gradualmente a cada 4 semanas minimiza esses efeitos. Tende a melhorar com o tempo."
+      },
+      {
+        "pergunta": "Mounjaro é igual ao Ozempic?",
+        "resposta": "Não. Ozempic tem semaglutida (age só no GLP-1). Mounjaro tem tirzepatida (age no GLP-1 e GIP). A tirzepatida tem efeito de perda de peso superior nos estudos, mas são medicamentos distintos."
+      },
+      {
+        "pergunta": "Mounjaro pode causar pancreatite?",
+        "resposta": "É um risco raro. Dor abdominal intensa e persistente durante o tratamento deve ser avaliada imediatamente pelo médico — pode ser sinal de pancreatite."
+      }
+    ]
   },
   {
     "nome": "Moxifloxacino 400mg",
@@ -13484,7 +13660,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": true
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Moxifloxacino serve para pneumonia?",
+        "resposta": "Sim, é fluorquinolona de amplo espectro muito eficaz para pneumonia comunitária grave, incluindo pneumococos resistentes. Também usado em sinusite bacteriana refratária."
+      },
+      {
+        "pergunta": "Moxifloxacino pode causar problema no coração?",
+        "resposta": "Sim, prolonga o intervalo QT de forma significativa — pode causar arritmias graves. Contraindicado em pacientes com QT prolongado ou em uso de outros medicamentos que prolongam o QT."
+      },
+      {
+        "pergunta": "Moxifloxacino pode causar problema no tendão?",
+        "resposta": "Sim, tendinite e ruptura de tendão (especialmente o de Aquiles) são riscos das fluorquinolonas. Ao sentir dor ou inchaço no tendão, interromper e procurar atendimento imediatamente."
+      },
+      {
+        "pergunta": "Moxifloxacino serve para infecção urinária?",
+        "resposta": "Não é a primeira escolha — não tem atividade significativa contra Pseudomonas e não atinge concentrações urinárias ideais. Para infecção urinária, outros antibióticos são mais adequados."
+      },
+      {
+        "pergunta": "Moxifloxacino é antibiótico de reserva?",
+        "resposta": "Sim, deve ser reservado para infecções que realmente necessitam desse espectro. O uso indiscriminado de fluorquinolonas favorece resistência bacteriana — usar apenas com prescrição médica justificada."
+      }
+    ]
   },
   {
     "nome": "Mupirocina 2% Pomada",
@@ -13514,7 +13712,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": true
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Mupirocina serve para impetigo?",
+        "resposta": "Sim, é antibiótico tópico de primeira escolha para impetigo e foliculite. Tem excelente atividade contra Staphylococcus aureus, incluindo cepas resistentes (MRSA)."
+      },
+      {
+        "pergunta": "Mupirocina pode usar na narina?",
+        "resposta": "Sim, é usada para descolonização de portadores de MRSA nas narinas — aplicada dentro das fossas nasais com cotonete. Indicação específica feita pelo médico."
+      },
+      {
+        "pergunta": "Mupirocina pode usar em ferida aberta?",
+        "resposta": "Sim, é indicada para infecções superficiais em pequenas feridas, cortes e escoriações. Não deve ser usada em queimaduras extensas ou feridas profundas sem avaliação médica."
+      },
+      {
+        "pergunta": "Mupirocina pode usar por quanto tempo?",
+        "resposta": "Geralmente por 5 a 10 dias. O uso prolongado pode favorecer resistência bacteriana. Seguir o tempo indicado pelo médico e não usar preventivamente sem indicação."
+      },
+      {
+        "pergunta": "Mupirocina pode usar em criança?",
+        "resposta": "Sim, é segura para uso em crianças. Muito usada em impetigo infantil. Aplicar em camada fina na área afetada 2 a 3 vezes ao dia conforme orientação médica."
+      }
+    ]
   },
   {
     "nome": "NAC 600mg — N-Acetilcisteína",
@@ -13600,7 +13820,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "C1",
-    "retencao_receita": true
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Naloxona reverte overdose de opioide?",
+        "resposta": "Sim, é o antídoto específico para overdose de opioides (morfina, heroína, fentanil, tramadol). Age em 2 a 5 minutos revertendo a depressão respiratória. É de uso emergencial."
+      },
+      {
+        "pergunta": "Naloxona pode usar em casa?",
+        "resposta": "Sim, spray nasal de naloxona está disponível para uso por leigos em emergências de overdose. Em casos de suspeita de overdose, aplicar e chamar o SAMU (192) imediatamente."
+      },
+      {
+        "pergunta": "Naloxona dura quanto tempo?",
+        "resposta": "O efeito dura 30 a 90 minutos — menos que muitos opioides. Por isso pode ser necessária repetição da dose e a pessoa deve ser monitorada em ambiente hospitalar após a reversão."
+      },
+      {
+        "pergunta": "Naloxona causa abstinência?",
+        "resposta": "Sim, em dependentes de opioides pode precipitar síndrome de abstinência intensa e agitação. Na emergência de overdose, isso é aceitável — salvar a vida é prioridade."
+      },
+      {
+        "pergunta": "Naloxona e naltrexona são iguais?",
+        "resposta": "Não. Naloxona é para emergências de overdose (ação rápida). Naltrexona é para tratamento crônico de dependência de álcool e opioides (ação prolongada). São usos completamente diferentes."
+      }
+    ]
   },
   {
     "nome": "Naltrexona 50mg",
@@ -13631,7 +13873,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "B2",
-    "retencao_receita": true
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Naltrexona serve para dependência de álcool?",
+        "resposta": "Sim, reduz o desejo pelo álcool e o prazer causado por ele, bloqueando receptores opioides. Deve ser usada após desintoxicação completa e como parte de um programa de tratamento."
+      },
+      {
+        "pergunta": "Naltrexona pode tomar com álcool?",
+        "resposta": "Não é perigoso como o dissulfiram, mas o álcool reduz a eficácia do tratamento. O objetivo é a abstinência — usar naltrexona bebendo não faz sentido terapêutico."
+      },
+      {
+        "pergunta": "Naltrexona faz mal ao fígado?",
+        "resposta": "Em doses altas pode causar hepatotoxicidade. Na dose de 50mg para dependência, o risco é baixo, mas exames de função hepática são recomendados antes e durante o tratamento."
+      },
+      {
+        "pergunta": "Naltrexona pode usar em quem usa opioide para dor?",
+        "resposta": "Não. Bloqueia completamente o efeito dos opioides — em quem usa morfina ou similar para dor crônica, a naltrexona tornaria o analgésico ineficaz e precipitaria abstinência."
+      },
+      {
+        "pergunta": "Naltrexona causa dependência?",
+        "resposta": "Não. Não é uma substância com potencial de abuso. Pode ser interrompida sem síndrome de abstinência, diferente dos próprios opioides ou do álcool."
+      }
+    ]
   },
   {
     "nome": "Naratriptana 2,5mg",
@@ -13661,7 +13925,29 @@
     ],
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Naratriptana serve para enxaqueca?",
+        "resposta": "Sim, é triptano indicado para tratamento agudo da enxaqueca com ou sem aura. Tem ação mais lenta que outros triptanos, mas efeito mais duradouro e menor taxa de recorrência da crise."
+      },
+      {
+        "pergunta": "Naratriptana é mais fraca que sumatriptana?",
+        "resposta": "Age mais lentamente — o início do efeito é mais gradual. Para quem prefere alívio rápido, a sumatriptana pode ser mais adequada. Para quem tem crises longas com recorrência, a naratriptana tem vantagem."
+      },
+      {
+        "pergunta": "Naratriptana pode usar na gravidez?",
+        "resposta": "Não é recomendada na gravidez. O paracetamol é a opção mais segura para crise de enxaqueca na gestação. Consultar o médico para avaliação individualizada."
+      },
+      {
+        "pergunta": "Naratriptana causa sensação no peito?",
+        "resposta": "Sim, sensação de pressão ou aperto no peito pode ocorrer — geralmente não é de origem cardíaca, mas deve ser avaliada pelo médico, especialmente em pacientes com fatores de risco cardiovascular."
+      },
+      {
+        "pergunta": "Triptano pode tomar em qualquer momento da crise?",
+        "resposta": "Idealmente no início da crise — quanto antes tomar, maior a eficácia. Tomar na aura (antes da dor) não é recomendado. Se a dor já está intensa há horas, o efeito pode ser menor."
+      }
+    ]
   },
   {
     "nome": "Nebivolol 5mg",
@@ -13692,7 +13978,29 @@
     ],
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Nebivolol serve para pressão alta?",
+        "resposta": "Sim, é betabloqueador de terceira geração para hipertensão e insuficiência cardíaca. Tem alta cardiosseletividade e efeito vasodilatador único por liberar óxido nítrico — diferencial entre os betabloqueadores."
+      },
+      {
+        "pergunta": "Nebivolol afeta a função erétil?",
+        "resposta": "Menos que betabloqueadores tradicionais — é uma de suas vantagens. O efeito vasodilatador por óxido nítrico pode até ter efeito neutro ou levemente positivo na função erétil."
+      },
+      {
+        "pergunta": "Nebivolol pode parar de tomar de repente?",
+        "resposta": "Não. A interrupção abrupta pode causar angina de rebote e arritmias. A dose deve ser reduzida gradualmente sempre com orientação médica."
+      },
+      {
+        "pergunta": "Nebivolol causa cansaço?",
+        "resposta": "Sim, fadiga e bradicardia (coração lento) são efeitos possíveis, mas geralmente menores que com betabloqueadores mais antigos. Comunicar ao médico se o cansaço for limitante."
+      },
+      {
+        "pergunta": "Nebivolol pode usar em diabético?",
+        "resposta": "Com cautela — pode mascarar sintomas de hipoglicemia. Porém por ser altamente cardiosseletivo, o impacto é menor que com propranolol. Monitorar a glicemia com mais frequência."
+      }
+    ]
   },
   {
     "nome": "Neo-angin — Pastilha para Garganta",
@@ -13724,7 +14032,29 @@
     ],
     "receita_obrigatoria": false,
     "tipo_receita": "MIP",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Neo-angin serve para dor de garganta?",
+        "resposta": "Sim, a pastilha antisséptica com mentol alivia dor de garganta, rouquidão e irritação da mucosa oral e faríngea. O mentol proporciona sensação de frescor e alívio adicional."
+      },
+      {
+        "pergunta": "Neo-angin pode usar em criança?",
+        "resposta": "Com cautela — pastilhas têm risco de engasgo em crianças pequenas. Verificar a indicação de idade na embalagem e não dar para crianças menores de 6 anos sem orientação médica."
+      },
+      {
+        "pergunta": "Neo-angin trata infecção de garganta?",
+        "resposta": "Alivia os sintomas, mas não substitui antibiótico em caso de infecção bacteriana (como amigdalite estreptocócica). Se a dor for intensa, com febre e placas, consultar médico."
+      },
+      {
+        "pergunta": "Neo-angin pode usar quantas vezes ao dia?",
+        "resposta": "Seguir a orientação da embalagem — geralmente 1 pastilha a cada 2 a 3 horas conforme necessário, até o máximo diário indicado. Não exceder a dose recomendada."
+      },
+      {
+        "pergunta": "Neo-angin causa alergia?",
+        "resposta": "Raramente, pessoas sensíveis ao mentol podem ter irritação local ou reação alérgica. Interromper e consultar médico se ocorrer reação incomum."
+      }
+    ]
   },
   {
     "nome": "Neomicina Pomada",
@@ -13749,7 +14079,29 @@
     "receita_cor": "verde",
     "receita_obrigatoria": false,
     "tipo_receita": "MIP",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Neomicina serve para corte e arranhão?",
+        "resposta": "Sim, é antibiótico tópico para prevenção e tratamento de infecções em feridas superficiais, cortes, arranhões e pequenas queimaduras. Age localmente eliminando bactérias."
+      },
+      {
+        "pergunta": "Neomicina pode causar alergia?",
+        "resposta": "Sim, dermatite de contato alérgica é um efeito importante e relativamente comum com neomicina. Se surgir coceira intensa, vermelhidão ou piora da ferida, interromper e consultar médico."
+      },
+      {
+        "pergunta": "Neomicina pode usar em ouvido?",
+        "resposta": "Algumas formulações são para uso auricular (otite externa), mas não usar pomada cutânea dentro do ouvido sem orientação médica. Existem gotas otológicas específicas com neomicina."
+      },
+      {
+        "pergunta": "Neomicina pode usar por muito tempo?",
+        "resposta": "Não. O uso prolongado aumenta o risco de sensibilização (alergia) e pode favorecer resistência bacteriana. Usar pelo menor tempo necessário para a cicatrização."
+      },
+      {
+        "pergunta": "Neomicina é igual à mupirocina?",
+        "resposta": "Não. São antibióticos tópicos diferentes. A mupirocina tem melhor atividade contra Staphylococcus e MRSA. A neomicina tem espectro mais amplo mas maior risco de alergia de contato."
+      }
+    ]
   },
   {
     "nome": "Neosaldina (Dipirona + Cafeína + Isometepteno)",
@@ -13834,7 +14186,29 @@
     ],
     "receita_obrigatoria": true,
     "tipo_receita": "C1",
-    "retencao_receita": true
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Neozine serve para insônia?",
+        "resposta": "Em doses baixas é usado para insônia e ansiedade grave por seu forte efeito sedativo. Em doses mais altas é antipsicótico para esquizofrenia e agitação intensa."
+      },
+      {
+        "pergunta": "Neozine dá muito sono?",
+        "resposta": "Sim, sedação intensa é o efeito mais marcante da levomepromazina — é um dos antipsicóticos mais sedativos disponíveis. Evitar dirigir ou atividades que exigem atenção."
+      },
+      {
+        "pergunta": "Neozine pode baixar a pressão?",
+        "resposta": "Sim, hipotensão ortostática (queda de pressão ao levantar) é frequente. Levantar devagar da cama e de cadeiras reduz o risco de tontura e quedas — importante especialmente em idosos."
+      },
+      {
+        "pergunta": "Neozine causa dependência?",
+        "resposta": "Não causa dependência química, mas a interrupção abrupta após uso prolongado pode causar sintomas de descontinuação. Reduzir gradualmente com orientação médica."
+      },
+      {
+        "pergunta": "Neozine é controlado?",
+        "resposta": "Sim, exige receita controlada (notificação especial) por ser antipsicótico. A receita é retida na farmácia."
+      }
+    ]
   },
   {
     "nome": "Neuleptil — Periciazina 1% - 4% gotas - 10mg comprimido",
@@ -13868,7 +14242,29 @@
     ],
     "receita_obrigatoria": true,
     "tipo_receita": "C1",
-    "retencao_receita": true
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Neuleptil serve para agitação e agressividade?",
+        "resposta": "Sim, é antipsicótico típico usado em transtornos de comportamento, agitação psicomotora e agressividade. As gotas permitem ajuste fino da dose conforme a necessidade."
+      },
+      {
+        "pergunta": "Neuleptil dá sono?",
+        "resposta": "Sim, sedação é um efeito comum. Geralmente administrado à noite para aproveitar o efeito sedativo e reduzir o impacto no dia a dia."
+      },
+      {
+        "pergunta": "Neuleptil pode baixar a pressão?",
+        "resposta": "Sim, hipotensão ortostática é possível. Levantar devagar e com apoio é importante, especialmente em idosos com risco de quedas."
+      },
+      {
+        "pergunta": "Neuleptil é controlado?",
+        "resposta": "Sim, exige receita controlada por ser antipsicótico. A prescrição e dispensação seguem normas específicas de controle."
+      },
+      {
+        "pergunta": "Neuleptil causa movimentos involuntários?",
+        "resposta": "Sim, sintomas extrapiramidais (rigidez, tremor, inquietação) são possíveis com antipsicóticos típicos como a periciazina. Comunicar ao médico se ocorrerem."
+      }
+    ]
   },
   {
     "nome": "Nifedipina 10mg - 20mg - 30mg Retard (Liberação Prolongada)",
@@ -13894,7 +14290,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Nifedipina serve para pressão alta?",
+        "resposta": "Sim, é bloqueador dos canais de cálcio indicado para hipertensão e angina. Relaxa e dilata os vasos sanguíneos, facilitando a circulação e reduzindo o trabalho do coração."
+      },
+      {
+        "pergunta": "Nifedipina Retard o que significa?",
+        "resposta": "Retard significa liberação prolongada — o comprimido libera o medicamento aos poucos ao longo do dia, mantendo níveis estáveis e permitindo dose única diária com menos efeitos colaterais."
+      },
+      {
+        "pergunta": "Nifedipina causa inchaço nas pernas?",
+        "resposta": "Sim, edema nos tornozelos e pernas é um efeito colateral comum dos bloqueadores de canal de cálcio diidropiridínicos como a nifedipina. Geralmente é cosmético, não sinal de problema cardíaco."
+      },
+      {
+        "pergunta": "Nifedipina pode usar na gravidez?",
+        "resposta": "Sim, é um dos anti-hipertensivos mais usados em hipertensão grave na gravidez e pré-eclâmpsia. Usar sempre com orientação médica."
+      },
+      {
+        "pergunta": "Nifedipina pode tomar com suco de toranja?",
+        "resposta": "Não. O suco de grapefruit (toranja) inibe a metabolização da nifedipina, aumentando perigosamente seus níveis no sangue e o risco de efeitos adversos. Evitar completamente."
+      }
+    ]
   },
   {
     "nome": "Nimesulida + Ciclobenzaprina (Nivux)",
@@ -14025,7 +14443,29 @@
     ],
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Nistatina serve para sapinho?",
+        "resposta": "Sim, é o antifúngico de primeira escolha para candidíase oral (sapinho) em bebês e adultos. Age localmente na mucosa da boca, sem ser absorvida pelo intestino."
+      },
+      {
+        "pergunta": "Nistatina como usar em bebê?",
+        "resposta": "Aplicar com conta-gotas ou seringa na boca do bebê, dividindo a dose entre os lados da boca após as mamadas. O bebê não precisa engolir — a ação é local na mucosa oral."
+      },
+      {
+        "pergunta": "Nistatina pode usar na gravidez?",
+        "resposta": "Sim, é considerada segura na gestação para candidíase oral e vaginal (forma de creme ou óvulo) — por não ser absorvida sistemicamente."
+      },
+      {
+        "pergunta": "Nistatina demora para fazer efeito?",
+        "resposta": "A melhora começa em alguns dias, mas o tratamento completo geralmente dura 7 a 14 dias. Continuar por todo o período prescrito, mesmo após melhora dos sintomas, é essencial para evitar recidiva."
+      },
+      {
+        "pergunta": "Nistatina serve para candidíase vaginal?",
+        "resposta": "Sim, a nistatina também existe em óvulos e creme vaginal para candidíase vaginal. A suspensão oral é específica para sapinho na boca."
+      }
+    ]
   },
   {
     "nome": "Nitazoxanida 500mg - Suspensão",
