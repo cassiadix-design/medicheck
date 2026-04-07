@@ -16410,6 +16410,61 @@
     ]
   },
   {
+    "nome": "Propionato de Clobetasol 0,05% — Creme, Pomada, Solução Capilar",
+    "generico": "Propionato de Clobetasol",
+    "tipo": "Corticoide Tópico de Altíssima Potência",
+    "sinonimos": [
+      "clobetasol",
+      "propionato de clobetasol",
+      "clobetasol creme",
+      "clobetasol pomada",
+      "clobetasol solução capilar",
+      "dermovate"
+    ],
+    "descricao": "Corticoide tópico de altíssima potência indicado para inflamações, coceiras e vermelhidão de doenças de pele resistentes a outros tratamentos. É utilizado em casos de psoríase (exceto a pustulosa generalizada), eczemas recalcitrantes, líquen plano, líquen escleroso, lúpus eritematoso discoide e dermatoses alérgicas intensas. Disponível em creme, pomada e solução capilar. Por ser o corticoide tópico mais potente disponível, seu uso deve ser restrito a áreas específicas, por tempo limitado e sempre com orientação médica.",
+    "receita": "Sim",
+    "receita_display": "🔴 Receita Simples",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia — não é medicamento controlado.",
+    "receita_nota": "Prescrição médica obrigatória. Não é controlado — receita simples retida não obrigatória.",
+    "efeitos": "Afinamento da pele (atrofia cutânea) com uso prolongado, estrias, alteração da cor da pele, aparecimento de pelos finos no local, acne ou foliculite no local de aplicação. Em grandes áreas ou uso oclusivo prolongado: absorção sistêmica com supressão adrenal.",
+    "aviso_grave": "Não usar por mais de 4 semanas seguidas. Não aplicar no rosto, virilha ou axilas sem orientação médica — risco elevado de atrofia cutânea nessas regiões. Não usar em infecções de pele não tratadas, rosácea ou acne. Contraindicado em menores de 1 ano. Não usar sob curativo oclusivo sem prescrição.",
+    "recomendacao": "⚠️ Aplicar camada fina 1 a 2 vezes ao dia na área afetada. Uso ideal limitado a 4 semanas. Não exceder 50g por semana. Lavar as mãos após aplicar. Evitar contato com olhos.",
+    "educacao": "O clobetasol é o corticoide tópico mais forte disponível no Brasil. Quanto mais potente o corticoide, maior o risco de efeitos locais como afinamento da pele. Use pelo menor tempo necessário e na menor área possível. A melhora rápida é esperada — isso não significa que deve ser mantido indefinidamente.",
+    "resposta_rapida": [
+      "Corticoide tópico mais potente disponível",
+      "Uso máximo: 4 semanas",
+      "Não usar no rosto sem orientação",
+      "Receita simples — não controlado",
+      "Creme, pomada ou solução capilar"
+    ],
+    "receita_obrigatoria": true,
+    "tipo_receita": "simples",
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Clobetasol pode usar no rosto?",
+        "resposta": "Com muita cautela e apenas com orientação médica. O rosto tem pele mais fina e sensível — o clobetasol pode causar atrofia cutânea, estrias e rosácea rapidamente. Corticoides mais fracos são preferíveis para o rosto."
+      },
+      {
+        "pergunta": "Clobetasol pode usar por quanto tempo?",
+        "resposta": "O uso contínuo deve ser limitado a no máximo 4 semanas. Após esse período, o médico avalia a necessidade de manutenção com corticoide mais fraco ou outra estratégia de tratamento."
+      },
+      {
+        "pergunta": "Clobetasol é controlado?",
+        "resposta": "Não. Exige receita médica simples, mas não é medicamento controlado — a receita não é retida na farmácia. Ainda assim, nunca usar sem prescrição pelo risco de efeitos graves com uso incorreto."
+      },
+      {
+        "pergunta": "Clobetasol afina a pele?",
+        "resposta": "Sim, atrofia cutânea (afinamento da pele) é o principal efeito colateral com uso prolongado ou em áreas de pele fina. Por isso o uso deve ser pelo menor tempo possível e na menor área necessária."
+      },
+      {
+        "pergunta": "Clobetasol solução capilar serve para quê?",
+        "resposta": "A solução capilar é indicada para psoríase do couro cabeludo e outras dermatoses inflamatórias capilares — permite aplicação no couro cabeludo sem deixar o cabelo oleoso como o creme ou a pomada."
+      }
+    ]
+  },
+  {
     "nome": "Propranolol 10mg - 40mg - 80mg",
     "generico": "Propranolol",
     "tipo": "Betabloqueador",
