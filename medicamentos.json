@@ -17295,7 +17295,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Rizatriptana serve para enxaqueca?",
+        "resposta": "Sim, é triptano de ação rápida para tratamento agudo da enxaqueca. Tem início de ação mais rápido que a sumatriptana. O comprimido wafer dissolve na língua — ideal quando há náusea ou vômito na crise."
+      },
+      {
+        "pergunta": "Rizatriptana wafer como usar?",
+        "resposta": "Colocar o comprimido wafer sobre a língua e deixar dissolver — sem água. Prático durante crises de enxaqueca com náusea intensa quando engolir comprimidos comuns é difícil."
+      },
+      {
+        "pergunta": "Rizatriptana pode tomar no início da crise?",
+        "resposta": "Sim, quanto antes tomar, maior a eficácia. Tomar no início da dor — não na aura. Se a primeira dose não funcionar completamente, pode repetir após 2 horas, respeitando o máximo diário."
+      },
+      {
+        "pergunta": "Rizatriptana pode tomar com propranolol?",
+        "resposta": "Com cuidado — o propranolol aumenta os níveis de rizatriptana no sangue. Pacientes em uso de propranolol devem usar a dose menor de 5mg. Informar ao médico sobre todos os medicamentos em uso."
+      },
+      {
+        "pergunta": "Rizatriptana pode usar na gravidez?",
+        "resposta": "Não é recomendada na gestação. O paracetamol é a opção mais segura para enxaqueca na gravidez. Consultar o médico para avaliação individualizada."
+      }
+    ]
   },
   {
     "nome": "Roflumilaste (Daxas)",
@@ -17326,7 +17348,29 @@
     ],
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Roflumilaste serve para DPOC?",
+        "resposta": "Sim, é anti-inflamatório oral específico para DPOC grave com bronquite crônica e histórico de exacerbações frequentes. Reduz a inflamação nas vias aéreas, diminuindo as crises de piora."
+      },
+      {
+        "pergunta": "Roflumilaste causa perda de peso?",
+        "resposta": "Sim, perda de peso significativa é um efeito frequente e preocupante — especialmente em pacientes já com baixo peso. Monitorar o peso regularmente durante o tratamento."
+      },
+      {
+        "pergunta": "Roflumilaste pode causar depressão?",
+        "resposta": "Sim, humor deprimido, ansiedade e insônia são efeitos possíveis. Comunicar ao médico qualquer mudança de humor — pode ser necessário interromper o medicamento."
+      },
+      {
+        "pergunta": "Roflumilaste é broncodilatador?",
+        "resposta": "Não. É anti-inflamatório — não abre os brônquios durante crises. Deve ser usado junto com broncodilatadores (como tiotrópio ou salmeterol), não em substituição a eles."
+      },
+      {
+        "pergunta": "Roflumilaste causa diarreia?",
+        "resposta": "Sim, diarreia e náusea são os efeitos gastrointestinais mais comuns, especialmente no início. Tendem a melhorar com o tempo. Iniciar com dose baixa por 4 semanas antes de aumentar."
+      }
+    ]
   },
   {
     "nome": "Rosuvastatina 5mg - 10mg - 20mg - 40mg",
@@ -17357,7 +17401,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Rosuvastatina baixa o colesterol?",
+        "resposta": "Sim, é a estatina mais potente disponível para redução do LDL. Indicada quando outras estatinas não atingiram as metas ou em pacientes de alto risco cardiovascular que precisam de redução intensa do colesterol."
+      },
+      {
+        "pergunta": "Rosuvastatina causa dor muscular?",
+        "resposta": "Sim, mialgia (dor muscular) é o efeito mais comum das estatinas. Em casos raros pode causar miopatia grave ou rabdomiólise (destruição muscular). Comunicar qualquer dor muscular intensa ao médico."
+      },
+      {
+        "pergunta": "Rosuvastatina pode tomar de dia ou à noite?",
+        "resposta": "Diferente da sinvastatina, pode ser tomada em qualquer horário — o metabolismo hepático do colesterol não é predominantemente noturno para a rosuvastatina. Muitos preferem à noite por hábito."
+      },
+      {
+        "pergunta": "Rosuvastatina pode usar na gravidez?",
+        "resposta": "Não. É contraindicada na gravidez — pode causar malformações. Interromper imediatamente ao engravidar e consultar o médico."
+      },
+      {
+        "pergunta": "Rosuvastatina e atorvastatina têm diferença?",
+        "resposta": "Ambas são estatinas de alta potência. A rosuvastatina é ligeiramente mais potente na redução do LDL e tem menos interações medicamentosas. A escolha depende do perfil do paciente e da resposta ao tratamento."
+      }
+    ]
   },
   {
     "nome": "Rybelsus 3mg - 7mg - 14mg (Semaglutida Oral)",
@@ -17388,7 +17454,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Rybelsus é o Ozempic em comprimido?",
+        "resposta": "Sim, tem o mesmo princípio ativo (semaglutida), mas em forma oral — tomada uma vez ao dia. O Ozempic é injetável semanal. A absorção do Rybelsus é muito sensível e exige protocolo rígido de administração."
+      },
+      {
+        "pergunta": "Rybelsus como tomar corretamente?",
+        "resposta": "Tomar em jejum, com no máximo 120ml de água, pelo menos 30 minutos antes de qualquer alimento, bebida ou outro medicamento. Qualquer desvio reduz drasticamente a absorção e a eficácia."
+      },
+      {
+        "pergunta": "Rybelsus emagrece?",
+        "resposta": "Sim, promove perda de peso como efeito adicional ao controle do diabetes — por reduzir o apetite e retardar o esvaziamento gástrico. A perda é menor que com as versões injetáveis em doses maiores."
+      },
+      {
+        "pergunta": "Rybelsus causa enjoo?",
+        "resposta": "Sim, náusea é muito comum especialmente no início. Iniciar com 3mg por 30 dias antes de aumentar para 7mg minimiza o desconforto. Comer devagar e em porções menores também ajuda."
+      },
+      {
+        "pergunta": "Rybelsus pode causar cárie?",
+        "resposta": "Sim, boca seca é um efeito possível que aumenta o risco de cáries. Manter hidratação adequada, boa higiene bucal e consultas regulares ao dentista durante o tratamento."
+      }
+    ]
   },
   {
     "nome": "Saccharomyces boulardii (Floratil)",
@@ -17421,7 +17509,29 @@
     ],
     "receita_obrigatoria": false,
     "tipo_receita": "MIP",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Floratil serve para diarreia por antibiótico?",
+        "resposta": "Sim, é probiótico (levedura medicinal) muito eficaz para prevenir e tratar diarreia associada ao uso de antibióticos. Restaura a microbiota intestinal perturbada pelos antibióticos."
+      },
+      {
+        "pergunta": "Floratil pode tomar junto com antibiótico?",
+        "resposta": "Sim, pode e deve ser tomado durante o antibiótico — é o objetivo principal. Tomar em horários diferentes do antibiótico (separar por 2 horas) para não interferir na ação antibiótica."
+      },
+      {
+        "pergunta": "Floratil pode usar em criança?",
+        "resposta": "Sim, é seguro para crianças e muito usado em pediatria para diarreia aguda e associada a antibióticos. A dose pediátrica é menor — seguir a orientação do pediatra."
+      },
+      {
+        "pergunta": "Floratil precisa de receita?",
+        "resposta": "Não, é vendido sem receita. Mas em imunossuprimidos graves (transplantados, HIV avançado) deve ser usado apenas com orientação médica — risco raro de fungemia (levedura na corrente sanguínea)."
+      },
+      {
+        "pergunta": "Floratil pode tomar na gravidez?",
+        "resposta": "É geralmente considerado seguro na gestação, mas sempre com orientação médica. Consultar o obstetra antes de usar qualquer suplemento ou probiótico durante a gravidez."
+      }
+    ]
   },
   {
     "nome": "Sacubitril + Valsartana (Entresto)",
@@ -17451,7 +17561,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Entresto serve para insuficiência cardíaca?",
+        "resposta": "Sim, é medicamento revolucionário para insuficiência cardíaca com fração de ejeção reduzida. Reduz mortalidade e hospitalizações de forma superior ao enalapril nos estudos clínicos."
+      },
+      {
+        "pergunta": "Entresto pode tomar com IECA?",
+        "resposta": "Não. Contraindicado em combinação com IECAs (como enalapril, ramipril) — risco de angioedema grave. Deve-se aguardar 36 horas após parar o IECA antes de iniciar o Entresto."
+      },
+      {
+        "pergunta": "Entresto baixa muito a pressão?",
+        "resposta": "Hipotensão é o efeito mais comum, especialmente no início. Iniciar com dose baixa e aumentar gradualmente. O médico pode ajustar outros medicamentos para pressão durante a adaptação."
+      },
+      {
+        "pergunta": "Entresto pode usar na gravidez?",
+        "resposta": "Não. Absolutamente contraindicado na gravidez — a valsartana causa malformações graves nos rins do bebê. Usar contracepção eficaz durante o tratamento."
+      },
+      {
+        "pergunta": "Entresto aumenta o potássio?",
+        "resposta": "Sim, hipercalemia é possível — especialmente em pacientes com doença renal ou em uso de outros medicamentos que elevam o potássio. Monitoramento regular com exames é necessário."
+      }
+    ]
   },
   {
     "nome": "Salbutamol Spray Inalatório - Solução para Nebulização",
@@ -17482,7 +17614,29 @@
     ],
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Salbutamol (bombinha) serve para crise de asma?",
+        "resposta": "Sim, é o broncodilatador de alívio rápido mais usado no mundo para crises de asma e DPOC. Age em 5 minutos abrindo os brônquios. É a 'bombinha de resgate' — não de uso diário preventivo."
+      },
+      {
+        "pergunta": "Salbutamol causa tremor nas mãos?",
+        "resposta": "Sim, tremor fino nas mãos e taquicardia são efeitos comuns — especialmente com doses altas em nebulização. Geralmente passageiros e sem gravidade."
+      },
+      {
+        "pergunta": "Usar salbutamol todo dia indica asma mal controlada?",
+        "resposta": "Sim. Precisar do salbutamol mais de 2 vezes por semana (exceto antes de exercício) é sinal de asma não controlada — o médico deve revisar o tratamento de manutenção."
+      },
+      {
+        "pergunta": "Salbutamol spray como usar corretamente?",
+        "resposta": "Agitar bem, expirar completamente, acionar o spray ao iniciar a inspiração lenta e profunda, segurar a respiração por 10 segundos. Usar espaçador melhora muito a deposição pulmonar."
+      },
+      {
+        "pergunta": "Salbutamol nebulização é mais forte que o spray?",
+        "resposta": "A nebulização entrega dose maior, por isso é usada em crises mais graves ou em crianças pequenas que não conseguem usar o spray corretamente. Com técnica correta, o spray com espaçador tem eficácia similar."
+      }
+    ]
   },
   {
     "nome": "Salmeterol + Fluticasona 25mcg/125mcg - 50mcg/250mcg",
@@ -17513,7 +17667,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Salmeterol com Fluticasona serve para asma?",
+        "resposta": "Sim, é combinação de broncodilatador de longa ação (salmeterol) com corticoide inalatório (fluticasona) para controle da asma persistente e DPOC. Uso diário de manutenção — não de resgate."
+      },
+      {
+        "pergunta": "Salmeterol com Fluticasona pode usar na crise?",
+        "resposta": "Não. É medicamento de manutenção — não age rápido o suficiente para crises agudas. Para crises usar salbutamol (broncodilatador de alívio rápido)."
+      },
+      {
+        "pergunta": "Salmeterol com Fluticasona causa candidíase na boca?",
+        "resposta": "Sim, o corticoide inalatório pode favorecer candidíase oral. Bochechar com água e cuspir após cada uso reduz muito esse risco."
+      },
+      {
+        "pergunta": "Salmeterol com Fluticasona causa rouquidão?",
+        "resposta": "Sim, rouquidão é possível pelo corticoide inalatório. Bochechar com água após o uso e usar espaçador ajudam a minimizar."
+      },
+      {
+        "pergunta": "Salmeterol isolado pode usar em asma?",
+        "resposta": "Não. O salmeterol nunca deve ser usado isolado na asma — o uso de LABA sem corticoide inalatório aumenta o risco de morte. Sempre em combinação com corticoide."
+      }
+    ]
   },
   {
     "nome": "Saxagliptina 2,5mg - 5mg (Onglyza)",
@@ -17543,7 +17719,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Saxagliptina serve para diabetes tipo 2?",
+        "resposta": "Sim, é inibidor da DPP-4 que estimula a insulina somente quando a glicose está elevada. Pode ser combinada com metformina, sulfonilureias e insulina."
+      },
+      {
+        "pergunta": "Saxagliptina causa hipoglicemia?",
+        "resposta": "Raramente quando usada isoladamente — por agir dependente da glicose. O risco aumenta quando combinada com sulfonilureias ou insulina."
+      },
+      {
+        "pergunta": "Saxagliptina pode usar em insuficiência cardíaca?",
+        "resposta": "Com cautela — estudos mostraram possível aumento de hospitalizações por insuficiência cardíaca. O médico avalia o risco-benefício em pacientes cardiopatas."
+      },
+      {
+        "pergunta": "Saxagliptina pode causar pancreatite?",
+        "resposta": "É um risco raro descrito com os inibidores da DPP-4. Dor abdominal intensa e persistente durante o tratamento deve ser avaliada imediatamente pelo médico."
+      },
+      {
+        "pergunta": "Saxagliptina pode tomar com metformina?",
+        "resposta": "Sim, a combinação é muito usada. Existe comprimido que já associa os dois (Kombiglyze) para facilitar o tratamento."
+      }
+    ]
   },
   {
     "nome": "Saxenda (Liraglutida) 6mg/mL",
@@ -17569,7 +17767,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Saxenda emagrece de verdade?",
+        "resposta": "Sim, estudos mostram perda média de 5 a 10% do peso corporal. Age reduzindo o apetite, aumentando a saciedade e retardando o esvaziamento gástrico. Os melhores resultados são com dieta e exercício associados."
+      },
+      {
+        "pergunta": "Saxenda e Ozempic são iguais?",
+        "resposta": "Não. Ambos são análogos do GLP-1 com liraglutida (Saxenda) e semaglutida (Ozempic), mas são moléculas diferentes. O Saxenda é diário para obesidade; o Ozempic é semanal para diabetes."
+      },
+      {
+        "pergunta": "Saxenda causa enjoo?",
+        "resposta": "Sim, náusea é muito comum especialmente no início. Iniciar com dose baixa e aumentar gradualmente a cada semana minimiza o desconforto. Tende a melhorar com o tempo."
+      },
+      {
+        "pergunta": "Saxenda pode usar em diabético?",
+        "resposta": "Sim, pessoas com diabetes tipo 2 e obesidade podem usar o Saxenda. Nesse caso, o Ozempic (mesma classe, semanal) pode ser uma alternativa por também tratar o diabetes."
+      },
+      {
+        "pergunta": "Saxenda precisa de receita?",
+        "resposta": "Sim, exige prescrição médica. É indicado para IMC ≥ 30 ou ≥ 27 com comorbidades como diabetes, hipertensão ou colesterol alto. O médico avalia a indicação individualizada."
+      }
+    ]
   },
   {
     "nome": "Secnidazol 1g - 2g - Suspensão",
@@ -17595,7 +17815,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": true
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Secnidazol é dose única?",
+        "resposta": "Sim, grande vantagem — tomado em dose única (1g ou 2g conforme a indicação), facilitando muito a adesão ao tratamento. Indicado para giardíase, amebíase, tricomoníase e vaginose bacteriana."
+      },
+      {
+        "pergunta": "Secnidazol pode tomar com álcool?",
+        "resposta": "Não. Assim como o metronidazol, pode causar reação tipo dissulfiram com álcool — náusea intensa, vômito e mal-estar. Evitar álcool no dia do uso e por pelo menos 24 horas após."
+      },
+      {
+        "pergunta": "Secnidazol tem gosto metálico?",
+        "resposta": "Sim, gosto metálico na boca é um dos efeitos mais comuns — característico dos nitroimidazólicos. Por ser dose única, passa rapidamente."
+      },
+      {
+        "pergunta": "Secnidazol pode usar na gravidez?",
+        "resposta": "Não é recomendado no primeiro trimestre. A partir do segundo trimestre pode ser usado com avaliação médica para tricomoníase e vaginose bacteriana sintomáticas."
+      },
+      {
+        "pergunta": "Secnidazol e metronidazol têm diferença?",
+        "resposta": "São do mesmo grupo (nitroimidazólicos) mas o secnidazol tem meia-vida mais longa — permitindo dose única em vez de múltiplas doses por dias. Facilita muito a adesão ao tratamento."
+      }
+    ]
   },
   {
     "nome": "Selênio 55mcg - 200mcg",
@@ -17653,7 +17895,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Ozempic serve para diabetes ou para emagrecer?",
+        "resposta": "Originalmente para diabetes tipo 2, mas também promove perda de peso significativa. Em doses mais altas (Wegovy), é aprovado especificamente para obesidade. O médico define a indicação correta para cada paciente."
+      },
+      {
+        "pergunta": "Ozempic causa enjoo?",
+        "resposta": "Sim, náusea é muito comum especialmente no início. Iniciar com dose baixa (0,25mg) por 4 semanas antes de aumentar minimiza o desconforto. Comer devagar e em porções menores ajuda."
+      },
+      {
+        "pergunta": "Ozempic é injetável?",
+        "resposta": "Sim, é injeção subcutânea semanal aplicada no abdômen, coxa ou braço. A caneta aplicadora é simples de usar — o médico ou enfermeiro ensina a técnica na primeira vez."
+      },
+      {
+        "pergunta": "Ozempic pode engravidar?",
+        "resposta": "Não durante o tratamento — deve ser interrompido pelo menos 2 meses antes de tentar engravidar. Não é recomendado na gestação."
+      },
+      {
+        "pergunta": "Ozempic pode causar pancreatite?",
+        "resposta": "É um risco raro. Dor abdominal intensa e persistente durante o tratamento deve ser avaliada imediatamente — pode ser sinal de pancreatite."
+      }
+    ]
   },
   {
     "nome": "Sertralina 25mg - 50mg - 75mg - 100mg",
@@ -17733,7 +17997,29 @@
     ],
     "receita_obrigatoria": true,
     "tipo_receita": "B2",
-    "retencao_receita": true
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Sibutramina serve para emagrecer?",
+        "resposta": "Sim, reduz o apetite e aumenta a saciedade inibindo a recaptação de serotonina e noradrenalina. É de uso restrito e controlado no Brasil, indicada apenas para obesidade com IMC ≥ 30 ou ≥ 27 com comorbidades."
+      },
+      {
+        "pergunta": "Sibutramina aumenta a pressão?",
+        "resposta": "Sim, elevação da pressão arterial e aumento da frequência cardíaca são efeitos importantes. Contraindicada em hipertensos não controlados e cardiopatas. A pressão deve ser monitorada regularmente."
+      },
+      {
+        "pergunta": "Sibutramina causa insônia?",
+        "resposta": "Sim, insônia, boca seca e constipação são efeitos comuns. Tomar pela manhã ajuda a reduzir o impacto no sono."
+      },
+      {
+        "pergunta": "Sibutramina precisa de receita especial?",
+        "resposta": "Sim, exige receita de controle especial (notificação B2 — tarja vermelha) por ser substância psicoativa com potencial de abuso. A receita é retida na farmácia."
+      },
+      {
+        "pergunta": "Sibutramina pode tomar com antidepressivo?",
+        "resposta": "Não. A combinação com ISRSs, IRSNs e IMAOs pode causar síndrome serotoninérgica — reação grave potencialmente fatal. Informar todos os medicamentos em uso ao médico."
+      }
+    ]
   },
   {
     "nome": "Sildenafila 25mg - 50mg - 100mg",
@@ -17759,7 +18045,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Sildenafila (Viagra) precisa de estimulação sexual?",
+        "resposta": "Sim, não causa ereção espontânea — apenas potencializa a resposta ao estímulo sexual natural. Age aumentando o fluxo sanguíneo para o pênis quando há desejo e estimulação."
+      },
+      {
+        "pergunta": "Sildenafila pode tomar com nitrato?",
+        "resposta": "Não. A combinação com nitratos (nitroglicerina, isossorbida) causa queda grave e súbita da pressão arterial, potencialmente fatal. Contraindicação absoluta."
+      },
+      {
+        "pergunta": "Sildenafila demora quanto para fazer efeito?",
+        "resposta": "Age em 30 a 60 minutos e dura de 4 a 6 horas. Refeições gordurosas retardam a absorção. Tomar 1 hora antes da atividade sexual em jejum ou com refeição leve."
+      },
+      {
+        "pergunta": "Sildenafila causa dor de cabeça?",
+        "resposta": "Sim, cefaleia, rubor facial e congestão nasal são os efeitos mais comuns — causados pela vasodilatação. Geralmente leves e passageiros."
+      },
+      {
+        "pergunta": "Sildenafila pode usar em mulher?",
+        "resposta": "Não é aprovada para disfunção sexual feminina. Em mulheres, é usada para hipertensão pulmonar arterial (indicação diferente) com doses e protocolos específicos."
+      }
+    ]
   },
   {
     "nome": "Silodosina 4mg - 8mg",
@@ -17789,7 +18097,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Silodosina serve para próstata?",
+        "resposta": "Sim, é alfa-bloqueador altamente seletivo para tratar sintomas urinários da hiperplasia prostática benigna (HPB) — dificuldade de urinar, fluxo fraco, urgência e frequência urinária."
+      },
+      {
+        "pergunta": "Silodosina causa ejaculação retrógrada?",
+        "resposta": "Sim, é o efeito colateral mais característico e frequente — afeta até 28% dos usuários. O sêmen vai para a bexiga em vez de ser ejaculado normalmente. É reversível ao parar o medicamento e inofensivo para a saúde."
+      },
+      {
+        "pergunta": "Silodosina causa menos tontura que outros alfa-bloqueadores?",
+        "resposta": "Sim, por ser altamente seletivo para receptores da próstata (alfa-1A) com mínimo efeito vascular, causa menos hipotensão e tontura que tamsulosina e doxazosina."
+      },
+      {
+        "pergunta": "Silodosina pode usar antes de cirurgia de catarata?",
+        "resposta": "Informar ao oftalmologista antes da cirurgia — alfa-bloqueadores podem causar síndrome da íris flácida intraoperatória, complicando o procedimento. O médico decide se deve ser suspenso antes da cirurgia."
+      },
+      {
+        "pergunta": "Silodosina demora para fazer efeito?",
+        "resposta": "Os primeiros efeitos aparecem em 1 a 2 semanas, com benefício completo após 4 a 8 semanas. O alívio dos sintomas urinários é gradual."
+      }
+    ]
   },
   {
     "nome": "Simeticona 40mg - 80mg - 125mg - Gotas",
@@ -17892,7 +18222,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Sitagliptina serve para diabetes tipo 2?",
+        "resposta": "Sim, é inibidor da DPP-4 que estimula a insulina apenas quando a glicose está elevada. Pode ser usada isoladamente ou combinada com metformina, sulfonilureias e insulina."
+      },
+      {
+        "pergunta": "Sitagliptina causa hipoglicemia?",
+        "resposta": "Raramente quando usada sozinha — por agir dependente da glicose. O risco aumenta quando combinada com sulfonilureias ou insulina. Uma das vantagens em relação às sulfonilureias."
+      },
+      {
+        "pergunta": "Sitagliptina pode usar em idoso?",
+        "resposta": "Sim, é bem tolerada em idosos com ajuste de dose conforme a função renal. Menor risco de hipoglicemia é uma vantagem importante nessa população."
+      },
+      {
+        "pergunta": "Sitagliptina pode causar pancreatite?",
+        "resposta": "É um risco raro descrito com os inibidores da DPP-4. Dor abdominal intensa e persistente deve ser avaliada imediatamente pelo médico."
+      },
+      {
+        "pergunta": "Sitagliptina pode tomar com metformina?",
+        "resposta": "Sim, a combinação é muito usada. Existe comprimido que já associa os dois (Janumet) para facilitar o tratamento e melhorar a adesão."
+      }
+    ]
   },
   {
     "nome": "Solifenacina 5mg - 10mg",
@@ -17922,7 +18274,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Solifenacina serve para bexiga hiperativa?",
+        "resposta": "Sim, é anticolinérgico seletivo M3 para bexiga hiperativa — reduz urgência, frequência e incontinência urinária de urgência. Boa seletividade vesical com menos efeitos cognitivos que oxibutinina."
+      },
+      {
+        "pergunta": "Solifenacina causa boca seca?",
+        "resposta": "Sim, boca seca é o efeito mais comum. Beber água em pequenos goles ajuda — mas evitar aumentar muito o consumo de líquidos para não sobrecarregar a bexiga."
+      },
+      {
+        "pergunta": "Solifenacina demora quanto para fazer efeito?",
+        "resposta": "Os primeiros efeitos aparecem em 1 a 2 semanas, com benefício completo após 4 a 8 semanas de uso regular."
+      },
+      {
+        "pergunta": "Solifenacina pode usar em idoso?",
+        "resposta": "Com cautela — tem menos efeitos cognitivos que a oxibutinina, mas ainda é anticolinérgico. Em idosos frágeis, a mirabegrona pode ser preferível por ter mecanismo diferente sem efeitos anticolinérgicos."
+      },
+      {
+        "pergunta": "Solifenacina pode piorar o glaucoma?",
+        "resposta": "Sim, contraindicada em glaucoma de ângulo fechado não tratado. Também pode causar retenção urinária em homens com próstata aumentada. Informar ao médico sobre essas condições."
+      }
+    ]
   },
   {
     "nome": "Strepsils — Pastilha para Garganta",
@@ -17954,7 +18328,29 @@
     ],
     "receita_obrigatoria": false,
     "tipo_receita": "MIP",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Strepsils serve para dor de garganta?",
+        "resposta": "Sim, pastilha antisséptica que alivia dor de garganta, rouquidão e irritação oral. Contém dois agentes antissépticos que combatem bactérias e vírus na mucosa oral e da garganta."
+      },
+      {
+        "pergunta": "Strepsils trata infecção bacteriana?",
+        "resposta": "Alivia os sintomas, mas não substitui antibiótico em caso de infecção bacteriana confirmada (amigdalite estreptocócica). Se a dor for intensa, com febre alta e placas, consultar médico."
+      },
+      {
+        "pergunta": "Strepsils pode usar em criança?",
+        "resposta": "Com cuidado — pastilhas têm risco de engasgo em crianças pequenas. Verificar a indicação de idade na embalagem. Geralmente indicado a partir de 6 anos."
+      },
+      {
+        "pergunta": "Strepsils pode usar na gravidez?",
+        "resposta": "Com orientação médica. Existem versões com diferentes componentes — o médico indica qual é mais adequada durante a gestação."
+      },
+      {
+        "pergunta": "Strepsils pode usar quantas vezes ao dia?",
+        "resposta": "Seguir a orientação da embalagem — geralmente 1 pastilha a cada 2 a 3 horas, até o máximo diário indicado. Não exceder a dose recomendada."
+      }
+    ]
   },
   {
     "nome": "Sucralfato 1g - Suspensão",
