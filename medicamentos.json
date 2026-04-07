@@ -12037,7 +12037,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Loperamida serve para diarreia?",
+        "resposta": "Sim, é indicada para alívio rápido da diarreia aguda e diarreia crônica em doenças intestinais. Reduz os movimentos do intestino e a perda de líquidos nas fezes."
+      },
+      {
+        "pergunta": "Loperamida pode usar em criança?",
+        "resposta": "Com cautela — não é recomendada em crianças menores de 2 anos. Em crianças maiores, usar apenas com orientação médica e na dose correta para o peso."
+      },
+      {
+        "pergunta": "Loperamida prende o intestino?",
+        "resposta": "Sim, constipação é o efeito colateral mais comum se a dose for maior que o necessário. Suspender ao melhorar a diarreia evita esse problema."
+      },
+      {
+        "pergunta": "Loperamida pode usar em diarreia com febre?",
+        "resposta": "Não é recomendado. Febre pode indicar infecção bacteriana — nesses casos, segurar a diarreia pode ser prejudicial. Procurar médico se houver febre, sangue nas fezes ou diarreia intensa por mais de 48 horas."
+      },
+      {
+        "pergunta": "Loperamida causa dependência?",
+        "resposta": "Não em doses terapêuticas normais. É segura para uso pontual. Não deve ser usada cronicamente sem orientação médica para identificar a causa da diarreia."
+      }
+    ]
   },
   {
     "nome": "Lopinavir/Ritonavir 200mg/50mg - Comprimido | Solução Oral",
@@ -12063,7 +12085,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "hospitalar",
-    "retencao_receita": true
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Lopinavir com Ritonavir serve para HIV?",
+        "resposta": "Sim, é combinação antirretroviral para tratamento do HIV em adultos e crianças, sempre associada a outros medicamentos. O ritonavir potencializa o lopinavir inibindo sua metabolização."
+      },
+      {
+        "pergunta": "Lopinavir Ritonavir causa diarreia?",
+        "resposta": "Sim, diarreia, náusea e vômito são os efeitos mais comuns, especialmente no início. Tomar com alimentos ajuda a reduzir o desconforto gastrointestinal."
+      },
+      {
+        "pergunta": "Lopinavir Ritonavir tem muitas interações?",
+        "resposta": "Sim, o ritonavir é inibidor potente do CYP3A4 — interage com dezenas de medicamentos. Sempre informar ao médico todos os medicamentos, suplementos e fitoterápicos em uso."
+      },
+      {
+        "pergunta": "Lopinavir Ritonavir pode parar de tomar?",
+        "resposta": "Não sem orientação médica. Interromper o tratamento antirretroviral pode causar resistência viral e progressão do HIV. O tratamento é para vida toda."
+      },
+      {
+        "pergunta": "Lopinavir Ritonavir faz mal ao fígado?",
+        "resposta": "Pode causar hepatotoxicidade, especialmente em pacientes com hepatite B ou C coinfectada. Monitoramento regular de enzimas hepáticas é necessário."
+      }
+    ]
   },
   {
     "nome": "Loratadina + Pseudoefedrina",
@@ -12094,7 +12138,29 @@
     ],
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Loratadina com Pseudoefedrina serve para rinite?",
+        "resposta": "Sim, a combinação trata rinite alérgica com congestão nasal — a loratadina controla os sintomas alérgicos e a pseudoefedrina descongestiona o nariz. Conhecida comercialmente como Claritin-D."
+      },
+      {
+        "pergunta": "Loratadina com Pseudoefedrina aumenta a pressão?",
+        "resposta": "Sim, a pseudoefedrina pode elevar a pressão arterial e causar palpitações. Contraindicada em hipertensos não controlados, cardiopatas e pacientes com hipertireoidismo."
+      },
+      {
+        "pergunta": "Loratadina com Pseudoefedrina dá insônia?",
+        "resposta": "Sim, insônia e agitação são efeitos comuns da pseudoefedrina. Evitar tomar à noite — preferir pela manhã para não atrapalhar o sono."
+      },
+      {
+        "pergunta": "Loratadina com Pseudoefedrina pode usar em criança?",
+        "resposta": "Não é recomendada para crianças pequenas sem orientação médica. A pseudoefedrina tem restrições de idade — consultar o médico ou farmacêutico."
+      },
+      {
+        "pergunta": "Loratadina com Pseudoefedrina precisa de receita?",
+        "resposta": "Sim, a pseudoefedrina é substância controlada no Brasil e exige receita. A venda sem receita é proibida."
+      }
+    ]
   },
   {
     "nome": "Loratadina 10mg - Xarope",
@@ -12119,7 +12185,29 @@
     "receita_cor": "verde",
     "receita_obrigatoria": false,
     "tipo_receita": "MIP",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Loratadina dá sono?",
+        "resposta": "Raramente — é anti-histamínico de segunda geração com baixa penetração no sistema nervoso central. É uma das opções preferidas justamente por não causar sonolência na maioria das pessoas."
+      },
+      {
+        "pergunta": "Loratadina serve para alergia?",
+        "resposta": "Sim, é indicada para rinite alérgica, urticária, conjuntivite alérgica e alergias de pele em geral. Age bloqueando os receptores de histamina responsáveis pelos sintomas alérgicos."
+      },
+      {
+        "pergunta": "Loratadina pode tomar todo dia?",
+        "resposta": "Sim, é segura para uso diário contínuo em adultos e crianças. Muito usada em rinite alérgica crônica como tratamento de manutenção."
+      },
+      {
+        "pergunta": "Loratadina pode tomar na gravidez?",
+        "resposta": "É considerada uma das opções mais seguras entre os anti-histamínicos na gestação, mas sempre com orientação médica. A cetirizina também é uma alternativa aceita."
+      },
+      {
+        "pergunta": "Loratadina e cetirizina têm diferença?",
+        "resposta": "Ambas são anti-histamínicos de segunda geração sem sonolência. A cetirizina pode causar leve sedação em algumas pessoas. A escolha depende da resposta individual de cada paciente."
+      }
+    ]
   },
   {
     "nome": "Losartana 50mg - 100mg",
@@ -12199,7 +12287,29 @@
     ],
     "receita_obrigatoria": true,
     "tipo_receita": "C1",
-    "retencao_receita": true
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Lurasidona serve para esquizofrenia?",
+        "resposta": "Sim, é antipsicótico atípico indicado para esquizofrenia e depressão bipolar. Tem perfil metabólico favorável — menor ganho de peso e menos alterações metabólicas que muitos outros antipsicóticos."
+      },
+      {
+        "pergunta": "Lurasidona engorda?",
+        "resposta": "Menos que outros antipsicóticos — é uma das vantagens do Latuda. Ainda assim, monitorar peso e perfil metabólico regularmente durante o tratamento."
+      },
+      {
+        "pergunta": "Lurasidona causa inquietação?",
+        "resposta": "Sim, acatisia (sensação de inquietação, dificuldade de ficar parado) é o efeito mais comum. Comunicar ao médico — pode ser necessário ajuste de dose ou medicação adicional."
+      },
+      {
+        "pergunta": "Lurasidona precisa tomar com comida?",
+        "resposta": "Sim, deve ser tomada com uma refeição de pelo menos 350 calorias — a absorção aumenta significativamente com alimentos. Tomar em jejum reduz muito a eficácia."
+      },
+      {
+        "pergunta": "Lurasidona pode tomar com suco de toranja (grapefruit)?",
+        "resposta": "Não. O suco de grapefruit inibe a metabolização da lurasidona, aumentando perigosamente seus níveis no sangue. Evitar completamente durante o tratamento."
+      }
+    ]
   },
   {
     "nome": "Lítio Carbonato 300mg",
@@ -12224,7 +12334,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Lítio serve para transtorno bipolar?",
+        "resposta": "Sim, é considerado o padrão ouro no tratamento do bipolar — previne e controla episódios de mania e depressão. Também é usado em depressão resistente como potencializador."
+      },
+      {
+        "pergunta": "Lítio causa tremor nas mãos?",
+        "resposta": "Sim, tremor fino nas mãos é um dos efeitos mais comuns. Geralmente leve e tolerável. Se intenso, o médico pode ajustar a dose ou adicionar propranolol para controlar o tremor."
+      },
+      {
+        "pergunta": "Lítio precisa de exames periódicos?",
+        "resposta": "Sim, é fundamental. O lítio tem janela terapêutica estreita — a diferença entre dose eficaz e tóxica é pequena. Litemia (nível de lítio no sangue), função renal e tireoidiana devem ser monitorados regularmente."
+      },
+      {
+        "pergunta": "Lítio pode causar intoxicação?",
+        "resposta": "Sim, intoxicação por lítio é um risco real — sinais incluem tremor intenso, confusão, vômito e convulsões. Fatores que aumentam o risco: desidratação, dieta pobre em sal e uso de anti-inflamatórios."
+      },
+      {
+        "pergunta": "Lítio pode parar de tomar de repente?",
+        "resposta": "Não. A interrupção abrupta aumenta muito o risco de recaída de episódios maníacos ou depressivos graves. Qualquer mudança deve ser feita gradualmente com orientação do médico."
+      }
+    ]
   },
   {
     "nome": "Magnésio Quelato / Dimalato 150mg - 300mg - 400mg",
@@ -12255,7 +12387,29 @@
     "receita_cor": "verde",
     "receita_obrigatoria": false,
     "tipo_receita": "MIP",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Magnésio quelato serve para câimbra?",
+        "resposta": "Sim, é uma das indicações mais comuns — câimbras musculares frequentemente estão associadas à deficiência de magnésio. Formas queladas têm melhor absorção e menos efeitos no intestino."
+      },
+      {
+        "pergunta": "Magnésio quelato ajuda na enxaqueca?",
+        "resposta": "Sim, a suplementação de magnésio tem evidência como profilaxia de enxaqueca. Doses de 400mg ao dia são estudadas para reduzir a frequência das crises."
+      },
+      {
+        "pergunta": "Magnésio quelato dá diarreia?",
+        "resposta": "Muito menos que o óxido de magnésio. As formas queladas (glicinato, dimalato) têm absorção superior e muito menor efeito laxativo — uma das razões para preferi-las."
+      },
+      {
+        "pergunta": "Magnésio quelato pode tomar à noite?",
+        "resposta": "Sim, muitas pessoas preferem tomar à noite pois o magnésio tem leve efeito relaxante muscular e pode melhorar a qualidade do sono."
+      },
+      {
+        "pergunta": "Magnésio quelato serve para TPM?",
+        "resposta": "Sim, estudos mostram benefício na redução de sintomas da tensão pré-menstrual como irritabilidade, inchaço e dores. Geralmente usado na segunda metade do ciclo menstrual."
+      }
+    ]
   },
   {
     "nome": "Magnésio Treonato (Magtein)",
@@ -12287,7 +12441,29 @@
     ],
     "receita_obrigatoria": false,
     "tipo_receita": "MIP",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Magnésio treonato é diferente do magnésio comum?",
+        "resposta": "Sim, o treonato é a única forma de magnésio com alta capacidade de atravessar a barreira hematoencefálica, aumentando os níveis de magnésio especificamente no cérebro — diferencial importante para efeitos cognitivos."
+      },
+      {
+        "pergunta": "Magnésio treonato melhora a memória?",
+        "resposta": "Estudos preliminares mostram potencial para melhorar memória, aprendizado e prevenir declínio cognitivo. As pesquisas ainda estão em andamento, mas os resultados iniciais são promissores."
+      },
+      {
+        "pergunta": "Magnésio treonato ajuda no sono?",
+        "resposta": "Sim, pode melhorar a qualidade do sono. Tomar à noite potencializa esse efeito. A sonolência leve é um efeito comum que pode ser aproveitado para melhorar o descanso noturno."
+      },
+      {
+        "pergunta": "Magnésio treonato dá diarreia?",
+        "resposta": "Em doses altas pode causar diarreia, mas é menos comum que com outras formas de magnésio por ter melhor absorção intestinal. Iniciar com dose baixa e aumentar gradualmente."
+      },
+      {
+        "pergunta": "Magnésio treonato é melhor que o glicinato?",
+        "resposta": "Dependendo do objetivo. Para efeitos cognitivos e cerebrais, o treonato tem vantagem pela penetração cerebral. Para câimbras, relaxamento muscular e sono, o glicinato também é excelente e mais acessível."
+      }
+    ]
   },
   {
     "nome": "Mebendazol 100mg - Suspensão",
@@ -12312,7 +12488,29 @@
     "receita_cor": "verde",
     "receita_obrigatoria": false,
     "tipo_receita": "MIP",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Mebendazol serve para lombriga?",
+        "resposta": "Sim, é eficaz contra lombriga (Ascaris), oxiúros, ancilóstomo e outros vermes intestinais. Age impedindo que os vermes absorvam glicose, causando sua morte e eliminação pelas fezes."
+      },
+      {
+        "pergunta": "Mebendazol é dose única?",
+        "resposta": "Depende do verme. Para oxiúros e alguns outros, uma dose única pode ser suficiente. Para outros, o esquema é 100mg 2 vezes ao dia por 3 dias. O médico ou bula define o esquema correto."
+      },
+      {
+        "pergunta": "Mebendazol pode dar para toda a família?",
+        "resposta": "Sim, é comum tratar toda a família simultaneamente, especialmente em caso de oxiúros — que se espalham facilmente entre conviventes. Higiene das mãos e roupas é essencial para evitar reinfecção."
+      },
+      {
+        "pergunta": "Mebendazol pode usar na gravidez?",
+        "resposta": "Não é recomendado no primeiro trimestre. O uso posterior deve ser avaliado pelo médico, que pesa o risco da parasitose versus o risco para o bebê."
+      },
+      {
+        "pergunta": "Mebendazol pode tomar com comida?",
+        "resposta": "Pode ser tomado com ou sem alimentos. Mastigar o comprimido ou triturá-lo pode melhorar a absorção, mas para vermes intestinais a ação local já é eficaz mesmo sem absorção sistêmica significativa."
+      }
+    ]
   },
   {
     "nome": "Meclizina 25mg",
@@ -12343,7 +12541,29 @@
     ],
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Meclizina serve para tontura e vertigem?",
+        "resposta": "Sim, é anti-histamínico indicado para vertigem, enjoo de movimento (cinejose) e náuseas. Tem ação mais prolongada que o dimenidrinato — uma dose por dia geralmente é suficiente."
+      },
+      {
+        "pergunta": "Meclizina dá sono?",
+        "resposta": "Menos que o dimenidrinato — é uma vantagem da meclizina. Ainda assim, pode causar sonolência leve em algumas pessoas. Evitar dirigir até saber como afeta você."
+      },
+      {
+        "pergunta": "Meclizina é o mesmo que dramin?",
+        "resposta": "Não. Dramin tem dimenidrinato, que causa mais sonolência. Meclizina é diferente e geralmente preferida quando se quer menos sedação. Ambos tratam enjoo e vertigem."
+      },
+      {
+        "pergunta": "Meclizina pode usar em criança?",
+        "resposta": "Com orientação médica. Não é recomendada em crianças menores de 12 anos sem prescrição. Para enjoo em viagem em crianças, o médico ou pediatra indica a opção mais adequada."
+      },
+      {
+        "pergunta": "Meclizina pode tomar antes de viajar?",
+        "resposta": "Sim, para prevenção de enjoo de movimento, tomar 1 hora antes da viagem. O efeito dura de 8 a 24 horas, sendo prático para viagens longas."
+      }
+    ]
   },
   {
     "nome": "Medroxiprogesterona Injetável (Depo-Provera)",
@@ -12374,7 +12594,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Depo-Provera para a menstruação?",
+        "resposta": "Com o tempo sim — até 50% das usuárias ficam sem menstruação após 1 ano de uso. Nos primeiros meses são comuns sangramento irregular e spotting. Muitas mulheres consideram a amenorreia um benefício."
+      },
+      {
+        "pergunta": "Depo-Provera engorda?",
+        "resposta": "Ganho de peso é relatado por algumas usuárias — a progestina pode aumentar o apetite. Não é universal, mas é um efeito a monitorar. Manter alimentação equilibrada e atividade física ajuda."
+      },
+      {
+        "pergunta": "Depo-Provera demora quanto para fazer efeito?",
+        "resposta": "Se aplicada nos primeiros 5 dias do ciclo, a proteção é imediata. Em outros momentos do ciclo, usar método adicional por 7 dias após a primeira aplicação."
+      },
+      {
+        "pergunta": "Depo-Provera demora quanto para a fertilidade voltar?",
+        "resposta": "A fertilidade pode demorar de 6 a 18 meses para retornar após a última aplicação — maior que outros métodos. Planejar com antecedência se quiser engravidar em breve."
+      },
+      {
+        "pergunta": "Depo-Provera afeta os ossos?",
+        "resposta": "O uso prolongado pode reduzir a densidade óssea. O impacto é geralmente reversível após a suspensão. Em adolescentes e mulheres com risco de osteoporose, o médico avalia o risco-benefício."
+      }
+    ]
   },
   {
     "nome": "Melatonina 0,21mg - 0,5mg - 1mg - 2mg - 3mg - 5mg - 10mg",
@@ -12399,7 +12641,29 @@
     "receita_cor": "verde",
     "receita_obrigatoria": false,
     "tipo_receita": "MIP",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Melatonina serve para insônia?",
+        "resposta": "Sim, ajuda a regular o ritmo circadiano e facilitar o sono, especialmente em insônia de início (dificuldade para adormecer) e jet lag. Não é sedativo — sinaliza ao corpo que é hora de dormir."
+      },
+      {
+        "pergunta": "Melatonina causa dependência?",
+        "resposta": "Não. É um hormônio produzido naturalmente pelo próprio organismo. Não causa dependência física nem tolerância progressiva."
+      },
+      {
+        "pergunta": "Qual dose de melatonina é melhor?",
+        "resposta": "Doses menores (0,5mg a 1mg) muitas vezes são tão eficazes quanto doses maiores e com menos efeitos. Doses de 10mg raramente são necessárias — mais não é sempre melhor com melatonina."
+      },
+      {
+        "pergunta": "Melatonina quando tomar?",
+        "resposta": "Tomar 30 a 60 minutos antes de dormir, no horário desejado para dormir. Manter consistência no horário é fundamental para regular o ritmo circadiano."
+      },
+      {
+        "pergunta": "Melatonina pode dar para criança?",
+        "resposta": "Com orientação médica ou pediátrica. É usada em crianças com autismo, TDAH e outras condições que afetam o sono. A dose pediátrica é muito menor que a adulta — não usar sem prescrição."
+      }
+    ]
   },
   {
     "nome": "Meloxicam 7,5mg - 15mg",
@@ -12430,7 +12694,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Meloxicam serve para dor?",
+        "resposta": "Sim, é anti-inflamatório (AINE) indicado para artrite reumatoide, osteoartrite, espondilite anquilosante e dores musculoesqueléticas. Tem melhor tolerabilidade gástrica que ibuprofeno e diclofenaco."
+      },
+      {
+        "pergunta": "Meloxicam pode tomar com omeprazol?",
+        "resposta": "Sim, em uso prolongado o médico frequentemente prescreve omeprazol junto para proteger o estômago — mesmo sendo mais gástrico-seguro que outros AINEs, o risco não é zero."
+      },
+      {
+        "pergunta": "Meloxicam pode usar na gravidez?",
+        "resposta": "Não, especialmente no terceiro trimestre — pode causar fechamento prematuro do ducto arterioso no bebê. No primeiro e segundo trimestre, usar apenas se estritamente necessário com orientação médica."
+      },
+      {
+        "pergunta": "Meloxicam causa problema no rim?",
+        "resposta": "Sim, todos os AINEs podem reduzir o fluxo sanguíneo renal com uso prolongado. Pacientes com doença renal, insuficiência cardíaca ou desidratação têm maior risco — evitar ou usar com cautela."
+      },
+      {
+        "pergunta": "Meloxicam e diclofenaco têm diferença?",
+        "resposta": "Sim. Meloxicam tem preferência pela COX-2, causando menos irritação gástrica que o diclofenaco. Para uso crônico, o meloxicam é geralmente melhor tolerado pelo estômago."
+      }
+    ]
   },
   {
     "nome": "Memantina 10mg - 20mg",
@@ -12461,7 +12747,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Memantina serve para Alzheimer?",
+        "resposta": "Sim, é indicada para Alzheimer moderado a grave. Age por mecanismo diferente dos inibidores de colinesterase — bloqueia receptores NMDA, reduzindo a excitotoxicidade do glutamato. Frequentemente combinada com donepezila."
+      },
+      {
+        "pergunta": "Memantina e donepezila podem ser usadas juntas?",
+        "resposta": "Sim, a combinação é muito comum e recomendada no Alzheimer moderado a grave. Os dois medicamentos têm mecanismos complementares e a associação melhora os resultados."
+      },
+      {
+        "pergunta": "Memantina causa confusão?",
+        "resposta": "Paradoxalmente pode causar confusão mental no início, especialmente em doses altas. Por isso a dose é aumentada gradualmente. Comunicar ao médico se piorar a confusão."
+      },
+      {
+        "pergunta": "Memantina melhora a memória?",
+        "resposta": "Retarda a progressão da perda cognitiva e pode melhorar temporariamente funções como memória, atenção e comportamento. Não reverte a doença, mas pode estabilizar os sintomas por um período."
+      },
+      {
+        "pergunta": "Memantina tem efeitos colaterais graves?",
+        "resposta": "É geralmente bem tolerada. Os mais comuns são tontura, dor de cabeça e constipação. Efeitos graves são raros quando usada nas doses corretas."
+      }
+    ]
   },
   {
     "nome": "Mesalazina / Mesalamina 400mg - 800mg - 1g",
@@ -12492,7 +12800,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Mesalazina serve para retocolite ulcerativa?",
+        "resposta": "Sim, é o anti-inflamatório intestinal de primeira linha para retocolite ulcerativa leve a moderada. Age localmente no intestino, reduzindo a inflamação da mucosa."
+      },
+      {
+        "pergunta": "Mesalazina pode usar em Crohn?",
+        "resposta": "Sim, também é usada na doença de Crohn leve a moderada, especialmente quando afeta o intestino grosso. O médico avalia a forma e localização da doença para indicar a formulação mais adequada."
+      },
+      {
+        "pergunta": "Mesalazina tem supositório?",
+        "resposta": "Sim, está disponível em comprimidos, supositórios, enemas e grânulos de liberação prolongada. A formulação retal (supositório ou enema) é preferida quando a doença é limitada ao reto e cólon distal."
+      },
+      {
+        "pergunta": "Mesalazina faz mal ao rim?",
+        "resposta": "Raramente pode causar nefrite intersticial. Monitorar a função renal periodicamente durante o tratamento prolongado é recomendado."
+      },
+      {
+        "pergunta": "Mesalazina pode parar de tomar?",
+        "resposta": "Não sem orientação médica. É medicamento de manutenção — interromper aumenta o risco de recaída da doença inflamatória intestinal. Mesmo em remissão, o médico avalia quando e como reduzir."
+      }
+    ]
   },
   {
     "nome": "Metformina 500mg - 850mg - 1000mg - XR (Liberação Prolongada)",
@@ -12630,7 +12960,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Metocarbamol serve para dor nas costas?",
+        "resposta": "Sim, é relaxante muscular indicado para espasmos musculares agudos associados a lombalgia, torcicolo, distensões e espasmos pós-trauma. Age no sistema nervoso central reduzindo o espasmo muscular."
+      },
+      {
+        "pergunta": "Metocarbamol dá sono?",
+        "resposta": "Sim, sonolência e tontura são efeitos comuns. Evitar dirigir ou operar máquinas durante o uso. O efeito sedativo pode ser aproveitado à noite para melhorar o descanso em casos de dor aguda."
+      },
+      {
+        "pergunta": "Metocarbamol escurece a urina?",
+        "resposta": "Sim, pode deixar a urina com coloração escura — é inofensivo e passa ao parar o medicamento. Não confundir com sangue na urina, que é avermelhada."
+      },
+      {
+        "pergunta": "Metocarbamol pode tomar com anti-inflamatório?",
+        "resposta": "Sim, a combinação com diclofenaco, ibuprofeno ou dipirona é comum para tratar dor muscular aguda — o relaxante muscular e o anti-inflamatório atuam de formas complementares."
+      },
+      {
+        "pergunta": "Metocarbamol causa dependência?",
+        "resposta": "Não é classificado como substância com alto potencial de dependência, mas deve ser usado pelo menor tempo necessário. Uso crônico sem orientação não é recomendado."
+      }
+    ]
   },
   {
     "nome": "Metoclopramida 10mg - Gotas - Injetável",
@@ -12656,7 +13008,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Metoclopramida serve para enjoo?",
+        "resposta": "Sim, é indicada para náuseas e vômitos de diversas causas — enxaqueca, pós-operatório, quimioterapia e gastroparesia. Também acelera o esvaziamento gástrico."
+      },
+      {
+        "pergunta": "Metoclopramida pode usar em criança?",
+        "resposta": "Com muito cuidado — crianças e adolescentes têm maior risco de reações extrapiramidais (movimentos involuntários). O uso só é recomendado quando outros antieméticos não estão disponíveis, na menor dose e por curto período."
+      },
+      {
+        "pergunta": "Metoclopramida causa movimentos involuntários?",
+        "resposta": "Sim, discinesia tardia (movimentos involuntários repetitivos) é um efeito grave com uso prolongado. Não usar por mais de 12 semanas seguidas. Ao notar qualquer movimento involuntário, comunicar ao médico imediatamente."
+      },
+      {
+        "pergunta": "Metoclopramida dá sono?",
+        "resposta": "Sim, sonolência e cansaço são efeitos comuns. Evitar atividades que exigem atenção logo após o uso."
+      },
+      {
+        "pergunta": "Metoclopramida pode tomar com outros remédios?",
+        "resposta": "Tem interações importantes com antipsicóticos, levodopa e depressores do SNC. Sempre informar ao médico todos os medicamentos em uso antes de iniciar."
+      }
+    ]
   },
   {
     "nome": "Metoprolol 25mg - 50mg - 100mg",
@@ -12682,7 +13056,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Metoprolol serve para pressão alta?",
+        "resposta": "Sim, é betabloqueador indicado para hipertensão, angina, arritmias e insuficiência cardíaca. Age reduzindo a frequência cardíaca e a força de contração do coração."
+      },
+      {
+        "pergunta": "Metoprolol pode parar de tomar de repente?",
+        "resposta": "Não. A interrupção abrupta pode causar angina de rebote, infarto e arritmias graves — especialmente em cardiopatas. A dose deve ser reduzida gradualmente sempre com orientação médica."
+      },
+      {
+        "pergunta": "Metoprolol causa cansaço?",
+        "resposta": "Sim, fadiga e cansaço são efeitos comuns, especialmente no início. Geralmente melhoram com o tempo. Comunicar ao médico se o cansaço for limitante para as atividades do dia a dia."
+      },
+      {
+        "pergunta": "Metoprolol pode usar em diabético?",
+        "resposta": "Com cautela — pode mascarar os sintomas de hipoglicemia (tremor, palpitação) em diabéticos. Monitorar a glicemia com mais frequência e informar ao médico sobre o diabetes antes de iniciar."
+      },
+      {
+        "pergunta": "Metoprolol e atenolol têm diferença?",
+        "resposta": "Ambos são betabloqueadores cardiosseletivos, mas o metoprolol tem meia-vida mais curta e precisa ser tomado mais vezes ao dia (exceto a versão XL de liberação prolongada). O médico escolhe conforme o perfil do paciente."
+      }
+    ]
   },
   {
     "nome": "Metotrexato 2,5mg - 7,5mg - 10mg - 15mg - 25mg - Injetável",
@@ -12708,7 +13104,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Metotrexato serve para artrite reumatoide?",
+        "resposta": "Sim, em doses baixas semanais é o DMARD mais usado para artrite reumatoide, psoríase e artrite psoriásica. Reduz a inflamação e retarda o dano articular."
+      },
+      {
+        "pergunta": "Metotrexato toma todo dia?",
+        "resposta": "Não — nas doenças autoimunes é tomado uma vez por semana, não diariamente. Tomar diariamente pode causar toxicidade grave. A dose e o dia da semana devem ser seguidos rigorosamente."
+      },
+      {
+        "pergunta": "Metotrexato precisa tomar ácido fólico?",
+        "resposta": "Sim, o ácido fólico é prescrito junto com o metotrexato para reduzir efeitos colaterais como úlceras na boca e queda de cabelo. Geralmente tomado em dia diferente do metotrexato."
+      },
+      {
+        "pergunta": "Metotrexato faz mal ao fígado?",
+        "resposta": "Pode causar hepatotoxicidade com uso prolongado. Exames de função hepática devem ser monitorados regularmente. Evitar álcool completamente durante o tratamento."
+      },
+      {
+        "pergunta": "Metotrexato pode engravidar?",
+        "resposta": "Não. É fortemente teratogênico — causa malformações graves e aborto. Mulheres devem usar contracepção eficaz durante e por pelo menos 3 meses após o tratamento. Homens também devem aguardar 3 meses."
+      }
+    ]
   },
   {
     "nome": "Metronidazol 250mg - 400mg - 500mg",
@@ -12739,7 +13157,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": true
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Metronidazol serve para que tipo de infecção?",
+        "resposta": "É antibiótico e antiprotozoário eficaz para giardíase, tricomoníase, vaginose bacteriana, amebíase, infecção por C. difficile e abscessos dentários. Age contra bactérias anaeróbias e protozoários."
+      },
+      {
+        "pergunta": "Metronidazol pode tomar com álcool?",
+        "resposta": "Não. A combinação causa reação tipo dissulfiram — náusea intensa, vômito, rubor e mal-estar. Evitar álcool durante o tratamento e por pelo menos 48 horas após a última dose."
+      },
+      {
+        "pergunta": "Metronidazol tem gosto metálico?",
+        "resposta": "Sim, gosto metálico na boca é um dos efeitos mais comuns e característicos. É inofensivo e passa após terminar o tratamento."
+      },
+      {
+        "pergunta": "Metronidazol pode tomar na gravidez?",
+        "resposta": "Com cautela — evitar no primeiro trimestre. A partir do segundo trimestre pode ser usado quando necessário para tratar vaginose bacteriana e tricomoníase, com orientação médica."
+      },
+      {
+        "pergunta": "Metronidazol escurece a urina?",
+        "resposta": "Sim, pode deixar a urina com coloração escura ou avermelhada — é inofensivo e causado pelo metabolismo do medicamento. Passa ao terminar o tratamento."
+      }
+    ]
   },
   {
     "nome": "Miconazol Creme - Pó - Gel Oral",
