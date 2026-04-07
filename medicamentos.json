@@ -17869,7 +17869,29 @@
     ],
     "receita_obrigatoria": false,
     "tipo_receita": "MIP",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Selênio serve para Hashimoto?",
+        "resposta": "Sim, há evidências de benefício na tireoidite de Hashimoto — pode reduzir anticorpos anti-TPO e melhorar a função tireoidiana. O Brasil tem solos pobres em selênio, tornando a deficiência comum."
+      },
+      {
+        "pergunta": "Castanha do Pará supre o selênio?",
+        "resposta": "Sim, 1 a 2 castanhas do Pará por dia fornecem a dose diária recomendada. É a fonte alimentar mais rica em selênio. Não exagerar — comer muitas diariamente pode causar toxicidade."
+      },
+      {
+        "pergunta": "Selênio em excesso faz mal?",
+        "resposta": "Sim, selenose por excesso causa queda de cabelo, unhas frágeis, hálito com odor de alho e neuropatia. Não exceder 400mcg/dia e não combinar múltiplas fontes sem orientação médica."
+      },
+      {
+        "pergunta": "Selênio pode tomar todo dia?",
+        "resposta": "Sim, em doses de até 200mcg por dia é geralmente seguro para adultos. Doses acima de 400mcg por dia representam risco de toxicidade."
+      },
+      {
+        "pergunta": "Selênio serve como antioxidante?",
+        "resposta": "Sim, é componente essencial de enzimas antioxidantes como a glutationa peroxidase. Protege as células do dano oxidativo e tem papel importante na função imunológica e reprodutiva."
+      }
+    ]
   },
   {
     "nome": "Semaglutida 0,25mg - 0,5mg - 1mg - 2,4mg (Ozempic / Wegovy / Poviztra / Extensior)",
@@ -18144,7 +18166,29 @@
     "receita_cor": "verde",
     "receita_obrigatoria": false,
     "tipo_receita": "MIP",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Simeticona serve para gases?",
+        "resposta": "Sim, alivia flatulência, distensão abdominal e cólicas gasosas quebrando as bolhas de gás no intestino. Não é absorvida pelo corpo — age exclusivamente localmente."
+      },
+      {
+        "pergunta": "Simeticona pode usar em bebê?",
+        "resposta": "Sim, as gotas são muito usadas para cólicas gasosas em bebês. É segura por não ser absorvida. Seguir a dose recomendada pelo pediatra conforme o peso."
+      },
+      {
+        "pergunta": "Simeticona causa dependência?",
+        "resposta": "Não. Por não ser absorvida e não ter ação sistêmica, não causa nenhum tipo de dependência. Pode ser usada conforme necessário."
+      },
+      {
+        "pergunta": "Simeticona pode tomar na gravidez?",
+        "resposta": "Sim, é considerada segura na gestação por não ser absorvida pelo organismo. Sempre com conhecimento do obstetra."
+      },
+      {
+        "pergunta": "Simeticona serve para cólica de bebê?",
+        "resposta": "É muito usada para esse fim, mas a evidência científica sobre eficácia nas cólicas do lactente é limitada. Alguns bebês respondem bem, outros não. O pediatra orienta sobre uso e expectativas."
+      }
+    ]
   },
   {
     "nome": "Sinvastatina 10mg - 20mg - 40mg - 80mg",
@@ -18376,7 +18420,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Sucralfato serve para úlcera?",
+        "resposta": "Sim, forma uma camada protetora sobre a mucosa lesionada do estômago e duodeno, protegendo a úlcera do ácido e facilitando a cicatrização. Não reduz a produção de ácido — mecanismo diferente dos IBPs."
+      },
+      {
+        "pergunta": "Sucralfato quando tomar?",
+        "resposta": "Deve ser tomado em jejum — 1 hora antes das refeições e ao deitar. O estômago vazio permite melhor adesão à mucosa. Não tomar junto com outros medicamentos."
+      },
+      {
+        "pergunta": "Sucralfato pode tomar com omeprazol?",
+        "resposta": "Pode ser usado junto, mas em horários separados. O sucralfato interfere na absorção de vários medicamentos — separar por pelo menos 2 horas de outros remédios."
+      },
+      {
+        "pergunta": "Sucralfato causa constipação?",
+        "resposta": "Sim, prisão de ventre é o efeito colateral mais comum. Aumentar fibras e líquidos na dieta ajuda a minimizar esse efeito."
+      },
+      {
+        "pergunta": "Sucralfato pode usar na gravidez?",
+        "resposta": "Sim, é considerado seguro na gestação por não ser absorvido sistemicamente. É uma das opções mais seguras para gastrite e úlcera em grávidas, sempre com orientação médica."
+      }
+    ]
   },
   {
     "nome": "Sulfadiazina de Prata 1% creme",
@@ -18408,7 +18474,29 @@
     ],
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": true
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Sulfadiazina de prata serve para queimadura?",
+        "resposta": "Sim, é o antibiótico tópico padrão para prevenção e tratamento de infecções em queimaduras de 2º e 3º grau. A prata tem ampla ação bactericida incluindo Pseudomonas — bactéria comum em queimaduras."
+      },
+      {
+        "pergunta": "Sulfadiazina de prata como usar?",
+        "resposta": "Aplicar em camada fina (2-4mm) sobre a área queimada limpa, com espátula estéril ou luva, 1 a 2 vezes ao dia. Geralmente usada em ambiente hospitalar ou com orientação profissional."
+      },
+      {
+        "pergunta": "Sulfadiazina de prata pode usar em ferida comum?",
+        "resposta": "É usada em feridas complexas como úlceras de pressão, feridas cirúrgicas e enxertos. Para feridas simples, existem opções mais adequadas — consultar o profissional de saúde."
+      },
+      {
+        "pergunta": "Sulfadiazina de prata pode usar em criança?",
+        "resposta": "Com cuidado — pode ser absorvida em grandes áreas queimadas e causar efeitos sistêmicos. Em prematuros e recém-nascidos é contraindicada pelo risco de kernicterus."
+      },
+      {
+        "pergunta": "Sulfadiazina de prata mancha a pele?",
+        "resposta": "Pode deixar coloração acinzentada temporária na pele. A argiria (mancha permanente) é rara com uso tópico de curta duração."
+      }
+    ]
   },
   {
     "nome": "Sulfametoxazol + Trimetoprima 400mg/80mg - 800mg/160mg - Suspensão",
@@ -18438,7 +18526,29 @@
     ],
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": true
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Sulfametoxazol com Trimetoprima (Bactrim) serve para infecção urinária?",
+        "resposta": "Sim, é um dos antibióticos mais usados para cistite e pielonefrite. Porém a resistência bacteriana aumentou — o médico pode solicitar urocultura para confirmar a sensibilidade."
+      },
+      {
+        "pergunta": "Bactrim pode usar na gravidez?",
+        "resposta": "Contraindicado no primeiro trimestre e perto do parto. No segundo trimestre pode ser usado com orientação médica em casos específicos. Informar ao médico sobre a gestação."
+      },
+      {
+        "pergunta": "Bactrim pode causar reação grave na pele?",
+        "resposta": "Sim, pode causar Síndrome de Stevens-Johnson em casos raros. Qualquer erupção cutânea durante o tratamento deve ser comunicada ao médico imediatamente."
+      },
+      {
+        "pergunta": "Bactrim pode tomar com sol?",
+        "resposta": "Evitar exposição solar intensa — pode causar fotossensibilidade. Usar protetor solar e roupas de proteção durante o tratamento."
+      },
+      {
+        "pergunta": "Bactrim pode usar para pneumocistose?",
+        "resposta": "Sim, é o tratamento de escolha para pneumonia por Pneumocystis jirovecii em pacientes imunossuprimidos (HIV, transplantados), além de ser usado como profilaxia nessa população."
+      }
+    ]
   },
   {
     "nome": "Sulfassalazina 500mg",
@@ -18469,7 +18579,29 @@
     ],
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Sulfassalazina serve para artrite reumatoide?",
+        "resposta": "Sim, é DMARD usado na artrite reumatoide e artrite psoriásica. Também é anti-inflamatório intestinal para retocolite ulcerativa e doença de Crohn leve a moderada."
+      },
+      {
+        "pergunta": "Sulfassalazina deixa a urina laranja?",
+        "resposta": "Sim, coloração alaranjada da urina, suor e lágrimas é efeito característico e completamente inofensivo. Pode manchar lentes de contato moles."
+      },
+      {
+        "pergunta": "Sulfassalazina afeta a fertilidade masculina?",
+        "resposta": "Sim, pode causar oligospermia reversível (redução de espermatozoides) em homens. O efeito é reversível após a suspensão do medicamento. Comunicar ao médico se estiver planejando ter filhos."
+      },
+      {
+        "pergunta": "Sulfassalazina pode usar na gravidez?",
+        "resposta": "Com cautela — é considerada relativamente segura na gestação para doença inflamatória intestinal, mas deve ser usada com ácido fólico em dose maior. Sempre com orientação do médico."
+      },
+      {
+        "pergunta": "Sulfassalazina demora para fazer efeito?",
+        "resposta": "Sim, o efeito completo em artrite reumatoide leva de 4 a 12 semanas. Persistir no tratamento é fundamental — não interromper por falta de efeito nas primeiras semanas."
+      }
+    ]
   },
   {
     "nome": "Sulfato Ferroso 40mg - 300mg - Gotas - Xarope - Injetável",
@@ -18495,7 +18627,29 @@
     "receita_cor": "verde",
     "receita_obrigatoria": false,
     "tipo_receita": "MIP",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Sulfato ferroso serve para anemia?",
+        "resposta": "Sim, é a forma mais usada de ferro para tratamento da anemia ferropriva. Repõe o ferro necessário para produção de hemoglobina, melhorando o transporte de oxigênio no sangue."
+      },
+      {
+        "pergunta": "Sulfato ferroso escurece as fezes?",
+        "resposta": "Sim, fezes escuras ou enegrecidas são normais e esperadas — é o ferro não absorvido sendo eliminado. Não é sinal de sangramento intestinal."
+      },
+      {
+        "pergunta": "Sulfato ferroso causa enjoo?",
+        "resposta": "Sim, náusea, constipação e dor abdominal são comuns. Tomar com alimento reduz o desconforto, mas também reduz um pouco a absorção. O médico orienta o melhor equilíbrio."
+      },
+      {
+        "pergunta": "Sulfato ferroso pode tomar com vitamina C?",
+        "resposta": "Sim, a vitamina C potencializa significativamente a absorção do ferro. Tomar com suco de laranja natural é uma boa estratégia. Evitar café, chá, leite e antiácidos próximo ao horário."
+      },
+      {
+        "pergunta": "Sulfato ferroso o SUS fornece?",
+        "resposta": "Sim, é disponibilizado gratuitamente pelo SUS para gestantes, crianças e pacientes com anemia cadastrados. Consultar a UBS mais próxima."
+      }
+    ]
   },
   {
     "nome": "Sulpirida 50mg - 200mg",
@@ -18525,7 +18679,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "C1",
-    "retencao_receita": true
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Sulpirida serve para gastrite?",
+        "resposta": "Sim, em doses baixas (50mg) tem ação procinética e antiemética, usada para gastrite, dispepsia funcional e náuseas. Em doses altas trata psicose e depressão refratária."
+      },
+      {
+        "pergunta": "Sulpirida causa produção de leite?",
+        "resposta": "Sim, galactorreia (produção de leite em homens e mulheres) é um efeito característico por elevar a prolactina. Comunicar ao médico se ocorrer."
+      },
+      {
+        "pergunta": "Sulpirida dá sono?",
+        "resposta": "Em doses baixas para gastrite, a sonolência é leve. Em doses antipsicóticas mais altas, a sedação é mais marcante."
+      },
+      {
+        "pergunta": "Sulpirida pode causar irregularidade menstrual?",
+        "resposta": "Sim, o aumento de prolactina pode causar amenorreia (ausência de menstruação) em mulheres. Comunicar ao médico se o ciclo menstrual for afetado."
+      },
+      {
+        "pergunta": "Sulpirida precisa de receita?",
+        "resposta": "Sim, exige receita controlada por ser antipsicótico. Mesmo em doses baixas para gastrite, a prescrição médica é obrigatória."
+      }
+    ]
   },
   {
     "nome": "Sumatriptana 50mg - 100mg - 6mg/0,5mL Injetável",
@@ -18556,7 +18732,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Sumatriptana serve para enxaqueca?",
+        "resposta": "Sim, é o triptano de referência para tratamento agudo da enxaqueca com ou sem aura. Age contraindo vasos cranianos dilatados e bloqueando a liberação de substâncias inflamatórias."
+      },
+      {
+        "pergunta": "Sumatriptana injetável é mais rápida?",
+        "resposta": "Sim, a injeção subcutânea age em 10 a 15 minutos — muito mais rápida que o comprimido (30 a 60 min). Indicada para crises muito intensas ou quando há vômitos que impedem o uso oral."
+      },
+      {
+        "pergunta": "Sumatriptana pode usar com quantas crises?",
+        "resposta": "Não deve ser usada mais de 10 dias por mês — o uso excessivo pode causar cefaleia por uso excessivo de medicamento (CUEM), tornando as dores mais frequentes."
+      },
+      {
+        "pergunta": "Sumatriptana causa aperto no peito?",
+        "resposta": "Sim, sensação de aperto ou pressão no peito é relativamente comum — geralmente não é de origem cardíaca. Porém em pacientes com risco cardiovascular deve ser avaliada com cuidado pelo médico."
+      },
+      {
+        "pergunta": "Sumatriptana pode usar na gravidez?",
+        "resposta": "Não é recomendada na gestação. O paracetamol é a opção mais segura para enxaqueca na gravidez. Consultar o médico para avaliação individualizada."
+      }
+    ]
   },
   {
     "nome": "Tacrolimo 0,03% - 0,1% Pomada",
@@ -18586,7 +18784,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Tacrolimo pomada serve para dermatite atópica?",
+        "resposta": "Sim, é imunossupressor tópico de segunda linha para dermatite atópica moderada a grave. Não causa atrofia da pele — vantagem importante sobre corticoides em áreas sensíveis como rosto e dobras."
+      },
+      {
+        "pergunta": "Tacrolimo pode usar no rosto?",
+        "resposta": "Sim, é especialmente indicado para áreas sensíveis como rosto, pálpebras, pescoço e dobras — onde corticoides têm maior risco de atrofia com uso prolongado."
+      },
+      {
+        "pergunta": "Tacrolimo 0,03% e 0,1% têm diferença?",
+        "resposta": "Sim. O 0,03% é para crianças (2-15 anos) e formas mais leves em adultos. O 0,1% é mais potente, indicado para adultos com dermatite moderada a grave."
+      },
+      {
+        "pergunta": "Tacrolimo causa ardência?",
+        "resposta": "Sim, sensação de queimação, prurido e calor no início do uso são comuns e transitórios — diminuem com a continuidade do tratamento e a melhora da pele."
+      },
+      {
+        "pergunta": "Tacrolimo pode usar em criança?",
+        "resposta": "A concentração 0,03% é aprovada para crianças a partir de 2 anos. Não usar em crianças menores de 2 anos. Seguir rigorosamente a orientação do dermatologista pediátrico."
+      }
+    ]
   },
   {
     "nome": "Tadalafila 5mg - 10mg - 20mg",
@@ -18612,7 +18832,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Tadalafila dura mais que o Viagra?",
+        "resposta": "Sim, dura até 36 horas — muito mais que a sildenafila (4-6h). Por isso é chamada de 'pílula do fim de semana'. Em dose diária de 5mg, mantém efeito contínuo para disfunção erétil e próstata."
+      },
+      {
+        "pergunta": "Tadalafila 5mg diária serve para próstata?",
+        "resposta": "Sim, a dose diária de 5mg trata simultaneamente a disfunção erétil e os sintomas urinários da hiperplasia prostática benigna — conveniente para homens com as duas condições."
+      },
+      {
+        "pergunta": "Tadalafila pode tomar com nitrato?",
+        "resposta": "Não. A combinação com nitratos (nitroglicerina, isossorbida) causa queda grave e súbita da pressão arterial, potencialmente fatal. Contraindicação absoluta."
+      },
+      {
+        "pergunta": "Tadalafila causa dor nas costas?",
+        "resposta": "Sim, dor nas costas e dor muscular são efeitos característicos da tadalafila — mais que com outros medicamentos do mesmo grupo. Geralmente surgem 12 a 24 horas após o uso e passam espontaneamente."
+      },
+      {
+        "pergunta": "Tadalafila pode usar todo dia?",
+        "resposta": "Sim, a dose de 5mg é aprovada para uso diário — tanto para disfunção erétil quanto para sintomas prostáticos. Mantém níveis constantes no sangue, eliminando a necessidade de planejar o uso."
+      }
+    ]
   },
   {
     "nome": "Tansulosina 0,4mg",
@@ -18645,7 +18887,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Tansulosina serve para próstata?",
+        "resposta": "Sim, é alfa-bloqueador que relaxa a musculatura da próstata e uretra, melhorando o fluxo urinário em homens com hiperplasia prostática benigna — reduz urgência, frequência e dificuldade de urinar."
+      },
+      {
+        "pergunta": "Tansulosina causa ejaculação retrógrada?",
+        "resposta": "Sim, ejaculação retrógrada é um efeito comum — o sêmen vai para a bexiga em vez de ser ejaculado. É inofensivo para a saúde mas pode afetar a fertilidade. Comunicar ao médico se for um problema."
+      },
+      {
+        "pergunta": "Tansulosina pode usar antes de cirurgia de catarata?",
+        "resposta": "Informar ao oftalmologista antes da cirurgia — pode causar síndrome da íris flácida intraoperatória, complicando o procedimento. O médico decide se deve ser suspenso."
+      },
+      {
+        "pergunta": "Tansulosina baixa a pressão?",
+        "resposta": "Pode causar hipotensão ortostática — tontura ao levantar. Tomar à noite antes de dormir reduz esse risco. Levantar devagar da cama."
+      },
+      {
+        "pergunta": "Tansulosina também serve para pedra nos rins?",
+        "resposta": "Sim, é usada off-label para facilitar a expulsão espontânea de cálculos ureterais distais (pedras pequenas no rim) — relaxa o ureter, facilitando a passagem da pedra."
+      }
+    ]
   },
   {
     "nome": "Tapentadol 50mg - 100mg - 150mg - 200mg - 250mg",
@@ -18675,7 +18939,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "A",
-    "retencao_receita": true
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Tapentadol serve para dor forte?",
+        "resposta": "Sim, é analgésico opioide com duplo mecanismo para dor intensa, especialmente dor neuropática. Potência intermediária entre tramadol e morfina — eficaz quando opioides convencionais têm menor resultado."
+      },
+      {
+        "pergunta": "Tapentadol causa constipação?",
+        "resposta": "Sim, mas menos que outros opioides puros — o componente noradrenérgico pode atenuar o efeito constipante. Ainda assim, aumentar fibras e líquidos é recomendado."
+      },
+      {
+        "pergunta": "Tapentadol causa dependência?",
+        "resposta": "Sim, é opioide com potencial de dependência e abuso. Exige receita controlada e uso rigorosamente conforme prescrito. Nunca aumentar a dose por conta própria."
+      },
+      {
+        "pergunta": "Tapentadol pode tomar com antidepressivo?",
+        "resposta": "Com cuidado — a combinação com ISRSs e IRSNs pode aumentar o risco de síndrome serotoninérgica. Informar ao médico todos os medicamentos em uso."
+      },
+      {
+        "pergunta": "Tapentadol é controlado?",
+        "resposta": "Sim, exige receita de controle especial (notificação A2) por ser opioide. A receita é retida na farmácia."
+      }
+    ]
   },
   {
     "nome": "Telmisartana 40mg - 80mg",
@@ -18707,7 +18993,29 @@
     ],
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Telmisartana serve para pressão alta?",
+        "resposta": "Sim, é BRA de maior duração de ação entre os disponíveis — cobertura completa de 24 horas com dose única. Também tem efeitos metabólicos favoráveis, melhorando levemente a sensibilidade à insulina."
+      },
+      {
+        "pergunta": "Telmisartana pode usar na gravidez?",
+        "resposta": "Não. Contraindicada na gravidez — pode causar malformações graves nos rins do bebê. Trocar imediatamente ao engravidar."
+      },
+      {
+        "pergunta": "Telmisartana aumenta o potássio?",
+        "resposta": "Pode elevar o potássio (hipercalemia), especialmente em diabéticos e com doença renal. Monitoramento com exames regulares é necessário."
+      },
+      {
+        "pergunta": "Telmisartana é melhor que losartana?",
+        "resposta": "Tem duração de ação mais longa, o que pode ser vantajoso para pacientes que esquecem doses. A eficácia anti-hipertensiva é similar. O médico escolhe conforme o perfil de cada paciente."
+      },
+      {
+        "pergunta": "Telmisartana pode tomar com diurético?",
+        "resposta": "Sim, a combinação com hidroclorotiazida é muito usada e complementar para controle da pressão. Inclusive existe comprimido que já associa os dois."
+      }
+    ]
   },
   {
     "nome": "Tenofovir 300mg",
@@ -18733,7 +19041,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "hospitalar",
-    "retencao_receita": true
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Tenofovir serve para HIV?",
+        "resposta": "Sim, é antirretroviral usado no tratamento do HIV em combinação com outros medicamentos. Também é componente do PrEP — profilaxia pré-exposição para pessoas HIV negativas com alto risco de contágio."
+      },
+      {
+        "pergunta": "Tenofovir serve para hepatite B?",
+        "resposta": "Sim, é um dos antivirais mais eficazes para hepatite B crônica. Suprime a replicação do vírus e reduz o risco de cirrose e câncer hepático."
+      },
+      {
+        "pergunta": "Tenofovir faz mal ao rim?",
+        "resposta": "Pode causar toxicidade renal com uso prolongado — monitoramento de creatinina e função renal é obrigatório durante o tratamento. Em pacientes com doença renal, a dose é ajustada ou substituída."
+      },
+      {
+        "pergunta": "Tenofovir pode parar de tomar?",
+        "resposta": "Não sem orientação médica. Interromper o tratamento do HIV pode causar resistência viral. Na hepatite B, a interrupção pode levar a reativação grave do vírus."
+      },
+      {
+        "pergunta": "Tenofovir é fornecido pelo SUS?",
+        "resposta": "Sim, é disponibilizado gratuitamente pelo SUS para tratamento do HIV e hepatite B, além de estar incluído no programa PrEP para prevenção do HIV."
+      }
+    ]
   },
   {
     "nome": "Teofilina 100mg - 200mg - 300mg",
@@ -18765,7 +19095,29 @@
     ],
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Teofilina serve para asma?",
+        "resposta": "Sim, é broncodilatador oral usado em asma e DPOC, mas hoje é considerado medicamento de terceira linha — pela janela terapêutica estreita e muitas interações. Usado quando outros tratamentos são insuficientes."
+      },
+      {
+        "pergunta": "Teofilina precisa de exames de sangue?",
+        "resposta": "Sim, monitoramento dos níveis séricos é essencial — a diferença entre dose eficaz e tóxica é pequena. Infecções, medicamentos e cigarro podem alterar os níveis."
+      },
+      {
+        "pergunta": "Teofilina pode causar convulsão?",
+        "resposta": "Sim, em níveis tóxicos pode causar convulsões e arritmias graves. Por isso exige monitoramento regular e ajuste cuidadoso da dose."
+      },
+      {
+        "pergunta": "Teofilina pode tomar com café?",
+        "resposta": "Com moderação — cafeína é da mesma família (metilxantinas) e pode potencializar os efeitos e a toxicidade da teofilina. Reduzir o consumo de café durante o tratamento."
+      },
+      {
+        "pergunta": "Teofilina tem muitas interações?",
+        "resposta": "Sim, tem inúmeras interações — com antibióticos, anticonvulsivantes, cimetidina, cigarro e muitos outros. Sempre informar ao médico todos os medicamentos em uso."
+      }
+    ]
   },
   {
     "nome": "Terbinafina 250mg - Creme",
@@ -18791,7 +19143,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Terbinafina serve para micose de unha?",
+        "resposta": "Sim, é o antifúngico oral mais eficaz para onicomicose (micose de unhas). O tratamento dura 6 semanas para unhas das mãos e 12 semanas para unhas dos pés — tempo necessário para a unha crescer saudável."
+      },
+      {
+        "pergunta": "Terbinafina altera o paladar?",
+        "resposta": "Sim, disgeusia (alteração do gosto dos alimentos) é um efeito bastante relatado — os alimentos podem ter sabor metálico ou diferente. Geralmente reversível após terminar o tratamento."
+      },
+      {
+        "pergunta": "Terbinafina creme serve para pé de atleta?",
+        "resposta": "Sim, o creme é eficaz para tinha dos pés (pé de atleta), tinha do corpo e tinha da virilha. Para micose de unhas, o comprimido oral é necessário pois o creme não penetra adequadamente."
+      },
+      {
+        "pergunta": "Terbinafina pode tomar na gravidez?",
+        "resposta": "Não é recomendada na gestação. Para micose de unhas em grávidas, aguardar o parto ou usar alternativa tópica com orientação médica."
+      },
+      {
+        "pergunta": "Terbinafina faz mal ao fígado?",
+        "resposta": "Pode causar hepatotoxicidade — mais rara mas possível. Exames de função hepática são recomendados antes e durante o tratamento prolongado. Comunicar qualquer sinal de icterícia ao médico."
+      }
+    ]
   },
   {
     "nome": "Teriparatida (Forteo)",
@@ -18823,7 +19197,29 @@
     ],
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Teriparatida serve para osteoporose grave?",
+        "resposta": "Sim, é o único anabólico ósseo aprovado — estimula a formação de osso novo em vez de apenas inibir a reabsorção. Indicado para osteoporose grave com múltiplas fraturas ou falha a outros tratamentos."
+      },
+      {
+        "pergunta": "Teriparatida é injetável?",
+        "resposta": "Sim, é injeção subcutânea diária aplicada na coxa ou abdômen. A caneta aplicadora é prática — o médico ensina a técnica. Tratamento limitado a no máximo 24 meses na vida."
+      },
+      {
+        "pergunta": "Teriparatida pode ser usada após bisfosfonato?",
+        "resposta": "Sim, frequentemente é usada após bisfosfonatos em casos de osteoporose grave progressiva. Após terminar o Forteo, geralmente se volta a um bisfosfonato para manter o ganho ósseo."
+      },
+      {
+        "pergunta": "Teriparatida causa tontura?",
+        "resposta": "Sim, tontura e náusea especialmente após a injeção são comuns no início. Aplicar deitado e aguardar alguns minutos antes de levantar ajuda a reduzir o desconforto."
+      },
+      {
+        "pergunta": "Teriparatida tem limite de tempo de uso?",
+        "resposta": "Sim, o uso é limitado a 24 meses no total ao longo da vida — por precaução baseada em estudos em animais com doses muito altas. Após esse período, outro tratamento para osteoporose é indicado."
+      }
+    ]
   },
   {
     "nome": "Testosterona",
@@ -18858,7 +19254,29 @@
     ],
     "receita_obrigatoria": true,
     "tipo_receita": "C1",
-    "retencao_receita": true
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Testosterona serve para hipogonadismo?",
+        "resposta": "Sim, é a reposição hormonal indicada para hipogonadismo masculino (deficiência de testosterona) com sintomas como fadiga, redução de libido, disfunção erétil e perda de massa muscular."
+      },
+      {
+        "pergunta": "Testosterona causa infertilidade?",
+        "resposta": "Sim, a reposição suprime a produção própria de espermatozoides. Homens que desejam ter filhos devem discutir alternativas com o médico antes de iniciar a reposição."
+      },
+      {
+        "pergunta": "Testosterona gel é melhor que injeção?",
+        "resposta": "Cada forma tem vantagens. O gel mantém níveis mais estáveis e sem picos. A injeção é mais conveniente (quinzenal ou mensal). O médico indica a melhor forma conforme o perfil e preferência do paciente."
+      },
+      {
+        "pergunta": "Testosterona em mulher é possível?",
+        "resposta": "Sim, em doses muito menores é usada em mulheres para disfunção sexual hipoativa e como parte da terapia hormonal na menopausa em casos selecionados, sempre com indicação médica específica."
+      },
+      {
+        "pergunta": "Testosterona aumenta o risco de câncer de próstata?",
+        "resposta": "Não causa câncer de próstata, mas pode estimular tumores já existentes. Por isso é contraindicada em câncer de próstata confirmado ou suspeito. Rastreamento é necessário antes e durante o tratamento."
+      }
+    ]
   },
   {
     "nome": "Tibolona 2,5mg",
@@ -18889,7 +19307,29 @@
     ],
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Tibolona serve para menopausa?",
+        "resposta": "Sim, trata os sintomas da menopausa como fogachos, sudorese noturna e secura vaginal. Também previne osteoporose. Tem ações estrogênica, progestagênica e androgênica leve em um único comprimido."
+      },
+      {
+        "pergunta": "Tibolona engorda?",
+        "resposta": "Pode causar leve ganho de peso e retenção de líquidos. O efeito é geralmente menor que com terapias combinadas de estrogênio + progesterona."
+      },
+      {
+        "pergunta": "Tibolona aumenta o risco de câncer de mama?",
+        "resposta": "Estudos mostram leve aumento do risco de câncer de mama com uso prolongado — semelhante a outras terapias hormonais. Discutir o risco-benefício com o médico, especialmente em mulheres com histórico familiar."
+      },
+      {
+        "pergunta": "Tibolona pode causar sangramento vaginal?",
+        "resposta": "Sim, sangramento ou manchas vaginais são comuns especialmente no início do tratamento. Persistindo além de 6 meses, deve ser investigado com o ginecologista."
+      },
+      {
+        "pergunta": "Tibolona pode usar com soja ou fitohormônios?",
+        "resposta": "Não misturar com outros tratamentos hormonais sem orientação médica — incluindo fitohormônios de soja e isoflavonas. A combinação pode causar desequilíbrio hormonal e sangramento irregular."
+      }
+    ]
   },
   {
     "nome": "Tiotropio 18mcg Inalador",
