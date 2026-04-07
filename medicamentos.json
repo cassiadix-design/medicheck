@@ -14490,7 +14490,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": false,
     "tipo_receita": "MIP",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Nitazoxanida serve para giardíase?",
+        "resposta": "Sim, é indicada para giardíase, criptosporidiose, amebíase e outras infecções intestinais por parasitas e protozoários. Tem ação também contra algumas bactérias causadoras de diarreia."
+      },
+      {
+        "pergunta": "Nitazoxanida pode usar em criança?",
+        "resposta": "Sim, a suspensão é especialmente indicada para crianças. A dose é calculada por peso e faixa etária. É uma das opções mais seguras para parasitoses em crianças pequenas."
+      },
+      {
+        "pergunta": "Nitazoxanida precisa de receita?",
+        "resposta": "Sim, exige prescrição médica. É importante identificar o parasita causador antes de tratar para garantir que o medicamento seja adequado."
+      },
+      {
+        "pergunta": "Nitazoxanida causa diarreia?",
+        "resposta": "Náusea, vômito e dor abdominal são os efeitos mais comuns — podem se confundir com a própria doença. Geralmente são leves e passageiros. Tomar com alimentos ajuda a reduzir o desconforto."
+      },
+      {
+        "pergunta": "Nitazoxanida pode tomar na gravidez?",
+        "resposta": "Não há dados suficientes de segurança na gestação. Usar apenas se o benefício superar o risco, sempre com orientação médica."
+      }
+    ]
   },
   {
     "nome": "Nitrofurantoína 100mg",
@@ -14516,7 +14538,29 @@
     "receita_nota": "",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": true
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Nitrofurantoína serve para infecção urinária?",
+        "resposta": "Sim, é antibiótico específico para cistite (infecção da bexiga). Concentra-se na urina em doses bactericidas. Não é eficaz para infecção de rins (pielonefrite) ou infecções fora do trato urinário."
+      },
+      {
+        "pergunta": "Nitrofurantoína escurece a urina?",
+        "resposta": "Sim, a urina pode ficar amarela-escura ou marrom durante o tratamento — é inofensivo e esperado. Não é sinal de problema."
+      },
+      {
+        "pergunta": "Nitrofurantoína pode tomar na gravidez?",
+        "resposta": "Pode ser usada no primeiro e segundo trimestre com orientação médica. Contraindicada no final da gestação (a partir de 36 semanas) pelo risco de anemia hemolítica no recém-nascido."
+      },
+      {
+        "pergunta": "Nitrofurantoína causa enjoo?",
+        "resposta": "Sim, náusea e vômito são comuns. Tomar com alimento reduz significativamente o desconforto gástrico."
+      },
+      {
+        "pergunta": "Nitrofurantoína pode usar em insuficiência renal?",
+        "resposta": "Não. Não atinge concentrações adequadas na urina em pacientes com função renal reduzida — além de risco de acúmulo e toxicidade. Outros antibióticos devem ser usados nesses casos."
+      }
+    ]
   },
   {
     "nome": "Nitrofurantoína 100mg macrocristal",
@@ -14547,7 +14591,29 @@
     ],
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": true
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Nitrofurantoína macrocristal é melhor que a comum?",
+        "resposta": "Tem melhor tolerabilidade gástrica — causa menos náusea — e é tomada apenas 2 vezes ao dia, o que facilita a adesão ao tratamento. O princípio ativo é o mesmo."
+      },
+      {
+        "pergunta": "Nitrofurantoína macrocristal serve para infecção urinária?",
+        "resposta": "Sim, é antibiótico específico para cistite (infecção da bexiga). Concentra-se na urina em doses bactericidas. Não trata infecções de rins ou outras localizações."
+      },
+      {
+        "pergunta": "Nitrofurantoína macrocristal escurece a urina?",
+        "resposta": "Sim, coloração amarela-escura ou marrom na urina é normal e esperada durante o tratamento — causada pelo medicamento e seus metabólitos. Não é motivo de preocupação."
+      },
+      {
+        "pergunta": "Nitrofurantoína macrocristal pode usar por longo prazo?",
+        "resposta": "Em doses baixas pode ser usada na prevenção de infecções urinárias recorrentes, mas o uso prolongado exige monitoramento — risco raro de toxicidade pulmonar e hepática."
+      },
+      {
+        "pergunta": "Nitrofurantoína macrocristal pode usar na gravidez?",
+        "resposta": "Pode ser usada no primeiro e segundo trimestre com orientação médica. Contraindicada no final da gestação pelo risco para o recém-nascido."
+      }
+    ]
   },
   {
     "nome": "Nitroglicerina / Trinitrato de Glicerina Spray 0,4mg/dose",
@@ -14578,7 +14644,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Nitroglicerina spray serve para angina?",
+        "resposta": "Sim, é o tratamento de escolha para alívio imediato da crise de angina (dor no peito). Age em segundos a poucos minutos dilatando as coronárias e reduzindo a carga de trabalho do coração."
+      },
+      {
+        "pergunta": "Nitroglicerina spray como usar?",
+        "resposta": "Aplicar 1 jato embaixo da língua durante a crise. Se a dor não melhorar em 5 minutos, aplicar mais 1 jato. Se após 3 jatos a dor persistir, chamar o SAMU (192) — pode ser infarto."
+      },
+      {
+        "pergunta": "Nitroglicerina causa dor de cabeça?",
+        "resposta": "Sim, cefaleia intensa é o efeito mais comum — sinal de que o medicamento está funcionando ao dilatar os vasos. Geralmente passa em poucos minutos."
+      },
+      {
+        "pergunta": "Nitroglicerina pode usar com Viagra?",
+        "resposta": "Não. A combinação com sildenafila (Viagra), tadalafila ou vardenafila pode causar queda grave e súbita da pressão arterial, potencialmente fatal. Contraindicação absoluta."
+      },
+      {
+        "pergunta": "Nitroglicerina spray tem prazo de validade?",
+        "resposta": "Sim. Após aberto, o prazo é geralmente de 6 a 12 meses. Guardar longe de calor e luz. Verificar regularmente a validade — em emergência, o medicamento degradado pode não funcionar."
+      }
+    ]
   },
   {
     "nome": "Nortriptilina 10mg - 25mg - 50mg - 75mg",
@@ -14610,7 +14698,29 @@
     ],
     "receita_obrigatoria": true,
     "tipo_receita": "C1",
-    "retencao_receita": true
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Nortriptilina serve para depressão?",
+        "resposta": "Sim, é antidepressivo tricíclico usado para depressão maior, dor neuropática crônica, fibromialgia, nevralgia pós-herpética, ansiedade e prevenção de enxaqueca."
+      },
+      {
+        "pergunta": "Nortriptilina serve para dor crônica?",
+        "resposta": "Sim, em doses menores que as antidepressivas, é eficaz para dor neuropática. Age aumentando noradrenalina e modulando a percepção da dor no sistema nervoso central."
+      },
+      {
+        "pergunta": "Nortriptilina dá sono?",
+        "resposta": "Sim, sonolência é comum especialmente no início. Por isso geralmente é tomada à noite, o que pode ajudar quem tem insônia associada à depressão ou à dor crônica."
+      },
+      {
+        "pergunta": "Nortriptilina causa boca seca?",
+        "resposta": "Sim, boca seca, constipação e visão turva são efeitos anticolinérgicos típicos dos tricíclicos. Hidratação adequada e balas sem açúcar ajudam a aliviar a boca seca."
+      },
+      {
+        "pergunta": "Nortriptilina pode parar de tomar de repente?",
+        "resposta": "Não. A interrupção abrupta pode causar síndrome de descontinuação e rebote dos sintomas. Reduzir a dose gradualmente sempre com orientação médica."
+      }
+    ]
   },
   {
     "nome": "Novalgina — Dipirona Sódica",
@@ -14743,7 +14853,29 @@
     ],
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Olmesartana serve para pressão alta?",
+        "resposta": "Sim, é BRA (bloqueador do receptor de angiotensina) de longa duração para hipertensão. Dose única diária com controle estável de 24 horas. Considerado um dos BRAs mais potentes disponíveis."
+      },
+      {
+        "pergunta": "Olmesartana pode causar diarreia crônica?",
+        "resposta": "Sim, em casos raros pode causar enteropatia — diarreia crônica grave com perda de peso que pode ser confundida com doença celíaca. Se isso ocorrer, comunicar ao médico para avaliar suspensão."
+      },
+      {
+        "pergunta": "Olmesartana pode usar na gravidez?",
+        "resposta": "Não. Contraindicada na gravidez — pode causar malformações graves nos rins do bebê. Trocar para medicamento seguro imediatamente ao engravidar."
+      },
+      {
+        "pergunta": "Olmesartana aumenta o potássio?",
+        "resposta": "Pode elevar o potássio (hipercalemia). Monitorar com exames regulares, especialmente em diabéticos e pacientes com doença renal."
+      },
+      {
+        "pergunta": "Olmesartana e losartana têm diferença?",
+        "resposta": "São do mesmo grupo (BRA) mas a olmesartana tem duração de ação mais longa e é considerada mais potente na redução da pressão. A escolha depende do perfil do paciente e da resposta ao tratamento."
+      }
+    ]
   },
   {
     "nome": "Omeprazol 10mg - 20mg - 40mg",
@@ -14815,7 +14947,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Ondansetrom serve para enjoo?",
+        "resposta": "Sim, é antiemético potente para náuseas e vômitos de quimioterapia, radioterapia, cirurgias e hiperêmese gravídica. Age bloqueando receptores de serotonina (5-HT3) no intestino e no cérebro."
+      },
+      {
+        "pergunta": "Ondansetrom pode usar na gravidez?",
+        "resposta": "É usado para hiperêmese gravídica grave quando outros tratamentos falham, com avaliação médica cuidadosa do risco-benefício. Evitar no primeiro trimestre se possível."
+      },
+      {
+        "pergunta": "Ondansetrom causa constipação?",
+        "resposta": "Sim, prisão de ventre é o efeito colateral mais comum. Aumentar fibras e líquidos na dieta ajuda a controlar esse efeito durante o tratamento."
+      },
+      {
+        "pergunta": "Ondansetrom pode afetar o coração?",
+        "resposta": "Pode prolongar o intervalo QT do eletrocardiograma, aumentando risco de arritmias. Usar com cautela em cardiopatas e em combinação com outros medicamentos que prolongam o QT."
+      },
+      {
+        "pergunta": "Ondansetrom sublingual funciona igual ao comprimido comum?",
+        "resposta": "Sim, ambos têm eficácia similar. O comprimido ODT (dissolução oral) é conveniente quando há dificuldade de engolir ou quando vômitos intensos dificultam a ingestão de comprimidos comuns."
+      }
+    ]
   },
   {
     "nome": "Ondansetrona ODT 4mg - 8mg (Zofran)",
@@ -14846,7 +15000,29 @@
     ],
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Zofran serve para enjoo de quimioterapia?",
+        "resposta": "Sim, é um dos antieméticos mais eficazes para náuseas e vômitos de quimioterapia e radioterapia. O comprimido ODT dissolve na língua sem precisar de água — prático quando há vômitos intensos."
+      },
+      {
+        "pergunta": "Zofran ODT como usar?",
+        "resposta": "Colocar o comprimido sobre a língua — ele dissolve em segundos sem necessidade de água. Não mastigar nem engolir inteiro. Pode ser tomado mesmo em situações de náusea intensa."
+      },
+      {
+        "pergunta": "Zofran causa constipação?",
+        "resposta": "Sim, prisão de ventre é o efeito mais comum. Aumentar fibras e hidratação durante o tratamento ajuda a minimizar esse efeito."
+      },
+      {
+        "pergunta": "Zofran pode usar em criança?",
+        "resposta": "Sim, com orientação médica e dose adequada ao peso. É usado em pediatria para náuseas pós-operatórias e de quimioterapia."
+      },
+      {
+        "pergunta": "Zofran e Plasil são iguais?",
+        "resposta": "Não. Zofran tem ondansetrona (antagonista 5-HT3), mais potente para náuseas de quimioterapia. Plasil tem metoclopramida, com mecanismo diferente. Para enjoos comuns o Plasil pode ser suficiente; para quimioterapia o Zofran é superior."
+      }
+    ]
   },
   {
     "nome": "Oseltamivir 75mg - Suspensão",
@@ -14871,7 +15047,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Oseltamivir (Tamiflu) serve para gripe?",
+        "resposta": "Sim, é antiviral para tratamento e prevenção da gripe (influenza A e B), incluindo H1N1. Reduz a duração e gravidade dos sintomas quando iniciado nas primeiras 48 horas."
+      },
+      {
+        "pergunta": "Oseltamivir deve começar em até 48 horas?",
+        "resposta": "Sim, a eficácia é maior quando iniciado nas primeiras 48 horas após o início dos sintomas. Após esse período, ainda pode ser indicado em casos graves ou grupos de risco."
+      },
+      {
+        "pergunta": "Oseltamivir pode usar em criança?",
+        "resposta": "Sim, a suspensão oral é indicada para crianças. A dose é calculada pelo peso. É especialmente recomendado em crianças de risco (menores de 2 anos, imunossuprimidas, com doenças crônicas)."
+      },
+      {
+        "pergunta": "Oseltamivir serve para COVID-19?",
+        "resposta": "Não. O oseltamivir é específico para influenza (gripe). Não tem atividade contra o SARS-CoV-2 (COVID-19). São vírus diferentes que exigem antivirais específicos."
+      },
+      {
+        "pergunta": "Oseltamivir causa enjoo?",
+        "resposta": "Sim, náusea e vômito são os efeitos mais comuns. Tomar com alimento reduz significativamente o desconforto gástrico."
+      }
+    ]
   },
   {
     "nome": "Oxcarbazepina 300mg - 600mg",
@@ -14901,7 +15099,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "C1",
-    "retencao_receita": true
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Oxcarbazepina serve para epilepsia?",
+        "resposta": "Sim, é anticonvulsivante de segunda geração para epilepsia focal em adultos e crianças. Tem menos interações e melhor tolerabilidade que a carbamazepina, da qual é derivada."
+      },
+      {
+        "pergunta": "Oxcarbazepina pode baixar o sódio?",
+        "resposta": "Sim, hiponatremia (sódio baixo) é mais frequente com a oxcarbazepina do que com outros antiepilépticos. Monitorar o sódio regularmente — sintomas incluem confusão, fraqueza e convulsões."
+      },
+      {
+        "pergunta": "Oxcarbazepina pode parar de tomar de repente?",
+        "resposta": "Não. A interrupção abrupta pode desencadear crises convulsivas graves. Reduzir a dose gradualmente sempre com orientação médica."
+      },
+      {
+        "pergunta": "Oxcarbazepina reduz o efeito do anticoncepcional?",
+        "resposta": "Sim, pode reduzir a eficácia de anticoncepcionais hormonais orais. Usar método contraceptivo adicional (como preservativo) durante o tratamento."
+      },
+      {
+        "pergunta": "Oxcarbazepina serve para dor neuropática?",
+        "resposta": "Sim, é usada off-label para nevralgia do trigêmeo e outras dores neuropáticas — com eficácia semelhante à carbamazepina e melhor tolerabilidade."
+      }
+    ]
   },
   {
     "nome": "Oxibutinina 5mg - 10mg",
@@ -14932,7 +15152,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Oxibutinina serve para bexiga hiperativa?",
+        "resposta": "Sim, é anticolinérgico clássico para bexiga hiperativa — reduz urgência, frequência e incontinência urinária. Também usado off-label para hiperhidrose (suor excessivo)."
+      },
+      {
+        "pergunta": "Oxibutinina causa boca seca?",
+        "resposta": "Sim, boca seca intensa é o efeito colateral mais comum e limitante. É mais pronunciado que nos anticolinérgicos modernos como solifenacina e fesoterodina."
+      },
+      {
+        "pergunta": "Oxibutinina pode usar em idoso?",
+        "resposta": "Com cautela. Idosos são mais sensíveis aos efeitos anticolinérgicos — risco aumentado de confusão mental, déficit cognitivo, retenção urinária e quedas. Anticolinérgicos modernos ou mirabegrona são preferíveis."
+      },
+      {
+        "pergunta": "Oxibutinina serve para suor excessivo?",
+        "resposta": "Sim, é usada off-label para hiperhidrose (suor excessivo), inclusive em formulação tópica. Age reduzindo a ativação das glândulas sudoríparas pelo sistema nervoso."
+      },
+      {
+        "pergunta": "Oxibutinina pode piorar o glaucoma?",
+        "resposta": "Sim, é contraindicada em glaucoma de ângulo fechado. Também pode agravar retenção urinária em homens com próstata aumentada. Informar ao médico sobre essas condições antes de usar."
+      }
+    ]
   },
   {
     "nome": "Oximetazolina 0,05% Spray Nasal (Afrin)",
@@ -14963,7 +15205,29 @@
     ],
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Afrin pode usar por mais de 3 dias?",
+        "resposta": "Não. O uso por mais de 3 a 5 dias seguidos causa rinite medicamentosa — congestão de rebote pior que a original. Ao parar, o nariz fica entupido novamente, criando dependência do spray."
+      },
+      {
+        "pergunta": "Afrin alivia a congestão rapidamente?",
+        "resposta": "Sim, age em 5 a 10 minutos e dura até 12 horas. É um dos descongestionantes mais rápidos e eficazes disponíveis — mas exclusivamente para uso de curto prazo."
+      },
+      {
+        "pergunta": "Afrin pode usar em criança?",
+        "resposta": "A concentração 0,05% é para adultos e crianças acima de 6 anos. Para crianças menores, existe formulação 0,025% pediátrica. Não usar em bebês sem orientação médica."
+      },
+      {
+        "pergunta": "Afrin pode usar na gravidez?",
+        "resposta": "Não é recomendado na gestação — a oximetazolina pode reduzir o fluxo sanguíneo para a placenta. O soro fisiológico (Neosoro/Sorine) é a alternativa mais segura para congestão nasal na gravidez."
+      },
+      {
+        "pergunta": "Como parar de usar Afrin sem sofrimento?",
+        "resposta": "Reduzir gradualmente — usar em apenas uma narina por vez, alternando. O médico pode prescrever corticoide nasal (como mometasona) para facilitar a retirada do descongestionante sem congestão intensa."
+      }
+    ]
   },
   {
     "nome": "Paliperidona 3mg - 6mg - 9mg - 12mg",
@@ -14994,7 +15258,29 @@
     ],
     "receita_obrigatoria": true,
     "tipo_receita": "C1",
-    "retencao_receita": true
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Paliperidona serve para esquizofrenia?",
+        "resposta": "Sim, é antipsicótico atípico para esquizofrenia e transtorno esquizoafetivo. É o metabólito ativo da risperidona. Disponível em comprimidos de liberação prolongada e injeção de depósito mensal ou trimestral."
+      },
+      {
+        "pergunta": "Paliperidona injetável mensal existe?",
+        "resposta": "Sim, o Xeplion é a versão injetável mensal e o Trevicta é trimestral. São opções importantes para pacientes com dificuldade de adesão ao comprimido diário — uma injeção garante meses de cobertura."
+      },
+      {
+        "pergunta": "Paliperidona causa aumento de prolactina?",
+        "resposta": "Sim, elevação de prolactina é frequente — pode causar irregularidade menstrual, galactorreia (saída de leite fora da amamentação) e disfunção erétil. Comunicar ao médico se ocorrer."
+      },
+      {
+        "pergunta": "Paliperidona engorda?",
+        "resposta": "Ganho de peso é possível mas geralmente menor que com outros antipsicóticos como olanzapina e quetiapina. Monitorar peso e perfil metabólico regularmente."
+      },
+      {
+        "pergunta": "Paliperidona pode parar de tomar de repente?",
+        "resposta": "Não. A interrupção abrupta aumenta muito o risco de recaída psicótica. Qualquer mudança no tratamento deve ser feita com orientação do psiquiatra."
+      }
+    ]
   },
   {
     "nome": "Pantoprazol 20mg - 40mg",
@@ -15327,7 +15613,29 @@
     "receita_nota": "Prescrição médica obrigatória. Receita válida por 30 dias.",
     "receita_obrigatoria": true,
     "tipo_receita": "C1",
-    "retencao_receita": true
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Paroxetina serve para ansiedade?",
+        "resposta": "Sim, é ISRS indicado para depressão, ansiedade generalizada, pânico, fobia social, TOC e TEPT. É um dos antidepressivos com maior evidência para transtornos de ansiedade."
+      },
+      {
+        "pergunta": "Paroxetina causa ganho de peso?",
+        "resposta": "Sim, ganho de peso com uso prolongado é mais comum com paroxetina do que com outros ISRSs como sertralina e escitalopram. Manter alimentação equilibrada e atividade física durante o tratamento."
+      },
+      {
+        "pergunta": "Paroxetina pode parar de tomar de repente?",
+        "resposta": "Não. Tem a síndrome de descontinuação mais intensa entre os ISRSs — tontura, choques elétricos, irritabilidade e mal-estar intensos. Reduzir sempre muito gradualmente com orientação médica."
+      },
+      {
+        "pergunta": "Paroxetina afeta a função sexual?",
+        "resposta": "Sim, disfunção sexual (redução de libido, dificuldade de orgasmo) é um dos efeitos mais comuns com uso prolongado. Comunicar ao médico — pode ser necessário ajuste de dose ou troca de medicamento."
+      },
+      {
+        "pergunta": "Paroxetina pode usar na gravidez?",
+        "resposta": "Evitar, especialmente no primeiro trimestre — associada a risco aumentado de malformações cardíacas. O médico avalia o risco-benefício em gestantes que precisam de tratamento antidepressivo."
+      }
+    ]
   },
   {
     "nome": "Perampanel 2mg - 4mg - 6mg - 8mg - 10mg - 12mg",
@@ -15358,7 +15666,29 @@
     ],
     "receita_obrigatoria": true,
     "tipo_receita": "C1",
-    "retencao_receita": true
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Perampanel serve para epilepsia?",
+        "resposta": "Sim, é antiepiléptico de última geração com mecanismo único — antagonista dos receptores AMPA de glutamato. Aprovado para crises focais e tônico-clônicas generalizadas como terapia adicional."
+      },
+      {
+        "pergunta": "Perampanel causa agressividade?",
+        "resposta": "Sim, irritabilidade, agressividade e alterações de comportamento são efeitos importantes — especialmente em adolescentes. Comunicar ao médico e família sobre esse risco antes de iniciar."
+      },
+      {
+        "pergunta": "Perampanel pode parar de tomar de repente?",
+        "resposta": "Não. Interrupção abrupta pode causar crises convulsivas graves. Reduzir gradualmente sempre com orientação médica."
+      },
+      {
+        "pergunta": "Perampanel dá sono?",
+        "resposta": "Sim, sonolência intensa é o efeito mais comum. Tomar à noite ajuda. A dose é aumentada gradualmente para minimizar a sedação inicial."
+      },
+      {
+        "pergunta": "Perampanel é controlado?",
+        "resposta": "Sim, exige receita controlada por ser medicamento de uso restrito. Dispensado em farmácias de alto custo do SUS para pacientes cadastrados."
+      }
+    ]
   },
   {
     "nome": "Permetrina 1% - 5% Loção / Creme",
@@ -15390,7 +15720,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Permetrina serve para piolho?",
+        "resposta": "Sim, a concentração 1% é o tratamento de primeira escolha para pediculose (piolho). Aplicar nos cabelos úmidos, aguardar 10 minutos e enxaguar. Repetir após 7 a 10 dias para eliminar os ovos."
+      },
+      {
+        "pergunta": "Permetrina serve para sarna?",
+        "resposta": "Sim, a concentração 5% é eficaz para escabiose (sarna). Aplicar em todo o corpo do pescoço para baixo, deixar agir por 8 a 14 horas e lavar. Uma ou duas aplicações geralmente são suficientes."
+      },
+      {
+        "pergunta": "Permetrina pode usar em bebê?",
+        "resposta": "Com orientação médica. Para bebês menores de 2 meses, a ivermectina oral ou outros tratamentos podem ser preferíveis. A aplicação em bebês deve cobrir também o couro cabeludo e rosto (evitando olhos e boca)."
+      },
+      {
+        "pergunta": "Permetrina pode usar na gravidez?",
+        "resposta": "Sim, é considerada uma das opções mais seguras para piolho e sarna durante a gestação, por ser uso tópico com absorção sistêmica mínima. Sempre com orientação médica."
+      },
+      {
+        "pergunta": "Permetrina mata os ovos de piolho?",
+        "resposta": "Parcialmente. A permetrina 1% tem menor eficácia contra os ovos (lêndeas) que contra os piolhos adultos. Por isso é importante repetir a aplicação após 7 a 10 dias para eliminar os que eclodirem."
+      }
+    ]
   },
   {
     "nome": "Peróxido de Benzoíla 2,5% - 5% - 10% Gel",
@@ -15422,7 +15774,29 @@
     "receita_cor": "verde",
     "receita_obrigatoria": false,
     "tipo_receita": "MIP",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Peróxido de benzoíla serve para acne?",
+        "resposta": "Sim, é bactericida tópico que destrói a P. acnes sem risco de resistência bacteriana — vantagem importante sobre antibióticos tópicos. Indicado para acne inflamatória leve a moderada."
+      },
+      {
+        "pergunta": "Peróxido de benzoíla mancha roupa?",
+        "resposta": "Sim, mancha roupas, toalhas e fronhas de forma permanente — é seu efeito mais inconveniente. Usar fronhas e toalhas velhas durante o tratamento e aguardar secar completamente antes de deitar."
+      },
+      {
+        "pergunta": "Peróxido de benzoíla resseca a pele?",
+        "resposta": "Sim, ressecamento, descamação e irritação são comuns especialmente no início. Iniciar com concentração menor (2,5%) e usar hidratante não comedogênico após a absorção."
+      },
+      {
+        "pergunta": "Peróxido de benzoíla pode usar com tretinoína?",
+        "resposta": "Não simultaneamente — podem se inativar mutuamente e causar irritação intensa. Usar um pela manhã e outro à noite, ou em dias alternados, conforme orientação dermatológica."
+      },
+      {
+        "pergunta": "Peróxido de benzoíla 2,5% e 10% têm diferença?",
+        "resposta": "A eficácia é similar, mas concentrações maiores causam mais irritação e ressecamento. Iniciar sempre pela menor concentração (2,5%) e aumentar apenas se necessário e bem tolerado."
+      }
+    ]
   },
   {
     "nome": "Peróxido de Hidrogênio 3% - Água Oxigenada",
@@ -15447,7 +15821,29 @@
     "receita_cor": "verde",
     "receita_obrigatoria": false,
     "tipo_receita": "MIP",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Água oxigenada pode usar em ferida?",
+        "resposta": "Pode ser usada para limpeza inicial de feridas superficiais — a espuma formada ajuda a remover sujeira e sangue. Porém o uso frequente pode retardar a cicatrização, pois o oxigênio liberado também danifica células saudáveis."
+      },
+      {
+        "pergunta": "Água oxigenada serve para clarear os dentes?",
+        "resposta": "Em concentrações controladas é usada em produtos de clareamento dental. A água oxigenada 3% doméstica não é recomendada para esse fim sem orientação odontológica — pode irritar a mucosa oral."
+      },
+      {
+        "pergunta": "Água oxigenada pode usar no ouvido?",
+        "resposta": "Diluída pode ser usada para amolecer cera do ouvido, mas sem orientação médica o risco de irritação é real. Não usar em ouvido perfurado. O médico pode indicar soluções otológicas mais seguras."
+      },
+      {
+        "pergunta": "Água oxigenada pode usar no cabelo?",
+        "resposta": "É usada em procedimentos de descoloração capilar em concentrações controladas por profissionais. O uso doméstico sem controle pode danificar o fio e o couro cabeludo."
+      },
+      {
+        "pergunta": "Água oxigenada vencida é perigosa?",
+        "resposta": "Não é perigosa, mas perde a eficácia — se não fizer espuma ao contato com a ferida, já está decomposta. Guardar em local escuro e fresco, bem fechada, para preservar a atividade."
+      }
+    ]
   },
   {
     "nome": "Picolinato de Cromo",
@@ -15479,7 +15875,29 @@
     ],
     "receita_obrigatoria": false,
     "tipo_receita": "MIP",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Picolinato de cromo serve para emagrecer?",
+        "resposta": "Tem evidência limitada como coadjuvante em dietas — pode reduzir levemente a compulsão por carboidratos e açúcar, mas não é substituto de alimentação saudável e exercício."
+      },
+      {
+        "pergunta": "Picolinato de cromo serve para diabetes?",
+        "resposta": "Pode potencializar a ação da insulina e melhorar levemente o controle glicêmico como suplemento coadjuvante. Não substitui medicamentos antidiabéticos — usar sempre com orientação médica."
+      },
+      {
+        "pergunta": "Picolinato de cromo tem efeitos colaterais?",
+        "resposta": "Em doses normais é bem tolerado. Em doses muito altas pode causar dor de cabeça, tontura e raramente lesão hepática e renal. Não exceder a dose recomendada."
+      },
+      {
+        "pergunta": "Picolinato de cromo pode tomar junto com outros suplementos?",
+        "resposta": "Geralmente sim, mas antiácidos podem reduzir sua absorção. Informar ao médico sobre todos os suplementos em uso, especialmente se for diabético em uso de medicamentos."
+      },
+      {
+        "pergunta": "Picolinato de cromo reduz a vontade de comer doce?",
+        "resposta": "Alguns estudos sugerem redução leve da compulsão por carboidratos e açúcar. O efeito é modesto e varia entre as pessoas — não é um supressor de apetite potente."
+      }
+    ]
   },
   {
     "nome": "Pimecrolimo 1% creme",
@@ -15510,7 +15928,29 @@
     ],
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Pimecrolimo serve para dermatite atópica?",
+        "resposta": "Sim, é imunossupressor tópico de segunda linha para dermatite atópica leve a moderada em adultos e crianças acima de 2 anos. Alternativa importante aos corticoides tópicos por não causar atrofia da pele."
+      },
+      {
+        "pergunta": "Pimecrolimo pode usar no rosto?",
+        "resposta": "Sim, é especialmente útil para áreas sensíveis como rosto, pescoço e dobras — onde corticoides tópicos têm mais risco de causar atrofia da pele com uso prolongado."
+      },
+      {
+        "pergunta": "Pimecrolimo causa ardência?",
+        "resposta": "Sim, sensação de calor, ardência e prurido local nos primeiros dias são comuns e transitórios — passam com a continuidade do uso. Aplicar em pele limpa e seca."
+      },
+      {
+        "pergunta": "Pimecrolimo pode usar por longo prazo?",
+        "resposta": "Sim, não causa atrofia cutânea — vantagem sobre os corticoides. Há alerta do FDA sobre risco teórico de linfoma com uso prolongado, mas sem evidência conclusiva em humanos até o momento."
+      },
+      {
+        "pergunta": "Pimecrolimo é igual ao tacrolimo?",
+        "resposta": "São da mesma classe (inibidores de calcineurina tópicos), mas o tacrolimo é mais potente — indicado para dermatite moderada a grave. O pimecrolimo é mais suave, para formas leves a moderadas."
+      }
+    ]
   },
   {
     "nome": "Pioglitazona 15mg - 30mg - 45mg",
