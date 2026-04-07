@@ -15980,7 +15980,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Pioglitazona serve para diabetes tipo 2?",
+        "resposta": "Sim, é sensibilizador à insulina indicado para diabetes tipo 2. Age melhorando a resposta das células à insulina — reduzindo a resistência insulínica. Tem efeito lento mas duradouro."
+      },
+      {
+        "pergunta": "Pioglitazona engorda?",
+        "resposta": "Sim, ganho de peso e retenção de líquidos são efeitos muito comuns. Monitorar peso regularmente e comunicar ao médico se houver inchaço excessivo nas pernas."
+      },
+      {
+        "pergunta": "Pioglitazona pode usar em insuficiência cardíaca?",
+        "resposta": "Não. É contraindicada em insuficiência cardíaca — a retenção de líquidos pode agravar o quadro. Informar ao médico sobre qualquer histórico de problema cardíaco."
+      },
+      {
+        "pergunta": "Pioglitazona aumenta risco de câncer de bexiga?",
+        "resposta": "Estudos sugerem risco potencial aumentado de câncer de bexiga com uso prolongado. Não usar em pacientes com histórico de câncer de bexiga. O médico avalia o risco-benefício individualmente."
+      },
+      {
+        "pergunta": "Pioglitazona pode causar fratura óssea?",
+        "resposta": "Sim, risco aumentado de fraturas ósseas em mulheres — especialmente em punho, mão e pé. Monitorar a saúde óssea e discutir com o médico se houver outros fatores de risco para osteoporose."
+      }
+    ]
   },
   {
     "nome": "Pirazinamida 500mg",
@@ -16006,7 +16028,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": true
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Pirazinamida serve para tuberculose?",
+        "resposta": "Sim, é um dos quatro medicamentos do esquema básico de primeira linha para tuberculose pelo Ministério da Saúde. Usada sempre em combinação — nunca isoladamente."
+      },
+      {
+        "pergunta": "Pirazinamida aumenta o ácido úrico?",
+        "resposta": "Sim, hiperuricemia é o efeito colateral mais comum — pode causar dores nas articulações semelhantes à gota. Comunicar ao médico se houver dor intensa nas articulações durante o tratamento."
+      },
+      {
+        "pergunta": "Pirazinamida faz mal ao fígado?",
+        "resposta": "Pode causar hepatotoxicidade. Sinais de alerta: pele ou olhos amarelados, urina escura, dor abdominal. Exames de função hepática são monitorados durante o tratamento."
+      },
+      {
+        "pergunta": "Pirazinamida pode parar de tomar?",
+        "resposta": "Nunca interromper sem orientação médica — interromper o esquema anti-TB é uma das principais causas de resistência ao tratamento. Completar o tempo prescrito é fundamental."
+      },
+      {
+        "pergunta": "Pirazinamida pode tomar com álcool?",
+        "resposta": "Não. O álcool aumenta significativamente o risco de hepatotoxicidade durante o tratamento. Evitar completamente o consumo de álcool durante toda a duração do tratamento da tuberculose."
+      }
+    ]
   },
   {
     "nome": "Polietilenoglicol — Movicol / Muvinlax",
@@ -16040,7 +16084,29 @@
     ],
     "receita_obrigatoria": false,
     "tipo_receita": "MIP",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Movicol serve para prisão de ventre?",
+        "resposta": "Sim, é laxante osmótico que retém água no intestino, amolecendo as fezes e facilitando a evacuação. Não é absorvido pelo organismo — age exclusivamente no intestino."
+      },
+      {
+        "pergunta": "Movicol pode usar todo dia?",
+        "resposta": "Sim, pode ser usado por períodos prolongados sob orientação médica. É considerado seguro para uso crônico em constipação, diferente de laxantes estimulantes que podem causar dependência intestinal."
+      },
+      {
+        "pergunta": "Movicol pode usar em criança?",
+        "resposta": "Sim, há formulações pediátricas específicas. É muito usado em constipação crônica em crianças com bom perfil de segurança. A dose é ajustada pelo pediatra."
+      },
+      {
+        "pergunta": "Movicol pode usar na gravidez?",
+        "resposta": "Sim, é uma das opções mais seguras para constipação na gestação — por não ser absorvido sistemicamente. Sempre com orientação médica."
+      },
+      {
+        "pergunta": "Movicol causa gases?",
+        "resposta": "Sim, distensão abdominal e flatulência são efeitos comuns especialmente no início. Tendem a melhorar com a adaptação. Iniciar com dose baixa e aumentar gradualmente ajuda."
+      }
+    ]
   },
   {
     "nome": "Pramipexol 0,125mg - 0,25mg - 1mg",
@@ -16070,7 +16136,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "C1",
-    "retencao_receita": true
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Pramipexol serve para Parkinson?",
+        "resposta": "Sim, é agonista dopaminérgico usado no Parkinson como monoterapia inicial ou adjuvante à levodopa. Age diretamente nos receptores de dopamina, compensando a deficiência da substância no cérebro."
+      },
+      {
+        "pergunta": "Pramipexol serve para síndrome das pernas inquietas?",
+        "resposta": "Sim, em doses baixas é tratamento de primeira linha para síndrome das pernas inquietas (SPI) — aquela sensação desconfortável nas pernas que piora à noite e melhora com o movimento."
+      },
+      {
+        "pergunta": "Pramipexol causa comportamentos compulsivos?",
+        "resposta": "Sim, comportamentos compulsivos como jogo patológico, hipersexualidade e compras compulsivas são efeitos importantes. Comunicar ao médico e familiares sobre esse risco — podem surgir de forma insidiosa."
+      },
+      {
+        "pergunta": "Pramipexol causa alucinações?",
+        "resposta": "Sim, especialmente em idosos com Parkinson. Alucinações visuais são as mais comuns. Comunicar ao médico imediatamente — pode ser necessário ajuste de dose ou troca de medicamento."
+      },
+      {
+        "pergunta": "Pramipexol dá sono de repente?",
+        "resposta": "Sim, ataques súbitos de sono (sem sonolência prévia) são um risco importante. Não dirigir ou operar máquinas perigosas durante o tratamento sem avaliação médica."
+      }
+    ]
   },
   {
     "nome": "Prednisolona 1mg/mL - 3mg/mL Solução Oral",
@@ -16101,7 +16189,29 @@
     ],
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Prednisolona serve para asma em criança?",
+        "resposta": "Sim, é corticoide oral muito usado em pediatria para asma, crupe, reações alérgicas graves e doenças inflamatórias. A forma líquida facilita a administração em crianças que não conseguem engolir comprimidos."
+      },
+      {
+        "pergunta": "Prednisolona deixa a criança agitada?",
+        "resposta": "Sim, agitação, irritabilidade e insônia são efeitos comuns em uso de curto prazo em crianças. São passageiros e desaparecem ao terminar o tratamento."
+      },
+      {
+        "pergunta": "Prednisolona aumenta o apetite?",
+        "resposta": "Sim, aumento do apetite é muito comum mesmo em cursos curtos. Em tratamentos prolongados pode causar ganho de peso significativo."
+      },
+      {
+        "pergunta": "Prednisolona pode parar de tomar de repente?",
+        "resposta": "Em cursos curtos (até 5-7 dias), pode ser interrompida sem redução gradual. Em uso prolongado, a retirada deve ser feita gradualmente para não causar insuficiência adrenal."
+      },
+      {
+        "pergunta": "Prednisolona e prednisona são iguais?",
+        "resposta": "São muito similares. A prednisolona é a forma ativa — o fígado não precisa convertê-la. Por isso é preferida em crianças e em pacientes com doença hepática."
+      }
+    ]
   },
   {
     "nome": "Prednisona 5mg - 20mg",
@@ -16227,7 +16337,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Progesterona micronizada dá sono?",
+        "resposta": "Sim, sonolência é o efeito mais comum da via oral — por isso é tomada à noite. Esse efeito pode ser aproveitado em mulheres com insônia na menopausa. A via vaginal causa muito menos sonolência."
+      },
+      {
+        "pergunta": "Progesterona micronizada serve para menopausa?",
+        "resposta": "Sim, é usada na terapia de reposição hormonal junto ao estrogênio para proteger o útero. Por ser bioidêntica (idêntica à produzida pelo ovário), é considerada mais natural que as progestinas sintéticas."
+      },
+      {
+        "pergunta": "Progesterona micronizada serve para ameaça de aborto?",
+        "resposta": "Sim, é usada para suporte da fase lútea em reprodução assistida e em casos de ameaça de aborto com insuficiência de corpo lúteo. Sempre com indicação e acompanhamento médico."
+      },
+      {
+        "pergunta": "Progesterona micronizada oral e vaginal têm diferença?",
+        "resposta": "Sim. A via vaginal atinge concentrações uterinas muito maiores com menor exposição sistêmica — preferida em reprodução assistida e quando se quer evitar a sonolência da via oral."
+      },
+      {
+        "pergunta": "Progesterona micronizada engorda?",
+        "resposta": "Pode causar leve retenção de líquidos, mas o ganho de peso é muito menor que com progestinas sintéticas como medroxiprogesterona. Efeito metabólico mais favorável."
+      }
+    ]
   },
   {
     "nome": "Prometazina 25mg - Creme - Xarope - Injetável",
@@ -16253,7 +16385,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Prometazina dá muito sono?",
+        "resposta": "Sim, sonolência intensa é o efeito mais marcante — pode ser tão forte que compromete totalmente a capacidade de dirigir e trabalhar. Evitar atividades que exigem atenção após o uso."
+      },
+      {
+        "pergunta": "Prometazina serve para enjoo em viagem?",
+        "resposta": "Sim, é eficaz para cinetose (enjoo de movimento) — tomar 30 minutos antes da viagem. O efeito sedativo pode ser aproveitado em viagens longas."
+      },
+      {
+        "pergunta": "Prometazina pode usar em criança pequena?",
+        "resposta": "Não é recomendada em crianças menores de 2 anos — risco de depressão respiratória. Em crianças maiores, usar com orientação médica e na dose correta para o peso."
+      },
+      {
+        "pergunta": "Prometazina pode usar na gravidez para enjoo?",
+        "resposta": "Pode ser usada com orientação médica para hiperêmese gravídica quando outros tratamentos falham. Evitar no final da gestação pelo risco de depressão respiratória no recém-nascido."
+      },
+      {
+        "pergunta": "Prometazina creme para que serve?",
+        "resposta": "O creme é usado topicamente para coceira, urticária e reações alérgicas de pele. Evitar em grandes áreas ou por longo tempo — pode causar sensibilização e fotossensibilidade."
+      }
+    ]
   },
   {
     "nome": "Propranolol 10mg - 40mg - 80mg",
@@ -16379,7 +16533,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Rabeprazol serve para refluxo?",
+        "resposta": "Sim, é inibidor de bomba de prótons (IBP) com início de ação mais rápido que o omeprazol. Indicado para refluxo gastroesofágico, úlcera duodenal e gástrica e erradicação do H. pylori."
+      },
+      {
+        "pergunta": "Rabeprazol é melhor que omeprazol?",
+        "resposta": "Tem início de ação mais rápido e sofre menos variação individual no metabolismo. Para alguns pacientes que não respondem bem ao omeprazol, o rabeprazol pode ser mais eficaz."
+      },
+      {
+        "pergunta": "Rabeprazol pode tomar todo dia?",
+        "resposta": "Sim, para condições crônicas como refluxo e úlcera é de uso contínuo. O médico define o tempo de tratamento — o uso prolongado sem reavaliação não é recomendado."
+      },
+      {
+        "pergunta": "Rabeprazol quando tomar — antes ou depois da refeição?",
+        "resposta": "Tomar 30 minutos antes da primeira refeição do dia para maior eficácia. O IBP é mais eficaz quando as bombas de prótons estão ativas — o que acontece ao comer."
+      },
+      {
+        "pergunta": "Rabeprazol pode causar deficiência de magnésio?",
+        "resposta": "Sim, uso prolongado de IBPs pode reduzir os níveis de magnésio. Em tratamentos de longa duração, o médico pode solicitar exames e recomendar suplementação."
+      }
+    ]
   },
   {
     "nome": "Raloxifeno (Evista)",
@@ -16411,7 +16587,29 @@
     ],
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Raloxifeno serve para osteoporose?",
+        "resposta": "Sim, é usado para prevenção e tratamento da osteoporose em mulheres pós-menopausa. Age como estrogênio nos ossos (aumentando a densidade óssea) mas como antiestrogênio na mama e no útero."
+      },
+      {
+        "pergunta": "Raloxifeno pode causar trombose?",
+        "resposta": "Sim, risco aumentado de trombose venosa profunda e embolia pulmonar — semelhante ao estrogênio. Contraindicado em pacientes com histórico de trombose. Interromper se for imobilizada por longo período."
+      },
+      {
+        "pergunta": "Raloxifeno reduz o risco de câncer de mama?",
+        "resposta": "Sim, reduz o risco de câncer de mama com receptor hormonal positivo em mulheres pós-menopausa de alto risco — uma das vantagens sobre os bisfosfonatos."
+      },
+      {
+        "pergunta": "Raloxifeno causa calores?",
+        "resposta": "Sim, fogachos (calores) são um efeito colateral comum — ao contrário do estrogênio que os alivia. Por isso não é ideal para mulheres com sintomas vasomotores intensos da menopausa."
+      },
+      {
+        "pergunta": "Raloxifeno ou bisfosfonato — qual é melhor?",
+        "resposta": "Dependendo do perfil da paciente. Bisfosfonatos são mais potentes para densidade óssea. Raloxifeno é preferido em mulheres com risco de câncer de mama e sem risco de trombose. O médico define o mais adequado."
+      }
+    ]
   },
   {
     "nome": "Ramipril 2,5mg - 5mg - 10mg",
@@ -16442,7 +16640,29 @@
     ],
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Ramipril serve para pressão alta?",
+        "resposta": "Sim, é IECA muito eficaz para hipertensão, insuficiência cardíaca e proteção cardiovascular pós-infarto. Também protege os rins em diabéticos."
+      },
+      {
+        "pergunta": "Ramipril causa tosse?",
+        "resposta": "Sim, tosse seca persistente é o efeito colateral mais comum dos IECAs como o ramipril — afeta até 20% dos pacientes. Se intolerável, o médico pode trocar por um BRA (como losartana) que não causa esse efeito."
+      },
+      {
+        "pergunta": "Ramipril pode usar na gravidez?",
+        "resposta": "Não. É contraindicado na gravidez — pode causar malformações graves nos rins do bebê e redução do líquido amniótico. Trocar imediatamente ao engravidar."
+      },
+      {
+        "pergunta": "Ramipril aumenta o potássio?",
+        "resposta": "Pode elevar o potássio (hipercalemia), especialmente em diabéticos e pacientes com doença renal. Monitorar com exames regulares e evitar suplementos de potássio sem orientação."
+      },
+      {
+        "pergunta": "Ramipril pode tomar com anti-inflamatório?",
+        "resposta": "Evitar sempre que possível. AINEs como ibuprofeno e diclofenaco reduzem a eficácia do ramipril e aumentam o risco de lesão renal. Preferir paracetamol para dores eventuais."
+      }
+    ]
   },
   {
     "nome": "Ranitidina 150mg - 300mg - Solução - Injetável",
@@ -16520,7 +16740,29 @@
     ],
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Ranolazina serve para angina?",
+        "resposta": "Sim, é indicada para angina crônica estável refratária a outros tratamentos. Tem mecanismo único — não reduz a frequência cardíaca nem a pressão, apenas melhora a função celular do coração."
+      },
+      {
+        "pergunta": "Ranolazina pode combinar com outros medicamentos para angina?",
+        "resposta": "Sim, é usada como medicamento adicional quando betabloqueadores, nitratos e bloqueadores de canal de cálcio não controlam adequadamente a angina."
+      },
+      {
+        "pergunta": "Ranolazina pode tomar com suco de toranja?",
+        "resposta": "Não. O grapefruit inibe a metabolização da ranolazina, aumentando perigosamente seus níveis no sangue. Evitar completamente durante o tratamento."
+      },
+      {
+        "pergunta": "Ranolazina causa arritmia?",
+        "resposta": "Pode prolongar o intervalo QT — risco de arritmia. Por isso é evitada em pacientes com QT prolongado ou em uso de outros medicamentos que prolongam o QT."
+      },
+      {
+        "pergunta": "Ranolazina causa tontura?",
+        "resposta": "Sim, tontura e dor de cabeça são os efeitos mais comuns. Geralmente são leves e melhoram com o tempo. Constipação e náusea também podem ocorrer."
+      }
+    ]
   },
   {
     "nome": "Rasagilina 1mg",
@@ -16549,7 +16791,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "C1",
-    "retencao_receita": true
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Rasagilina serve para Parkinson?",
+        "resposta": "Sim, é inibidor da MAO-B que age preservando a dopamina no cérebro. Usada como monoterapia inicial no Parkinson ou adjuvante à levodopa para reduzir as flutuações motoras."
+      },
+      {
+        "pergunta": "Rasagilina tem restrição alimentar?",
+        "resposta": "Em doses terapêuticas (1mg), a restrição de tiramina é mínima — diferente dos IMAOs não seletivos. Ainda assim, evitar grandes quantidades de alimentos ricos em tiramina como queijos curados e vinho tinto."
+      },
+      {
+        "pergunta": "Rasagilina pode combinar com antidepressivo?",
+        "resposta": "Com cuidado. A combinação com ISRSs e IRSNs requer avaliação médica — risco de síndrome serotoninérgica. A combinação com meperidina e tramadol é contraindicada."
+      },
+      {
+        "pergunta": "Rasagilina tem efeito neuroprotetor?",
+        "resposta": "Estudos sugerem possível efeito neuroprotetor — retardando a progressão do Parkinson — mas ainda é debatido na comunidade científica. O benefício sintomático é bem estabelecido."
+      },
+      {
+        "pergunta": "Rasagilina e selegilina são iguais?",
+        "resposta": "São do mesmo grupo (inibidores da MAO-B) mas moléculas diferentes. A rasagilina é mais seletiva e não tem metabólitos anfetamínicos como a selegilina. Tomada uma vez ao dia."
+      }
+    ]
   },
   {
     "nome": "Repaglinida 0,5mg - 1mg - 2mg",
@@ -16580,7 +16844,29 @@
     ],
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Repaglinida serve para diabetes tipo 2?",
+        "resposta": "Sim, estimula a secreção de insulina pelo pâncreas de forma rápida e curta — tomada antes de cada refeição para controlar o pico de glicose pós-prandial. Flexível para quem tem horários irregulares de refeição."
+      },
+      {
+        "pergunta": "Repaglinida precisa tomar antes de comer?",
+        "resposta": "Sim, deve ser tomada 15 a 30 minutos antes de cada refeição principal. Se uma refeição for pulada, não tomar a dose correspondente — evita hipoglicemia."
+      },
+      {
+        "pergunta": "Repaglinida causa hipoglicemia?",
+        "resposta": "Sim, hipoglicemia é o principal risco. Pular refeição após tomar o medicamento aumenta muito esse risco. Sempre ter algo doce disponível para reverter hipoglicemia rapidamente."
+      },
+      {
+        "pergunta": "Repaglinida pode usar em insuficiência renal?",
+        "resposta": "Tem vantagem sobre as sulfonilureias em insuficiência renal moderada — é metabolizada principalmente pelo fígado. O médico avalia a dose conforme a função renal."
+      },
+      {
+        "pergunta": "Repaglinida pode tomar com metformina?",
+        "resposta": "Sim, a combinação é usada e complementar. A metformina age no fígado reduzindo a produção de glicose, enquanto a repaglinida estimula a insulina nas refeições."
+      }
+    ]
   },
   {
     "nome": "Resveratrol",
@@ -16611,7 +16897,29 @@
     ],
     "receita_obrigatoria": false,
     "tipo_receita": "MIP",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Resveratrol serve para quê?",
+        "resposta": "É antioxidante natural estudado por efeitos anti-inflamatórios, cardioprotetores e antienvelhecimento. Ativa sirtuínas — proteínas ligadas à longevidade celular. As evidências clínicas em humanos ainda são limitadas."
+      },
+      {
+        "pergunta": "Resveratrol pode tomar todo dia?",
+        "resposta": "Sim, em doses habituais de suplemento é bem tolerado para uso diário. Em doses muito altas pode causar diarreia e náusea. Não exceder a dose recomendada."
+      },
+      {
+        "pergunta": "Resveratrol do vinho tinto é suficiente?",
+        "resposta": "Não. A quantidade de resveratrol no vinho é muito pequena para ter efeito terapêutico — seria necessário consumir litros por dia. Os benefícios do consumo moderado de vinho se devem a múltiplos compostos, não apenas ao resveratrol."
+      },
+      {
+        "pergunta": "Resveratrol pode interagir com anticoagulante?",
+        "resposta": "Sim, pode potencializar o efeito de anticoagulantes como varfarina. Pacientes em uso de anticoagulantes devem informar ao médico antes de iniciar suplementação."
+      },
+      {
+        "pergunta": "Resveratrol tem evidência científica sólida?",
+        "resposta": "Os estudos em animais são promissores, mas os resultados em humanos ainda são inconclusivos para a maioria das indicações. É considerado suplemento seguro com potencial benefício, mas não substitui tratamentos médicos estabelecidos."
+      }
+    ]
   },
   {
     "nome": "Ribavirina 200mg - 250mg",
@@ -16637,7 +16945,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "hospitalar",
-    "retencao_receita": true
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Ribavirina serve para hepatite C?",
+        "resposta": "Sim, foi parte central do tratamento da hepatite C crônica por décadas, em combinação com interferona. Com os novos antivirais de ação direta (DAAs), o uso diminuiu mas ainda é utilizada em alguns esquemas."
+      },
+      {
+        "pergunta": "Ribavirina causa anemia?",
+        "resposta": "Sim, anemia hemolítica é o efeito colateral mais importante — pode ser intensa e exigir redução de dose ou transfusão. Monitoramento do hemograma é obrigatório durante o tratamento."
+      },
+      {
+        "pergunta": "Ribavirina pode engravidar durante o tratamento?",
+        "resposta": "Não. É fortemente teratogênica — causa malformações graves. Mulheres e homens devem usar contracepção eficaz durante o tratamento e por 6 meses após o término."
+      },
+      {
+        "pergunta": "Ribavirina causa cansaço?",
+        "resposta": "Sim, fadiga intensa é comum — relacionada tanto à anemia quanto ao efeito direto do medicamento. É um dos efeitos que mais impacta a qualidade de vida durante o tratamento."
+      },
+      {
+        "pergunta": "Ribavirina ainda é usada?",
+        "resposta": "Cada vez menos para hepatite C — os novos antivirais de ação direta são mais eficazes e com menos efeitos. Ainda é usada em infecções virais raras como febre hemorrágica de Lassa e em alguns casos de VSR em crianças imunossuprimidas."
+      }
+    ]
   },
   {
     "nome": "Rifamicina spray",
@@ -16668,7 +16998,29 @@
     ],
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": true
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Rifamicina spray serve para ferida?",
+        "resposta": "Sim, é antibiótico tópico em spray para prevenção e tratamento de infecções em feridas, úlceras, queimaduras e cirurgias. Age diretamente no local, cobrindo gram-positivos e alguns gram-negativos."
+      },
+      {
+        "pergunta": "Rifamicina spray mancha a pele?",
+        "resposta": "Sim, deixa coloração laranja-avermelhada na pele e no curativo — é completamente normal e inofensivo. A coloração passa com o tempo após o término do tratamento."
+      },
+      {
+        "pergunta": "Rifamicina spray pode usar em ferida profunda?",
+        "resposta": "Não. É indicada para feridas superficiais. Feridas profundas, com sinais de infecção grave ou necrose precisam de avaliação médica e podem necessitar de antibiótico sistêmico."
+      },
+      {
+        "pergunta": "Rifamicina spray precisa de receita?",
+        "resposta": "Sim, exige prescrição médica. Não usar como automedicação em qualquer tipo de ferida — feridas infectadas precisam de avaliação profissional."
+      },
+      {
+        "pergunta": "Rifamicina spray pode causar alergia?",
+        "resposta": "Raramente. Reação alérgica local é possível — interromper e consultar médico se surgir vermelhidão intensa, inchaço ou piora da ferida após a aplicação."
+      }
+    ]
   },
   {
     "nome": "Rifampicina 300mg Cápsula - Suspensão",
@@ -16694,7 +17046,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": true
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Rifampicina serve para tuberculose?",
+        "resposta": "Sim, é um dos medicamentos mais importantes do esquema de primeira linha para tuberculose — usada sempre em combinação com outros antibióticos como isoniazida e pirazinamida."
+      },
+      {
+        "pergunta": "Rifampicina deixa a urina laranja?",
+        "resposta": "Sim, coloração avermelhada ou laranja da urina, suor, lágrimas e saliva é efeito característico e inofensivo. É esperado — não é sinal de problema. Lentes de contato podem manchar permanentemente."
+      },
+      {
+        "pergunta": "Rifampicina tem muitas interações?",
+        "resposta": "Sim, é um dos medicamentos com mais interações — acelera o metabolismo de dezenas de fármacos, incluindo anticoncepcionais hormonais, anticoagulantes e antirretrovirais. Informar ao médico todos os medicamentos em uso."
+      },
+      {
+        "pergunta": "Rifampicina reduz o efeito do anticoncepcional?",
+        "resposta": "Sim, reduz significativamente a eficácia dos anticoncepcionais hormonais orais. Usar método contraceptivo adicional (como preservativo) durante todo o tratamento e por um mês após o término."
+      },
+      {
+        "pergunta": "Rifampicina pode parar de tomar?",
+        "resposta": "Nunca interromper sem orientação médica — interromper o esquema anti-TB é causa principal de resistência bacteriana. Completar todo o tratamento é fundamental mesmo sentindo-se bem."
+      }
+    ]
   },
   {
     "nome": "Rifaximina 200mg - 550mg",
@@ -16720,7 +17094,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": true
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Rifaximina serve para diarreia do viajante?",
+        "resposta": "Sim, é antibiótico de primeira escolha para diarreia do viajante causada por E. coli. Age exclusivamente dentro do intestino sem ser absorvida pelo organismo."
+      },
+      {
+        "pergunta": "Rifaximina serve para encefalopatia hepática?",
+        "resposta": "Sim, em dose de 550mg é usada para prevenção de encefalopatia hepática em pacientes com cirrose — reduz as bactérias intestinais que produzem amônia, toxina que afeta o cérebro quando o fígado está comprometido."
+      },
+      {
+        "pergunta": "Rifaximina causa resistência bacteriana?",
+        "resposta": "Por não ser absorvida, o risco de resistência sistêmica é muito baixo — uma das grandes vantagens. Pode ocorrer resistência local no intestino com uso prolongado."
+      },
+      {
+        "pergunta": "Rifaximina pode usar na gravidez?",
+        "resposta": "Não há dados suficientes de segurança na gestação. Por precaução, evitar na gravidez. Consultar o médico para alternativas seguras no tratamento de infecções intestinais em grávidas."
+      },
+      {
+        "pergunta": "Rifaximina e rifampicina são iguais?",
+        "resposta": "Não. Apesar do nome similar, são medicamentos muito diferentes. A rifaximina não é absorvida e age só no intestino. A rifampicina é sistêmica e usada para tuberculose e outras infecções graves."
+      }
+    ]
   },
   {
     "nome": "Risperidona 0,5mg - 1mg - 2mg - 3mg - 4mg - Solução Oral",
@@ -16794,7 +17190,29 @@
     "receita_cor": "vermelho",
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Xarelto serve para trombose?",
+        "resposta": "Sim, é anticoagulante de nova geração para prevenção e tratamento de trombose venosa profunda, embolia pulmonar e prevenção de AVC em fibrilação atrial. Não precisa de monitoramento de coagulação regular."
+      },
+      {
+        "pergunta": "Xarelto pode tomar com comida?",
+        "resposta": "Depende da dose. A dose de 15mg e 20mg deve ser tomada com a refeição principal para melhor absorção. A de 10mg pode ser tomada com ou sem alimentos."
+      },
+      {
+        "pergunta": "Xarelto causa sangramento?",
+        "resposta": "Sim, sangramento é o principal risco de qualquer anticoagulante. Qualquer sangramento incomum (urina avermelhada, fezes escuras, sangramento prolongado) deve ser comunicado ao médico imediatamente."
+      },
+      {
+        "pergunta": "Xarelto tem antídoto?",
+        "resposta": "Sim, o andexanet alfa (Ondexxya) é o antídoto específico para a rivaroxabana, disponível em hospitais para casos de sangramento grave. Em emergências, a equipe médica maneja o sangramento."
+      },
+      {
+        "pergunta": "Xarelto pode usar na gravidez?",
+        "resposta": "Não. Contraindicado na gravidez — atravessa a placenta e pode causar sangramento fetal. A heparina é o anticoagulante de escolha durante a gestação."
+      }
+    ]
   },
   {
     "nome": "Rivastigmina 1,5mg - 3mg - 4,5mg - 6mg - Adesivo",
@@ -16825,7 +17243,29 @@
     ],
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
-    "retencao_receita": false
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Rivastigmina serve para Alzheimer?",
+        "resposta": "Sim, é inibidor de colinesterase para Alzheimer leve a moderado e demência associada ao Parkinson. Disponível em cápsulas e adesivo transdérmico — o adesivo causa menos efeitos gastrointestinais."
+      },
+      {
+        "pergunta": "Rivastigmina adesivo é melhor que a cápsula?",
+        "resposta": "O adesivo tem menor incidência de náusea e vômito — os efeitos mais limitantes da rivastigmina oral. Para pacientes com intolerância digestiva, o adesivo é preferível com eficácia similar."
+      },
+      {
+        "pergunta": "Rivastigmina causa enjoo?",
+        "resposta": "Sim, náusea e vômito são os efeitos mais comuns, especialmente ao aumentar a dose. Tomar com alimentos (cápsulas) ou usar o adesivo ajuda a reduzir esses efeitos."
+      },
+      {
+        "pergunta": "Rivastigmina pode parar de tomar de repente?",
+        "resposta": "Não é recomendado. A interrupção pode piorar os sintomas cognitivos. Qualquer mudança deve ser feita gradualmente com orientação do médico."
+      },
+      {
+        "pergunta": "Rivastigmina adesivo onde colocar?",
+        "resposta": "Aplicar na parte superior das costas, tórax ou braço superior — pele limpa, seca e sem pelos. Trocar o local a cada aplicação para evitar irritação. Trocar o adesivo a cada 24 horas no mesmo horário."
+      }
+    ]
   },
   {
     "nome": "Rizatriptana 5mg - 10mg",
