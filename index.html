@@ -13,6 +13,53 @@
     <meta property="og:type" content="website" /><br>
     <link rel="canonical" href="https://medicheck.med.br/" />
     <style>
+.faq-lista {
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+.faq-item {
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    margin-bottom: 8px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: box-shadow 0.2s;
+}
+.faq-item:hover {
+    box-shadow: 0 2px 8px rgba(102,126,234,0.15);
+}
+.faq-pergunta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 18px;
+    font-weight: 700;
+    font-size: 15px;
+    color: #333;
+    background: #f8f9ff;
+    gap: 10px;
+}
+.faq-seta {
+    color: #667eea;
+    font-size: 13px;
+    transition: transform 0.3s;
+    flex-shrink: 0;
+}
+.faq-item.aberto .faq-seta {
+    transform: rotate(180deg);
+}
+.faq-resposta {
+    display: none;
+    padding: 14px 18px;
+    font-size: 15px;
+    color: #555;
+    line-height: 1.7;
+    background: white;
+    border-top: 1px solid #eee;
+}
+.faq-item.aberto .faq-resposta {
+    display: block;
+}
 .footer-crf{
 text-align:center;
 padding:18px 30px;
@@ -1893,6 +1940,19 @@ window.addEventListener('DOMContentLoaded', () => {
                 
                 ${avisoHtml}
                 
+                ${medicine.perguntas_frequentes && medicine.perguntas_frequentes.length > 0 ? `
+                <div class="section-title">❓ Perguntas Frequentes</div>
+                <div class="faq-lista">
+                    ${medicine.perguntas_frequentes.map((faq, i) => `
+                    <div class="faq-item" onclick="this.classList.toggle('aberto')">
+                        <div class="faq-pergunta">
+                            <span>${faq.pergunta}</span>
+                            <span class="faq-seta">▼</span>
+                        </div>
+                        <div class="faq-resposta">${faq.resposta}</div>
+                    </div>`).join('')}
+                </div>` : ''}
+
                 <div class="danger">
                     <strong>📋 NOTA EDUCACIONAL:</strong> Este é conteúdo educacional fornecido por farmacêutica responsável. Sempre consulte um profissional de saúde antes de usar qualquer medicamento. MediCheck não substitui orientação profissional.
                 </div>
