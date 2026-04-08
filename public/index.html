@@ -1800,9 +1800,12 @@ window.addEventListener('DOMContentLoaded', () => {
                 rrHtml = `<div class="resposta-rapida"><div class="rr-label">⚡ Resposta Rápida</div><div class="rr-items">${rrItems}</div></div>`;
             }
 
+            const seoTexto = medicine.descricao_seo || medicine.descricao || '';
+
             medicineCard.innerHTML = `
                 <h2>${medicine.nome}</h2>
                 ${rrHtml}
+                ${seoTexto ? `<p style="font-size:15px;color:#555;line-height:1.8;margin:4px 0 18px 0;font-weight:400;">${seoTexto}</p>` : ''}
                 <div class="section-title">💊 Princípio Ativo</div>
                 <div class="section-content"><strong>${medicine.generico}</strong></div>
                 
