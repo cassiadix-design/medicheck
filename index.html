@@ -871,6 +871,7 @@ border-radius:0 0 20px 20px;
         <div class="content">
             <div class="nav-buttons">
                 <button class="nav-btn active" data-tab="home">🏠 Home</button>
+                <button class="nav-btn" data-tab="vacinas">💉 Vacinas</button>
                 <button class="nav-btn" data-tab="idosos">🧓 Idosos</button>
                 <button class="nav-btn" data-tab="interacoes">⚡ Interações</button>
                 <button class="nav-btn" data-tab="privacidade">🔒 Privacidade</button>
@@ -904,6 +905,29 @@ border-radius:0 0 20px 20px;
                     <div class="pagination" id="pagination"></div>
                     <div class="page-info" id="pageInfo"></div>
 
+                </div>
+            </div>
+
+            <div id="vacinas" class="tab-content">
+                <div class="search-section">
+                    <input type="text" id="vacinasSearchInput" placeholder="🔍 Busque uma vacina...">
+                </div>
+
+                <div class="tip">
+                    💡 Dica: Clique em qualquer vacina para ver detalhes completos, esquema vacinal e avisos importantes
+                </div>
+
+                <div class="medicines-list">
+                    <h3>💉 VACINAS E IMUNIZANTES</h3>
+                    <div class="medicine-grid" id="vacinasGrid"></div>
+
+                    <div style="text-align:center;padding:16px 10px 8px;font-size:14px;color:#666;border-top:1px solid #ddd;margin-top:10px;">
+                        Revisado por <strong>Rita de Cássia Oliveira Soares da Silva</strong> — CRF-SP 33.109 · Farmacêutica responsável<br>
+                        <small style="color:#999;">MediCheck © 2026 — medicheck.med.br — Conteúdo educacional. Não substitui orientação profissional.</small>
+                    </div>
+
+                    <div class="pagination" id="vacinasPagination"></div>
+                    <div class="page-info" id="vacinasPageInfo"></div>
                 </div>
             </div>
 
@@ -1758,6 +1782,9 @@ border-radius:0 0 20px 20px;
 
     <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
         let medicamentosData = [];
+        let vacinasData = [];
+        let vacinasSearchResults = [];
+        let vacinasCurrentPage = 0;
 
 // Carrega os medicamentos após a página renderizar (lazy loading)
 window.addEventListener('DOMContentLoaded', () => {
@@ -1772,6 +1799,18 @@ window.addEventListener('DOMContentLoaded', () => {
         .catch(err => {
             console.error('Erro ao carregar medicamentos:', err);
             document.getElementById('medicineGrid').innerHTML = '<p style="color:red;text-align:center;padding:20px;">Erro ao carregar medicamentos. Verifique sua conexão.</p>';
+        });
+
+    fetch('/vacinas.json')
+        .then(r => r.json())
+        .then(data => {
+            vacinasData = data;
+            vacinasData.sort((a, b) => a.nome.localeCompare(b.nome, 'pt-BR'));
+            vacinasSearchResults = [...vacinasData];
+        })
+        .catch(err => {
+            console.error('Erro ao carregar vacinas:', err);
+            document.getElementById('vacinasGrid').innerHTML = '<p style="color:red;text-align:center;padding:20px;">Erro ao carregar vacinas. Verifique sua conexão.</p>';
         });
 });
 
@@ -2070,6 +2109,65 @@ window.addEventListener('DOMContentLoaded', () => {
             seta.textContent = corpo.classList.contains('aberto') ? '▲' : '▼';
         }
 
+        function renderVacinas(page = 0) {
+            vacinasCurrentPage = page;
+            const vacinasGrid = document.getElementById('vacinasGrid');
+            const vacinasPagination = document.getElementById('vacinasPagination');
+            const vacinasPageInfo = document.getElementById('vacinasPageInfo');
+            vacinasGrid.innerHTML = '';
+
+            document.querySelector('.content').scrollTop = 0;
+
+            const totalPages = Math.ceil(vacinasSearchResults.length / itemsPerPage);
+            const start = page * itemsPerPage;
+            const end = start + itemsPerPage;
+            const pageItems = vacinasSearchResults.slice(start, end);
+
+            pageItems.forEach((med) => {
+                const btn = document.createElement('button');
+                btn.className = 'medicine-btn';
+                const cor = med.receita_cor === 'verde' ? '#27ae60' : med.receita_cor === 'amarelo' ? '#e8751a' : '#c0392b';
+                const bgCor = med.receita_cor === 'verde' ? '#e8f8f0' : med.receita_cor === 'amarelo' ? '#fef3e2' : '#fde8e8';
+                const icone = med.receita_cor === 'verde' ? '🟢' : med.receita_cor === 'amarelo' ? '🟡' : '🔴';
+                const textoReceita = med.receita_cor === 'verde' ? 'Venda Livre' : med.receita_cor === 'amarelo' ? 'Tarjado' : 'Com Receita';
+                btn.innerHTML = '<span style="flex:1;text-align:left;">' + med.nome + '</span><span style="font-size:11px;font-weight:700;padding:3px 10px;border-radius:12px;white-space:nowrap;background:' + bgCor + ';color:' + cor + ';border:1px solid ' + cor + ';">' + icone + ' ' + textoReceita + '</span>';
+                btn.style.cssText = 'display:flex;align-items:center;gap:10px;justify-content:space-between;';
+                btn.onclick = () => openMedicineModal(med);
+                vacinasGrid.appendChild(btn);
+            });
+
+            // Paginação
+            vacinasPagination.innerHTML = '';
+            const maxButtons = 5;
+            let pStart = Math.max(0, page - Math.floor(maxButtons / 2));
+            let pEnd = Math.min(totalPages, pStart + maxButtons);
+            if (pEnd - pStart < maxButtons) pStart = Math.max(0, pEnd - maxButtons);
+            for (let i = pStart; i < pEnd; i++) {
+                const btn = document.createElement('button');
+                btn.textContent = i + 1;
+                btn.className = i === page ? 'active' : '';
+                btn.onclick = () => renderVacinas(i);
+                vacinasPagination.appendChild(btn);
+            }
+
+            vacinasPageInfo.textContent = `Mostrando ${start + 1} a ${Math.min(end, vacinasSearchResults.length)} de ${vacinasSearchResults.length} vacinas`;
+        }
+
+        document.getElementById('vacinasSearchInput').addEventListener('input', (e) => {
+            const term = e.target.value.toLowerCase();
+            if (term === '') {
+                vacinasSearchResults = vacinasData;
+            } else {
+                vacinasSearchResults = vacinasData.filter(med => {
+                    const sinonimos = (med.sinonimos || []).join(' ').toLowerCase();
+                    return med.nome.toLowerCase().includes(term) ||
+                           (med.generico || '').toLowerCase().includes(term) ||
+                           sinonimos.includes(term);
+                });
+            }
+            renderVacinas(0);
+        });
+
         tabButtons.forEach(btn => {
             btn.addEventListener('click', () => {
                 const tab = btn.dataset.tab;
@@ -2078,7 +2176,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
                 // Esconde tudo
                 document.getElementById('home').style.display = 'none';
-                ['idosos','interacoes','privacidade','termos','contato'].forEach(id => {
+                ['vacinas','idosos','interacoes','privacidade','termos','contato'].forEach(id => {
                     const el = document.getElementById(id);
                     if (el) el.classList.remove('active');
                 });
@@ -2087,6 +2185,13 @@ window.addEventListener('DOMContentLoaded', () => {
 
                 if (tab === 'home') {
                     document.getElementById('home').style.display = '';
+                } else if (tab === 'vacinas') {
+                    const el = document.getElementById('vacinas');
+                    if (el) el.classList.add('active');
+                    if (vacinasSearchResults.length === 0 && vacinasData.length > 0) {
+                        vacinasSearchResults = [...vacinasData];
+                    }
+                    renderVacinas(vacinasCurrentPage);
                 } else {
                     const el = document.getElementById(tab);
                     if (el) el.classList.add('active');

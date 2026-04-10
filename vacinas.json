@@ -1,0 +1,1147 @@
+[
+  {
+    "nome": "Vacina Hepatite A",
+    "generico": "Vacina contra Hepatite A (vírus inativado)",
+    "tipo": "Vacina / Imunobiológico",
+    "sinonimos": [
+      "vacina hepatite a",
+      "havrix",
+      "vaqta",
+      "avaxim",
+      "imunização hepatite a"
+    ],
+    "descricao": "Vacina de vírus inativado que confere proteção contra a hepatite A, doença hepática causada pelo vírus HAV transmitido por água e alimentos contaminados. O esquema completo (2 doses) oferece imunidade prolongada por pelo menos 25 anos. Indicada para crianças a partir de 1 ano, adultos, viajantes e grupos de risco.",
+    "receita": "Não",
+    "receita_display": "🟢 Venda Livre / SUS",
+    "receita_cor": "verde",
+    "receita_descricao": "Não exige receita médica. Deve ser aplicada por profissional de saúde habilitado em clínica de vacinas ou posto de saúde.",
+    "receita_nota": "Esquema: 2 doses com intervalo de 6 a 12 meses. No calendário público (SUS): 1 dose aos 15 meses.",
+    "efeitos": "Dor, vermelhidão e inchaço no local da injeção (muito comuns). Cansaço, cefaleia, febre baixa e náusea leve (comuns, passageiros). Reações graves são raríssimas.",
+    "aviso_grave": "Adiar em caso de doença febril aguda moderada ou grave. Informar histórico de anafilaxia a componentes da vacina. Pessoas gravemente imunocomprometidas devem consultar médico antes.",
+    "recomendacao": "⚠️ Aguardar 15 a 30 minutos no local após a aplicação para observação. Em caso de reação alérgica grave (dificuldade respiratória, urticária generalizada), acionar emergência imediatamente.",
+    "educacao": "A hepatite A é transmitida pela rota fecal-oral — água, alimentos crus e mãos contaminadas. A vacina é a proteção mais eficaz, especialmente antes de viagens para regiões com saneamento precário. Uma dose já confere proteção alta; a segunda dose garante imunidade de longa duração.",
+    "resposta_rapida": [
+      "Protege contra o vírus da hepatite A",
+      "2 doses com intervalo de 6 a 12 meses",
+      "Dor no local é normal e passageira",
+      "Indicada antes de viagens internacionais",
+      "Sem receita — aplicar em clínica ou posto"
+    ],
+    "receita_obrigatoria": false,
+    "tipo_receita": "nenhuma",
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Quantas doses são necessárias da vacina de hepatite A?",
+        "resposta": "2 doses: a segunda é aplicada 6 a 12 meses após a primeira. Uma única dose já confere boa proteção inicial, mas as duas doses garantem imunidade duradoura (mais de 25 anos)."
+      },
+      {
+        "pergunta": "A vacina de hepatite A tem no SUS?",
+        "resposta": "Sim, no Calendário Nacional de Vacinação a dose é oferecida aos 15 meses de idade. Para adultos e outras indicações, normalmente é paga em clínicas privadas."
+      },
+      {
+        "pergunta": "Vacina de hepatite A dói muito?",
+        "resposta": "A dor no local da injeção é o efeito mais comum, geralmente leve a moderada, passando em 1 a 2 dias. Compressas frias aliviam o desconforto."
+      },
+      {
+        "pergunta": "Quem não pode tomar a vacina de hepatite A?",
+        "resposta": "Pessoas com hipersensibilidade grave a algum componente da vacina e quem estiver com doença febril grave no momento. Gestantes e imunossuprimidos devem consultar médico antes."
+      },
+      {
+        "pergunta": "A vacina de hepatite A protege contra hepatite B?",
+        "resposta": "Não. São vírus diferentes e vacinas distintas. Existe a vacina combinada hepatite A + B (Twinrix), que protege contra os dois com um único esquema."
+      }
+    ],
+    "descricao_seo": "Vacina Hepatite A é um imunobiológico usado para: proteção contra a hepatite A, doença hepática causada pelo vírus HAV transmitido por água e alimentos contaminados. O esquema completo de 2 doses oferece imunidade prolongada por pelo menos 25 anos. Os efeitos colaterais mais relatados são: dor, vermelhidão e inchaço no local da injeção, cansaço, cefaleia e febre baixa passageiros. Importante: adiar em doenças febris agudas graves; aguardar 15 a 30 minutos após a aplicação para observação. A Vacina Hepatite A não exige receita médica, mas deve ser aplicada por profissional habilitado."
+  },
+  {
+    "nome": "Vacina Tríplice Viral (SCR)",
+    "generico": "Vacina Sarampo, Caxumba e Rubéola",
+    "tipo": "Vacina / Imunobiológico",
+    "sinonimos": [
+      "vacina scr",
+      "tríplice viral",
+      "vacina sarampo",
+      "vacina caxumba",
+      "vacina rubéola",
+      "mmr",
+      "priorix",
+      "m-m-r ii"
+    ],
+    "descricao": "Vacina combinada de vírus vivos atenuados que protege contra sarampo, caxumba (parotidite) e rubéola — três doenças altamente contagiosas e potencialmente graves. O esquema de 2 doses confere imunidade de longa duração, muito próxima da imunidade natural. Componente fundamental dos calendários vacinais globais.",
+    "receita": "Não",
+    "receita_display": "🟢 Venda Livre / SUS",
+    "receita_cor": "verde",
+    "receita_descricao": "Não exige receita médica. Deve ser aplicada por profissional de saúde habilitado em clínica de vacinas ou posto de saúde.",
+    "receita_nota": "Calendário SUS: 1ª dose aos 12 meses, 2ª dose aos 15 meses (tetraviral SCR + varicela). Adultos sem vacinação completa: 2 doses com intervalo mínimo de 4 semanas.",
+    "efeitos": "Febre (pode ser alta), exantema (manchas vermelhas na pele) e leve tumefação das glândulas parótidas, surgindo 5 a 12 dias após a vacinação — são respostas imunes esperadas. Raramente: artralgia transitória (componente rubéola), parotidite leve.",
+    "aviso_grave": "CONTRAINDICADA na gravidez — risco teórico ao feto. Evitar engravidar por 28 dias após a vacina. Contraindicada em imunossupressão grave (HIV com CD4 baixo, quimioterapia ativa, corticoide em altas doses). Não administrar junto com imunoglobulina.",
+    "recomendacao": "🔴 Gestantes NÃO devem receber esta vacina. Mulheres em idade fértil devem usar anticoncepcional por 28 dias após a vacinação. Comunicar qualquer febre alta persistente ou reação cutânea extensa ao serviço de saúde.",
+    "educacao": "O sarampo é altamente contagioso — um caso pode infectar 12 a 18 pessoas não vacinadas. A cobertura vacinal mínima de 95% é necessária para manter a imunidade coletiva. Adultos nascidos antes de 1960 geralmente têm imunidade natural pela exposição prévia.",
+    "resposta_rapida": [
+      "Protege contra sarampo, caxumba e rubéola",
+      "2 doses garantem imunidade de longa duração",
+      "PROIBIDA na gravidez — evitar engravidar 28 dias após",
+      "Febre e manchas 5-12 dias após são normais",
+      "Gratuita no SUS"
+    ],
+    "receita_obrigatoria": false,
+    "tipo_receita": "nenhuma",
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "A tríplice viral causa sarampo?",
+        "resposta": "Não causa sarampo. A febre e o exantema que podem aparecer 5 a 12 dias após são respostas imunes aos vírus atenuados — não são a doença e não são transmissíveis."
+      },
+      {
+        "pergunta": "Grávida pode tomar a tríplice viral?",
+        "resposta": "Não. É contraindicada na gravidez. Mulheres que tomarem a vacina devem evitar engravidar por 28 dias. Se tomou sem saber que estava grávida, comunicar ao médico para acompanhamento."
+      },
+      {
+        "pergunta": "Adulto precisa tomar a tríplice viral?",
+        "resposta": "Adultos nascidos após 1960 que não têm 2 doses comprovadas ou imunidade documentada devem completar o esquema. Profissionais de saúde e mulheres em idade fértil sem imunidade são grupos prioritários."
+      },
+      {
+        "pergunta": "A tríplice viral tem no SUS?",
+        "resposta": "Sim, está no calendário nacional para crianças. Para adultos, é disponibilizada conforme campanhas e grupos de risco. Verificar disponibilidade na UBS local."
+      },
+      {
+        "pergunta": "Vacina tríplice viral e varicela podem ser tomadas juntas?",
+        "resposta": "Sim, podem ser aplicadas no mesmo dia (em locais diferentes) ou com intervalo mínimo de 28 dias. No SUS, a tetraviral (SCR + varicela) é aplicada aos 15 meses, combinando as quatro em uma dose."
+      }
+    ],
+    "descricao_seo": "Vacina Tríplice Viral (SCR) é um imunobiológico usado para: proteção contra sarampo, caxumba e rubéola — três doenças altamente contagiosas. O esquema de 2 doses confere imunidade duradoura. Os efeitos colaterais mais relatados são: febre, exantema cutâneo e leve parotidite surgindo 5 a 12 dias após a vacinação — reações imunes esperadas e passageiras. Importante: CONTRAINDICADA na gravidez; evitar engravidar 28 dias após. Proibida em imunossuprimidos graves. A Vacina Tríplice Viral não exige receita médica e é gratuita no SUS."
+  },
+  {
+    "nome": "Vacina dTpa (Difteria, Tétano e Coqueluche Acelular)",
+    "generico": "Vacina dTpa — Difteria, Tétano, Pertussis Acelular",
+    "tipo": "Vacina / Imunobiológico",
+    "sinonimos": [
+      "vacina dtpa",
+      "boostrix",
+      "adacel",
+      "vacina coqueluche adulto",
+      "vacina tétano adulto",
+      "vacina difteria adulto",
+      "imunização dtpa"
+    ],
+    "descricao": "Vacina combinada que reforça a imunidade contra difteria, tétano e coqueluche (pertussis) em adolescentes e adultos. Diferente da DTP infantil, usa componente acelular de pertussis (menos reatogênica). Indicada como reforço a cada 10 anos e especialmente para gestantes (3ª trimestre) e adultos em contato com recém-nascidos — estratégia do 'casulo' para proteger bebês que ainda não completaram a vacinação básica.",
+    "receita": "Não",
+    "receita_display": "🟢 Venda Livre / SUS",
+    "receita_cor": "verde",
+    "receita_descricao": "Não exige receita médica. Deve ser aplicada por profissional de saúde habilitado em clínica de vacinas ou posto de saúde.",
+    "receita_nota": "Gestantes: aplicar entre a 27ª e 36ª semana de gestação em cada gestação. Adultos: reforço a cada 10 anos (substituir uma dose do dT pelo dTpa). Disponível no SUS para gestantes e outros grupos.",
+    "efeitos": "Dor intensa, vermelhidão e inchaço no local (muito comuns — especialmente em revacinações). Febre, cefaleia, mialgia e fadiga (comuns, passageiros). Raramente: reação local extensa (>5 cm) em pessoas com muitos reforços prévios.",
+    "aviso_grave": "Histórico de encefalopatia nos 7 dias após vacinação prévia com componente pertussis é contraindicação. Síndrome de Guillain-Barré nos 6 semanas após vacinação anterior contra tétano requer avaliação médica. Reação local muito extensa pode ocorrer em reforços frequentes.",
+    "recomendacao": "⚠️ Gestantes: aplicar em cada gestação no 3º trimestre — os anticorpos transferidos para o bebê são a principal proteção nos primeiros meses de vida, antes da vacinação primária. Compressas frias aliviam a dor e inchaço local.",
+    "educacao": "A coqueluche (tosse comprida) é especialmente perigosa em recém-nascidos e lactentes — pode ser fatal. Bebês só completam a proteção com 3 doses da DTP (aos 2, 4 e 6 meses). A vacinação materna no 3º trimestre transfere anticorpos protetores imediatamente ao bebê.",
+    "resposta_rapida": [
+      "Reforço contra difteria, tétano e coqueluche",
+      "Obrigatória no 3º trimestre de cada gestação",
+      "Reforço a cada 10 anos para adultos",
+      "Dor local intensa é comum — compressa fria ajuda",
+      "Gratuita no SUS para gestantes"
+    ],
+    "receita_obrigatoria": false,
+    "tipo_receita": "nenhuma",
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Qual a diferença entre dTpa e DTP?",
+        "resposta": "A DTP infantil usa componente pertussis de célula inteira (mais reatogênica). A dTpa usa componente acelular (menos reatogênica) e doses menores de difteria e tétano — formulada para adolescentes e adultos que já receberam a série primária."
+      },
+      {
+        "pergunta": "Gestante pode tomar a vacina dTpa?",
+        "resposta": "Sim, é fortemente recomendada. Deve ser aplicada entre a 27ª e 36ª semana em cada gestação. Os anticorpos produzidos pela mãe protegem o bebê desde o nascimento até completar a vacinação própria."
+      },
+      {
+        "pergunta": "A dTpa tem no SUS?",
+        "resposta": "Sim, gratuitamente para gestantes e outros grupos prioritários. Para adultos como reforço de rotina, está disponível em clínicas privadas ou em campanhas específicas do SUS."
+      },
+      {
+        "pergunta": "De quanto em quanto tempo devo tomar o reforço de tétano?",
+        "resposta": "A cada 10 anos. Idealmente, um dos reforços deve ser com a dTpa (em vez do dT simples) para manter a imunidade também contra coqueluche. Em acidentes com ferimentos graves, pode ser necessário antecipar."
+      },
+      {
+        "pergunta": "A vacina dTpa dói muito?",
+        "resposta": "Sim, é uma das vacinas com maior reação local — especialmente em pessoas com muitos reforços anteriores. Dor intensa, endurecimento e inchaço por 2 a 3 dias são comuns. Compressas frias e ibuprofeno (se não contraindicado) aliviam."
+      }
+    ],
+    "descricao_seo": "Vacina dTpa (Difteria, Tétano e Coqueluche Acelular) é um imunobiológico usado para: reforço de imunidade contra difteria, tétano e coqueluche em adolescentes e adultos. Especialmente indicada para gestantes no 3º trimestre e adultos em contato com recém-nascidos. Os efeitos colaterais mais relatados são: dor intensa no local da injeção, vermelhidão, inchaço e mal-estar passageiro — compressa fria alivia. Importante: gestantes devem receber em cada gestação no 3º trimestre; reforço a cada 10 anos para adultos. A Vacina dTpa não exige receita médica e é gratuita no SUS para gestantes."
+  },
+  {
+    "nome": "Vacina Rotavírus (VORH)",
+    "generico": "Vacina Oral de Rotavírus Humano Monovalente",
+    "tipo": "Vacina / Imunobiológico",
+    "sinonimos": [
+      "vacina rotavírus",
+      "rotarix",
+      "vorh",
+      "vacina diarreia bebê",
+      "vacina gastroenterite rotavírus",
+      "imunização rotavírus"
+    ],
+    "descricao": "Vacina oral de vírus vivo atenuado que protege contra gastroenterite grave por rotavírus — principal causa de diarreia severa com desidratação em crianças menores de 5 anos. Administrada em 2 doses orais (gotas) nos primeiros meses de vida. A vacinação em massa reduziu em até 80% as hospitalizações por diarreia grave em lactentes no Brasil.",
+    "receita": "Não",
+    "receita_display": "🟢 Venda Livre / SUS",
+    "receita_cor": "verde",
+    "receita_descricao": "Não exige receita médica. Deve ser administrada por profissional de saúde habilitado em clínica de vacinas ou posto de saúde.",
+    "receita_nota": "Calendário SUS: 1ª dose aos 2 meses, 2ª dose aos 4 meses. Limite de idade: 1ª dose até 3 meses e 15 dias; 2ª dose até 7 meses e 29 dias — não administrar fora dessas idades. Vacina oral (gotas), não injeção.",
+    "efeitos": "Irritabilidade, choro e regurgitação leve após as gotas (comuns e passageiros). Raramente: febre baixa, diarreia leve. Invaginação intestinal (risco muito baixo, estimado em 1-2 casos extras por 100.000 doses): sinal de alarme — choro inconsolável em acessos, vômitos, fezes com sangue.",
+    "aviso_grave": "Contraindicada em crianças com invaginação intestinal prévia ou malformação gastrointestinal congênita não corrigida. Adiar em diarreia aguda grave ou vômitos intensos. Imunossuprimidos graves: avaliar com médico. RESPEITAR OS LIMITES DE IDADE — administrar fora da faixa aumenta o risco de invaginação.",
+    "recomendacao": "⚠️ Respeitar estritamente os limites de idade. Após a vacinação, observar sinais de invaginação nas 2 semanas seguintes: choro forte em crises, vômitos, barriga rígida, fezes com sangue — procurar emergência imediatamente se ocorrerem.",
+    "educacao": "O rotavírus era responsável por dezenas de milhares de internações anuais no Brasil antes da vacina. A transmissão é fecal-oral — a higiene das mãos complementa, mas não substitui, a vacinação. Crianças vacinadas podem ainda ter gastroenterite leve por rotavírus, mas dificilmente a forma grave com desidratação severa.",
+    "resposta_rapida": [
+      "Protege contra diarreia grave por rotavírus",
+      "Vacina oral (gotas) — não é injeção",
+      "2 doses: 2 e 4 meses de vida",
+      "Respeitar limite de idade rigorosamente",
+      "Gratuita no SUS"
+    ],
+    "receita_obrigatoria": false,
+    "tipo_receita": "nenhuma",
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "A vacina de rotavírus é oral ou injetável?",
+        "resposta": "É oral — administrada em gotas na boca do bebê. Não é uma injeção. São 2 doses: a primeira aos 2 meses e a segunda aos 4 meses de vida."
+      },
+      {
+        "pergunta": "Pode dar mama antes ou depois da vacina de rotavírus?",
+        "resposta": "Sim, amamentação não interfere na eficácia. O Ministério da Saúde recomenda que pode amamentar normalmente antes e depois da dose."
+      },
+      {
+        "pergunta": "A vacina de rotavírus tem no SUS?",
+        "resposta": "Sim, é oferecida gratuitamente no calendário nacional de vacinação infantil, com a 1ª dose aos 2 meses e a 2ª dose aos 4 meses."
+      },
+      {
+        "pergunta": "O bebê cuspiu a vacina de rotavírus — precisa repetir?",
+        "resposta": "Se a criança regurgitou ou cuspiu parte da dose, não se repete a dose naquela visita. A proteção parcial ainda ocorre e o esquema continua normalmente."
+      },
+      {
+        "pergunta": "Por que tem limite de idade para a vacina de rotavírus?",
+        "resposta": "Estudos com formulações anteriores mostraram leve aumento de risco de invaginação intestinal em crianças mais velhas. O limite de idade (1ª dose até 3m15d; 2ª até 7m29d) garante o melhor equilíbrio entre benefício e segurança."
+      }
+    ],
+    "descricao_seo": "Vacina Rotavírus (VORH) é um imunobiológico usado para: proteção contra gastroenterite grave por rotavírus, principal causa de diarreia com desidratação em lactentes. Administrada em 2 doses orais (gotas) aos 2 e 4 meses de vida. Os efeitos colaterais mais relatados são: irritabilidade e regurgitação leve pós-dose; raramente febre baixa. Importante: respeitar rigorosamente os limites de idade; sinais de invaginação intestinal (choro em crises, fezes com sangue) requerem emergência imediata. A Vacina Rotavírus não exige receita médica e é gratuita no SUS."
+  },
+  {
+    "nome": "Vacina Antirrábica (Raiva Humana)",
+    "generico": "Vacina Antirrábica de Cultivo Celular (VERO)",
+    "tipo": "Vacina / Imunobiológico",
+    "sinonimos": [
+      "vacina raiva",
+      "vacina antirrábica",
+      "rabipur",
+      "imovax raiva",
+      "vacina raiva humana",
+      "profilaxia raiva",
+      "pré-exposição raiva",
+      "pós-exposição raiva"
+    ],
+    "descricao": "Vacina de vírus inativado cultivado em células Vero, usada tanto na profilaxia pré-exposição (veterinários, biólogos, espeleólogos) quanto na profilaxia pós-exposição à raiva (após mordedura, arranhão ou lambedura de animal suspeito). A raiva é quase 100% fatal após o início dos sintomas — a profilaxia pós-exposição imediata é uma emergência médica. Frequentemente combinada com imunoglobulina antirrábica (soro) nas categorias de maior risco.",
+    "receita": "Não",
+    "receita_display": "🟢 Venda Livre / SUS",
+    "receita_cor": "verde",
+    "receita_descricao": "Não exige receita médica. A profilaxia pós-exposição deve ser iniciada imediatamente em serviço de saúde (UPA, pronto-socorro ou centro de referência). A pré-exposição é realizada em clínicas de vacinas.",
+    "receita_nota": "Pré-exposição: 3 doses (dias 0, 7 e 21 ou 28) + reforços periódicos conforme titulação. Pós-exposição: 4 doses (dias 0, 3, 7 e 14) — iniciar o mais rápido possível após a exposição. Lavar o ferimento com água e sabão por 15 minutos antes de ir ao serviço de saúde.",
+    "efeitos": "Dor, vermelhidão e endurecimento no local da injeção (muito comuns). Cefaleia, tontura, náusea, mialgia e febre baixa (comuns, passageiros). Raramente: reação alérgica, neuropatia (com formulações antigas de tecido nervoso — não mais usadas no Brasil).",
+    "aviso_grave": "EMERGÊNCIA: após exposição a animal suspeito de raiva (cão, gato, morcego, macaco) — lavar o ferimento com água e sabão por 15 minutos e ir IMEDIATAMENTE ao pronto-socorro ou UPA. Não aguardar sintomas. A raiva é praticamente 100% fatal após instalação da doença. Não há contraindicação absoluta à profilaxia pós-exposição.",
+    "recomendacao": "🔴 Mordedura ou arranhão de morcego, mesmo que pequeno: EMERGÊNCIA — iniciar profilaxia imediatamente. Morcegos podem transmitir raiva mesmo sem mordedura visível. Em caso de mordedura de cão ou gato doméstico com vacinação comprovada: observar o animal por 10 dias; se o animal adoecer ou morrer, reiniciar esquema vacinal.",
+    "educacao": "O Brasil mantém a raiva humana transmitida por cães praticamente eliminada, mas a raiva transmitida por morcegos persiste. Nunca manipular morcego encontrado no chão ou em local incomum. A lavagem imediata do ferimento com água e sabão reduz a carga viral e é o primeiro passo mais importante da profilaxia.",
+    "resposta_rapida": [
+      "Mordedura de animal suspeito = emergência imediata",
+      "Lavar ferimento com água e sabão por 15 min",
+      "Ir ao pronto-socorro — não esperar sintomas",
+      "Profilaxia pós-exposição: 4 doses (0, 3, 7, 14 dias)",
+      "Raiva é fatal após sintomas — prevenção é tudo"
+    ],
+    "receita_obrigatoria": false,
+    "tipo_receita": "nenhuma",
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Fui mordido por um cachorro — preciso tomar a vacina antirrábica?",
+        "resposta": "Depende: lavar o ferimento com água e sabão e ir ao pronto-socorro ou UPA para avaliação. Se o animal está vacinado e é observável por 10 dias, pode-se aguardar. Se é animal silvestre, desconhecido ou morcego, a profilaxia é iniciada imediatamente."
+      },
+      {
+        "pergunta": "A vacina antirrábica tem no SUS?",
+        "resposta": "Sim, a profilaxia pós-exposição é oferecida gratuitamente em unidades de saúde (UPAs, prontos-socorros e centros de referência). A pré-exposição pode estar disponível em centros de referência para grupos de risco."
+      },
+      {
+        "pergunta": "Morcego entrou em casa — preciso me vacinar?",
+        "resposta": "Se houve qualquer contato físico com o morcego (toque, arranhão, até mesmo enquanto dormia), procurar atendimento imediatamente. Morcegos podem ter dentes tão pequenos que o arranhão passa despercebido."
+      },
+      {
+        "pergunta": "Quantas doses da vacina antirrábica são necessárias?",
+        "resposta": "Pós-exposição: 4 doses nos dias 0, 3, 7 e 14. Pré-exposição: 3 doses (dias 0, 7 e 21 ou 28) com reforços periódicos conforme titulação de anticorpos."
+      },
+      {
+        "pergunta": "Gestante pode tomar a vacina antirrábica?",
+        "resposta": "Sim. Não há contraindicação absoluta à profilaxia antirrábica pós-exposição em gestantes — o risco da raiva supera qualquer risco teórico da vacina. A decisão de tratar é sempre favorável quando há exposição real."
+      }
+    ],
+    "descricao_seo": "Vacina Antirrábica (Raiva Humana) é um imunobiológico usado para: profilaxia pré e pós-exposição à raiva. A raiva é quase 100% fatal após sintomas — a profilaxia pós-exposição é emergência médica. Lavar o ferimento e ir imediatamente ao pronto-socorro. Os efeitos colaterais mais relatados são: dor local, cefaleia, mialgia e febre baixa passageiros. Importante: mordedura de morcego ou animal suspeito = emergência; não aguardar sintomas. A Vacina Antirrábica não exige receita; profilaxia pós-exposição gratuita no SUS."
+  },
+  {
+    "nome": "Vacina Meningocócica B (Bexsero)",
+    "generico": "Vacina Meningocócica Recombinante Sorogrupo B (4CMenB)",
+    "tipo": "Vacina / Imunobiológico",
+    "sinonimos": [
+      "vacina meningite b",
+      "bexsero",
+      "trumenba",
+      "4cmenb",
+      "vacina menb",
+      "imunização meningocócica b",
+      "vacina meningococo b"
+    ],
+    "descricao": "Vacina recombinante multicomponente que protege contra o Neisseria meningitidis sorogrupo B — responsável pela maioria dos casos de meningite meningocócica em crianças menores de 5 anos e adolescentes no Brasil. Diferente das vacinas conjugadas (ACWY), usa proteínas recombinantes para cobrir o sorogrupo B, que não responde às vacinas polissacarídicas convencionais.",
+    "receita": "Não",
+    "receita_display": "🟢 Venda Livre / SUS",
+    "receita_cor": "verde",
+    "receita_descricao": "Não exige receita médica. Deve ser aplicada por profissional de saúde habilitado em clínica de vacinas. Atualmente disponível apenas na rede privada no Brasil.",
+    "receita_nota": "Esquema para lactentes: 2-3 doses com intervalo de 2 meses + reforço. Crianças maiores (2-10 anos): 2 doses com intervalo de 2 meses. Adolescentes e adultos: 2 doses com intervalo de 1 mês. Verificar bula da apresentação específica para o esquema atualizado.",
+    "efeitos": "Dor intensa, eritema e endurecimento no local da injeção (muito comuns — entre as vacinas mais reatogênicas). Febre alta (especialmente em lactentes — muito comum quando combinada com outras vacinas), irritabilidade, choro prolongado, recusa alimentar. O paracetamol profilático pode ser recomendado pelo pediatra.",
+    "aviso_grave": "A febre alta após a vacinação em lactentes é esperada e deve ser manejada com paracetamol conforme prescrição. Contraindicada em hipersensibilidade grave a componentes. Em caso de febre muito alta (>40°C) ou convulsão febril, procurar atendimento médico.",
+    "recomendacao": "⚠️ Discutir com o pediatra o uso profilático de paracetamol nas primeiras doses em lactentes — reduz a intensidade da febre e do desconforto sem comprometer a resposta imune. A vacina Bexsero é complementar à ACWY — idealmente ambas devem ser aplicadas para cobertura mais abrangente contra meningite meningocócica.",
+    "educacao": "O sorogrupo B não é coberto pelas vacinas ACWY, por isso é necessária vacina específica. A meningocócica B causa meningite de evolução muito rápida — pode ser fatal em menos de 24 horas. Adolescentes em dormitórios, quartéis e internatos têm risco aumentado para todos os sorogrupos.",
+    "resposta_rapida": [
+      "Protege contra meningite pelo sorogrupo B",
+      "Complementa a vacina ACWY — sorogrupos diferentes",
+      "Febre alta em bebês é esperada — dar paracetamol",
+      "Disponível apenas na rede privada no Brasil",
+      "Meningite evolui em horas — vacine preventivamente"
+    ],
+    "receita_obrigatoria": false,
+    "tipo_receita": "nenhuma",
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Qual a diferença entre vacina meningocócica B e ACWY?",
+        "resposta": "São complementares — cobrem sorogrupos diferentes. A ACWY protege contra os sorogrupos A, C, W e Y. A Bexsero protege contra o sorogrupo B, que é o mais comum em crianças pequenas e não é coberto pela ACWY."
+      },
+      {
+        "pergunta": "A vacina Bexsero tem no SUS?",
+        "resposta": "Ainda não. Atualmente está disponível apenas na rede privada de vacinação no Brasil. Há discussões sobre sua inclusão no calendário público."
+      },
+      {
+        "pergunta": "Por que a vacina meningocócica B causa tanta febre?",
+        "resposta": "A formulação com adjuvante MF59 e múltiplas proteínas recombinantes gera resposta imune mais intensa, resultando em febre com frequência elevada — especialmente em lactentes. É esperada e manejada com paracetamol. Não indica infecção."
+      },
+      {
+        "pergunta": "Pode aplicar Bexsero junto com outras vacinas do calendário?",
+        "resposta": "Sim, pode ser coadministrada, mas a reatogenicidade (febre, dor local) pode ser maior. O pediatra pode recomendar paracetamol profilático e orientar sobre o espaçamento mais adequado para cada criança."
+      },
+      {
+        "pergunta": "Adolescente precisa da vacina meningocócica B?",
+        "resposta": "Sim, adolescentes são grupo de risco para meningococo — especialmente aqueles em dormitórios, internatos e quartéis. O esquema para adolescentes é de 2 doses com intervalo de 1 mês."
+      }
+    ],
+    "descricao_seo": "Vacina Meningocócica B (Bexsero) é um imunobiológico usado para: proteção contra meningite pelo sorogrupo B do meningococo, o mais comum em crianças pequenas no Brasil. Complementa a vacina ACWY. Os efeitos colaterais mais relatados são: dor intensa local, febre alta (especialmente em lactentes) — manejada com paracetamol. Importante: complementar à ACWY para cobertura completa; atualmente disponível apenas na rede privada no Brasil. A Vacina Meningocócica B não exige receita médica."
+  },
+  {
+    "nome": "Vacina Febre Tifoide",
+    "generico": "Vacina Tifoide Vi Polissacarídica",
+    "tipo": "Vacina / Imunobiológico",
+    "sinonimos": [
+      "vacina febre tifoide",
+      "typhim vi",
+      "typherix",
+      "vacina tifoide",
+      "vacina salmonella typhi",
+      "imunização tifoide",
+      "vacina viajante tifoide"
+    ],
+    "descricao": "Vacina polissacarídica que protege contra a febre tifoide, infecção bacteriana sistêmica causada pela Salmonella Typhi, transmitida por água e alimentos contaminados. Indicada principalmente para viajantes a países endêmicos (sul e sudeste asiático, América Central, África Subsaariana), trabalhadores de saneamento e laboratório, e residentes em áreas com precárias condições sanitárias. Eficácia de 50 a 80% por 2 a 3 anos.",
+    "receita": "Não",
+    "receita_display": "🟢 Venda Livre / SUS",
+    "receita_cor": "verde",
+    "receita_descricao": "Não exige receita médica. Deve ser aplicada por profissional de saúde habilitado em clínica de vacinas. Recomendada pelo menos 2 semanas antes da viagem.",
+    "receita_nota": "Dose única injetável (Vi polissacarídica). Reforço a cada 2 a 3 anos para viajantes com exposição contínua. Existe também a forma oral (Ty21a — Vivotif): 4 doses em dias alternados; contraindicada em imunossuprimidos. Aplicar pelo menos 14 dias antes da viagem.",
+    "efeitos": "Dor, vermelhidão e endurecimento no local da injeção (muito comuns). Febre baixa, cefaleia e mal-estar (comuns, passageiros 1 a 2 dias). Raramente: reação alérgica.",
+    "aviso_grave": "A vacina polissacarídica (injetável) é segura em imunocomprometidos. A vacina oral (Ty21a) é contraindicada em imunossuprimidos e durante uso de antibióticos (especialmente sulfonamidas e rifampicina). Não aplicar a oral em crianças menores de 6 anos.",
+    "recomendacao": "⚠️ A vacina NÃO substitui as precauções alimentares em áreas endêmicas. Seguir a regra 'ferver, cozinhar, descascar ou esquecer' para alimentos e bebidas. Água engarrafada lacrada ou fervida; evitar gelo, frutos do mar crus e saladas cruas em áreas de risco.",
+    "educacao": "A febre tifoide pode ser grave sem tratamento — causando perfuração intestinal e sepse. O tratamento é com antibióticos (azitromicina, ceftriaxona), mas a resistência antimicrobiana está crescendo em países do sul asiático. A prevenção combinada de vacina + precauções alimentares é a estratégia mais eficaz.",
+    "resposta_rapida": [
+      "Protege contra febre tifoide (Salmonella Typhi)",
+      "Dose única — reforço a cada 2-3 anos",
+      "Aplicar 14 dias antes da viagem",
+      "Complementar às precauções alimentares",
+      "Disponível em clínicas de vacinas"
+    ],
+    "receita_obrigatoria": false,
+    "tipo_receita": "nenhuma",
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Quem deve tomar a vacina de febre tifoide?",
+        "resposta": "Principalmente viajantes para sul e sudeste asiático, América Central e África Subsaariana; trabalhadores de saneamento; laboratoristas que manipulam Salmonella Typhi; e pessoas em áreas com surtos ou saneamento precário."
+      },
+      {
+        "pergunta": "Quantas doses são necessárias da vacina de febre tifoide?",
+        "resposta": "A forma injetável é dose única com reforço a cada 2 a 3 anos. A forma oral (Ty21a) requer 4 doses em dias alternados e não é encontrada no Brasil — mais usada em viajantes que chegam ao exterior."
+      },
+      {
+        "pergunta": "A vacina de febre tifoide tem no SUS?",
+        "resposta": "Não é parte do calendário nacional padrão. Pode estar disponível em centros de referência para vacinação do viajante ligados ao SUS (CRIE — Centros de Referência para Imunobiológicos Especiais) em situações específicas."
+      },
+      {
+        "pergunta": "A vacina de tifoide protege contra outras Salmonellas?",
+        "resposta": "Não. Protege especificamente contra a Salmonella Typhi. Não confere proteção contra salmoneloses comuns (Salmonella não-Typhi), frequentes em intoxicações alimentares por frango e ovos mal cozidos."
+      },
+      {
+        "pergunta": "Posso tomar a vacina de tifoide junto com outras vacinas de viagem?",
+        "resposta": "Sim, geralmente pode ser coadministrada com hepatite A, hepatite B, febre amarela e outras vacinas de viagem. O médico ou enfermeiro da clínica de vacinas orientará o esquema mais adequado."
+      }
+    ],
+    "descricao_seo": "Vacina Febre Tifoide é um imunobiológico usado para: proteção contra febre tifoide (Salmonella Typhi), doença bacteriana sistêmica transmitida por água e alimentos contaminados. Recomendada para viajantes a países endêmicos. Dose única injetável com reforço a cada 2-3 anos. Os efeitos colaterais mais relatados são: dor local, febre baixa e cefaleia passageiros. Importante: aplicar 14 dias antes da viagem; não substitui as precauções alimentares. A Vacina Febre Tifoide não exige receita médica; disponível em clínicas de vacinas."
+  },
+  {
+    "nome": "Vacina Herpes Zóster (Shingrix)",
+    "generico": "Vacina Herpes Zóster Recombinante Adjuvantada (RZV)",
+    "tipo": "Vacina / Imunobiológico",
+    "sinonimos": [
+      "vacina herpes zóster",
+      "shingrix",
+      "rzv",
+      "vacina cobreiro",
+      "vacina zóster recombinante",
+      "imunização zóster adulto",
+      "vacina zoster"
+    ],
+    "descricao": "Vacina recombinante adjuvantada (não é vírus vivo) que protege contra herpes zóster (cobreiro) e suas complicações — em especial a neuralgia pós-herpética, dor crônica intensa que pode durar meses a anos. Eficácia superior a 90% em adultos ≥50 anos e mantida por pelo menos 10 anos. Por ser não-viva, pode ser usada em imunocomprometidos (diferente da vacina Zostavax, que era de vírus vivo).",
+    "receita": "Não",
+    "receita_display": "🟢 Venda Livre / SUS",
+    "receita_cor": "verde",
+    "receita_descricao": "Não exige receita médica. Deve ser aplicada por profissional de saúde habilitado em clínica de vacinas. Atualmente disponível apenas na rede privada no Brasil.",
+    "receita_nota": "Esquema: 2 doses com intervalo de 2 a 6 meses. Indicada para adultos ≥50 anos. Para imunossuprimidos ≥18 anos: 2 doses com intervalo de 1 a 2 meses (esquema acelerado). Não substitui o tratamento de zóster ativo.",
+    "efeitos": "Dor intensa, vermelhidão e inchaço no local da injeção (muito comuns — entre as mais reatogênicas). Mialgia, fadiga, cefaleia, calafrios e febre (comuns, 2 a 3 dias após cada dose — relacionados ao adjuvante AS01B). A reatogenicidade é esperada e sinal de resposta imune robusta.",
+    "aviso_grave": "Contraindicada em hipersensibilidade grave a componentes. Por ser recombinante (não vírus vivo), NÃO é contraindicada em imunossuprimidos — é a opção preferida para pacientes oncológicos, transplantados e em uso de imunossupressores. Adiar em doença febril aguda grave.",
+    "recomendacao": "⚠️ Os sintomas sistêmicos (febre, mialgia, fadiga) após a dose são comuns e intensos — planejar a vacinação em dias com agenda tranquila. Paracetamol ou ibuprofeno aliviam o desconforto. Quem já teve zóster pode e deve se vacinar — previne recorrências e neuralgia pós-herpética.",
+    "educacao": "O vírus da varicela-zóster (VZV) permanece latente nos gânglios nervosos após a varicela na infância. Com a redução da imunidade pelo envelhecimento ou imunossupressão, pode reativar causando zóster. A neuralgia pós-herpética — dor que persiste meses após as lesões cicatrizarem — é a complicação mais incapacitante e é drasticamente reduzida pela Shingrix.",
+    "resposta_rapida": [
+      "Protege contra cobreiro (zóster) e neuralgia pós-herpética",
+      "2 doses com intervalo de 2 a 6 meses",
+      "Eficácia >90% — mantida por pelo menos 10 anos",
+      "Pode ser usada em imunossuprimidos (não é vírus vivo)",
+      "Efeitos sistêmicos intensos após a dose são esperados"
+    ],
+    "receita_obrigatoria": false,
+    "tipo_receita": "nenhuma",
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Quem deve tomar a vacina Shingrix?",
+        "resposta": "Adultos ≥50 anos, independentemente de ter tido varicela ou zóster anteriormente. Imunossuprimidos ≥18 anos (oncológicos, transplantados, em uso de imunossupressores) também são candidatos — com esquema acelerado."
+      },
+      {
+        "pergunta": "Quem já teve cobreiro (zóster) precisa tomar a Shingrix?",
+        "resposta": "Sim. Mesmo quem já teve zóster pode ter recorrência e está em risco de neuralgia pós-herpética. A Shingrix é recomendada após a resolução completa do episódio agudo."
+      },
+      {
+        "pergunta": "A vacina Shingrix tem no SUS?",
+        "resposta": "Ainda não está disponível no SUS. É encontrada apenas na rede privada de vacinação. Há expectativa de inclusão futura dado o impacto da neuralgia pós-herpética na qualidade de vida dos idosos."
+      },
+      {
+        "pergunta": "Por que a Shingrix causa tantos efeitos colaterais?",
+        "resposta": "O adjuvante AS01B (que amplifica a resposta imune) é responsável pela intensa reatogenicidade — febre, mialgia, fadiga. Esses efeitos são sinal de que a vacina está gerando resposta imune robusta. Passam em 2 a 3 dias e são manejados com analgésicos."
+      },
+      {
+        "pergunta": "Imunossuprimido pode tomar a Shingrix?",
+        "resposta": "Sim — é a principal vantagem da Shingrix sobre a vacina antiga (Zostavax). Por ser recombinante (sem vírus vivo), é segura para pacientes com câncer, transplantados, HIV e usuários de imunossupressores."
+      }
+    ],
+    "descricao_seo": "Vacina Herpes Zóster (Shingrix) é um imunobiológico usado para: proteção contra herpes zóster (cobreiro) e neuralgia pós-herpética em adultos ≥50 anos. Eficácia >90%, mantida por pelo menos 10 anos. Por ser recombinante, é indicada também para imunossuprimidos. Os efeitos colaterais mais relatados são: dor intensa local, febre, mialgia e fadiga por 2 a 3 dias — esperados e manejados com analgésicos. Importante: 2 doses com intervalo de 2 a 6 meses; disponível apenas na rede privada no Brasil. A Vacina Herpes Zóster não exige receita médica."
+  },
+  {
+    "nome": "Vacina Poliomielite (VIP/VOP)",
+    "generico": "Vacina Inativada Poliomielite (VIP) / Vacina Oral Poliomielite (VOP)",
+    "tipo": "Vacina / Imunobiológico",
+    "sinonimos": [
+      "vacina poliomielite",
+      "vacina polio",
+      "vacina paralisia infantil",
+      "vip",
+      "vop",
+      "salk",
+      "sabin",
+      "gotinha",
+      "vacina gotinha polio",
+      "imunização poliomielite"
+    ],
+    "descricao": "Vacinas que protegem contra a poliomielite (paralisia infantil), causada pelo poliovírus — doença que pode causar paralisia flácida irreversível e morte. O Brasil usa a VIP (injetável, vírus inativado — Salk) no calendário primário e a VOP (oral, vírus vivo atenuado — Sabin, 'gotinha') como reforço e em campanhas. O país está livre da poliomielite selvagem desde 1989, mas a vacinação contínua é essencial para manter essa conquista.",
+    "receita": "Não",
+    "receita_display": "🟢 Venda Livre / SUS",
+    "receita_cor": "verde",
+    "receita_descricao": "Não exige receita médica. Deve ser administrada por profissional de saúde habilitado em clínica de vacinas ou posto de saúde.",
+    "receita_nota": "SUS: VIP (injetável) aos 2, 4 e 6 meses. VOP (oral — gotinha) como reforço aos 15 meses e 4 anos e nas campanhas anuais de vacinação. Crianças com imunodeficiência grave: usar apenas VIP (a VOP é vírus vivo).",
+    "efeitos": "VIP: dor, vermelhidão e endurecimento no local da injeção (comuns, passageiros). Febre baixa e irritabilidade (menos comuns). VOP: muito raramente, paralisia associada à vacina (VAPP — estimada em 1 caso por 2,4 milhões de doses); por isso a VIP foi priorizada no esquema primário.",
+    "aviso_grave": "VOP (gotinha) é CONTRAINDICADA em crianças com imunodeficiência grave e seus contatos domiciliares — risco de paralisia associada à vacina. Nesses casos, usar exclusivamente VIP. Adiar a VOP em casos de diarreia intensa (pode reduzir a absorção intestinal).",
+    "recomendacao": "⚠️ Manter a carteira de vacinação em dia — a poliomielite selvagem ainda existe em países da Ásia e África e pode retornar ao Brasil caso as coberturas vacinais caiam. Viajantes para países com poliovírus circulante devem verificar se estão com esquema completo.",
+    "educacao": "A poliomielite não tem cura — a prevenção pela vacina é a única estratégia eficaz. O Brasil erradicou o poliovírus selvagem em 1989, mas em 2022 foram detectados casos de poliovírus derivado de vacina (cVDPV) em outros países. Manter coberturas vacinais elevadas protege toda a população.",
+    "resposta_rapida": [
+      "Protege contra a paralisia infantil (poliomielite)",
+      "VIP: injetável (2, 4 e 6 meses); VOP: gotinha (reforço e campanhas)",
+      "Brasil livre da pólio selvagem desde 1989 — manter vacina em dia",
+      "Gratuita no SUS",
+      "Imunodeficientes: usar somente VIP, nunca a gotinha"
+    ],
+    "receita_obrigatoria": false,
+    "tipo_receita": "nenhuma",
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Qual a diferença entre VIP e VOP (gotinha)?",
+        "resposta": "A VIP (injetável) usa vírus inativado — não pode causar poliomielite, indicada como dose primária. A VOP (oral, 'gotinha') usa vírus vivo atenuado — estimula imunidade intestinal mais intensa, usada como reforço e campanhas. Raramente, a VOP pode causar paralisia associada à vacina (VAPP)."
+      },
+      {
+        "pergunta": "A vacina de poliomielite tem no SUS?",
+        "resposta": "Sim, é gratuita no SUS. A VIP (injetável) é aplicada aos 2, 4 e 6 meses. A VOP (gotinha) é usada como reforço aos 15 meses e 4 anos, além das campanhas anuais de vacinação."
+      },
+      {
+        "pergunta": "Por que ainda precisamos vacinar contra pólio se o Brasil está livre?",
+        "resposta": "Porque o poliovírus ainda circula em outros países e pode ser importado por viajantes. Se as coberturas vacinais caírem, o vírus pode se disseminar novamente. A erradicação global ainda não foi concluída."
+      },
+      {
+        "pergunta": "Criança imunodeficiente pode tomar a gotinha da pólio?",
+        "resposta": "Não. A VOP (gotinha) é vírus vivo e contraindicada em crianças com imunodeficiência grave e seus contatos domiciliares. Usar exclusivamente a VIP (injetável) nesses casos."
+      },
+      {
+        "pergunta": "Adulto precisa tomar vacina de poliomielite?",
+        "resposta": "Adultos vacinados na infância com série completa geralmente não precisam de reforço de rotina. Exceções: viajantes para países com polio circulante e profissionais de laboratório que manipulam poliovírus — que devem verificar o histórico vacinal."
+      }
+    ],
+    "descricao_seo": "Vacina Poliomielite (VIP/VOP) é um imunobiológico usado para: proteção contra a poliomielite (paralisia infantil), doença viral que pode causar paralisia irreversível. VIP (injetável) usada no esquema primário; VOP (gotinha) como reforço e campanhas. Os efeitos colaterais mais relatados são: dor local com a VIP; raríssimo risco de paralisia com a VOP. Importante: imunodeficientes devem usar apenas VIP; manter vacinação em dia mesmo o Brasil estando livre da pólio selvagem. A Vacina Poliomielite é gratuita no SUS."
+  },
+  {
+    "nome": "Vacina Hepatite A + B (Twinrix)",
+    "generico": "Vacina Combinada Hepatite A inativada e Hepatite B recombinante",
+    "tipo": "Vacina / Imunobiológico",
+    "sinonimos": [
+      "twinrix",
+      "vacina hepatite a e b",
+      "vacina dupla hepatite",
+      "hepatite a mais b",
+      "vacina combinada hepatite",
+      "imunização hepatite ab"
+    ],
+    "descricao": "Vacina combinada que protege contra hepatite A (vírus inativado) e hepatite B (antígeno de superfície recombinante HBsAg) em uma única formulação. Indicada para adultos e adolescentes ≥16 anos que precisam de proteção para ambas as hepatites — especialmente viajantes, profissionais de saúde sem imunidade documentada, e pessoas com doença hepática crônica. Oferece a mesma eficácia e duração que as vacinas individuais aplicadas separadamente.",
+    "receita": "Não",
+    "receita_display": "🟢 Venda Livre / SUS",
+    "receita_cor": "verde",
+    "receita_descricao": "Não exige receita médica. Deve ser aplicada por profissional de saúde habilitado em clínica de vacinas.",
+    "receita_nota": "Esquema padrão: 3 doses (0, 1 e 6 meses). Esquema acelerado: 4 doses (0, 7 dias, 21 dias e reforço aos 12 meses) — indicado para viajantes com partida iminente. Verificar Anti-HBs 1 a 2 meses após a última dose em grupos de risco.",
+    "efeitos": "Dor, vermelhidão e inchaço no local da injeção (muito comuns). Cefaleia, fadiga, febre baixa e náusea (comuns, passageiros 1 a 2 dias). O perfil de segurança é similar ao das vacinas individuais.",
+    "aviso_grave": "Contraindicada em hipersensibilidade grave a algum componente, incluindo alergia grave à levedura de padeiro (Saccharomyces cerevisiae — componente da hepatite B recombinante). Não é contraindicada na gestação quando o benefício supera o risco, mas preferir vacinas individuais e avaliação médica. Indicada somente para ≥16 anos — crianças usam vacinas individuais pediátricas.",
+    "recomendacao": "⚠️ Verificar se já há imunidade documentada para hepatite A (IgG anti-HAV) ou hepatite B (Anti-HBs) antes de vacinar — quem já é imune a uma das duas pode se beneficiar mais das vacinas individuais. Para viajantes com partida em menos de 4 semanas, considerar o esquema acelerado.",
+    "educacao": "O Twinrix combina praticidade (menos injeções, menos visitas) com a mesma proteção das vacinas separadas. Profissionais de saúde que ainda não têm imunidade comprovada para ambas as hepatites se beneficiam especialmente. Após o esquema completo, confirmar imunidade com sorologia (Anti-HBs) é recomendado para grupos de alto risco.",
+    "resposta_rapida": [
+      "Protege contra hepatite A e hepatite B em uma dose",
+      "3 doses: 0, 1 e 6 meses (ou 4 doses no esquema acelerado)",
+      "Indicada para ≥16 anos — crianças usam vacinas separadas",
+      "Verificar imunidade pré-existente antes de vacinar",
+      "Disponível em clínicas de vacinas"
+    ],
+    "receita_obrigatoria": false,
+    "tipo_receita": "nenhuma",
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "O Twinrix substitui as vacinas individuais de hepatite A e B?",
+        "resposta": "Sim, para adultos ≥16 anos. O Twinrix oferece a mesma proteção que as vacinas individuais aplicadas separadamente, com a praticidade de reduzir o número de injeções e visitas ao serviço de vacinação."
+      },
+      {
+        "pergunta": "O Twinrix tem no SUS?",
+        "resposta": "Não. As vacinas individuais de hepatite A e hepatite B estão disponíveis no SUS separadamente. O Twinrix é encontrado apenas em clínicas privadas de vacinação."
+      },
+      {
+        "pergunta": "Já tomei hepatite B antes — posso tomar o Twinrix?",
+        "resposta": "Pode, mas não é o mais indicado — se já tem imunidade para hepatite B comprovada (Anti-HBs ≥10), faz mais sentido vacinar apenas contra hepatite A. O médico avaliará a melhor conduta com base na sorologia."
+      },
+      {
+        "pergunta": "O Twinrix pode ser tomado na gestação?",
+        "resposta": "Não é contraindicado quando o benefício supera o risco (exemplo: gestante sem imunidade que viajará para área endêmica). Porém, por precaução, recomenda-se avaliação médica e, se possível, uso das vacinas individuais com melhor perfil de dados em gestantes."
+      },
+      {
+        "pergunta": "Qual o esquema acelerado do Twinrix?",
+        "resposta": "Para viajantes com partida urgente: 3 doses em 21 dias (dias 0, 7 e 21) + reforço aos 12 meses. Esse esquema confere proteção mais rápida para a viagem, com a 4ª dose garantindo imunidade prolongada."
+      }
+    ],
+    "descricao_seo": "Vacina Hepatite A + B (Twinrix) é um imunobiológico usado para: proteção combinada contra hepatite A e hepatite B em uma única formulação. Indicada para adultos ≥16 anos que precisam de imunização para ambas. Esquema de 3 doses (0, 1 e 6 meses) ou esquema acelerado para viajantes. Os efeitos colaterais mais relatados são: dor local, cefaleia e febre baixa passageiros. Importante: verificar imunidade pré-existente antes; contraindicada em alergia grave à levedura. A Vacina Twinrix não exige receita médica; disponível em clínicas de vacinas."
+  },
+  {
+    "nome": "Vacina Influenza (Gripe)",
+    "generico": "Vacina Influenza Trivalente / Tetravalente",
+    "tipo": "Vacina / Imunobiológico",
+    "sinonimos": [
+      "vacina da gripe",
+      "vacina influenza",
+      "fluzone",
+      "influvac",
+      "vacina gripe",
+      "imunização influenza",
+      "agrippal"
+    ],
+    "descricao": "A vacina da gripe protege contra o vírus Influenza, principal causador de gripe com febre, dor no corpo e cansaço intensos. A composição é atualizada todo ano de acordo com as cepas que devem circular na próxima temporada. É indicada para todas as pessoas, mas especialmente para idosos, gestantes, crianças de 6 meses a 5 anos, profissionais de saúde e quem tem doenças crônicas como diabetes, asma e doenças cardíacas.",
+    "receita": "Não",
+    "receita_display": "🟢 Venda Livre / SUS",
+    "receita_cor": "verde",
+    "receita_descricao": "Não exige receita médica. Disponível gratuitamente no SUS para grupos prioritários. Qualquer pessoa pode tomar em clínicas de vacinas sem prescrição.",
+    "receita_nota": "Uma dose por ano, preferencialmente em abril ou maio no Brasil. Crianças tomando pela primeira vez: 2 doses com 4 semanas de intervalo.",
+    "efeitos": "Dor e vermelhidão no local da injeção (muito comuns). Febre baixa, cansaço e dor muscular leve nas primeiras 48h — sinais de que o organismo está respondendo à vacina, não gripe. A vacina inativada não causa gripe.",
+    "aviso_grave": "Alergia grave (anafilaxia) a dose anterior ou ao ovo de galinha em algumas formulações: informar antes de vacinar. Em caso de doença febril intensa, aguardar a melhora para aplicar.",
+    "recomendacao": "⚠️ Aguardar 15 minutos no local após a aplicação. A vacina protege contra gripe, não contra resfriado comum — são doenças diferentes. Mesmo vacinado, lavar as mãos com frequência reduz outras infecções respiratórias.",
+    "educacao": "Mesmo que a vacina não seja 100% compatível com as cepas circulantes em algum ano, ela ainda reduz bastante o risco de hospitalização e de formas graves. A proteção vale para toda a temporada de gripe.",
+    "resposta_rapida": [
+      "Protege contra o vírus da gripe (Influenza)",
+      "Dose anual — atualizada todo ano",
+      "Não causa gripe",
+      "Gratuita no SUS para grupos prioritários",
+      "Sem receita"
+    ],
+    "receita_obrigatoria": false,
+    "tipo_receita": "nenhuma",
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "A vacina da gripe pode me dar gripe?",
+        "resposta": "Não. A vacina usa o vírus inativado (morto) e não consegue causar a doença. O mal-estar leve nas primeiras 48h é a resposta normal do sistema imunológico, não gripe."
+      },
+      {
+        "pergunta": "Por que preciso tomar a vacina da gripe todo ano?",
+        "resposta": "Porque o vírus Influenza muda a cada temporada e a vacina é reformulada para cobrir as cepas previstas. Além disso, a proteção da vacina diminui ao longo dos meses."
+      },
+      {
+        "pergunta": "A vacina da gripe tem no SUS?",
+        "resposta": "Sim, gratuitamente para: idosos com 60 anos ou mais, gestantes, crianças de 6 meses a 5 anos, professores, profissionais de saúde, pessoas com doenças crônicas e outros grupos. Fora desses grupos, está disponível em clínicas privadas."
+      },
+      {
+        "pergunta": "Qual o melhor momento para tomar a vacina da gripe?",
+        "resposta": "Entre abril e maio no Brasil, antes do pico do inverno. A imunidade se desenvolve em cerca de 2 semanas após a aplicação."
+      },
+      {
+        "pergunta": "Grávida pode tomar a vacina da gripe?",
+        "resposta": "Sim, é segura e recomendada em qualquer trimestre da gestação. Protege a mãe e transfere anticorpos ao bebê antes do nascimento."
+      }
+    ],
+    "descricao_seo": "A Vacina Influenza (Gripe) protege contra o vírus da gripe e é atualizada anualmente para cobrir as principais cepas circulantes. Indicada para todas as pessoas, especialmente idosos, gestantes, crianças e quem tem doenças crônicas. Não exige receita médica e é oferecida gratuitamente no SUS para grupos prioritários. Os efeitos mais comuns são dor no local da injeção e leve mal-estar nas primeiras 48 horas — sinais normais de resposta imune. A vacina inativada não causa gripe. Deve ser tomada anualmente, de preferência em abril ou maio."
+  },
+  {
+    "nome": "Vacina COVID-19",
+    "generico": "Vacina contra SARS-CoV-2 (COVID-19)",
+    "tipo": "Vacina / Imunobiológico",
+    "sinonimos": [
+      "vacina covid",
+      "vacina coronavírus",
+      "coronavac",
+      "comirnaty",
+      "pfizer covid",
+      "spikevax",
+      "vacina sars-cov-2",
+      "imunização covid-19",
+      "vacina covid-19"
+    ],
+    "descricao": "A vacina da COVID-19 protege contra formas graves da doença causada pelo vírus SARS-CoV-2. Diferentes plataformas estão disponíveis no Brasil — RNA mensageiro (Pfizer/BioNTech), vírus inativado (CoronaVac) e vetor viral (AstraZeneca). Todas foram aprovadas pela Anvisa após avaliação de segurança e eficácia. Reduzem significativamente o risco de hospitalização, UTI e morte, especialmente em grupos de maior risco.",
+    "receita": "Não",
+    "receita_display": "🟢 Venda Livre / SUS",
+    "receita_cor": "verde",
+    "receita_descricao": "Não exige receita médica. Disponível gratuitamente no SUS. Basta procurar uma UBS ou posto de vacinação com a carteira de vacinação ou CPF.",
+    "receita_nota": "O esquema varia conforme a vacina e a faixa etária. Doses de reforço são oferecidas para grupos prioritários. Verificar o calendário atualizado na UBS mais próxima.",
+    "efeitos": "Dor, vermelhidão e inchaço no local da injeção (muito comuns). Febre, cansaço, dor de cabeça e dor muscular nas primeiras 48h (comuns e passageiros). Raramente: reações alérgicas — por isso aguarda-se 15 a 30 minutos após a aplicação.",
+    "aviso_grave": "Reação alérgica grave (anafilaxia) a dose anterior ou a componentes da vacina: informar antes da aplicação. Em caso de dor no peito, falta de ar ou batimentos irregulares após a vacinação, procurar atendimento médico imediatamente.",
+    "recomendacao": "⚠️ Permanecer no local por 15 a 30 minutos após a aplicação. Levar a carteira de vacinação ou CPF. Em caso de sintomas respiratórios intensos após a vacinação, procurar orientação médica.",
+    "educacao": "As vacinas contra COVID-19 passaram por todas as fases de avaliação de segurança e eficácia exigidas pela Anvisa. O esquema vacinal completo — incluindo doses de reforço — oferece a melhor proteção disponível, especialmente para idosos e pessoas com doenças crônicas.",
+    "resposta_rapida": [
+      "Protege contra formas graves da COVID-19",
+      "Gratuita no SUS — sem receita",
+      "Levar CPF ou carteira de vacinação",
+      "Aguardar 15 a 30 min após a aplicação",
+      "Reforços disponíveis para grupos prioritários"
+    ],
+    "receita_obrigatoria": false,
+    "tipo_receita": "nenhuma",
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "A vacina da COVID-19 ainda é necessária?",
+        "resposta": "Sim. O vírus continua circulando e evoluindo. Para grupos de maior risco — idosos, imunossuprimidos e pessoas com doenças crônicas — manter o esquema atualizado reduz o risco de formas graves."
+      },
+      {
+        "pergunta": "A vacina da COVID-19 tem no SUS?",
+        "resposta": "Sim, é gratuita e disponível na rede pública. Basta procurar a UBS com CPF ou cartão SUS. O calendário de doses e reforços pode variar — verifique na unidade de saúde mais próxima."
+      },
+      {
+        "pergunta": "Posso tomar a vacina da COVID com outras vacinas no mesmo dia?",
+        "resposta": "Em geral sim, dependendo das vacinas. O profissional de saúde avaliará quais podem ser administradas juntas com segurança. Informe todas as vacinas recentes ao ser atendido."
+      },
+      {
+        "pergunta": "Grávida pode tomar a vacina da COVID-19?",
+        "resposta": "Sim, é recomendada durante a gestação. Gestantes têm maior risco de formas graves de COVID-19. A vacina é segura e protege tanto a mãe quanto o bebê."
+      },
+      {
+        "pergunta": "A febre após a vacina da COVID é normal?",
+        "resposta": "Sim, febre e mal-estar nas primeiras 48h são respostas normais do sistema imunológico. Paracetamol pode ser usado para alívio. Se a febre for muito alta ou persistir mais de 2 dias, procure orientação médica."
+      }
+    ],
+    "descricao_seo": "A Vacina COVID-19 protege contra formas graves da doença causada pelo SARS-CoV-2, reduzindo o risco de hospitalização e morte. Disponível gratuitamente no SUS em diferentes formulações aprovadas pela Anvisa. Não exige receita médica — basta levar CPF ou cartão SUS a uma UBS. Os efeitos mais comuns são dor local, febre baixa e cansaço nas primeiras 48 horas. Indicada para todas as idades conforme o calendário vigente, com doses de reforço para grupos prioritários."
+  },
+  {
+    "nome": "Vacina HPV",
+    "generico": "Vacina HPV Quadrivalente / Nonavalente (Papilomavírus Humano)",
+    "tipo": "Vacina / Imunobiológico",
+    "sinonimos": [
+      "vacina hpv",
+      "gardasil",
+      "gardasil 9",
+      "cervarix",
+      "vacina papilomavírus",
+      "vacina câncer colo útero",
+      "imunização hpv",
+      "hpv vaccine"
+    ],
+    "descricao": "A vacina HPV protege contra os tipos do Papilomavírus Humano que causam câncer de colo do útero, câncer anal, câncer de garganta, câncer de pênis e verrugas genitais. O HPV é a infecção sexualmente transmissível mais comum. A vacina é mais eficaz quando tomada antes do início da vida sexual, mas também beneficia quem já é ativo sexualmente.",
+    "receita": "Não",
+    "receita_display": "🟢 Venda Livre / SUS",
+    "receita_cor": "verde",
+    "receita_descricao": "Não exige receita médica. Disponível gratuitamente no SUS para o público-alvo. Em clínicas privadas, disponível para qualquer pessoa entre 9 e 45 anos.",
+    "receita_nota": "SUS: 2 doses (0 e 6 meses) para meninas de 9 a 14 anos e meninos de 11 a 14 anos. Imunossuprimidos até 45 anos: 3 doses (0, 2 e 6 meses) pelo SUS.",
+    "efeitos": "Dor, vermelhidão e inchaço no local da injeção (muito comuns). Tontura e possível desmaio logo após (síncope vasovagal) — recomenda-se ficar sentado por 15 minutos. Cefaleia e febre baixa (comuns, passageiros).",
+    "aviso_grave": "Permanecer sentado ou deitado por 15 minutos após a aplicação — síncope é mais comum com esta vacina. A vacinação não substitui o exame preventivo (Papanicolau).",
+    "recomendacao": "⚠️ Ficar sentado por 15 minutos após a dose. O Papanicolau continua sendo necessário mesmo para quem tomou a vacina — ela cobre os tipos mais comuns, mas não todos.",
+    "educacao": "O HPV pode ser transmitido mesmo sem penetração e o preservativo não elimina totalmente o risco. A vacina é mais eficaz antes do primeiro contato com o vírus, mas mesmo quem já foi exposto pode se proteger contra os tipos que ainda não contraiu.",
+    "resposta_rapida": [
+      "Protege contra HPV — câncer e verrugas genitais",
+      "Gratuita no SUS: meninas (9-14 anos) e meninos (11-14 anos)",
+      "Ficar sentado 15 min após a dose",
+      "Não substitui o Papanicolau",
+      "Sem receita"
+    ],
+    "receita_obrigatoria": false,
+    "tipo_receita": "nenhuma",
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Menino precisa tomar a vacina HPV?",
+        "resposta": "Sim. O HPV causa câncer anal, de pênis e de garganta em homens também. No SUS, é gratuita para meninos de 11 a 14 anos. Em clínicas privadas, qualquer pessoa de 9 a 45 anos pode se vacinar."
+      },
+      {
+        "pergunta": "A vacina HPV tem no SUS?",
+        "resposta": "Sim, gratuitamente para meninas de 9 a 14 anos e meninos de 11 a 14 anos. Pessoas com HIV, transplantados e em tratamento oncológico podem receber até 45 anos pelo SUS."
+      },
+      {
+        "pergunta": "Quem já teve HPV pode tomar a vacina?",
+        "resposta": "Sim. Quem já teve HPV provavelmente foi exposto a apenas alguns tipos. A vacina protege contra os tipos que a pessoa ainda não teve, trazendo benefício real."
+      },
+      {
+        "pergunta": "Quantas doses são necessárias da vacina HPV?",
+        "resposta": "No SUS: 2 doses com intervalo de 6 meses. Para imunossuprimidos: 3 doses (0, 2 e 6 meses). Em clínicas privadas para adultos fora da faixa do SUS: geralmente 3 doses."
+      },
+      {
+        "pergunta": "A vacina HPV substitui o exame Papanicolau?",
+        "resposta": "Não. A vacina reduz muito o risco, mas não elimina todos os tipos de HPV que podem causar câncer. O exame preventivo continua sendo necessário regularmente para mulheres."
+      }
+    ],
+    "descricao_seo": "A Vacina HPV protege contra os tipos do Papilomavírus Humano que causam cânceres de colo do útero, ânus, garganta, pênis e verrugas genitais. No SUS, é gratuita para meninas de 9 a 14 anos e meninos de 11 a 14 anos. Não exige receita médica. Os efeitos mais comuns são dor no local e leve tontura — recomenda-se ficar sentado 15 minutos após a aplicação. A vacinação não substitui o exame preventivo (Papanicolau)."
+  },
+  {
+    "nome": "Vacina Febre Amarela",
+    "generico": "Vacina Febre Amarela (vírus vivo atenuado)",
+    "tipo": "Vacina / Imunobiológico",
+    "sinonimos": [
+      "vacina febre amarela",
+      "amaril",
+      "stamaril",
+      "yellow fever vaccine",
+      "imunização febre amarela",
+      "certificado febre amarela",
+      "vacina amarela"
+    ],
+    "descricao": "A vacina da febre amarela protege contra uma doença grave transmitida por mosquitos. Uma única dose oferece proteção para a vida toda — o reforço a cada 10 anos não é mais exigido desde 2016. É indicada para quem mora ou viaja para estados com risco de transmissão no Brasil, como Minas Gerais, Goiás, Mato Grosso e estados da região Norte. Também é exigida para entrada em vários países.",
+    "receita": "Não",
+    "receita_display": "🟢 Venda Livre / SUS",
+    "receita_cor": "verde",
+    "receita_descricao": "Não exige receita médica. Gratuita no SUS em estados com risco de transmissão. O certificado internacional é emitido apenas em centros credenciados pela Anvisa.",
+    "receita_nota": "Dose única com proteção para a vida toda. O certificado internacional começa a valer 10 dias após a aplicação e é válido permanentemente.",
+    "efeitos": "Dor e vermelhidão no local da injeção (comuns). Febre baixa, dor de cabeça e cansaço nos primeiros dias (comuns e passageiros). Reações graves são muito raras.",
+    "aviso_grave": "Grávidas e pessoas com imunidade muito reduzida devem consultar médico antes — a vacina usa vírus vivo e requer avaliação individual. Pessoas acima de 60 anos: conversar com médico para avaliar risco e benefício.",
+    "recomendacao": "⚠️ Guardar o certificado de vacinação junto ao passaporte — é exigido na fronteira de vários países. O certificado só passa a valer 10 dias após a aplicação: não deixar para a última hora antes de uma viagem.",
+    "educacao": "Desde 2016, a OMS reconhece que uma dose é suficiente para proteção de vida toda. O certificado internacional emitido por centro credenciado pela Anvisa é aceito globalmente.",
+    "resposta_rapida": [
+      "Dose única — proteção para a vida toda",
+      "Gratuita no SUS em áreas de risco",
+      "Certificado válido 10 dias após a aplicação",
+      "Necessária para viagens a vários países",
+      "Sem receita"
+    ],
+    "receita_obrigatoria": false,
+    "tipo_receita": "nenhuma",
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Preciso tomar reforço da febre amarela?",
+        "resposta": "Não. Desde 2016, uma única dose é considerada suficiente para proteção de vida toda pela OMS e pelo Ministério da Saúde."
+      },
+      {
+        "pergunta": "Onde posso emitir o certificado internacional de febre amarela?",
+        "resposta": "Apenas em centros credenciados pela Anvisa — postos de vacinação internacional em aeroportos e algumas clínicas autorizadas. O certificado vale a partir de 10 dias após a aplicação."
+      },
+      {
+        "pergunta": "A vacina de febre amarela tem no SUS?",
+        "resposta": "Sim, é gratuita no SUS para moradores de estados com recomendação de vacinação (Minas Gerais, São Paulo interior, Goiás, Mato Grosso, estados da Amazônia, entre outros)."
+      },
+      {
+        "pergunta": "Gestante pode tomar a vacina de febre amarela?",
+        "resposta": "Em geral, a vacina é evitada na gestação por usar vírus vivo. Em caso de viagem inevitável para área de risco ou situação de epidemia, o médico avalia o risco-benefício individualmente."
+      },
+      {
+        "pergunta": "A vacina vale para todos os países que exigem comprovação?",
+        "resposta": "Sim, desde que emitida por centro credenciado pela Anvisa. Verificar os requisitos específicos de cada destino antes de viajar."
+      }
+    ],
+    "descricao_seo": "A Vacina Febre Amarela protege contra uma doença grave transmitida por mosquitos e é indicada para quem mora ou viaja para áreas de risco no Brasil e no exterior. Uma única dose oferece proteção para a vida toda. É gratuita no SUS em estados com risco de transmissão e não exige receita médica. O certificado internacional começa a valer 10 dias após a aplicação. Grávidas e pessoas com imunidade comprometida devem consultar médico antes de tomar."
+  },
+  {
+    "nome": "Vacina Hepatite B",
+    "generico": "Vacina recombinante contra Hepatite B",
+    "tipo": "Vacina / Imunobiológico",
+    "sinonimos": [
+      "vacina hepatite b",
+      "engerix-b",
+      "recombivax hb",
+      "imunização hepatite b",
+      "vacina hbv",
+      "hepatite b vaccine"
+    ],
+    "descricao": "A vacina da hepatite B protege contra a infecção pelo vírus HBV, que pode causar hepatite crônica, cirrose e câncer de fígado. A transmissão ocorre por sangue, relações sexuais sem proteção e de mãe para filho durante o parto. Faz parte do calendário vacinal desde o nascimento no Brasil e é gratuita no SUS para todas as idades.",
+    "receita": "Não",
+    "receita_display": "🟢 Venda Livre / SUS",
+    "receita_cor": "verde",
+    "receita_descricao": "Não exige receita médica. Disponível gratuitamente no SUS para todas as idades. Basta procurar uma UBS ou posto de saúde.",
+    "receita_nota": "3 doses: aplicadas nos meses 0, 1 e 6. Recém-nascidos: primeira dose nas primeiras 12 horas de vida.",
+    "efeitos": "Dor, vermelhidão e endurecimento no local da injeção (muito comuns, passageiros). Febre baixa e mal-estar leve (menos comuns). Reações graves são raríssimas.",
+    "aviso_grave": "Alergia grave à levedura de padeiro (Saccharomyces cerevisiae), componente da vacina: informar antes da aplicação.",
+    "recomendacao": "⚠️ Profissionais de saúde e grupos de risco devem confirmar a imunidade com exame Anti-HBs 1 a 2 meses após a 3ª dose.",
+    "educacao": "A hepatite B pode permanecer por anos sem sintomas enquanto causa dano silencioso ao fígado. O uso de preservativo complementa, mas não substitui, a proteção da vacina.",
+    "resposta_rapida": [
+      "Protege contra hepatite B — cirrose e câncer de fígado",
+      "3 doses: meses 0, 1 e 6",
+      "Gratuita no SUS para todas as idades",
+      "Primeira dose do bebê nas primeiras 12h de vida",
+      "Sem receita"
+    ],
+    "receita_obrigatoria": false,
+    "tipo_receita": "nenhuma",
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "A vacina de hepatite B tem no SUS?",
+        "resposta": "Sim, gratuitamente para todas as idades. Recém-nascidos recebem a primeira dose na maternidade. Adultos que nunca vacinaram podem iniciar o esquema em qualquer UBS."
+      },
+      {
+        "pergunta": "Como saber se a vacina de hepatite B funcionou?",
+        "resposta": "Fazendo o exame Anti-HBs de 1 a 2 meses após a última dose. Resultado acima de 10 mUI/mL indica proteção. Profissionais de saúde devem sempre confirmar a imunidade."
+      },
+      {
+        "pergunta": "Preciso de reforço depois das 3 doses de hepatite B?",
+        "resposta": "Para a maioria das pessoas, não. O esquema completo confere proteção de longa duração. Imunossuprimidos podem precisar verificar periodicamente com o exame Anti-HBs."
+      },
+      {
+        "pergunta": "Existe vacina que cobre hepatite A e B juntas?",
+        "resposta": "Sim, o Twinrix combina as duas vacinas com esquema de 3 doses. É prático para quem precisa de proteção para ambas — disponível em clínicas privadas."
+      },
+      {
+        "pergunta": "Grávida pode tomar a vacina de hepatite B?",
+        "resposta": "Sim, é segura e recomendada quando há risco de exposição elevado — por exemplo, parceiro com hepatite B ou profissional de saúde grávida."
+      }
+    ],
+    "descricao_seo": "A Vacina Hepatite B protege contra o vírus HBV, responsável por hepatite crônica, cirrose e câncer de fígado. É gratuita no SUS para todas as idades e não exige receita médica. O esquema completo são 3 doses nos meses 0, 1 e 6. Recém-nascidos devem receber a primeira dose nas primeiras 12 horas de vida. Os efeitos colaterais são leves: dor no local e febre baixa passageiros."
+  },
+  {
+    "nome": "Vacina Tétano e Difteria (dT)",
+    "generico": "Vacina Dupla Adulto — Difteria e Tétano (dT)",
+    "tipo": "Vacina / Imunobiológico",
+    "sinonimos": [
+      "vacina dt",
+      "vacina dupla adulto",
+      "vacina tétano adulto",
+      "reforço tétano",
+      "imunização tétano difteria",
+      "vacina tétano"
+    ],
+    "descricao": "A vacina dT reforça a proteção contra o tétano e a difteria em adolescentes e adultos. O tétano é causado por uma bactéria do solo e pode ser grave em ferimentos contaminados. A difteria afeta as vias respiratórias e pode ser fatal. Como a imunidade diminui com o tempo, o reforço a cada 10 anos é necessário.",
+    "receita": "Não",
+    "receita_display": "🟢 Venda Livre / SUS",
+    "receita_cor": "verde",
+    "receita_descricao": "Não exige receita médica. Disponível gratuitamente no SUS. Em caso de ferimento grave, procurar imediatamente uma UBS ou pronto-socorro para avaliação.",
+    "receita_nota": "Reforço a cada 10 anos para adultos. Em ferimentos profundos contaminados com terra ou ferrugem, pode ser necessário antecipar se a última dose foi há mais de 5 anos.",
+    "efeitos": "Dor, vermelhidão e inchaço no local da injeção (muito comuns, passageiros). Febre baixa e cansaço (comuns). Reação local mais intensa em reforços frequentes é esperada.",
+    "aviso_grave": "Em ferimentos graves com histórico vacinal incompleto ou desconhecido, pode ser necessário também o soro antitetânico (imunoglobulina) — avaliação médica é essencial nesses casos.",
+    "recomendacao": "⚠️ Guardar a carteira de vacinação com a data do último reforço. Não esperar um acidente para verificar se está com a vacina em dia.",
+    "educacao": "O tétano não tem tratamento eficaz após instalado — a prevenção pela vacina é a única estratégia confiável. Mesmo quem recebeu a série completa na infância precisa de reforços a cada 10 anos.",
+    "resposta_rapida": [
+      "Reforço contra tétano e difteria — a cada 10 anos",
+      "Ferimento grave: procurar UBS ou pronto-socorro",
+      "Gratuita no SUS",
+      "Gestante: preferir dTpa (cobre também coqueluche)",
+      "Sem receita"
+    ],
+    "receita_obrigatoria": false,
+    "tipo_receita": "nenhuma",
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "De quanto em quanto tempo preciso tomar o reforço de tétano?",
+        "resposta": "A cada 10 anos para adultos com série completa. Em ferimentos graves ou muito contaminados, o médico pode recomendar antecipar se a última dose foi há mais de 5 anos."
+      },
+      {
+        "pergunta": "Me machuquei com prego enferrujado — preciso da vacina de tétano?",
+        "resposta": "Procurar uma UBS ou pronto-socorro para avaliação. Se a última dose foi há menos de 5 anos, geralmente não é necessário reforço. Se foi há mais tempo ou o histórico for desconhecido, o reforço é indicado."
+      },
+      {
+        "pergunta": "A vacina dT tem no SUS?",
+        "resposta": "Sim, gratuitamente. Basta procurar uma UBS com a carteira de vacinação. Em situações de ferimento, qualquer pronto-socorro pode aplicar."
+      },
+      {
+        "pergunta": "Qual a diferença entre dT e dTpa?",
+        "resposta": "A dT protege contra difteria e tétano. A dTpa protege também contra coqueluche. Para gestantes, a dTpa é preferida porque transfere proteção contra coqueluche ao bebê antes do nascimento."
+      },
+      {
+        "pergunta": "Gestante precisa tomar a vacina de tétano?",
+        "resposta": "Sim, mas a preferência é pela dTpa, aplicada entre a 27ª e 36ª semana de cada gestação. A dT é usada quando a dTpa não estiver disponível."
+      }
+    ],
+    "descricao_seo": "A Vacina Tétano e Difteria (dT) reforça a proteção contra essas duas doenças bacterianas em adolescentes e adultos. O tétano não tem tratamento eficaz após instalado — a vacina é a única prevenção confiável. O reforço deve ser feito a cada 10 anos. Em ferimentos graves com terra ou ferrugem, procurar avaliação médica. É gratuita no SUS e não exige receita médica."
+  },
+  {
+    "nome": "Vacina Dengue (Qdenga)",
+    "generico": "Vacina Dengue Tetravalente Viva Atenuada (TAK-003 / Qdenga)",
+    "tipo": "Vacina / Imunobiológico",
+    "sinonimos": [
+      "vacina dengue",
+      "qdenga",
+      "tak-003",
+      "vacina dengue takeda",
+      "imunização dengue",
+      "vacina contra dengue"
+    ],
+    "descricao": "A vacina Qdenga protege contra os 4 tipos do vírus da dengue. O Brasil tem uma das maiores incidências de dengue do mundo, e a vacina representa um avanço importante para reduzir casos graves e hospitalizações. Eficácia de cerca de 80% na prevenção de dengue sintomática e 90% na prevenção de internações. No SUS, é oferecida para crianças e adolescentes de 10 a 14 anos em municípios prioritários.",
+    "receita": "Não",
+    "receita_display": "🟢 Venda Livre / SUS",
+    "receita_cor": "verde",
+    "receita_descricao": "Não exige receita médica. Disponível gratuitamente no SUS para pessoas de 10 a 14 anos em municípios prioritários. Em clínicas privadas, disponível para pessoas de 4 a 60 anos.",
+    "receita_nota": "2 doses subcutâneas com intervalo de 3 meses. No SUS: para 10 a 14 anos em municípios de alta incidência. Privada: de 4 a 60 anos, com ou sem dengue prévia.",
+    "efeitos": "Dor, vermelhidão e inchaço no local da injeção (muito comuns). Dor de cabeça, cansaço, febre baixa e dor muscular (comuns, passageiros).",
+    "aviso_grave": "Contraindicada em gestantes e lactantes por ser vacina de vírus vivo. Pessoas com imunidade muito comprometida devem conversar com médico antes.",
+    "recomendacao": "⚠️ A vacina não elimina a necessidade de combater o mosquito Aedes aegypti — eliminar água parada e usar repelente continuam sendo essenciais.",
+    "educacao": "O Qdenga pode ser tomado mesmo por quem nunca teve dengue — não há restrição de histórico sorológico. O Brasil incluiu a vacina no calendário público em 2024 para ampliar a proteção nos municípios mais afetados.",
+    "resposta_rapida": [
+      "Protege contra os 4 tipos da dengue",
+      "2 doses com intervalo de 3 meses",
+      "SUS: gratuita para 10 a 14 anos em municípios prioritários",
+      "Proibida na gestação",
+      "Não dispensa o combate ao Aedes aegypti"
+    ],
+    "receita_obrigatoria": false,
+    "tipo_receita": "nenhuma",
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Quem pode tomar a vacina da dengue (Qdenga)?",
+        "resposta": "O Qdenga é aprovado para pessoas de 4 a 60 anos. No SUS, é gratuito para crianças e adolescentes de 10 a 14 anos em municípios prioritários."
+      },
+      {
+        "pergunta": "Preciso já ter tido dengue para tomar o Qdenga?",
+        "resposta": "Não. O Qdenga pode ser tomado por quem nunca teve dengue — diferente da Dengvaxia, que tinha essa restrição."
+      },
+      {
+        "pergunta": "A vacina da dengue tem no SUS?",
+        "resposta": "Sim, desde 2024 o Ministério da Saúde incluiu o Qdenga no calendário público para crianças e adolescentes de 10 a 14 anos em municípios prioritários."
+      },
+      {
+        "pergunta": "Gestante pode tomar a vacina da dengue?",
+        "resposta": "Não. O Qdenga é contraindicado na gestação por ser vacina de vírus vivo. Mulheres que planejam engravidar devem concluir as 2 doses antes."
+      },
+      {
+        "pergunta": "Já tomei a vacina — ainda preciso me preocupar com o mosquito?",
+        "resposta": "Sim. A vacina não oferece 100% de proteção. Continuar eliminando água parada, usando repelente e telas nas janelas ainda é fundamental."
+      }
+    ],
+    "descricao_seo": "A Vacina Dengue (Qdenga) protege contra os 4 tipos do vírus da dengue com eficácia de cerca de 80% na prevenção de casos e 90% na prevenção de internações. Não exige receita médica e está disponível gratuitamente no SUS para crianças e adolescentes de 10 a 14 anos em municípios prioritários. Em clínicas privadas, para pessoas de 4 a 60 anos, com ou sem histórico de dengue. São 2 doses com intervalo de 3 meses. É contraindicada em gestantes."
+  },
+  {
+    "nome": "Vacina Pneumocócica",
+    "generico": "Vacina Pneumocócica Conjugada / Polissacarídica",
+    "tipo": "Vacina / Imunobiológico",
+    "sinonimos": [
+      "vacina pneumococo",
+      "prevnar",
+      "pneumo 23",
+      "pneumovax",
+      "pcv10",
+      "pcv13",
+      "ppsv23",
+      "vacina pneumonia",
+      "vacina pneumocócica",
+      "imunização pneumocócica"
+    ],
+    "descricao": "A vacina pneumocócica protege contra a bactéria Streptococcus pneumoniae (pneumococo), principal causadora de pneumonia bacteriana, meningite e infecção generalizada (sepse). Existem dois tipos no Brasil: a conjugada (PCV10 ou PCV13) para crianças e imunossuprimidos, e a polissacarídica (Pneumo 23) para adultos com 60 anos ou mais e pessoas com doenças crônicas.",
+    "receita": "Não",
+    "receita_display": "🟢 Venda Livre / SUS",
+    "receita_cor": "verde",
+    "receita_descricao": "Não exige receita médica. A PCV10 é gratuita no SUS para crianças. A Pneumo 23 é gratuita no SUS para adultos com 60 anos ou mais e grupos de risco.",
+    "receita_nota": "Crianças (SUS): PCV10 aos 2, 4 e 6 meses + reforço aos 12 meses. Adultos ≥60 anos (SUS): 1 dose da Pneumo 23. Verificar indicação para comorbidades na UBS.",
+    "efeitos": "Dor intensa, vermelhidão e endurecimento no local da injeção (muito comuns). Febre baixa, cansaço e dor de cabeça (comuns, passageiros). Compressas frias aliviam o desconforto.",
+    "aviso_grave": "Reação alérgica grave a dose anterior: informar antes. Em adultos com baço removido (asplenia), a vacina é especialmente importante — verificar o esquema com médico.",
+    "recomendacao": "⚠️ Compressas frias e analgésicos comuns aliviam a dor local. Diabéticos, asmáticos e quem tem doenças cardíacas, renais ou hepáticas têm indicação de vacinação — verificar disponibilidade no SUS.",
+    "educacao": "O pneumococo causa mais de 1 milhão de mortes por ano no mundo. A vacinação em massa de crianças protege também adultos ao reduzir a circulação da bactéria na comunidade.",
+    "resposta_rapida": [
+      "Protege contra pneumococo — pneumonia, meningite e sepse",
+      "SUS: gratuita para crianças e adultos ≥60 anos",
+      "Dor intensa no local é comum — compressa fria ajuda",
+      "Diabéticos e cardiopatas têm indicação",
+      "Sem receita"
+    ],
+    "receita_obrigatoria": false,
+    "tipo_receita": "nenhuma",
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "A vacina pneumocócica tem no SUS?",
+        "resposta": "Sim. A PCV10 é gratuita no calendário infantil. A Pneumo 23 é gratuita para adultos com 60 anos ou mais e para grupos de risco como pessoas com diabetes, doenças renais, hepáticas e cardíacas."
+      },
+      {
+        "pergunta": "Qual a diferença entre Pneumo 13 e Pneumo 23?",
+        "resposta": "A PCV13 é conjugada — cobre 13 tipos com melhor resposta imune, especialmente em crianças e imunossuprimidos. A Pneumo 23 é polissacarídica — cobre 23 tipos e é usada principalmente em adultos."
+      },
+      {
+        "pergunta": "Diabético precisa tomar a vacina pneumocócica?",
+        "resposta": "Sim. Diabetes aumenta o risco de infecções pneumocócicas graves. Diabéticos de qualquer idade têm indicação e podem receber gratuitamente no SUS."
+      },
+      {
+        "pergunta": "A vacina pneumocócica previne pneumonia?",
+        "resposta": "Previne pneumonias causadas pelo pneumococo, as mais comuns e graves. Não previne pneumonias por vírus ou outros agentes. Combinar com a vacina da gripe reduz ainda mais o risco."
+      },
+      {
+        "pergunta": "Com que frequência preciso tomar a vacina pneumocócica?",
+        "resposta": "Para a maioria dos adultos, 1 dose da Pneumo 23 é suficiente. Em grupos de alto risco, pode ser recomendado reforço após 5 anos — discutir com médico ou equipe da UBS."
+      }
+    ],
+    "descricao_seo": "A Vacina Pneumocócica protege contra o pneumococo, principal causador de pneumonia bacteriana, meningite e sepse. Gratuita no SUS para crianças (PCV10) e adultos com 60 anos ou mais (Pneumo 23). Não exige receita médica. Diabéticos, cardiopatas e pessoas com doenças pulmonares têm indicação especial. Os efeitos mais comuns são dor intensa no local da injeção e febre baixa passageiros."
+  },
+  {
+    "nome": "Vacina Varicela",
+    "generico": "Vacina Varicela-Zóster (vírus vivo atenuado)",
+    "tipo": "Vacina / Imunobiológico",
+    "sinonimos": [
+      "vacina catapora",
+      "vacina varicela",
+      "varivax",
+      "varilrix",
+      "okavax",
+      "chickenpox vaccine",
+      "imunização varicela"
+    ],
+    "descricao": "A vacina da varicela protege contra a catapora, doença viral altamente contagiosa que causa bolhas pelo corpo, febre e coceira intensa. Em crianças saudáveis geralmente é leve, mas em adultos, gestantes e pessoas com imunidade comprometida pode ser grave. Quem já teve catapora não precisa da vacina — a doença natural também confere imunidade duradoura.",
+    "receita": "Não",
+    "receita_display": "🟢 Venda Livre / SUS",
+    "receita_cor": "verde",
+    "receita_descricao": "Não exige receita médica. No SUS, uma dose é oferecida aos 15 meses. Em clínicas privadas, o esquema de 2 doses oferece proteção mais completa.",
+    "receita_nota": "SUS: 1 dose aos 15 meses (tetraviral SCR+V). Privada: 2 doses — intervalo de 3 meses (crianças) ou 4 a 8 semanas (adultos).",
+    "efeitos": "Dor e vermelhidão no local da injeção (comuns). Febre baixa e, raramente, surgimento de poucas bolhas ao redor do local entre 1 e 3 semanas após — efeito da vacina, não é a doença.",
+    "aviso_grave": "Contraindicada em gestantes — aguardar 1 mês após a vacinação para engravidar. Contraindicada em pessoas com imunidade muito comprometida. Evitar AAS por 6 semanas após a vacina.",
+    "recomendacao": "⚠️ Mulheres que pretendem engravidar devem tomar a vacina antes da gestação e aguardar 1 mês. Crianças com bolhas pós-vacina devem evitar contato com imunossuprimidos até as lesões secarem.",
+    "educacao": "Quem teve catapora carrega o vírus latente no organismo — com a queda da imunidade, pode reativar causando herpes zóster (cobreiro). Para adultos acima de 50 anos, existe a vacina Shingrix específica para prevenir o zóster.",
+    "resposta_rapida": [
+      "Protege contra catapora (varicela)",
+      "SUS: 1 dose aos 15 meses; privada: 2 doses para proteção completa",
+      "Quem já teve catapora não precisa vacinar",
+      "Proibida na gestação — aguardar 1 mês após",
+      "Sem receita"
+    ],
+    "receita_obrigatoria": false,
+    "tipo_receita": "nenhuma",
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Quem já teve catapora precisa da vacina de varicela?",
+        "resposta": "Não. A catapora natural confere imunidade duradoura. Quem não tem certeza pode fazer um exame de sangue (IgG varicela) para verificar."
+      },
+      {
+        "pergunta": "A vacina de varicela tem no SUS?",
+        "resposta": "Sim, uma dose é oferecida gratuitamente aos 15 meses como tetraviral. Para o esquema de 2 doses com maior proteção, normalmente é necessário recorrer a clínicas privadas."
+      },
+      {
+        "pergunta": "A vacina pode causar catapora?",
+        "resposta": "Raramente surgem poucas bolhas ao redor do local da injeção cerca de 1 a 3 semanas após — é uma reação ao vírus atenuado, muito mais leve que a catapora real. O risco de transmissão é muito baixo."
+      },
+      {
+        "pergunta": "Grávida pode tomar a vacina de varicela?",
+        "resposta": "Não. É contraindicada na gestação. Mulheres que pretendem engravidar devem verificar a imunidade e, se necessário, vacinar antes, aguardando 1 mês após a última dose."
+      },
+      {
+        "pergunta": "A vacina de varicela previne o cobreiro (herpes zóster)?",
+        "resposta": "Pode ajudar, pois reduz a carga viral latente. Para adultos acima de 50 anos com proteção específica contra o zóster, existe a vacina Shingrix, mais eficaz para esse fim."
+      }
+    ],
+    "descricao_seo": "A Vacina Varicela protege contra a catapora, doença viral que causa bolhas, febre e coceira intensa. No SUS, uma dose é oferecida gratuitamente aos 15 meses. Em clínicas privadas, 2 doses oferecem proteção acima de 99%. Não exige receita médica. Quem já teve catapora não precisa vacinar. É contraindicada na gestação; aguardar 1 mês após a vacinação para engravidar."
+  },
+  {
+    "nome": "Vacina Meningocócica C",
+    "generico": "Vacina Meningocócica Conjugada Sorogrupo C",
+    "tipo": "Vacina / Imunobiológico",
+    "sinonimos": [
+      "vacina meningite c",
+      "menjugate",
+      "meningitec",
+      "neisvac-c",
+      "vacina meningocócica c",
+      "imunização meningocócica",
+      "vacina meningococo c",
+      "vacina meningite"
+    ],
+    "descricao": "A vacina meningocócica C protege contra infecções causadas pela bactéria Neisseria meningitidis do sorogrupo C — principal causadora de meningite bacteriana e meningococcemia no Brasil. Essas infecções evoluem muito rapidamente e podem ser fatais em menos de 24 horas. A vacina está no calendário nacional de vacinação infantil e é gratuita no SUS.",
+    "receita": "Não",
+    "receita_display": "🟢 Venda Livre / SUS",
+    "receita_cor": "verde",
+    "receita_descricao": "Não exige receita médica. Disponível gratuitamente no SUS no calendário infantil. Em clínicas privadas, disponível para adolescentes e adultos.",
+    "receita_nota": "SUS: 2 doses (3 e 5 meses) + reforço aos 12 meses. Adolescentes até 19 anos com esquema incompleto: 1 dose no SUS.",
+    "efeitos": "Dor, vermelhidão e inchaço no local da injeção (muito comuns, passageiros). Febre, irritabilidade e sonolência em bebês (comuns, passageiros). Em adolescentes e adultos: febre baixa e dor de cabeça (comuns, passageiros).",
+    "aviso_grave": "A meningite meningocócica evolui em horas. Sinais de alarme: febre alta súbita, dor de cabeça intensa, rigidez de nuca, manchas vermelhas ou roxas que NÃO somem ao pressionar — ligar 192 (SAMU) imediatamente.",
+    "recomendacao": "🔴 Manchas vermelhas ou roxas + febre = emergência imediata. Ligar 192 (SAMU) ou ir ao pronto-socorro sem demora. A meningocócica pode matar em menos de 24 horas sem tratamento.",
+    "educacao": "O sorogrupo C é o mais frequente no Brasil. Para cobertura mais ampla, existem a vacina ACWY (sorogrupos A, C, W, Y) e a Bexsero (sorogrupo B), disponíveis em clínicas privadas.",
+    "resposta_rapida": [
+      "Protege contra meningite pelo meningococo C",
+      "Gratuita no SUS no calendário infantil",
+      "Manchas roxas + febre = emergência (SAMU 192)",
+      "Não protege contra todos os sorogrupos",
+      "Sem receita"
+    ],
+    "receita_obrigatoria": false,
+    "tipo_receita": "nenhuma",
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "A vacina meningocócica C tem no SUS?",
+        "resposta": "Sim, está no calendário nacional infantil: 2 doses (3 e 5 meses) mais reforço aos 12 meses. Adolescentes até 19 anos com esquema incompleto podem receber gratuitamente na UBS."
+      },
+      {
+        "pergunta": "Quais são os sinais de meningite meningocócica?",
+        "resposta": "Febre alta súbita, dor de cabeça intensa, rigidez de nuca, sensibilidade à luz e manchas vermelhas ou roxas que não somem ao pressionar. É emergência — ligar 192 (SAMU) imediatamente."
+      },
+      {
+        "pergunta": "A vacina meningocócica C protege contra todos os tipos de meningite?",
+        "resposta": "Não. Protege apenas contra o sorogrupo C. Outros sorogrupos requerem vacinas diferentes — a ACWY cobre quatro sorogrupos e a Bexsero cobre o sorogrupo B."
+      },
+      {
+        "pergunta": "Adulto precisa tomar a vacina meningocócica?",
+        "resposta": "Se não foi vacinado na infância, pode se vacinar em clínicas privadas. Adolescentes em dormitórios e adultos com asplenia têm indicação especial — consultar médico."
+      },
+      {
+        "pergunta": "A vacina meningocócica C e a ACWY são a mesma coisa?",
+        "resposta": "Não. A meningocócica C protege apenas contra o sorogrupo C. A ACWY protege contra quatro sorogrupos (A, C, W e Y) e é preferida para viagens internacionais."
+      }
+    ],
+    "descricao_seo": "A Vacina Meningocócica C protege contra infecções pelo meningococo sorogrupo C, principal causador de meningite bacteriana no Brasil. A doença evolui em horas — manchas roxas com febre são emergência, ligue 192. Gratuita no SUS para crianças no calendário infantil. Não exige receita médica. Os efeitos mais comuns são dor local e febre passageira. Para proteção contra mais sorogrupos, existem as vacinas ACWY e Bexsero em clínicas privadas."
+  }
+]
