@@ -972,6 +972,18 @@ border-radius:0 0 20px 20px;
                     ⚠️ <strong>Importante:</strong> Esta seção é educacional e baseada nos Critérios de Beers 2023. Cada paciente é único — nunca interrompa ou substitua medicamentos sem orientação médica ou farmacêutica. Conteúdo revisado por <strong>Rita de Cássia Oliveira Soares da Silva — CRF-SP 33.109</strong>.
                 </div>
 
+                <!-- LISTA DINÂMICA BEERS -->
+                <div class="beers-categoria">
+                    <div class="beers-categoria-titulo evitar">🔍 Consultar Medicamentos da Lista de Beers</div>
+                    <p style="font-size:13px;color:#666;margin:10px 0 14px;line-height:1.6;">
+                        Clique em qualquer medicamento para ver informações completas, efeitos colaterais e orientações para uso em idosos.
+                        O botão <strong>Ver página →</strong> abre a ficha completa do medicamento.
+                    </p>
+                    <div id="beers-meds-lista" class="medicine-grid">
+                        <p style="color:#999;font-size:13px;padding:10px;text-align:center;">Carregando medicamentos...</p>
+                    </div>
+                </div>
+
                 <!-- EVITAR -->
                 <div class="beers-categoria">
                     <div class="beers-categoria-titulo evitar">🚫 Medicamentos a EVITAR em Idosos</div>
@@ -1826,6 +1838,7 @@ window.addEventListener('DOMContentLoaded', () => {
             medicamentosData.sort((a, b) => a.nome.localeCompare(b.nome, 'pt-BR'));
             searchResults = [...medicamentosData];
             renderMedicines(0);
+            renderBeersIdosos();
         })
         .catch(err => {
             console.error('Erro ao carregar medicamentos:', err);
@@ -2152,6 +2165,32 @@ window.addEventListener('DOMContentLoaded', () => {
             seta.textContent = corpo.classList.contains('aberto') ? '▲' : '▼';
         }
 
+        function renderBeersIdosos() {
+            const container = document.getElementById('beers-meds-lista');
+            if (!container) return;
+            const beers = medicamentosData.filter(m => m.alerta_idoso === true);
+            beers.sort((a, b) => a.nome.localeCompare(b.nome, 'pt-BR'));
+            if (beers.length === 0) {
+                container.innerHTML = '<p style="color:#999;font-size:13px;padding:10px;text-align:center;">Carregando dados...</p>';
+                return;
+            }
+            container.innerHTML = '';
+            beers.forEach(med => {
+                const btn = document.createElement('button');
+                btn.className = 'medicine-btn';
+                const slug = slugify(med.nome);
+                btn.innerHTML =
+                    '<span style="flex:1;text-align:left;">' + med.nome + '</span>' +
+                    '<span style="display:flex;gap:6px;align-items:center;flex-shrink:0;">' +
+                        '<a href="/medicamentos/' + slug + '/" style="font-size:11px;color:#667eea;text-decoration:none;padding:3px 8px;border:1px solid #667eea;border-radius:8px;white-space:nowrap;" onclick="event.stopPropagation()">Ver página →</a>' +
+                        '<span style="font-size:11px;font-weight:700;padding:3px 10px;border-radius:12px;background:#fde8e8;color:#c0392b;border:1px solid #c0392b;white-space:nowrap;">⚠️ Beers</span>' +
+                    '</span>';
+                btn.style.cssText = 'display:flex;align-items:center;gap:10px;justify-content:space-between;';
+                btn.onclick = () => openMedicineModal(med);
+                container.appendChild(btn);
+            });
+        }
+
         function openExameModal(exame) {
             const faqHtml = exame.perguntas_frequentes && exame.perguntas_frequentes.length > 0 ? `
                 <div class="section-title">❓ Perguntas Frequentes</div>
@@ -2343,6 +2382,10 @@ window.addEventListener('DOMContentLoaded', () => {
                         examesSearchResults = [...examesData];
                     }
                     renderExames(examesCurrentPage);
+                } else if (tab === 'idosos') {
+                    const el = document.getElementById('idosos');
+                    if (el) el.classList.add('active');
+                    renderBeersIdosos();
                 } else {
                     const el = document.getElementById(tab);
                     if (el) el.classList.add('active');

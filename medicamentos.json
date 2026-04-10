@@ -889,7 +889,8 @@
     "receita_obrigatoria": true,
     "tipo_receita": "B1",
     "retencao_receita": true,
-    "descricao_seo": "Alprazolam 0,25mg - 0,5mg - 1,0mg - 2,0mg é um medicamento usado para: transtornos de Ansiedade, Transtorno do Pânico, Insônia, Abstinência Alcoólica. Os efeitos colaterais mais relatados são: dependência, sonolência, tontura, amnésia. Importante: Risco de dependência com uso prolongado. Alprazolam 0,25mg - 0,5mg - 1,0mg - 2,0mg é vendido somente com receita médica — nunca use sem orientação de um profissional de saúde."
+    "descricao_seo": "Alprazolam 0,25mg - 0,5mg - 1,0mg - 2,0mg é um medicamento usado para: transtornos de Ansiedade, Transtorno do Pânico, Insônia, Abstinência Alcoólica. Os efeitos colaterais mais relatados são: dependência, sonolência, tontura, amnésia. Importante: Risco de dependência com uso prolongado. Alprazolam 0,25mg - 0,5mg - 1,0mg - 2,0mg é vendido somente com receita médica — nunca use sem orientação de um profissional de saúde.",
+    "alerta_idoso": true
   },
   {
     "nome": "Amantadina 100mg",
@@ -1094,7 +1095,8 @@
     "receita_obrigatoria": true,
     "tipo_receita": "C1",
     "retencao_receita": true,
-    "descricao_seo": "Amitriptilina 25mg é um medicamento usado para: depressão, enxaqueca, dor neuropática (dor causada por dano ou disfunção nos nervos, como queimação, formigamento ou choques), enurese noturna (urinar na cama) em crianças. Os efeitos colaterais mais relatados são: sonolência, boca seca, ganho de peso. Pode levar 2-4 semanas para fazer efeito. Amitriptilina 25mg é vendido somente com receita médica — nunca use sem orientação de um profissional de saúde."
+    "descricao_seo": "Amitriptilina 25mg é um medicamento usado para: depressão, enxaqueca, dor neuropática (dor causada por dano ou disfunção nos nervos, como queimação, formigamento ou choques), enurese noturna (urinar na cama) em crianças. Os efeitos colaterais mais relatados são: sonolência, boca seca, ganho de peso. Pode levar 2-4 semanas para fazer efeito. Amitriptilina 25mg é vendido somente com receita médica — nunca use sem orientação de um profissional de saúde.",
+    "alerta_idoso": true
   },
   {
     "nome": "Amoxicilina + Clavulanato 500mg/125mg - 875mg/125mg",
@@ -2835,7 +2837,8 @@
     "receita_obrigatoria": true,
     "tipo_receita": "B1",
     "retencao_receita": true,
-    "descricao_seo": "Bromazepam 3mg e 6mg é um medicamento usado para: ansiedade, transtornos de humor, agitação, tensão e insônia. Os efeitos colaterais mais relatados são: dependência, sonolência, ataxia (perda de coordenação motora, desequilíbrio e dificuldade para caminhar). Não fazer uso de álcool - aumenta risco de sedação severa e acidentes. Bromazepam 3mg e 6mg é vendido somente com receita médica — nunca use sem orientação de um profissional de saúde."
+    "descricao_seo": "Bromazepam 3mg e 6mg é um medicamento usado para: ansiedade, transtornos de humor, agitação, tensão e insônia. Os efeitos colaterais mais relatados são: dependência, sonolência, ataxia (perda de coordenação motora, desequilíbrio e dificuldade para caminhar). Não fazer uso de álcool - aumenta risco de sedação severa e acidentes. Bromazepam 3mg e 6mg é vendido somente com receita médica — nunca use sem orientação de um profissional de saúde.",
+    "alerta_idoso": true
   },
   {
     "nome": "Brometo de Escopolamina (Hioscina) 10mg",
@@ -4940,7 +4943,8 @@
     "receita_obrigatoria": true,
     "tipo_receita": "B1",
     "retencao_receita": true,
-    "descricao_seo": "Clonazepam - Solução oral 2,5mg/mL, 0,5mg e 2mg, 0,25mg é um medicamento usado para: indicado para o tratamento de distúrbios epilépticos (crises convulsivas e Síndrome de West — um tipo raro de epilepsia que afeta bebês, caracterizada por espasmos musculares súbitos e atraso no desenvolvimento neurológico). Os efeitos colaterais mais relatados são: os efeitos mais comuns são sonolência, tontura, cansaço, problemas de memória, dificuldade de coordenação (andar desequilibrado) e alterações de humor ou comportamento. Nunca interrompa o uso abruptamente. Sempre siga a orientação médica para redução gradual da dose. Clonazepam - Solução oral 2,5mg/mL, 0,5mg e 2mg, 0,25mg é vendido somente com receita médica — nunca use sem orientação de um profissional de saúde."
+    "descricao_seo": "Clonazepam - Solução oral 2,5mg/mL, 0,5mg e 2mg, 0,25mg é um medicamento usado para: indicado para o tratamento de distúrbios epilépticos (crises convulsivas e Síndrome de West — um tipo raro de epilepsia que afeta bebês, caracterizada por espasmos musculares súbitos e atraso no desenvolvimento neurológico). Os efeitos colaterais mais relatados são: os efeitos mais comuns são sonolência, tontura, cansaço, problemas de memória, dificuldade de coordenação (andar desequilibrado) e alterações de humor ou comportamento. Nunca interrompa o uso abruptamente. Sempre siga a orientação médica para redução gradual da dose. Clonazepam - Solução oral 2,5mg/mL, 0,5mg e 2mg, 0,25mg é vendido somente com receita médica — nunca use sem orientação de um profissional de saúde.",
+    "alerta_idoso": true
   },
   {
     "nome": "Clopidogrel 75mg",
@@ -6541,7 +6545,8 @@
     "receita_obrigatoria": true,
     "tipo_receita": "B1",
     "retencao_receita": true,
-    "descricao_seo": "Diazepam comprimido 5mg - 10 mg - Injetavel é um medicamento usado para: indicado para aliviar sintomas de ansiedade, tensão e agitação intensa. Também é usado para tratar insônia, relaxar músculos tensos ou com espasmos (contrações musculares involuntárias que causam rigidez e dor). Os efeitos colaterais mais relatados são: os efeitos mais comuns incluem: sonolência intensa, cansaço, sensação de sedação (estado de relaxamento profundo), fraqueza muscular, tontura, dor de cabeça, boca seca. Importante: NUNCA misture diazepam com bebidas alcoólicas. A combinação pode causar sedação perigosa, dificuldade para respirar, desmaios e até risco de morte. Diazepam comprimido 5mg - 10 mg - Injetavel é vendido somente com receita médica — nunca use sem orientação de um profissional de saúde."
+    "descricao_seo": "Diazepam comprimido 5mg - 10 mg - Injetavel é um medicamento usado para: indicado para aliviar sintomas de ansiedade, tensão e agitação intensa. Também é usado para tratar insônia, relaxar músculos tensos ou com espasmos (contrações musculares involuntárias que causam rigidez e dor). Os efeitos colaterais mais relatados são: os efeitos mais comuns incluem: sonolência intensa, cansaço, sensação de sedação (estado de relaxamento profundo), fraqueza muscular, tontura, dor de cabeça, boca seca. Importante: NUNCA misture diazepam com bebidas alcoólicas. A combinação pode causar sedação perigosa, dificuldade para respirar, desmaios e até risco de morte. Diazepam comprimido 5mg - 10 mg - Injetavel é vendido somente com receita médica — nunca use sem orientação de um profissional de saúde.",
+    "alerta_idoso": true
   },
   {
     "nome": "Diclofenaco 50mg - 75mg - 100mg - Injetável",
@@ -6805,7 +6810,8 @@
         "resposta": "Sim, monitorar nível sérico da digoxina, potássio, magnésio e função renal regularmente — especialmente após ajustes de dose ou início de outros medicamentos."
       }
     ],
-    "descricao_seo": "Digoxina comprimido 0,25 mg - Solução é um medicamento usado para: indicado para tratar problemas no coração, como insuficiência cardíaca (quando o coração não consegue bombear sangue de forma eficiente para o corpo, causando cansaço e falta de ar) e arritmias. Os efeitos colaterais mais relatados são: os efeitos mais comuns incluem enjoo, vômitos, diarreia, dor de cabeça, tontura, confusão mental e alterações na visão (pode ver tudo amarelado ou embaçado). Importante: MEDICAMENTO DE ALTO RISCO: A digoxina tem uma margem de segurança muito pequena — a diferença entre a dose que funciona e a dose tóxica é pequena. Por isso, é muito fácil ter intoxicação. Digoxina comprimido 0,25 mg - Solução é vendido somente com receita médica — nunca use sem orientação de um profissional de saúde."
+    "descricao_seo": "Digoxina comprimido 0,25 mg - Solução é um medicamento usado para: indicado para tratar problemas no coração, como insuficiência cardíaca (quando o coração não consegue bombear sangue de forma eficiente para o corpo, causando cansaço e falta de ar) e arritmias. Os efeitos colaterais mais relatados são: os efeitos mais comuns incluem enjoo, vômitos, diarreia, dor de cabeça, tontura, confusão mental e alterações na visão (pode ver tudo amarelado ou embaçado). Importante: MEDICAMENTO DE ALTO RISCO: A digoxina tem uma margem de segurança muito pequena — a diferença entre a dose que funciona e a dose tóxica é pequena. Por isso, é muito fácil ter intoxicação. Digoxina comprimido 0,25 mg - Solução é vendido somente com receita médica — nunca use sem orientação de um profissional de saúde.",
+    "alerta_idoso": true
   },
   {
     "nome": "Diltiazem 30mg - 60mg",
@@ -9536,7 +9542,8 @@
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
     "retencao_receita": false,
-    "descricao_seo": "Glibenclamida 5mg é um medicamento usado para: indicada para o tratamento do diabetes tipo 2 em adultos, quando a dieta, exercício e metformina não são suficientes para controlar o açúcar no sangue. Os efeitos colaterais mais relatados são: o principal e mais importante efeito colateral é a hipoglicemia (queda do açúcar no sangue) — pode ser grave e prolongada, especialmente em idosos. Importante: RISCO ELEVADO EM IDOSOS: A glibenclamida está nos Critérios de Beers como medicamento a EVITAR em idosos — risco de hipoglicemia grave e prolongada. Glibenclamida 5mg é vendido somente com receita médica — nunca use sem orientação de um profissional de saúde."
+    "descricao_seo": "Glibenclamida 5mg é um medicamento usado para: indicada para o tratamento do diabetes tipo 2 em adultos, quando a dieta, exercício e metformina não são suficientes para controlar o açúcar no sangue. Os efeitos colaterais mais relatados são: o principal e mais importante efeito colateral é a hipoglicemia (queda do açúcar no sangue) — pode ser grave e prolongada, especialmente em idosos. Importante: RISCO ELEVADO EM IDOSOS: A glibenclamida está nos Critérios de Beers como medicamento a EVITAR em idosos — risco de hipoglicemia grave e prolongada. Glibenclamida 5mg é vendido somente com receita médica — nunca use sem orientação de um profissional de saúde.",
+    "alerta_idoso": true
   },
   {
     "nome": "Glicazida 30mg - 60mg - 80mg MR",
@@ -9800,7 +9807,8 @@
     "receita_obrigatoria": true,
     "tipo_receita": "B2",
     "retencao_receita": true,
-    "descricao_seo": "Haloperidol 1mg - 5mg - Gotas - Injetável é um medicamento usado para: indicado para tratar esquizofrenia, psicoses, crises de mania no transtorno bipolar, síndrome de Tourette, tiques, agitação intensa e distúrbios graves de comportamento (principalmente em crianças e em casos de delirium em idosos). Os efeitos colaterais mais relatados são: os efeitos mais comuns afetam o sistema nervoso: tremores, rigidez muscular, movimentos lentos (como no mal de Parkinson), inquietação intensa (sensação de não conseguir ficar parado. Importante: ATENÇÃO IDOSOS: O uso em idosos com demência aumenta muito o risco de morte, especialmente por problemas no coração (insuficiência cardíaca ou morte súbita) ou infecções como pneumonia. Haloperidol 1mg - 5mg - Gotas - Injetável é vendido somente com receita médica — nunca use sem orientação de um profissional de saúde."
+    "descricao_seo": "Haloperidol 1mg - 5mg - Gotas - Injetável é um medicamento usado para: indicado para tratar esquizofrenia, psicoses, crises de mania no transtorno bipolar, síndrome de Tourette, tiques, agitação intensa e distúrbios graves de comportamento (principalmente em crianças e em casos de delirium em idosos). Os efeitos colaterais mais relatados são: os efeitos mais comuns afetam o sistema nervoso: tremores, rigidez muscular, movimentos lentos (como no mal de Parkinson), inquietação intensa (sensação de não conseguir ficar parado. Importante: ATENÇÃO IDOSOS: O uso em idosos com demência aumenta muito o risco de morte, especialmente por problemas no coração (insuficiência cardíaca ou morte súbita) ou infecções como pneumonia. Haloperidol 1mg - 5mg - Gotas - Injetável é vendido somente com receita médica — nunca use sem orientação de um profissional de saúde.",
+    "alerta_idoso": true
   },
   {
     "nome": "Heparina Injetável",
@@ -10158,7 +10166,8 @@
         "resposta": "Não. A combinação aumenta muito a sedação e depressão do sistema nervoso central. Evitar completamente álcool durante o uso de hidroxizina."
       }
     ],
-    "descricao_seo": "Hidroxizina 10mg - 25mg - 50mg é um medicamento usado para: anti-histamínico H1 com ação ansiolítica e sedativa. Indicado para ansiedade, prurido alérgico intenso, urticária, pré-anestesia e como sedativo em procedimentos. Não causa dependência como os benzodiazepínicos. Os efeitos colaterais mais relatados são: sonolência (muito comum — efeito principal), boca seca, constipação, tontura, cefaleia, prolongamento do QT. Importante: Pode prolongar o QT — cuidado em pacientes com arritmias ou em uso de outros medicamentos que prolongam o QT. Evitar em idosos (critérios de Beers) — risco de confusão e quedas. Hidroxizina 10mg - 25mg - 50mg é vendido somente com receita médica — nunca use sem orientação de um profissional de saúde."
+    "descricao_seo": "Hidroxizina 10mg - 25mg - 50mg é um medicamento usado para: anti-histamínico H1 com ação ansiolítica e sedativa. Indicado para ansiedade, prurido alérgico intenso, urticária, pré-anestesia e como sedativo em procedimentos. Não causa dependência como os benzodiazepínicos. Os efeitos colaterais mais relatados são: sonolência (muito comum — efeito principal), boca seca, constipação, tontura, cefaleia, prolongamento do QT. Importante: Pode prolongar o QT — cuidado em pacientes com arritmias ou em uso de outros medicamentos que prolongam o QT. Evitar em idosos (critérios de Beers) — risco de confusão e quedas. Hidroxizina 10mg - 25mg - 50mg é vendido somente com receita médica — nunca use sem orientação de um profissional de saúde.",
+    "alerta_idoso": true
   },
   {
     "nome": "Hidróxido de Alumínio",
@@ -10474,7 +10483,8 @@
         "resposta": "Sim, é cardiotóxica em doses altas — pode causar arritmias graves e ser fatal. Deve ser guardada fora do alcance de pacientes com risco de tentativa de suicídio."
       }
     ],
-    "descricao_seo": "Imipramina 10mg - 25mg é um medicamento usado para: um dos primeiros antidepressivos desenvolvidos. Usado em depressão maior, transtorno de pânico, enurese noturna em crianças (xixi na cama) e dor crônica neuropática. Age bloqueando a recaptação de serotonina e noradrenalina. Os efeitos colaterais mais relatados são: boca seca, sonolência, constipação, ganho de peso, retenção urinária, visão turva, taquicardia, hipotensão ortostática. Importante: Cardiotóxico em overdose — guarda-la fora do alcance de pacientes com risco de tentativa de suicídio. Contraindicado após infarto e com IMAO. Nunca interromper abruptamente. Imipramina 10mg - 25mg é vendido somente com receita médica — nunca use sem orientação de um profissional de saúde."
+    "descricao_seo": "Imipramina 10mg - 25mg é um medicamento usado para: um dos primeiros antidepressivos desenvolvidos. Usado em depressão maior, transtorno de pânico, enurese noturna em crianças (xixi na cama) e dor crônica neuropática. Age bloqueando a recaptação de serotonina e noradrenalina. Os efeitos colaterais mais relatados são: boca seca, sonolência, constipação, ganho de peso, retenção urinária, visão turva, taquicardia, hipotensão ortostática. Importante: Cardiotóxico em overdose — guarda-la fora do alcance de pacientes com risco de tentativa de suicídio. Contraindicado após infarto e com IMAO. Nunca interromper abruptamente. Imipramina 10mg - 25mg é vendido somente com receita médica — nunca use sem orientação de um profissional de saúde.",
+    "alerta_idoso": true
   },
   {
     "nome": "Imunoglobulina Humana",
@@ -12147,7 +12157,8 @@
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
     "retencao_receita": false,
-    "descricao_seo": "Lisador (Dipirona + Adifenina + Prometazina) é um medicamento usado para: associação de dipirona monoidratada (analgésico/antitérmico), cloridrato de adifenina (antiespasmódico) e cloridrato de prometazina (anti-histamínico). Indicado para cólicas, dores musculares e espasmos com componente alérgico. Os efeitos colaterais mais relatados são: sonolência intensa (prometazina), boca seca, tontura, visão turva, retenção urinária. Dipirona pode causar reações alérgicas raras mas graves. Importante: A prometazina causa sonolência intensa — não dirija. Contraindicado em glaucoma e hipertrofia prostática. Alergia à dipirona é contraindicação absoluta. Lisador (Dipirona + Adifenina + Prometazina) é vendido somente com receita médica — nunca use sem orientação de um profissional de saúde."
+    "descricao_seo": "Lisador (Dipirona + Adifenina + Prometazina) é um medicamento usado para: associação de dipirona monoidratada (analgésico/antitérmico), cloridrato de adifenina (antiespasmódico) e cloridrato de prometazina (anti-histamínico). Indicado para cólicas, dores musculares e espasmos com componente alérgico. Os efeitos colaterais mais relatados são: sonolência intensa (prometazina), boca seca, tontura, visão turva, retenção urinária. Dipirona pode causar reações alérgicas raras mas graves. Importante: A prometazina causa sonolência intensa — não dirija. Contraindicado em glaucoma e hipertrofia prostática. Alergia à dipirona é contraindicação absoluta. Lisador (Dipirona + Adifenina + Prometazina) é vendido somente com receita médica — nunca use sem orientação de um profissional de saúde.",
+    "alerta_idoso": true
   },
   {
     "nome": "Lisdexanfetamina 20mg - 30mg - 50mg - 70mg",
@@ -13287,7 +13298,8 @@
         "resposta": "Tem interações importantes com antipsicóticos, levodopa e depressores do SNC. Sempre informar ao médico todos os medicamentos em uso antes de iniciar."
       }
     ],
-    "descricao_seo": "Metoclopramida 10mg - Gotas - Injetável é um medicamento usado para: indicada para aliviar náuseas e vômitos de diversas causas, como enxaqueca, pós-operatório, quimioterapia e gastroparesia (condição em que o estômago demora mais do que o normal para esvaziar seu conteúdo, causando sensação de empachamento. Os efeitos colaterais mais relatados são: os efeitos mais comuns são sonolência, cansaço e inquietação. O efeito mais preocupante é a discinesia tardia (movimentos involuntários repetitivos no rosto, língua e membros). Importante: Não use por mais de 5 dias consecutivos sem orientação médica — o risco de discinesia tardia aumenta com o tempo de uso. Crianças e idosos são mais vulneráveis aos efeitos neurológicos. Metoclopramida 10mg - Gotas - Injetável é vendido somente com receita médica — nunca use sem orientação de um profissional de saúde."
+    "descricao_seo": "Metoclopramida 10mg - Gotas - Injetável é um medicamento usado para: indicada para aliviar náuseas e vômitos de diversas causas, como enxaqueca, pós-operatório, quimioterapia e gastroparesia (condição em que o estômago demora mais do que o normal para esvaziar seu conteúdo, causando sensação de empachamento. Os efeitos colaterais mais relatados são: os efeitos mais comuns são sonolência, cansaço e inquietação. O efeito mais preocupante é a discinesia tardia (movimentos involuntários repetitivos no rosto, língua e membros). Importante: Não use por mais de 5 dias consecutivos sem orientação médica — o risco de discinesia tardia aumenta com o tempo de uso. Crianças e idosos são mais vulneráveis aos efeitos neurológicos. Metoclopramida 10mg - Gotas - Injetável é vendido somente com receita médica — nunca use sem orientação de um profissional de saúde.",
+    "alerta_idoso": true
   },
   {
     "nome": "Metoprolol 25mg - 50mg - 100mg",
@@ -15010,7 +15022,8 @@
         "resposta": "Não. A interrupção abrupta pode causar síndrome de descontinuação e rebote dos sintomas. Reduzir a dose gradualmente sempre com orientação médica."
       }
     ],
-    "descricao_seo": "Nortriptilina 10mg - 25mg - 50mg - 75mg é um medicamento usado para: usada no tratamento de depressão maior, dor crônica neuropática (fibromialgia, nevralgia pós-herpética), ansiedade e prevenção de enxaqueca. Age aumentando os níveis de noradrenalina e serotonina no cérebro. Os efeitos colaterais mais relatados são: boca seca, sonolência, constipação, ganho de peso, retenção urinária, visão turva, tontura, palpitações. Importante: Risco de ideação suicida nos primeiros meses, especialmente em jovens. Nunca interromper abruptamente. Contraindicado após infarto recente e com IMAO. Nortriptilina 10mg - 25mg - 50mg - 75mg é vendido somente com receita médica — nunca use sem orientação de um profissional de saúde."
+    "descricao_seo": "Nortriptilina 10mg - 25mg - 50mg - 75mg é um medicamento usado para: usada no tratamento de depressão maior, dor crônica neuropática (fibromialgia, nevralgia pós-herpética), ansiedade e prevenção de enxaqueca. Age aumentando os níveis de noradrenalina e serotonina no cérebro. Os efeitos colaterais mais relatados são: boca seca, sonolência, constipação, ganho de peso, retenção urinária, visão turva, tontura, palpitações. Importante: Risco de ideação suicida nos primeiros meses, especialmente em jovens. Nunca interromper abruptamente. Contraindicado após infarto recente e com IMAO. Nortriptilina 10mg - 25mg - 50mg - 75mg é vendido somente com receita médica — nunca use sem orientação de um profissional de saúde.",
+    "alerta_idoso": true
   },
   {
     "nome": "Novalgina — Dipirona Sódica",
@@ -15473,7 +15486,8 @@
         "resposta": "Sim, é contraindicada em glaucoma de ângulo fechado. Também pode agravar retenção urinária em homens com próstata aumentada. Informar ao médico sobre essas condições antes de usar."
       }
     ],
-    "descricao_seo": "Oxibutinina 5mg - 10mg é um medicamento usado para: antimuscarínico clássico para bexiga hiperativa e, off-label, para hiperhidrose (suor excessivo) via aplicação tópica ou oral. Mais antigo e com mais efeitos no SNC que os antimuscarínicos modernos — usado com cautela em idosos. Os efeitos colaterais mais relatados são: boca seca intensa, constipação, visão turva, retenção urinária, confusão mental e déficit cognitivo (mais que agentes seletivos), rubor, taquicardia. Importante: Evitar em idosos (critérios de Beers) — alto risco de confusão, quedas e delirium. Contraindicado em glaucoma e retenção urinária. Para hiperhidrose, aplicar nas axilas com luvas. Oxibutinina 5mg - 10mg é vendido somente com receita médica — nunca use sem orientação de um profissional de saúde."
+    "descricao_seo": "Oxibutinina 5mg - 10mg é um medicamento usado para: antimuscarínico clássico para bexiga hiperativa e, off-label, para hiperhidrose (suor excessivo) via aplicação tópica ou oral. Mais antigo e com mais efeitos no SNC que os antimuscarínicos modernos — usado com cautela em idosos. Os efeitos colaterais mais relatados são: boca seca intensa, constipação, visão turva, retenção urinária, confusão mental e déficit cognitivo (mais que agentes seletivos), rubor, taquicardia. Importante: Evitar em idosos (critérios de Beers) — alto risco de confusão, quedas e delirium. Contraindicado em glaucoma e retenção urinária. Para hiperhidrose, aplicar nas axilas com luvas. Oxibutinina 5mg - 10mg é vendido somente com receita médica — nunca use sem orientação de um profissional de saúde.",
+    "alerta_idoso": true
   },
   {
     "nome": "Oximetazolina 0,05% Spray Nasal (Afrin)",
@@ -16730,7 +16744,8 @@
         "resposta": "O creme é usado topicamente para coceira, urticária e reações alérgicas de pele. Evitar em grandes áreas ou por longo tempo — pode causar sensibilização e fotossensibilidade."
       }
     ],
-    "descricao_seo": "Prometazina 25mg - Creme - Xarope - Injetável é um medicamento usado para: indicada para tratar reações alérgicas (urticária, rinite, conjuntivite), náuseas e vômitos (inclusive em gestantes com orientação médica), enjoo de movimento (cinetose) e como sedativo leve em procedimentos médicos. Os efeitos colaterais mais relatados são: o efeito colateral mais marcante é a sonolência intensa — pode ser tão forte que compromete totalmente a capacidade de dirigir e trabalhar. Também causa boca seca, visão turva, constipação e tontura. Importante: CONTRAINDICADA em crianças menores de 2 anos — risco de depressão respiratória grave e morte. Use com extrema cautela em crianças de 2 a 5 anos. Prometazina 25mg - Creme - Xarope - Injetável é vendido somente com receita médica — nunca use sem orientação de um profissional de saúde."
+    "descricao_seo": "Prometazina 25mg - Creme - Xarope - Injetável é um medicamento usado para: indicada para tratar reações alérgicas (urticária, rinite, conjuntivite), náuseas e vômitos (inclusive em gestantes com orientação médica), enjoo de movimento (cinetose) e como sedativo leve em procedimentos médicos. Os efeitos colaterais mais relatados são: o efeito colateral mais marcante é a sonolência intensa — pode ser tão forte que compromete totalmente a capacidade de dirigir e trabalhar. Também causa boca seca, visão turva, constipação e tontura. Importante: CONTRAINDICADA em crianças menores de 2 anos — risco de depressão respiratória grave e morte. Use com extrema cautela em crianças de 2 a 5 anos. Prometazina 25mg - Creme - Xarope - Injetável é vendido somente com receita médica — nunca use sem orientação de um profissional de saúde.",
+    "alerta_idoso": true
   },
   {
     "nome": "Propionato de Clobetasol 0,05% — Creme, Pomada, Solução Capilar",
@@ -22707,7 +22722,8 @@
         "resposta": "É uma emergência médica rara mas grave causada por antipsicóticos: febre alta, rigidez muscular intensa, confusão mental e instabilidade dos sinais vitais. Requer internação imediata."
       }
     ],
-    "descricao_seo": "Clorpromazina 25mg - 100mg (Amplictil) é o primeiro antipsicótico desenvolvido, indicado para esquizofrenia, mania aguda e soluço intratável. Os efeitos colaterais mais relatados são: sedação, hipotensão, fotossensibilidade e risco de discinesia tardia. Evitar sol sem proteção. Clorpromazina é controlada (tarja preta) — vendida somente com receita de controle especial."
+    "descricao_seo": "Clorpromazina 25mg - 100mg (Amplictil) é o primeiro antipsicótico desenvolvido, indicado para esquizofrenia, mania aguda e soluço intratável. Os efeitos colaterais mais relatados são: sedação, hipotensão, fotossensibilidade e risco de discinesia tardia. Evitar sol sem proteção. Clorpromazina é controlada (tarja preta) — vendida somente com receita de controle especial.",
+    "alerta_idoso": true
   },
   {
     "nome": "Trifluoperazina 5mg",
