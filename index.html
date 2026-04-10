@@ -872,6 +872,7 @@ border-radius:0 0 20px 20px;
             <div class="nav-buttons">
                 <button class="nav-btn active" data-tab="home">🏠 Home</button>
                 <button class="nav-btn" data-tab="vacinas">💉 Vacinas</button>
+                <button class="nav-btn" data-tab="exames">🧪 Exames</button>
                 <button class="nav-btn" data-tab="idosos">🧓 Idosos</button>
                 <button class="nav-btn" data-tab="interacoes">⚡ Interações</button>
                 <button class="nav-btn" data-tab="privacidade">🔒 Privacidade</button>
@@ -928,6 +929,29 @@ border-radius:0 0 20px 20px;
 
                     <div class="pagination" id="vacinasPagination"></div>
                     <div class="page-info" id="vacinasPageInfo"></div>
+                </div>
+            </div>
+
+            <div id="exames" class="tab-content">
+                <div class="search-section">
+                    <input type="text" id="examesSearchInput" placeholder="🔍 Busque um exame...">
+                </div>
+
+                <div class="tip">
+                    💡 Dica: Clique em qualquer exame para ver valores normais, o que significa alto ou baixo e como se preparar
+                </div>
+
+                <div class="medicines-list">
+                    <h3>🧪 EXAMES LABORATORIAIS</h3>
+                    <div class="medicine-grid" id="examesGrid"></div>
+
+                    <div style="text-align:center;padding:16px 10px 8px;font-size:14px;color:#666;border-top:1px solid #ddd;margin-top:10px;">
+                        Revisado por <strong>Rita de Cássia Oliveira Soares da Silva</strong> — CRF-SP 33.109 · Farmacêutica responsável<br>
+                        <small style="color:#999;">MediCheck © 2026 — medicheck.med.br — Conteúdo educacional. Não substitui orientação profissional.</small>
+                    </div>
+
+                    <div class="pagination" id="examesPagination"></div>
+                    <div class="page-info" id="examesPageInfo"></div>
                 </div>
             </div>
 
@@ -1785,6 +1809,9 @@ border-radius:0 0 20px 20px;
         let vacinasData = [];
         let vacinasSearchResults = [];
         let vacinasCurrentPage = 0;
+        let examesData = [];
+        let examesSearchResults = [];
+        let examesCurrentPage = 0;
 
 // Carrega os medicamentos após a página renderizar (lazy loading)
 window.addEventListener('DOMContentLoaded', () => {
@@ -1811,6 +1838,18 @@ window.addEventListener('DOMContentLoaded', () => {
         .catch(err => {
             console.error('Erro ao carregar vacinas:', err);
             document.getElementById('vacinasGrid').innerHTML = '<p style="color:red;text-align:center;padding:20px;">Erro ao carregar vacinas. Verifique sua conexão.</p>';
+        });
+
+    fetch('/exames.json')
+        .then(r => r.json())
+        .then(data => {
+            examesData = data;
+            examesData.sort((a, b) => a.nome.localeCompare(b.nome, 'pt-BR'));
+            examesSearchResults = [...examesData];
+        })
+        .catch(err => {
+            console.error('Erro ao carregar exames:', err);
+            document.getElementById('examesGrid').innerHTML = '<p style="color:red;text-align:center;padding:20px;">Erro ao carregar exames. Verifique sua conexão.</p>';
         });
 });
 
@@ -2109,6 +2148,108 @@ window.addEventListener('DOMContentLoaded', () => {
             seta.textContent = corpo.classList.contains('aberto') ? '▲' : '▼';
         }
 
+        function openExameModal(exame) {
+            const faqHtml = exame.perguntas_frequentes && exame.perguntas_frequentes.length > 0 ? `
+                <div class="section-title">❓ Perguntas Frequentes</div>
+                <div class="faq-lista">
+                    ${exame.perguntas_frequentes.map(faq => `
+                    <div class="faq-item" onclick="this.classList.toggle('aberto')">
+                        <div class="faq-pergunta">
+                            <span>${faq.pergunta}</span>
+                            <span class="faq-seta">▼</span>
+                        </div>
+                        <div class="faq-resposta">${faq.resposta}</div>
+                    </div>`).join('')}
+                </div>` : '';
+
+            medicineCard.innerHTML = `
+                <h2>${exame.nome}</h2>
+                <div style="display:inline-block;background:#eef2ff;color:#4338ca;font-size:12px;font-weight:700;padding:3px 12px;border-radius:12px;margin-bottom:14px;border:1px solid #c7d2fe;">🧪 ${exame.categoria}</div>
+
+                ${exame.descricao_seo ? `<p style="font-size:15px;color:#555;line-height:1.8;margin:4px 0 18px 0;font-weight:400;">${exame.descricao_seo}</p>` : ''}
+
+                <div class="section-title">📋 O Que É</div>
+                <div class="section-content">${exame.descricao}</div>
+
+                <div class="section-title">✅ Valores Normais</div>
+                <div class="section-content" style="background:#e8f8f0;border-radius:8px;padding:10px 14px;color:#155724;font-weight:500;">${exame.valores_normais}</div>
+
+                <div class="section-title">⬆️ O Que Significa Resultado Alto</div>
+                <div class="section-content" style="background:#fde8e8;border-radius:8px;padding:10px 14px;color:#721c24;">${exame.o_que_significa_alto}</div>
+
+                <div class="section-title">⬇️ O Que Significa Resultado Baixo</div>
+                <div class="section-content" style="background:#fef3e2;border-radius:8px;padding:10px 14px;color:#856404;">${exame.o_que_significa_baixo}</div>
+
+                <div class="section-title">🩺 Quando Pedir</div>
+                <div class="section-content">${exame.quando_pedir}</div>
+
+                <div class="section-title">🕐 Como Se Preparar</div>
+                <div class="section-content"><strong>${exame.preparo}</strong></div>
+
+                ${faqHtml}
+
+                <div class="danger">
+                    <strong>📋 NOTA EDUCACIONAL:</strong> Este conteúdo é educacional e revisado por farmacêutica responsável. Os valores de referência podem variar entre laboratórios. Sempre consulte seu médico para interpretar seus resultados. MediCheck não substitui orientação profissional.
+                </div>
+            `;
+            medicineModal.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function renderExames(page = 0) {
+            examesCurrentPage = page;
+            const examesGrid = document.getElementById('examesGrid');
+            const examesPagination = document.getElementById('examesPagination');
+            const examesPageInfo = document.getElementById('examesPageInfo');
+            examesGrid.innerHTML = '';
+
+            document.querySelector('.content').scrollTop = 0;
+
+            const totalPages = Math.ceil(examesSearchResults.length / itemsPerPage);
+            const start = page * itemsPerPage;
+            const end = start + itemsPerPage;
+            const pageItems = examesSearchResults.slice(start, end);
+
+            pageItems.forEach((exame) => {
+                const btn = document.createElement('button');
+                btn.className = 'medicine-btn';
+                btn.innerHTML = '<span style="flex:1;text-align:left;">' + exame.nome + '</span><span style="font-size:11px;font-weight:700;padding:3px 10px;border-radius:12px;white-space:nowrap;background:#eef2ff;color:#4338ca;border:1px solid #c7d2fe;">🧪 ' + exame.categoria + '</span>';
+                btn.style.cssText = 'display:flex;align-items:center;gap:10px;justify-content:space-between;';
+                btn.onclick = () => openExameModal(exame);
+                examesGrid.appendChild(btn);
+            });
+
+            // Paginação
+            examesPagination.innerHTML = '';
+            const maxButtons = 5;
+            let pStart = Math.max(0, page - Math.floor(maxButtons / 2));
+            let pEnd = Math.min(totalPages, pStart + maxButtons);
+            if (pEnd - pStart < maxButtons) pStart = Math.max(0, pEnd - maxButtons);
+            for (let i = pStart; i < pEnd; i++) {
+                const btn = document.createElement('button');
+                btn.textContent = i + 1;
+                btn.className = i === page ? 'active' : '';
+                btn.onclick = () => renderExames(i);
+                examesPagination.appendChild(btn);
+            }
+
+            examesPageInfo.textContent = `Mostrando ${start + 1} a ${Math.min(end, examesSearchResults.length)} de ${examesSearchResults.length} exames`;
+        }
+
+        document.getElementById('examesSearchInput').addEventListener('input', (e) => {
+            const term = e.target.value.toLowerCase();
+            if (term === '') {
+                examesSearchResults = examesData;
+            } else {
+                examesSearchResults = examesData.filter(exame =>
+                    exame.nome.toLowerCase().includes(term) ||
+                    exame.categoria.toLowerCase().includes(term) ||
+                    exame.descricao.toLowerCase().includes(term)
+                );
+            }
+            renderExames(0);
+        });
+
         function renderVacinas(page = 0) {
             vacinasCurrentPage = page;
             const vacinasGrid = document.getElementById('vacinasGrid');
@@ -2176,7 +2317,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
                 // Esconde tudo
                 document.getElementById('home').style.display = 'none';
-                ['vacinas','idosos','interacoes','privacidade','termos','contato'].forEach(id => {
+                ['vacinas','exames','idosos','interacoes','privacidade','termos','contato'].forEach(id => {
                     const el = document.getElementById(id);
                     if (el) el.classList.remove('active');
                 });
@@ -2192,6 +2333,13 @@ window.addEventListener('DOMContentLoaded', () => {
                         vacinasSearchResults = [...vacinasData];
                     }
                     renderVacinas(vacinasCurrentPage);
+                } else if (tab === 'exames') {
+                    const el = document.getElementById('exames');
+                    if (el) el.classList.add('active');
+                    if (examesSearchResults.length === 0 && examesData.length > 0) {
+                        examesSearchResults = [...examesData];
+                    }
+                    renderExames(examesCurrentPage);
                 } else {
                     const el = document.getElementById(tab);
                     if (el) el.classList.add('active');
