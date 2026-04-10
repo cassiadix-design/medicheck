@@ -568,6 +568,10 @@ border-radius:0 0 20px 20px;
             font-size: 16px;
         }
 
+        /* ABAS GENÉRICAS */
+        .tab-content { display: none; }
+        .tab-content.active { display: block; }
+
         /* SEÇÃO INTERAÇÕES */
         .interacoes-content { display: none; }
         .interacoes-content.active { display: block; }
@@ -880,7 +884,7 @@ border-radius:0 0 20px 20px;
                 <button class="nav-btn" data-tab="contato">📧 Contato</button>
             </div>
 
-            <div id="home" class="tab-content">
+            <div id="home" class="tab-content active">
                 <div class="search-section">
                     <input type="text" id="searchInput" placeholder="🔍 Busque um medicamento...">
                 </div>
@@ -2316,8 +2320,7 @@ window.addEventListener('DOMContentLoaded', () => {
                 btn.classList.add('active');
 
                 // Esconde tudo
-                document.getElementById('home').style.display = 'none';
-                ['vacinas','exames','idosos','interacoes','privacidade','termos','contato'].forEach(id => {
+                ['home','vacinas','exames','idosos','interacoes','privacidade','termos','contato'].forEach(id => {
                     const el = document.getElementById(id);
                     if (el) el.classList.remove('active');
                 });
@@ -2325,7 +2328,7 @@ window.addEventListener('DOMContentLoaded', () => {
                 document.body.style.overflow = 'auto';
 
                 if (tab === 'home') {
-                    document.getElementById('home').style.display = '';
+                    document.getElementById('home').classList.add('active');
                 } else if (tab === 'vacinas') {
                     const el = document.getElementById('vacinas');
                     if (el) el.classList.add('active');
