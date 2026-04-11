@@ -767,7 +767,142 @@ border-radius:0 0 20px 20px;
             line-height: 1.7;
             text-align: center;
         }
-    
+
+        /* SEÇÃO CURIOSIDADES */
+        .curiosidades-content { display: none; }
+        .curiosidades-content.active { display: block; }
+        .curiosidades-header {
+            background: linear-gradient(135deg, #f093fb, #f5576c);
+            color: white;
+            padding: 20px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .curiosidades-header h2 { font-size: 22px; margin-bottom: 6px; }
+        .curiosidades-header p { font-size: 13px; opacity: 0.95; line-height: 1.6; }
+        .curiosidades-filtros {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-bottom: 20px;
+        }
+        .cur-filtro {
+            padding: 7px 16px;
+            border-radius: 20px;
+            font-size: 13px;
+            font-weight: 700;
+            cursor: pointer;
+            border: 2px solid transparent;
+            font-family: inherit;
+            transition: 0.2s;
+            background: #f0f0f0;
+            color: #555;
+        }
+        .cur-filtro.active, .cur-filtro:hover { background: #f5576c; color: white; border-color: #f5576c; }
+        .cur-filtro[data-cat="História"] { border-color: #e67e22; color: #e67e22; background: #fef3e2; }
+        .cur-filtro[data-cat="História"].active, .cur-filtro[data-cat="História"]:hover { background: #e67e22; color: white; }
+        .cur-filtro[data-cat="Ciência"] { border-color: #2980b9; color: #2980b9; background: #e6f2fb; }
+        .cur-filtro[data-cat="Ciência"].active, .cur-filtro[data-cat="Ciência"]:hover { background: #2980b9; color: white; }
+        .cur-filtro[data-cat="Mundo"] { border-color: #27ae60; color: #27ae60; background: #e8f8f0; }
+        .cur-filtro[data-cat="Mundo"].active, .cur-filtro[data-cat="Mundo"]:hover { background: #27ae60; color: white; }
+        .cur-filtro[data-cat="Polêmica"] { border-color: #c0392b; color: #c0392b; background: #fde8e8; }
+        .cur-filtro[data-cat="Polêmica"].active, .cur-filtro[data-cat="Polêmica"]:hover { background: #c0392b; color: white; }
+        .curiosidades-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 16px;
+            margin-bottom: 20px;
+        }
+        .cur-card {
+            border-radius: 14px;
+            overflow: hidden;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+            border: 1px solid #eee;
+            transition: transform 0.2s, box-shadow 0.2s;
+            cursor: pointer;
+        }
+        .cur-card:hover { transform: translateY(-3px); box-shadow: 0 6px 20px rgba(0,0,0,0.13); }
+        .cur-card-topo {
+            padding: 16px 20px 12px;
+            display: flex;
+            align-items: flex-start;
+            gap: 14px;
+        }
+        .cur-emoji { font-size: 32px; flex-shrink: 0; line-height: 1; margin-top: 2px; }
+        .cur-card-titulo-wrap { flex: 1; }
+        .cur-badge {
+            display: inline-block;
+            font-size: 11px;
+            font-weight: 700;
+            padding: 2px 10px;
+            border-radius: 12px;
+            margin-bottom: 6px;
+            letter-spacing: 0.4px;
+        }
+        .cur-badge-historia { background: #fef3e2; color: #e67e22; border: 1px solid #e67e22; }
+        .cur-badge-ciencia { background: #e6f2fb; color: #2980b9; border: 1px solid #2980b9; }
+        .cur-badge-mundo { background: #e8f8f0; color: #27ae60; border: 1px solid #27ae60; }
+        .cur-badge-polemica { background: #fde8e8; color: #c0392b; border: 1px solid #c0392b; }
+        .cur-card-titulo {
+            font-size: 15px;
+            font-weight: 700;
+            color: #222;
+            line-height: 1.4;
+            margin: 0;
+        }
+        .cur-card-corpo {
+            padding: 0 20px 16px 20px;
+        }
+        .cur-card-conteudo {
+            font-size: 14px;
+            color: #555;
+            line-height: 1.8;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.4s ease, padding 0.3s;
+        }
+        .cur-card.aberto .cur-card-conteudo { max-height: 300px; padding-top: 4px; }
+        .cur-card-rodape {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 8px 20px 14px;
+            border-top: 1px solid #f0f0f0;
+        }
+        .cur-fonte { font-size: 11px; color: #aaa; font-style: italic; line-height: 1.4; flex: 1; }
+        .cur-btn-mais {
+            font-size: 12px;
+            font-weight: 700;
+            padding: 5px 14px;
+            border-radius: 12px;
+            border: none;
+            cursor: pointer;
+            font-family: inherit;
+            transition: 0.2s;
+            white-space: nowrap;
+            margin-left: 10px;
+        }
+        .cur-card-topo-historia { background: linear-gradient(90deg, #fef3e2, #fff); }
+        .cur-card-topo-ciencia { background: linear-gradient(90deg, #e6f2fb, #fff); }
+        .cur-card-topo-mundo { background: linear-gradient(90deg, #e8f8f0, #fff); }
+        .cur-card-topo-polemica { background: linear-gradient(90deg, #fde8e8, #fff); }
+        .btn-historia { background: #fef3e2; color: #e67e22; }
+        .btn-historia:hover { background: #e67e22; color: white; }
+        .btn-ciencia { background: #e6f2fb; color: #2980b9; }
+        .btn-ciencia:hover { background: #2980b9; color: white; }
+        .btn-mundo { background: #e8f8f0; color: #27ae60; }
+        .btn-mundo:hover { background: #27ae60; color: white; }
+        .btn-polemica { background: #fde8e8; color: #c0392b; }
+        .btn-polemica:hover { background: #c0392b; color: white; }
+        .cur-contador {
+            text-align: center;
+            font-size: 13px;
+            color: #999;
+            margin-bottom: 16px;
+            font-weight: 600;
+        }
+
         @media (max-width: 480px) {
             .header {
                 padding: 30px 20px;
@@ -879,6 +1014,7 @@ border-radius:0 0 20px 20px;
                 <button class="nav-btn" data-tab="exames">🧪 Exames</button>
                 <button class="nav-btn" data-tab="idosos">🧓 Idosos</button>
                 <button class="nav-btn" data-tab="interacoes">⚡ Interações</button>
+                <button class="nav-btn" data-tab="curiosidades">✨ Curiosidades</button>
                 <button class="nav-btn" data-tab="privacidade">🔒 Privacidade</button>
                 <button class="nav-btn" data-tab="termos">📋 Termos</button>
                 <button class="nav-btn" data-tab="contato">📧 Contato</button>
@@ -1584,6 +1720,32 @@ border-radius:0 0 20px 20px;
                 </script>
             </div>
 
+            <!-- SEÇÃO CURIOSIDADES -->
+            <div id="curiosidades" class="curiosidades-content">
+                <div class="curiosidades-header">
+                    <h2>✨ Curiosidades sobre Medicamentos e Saúde</h2>
+                    <p>Fatos surpreendentes, histórias fascinantes e ciência acessível — tudo sobre o mundo dos remédios.</p>
+                </div>
+
+                <div class="curiosidades-filtros">
+                    <button class="cur-filtro active" data-cat="Todos" onclick="filtrarCuriosidades('Todos', this)">🔍 Todas</button>
+                    <button class="cur-filtro" data-cat="História" onclick="filtrarCuriosidades('História', this)">📜 História</button>
+                    <button class="cur-filtro" data-cat="Ciência" onclick="filtrarCuriosidades('Ciência', this)">🔬 Ciência</button>
+                    <button class="cur-filtro" data-cat="Mundo" onclick="filtrarCuriosidades('Mundo', this)">🌍 Mundo</button>
+                    <button class="cur-filtro" data-cat="Polêmica" onclick="filtrarCuriosidades('Polêmica', this)">⚠️ Polêmica</button>
+                </div>
+
+                <div class="cur-contador" id="curContador">15 curiosidades</div>
+                <div class="curiosidades-grid" id="curiosidadesGrid">
+                    <p style="color:#999;text-align:center;padding:20px;">Carregando curiosidades...</p>
+                </div>
+
+                <div style="text-align:center;padding:16px 10px 8px;font-size:14px;color:#666;border-top:1px solid #ddd;margin-top:10px;">
+                    Revisado por <strong>Rita de Cássia Oliveira Soares da Silva</strong> — CRF-SP 33.109 · Farmacêutica responsável<br>
+                    <small style="color:#999;">MediCheck © 2026 — medicheck.med.br — Conteúdo educacional. Não substitui orientação profissional.</small>
+                </div>
+            </div>
+
             <!-- POLÍTICA DE PRIVACIDADE -->
             <div id="privacidade" class="inst-content">
                 <div class="inst-header">
@@ -1828,6 +1990,8 @@ border-radius:0 0 20px 20px;
         let examesData = [];
         let examesSearchResults = [];
         let examesCurrentPage = 0;
+        let curiosidadesData = [];
+        let curiosidadesFiltradas = [];
 
 // Carrega os medicamentos após a página renderizar (lazy loading)
 window.addEventListener('DOMContentLoaded', () => {
@@ -1867,6 +2031,16 @@ window.addEventListener('DOMContentLoaded', () => {
         .catch(err => {
             console.error('Erro ao carregar exames:', err);
             document.getElementById('examesGrid').innerHTML = '<p style="color:red;text-align:center;padding:20px;">Erro ao carregar exames. Verifique sua conexão.</p>';
+        });
+
+    fetch('/curiosidades.json')
+        .then(r => r.json())
+        .then(data => {
+            curiosidadesData = data;
+            curiosidadesFiltradas = [...curiosidadesData];
+        })
+        .catch(err => {
+            console.error('Erro ao carregar curiosidades:', err);
         });
 });
 
@@ -2105,6 +2279,72 @@ window.addEventListener('DOMContentLoaded', () => {
             }
             renderMedicines(0);
         });
+
+        function categoriaToCss(cat) {
+            const map = { 'História': 'historia', 'Ciência': 'ciencia', 'Mundo': 'mundo', 'Polêmica': 'polemica' };
+            return map[cat] || 'historia';
+        }
+
+        function renderCuriosidades() {
+            const grid = document.getElementById('curiosidadesGrid');
+            const contador = document.getElementById('curContador');
+            if (!grid) return;
+            grid.innerHTML = '';
+            const total = curiosidadesFiltradas.length;
+            contador.textContent = total + (total === 1 ? ' curiosidade' : ' curiosidades');
+            if (total === 0) {
+                grid.innerHTML = '<p style="color:#999;text-align:center;padding:20px;">Nenhuma curiosidade encontrada nesta categoria.</p>';
+                return;
+            }
+            curiosidadesFiltradas.forEach(cur => {
+                const css = categoriaToCss(cur.categoria);
+                const badgeClass = 'cur-badge-' + css;
+                const topoClass = 'cur-card-topo-' + css;
+                const btnClass = 'btn-' + css;
+                const card = document.createElement('div');
+                card.className = 'cur-card';
+                card.innerHTML =
+                    '<div class="cur-card-topo ' + topoClass + '">' +
+                        '<div class="cur-emoji">' + cur.emoji + '</div>' +
+                        '<div class="cur-card-titulo-wrap">' +
+                            '<span class="cur-badge ' + badgeClass + '">' + cur.categoria + '</span>' +
+                            '<p class="cur-card-titulo">' + cur.titulo + '</p>' +
+                        '</div>' +
+                    '</div>' +
+                    '<div class="cur-card-corpo">' +
+                        '<div class="cur-card-conteudo">' + cur.conteudo + '</div>' +
+                    '</div>' +
+                    '<div class="cur-card-rodape">' +
+                        '<span class="cur-fonte">📚 ' + cur.fonte_referencia + '</span>' +
+                        '<button class="cur-btn-mais ' + btnClass + '" onclick="toggleCuriosidade(this)">+ Leia mais</button>' +
+                    '</div>';
+                card.querySelector('.cur-card-topo').addEventListener('click', () => toggleCuriosidadeCard(card));
+                grid.appendChild(card);
+            });
+        }
+
+        function toggleCuriosidadeCard(card) {
+            const isAberto = card.classList.contains('aberto');
+            card.classList.toggle('aberto');
+            const btn = card.querySelector('.cur-btn-mais');
+            if (btn) btn.textContent = isAberto ? '+ Leia mais' : '− Fechar';
+        }
+
+        function toggleCuriosidade(btn) {
+            const card = btn.closest('.cur-card');
+            toggleCuriosidadeCard(card);
+        }
+
+        function filtrarCuriosidades(categoria, btnEl) {
+            document.querySelectorAll('.cur-filtro').forEach(b => b.classList.remove('active'));
+            if (btnEl) btnEl.classList.add('active');
+            if (categoria === 'Todos') {
+                curiosidadesFiltradas = [...curiosidadesData];
+            } else {
+                curiosidadesFiltradas = curiosidadesData.filter(c => c.categoria === categoria);
+            }
+            renderCuriosidades();
+        }
 
         // Dados de interações para busca
         const interacoesDB = [
@@ -2359,7 +2599,7 @@ window.addEventListener('DOMContentLoaded', () => {
                 btn.classList.add('active');
 
                 // Esconde tudo
-                ['home','vacinas','exames','idosos','interacoes','privacidade','termos','contato'].forEach(id => {
+                ['home','vacinas','exames','idosos','interacoes','curiosidades','privacidade','termos','contato'].forEach(id => {
                     const el = document.getElementById(id);
                     if (el) el.classList.remove('active');
                 });
@@ -2386,6 +2626,13 @@ window.addEventListener('DOMContentLoaded', () => {
                     const el = document.getElementById('idosos');
                     if (el) el.classList.add('active');
                     renderBeersIdosos();
+                } else if (tab === 'curiosidades') {
+                    const el = document.getElementById('curiosidades');
+                    if (el) el.classList.add('active');
+                    if (curiosidadesData.length > 0) {
+                        curiosidadesFiltradas = [...curiosidadesData];
+                        renderCuriosidades();
+                    }
                 } else {
                     const el = document.getElementById(tab);
                     if (el) el.classList.add('active');

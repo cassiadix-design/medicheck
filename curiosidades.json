@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "titulo": "Coca-Cola era vendida como remédio",
+    "conteudo": "Quando foi criada em 1886 pelo farmacêutico John Pemberton, a Coca-Cola era vendida em farmácias como um tônico medicinal para dores de cabeça e cansaço. A fórmula original continha extrato de folha de coca (precursor da cocaína) e nozes de cola com cafeína. Só depois de se tornar popular como bebida refrescante é que a empresa optou por comercializá-la como refrigerante — mas a origem é 100% farmacêutica.",
+    "categoria": "História",
+    "emoji": "🥤",
+    "fonte_referencia": "Pendergrast, M. (1993). For God, Country, and Coca-Cola. Basic Books."
+  },
+  {
+    "id": 2,
+    "titulo": "Dipirona: proibida nos EUA, essencial no Brasil",
+    "conteudo": "A dipirona (metamizol) é um dos medicamentos mais populares no Brasil e está entre os mais vendidos do país. No entanto, ela foi retirada do mercado dos Estados Unidos nos anos 1970 por suspeita de causar agranulocitose (redução grave de glóbulos brancos). Estudos posteriores mostraram que o risco é muito raro — cerca de 1 caso por 1 milhão de usuários — e a dipirona continua amplamente usada na Europa, América Latina e outros países como analgésico eficaz e seguro.",
+    "categoria": "Polêmica",
+    "emoji": "💊",
+    "fonte_referencia": "Andrade SE et al. (1998). Agranulocitose e dipirona. Pharmacoepidemiology and Drug Safety."
+  },
+  {
+    "id": 3,
+    "titulo": "O medicamento mais caro do mundo: Zolgensma",
+    "conteudo": "O Zolgensma (onasemnogene abeparvovec) é utilizado para tratar a Atrofia Muscular Espinhal (AME) tipo 1, uma doença genética rara que paralisa progressivamente os músculos de bebês. Uma única dose — administrada em infusão — custa cerca de US$ 2,1 milhões (aprox. R$ 10 milhões). O tratamento, porém, pode ser transformador: crianças que antes não sobreviveriam ao primeiro ano de vida passaram a sentar, engatinhar e até caminhar.",
+    "categoria": "Ciência",
+    "emoji": "💉",
+    "fonte_referencia": "Novartis Gene Therapies. (2023). Zolgensma Prescribing Information."
+  },
+  {
+    "id": 4,
+    "titulo": "Penicilina: o acidente que salvou bilhões de vidas",
+    "conteudo": "Em 1928, o bacteriologista escocês Alexander Fleming voltou de férias e encontrou suas placas de cultura contaminadas por um fungo — o Penicillium notatum. Ao invés de descartar o material, ele notou que ao redor do fungo as bactérias estavam mortas. Esse 'descuido' se tornou a descoberta do antibiótico mais importante da história. Estima-se que a penicilina salvou mais de 200 milhões de vidas desde que começou a ser produzida em escala industrial na Segunda Guerra Mundial.",
+    "categoria": "História",
+    "emoji": "🔬",
+    "fonte_referencia": "Fleming A. (1929). On the antibacterial action of cultures of a Penicillium. British Journal of Experimental Pathology."
+  },
+  {
+    "id": 5,
+    "titulo": "Aspirina: mais de 125 anos de história",
+    "conteudo": "O ácido acetilsalicílico foi sintetizado pela Bayer em 1897, tornando-se um dos medicamentos mais antigos ainda em uso no mundo. Originalmente desenvolvido para tratar dor e febre, a aspirina ganhou novos usos ao longo do século XX: anticoagulante, protetor cardiovascular e até investigado como preventivo de certos cânceres. Curioso: o nome 'Aspirina' é uma marca registrada que se tornou tão popular que virou sinônimo da substância em vários idiomas.",
+    "categoria": "História",
+    "emoji": "💊",
+    "fonte_referencia": "Jeffreys D. (2004). Aspirin: The Remarkable Story of a Wonder Drug. Bloomsbury Publishing."
+  },
+  {
+    "id": 6,
+    "titulo": "Viagra: outro acidente da medicina",
+    "conteudo": "O sildenafil foi desenvolvido pela Pfizer na década de 1990 para tratar angina pectoris (dores no peito por problemas cardíacos). Nos testes clínicos, os pesquisadores notaram que os participantes masculinos relutavam em devolver os comprimidos restantes — e revelaram o motivo: o medicamento estava causando ereções. A Pfizer rapidamente redirecionou os estudos, e em 1998 o Viagra foi aprovado para tratar disfunção erétil, tornando-se um dos medicamentos mais lucrativos da história.",
+    "categoria": "História",
+    "emoji": "💙",
+    "fonte_referencia": "Boolell M et al. (1996). Sildenafil: an orally active type 5 cyclic GMP-specific phosphodiesterase inhibitor. Int J Impot Res."
+  },
+  {
+    "id": 7,
+    "titulo": "Botox: uma toxina mortal usada com segurança",
+    "conteudo": "A toxina botulínica tipo A (Botox) é produzida pela bactéria Clostridium botulinum — a mesma responsável pelo botulismo, uma intoxicação alimentar potencialmente fatal. Em doses minúsculas e controladas, porém, essa mesma toxina é usada com segurança para reduzir rugas, tratar enxaquecas crônicas, hipersudorese, espasmos musculares e até depressão. A diferença entre veneno e remédio está — literalmente — na dose.",
+    "categoria": "Ciência",
+    "emoji": "💉",
+    "fonte_referencia": "Carruthers A, Carruthers J. (2009). Botulinum toxin type A: history and current cosmetic use. Clinics in Dermatology."
+  },
+  {
+    "id": 8,
+    "titulo": "Morfina: da papoula ao alívio da dor",
+    "conteudo": "A morfina é extraída do suco da papoula (Papaver somniferum) e foi isolada pela primeira vez em 1804 pelo farmacêutico alemão Friedrich Sertürner. Batizada em homenagem a Morfeu, o deus grego dos sonhos, ela ainda é considerada o padrão-ouro para dor intensa — como em cânceres avançados e pós-operatório de grande porte. Seu uso clínico adequado, sob prescrição médica, é seguro e essencial; o problema ocorre apenas no uso indevido e dependência.",
+    "categoria": "Ciência",
+    "emoji": "🌸",
+    "fonte_referencia": "Macht DI. (1915). The history of opium and some of its preparations and alkaloids. JAMA."
+  },
+  {
+    "id": 9,
+    "titulo": "Insulina: 100 anos salvando vidas",
+    "conteudo": "Antes de 1921, um diagnóstico de diabetes tipo 1 era praticamente uma sentença de morte — os pacientes morriam em meses. Em outubro daquele ano, os canadenses Frederick Banting e Charles Best isolaram a insulina e a testaram com sucesso em humanos. Em poucos meses, crianças que estavam em coma diabético voltaram a se alimentar, brincar e viver. Hoje, mais de 500 milhões de pessoas vivem com diabetes no mundo, e a insulina segue sendo um dos medicamentos mais essenciais da medicina.",
+    "categoria": "História",
+    "emoji": "🩸",
+    "fonte_referencia": "Bliss M. (1982). The Discovery of Insulin. University of Chicago Press."
+  },
+  {
+    "id": 10,
+    "titulo": "Talidomida: da tragédia à reabilitação",
+    "conteudo": "Nos anos 1950, a talidomida foi comercializada como sedativo seguro para gestantes — e causou malformações congênitas em cerca de 10.000 bebês ao redor do mundo. A tragédia revolucionou a regulamentação farmacêutica global. Décadas depois, porém, a talidomida foi reabilitada: hoje é usada no tratamento do mieloma múltiplo (câncer de medula), hanseníase e outras condições graves, com uso estritamente controlado para evitar exposição gestacional.",
+    "categoria": "Polêmica",
+    "emoji": "⚠️",
+    "fonte_referencia": "Kim JH, Scialli AR. (2011). Thalidomide: the tragedy of birth defects and the effective treatment of disease. Toxicological Sciences."
+  },
+  {
+    "id": 11,
+    "titulo": "Paracetamol: o mais vendido do mundo",
+    "conteudo": "O paracetamol (acetaminofen) é o medicamento mais consumido no planeta — estima-se que bilhões de comprimidos sejam tomados por ano globalmente. Apesar de ser vendido sem receita e ter fama de 'inofensivo', o paracetamol é a principal causa de insuficiência hepática aguda nos Estados Unidos e Reino Unido quando usado em doses excessivas. A mensagem é clara: mesmo medicamentos de venda livre exigem respeito à dose máxima recomendada.",
+    "categoria": "Ciência",
+    "emoji": "💊",
+    "fonte_referencia": "Larson AM et al. (2005). Acetaminophen-induced acute liver failure. Hepatology."
+  },
+  {
+    "id": 12,
+    "titulo": "Antibióticos não funcionam contra vírus",
+    "conteudo": "Gripes, resfriados, COVID-19, dengue e a maioria das faringites são causadas por vírus — e antibióticos não têm nenhum efeito sobre eles. Mesmo assim, a automedicação com antibióticos é muito comum no Brasil. Isso é preocupante porque o uso inadequado contribui para a resistência bacteriana: um problema de saúde pública tão grave que a OMS considera uma das maiores ameaças à saúde global nas próximas décadas.",
+    "categoria": "Ciência",
+    "emoji": "🦠",
+    "fonte_referencia": "OMS — World Health Organization. (2023). Global action plan on antimicrobial resistance."
+  },
+  {
+    "id": 13,
+    "titulo": "O efeito placebo é real — e poderoso",
+    "conteudo": "Quando alguém recebe um tratamento inerte (como uma pílula de açúcar) acreditando que é um medicamento real, o cérebro libera neurotransmissores como endorfinas e dopamina — e a melhora clínica acontece de verdade. O efeito placebo é tão robusto que estudos mostram melhora mesmo quando o paciente sabe que está tomando um placebo. Esse fenômeno é levado a sério pela ciência e é fundamental para entender como mente e corpo se comunicam.",
+    "categoria": "Ciência",
+    "emoji": "🧠",
+    "fonte_referencia": "Kaptchuk TJ et al. (2010). Placebos without deception. PLOS ONE."
+  },
+  {
+    "id": 14,
+    "titulo": "Mel: um medicamento com milênios de história",
+    "conteudo": "O mel é usado com fins medicinais há pelo menos 8.000 anos — registros no antigo Egito e na Grécia antiga descrevem seu uso para curar feridas, queimaduras e infecções. Hoje sabemos o porquê: o mel possui propriedades antibacterianas naturais pelo seu pH ácido, baixa atividade de água e produção de peróxido de hidrogênio. O mel de Manuka (da Nova Zelândia) é inclusive aprovado em alguns países para uso em curativos hospitalares.",
+    "categoria": "Mundo",
+    "emoji": "🍯",
+    "fonte_referencia": "Molan PC. (1992). The antibacterial activity of honey. Bee World."
+  },
+  {
+    "id": 15,
+    "titulo": "Brasil entre os maiores consumidores de ansiolíticos",
+    "conteudo": "O Brasil está entre os países com maior consumo per capita de benzodiazepínicos — como diazepam, clonazepam e alprazolam — no mundo. Esses medicamentos são eficazes para crises de ansiedade aguda, mas o uso prolongado causa dependência, comprometimento de memória e aumento do risco de demência. A OMS recomenda que o uso não ultrapasse 4 semanas; no Brasil, muitos pacientes os tomam por anos sem acompanhamento adequado.",
+    "categoria": "Polêmica",
+    "emoji": "🇧🇷",
+    "fonte_referencia": "ANVISA. (2022). Relatório de Venda de Medicamentos Controlados. Agência Nacional de Vigilância Sanitária."
+  }
+]
