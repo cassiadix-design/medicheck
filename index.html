@@ -903,6 +903,225 @@ border-radius:0 0 20px 20px;
             font-weight: 600;
         }
 
+        /* SEÇÃO CALCULADORA PEDIÁTRICA */
+        .calc-content { display: none; }
+        .calc-content.active { display: block; }
+        .calc-header {
+            background: linear-gradient(135deg, #11998e, #38ef7d);
+            color: white;
+            padding: 20px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .calc-header h2 { font-size: 22px; margin-bottom: 6px; }
+        .calc-header p { font-size: 13px; opacity: 0.95; line-height: 1.6; }
+        .calc-aviso-topo {
+            background: #fff3cd;
+            border-left: 5px solid #ffc107;
+            border-radius: 8px;
+            padding: 12px 16px;
+            font-size: 13px;
+            color: #856404;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        .calc-form {
+            background: #f8f9ff;
+            border: 2px solid #e0e7ff;
+            border-radius: 14px;
+            padding: 24px;
+            margin-bottom: 20px;
+        }
+        .calc-label {
+            font-size: 14px;
+            font-weight: 700;
+            color: #333;
+            margin-bottom: 6px;
+            display: block;
+        }
+        .calc-input-peso {
+            width: 100%;
+            padding: 14px 16px;
+            border: 2px solid #c7d2fe;
+            border-radius: 10px;
+            font-size: 20px;
+            font-weight: 700;
+            color: #333;
+            box-sizing: border-box;
+            font-family: inherit;
+            margin-bottom: 18px;
+            text-align: center;
+            transition: border-color 0.2s;
+        }
+        .calc-input-peso:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 8px rgba(102,126,234,0.2);
+        }
+        .calc-peso-hint {
+            text-align: center;
+            font-size: 12px;
+            color: #999;
+            margin-top: -14px;
+            margin-bottom: 18px;
+        }
+        .calc-select {
+            width: 100%;
+            padding: 13px 16px;
+            border: 2px solid #c7d2fe;
+            border-radius: 10px;
+            font-size: 15px;
+            font-weight: 600;
+            color: #333;
+            box-sizing: border-box;
+            font-family: inherit;
+            background: white;
+            cursor: pointer;
+            transition: border-color 0.2s;
+            appearance: none;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23667eea' stroke-width='2.5'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
+            background-repeat: no-repeat;
+            background-position: right 14px center;
+            padding-right: 40px;
+        }
+        .calc-select:focus { outline: none; border-color: #667eea; }
+        .calc-resultado {
+            display: none;
+            border-radius: 14px;
+            overflow: hidden;
+            margin-bottom: 20px;
+            border: 2px solid #e0e7ff;
+            animation: fadeIn 0.3s ease;
+        }
+        .calc-resultado.show { display: block; }
+        .calc-res-topo {
+            background: linear-gradient(135deg, #11998e, #38ef7d);
+            color: white;
+            padding: 16px 20px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        .calc-res-icone { font-size: 28px; }
+        .calc-res-med { font-weight: 700; font-size: 16px; }
+        .calc-res-peso { font-size: 13px; opacity: 0.9; margin-top: 2px; }
+        .calc-res-corpo { background: white; padding: 18px 20px; }
+        .calc-dose-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+            margin-bottom: 14px;
+        }
+        .calc-dose-card {
+            border-radius: 10px;
+            padding: 14px;
+            text-align: center;
+        }
+        .calc-dose-card.volume {
+            background: linear-gradient(135deg, #e0f7f4, #c8f4ee);
+            border: 1px solid #80cbc4;
+        }
+        .calc-dose-card.freq {
+            background: linear-gradient(135deg, #e8eaf6, #c5cae9);
+            border: 1px solid #9fa8da;
+        }
+        .calc-dose-label {
+            font-size: 11px;
+            font-weight: 700;
+            color: #555;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 6px;
+        }
+        .calc-dose-valor {
+            font-size: 26px;
+            font-weight: 800;
+            color: #1a1a2e;
+            line-height: 1;
+        }
+        .calc-dose-unidade {
+            font-size: 12px;
+            color: #666;
+            margin-top: 4px;
+            font-weight: 600;
+        }
+        .calc-detalhe {
+            background: #f8f9ff;
+            border-radius: 8px;
+            padding: 12px 14px;
+            font-size: 13px;
+            color: #444;
+            line-height: 1.8;
+        }
+        .calc-detalhe strong { color: #333; }
+        .calc-max-diario {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            background: #fff8e1;
+            border: 1px solid #ffe082;
+            border-radius: 8px;
+            padding: 10px 14px;
+            font-size: 13px;
+            color: #7a5700;
+            font-weight: 600;
+            margin-top: 10px;
+        }
+        .calc-aviso-vermelho {
+            background: #fde8e8;
+            border: 2px solid #c0392b;
+            border-radius: 10px;
+            padding: 14px 18px;
+            font-size: 13px;
+            color: #7b1c1c;
+            font-weight: 700;
+            line-height: 1.7;
+            text-align: center;
+            margin-top: 4px;
+        }
+        .calc-aviso-vermelho span { font-size: 18px; display: block; margin-bottom: 6px; }
+        .calc-btn-calcular {
+            width: 100%;
+            padding: 15px;
+            background: linear-gradient(135deg, #11998e, #38ef7d);
+            color: white;
+            border: none;
+            border-radius: 10px;
+            font-size: 16px;
+            font-weight: 800;
+            cursor: pointer;
+            font-family: inherit;
+            transition: 0.2s;
+            margin-top: 18px;
+            letter-spacing: 0.5px;
+        }
+        .calc-btn-calcular:hover { opacity: 0.9; transform: translateY(-1px); }
+        .calc-btn-calcular:active { transform: translateY(0); }
+        .calc-fichas {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        .calc-ficha {
+            border: 1px solid #e0e7ff;
+            border-radius: 10px;
+            padding: 12px 16px;
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            background: #fafbff;
+            cursor: pointer;
+            transition: box-shadow 0.2s;
+        }
+        .calc-ficha:hover { box-shadow: 0 2px 10px rgba(102,126,234,0.12); }
+        .calc-ficha-emoji { font-size: 22px; flex-shrink: 0; margin-top: 1px; }
+        .calc-ficha-info { flex: 1; }
+        .calc-ficha-nome { font-weight: 700; font-size: 14px; color: #222; margin-bottom: 2px; }
+        .calc-ficha-dose { font-size: 12px; color: #667eea; font-weight: 600; }
+        .calc-ficha-freq { font-size: 11px; color: #888; margin-top: 2px; }
+
         @media (max-width: 480px) {
             .header {
                 padding: 30px 20px;
@@ -1014,6 +1233,7 @@ border-radius:0 0 20px 20px;
                 <button class="nav-btn" data-tab="exames">🧪 Exames</button>
                 <button class="nav-btn" data-tab="idosos">🧓 Idosos</button>
                 <button class="nav-btn" data-tab="interacoes">⚡ Interações</button>
+                <button class="nav-btn" data-tab="calculadora">🧮 Calculadora</button>
                 <button class="nav-btn" data-tab="curiosidades">✨ Curiosidades</button>
                 <button class="nav-btn" data-tab="privacidade">🔒 Privacidade</button>
                 <button class="nav-btn" data-tab="termos">📋 Termos</button>
@@ -1720,6 +1940,118 @@ border-radius:0 0 20px 20px;
                 </script>
             </div>
 
+            <!-- SEÇÃO CALCULADORA PEDIÁTRICA -->
+            <div id="calculadora" class="calc-content">
+                <div class="calc-header">
+                    <h2>🧮 Calculadora de Dosagem Pediátrica</h2>
+                    <p>Calcule doses orientativas pelo peso da criança.<br>Sempre confirme com médico ou farmacêutico.</p>
+                </div>
+
+                <div class="calc-aviso-topo">
+                    💡 <strong>Como usar:</strong> Digite o peso da criança, escolha o medicamento e clique em <em>Calcular Dose</em>. Os resultados são orientativos e baseados em faixas terapêuticas padrão.
+                </div>
+
+                <div class="calc-form">
+                    <label class="calc-label" for="calcPeso">⚖️ Peso da criança</label>
+                    <input type="number" id="calcPeso" class="calc-input-peso" placeholder="ex: 12" min="1" max="100" step="0.1" oninput="calcularDose()">
+                    <p class="calc-peso-hint">Em quilogramas (kg)</p>
+
+                    <label class="calc-label" for="calcMed">💊 Medicamento</label>
+                    <select id="calcMed" class="calc-select" onchange="calcularDose()">
+                        <option value="">— Selecione o medicamento —</option>
+                        <option value="paracetamol">Paracetamol gotas 200mg/mL</option>
+                        <option value="ibuprofeno">Ibuprofeno suspensão 50mg/mL</option>
+                        <option value="dipirona">Dipirona gotas 500mg/mL</option>
+                        <option value="amoxicilina">Amoxicilina suspensão 250mg/5mL</option>
+                        <option value="nimesulida">Nimesulida suspensão 50mg/mL</option>
+                    </select>
+
+                    <button class="calc-btn-calcular" onclick="calcularDose()">🔢 Calcular Dose</button>
+                </div>
+
+                <div class="calc-resultado" id="calcResultado">
+                    <div class="calc-res-topo">
+                        <div class="calc-res-icone" id="calcResIcone">💧</div>
+                        <div>
+                            <div class="calc-res-med" id="calcResMed">—</div>
+                            <div class="calc-res-peso" id="calcResPeso">—</div>
+                        </div>
+                    </div>
+                    <div class="calc-res-corpo">
+                        <div class="calc-dose-grid">
+                            <div class="calc-dose-card volume">
+                                <div class="calc-dose-label">Dose por tomada</div>
+                                <div class="calc-dose-valor" id="calcDoseValor">—</div>
+                                <div class="calc-dose-unidade" id="calcDoseUnidade">—</div>
+                            </div>
+                            <div class="calc-dose-card freq">
+                                <div class="calc-dose-label">Frequência</div>
+                                <div class="calc-dose-valor" id="calcFreqValor">—</div>
+                                <div class="calc-dose-unidade" id="calcFreqUnidade">—</div>
+                            </div>
+                        </div>
+                        <div class="calc-detalhe" id="calcDetalhe"></div>
+                        <div class="calc-max-diario" id="calcMaxDiario"></div>
+                    </div>
+                </div>
+
+                <div class="calc-aviso-vermelho">
+                    <span>⛔</span>
+                    Esta calculadora é apenas orientativa e não substitui avaliação clínica. Sempre confirme a dose com seu médico ou farmacêutico antes de administrar qualquer medicamento à criança.
+                </div>
+
+                <div style="margin-top:24px;">
+                    <div style="font-size:14px;font-weight:700;color:#333;margin-bottom:12px;padding-bottom:8px;border-bottom:2px solid #e0e7ff;">📋 Referência rápida dos medicamentos</div>
+                    <div class="calc-fichas">
+                        <div class="calc-ficha" onclick="selecionarMed('paracetamol')">
+                            <div class="calc-ficha-emoji">🌡️</div>
+                            <div class="calc-ficha-info">
+                                <div class="calc-ficha-nome">Paracetamol gotas 200mg/mL</div>
+                                <div class="calc-ficha-dose">10–15 mg/kg/dose</div>
+                                <div class="calc-ficha-freq">De 6 em 6 horas · Máximo 4 doses/dia · Febre e dor leve</div>
+                            </div>
+                        </div>
+                        <div class="calc-ficha" onclick="selecionarMed('ibuprofeno')">
+                            <div class="calc-ficha-emoji">🔥</div>
+                            <div class="calc-ficha-info">
+                                <div class="calc-ficha-nome">Ibuprofeno suspensão 50mg/mL</div>
+                                <div class="calc-ficha-dose">10 mg/kg/dose</div>
+                                <div class="calc-ficha-freq">De 8 em 8 horas · Anti-inflamatório e antitérmico</div>
+                            </div>
+                        </div>
+                        <div class="calc-ficha" onclick="selecionarMed('dipirona')">
+                            <div class="calc-ficha-emoji">💧</div>
+                            <div class="calc-ficha-info">
+                                <div class="calc-ficha-nome">Dipirona gotas 500mg/mL</div>
+                                <div class="calc-ficha-dose">10–25 mg/kg/dose</div>
+                                <div class="calc-ficha-freq">De 6 em 6 horas · Analgésico e antitérmico</div>
+                            </div>
+                        </div>
+                        <div class="calc-ficha" onclick="selecionarMed('amoxicilina')">
+                            <div class="calc-ficha-emoji">🦠</div>
+                            <div class="calc-ficha-info">
+                                <div class="calc-ficha-nome">Amoxicilina suspensão 250mg/5mL</div>
+                                <div class="calc-ficha-dose">25–50 mg/kg/dia</div>
+                                <div class="calc-ficha-freq">De 8 em 8 horas · Apenas com receita médica</div>
+                            </div>
+                        </div>
+                        <div class="calc-ficha" onclick="selecionarMed('nimesulida')">
+                            <div class="calc-ficha-emoji">❄️</div>
+                            <div class="calc-ficha-info">
+                                <div class="calc-ficha-nome">Nimesulida suspensão 50mg/mL</div>
+                                <div class="calc-ficha-dose">5 mg/kg/dia</div>
+                                <div class="calc-ficha-freq">De 12 em 12 horas · Apenas com receita médica · ≥ 12 anos na maioria dos países</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="text-align:center;padding:16px 10px 8px;font-size:14px;color:#666;border-top:1px solid #ddd;margin-top:10px;">
+                    Revisado por <strong>Rita de Cássia Oliveira Soares da Silva</strong> — CRF-SP 33.109 · Farmacêutica responsável<br>
+                    <small style="color:#999;">MediCheck © 2026 — medicheck.med.br — Conteúdo educacional. Não substitui orientação profissional.</small>
+                </div>
+            </div>
+
             <!-- SEÇÃO CURIOSIDADES -->
             <div id="curiosidades" class="curiosidades-content">
                 <div class="curiosidades-header">
@@ -2280,6 +2612,224 @@ window.addEventListener('DOMContentLoaded', () => {
             renderMedicines(0);
         });
 
+        // ===================== CALCULADORA PEDIÁTRICA =====================
+        const calcMedicamentos = {
+            paracetamol: {
+                nome: 'Paracetamol gotas 200mg/mL',
+                emoji: '🌡️',
+                concentracao: 200,       // mg/mL
+                unidade: 'mL',
+                gotasPorMl: 20,          // padrão: 20 gotas = 1 mL
+                doseMinPorKg: 10,        // mg/kg/dose
+                doseMaxPorKg: 15,
+                intervaloH: 6,
+                dosesPerDay: 4,
+                forma: 'gotas',
+                receita: false,
+                obs: 'Indicado para febre e dor leve a moderada em crianças.'
+            },
+            ibuprofeno: {
+                nome: 'Ibuprofeno suspensão 50mg/mL',
+                emoji: '🔥',
+                concentracao: 50,
+                unidade: 'mL',
+                gotasPorMl: null,
+                doseMinPorKg: 10,
+                doseMaxPorKg: 10,
+                intervaloH: 8,
+                dosesPerDay: 3,
+                forma: 'suspensão',
+                receita: false,
+                obs: 'Anti-inflamatório e antitérmico. Evitar em menores de 6 meses.'
+            },
+            dipirona: {
+                nome: 'Dipirona gotas 500mg/mL',
+                emoji: '💧',
+                concentracao: 500,
+                unidade: 'mL',
+                gotasPorMl: 20,
+                doseMinPorKg: 10,
+                doseMaxPorKg: 25,
+                intervaloH: 6,
+                dosesPerDay: 4,
+                forma: 'gotas',
+                receita: false,
+                obs: 'Analgésico e antitérmico. Não usar em menores de 3 meses ou < 5 kg.'
+            },
+            amoxicilina: {
+                nome: 'Amoxicilina suspensão 250mg/5mL',
+                emoji: '🦠',
+                concentracao: 50,        // 250mg/5mL = 50mg/mL
+                unidade: 'mL',
+                gotasPorMl: null,
+                doseMinPorKg: 25,        // mg/kg/DIA
+                doseMaxPorKg: 50,
+                intervaloH: 8,
+                dosesPerDay: 3,
+                forma: 'suspensão',
+                receita: true,
+                doseEhDiaria: true,      // dose informada é por DIA, dividir por doses
+                obs: '⚠️ Antibiótico — use apenas com receita médica. Não interrompa o tratamento antes do prazo indicado.'
+            },
+            nimesulida: {
+                nome: 'Nimesulida suspensão 50mg/mL',
+                emoji: '❄️',
+                concentracao: 50,
+                unidade: 'mL',
+                gotasPorMl: null,
+                doseMinPorKg: 5,         // mg/kg/DIA
+                doseMaxPorKg: 5,
+                intervaloH: 12,
+                dosesPerDay: 2,
+                forma: 'suspensão',
+                receita: true,
+                doseEhDiaria: true,
+                obs: '⚠️ Uso restrito — requer receita médica. Contraindicado em crianças menores de 12 anos em muitos países. Confirme com o médico.'
+            }
+        };
+
+        function calcularDose() {
+            const pesoStr = document.getElementById('calcPeso').value;
+            const medKey = document.getElementById('calcMed').value;
+            const resultado = document.getElementById('calcResultado');
+
+            if (!pesoStr || !medKey) {
+                resultado.classList.remove('show');
+                return;
+            }
+
+            const peso = parseFloat(pesoStr);
+            if (isNaN(peso) || peso <= 0 || peso > 150) {
+                resultado.classList.remove('show');
+                return;
+            }
+
+            const med = calcMedicamentos[medKey];
+            if (!med) return;
+
+            // Calcular dose em mg
+            let doseMgMin, doseMgMax, doseMgPorTomadaMin, doseMgPorTomadaMax;
+
+            if (med.doseEhDiaria) {
+                // dose é mg/kg/DIA — dividir pelo número de doses
+                doseMgMin = (med.doseMinPorKg * peso) / med.dosesPerDay;
+                doseMgMax = (med.doseMaxPorKg * peso) / med.dosesPerDay;
+            } else {
+                // dose é mg/kg/DOSE
+                doseMgMin = med.doseMinPorKg * peso;
+                doseMgMax = med.doseMaxPorKg * peso;
+            }
+
+            // Converter para volume (mL)
+            const volMin = doseMgMin / med.concentracao;
+            const volMax = doseMgMax / med.concentracao;
+
+            // Arredondar para 1 casa decimal
+            const volMinR = Math.round(volMin * 10) / 10;
+            const volMaxR = Math.round(volMax * 10) / 10;
+
+            // Calcular em gotas se aplicável
+            let gotasMin = null, gotasMax = null;
+            if (med.gotasPorMl) {
+                gotasMin = Math.round(volMin * med.gotasPorMl);
+                gotasMax = Math.round(volMax * med.gotasPorMl);
+            }
+
+            // Dose máxima diária
+            const doseDiariaMin = doseMgMin * med.dosesPerDay;
+            const doseDiariaMax = doseMgMax * med.dosesPerDay;
+            const volDiariaMin = Math.round(volMin * med.dosesPerDay * 10) / 10;
+            const volDiariaMax = Math.round(volMax * med.dosesPerDay * 10) / 10;
+
+            // Montar exibição do volume/gotas
+            let doseValor, doseUnidade;
+            if (med.gotasPorMl) {
+                if (gotasMin === gotasMax) {
+                    doseValor = gotasMin;
+                    doseUnidade = 'gotas (' + volMinR + ' mL)';
+                } else {
+                    doseValor = gotasMin + '–' + gotasMax;
+                    doseUnidade = 'gotas (' + volMinR + '–' + volMaxR + ' mL)';
+                }
+            } else {
+                if (volMinR === volMaxR) {
+                    doseValor = volMinR;
+                    doseUnidade = 'mL por tomada';
+                } else {
+                    doseValor = volMinR + '–' + volMaxR;
+                    doseUnidade = 'mL por tomada';
+                }
+            }
+
+            // Frequência
+            const freqValor = 'A cada ' + med.intervaloH + 'h';
+            const freqUnidade = med.dosesPerDay + ' tomadas/dia';
+
+            // Montar detalhe
+            let detalheHtml = '<strong>💊 Medicamento:</strong> ' + med.nome + '<br>';
+            detalheHtml += '<strong>⚖️ Peso informado:</strong> ' + peso + ' kg<br>';
+
+            if (med.doseEhDiaria) {
+                const doseKgDia = med.doseMinPorKg === med.doseMaxPorKg
+                    ? med.doseMinPorKg + ' mg/kg/dia'
+                    : med.doseMinPorKg + '–' + med.doseMaxPorKg + ' mg/kg/dia';
+                detalheHtml += '<strong>📐 Faixa terapêutica:</strong> ' + doseKgDia + '<br>';
+                const mgDiaMin = Math.round(med.doseMinPorKg * peso);
+                const mgDiaMax = Math.round(med.doseMaxPorKg * peso);
+                detalheHtml += '<strong>📊 Dose diária calculada:</strong> ' +
+                    (mgDiaMin === mgDiaMax ? mgDiaMin : mgDiaMin + '–' + mgDiaMax) + ' mg/dia<br>';
+            } else {
+                const doseKgDose = med.doseMinPorKg === med.doseMaxPorKg
+                    ? med.doseMinPorKg + ' mg/kg/dose'
+                    : med.doseMinPorKg + '–' + med.doseMaxPorKg + ' mg/kg/dose';
+                detalheHtml += '<strong>📐 Faixa terapêutica:</strong> ' + doseKgDose + '<br>';
+                const mgDoseMin = Math.round(doseMgMin);
+                const mgDoseMax = Math.round(doseMgMax);
+                detalheHtml += '<strong>📊 Dose por tomada em mg:</strong> ' +
+                    (mgDoseMin === mgDoseMax ? mgDoseMin : mgDoseMin + '–' + mgDoseMax) + ' mg<br>';
+            }
+
+            detalheHtml += '<br><em style="color:#667eea;">' + med.obs + '</em>';
+
+            // Dose máxima diária
+            let maxDiarioHtml = '⚠️ <strong>Dose máxima diária:</strong> ';
+            if (volDiariaMin === volDiariaMax) {
+                maxDiarioHtml += volDiariaMin + ' mL';
+            } else {
+                maxDiarioHtml += volDiariaMin + '–' + volDiariaMax + ' mL';
+            }
+            if (med.gotasPorMl) {
+                const gotasDiarMin = Math.round(volMin * med.gotasPorMl * med.dosesPerDay);
+                const gotasDiarMax = Math.round(volMax * med.gotasPorMl * med.dosesPerDay);
+                maxDiarioHtml += ' (' + (gotasDiarMin === gotasDiarMax ? gotasDiarMin : gotasDiarMin + '–' + gotasDiarMax) + ' gotas/dia)';
+            }
+            maxDiarioHtml += ' · ' + med.dosesPerDay + ' tomadas/dia';
+
+            // Atualizar DOM
+            document.getElementById('calcResIcone').textContent = med.emoji;
+            document.getElementById('calcResMed').textContent = med.nome;
+            document.getElementById('calcResPeso').textContent = 'Peso: ' + peso + ' kg · ' + (med.receita ? '🔴 Com receita' : '🟢 Sem receita');
+            document.getElementById('calcDoseValor').textContent = doseValor;
+            document.getElementById('calcDoseUnidade').textContent = doseUnidade;
+            document.getElementById('calcFreqValor').innerHTML = freqValor;
+            document.getElementById('calcFreqUnidade').textContent = freqUnidade;
+            document.getElementById('calcDetalhe').innerHTML = detalheHtml;
+            document.getElementById('calcMaxDiario').innerHTML = maxDiarioHtml;
+
+            resultado.classList.add('show');
+            resultado.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        }
+
+        function selecionarMed(medKey) {
+            const select = document.getElementById('calcMed');
+            if (select) {
+                select.value = medKey;
+                calcularDose();
+                document.getElementById('calcPeso').focus();
+            }
+        }
+        // ===================== FIM CALCULADORA =====================
+
         function categoriaToCss(cat) {
             const map = { 'História': 'historia', 'Ciência': 'ciencia', 'Mundo': 'mundo', 'Polêmica': 'polemica' };
             return map[cat] || 'historia';
@@ -2599,7 +3149,7 @@ window.addEventListener('DOMContentLoaded', () => {
                 btn.classList.add('active');
 
                 // Esconde tudo
-                ['home','vacinas','exames','idosos','interacoes','curiosidades','privacidade','termos','contato'].forEach(id => {
+                ['home','vacinas','exames','idosos','interacoes','calculadora','curiosidades','privacidade','termos','contato'].forEach(id => {
                     const el = document.getElementById(id);
                     if (el) el.classList.remove('active');
                 });
@@ -2626,6 +3176,9 @@ window.addEventListener('DOMContentLoaded', () => {
                     const el = document.getElementById('idosos');
                     if (el) el.classList.add('active');
                     renderBeersIdosos();
+                } else if (tab === 'calculadora') {
+                    const el = document.getElementById('calculadora');
+                    if (el) el.classList.add('active');
                 } else if (tab === 'curiosidades') {
                     const el = document.getElementById('curiosidades');
                     if (el) el.classList.add('active');
