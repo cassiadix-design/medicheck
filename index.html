@@ -1122,6 +1122,96 @@ border-radius:0 0 20px 20px;
         .calc-ficha-dose { font-size: 12px; color: #667eea; font-weight: 600; }
         .calc-ficha-freq { font-size: 11px; color: #888; margin-top: 2px; }
 
+        /* ADULTOS — USO ESPECIALIZADO */
+        .esp-card {
+            border-radius: 14px;
+            padding: 20px;
+            margin-bottom: 16px;
+        }
+        .esp-card-title {
+            font-size: 16px;
+            font-weight: 800;
+            margin-bottom: 4px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .esp-card-sub {
+            font-size: 12px;
+            opacity: 0.75;
+            margin-bottom: 16px;
+            line-height: 1.5;
+        }
+        .esp-input {
+            width: 100%;
+            padding: 12px 14px;
+            border: 2px solid #ddd;
+            border-radius: 10px;
+            font-size: 18px;
+            font-weight: 700;
+            color: #333;
+            box-sizing: border-box;
+            font-family: inherit;
+            text-align: center;
+            margin-bottom: 10px;
+            transition: border-color 0.2s;
+        }
+        .esp-input:focus { outline: none; border-color: #c0392b; box-shadow: 0 0 8px rgba(192,57,43,.15); }
+        .esp-btn {
+            width: 100%;
+            padding: 13px;
+            border: none;
+            border-radius: 10px;
+            font-size: 15px;
+            font-weight: 800;
+            cursor: pointer;
+            font-family: inherit;
+            transition: 0.2s;
+            margin-top: 4px;
+        }
+        .esp-btn:hover { opacity: 0.88; transform: translateY(-1px); }
+        .esp-resultado {
+            display: none;
+            border-radius: 10px;
+            padding: 14px 16px;
+            margin-top: 12px;
+            font-size: 14px;
+            line-height: 1.8;
+            font-weight: 600;
+            animation: fadeIn 0.3s ease;
+        }
+        .esp-resultado.show { display: block; }
+        .ins-table { width: 100%; border-collapse: collapse; font-size: 13px; margin: 14px 0 10px; }
+        .ins-table th { background: #c0392b; color: white; padding: 8px 12px; text-align: left; font-size: 12px; }
+        .ins-table td { padding: 9px 12px; border-bottom: 1px solid #f0d0d0; }
+        .ins-row { transition: background 0.25s; }
+        .ins-row.ins-ativo { background: #ffeeba !important; font-weight: 700; }
+        .ins-row:hover { background: #fff5f5; }
+        .esp-radio-group { display: flex; gap: 10px; margin-bottom: 12px; flex-wrap: wrap; }
+        .esp-radio-label {
+            flex: 1;
+            min-width: 120px;
+            display: flex;
+            align-items: center;
+            gap: 7px;
+            background: white;
+            border: 2px solid #8e44ad;
+            border-radius: 8px;
+            padding: 10px 12px;
+            cursor: pointer;
+            font-size: 13px;
+            font-weight: 700;
+            color: #6c3483;
+            transition: background 0.2s;
+        }
+        .esp-radio-label:has(input:checked) { background: #f5eef8; }
+        .analg-table { width: 100%; border-collapse: collapse; font-size: 13px; margin-top: 14px; }
+        .analg-table th { background: #27ae60; color: white; padding: 8px 10px; text-align: left; font-size: 12px; }
+        .analg-table td { padding: 9px 10px; border-bottom: 1px solid #d5f5e3; vertical-align: top; }
+        .analg-table tr:last-child td { border-bottom: none; }
+        .analg-peso-res { background: #eafaf1; border-radius: 8px; padding: 12px 14px; margin-top: 12px; font-size: 13px; line-height: 1.8; display: none; }
+        .analg-peso-res.show { display: block; }
+
         @media (max-width: 480px) {
             .header {
                 padding: 30px 20px;
@@ -2103,6 +2193,120 @@ border-radius:0 0 20px 20px;
                     </div>
                 </div>
 
+                <!-- ═══════════════════════════════════════════════════ -->
+                <!-- ADULTOS — USO ESPECIALIZADO                        -->
+                <!-- ═══════════════════════════════════════════════════ -->
+                <div style="margin-top:32px;">
+                    <div style="background:linear-gradient(135deg,#c0392b,#922b21);color:white;border-radius:14px;padding:18px 22px;margin-bottom:16px;text-align:center;">
+                        <div style="font-size:19px;font-weight:800;letter-spacing:.5px;margin-bottom:5px;">🏥 Adultos — Uso Especializado</div>
+                        <div style="font-size:12.5px;opacity:.9;line-height:1.6;">Insulina · Enoxaparina · Analgésicos · Sempre confirmar com médico ou farmacêutico.</div>
+                    </div>
+
+                    <div class="calc-aviso-vermelho" style="margin-bottom:18px;">
+                        <span>⛔</span>
+                        Estas ferramentas são de suporte clínico. Insulina e enoxaparina exigem prescrição e monitoramento médico obrigatório. Tramadol é controlado. Não administrar sem orientação profissional.
+                    </div>
+
+                    <!-- ─── 1. INSULINA REGULAR ─── -->
+                    <div class="esp-card" style="background:#fff5f5;border:2px solid #e74c3c;">
+                        <div class="esp-card-title" style="color:#c0392b;">💉 Insulina Regular — Tabela de Correção</div>
+                        <div class="esp-card-sub" style="color:#922b21;">Digite a glicemia capilar para consultar a dose de correção. O esquema deve ser individualizado e prescrito pelo médico.</div>
+
+                        <label style="font-size:13px;font-weight:700;color:#555;display:block;margin-bottom:6px;">🩸 Glicemia capilar (mg/dL)</label>
+                        <input type="number" id="insGlicemia" class="esp-input" style="border-color:#e74c3c;" placeholder="ex: 245" min="40" max="600" oninput="calcInsulina()">
+
+                        <table class="ins-table">
+                            <thead>
+                                <tr><th>Glicemia (mg/dL)</th><th>Dose de Correção</th><th>Conduta</th></tr>
+                            </thead>
+                            <tbody>
+                                <tr class="ins-row" id="ins-r0"><td>&lt; 150</td><td>—</td><td>Sem correção</td></tr>
+                                <tr class="ins-row" id="ins-r1"><td>150 – 200</td><td><strong>2 UI</strong></td><td>Aplicar SC</td></tr>
+                                <tr class="ins-row" id="ins-r2"><td>201 – 250</td><td><strong>4 UI</strong></td><td>Aplicar SC</td></tr>
+                                <tr class="ins-row" id="ins-r3"><td>251 – 300</td><td><strong>6 UI</strong></td><td>Aplicar SC</td></tr>
+                                <tr class="ins-row" id="ins-r4"><td>301 – 350</td><td><strong>8 UI</strong></td><td>Aplicar SC</td></tr>
+                                <tr class="ins-row" id="ins-r5"><td>&gt; 350</td><td>⚠️ Consultar médico</td><td>Avaliação imediata</td></tr>
+                            </tbody>
+                        </table>
+
+                        <div class="esp-resultado" id="insResultado"></div>
+
+                        <div style="background:#fde8e8;border-left:4px solid #c0392b;border-radius:6px;padding:10px 14px;font-size:12px;color:#7b1c1c;margin-top:10px;line-height:1.7;">
+                            ⚠️ <strong>Este é um esquema de correção padrão orientativo.</strong> O protocolo de insulinização deve ser individualizado pelo médico conforme: tipo de diabetes, uso de insulina basal, sensibilidade à insulina, horário da última dose e estado clínico do paciente.
+                        </div>
+                    </div>
+
+                    <!-- ─── 2. ENOXAPARINA ─── -->
+                    <div class="esp-card" style="background:#fdf2ff;border:2px solid #8e44ad;">
+                        <div class="esp-card-title" style="color:#6c3483;">🩺 Enoxaparina — Dose por Peso</div>
+                        <div class="esp-card-sub" style="color:#6c3483;">Anticoagulante de baixo peso molecular. Uso hospitalar obrigatório com controle laboratorial.</div>
+
+                        <div class="esp-radio-group">
+                            <label class="esp-radio-label">
+                                <input type="radio" name="enoxMod" value="profilaxia" checked onchange="calcEnoxaparina()">
+                                🛡️ Profilaxia (TVP)
+                            </label>
+                            <label class="esp-radio-label">
+                                <input type="radio" name="enoxMod" value="tratamento" onchange="calcEnoxaparina()">
+                                💊 Tratamento TVP/TEP
+                            </label>
+                        </div>
+
+                        <label style="font-size:13px;font-weight:700;color:#555;display:block;margin-bottom:6px;">⚖️ Peso do paciente (kg)</label>
+                        <input type="number" id="enoxPeso" class="esp-input" style="border-color:#8e44ad;" placeholder="ex: 75" min="30" max="250" oninput="calcEnoxaparina()">
+
+                        <div class="esp-resultado" id="enoxResultado"></div>
+
+                        <div style="background:#f5eef8;border-left:4px solid #8e44ad;border-radius:6px;padding:10px 14px;font-size:12px;color:#4a235a;margin-top:10px;line-height:1.7;">
+                            ⚠️ <strong>Uso hospitalar obrigatório.</strong> Monitorar contagem de plaquetas (risco de HIT). Contraindicada em insuficiência renal grave (ClCr &lt; 30 mL/min) sem ajuste de dose. Não substituir por heparina não-fracionada sem avaliação médica.
+                        </div>
+                    </div>
+
+                    <!-- ─── 3. ANALGÉSICOS ADULTO ─── -->
+                    <div class="esp-card" style="background:#f0fff4;border:2px solid #27ae60;">
+                        <div class="esp-card-title" style="color:#1e8449;">💊 Analgésicos Adulto — Referência de Doses</div>
+                        <div class="esp-card-sub" style="color:#196f3d;">Dipirona e Paracetamol sem receita. Tramadol exige prescrição controlada (receita azul C1).</div>
+
+                        <table class="analg-table">
+                            <thead>
+                                <tr><th>Medicamento</th><th>Dose / Tomada</th><th>Intervalo</th><th>Máx./dia</th></tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><strong>Dipirona</strong><br><span style="font-size:11px;color:#888;">500mg comp · gotas 500mg/mL</span></td>
+                                    <td>500 mg – 1 g</td>
+                                    <td>6/6h</td>
+                                    <td><strong>4 g</strong></td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Paracetamol</strong><br><span style="font-size:11px;color:#888;">500mg · 750mg comp</span></td>
+                                    <td>500 mg – 1 g</td>
+                                    <td>6/6h</td>
+                                    <td><strong>4 g</strong></td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Tramadol</strong> 🔴<br><span style="font-size:11px;color:#888;">50mg comp · amp 50mg/mL · receita C1</span></td>
+                                    <td>50 – 100 mg<br><span style="font-size:11px;color:#888;">(1–2 mg/kg/dose)</span></td>
+                                    <td>6/6h</td>
+                                    <td><strong>400 mg</strong></td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <div style="margin-top:14px;">
+                            <label style="font-size:13px;font-weight:700;color:#555;display:block;margin-bottom:6px;">⚖️ Calcular dose de Tramadol por peso (kg)</label>
+                            <input type="number" id="analgPeso" class="esp-input" style="border-color:#27ae60;" placeholder="ex: 70" min="30" max="200" oninput="calcTramadol()">
+                        </div>
+
+                        <div class="analg-peso-res" id="analgResultado"></div>
+
+                        <div style="background:#d5f5e3;border-left:4px solid #27ae60;border-radius:6px;padding:10px 14px;font-size:12px;color:#1e5631;margin-top:10px;line-height:1.7;">
+                            ⚠️ <strong>Tramadol:</strong> opioide fraco — receita controlada (azul, C1). Risco de dependência. Contraindicado em crises convulsivas e uso concomitante de IMAOs. Iniciar com dose menor (50mg) e ajustar. <strong>Paracetamol:</strong> evitar em hepatopatas — máx 2g/dia em insuficiência hepática. <strong>Dipirona:</strong> não usar em alérgicos a pirazolonas.
+                        </div>
+                    </div>
+                </div>
+                <!-- ═══════════════════════════════════════════════════ -->
+
                 <div style="text-align:center;padding:16px 10px 8px;font-size:14px;color:#666;border-top:1px solid #ddd;margin-top:10px;">
                     Revisado por <strong>Rita de Cássia Oliveira Soares da Silva</strong> — CRF-SP 33.109 · Farmacêutica responsável<br>
                     <small style="color:#999;">MediCheck © 2026 — medicheck.med.br — Conteúdo educacional. Não substitui orientação profissional.</small>
@@ -3006,6 +3210,106 @@ window.addEventListener('DOMContentLoaded', () => {
             }
         }
         // ===================== FIM CALCULADORA =====================
+
+        // ===================== ADULTOS — USO ESPECIALIZADO =====================
+
+        function calcInsulina() {
+            const val = parseFloat(document.getElementById('insGlicemia').value);
+            const res = document.getElementById('insResultado');
+
+            // Limpa destaque de todas as linhas
+            document.querySelectorAll('.ins-row').forEach(r => r.classList.remove('ins-ativo'));
+
+            if (isNaN(val) || val <= 0) { res.classList.remove('show'); return; }
+
+            let rowId, dose, cor, texto;
+
+            if (val < 150) {
+                rowId = 'ins-r0';
+                cor = '#e8f8e8'; cor2 = '#1e8449';
+                texto = '✅ <strong>Glicemia ' + val + ' mg/dL</strong> — Sem necessidade de correção com insulina regular.';
+            } else if (val <= 200) {
+                rowId = 'ins-r1'; dose = 2;
+            } else if (val <= 250) {
+                rowId = 'ins-r2'; dose = 4;
+            } else if (val <= 300) {
+                rowId = 'ins-r3'; dose = 6;
+            } else if (val <= 350) {
+                rowId = 'ins-r4'; dose = 8;
+            } else {
+                rowId = 'ins-r5';
+                cor = '#fde8e8'; cor2 = '#922b21';
+                texto = '🚨 <strong>Glicemia ' + val + ' mg/dL — ACIMA DE 350 mg/dL.</strong> Avaliar com médico imediatamente. Pode ser necessário esquema IV ou ajuste do protocolo.';
+            }
+
+            const row = document.getElementById(rowId);
+            if (row) row.classList.add('ins-ativo');
+
+            if (dose !== undefined) {
+                cor = '#fff8e1'; cor2 = '#7a5700';
+                texto = '💉 <strong>Glicemia ' + val + ' mg/dL</strong> → Dose de correção: <span style="font-size:18px;font-weight:900;color:#c0392b;">' + dose + ' UI</span> de Insulina Regular SC.<br><span style="font-size:12px;">⚠️ Confirmar com a prescrição médica vigente antes de aplicar.</span>';
+            }
+
+            res.style.cssText = 'display:block;background:' + cor + ';border-left:4px solid ' + cor2 + ';border-radius:10px;padding:14px 16px;margin-top:12px;font-size:14px;line-height:1.8;color:' + cor2 + ';animation:fadeIn .3s ease;';
+            res.innerHTML = texto;
+            res.classList.add('show');
+        }
+
+        function calcEnoxaparina() {
+            const peso = parseFloat(document.getElementById('enoxPeso').value);
+            const mod = document.querySelector('input[name="enoxMod"]:checked').value;
+            const res = document.getElementById('enoxResultado');
+
+            if (isNaN(peso) || peso <= 0) { res.classList.remove('show'); res.style.display = 'none'; return; }
+
+            let html = '';
+
+            if (mod === 'profilaxia') {
+                const dose = peso > 100 ? 60 : 40;
+                const obs = peso > 100
+                    ? '(Peso > 100 kg — dose ajustada para 60 mg)'
+                    : '(Peso ≤ 100 kg — dose padrão)';
+                html = '🛡️ <strong>Profilaxia de TVP</strong><br>' +
+                       'Peso: <strong>' + peso + ' kg</strong> ' + obs + '<br>' +
+                       'Dose: <span style="font-size:18px;font-weight:900;color:#6c3483;">' + dose + ' mg SC</span> 1× ao dia<br>' +
+                       '<span style="font-size:12px;color:#6c3483;">Clexane ' + dose + 'mg (0,' + dose + ' mL) — aplicação subcutânea, 1 vez ao dia.</span>';
+            } else {
+                const dosePorKg = 1; // mg/kg
+                const doseCalc = Math.round(peso * dosePorKg * 10) / 10;
+                html = '💊 <strong>Tratamento TVP / TEP</strong><br>' +
+                       'Peso: <strong>' + peso + ' kg</strong> · 1 mg/kg/dose<br>' +
+                       'Dose: <span style="font-size:18px;font-weight:900;color:#6c3483;">' + doseCalc + ' mg SC</span> a cada <strong>12 horas</strong><br>' +
+                       'Dose diária total: <strong>' + (Math.round(doseCalc * 2 * 10) / 10) + ' mg/dia</strong><br>' +
+                       '<span style="font-size:12px;color:#6c3483;">⚠️ Em obesidade (IMC > 40) ou peso > 150 kg consultar protocolo específico. Ajuste obrigatório se ClCr &lt; 30 mL/min.</span>';
+            }
+
+            res.style.cssText = 'display:block;background:#f5eef8;border-left:4px solid #8e44ad;border-radius:10px;padding:14px 16px;margin-top:12px;font-size:14px;line-height:1.8;color:#4a235a;animation:fadeIn .3s ease;';
+            res.innerHTML = html;
+            res.classList.add('show');
+        }
+
+        function calcTramadol() {
+            const peso = parseFloat(document.getElementById('analgPeso').value);
+            const res = document.getElementById('analgResultado');
+
+            if (isNaN(peso) || peso <= 0) { res.classList.remove('show'); res.style.display = 'none'; return; }
+
+            const doseMin = Math.min(Math.round(1 * peso), 100);   // 1mg/kg, máx 100mg
+            const doseMax = Math.min(Math.round(2 * peso), 100);   // 2mg/kg, máx 100mg
+            const doseMaxDiaria = Math.min(doseMax * 4, 400);
+            const doseStr = doseMin === doseMax ? doseMin + ' mg' : doseMin + '–' + doseMax + ' mg';
+            const capMsg = (peso > 50) ? ' <span style="font-size:11px;color:#c0392b;">(cap 100mg/dose aplicado)</span>' : '';
+
+            res.innerHTML = '💊 <strong>Tramadol para ' + peso + ' kg</strong><br>' +
+                'Dose por tomada: <span style="font-size:16px;font-weight:900;color:#1e8449;">' + doseStr + '</span>' + capMsg + '<br>' +
+                'Frequência: a cada 6 horas (máx 4 tomadas/dia)<br>' +
+                'Dose máxima diária: <strong>' + doseMaxDiaria + ' mg/dia</strong><br>' +
+                '<span style="font-size:12px;color:#7d6608;">⚠️ Iniciar sempre com 50 mg. Receita controlada C1 (azul) obrigatória.</span>';
+            res.style.display = 'block';
+            res.classList.add('show');
+        }
+
+        // ===================== FIM ADULTOS ESPECIALIZADO =====================
 
         function categoriaToCss(cat) {
             const map = { 'História': 'historia', 'Ciência': 'ciencia', 'Mundo': 'mundo', 'Polêmica': 'polemica' };
