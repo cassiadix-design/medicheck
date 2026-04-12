@@ -1,0 +1,933 @@
+[
+  {
+    "nome": "Fludrocortisona 0,1mg",
+    "generico": "Fludrocortisona",
+    "tipo": "Mineralocorticoide — Corticoide sintético",
+    "sinonimos": ["fludrocortisona", "florinef", "fludrocortisone", "fludrocortisona 0,1mg"],
+    "descricao": "Mineralocorticoide sintético com potente ação retentora de sódio e água. Indicado para insuficiência adrenal (doença de Addison) como reposição de mineralocorticoide, síndrome de perda de sal e hipotensão ortostática grave. Age nos túbulos renais aumentando a reabsorção de sódio e excreção de potássio.",
+    "receita": "Sim",
+    "receita_display": "🔴 Receita Simples",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Exige prescrição médica.",
+    "receita_nota": "Dose usual para doença de Addison: 0,05-0,2mg/dia pela manhã. Sempre associada à reposição de glicocorticoide (hidrocortisona ou prednisona).",
+    "efeitos": "Hipertensão, edema, hipocalemia, cefaleia, retenção de sódio e água.",
+    "aviso_grave": "Monitorar pressão arterial e eletrólitos (potássio, sódio) regularmente. Em excesso, pode causar hipertensão grave e hipocalemia. A dose é ajustada pela pressão arterial e pelo nível de sódio.",
+    "recomendacao": "⚠️ A dose é monitorada pelos níveis de eletrólitos e pressão arterial — não ajustar sem orientação do endocrinologista. Em doenças febris ou cirurgias, a dose de glicocorticoide (hidrocortisona) deve ser aumentada.",
+    "educacao": "Pacientes com insuficiência adrenal (Addison) precisam de reposição dupla: glicocorticoide (cortisol) E mineralocorticoide (fludrocortisona). Portadores devem carregar cartão de alerta e injeção de hidrocortisona para emergências.",
+    "resposta_rapida": [
+      "Mineralocorticoide sintético",
+      "Doença de Addison, hipotensão ortostática",
+      "Receita simples",
+      "Monitorar PA e potássio",
+      "Sempre com glicocorticoide no Addison"
+    ],
+    "receita_obrigatoria": true,
+    "tipo_receita": "simples",
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Para que serve a fludrocortisona?",
+        "resposta": "Repõe o mineralocorticoide (aldosterona) que falta na doença de Addison. Sem ela, o organismo perde sódio e retém potássio, causando desidratação grave, hipotensão e risco de vida."
+      },
+      {
+        "pergunta": "Fludrocortisona pode ser usada sozinha?",
+        "resposta": "Na doença de Addison, não — precisa ser combinada com glicocorticoide (hidrocortisona ou prednisona) para repor o cortisol. Para hipotensão ortostática isolada, pode ser usada sem glicocorticoide."
+      },
+      {
+        "pergunta": "Fludrocortisona causa pressão alta?",
+        "resposta": "Pode. A dose é ajustada para manter a pressão arterial normal. Dose excessiva causa hipertensão e retenção de sódio/água. Monitoramento regular da PA é essencial."
+      },
+      {
+        "pergunta": "O que monitorar durante o uso de fludrocortisona?",
+        "resposta": "Pressão arterial, potássio sérico e sódio sérico. Edema nos membros inferiores também é sinal de dose excessiva. Exames regulares com o endocrinologista são fundamentais."
+      },
+      {
+        "pergunta": "Quem tem Addison precisa de fludrocortisona para sempre?",
+        "resposta": "Na maioria dos casos, sim. A doença de Addison primária geralmente é crônica e requer reposição hormonal vitalícia. O endocrinologista acompanhará a dose ao longo do tempo."
+      }
+    ],
+    "descricao_seo": "Fludrocortisona 0,1mg (Florinef) é o mineralocorticoide sintético indicado para doença de Addison (insuficiência adrenal) e hipotensão ortostática grave. Age retendo sódio e excretando potássio. Os efeitos colaterais mais relatados são: hipertensão, edema e hipocalemia. Monitorar pressão arterial e eletrólitos. Fludrocortisona é vendida somente com receita médica."
+  },
+  {
+    "nome": "Gentamicina 40mg/mL injetável - 0,3% colírio",
+    "generico": "Gentamicina",
+    "tipo": "Antibiótico — Aminoglicosídeo",
+    "sinonimos": ["gentamicina", "garamicina", "gentamicin", "gentamicina colírio", "gentamicina injetável"],
+    "descricao": "Antibiótico aminoglicosídeo bactericida de amplo espectro com atividade principalmente contra bacilos gram-negativos (Pseudomonas, Klebsiella, E. coli, Proteus). Em uso sistêmico (injetável), indicado para infecções graves por organismos sensíveis. O colírio é usado para conjuntivites e infecções oculares bacterianas.",
+    "receita": "Sim",
+    "receita_display": "🔴 Receita Simples",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Exige prescrição médica.",
+    "receita_nota": "Injetável: dose calculada pelo peso e função renal — uso hospitalar. Colírio 0,3%: 1-2 gotas a cada 4-8 horas no olho afetado.",
+    "efeitos": "Nefrotoxicidade e ototoxicidade são os principais riscos do uso sistêmico (perda de audição e função renal). Colírio: ardor local, irritação ocular.",
+    "aviso_grave": "Nefrotoxicidade e ototoxicidade podem ser irreversíveis — monitorar creatinina e audiometria no uso sistêmico. Não combinar com outros nefrotóxicos (vancomicina, AINEs). Ajuste obrigatório de dose em insuficiência renal.",
+    "recomendacao": "⚠️ No uso sistêmico: monitorar função renal (creatinina) e audiometria. A dosagem em dose única diária (extended-interval dosing) reduz toxicidade e é mais prática. Medir nível sérico quando indicado.",
+    "educacao": "Os aminoglicosídeos têm efeito pós-antibiótico prolongado, o que permite administração em dose única diária. O monitoramento do nível sérico (pico e vale) é fundamental para eficácia e segurança no uso sistêmico prolongado.",
+    "resposta_rapida": [
+      "Aminoglicosídeo gram-negativo",
+      "Infecções graves / colírio ocular",
+      "Receita simples",
+      "Nefrotóxico e ototóxico",
+      "Monitorar função renal"
+    ],
+    "receita_obrigatoria": true,
+    "tipo_receita": "simples",
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Gentamicina pode causar surdez?",
+        "resposta": "Sim. Ototoxicidade é um risco real, especialmente no uso sistêmico prolongado ou em doses elevadas. Pode causar perda auditiva irreversível (zumbido e surdez de frequências agudas). Monitoramento é essencial."
+      },
+      {
+        "pergunta": "Gentamicina colírio é segura?",
+        "resposta": "Sim. O uso tópico ocular tem absorção sistêmica mínima, sendo muito segura. Efeitos adversos são locais (ardor, irritação). É usada para conjuntivites bacterianas e prevenção de infecção após cirurgia ocular."
+      },
+      {
+        "pergunta": "Com que frequência usar o colírio de gentamicina?",
+        "resposta": "Geralmente 1-2 gotas a cada 4-8 horas. Em infecções graves, pode ser aumentada para a cada 1-2 horas nas primeiras horas. Seguir a prescrição do oftalmologista."
+      },
+      {
+        "pergunta": "Gentamicina e vancomicina podem ser combinadas?",
+        "resposta": "Podem ser usadas em combinação para cobertura ampla, mas aumenta o risco de nefrotoxicidade. Monitoramento rigoroso da função renal é mandatório quando combinadas."
+      },
+      {
+        "pergunta": "Gentamicina pode ser usada em gestantes?",
+        "resposta": "O uso sistêmico deve ser evitado na gravidez — pode causar ototoxicidade fetal. Para uso ocular (colírio), a absorção sistêmica é mínima e geralmente considerada segura com avaliação médica."
+      }
+    ],
+    "descricao_seo": "Gentamicina 40mg/mL (Garamicina) é um antibiótico aminoglicosídeo bactericida contra gram-negativos. Em uso sistêmico é indicada para infecções graves; como colírio 0,3% para conjuntivites bacterianas. Os efeitos adversos mais importantes são nefrotoxicidade e ototoxicidade (uso sistêmico). Gentamicina é vendida somente com receita médica."
+  },
+  {
+    "nome": "Oxacilina 250mg - 500mg",
+    "generico": "Oxacilina sódica",
+    "tipo": "Antibiótico — Penicilina resistente à penicilinase",
+    "sinonimos": ["oxacilina", "staficilin-n", "bristopen", "oxacillin", "oxacilina 500mg"],
+    "descricao": "Penicilina semissintética resistente a penicilinases (betalactamases estafilocócicas). Específica para tratamento de infecções por Staphylococcus aureus sensível à meticilina (MSSA). Indicada para infecções de pele e partes moles, pneumonia estafilocócica, endocardite e osteomielite por MSSA.",
+    "receita": "Sim",
+    "receita_display": "🔴 Receita Simples",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Exige prescrição médica.",
+    "receita_nota": "Via oral: 500mg-1g a cada 4-6 horas em jejum (alimentos reduzem absorção). IV: uso hospitalar conforme protocolo.",
+    "efeitos": "Reações alérgicas (rash, anafilaxia), hepatotoxicidade (transaminases elevadas), neutropenia com uso prolongado, flebite no uso IV.",
+    "aviso_grave": "Verificar alergia a penicilinas antes de prescrever — anafilaxia pode ser grave. Hepatotoxicidade é mais comum que com outras penicilinas. Não eficaz contra MRSA (Staphylococcus aureus resistente à meticilina).",
+    "recomendacao": "⚠️ Tomar em jejum — alimentos reduzem significativamente a absorção oral. Monitorar enzimas hepáticas no uso prolongado.",
+    "educacao": "A oxacilina é eficaz apenas contra MSSA — não funciona contra MRSA. Quando há MRSA, usa-se vancomicina ou linezolida. Por isso, a identificação do perfil de resistência do Staphylococcus é fundamental para a escolha correta.",
+    "resposta_rapida": [
+      "Penicilina anti-estafilocócica",
+      "Infecções por MSSA",
+      "Receita simples",
+      "Tomar em jejum",
+      "Não funciona contra MRSA"
+    ],
+    "receita_obrigatoria": true,
+    "tipo_receita": "simples",
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Oxacilina serve para infecção de pele?",
+        "resposta": "Sim. É muito usada para impetigo, celulite e abscesso por Staphylococcus aureus sensível. É o antibiótico de escolha para estafilococcias não complicadas quando há confirmação de MSSA."
+      },
+      {
+        "pergunta": "Por que tomar oxacilina em jejum?",
+        "resposta": "Alimentos reduzem significativamente a absorção oral da oxacilina. Deve ser tomada 30-60 minutos antes das refeições ou 2 horas após para garantir absorção adequada."
+      },
+      {
+        "pergunta": "Oxacilina funciona contra MRSA?",
+        "resposta": "Não. MRSA (Staphylococcus resistente à meticilina) não responde à oxacilina. Para MRSA, usam-se vancomicina, linezolida ou daptomicina — sempre com orientação de infectologista."
+      },
+      {
+        "pergunta": "Oxacilina pode causar problema no fígado?",
+        "resposta": "Sim. Hepatotoxicidade (elevação de transaminases e colestase) é mais comum com oxacilina que com outras penicilinas. Monitoramento da função hepática é recomendado em tratamentos prolongados."
+      },
+      {
+        "pergunta": "Sou alérgico à amoxicilina. Posso tomar oxacilina?",
+        "resposta": "Não é seguro sem avaliação médica. Existe reatividade cruzada entre penicilinas (amoxicilina, oxacilina, ampicilina) — se você é alérgico a uma, pode ser alérgico a outras. Informe sempre ao médico."
+      }
+    ],
+    "descricao_seo": "Oxacilina 250mg - 500mg é uma penicilina semissintética resistente a penicilinases, indicada exclusivamente para infecções por Staphylococcus aureus sensível à meticilina (MSSA). Os efeitos colaterais mais relatados são: reações alérgicas e hepatotoxicidade. Tomar em jejum. Não é eficaz contra MRSA. Oxacilina é vendida somente com receita médica."
+  },
+  {
+    "nome": "Ampicilina 250mg - 500mg",
+    "generico": "Ampicilina",
+    "tipo": "Antibiótico — Aminopenicilina",
+    "sinonimos": ["ampicilina", "binotal", "ampicillin", "ampicilina 250mg", "ampicilina 500mg", "ampicilina triidratada"],
+    "descricao": "Aminopenicilina de amplo espectro (gram-positivos e alguns gram-negativos). Indicada para infecções do trato urinário, respiratório, meningite por Listeria, endocardite enterocócica e infecções por organismos sensíveis. Sensível a betalactamases — muitas cepas de E. coli e Staphylococcus são resistentes.",
+    "receita": "Sim",
+    "receita_display": "🔴 Receita Simples",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Exige prescrição médica.",
+    "receita_nota": "Via oral: 250-500mg a cada 6 horas em jejum. IV: uso hospitalar. Para meningite, endocardite: doses elevadas IV.",
+    "efeitos": "Rash maculopapular (muito comum — especialmente em mononucleose infecciosa), diarreia, náusea, reações alérgicas, colite pseudomembranosa (C. diff).",
+    "aviso_grave": "O rash por ampicilina na mononucleose é quase universal (80-100%) e não indica alergia verdadeira à penicilina — é uma reação idiossincrásica. Verificar sempre se há EBV (mono) antes de prescrever.",
+    "recomendacao": "⚠️ Tomar em jejum — alimentos reduzem a absorção. O rash na mononucleose não significa alergia à penicilina — comunicar ao médico para não ser rotulado erroneamente como alérgico.",
+    "educacao": "A ampicilina foi o primeiro antibiótico de amplo espectro oral disponível. Hoje, muitas bactérias são resistentes por produção de betalactamases. A associação ampicilina + sulbactam (Unasyn) protege contra essas enzimas e amplia o espectro.",
+    "resposta_rapida": [
+      "Aminopenicilina de amplo espectro",
+      "ITU, meningite por Listeria, enterococo",
+      "Receita simples",
+      "Rash em mononucleose ≠ alergia",
+      "Tomar em jejum"
+    ],
+    "receita_obrigatoria": true,
+    "tipo_receita": "simples",
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Por que ampicilina causa manchas vermelhas em quem tem mononucleose?",
+        "resposta": "Na mononucleose infecciosa (EBV), a ampicilina causa rash maculopapular em 80-100% dos pacientes — não é alergia verdadeira, mas reação imunológica específica da infecção viral. Não rotular como alérgico à penicilina."
+      },
+      {
+        "pergunta": "Ampicilina é melhor que amoxicilina?",
+        "resposta": "A amoxicilina tem melhor absorção oral. Para uso oral, a amoxicilina é preferida. A ampicilina IV ainda tem indicações específicas (meningite por Listeria, endocardite enterocócica)."
+      },
+      {
+        "pergunta": "Ampicilina serve para infecção de urina?",
+        "resposta": "Cada vez menos — muitas cepas de E. coli são resistentes à ampicilina. O antibiograma (teste de sensibilidade) é necessário para confirmar a eficácia antes de prescrever para ITU."
+      },
+      {
+        "pergunta": "Sou alérgico à amoxicilina. Posso tomar ampicilina?",
+        "resposta": "Não sem avaliação. Existe reatividade cruzada entre amoxicilina e ampicilina (ambas aminopenicilinas). Se há alergia a uma, há risco na outra."
+      },
+      {
+        "pergunta": "Ampicilina com sulbactam é diferente?",
+        "resposta": "Sim. A associação ampicilina + sulbactam (Unasyn) protege a ampicilina da ação das betalactamases bacterianas, ampliando o espectro para bactérias resistentes à ampicilina isolada."
+      }
+    ],
+    "descricao_seo": "Ampicilina 250mg - 500mg (Binotal) é uma aminopenicilina de amplo espectro indicada para ITU, meningite por Listeria e endocardite enterocócica. Os efeitos colaterais mais relatados são: rash maculopapular (especialmente na mononucleose) e diarreia. Tomar em jejum. Ampicilina é vendida somente com receita médica — nunca use sem orientação de um profissional de saúde."
+  },
+  {
+    "nome": "Norfloxacino 400mg",
+    "generico": "Norfloxacino",
+    "tipo": "Antibiótico — Fluoroquinolona de 1ª geração",
+    "sinonimos": ["norfloxacino", "floxacin", "noroxin", "norfloxacin", "norfloxacino 400mg"],
+    "descricao": "Fluoroquinolona de primeira geração com atividade concentrada no trato urinário. Age inibindo a DNA girase e topoisomerase IV bacteriana. Indicado principalmente para infecções do trato urinário não complicadas por gram-negativos (E. coli, Klebsiella, Proteus). Uso limitado ao trato urinário — baixa distribuição sistêmica.",
+    "receita": "Sim",
+    "receita_display": "🔴 Receita Simples",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Exige prescrição médica.",
+    "receita_nota": "Dose usual: 400mg 2x/dia por 3-7 dias (ITU não complicada) ou 7-10 dias (ITU complicada, prostatite). Tomar em jejum ou 2h após refeição.",
+    "efeitos": "Náusea, diarreia, cefaleia, tontura, rash. Tendinite e ruptura de tendão (raro). Fotossensibilidade.",
+    "aviso_grave": "Contraindicado em menores de 18 anos (risco de artropatia em cartilagem de crescimento), gestantes e lactantes. Tendinite/ruptura de tendão de Aquiles — risco aumentado em >60 anos e usuários de corticoides. Prolongamento de QT.",
+    "recomendacao": "⚠️ Evitar antiácidos com alumínio, magnésio ou cálcio — reduzem absorção. Usar 2h antes ou 6h após antiácidos. Aumentar ingestão de água durante o tratamento. Não usar como primeira escolha para ITU quando há resistência local elevada.",
+    "educacao": "A resistência ao norfloxacino nas ITUs tem aumentado significativamente no Brasil, especialmente em E. coli. Em muitas regiões, a resistência supera 20-30%, tornando o antibiograma essencial antes de prescrever para ITU recorrente.",
+    "resposta_rapida": [
+      "Fluoroquinolona para trato urinário",
+      "ITU não complicada, prostatite",
+      "Receita simples",
+      "Contraindicado <18 anos e grávidas",
+      "Atenção: resistência crescente"
+    ],
+    "receita_obrigatoria": true,
+    "tipo_receita": "simples",
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Norfloxacino serve para cistite?",
+        "resposta": "Sim, é indicado para cistite não complicada. Porém, a resistência bacteriana tem aumentado — muitos médicos preferem fosfomicina ou nitrofurantoína como primeira escolha para cistite simples."
+      },
+      {
+        "pergunta": "Por que norfloxacino não pode ser usado em crianças?",
+        "resposta": "Fluoroquinolonas podem afetar a cartilagem de crescimento em crianças e adolescentes, causando artropatia. Por isso, são contraindicadas em menores de 18 anos, exceto em situações específicas sem alternativa."
+      },
+      {
+        "pergunta": "Norfloxacino e antiácido: posso tomar junto?",
+        "resposta": "Não. Antiácidos com alumínio, magnésio ou cálcio reduzem drasticamente a absorção do norfloxacino. Separar por pelo menos 2 horas antes ou 6 horas após o antiácido."
+      },
+      {
+        "pergunta": "Norfloxacino pode ser usado na gravidez?",
+        "resposta": "Não. Fluoroquinolonas são contraindicadas na gravidez. Para ITU na gestação, nitrofurantoína (1º e 2º trimestres) ou cefalexina são as opções mais seguras."
+      },
+      {
+        "pergunta": "Norfloxacino pode causar problema no tendão?",
+        "resposta": "Sim. Tendinite e ruptura de tendão (especialmente do Aquiles) são riscos conhecidos das fluoroquinolonas. Risco maior em >60 anos e usuários de corticoides. Dor no tendão deve ser investigada imediatamente."
+      }
+    ],
+    "descricao_seo": "Norfloxacino 400mg (Floxacin) é uma fluoroquinolona de primeira geração indicada para infecções do trato urinário não complicadas. Os efeitos colaterais mais relatados são: náusea, cefaleia, tontura e risco de tendinite. Contraindicado em menores de 18 anos e grávidas. Norfloxacino é vendido somente com receita médica — nunca use sem orientação de um profissional de saúde."
+  },
+  {
+    "nome": "Ofloxacino 200mg - 400mg",
+    "generico": "Ofloxacino",
+    "tipo": "Antibiótico — Fluoroquinolona de 2ª geração",
+    "sinonimos": ["ofloxacino", "floxin", "tarivid", "ofloxacin", "ofloxacino 200mg", "ofloxacino 400mg"],
+    "descricao": "Fluoroquinolona de segunda geração com espectro ampliado para gram-negativos e gram-positivos, incluindo Chlamydia, Mycoplasma e Mycobacterium. Indicado para ITU complicada, infecções do trato respiratório, DSTs (uretrite, cervicite por Chlamydia/gonorreia) e infecções oculares (colírio). O levofloxacino é o isômero L ativo, com maior potência.",
+    "receita": "Sim",
+    "receita_display": "🔴 Receita Simples",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Exige prescrição médica.",
+    "receita_nota": "Dose usual: 200-400mg 2x/dia. Colírio 0,3%: 1-2 gotas a cada 2-6 horas no olho afetado.",
+    "efeitos": "Náusea, diarreia, cefaleia, insônia, fotossensibilidade, tendinite, prolongamento de QT.",
+    "aviso_grave": "Mesmas contraindicações das fluoroquinolonas: menores de 18 anos, gravidez, prolongamento de QT, miastenia gravis. Tendinite/ruptura de tendão.",
+    "recomendacao": "⚠️ O levofloxacino substituiu em grande parte o ofloxacino sistêmico por ser mais potente. O colírio de ofloxacino ainda é amplamente usado em oftalmologia.",
+    "educacao": "O levofloxacino é o enantiômero-L do ofloxacino e possui toda a atividade antibacteriana com metade da dose, sendo mais moderno. Para uso sistêmico, o levofloxacino é preferido atualmente.",
+    "resposta_rapida": [
+      "Fluoroquinolona de 2ª geração",
+      "ITU, Chlamydia, colírio ocular",
+      "Receita simples",
+      "Contraindicado <18 anos e grávidas",
+      "Levofloxacino preferido sistêmico"
+    ],
+    "receita_obrigatoria": true,
+    "tipo_receita": "simples",
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Ofloxacino colírio serve para quê?",
+        "resposta": "Para conjuntivite bacteriana, úlcera de córnea bacteriana e prevenção de infecção após cirurgia ocular. É um dos colírios antibióticos mais usados em oftalmologia."
+      },
+      {
+        "pergunta": "Qual a diferença entre ofloxacino e levofloxacino?",
+        "resposta": "O levofloxacino é o isômero ativo do ofloxacino — tem a mesma eficácia com metade da dose. Para uso sistêmico, o levofloxacino é amplamente preferido atualmente."
+      },
+      {
+        "pergunta": "Ofloxacino trata Chlamydia?",
+        "resposta": "Sim. É indicado para uretrite e cervicite por Chlamydia trachomatis. A dose usual é 300mg 2x/dia por 7 dias. A doxiciclina também é opção de primeira linha para Chlamydia."
+      },
+      {
+        "pergunta": "Ofloxacino pode ser usado em gestantes?",
+        "resposta": "Não para uso sistêmico. O colírio oftálmico tem absorção sistêmica mínima e pode ser avaliado pelo médico em casos específicos durante a gravidez."
+      },
+      {
+        "pergunta": "Ofloxacino e leite: posso tomar junto?",
+        "resposta": "Evitar tomar junto com laticínios ou antiácidos — produtos com cálcio, alumínio e magnésio reduzem a absorção. Separar por 2 horas."
+      }
+    ],
+    "descricao_seo": "Ofloxacino 200mg - 400mg (Floxin/Tarivid) é uma fluoroquinolona de segunda geração indicada para ITU, infecções por Chlamydia e infecções oculares (colírio 0,3%). Os efeitos colaterais mais relatados são: náusea, cefaleia, fotossensibilidade e tendinite. Contraindicado em menores de 18 anos e grávidas. Ofloxacino é vendido somente com receita médica."
+  },
+  {
+    "nome": "Piperacilina + Tazobactam 4g/0,5g",
+    "generico": "Piperacilina sódica + Tazobactam sódico",
+    "tipo": "Antibiótico — Penicilina de amplo espectro com inibidor de betalactamase",
+    "sinonimos": ["piperacilina tazobactam", "tazocin", "zosyn", "pip/tazo", "piperacilina 4g tazobactam 0,5g"],
+    "descricao": "Combinação de penicilina anti-pseudomônica (piperacilina) com inibidor de betalactamase (tazobactam). Cobertura muito ampla: gram-positivos, gram-negativos (incluindo Pseudomonas aeruginosa) e anaeróbios. Indicado para pneumonia hospitalar, infecções intra-abdominais, infecções de pele complicadas e neutropenia febril. Uso exclusivamente intravenoso hospitalar.",
+    "receita": "Sim",
+    "receita_display": "🔴 Receita Simples",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Exige prescrição médica — uso exclusivamente hospitalar.",
+    "receita_nota": "Dose usual: 4,5g (4g pip + 0,5g tazo) IV a cada 6-8 horas. Infusão estendida (4h) aumenta eficácia contra Pseudomonas. Ajuste em insuficiência renal.",
+    "efeitos": "Diarreia, náusea, cefaleia, rash, colite por C. difficile, hipocalemia, hepatotoxicidade.",
+    "aviso_grave": "Risco de Clostridium difficile. Hipocalemia pode ser grave. Verificar alergia a penicilinas. Monitorar função renal e eletrólitos.",
+    "recomendacao": "⚠️ A infusão estendida (over 4 horas) em vez da infusão rápida melhora os desfechos para Pseudomonas aeruginosa. Isso é especialmente importante em infecções graves por bacilos gram-negativos resistentes.",
+    "educacao": "Pip/Tazo é amplamente usado em UTI e no manejo de neutropenia febril. A resistência da Pseudomonas ao pip/tazo tem aumentado — o antibiograma é fundamental para orientar a terapia.",
+    "resposta_rapida": [
+      "Penicilina anti-Pseudomonas + inibidor BL",
+      "Pneumonia hospitalar, infecção intra-abdominal",
+      "Uso hospitalar exclusivo",
+      "Cobertura: gram+, gram-, anaeróbios, Pseudomonas",
+      "Monitorar eletrólitos"
+    ],
+    "receita_obrigatoria": true,
+    "tipo_receita": "simples",
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Para que serve piperacilina-tazobactam?",
+        "resposta": "É um dos antibióticos de amplo espectro mais usados em hospitais, especialmente em UTI. Cobre Pseudomonas, E. coli, Klebsiella, anaeróbios e muitos gram-positivos — indicado para infecções graves hospitalares."
+      },
+      {
+        "pergunta": "Por que pip/tazo é dado por 4 horas às vezes?",
+        "resposta": "A infusão estendida (4 horas) aumenta o tempo em que o antibiótico permanece acima da concentração inibitória mínima — especialmente importante para Pseudomonas aeruginosa. Melhora os desfechos em infecções graves."
+      },
+      {
+        "pergunta": "Pip/Tazo pode ser usado com alergia à amoxicilina?",
+        "resposta": "É necessário avaliar o tipo de reação. Alergia grave a penicilinas (anafilaxia) é uma contraindicação. O médico avaliará alternativas como carbapenêmicos ou aztreonam."
+      },
+      {
+        "pergunta": "Pip/Tazo cobre MRSA?",
+        "resposta": "Não. MRSA é resistente a todas as penicilinas e cefalosporinas. Para MRSA, usa-se vancomicina ou linezolida."
+      },
+      {
+        "pergunta": "Quais exames monitorar com pip/tazo?",
+        "resposta": "Função renal (creatinina), eletrólitos (especialmente potássio e sódio), hemograma e função hepática em uso prolongado. Monitorar também sinais de colite por C. difficile (diarreia profusa)."
+      }
+    ],
+    "descricao_seo": "Piperacilina + Tazobactam 4g/0,5g (Tazocin) é um antibiótico de amplo espectro para uso hospitalar IV, indicado para pneumonia hospitalar, neutropenia febril e infecções graves por gram-negativos incluindo Pseudomonas. Os efeitos adversos mais relevantes são: hipocalemia e colite por C. difficile. Uso exclusivamente hospitalar com prescrição médica."
+  },
+  {
+    "nome": "Ceftazidima 1g",
+    "generico": "Ceftazidima pentaidratada",
+    "tipo": "Antibiótico — Cefalosporina de 3ª geração antipseudomônica",
+    "sinonimos": ["ceftazidima", "fortaz", "ceptaz", "ceftazidime", "ceftazidima 1g"],
+    "descricao": "Cefalosporina de terceira geração com potente atividade anti-Pseudomonas aeruginosa. Indicada para infecções graves por gram-negativos: pneumonia hospitalar, infecções em neutropênicos, meningite por gram-negativos, infecções do trato urinário complicadas e infecções intra-abdominais. Uso exclusivamente parenteral (IV ou IM).",
+    "receita": "Sim",
+    "receita_display": "🔴 Receita Simples",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Exige prescrição médica — uso hospitalar.",
+    "receita_nota": "Dose usual: 1-2g IV/IM a cada 8-12 horas. Em infecções graves ou meningite: 2g IV a cada 8 horas. Ajuste obrigatório em insuficiência renal.",
+    "efeitos": "Diarreia, rash, flebite no local da infusão, eosinofilia, colite por C. difficile, elevação de transaminases.",
+    "aviso_grave": "Resistência crescente entre Enterobacteriaceae por produção de ESBL e carbapenemases. Reatividade cruzada parcial com alergia a penicilinas. Colite por C. difficile.",
+    "recomendacao": "⚠️ A ceftazidima isolada não cobre gram-positivos adequadamente (baixa atividade contra Staphylococcus). Pode ser necessário associar vancomicina para cobertura completa em infecções mistas.",
+    "educacao": "A ceftazidima foi durante décadas a principal opção anti-Pseudomonas. Com o aumento de resistência, o pip/tazo e os carbapenêmicos têm ganhado espaço. O antibiograma é fundamental para guiar a terapia.",
+    "resposta_rapida": [
+      "Cefalosporina 3ª geração anti-Pseudomonas",
+      "Infecções graves gram-negativos",
+      "Uso hospitalar exclusivo",
+      "Baixa cobertura gram-positivos",
+      "Ajuste em insuficiência renal"
+    ],
+    "receita_obrigatoria": true,
+    "tipo_receita": "simples",
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Ceftazidima cobre Pseudomonas?",
+        "resposta": "Sim, é uma das cefalosporinas com maior atividade contra Pseudomonas aeruginosa. Porém, a resistência tem aumentado — o antibiograma deve confirmar a sensibilidade antes do uso."
+      },
+      {
+        "pergunta": "Ceftazidima funciona contra Staphylococcus?",
+        "resposta": "Tem atividade limitada contra gram-positivos. Para cobertura de MRSA ou MSSA em infecções mistas, associar vancomicina ou oxacilina conforme o antibiograma."
+      },
+      {
+        "pergunta": "Posso usar ceftazidima se sou alérgico à penicilina?",
+        "resposta": "Com cautela — existe reatividade cruzada entre cefalosporinas e penicilinas, mas é menor do que historicamente se acreditava (cerca de 1-2%). O médico avaliará o risco conforme o tipo de reação alérgica."
+      },
+      {
+        "pergunta": "Ceftazidima e insuficiência renal: precisa ajustar?",
+        "resposta": "Sim. A ceftazidima é excretada pelos rins e requer ajuste de dose significativo em insuficiência renal. Sem ajuste, há risco de neurotoxicidade (encefalopatia, convulsões)."
+      },
+      {
+        "pergunta": "Qual a diferença entre ceftazidima e ceftriaxona?",
+        "resposta": "A ceftriaxona tem maior atividade contra gram-positivos e pode ser usada uma vez ao dia (meia-vida longa). A ceftazidima tem maior atividade anti-Pseudomonas mas menor cobertura gram-positiva."
+      }
+    ],
+    "descricao_seo": "Ceftazidima 1g (Fortaz) é uma cefalosporina de terceira geração com atividade anti-Pseudomonas, indicada para infecções graves por gram-negativos em ambiente hospitalar. Os efeitos adversos mais relevantes são: colite por C. difficile e flebite local. Requer ajuste em insuficiência renal. Ceftazidima é de uso hospitalar exclusivo com prescrição médica."
+  },
+  {
+    "nome": "Cefepima 1g - 2g",
+    "generico": "Cefepima cloridrato",
+    "tipo": "Antibiótico — Cefalosporina de 4ª geração",
+    "sinonimos": ["cefepima", "maxipime", "cefepime", "cefepima 1g", "cefepima 2g"],
+    "descricao": "Cefalosporina de quarta geração com amplo espectro, cobrindo gram-negativos (incluindo Pseudomonas aeruginosa) e gram-positivos (exceto MRSA e Enterococcus). Mais estável que cefalosporinas de 3ª geração frente a betalactamases cromossômicas. Indicada para infecções graves hospitalares, neutropenia febril, meningite e infecções por organismos resistentes a cefalosporinas de 3ª geração.",
+    "receita": "Sim",
+    "receita_display": "🔴 Receita Simples",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Exige prescrição médica — uso hospitalar.",
+    "receita_nota": "Dose usual: 1-2g IV a cada 8-12 horas. Para neutropenia febril de alto risco: 2g IV a cada 8 horas.",
+    "efeitos": "Encefalopatia/neurotoxicidade (especialmente em insuficiência renal sem ajuste de dose), diarreia, rash, colite por C. difficile.",
+    "aviso_grave": "Neurotoxicidade grave (confusão, mioclonias, convulsões, coma) em insuficiência renal sem ajuste de dose — é uma complicação grave e subreconhecida. Ajuste renal é OBRIGATÓRIO.",
+    "recomendacao": "⚠️ A encefalopatia por cefepima em pacientes com insuficiência renal é uma emergência — deve ser reconhecida prontamente. Ajuste de dose SEMPRE em ClCr <50 mL/min.",
+    "educacao": "A cefepima tem a característica de ser um 'zwitterion' — carrega carga positiva e negativa — o que permite atravessar melhor a membrana externa das bactérias gram-negativas, resultando em maior estabilidade frente a betalactamases.",
+    "resposta_rapida": [
+      "Cefalosporina de 4ª geração",
+      "Infecções graves, neutropenia febril",
+      "Uso hospitalar exclusivo",
+      "Neurotoxicidade em IR sem ajuste",
+      "Melhor estabilidade frente a betalactamases"
+    ],
+    "receita_obrigatoria": true,
+    "tipo_receita": "simples",
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Cefepima é mais forte que ceftriaxona?",
+        "resposta": "Tem espectro mais amplo — cobre Pseudomonas (que a ceftriaxona não cobre) e é mais resistente a betalactamases cromossômicas. É usada quando cefalosporinas de 3ª geração falham."
+      },
+      {
+        "pergunta": "Cefepima pode causar confusão mental?",
+        "resposta": "Sim. Encefalopatia é um efeito adverso sério, especialmente em pacientes com insuficiência renal que não tiveram ajuste de dose. Pode causar confusão, convulsões e coma — reversível com a suspensão."
+      },
+      {
+        "pergunta": "Qual a diferença entre cefepima e ceftazidima?",
+        "resposta": "A cefepima (4ª geração) tem atividade melhor contra gram-positivos que a ceftazidima (3ª geração) e maior estabilidade frente a algumas betalactamases. Ambas cobrem Pseudomonas."
+      },
+      {
+        "pergunta": "Cefepima cobre MRSA?",
+        "resposta": "Não. Nenhuma cefalosporina (exceto ceftarolina) cobre MRSA. Para MRSA, usa-se vancomicina ou linezolida."
+      },
+      {
+        "pergunta": "Por que ajustar cefepima na doença renal?",
+        "resposta": "A cefepima é excretada pelos rins. Em IR, acumula e atinge níveis tóxicos no SNC causando neurotoxicidade (encefalopatia). O ajuste de dose previne essa complicação grave."
+      }
+    ],
+    "descricao_seo": "Cefepima 1g - 2g (Maxipime) é uma cefalosporina de quarta geração de uso hospitalar, indicada para infecções graves por gram-negativos (incluindo Pseudomonas) e neutropenia febril. Os efeitos adversos mais relevantes são: neurotoxicidade (em insuficiência renal) e colite por C. difficile. Ajuste de dose obrigatório em insuficiência renal. Cefepima é de uso hospitalar com prescrição médica."
+  },
+  {
+    "nome": "Cloranfenicol 250mg - 500mg",
+    "generico": "Cloranfenicol",
+    "tipo": "Antibiótico — Fenicol",
+    "sinonimos": ["cloranfenicol", "quemicetina", "chloramphenicol", "cloranfenicol 250mg", "cloranfenicol 500mg"],
+    "descricao": "Antibiótico bacteriostático de amplo espectro (gram-positivos, gram-negativos, anaeróbios, Rickettsia, Chlamydia, Mycoplasma). Historicamente importante, hoje de uso restrito devido à toxicidade hematológica grave. Indicações atuais: febre tifoide resistente, meningite bacteriana sem alternativa, riquetsioses e como colírio para conjuntivites.",
+    "receita": "Sim",
+    "receita_display": "🔴 Receita Simples",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Exige prescrição médica.",
+    "receita_nota": "Via oral: 250-500mg a cada 6 horas por 7-14 dias. Colírio 0,5%: 1-2 gotas a cada 4-6 horas.",
+    "efeitos": "Supressão da medula óssea (dose-dependente e reversível), anemia aplástica idiossincrásica (rara mas potencialmente fatal), 'síndrome cinzenta' em neonatos, náusea.",
+    "aviso_grave": "Anemia aplástica — pode ocorrer mesmo com doses terapêuticas normais e pode ser irreversível (1:25.000-40.000 casos). Contraindicado em neonatos (síndrome cinzenta). Monitorar hemograma rigorosamente.",
+    "recomendacao": "⚠️ Uso sistêmico reservado para situações sem alternativa, dada a toxicidade hematológica. O uso do colírio é seguro — absorção sistêmica mínima pelo uso tópico ocular.",
+    "educacao": "O cloranfenicol foi um dos primeiros antibióticos de amplo espectro. Seu uso oral/IV foi drasticamente reduzido pelo risco de anemia aplástica. Hoje, antibióticos mais seguros substituem quase todas as indicações. O colírio ainda é muito usado.",
+    "resposta_rapida": [
+      "Antibiótico fenicol de amplo espectro",
+      "Riquetsioses, colírio ocular",
+      "Receita simples",
+      "Risco de anemia aplástica",
+      "Uso sistêmico restrito"
+    ],
+    "receita_obrigatoria": true,
+    "tipo_receita": "simples",
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Cloranfenicol ainda é usado?",
+        "resposta": "O uso sistêmico oral/IV é muito restrito hoje — apenas em situações sem alternativa mais segura, como riquetsioses. O colírio ainda é amplamente usado para conjuntivites bacterianas."
+      },
+      {
+        "pergunta": "Cloranfenicol colírio é seguro?",
+        "resposta": "Sim. O colírio 0,5% tem absorção sistêmica mínima, sendo seguro para uso ocular. O risco de toxicidade hematológica grave é do uso sistêmico (oral/IV), não do colírio."
+      },
+      {
+        "pergunta": "O que é síndrome cinzenta do cloranfenicol?",
+        "resposta": "É uma intoxicação grave em neonatos — cianose, hipotensão, colapso cardiovascular — causada pela incapacidade do fígado do recém-nascido de metabolizar o cloranfenicol. Por isso é contraindicado em neonatos."
+      },
+      {
+        "pergunta": "Por que cloranfenicol não é mais a primeira escolha?",
+        "resposta": "O risco de anemia aplástica (irreversível, potencialmente fatal), embora raro, levou ao desenvolvimento de alternativas mais seguras. Hoje reservado para situações específicas sem alternativa."
+      },
+      {
+        "pergunta": "Cloranfenicol serve para meningite?",
+        "resposta": "Historicamente sim. Hoje é reservado para meningite bacteriana em alérgicos graves a penicilinas sem outra opção, ou em contextos com poucos recursos. Antibióticos mais modernos são preferidos."
+      }
+    ],
+    "descricao_seo": "Cloranfenicol 250mg - 500mg (Quemicetina) é um antibiótico fenicol de amplo espectro com uso sistêmico restrito devido ao risco de anemia aplástica. Indicado para riquetsioses sem alternativa; como colírio 0,5% para conjuntivites bacterianas. O uso do colírio é seguro. Cloranfenicol é vendido somente com receita médica."
+  },
+  {
+    "nome": "Valaciclovir 500mg - 1000mg",
+    "generico": "Valaciclovir cloridrato",
+    "tipo": "Antiviral — Pró-fármaco do aciclovir (Herpesvírus)",
+    "sinonimos": ["valaciclovir", "valtrex", "valacyclovir", "valaciclovir 500mg", "valaciclovir 1000mg"],
+    "descricao": "Pró-fármaco oral do aciclovir com biodisponibilidade muito superior (54-55% vs 15-30% do aciclovir). Após absorção, é convertido em aciclovir no intestino e fígado. Indicado para herpes labial (HSV-1), herpes genital (HSV-2), herpes-zóster (VZV) e prevenção de infecções por herpes em imunossuprimidos.",
+    "receita": "Sim",
+    "receita_display": "🔴 Receita Simples",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Exige prescrição médica.",
+    "receita_nota": "Herpes labial: 2g 2x/dia por 1 dia. Herpes genital episódico: 500mg 2x/dia por 3-5 dias. Herpes-zóster: 1000mg 3x/dia por 7 dias. Profilaxia HSV: 500mg 1x/dia.",
+    "efeitos": "Cefaleia, náusea, tontura. Em doses altas ou IR grave: trombocitopenia trombótica/síndrome hemolítico-urêmica (raro).",
+    "aviso_grave": "Manter hidratação adequada — nefrotoxicidade em doses altas ou desidratação. Ajuste em insuficiência renal. Iniciar o mais precoce possível para máxima eficácia.",
+    "recomendacao": "⚠️ A eficácia é maior quando iniciado nas primeiras 24-48 horas do aparecimento das lesões. Para herpes-zóster: máxima eficácia nos primeiros 3 dias dos sintomas.",
+    "educacao": "O valaciclovir é significativamente mais conveniente que o aciclovir oral por sua maior biodisponibilidade — permite doses menos frequentes. Para herpes-zóster, reduz a duração das vesículas e o risco de neuralgia pós-herpética se iniciado precocemente.",
+    "resposta_rapida": [
+      "Pró-fármaco do aciclovir",
+      "Herpes labial, genital, zóster",
+      "Receita simples",
+      "Iniciar nas primeiras 24-48h",
+      "Melhor biodisponibilidade que aciclovir"
+    ],
+    "receita_obrigatoria": true,
+    "tipo_receita": "simples",
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Valaciclovir é melhor que aciclovir?",
+        "resposta": "Para uso oral sim — o valaciclovir tem biodisponibilidade muito maior (54% vs 15-30%), permitindo doses menos frequentes com a mesma eficácia. O aciclovir IV ainda é usado para casos graves."
+      },
+      {
+        "pergunta": "Valaciclovir cura herpes?",
+        "resposta": "Não. O herpes é causado por vírus que permanecem latentes nos gânglios nervosos para sempre. O valaciclovir controla as crises, reduz a duração e gravidade, e pode prevenir recorrências — mas não elimina o vírus."
+      },
+      {
+        "pergunta": "Com que rapidez valaciclovir age no herpes labial?",
+        "resposta": "Iniciado precocemente (no pródromo — coceira ou formigamento antes da bolha), o regime de dose única de 1 dia pode reduzir a crise significativamente. A bolha pode não chegar a se formar."
+      },
+      {
+        "pergunta": "Valaciclovir pode ser tomado para prevenir herpes?",
+        "resposta": "Sim. Em pacientes com herpes genital recorrente, valaciclovir 500mg/dia pode ser usado como supressão crônica — reduz as recorrências e a transmissão ao parceiro."
+      },
+      {
+        "pergunta": "Posso tomar valaciclovir na gravidez?",
+        "resposta": "Pode ser usado com cautela, especialmente no 3º trimestre para prevenir herpes neonatal. O médico avaliará o risco-benefício — o herpes neonatal é grave e justifica o tratamento."
+      }
+    ],
+    "descricao_seo": "Valaciclovir 500mg - 1000mg (Valtrex) é o pró-fármaco oral do aciclovir com maior biodisponibilidade, indicado para herpes labial, herpes genital e herpes-zóster. Os efeitos colaterais mais relatados são: cefaleia, náusea e tontura. Iniciar nas primeiras 24-48 horas para máxima eficácia. Valaciclovir é vendido somente com receita médica."
+  },
+  {
+    "nome": "Dolutegravir 50mg",
+    "generico": "Dolutegravir sódico",
+    "tipo": "Antirretroviral — Inibidor de integrase (INSTI)",
+    "sinonimos": ["dolutegravir", "tivicay", "DTG", "dolutegravir 50mg"],
+    "descricao": "Antirretroviral inibidor da integrase do HIV de segunda geração, com alta barreira genética à resistência. Indicado para tratamento de HIV-1 e HIV-2 em adultos e crianças, em combinação com outros antirretrovirais. Amplamente usado no protocolo brasileiro de HIV por sua eficácia, segurança e baixo custo (disponível no SUS).",
+    "receita": "Sim",
+    "receita_display": "🔴 Receita de Controle Especial",
+    "receita_cor": "azul",
+    "receita_descricao": "Medicamento antirretroviral — fornecido pelo SUS mediante prescrição e acompanhamento em serviço de saúde especializado.",
+    "receita_nota": "Dose padrão: 50mg 1x/dia. Quando combinado com indutores do CYP3A4/UGT1A1 (rifampicina, carbamazepina): 50mg 2x/dia.",
+    "efeitos": "Cefaleia, insônia, náusea, ganho de peso (especialmente combinado com tenofovir/entricitabina), elevação de creatinina (inibição tubular sem dano renal real).",
+    "aviso_grave": "Teratogenicidade: defeitos de tubo neural documentados em exposição no período periconcepção — contraindicado ou de uso com extremo cuidado em mulheres que podem engravidar sem contracepção. Interações com rifampicina, antiácidos com magnésio, dolutegravir deve ser tomado 2h antes ou 6h após.",
+    "recomendacao": "⚠️ Separar de antiácidos com Mg/Al/Fe/Ca por 2h. Mulheres em idade fértil: usar contracepção eficaz. Monitorar o peso — ganho de peso é um efeito adverso relevante.",
+    "educacao": "O dolutegravir substituiu o efavirenz como base do protocolo de HIV no Brasil (2017) por sua alta barreira genética, simplicidade posológica (1x/dia) e menores efeitos neuropsiquiátricos. É parte do comprimido 3-em-1 TLD (tenofovir + lamivudina + dolutegravir).",
+    "resposta_rapida": [
+      "Antirretroviral inibidor de integrase",
+      "HIV-1 e HIV-2",
+      "Fornecido pelo SUS",
+      "Cuidado na gestação — tubo neural",
+      "Separar de antiácidos 2h"
+    ],
+    "receita_obrigatoria": true,
+    "tipo_receita": "especial",
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Dolutegravir é fornecido pelo SUS?",
+        "resposta": "Sim. O dolutegravir é parte do protocolo nacional de HIV e é fornecido gratuitamente pelo SUS nas Unidades Dispensadoras de Medicamentos (UDM) para pacientes em acompanhamento."
+      },
+      {
+        "pergunta": "Dolutegravir pode causar defeitos no bebê?",
+        "resposta": "Estudos iniciais mostraram aumento de defeitos no tubo neural em exposição periconcepção. Mulheres em idade fértil devem usar contracepção eficaz durante o uso. O médico avaliará caso a caso na gestação."
+      },
+      {
+        "pergunta": "Por que minha creatinina subiu com dolutegravir?",
+        "resposta": "O dolutegravir inibe a secreção tubular de creatinina — a creatinina sérica sobe em média 0,1-0,15 mg/dL sem representar dano renal real. A função renal (taxa de filtração) não se altera."
+      },
+      {
+        "pergunta": "Dolutegravir pode ser tomado em jejum?",
+        "resposta": "Sim, pode ser tomado com ou sem alimentos. Porém, quando tomado com refeição rica em cálcio ou antiácidos, a absorção é reduzida — separar por pelo menos 2 horas nesses casos."
+      },
+      {
+        "pergunta": "Dolutegravir causa resistência ao HIV facilmente?",
+        "resposta": "Não. Tem alta barreira genética à resistência — são necessárias múltiplas mutações simultâneas para o HIV resistir, o que é raro com adesão adequada ao tratamento."
+      }
+    ],
+    "descricao_seo": "Dolutegravir 50mg (Tivicay) é um antirretroviral inibidor de integrase de segunda geração indicado para HIV-1 e HIV-2, com alta barreira à resistência. Fornecido pelo SUS. Os efeitos colaterais mais relatados são: cefaleia, insônia, náusea e ganho de peso. Cuidado em mulheres em idade fértil. Dolutegravir é vendido somente com prescrição médica especializada."
+  },
+  {
+    "nome": "Lamivudina 150mg - 300mg",
+    "generico": "Lamivudina",
+    "tipo": "Antirretroviral — Inibidor nucleosídeo da transcriptase reversa (ITRN)",
+    "sinonimos": ["lamivudina", "epivir", "3TC", "lamivudine", "lamivudina 150mg", "lamivudina 300mg"],
+    "descricao": "Inibidor nucleosídeo da transcriptase reversa (ITRN) ativo contra HIV-1, HIV-2 e hepatite B crônica (HBV). Análogo da citidina que inibe a transcriptase reversa do HIV e a DNA polimerase do HBV. Componente fundamental dos esquemas antirretrovirais combinados e do tratamento da hepatite B.",
+    "receita": "Sim",
+    "receita_display": "🔴 Receita de Controle Especial",
+    "receita_cor": "azul",
+    "receita_descricao": "Antirretroviral/antivirais — fornecido pelo SUS mediante prescrição especializada.",
+    "receita_nota": "HIV: 150mg 2x/dia ou 300mg 1x/dia. Hepatite B: 100mg 1x/dia. Disponível em comprimido 3-em-1 com tenofovir e dolutegravir (TLD) no SUS.",
+    "efeitos": "Cefaleia, náusea, diarreia, fatiga. Raro: pancreatite, neuropatia periférica, acidose lática (raro).",
+    "aviso_grave": "Reativação de hepatite B ao suspender em coinfectados HIV/HBV — nunca suspender abruptamente em portadores de HBV. Acidose lática com esteato-hepatite — risco aumentado em obesos e mulheres.",
+    "recomendacao": "⚠️ Em coinfectados HIV/HBV, a lamivudina trata ambas as infecções simultaneamente. Nunca suspender sem orientação — pode haver reativação grave da hepatite B.",
+    "educacao": "A lamivudina é um dos antirretrovirais mais tolerados e é componente do comprimido TLD (Tenofovir+Lamivudina+Dolutegravir) — regime padrão de primeira linha no Brasil desde 2019.",
+    "resposta_rapida": [
+      "ITRN — antirretroviral e anti-HBV",
+      "HIV-1, HIV-2, Hepatite B",
+      "Fornecido pelo SUS",
+      "Não suspender em HIV/HBV (reativação HBV)",
+      "Componente do TLD"
+    ],
+    "receita_obrigatoria": true,
+    "tipo_receita": "especial",
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Lamivudina serve para hepatite B?",
+        "resposta": "Sim. Na dose de 100mg/dia, é usada para hepatite B crônica — suprime a replicação do HBV. Porém, resistência ao HBV desenvolve-se com o tempo, sendo preferido tenofovir para hepatite B a longo prazo."
+      },
+      {
+        "pergunta": "O que é o TLD?",
+        "resposta": "TLD é o comprimido combinado Tenofovir + Lamivudina + Dolutegravir — o regime de primeira linha para HIV no Brasil. Um único comprimido ao dia com três antirretrovirais diferentes, simplificando muito o tratamento."
+      },
+      {
+        "pergunta": "Lamivudina pode ser tomada na gravidez?",
+        "resposta": "Sim, é amplamente usada em gestantes com HIV para prevenção da transmissão vertical (mãe para filho). Tem boa segurança documentada na gestação."
+      },
+      {
+        "pergunta": "Por que não posso parar a lamivudina se tenho hepatite B?",
+        "resposta": "Em coinfectados HIV/HBV, parar a lamivudina pode causar reativação grave da hepatite B — com hepatite fulminante potencialmente fatal. Toda mudança de esquema deve considerar a coinfecção."
+      },
+      {
+        "pergunta": "Lamivudina causa problemas renais?",
+        "resposta": "A lamivudina em si tem pouca toxicidade renal. O tenofovir (frequentemente associado) tem maior potencial nefrotóxico — a função renal deve ser monitorada no regime TLD."
+      }
+    ],
+    "descricao_seo": "Lamivudina 150mg - 300mg (Epivir/3TC) é um antirretroviral ITRN indicado para HIV-1, HIV-2 e hepatite B crônica. Componente do TLD (regime padrão de HIV no Brasil). Os efeitos colaterais mais relatados são: cefaleia, náusea e diarreia. Não suspender em coinfectados HIV/HBV — risco de reativação da hepatite B. Fornecido pelo SUS."
+  },
+  {
+    "nome": "Zidovudina 300mg",
+    "generico": "Zidovudina (AZT)",
+    "tipo": "Antirretroviral — Inibidor nucleosídeo da transcriptase reversa (ITRN)",
+    "sinonimos": ["zidovudina", "AZT", "retrovir", "zidovudine", "zidovudina 300mg"],
+    "descricao": "Primeiro antirretroviral aprovado para HIV (1987). Análogo da timidina que inibe a transcriptase reversa do HIV. Ainda usado em prevenção da transmissão vertical (mãe-filho), profilaxia pós-exposição (PEP) e em regimes especiais. Tem maior toxicidade que antirretrovirais mais modernos.",
+    "receita": "Sim",
+    "receita_display": "🔴 Receita de Controle Especial",
+    "receita_cor": "azul",
+    "receita_descricao": "Antirretroviral — fornecido pelo SUS mediante prescrição especializada.",
+    "receita_nota": "Dose para adultos: 300mg 2x/dia. PEP (profilaxia pós-exposição): como parte do esquema por 28 dias. Profilaxia vertical: conforme protocolo obstetrícia.",
+    "efeitos": "Anemia macrocítica, neutropenia, miopatia, cefaleia, náusea, insônia, lipodistrofia. Mielossupressão é o principal efeito adverso.",
+    "aviso_grave": "Mielossupressão grave (anemia e neutropenia) — monitorar hemograma regularmente. Acidose lática com esteato-hepatite rara mas potencialmente fatal. Miopatia com CPK elevada.",
+    "recomendacao": "⚠️ Monitorar hemograma a cada 3 meses — anemia macrocítica é o efeito adverso mais comum. Em anemia grave, pode ser necessário transfusão ou troca do antirretroviral.",
+    "educacao": "O AZT foi o primeiro tratamento para HIV, revolucionando a medicina em 1987. Hoje não é mais a primeira escolha para tratamento (foi substituído por tenofovir), mas ainda tem papel importante na prevenção da transmissão vertical e na PEP.",
+    "resposta_rapida": [
+      "1º antirretroviral aprovado (1987)",
+      "HIV, prevenção vertical, PEP",
+      "Fornecido pelo SUS",
+      "Principal risco: anemia e neutropenia",
+      "Monitorar hemograma"
+    ],
+    "receita_obrigatoria": true,
+    "tipo_receita": "especial",
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "AZT ainda é usado para HIV?",
+        "resposta": "Para tratamento de primeira linha, foi substituído pelo tenofovir (menos tóxico). Ainda tem uso importante na prevenção da transmissão vertical durante o parto e na PEP (profilaxia pós-exposição)."
+      },
+      {
+        "pergunta": "Por que AZT causa anemia?",
+        "resposta": "O AZT inibe as células percursoras da medula óssea — causa anemia macrocítica (glóbulos vermelhos grandes mas em menor número) e neutropenia. Monitoramento do hemograma é essencial."
+      },
+      {
+        "pergunta": "O que é PEP e quando se usa zidovudina?",
+        "resposta": "PEP (Profilaxia Pós-Exposição) é o uso de antirretrovirais após exposição de risco ao HIV (acidente com agulha, relação sexual desprotegida de risco). O esquema preferido atualmente inclui tenofovir + lamivudina + dolutegravir."
+      },
+      {
+        "pergunta": "Zidovudina evita que o bebê de mãe HIV+ nasça infectado?",
+        "resposta": "Sim. A profilaxia com antirretrovirais (incluindo AZT) durante a gestação e parto, combinada com fórmula infantil e, em alguns casos, AZT para o recém-nascido, reduz a transmissão vertical para <2%."
+      },
+      {
+        "pergunta": "Zidovudina pode causar problema muscular?",
+        "resposta": "Sim. Miopatia com elevação de CPK pode ocorrer com uso prolongado. Dor e fraqueza muscular progressiva devem ser reportadas ao médico imediatamente."
+      }
+    ],
+    "descricao_seo": "Zidovudina 300mg (AZT/Retrovir) é o primeiro antirretroviral aprovado para HIV (1987). Ainda usado na prevenção da transmissão vertical e na profilaxia pós-exposição (PEP). Os efeitos colaterais mais relatados são: anemia macrocítica, neutropenia e miopatia. Monitorar hemograma regularmente. Fornecido pelo SUS com prescrição especializada."
+  },
+  {
+    "nome": "Praziquantel 600mg",
+    "generico": "Praziquantel",
+    "tipo": "Antiparasitário — Anti-helmíntico para cestódeos e trematódeos",
+    "sinonimos": ["praziquantel", "cestox", "biltricide", "praziquantel 600mg"],
+    "descricao": "Anti-helmíntico de amplo espectro contra cestódeos (tênias) e trematódeos (esquistossoma, fascíolas). Age aumentando a permeabilidade da membrana celular do parasita ao cálcio, causando contração muscular espástica e morte. Indicado para esquistossomose, neurocisticercose, teníase, cisticercose e outras infecções por trematódeos.",
+    "receita": "Sim",
+    "receita_display": "🔴 Receita Simples",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Exige prescrição médica.",
+    "receita_nota": "Esquistossomose: 40-60mg/kg dose única. Teníase: 5-10mg/kg dose única. Neurocisticercose: 50mg/kg/dia por 15-30 dias (com dexametasona). Tomar com refeição.",
+    "efeitos": "Náusea, dor abdominal, cefaleia, tontura, sonolência, urticária. Na neurocisticercose: exacerbação inflamatória cerebral (por isso corticoide associado).",
+    "aviso_grave": "Na neurocisticercose: reação inflamatória cerebral grave pode ocorrer pela morte dos cistos — SEMPRE associar corticoide (dexametasona). Contraindicado em cisticercose ocular — pode causar lesão ocular grave.",
+    "recomendacao": "⚠️ Não usar em cisticercose ocular — a resposta inflamatória pode destruir o olho. Na neurocisticercose, o corticoide é obrigatório para controlar a inflamação cerebral.",
+    "educacao": "O praziquantel é um dos medicamentos essenciais da OMS. Para a esquistossomose — endêmica em várias regiões do Brasil — é o tratamento de escolha em dose única, com excelente eficácia.",
+    "resposta_rapida": [
+      "Anti-helmíntico tênias e esquistossoma",
+      "Esquistossomose, teníase, neurocisticercose",
+      "Receita simples",
+      "Na neurocisticercose: sempre com corticoide",
+      "Contraindicado: cisticercose ocular"
+    ],
+    "receita_obrigatoria": true,
+    "tipo_receita": "simples",
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Praziquantel serve para teníase (solitária)?",
+        "resposta": "Sim. É eficaz contra Taenia solium e Taenia saginata em dose única de 5-10mg/kg. Alternativa: niclosamida. Após o tratamento, confirmar eliminação do parasita pelas fezes."
+      },
+      {
+        "pergunta": "Por que preciso tomar corticoide com praziquantel para neurocisticercose?",
+        "resposta": "A morte dos cistos cerebrais de Taenia solium causa intensa reação inflamatória — que pode levar a edema cerebral, convulsões e deterioração clínica. O corticoide (dexametasona) controla essa resposta."
+      },
+      {
+        "pergunta": "Praziquantel trata esquistossomose?",
+        "resposta": "Sim. É o tratamento de escolha para esquistossomose (Schistosoma mansoni) em dose única — muito eficaz e bem tolerado. Medicamento essencial no controle dessa endemia no Brasil."
+      },
+      {
+        "pergunta": "Praziquantel pode ser usado em crianças?",
+        "resposta": "Sim, a partir de 4 anos de idade. Abaixo dessa idade, usar com avaliação médica cuidadosa. A dose é calculada pelo peso."
+      },
+      {
+        "pergunta": "Praziquantel pode ser tomado em jejum?",
+        "resposta": "Recomenda-se tomar com refeição — reduz a náusea e pode aumentar a absorção. Engolir inteiro com água, sem mastigar — tem sabor amargo intenso."
+      }
+    ],
+    "descricao_seo": "Praziquantel 600mg (Cestox/Biltricide) é um anti-helmíntico de amplo espectro indicado para esquistossomose, teníase e neurocisticercose. Age causando morte espástica dos parasitas por influxo de cálcio. Os efeitos colaterais mais relatados são: náusea, cefaleia e tontura. Na neurocisticercose: sempre associar corticoide. Praziquantel é vendido somente com receita médica."
+  },
+  {
+    "nome": "Pirantel 250mg",
+    "generico": "Embonato de pirantel / Pamoato de pirantel",
+    "tipo": "Antiparasitário — Anti-helmíntico para nematelmintos",
+    "sinonimos": ["pirantel", "combantrin", "helmintox", "pirantel 250mg", "pamoato de pirantel"],
+    "descricao": "Anti-helmíntico que age como agonista nicotínico despolarizante, causando paralisia espástica e morte dos parasitas. Eficaz contra Ascaris lumbricoides (lombriga), Enterobius vermicularis (oxiúros/enterobíase) e Ancylostoma duodenale (ancilostomíase). Baixa absorção sistêmica — age localmente no intestino.",
+    "receita": "Não",
+    "receita_display": "🟡 Venda Livre",
+    "receita_cor": "amarelo",
+    "receita_descricao": "Disponível sem receita médica.",
+    "receita_nota": "Dose única: 10mg/kg para ascaridíase. Para oxiúros: 10mg/kg, repetir após 2 semanas (para reinfecção). Tomar em qualquer momento do dia, com ou sem alimentos.",
+    "efeitos": "Náusea, dor abdominal leve, diarreia transitória, cefaleia. Bem tolerado por ser pouco absorvido.",
+    "aviso_grave": "Não usar em doença hepática grave. Com mebendazol — antagonismo (não combinar).",
+    "recomendacao": "⚠️ Para oxiúros: tratar todos os membros da família simultaneamente e repetir após 2 semanas — os ovos contaminam roupas e ambiente e reinfecção é muito comum.",
+    "educacao": "Para oxiúros (Enterobius), a reinfecção é muito comum — ovos persistem no ambiente por semanas. Lavar roupas de cama e cuecas em água quente, cortar unhas e lavar as mãos com frequência são medidas essenciais complementares.",
+    "resposta_rapida": [
+      "Anti-helmíntico para lombriga/oxiúros",
+      "Ascaridíase, enterobiase, ancilostomíase",
+      "Venda livre",
+      "Dose única",
+      "Oxiúros: repetir após 2 semanas"
+    ],
+    "receita_obrigatoria": false,
+    "tipo_receita": "isento",
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Pirantel serve para lombriga?",
+        "resposta": "Sim. É muito eficaz contra Ascaris lumbricoides (lombriga) em dose única. As lombrigas mortas são eliminadas pelas fezes nos dias seguintes ao tratamento."
+      },
+      {
+        "pergunta": "Por que tratar a família inteira para oxiúros?",
+        "resposta": "Os oxiúros são altamente contagiosos — ovos microscópicos contaminam roupas, lençóis e objetos. Tratar apenas o paciente sem tratar os contatos resulta em reinfecção rápida."
+      },
+      {
+        "pergunta": "Qual a diferença entre pirantel e albendazol?",
+        "resposta": "Ambos tratam lombriga e oxiúros eficazmente. O albendazol tem espectro mais amplo (giardia, toxocara). O pirantel tem a vantagem de ser pouco absorvido sistemicamente, sendo mais seguro em grávidas (com ressalvas)."
+      },
+      {
+        "pergunta": "Pirantel pode ser usado em crianças pequenas?",
+        "resposta": "Pode ser usado em crianças acima de 6 meses com ajuste de dose por peso (suspensão). Para crianças menores, consultar médico ou pediatra."
+      },
+      {
+        "pergunta": "Posso tomar pirantel na gravidez?",
+        "resposta": "Deve ser evitado no 1º trimestre. No 2º e 3º trimestres, o risco é baixo pela mínima absorção sistêmica, mas o uso deve ser avaliado pelo médico. Mebendazol também é evitado na gravidez."
+      }
+    ],
+    "descricao_seo": "Pirantel 250mg (Combantrin) é um anti-helmíntico de venda livre indicado para ascaridíase (lombriga), enterobiase (oxiúros) e ancilostomíase. Age em dose única causando paralisia dos vermes. Os efeitos colaterais mais relatados são: náusea e dor abdominal leve. Para oxiúros, repetir após 2 semanas e tratar todos os familiares."
+  },
+  {
+    "nome": "Latanoprosta 0,005% colírio",
+    "generico": "Latanoprosta",
+    "tipo": "Antiglaucomatoso — Análogo de prostaglandina F2α",
+    "sinonimos": ["latanoprosta", "xalatan", "latanoprost", "latanoprosta colírio", "latanoprosta 0,005%"],
+    "descricao": "Análogo sintético da prostaglandina F2α que reduz a pressão intraocular (PIO) aumentando o escoamento do humor aquoso pela via uveoescleral. É o antiglaucomatoso tópico mais eficaz e mais usado mundialmente. Indicado para glaucoma de ângulo aberto e hipertensão ocular.",
+    "receita": "Sim",
+    "receita_display": "🔴 Receita Simples",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Exige prescrição médica — uso oftalmológico.",
+    "receita_nota": "Dose: 1 gota no(s) olho(s) afetado(s) 1 vez à noite. Não aumentar a frequência — mais de 1x/dia pode reduzir a eficácia.",
+    "efeitos": "Hiperemia conjuntival (olho vermelho), pigmentação da íris (escurecimento permanente — marrom), aumento dos cílios (lentificação, escurecimento, espessamento), ardor local.",
+    "aviso_grave": "Mudança na cor da íris é permanente e irreversível. Pode reativar herpes ocular latente. Pigmentação periocular da pele (área ao redor dos olhos).",
+    "recomendacao": "⚠️ Aplicar à noite para máximo efeito redutor de PIO. Fechar os olhos por 1-2 minutos após a gota e comprimir o canto interno do olho (ponto lacrimal) para reduzir absorção sistêmica.",
+    "educacao": "O glaucoma geralmente não apresenta sintomas até estágios avançados. A redução da PIO com latanoprosta protege o nervo óptico e preserva o campo visual. A adesão ao tratamento diário é fundamental, mesmo sem sintomas.",
+    "resposta_rapida": [
+      "Análogo de prostaglandina antiglaucomatoso",
+      "Glaucoma de ângulo aberto, hipertensão ocular",
+      "Receita simples",
+      "1 gota à noite",
+      "Escurece íris permanentemente"
+    ],
+    "receita_obrigatoria": true,
+    "tipo_receita": "simples",
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Latanoprosta muda a cor dos olhos?",
+        "resposta": "Pode escurecer a íris de forma permanente e irreversível — mais comum em olhos de cor mista (avelã, verde) que tendem a ficar mais marrons. Em olhos azuis ou uniformemente marrons, a mudança é rara."
+      },
+      {
+        "pergunta": "Por que a latanoprosta é usada à noite?",
+        "resposta": "Sua eficácia máxima é atingida com aplicação noturna — a redução da PIO é maior quando aplicada à noite. Aplicação pela manhã tem eficácia ligeiramente menor."
+      },
+      {
+        "pergunta": "Latanoprosta pode aumentar os cílios?",
+        "resposta": "Sim. Aumento do comprimento, espessamento e escurecimento dos cílios são efeitos comuns. Esse efeito é usado cosmeticamente em produtos para crescimento de cílios (bimatoprosta)."
+      },
+      {
+        "pergunta": "Posso usar latanoprosta com lentes de contato?",
+        "resposta": "Remover as lentes antes de aplicar e aguardar 15 minutos para recolocá-las — o conservante (cloreto de benzalcônio) pode ser absorvido pela lente e irritar o olho."
+      },
+      {
+        "pergunta": "Latanoprosta precisa ser guardada na geladeira?",
+        "resposta": "O frasco lacrado deve ser mantido refrigerado (2-8°C). Após aberto, pode ser armazenado à temperatura ambiente por até 6 semanas. Verificar a bula específica do produto."
+      }
+    ],
+    "descricao_seo": "Latanoprosta 0,005% colírio (Xalatan) é o análogo de prostaglandina antiglaucomatoso mais eficaz, indicado para glaucoma de ângulo aberto e hipertensão ocular. Aplicar 1 gota à noite. Os efeitos colaterais mais relatados são: hiperemia conjuntival, escurecimento permanente da íris e aumento dos cílios. Latanoprosta é vendida somente com receita médica — uso oftalmológico."
+  },
+  {
+    "nome": "Timolol 0,25% - 0,5% colírio",
+    "generico": "Maleato de timolol",
+    "tipo": "Antiglaucomatoso — Beta-bloqueador não seletivo tópico",
+    "sinonimos": ["timolol", "timoptol", "timolol colírio", "timolol 0,25%", "timolol 0,5%"],
+    "descricao": "Beta-bloqueador não seletivo tópico que reduz a produção de humor aquoso pelo corpo ciliar, diminuindo a pressão intraocular (PIO). Um dos antiglaucomatosos mais antigos e amplamente usados. Disponível em solução aquosa e em gel (TIMOLOL GFS) para administração única diária.",
+    "receita": "Sim",
+    "receita_display": "🔴 Receita Simples",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Exige prescrição médica — uso oftalmológico.",
+    "receita_nota": "1 gota no olho afetado 2x/dia (solução) ou 1 vez pela manhã (gel). Começar com 0,25% e aumentar para 0,5% se necessário.",
+    "efeitos": "Ardor local, visão borrada transitória, olho seco. Sistêmicos: bradicardia, broncoespasmo, hipotensão, fadiga, depressão.",
+    "aviso_grave": "Absorção sistêmica ocorre pelo ducto nasolacrimal — suficiente para causar broncoespasmo grave em asmáticos e DPOC, bradicardia em cardíacos. CONTRAINDICADO em asma, DPOC grave, bradiarritmias, bloqueio AV.",
+    "recomendacao": "⚠️ Comprimir o canto interno do olho por 1-2 min após aplicação (oclusão punctal) — reduz a absorção sistêmica em até 70%. Sempre questionar asma/DPOC/arritmias antes de prescrever.",
+    "educacao": "Mesmo sendo um colírio, o timolol pode causar efeitos sistêmicos significativos pelo escoamento nasolacrimal. É uma causa subestimada de broncoespasmo e bradicardia em pacientes que 'não tomam medicamentos para pressão'.",
+    "resposta_rapida": [
+      "Beta-bloqueador antiglaucomatoso",
+      "Glaucoma de ângulo aberto",
+      "Receita simples",
+      "Contraindicado em asma e DPOC",
+      "Pode causar bradicardia sistêmica"
+    ],
+    "receita_obrigatoria": true,
+    "tipo_receita": "simples",
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Colírio de timolol pode causar falta de ar?",
+        "resposta": "Sim. Mesmo sendo colírio, o timolol é absorvido sistemicamente pelo canal lacrimal e pode causar broncoespasmo em pacientes com asma ou DPOC. É contraindicado nessas condições."
+      },
+      {
+        "pergunta": "Timolol pode ser combinado com latanoprosta?",
+        "resposta": "Sim. Essa é uma das combinações mais usadas no glaucoma — agem por mecanismos diferentes (timolol reduz produção, latanoprosta aumenta drenagem). Existe até colírio combinado (Xalacom)."
+      },
+      {
+        "pergunta": "Timolol colírio afeta a frequência cardíaca?",
+        "resposta": "Pode. A absorção sistêmica pelo canal nasolacrimal causa bradicardia em alguns pacientes. Fechar os olhos e comprimir o canto interno após a gota minimiza esse efeito."
+      },
+      {
+        "pergunta": "Posso usar timolol se tomo betabloqueador oral?",
+        "resposta": "Com cautela — o efeito pode ser aditivo, aumentando o risco de bradicardia excessiva e hipotensão. O oftalmologista e o cardiologista devem estar cientes dos dois tratamentos."
+      },
+      {
+        "pergunta": "Timolol em gel precisa ser aplicado só uma vez por dia?",
+        "resposta": "Sim. A formulação em gel (Timolol GFS) permite aplicação única diária pela manhã, com eficácia similar à solução 2x/dia, melhorando a adesão ao tratamento."
+      }
+    ],
+    "descricao_seo": "Timolol 0,25% - 0,5% colírio (Timoptol) é um beta-bloqueador tópico antiglaucomatoso que reduz a produção de humor aquoso. Indicado para glaucoma e hipertensão ocular. Os efeitos colaterais mais relevantes são: broncoespasmo e bradicardia por absorção sistêmica. Contraindicado em asma, DPOC e bradiarritmias. Timolol é vendido somente com receita médica."
+  },
+  {
+    "nome": "Dorzolamida 2% colírio",
+    "generico": "Cloridrato de dorzolamida",
+    "tipo": "Antiglaucomatoso — Inibidor da anidrase carbônica tópico",
+    "sinonimos": ["dorzolamida", "trusopt", "dorzolamide", "dorzolamida colírio", "dorzolamida 2%"],
+    "descricao": "Inibidor tópico da anidrase carbônica que reduz a formação de humor aquoso pelo corpo ciliar, diminuindo a pressão intraocular. Indicado para glaucoma de ângulo aberto e hipertensão ocular, geralmente como adjuvante quando a monoterapia é insuficiente. Frequentemente disponível em combinação com timolol (Cosopt).",
+    "receita": "Sim",
+    "receita_display": "🔴 Receita Simples",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Exige prescrição médica — uso oftalmológico.",
+    "receita_nota": "1 gota no olho afetado 3x/dia (monossomia) ou 2x/dia na associação com timolol (Cosopt).",
+    "efeitos": "Ardor/picada intensa na aplicação, sabor amargo (absorção sistêmica), olho seco, visão borrada transitória. Sistêmico raro: acidose metabólica.",
+    "aviso_grave": "Contraindicado em insuficiência renal grave — a dorzolamida é excretada pelos rins. Reatividade cruzada com alergia a sulfonamidas (sulfa). Monitorar em acidose metabólica.",
+    "recomendacao": "⚠️ O ardor intenso na aplicação é esperado e não indica contraindicação. Separar a aplicação de outros colírios por pelo menos 5 minutos. Em insuficiência renal, preferir brimonidina.",
+    "educacao": "A dorzolamida foi o primeiro inibidor de anidrase carbônica desenvolvido para uso tópico — antes, só existia a acetazolamida oral com seus efeitos sistêmicos. A combinação dorzolamida + timolol (Cosopt) simplifica o regime.",
+    "resposta_rapida": [
+      "Inibidor de anidrase carbônica tópico",
+      "Glaucoma, hipertensão ocular",
+      "Receita simples",
+      "Ardor intenso na aplicação é esperado",
+      "Contraindicado em IR grave e alergia à sulfa"
+    ],
+    "receita_obrigatoria": true,
+    "tipo_receita": "simples",
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Por que a dorzolamida arde tanto?",
+        "resposta": "A dorzolamida tem pH ácido para ser estável em solução — esse pH causa ardor intenso na aplicação. É um efeito esperado e não significa problema. Algumas formulações têm aditivos para reduzir o desconforto."
+      },
+      {
+        "pergunta": "Dorzolamida e alergia à sulfa: posso usar?",
+        "resposta": "Com cautela. A dorzolamida é uma sulfonamida — existe possibilidade de reatividade cruzada em alérgicos à sulfa. Informar ao oftalmologista sobre qualquer alergia prévia."
+      },
+      {
+        "pergunta": "O que é Cosopt?",
+        "resposta": "Cosopt é a combinação de dorzolamida 2% + timolol 0,5% em um único frasco. Simplifica o tratamento do glaucoma — uma gota 2x/dia em vez de dois colírios separados."
+      },
+      {
+        "pergunta": "Posso sentir gosto amargo ao usar dorzolamida?",
+        "resposta": "Sim. O sabor amargo após a gota é comum — causado pela pequena quantidade que escoa para a garganta pelo canal lacrimal. É normal e não indica problema."
+      },
+      {
+        "pergunta": "Dorzolamida pode ser usada em gravidez?",
+        "resposta": "Não é recomendada na gravidez — dados insuficientes de segurança. O oftalmologista avaliará alternativas mais seguras para glaucoma durante a gestação."
+      }
+    ],
+    "descricao_seo": "Dorzolamida 2% colírio (Trusopt) é um inibidor tópico da anidrase carbônica antiglaucomatoso, indicado para glaucoma de ângulo aberto e hipertensão ocular. Causa ardor intenso na aplicação (esperado). Contraindicado em insuficiência renal grave e alergia à sulfonamida. Dorzolamida é vendida somente com receita médica — uso oftalmológico."
+  }
+]
