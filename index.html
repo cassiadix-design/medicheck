@@ -1964,6 +1964,15 @@ border-radius:0 0 20px 20px;
                         <option value="dipirona">Dipirona gotas 500mg/mL</option>
                         <option value="amoxicilina">Amoxicilina suspensão 250mg/5mL</option>
                         <option value="nimesulida">Nimesulida suspensão 50mg/mL</option>
+                        <option disabled>── Antibióticos / Anti-infecciosos ──</option>
+                        <option value="azitromicina">Azitromicina suspensão 200mg/5mL</option>
+                        <option value="cefalexina">Cefalexina suspensão 250mg/5mL</option>
+                        <option value="metronidazol">Metronidazol suspensão 40mg/mL</option>
+                        <option disabled>── Outros ──</option>
+                        <option value="loratadina">Loratadina xarope 1mg/mL</option>
+                        <option value="prednisolona">Prednisolona solução oral 3mg/mL</option>
+                        <option disabled>── Adulto ──</option>
+                        <option value="ibuprofeno_adulto">Ibuprofeno comprimido 400mg (adulto)</option>
                     </select>
 
                     <button class="calc-btn-calcular" onclick="calcularDose()">🔢 Calcular Dose</button>
@@ -2041,6 +2050,54 @@ border-radius:0 0 20px 20px;
                                 <div class="calc-ficha-nome">Nimesulida suspensão 50mg/mL</div>
                                 <div class="calc-ficha-dose">5 mg/kg/dia</div>
                                 <div class="calc-ficha-freq">De 12 em 12 horas · Apenas com receita médica · ≥ 12 anos na maioria dos países</div>
+                            </div>
+                        </div>
+                        <div class="calc-ficha" onclick="selecionarMed('azitromicina')">
+                            <div class="calc-ficha-emoji">🦠</div>
+                            <div class="calc-ficha-info">
+                                <div class="calc-ficha-nome">Azitromicina suspensão 200mg/5mL</div>
+                                <div class="calc-ficha-dose">10 mg/kg/dia — dose única</div>
+                                <div class="calc-ficha-freq">1× ao dia por 3–5 dias · Antibiótico macrolídeo · Receita obrigatória</div>
+                            </div>
+                        </div>
+                        <div class="calc-ficha" onclick="selecionarMed('cefalexina')">
+                            <div class="calc-ficha-emoji">💊</div>
+                            <div class="calc-ficha-info">
+                                <div class="calc-ficha-nome">Cefalexina suspensão 250mg/5mL</div>
+                                <div class="calc-ficha-dose">25–50 mg/kg/dia</div>
+                                <div class="calc-ficha-freq">De 6 em 6 horas · Cefalosporina 1ª geração · Receita obrigatória</div>
+                            </div>
+                        </div>
+                        <div class="calc-ficha" onclick="selecionarMed('metronidazol')">
+                            <div class="calc-ficha-emoji">🧫</div>
+                            <div class="calc-ficha-info">
+                                <div class="calc-ficha-nome">Metronidazol suspensão 40mg/mL</div>
+                                <div class="calc-ficha-dose">20–30 mg/kg/dia</div>
+                                <div class="calc-ficha-freq">De 8 em 8 horas · Antiparasitário/anaeróbios · Receita obrigatória</div>
+                            </div>
+                        </div>
+                        <div class="calc-ficha" onclick="selecionarMed('loratadina')">
+                            <div class="calc-ficha-emoji">🌿</div>
+                            <div class="calc-ficha-info">
+                                <div class="calc-ficha-nome">Loratadina xarope 1mg/mL</div>
+                                <div class="calc-ficha-dose">0,2 mg/kg/dia — dose única · máx 10 mg</div>
+                                <div class="calc-ficha-freq">1× ao dia · Anti-histamínico · Sem receita</div>
+                            </div>
+                        </div>
+                        <div class="calc-ficha" onclick="selecionarMed('prednisolona')">
+                            <div class="calc-ficha-emoji">🔬</div>
+                            <div class="calc-ficha-info">
+                                <div class="calc-ficha-nome">Prednisolona solução oral 3mg/mL</div>
+                                <div class="calc-ficha-dose">1–2 mg/kg/dia</div>
+                                <div class="calc-ficha-freq">De 12 em 12 horas · Corticosteroide · Receita obrigatória</div>
+                            </div>
+                        </div>
+                        <div class="calc-ficha" onclick="selecionarMed('ibuprofeno_adulto')">
+                            <div class="calc-ficha-emoji">💪</div>
+                            <div class="calc-ficha-info">
+                                <div class="calc-ficha-nome">Ibuprofeno comprimido 400mg (adulto)</div>
+                                <div class="calc-ficha-dose">5–10 mg/kg/dose · máx 600 mg/dose</div>
+                                <div class="calc-ficha-freq">De 8 em 8 horas · Anti-inflamatório adulto · Sem receita</div>
                             </div>
                         </div>
                     </div>
@@ -2685,6 +2742,99 @@ window.addEventListener('DOMContentLoaded', () => {
                 receita: true,
                 doseEhDiaria: true,
                 obs: '⚠️ Uso restrito — requer receita médica. Contraindicado em crianças menores de 12 anos em muitos países. Confirme com o médico.'
+            },
+            azitromicina: {
+                nome: 'Azitromicina suspensão 200mg/5mL',
+                emoji: '🦠',
+                concentracao: 40,        // 200mg/5mL = 40mg/mL
+                unidade: 'mL',
+                gotasPorMl: null,
+                doseMinPorKg: 10,        // mg/kg/DIA — dose única
+                doseMaxPorKg: 10,
+                intervaloH: 24,
+                dosesPerDay: 1,
+                forma: 'suspensão',
+                receita: true,
+                doseEhDiaria: true,
+                obs: '⚠️ Antibiótico macrolídeo — use apenas com receita médica. Dose única diária por 3–5 dias conforme prescrição. Não interromper o tratamento.'
+            },
+            cefalexina: {
+                nome: 'Cefalexina suspensão 250mg/5mL',
+                emoji: '💊',
+                concentracao: 50,        // 250mg/5mL = 50mg/mL
+                unidade: 'mL',
+                gotasPorMl: null,
+                doseMinPorKg: 25,        // mg/kg/DIA
+                doseMaxPorKg: 50,
+                intervaloH: 6,
+                dosesPerDay: 4,
+                forma: 'suspensão',
+                receita: true,
+                doseEhDiaria: true,
+                obs: '⚠️ Antibiótico cefalosporina de 1ª geração — use apenas com receita médica. Completar o ciclo prescrito mesmo com melhora dos sintomas.'
+            },
+            metronidazol: {
+                nome: 'Metronidazol suspensão 40mg/mL',
+                emoji: '🧫',
+                concentracao: 40,        // 40mg/mL
+                unidade: 'mL',
+                gotasPorMl: null,
+                doseMinPorKg: 20,        // mg/kg/DIA
+                doseMaxPorKg: 30,
+                intervaloH: 8,
+                dosesPerDay: 3,
+                forma: 'suspensão',
+                receita: true,
+                doseEhDiaria: true,
+                obs: '⚠️ Antiparasitário e antibacteriano (anaeróbios) — use apenas com receita médica. Evitar álcool durante o tratamento e até 48h após o término.'
+            },
+            loratadina: {
+                nome: 'Loratadina xarope 1mg/mL',
+                emoji: '🌿',
+                concentracao: 1,         // 1mg/mL
+                unidade: 'mL',
+                gotasPorMl: null,
+                doseMinPorKg: 0.2,       // mg/kg/DIA — dose única
+                doseMaxPorKg: 0.2,
+                intervaloH: 24,
+                dosesPerDay: 1,
+                forma: 'xarope',
+                receita: false,
+                doseEhDiaria: true,
+                doseMaxAbsoluta: 10,     // mg — máximo 10mg/dia independente do peso
+                obs: 'Anti-histamínico de 2ª geração. Dose máxima: 10 mg/dia. Indicado para rinite alérgica, urticária e prurido.'
+            },
+            prednisolona: {
+                nome: 'Prednisolona solução oral 3mg/mL',
+                emoji: '🔬',
+                concentracao: 3,         // 3mg/mL
+                unidade: 'mL',
+                gotasPorMl: null,
+                doseMinPorKg: 1,         // mg/kg/DIA
+                doseMaxPorKg: 2,
+                intervaloH: 12,
+                dosesPerDay: 2,
+                forma: 'solução',
+                receita: true,
+                doseEhDiaria: true,
+                obs: '⚠️ Corticosteroide — use apenas com receita médica. Não suspender abruptamente em tratamentos longos. Monitorar glicemia e pressão arterial.'
+            },
+            ibuprofeno_adulto: {
+                nome: 'Ibuprofeno comprimido 400mg (adulto)',
+                emoji: '💪',
+                concentracao: 400,       // mg/comprimido
+                unidade: 'comprimido',
+                gotasPorMl: null,
+                doseMinPorKg: 5,         // mg/kg/dose
+                doseMaxPorKg: 10,
+                intervaloH: 8,
+                dosesPerDay: 3,
+                forma: 'comprimido',
+                receita: false,
+                doseEhDiaria: false,
+                doseMaxAbsoluta: 600,    // mg/dose
+                tabletaMg: 400,
+                obs: 'Anti-inflamatório adulto. Dose máxima: 600 mg/dose · 1800 mg/dia (OTC). Tomar com alimentos. Evitar em úlcera ativa, insuficiência renal ou gravidez.'
             }
         };
 
@@ -2720,7 +2870,20 @@ window.addEventListener('DOMContentLoaded', () => {
                 doseMgMax = med.doseMaxPorKg * peso;
             }
 
-            // Converter para volume (mL)
+            // Aplicar dose máxima absoluta por tomada (ex: loratadina máx 10mg, ibuprofeno adulto máx 600mg)
+            let capAplicado = false;
+            if (med.doseMaxAbsoluta) {
+                const limiteMaxPorTomada = med.doseEhDiaria
+                    ? med.doseMaxAbsoluta / med.dosesPerDay
+                    : med.doseMaxAbsoluta;
+                if (doseMgMin > limiteMaxPorTomada || doseMgMax > limiteMaxPorTomada) {
+                    capAplicado = true;
+                }
+                doseMgMin = Math.min(doseMgMin, limiteMaxPorTomada);
+                doseMgMax = Math.min(doseMgMax, limiteMaxPorTomada);
+            }
+
+            // Converter para volume (mL) ou comprimidos
             const volMin = doseMgMin / med.concentracao;
             const volMax = doseMgMax / med.concentracao;
 
@@ -2741,9 +2904,20 @@ window.addEventListener('DOMContentLoaded', () => {
             const volDiariaMin = Math.round(volMin * med.dosesPerDay * 10) / 10;
             const volDiariaMax = Math.round(volMax * med.dosesPerDay * 10) / 10;
 
-            // Montar exibição do volume/gotas
+            // Montar exibição do volume/gotas/comprimido
             let doseValor, doseUnidade;
-            if (med.gotasPorMl) {
+            if (med.tabletaMg) {
+                // Exibir em comprimidos
+                const cpMin = Math.ceil((doseMgMin / med.tabletaMg) * 2) / 2; // arredonda para 0,5 mais próximo acima
+                const cpMax = Math.ceil((doseMgMax / med.tabletaMg) * 2) / 2;
+                if (cpMin === cpMax) {
+                    doseValor = cpMin;
+                    doseUnidade = cpMin === 1 ? 'comprimido de ' + med.tabletaMg + 'mg' : 'comprimidos de ' + med.tabletaMg + 'mg';
+                } else {
+                    doseValor = cpMin + '–' + cpMax;
+                    doseUnidade = 'comprimido(s) de ' + med.tabletaMg + 'mg';
+                }
+            } else if (med.gotasPorMl) {
                 if (gotasMin === gotasMax) {
                     doseValor = gotasMin;
                     doseUnidade = 'gotas (' + volMinR + ' mL)';
@@ -2789,6 +2963,9 @@ window.addEventListener('DOMContentLoaded', () => {
                     (mgDoseMin === mgDoseMax ? mgDoseMin : mgDoseMin + '–' + mgDoseMax) + ' mg<br>';
             }
 
+            if (capAplicado) {
+                detalheHtml += '<strong>🔒 Dose máxima aplicada:</strong> ' + med.doseMaxAbsoluta + ' mg/dose (limite independente do peso)<br>';
+            }
             detalheHtml += '<br><em style="color:#667eea;">' + med.obs + '</em>';
 
             // Dose máxima diária
