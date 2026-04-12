@@ -23069,24 +23069,24 @@
       "bontox"
     ],
     "descricao": "Proteína produzida pela bactéria Clostridium botulinum que bloqueia a liberação de acetilcolina na junção neuromuscular, causando relaxamento muscular localizado. Em doses terapêuticas controladas, é usada para: espasticidade muscular, distonia cervical, blefaroespasmo, hiperhidrose (suor excessivo), enxaqueca crônica (profilaxia), bexiga hiperativa e — em uso estético — redução de rugas dinâmicas (testa, glabela, pés de galinha). É um dos medicamentos mais versáteis da medicina moderna.",
-    "receita": "Sim",
-    "receita_display": "🔵 Uso Hospitalar / Procedimento Médico",
+    "receita": "Não se aplica",
+    "receita_display": "🔵 Procedimento Clínico",
     "receita_cor": "azul",
-    "receita_descricao": "Uso exclusivo por médico habilitado. Aplicação por injeção realizada em consultório ou ambiente clínico. Não é dispensada em farmácias convencionais — é adquirida por clínicas e hospitais mediante prescrição e controle.",
-    "receita_nota": "Aplicação exclusivamente por via injetável (intramuscular ou intradérmica) por profissional médico treinado. O efeito começa em 2 a 5 dias e dura de 3 a 6 meses, dependendo da indicação e dose.",
+    "receita_descricao": "Aplicação exclusiva em clínicas e hospitais por profissional habilitado. Não é vendida em farmácias — o protocolo de uso é definido individualmente pelo profissional responsável.",
+    "receita_nota": "Aplicação por via injetável (intramuscular ou intradérmica) em ambiente clínico. O efeito começa em 2 a 5 dias e dura de 3 a 6 meses, dependendo da indicação e dose.",
     "efeitos": "Fraqueza muscular temporária no local da aplicação, dor e equimose no ponto de injeção, cefaleia, ptose palpebral (queda da pálpebra — quando mal aplicada na região da testa), assimetria facial transitória. Em doses terapêuticas elevadas: disfagia, disfonia, fraqueza muscular generalizada.",
-    "aviso_grave": "Contraindicada em gravidez, lactação e doenças neuromusculares (miastenia gravis, síndrome de Eaton-Lambert). Nunca aplicar em infecção ativa no local. Risco de botulismo iatrogênico com superdosagem ou aplicações em locais inadequados. Interação com aminoglicosídeos e bloqueadores neuromusculares. Apenas profissionais habilitados devem aplicar.",
-    "recomendacao": "⚠️ Nunca realizar aplicação em clínicas não habilitadas ou por profissionais sem treinamento específico. O produto deve ser armazenado sob refrigeração. Informar ao médico todos os medicamentos em uso, especialmente antibióticos e relaxantes musculares. Resultados estéticos variam conforme técnica e anatomia individual.",
+    "aviso_grave": "Contraindicada em gravidez, lactação e doenças neuromusculares (miastenia gravis, síndrome de Eaton-Lambert). Nunca aplicar em infecção ativa no local. Risco de botulismo iatrogênico com superdosagem ou aplicações em locais inadequados. Interação com aminoglicosídeos e bloqueadores neuromusculares.",
+    "recomendacao": "⚠️ Realizar o procedimento somente em clínicas ou hospitais habilitados, com profissional treinado. O produto deve ser armazenado sob refrigeração. Informar ao profissional todos os medicamentos em uso, especialmente antibióticos e relaxantes musculares. Resultados estéticos variam conforme técnica e anatomia individual.",
     "educacao": "A toxina botulínica age bloqueando a liberação de acetilcolina nas terminações nervosas, impedindo a contração muscular. O efeito é reversível porque novos brotos axonais se formam com o tempo. Há diferentes marcas comerciais (Botox, Dysport, Xeomin) com potências distintas — as doses não são intercambiáveis entre marcas sem ajuste. Em uso estético, os efeitos duram entre 3 e 6 meses.",
     "resposta_rapida": [
-      "Injeção aplicada por médico",
+      "Injeção aplicada em clínica ou hospital",
       "Efeito em 2 a 5 dias, dura 3 a 6 meses",
       "Rugas, espasmos, suor excessivo, enxaqueca",
       "Contraindicado na gravidez",
-      "Prescrição e aplicação médica obrigatórias"
+      "Protocolo definido pelo profissional responsável"
     ],
-    "receita_obrigatoria": true,
-    "tipo_receita": "uso_hospitalar",
+    "receita_obrigatoria": false,
+    "tipo_receita": "procedimento_clinico",
     "retencao_receita": false,
     "perguntas_frequentes": [
       {
@@ -23110,6 +23110,6 @@
         "resposta": "Sim, a toxina botulínica tipo A (Botox) é aprovada para profilaxia de enxaqueca crônica (mais de 15 dias de cefaleia por mês). São aplicadas múltiplas injeções em pontos específicos da cabeça e pescoço a cada 12 semanas, com redução significativa na frequência das crises."
       }
     ],
-    "descricao_seo": "Toxina Botulínica Tipo A (Botox, Dysport, Xeomin) é uma neurotoxina de aplicação injetável usada para: rugas dinâmicas (uso estético), espasticidade muscular, distonia cervical, hiperhidrose (suor excessivo), enxaqueca crônica e bexiga hiperativa. Os efeitos colaterais mais relatados são: fraqueza muscular local, equimose, cefaleia e ptose palpebral quando mal aplicada. Importante: contraindicada na gravidez, miastenia gravis e doenças neuromusculares. Aplicação exclusiva por médico habilitado. Toxina Botulínica nunca deve ser aplicada sem avaliação e procedimento médico especializado."
+    "descricao_seo": "Toxina Botulínica Tipo A (Botox, Dysport, Xeomin) é uma neurotoxina de aplicação injetável usada para: rugas dinâmicas (uso estético), espasticidade muscular, distonia cervical, hiperhidrose (suor excessivo), enxaqueca crônica e bexiga hiperativa. Os efeitos colaterais mais relatados são: fraqueza muscular local, equimose, cefaleia e ptose palpebral quando mal aplicada. Importante: contraindicada na gravidez, miastenia gravis e doenças neuromusculares. Procedimento realizado exclusivamente em clínicas e hospitais por profissional habilitado."
   }
 ]
