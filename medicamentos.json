@@ -22886,5 +22886,230 @@
       }
     ],
     "descricao_seo": "Etossuximida 250mg - 500mg (Zarontin) é o anticonvulsivante de primeira escolha para epilepsia de ausência (petit mal) típica na infância. Age inibindo canais de cálcio tipo T. Os efeitos colaterais mais relatados são: náusea, vômito, anorexia e sonolência. Não é eficaz para outros tipos de crise epiléptica. Etossuximida é vendida somente com receita médica."
+  },
+  {
+    "nome": "Fluoxetina 20mg",
+    "generico": "Fluoxetina",
+    "tipo": "Antidepressivo — Inibidor Seletivo da Recaptação de Serotonina (ISRS)",
+    "sinonimos": [
+      "fluoxetina",
+      "prozac",
+      "daforin",
+      "fluoxetina 20mg",
+      "eufor",
+      "verotina",
+      "fluxene"
+    ],
+    "descricao": "Antidepressivo da classe dos ISRSs (inibidores seletivos da recaptação de serotonina). Aumenta os níveis de serotonina no cérebro ao bloquear sua reabsorção pelos neurônios. Indicado para depressão maior, transtorno de ansiedade generalizada, transtorno obsessivo-compulsivo (TOC), bulimia nervosa, transtorno de pânico e transtorno disfórico pré-menstrual (TDPM). É um dos antidepressivos mais prescritos no mundo.",
+    "receita": "Sim",
+    "receita_display": "🔴 Receita Simples",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_nota": "Tomar preferencialmente pela manhã, com ou sem alimentos. O efeito terapêutico completo demora de 2 a 4 semanas para aparecer.",
+    "efeitos": "Náusea (principalmente nas primeiras semanas), insônia, dor de cabeça, agitação, boca seca, sudorese, disfunção sexual (diminuição da libido, dificuldade de orgasmo), perda de apetite. A maioria dos efeitos iniciais melhora com o tempo.",
+    "aviso_grave": "Não combinar com IMAOs (inibidores da monoaminoxidase) — risco de síndrome serotoninérgica grave e fatal. Aguardar pelo menos 14 dias entre a troca. Em adolescentes e jovens adultos, atenção ao risco de aumento de ideação suicida nas primeiras semanas de tratamento. Não interromper abruptamente — reduzir a dose gradualmente conforme orientação médica.",
+    "recomendacao": "⚠️ O efeito antidepressivo demora semanas — não abandonar o tratamento por achar que não está funcionando nas primeiras semanas. Em caso de pensamentos de se machucar, procurar médico imediatamente. A disfunção sexual é reversível com a redução ou troca do medicamento.",
+    "educacao": "A fluoxetina tem meia-vida muito longa (1 a 6 dias), o que torna a síndrome de descontinuação menos comum comparada a outros ISRSs. Ainda assim, a dose deve ser reduzida gradualmente. Beber álcool durante o tratamento pode potencializar os efeitos colaterais sobre o sistema nervoso central.",
+    "resposta_rapida": [
+      "Depressão, TOC, pânico, bulimia",
+      "Efeito leva 2 a 4 semanas",
+      "Tomar de manhã",
+      "Não combinar com IMAOs",
+      "Não parar de uma vez — reduzir gradualmente"
+    ],
+    "receita_obrigatoria": true,
+    "tipo_receita": "simples",
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Fluoxetina dá sono ou insônia?",
+        "resposta": "A fluoxetina é mais ativadora do que sedativa — tende a causar insônia e agitação, especialmente no início. Por isso é tomada preferencialmente pela manhã. Em algumas pessoas, pode causar sonolência — nesse caso, tomar à noite é uma alternativa."
+      },
+      {
+        "pergunta": "Fluoxetina engorda ou emagrece?",
+        "resposta": "Inicialmente pode diminuir o apetite e causar leve perda de peso. No uso prolongado, alguns pacientes relatam ganho de peso, mas esse efeito é menos comum com a fluoxetina do que com outros antidepressivos."
+      },
+      {
+        "pergunta": "Quanto tempo demora para a fluoxetina fazer efeito?",
+        "resposta": "O efeito antidepressivo completo demora de 2 a 4 semanas, às vezes até 6 semanas. Não abandone o tratamento achando que não funciona nas primeiras semanas — esse é o comportamento normal do medicamento."
+      },
+      {
+        "pergunta": "Posso parar de tomar fluoxetina de repente?",
+        "resposta": "Não é recomendado. Embora a fluoxetina tenha meia-vida longa e a síndrome de descontinuação seja mais branda que com outros antidepressivos, a dose deve ser reduzida gradualmente sempre sob orientação médica."
+      },
+      {
+        "pergunta": "Fluoxetina causa dependência?",
+        "resposta": "Não causa dependência química nem euforia. Pode haver síndrome de descontinuação (mal-estar, tontura, irritabilidade) se interrompida abruptamente, por isso a dose é reduzida gradualmente — mas isso é diferente de dependência."
+      }
+    ],
+    "descricao_seo": "Fluoxetina 20mg (Prozac, Daforin) é um antidepressivo ISRS usado para: depressão maior, transtorno obsessivo-compulsivo (TOC), transtorno de pânico, bulimia nervosa e transtorno disfórico pré-menstrual. Os efeitos colaterais mais relatados são: náusea, insônia, disfunção sexual e perda de apetite. Importante: não combinar com IMAOs — risco de síndrome serotoninérgica grave. O efeito terapêutico leva 2 a 4 semanas. Fluoxetina 20mg é vendida somente com receita médica — nunca use sem orientação de um profissional de saúde."
+  },
+  {
+    "nome": "Furosemida 40mg",
+    "generico": "Furosemida",
+    "tipo": "Diurético de Alça",
+    "sinonimos": [
+      "furosemida",
+      "lasix",
+      "furosemida 40mg",
+      "nefrolan",
+      "furosenida"
+    ],
+    "descricao": "Diurético de alça de alta potência — age no segmento ascendente espesso da alça de Henle, inibindo a reabsorção de sódio, cloreto e potássio. É um dos diuréticos mais potentes disponíveis, com início de ação rápido (30 minutos por via oral, poucos minutos por via intravenosa). Indicado para edema por insuficiência cardíaca, hepática ou renal, hipertensão arterial resistente e hipercalcemia.",
+    "receita": "Sim",
+    "receita_display": "🔴 Receita Simples",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_nota": "Tomar preferencialmente pela manhã para evitar diurese noturna. Se necessário tomar 2 vezes ao dia, a segunda dose deve ser tomada no máximo até o início da tarde.",
+    "efeitos": "Aumento intenso e rápido da urina, hipopotassemia (queda de potássio — muito comum), hipocalemia, hiponatremia, desidratação, tontura, cãibras musculares, fraqueza, hipotensão ortostática. Uso crônico pode causar ototoxicidade (zumbido e perda auditiva), especialmente em doses altas.",
+    "aviso_grave": "A hipopotassemia (baixo potássio) é o efeito adverso mais importante — pode causar arritmias cardíacas graves. Monitorar eletrólitos regularmente. Não usar em anúria (ausência de urina). Interação importante com aminoglicosídeos (aumenta nefrotoxicidade e ototoxicidade) e com digoxina (a hipopotassemia potencializa a toxicidade da digoxina).",
+    "recomendacao": "⚠️ Monitorar sinais de baixo potássio: cãibras, fraqueza muscular, arritmias. Dieta rica em potássio (banana, laranja, feijão) ou suplementação podem ser necessários. Medir pressão arterial e peso regularmente. Não suspender sem orientação médica.",
+    "educacao": "A furosemida é um diurético de alça — diferente dos tiazídicos, age em uma porção diferente do néfron e tem potência muito maior. Em situações de emergência, pode ser administrada por via intravenosa com ação em minutos. Para uso crônico, o monitoramento de eletrólitos é indispensável para evitar distúrbios sérios.",
+    "resposta_rapida": [
+      "Diurético potente para edema e insuficiência cardíaca",
+      "Tomar pela manhã",
+      "Monitorar potássio — risco de hipopotassemia",
+      "Ação começa em 30 minutos por VO",
+      "Receita simples obrigatória"
+    ],
+    "receita_obrigatoria": true,
+    "tipo_receita": "simples",
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Furosemida faz urinar muito?",
+        "resposta": "Sim, esse é exatamente o efeito esperado e desejado. A furosemida é um diurético de alta potência e aumenta significativamente o volume urinário — daí a recomendação de tomá-la pela manhã."
+      },
+      {
+        "pergunta": "Furosemida abaixa o potássio?",
+        "resposta": "Sim, a hipopotassemia (queda de potássio no sangue) é o efeito adverso mais comum e importante. Pode exigir suplementação de potássio ou dieta rica nesse mineral. Monitoramento laboratorial regular é recomendado."
+      },
+      {
+        "pergunta": "Furosemida emagrece?",
+        "resposta": "Causa perda de peso rápida por eliminação de líquidos (não gordura). Esse peso volta quando o medicamento é suspenso. Não deve ser usado para emagrecimento — é perigoso e ineficaz para esse fim."
+      },
+      {
+        "pergunta": "Furosemida pode ser tomada com anti-hipertensivos?",
+        "resposta": "Sim, frequentemente é combinada com outros anti-hipertensivos no tratamento da hipertensão resistente e da insuficiência cardíaca. O médico ajusta as doses para evitar hipotensão excessiva."
+      },
+      {
+        "pergunta": "Por quanto tempo posso tomar furosemida?",
+        "resposta": "O tempo de uso depende da indicação e é determinado pelo médico. No uso crônico, exames de eletrólitos (sódio, potássio, magnésio) e função renal devem ser monitorados regularmente para evitar complicações."
+      }
+    ],
+    "descricao_seo": "Furosemida 40mg (Lasix) é um diurético de alça de alta potência usado para: edema por insuficiência cardíaca, hepática ou renal, hipertensão arterial resistente e hipercalcemia. Os efeitos colaterais mais relatados são: aumento intenso da urina, hipopotassemia (queda de potássio), cãibras e tontura. Importante: monitorar potássio regularmente — a queda de potássio pode causar arritmias cardíacas. Furosemida 40mg é vendida somente com receita médica — nunca use sem orientação de um profissional de saúde."
+  },
+  {
+    "nome": "Tenoxicam 20mg",
+    "generico": "Tenoxicam",
+    "tipo": "Anti-inflamatório não esteroidal (AINE) — Oxicam",
+    "sinonimos": [
+      "tenoxicam",
+      "tilatil",
+      "tenoxicam 20mg",
+      "tobitil",
+      "tenoxan"
+    ],
+    "descricao": "Anti-inflamatório não esteroidal da classe dos oxicams, com meia-vida longa que permite dose única diária. Indicado para artrite reumatoide, osteoartrose, espondilite anquilosante, gota aguda, dor lombar e pós-operatório. Disponível em comprimidos e em forma injetável para uso hospitalar. Tem ação analgésica, anti-inflamatória e antipirética.",
+    "receita": "Sim",
+    "receita_display": "🔴 Receita Simples",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_nota": "Dose única diária de 20mg, preferencialmente com alimentos para reduzir irritação gástrica. A meia-vida longa (72h) permite um comprimido por dia.",
+    "efeitos": "Dor epigástrica, náusea, dispepsia, diarreia, tontura, cefaleia. Risco de úlcera péptica e sangramento gastrointestinal com uso prolongado. Retenção hídrica e edema. Risco cardiovascular aumentado no uso crônico.",
+    "aviso_grave": "Contraindicado em úlcera péptica ativa, insuficiência renal ou hepática grave, insuficiência cardíaca, último trimestre da gravidez e alergia a AINEs (incluindo AAS). Não combinar com outros AINEs, anticoagulantes ou corticosteroides sem avaliação médica. Risco de reações cutâneas graves (síndrome de Stevens-Johnson).",
+    "recomendacao": "⚠️ Tomar sempre com alimentos ou leite. Usar a menor dose eficaz pelo menor tempo necessário. Pacientes com histórico de úlcera ou gastrite devem usar protetor gástrico (omeprazol) concomitante. Avisar médico em caso de fezes escuras ou vômito com sangue.",
+    "educacao": "O tenoxicam pertence à mesma classe do piroxicam (oxicams) e tem meia-vida de cerca de 72 horas, o que justifica a dose única diária. Apesar da conveniência posológica, o uso crônico exige vigilância gastrointestinal e cardiovascular. A forma injetável é usada em ambiente hospitalar para analgesia pós-operatória.",
+    "resposta_rapida": [
+      "Anti-inflamatório — 1 comprimido por dia",
+      "Artrite, lombalgia, gota aguda",
+      "Tomar com alimentos",
+      "Não combinar com outros AINEs",
+      "Receita simples obrigatória"
+    ],
+    "receita_obrigatoria": true,
+    "tipo_receita": "simples",
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Tenoxicam é mais forte que ibuprofeno?",
+        "resposta": "O tenoxicam tem potência anti-inflamatória similar a outros AINEs, com a vantagem de ser tomado apenas uma vez ao dia por causa de sua meia-vida longa. Não há evidências claras de superioridade analgésica, mas a comodidade posológica pode melhorar a adesão ao tratamento."
+      },
+      {
+        "pergunta": "Tenoxicam pode ser tomado com omeprazol?",
+        "resposta": "Sim, e é frequentemente recomendado. O omeprazol protege a mucosa gástrica dos efeitos irritativos dos AINEs, sendo indicado especialmente em pacientes com histórico de gastrite, úlcera ou uso prolongado de anti-inflamatórios."
+      },
+      {
+        "pergunta": "Tenoxicam serve para dor de cabeça?",
+        "resposta": "Não é a primeira escolha para cefaleia comum. É mais indicado para dores musculoesqueléticas, articulares e inflamatórias. Para dor de cabeça, analgésicos como paracetamol ou dipirona são geralmente preferidos."
+      },
+      {
+        "pergunta": "Posso tomar tenoxicam e dipirona juntos?",
+        "resposta": "Com cautela e sob orientação médica. A combinação pode ser usada para dores intensas, mas aumenta o risco de efeitos adversos gastrointestinais e renais. Não deve ser feita por conta própria de forma regular."
+      },
+      {
+        "pergunta": "Tenoxicam faz mal para os rins?",
+        "resposta": "Como todos os AINEs, o tenoxicam pode reduzir o fluxo sanguíneo renal e prejudicar a função dos rins, especialmente em pacientes idosos, desidratados ou com insuficiência renal prévia. Monitoramento é importante no uso prolongado."
+      }
+    ],
+    "descricao_seo": "Tenoxicam 20mg (Tilatil) é um anti-inflamatório não esteroidal (AINE) oxicam de dose única diária, usado para: artrite reumatoide, osteoartrose, espondilite anquilosante, gota aguda e dor lombar. Os efeitos colaterais mais relatados são: dor de estômago, náusea, dispepsia e risco de úlcera péptica. Importante: contraindicado em úlcera ativa, insuficiência renal ou hepática grave. Tenoxicam 20mg é vendido somente com receita médica — nunca use sem orientação de um profissional de saúde."
+  },
+  {
+    "nome": "Toxina Botulínica (Botox)",
+    "generico": "Toxina Botulínica Tipo A",
+    "tipo": "Neurotoxina — Bloqueador Neuromuscular",
+    "sinonimos": [
+      "botox",
+      "toxina botulinica",
+      "toxina botulínica tipo a",
+      "botulinum toxin",
+      "dysport",
+      "xeomin",
+      "botulino",
+      "bontox"
+    ],
+    "descricao": "Proteína produzida pela bactéria Clostridium botulinum que bloqueia a liberação de acetilcolina na junção neuromuscular, causando relaxamento muscular localizado. Em doses terapêuticas controladas, é usada para: espasticidade muscular, distonia cervical, blefaroespasmo, hiperhidrose (suor excessivo), enxaqueca crônica (profilaxia), bexiga hiperativa e — em uso estético — redução de rugas dinâmicas (testa, glabela, pés de galinha). É um dos medicamentos mais versáteis da medicina moderna.",
+    "receita": "Sim",
+    "receita_display": "🔵 Uso Hospitalar / Procedimento Médico",
+    "receita_cor": "azul",
+    "receita_descricao": "Uso exclusivo por médico habilitado. Aplicação por injeção realizada em consultório ou ambiente clínico. Não é dispensada em farmácias convencionais — é adquirida por clínicas e hospitais mediante prescrição e controle.",
+    "receita_nota": "Aplicação exclusivamente por via injetável (intramuscular ou intradérmica) por profissional médico treinado. O efeito começa em 2 a 5 dias e dura de 3 a 6 meses, dependendo da indicação e dose.",
+    "efeitos": "Fraqueza muscular temporária no local da aplicação, dor e equimose no ponto de injeção, cefaleia, ptose palpebral (queda da pálpebra — quando mal aplicada na região da testa), assimetria facial transitória. Em doses terapêuticas elevadas: disfagia, disfonia, fraqueza muscular generalizada.",
+    "aviso_grave": "Contraindicada em gravidez, lactação e doenças neuromusculares (miastenia gravis, síndrome de Eaton-Lambert). Nunca aplicar em infecção ativa no local. Risco de botulismo iatrogênico com superdosagem ou aplicações em locais inadequados. Interação com aminoglicosídeos e bloqueadores neuromusculares. Apenas profissionais habilitados devem aplicar.",
+    "recomendacao": "⚠️ Nunca realizar aplicação em clínicas não habilitadas ou por profissionais sem treinamento específico. O produto deve ser armazenado sob refrigeração. Informar ao médico todos os medicamentos em uso, especialmente antibióticos e relaxantes musculares. Resultados estéticos variam conforme técnica e anatomia individual.",
+    "educacao": "A toxina botulínica age bloqueando a liberação de acetilcolina nas terminações nervosas, impedindo a contração muscular. O efeito é reversível porque novos brotos axonais se formam com o tempo. Há diferentes marcas comerciais (Botox, Dysport, Xeomin) com potências distintas — as doses não são intercambiáveis entre marcas sem ajuste. Em uso estético, os efeitos duram entre 3 e 6 meses.",
+    "resposta_rapida": [
+      "Injeção aplicada por médico",
+      "Efeito em 2 a 5 dias, dura 3 a 6 meses",
+      "Rugas, espasmos, suor excessivo, enxaqueca",
+      "Contraindicado na gravidez",
+      "Prescrição e aplicação médica obrigatórias"
+    ],
+    "receita_obrigatoria": true,
+    "tipo_receita": "uso_hospitalar",
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Botox dói na aplicação?",
+        "resposta": "A aplicação causa desconforto leve a moderado — a agulha é muito fina e o procedimento é rápido. Pode-se usar anestesia tópica (creme) previamente para reduzir a sensação. Equimoses e vermelhidão passageiras no local são comuns."
+      },
+      {
+        "pergunta": "Botox vicia ou cria dependência?",
+        "resposta": "Não causa dependência química. O que ocorre é que, após o efeito passar (3 a 6 meses), os músculos voltam a se contrair normalmente. Algumas pessoas optam por repetir o procedimento para manter o resultado, mas isso não é dependência fisiológica."
+      },
+      {
+        "pergunta": "Qual a diferença entre Botox, Dysport e Xeomin?",
+        "resposta": "Todas são toxinas botulínicas tipo A, mas produzidas com processos distintos e com potências diferentes por unidade. As doses não são intercambiáveis — uma unidade de Botox não equivale a uma unidade de Dysport. O médico ajusta a dose conforme o produto utilizado."
+      },
+      {
+        "pergunta": "Botox pode ser feito durante a gravidez?",
+        "resposta": "Não. A toxina botulínica é contraindicada na gravidez e amamentação. Não há estudos de segurança suficientes nessa população e o risco teórico para o feto é considerado inaceitável para uso eletivo."
+      },
+      {
+        "pergunta": "Botox para enxaqueca funciona?",
+        "resposta": "Sim, a toxina botulínica tipo A (Botox) é aprovada para profilaxia de enxaqueca crônica (mais de 15 dias de cefaleia por mês). São aplicadas múltiplas injeções em pontos específicos da cabeça e pescoço a cada 12 semanas, com redução significativa na frequência das crises."
+      }
+    ],
+    "descricao_seo": "Toxina Botulínica Tipo A (Botox, Dysport, Xeomin) é uma neurotoxina de aplicação injetável usada para: rugas dinâmicas (uso estético), espasticidade muscular, distonia cervical, hiperhidrose (suor excessivo), enxaqueca crônica e bexiga hiperativa. Os efeitos colaterais mais relatados são: fraqueza muscular local, equimose, cefaleia e ptose palpebral quando mal aplicada. Importante: contraindicada na gravidez, miastenia gravis e doenças neuromusculares. Aplicação exclusiva por médico habilitado. Toxina Botulínica nunca deve ser aplicada sem avaliação e procedimento médico especializado."
   }
 ]
