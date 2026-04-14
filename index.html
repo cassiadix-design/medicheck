@@ -1423,7 +1423,7 @@ border-radius:0 0 20px 20px;
                     <div class="beers-categoria-titulo evitar">🔍 Consultar Medicamentos da Lista de Beers</div>
                     <p style="font-size:13px;color:#666;margin:10px 0 14px;line-height:1.6;">
                         Clique em qualquer medicamento para ver informações completas, efeitos colaterais e orientações para uso em idosos.
-                        O botão <strong>Ver página →</strong> abre a ficha completa do medicamento.
+                        Clique no nome do medicamento para ver a ficha completa com efeitos colaterais e orientações para idosos.
                     </p>
                     <div id="beers-meds-lista" class="medicine-grid">
                         <p style="color:#999;font-size:13px;padding:10px;text-align:center;">Carregando medicamentos...</p>
@@ -3679,7 +3679,6 @@ window.addEventListener('DOMContentLoaded', () => {
                 btn.innerHTML =
                     '<span style="flex:1;text-align:left;">' + med.nome + '</span>' +
                     '<span style="display:flex;gap:6px;align-items:center;flex-shrink:0;">' +
-                        '<a href="/medicamentos/' + slug + '/" style="font-size:11px;color:#667eea;text-decoration:none;padding:3px 8px;border:1px solid #667eea;border-radius:8px;white-space:nowrap;" onclick="event.stopPropagation()">Ver página →</a>' +
                         '<span style="font-size:11px;font-weight:700;padding:3px 10px;border-radius:12px;background:#fde8e8;color:#c0392b;border:1px solid #c0392b;white-space:nowrap;">⚠️ Beers</span>' +
                     '</span>';
                 btn.style.cssText = 'display:flex;align-items:center;gap:10px;justify-content:space-between;';
