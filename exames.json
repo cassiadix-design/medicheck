@@ -90,485 +90,287 @@
       },
       {
         "pergunta": "Dengue baixa os leucócitos?",
-        "resposta": "Sim. A dengue tipicamente causa queda nos leucócitos e nas plaquetas. Por isso o hemograma completo é essencial no diagnóstico e acompanhamento da dengue."
+        "resposta": "Sim. A dengue é uma das causas clássicas de leucopenia — os leucócitos caem durante a infecção, especialmente os linfócitos. Por isso o hemograma é pedido quando há suspeita de dengue."
       },
       {
-        "pergunta": "Precisa de jejum para fazer leucócitos?",
-        "resposta": "Não. O exame de leucócitos faz parte do hemograma e pode ser feito sem jejum, em qualquer horário do dia."
+        "pergunta": "Eosinófilos altos o que significa?",
+        "resposta": "Eosinófilos elevados geralmente indicam reação alérgica ou infecção por parasitas (verminoses). Se estiverem muito altos sem causa aparente, o médico investigará outras causas mais raras."
       }
     ]
   },
   {
     "nome": "Plaquetas",
     "categoria": "Hemograma",
-    "descricao": "As plaquetas são pequenos fragmentos de células que circulam no sangue e têm a função de tampar ferimentos e controlar o sangramento. Quando você se machuca, elas se aglomeram no local para formar um tampão e estancar o sangue.",
-    "valores_normais": "150.000 a 400.000 plaquetas/mm³",
-    "o_que_significa_alto": "Plaquetas acima de 400.000 (trombocitose) podem aumentar o risco de formação de coágulos (trombose). Pode ocorrer após infecções, cirurgias, retirada do baço ou, raramente, em doenças da medula óssea.",
-    "o_que_significa_baixo": "Plaquetas abaixo de 150.000 (trombocitopenia) aumentam o risco de sangramentos. Abaixo de 50.000 o risco é significativo. Pode ser causada por dengue, medicamentos, doenças autoimunes ou problemas na medula.",
-    "quando_pedir": "Investigação de sangramentos espontâneos (roxos fáceis, sangramentos no nariz), dengue, antes de cirurgias ou procedimentos, acompanhamento de quimioterapia.",
+    "descricao": "As plaquetas são pequenas células do sangue responsáveis pela coagulação — quando você se machuca, elas se agrupam para tampar o ferimento e estancar o sangramento. O exame mede quantas plaquetas circulam no seu sangue.",
+    "valores_normais": "150.000 a 400.000/mm³",
+    "o_que_significa_alto": "Plaquetas acima de 400.000 (trombocitose) podem ocorrer após infecções, inflamações, deficiência de ferro ou, raramente, doenças da medula óssea. Valores muito altos aumentam o risco de coágulos.",
+    "o_que_significa_baixo": "Plaquetas baixas (trombocitopenia) aumentam o risco de sangramento. As causas incluem dengue (causa clássica), púrpura imunológica, medicamentos, alcoolismo, doenças autoimunes e problemas na medula.",
+    "quando_pedir": "Dengue suspeita, sangramentos frequentes ou difíceis de estancar, hematomas fáceis, antes de cirurgias, acompanhamento de quimioterapia, doenças autoimunes.",
     "preparo": "Nenhum preparo especial. Não precisa de jejum.",
-    "descricao_seo": "As plaquetas controlam o sangramento. Valores baixos aumentam o risco de hemorragia, valores altos aumentam o risco de trombose. Saiba o que significa seu resultado de plaquetas.",
+    "descricao_seo": "As plaquetas são responsáveis pela coagulação do sangue. Plaquetas baixas aumentam o risco de hemorragia — são o principal exame monitorado na dengue. Entenda seu resultado.",
     "perguntas_frequentes": [
       {
-        "pergunta": "Plaquetas 100.000 é perigoso?",
-        "resposta": "É abaixo do normal e exige atenção. Entre 50.000 e 150.000 o risco de sangramento existe mas geralmente não é imediato. Abaixo de 50.000 o médico precisa investigar e pode indicar tratamento."
+        "pergunta": "Plaquetas 100.000 é grave?",
+        "resposta": "É abaixo do normal, mas raramente causa sangramento espontâneo com esse valor. O médico avaliará a causa. Abaixo de 50.000 o risco aumenta; abaixo de 20.000 pode ser emergência."
       },
       {
-        "pergunta": "Plaquetas baixas são sintomas da dengue?",
-        "resposta": "Sim. A queda de plaquetas é um dos principais sinais de alerta na dengue. Por isso o acompanhamento com hemograma é essencial quando há suspeita da doença — especialmente nos primeiros dias de febre."
+        "pergunta": "Dengue sempre baixa as plaquetas?",
+        "resposta": "Sim, a queda de plaquetas é característica da dengue e começa por volta do 3º ao 5º dia da doença. É por isso que o médico pede hemograma seriado em casos de dengue para monitorar essa queda."
       },
       {
-        "pergunta": "O que causa roxos no corpo sem motivo?",
-        "resposta": "Podem ser hematomas espontâneos causados por plaquetas baixas ou por problemas na coagulação. Se aparecerem com frequência, o médico deve investigar com exames de sangue."
+        "pergunta": "O que aumenta as plaquetas naturalmente?",
+        "resposta": "Não existe alimento comprovado que aumente plaquetas de forma significativa. O tratamento depende da causa da trombocitopenia. Evite automedicação — o uso incorreto de remédios pode piorar o quadro."
       },
       {
-        "pergunta": "Plaquetas altas precisam de tratamento?",
-        "resposta": "Depende da causa e do valor. Elevações leves após infecções são temporárias e não precisam de tratamento. Valores muito altos e persistentes precisam de investigação e possível tratamento para evitar trombose."
+        "pergunta": "Posso fazer cirurgia com plaquetas baixas?",
+        "resposta": "Depende do valor e do tipo de cirurgia. Cirurgias eletivas geralmente são adiadas se as plaquetas estiverem abaixo de 50.000. O médico e o anestesista avaliam cada caso individualmente."
       },
       {
-        "pergunta": "Precisa de jejum para fazer plaquetas?",
-        "resposta": "Não. O exame de plaquetas faz parte do hemograma e não exige jejum nem preparo especial."
+        "pergunta": "Plaquetas altas causam trombose?",
+        "resposta": "Plaquetas muito acima de 1.000.000 (trombocitemia essencial) aumentam o risco de trombose. Elevações moderadas raramente causam problema e geralmente se resolvem com o tratamento da causa de base."
       }
     ]
   },
   {
     "nome": "Glicemia em Jejum",
-    "categoria": "Metabolismo / Diabetes",
-    "descricao": "A glicemia em jejum mede a quantidade de açúcar (glicose) no sangue depois de um período sem comer. É o exame mais usado para rastrear e diagnosticar diabetes e pré-diabetes.",
-    "valores_normais": "Abaixo de 100 mg/dL: normal | 100 a 125 mg/dL: pré-diabetes | 126 mg/dL ou mais (em dois exames): diabetes",
-    "o_que_significa_alto": "Glicemia alta em jejum indica que o corpo está tendo dificuldade de controlar o açúcar no sangue. Pode ser pré-diabetes (100-125) ou diabetes (≥126). Alimentação inadequada, sedentarismo, sobrepeso e histórico familiar são os principais fatores de risco.",
-    "o_que_significa_baixo": "Glicemia abaixo de 70 mg/dL é hipoglicemia (açúcar baixo). Pode causar tremor, suor frio, tontura e desmaio. Ocorre mais em pessoas com diabetes que usam insulina ou medicamentos. É uma emergência se houver sintomas intensos.",
-    "quando_pedir": "Rastreamento de diabetes (rotina após os 45 anos ou antes se houver risco), acompanhamento de pessoas com pré-diabetes ou diabetes, sobrepeso com histórico familiar de diabetes.",
-    "preparo": "Jejum de 8 horas obrigatório. Água pode ser consumida normalmente. Não fumar e não praticar exercícios intensos antes da coleta.",
-    "descricao_seo": "A glicemia em jejum é o exame principal para diagnosticar diabetes. Valores entre 100 e 125 indicam pré-diabetes, acima de 126 confirma diabetes. Entenda seu resultado.",
+    "categoria": "Metabolismo",
+    "descricao": "A glicemia mede a quantidade de açúcar (glicose) no sangue após um período de jejum. É o principal exame para rastrear e diagnosticar diabetes e pré-diabetes.",
+    "valores_normais": "Normal: abaixo de 100 mg/dL | Pré-diabetes: 100 a 125 mg/dL | Diabetes: 126 mg/dL ou acima (confirmado em dois exames)",
+    "o_que_significa_alto": "Glicemia alta (hiperglicemia) em jejum indica que o corpo não está conseguindo controlar adequadamente o açúcar no sangue — sinal de pré-diabetes ou diabetes. Causas: resistência à insulina, deficiência de insulina, dieta inadequada, sedentarismo, estresse.",
+    "o_que_significa_baixo": "Glicemia abaixo de 70 mg/dL é hipoglicemia. Pode causar tontura, tremor, suor frio, confusão mental e desmaio. Comum em diabéticos que tomam insulina ou antidiabéticos, mas também pode ocorrer em pessoas que ficaram muito tempo sem comer.",
+    "quando_pedir": "Exame de rotina anual a partir dos 45 anos (ou mais cedo se houver fatores de risco), sobrepeso, histórico familiar de diabetes, hipertensão, síndrome dos ovários policísticos, gestação.",
+    "preparo": "Jejum de 8 a 12 horas obrigatório. Pode beber água. Não praticar exercícios intensos antes do exame.",
+    "descricao_seo": "A glicemia em jejum é o principal exame para diagnosticar diabetes e pré-diabetes. Saiba quais são os valores normais, o que significa glicemia alta e como se preparar para o exame.",
     "perguntas_frequentes": [
       {
         "pergunta": "Glicemia 110 em jejum é diabetes?",
-        "resposta": "Não, mas é pré-diabetes — um sinal de alerta importante. Com mudanças na alimentação, prática de exercícios e perda de peso, é possível reverter o pré-diabetes e evitar que evolua para diabetes."
+        "resposta": "Não ainda. Valores entre 100 e 125 mg/dL são classificados como pré-diabetes — um sinal de alerta importante. Com mudanças no estilo de vida (dieta e exercício), muitas pessoas conseguem voltar ao normal antes de desenvolver diabetes."
       },
       {
-        "pergunta": "Posso comer alguma coisa antes do exame de glicemia?",
-        "resposta": "Não. O jejum de 8 horas é obrigatório para que o resultado seja confiável. Apenas água pode ser consumida. Qualquer alimento ou bebida adoçada altera o resultado."
+        "pergunta": "Posso tomar água antes do exame de glicemia?",
+        "resposta": "Sim. Água não interfere no resultado. Apenas evite café, sucos, chás e qualquer alimento ou bebida com calorias durante o jejum."
       },
       {
-        "pergunta": "Glicemia em jejum e hemoglobina glicada são iguais?",
-        "resposta": "Não. A glicemia mede o açúcar naquele momento (foto). A hemoglobina glicada (HbA1c) mostra a média dos últimos 3 meses (filme). Os dois exames são complementares no diagnóstico e acompanhamento do diabetes."
+        "pergunta": "Estresse pode elevar a glicemia?",
+        "resposta": "Sim. O estresse libera cortisol e adrenalina, que aumentam a glicose no sangue. Uma glicemia levemente alterada em momento de estresse intenso deve ser repetida em condições normais antes de concluir o diagnóstico."
       },
       {
-        "pergunta": "Estresse pode alterar a glicemia?",
-        "resposta": "Sim. O estresse físico e emocional libera hormônios que elevam a glicose no sangue. Por isso, um único resultado alterado deve ser sempre confirmado com um segundo exame antes de fechar o diagnóstico de diabetes."
+        "pergunta": "Diabetes tem cura?",
+        "resposta": "O diabetes tipo 1 não tem cura — requer insulina para toda a vida. O diabetes tipo 2 pode entrar em remissão (glicemia normalizada sem medicamentos) com perda de peso significativa e mudança de hábitos, mas exige acompanhamento contínuo."
       },
       {
-        "pergunta": "Com diabetes, a glicemia deve ser sempre menor que 100?",
-        "resposta": "A meta varia conforme o paciente. Para a maioria das pessoas com diabetes, a glicemia em jejum deve ficar entre 80 e 130 mg/dL. O médico define a meta individual de acordo com a saúde geral da pessoa."
+        "pergunta": "Qual a diferença entre glicemia de jejum e hemoglobina glicada?",
+        "resposta": "A glicemia de jejum é uma foto do momento atual. A hemoglobina glicada (HbA1c) mostra a média do açúcar no sangue nos últimos 3 meses — muito mais útil para acompanhar o controle do diabetes ao longo do tempo."
       }
     ]
   },
   {
     "nome": "Hemoglobina Glicada (HbA1c)",
-    "categoria": "Metabolismo / Diabetes",
-    "descricao": "A hemoglobina glicada mostra a média do açúcar no sangue nos últimos 2 a 3 meses. Enquanto a glicemia em jejum é uma foto do momento, a HbA1c é um filme — mostra como o controle do diabetes está ao longo do tempo.",
-    "valores_normais": "Abaixo de 5,7%: normal | 5,7% a 6,4%: pré-diabetes | 6,5% ou mais: diabetes",
-    "o_que_significa_alto": "HbA1c elevada indica que o açúcar no sangue ficou alto na maior parte do tempo nos últimos 3 meses. Em quem tem diabetes, valores acima de 7% aumentam o risco de complicações nos rins, olhos, nervos e coração.",
-    "o_que_significa_baixo": "Valores muito baixos de HbA1c em pessoas com diabetes podem indicar hipoglicemias frequentes. Em pessoas sem diabetes, valores baixos são normais e não causam preocupação.",
-    "quando_pedir": "Diagnóstico de diabetes, acompanhamento a cada 3 meses em diabéticos descompensados, a cada 6 meses em diabéticos controlados, triagem de pré-diabetes.",
-    "preparo": "Nenhum preparo especial. Não precisa de jejum. Pode ser feito a qualquer hora do dia.",
-    "descricao_seo": "A hemoglobina glicada (HbA1c) revela o controle do açúcar nos últimos 3 meses. É o exame mais importante no acompanhamento do diabetes. Entenda o que significa seu resultado.",
+    "categoria": "Metabolismo",
+    "descricao": "A hemoglobina glicada mede a porcentagem de hemoglobina que ficou 'grudada' com glicose nos últimos 2 a 3 meses. Como as células vermelhas vivem cerca de 90 dias, esse exame revela como esteve o controle do açúcar no sangue nesse período — independentemente do que você comeu no dia anterior.",
+    "valores_normais": "Normal: abaixo de 5,7% | Pré-diabetes: 5,7% a 6,4% | Diabetes: 6,5% ou acima | Meta de controle para diabéticos: abaixo de 7% (individualizada pelo médico)",
+    "o_que_significa_alto": "HbA1c alta indica controle inadequado do diabetes nos últimos meses — mais do que uma glicemia pontualmente elevada. Está associada a maior risco de complicações como retinopatia, nefropatia, neuropatia e doenças cardiovasculares.",
+    "o_que_significa_baixo": "HbA1c muito baixa em diabéticos pode indicar episódios frequentes de hipoglicemia. Abaixo de 5,7% em não diabéticos é normal e desejável.",
+    "quando_pedir": "Diagnóstico e acompanhamento do diabetes. Deve ser repetida a cada 3 a 6 meses em diabéticos, dependendo do controle. Também usada no rastreio do pré-diabetes.",
+    "preparo": "Não precisa de jejum. Pode ser coletado em qualquer horário.",
+    "descricao_seo": "A hemoglobina glicada (HbA1c) mostra o controle do açúcar no sangue nos últimos 3 meses. É o exame mais importante no acompanhamento do diabetes. Entenda o que significa seu resultado.",
     "perguntas_frequentes": [
       {
-        "pergunta": "HbA1c 7% é bom para quem tem diabetes?",
-        "resposta": "Para a maioria dos adultos com diabetes, a meta é abaixo de 7%. Esse nível reduz muito o risco de complicações. Para idosos ou pessoas com doenças sérias, o médico pode definir uma meta menos rigorosa."
+        "pergunta": "HbA1c 6,8% é controlado?",
+        "resposta": "Está acima da meta de 6,5% para diagnóstico e indica diabetes. A meta de controle é geralmente abaixo de 7%, mas pode variar conforme a idade e condições do paciente. Converse com seu médico para individualizar o objetivo."
       },
       {
         "pergunta": "Precisa de jejum para fazer hemoglobina glicada?",
-        "resposta": "Não. Essa é uma das vantagens do exame — pode ser feito em qualquer horário, sem jejum e sem preparo especial."
+        "resposta": "Não. Esta é uma das vantagens do exame — pode ser feito em qualquer horário, sem jejum, pois mede uma média dos últimos 3 meses e não é influenciado pela última refeição."
       },
       {
-        "pergunta": "Posso melhorar a HbA1c rapidamente?",
-        "resposta": "A HbA1c reflete 3 meses de controle, então não muda de uma semana para outra. Com dieta, exercício e medicação adequada, é possível ver melhora significativa após 3 meses de disciplina."
+        "pergunta": "Anemia afeta o resultado da HbA1c?",
+        "resposta": "Sim. A anemia hemolítica e outras condições que alteram a sobrevida das células vermelhas podem falsear o resultado. Em pacientes com anemia, o médico pode preferir outros exames para avaliar o controle glicêmico."
       },
       {
-        "pergunta": "HbA1c 6,2% é diabetes?",
-        "resposta": "Não, é pré-diabetes (entre 5,7% e 6,4%). É um sinal de alerta para mudar hábitos e evitar que evolua para diabetes. Com mudanças no estilo de vida, muitas pessoas conseguem reverter esse quadro."
+        "pergunta": "Com que frequência repetir a hemoglobina glicada?",
+        "resposta": "Para diabéticos com bom controle: a cada 6 meses. Para quem está ajustando o tratamento ou com controle inadequado: a cada 3 meses. Para rastreio de pré-diabetes: anualmente."
       },
       {
-        "pergunta": "Por que a HbA1c pode estar errada em algumas situações?",
-        "resposta": "Anemia falciforme, anemia hemolítica e algumas condições que alteram a vida dos glóbulos vermelhos podem falsear o resultado. Nesses casos, o médico usa outros exames para avaliar o controle do diabetes."
+        "pergunta": "Posso ter HbA1c normal e ainda ter diabetes?",
+        "resposta": "Em raras situações (anemia, hemoglobinopatias), sim. Por isso o diagnóstico de diabetes pode ser feito por outros critérios — glicemia de jejum ou teste oral de tolerância à glicose — e o médico escolhe o método mais adequado para cada paciente."
       }
     ]
   },
   {
-    "nome": "Colesterol Total",
-    "categoria": "Perfil Lipídico",
-    "descricao": "O colesterol total é a soma de todos os tipos de colesterol no sangue. O colesterol em si não é vilão — é essencial para produzir hormônios e vitamina D. O problema é quando os níveis ficam muito elevados, aumentando o risco de entupimento das artérias.",
-    "valores_normais": "Abaixo de 190 mg/dL: desejável | 190 a 239 mg/dL: limite | 240 mg/dL ou mais: elevado",
-    "o_que_significa_alto": "Colesterol total alto aumenta o risco de infarto e AVC (derrame). É causado principalmente por alimentação rica em gorduras saturadas e trans, sedentarismo, sobrepeso, histórico familiar e algumas doenças como hipotireoidismo.",
-    "o_que_significa_baixo": "Colesterol total muito baixo (abaixo de 120 mg/dL) é raro e pode estar associado a desnutrição grave, hipertireoidismo ou doenças hepáticas. Na prática, valores baixos raramente são motivo de preocupação.",
-    "quando_pedir": "Triagem cardiovascular de rotina (adultos a partir dos 20 anos), histórico familiar de doença cardíaca, hipertensão, diabetes, sobrepeso, acompanhamento de tratamento com estatinas.",
-    "preparo": "Jejum de 12 horas recomendado (algumas diretrizes aceitam coleta sem jejum para triagem inicial — confirme com seu laboratório).",
-    "descricao_seo": "O colesterol total acima de 190 mg/dL aumenta o risco de infarto e derrame. Entenda o que significa seu resultado e o que fazer para reduzir o colesterol.",
+    "nome": "Colesterol Total e Frações",
+    "categoria": "Metabolismo",
+    "descricao": "O exame de colesterol mede os diferentes tipos de gordura no sangue: o colesterol total, o LDL (o 'ruim', que entope artérias), o HDL (o 'bom', que protege o coração) e os triglicerídeos. Juntos, eles formam o perfil lipídico — fundamental para avaliar o risco cardiovascular.",
+    "valores_normais": "Colesterol Total: desejável abaixo de 190 mg/dL | LDL: abaixo de 130 mg/dL (em risco alto, abaixo de 70 mg/dL) | HDL: acima de 40 mg/dL (homens) e 50 mg/dL (mulheres) | Triglicerídeos: abaixo de 150 mg/dL",
+    "o_que_significa_alto": "LDL alto e HDL baixo aumentam o risco de aterosclerose — o acúmulo de placas nas artérias que pode causar infarto e AVC. Triglicerídeos muito altos aumentam o risco de pancreatite.",
+    "o_que_significa_baixo": "HDL baixo é um fator de risco cardiovascular independente — quanto menor o HDL, maior o risco de infarto. LDL muito baixo raramente causa problemas, mas pode ocorrer em doenças hepáticas graves ou má absorção.",
+    "quando_pedir": "A partir dos 35 anos em homens e 45 em mulheres (ou mais cedo com fatores de risco). Exame de rotina a cada 5 anos se normal, anual se alterado ou em tratamento.",
+    "preparo": "Jejum de 12 horas. Evitar álcool 72 horas antes e refeições gordurosas na véspera para resultado mais preciso dos triglicerídeos.",
+    "descricao_seo": "O perfil lipídico avalia colesterol LDL, HDL e triglicerídeos — essencial para prevenir infarto e AVC. Entenda o que significa cada valor do seu exame de colesterol.",
     "perguntas_frequentes": [
       {
-        "pergunta": "Colesterol 200 é perigoso?",
-        "resposta": "Fica na faixa limítrofe. O médico avalia o resultado junto com HDL, LDL, triglicerídeos e outros fatores de risco (pressão alta, diabetes, tabagismo) antes de decidir se é necessário tratamento."
+        "pergunta": "Colesterol 220 é perigoso?",
+        "resposta": "Depende das frações. O colesterol total isolado tem pouco valor — o que importa é o LDL, o HDL e o risco cardiovascular global do paciente. Uma pessoa com 220 de colesterol total mas HDL alto e LDL controlado pode ter risco menor que outra com colesterol 190 e HDL baixo."
       },
       {
-        "pergunta": "Que alimentos mais aumentam o colesterol?",
-        "resposta": "Carnes gordurosas, embutidos, manteiga, queijos amarelos, frituras e alimentos ultraprocessados. As gorduras saturadas e trans são as principais vilãs. Gorduras boas, como azeite e abacate, não elevam o colesterol ruim."
+        "pergunta": "Ovo aumenta o colesterol?",
+        "resposta": "O consenso científico atual é que o ovo tem impacto pequeno no colesterol do sangue para a maioria das pessoas — o colesterol da dieta afeta menos do que as gorduras saturadas e trans. Pessoas com diabetes ou predisposição genética devem seguir orientação médica específica."
       },
       {
-        "pergunta": "Colesterol alto sempre precisa de remédio?",
-        "resposta": "Não necessariamente. Para muitas pessoas, mudanças na alimentação e exercício físico são suficientes para reduzir o colesterol. O médico avalia o risco cardiovascular global antes de indicar medicamentos."
+        "pergunta": "Estatina tem que tomar para sempre?",
+        "resposta": "Em geral, sim — para pacientes com doença cardiovascular estabelecida ou risco alto. A estatina não cura o problema; ela controla. Interromper o tratamento faz o colesterol voltar aos valores anteriores. Converse sempre com seu médico antes de parar."
       },
       {
-        "pergunta": "Posso ter colesterol alto sendo magro?",
-        "resposta": "Sim. O colesterol elevado tem forte componente genético — chamado hipercolesterolemia familiar. Pessoas magras e saudáveis podem ter colesterol alto por herança genética e precisam de tratamento."
+        "pergunta": "Exercício aumenta o HDL?",
+        "resposta": "Sim. O exercício aeróbico regular (caminhada, corrida, natação, ciclismo) é uma das formas mais eficazes de elevar o HDL. Parar de fumar e perder peso também aumentam o HDL de forma significativa."
       },
       {
-        "pergunta": "Quanto tempo leva para o colesterol baixar com dieta?",
-        "resposta": "Com mudanças consistentes na alimentação, é possível ver redução em 4 a 6 semanas. O efeito máximo é observado após 3 meses. Exercício regular potencializa o resultado."
+        "pergunta": "Triglicerídeos 300 é perigoso?",
+        "resposta": "É moderadamente alto. Acima de 500 mg/dL há risco de pancreatite aguda. Os triglicerídeos respondem bem a mudanças de estilo de vida: reduzir açúcar, álcool e carboidratos refinados, e aumentar a atividade física costuma normalizar os valores em poucos meses."
       }
     ]
   },
   {
-    "nome": "HDL (Colesterol Bom)",
-    "categoria": "Perfil Lipídico",
-    "descricao": "O HDL é chamado de colesterol bom porque ele retira o colesterol das artérias e leva de volta ao fígado para ser eliminado. Quanto mais HDL você tiver, melhor protegido seu coração está. É o único tipo de colesterol que você quer ver alto.",
-    "valores_normais": "Homens: acima de 40 mg/dL (desejável acima de 60 mg/dL) | Mulheres: acima de 50 mg/dL (desejável acima de 60 mg/dL)",
-    "o_que_significa_alto": "HDL alto é ótimo — significa que seu organismo está removendo o colesterol das artérias de forma eficiente. Raramente é motivo de preocupação. Exercício físico regular é o principal fator que eleva o HDL.",
-    "o_que_significa_baixo": "HDL baixo aumenta o risco cardiovascular mesmo quando o colesterol total está normal. É causado por sedentarismo, tabagismo, sobrepeso, dieta pobre e predisposição genética.",
-    "quando_pedir": "Sempre junto com o perfil lipídico completo (colesterol total, LDL e triglicerídeos). Triagem cardiovascular, acompanhamento de fatores de risco.",
-    "preparo": "Jejum de 12 horas recomendado para o perfil lipídico completo.",
-    "descricao_seo": "O HDL é o colesterol bom que protege o coração. Valores abaixo do ideal aumentam o risco cardiovascular mesmo com colesterol total normal. Saiba como aumentar seu HDL.",
+    "nome": "TSH (Hormônio Tireoestimulante)",
+    "categoria": "Hormônios",
+    "descricao": "O TSH é produzido pela hipófise (uma glândula no cérebro) e regula o funcionamento da tireoide — a glândula no pescoço responsável pelo metabolismo, energia, temperatura corporal, peso e humor. Quando a tireoide não funciona bem, o TSH sobe ou desce como sinal de alerta.",
+    "valores_normais": "0,4 a 4,0 mUI/L (adultos) — valores de referência variam levemente entre laboratórios. Em gestantes os limites são menores. Em idosos, TSH levemente acima de 4 pode ser aceitável.",
+    "o_que_significa_alto": "TSH alto indica hipotireoidismo — a tireoide está trabalhando pouco. Sintomas: cansaço intenso, ganho de peso sem explicação, frio excessivo, pele seca, queda de cabelo, intestino preso, depressão, raciocínio lento.",
+    "o_que_significa_baixo": "TSH baixo indica hipertireoidismo — a tireoide está hiperativa. Sintomas: perda de peso, coração acelerado, ansiedade, tremores, suor excessivo, insônia, diarreia.",
+    "quando_pedir": "Cansaço inexplicável, ganho ou perda de peso sem causa aparente, alterações de humor, queda de cabelo, irregularidade menstrual, gestação, histórico familiar de doença da tireoide, rotina após os 40 anos (especialmente mulheres).",
+    "preparo": "Nenhum preparo especial. Não precisa de jejum. Pode ser coletado em qualquer horário.",
+    "descricao_seo": "O TSH é o principal exame para avaliar a tireoide. TSH alto indica hipotireoidismo; TSH baixo indica hipertireoidismo. Entenda o que significa seu resultado e quais são os sintomas.",
     "perguntas_frequentes": [
       {
-        "pergunta": "Como aumentar o HDL naturalmente?",
-        "resposta": "Exercício aeróbico regular (caminhada, corrida, natação) é o método mais eficaz. Parar de fumar, reduzir o peso, consumir gorduras boas (azeite, abacate, oleaginosas) e moderar o álcool também ajudam."
+        "pergunta": "TSH 6 é hipotireoidismo?",
+        "resposta": "Sim, acima de 4,0 mUI/L já é considerado hipotireoidismo. Com TSH 6, o médico avaliará os sintomas e os hormônios T3 e T4 livre para decidir se o tratamento com levotiroxina é necessário."
       },
       {
-        "pergunta": "HDL 35 é ruim?",
-        "resposta": "Sim, está abaixo do ideal para homens (mínimo 40) e muito abaixo para mulheres (mínimo 50). HDL baixo é um fator de risco independente para infarto — mesmo que o colesterol total esteja normal."
+        "pergunta": "TSH alterado engorda?",
+        "resposta": "Hipotireoidismo (TSH alto) pode causar ganho de peso de 2 a 5 kg, principalmente por retenção de líquidos e metabolismo lento. Mas raramente causa obesidade sozinho — a dieta e o sedentarismo são fatores muito mais determinantes."
       },
       {
-        "pergunta": "Existe remédio para aumentar o HDL?",
-        "resposta": "Sim, mas com eficácia limitada. Niacina (vitamina B3) em doses altas eleva o HDL, mas tem efeitos colaterais. As estatinas elevam pouco o HDL. O exercício físico continua sendo a estratégia mais eficaz."
+        "pergunta": "Levotiroxina engorda ou emagrece?",
+        "resposta": "A levotiroxina corrige o hipotireoidismo e normaliza o metabolismo — pode haver perda de peso quando o hipotireoidismo estava causando retenção. Mas não emagrece em pessoas com tireoide normal. Não deve ser usada como emagrecedor."
       },
       {
-        "pergunta": "HDL alto cancela LDL alto?",
-        "resposta": "Não. Os dois são avaliados separadamente. HDL alto é um fator protetor, mas não elimina os riscos do LDL elevado. O médico analisa o perfil lipídico completo e o risco cardiovascular global."
+        "pergunta": "Precisa fazer TSH em jejum?",
+        "resposta": "Não. O TSH não é afetado pela alimentação e pode ser coletado em qualquer horário. Porém, se estiver tomando levotiroxina, o ideal é coletar o sangue antes de tomar o comprimido do dia."
       },
       {
-        "pergunta": "Mulheres têm HDL naturalmente mais alto?",
-        "resposta": "Sim. Os estrogênios (hormônios femininos) elevam o HDL naturalmente. Por isso as mulheres têm metas de HDL mais altas e tendem a ter menor risco cardiovascular antes da menopausa."
+        "pergunta": "Com que frequência repetir o TSH?",
+        "resposta": "Após iniciar ou ajustar a levotiroxina, repetir em 6 a 8 semanas. Quando o TSH está estável na faixa ideal, repetir anualmente. Em gestantes, o controle é mais frequente — a cada 4 a 6 semanas no primeiro trimestre."
       }
     ]
   },
   {
-    "nome": "LDL (Colesterol Ruim)",
-    "categoria": "Perfil Lipídico",
-    "descricao": "O LDL é chamado de colesterol ruim porque ele deposita gordura nas paredes das artérias, formando placas que podem entupir os vasos e causar infarto e AVC. É o principal alvo do tratamento quando o colesterol está alto.",
-    "valores_normais": "Abaixo de 130 mg/dL: desejável para a maioria | Abaixo de 100 mg/dL: recomendado para quem tem risco cardiovascular moderado | Abaixo de 70 mg/dL: recomendado para quem já teve infarto ou tem risco alto",
-    "o_que_significa_alto": "LDL alto aumenta diretamente o risco de infarto e AVC. As placas de gordura formadas pelo LDL nas artérias podem se romper e causar um coágulo que entope o vaso. Alimentação, sedentarismo e genética são as principais causas.",
-    "o_que_significa_baixo": "LDL baixo é excelente e significa menor risco cardiovascular. Não existe problema em ter LDL muito baixo quando o resultado é de tratamento (estatinas) ou estilo de vida saudável.",
-    "quando_pedir": "Sempre junto com o perfil lipídico completo. Triagem cardiovascular, acompanhamento de tratamento com estatinas, antes e após mudanças na dieta.",
-    "preparo": "Jejum de 12 horas para resultado mais preciso (o LDL geralmente é calculado a partir dos outros valores do perfil lipídico).",
-    "descricao_seo": "O LDL é o colesterol ruim que entope as artérias e causa infarto. Entenda os valores ideais de LDL conforme seu risco cardiovascular e saiba como reduzí-lo.",
-    "perguntas_frequentes": [
-      {
-        "pergunta": "LDL 160 é perigoso?",
-        "resposta": "Está na faixa alto (160-189 mg/dL). Para pessoas sem outros fatores de risco, pode ser tratado com mudanças no estilo de vida. Para quem tem hipertensão, diabetes ou histórico de infarto, medicação geralmente é necessária."
-      },
-      {
-        "pergunta": "Estão certos os alimentos que mais aumentam o LDL?",
-        "resposta": "Os piores são gorduras saturadas (carnes gordas, manteiga, queijos amarelos) e gorduras trans (biscoitos industrializados, margarinas duras, frituras de fast food). Reduzir esses alimentos baixa o LDL de forma significativa."
-      },
-      {
-        "pergunta": "Estatina realmente funciona para baixar LDL?",
-        "resposta": "Sim, é o medicamento mais eficaz e estudado para reduzir LDL — pode baixar 30% a 50% dos valores. Além de reduzir o LDL, tem efeito anti-inflamatório nas artérias. O médico avalia se é necessário conforme o risco individual."
-      },
-      {
-        "pergunta": "Se meu LDL está controlado com remédio, posso comer mal?",
-        "resposta": "Não. O medicamento complementa a dieta, não a substitui. Comer mal com LDL controlado por estatina ainda causa inflamação nas artérias e aumenta outros fatores de risco como triglicerídeos e glicemia."
-      },
-      {
-        "pergunta": "O LDL calculado pode estar errado?",
-        "resposta": "Sim. O LDL geralmente é calculado por uma fórmula — quando os triglicerídeos estão muito altos (acima de 400), o cálculo fica impreciso. Nesses casos, o laboratório pode medir o LDL diretamente."
-      }
-    ]
-  },
-  {
-    "nome": "Triglicerídeos",
-    "categoria": "Perfil Lipídico",
-    "descricao": "Os triglicerídeos são um tipo de gordura no sangue que vem principalmente dos alimentos que comemos — especialmente açúcares, carboidratos refinados e bebidas alcoólicas. Quando sobra energia no corpo, ela é armazenada como triglicerídeos. Níveis altos aumentam o risco cardiovascular.",
-    "valores_normais": "Abaixo de 150 mg/dL: normal | 150 a 199 mg/dL: limite | 200 a 499 mg/dL: alto | 500 mg/dL ou mais: muito alto (risco de pancreatite)",
-    "o_que_significa_alto": "Triglicerídeos altos aumentam o risco de doenças do coração e pancreatite (acima de 500). As principais causas são: consumo excessivo de açúcar, carboidratos refinados e álcool, diabetes mal controlado, sedentarismo e obesidade.",
-    "o_que_significa_baixo": "Triglicerídeos baixos não são preocupantes. Podem indicar boa alimentação e estilo de vida saudável, ou raramente má absorção intestinal grave.",
-    "quando_pedir": "Sempre junto com o perfil lipídico completo (colesterol total, HDL, LDL). Triagem cardiovascular, diabetes, acompanhamento de tratamento.",
-    "preparo": "Jejum de 12 horas obrigatório — os triglicerídeos variam muito com a alimentação e o resultado sem jejum pode ser falsamente elevado.",
-    "descricao_seo": "Triglicerídeos altos aumentam o risco de infarto e pancreatite. O excesso de açúcar, carboidratos e álcool são as principais causas. Entenda como reduzir seus triglicerídeos.",
-    "perguntas_frequentes": [
-      {
-        "pergunta": "O que baixa os triglicerídeos rapidamente?",
-        "resposta": "Reduzir açúcar, refrigerante, pão branco, arroz branco, álcool e sucos industrializados tem efeito rápido nos triglicerídeos. Exercício físico regular e ômega-3 também ajudam de forma significativa."
-      },
-      {
-        "pergunta": "Triglicerídeos 300 é grave?",
-        "resposta": "Está na faixa alta (200-499) e aumenta o risco cardiovascular. Com mudanças na alimentação e exercício, é possível reduzir bastante. O médico avaliará se é necessário medicação conforme o risco individual."
-      },
-      {
-        "pergunta": "Álcool aumenta mesmo os triglicerídeos?",
-        "resposta": "Sim, de forma significativa. O fígado converte o álcool em gordura, elevando os triglicerídeos. Mesmo quantidades moderadas de álcool podem causar picos. Quem tem triglicerídeos altos deve evitar bebidas alcoólicas."
-      },
-      {
-        "pergunta": "Posso tomar ômega-3 para baixar os triglicerídeos?",
-        "resposta": "Sim. O ômega-3 (em doses altas, acima de 2-4g/dia) reduz os triglicerídeos de 20% a 30%. Doses usuais de suplementos de farmácia têm efeito menor. Para redução significativa, doses terapêuticas são prescritas pelo médico."
-      },
-      {
-        "pergunta": "Por que os triglicerídeos exigem jejum de 12 horas?",
-        "resposta": "Porque os triglicerídeos sobem muito nas horas após uma refeição — especialmente depois de consumir gorduras e carboidratos. Sem jejum, o resultado pode ser até 3 vezes maior do que o valor real de base."
-      }
-    ]
-  },
-  {
-    "nome": "TSH (Hormônio da Tireoide)",
-    "categoria": "Tireoide",
-    "descricao": "O TSH é o hormônio produzido pelo cérebro que controla a tireoide. Quando a tireoide está lenta (hipotireoidismo), o cérebro aumenta o TSH para 'estimulá-la'. Quando a tireoide está acelerada (hipertireoidismo), o cérebro reduz o TSH. Por isso, TSH alto indica tireoide lenta e TSH baixo indica tireoide acelerada.",
-    "valores_normais": "0,4 a 4,0 mUI/L — Em grávidas e em casos específicos, os valores de referência são diferentes.",
-    "o_que_significa_alto": "TSH alto indica que a tireoide está trabalhando pouco (hipotireoidismo). Sintomas: cansaço, ganho de peso, pele seca, cabelos quebradiços, sensação de frio, intestino preso e depressão. A causa mais comum é a tireoidite de Hashimoto.",
-    "o_que_significa_baixo": "TSH baixo indica que a tireoide está hiperativa (hipertireoidismo). Sintomas: coração acelerado, perda de peso, tremores nas mãos, ansiedade, suor excessivo e insônia. A causa mais comum é a doença de Graves.",
-    "quando_pedir": "Sintomas de cansaço inexplicado, ganho ou perda de peso sem causa, irregularidades menstruais, exame de rotina (especialmente mulheres acima de 35 anos), gravidez, acompanhamento de doenças da tireoide.",
-    "preparo": "Nenhum preparo especial. Não precisa de jejum. Idealmente coletar pela manhã antes de tomar a medicação da tireoide (se usar levotiroxina).",
-    "descricao_seo": "O TSH é o exame que avalia o funcionamento da tireoide. TSH alto indica hipotireoidismo (tireoide lenta), TSH baixo indica hipertireoidismo (tireoide acelerada). Entenda seu resultado.",
-    "perguntas_frequentes": [
-      {
-        "pergunta": "TSH 6 é muito alto?",
-        "resposta": "Está acima do normal (referência até 4,0) e indica hipotireoidismo. O médico avaliará os sintomas e pode pedir T4 livre para confirmar. Nem sempre valores levemente altos precisam de medicação — depende dos sintomas e do T4 livre."
-      },
-      {
-        "pergunta": "TSH alterado sempre precisa de remédio?",
-        "resposta": "Não necessariamente. Alterações leves podem ser monitoradas. O médico considera os sintomas, o valor do T4 livre, a presença de anticorpos e outros fatores antes de decidir iniciar o tratamento com levotiroxina."
-      },
-      {
-        "pergunta": "O estresse pode alterar o TSH?",
-        "resposta": "Sim. Doenças agudas, privação de sono, estresse intenso e alguns medicamentos podem alterar o TSH transitoriamente. Por isso um resultado isolado fora do normal deve sempre ser confirmado com novo exame."
-      },
-      {
-        "pergunta": "Preciso fazer TSH em jejum?",
-        "resposta": "Não há necessidade de jejum. Porém, se você usa levotiroxina (Puran T4, Euthyrox), deve coletar o exame antes de tomar o comprimido do dia para o resultado ser mais fiel ao controle real."
-      },
-      {
-        "pergunta": "Tireoide afeta o peso?",
-        "resposta": "Sim. Hipotireoidismo causa ganho de peso moderado principalmente por retenção de líquido e redução do metabolismo. Mas raramente é a causa de obesidade significativa. O tratamento normaliza o metabolismo mas não emagrece muito."
-      }
-    ]
-  },
-  {
-    "nome": "T4 Livre",
-    "categoria": "Tireoide",
-    "descricao": "O T4 livre é o hormônio produzido diretamente pela tireoide e disponível para agir no corpo. Enquanto o TSH mostra o sinal do cérebro para a tireoide, o T4 livre mostra o que a tireoide está realmente produzindo. Os dois exames juntos dão um diagnóstico mais preciso.",
-    "valores_normais": "0,8 a 1,8 ng/dL (os valores de referência podem variar entre laboratórios)",
-    "o_que_significa_alto": "T4 livre alto com TSH baixo confirma hipertireoidismo — a tireoide está produzindo hormônio em excesso. Causa coração acelerado, perda de peso, ansiedade, tremores e intolerância ao calor.",
-    "o_que_significa_baixo": "T4 livre baixo com TSH alto confirma hipotireoidismo — a tireoide não está produzindo hormônio suficiente. Causa cansaço, ganho de peso, intestino preso, pele seca e sensação de frio.",
-    "quando_pedir": "Sempre junto com o TSH quando há alteração ou suspeita de doença da tireoide. Acompanhamento de tratamento com levotiroxina ou medicamentos para hipertireoidismo.",
-    "preparo": "Nenhum preparo especial. Não precisa de jejum. Se usar levotiroxina, coletar antes de tomar o comprimido do dia.",
-    "descricao_seo": "O T4 livre mede o hormônio produzido pela tireoide. Junto com o TSH, confirma se há hipotireoidismo ou hipertireoidismo. Entenda como interpretar o resultado do T4 livre.",
-    "perguntas_frequentes": [
-      {
-        "pergunta": "Qual a diferença entre T4 livre e T4 total?",
-        "resposta": "O T4 total inclui o hormônio ligado a proteínas (inativo) e o livre (ativo). O T4 livre é mais preciso porque mede apenas a parte que o corpo pode usar. Por isso é o preferido pelos médicos na maioria das situações."
-      },
-      {
-        "pergunta": "TSH normal mas T4 livre baixo: o que significa?",
-        "resposta": "Pode indicar hipotireoidismo central — problema na hipófise (glândula no cérebro) que não produz TSH suficiente para estimular a tireoide. É uma situação mais rara que exige investigação especializada."
-      },
-      {
-        "pergunta": "Preciso fazer T4 livre junto com o TSH?",
-        "resposta": "Nem sempre. Para triagem de rotina, o TSH geralmente é suficiente. O T4 livre é pedido quando o TSH está alterado, para confirmar o diagnóstico e avaliar a gravidade, ou para monitorar o tratamento."
-      },
-      {
-        "pergunta": "Anticoncepcional altera o resultado de T4?",
-        "resposta": "O anticoncepcional altera o T4 total (eleva as proteínas que carregam o hormônio), mas geralmente não afeta o T4 livre. Por isso o T4 livre é o exame de escolha em mulheres que usam anticoncepcionais."
-      },
-      {
-        "pergunta": "Com qual frequência fazer exames da tireoide?",
-        "resposta": "Quem está bem controlado com levotiroxina faz TSH e T4 livre a cada 6 a 12 meses. Após ajuste de dose, o ideal é repetir em 6 a 8 semanas. Mulheres grávidas devem fazer com mais frequência — mensalmente no primeiro trimestre."
-      }
-    ]
-  },
-  {
-    "nome": "Creatinina",
+    "nome": "Creatinina e Ureia",
     "categoria": "Função Renal",
-    "descricao": "A creatinina é um resíduo produzido pelos músculos durante o trabalho diário. Os rins são responsáveis por filtrar e eliminar a creatinina pela urina. Quando os rins não funcionam bem, a creatinina se acumula no sangue e sobe. É o principal exame de avaliação da função renal.",
-    "valores_normais": "Homens: 0,7 a 1,2 mg/dL | Mulheres: 0,5 a 1,0 mg/dL — Pessoas com mais massa muscular tendem a ter creatinina naturalmente mais alta.",
-    "o_que_significa_alto": "Creatinina alta indica que os rins não estão filtrando o sangue de forma adequada. Pode ser por desidratação (causa reversível), infecção urinária grave, uso de medicamentos nefrotóxicos, diabetes, hipertensão ou doença renal crônica.",
-    "o_que_significa_baixo": "Creatinina baixa geralmente indica pouca massa muscular — comum em idosos, mulheres magras e pessoas desnutridas. Raramente é motivo de preocupação clínica.",
-    "quando_pedir": "Acompanhamento de diabetes e hipertensão (principais causas de doença renal crônica), uso de medicamentos que afetam os rins (anti-inflamatórios, contrastes radiológicos), rotina anual para adultos, investigação de edema.",
-    "preparo": "Nenhum preparo especial. Não precisa de jejum. Evitar exercício físico intenso no dia anterior (pode elevar levemente a creatinina).",
-    "descricao_seo": "A creatinina é o principal exame para avaliar os rins. Valores elevados indicam que os rins não estão funcionando bem. Entenda o que significa sua creatinina alta ou baixa.",
+    "descricao": "A creatinina e a ureia são resíduos produzidos pelo metabolismo do corpo e eliminados pelos rins. Quando os rins não funcionam bem, esses resíduos se acumulam no sangue. Juntos, eles formam os principais marcadores da função renal.",
+    "valores_normais": "Creatinina: Homens: 0,7 a 1,2 mg/dL | Mulheres: 0,5 a 1,0 mg/dL | Ureia: 15 a 40 mg/dL (adultos)",
+    "o_que_significa_alto": "Creatinina e ureia elevadas indicam que os rins estão com dificuldade de filtrar o sangue — pode ser insuficiência renal aguda (de início rápido) ou crônica (lenta e progressiva). Causas: desidratação, diabetes mal controlado, hipertensão, uso de medicamentos nefrotóxicos, infecções graves.",
+    "o_que_significa_baixo": "Creatinina baixa é comum em idosos, pessoas com pouca massa muscular e gestantes — não é preocupante. Ureia muito baixa pode indicar desnutrição proteica ou doença hepática grave.",
+    "quando_pedir": "Acompanhamento de diabetes e hipertensão (principais causas de doença renal), uso de medicamentos que afetam os rins (AINEs, antibióticos aminoglicosídeos, contraste radiológico), edema, diminuição do volume de urina, rotina em adultos acima de 40 anos.",
+    "preparo": "Nenhum preparo especial. Não precisa de jejum para creatinina. Para a ureia, evitar refeição muito rica em proteínas nas horas anteriores.",
+    "descricao_seo": "Creatinina e ureia avaliam o funcionamento dos rins. Valores elevados podem indicar insuficiência renal. Entenda o que significa seu resultado e quando se preocupar.",
     "perguntas_frequentes": [
       {
         "pergunta": "Creatinina 1,4 é grave?",
-        "resposta": "Para mulheres, está acima do normal e merece atenção. Para homens, está no limite superior. O médico avaliará junto com outros exames (ureia, TFG) e o histórico do paciente para determinar se há problema renal."
+        "resposta": "Para homens, está levemente acima do normal; para mulheres, é mais significativo. Isoladamente, um valor levemente elevado pode ser variação normal, desidratação ou maior massa muscular. O médico avaliará junto com outros exames renais e o histórico do paciente."
       },
       {
-        "pergunta": "Beber muita água baixa a creatinina?",
-        "resposta": "Se a creatinina estiver alta por desidratação, sim — hidratação adequada pode normalizá-la. Mas se a causa for doença renal, beber mais água não corrige o problema (mas é sempre importante para a saúde renal)."
+        "pergunta": "O que faz mal para os rins?",
+        "resposta": "Os principais inimigos dos rins são: diabetes mal controlado, hipertensão sem tratamento, uso abusivo de anti-inflamatórios (ibuprofeno, nimesulida, diclofenaco), contraste de exames de imagem sem hidratação adequada e algumas infecções. Beber pouca água também sobrecarrega os rins."
       },
       {
-        "pergunta": "Anti-inflamatórios machucam os rins?",
-        "resposta": "Sim. Ibuprofeno, diclofenaco e nimesulida usados com frequência ou em doses altas reduzem o fluxo de sangue nos rins e podem causar lesão renal. Pessoas com doença renal devem evitar ou usar com muita cautela e orientação médica."
+        "pergunta": "Posso tomar anti-inflamatório com creatinina alterada?",
+        "resposta": "Anti-inflamatórios como ibuprofeno e diclofenaco reduzem o fluxo sanguíneo nos rins e podem piorar a função renal. Com creatinina alterada, o uso deve ser evitado ou feito com extrema cautela e orientação médica."
+      },
+      {
+        "pergunta": "Doença renal tem sintomas?",
+        "resposta": "Frequentemente não — a doença renal crônica é silenciosa por anos. Por isso o rastreio com exames de sangue e urina é tão importante em diabéticos e hipertensos. Quando os sintomas aparecem (inchaço, urina espumosa, cansaço), a doença já pode estar avançada."
       },
       {
         "pergunta": "Qual a diferença entre creatinina e TFG?",
-        "resposta": "A TFG (Taxa de Filtração Glomerular) é calculada a partir da creatinina, levando em conta idade, sexo e raça. É um indicador mais preciso da função renal — mostra quantos mililitros de sangue os rins filtram por minuto. TFG abaixo de 60 indica doença renal crônica."
-      },
-      {
-        "pergunta": "Proteína (suplemento) aumenta a creatinina?",
-        "resposta": "O consumo elevado de proteína e creatina (suplemento) pode elevar levemente a creatinina em pessoas saudáveis, mas raramente de forma significativa. O médico considera o contexto antes de interpretar o resultado."
+        "resposta": "A creatinina é o valor bruto medido no sangue. A TFG (Taxa de Filtração Glomerular) é calculada a partir da creatinina, levando em conta idade, sexo e raça — ela estima quanto os rins estão filtrando por minuto. A TFG é mais precisa para classificar o estágio da doença renal."
       }
     ]
   },
   {
-    "nome": "Ureia",
-    "categoria": "Função Renal",
-    "descricao": "A ureia é um resíduo produzido quando o corpo quebra proteínas. Ela é eliminada pelos rins através da urina. Assim como a creatinina, quando os rins não funcionam bem, a ureia se acumula no sangue. Os dois exames juntos dão uma avaliação mais completa dos rins.",
-    "valores_normais": "15 a 45 mg/dL — Valores podem ser um pouco maiores em idosos e em pessoas que consomem muita proteína.",
-    "o_que_significa_alto": "Ureia alta pode indicar problemas renais, desidratação intensa, sangramento digestivo, consumo excessivo de proteína ou uso de corticoides. Quando associada à creatinina alta, reforça o diagnóstico de insuficiência renal.",
-    "o_que_significa_baixo": "Ureia baixa pode ocorrer em pessoas com dieta muito pobre em proteínas, doenças do fígado graves (o fígado produz a ureia) ou durante gravidez. Raramente é clinicamente significativa isoladamente.",
-    "quando_pedir": "Junto com a creatinina para avaliação da função renal. Acompanhamento de diabetes, hipertensão, doença renal crônica, e antes de exames com contraste.",
-    "preparo": "Nenhum preparo especial. Não precisa de jejum.",
-    "descricao_seo": "A ureia avalia o funcionamento dos rins junto com a creatinina. Valores elevados podem indicar desidratação ou insuficiência renal. Entenda o que significa seu resultado de ureia.",
-    "perguntas_frequentes": [
-      {
-        "pergunta": "Ureia alta sempre é problema nos rins?",
-        "resposta": "Não necessariamente. Desidratação intensa, sangramento digestivo e dieta muito rica em proteínas também elevam a ureia. O médico avalia junto com a creatinina e outros exames para determinar a causa."
-      },
-      {
-        "pergunta": "Qual o mais importante: ureia ou creatinina?",
-        "resposta": "Os dois são complementares. A creatinina é considerada um marcador mais específico de função renal. A ureia pode variar mais com a dieta e outros fatores. Juntos, dão uma visão mais completa da saúde dos rins."
-      },
-      {
-        "pergunta": "Ureia 60 é preocupante?",
-        "resposta": "Está acima do normal (referência até 45). O médico avaliará junto com a creatinina, os sintomas e o histórico. Em pessoas idosas ou com dieta rica em proteína, valores levemente elevados podem ser esperados."
-      },
-      {
-        "pergunta": "Dieta pobre em proteína baixa a ureia?",
-        "resposta": "Sim. Reduzir proteínas na dieta diminui a produção de ureia. Mas isso não trata a causa do problema renal — apenas mascara o resultado. A dieta deve ser ajustada conforme orientação do médico ou nutricionista."
-      },
-      {
-        "pergunta": "Fiz exame de ureia sem jejum — o resultado é válido?",
-        "resposta": "Sim. O jejum não é obrigatório para ureia. No entanto, uma refeição muito rica em proteínas antes do exame pode elevar levemente o resultado. Em caso de dúvida, confirme com seu médico."
-      }
-    ]
-  },
-  {
-    "nome": "TGO — AST (Enzima do Fígado)",
+    "nome": "TGO e TGP (Transaminases)",
     "categoria": "Função Hepática",
-    "descricao": "A TGO (também chamada AST) é uma enzima encontrada principalmente no fígado, mas também nos músculos e coração. Quando essas células são lesadas, liberam TGO no sangue. É usada para avaliar a saúde do fígado, geralmente junto com a TGP.",
-    "valores_normais": "10 a 40 U/L — Valores podem variar um pouco entre laboratórios.",
-    "o_que_significa_alto": "TGO alta indica que o fígado ou outras células estão sendo lesadas. As causas mais comuns são hepatite viral, consumo excessivo de álcool, uso de medicamentos hepatotóxicos (como paracetamol em doses altas), doença hepática gordurosa (esteatose) e, em menor frequência, infarto do miocárdio ou lesão muscular intensa.",
-    "o_que_significa_baixo": "TGO baixa não tem significado clínico relevante na prática. Valores dentro do normal são excelentes.",
-    "quando_pedir": "Investigação de doenças do fígado, consumo elevado de álcool, uso prolongado de medicamentos que afetam o fígado, exame pré-operatório, diagnóstico de hepatite, esteatose hepática.",
-    "preparo": "Nenhum preparo especial. Evitar exercício físico intenso no dia anterior (pode elevar TGO por lesão muscular).",
-    "descricao_seo": "A TGO (AST) avalia a saúde do fígado. Valores elevados indicam lesão hepática por álcool, medicamentos, hepatite ou esteatose. Entenda o que significa seu resultado de TGO.",
+    "descricao": "TGO (aspartato aminotransferase) e TGP (alanina aminotransferase) são enzimas encontradas principalmente nas células do fígado. Quando o fígado está inflamado ou lesionado, essas células liberam as enzimas no sangue — e os valores sobem. São os principais marcadores de saúde hepática.",
+    "valores_normais": "TGO: até 40 U/L | TGP: até 41 U/L (homens) e até 31 U/L (mulheres) — valores variam conforme o laboratório.",
+    "o_que_significa_alto": "Transaminases elevadas indicam alguma agressão ao fígado. As causas mais comuns são: hepatite viral (A, B ou C), gordura no fígado (esteatose), uso de álcool, medicamentos hepatotóxicos (paracetamol em excesso, estatinas, alguns antibióticos), obesidade e diabetes. Elevações muito altas (10 vezes acima do normal) sugerem hepatite aguda grave.",
+    "o_que_significa_baixo": "Valores baixos ou no limite inferior são normais e sem significado clínico.",
+    "quando_pedir": "Avaliação de saúde do fígado, uso de álcool, suspeita de hepatite, uso de medicamentos que afetam o fígado, obesidade, diabetes, exame de rotina.",
+    "preparo": "Nenhum preparo especial. Não precisa de jejum. Evitar exercício físico intenso nas 24 horas antes (TGO pode subir com esforço muscular).",
+    "descricao_seo": "TGO e TGP são enzimas que indicam a saúde do fígado. Valores elevados podem indicar hepatite, gordura no fígado ou lesão por medicamentos. Entenda o que significa seu resultado.",
     "perguntas_frequentes": [
       {
-        "pergunta": "TGO 60 é grave?",
-        "resposta": "Está levemente elevada (acima de 40). O médico avaliará junto com a TGP e os sintomas para determinar a causa. Elevações leves podem ser por exercício físico intenso, enquanto elevações maiores merecem investigação de doenças do fígado."
+        "pergunta": "TGP 60 é grave?",
+        "resposta": "Está levemente acima do normal. O médico avaliará a causa — pode ser esteatose (gordura no fígado), uso de medicamentos, álcool ou exercício intenso recente. Raramente é emergência com esse valor, mas merece investigação."
       },
       {
-        "pergunta": "Qual a diferença entre TGO e TGP?",
-        "resposta": "A TGP (ALT) é mais específica do fígado, enquanto a TGO (AST) também se eleva em lesões musculares e cardíacas. Quando a TGP está muito mais alta que a TGO, a lesão é principalmente hepática. Quando a TGO é proporcionalmente mais alta, pode haver componente alcoólico ou muscular."
+        "pergunta": "Gordura no fígado eleva as transaminases?",
+        "resposta": "Sim. A esteatose hepática não alcoólica (fígado gorduroso) é uma das causas mais comuns de TGO e TGP levemente elevadas. Com mudanças no estilo de vida — perda de peso, dieta e exercício — as enzimas costumam normalizar."
       },
       {
-        "pergunta": "Paracetamol realmente machuca o fígado?",
-        "resposta": "Em doses normais (até 3-4g/dia para adultos saudáveis), o paracetamol é seguro. Em doses altas, em alcoólatras ou em pessoas com doença hepática, pode causar lesão grave. Nunca exceder a dose máxima recomendada."
+        "pergunta": "Paracetamol pode elevar TGO e TGP?",
+        "resposta": "Sim. O paracetamol em doses excessivas é uma das principais causas de hepatite tóxica — e as transaminases sobem muito rapidamente. Nunca ultrapasse 4g por dia (2 comprimidos de 500mg a cada 6 horas, no máximo)."
       },
       {
-        "pergunta": "Álcool eleva as enzimas do fígado?",
-        "resposta": "Sim. O álcool é diretamente tóxico para o fígado. O consumo regular e em excesso eleva TGO e TGP de forma progressiva. A TGO costuma se elevar proporcionalmente mais que a TGP no alcoolismo."
+        "pergunta": "Posso tomar estatina com transaminases altas?",
+        "resposta": "Depende do valor. Elevações leves (até 3 vezes o normal) geralmente não contraindicam o uso de estatinas. Valores acima disso exigem avaliação médica antes de iniciar ou continuar o tratamento."
       },
       {
-        "pergunta": "As enzimas do fígado normalizam após parar de beber?",
-        "resposta": "Em muitos casos, sim. Se não houver cirrose, parar de beber por 4 a 8 semanas pode normalizar as enzimas hepáticas. Em casos de doença hepática avançada, a melhora é mais lenta e pode ser incompleta."
-      }
-    ]
-  },
-  {
-    "nome": "TGP — ALT (Enzima do Fígado)",
-    "categoria": "Função Hepática",
-    "descricao": "A TGP (também chamada ALT) é uma enzima encontrada quase exclusivamente no fígado. É considerada o marcador mais específico de lesão hepática. Quando as células do fígado são danificadas, a TGP vaza para o sangue e seus níveis sobem.",
-    "valores_normais": "Homens: 7 a 56 U/L | Mulheres: 7 a 45 U/L — Valores de referência podem variar entre laboratórios.",
-    "o_que_significa_alto": "TGP alta indica lesão nas células do fígado. As causas mais comuns são hepatite viral (A, B, C), fígado gorduroso (esteatose), álcool, medicamentos como antibióticos, anticonvulsivantes e estatinas em doses altas, e obesidade.",
-    "o_que_significa_baixo": "TGP baixa não tem significado clínico. Valores dentro do normal são excelentes.",
-    "quando_pedir": "Investigação e acompanhamento de hepatite, esteatose hepática (fígado gorduroso), uso prolongado de medicamentos hepatotóxicos, consumo de álcool, exame pré-operatório, triagem em pessoas com obesidade.",
-    "preparo": "Nenhum preparo especial. Não precisa de jejum. Evitar exercício intenso no dia anterior.",
-    "descricao_seo": "A TGP (ALT) é o principal marcador de saúde do fígado. Valores altos indicam hepatite, fígado gorduroso ou dano por medicamentos. Saiba o que significa seu resultado de TGP.",
-    "perguntas_frequentes": [
-      {
-        "pergunta": "TGP 80 é grave?",
-        "resposta": "Está elevada e merece investigação. Pode indicar hepatite, fígado gorduroso ou reação a medicamento. O médico pedirá outros exames (hepatite B e C, ultrassom do abdômen) para identificar a causa."
-      },
-      {
-        "pergunta": "Fígado gorduroso sempre eleva TGP?",
-        "resposta": "Não sempre. Muitas pessoas com esteatose hepática têm TGP normal. Quando está elevada, indica que o fígado já está inflamado (esteatohepatite) — uma fase mais preocupante que exige tratamento com mudança de estilo de vida."
-      },
-      {
-        "pergunta": "Estatinas podem elevar a TGP?",
-        "resposta": "Sim, mas raramente de forma significativa. Elevações leves (até 3 vezes o valor normal) são aceitáveis. Se a TGP ultrapassar 3 vezes o limite superior com sintomas, o médico pode ajustar ou trocar a medicação."
-      },
-      {
-        "pergunta": "Como reduzir a TGP naturalmente?",
-        "resposta": "Eliminar o álcool, emagrecer (no caso de fígado gorduroso), praticar exercício físico, reduzir açúcar e alimentos ultraprocessados e suspender medicamentos desnecessários. Em 3 a 6 meses de mudança de hábitos, a TGP tende a normalizar."
-      },
-      {
-        "pergunta": "TGP alterada na gravidez é perigoso?",
-        "resposta": "Pode ser. Algumas doenças da gravidez, como a colestase intra-hepática e a pré-eclâmpsia, alteram as enzimas do fígado. TGP elevada na gravidez exige avaliação médica urgente."
+        "pergunta": "TGO e TGP normais garantem que o fígado está saudável?",
+        "resposta": "Não completamente. Na cirrose compensada, as transaminases podem ser normais ou levemente alteradas mesmo com dano hepático avançado. Outros exames — como albumina, bilirrubinas, tempo de protrombina e ultrassom — completam a avaliação do fígado."
       }
     ]
   },
   {
     "nome": "PCR (Proteína C-Reativa)",
-    "categoria": "Inflamação / Infecção",
-    "descricao": "A PCR é uma proteína produzida pelo fígado em resposta a inflamações, infecções e lesões no corpo. Funciona como um alarme de incêndio: quando algo está errado, a PCR sobe rapidamente. É usada para detectar e monitorar infecções e inflamações.",
-    "valores_normais": "PCR convencional: abaixo de 5 mg/L | PCR ultrassensível (para risco cardiovascular): abaixo de 1 mg/L é baixo risco, 1 a 3 mg/L é risco moderado, acima de 3 mg/L é alto risco",
-    "o_que_significa_alto": "PCR alta indica que há inflamação ou infecção ativa no corpo. As causas vão de uma simples gripe a infecções bacterianas graves, doenças autoimunes (como lúpus e artrite reumatoide), infarto e até câncer. Quanto maior o valor, mais intensa é a inflamação.",
-    "o_que_significa_baixo": "PCR baixa é excelente — indica ausência de inflamação significativa no momento do exame.",
-    "quando_pedir": "Suspeita de infecção bacteriana, monitoramento de doenças inflamatórias crônicas, avaliação de risco cardiovascular (PCR ultrassensível), acompanhamento pós-cirúrgico, investigação de febre de causa desconhecida.",
+    "categoria": "Inflamação e Infecção",
+    "descricao": "A PCR é uma proteína produzida pelo fígado em resposta a inflamações, infecções e lesões teciduais. É um dos marcadores inflamatórios mais sensíveis e rápidos do organismo — sobe em poucas horas após o início de uma inflamação ou infecção.",
+    "valores_normais": "PCR convencional: abaixo de 5,0 mg/L | PCR ultrassensível (para risco cardiovascular): abaixo de 1,0 mg/L (baixo risco); 1,0 a 3,0 mg/L (risco intermediário); acima de 3,0 mg/L (alto risco cardiovascular)",
+    "o_que_significa_alto": "PCR elevada indica inflamação ou infecção ativa no corpo. Causas: infecções bacterianas ou virais, doenças autoimunes (lúpus, artrite reumatoide), infarto do miocárdio, pós-operatório, câncer, obesidade, tabagismo. Quanto mais alta, mais intensa é a resposta inflamatória.",
+    "o_que_significa_baixo": "PCR baixa ou indetectável é desejável — indica ausência de inflamação significativa.",
+    "quando_pedir": "Suspeita de infecção bacteriana (para diferenciar de viral), monitoramento de doenças inflamatórias crônicas, avaliação de risco cardiovascular (PCR ultrassensível), acompanhamento pós-operatório, febre sem causa aparente.",
     "preparo": "Nenhum preparo especial. Não precisa de jejum.",
-    "descricao_seo": "A PCR detecta inflamação e infecção no organismo. Valores altos podem indicar infecção bacteriana, doença autoimune ou infarto. Entenda o que significa seu resultado de PCR.",
+    "descricao_seo": "A PCR (Proteína C-Reativa) detecta inflamações e infecções no organismo. É também usada para avaliar risco cardiovascular. Entenda o que significa seu resultado de PCR.",
     "perguntas_frequentes": [
       {
-        "pergunta": "PCR alta sempre significa infecção grave?",
-        "resposta": "Não. PCR moderadamente elevada (5 a 50 mg/L) pode ocorrer em infecções virais, inflamações leves ou até após exercício intenso. Valores muito altos (acima de 100 mg/L) são mais sugestivos de infecção bacteriana grave."
+        "pergunta": "PCR alta sempre significa infecção?",
+        "resposta": "Não. Qualquer inflamação eleva a PCR — incluindo doenças autoimunes, infarto, pós-operatório, cânceres e até obesidade grave. A PCR indica que algo está inflamando o corpo, mas não diz o quê. O médico interpretará junto com os sintomas e outros exames."
       },
       {
-        "pergunta": "Qual a diferença entre PCR e VHS?",
-        "resposta": "Os dois detectam inflamação, mas de formas diferentes. A PCR sobe em horas após o início da inflamação e cai rapidamente com o tratamento. O VHS (velocidade de hemossedimentação) sobe e cai mais lentamente. PCR é mais sensível e específica."
+        "pergunta": "PCR 20 é perigoso?",
+        "resposta": "É moderadamente elevada e indica inflamação ou infecção ativa significativa. O médico avaliará a causa. PCR acima de 100 sugere infecção bacteriana grave ou condição inflamatória severa e requer atenção imediata."
       },
       {
-        "pergunta": "PCR alta com antibiótico: o que fazer?",
-        "resposta": "A PCR cai progressivamente quando o tratamento é eficaz. Após 2 a 3 dias de antibiótico, espera-se redução. Se continuar alta, pode indicar que o antibiótico não está funcionando ou que há outro foco de infecção."
+        "pergunta": "PCR serve para diagnosticar COVID-19?",
+        "resposta": "Não especificamente. A PCR pode estar elevada na COVID-19 grave, mas não confirma a doença. O diagnóstico da COVID-19 é feito com o RT-PCR para o vírus (um exame com nome parecido, mas completamente diferente) ou teste de antígeno."
       },
       {
-        "pergunta": "PCR ultrassensível serve para avaliar risco de infarto?",
-        "resposta": "Sim. PCR-us acima de 3 mg/L indica inflamação crônica nas artérias e é um fator de risco independente para infarto e AVC. É pedida junto com o perfil lipídico em pessoas com risco cardiovascular intermediário."
+        "pergunta": "O que é PCR ultrassensível?",
+        "resposta": "É uma versão mais sensível do exame, capaz de detectar inflamações crônicas e de baixo grau. É usada para avaliar risco cardiovascular — inflamação crônica nas artérias aumenta o risco de infarto mesmo sem colesterol muito alto."
       },
       {
-        "pergunta": "Posso ter infecção com PCR normal?",
-        "resposta": "Sim. Infecções virais geralmente elevam a PCR menos que as bacterianas. Na COVID-19 e em outras infecções virais, a PCR pode estar normal ou levemente elevada mesmo com infecção ativa. O médico avalia junto com outros exames e sintomas."
+        "pergunta": "Posso fazer o exame de PCR com febre?",
+        "resposta": "Sim, e é exatamente quando o médico costuma pedi-lo — a febre é um sinal de inflamação e a PCR ajuda a avaliar a intensidade do processo. O exame pode ser coletado em qualquer horário, mesmo com febre ou sintomas."
       }
     ]
   },
   {
     "nome": "Ferritina",
     "categoria": "Metabolismo do Ferro",
-    "descricao": "A ferritina é a proteína que armazena o ferro dentro das células. O exame de ferritina no sangue mostra os estoques de ferro do corpo. É o exame mais sensível para detectar falta de ferro — a ferritina cai antes mesmo da hemoglobina baixar.",
-    "valores_normais": "Homens: 20 a 250 ng/mL | Mulheres: 10 a 120 ng/mL — Mulheres grávidas e idosos têm referências diferentes.",
-    "o_que_significa_alto": "Ferritina alta pode indicar inflamação ou infecção (a ferritina é também uma proteína de fase aguda), doença hepática, hemocromatose (excesso de ferro genético) ou, raramente, alguns tipos de câncer. Antes de investigar excesso de ferro, o médico descarta inflamação.",
-    "o_que_significa_baixo": "Ferritina baixa é o sinal mais precoce de deficiência de ferro — ocorre antes da anemia aparecer. Causa cansaço, queda de cabelo, unhas quebradiças e dificuldade de concentração mesmo com hemoglobina normal.",
-    "quando_pedir": "Investigação de queda de cabelo, cansaço sem causa aparente, antes e após suplementação de ferro, diagnóstico de anemia ferropriva, doadores de sangue frequentes, gestantes.",
-    "preparo": "Nenhum preparo especial. Não precisa de jejum. Evitar coleta durante infecção aguda, pois a ferritina pode estar falsamente elevada.",
+    "descricao": "A ferritina é a proteína que armazena o ferro no corpo. Enquanto a hemoglobina mede o ferro em circulação, a ferritina revela os estoques — como um reservatório. Ela cai antes de a anemia aparecer, tornando-se o exame mais precoce para detectar deficiência de ferro.",
+    "valores_normais": "Homens: 30 a 300 ng/mL | Mulheres: 13 a 150 ng/mL | Abaixo de 30 ng/mL: estoques baixos (mesmo sem anemia)",
+    "o_que_significa_alto": "Ferritina alta pode indicar inflamação, infecção, doença hepática, hemocromatose (acúmulo de ferro por causa genética) ou, raramente, alguns tipos de câncer. Durante infecções, o fígado libera mais ferritina como mecanismo de defesa — por isso um valor alto isolado deve ser interpretado com cautela.",
+    "o_que_significa_baixo": "Ferritina baixa indica estoques de ferro esgotados — mesmo que a hemoglobina ainda esteja normal. Causa cansaço, queda de cabelo difusa, unhas quebradiças, dificuldade de concentração e piora do desempenho físico.",
+    "quando_pedir": "Queda de cabelo inexplicável, cansaço mesmo com hemoglobina normal, suspeita de deficiência de ferro, gestantes, vegetarianos e veganos, doadores de sangue frequentes, mulheres com menstruação intensa.",
+    "preparo": "Nenhum preparo especial. Não precisa de jejum. Evitar fazer o exame durante infecções ou inflamações ativas — o resultado pode estar falsamente elevado.",
     "descricao_seo": "A ferritina mede os estoques de ferro no organismo. Ferritina baixa causa cansaço e queda de cabelo mesmo antes da anemia aparecer. Entenda o que significa seu resultado de ferritina.",
     "perguntas_frequentes": [
       {
@@ -656,6 +458,105 @@
       {
         "pergunta": "Dor no dedão do pé sempre é gota?",
         "resposta": "A dor intensa no dedão do pé é clássica da gota — mas outras condições como bursite, artrite e trauma também causam dor no mesmo local. O diagnóstico de gota é feito com o exame de ácido úrico e avaliação médica dos sintomas."
+      }
+    ]
+  },
+  {
+    "nome": "Urina Tipo 1 (EAS)",
+    "categoria": "Função Renal",
+    "descricao": "O exame de urina tipo 1 (também chamado EAS — Elementos Anormais e Sedimento) analisa a composição da urina para detectar infecções urinárias, doenças dos rins, diabetes e outras condições. É um dos exames de triagem mais completos e baratos disponíveis.",
+    "valores_normais": "Ausência de bactérias, leucócitos (glóbulos brancos), hemácias (sangue), proteínas e glicose na urina. pH entre 4,5 e 8,0. Densidade entre 1.005 e 1.030.",
+    "o_que_significa_alto": "Leucócitos na urina indicam infecção ou inflamação urinária. Bactérias confirmam infecção. Proteína na urina pode indicar doença renal ou hipertensão. Glicose na urina ocorre quando a glicemia está muito alta (diabetes descontrolado). Sangue na urina pode ser cálculo renal, infecção, tumor ou lesão.",
+    "o_que_significa_baixo": "Urina muito diluída (densidade baixa) pode indicar ingestão excessiva de água, diabetes insipidus ou doença renal. Urina muito concentrada (densidade alta) sugere desidratação.",
+    "quando_pedir": "Ardência ao urinar, urina turva ou com odor forte, sangue na urina, febre de origem desconhecida, acompanhamento do diabetes e hipertensão, gestação, exame de rotina.",
+    "preparo": "Coletar a urina do meio do jato (desprezar o início e o fim). Usar frasco estéril. Coletar preferencialmente a primeira urina da manhã. Higiene íntima antes da coleta. Não é necessário jejum.",
+    "descricao_seo": "O exame de urina tipo 1 detecta infecções urinárias, problemas renais, diabetes e outras condições. Entenda o que significa cada resultado do seu EAS.",
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Leucócitos na urina sempre é infecção urinária?",
+        "resposta": "Leucócitos na urina indicam inflamação ou infecção, mas podem ocorrer também por contaminação durante a coleta. Se houver sintomas (ardência, urina turva, febre), o médico indicará a urocultura para confirmar a infecção e identificar a bactéria."
+      },
+      {
+        "pergunta": "O que é urocultura e quando é pedida?",
+        "resposta": "A urocultura cultiva a urina para identificar qual bactéria está causando a infecção e qual antibiótico a elimina (antibiograma). É pedida quando há infecção confirmada ou suspeita, especialmente em gestantes, homens e infecções de repetição."
+      },
+      {
+        "pergunta": "Sangue na urina é sempre grave?",
+        "resposta": "Nem sempre, mas sempre merece investigação. Pode ser causado por cálculo renal, infecção, exercício intenso, menstruação (contaminação), medicamentos anticoagulantes ou, mais raramente, tumor. O médico solicitará exames complementares conforme os sintomas."
+      },
+      {
+        "pergunta": "Proteína na urina o que significa?",
+        "resposta": "Proteína na urina (proteinúria) indica que o filtro do rim está deixando passar proteínas que deveriam ficar no sangue — sinal de lesão renal. É um marcador precoce de doença renal em diabéticos e hipertensos. Deve ser investigada com exames complementares."
+      },
+      {
+        "pergunta": "Posso tomar antibiótico antes de fazer a urina?",
+        "resposta": "Não. O antibiótico pode eliminar as bactérias da urina antes do exame, dando um resultado falsamente normal. Se possível, colete o exame antes de iniciar o antibiótico ou aguarde 48 a 72 horas após terminar o tratamento para repetir."
+      }
+    ]
+  },
+  {
+    "nome": "Vitamina B12",
+    "categoria": "Vitaminas e Minerais",
+    "descricao": "A vitamina B12 é essencial para a formação das células vermelhas do sangue, o funcionamento do sistema nervoso e a síntese de DNA. O corpo não a produz — precisa obtê-la pela alimentação (carnes, ovos, laticínios) ou suplementação. Sua deficiência pode causar danos neurológicos irreversíveis se não tratada.",
+    "valores_normais": "200 a 900 pg/mL — Abaixo de 200 pg/mL: deficiência | 200 a 300 pg/mL: zona cinzenta (sintomas possíveis mesmo com valor 'normal')",
+    "o_que_significa_alto": "B12 muito alta raramente ocorre pela alimentação. Pode indicar doença hepática, doenças mieloproliferativas (como leucemia) ou uso de suplementação em doses altas. Valores altos por suplementação geralmente não causam toxicidade.",
+    "o_que_significa_baixo": "Deficiência de B12 causa anemia megaloblástica (glóbulos vermelhos grandes e disfuncionais), formigamento e dormência nas mãos e pés, fraqueza, perda de equilíbrio, alterações de memória e humor, e glossite (língua vermelha e dolorida). Em casos graves, causa danos neurológicos permanentes.",
+    "quando_pedir": "Vegetarianos e veganos (B12 é encontrada apenas em alimentos de origem animal), idosos (absorção diminui com a idade), uso de metformina por longos períodos (reduz absorção de B12), anemia, sintomas neurológicos como formigamento, gastrite atrófica e cirurgia bariátrica.",
+    "preparo": "Nenhum preparo especial. Não precisa de jejum.",
+    "descricao_seo": "A vitamina B12 é essencial para o sistema nervoso e a formação do sangue. Deficiência é comum em veganos, idosos e usuários de metformina. Entenda o que significa seu resultado.",
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Veganos precisam suplementar B12?",
+        "resposta": "Sim, obrigatoriamente. A vitamina B12 existe em quantidades significativas apenas em alimentos de origem animal. Veganos que não suplementam desenvolvem deficiência com o tempo — o problema é que os estoques no fígado duram anos, e os sintomas aparecem tarde, quando o dano já pode ser avançado."
+      },
+      {
+        "pergunta": "Metformina baixa a vitamina B12?",
+        "resposta": "Sim. O uso prolongado de metformina interfere na absorção de B12 no intestino. Pacientes usando metformina por mais de 4 anos têm risco aumentado de deficiência. A ANVISA recomenda monitoramento periódico de B12 em usuários crônicos de metformina."
+      },
+      {
+        "pergunta": "B12 baixa causa formigamento?",
+        "resposta": "Sim. O formigamento e a dormência nas extremidades (mãos e pés) são sintomas clássicos de deficiência de B12 — causados pela desmielinização dos nervos. Se não tratado, pode progredir para fraqueza muscular e problemas de equilíbrio. O tratamento precoce geralmente reverte os sintomas."
+      },
+      {
+        "pergunta": "Qual a diferença entre B12 oral e injetável?",
+        "resposta": "Para quem absorve bem (jovens sem gastrite), a B12 oral em doses altas funciona tão bem quanto a injetável. Para idosos, pessoas com gastrite atrófica ou que fizeram cirurgia bariátrica, a absorção oral é prejudicada — e a injeção intramuscular é mais eficaz."
+      },
+      {
+        "pergunta": "B12 alta é perigosa?",
+        "resposta": "Em geral não, quando causada por suplementação. A B12 é uma vitamina hidrossolúvel e o excesso é eliminado pela urina. Porém, B12 muito alta sem suplementação pode indicar doença hepática ou hematológica e merece investigação médica."
+      }
+    ]
+  },
+  {
+    "nome": "PSA (Antígeno Prostático Específico)",
+    "categoria": "Rastreio de Câncer",
+    "descricao": "O PSA é uma proteína produzida pela próstata e presente no sangue em pequenas quantidades. Quando a próstata está inflamada, aumentada (hiperplasia benigna) ou com câncer, os níveis de PSA sobem. É o principal exame de rastreio para o câncer de próstata — mas deve ser interpretado com muito cuidado.",
+    "valores_normais": "Abaixo de 40 anos: até 2,5 ng/mL | 40 a 50 anos: até 2,5 ng/mL | 50 a 60 anos: até 3,5 ng/mL | 60 a 70 anos: até 4,5 ng/mL | Acima de 70 anos: até 6,5 ng/mL",
+    "o_que_significa_alto": "PSA elevado pode indicar câncer de próstata, mas também hiperplasia prostática benigna (aumento não canceroso muito comum em homens acima de 50 anos), prostatite (inflamação), infecção urinária, ou até ejaculação recente. Um PSA alto não confirma câncer — exige investigação com biópsia.",
+    "o_que_significa_baixo": "PSA baixo para a faixa etária é tranquilizador, mas não exclui completamente o câncer de próstata — tumores pequenos podem não elevar o PSA.",
+    "quando_pedir": "A Sociedade Brasileira de Urologia recomenda oferecer o exame a partir dos 50 anos (ou 45 para negros e com histórico familiar). A decisão de rastrear deve ser discutida individualmente com o médico — considerando os benefícios e os riscos de falsos positivos e tratamentos desnecessários.",
+    "preparo": "Evitar ejaculação nas 48 a 72 horas antes do exame. Evitar exame de toque retal ou ultrassom prostático nas 24 horas antes. Não fazer após biopsia prostática recente. Informe se há infecção urinária ativa.",
+    "descricao_seo": "O PSA é o principal exame de rastreio para o câncer de próstata. Valores elevados podem indicar câncer, hiperplasia ou inflamação. Entenda o que significa seu resultado de PSA.",
+    "perguntas_frequentes": [
+      {
+        "pergunta": "PSA 5 é câncer?",
+        "resposta": "Não necessariamente. PSA 5 está acima do normal para homens até 60 anos, mas pode ser causado por hiperplasia prostática benigna, prostatite ou ejaculação recente. O urologista avaliará a velocidade de elevação do PSA, o toque retal e decidirá sobre a necessidade de biópsia."
+      },
+      {
+        "pergunta": "Toque retal altera o PSA?",
+        "resposta": "O toque retal simples pode elevar levemente o PSA. Por isso a recomendação é colher o sangue para PSA antes de realizar o toque — ou aguardar 24 horas. Ultrassom transretal, biópsia e cateterismo elevam muito mais e exigem espera maior."
+      },
+      {
+        "pergunta": "Câncer de próstata tem sintomas?",
+        "resposta": "O câncer de próstata inicial geralmente é assintomático — daí a importância do rastreio. Sintomas como dificuldade para urinar, jato fraco, urinar várias vezes à noite e sangue na urina são mais comuns na hiperplasia benigna ou em estágios avançados do câncer."
+      },
+      {
+        "pergunta": "PSA em jejum?",
+        "resposta": "Não é necessário jejum para o exame de PSA. A alimentação não interfere no resultado. O que mais importa é evitar ejaculação e procedimentos prostáticos nas horas antes da coleta."
+      },
+      {
+        "pergunta": "Com que frequência fazer o PSA?",
+        "resposta": "Depende do valor basal. PSA abaixo de 1 ng/mL: repetir a cada 2 anos. PSA entre 1 e 3 ng/mL: repetir anualmente. PSA acima de 3 ng/mL: acompanhamento com urologista. A frequência é individualizada conforme o risco e a idade."
       }
     ]
   }
