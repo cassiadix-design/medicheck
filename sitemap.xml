@@ -6,6 +6,26 @@
     <changefreq>weekly</changefreq>
   </url>
   <url>
+    <loc>https://medicheck.med.br/sobre/</loc>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://medicheck.med.br/contato/</loc>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://medicheck.med.br/politica-de-privacidade/</loc>
+    <priority>0.4</priority>
+    <changefreq>yearly</changefreq>
+  </url>
+  <url>
+    <loc>https://medicheck.med.br/termos-de-uso/</loc>
+    <priority>0.4</priority>
+    <changefreq>yearly</changefreq>
+  </url>
+  <url>
     <loc>https://medicheck.med.br/medicamentos/acetazolamida/</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
