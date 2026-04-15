@@ -1049,7 +1049,7 @@
     "descricao_seo": "Amiodarona 100mg - 200mg é um medicamento usado para: indicado para o tratamento de arritmias graves — batimentos cardíacos irregulares ou fora do ritmo normal — muitas vezes associadas à insuficiência cardíaca (quando o coração não bombeia sangue adequadamente) ou a doenças das artérias do coração. Os efeitos colaterais mais relatados são: fotossensibilidade na pele, distúrbios da tireóide, neuropatia periférica. Importante: Antiarrítmico potente - requer monitoramento rigoroso. Amiodarona 100mg - 200mg é vendido somente com receita médica — nunca use sem orientação de um profissional de saúde."
   },
   {
-    "nome": "Amitriptilina 25mg",
+    "nome": "Amitriptilina 10mg e 25mg",
     "generico": "Amitriptilina",
     "tipo": "Antidepressivo",
     "descricao": "Depressão, enxaqueca, dor neuropática (dor causada por dano ou disfunção nos nervos, como queimação, formigamento ou choques), enurese noturna (urinar na cama) em crianças.",
@@ -13134,6 +13134,10 @@
       {
         "pergunta": "Metformina faz mal para o rim?",
         "resposta": "Em pacientes com insuficiência renal grave é contraindicada. Para os demais, é segura com monitoramento regular da função renal."
+      },
+      {
+        "pergunta": "Por que a metformina dá diarreia no início do tratamento?",
+        "resposta": "A metformina irrita a mucosa do intestino nas primeiras semanas de uso, acelerando o trânsito intestinal e causando diarreia, náusea e desconforto abdominal. Isso acontece com até 30% dos pacientes e tende a melhorar sozinho após 2 a 4 semanas. Tomar o comprimido durante ou logo após a refeição reduz bastante esse efeito. A versão de liberação prolongada (metformina XR) também causa menos sintomas digestivos. Nunca interrompa o tratamento sem falar com o médico."
       }
     ],
     "receita_obrigatoria": true,
@@ -23111,5 +23115,221 @@
       }
     ],
     "descricao_seo": "Toxina Botulínica Tipo A (Botox, Dysport, Xeomin) é uma neurotoxina de aplicação injetável usada para: rugas dinâmicas (uso estético), espasticidade muscular, distonia cervical, hiperhidrose (suor excessivo), enxaqueca crônica e bexiga hiperativa. Os efeitos colaterais mais relatados são: fraqueza muscular local, equimose, cefaleia e ptose palpebral quando mal aplicada. Importante: contraindicada na gravidez, miastenia gravis e doenças neuromusculares. Procedimento realizado exclusivamente em clínicas e hospitais por profissional habilitado."
+  },
+  {
+    "nome": "Água Inglesa",
+    "generico": "Solução de sulfato de magnésio anidro com álcool e componentes auxiliares (fórmula varia conforme o fabricante)",
+    "tipo": "Laxante osmótico / Purgante tradicional",
+    "sinonimos": [
+      "agua inglesa",
+      "água inglesa",
+      "laxante tradicional",
+      "purgante"
+    ],
+    "descricao": "Preparação tradicional brasileira de uso popular, geralmente à base de sulfato de magnésio (sal amargo) em solução aquosa, às vezes associada a componentes carminativos. Age como laxante osmótico — retém água no intestino, amolecendo o bolo fecal e estimulando a evacuação. Não é um medicamento registrado na Anvisa como produto farmacêutico industrializado; sua composição varia entre os fabricantes artesanais e farmácias de manipulação.",
+    "receita": "Não",
+    "receita_display": "🟢 Venda Livre",
+    "receita_cor": "verde",
+    "receita_descricao": "Venda sem receita médica. Produto de uso popular, disponível em farmácias e manipulação. A composição pode variar — leia sempre o rótulo.",
+    "receita_nota": "Usar conforme indicação do fabricante ou orientação do farmacêutico. Geralmente tomado pela manhã em jejum, diluído em água.",
+    "efeitos": "Diarreia, câimbras abdominais, náusea, distensão abdominal. O uso excessivo pode causar desequilíbrio de eletrólitos (sódio, potássio, magnésio).",
+    "aviso_grave": "Não usar em crianças pequenas sem orientação médica. Contraindicado em pessoas com insuficiência renal (o sulfato de magnésio se acumula). Evitar uso frequente ou prolongado — dependência intestinal e desequilíbrio eletrolítico são riscos reais. Não usar durante a gravidez sem orientação.",
+    "recomendacao": "⚠️ Produto de uso ocasional. Constipação crônica merece avaliação médica — laxantes contínuos sem acompanhamento profissional podem mascarar doenças graves do intestino.",
+    "educacao": "O sulfato de magnésio (princípio ativo principal) é um laxante osmótico reconhecido pela medicina. No entanto, a \"água inglesa\" artesanal não tem composição padronizada nem controle de qualidade farmacêutico. Para uso seguro, prefira produtos com registro na Anvisa ou laxantes modernos com bula aprovada.",
+    "resposta_rapida": [
+      "Laxante osmótico tradicional",
+      "Base de sulfato de magnésio",
+      "Venda livre",
+      "Uso ocasional — não usar cronicamente",
+      "Contraindicado em insuficiência renal"
+    ],
+    "receita_obrigatoria": false,
+    "tipo_receita": "livre",
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Água inglesa realmente funciona para constipação?",
+        "resposta": "Sim. O sulfato de magnésio presente na maioria das formulações é um laxante osmótico eficaz — atrai água para o intestino, amolece as fezes e acelera a evacuação. O efeito costuma aparecer entre 30 minutos e 6 horas após o uso. Porém, por ser um produto sem padronização, a eficácia pode variar entre fabricantes."
+      },
+      {
+        "pergunta": "Água inglesa pode ser usada todo dia?",
+        "resposta": "Não. O uso diário de laxantes — inclusive a água inglesa — é desaconselhado. Com o tempo o intestino se torna dependente do laxante para funcionar. Além disso, o uso frequente de sulfato de magnésio pode causar desequilíbrio eletrolítico, especialmente em idosos e pessoas com doença renal."
+      },
+      {
+        "pergunta": "Posso dar água inglesa para criança?",
+        "resposta": "Não sem orientação médica. Em crianças pequenas o risco de desequilíbrio eletrolítico e desidratação é maior. Para constipação infantil, consulte o pediatra — existem opções mais seguras e com dosagem adequada para a idade."
+      },
+      {
+        "pergunta": "Água inglesa é o mesmo que água com sal amargo?",
+        "resposta": "Sim, em essência. O \"sal amargo\" é o sulfato de magnésio — o mesmo princípio ativo da maioria das formulações de água inglesa. Algumas versões comerciais incluem outros componentes como ervas carminativas. A solução caseira de sulfato de magnésio em água tem efeito similar."
+      },
+      {
+        "pergunta": "Água inglesa tem contraindicações?",
+        "resposta": "Sim. É contraindicada em pessoas com insuficiência renal (acúmulo de magnésio), apendicite suspeita, obstrução intestinal, dor abdominal aguda sem diagnóstico e gravidez (sem orientação médica). Interações com alguns medicamentos também são possíveis — consulte o farmacêutico."
+      }
+    ],
+    "descricao_seo": "Água Inglesa é um laxante osmótico tradicional brasileiro, geralmente à base de sulfato de magnésio. Alivia a constipação pontual, mas não deve ser usada cronicamente. Entenda como funciona, seus riscos e contraindicações."
+  },
+  {
+    "nome": "Elixir Paregórico",
+    "generico": "Tintura de ópio canforada (contém morfina em baixíssima concentração)",
+    "tipo": "Antidiarreico opioide / Antiespasmódico intestinal — Uso restrito",
+    "sinonimos": [
+      "elixir paregorico",
+      "elixir paregórico",
+      "tintura de opio canforada",
+      "paregórico"
+    ],
+    "descricao": "Preparação líquida tradicional que contém tintura de ópio canforada — derivados do ópio (incluindo morfina em concentração muito baixa) combinados com cânfora, anis e álcool. Age reduzindo os movimentos intestinais (peristaltismo) e diminuindo as secreções do intestino, aliviando diarreia e cólicas. É um dos medicamentos mais antigos em uso no Brasil, mas seu uso é hoje considerado ultrapassado diante de alternativas mais seguras.",
+    "receita": "Sim",
+    "receita_display": "⚫ Receita C1 (Tarja Preta — Receituário de Controle Especial)",
+    "receita_cor": "preto",
+    "receita_descricao": "Exige receita de controle especial (receituário C1) em duas vias. A receita é retida na farmácia. Sujeito à portaria 344/98 da Anvisa por conter substância opioide.",
+    "receita_nota": "Produto de venda controlada por conter tintura de ópio. Uso conforme prescrição médica exclusivamente.",
+    "efeitos": "Constipação, náusea, vômito, sonolência, tontura, boca seca. Em doses altas: depressão respiratória (risco de opioide). Dependência com uso prolongado.",
+    "aviso_grave": "ATENÇÃO: Contém derivado do ópio. Uso em bebês e crianças pequenas deve ser evitado — risco de depressão respiratória. Nunca superar a dose prescrita. Risco de dependência com uso prolongado. Álcool potencializa os efeitos sedativos. Não usar em diarreia por bactérias invasivas (salmonela, shigela) — pode piorar o quadro ao retardar a eliminação do agente infeccioso.",
+    "recomendacao": "⚠️ Produto de uso restrito e controlado. Hoje existem antidiarreicos mais seguros e eficazes (como loperamida) sem os riscos dos opioides. O uso do elixir paregórico deve ser orientado exclusivamente por médico.",
+    "educacao": "O elixir paregórico pertence à classe dos opioides — a mesma da morfina e codeína. Embora a concentração de morfina seja baixa, o potencial de dependência e os efeitos adversos são reais, especialmente em crianças. A OMS e a Anvisa desaconselham seu uso pediátrico.",
+    "resposta_rapida": [
+      "Antidiarreico opioide tradicional",
+      "Contém tintura de ópio",
+      "Receita de controle especial (C1)",
+      "Receita retida na farmácia",
+      "Alternativas mais seguras disponíveis (loperamida)"
+    ],
+    "receita_obrigatoria": true,
+    "tipo_receita": "C1",
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Elixir paregórico ainda é vendido nas farmácias?",
+        "resposta": "Sim, mas com receita de controle especial (C1) em duas vias, que é retida na farmácia. É um medicamento controlado pela Anvisa por conter derivados do ópio. Cada vez menos prescrito pelos médicos, pois existem alternativas mais seguras e eficazes."
+      },
+      {
+        "pergunta": "Posso dar elixir paregórico para bebê com diarreia?",
+        "resposta": "Não. O uso em bebês e crianças pequenas é contraindicado pelo risco de depressão respiratória — o sistema nervoso imaturo é muito sensível aos efeitos dos opioides. Para diarreia em bebês, o tratamento é a reidratação oral — consulte o pediatra."
+      },
+      {
+        "pergunta": "O elixir paregórico vicia?",
+        "resposta": "Com uso prolongado e em doses elevadas, sim — ele contém opioides que podem gerar dependência física e psicológica. Esse é um dos principais motivos pelo qual seu uso é controlado e, cada vez mais, substituído por medicamentos sem esse risco."
+      },
+      {
+        "pergunta": "Qual a diferença entre elixir paregórico e loperamida?",
+        "resposta": "Ambos combatem a diarreia reduzindo os movimentos intestinais, mas por mecanismos diferentes. A loperamida age nos receptores opioides do intestino sem atravessar a barreira do sistema nervoso central — é muito mais segura, sem risco de sedação ou dependência. O elixir paregórico contém opioides que agem também no sistema nervoso. A loperamida é a escolha atual na maioria dos casos."
+      },
+      {
+        "pergunta": "Elixir paregórico pode ser tomado com álcool?",
+        "resposta": "Não. O álcool potencializa os efeitos depressores do sistema nervoso central dos opioides contidos no elixir — aumentando o risco de sedação excessiva, tontura e depressão respiratória. O produto já contém álcool em sua formulação."
+      }
+    ],
+    "descricao_seo": "Elixir Paregórico é um antidiarreico tradicional à base de tintura de ópio canforada. É medicamento controlado (C1), com receita retida, e seu uso em crianças é contraindicado. Saiba como funciona, seus riscos e por que existem alternativas mais seguras."
+  },
+  {
+    "nome": "Elixir de Inhame",
+    "generico": "Extrato de inhame (Dioscorea spp.) — produto fitoterápico / fórmula magistral",
+    "tipo": "Fitoterápico tradicional — Regulador hormonal popular",
+    "sinonimos": [
+      "elixir de inhame",
+      "extrato de inhame",
+      "tintura de inhame",
+      "inhame para menopausa"
+    ],
+    "descricao": "Preparação fitoterápica tradicional à base de inhame (Dioscorea villosa ou espécies similares), comercializado em farmácias de manipulação e lojas de produtos naturais. O inhame contém diosgenina — uma substância que, em laboratório, pode ser convertida quimicamente em hormônios. No entanto, o corpo humano não realiza essa conversão; portanto, o inhame não age como hormônio no organismo. É popularmente usado para alívio dos sintomas da menopausa, TPM e equilíbrio hormonal, mas as evidências científicas para esses usos são fracas.",
+    "receita": "Não",
+    "receita_display": "🟢 Venda Livre",
+    "receita_cor": "verde",
+    "receita_descricao": "Venda sem receita. Produto fitoterápico ou fórmula magistral. A composição pode variar conforme o fabricante ou a farmácia de manipulação.",
+    "receita_nota": "Usar conforme indicação do fabricante ou orientação do profissional de saúde. Doses e concentrações variam muito entre produtos.",
+    "efeitos": "Geralmente bem tolerado. Relatos esporádicos de desconforto gastrointestinal (náusea, distensão). Reações alérgicas são possíveis em pessoas sensíveis à planta.",
+    "aviso_grave": "Mulheres com histórico de câncer hormônio-dependente (mama, endométrio, ovário) devem consultar o médico antes de usar qualquer fitoterápico com ação hormonal alegada. Não há estudos robustos de segurança em gestantes e lactantes — evitar sem orientação médica. Não substituir tratamento médico por fitoterápicos sem avaliação profissional.",
+    "recomendacao": "⚠️ As evidências científicas para os benefícios hormonais do inhame em humanos são limitadas. Informe ao médico e ao ginecologista sobre o uso — especialmente se estiver usando outros medicamentos hormonais ou investigando alterações hormonais.",
+    "educacao": "A confusão sobre o inhame como \"hormônio natural\" vem do fato de que a diosgenina é usada industrialmente como matéria-prima para síntese de progesterona em laboratório. Isso não significa que comer inhame ou tomar seu extrato eleve a progesterona no sangue — o organismo humano não faz essa conversão.",
+    "resposta_rapida": [
+      "Fitoterápico à base de inhame",
+      "Uso popular para sintomas da menopausa e TPM",
+      "Venda livre",
+      "Evidências científicas limitadas",
+      "Consultar médico em casos de câncer hormônio-dependente"
+    ],
+    "receita_obrigatoria": false,
+    "tipo_receita": "livre",
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "O elixir de inhame realmente equilibra os hormônios?",
+        "resposta": "Não há comprovação científica robusta. O inhame contém diosgenina, que pode ser convertida em hormônios em laboratório, mas o corpo humano não faz essa conversão. Estudos clínicos com extrato de inhame para sintomas de menopausa não demonstraram alterações hormonais significativas. O alívio de alguns sintomas pode existir por efeitos não hormonais ainda em estudo."
+      },
+      {
+        "pergunta": "Inhame engorda ou emagrece?",
+        "resposta": "O inhame como alimento é nutritivo, rico em fibras, vitaminas e minerais — e pode fazer parte de uma dieta equilibrada. Não há evidência de que o elixir ou extrato de inhame cause emagrecimento ou ganho de peso significativo. Qualquer dieta deve ser orientada por nutricionista."
+      },
+      {
+        "pergunta": "Posso tomar elixir de inhame junto com anticoncepcional?",
+        "resposta": "Converse com seu ginecologista antes. Embora o inhame não pareça agir diretamente como hormônio, a interação com anticoncepcionais hormonais não é totalmente descartada nos estudos disponíveis. Informe sempre o médico sobre todos os fitoterápicos que usa."
+      },
+      {
+        "pergunta": "Elixir de inhame alivia os calores da menopausa?",
+        "resposta": "Algumas mulheres relatam melhora subjetiva dos sintomas vasomotores (calores, suores noturnos) com o uso de inhame. Porém, os estudos clínicos disponíveis são poucos e com metodologia limitada. Para sintomas intensos de menopausa, a terapia hormonal convencional (prescrita por ginecologista) tem eficácia muito mais comprovada."
+      },
+      {
+        "pergunta": "Mulher com histórico de câncer de mama pode tomar elixir de inhame?",
+        "resposta": "É preciso cautela e consulta médica antes. Produtos com alegação de ação hormonal — mesmo que não comprovada cientificamente — são avaliados com restrição em mulheres com histórico de cânceres hormônio-dependentes (mama, endométrio). Sempre informe o oncologista e o ginecologista sobre qualquer suplemento ou fitoterápico que esteja usando."
+      }
+    ],
+    "descricao_seo": "Elixir de Inhame é um fitoterápico tradicional usado popularmente para sintomas da menopausa e TPM. As evidências científicas são limitadas e o inhame não age como hormônio no organismo. Saiba o que a ciência diz sobre o extrato de inhame e seus usos."
+  },
+  {
+    "nome": "Bálsamo Branco",
+    "generico": "Fórmula magistral ou produto fitoterápico — composição variável (geralmente: eucalipto, mentol, cânfora, óleos essenciais em base emoliente branca)",
+    "tipo": "Analgésico e descongestionante tópico / Uso externo",
+    "sinonimos": [
+      "balsamo branco",
+      "bálsamo branco",
+      "pomada de bálsamo",
+      "bálsamo mentolado"
+    ],
+    "descricao": "Produto tópico tradicional de uso popular no Brasil, apresentado como pomada ou creme branco. A formulação mais comum contém óleo de eucalipto, mentol, cânfora e outros óleos essenciais em base emoliente. É usado para alívio de dores musculares e articulares por massagem, e para desobstrução nasal por inalação do vapor (aplicando pequena quantidade sob o nariz ou no peito). Produto com longa tradição no uso popular, mas que varia em composição entre fabricantes.",
+    "receita": "Não",
+    "receita_display": "🟢 Venda Livre",
+    "receita_cor": "verde",
+    "receita_descricao": "Venda sem receita médica. Uso exclusivamente externo. Composição pode variar conforme o fabricante — leia sempre o rótulo.",
+    "receita_nota": "SOMENTE USO EXTERNO. Nunca ingerir. Nunca aplicar dentro das narinas em bebês e crianças pequenas — risco de parada respiratória com mentol e cânfora.",
+    "efeitos": "Sensação de calor ou frescor local (efeito do mentol e da cânfora), vermelhidão cutânea. Raramente: reação alérgica de contato. Irritação em pele sensível ou ferida.",
+    "aviso_grave": "NUNCA aplicar nas narinas, rosto ou próximo à boca de bebês e crianças menores de 2 anos — o mentol e a cânfora podem causar broncoespasmo e parada respiratória nessa faixa etária. Não aplicar em pele irritada, ferida, mucosas ou olhos. Não ingerir. Manter fora do alcance de crianças. Em caso de ingestão acidental, ligar imediatamente para o CVS (0800 722 6001).",
+    "recomendacao": "⚠️ Produto exclusivamente para uso externo. O uso em bebês e crianças pequenas representa risco grave de vida — a maioria das bulas de produtos com mentol e cânfora proíbe o uso em menores de 2 anos.",
+    "educacao": "O efeito de alívio das dores musculares é real — o mentol e a cânfora ativam receptores de frio e calor na pele, criando sensação analgésica local. Porém, o efeito é superficial e sintomático. Dores musculares persistentes merecem avaliação médica para identificar a causa.",
+    "resposta_rapida": [
+      "Uso externo exclusivo — nunca ingerir",
+      "Alívio de dores musculares por massagem",
+      "Descongestionante nasal por inalação",
+      "Venda livre",
+      "PROIBIDO em bebês — risco de parada respiratória"
+    ],
+    "receita_obrigatoria": false,
+    "tipo_receita": "livre",
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Bálsamo branco pode ser usado em bebê?",
+        "resposta": "Não. Esta é uma contraindicação grave. Produtos à base de mentol e cânfora não devem ser aplicados em bebês e crianças menores de 2 anos — especialmente próximo ao rosto, pescoço e narinas. O mentol pode causar broncoespasmo (fechamento das vias aéreas) e parada respiratória em lactentes. Para desobstrução nasal em bebês, use soro fisiológico nasal (Neosoro ou similar)."
+      },
+      {
+        "pergunta": "Bálsamo branco serve para dor nas costas?",
+        "resposta": "Pode proporcionar alívio sintomático temporário. A massagem com o produto promove sensação de calor ou frescor local e pode relaxar a musculatura superficial. Porém, não trata a causa da dor. Dores nas costas persistentes ou intensas merecem avaliação médica ou fisioterapêutica."
+      },
+      {
+        "pergunta": "Posso passar bálsamo branco em feridas ou cortes?",
+        "resposta": "Não. O bálsamo branco é indicado para pele íntegra — não deve ser aplicado sobre feridas abertas, cortes, queimaduras ou pele irritada. Os componentes (mentol, cânfora, eucalipto) podem irritar o tecido lesionado e atrasar a cicatrização."
+      },
+      {
+        "pergunta": "Bálsamo branco funciona para descongestionar o nariz em adultos?",
+        "resposta": "Sim, de forma modesta e temporária. Aplicar uma pequena quantidade abaixo das narinas ou no peito libera vapores de mentol e eucalipto que ativam receptores de frio nas vias aéreas, criando a sensação subjetiva de nariz menos entupido. O nariz não está realmente mais aberto — é uma sensação — mas pode trazer conforto durante resfriados."
+      },
+      {
+        "pergunta": "Bálsamo branco é o mesmo que Vick VapoRub?",
+        "resposta": "São produtos similares na função e nos ingredientes principais (mentol, cânfora, eucalipto), mas com formulações e concentrações diferentes. O Vick VapoRub é uma marca registrada com composição padronizada e bula aprovada pela Anvisa. O bálsamo branco artesanal ou magistral pode ter variações de fabricante para fabricante. Ambos compartilham a mesma contraindicação em bebês menores de 2 anos."
+      }
+    ],
+    "descricao_seo": "Bálsamo Branco é uma pomada mentolada tradicional usada para alívio de dores musculares e descongestionamento nasal por inalação. É contraindicado em bebês — risco de parada respiratória. Entenda como usar com segurança e quais são as contraindicações."
   }
 ]
