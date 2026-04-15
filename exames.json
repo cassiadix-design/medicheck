@@ -559,5 +559,302 @@
         "resposta": "Depende do valor basal. PSA abaixo de 1 ng/mL: repetir a cada 2 anos. PSA entre 1 e 3 ng/mL: repetir anualmente. PSA acima de 3 ng/mL: acompanhamento com urologista. A frequência é individualizada conforme o risco e a idade."
       }
     ]
+  },
+  {
+    "nome": "Resistência à Insulina (HOMA-IR)",
+    "categoria": "Metabolismo",
+    "descricao": "O HOMA-IR (Homeostatic Model Assessment of Insulin Resistance) é um índice calculado automaticamente pelo laboratório a partir dos valores de glicemia e insulina em jejum coletados ao mesmo tempo. Ele estima o quanto o seu corpo está resistente à ação da insulina — condição que antecede o diabetes tipo 2 e é a base da síndrome metabólica.",
+    "valores_normais": "Abaixo de 2,5: sensibilidade à insulina normal | Entre 2,5 e 3,8: resistência à insulina provável | Acima de 3,8: resistência à insulina intensa (os valores de corte podem variar entre laboratórios)",
+    "o_que_significa_alto": "HOMA-IR alto indica resistência à insulina — o pâncreas precisa produzir quantidades cada vez maiores de insulina para manter a glicose em níveis normais. Com o tempo, isso leva ao esgotamento do pâncreas, pré-diabetes e diabetes tipo 2. Também está associado a síndrome metabólica, acúmulo de gordura abdominal, esteatose hepática e maior risco cardiovascular.",
+    "o_que_significa_baixo": "Valores baixos indicam boa sensibilidade à insulina — o corpo responde bem ao hormônio com quantidades menores. É o resultado desejável e está associado a menor risco de diabetes e doenças cardiovasculares.",
+    "quando_pedir": "Suspeita de resistência à insulina, síndrome metabólica, sobrepeso ou obesidade, síndrome dos ovários policísticos (SOP), pré-diabetes, histórico familiar de diabetes tipo 2, esteatose hepática não alcoólica, acantose nigricans (escurecimento das dobras da pele).",
+    "preparo": "Jejum de 8 a 12 horas obrigatório. O HOMA-IR não é coletado diretamente — é calculado a partir da glicemia em jejum e da insulina em jejum, que devem ser coletadas ao mesmo tempo. Informe ao médico se usa algum medicamento que interfira na glicose ou na insulina.",
+    "descricao_seo": "O HOMA-IR mede a resistência à insulina — o fator que antecede o diabetes tipo 2 e a síndrome metabólica. Entenda o que é o índice HOMA-IR, quais são os valores normais e o que significa um resultado elevado.",
+    "perguntas_frequentes": [
+      {
+        "pergunta": "O que é resistência à insulina, em termos simples?",
+        "resposta": "Imagine que a insulina é uma chave e as células do corpo são fechaduras. Na resistência à insulina, a fechadura trava — a chave não abre mais tão bem. O pâncreas precisa fazer mais chaves (produzir mais insulina) para manter a glicose no nível certo. Com o tempo, o pâncreas se cansa e a glicose começa a subir."
+      },
+      {
+        "pergunta": "HOMA-IR 3,0 é diabetes?",
+        "resposta": "Não. HOMA-IR 3,0 indica resistência à insulina provável, mas não é diabetes. Significa que o risco de desenvolver pré-diabetes e diabetes tipo 2 está aumentado. Com mudanças no estilo de vida — alimentação, exercício físico e perda de peso — é possível reverter esse quadro antes que vire diabetes."
+      },
+      {
+        "pergunta": "Como reduzir o HOMA-IR?",
+        "resposta": "Exercício físico regular (especialmente musculação e aeróbico combinados), redução de carboidratos refinados e açúcares, perda de peso, sono adequado e redução do estresse são as principais estratégias. Em alguns casos, o médico pode prescrever metformina. Não existe suplemento mágico comprovado."
+      },
+      {
+        "pergunta": "Qual a diferença entre HOMA-IR e glicemia em jejum?",
+        "resposta": "A glicemia em jejum mede apenas o açúcar no sangue. O HOMA-IR vai além — ele avalia se o pâncreas está trabalhando demais para manter essa glicose normal. Uma pessoa pode ter glicemia normal, mas HOMA-IR alto, indicando que o corpo já está sobrecarregado antes de a glicose subir."
+      },
+      {
+        "pergunta": "Precisa de jejum para calcular o HOMA-IR?",
+        "resposta": "Sim, é obrigatório. Tanto a glicemia quanto a insulina que compõem o cálculo precisam ser coletadas em jejum de 8 a 12 horas. Um resultado sem jejum adequado não é confiável para esse índice."
+      }
+    ]
+  },
+  {
+    "nome": "Insulina em Jejum",
+    "categoria": "Metabolismo",
+    "descricao": "A insulina é um hormônio produzido pelo pâncreas que permite que a glicose entre nas células para ser usada como energia. O exame de insulina em jejum mede a quantidade desse hormônio circulando no sangue após horas sem comer — e é fundamental para identificar resistência à insulina, hiperinsulinemia e risco aumentado de diabetes tipo 2.",
+    "valores_normais": "2,6 a 24,9 µUI/mL (os valores de referência variam conforme o laboratório e o método utilizado; alguns adotam até 15 µUI/mL como ideal em jejum)",
+    "o_que_significa_alto": "Insulina alta em jejum (hiperinsulinemia) indica que o pâncreas está trabalhando muito para compensar a resistência à insulina — o corpo precisa de mais insulina para fazer a mesma função. É comum em pessoas com sobrepeso, síndrome metabólica, síndrome dos ovários policísticos (SOP) e pré-diabetes. Raramente pode indicar insulinoma (tumor produtor de insulina no pâncreas).",
+    "o_que_significa_baixo": "Insulina muito baixa pode indicar diabetes tipo 1 (destruição das células beta do pâncreas pelo sistema imunológico) ou fases avançadas do diabetes tipo 2, quando o pâncreas já não consegue mais produzir insulina suficiente.",
+    "quando_pedir": "Suspeita de resistência à insulina, síndrome metabólica, SOP, pré-diabetes, investigação de hipoglicemia em jejum (valores baixos inexplicados de glicose), cálculo do índice HOMA-IR, acompanhamento de pacientes com obesidade e histórico familiar de diabetes.",
+    "preparo": "Jejum de 8 a 12 horas obrigatório. Não usar insulina exógena ou antidiabéticos orais antes do exame sem orientação médica. Estresse intenso e exercício físico vigoroso antes da coleta podem alterar o resultado.",
+    "descricao_seo": "A insulina em jejum avalia o funcionamento do pâncreas e detecta resistência à insulina antes que a glicose suba. Entenda o que significa insulina alta em jejum e como esse exame se relaciona com diabetes e síndrome metabólica.",
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Insulina alta em jejum com glicemia normal é possível?",
+        "resposta": "Sim, e é exatamente o estágio inicial da resistência à insulina. O pâncreas está compensando — produzindo insulina em excesso para manter a glicose dentro do normal. Se não houver mudança de hábitos, com o tempo o pâncreas se esgota e a glicemia começa a subir."
+      },
+      {
+        "pergunta": "Qual a diferença entre insulina em jejum e HOMA-IR?",
+        "resposta": "A insulina em jejum é um valor isolado do hormônio. O HOMA-IR é um índice calculado combinando a insulina em jejum com a glicemia em jejum — ele é mais informativo porque considera os dois valores juntos e estima o grau de resistência à insulina de forma padronizada."
+      },
+      {
+        "pergunta": "Insulina em jejum 30 é alta?",
+        "resposta": "Sim, está acima do valor de referência da maioria dos laboratórios (até 24,9 µUI/mL). Indica hiperinsulinemia e provável resistência à insulina. O médico avaliará junto com a glicemia, HOMA-IR e sintomas para orientar as melhores medidas."
+      },
+      {
+        "pergunta": "Como diminuir a insulina em jejum?",
+        "resposta": "Reduzir o consumo de açúcar e carboidratos refinados é o passo mais eficaz. Associar exercício físico regular, perder peso e dormir bem também ajudam muito. Em alguns casos, o médico indica metformina ou outros medicamentos para sensibilizar o organismo à insulina."
+      },
+      {
+        "pergunta": "Precisa de jejum para o exame de insulina?",
+        "resposta": "Sim, jejum de 8 a 12 horas é obrigatório. Qualquer ingestão de alimentos estimula o pâncreas a liberar insulina, o que elevaria artificialmente o resultado e tornaria o exame inválido."
+      }
+    ]
+  },
+  {
+    "nome": "Magnésio",
+    "categoria": "Minerais e Eletrólitos",
+    "descricao": "O magnésio é um mineral essencial que participa de mais de 300 reações químicas no corpo humano — produção de energia, contração muscular, ritmo cardíaco, funcionamento do sistema nervoso e síntese de proteínas. O exame de magnésio sérico verifica se os níveis estão adequados no sangue.",
+    "valores_normais": "1,7 a 2,4 mg/dL (ou 0,70 a 1,00 mmol/L)",
+    "o_que_significa_alto": "Hipermagnesemia (magnésio alto) é incomum e quase sempre está relacionada à insuficiência renal grave, quando os rins não conseguem eliminar o excesso. Também pode ocorrer por uso excessivo de antiácidos ou laxantes que contêm magnésio. Pode causar fraqueza muscular, queda de pressão arterial, sonolência excessiva e, em valores muito elevados, alterações no ritmo cardíaco.",
+    "o_que_significa_baixo": "Hipomagnesemia (magnésio baixo) é mais comum do que se imagina e muitas vezes passa despercebida. Pode causar câimbras musculares, tremores, fraqueza, insônia, ansiedade, irritabilidade, dor de cabeça, palpitações e formigamento. Causas frequentes: dieta pobre em vegetais e grãos, alcoolismo, uso prolongado de diuréticos, diabetes mal controlado, diarreia crônica e uso de inibidores de bomba de prótons (omeprazol).",
+    "quando_pedir": "Câimbras musculares frequentes, fraqueza sem causa aparente, arritmias cardíacas, investigação de hipocalcemia ou hipopotassemia resistente ao tratamento (magnésio baixo impede a correção de outros eletrólitos), alcoolismo, uso prolongado de diuréticos, diabetes, má absorção intestinal, uso crônico de omeprazol.",
+    "preparo": "Nenhum preparo especial obrigatório. Alguns laboratórios recomendam jejum de 4 horas. Informe ao médico se usa suplementos de magnésio.",
+    "descricao_seo": "O magnésio é fundamental para músculos, coração e sistema nervoso. Magnésio baixo causa câimbras, arritmias e insônia. Saiba o que é o exame de magnésio sérico, quais são os valores normais e o que significa o resultado alterado.",
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Câimbras podem ser por causa de magnésio baixo?",
+        "resposta": "Sim, a hipomagnesemia é uma causa clássica de câimbras musculares, especialmente à noite. Mas câimbras também podem ser causadas por baixo potássio, desidratação, circulação ruim ou excesso de exercício. O médico pedirá os exames adequados para identificar a causa."
+      },
+      {
+        "pergunta": "Omeprazol pode baixar o magnésio?",
+        "resposta": "Sim. O uso prolongado de inibidores de bomba de prótons como omeprazol, pantoprazol e esomeprazol interfere na absorção intestinal de magnésio. Quem usa esses medicamentos cronicamente deve ter o magnésio monitorado periodicamente."
+      },
+      {
+        "pergunta": "Preciso tomar suplemento de magnésio?",
+        "resposta": "Só se houver deficiência confirmada ou risco aumentado. O magnésio está presente em alimentos como folhas verde-escuras, sementes de abóbora, amêndoas, castanha-do-pará, feijão, lentilha e chocolate amargo. A suplementação sem necessidade e em doses altas pode causar diarreia e outros efeitos adversos."
+      },
+      {
+        "pergunta": "Magnésio baixo afeta o coração?",
+        "resposta": "Sim. O magnésio é essencial para o ritmo cardíaco normal. Níveis baixos podem causar palpitações, extrassístoles e arritmias. É por isso que o magnésio é monitorado em pacientes hospitalizados com doenças cardíacas."
+      },
+      {
+        "pergunta": "Qual a diferença entre magnésio sérico e magnésio eritrocitário?",
+        "resposta": "O magnésio sérico mede o mineral no plasma — é o exame de rotina. O magnésio eritrocitário (dentro das células vermelhas) reflete com mais fidelidade os estoques intracelulares, mas não é feito de rotina. Um magnésio sérico normal não exclui completamente deficiência intracelular."
+      }
+    ]
+  },
+  {
+    "nome": "Potássio",
+    "categoria": "Minerais e Eletrólitos",
+    "descricao": "O potássio é o principal mineral dentro das células do corpo. Ele controla o ritmo cardíaco, a contração muscular, o equilíbrio de fluidos e o funcionamento dos nervos. O exame de potássio sérico mede a concentração desse mineral no sangue — desequilíbrios, tanto para cima quanto para baixo, podem ser perigosos.",
+    "valores_normais": "3,5 a 5,0 mEq/L (ou mmol/L)",
+    "o_que_significa_alto": "Hipercalemia (potássio alto) pode ser causada por insuficiência renal (causa mais comum), uso de medicamentos como poupadores de potássio, IECA (captopril, enalapril) e ARA-II, acidose metabólica, trauma muscular grave ou coleta inadequada da amostra. Potássio acima de 6,0 mEq/L é uma emergência médica — pode causar arritmias cardíacas graves e parada cardíaca.",
+    "o_que_significa_baixo": "Hipocalemia (potássio baixo) causa fraqueza muscular, câimbras, constipação, fadiga, palpitações e, em casos graves, paralisia e arritmias. Causas mais comuns: uso de diuréticos (tiazídicos, furosemida), vômitos prolongados, diarreia, sudorese intensa, alcoolismo e baixa ingestão alimentar.",
+    "quando_pedir": "Monitoramento de uso de diuréticos ou medicamentos que alteram o potássio, hipertensão arterial, insuficiência renal, insuficiência cardíaca, fraqueza muscular inexplicada, diarreia ou vômitos prolongados, investigação de arritmias, antes e após cirurgias, avaliações de emergência.",
+    "preparo": "Nenhum preparo especial. Alguns laboratórios recomendam jejum de 4 a 8 horas. É importante não apertar o punho (torniquete prolongado) durante a coleta, pois isso pode elevar falsamente o potássio — um fenômeno chamado pseudo-hipercalemia.",
+    "descricao_seo": "O potássio controla o ritmo cardíaco e a contração muscular. Potássio alto ou baixo pode ser perigoso. Entenda os valores normais do potássio sérico, o que causa desequilíbrio e quando o resultado exige atenção médica urgente.",
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Potássio 3,2 é perigoso?",
+        "resposta": "Está abaixo do normal (3,5 mEq/L) e indica hipocalemia leve. Pode causar fraqueza, câimbras e cansaço. Raramente é emergência nesse valor, mas merece tratamento — geralmente reposição oral de potássio e investigação da causa. O médico avaliará a necessidade de reposição."
+      },
+      {
+        "pergunta": "Potássio alto sempre significa problema renal?",
+        "resposta": "Não sempre, mas é a causa mais comum. Coleta inadequada (hemólise da amostra, torniquete prolongado) também pode elevar falsamente o resultado. Por isso, um potássio alto deve ser repetido antes de tomar condutas. O médico avaliará os outros exames renais e os medicamentos em uso."
+      },
+      {
+        "pergunta": "Que alimentos são ricos em potássio?",
+        "resposta": "Banana, abacate, batata, batata-doce, feijão, laranja, espinafre, iogurte, salmão e amendoim são excelentes fontes. A maioria das pessoas com alimentação variada não precisa de suplemento — quem mais perde potássio são os que usam diuréticos ou têm vômitos e diarreia frequentes."
+      },
+      {
+        "pergunta": "Diurético sempre baixa o potássio?",
+        "resposta": "Os diuréticos de alça (furosemida) e tiazídicos causam perda de potássio pela urina. Já os diuréticos poupadores de potássio (espironolactona, amilorida) fazem o oposto — retêm potássio. Por isso é importante saber qual diurético está sendo usado ao interpretar o resultado."
+      },
+      {
+        "pergunta": "Precisa de jejum para o exame de potássio?",
+        "resposta": "Geralmente não é obrigatório, mas alguns laboratórios recomendam jejum de 4 a 8 horas para reduzir variações. O mais importante é que a coleta seja feita sem torniquete prolongado e que a amostra seja processada rapidamente para evitar hemólise, que altera o resultado."
+      }
+    ]
+  },
+  {
+    "nome": "Sódio",
+    "categoria": "Minerais e Eletrólitos",
+    "descricao": "O sódio é o principal mineral fora das células e regula o volume de água no corpo, a pressão arterial e o funcionamento dos nervos e músculos. O exame de sódio sérico é um dos mais básicos e importantes para avaliar o equilíbrio hídrico do organismo e é rotineiramente pedido em internações e avaliações clínicas.",
+    "valores_normais": "136 a 145 mEq/L (ou mmol/L)",
+    "o_que_significa_alto": "Hipernatremia (sódio alto) indica que o corpo está com excesso de sódio em relação à água — geralmente por desidratação importante. Causas: baixa ingestão de água, diarreia ou vômitos intensos, febre alta prolongada, diabetes insipidus. Sintomas: sede intensa, boca seca, confusão mental, fraqueza e, em casos graves, convulsões e coma.",
+    "o_que_significa_baixo": "Hiponatremia (sódio baixo) é uma das alterações eletrolíticas mais comuns, especialmente em idosos e pacientes hospitalizados. Pode ser causada por excesso de ingestão de água, uso de diuréticos, insuficiência cardíaca, cirrose hepática, insuficiência adrenal, hipotireoidismo ou síndrome de secreção inapropriada de ADH. Sintomas: náusea, dor de cabeça, confusão mental, tontura, convulsões (nos casos mais graves).",
+    "quando_pedir": "Avaliação do estado de hidratação, monitoramento de uso de diuréticos, insuficiência cardíaca, doença renal crônica, cirrose hepática, investigação de confusão mental (especialmente em idosos), antes e após cirurgias, pacientes em internação hospitalar, síndromes de má absorção.",
+    "preparo": "Nenhum preparo especial. Não precisa de jejum. A hidratação normal antes da coleta não interfere no resultado.",
+    "descricao_seo": "O sódio sérico avalia o equilíbrio de água e sal no corpo. Sódio fora do normal pode indicar desidratação, uso de diuréticos ou doenças renais, cardíacas e hepáticas. Entenda o que significa o resultado do exame de sódio.",
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Sódio baixo é sinal de que estou comendo pouco sal?",
+        "resposta": "Não necessariamente. A hiponatremia raramente é causada apenas por dieta com pouco sal. Na maioria das vezes, indica excesso de água no corpo (diluição do sódio) por insuficiência cardíaca, doença renal, medicamentos ou outras causas. O médico avaliará o contexto clínico para identificar a causa correta."
+      },
+      {
+        "pergunta": "Sódio 130 é grave?",
+        "resposta": "É hiponatremia moderada e merece atenção médica. Abaixo de 125 mEq/L o risco de sintomas neurológicos aumenta. Abaixo de 120 mEq/L pode ser emergência. A velocidade de queda importa tanto quanto o valor — uma queda rápida é mais perigosa do que um sódio cronicamente baixo."
+      },
+      {
+        "pergunta": "Beber muita água pode baixar o sódio?",
+        "resposta": "Sim. Em casos extremos — maratonistas, atletas de endurance que bebem água em excesso durante provas longas — pode ocorrer hiponatremia por diluição (intoxicação hídrica). É raro no cotidiano normal, mas real em contextos esportivos de ultra-resistência."
+      },
+      {
+        "pergunta": "Sódio alto significa que preciso comer menos sal?",
+        "resposta": "Nem sempre. A hipernatremia mais comum indica desidratação — falta de água, não excesso de sal. O tratamento principal é reidratação. Claro que, em quadros de hipertensão arterial, reduzir o sal da dieta é importante, mas isso não se reflete diretamente no sódio sérico em pessoas saudáveis."
+      },
+      {
+        "pergunta": "O exame de sódio precisa de jejum?",
+        "resposta": "Não. O sódio sérico não é influenciado pela última refeição e pode ser coletado em qualquer horário do dia, sem necessidade de jejum prévio."
+      }
+    ]
+  },
+  {
+    "nome": "Bilirrubinas",
+    "categoria": "Função Hepática",
+    "descricao": "A bilirrubina é um pigmento amarelo formado quando o corpo destrói células vermelhas antigas. O fígado capta essa bilirrubina, processa e elimina pela bile para o intestino. O exame mede a bilirrubina total e suas frações — direta (conjugada, já processada pelo fígado) e indireta (não conjugada, ainda não processada). É essencial para avaliar a saúde do fígado, detectar icterícia e investigar anemia hemolítica.",
+    "valores_normais": "Bilirrubina Total: até 1,2 mg/dL | Bilirrubina Direta: até 0,3 mg/dL | Bilirrubina Indireta: até 0,9 mg/dL (valores podem variar entre laboratórios)",
+    "o_que_significa_alto": "Bilirrubina elevada causa icterícia — amarelamento progressivo da pele, olhos e mucosas. Bilirrubina indireta alta indica destruição excessiva de células vermelhas (anemia hemolítica) ou síndrome de Gilbert (condição benigna, genética e muito comum, sem implicações graves). Bilirrubina direta alta indica problema no fígado (hepatite, cirrose) ou obstrução das vias biliares (cálculos na vesícula, tumor, colangite).",
+    "o_que_significa_baixo": "Bilirrubina abaixo dos valores de referência não tem significado clínico relevante — não indica nenhuma doença.",
+    "quando_pedir": "Icterícia (amarelamento da pele ou olhos), suspeita de hepatite viral (A, B, C), dor no quadrante superior direito do abdome, avaliação de função hepática, investigação de anemia hemolítica, acompanhamento de doenças hepáticas crônicas, uso de medicamentos hepatotóxicos, icterícia neonatal, cálculos na vesícula.",
+    "preparo": "Jejum de 4 a 8 horas é recomendado. Evitar alimentos muito ricos em beta-caroteno (cenoura, abóbora em grandes quantidades) no dia anterior, pois podem interferir na coloração da amostra. A amostra deve ser protegida da luz, pois a bilirrubina se degrada rapidamente com a exposição solar.",
+    "descricao_seo": "As bilirrubinas avaliam a saúde do fígado e das vias biliares. Bilirrubina alta causa icterícia — amarelamento da pele e dos olhos. Entenda o que significam os valores de bilirrubina total, direta e indireta e o que pode causar alteração.",
+    "perguntas_frequentes": [
+      {
+        "pergunta": "O que é a síndrome de Gilbert?",
+        "resposta": "É uma condição genética benigna e muito comum (afeta cerca de 5 a 10% da população) em que a bilirrubina indireta fica levemente elevada — geralmente entre 1,2 e 3 mg/dL. Não causa doença hepática, não precisa de tratamento e não é perigosa. Situações de estresse, jejum prolongado ou infecção podem elevar temporariamente a bilirrubina nessas pessoas."
+      },
+      {
+        "pergunta": "Bilirrubina alta sempre significa problema no fígado?",
+        "resposta": "Não necessariamente. Depende de qual fração está alta. Bilirrubina indireta alta isolada pode ser síndrome de Gilbert (benigna) ou hemólise. Bilirrubina direta alta é mais preocupante e aponta para o fígado ou as vias biliares. O médico analisará as frações e outros exames para identificar a causa."
+      },
+      {
+        "pergunta": "Quais os sintomas de bilirrubina muito alta?",
+        "resposta": "O principal é a icterícia — amarelamento dos olhos (escleróticas) e da pele, que começa quando a bilirrubina ultrapassa cerca de 2 mg/dL. Outros sintomas incluem urina escura (cor de coca-cola), fezes claras (esbranquiçadas), coceira intensa pelo corpo e cansaço — dependendo da causa de base."
+      },
+      {
+        "pergunta": "Icterícia em recém-nascido é normal?",
+        "resposta": "A icterícia neonatal fisiológica é muito comum — aparece entre o 2º e o 4º dia de vida e se resolve espontaneamente em cerca de uma semana. Ocorre porque o fígado do bebê ainda está imaturo para processar toda a bilirrubina gerada. Quando muito intensa ou precoce, é tratada com fototerapia (luz azul) para evitar sequelas neurológicas."
+      },
+      {
+        "pergunta": "Precisa de jejum para o exame de bilirrubinas?",
+        "resposta": "Sim, jejum de 4 a 8 horas é recomendado. Além disso, é importante que a amostra de sangue seja protegida da luz após a coleta — a exposição à luz solar destrói a bilirrubina e pode falsamente diminuir o resultado."
+      }
+    ]
+  },
+  {
+    "nome": "Albumina",
+    "categoria": "Função Hepática",
+    "descricao": "A albumina é a proteína mais abundante no sangue — produzida exclusivamente pelo fígado. Ela transporta substâncias pelo corpo (medicamentos, hormônios, ácidos graxos), mantém o equilíbrio de fluidos entre os vasos sanguíneos e os tecidos, e reflete o estado nutricional e a capacidade funcional do fígado. É um dos marcadores mais antigos e ainda essenciais da medicina clínica.",
+    "valores_normais": "3,5 a 5,0 g/dL",
+    "o_que_significa_alto": "Albumina acima do normal é rara e geralmente causada por desidratação — há menos água no sangue, concentrando as proteínas. Não tem significado clínico importante isoladamente e se corrige com hidratação adequada.",
+    "o_que_significa_baixo": "Albumina baixa (hipoalbuminemia) indica que o fígado não está produzindo proteína suficiente ou que o corpo está perdendo ou consumindo proteína em excesso. Causas: desnutrição proteica, cirrose hepática avançada, síndrome nefrótica (perda de albumina pela urina), doenças inflamatórias intestinais, queimaduras extensas, infecções graves e câncer. Causa edema nos pés e pernas, ascite (líquido no abdômen) e maior vulnerabilidade a infecções e medicamentos.",
+    "quando_pedir": "Avaliação da função hepática, investigação de edema sem causa aparente, desnutrição, cirrose hepática, síndrome nefrótica, doenças inflamatórias crônicas, avaliação pré-operatória, monitoramento de pacientes em terapia intensiva e acompanhamento nutricional.",
+    "preparo": "Nenhum preparo especial obrigatório. Alguns laboratórios recomendam jejum de 4 horas. Informe ao médico se usa corticoides, pois podem elevar a albumina.",
+    "descricao_seo": "A albumina é produzida pelo fígado e indica o estado nutricional e a função hepática. Albumina baixa pode indicar desnutrição, cirrose ou doenças renais. Entenda o que significa seu resultado de albumina sérica e por que esse exame é tão importante.",
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Por que albumina baixa causa inchaço nas pernas?",
+        "resposta": "A albumina funciona como uma esponja que retém água dentro dos vasos sanguíneos. Quando está baixa, a pressão oncótica cai — a água vaza dos vasos para os tecidos, causando inchaço (edema), especialmente nos pés, tornozelos e pernas. O mesmo processo pode causar acúmulo de líquido no abdômen (ascite) e nos pulmões."
+      },
+      {
+        "pergunta": "Comer mais proteína aumenta a albumina?",
+        "resposta": "Em casos de desnutrição leve, sim — melhorar a ingestão de proteínas pode normalizar a albumina ao longo de semanas. Mas quando a causa é doença hepática grave (cirrose avançada) ou síndrome nefrótica, aumentar proteína na dieta não resolve, pois o problema é na produção ou na perda de albumina, e não na falta de matéria-prima."
+      },
+      {
+        "pergunta": "Albumina 3,0 é grave?",
+        "resposta": "Está abaixo do normal (3,5 g/dL) e indica hipoalbuminemia. O grau de gravidade depende da causa. Em pacientes hospitalizados, albumina abaixo de 3,0 g/dL é um marcador de pior prognóstico e está associada a maior risco de complicações. O médico avaliará a causa e indicará o tratamento."
+      },
+      {
+        "pergunta": "A albumina baixa afeta os medicamentos que tomo?",
+        "resposta": "Sim. Muitos medicamentos se ligam à albumina para ser transportados no sangue. Quando a albumina está baixa, a fração livre (ativa) do medicamento aumenta — o que pode elevar seus efeitos e riscos de toxicidade. Por isso é importante informar ao médico sobre a albumina baixa ao ajustar doses de medicamentos."
+      },
+      {
+        "pergunta": "Qual a diferença entre albumina e proteínas totais?",
+        "resposta": "As proteínas totais medem todas as proteínas do sangue, incluindo as globulinas (anticorpos e outras). A albumina é a fração predominante — representa cerca de 60% das proteínas totais. A relação albumina/globulina (A/G) também é avaliada: quando invertida (globulinas maiores que albumina), pode indicar doenças inflamatórias crônicas ou doenças hepáticas."
+      }
+    ]
+  },
+  {
+    "nome": "Anti-TPO (Anticorpos Anti-Tireoperoxidase)",
+    "categoria": "Tireoide",
+    "descricao": "O Anti-TPO mede a presença de anticorpos que o próprio sistema imunológico produz contra a tireoperoxidase — uma enzima essencial na produção dos hormônios da tireoide. Quando esses anticorpos estão elevados, indicam que o sistema imunológico está atacando a tireoide. É o principal marcador laboratorial de doenças autoimunes da tireoide.",
+    "valores_normais": "Abaixo de 35 UI/mL (resultado negativo é o esperado — os valores de referência variam conforme o laboratório e o método)",
+    "o_que_significa_alto": "Anti-TPO elevado indica ataque autoimune à tireoide. É o marcador principal da Tireoidite de Hashimoto — a causa mais comum de hipotireoidismo no mundo —, na qual o sistema imunológico destrói progressivamente o tecido tireoidiano. Também está elevado na Doença de Graves (causa mais comum de hipertireoidismo) e em outras condições autoimunes. Quanto mais alto o valor, mais intenso tende a ser o processo inflamatório.",
+    "o_que_significa_baixo": "Anti-TPO negativo ou abaixo do valor de referência é o resultado esperado e indica ausência de autoimunidade detectável contra a tireoide.",
+    "quando_pedir": "Hipotireoidismo confirmado ou suspeito, hipertireoidismo, nódulos na tireoide, bócio (aumento da glândula), investigação de TSH alterado, histórico familiar de doença autoimune da tireoide, sintomas como fadiga intensa, ganho de peso sem causa aparente, queda de cabelo, intolerância ao frio, constipação, infertilidade ou abortos de repetição.",
+    "preparo": "Nenhum preparo especial. Não precisa de jejum. Pode ser coletado em qualquer horário do dia.",
+    "descricao_seo": "O Anti-TPO detecta anticorpos contra a tireoide e é o principal exame para diagnosticar a Tireoidite de Hashimoto. Saiba o que significa Anti-TPO positivo ou elevado, qual a relação com o hipotireoidismo e quando esse exame deve ser pedido.",
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Anti-TPO positivo significa que tenho hipotireoidismo?",
+        "resposta": "Não necessariamente. Anti-TPO elevado indica que há autoimunidade contra a tireoide, mas a função da glândula pode ainda estar normal. Com o tempo, muitas pessoas com Anti-TPO alto desenvolvem hipotireoidismo — por isso o médico monitora o TSH periodicamente mesmo quando ele ainda está normal."
+      },
+      {
+        "pergunta": "O que é a Tireoidite de Hashimoto?",
+        "resposta": "É uma doença autoimune em que o sistema imunológico ataca e destrói progressivamente as células da tireoide. É a causa mais comum de hipotireoidismo no mundo. Afeta principalmente mulheres entre 30 e 50 anos. Pode causar cansaço, ganho de peso, queda de cabelo, intolerância ao frio, constipação e lentidão do raciocínio."
+      },
+      {
+        "pergunta": "Anti-TPO 200 é grave?",
+        "resposta": "Está significativamente acima do valor de referência (geralmente abaixo de 35 UI/mL) e confirma autoimunidade tireoidiana ativa. O médico avaliará o TSH e o T4 Livre para verificar se a função da tireoide está comprometida e decidir se o tratamento com levotiroxina já é necessário."
+      },
+      {
+        "pergunta": "Existe tratamento para reduzir o Anti-TPO?",
+        "resposta": "Não há tratamento específico que elimine os anticorpos. O foco é tratar o hipotireoidismo resultante com levotiroxina, caso ele se instale. Alguns estudos sugerem que a suplementação de selênio pode reduzir os níveis de Anti-TPO em pacientes com Hashimoto, mas ainda não é recomendação universal — converse com seu médico."
+      },
+      {
+        "pergunta": "Anti-TPO alto tem relação com infertilidade?",
+        "resposta": "Sim. A autoimunidade tireoidiana está associada a maior risco de dificuldade para engravidar, abortos espontâneos e complicações na gestação. Por isso o Anti-TPO é pedido na investigação de infertilidade e durante o acompanhamento pré-natal, especialmente em mulheres com TSH elevado."
+      }
+    ]
+  },
+  {
+    "nome": "T4 Livre (T4L)",
+    "categoria": "Tireoide",
+    "descricao": "O T4 Livre (tiroxina livre) é a fração ativa do hormônio tiroxina que circula livremente no sangue — sem estar ligada às proteínas transportadoras. É produzido pela tireoide e regula o metabolismo, a temperatura corporal, o ritmo cardíaco, o crescimento e a energia. Junto com o TSH, é o exame mais utilizado para avaliar a função da tireoide.",
+    "valores_normais": "0,7 a 1,8 ng/dL (os valores de referência variam entre laboratórios e métodos — alguns usam pmol/L como unidade; 1 ng/dL ≈ 12,9 pmol/L)",
+    "o_que_significa_alto": "T4 Livre alto indica que a tireoide está produzindo hormônio em excesso — hipertireoidismo. Causas: Doença de Graves (autoimune), nódulos tóxicos, tireoidite subaguda, excesso de dose de levotiroxina. Sintomas: coração acelerado (taquicardia), perda de peso sem dieta, ansiedade, tremores nas mãos, suor excessivo, dificuldade para dormir, intolerância ao calor e evacuações frequentes.",
+    "o_que_significa_baixo": "T4 Livre baixo indica hipotireoidismo — a tireoide não produz hormônio suficiente. Causas: Tireoidite de Hashimoto (causa mais comum), tireoidectomia total ou parcial, radioterapia na região do pescoço, deficiência grave de iodo, uso de certos medicamentos (amiodarona, lítio). Sintomas: cansaço intenso, ganho de peso, intolerância ao frio, queda de cabelo, pele seca, constipação, raciocínio lento e depressão.",
+    "quando_pedir": "Sempre em conjunto com o TSH para avaliação completa da função tireoidiana. Diagnóstico e acompanhamento do hipotireoidismo e hipertireoidismo, ajuste de dose de levotiroxina, gestação (função da tireoide é fundamental para o desenvolvimento fetal), investigação de nódulos e bócio, suspeita de doença de Graves ou Hashimoto.",
+    "preparo": "Nenhum preparo especial. Não precisa de jejum. Se faz uso de levotiroxina (Puran T4, Euthyrox), colete o exame antes de tomar o comprimido do dia — ou conforme orientação do médico — para evitar interferência no resultado.",
+    "descricao_seo": "O T4 Livre é o principal hormônio da tireoide avaliado no sangue. T4 alto indica hipertireoidismo; T4 baixo indica hipotireoidismo. Entenda o que significa seu resultado de T4 Livre, como interpretá-lo junto com o TSH e quando o exame é necessário.",
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Qual a diferença entre TSH e T4 Livre?",
+        "resposta": "O TSH é produzido pela hipófise (glândula no cérebro) e funciona como um termostato — quando a tireoide produz pouco T4, o TSH sobe para estimulá-la; quando produz demais, o TSH cai. O T4 Livre é o próprio hormônio da tireoide circulando no sangue. Juntos, os dois exames formam uma imagem completa da função tireoidiana."
+      },
+      {
+        "pergunta": "T4 Livre pode estar normal com TSH alterado?",
+        "resposta": "Sim. No hipotireoidismo subclínico, o TSH está alto, mas o T4 Livre ainda está dentro do normal — a tireoide ainda consegue produzir o suficiente, mas já está trabalhando no limite. Com o tempo, o T4 tende a cair. É uma fase importante de alerta que o médico monitora antes de decidir tratar ou não."
+      },
+      {
+        "pergunta": "Posso tomar levotiroxina antes de fazer o T4 Livre?",
+        "resposta": "Não é recomendado. Tome o exame em jejum ou não, mas antes de ingerir o comprimido de levotiroxina do dia. Isso porque a levotiroxina é absorvida rapidamente e pode elevar artificialmente o T4 Livre logo após a ingestão, mascarando o resultado real."
+      },
+      {
+        "pergunta": "T4 Livre baixo sempre precisa de tratamento?",
+        "resposta": "Quando o T4 Livre está baixo junto com TSH alto, o hipotireoidismo é confirmado e geralmente indica tratamento com levotiroxina. A decisão depende dos sintomas, dos valores dos exames e de fatores individuais como idade, gestação e doenças associadas — o médico fará essa avaliação."
+      },
+      {
+        "pergunta": "Hipotireoidismo pode causar depressão?",
+        "resposta": "Sim. O T4 Livre baixo afeta diretamente o sistema nervoso central — reduz a produção de serotonina e dopamina, causando lentidão do raciocínio, humor deprimido, apatia e falta de memória. É por isso que o TSH e o T4 Livre fazem parte da investigação de depressão — especialmente em mulheres acima de 40 anos."
+      }
+    ]
   }
 ]
