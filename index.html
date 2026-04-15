@@ -1424,6 +1424,80 @@ border-radius:0 0 20px 20px;
             border-top: 1px solid #ddd; background: #fafafa;
             border-radius: 0 0 12px 12px; margin-top: 0;
         }
+
+        /* === SEÇÃO SINTOMAS === */
+        .sintomas-content { display: none; }
+        .sintomas-content.active { display: block; }
+        .sint-header {
+            background: linear-gradient(135deg, #e74c3c, #c0392b);
+            color: white; padding: 20px; border-radius: 12px;
+            margin-bottom: 16px; text-align: center;
+        }
+        .sint-header h2 { font-size: 22px; margin-bottom: 6px; }
+        .sint-header p { font-size: 13px; opacity: 0.95; line-height: 1.6; }
+        .sint-aviso-fixo {
+            display: flex; align-items: flex-start; gap: 10px;
+            background: #fff3cd; border: 2px solid #ffc107; border-radius: 10px;
+            padding: 14px 16px; margin-bottom: 20px;
+            font-size: 13px; color: #7a5700; font-weight: 600; line-height: 1.6;
+        }
+        .sint-aviso-fixo span { font-size: 18px; flex-shrink: 0; margin-top: 1px; }
+        .sint-search-wrap {
+            position: relative; margin-bottom: 20px;
+        }
+        .sint-search-wrap input {
+            width: 100%; padding: 14px 16px; border: 3px solid #ddd;
+            border-radius: 10px; font-size: 16px; font-weight: 500;
+            box-sizing: border-box; font-family: inherit; transition: border-color 0.2s;
+        }
+        .sint-search-wrap input:focus {
+            outline: none; border-color: #e74c3c;
+            box-shadow: 0 0 10px rgba(231,76,60,0.18);
+        }
+        .sint-search-wrap input::placeholder { color: #999; }
+        .sint-resultado-header {
+            font-size: 13px; color: #888; font-weight: 600;
+            margin-bottom: 12px; padding-bottom: 10px; border-bottom: 2px solid #f0f0f0;
+        }
+        .sint-resultado-header strong { color: #e74c3c; }
+        .sint-card {
+            border: 2px solid #fde8e8; border-radius: 12px;
+            margin-bottom: 14px; overflow: hidden;
+        }
+        .sint-card-titulo {
+            display: flex; align-items: center; gap: 10px;
+            padding: 14px 18px; background: linear-gradient(135deg, #fde8e8, #fff5f5);
+            font-size: 16px; font-weight: 700; color: #c0392b;
+        }
+        .sint-card-titulo .sint-icone { font-size: 20px; flex-shrink: 0; }
+        .sint-meds-lista {
+            display: flex; flex-direction: column; gap: 0;
+            background: white;
+        }
+        .sint-med-btn {
+            display: flex; align-items: center; justify-content: space-between;
+            padding: 12px 18px; border: none; background: white;
+            cursor: pointer; text-align: left; font-size: 14px; font-weight: 600;
+            color: #333; transition: background 0.2s; font-family: inherit;
+            border-top: 1px solid #f5e8e8; gap: 10px;
+        }
+        .sint-med-btn:hover { background: #fff0f0; color: #c0392b; }
+        .sint-med-btn .seta { color: #e74c3c; font-size: 16px; opacity: 0; transition: opacity 0.2s; }
+        .sint-med-btn:hover .seta { opacity: 1; }
+        .sint-vazio {
+            text-align: center; padding: 40px 20px;
+            font-size: 15px; color: #999; line-height: 1.8;
+        }
+        .sint-vazio .sint-vazio-icone { font-size: 40px; display: block; margin-bottom: 10px; }
+        .sint-lista-inicial {
+            display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 20px;
+        }
+        .sint-tag {
+            padding: 7px 16px; border-radius: 20px; border: 2px solid #e74c3c;
+            background: #fff0f0; color: #c0392b; font-size: 13px; font-weight: 700;
+            cursor: pointer; transition: 0.2s; font-family: inherit;
+        }
+        .sint-tag:hover { background: #e74c3c; color: white; }
     </style>
 </head>
 
@@ -1443,6 +1517,7 @@ border-radius:0 0 20px 20px;
                 <button class="nav-btn" data-tab="interacoes">⚡ Interações</button>
                 <button class="nav-btn" data-tab="calculadora">🧮 Calculadora</button>
                 <button class="nav-btn" data-tab="curiosidades">✨ Curiosidades</button>
+                <button class="nav-btn" data-tab="sintomas">🤒 Sintomas</button>
                 <button class="nav-btn" data-tab="comparar">⚖️ Comparar</button>
                 <button class="nav-btn" data-tab="privacidade">🔒 Privacidade</button>
                 <button class="nav-btn" data-tab="termos">📋 Termos</button>
@@ -2747,6 +2822,31 @@ border-radius:0 0 20px 20px;
 
                 <div class="comp-table-wrap" id="compTableWrap"></div>
             </div>
+
+            <!-- SEÇÃO SINTOMAS -->
+            <div id="sintomas" class="sintomas-content">
+                <div class="sint-header">
+                    <h2>🤒 Busca por Sintomas</h2>
+                    <p>Digite um sintoma e veja quais medicamentos estão relacionados. Clique em qualquer medicamento para ver a ficha completa.</p>
+                </div>
+
+                <div class="sint-aviso-fixo">
+                    <span>⚠️</span>
+                    <div>Esta ferramenta é <strong>educacional</strong>. Não substitui avaliação médica ou farmacêutica. Sempre consulte um profissional de saúde antes de usar qualquer medicamento.</div>
+                </div>
+
+                <div class="sint-search-wrap">
+                    <input type="text" id="sintomasSearchInput" placeholder="🔍 Ex: dor de garganta, febre, ansiedade..." autocomplete="off">
+                </div>
+
+                <div id="sintomasTagsWrap">
+                    <p style="font-size:13px;font-weight:700;color:#888;margin-bottom:10px;text-transform:uppercase;letter-spacing:0.5px;">Sintomas frequentes:</p>
+                    <div class="sint-lista-inicial" id="sintomasTags"></div>
+                </div>
+
+                <div id="sintomasResultado"></div>
+            </div>
+
         </div>
 
     <div class="footer-crf">
@@ -3992,7 +4092,7 @@ window.addEventListener('DOMContentLoaded', () => {
                 btn.classList.add('active');
 
                 // Esconde tudo
-                ['home','vacinas','exames','idosos','interacoes','calculadora','curiosidades','privacidade','termos','contato','comparar'].forEach(id => {
+                ['home','vacinas','exames','idosos','interacoes','calculadora','curiosidades','privacidade','termos','contato','comparar','sintomas'].forEach(id => {
                     const el = document.getElementById(id);
                     if (el) el.classList.remove('active');
                 });
@@ -4033,6 +4133,10 @@ window.addEventListener('DOMContentLoaded', () => {
                     const el = document.getElementById('comparar');
                     if (el) el.classList.add('active');
                     initComparador();
+                } else if (tab === 'sintomas') {
+                    const el = document.getElementById('sintomas');
+                    if (el) el.classList.add('active');
+                    initSintomas();
                 } else {
                     const el = document.getElementById(tab);
                     if (el) el.classList.add('active');
@@ -4285,6 +4389,135 @@ window.addEventListener('DOMContentLoaded', () => {
 
             // scroll suave até a tabela
             setTimeout(() => wrap.scrollIntoView({ behavior: 'smooth', block: 'start' }), 100);
+        }
+
+        // ============================================================
+        // SINTOMAS
+        // ============================================================
+        const sintomasData = [
+            { sintoma: "Dor de cabeça", sinonimos: ["cefaleia", "enxaqueca", "cabeça doendo", "dor na cabeça"], medicamentos: ["Dipirona", "Paracetamol", "Ibuprofeno", "Naproxeno", "Sumatriptana"] },
+            { sintoma: "Febre", sinonimos: ["temperatura alta", "febril", "37 graus", "38 graus"], medicamentos: ["Paracetamol", "Dipirona", "Ibuprofeno"] },
+            { sintoma: "Dor de garganta", sinonimos: ["garganta inflamada", "garganta doendo", "faringite", "amigdalite"], medicamentos: ["Ibuprofeno", "Paracetamol", "Benzidamina", "Amoxicilina", "Strepsils", "Neo-angin"] },
+            { sintoma: "Tosse", sinonimos: ["tosse seca", "tosse com catarro", "tosse produtiva"], medicamentos: ["Ambroxol", "Acetilcisteína", "Dextrometorfano", "Codeína"] },
+            { sintoma: "Coriza e gripe", sinonimos: ["nariz escorrendo", "resfriado", "gripado", "congestionado"], medicamentos: ["Loratadina", "Cetirizina", "Paracetamol + Fenilefrina", "Benegrip", "Resfenol"] },
+            { sintoma: "Dor de estômago", sinonimos: ["gastrite", "azia", "queimação", "epigastralgia", "estômago ruim"], medicamentos: ["Omeprazol", "Pantoprazol", "Ranitidina", "Sucralfato", "Hidróxido de alumínio"] },
+            { sintoma: "Enjoo e náusea", sinonimos: ["vômito", "enjoado", "mal estar", "náusea", "enjôo"], medicamentos: ["Metoclopramida", "Ondansetrom", "Dimenidrinato", "Meclizina"] },
+            { sintoma: "Diarreia", sinonimos: ["intestino solto", "fezes líquidas", "diarreia aguda"], medicamentos: ["Loperamida", "Racecadotrila", "Soro oral", "Saccharomyces boulardii"] },
+            { sintoma: "Prisão de ventre", sinonimos: ["constipação", "intestino preso", "não consegue evacuar"], medicamentos: ["Polietilenoglicol", "Lactulose", "Bisacodil", "Psyllium"] },
+            { sintoma: "Alergia", sinonimos: ["coceira", "urticária", "rinite", "alergia na pele", "vermelhidão"], medicamentos: ["Loratadina", "Cetirizina", "Fexofenadina", "Prometazina", "Dexametasona"] },
+            { sintoma: "Pressão alta", sinonimos: ["hipertensão", "pressão elevada", "pressão 14/9"], medicamentos: ["Losartana", "Enalapril", "Anlodipino", "Hidroclorotiazida", "Metoprolol"] },
+            { sintoma: "Ansiedade", sinonimos: ["nervoso", "agitado", "ansioso", "ataque de pânico", "tensão"], medicamentos: ["Escitalopram", "Sertralina", "Buspirona", "Alprazolam", "Clonazepam"] },
+            { sintoma: "Insônia", sinonimos: ["não consegue dormir", "dificuldade para dormir", "acorda de madrugada"], medicamentos: ["Melatonina", "Zolpidem", "Clonazepam", "Trazodona"] },
+            { sintoma: "Dor muscular", sinonimos: ["músculo doendo", "dor no corpo", "mialgia", "corpo dolorido"], medicamentos: ["Ibuprofeno", "Dipirona", "Naproxeno", "Ciclobenzaprina", "Metocarbamol"] },
+            { sintoma: "Dor nas costas", sinonimos: ["lombar", "coluna", "dor lombar", "hérnia", "ciática"], medicamentos: ["Ibuprofeno", "Naproxeno", "Ciclobenzaprina", "Pregabalina", "Diclofenaco"] },
+            { sintoma: "Infecção urinária", sinonimos: ["ardência ao urinar", "cistite", "xixi com ardor", "ITU"], medicamentos: ["Nitrofurantoína", "Sulfametoxazol + Trimetoprima", "Fosfomicina", "Ciprofloxacino"] },
+            { sintoma: "Candidíase", sinonimos: ["fungo", "coceira íntima", "corrimento", "sapinho"], medicamentos: ["Fluconazol", "Miconazol", "Nistatina", "Clotrimazol"] },
+            { sintoma: "Acne", sinonimos: ["espinha", "cravo", "pele oleosa", "acne na face"], medicamentos: ["Adapaleno", "Peróxido de benzoíla", "Tretinoína", "Doxiciclina", "Azitromicina"] },
+            { sintoma: "Diabetes", sinonimos: ["açúcar alto", "glicose alta", "diabético", "insulina"], medicamentos: ["Metformina", "Semaglutida", "Insulina", "Glibenclamida", "Sitagliptina"] },
+            { sintoma: "Colesterol alto", sinonimos: ["colesterol elevado", "LDL alto", "triglicerídeos"], medicamentos: ["Atorvastatina", "Rosuvastatina", "Sinvastatina", "Ezetimiba"] },
+            { sintoma: "Depressão", sinonimos: ["tristeza profunda", "sem ânimo", "deprimido", "não quer fazer nada"], medicamentos: ["Sertralina", "Escitalopram", "Fluoxetina", "Venlafaxina", "Bupropiona"] },
+            { sintoma: "Enxaqueca", sinonimos: ["migrânea", "dor de cabeça forte", "dor pulsátil", "dor com náusea"], medicamentos: ["Sumatriptana", "Rizatriptana", "Naratriptana", "Topiramato", "Propranolol"] },
+            { sintoma: "Refluxo", sinonimos: ["DRGE", "azia", "queimação no peito", "gosto azedo na boca"], medicamentos: ["Omeprazol", "Pantoprazol", "Esomeprazol", "Domperidona", "Sucralfato"] },
+            { sintoma: "Asma e falta de ar", sinonimos: ["bronquite", "chiado no peito", "dispneia", "dificuldade respirar"], medicamentos: ["Salbutamol", "Formoterol", "Montelucaste", "Budesonida", "Prednisona"] },
+            { sintoma: "Dor de ouvido", sinonimos: ["otite", "ouvido inflamado", "ouvido doendo"], medicamentos: ["Ibuprofeno", "Paracetamol", "Amoxicilina", "Ciprofloxacino otológico"] },
+            { sintoma: "Conjuntivite", sinonimos: ["olho vermelho", "olho inflamado", "secreção no olho"], medicamentos: ["Tobramicina colírio", "Cloranfenicol colírio", "Dexametasona colírio"] },
+            { sintoma: "Cólica menstrual", sinonimos: ["cólica", "menstruação dolorosa", "dismenorreia"], medicamentos: ["Ibuprofeno", "Naproxeno", "Dipirona", "Escopolamina"] },
+            { sintoma: "Hipotireoidismo", sinonimos: ["tireoide baixa", "TSH alto", "cansaço sem motivo", "ganho de peso"], medicamentos: ["Levotiroxina"] },
+            { sintoma: "Gota", sinonimos: ["ácido úrico alto", "dor no dedão do pé", "artrite gotosa"], medicamentos: ["Alopurinol", "Colchicina", "Indometacina", "Febuxostate"] },
+            { sintoma: "Verminose", sinonimos: ["verme", "lombriga", "oxiúros", "coceira no ânus"], medicamentos: ["Albendazol", "Mebendazol", "Nitazoxanida", "Ivermectina"] }
+        ];
+
+        let sintomasInited = false;
+
+        function initSintomas() {
+            if (sintomasInited) return;
+            sintomasInited = true;
+
+            // Renderiza tags clicáveis dos sintomas
+            const tagsWrap = document.getElementById('sintomasTags');
+            sintomasData.forEach(item => {
+                const tag = document.createElement('button');
+                tag.className = 'sint-tag';
+                tag.textContent = item.sintoma;
+                tag.onclick = () => {
+                    document.getElementById('sintomasSearchInput').value = item.sintoma;
+                    buscarSintoma(item.sintoma);
+                };
+                tagsWrap.appendChild(tag);
+            });
+
+            // Busca ao digitar
+            const input = document.getElementById('sintomasSearchInput');
+            input.addEventListener('input', () => buscarSintoma(input.value.trim()));
+        }
+
+        function normalize(str) {
+            return str.toLowerCase()
+                .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+                .replace(/[^\w\s]/g, '').trim();
+        }
+
+        function buscarSintoma(query) {
+            const resultado = document.getElementById('sintomasResultado');
+            const tagsWrap = document.getElementById('sintomasTagsWrap');
+            const q = normalize(query);
+
+            if (!q) {
+                resultado.innerHTML = '';
+                tagsWrap.style.display = '';
+                return;
+            }
+
+            tagsWrap.style.display = 'none';
+
+            // Encontra todos os sintomas que correspondem à busca
+            const encontrados = sintomasData.filter(item => {
+                if (normalize(item.sintoma).includes(q)) return true;
+                return item.sinonimos.some(s => normalize(s).includes(q));
+            });
+
+            if (encontrados.length === 0) {
+                resultado.innerHTML = '<div class="sint-vazio"><span class="sint-vazio-icone">🔍</span>Nenhum resultado para "<strong>' + query + '</strong>".<br>Tente outros termos como "febre", "tosse" ou "dor de cabeça".</div>';
+                return;
+            }
+
+            let html = '<div class="sint-resultado-header">Encontrado(s) <strong>' + encontrados.length + '</strong> resultado(s) para "<strong>' + query + '</strong>"</div>';
+
+            encontrados.forEach(item => {
+                html += '<div class="sint-card">';
+                html += '<div class="sint-card-titulo"><span class="sint-icone">🤒</span>' + item.sintoma + '</div>';
+                html += '<div class="sint-meds-lista">';
+                item.medicamentos.forEach(nomeMed => {
+                    const med = medicamentosData.find(m => normalize(m.nome) === normalize(nomeMed) || normalize(m.nome).includes(normalize(nomeMed)) || normalize(nomeMed).includes(normalize(m.nome)));
+                    if (med) {
+                        const cor = med.receita_cor === 'verde' ? '#27ae60' : med.receita_cor === 'amarelo' ? '#e8751a' : '#c0392b';
+                        const bgCor = med.receita_cor === 'verde' ? '#e8f8f0' : med.receita_cor === 'amarelo' ? '#fef3e2' : '#fde8e8';
+                        const icone = med.receita_cor === 'verde' ? '🟢' : med.receita_cor === 'amarelo' ? '🟡' : '🔴';
+                        const textoReceita = med.receita_cor === 'verde' ? 'Venda Livre' : med.receita_cor === 'amarelo' ? 'Tarjado' : 'Com Receita';
+                        const idx = medicamentosData.indexOf(med);
+                        html += '<button class="sint-med-btn" data-med-idx="' + idx + '" onclick="sintAbrirMed(this)">';
+                        html += '<span>' + med.nome + '</span>';
+                        html += '<span style="display:flex;align-items:center;gap:8px;">';
+                        html += '<span style="font-size:11px;font-weight:700;padding:3px 10px;border-radius:12px;background:' + bgCor + ';color:' + cor + ';border:1px solid ' + cor + ';white-space:nowrap;">' + icone + ' ' + textoReceita + '</span>';
+                        html += '<span class="seta">→</span>';
+                        html += '</span></button>';
+                    } else {
+                        html += '<div class="sint-med-btn" style="cursor:default;color:#888;">';
+                        html += '<span>' + nomeMed + '</span>';
+                        html += '<span style="font-size:11px;color:#bbb;font-weight:500;">sem ficha disponível</span>';
+                        html += '</div>';
+                    }
+                });
+                html += '</div></div>';
+            });
+
+            resultado.innerHTML = html;
+        }
+
+        function sintAbrirMed(btn) {
+            const idx = parseInt(btn.getAttribute('data-med-idx'), 10);
+            const med = medicamentosData[idx];
+            if (med) openMedicineModal(med);
         }
 
     </script>
