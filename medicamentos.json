@@ -7673,7 +7673,7 @@
     ],
     "descricao_seo": "Clordiazepóxido 5mg - 25mg (Librium) é o primeiro benzodiazepínico desenvolvido clinicamente, com meia-vida longa. Indicado para ansiedade e abstinência alcoólica. Os efeitos colaterais mais relatados são: sedação, ataxia e risco de dependência. Acúmulo em idosos e hepatopatas. Clordiazepóxido é controlado (tarja preta) — vendido somente com receita de controle especial.",
     "alerta_farmaceutico": "Erro comum no balcão: paciente relata que \"o medicamento não está mais fazendo efeito\" e pede dose maior — é tolerância farmacológica, e aumentar a dose por conta própria acelera a dependência física. O médico deve ser consultado para reavaliação.",
-    "quando_procurar_medico": "Procure médico se: dificuldade para respirar durante o sono, confusão mental intensa, comportamentos automáticos sem memória, dependência (necessidade de doses maiores), ou crise de abstinência ao tentar parar (tremores, suor, convulsão)."
+    "quando_procurar_medico": "Procure médico se: confusão mental intensa, dificuldade para respirar, dependência (necessidade de doses maiores), ou crise de abstinência ao tentar parar."
   },
   {
     "nome": "Cloreto de Sódio 0,9% Nasal - Solução Fisiológica (Neosoro)",
@@ -10877,7 +10877,7 @@
     ],
     "descricao_seo": "Droperidol 2,5mg Injetável é um medicamento usado para: indicado para prevenir e tratar náuseas e vômitos após cirurgias ou exames. Também é usado em situações de emergência para acalmar pessoas muito agitadas e como apoio no controle da dor intensa. Os efeitos colaterais mais relatados são: os efeitos mais comuns incluem sonolência intensa, queda de pressão, tremores e sensação de inquietação ou rigidez muscular (sintomas extrapiramidais — movimentos involuntários do corpo). Importante: Este medicamento pode causar arritmias cardíacas graves (alterações no ritmo do coração que podem ser perigosas) e potencialmente fatais. Por isso, recebeu um alerta especial de segurança. Droperidol 2,5mg Injetável é vendido somente com receita médica — nunca use sem orientação de um profissional de saúde.",
     "alerta_farmaceutico": "Erro comum no balcão: paciente interrompe o medicamento por conta própria ao sentir melhora, sem comunicar o médico — muitos tratamentos precisam de duração definida para ser efetivos. Sempre orientar a não alterar a posologia sem orientação médica.",
-    "quando_procurar_medico": "Procure médico se: febre alta com rigidez muscular e confusão (síndrome neuroléptica maligna — emergência), movimentos involuntários da face ou corpo (discinesia), ou sonolência excessiva que impeça atividades diárias."
+    "quando_procurar_medico": "Procure médico se: febre alta com rigidez muscular (síndrome neuroléptica maligna), movimentos involuntários, arritmia cardíaca ou sonolência excessiva."
   },
   {
     "nome": "Dulaglutida (Trulicity)",
@@ -12110,7 +12110,7 @@
     ],
     "descricao_seo": "Etambutol 400mg - Solução Oral é um medicamento usado para: indicado para o tratamento da tuberculose (infecção causada por uma bactéria que geralmente ataca os pulmões, mas pode afetar outras partes do corpo). Os efeitos colaterais mais relatados são: os efeitos mais comuns incluem: dor nas articulações, dor abdominal, náuseas, vômitos, dor de cabeça e formigamento nos dedos das mãos ou pés. Importante: ATENÇÃO: Este medicamento pode afetar seriamente sua visão. Avise imediatamente seu médico se notar: visão embaçada, dificuldade para ver cores (principalmente verde e vermelho). Etambutol 400mg - Solução Oral é vendido somente com receita médica — nunca use sem orientação de um profissional de saúde.",
     "alerta_farmaceutico": "Erro comum no balcão: paciente interrompe o antibiótico quando os sintomas melhoram — bactérias mais resistentes sobrevivem e a infecção pode voltar mais forte e difícil de tratar. Complete sempre o curso completo.",
-    "quando_procurar_medico": "Procure médico se: febre não ceder em 48h após início do antibiótico, surgir rash cutâneo, urticária ou dificuldade para respirar, diarreia intensa com sangue ou muco, sintomas piorarem em vez de melhorar, ou aparecer candidíase oral ou vaginal intensa."
+    "quando_procurar_medico": "Procure médico se: visão turva ou alteração de cores (Etambutol), formigamento nas mãos e pés, icterícia, urina escura, ou febre persistente durante o tratamento."
   },
   {
     "nome": "Etoricoxibe 30mg - 60mg - 90mg - 120mg",
@@ -16441,7 +16441,7 @@
     ],
     "descricao_seo": "Isoniazida 300mg é um medicamento usado para: indicada para o tratamento e prevenção da tuberculose (TB), sendo um dos medicamentos principais do esquema de primeira linha adotado pelo Ministério da Saúde. Atua diretamente na bactéria causadora da doença, a Mycobacterium tuberculosis. Os efeitos colaterais mais relatados são: o efeito mais comum é a neuropatia periférica (formigamento, dormência ou queimação nas mãos e pés), causada pela redução da vitamina B6 no organismo — por isso muitos médicos receitam vitamina B6. Importante: Sinais de problema no fígado exigem atenção imediata: pele ou olhos amarelados (icterícia), urina escura, fezes claras, dor abdominal intensa e náuseas persistentes. Isoniazida 300mg é vendido somente com receita médica — nunca use sem orientação de um profissional de saúde.",
     "alerta_farmaceutico": "Erro comum no balcão: paciente interrompe o antibiótico quando os sintomas melhoram — bactérias mais resistentes sobrevivem e a infecção pode voltar mais forte e difícil de tratar. Complete sempre o curso completo.",
-    "quando_procurar_medico": "Procure médico se: febre não ceder em 48h após início do antibiótico, surgir rash cutâneo, urticária ou dificuldade para respirar, diarreia intensa com sangue ou muco, sintomas piorarem em vez de melhorar, ou aparecer candidíase oral ou vaginal intensa."
+    "quando_procurar_medico": "Procure médico se: visão turva ou alteração de cores (Etambutol), formigamento nas mãos e pés, icterícia, urina escura, ou febre persistente durante o tratamento."
   },
   {
     "nome": "Isossorbida 5mg - 10mg - 20mg - 40mg",
@@ -21273,7 +21273,7 @@
     ],
     "descricao_seo": "Neuleptil — Periciazina 1% - 4% gotas - 10mg comprimido é um medicamento usado para: antipsicótico típico (fenotiazínico) usado em transtornos de comportamento, agitação psicomotora, esquizofrenia e como coadjuvante em quadros de agressividade. As gotas permitem ajuste fino da dose. Os efeitos colaterais mais relatados são: sedação, hipotensão ortostática, boca seca, constipação, retenção urinária, sintomas extrapiramidais (rigidez, tremor), aumento de prolactina, fotossensibilidade. Importante: Síndrome neuroléptica maligna (rara, mas grave): febre alta, rigidez muscular intensa, confusão — emergência médica. Nunca interromper abruptamente. Idosos com demência: risco aumentado de AVC. Neuleptil — Periciazina 1% - 4% gotas - 10mg comprimido é vendido somente com receita médica — nunca use sem orientação de um profissional de saúde.",
     "alerta_farmaceutico": "Erro comum no balcão: paciente para o antipsicótico abruptamente quando se sente bem — a melhora é efeito do medicamento, não cura. Interrupção abrupta pode causar recaída da psicose em dias e síndrome de retirada com náuseas e insônia intensa.",
-    "quando_procurar_medico": "Procure médico se: febre alta com rigidez muscular e confusão (síndrome neuroléptica maligna — emergência), movimentos involuntários da face ou corpo (discinesia), ou sonolência excessiva que impeça atividades diárias."
+    "quando_procurar_medico": "Procure médico se: febre alta com rigidez muscular, movimentos involuntários da face, sonolência extrema ou pressão muito baixa."
   },
   {
     "nome": "Nifedipina 10mg - 20mg - 30mg Retard (Liberação Prolongada)",
@@ -23949,7 +23949,7 @@
     ],
     "descricao_seo": "Pirazinamida 500mg é um medicamento usado para: usada exclusivamente no tratamento da tuberculose (TB), sempre em associação com outros antibióticos antituberculosos como rifampicina e isoniazida. É um dos quatro medicamentos do esquema básico de primeira linha adotado pelo Ministério da Saúde. Os efeitos colaterais mais relatados são: o efeito colateral mais comum é a hiperuricemia (aumento do ácido úrico no sangue), que pode causar dores nas articulações semelhantes à gota — especialmente nos tornozelos, joelhos e dedos dos pés. Importante: Sinais de problema no fígado exigem atenção imediata: pele ou olhos amarelados (icterícia), urina escura, dor abdominal intensa e vômitos persistentes. Informe o médico imediatamente. Pirazinamida 500mg é vendido somente com receita médica — nunca use sem orientação de um profissional de saúde.",
     "alerta_farmaceutico": "Erro comum no balcão: paciente interrompe o antibiótico quando os sintomas melhoram — bactérias mais resistentes sobrevivem e a infecção pode voltar mais forte e difícil de tratar. Complete sempre o curso completo.",
-    "quando_procurar_medico": "Procure médico se: febre não ceder em 48h após início do antibiótico, surgir rash cutâneo, urticária ou dificuldade para respirar, diarreia intensa com sangue ou muco, sintomas piorarem em vez de melhorar, ou aparecer candidíase oral ou vaginal intensa."
+    "quando_procurar_medico": "Procure médico se: visão turva ou alteração de cores (Etambutol), formigamento nas mãos e pés, icterícia, urina escura, ou febre persistente durante o tratamento."
   },
   {
     "nome": "Polietilenoglicol — Movicol / Muvinlax",
@@ -25319,7 +25319,7 @@
     ],
     "descricao_seo": "Rifamicina spray é um medicamento usado para: antibiótico de uso tópico (spray) indicado para tratamento e prevenção de infecções bacterianas em feridas, úlceras, queimaduras e cirurgias. Age inibindo a síntese de RNA bacteriano, sendo eficaz contra gram-positivos e alguns gram-negativos. Os efeitos colaterais mais relatados são: coloração laranja/avermelhada na pele e curativo (normal). Raramente: reação alérgica local. Importante: Não usar em mucosas, olhos ou ouvidos. Não ingerir. O uso indiscriminado pode contribuir para resistência bacteriana — usar apenas com prescrição. Rifamicina spray é vendido somente com receita médica — nunca use sem orientação de um profissional de saúde.",
     "alerta_farmaceutico": "Erro comum no balcão: paciente usa antibiótico tópico por semanas sem melhora, sem retornar ao médico — uso prolongado pode favorecer resistência bacteriana e superinfecção fúngica. Uso tópico deve ser limitado ao tempo prescrito.",
-    "quando_procurar_medico": "Procure médico se: febre não ceder em 48h após início do antibiótico, surgir rash cutâneo, urticária ou dificuldade para respirar, diarreia intensa com sangue ou muco, sintomas piorarem em vez de melhorar, ou aparecer candidíase oral ou vaginal intensa."
+    "quando_procurar_medico": "Procure médico se: ferida não cicatrizar em 7 dias, surgir vermelhidão intensa, inchaço ou secreção purulenta."
   },
   {
     "nome": "Rifampicina 300mg Cápsula - Suspensão",
@@ -30814,7 +30814,7 @@
     ],
     "descricao_seo": "Zolendronato / Ácido Zoledrónico 4mg - 5mg Injetável é um medicamento usado para: bisfosfonato intravenoso de maior potência, administrado uma vez ao ano (5mg para osteoporose) ou a cada 3-4 semanas (4mg para metástases ósseas e hipercalcemia tumoral). Elimina a necessidade de comprimido diário ou semanal. Os efeitos colaterais mais relatados são: síndrome gripal (febre, mialgia, artralgia — primeiras 72h após a primeira infusão), hipocalcemia, nefrotoxicidade, osteonecrose de mandíbula (uso oncológico). Importante: Contraindicado em insuficiência renal grave (ClCr < 35mL/min). Pré-hidratar antes da infusão. Osteonecrose de mandíbula — avaliação odontológica prévia antes do início, especialmente em oncologia. Zolendronato / Ácido Zoledrónico 4mg - 5mg Injetável é vendido somente com receita médica — nunca use sem orientação de um profissional de saúde.",
     "alerta_farmaceutico": "Erro comum no balcão: paciente toma bisfosfonato e se deita imediatamente após — pode causar esofagite grave e úlceras esofágicas. Deve ser tomado em jejum com copo cheio de água, e o paciente deve permanecer em pé ou sentado por pelo menos 30 minutos.",
-    "quando_procurar_medico": "Procure médico se: dor intensa na mandíbula, dificuldade para engolir, dor óssea muito intensa, ou nova fratura mesmo fazendo o tratamento."
+    "quando_procurar_medico": "Procure médico se: dor intensa na mandíbula, febre após a infusão persistir além de 3 dias, dor óssea muito intensa, ou alteração renal."
   },
   {
     "nome": "Zolpidem 5mg - 10mg",
