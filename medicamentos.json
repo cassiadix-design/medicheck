@@ -69,7 +69,7 @@
     ],
     "descricao_seo": "Acarbose 50mg - 100mg é um medicamento usado para: antidiabético oral que age no intestino — inibe as enzimas que digerem os carboidratos, retardando a absorção de açúcares após as refeições. Reduz a hiperglicemia pós-prandial (pico de açúcar após comer) sem causar hipoglicemia quando usado sozinho. Os efeitos colaterais mais relatados são: flatulência intensa, distensão abdominal, diarreia — efeitos muito comuns e relacionados ao mecanismo de ação. Melhoram com o tempo. Importante: Se ocorrer hipoglicemia em conjunto com outros antidiabéticos, usar glucose pura (não sacarose) — a acarbose bloqueia a digestão de sacarose. Contraindicada em doenças intestinais inflamatórias. Acarbose 50mg - 100mg é vendido somente com receita médica — nunca use sem orientação de um profissional de saúde.",
     "alerta_farmaceutico": "Erro comum no balcão: substituir um antidiabético por outro \"equivalente\" sem orientação médica — cada classe tem mecanismo, posologia e riscos diferentes. A troca pode causar hipo ou hiperglicemia grave.",
-    "quando_procurar_medico": "Procure médico se: glicemia acima de 300 mg/dL, sintomas de hipoglicemia (tremor, suor, confusão), vômitos que impeçam tomar o medicamento, febre alta em diabético (agrava o controle glicêmico) ou piora progressiva dos valores."
+    "quando_procurar_medico": "Procure médico se: glicemia acima de 200 mg/dL persistente, glicemia acima de 300 mg/dL é emergência — vá ao pronto-socorro, sintomas de hipoglicemia (tremor, suor frio, confusão mental), vômitos que impeçam tomar o medicamento, febre alta em diabético (agrava o controle glicêmico) ou piora progressiva dos valores mesmo seguindo o tratamento."
   },
   {
     "nome": "Aceclofenaco 100mg",
@@ -967,7 +967,7 @@
     "retencao_receita": false,
     "descricao_seo": "Alogliptina + Metformina (Nesina Met) é um medicamento usado para: associação de alogliptina (inibidor DPP-4) com metformina, indicada para diabetes tipo 2 quando a monoterapia não é suficiente. Combina os mecanismos de ação complementares de ambos os medicamentos. Comercialmente conhecido como Nesina Met. Os efeitos colaterais mais relatados são: náusea, diarreia, dor abdominal (metformina — geralmente melhora com o tempo), nasofaringite, infecção urinária. Importante: Contraindicado em insuficiência renal grave. Suspender antes de cirurgias e exames com contraste. Risco raro de acidose lática com metformina. Alogliptina + Metformina (Nesina Met) é vendido somente com receita médica — nunca use sem orientação de um profissional de saúde.",
     "alerta_farmaceutico": "Erro comum no balcão: dispensar metformina de liberação imediata quando o médico prescreveu XR (liberação prolongada) — as formulações não são intercambiáveis em posologia; a XR tem menos efeitos gastrointestinais e é tomada uma vez ao dia.",
-    "quando_procurar_medico": "Procure médico se: náuseas ou vômitos intensos que impeçam alimentação, dor abdominal súbita, fraqueza extrema ou confusão mental (sinais de acidose láctica — rara, mas grave) ou glicemia acima de 300 mg/dL."
+    "quando_procurar_medico": "Procure médico se: glicemia acima de 200 mg/dL persistente, glicemia acima de 300 mg/dL é emergência — vá ao pronto-socorro, sintomas de hipoglicemia (tremor, suor frio, confusão mental), vômitos que impeçam tomar o medicamento, febre alta em diabético (agrava o controle glicêmico) ou piora progressiva dos valores mesmo seguindo o tratamento."
   },
   {
     "nome": "Alogliptina 6,25mg - 12,5mg - 25mg (Nesina)",
@@ -1038,7 +1038,7 @@
     ],
     "descricao_seo": "Alogliptina 6,25mg - 12,5mg - 25mg (Nesina) é um medicamento usado para: antidiabético oral da classe dos inibidores da DPP-4 (gliptinas), indicado para diabetes tipo 2. Age aumentando os níveis de incretinas, estimulando a secreção de insulina de forma dependente da glicose. Comercialmente conhecido como Nesina. Os efeitos colaterais mais relatados são: nasofaringite, dor de cabeça, infecção do trato urinário. Risco baixo de hipoglicemia quando usado isoladamente. Importante: Raro mas grave: pancreatite aguda — interromper se dor abdominal intensa. Insuficiência cardíaca relatada em estudos — monitorar pacientes cardiopatas. Alogliptina 6,25mg - 12,5mg - 25mg (Nesina) é vendido somente com receita médica — nunca use sem orientação de um profissional de saúde.",
     "alerta_farmaceutico": "Erro comum no balcão: substituir um antidiabético por outro \"equivalente\" sem orientação médica — cada classe tem mecanismo, posologia e riscos diferentes. A troca pode causar hipo ou hiperglicemia grave.",
-    "quando_procurar_medico": "Procure médico se: glicemia acima de 300 mg/dL, sintomas de hipoglicemia (tremor, suor, confusão), vômitos que impeçam tomar o medicamento, febre alta em diabético (agrava o controle glicêmico) ou piora progressiva dos valores."
+    "quando_procurar_medico": "Procure médico se: glicemia acima de 200 mg/dL persistente, glicemia acima de 300 mg/dL é emergência — vá ao pronto-socorro, sintomas de hipoglicemia (tremor, suor frio, confusão mental), vômitos que impeçam tomar o medicamento, febre alta em diabético (agrava o controle glicêmico) ou piora progressiva dos valores mesmo seguindo o tratamento."
   },
   {
     "nome": "Alopurinol 100mg - 300mg",
@@ -4746,7 +4746,7 @@
     ],
     "descricao_seo": "Canagliflozina 100mg - 300mg (Invokana) é um medicamento usado para: antidiabético inibidor SGLT-2 indicado para diabetes tipo 2, especialmente em pacientes com doença cardiovascular ou doença renal crônica. Age eliminando o excesso de glicose pela urina. Os efeitos colaterais mais relatados são: infecções urinárias e genitais (candidíase) muito comuns. Poliúria, desidratação, tontura. Risco aumentado de amputação de membros inferiores — principalmente dedos e pés — em pacientes com doença. Importante: Risco de amputação — monitore os pés diariamente para sinais de feridas ou infecções. Cetoacidose diabética mesmo com glicemia próxima ao normal. Canagliflozina 100mg - 300mg (Invokana) é vendido somente com receita médica — nunca use sem orientação de um profissional de saúde.",
     "alerta_farmaceutico": "Erro comum no balcão: não alertar sobre higiene íntima — inibidores SGLT-2 aumentam a glicose na urina, favorecendo infecções genitais fúngicas. Paciente deve ser orientado sobre higiene adequada e retornar se surgir coceira ou corrimento.",
-    "quando_procurar_medico": "Procure médico se: dor ou ardência genital, corrimento, odor intenso (candidíase genital), dor abdominal com vômitos (cetoacidose — pode ocorrer mesmo com glicemia normal), ou frequência urinária muito aumentada com febre."
+    "quando_procurar_medico": "Procure médico se: glicemia acima de 200 mg/dL persistente, glicemia acima de 300 mg/dL é emergência — vá ao pronto-socorro, sintomas de hipoglicemia (tremor, suor frio, confusão mental), vômitos que impeçam tomar o medicamento, febre alta em diabético (agrava o controle glicêmico) ou piora progressiva dos valores mesmo seguindo o tratamento."
   },
   {
     "nome": "Candesartana 8mg - 16mg - 32mg",
@@ -7970,7 +7970,7 @@
     "retencao_receita": false,
     "descricao_seo": "Dapagliflozina + Metformina (Xigduo) é um medicamento usado para: combinação em comprimido único de dapagliflozina (elimina glicose pela urina) e metformina (reduz produção de glicose pelo fígado). Simplifica o tratamento para pacientes que já usam os dois medicamentos separadamente. Os efeitos colaterais mais relatados são: combina os efeitos das duas substâncias: infecções urinárias e genitais (dapagliflozina), náusea e diarreia (metformina). Poliúria e desidratação também podem ocorrer. Importante: Risco de cetoacidose diabética (dapagliflozina) mesmo com glicemia próxima ao normal. Suspender antes de cirurgias e exames com contraste. Não usar em insuficiência renal grave. Dapagliflozina + Metformina (Xigduo) é vendido somente com receita médica — nunca use sem orientação de um profissional de saúde.",
     "alerta_farmaceutico": "Erro comum no balcão: dispensar metformina de liberação imediata quando o médico prescreveu XR (liberação prolongada) — as formulações não são intercambiáveis em posologia; a XR tem menos efeitos gastrointestinais e é tomada uma vez ao dia.",
-    "quando_procurar_medico": "Procure médico se: náuseas ou vômitos intensos que impeçam alimentação, dor abdominal súbita, fraqueza extrema ou confusão mental (sinais de acidose láctica — rara, mas grave) ou glicemia acima de 300 mg/dL."
+    "quando_procurar_medico": "Procure médico se: glicemia acima de 200 mg/dL persistente, glicemia acima de 300 mg/dL é emergência — vá ao pronto-socorro, sintomas de hipoglicemia (tremor, suor frio, confusão mental), vômitos que impeçam tomar o medicamento, febre alta em diabético (agrava o controle glicêmico) ou piora progressiva dos valores mesmo seguindo o tratamento."
   },
   {
     "nome": "Dapagliflozina 10mg (Forxiga)",
@@ -8033,7 +8033,7 @@
     ],
     "descricao_seo": "Dapagliflozina 10mg (Forxiga) é um medicamento usado para: indicada para o tratamento do diabetes tipo 2, insuficiência cardíaca e doença renal crônica — sendo um dos poucos medicamentos com benefício comprovado nas três condições ao mesmo tempo. Os efeitos colaterais mais relatados são: o efeito colateral mais comum é a infecção urinária e genital (candidíase e cistite), pois o açúcar eliminado na urina favorece o crescimento de fungos e bactérias. Importante: Risco de cetoacidose diabética (CAD) — mesmo com glicemia normal ou pouco elevada. Sinais: náusea, vômito, dor abdominal, fraqueza e dificuldade para respirar. Interrompa e procure atendimento imediato. Dapagliflozina 10mg (Forxiga) é vendido somente com receita médica — nunca use sem orientação de um profissional de saúde.",
     "alerta_farmaceutico": "Erro comum no balcão: não alertar sobre higiene íntima — inibidores SGLT-2 aumentam a glicose na urina, favorecendo infecções genitais fúngicas. Paciente deve ser orientado sobre higiene adequada e retornar se surgir coceira ou corrimento.",
-    "quando_procurar_medico": "Procure médico se: dor ou ardência genital, corrimento, odor intenso (candidíase genital), dor abdominal com vômitos (cetoacidose — pode ocorrer mesmo com glicemia normal), ou frequência urinária muito aumentada com febre."
+    "quando_procurar_medico": "Procure médico se: glicemia acima de 200 mg/dL persistente, glicemia acima de 300 mg/dL é emergência — vá ao pronto-socorro, sintomas de hipoglicemia (tremor, suor frio, confusão mental), vômitos que impeçam tomar o medicamento, febre alta em diabético (agrava o controle glicêmico) ou piora progressiva dos valores mesmo seguindo o tratamento."
   },
   {
     "nome": "Denosumabe 60mg - 120mg Injetável",
@@ -9604,7 +9604,7 @@
     ],
     "descricao_seo": "Dulaglutida (Trulicity) é um medicamento usado para: análogo do GLP-1 de administração subcutânea semanal para diabetes tipo 2. Estimula a secreção de insulina dependente de glicose, reduz o glucagon, retarda o esvaziamento gástrico e reduz o apetite. Também tem benefícios cardiovasculares comprovados. Os efeitos colaterais mais relatados são: náusea, vômito, diarreia, dor abdominal (especialmente no início), perda de apetite e peso. Raramente: pancreatite. Importante: Contraindicada em histórico pessoal ou familiar de carcinoma medular de tireoide ou neoplasia endócrina múltipla tipo 2 (NEM 2). Suspender se houver suspeita de pancreatite. Dulaglutida (Trulicity) é vendido somente com receita médica — nunca use sem orientação de um profissional de saúde.",
     "alerta_farmaceutico": "Erro comum no balcão: paciente armazena agonista GLP-1 em temperatura ambiente — devem ser refrigerados (2°C–8°C) antes do uso. Após aberto, o prazo e temperatura variam por produto; conferir sempre a bula específica.",
-    "quando_procurar_medico": "Procure médico se: náuseas e vômitos intensos que impeçam alimentação, dor abdominal forte e persistente irradiando para as costas (sinal de pancreatite), batimentos acelerados ou nódulo/massa no pescoço."
+    "quando_procurar_medico": "Procure médico se: glicemia acima de 200 mg/dL persistente, glicemia acima de 300 mg/dL é emergência — vá ao pronto-socorro, sintomas de hipoglicemia (tremor, suor frio, confusão mental), vômitos que impeçam tomar o medicamento, febre alta em diabético (agrava o controle glicêmico) ou piora progressiva dos valores mesmo seguindo o tratamento."
   },
   {
     "nome": "Duloxetina 60mg",
@@ -9948,7 +9948,7 @@
     ],
     "descricao_seo": "Empagliflozina 10mg - 25mg (Jardiance) é um medicamento usado para: antidiabético da classe dos inibidores SGLT-2, indicado para diabetes tipo 2, insuficiência cardíaca e doença renal crônica. Age bloqueando a reabsorção de glicose nos rins — o excesso de açúcar é eliminado pela urina. Os efeitos colaterais mais relatados são: infecções urinárias e genitais (candidíase) muito comuns — o açúcar na urina favorece fungos e bactérias. Poliúria, desidratação e tontura também podem ocorrer. Importante: Risco de cetoacidose diabética — mesmo com glicemia próxima ao normal. Sinais: náusea, vômito, dor abdominal, fraqueza e dificuldade para respirar. Não usar em diabetes tipo 1. Empagliflozina 10mg - 25mg (Jardiance) é vendido somente com receita médica — nunca use sem orientação de um profissional de saúde.",
     "alerta_farmaceutico": "Erro comum no balcão: não alertar sobre higiene íntima — inibidores SGLT-2 aumentam a glicose na urina, favorecendo infecções genitais fúngicas. Paciente deve ser orientado sobre higiene adequada e retornar se surgir coceira ou corrimento.",
-    "quando_procurar_medico": "Procure médico se: dor ou ardência genital, corrimento, odor intenso (candidíase genital), dor abdominal com vômitos (cetoacidose — pode ocorrer mesmo com glicemia normal), ou frequência urinária muito aumentada com febre."
+    "quando_procurar_medico": "Procure médico se: glicemia acima de 200 mg/dL persistente, glicemia acima de 300 mg/dL é emergência — vá ao pronto-socorro, sintomas de hipoglicemia (tremor, suor frio, confusão mental), vômitos que impeçam tomar o medicamento, febre alta em diabético (agrava o controle glicêmico) ou piora progressiva dos valores mesmo seguindo o tratamento."
   },
   {
     "nome": "Enalapril 5mg - 10mg - 20mg",
@@ -10776,7 +10776,7 @@
     ],
     "descricao_seo": "Exenatida (Byetta / Bydureon) é um medicamento usado para: análogo do GLP-1 para diabetes tipo 2. Disponível em duas formas: Byetta (injeção 2x/dia) e Bydureon (injeção semanal de liberação prolongada). Os efeitos colaterais mais relatados são: náusea (muito comum no início), vômito, diarreia, reação no local da injeção. Raramente: pancreatite. Importante: Contraindicada em histórico pessoal ou familiar de carcinoma medular de tireoide ou NEM tipo 2. Suspender se houver suspeita de pancreatite. Exenatida (Byetta / Bydureon) é vendido somente com receita médica — nunca use sem orientação de um profissional de saúde.",
     "alerta_farmaceutico": "Erro comum no balcão: paciente armazena agonista GLP-1 em temperatura ambiente — devem ser refrigerados (2°C–8°C) antes do uso. Após aberto, o prazo e temperatura variam por produto; conferir sempre a bula específica.",
-    "quando_procurar_medico": "Procure médico se: náuseas e vômitos intensos que impeçam alimentação, dor abdominal forte e persistente irradiando para as costas (sinal de pancreatite), batimentos acelerados ou nódulo/massa no pescoço."
+    "quando_procurar_medico": "Procure médico se: glicemia acima de 200 mg/dL persistente, glicemia acima de 300 mg/dL é emergência — vá ao pronto-socorro, sintomas de hipoglicemia (tremor, suor frio, confusão mental), vômitos que impeçam tomar o medicamento, febre alta em diabético (agrava o controle glicêmico) ou piora progressiva dos valores mesmo seguindo o tratamento."
   },
   {
     "nome": "Ezetimiba 10mg",
@@ -12541,7 +12541,7 @@
     "descricao_seo": "Glibenclamida 5mg é um medicamento usado para: indicada para o tratamento do diabetes tipo 2 em adultos, quando a dieta, exercício e metformina não são suficientes para controlar o açúcar no sangue. Os efeitos colaterais mais relatados são: o principal e mais importante efeito colateral é a hipoglicemia (queda do açúcar no sangue) — pode ser grave e prolongada, especialmente em idosos. Importante: RISCO ELEVADO EM IDOSOS: A glibenclamida está nos Critérios de Beers como medicamento a EVITAR em idosos — risco de hipoglicemia grave e prolongada. Glibenclamida 5mg é vendido somente com receita médica — nunca use sem orientação de um profissional de saúde.",
     "alerta_idoso": true,
     "alerta_farmaceutico": "Erro comum no balcão: paciente toma sulfonilureia sem alimento — o medicamento estimula a secreção de insulina independentemente da glicemia; em jejum, pode causar hipoglicemia grave, especialmente em idosos.",
-    "quando_procurar_medico": "Procure atendimento se: tremor, suor frio, palpitações, confusão mental ou desmaio (hipoglicemia) — dar 15g de açúcar imediatamente. Se inconsciente, acionar o SAMU (192)."
+    "quando_procurar_medico": "Procure médico se: glicemia acima de 200 mg/dL persistente, glicemia acima de 300 mg/dL é emergência — vá ao pronto-socorro, sintomas de hipoglicemia (tremor, suor frio, confusão mental), vômitos que impeçam tomar o medicamento, febre alta em diabético (agrava o controle glicêmico) ou piora progressiva dos valores mesmo seguindo o tratamento."
   },
   {
     "nome": "Glicazida 30mg - 60mg - 80mg MR",
@@ -12609,7 +12609,7 @@
     ],
     "descricao_seo": "Glicazida 30mg - 60mg - 80mg MR é um medicamento usado para: antidiabético oral da classe das sulfonilureias, indicado para diabetes tipo 2. Estimula a liberação de insulina pelo pâncreas. Tem efeito protetor cardiovascular e renal diferencial em relação a outras sulfonilureias. Os efeitos colaterais mais relatados são: hipoglicemia (principal risco), ganho de peso, náusea, diarreia. Importante: Principal risco é a hipoglicemia — especialmente em idosos, jejum prolongado ou uso de álcool. Não usar em diabetes tipo 1 nem em insuficiência renal grave. Glicazida 30mg - 60mg - 80mg MR é vendido somente com receita médica — nunca use sem orientação de um profissional de saúde.",
     "alerta_farmaceutico": "Erro comum no balcão: paciente toma sulfonilureia sem alimento — o medicamento estimula a secreção de insulina independentemente da glicemia; em jejum, pode causar hipoglicemia grave, especialmente em idosos.",
-    "quando_procurar_medico": "Procure atendimento se: tremor, suor frio, palpitações, confusão mental ou desmaio (hipoglicemia) — dar 15g de açúcar imediatamente. Se inconsciente, acionar o SAMU (192)."
+    "quando_procurar_medico": "Procure médico se: glicemia acima de 200 mg/dL persistente, glicemia acima de 300 mg/dL é emergência — vá ao pronto-socorro, sintomas de hipoglicemia (tremor, suor frio, confusão mental), vômitos que impeçam tomar o medicamento, febre alta em diabético (agrava o controle glicêmico) ou piora progressiva dos valores mesmo seguindo o tratamento."
   },
   {
     "nome": "Glicopirrônio (Seebri)",
@@ -12750,7 +12750,7 @@
     ],
     "descricao_seo": "Glimepirida 1mg - 2mg - 4mg é um medicamento usado para: antidiabético oral da classe das sulfonilureias de 3ª geração, indicado para diabetes tipo 2. Estimula a secreção de insulina. Pode ser usada em combinação com metformina ou insulina. Os efeitos colaterais mais relatados são: hipoglicemia, ganho de peso, náusea, dor de cabeça, reações alérgicas cutâneas. Importante: Risco de hipoglicemia grave — especialmente em idosos, insuficiência renal e hepatica, jejum ou álcool. Contraindicada em diabetes tipo 1. Glimepirida 1mg - 2mg - 4mg é vendido somente com receita médica — nunca use sem orientação de um profissional de saúde.",
     "alerta_farmaceutico": "Erro comum no balcão: paciente toma sulfonilureia sem alimento — o medicamento estimula a secreção de insulina independentemente da glicemia; em jejum, pode causar hipoglicemia grave, especialmente em idosos.",
-    "quando_procurar_medico": "Procure atendimento se: tremor, suor frio, palpitações, confusão mental ou desmaio (hipoglicemia) — dar 15g de açúcar imediatamente. Se inconsciente, acionar o SAMU (192)."
+    "quando_procurar_medico": "Procure médico se: glicemia acima de 200 mg/dL persistente, glicemia acima de 300 mg/dL é emergência — vá ao pronto-socorro, sintomas de hipoglicemia (tremor, suor frio, confusão mental), vômitos que impeçam tomar o medicamento, febre alta em diabético (agrava o controle glicêmico) ou piora progressiva dos valores mesmo seguindo o tratamento."
   },
   {
     "nome": "Griseofulvina 125mg - 500mg",
@@ -14041,7 +14041,7 @@
     ],
     "descricao_seo": "Insulina Asparte 100UI/mL (NovoRapid) é um medicamento usado para: insulina análoga de ação ultrarrápida usada para controle da glicemia pós-refeição em diabetes tipo 1 e tipo 2. Age em 10-20 minutos e dura cerca de 3-5 horas. Comercialmente conhecida como NovoRapid. Os efeitos colaterais mais relatados são: hipoglicemia (principal risco — ação rápida exige atenção), reações no local da injeção, ganho de peso. Importante: Aplicar imediatamente antes das refeições. Hipoglicemia rápida e intensa — ter sempre algo doce à mão. Não usar se não for comer após a aplicação. Insulina Asparte 100UI/mL (NovoRapid) é vendido somente com receita médica — nunca use sem orientação de um profissional de saúde.",
     "alerta_farmaceutico": "Erro comum no balcão: trocar a caneta/refil de insulina por outra marca \"similar\" sem orientação — perfis de ação, concentração e dispositivos são diferentes entre fabricantes. A troca não orientada pode causar hipo ou hiperglicemia grave.",
-    "quando_procurar_medico": "Procure atendimento imediato se: tremor, suor frio, palidez e confusão (hipoglicemia grave — dar açúcar imediatamente e acionar socorro); glicemia acima de 300 mg/dL, vômitos repetidos ou respiração com cheiro de fruta (cetoacidose)."
+    "quando_procurar_medico": "Procure médico se: glicemia acima de 200 mg/dL persistente, glicemia acima de 300 mg/dL é emergência — vá ao pronto-socorro, sintomas de hipoglicemia (tremor, suor frio, confusão mental), vômitos que impeçam tomar o medicamento, febre alta em diabético (agrava o controle glicêmico) ou piora progressiva dos valores mesmo seguindo o tratamento."
   },
   {
     "nome": "Insulina Detemir (Levemir)",
@@ -14118,7 +14118,7 @@
     ],
     "descricao_seo": "Insulina Detemir (Levemir) é um medicamento usado para: insulina análoga de longa duração (16-24 horas) usada no controle glicêmico basal em diabetes tipo 1 e tipo 2. Fornece cobertura insulínica contínua entre as refeições e durante a noite. Pode ser aplicada uma ou duas vezes ao dia. Os efeitos colaterais mais relatados são: hipoglicemia (principal risco), reação no local da aplicação, ganho de peso (menor que insulina NPH). Importante: Hipoglicemia é o principal risco — nunca pular refeições após aplicar. Ter sempre açúcar ou suco de laranja disponível. Não confundir com insulina de ação rápida. Insulina Detemir (Levemir) é vendido somente com receita médica — nunca use sem orientação de um profissional de saúde.",
     "alerta_farmaceutico": "Erro comum no balcão: trocar a caneta/refil de insulina por outra marca \"similar\" sem orientação — perfis de ação, concentração e dispositivos são diferentes entre fabricantes. A troca não orientada pode causar hipo ou hiperglicemia grave.",
-    "quando_procurar_medico": "Procure atendimento imediato se: tremor, suor frio, palidez e confusão (hipoglicemia grave — dar açúcar imediatamente e acionar socorro); glicemia acima de 300 mg/dL, vômitos repetidos ou respiração com cheiro de fruta (cetoacidose)."
+    "quando_procurar_medico": "Procure médico se: glicemia acima de 200 mg/dL persistente, glicemia acima de 300 mg/dL é emergência — vá ao pronto-socorro, sintomas de hipoglicemia (tremor, suor frio, confusão mental), vômitos que impeçam tomar o medicamento, febre alta em diabético (agrava o controle glicêmico) ou piora progressiva dos valores mesmo seguindo o tratamento."
   },
   {
     "nome": "Insulina Glargina 100UI/mL (Lantus / Basaglar)",
@@ -14190,7 +14190,7 @@
     ],
     "descricao_seo": "Insulina Glargina 100UI/mL (Lantus / Basaglar) é um medicamento usado para: insulina análoga de ação prolongada (24h), usada como insulina basal no tratamento de diabetes tipo 1 e tipo 2. Fornece cobertura insulínica estável ao longo do dia. Comercialmente conhecida como Lantus e Basaglar. Os efeitos colaterais mais relatados são: hipoglicemia (principal risco), reações no local da injeção (vermelhidão, inchaço), ganho de peso. Importante: Hipoglicemia grave pode ser fatal. NÃO misturar com outras insulinas na mesma seringa. Não agitar — rolar suavemente entre as mãos. Insulina Glargina 100UI/mL (Lantus / Basaglar) é vendido somente com receita médica — nunca use sem orientação de um profissional de saúde.",
     "alerta_farmaceutico": "Erro comum no balcão: trocar a caneta/refil de insulina por outra marca \"similar\" sem orientação — perfis de ação, concentração e dispositivos são diferentes entre fabricantes. A troca não orientada pode causar hipo ou hiperglicemia grave.",
-    "quando_procurar_medico": "Procure atendimento imediato se: tremor, suor frio, palidez e confusão (hipoglicemia grave — dar açúcar imediatamente e acionar socorro); glicemia acima de 300 mg/dL, vômitos repetidos ou respiração com cheiro de fruta (cetoacidose)."
+    "quando_procurar_medico": "Procure médico se: glicemia acima de 200 mg/dL persistente, glicemia acima de 300 mg/dL é emergência — vá ao pronto-socorro, sintomas de hipoglicemia (tremor, suor frio, confusão mental), vômitos que impeçam tomar o medicamento, febre alta em diabético (agrava o controle glicêmico) ou piora progressiva dos valores mesmo seguindo o tratamento."
   },
   {
     "nome": "Insulina Lispro 100UI/mL (Humalog)",
@@ -14261,7 +14261,7 @@
     ],
     "descricao_seo": "Insulina Lispro 100UI/mL (Humalog) é um medicamento usado para: insulina análoga de ação ultrarrápida para controle da glicemia pós-refeição. Similar à insulina asparte, age em 15 minutos e dura 3-5 horas. Comercialmente conhecida como Humalog. Os efeitos colaterais mais relatados são: hipoglicemia, reações no local da injeção, ganho de peso. Importante: Aplicar imediatamente antes das refeições. Não usar se não for comer. Hipoglicemia rápida e intensa. Insulina Lispro 100UI/mL (Humalog) é vendido somente com receita médica — nunca use sem orientação de um profissional de saúde.",
     "alerta_farmaceutico": "Erro comum no balcão: trocar a caneta/refil de insulina por outra marca \"similar\" sem orientação — perfis de ação, concentração e dispositivos são diferentes entre fabricantes. A troca não orientada pode causar hipo ou hiperglicemia grave.",
-    "quando_procurar_medico": "Procure atendimento imediato se: tremor, suor frio, palidez e confusão (hipoglicemia grave — dar açúcar imediatamente e acionar socorro); glicemia acima de 300 mg/dL, vômitos repetidos ou respiração com cheiro de fruta (cetoacidose)."
+    "quando_procurar_medico": "Procure médico se: glicemia acima de 200 mg/dL persistente, glicemia acima de 300 mg/dL é emergência — vá ao pronto-socorro, sintomas de hipoglicemia (tremor, suor frio, confusão mental), vômitos que impeçam tomar o medicamento, febre alta em diabético (agrava o controle glicêmico) ou piora progressiva dos valores mesmo seguindo o tratamento."
   },
   {
     "nome": "Insulina NPH 100U/ml",
@@ -14332,7 +14332,7 @@
     ],
     "descricao_seo": "Insulina NPH 100U/ml é um medicamento usado para: indicada para o controle do açúcar no sangue em pessoas com diabetes tipo 1 e tipo 2. A insulina NPH é de ação intermediária — começa a agir em 1 a 2 horas após a aplicação, tem pico de efeito entre 4 e 10 horas e dura até 16 horas. Os efeitos colaterais mais relatados são: o efeito colateral mais importante é a hipoglicemia (queda do açúcar no sangue), que causa tremores, suor frio, tontura, fraqueza, confusão mental e fome repentina. Importante: Sinais de hipoglicemia grave — confusão intensa, desmaio ou perda de consciência — são emergência médica. Se a pessoa estiver consciente, ofereça açúcar ou suco imediatamente. Se inconsciente, ligue para o SAMU. Insulina NPH 100U/ml é vendido somente com receita médica — nunca use sem orientação de um profissional de saúde.",
     "alerta_farmaceutico": "Erro comum no balcão: trocar a caneta/refil de insulina por outra marca \"similar\" sem orientação — perfis de ação, concentração e dispositivos são diferentes entre fabricantes. A troca não orientada pode causar hipo ou hiperglicemia grave.",
-    "quando_procurar_medico": "Procure atendimento imediato se: tremor, suor frio, palidez e confusão (hipoglicemia grave — dar açúcar imediatamente e acionar socorro); glicemia acima de 300 mg/dL, vômitos repetidos ou respiração com cheiro de fruta (cetoacidose)."
+    "quando_procurar_medico": "Procure médico se: glicemia acima de 200 mg/dL persistente, glicemia acima de 300 mg/dL é emergência — vá ao pronto-socorro, sintomas de hipoglicemia (tremor, suor frio, confusão mental), vômitos que impeçam tomar o medicamento, febre alta em diabético (agrava o controle glicêmico) ou piora progressiva dos valores mesmo seguindo o tratamento."
   },
   {
     "nome": "Insulina Regular 100U/ml",
@@ -14399,7 +14399,7 @@
     ],
     "descricao_seo": "Insulina Regular 100U/ml é um medicamento usado para: indicada para o controle do açúcar no sangue em pessoas com diabetes tipo 1 e tipo 2. A insulina Regular é de ação curta — começa a agir em 30 minutos após a aplicação, tem pico de efeito entre 2 e 4 horas e dura de 5 a 8 horas. Os efeitos colaterais mais relatados são: o efeito colateral mais importante é a hipoglicemia (queda do açúcar no sangue), que causa tremores, suor frio, tontura, fraqueza, confusão mental e fome repentina. Importante: ATENÇÃO EM IDOSOS: Idosos têm maior risco de hipoglicemia grave com insulina Regular — menor percepção dos sintomas, alimentação irregular e função renal reduzida aumentam o risco. Insulina Regular 100U/ml é vendido somente com receita médica — nunca use sem orientação de um profissional de saúde.",
     "alerta_farmaceutico": "Erro comum no balcão: trocar a caneta/refil de insulina por outra marca \"similar\" sem orientação — perfis de ação, concentração e dispositivos são diferentes entre fabricantes. A troca não orientada pode causar hipo ou hiperglicemia grave.",
-    "quando_procurar_medico": "Procure atendimento imediato se: tremor, suor frio, palidez e confusão (hipoglicemia grave — dar açúcar imediatamente e acionar socorro); glicemia acima de 300 mg/dL, vômitos repetidos ou respiração com cheiro de fruta (cetoacidose)."
+    "quando_procurar_medico": "Procure médico se: glicemia acima de 200 mg/dL persistente, glicemia acima de 300 mg/dL é emergência — vá ao pronto-socorro, sintomas de hipoglicemia (tremor, suor frio, confusão mental), vômitos que impeçam tomar o medicamento, febre alta em diabético (agrava o controle glicêmico) ou piora progressiva dos valores mesmo seguindo o tratamento."
   },
   {
     "nome": "Iodo — Iodeto de Potássio",
@@ -15812,7 +15812,7 @@
     ],
     "descricao_seo": "Linagliptina 5mg (Trayenta) é um medicamento usado para: antidiabético oral inibidor da DPP-4 para diabetes tipo 2. Vantagem importante sobre outros da mesma classe: não precisa de ajuste de dose em insuficiência renal — pode ser usada em qualquer grau de função renal, inclusive em pacientes em diálise. Os efeitos colaterais mais relatados são: geralmente bem tolerada. Infecções respiratórias superiores e nasofaringite são comuns. Risco raro de pancreatite e dor articular intensa. Importante: Risco de pancreatite — procure atendimento se tiver dor abdominal intensa e persistente. Linagliptina 5mg (Trayenta) é vendido somente com receita médica — nunca use sem orientação de um profissional de saúde.",
     "alerta_farmaceutico": "Erro comum no balcão: substituir um antidiabético por outro \"equivalente\" sem orientação médica — cada classe tem mecanismo, posologia e riscos diferentes. A troca pode causar hipo ou hiperglicemia grave.",
-    "quando_procurar_medico": "Procure médico se: glicemia acima de 300 mg/dL, sintomas de hipoglicemia (tremor, suor, confusão), vômitos que impeçam tomar o medicamento, febre alta em diabético (agrava o controle glicêmico) ou piora progressiva dos valores."
+    "quando_procurar_medico": "Procure médico se: glicemia acima de 200 mg/dL persistente, glicemia acima de 300 mg/dL é emergência — vá ao pronto-socorro, sintomas de hipoglicemia (tremor, suor frio, confusão mental), vômitos que impeçam tomar o medicamento, febre alta em diabético (agrava o controle glicêmico) ou piora progressiva dos valores mesmo seguindo o tratamento."
   },
   {
     "nome": "Linezolida 400mg - 600mg",
@@ -17227,7 +17227,7 @@
     "retencao_receita": false,
     "descricao_seo": "Metformina 500mg - 850mg - 1000mg - XR (Liberação Prolongada) é um medicamento usado para: é o medicamento de primeira escolha no tratamento do diabetes tipo 2. Age reduzindo a produção de glicose pelo fígado e melhorando a sensibilidade do organismo à insulina, ajudando as células a absorver melhor o açúcar do sangue. Os efeitos colaterais mais relatados são: os efeitos mais comuns afetam o aparelho digestivo: diarreia, náusea, vômito e dor abdominal, especialmente no início do tratamento — por isso a dose é aumentada gradualmente. Importante: Suspenda o uso e informe o médico imediatamente antes de realizar exames com contraste (como tomografia) ou cirurgias — a metformina deve ser interrompida temporariamente nesses casos para evitar complicações nos rins. Metformina 500mg - 850mg - 1000mg - XR (Liberação Prolongada) é vendido somente com receita médica — nunca use sem orientação de um profissional de saúde.",
     "alerta_farmaceutico": "Erro comum no balcão: dispensar metformina de liberação imediata quando o médico prescreveu XR (liberação prolongada) — as formulações não são intercambiáveis em posologia; a XR tem menos efeitos gastrointestinais e é tomada uma vez ao dia.",
-    "quando_procurar_medico": "Procure médico se: náuseas ou vômitos intensos que impeçam alimentação, dor abdominal súbita, fraqueza extrema ou confusão mental (sinais de acidose láctica — rara, mas grave) ou glicemia acima de 300 mg/dL."
+    "quando_procurar_medico": "Procure médico se: glicemia acima de 200 mg/dL persistente, glicemia acima de 300 mg/dL é emergência — vá ao pronto-socorro, sintomas de hipoglicemia (tremor, suor frio, confusão mental), vômitos que impeçam tomar o medicamento, febre alta em diabético (agrava o controle glicêmico) ou piora progressiva dos valores mesmo seguindo o tratamento."
   },
   {
     "nome": "Metilfenidato (Ritalina / Concerta)",
@@ -18245,7 +18245,7 @@
     ],
     "descricao_seo": "Mounjaro (Tirzepatida) é um medicamento usado para: indicado para o tratamento do diabetes tipo 2 e controle do peso em adultos com obesidade. Age imitando dois hormônios ao mesmo tempo — GLP-1 e GIP — que estimulam a produção de insulina, reduzem o apetite e retardam o esvaziamento gástrico. Os efeitos colaterais mais relatados são: náusea, vômito, diarreia e dor abdominal são muito comuns, especialmente no início. Costumam diminuir com o tempo. Pode causar pancreatite (inflamação do pâncreas) e, raramente, tumores na tireoide. Importante: Contraindicado em pacientes com histórico pessoal ou familiar de câncer medular de tireoide ou síndrome MEN2. Pode causar pancreatite aguda — procure atendimento imediato se tiver dor intensa no abdômen. Mounjaro (Tirzepatida) é vendido somente com receita médica — nunca use sem orientação de um profissional de saúde.",
     "alerta_farmaceutico": "Erro comum no balcão: paciente armazena agonista GLP-1 em temperatura ambiente — devem ser refrigerados (2°C–8°C) antes do uso. Após aberto, o prazo e temperatura variam por produto; conferir sempre a bula específica.",
-    "quando_procurar_medico": "Procure médico se: náuseas e vômitos intensos que impeçam alimentação, dor abdominal forte e persistente irradiando para as costas (sinal de pancreatite), batimentos acelerados ou nódulo/massa no pescoço."
+    "quando_procurar_medico": "Procure médico se: glicemia acima de 200 mg/dL persistente, glicemia acima de 300 mg/dL é emergência — vá ao pronto-socorro, sintomas de hipoglicemia (tremor, suor frio, confusão mental), vômitos que impeçam tomar o medicamento, febre alta em diabético (agrava o controle glicêmico) ou piora progressiva dos valores mesmo seguindo o tratamento."
   },
   {
     "nome": "Moxifloxacino 400mg",
@@ -21405,7 +21405,7 @@
     ],
     "descricao_seo": "Pioglitazona 15mg - 30mg - 45mg é um medicamento usado para: antidiabético sensibilizador à insulina da classe das glitazonas, indicado para diabetes tipo 2. Age ativando receptores que melhoram a resposta das células à insulina — reduzindo a resistência insulínica. Os efeitos colaterais mais relatados são: ganho de peso e retenção de líquidos são muito comuns. Risco aumentado de fraturas ósseas em mulheres. Risco potencial de câncer de bexiga com uso prolongado (controverso). Importante: CONTRAINDICADA em insuficiência cardíaca — pode piorar o quadro por retenção de líquidos. Não usar em histórico de câncer de bexiga. Monitorar sinais de insuficiência cardíaca (falta de ar, inchaço nas pernas). Pioglitazona 15mg - 30mg - 45mg é vendido somente com receita médica — nunca use sem orientação de um profissional de saúde.",
     "alerta_farmaceutico": "Erro comum no balcão: substituir um antidiabético por outro \"equivalente\" sem orientação médica — cada classe tem mecanismo, posologia e riscos diferentes. A troca pode causar hipo ou hiperglicemia grave.",
-    "quando_procurar_medico": "Procure médico se: glicemia acima de 300 mg/dL, sintomas de hipoglicemia (tremor, suor, confusão), vômitos que impeçam tomar o medicamento, febre alta em diabético (agrava o controle glicêmico) ou piora progressiva dos valores."
+    "quando_procurar_medico": "Procure médico se: glicemia acima de 200 mg/dL persistente, glicemia acima de 300 mg/dL é emergência — vá ao pronto-socorro, sintomas de hipoglicemia (tremor, suor frio, confusão mental), vômitos que impeçam tomar o medicamento, febre alta em diabético (agrava o controle glicêmico) ou piora progressiva dos valores mesmo seguindo o tratamento."
   },
   {
     "nome": "Pirazinamida 500mg",
@@ -22627,7 +22627,7 @@
     ],
     "descricao_seo": "Repaglinida 0,5mg - 1mg - 2mg é um medicamento usado para: antidiabético oral de ação rápida e curta duração que estimula a secreção de insulina pelo pâncreas. Tomada antes de cada refeição — age especificamente no pico glicêmico pós-prandial. Flexível para pacientes com horários irregulares de refeição. Os efeitos colaterais mais relatados são: hipoglicemia (principal risco), ganho de peso, náusea, diarreia, infecções respiratórias. Importante: Risco de hipoglicemia — nunca tomar sem comer a seguir. Se pular uma refeição, PULAR a dose correspondente. Repaglinida 0,5mg - 1mg - 2mg é vendido somente com receita médica — nunca use sem orientação de um profissional de saúde.",
     "alerta_farmaceutico": "Erro comum no balcão: trocar a caneta/refil de insulina por outra marca \"similar\" sem orientação — perfis de ação, concentração e dispositivos são diferentes entre fabricantes. A troca não orientada pode causar hipo ou hiperglicemia grave.",
-    "quando_procurar_medico": "Procure atendimento imediato se: tremor, suor frio, palidez e confusão (hipoglicemia grave — dar açúcar imediatamente e acionar socorro); glicemia acima de 300 mg/dL, vômitos repetidos ou respiração com cheiro de fruta (cetoacidose)."
+    "quando_procurar_medico": "Procure médico se: glicemia acima de 200 mg/dL persistente, glicemia acima de 300 mg/dL é emergência — vá ao pronto-socorro, sintomas de hipoglicemia (tremor, suor frio, confusão mental), vômitos que impeçam tomar o medicamento, febre alta em diabético (agrava o controle glicêmico) ou piora progressiva dos valores mesmo seguindo o tratamento."
   },
   {
     "nome": "Resveratrol",
@@ -23437,7 +23437,7 @@
     ],
     "descricao_seo": "Rybelsus 3mg - 7mg - 14mg (Semaglutida Oral) é um medicamento usado para: primeira semaglutida disponível em comprimido, indicada para diabetes tipo 2. Tem o mesmo princípio ativo do Ozempic (injetável semanal), mas em forma oral — tomada uma vez ao dia. Os efeitos colaterais mais relatados são: náusea, diarreia, dor abdominal e vômito — comuns no início. Risco de pancreatite e, raramente, alterações na tireoide. Boca seca com risco de cáries. Importante: Contraindicado em histórico de câncer medular de tireoide ou síndrome MEN2. Tomar incorretamente (com alimento, com muito líquido ou com outros medicamentos juntos) reduz a absorção em até 90%. Rybelsus 3mg - 7mg - 14mg (Semaglutida Oral) é vendido somente com receita médica — nunca use sem orientação de um profissional de saúde.",
     "alerta_farmaceutico": "Erro comum no balcão: paciente armazena agonista GLP-1 em temperatura ambiente — devem ser refrigerados (2°C–8°C) antes do uso. Após aberto, o prazo e temperatura variam por produto; conferir sempre a bula específica.",
-    "quando_procurar_medico": "Procure médico se: náuseas e vômitos intensos que impeçam alimentação, dor abdominal forte e persistente irradiando para as costas (sinal de pancreatite), batimentos acelerados ou nódulo/massa no pescoço."
+    "quando_procurar_medico": "Procure médico se: glicemia acima de 200 mg/dL persistente, glicemia acima de 300 mg/dL é emergência — vá ao pronto-socorro, sintomas de hipoglicemia (tremor, suor frio, confusão mental), vômitos que impeçam tomar o medicamento, febre alta em diabético (agrava o controle glicêmico) ou piora progressiva dos valores mesmo seguindo o tratamento."
   },
   {
     "nome": "Saccharomyces boulardii (Floratil)",
@@ -23789,7 +23789,7 @@
     ],
     "descricao_seo": "Saxagliptina 2,5mg - 5mg (Onglyza) é um medicamento usado para: antidiabético oral inibidor da DPP-4 para diabetes tipo 2. Age aumentando os hormônios incretinas que estimulam a produção de insulina dependente da glicose. Pode ser combinada com metformina, sulfonilureias e insulina. Os efeitos colaterais mais relatados são: infecções respiratórias superiores, infecções urinárias e dor de cabeça são os mais comuns. Risco de pancreatite. Possível aumento de hospitalizações por insuficiência cardíaca. Importante: Usar com cautela em pacientes com insuficiência cardíaca ou risco cardiovascular elevado. Risco de pancreatite. Saxagliptina 2,5mg - 5mg (Onglyza) é vendido somente com receita médica — nunca use sem orientação de um profissional de saúde.",
     "alerta_farmaceutico": "Erro comum no balcão: substituir um antidiabético por outro \"equivalente\" sem orientação médica — cada classe tem mecanismo, posologia e riscos diferentes. A troca pode causar hipo ou hiperglicemia grave.",
-    "quando_procurar_medico": "Procure médico se: glicemia acima de 300 mg/dL, sintomas de hipoglicemia (tremor, suor, confusão), vômitos que impeçam tomar o medicamento, febre alta em diabético (agrava o controle glicêmico) ou piora progressiva dos valores."
+    "quando_procurar_medico": "Procure médico se: glicemia acima de 200 mg/dL persistente, glicemia acima de 300 mg/dL é emergência — vá ao pronto-socorro, sintomas de hipoglicemia (tremor, suor frio, confusão mental), vômitos que impeçam tomar o medicamento, febre alta em diabético (agrava o controle glicêmico) ou piora progressiva dos valores mesmo seguindo o tratamento."
   },
   {
     "nome": "Saxenda (Liraglutida) 6mg/mL",
@@ -23860,7 +23860,7 @@
     ],
     "descricao_seo": "Saxenda (Liraglutida) 6mg/mL é um medicamento usado para: indicada para o controle do peso em adultos com obesidade (IMC ≥ 30) ou com sobrepeso (IMC ≥ 27) que tenham pelo menos uma condição relacionada ao peso, como diabetes tipo 2, pressão alta ou colesterol alto. Os efeitos colaterais mais relatados são: náusea, vômito, diarreia e dor abdominal são muito comuns, especialmente no início — tendem a melhorar com o tempo. Pode causar constipação, tontura e dor de cabeça. Importante: Contraindicado em pacientes com histórico pessoal ou familiar de câncer medular de tireoide ou síndrome MEN2. Pode causar pancreatite aguda — procure atendimento imediato se tiver dor intensa no abdômen irradiando para. Saxenda (Liraglutida) 6mg/mL é vendido somente com receita médica — nunca use sem orientação de um profissional de saúde.",
     "alerta_farmaceutico": "Erro comum no balcão: paciente armazena agonista GLP-1 em temperatura ambiente — devem ser refrigerados (2°C–8°C) antes do uso. Após aberto, o prazo e temperatura variam por produto; conferir sempre a bula específica.",
-    "quando_procurar_medico": "Procure médico se: náuseas e vômitos intensos que impeçam alimentação, dor abdominal forte e persistente irradiando para as costas (sinal de pancreatite), batimentos acelerados ou nódulo/massa no pescoço."
+    "quando_procurar_medico": "Procure médico se: glicemia acima de 200 mg/dL persistente, glicemia acima de 300 mg/dL é emergência — vá ao pronto-socorro, sintomas de hipoglicemia (tremor, suor frio, confusão mental), vômitos que impeçam tomar o medicamento, febre alta em diabético (agrava o controle glicêmico) ou piora progressiva dos valores mesmo seguindo o tratamento."
   },
   {
     "nome": "Secnidazol 1g - 2g - Suspensão",
@@ -24063,7 +24063,7 @@
     ],
     "descricao_seo": "Semaglutida 0,25mg - 0,5mg - 1mg - 2,4mg (Ozempic / Wegovy / Poviztra / Extensior) é um medicamento usado para: indicada para o tratamento do diabetes tipo 2 e, em doses mais altas (Wegovy), para o controle do peso em adultos com obesidade. Os efeitos colaterais mais relatados são: náusea, vômito, diarreia e dor abdominal são muito comuns, especialmente no início. Costumam diminuir com o tempo. Importante: Contraindicado em pacientes com histórico pessoal ou familiar de câncer medular de tireoide ou síndrome MEN2. Pode causar pancreatite aguda — procure atendimento imediato se tiver dor intensa no abdômen. Semaglutida 0,25mg - 0,5mg - 1mg - 2,4mg (Ozempic / Wegovy / Poviztra / Extensior) é vendido somente com receita médica — nunca use sem orientação de um profissional de saúde.",
     "alerta_farmaceutico": "Erro comum no balcão: paciente armazena agonista GLP-1 em temperatura ambiente — devem ser refrigerados (2°C–8°C) antes do uso. Após aberto, o prazo e temperatura variam por produto; conferir sempre a bula específica.",
-    "quando_procurar_medico": "Procure médico se: náuseas e vômitos intensos que impeçam alimentação, dor abdominal forte e persistente irradiando para as costas (sinal de pancreatite), batimentos acelerados ou nódulo/massa no pescoço."
+    "quando_procurar_medico": "Procure médico se: glicemia acima de 200 mg/dL persistente, glicemia acima de 300 mg/dL é emergência — vá ao pronto-socorro, sintomas de hipoglicemia (tremor, suor frio, confusão mental), vômitos que impeçam tomar o medicamento, febre alta em diabético (agrava o controle glicêmico) ou piora progressiva dos valores mesmo seguindo o tratamento."
   },
   {
     "nome": "Sertralina 25mg - 50mg - 75mg - 100mg",
@@ -24537,7 +24537,7 @@
     ],
     "descricao_seo": "Sitagliptina 100mg (Januvia) é um medicamento usado para: antidiabético oral indicado para diabetes tipo 2, usado isoladamente ou em combinação com metformina. Age inibindo a enzima DPP-4, aumentando os hormônios incretinas que estimulam a produção de insulina apenas quando a glicemia está alta — por isso. Os efeitos colaterais mais relatados são: geralmente bem tolerada. Infecção de vias aéreas superiores, dor de cabeça e diarreia são os mais comuns. Risco raro de pancreatite e dor articular intensa. Importante: Risco de pancreatite — procure atendimento imediato se tiver dor abdominal intensa. Dor articular grave relatada em alguns pacientes. Ajuste de dose necessário em insuficiência renal. Sitagliptina 100mg (Januvia) é vendido somente com receita médica — nunca use sem orientação de um profissional de saúde.",
     "alerta_farmaceutico": "Erro comum no balcão: substituir um antidiabético por outro \"equivalente\" sem orientação médica — cada classe tem mecanismo, posologia e riscos diferentes. A troca pode causar hipo ou hiperglicemia grave.",
-    "quando_procurar_medico": "Procure médico se: glicemia acima de 300 mg/dL, sintomas de hipoglicemia (tremor, suor, confusão), vômitos que impeçam tomar o medicamento, febre alta em diabético (agrava o controle glicêmico) ou piora progressiva dos valores."
+    "quando_procurar_medico": "Procure médico se: glicemia acima de 200 mg/dL persistente, glicemia acima de 300 mg/dL é emergência — vá ao pronto-socorro, sintomas de hipoglicemia (tremor, suor frio, confusão mental), vômitos que impeçam tomar o medicamento, febre alta em diabético (agrava o controle glicêmico) ou piora progressiva dos valores mesmo seguindo o tratamento."
   },
   {
     "nome": "Solifenacina 5mg - 10mg",
@@ -27094,7 +27094,7 @@
     "retencao_receita": false,
     "descricao_seo": "Vildagliptina + Metformina (Galvus Met) é um medicamento usado para: associação de vildagliptina com metformina, indicada para diabetes tipo 2. Combina dois mecanismos complementares de controle da glicemia. Comercialmente conhecido como Galvus Met. Os efeitos colaterais mais relatados são: náusea, diarreia, dor abdominal (metformina), tontura, cefaleia. Geralmente bem tolerado. Importante: Contraindicado em insuficiência renal e hepática. Monitorar função hepática. Suspender antes de cirurgias e contraste. Vildagliptina + Metformina (Galvus Met) é vendido somente com receita médica — nunca use sem orientação de um profissional de saúde.",
     "alerta_farmaceutico": "Erro comum no balcão: dispensar metformina de liberação imediata quando o médico prescreveu XR (liberação prolongada) — as formulações não são intercambiáveis em posologia; a XR tem menos efeitos gastrointestinais e é tomada uma vez ao dia.",
-    "quando_procurar_medico": "Procure médico se: náuseas ou vômitos intensos que impeçam alimentação, dor abdominal súbita, fraqueza extrema ou confusão mental (sinais de acidose láctica — rara, mas grave) ou glicemia acima de 300 mg/dL."
+    "quando_procurar_medico": "Procure médico se: glicemia acima de 200 mg/dL persistente, glicemia acima de 300 mg/dL é emergência — vá ao pronto-socorro, sintomas de hipoglicemia (tremor, suor frio, confusão mental), vômitos que impeçam tomar o medicamento, febre alta em diabético (agrava o controle glicêmico) ou piora progressiva dos valores mesmo seguindo o tratamento."
   },
   {
     "nome": "Vildagliptina 50mg (Galvus)",
@@ -27169,7 +27169,7 @@
     ],
     "descricao_seo": "Vildagliptina 50mg (Galvus) é um medicamento usado para: antidiabético oral da classe dos inibidores da DPP-4, indicado para diabetes tipo 2. Age inibindo a enzima DPP-4, aumentando os níveis de incretinas ativas e estimulando a secreção de insulina. Comercialmente conhecido como Galvus. Os efeitos colaterais mais relatados são: tontura, cefaleia, nasofaringite, edema periférico. Raramente hepatotoxicidade — monitorar enzimas hepáticas. Importante: Monitorar função hepática — casos raros de hepatite relatados. Não usar em insuficiência hepática. Ajuste de dose em insuficiência renal. Vildagliptina 50mg (Galvus) é vendido somente com receita médica — nunca use sem orientação de um profissional de saúde.",
     "alerta_farmaceutico": "Erro comum no balcão: substituir um antidiabético por outro \"equivalente\" sem orientação médica — cada classe tem mecanismo, posologia e riscos diferentes. A troca pode causar hipo ou hiperglicemia grave.",
-    "quando_procurar_medico": "Procure médico se: glicemia acima de 300 mg/dL, sintomas de hipoglicemia (tremor, suor, confusão), vômitos que impeçam tomar o medicamento, febre alta em diabético (agrava o controle glicêmico) ou piora progressiva dos valores."
+    "quando_procurar_medico": "Procure médico se: glicemia acima de 200 mg/dL persistente, glicemia acima de 300 mg/dL é emergência — vá ao pronto-socorro, sintomas de hipoglicemia (tremor, suor frio, confusão mental), vômitos que impeçam tomar o medicamento, febre alta em diabético (agrava o controle glicêmico) ou piora progressiva dos valores mesmo seguindo o tratamento."
   },
   {
     "nome": "Vitamina B1 (Tiamina) 100mg - 300mg",
