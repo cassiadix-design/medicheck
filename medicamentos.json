@@ -1304,7 +1304,7 @@
     "receita": "Sim",
     "receita_display": "🔴 Receita Simples",
     "receita_cor": "vermelho",
-    "receita_descricao": "Exige prescrição médica. Contém pseudoefedrina — substância sujeita a rastreamento especial pela Anvisa (Portaria SVS/MS 344/98 atualizada). A receita não é retida na farmácia.",
+    "receita_descricao": "Exige prescrição médica simples. Não é medicamento controlado. A receita não é retida na farmácia.",
     "receita_nota": "1 comprimido de liberação prolongada, 2x ao dia (manhã e tarde). Não partir, mastigar ou triturar. Tomar com água — evitar sucos cítricos.",
     "efeitos": "Insônia, nervosismo, taquicardia, palpitações, aumento da pressão arterial, boca seca — principalmente relacionados à pseudoefedrina.",
     "aviso_grave": "Contraindicado em hipertensão não controlada, doenças cardíacas, hipertireoidismo, glaucoma de ângulo fechado, uso de IMAO (14 dias de intervalo) e crianças menores de 12 anos. Não usar por mais de 7 dias seguidos.",
@@ -1350,7 +1350,7 @@
         "resposta": "Pode ser tomado com ou sem alimentos. Evitar sucos cítricos (laranja, maçã, grapefruit) — reduzem a absorção da fexofenadina."
       }
     ],
-    "alerta_farmaceutico": "Erro comum no balcão: dispensar Allegra D sem receita por confundir com o Allegra comum (venda livre) — o Allegra D contém pseudoefedrina e exige prescrição. Verificar sempre se o produto solicitado é o simples ou o D antes de dispensar.",
+    "alerta_farmaceutico": "Erro comum no balcão: dispensar Allegra D sem receita por confundir com o Allegra comum (venda livre) — o Allegra D contém pseudoefedrina e exige prescrição médica simples. Verificar sempre se o produto solicitado é o Allegra simples ou o Allegra D antes de dispensar.",
     "quando_procurar_medico": "Procure médico se: pressão arterial subir significativamente após o uso, surgir palpitações intensas ou dor no peito, insônia grave que interfira nas atividades, ou sintomas nasais não melhorarem em 7 dias.",
     "descricao_seo": "Allegra D (Fexofenadina 60mg + Pseudoefedrina 120mg) é indicado para rinite alérgica com congestão nasal. Exige receita médica. Contém pseudoefedrina — contraindicado em hipertensão não controlada."
   },
@@ -29150,10 +29150,10 @@
       "tropinal comprimido"
     ],
     "descricao": "Antiespasmódico anticolinérgico de ação periférica — mesma substância ativa do Buscopan simples. Relaxa a musculatura lisa do trato gastrointestinal, urinário e biliar. Indicado para cólicas abdominais, espasmos gastrointestinais e biliares e dismenorreia.",
-    "receita": "Não",
-    "receita_display": "🟢 Venda Livre — MIP",
-    "receita_cor": "verde",
-    "receita_descricao": "Venda livre — MIP (Medicamento Isento de Prescrição). Pode ser adquirido sem receita médica.",
+    "receita": "Sim",
+    "receita_display": "🔴 Receita Simples",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos.",
     "receita_nota": "Adultos: 1–2 comprimidos, 3–5 vezes ao dia. Crianças acima de 6 anos: 1 comprimido, 3 vezes ao dia.",
     "efeitos": "Boca seca, visão turva, taquicardia leve, retenção urinária — efeitos anticolinérgicos periféricos, geralmente leves com o uso oral.",
     "aviso_grave": "Contraindicado em glaucoma de ângulo fechado, hiperplasia prostática com retenção urinária e miastenia grave. Em crianças menores de 6 anos, usar apenas sob orientação médica.",
@@ -29166,8 +29166,8 @@
       "Não usar em glaucoma de ângulo fechado",
       "Cólica recorrente requer investigação médica"
     ],
-    "receita_obrigatoria": false,
-    "tipo_receita": "MIP",
+    "receita_obrigatoria": true,
+    "tipo_receita": "simples",
     "retencao_receita": false,
     "perguntas_frequentes": [
       {
