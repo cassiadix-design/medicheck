@@ -1,21 +1,21 @@
 // MediCheck Service Worker
-const CACHE_NAME = 'medicheck-v1';
+const CACHE_NAME = 'medicheck-v2';
 const STATIC_ASSETS = [
-  '/',
   '/index.html',
   '/manifest.json',
-  '/medicamentos/',
   '/medicamentos/index.html',
   '/icons/icon-192.png',
   '/icons/icon-512.png',
   '/favicon.png'
 ];
-const DATA_CACHE = 'medicheck-data-v1';
+const DATA_CACHE = 'medicheck-data-v2';
 
-// Instala e faz cache dos arquivos estáticos
+// Instala e faz cache dos arquivos estáticos (resiliente: falha individual não cancela install)
 self.addEventListener('install', event => {
   event.waitUntil(
-    caches.open(CACHE_NAME).then(cache => cache.addAll(STATIC_ASSETS))
+    caches.open(CACHE_NAME).then(cache =>
+      Promise.allSettled(STATIC_ASSETS.map(url => cache.add(url)))
+    )
   );
   self.skipWaiting();
 });
