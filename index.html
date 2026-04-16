@@ -443,6 +443,56 @@ border-radius:0 0 20px 20px;
             line-height: 1.8;
         }
 
+        .alerta-farmaceutico {
+            background: #fffbe6;
+            border-left: 6px solid #f5a623;
+            border-radius: 10px;
+            padding: 16px 18px;
+            margin-top: 18px;
+            margin-bottom: 6px;
+        }
+        .alerta-farmaceutico-titulo {
+            font-size: 13px;
+            font-weight: 700;
+            color: #b36a00;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 6px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+        .alerta-farmaceutico-texto {
+            font-size: 14px;
+            color: #5a3e00;
+            line-height: 1.7;
+        }
+
+        .quando-procurar-medico {
+            background: #e8f4fd;
+            border-left: 6px solid #2196F3;
+            border-radius: 10px;
+            padding: 16px 18px;
+            margin-top: 10px;
+            margin-bottom: 18px;
+        }
+        .quando-procurar-medico-titulo {
+            font-size: 13px;
+            font-weight: 700;
+            color: #0d5c99;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 6px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+        .quando-procurar-medico-texto {
+            font-size: 14px;
+            color: #0a3d66;
+            line-height: 1.7;
+        }
+
         .resposta-rapida {
             background: linear-gradient(135deg, #e8f4fd, #d0e8f8);
             border: 2px solid #2196F3;
@@ -3111,6 +3161,18 @@ window.addEventListener('DOMContentLoaded', () => {
                         </div>
                         <div class="faq-resposta">${faq.resposta}</div>
                     </div>`).join('')}
+                </div>` : ''}
+
+                ${medicine.alerta_farmaceutico ? `
+                <div class="alerta-farmaceutico">
+                    <div class="alerta-farmaceutico-titulo">⚠️ Alerta Farmacêutico</div>
+                    <div class="alerta-farmaceutico-texto">${medicine.alerta_farmaceutico}</div>
+                </div>` : ''}
+
+                ${medicine.quando_procurar_medico ? `
+                <div class="quando-procurar-medico">
+                    <div class="quando-procurar-medico-titulo">🏥 Quando Procurar Médico</div>
+                    <div class="quando-procurar-medico-texto">${medicine.quando_procurar_medico}</div>
                 </div>` : ''}
 
                 <div class="danger">
