@@ -14,7 +14,18 @@
       "Bash(python -c \"import json,sys; data=json.load\\(sys.stdin\\); print\\(f'Total de itens: {len\\(data\\)}'\\)\")",
       "Bash(python -c \"import json; data=json.load\\(open\\('medicamentos.json','r',encoding='utf-8'\\)\\); print\\(f'medicamentos.json: {len\\(data\\)} itens'\\)\")",
       "Bash(python -c \"import json; data=json.load\\(open\\('public/medicamentos.json','r',encoding='utf-8'\\)\\); print\\(f'public/medicamentos.json: {len\\(data\\)} itens'\\)\")",
-      "Bash(ls *.json *.html)"
+      "Bash(ls *.json *.html)",
+      "Bash(ls /c/Users/Usuario/Desktop/Medicheck/medicamentos/)",
+      "Read(//tmp/**)",
+      "Bash([ -d \"/c/Users/Usuario/Desktop/Medicheck/$dir\" ])",
+      "Bash(git -C /c/Users/Usuario/Desktop/Medicheck log --oneline --diff-filter=D --name-only -10 -- 'medicamentos/*')",
+      "Bash(git -C /c/Users/Usuario/Desktop/Medicheck log --oneline --diff-filter=D --name-only -20)",
+      "Bash(grep -E '\\\\.\\(html|htm\\)$' ls /c/Users/Usuario/Desktop/Medicheck/sobre/ ls /c/Users/Usuario/Desktop/Medicheck/contato/)",
+      "Bash(git -C /c/Users/Usuario/Desktop/Medicheck log --oneline -5)",
+      "Bash(git -C /c/Users/Usuario/Desktop/Medicheck log --oneline --all --diff-filter=D --name-only -20)",
+      "Bash(grep -v 'medicheck.med.br/$')",
+      "Bash(ls \"C:/Users/Usuario/Desktop/medicheck/index.html\"*)",
+      "WebFetch(domain:medicheck.med.br)"
     ]
   }
 }
