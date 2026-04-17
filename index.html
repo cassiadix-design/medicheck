@@ -18,6 +18,29 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
     <meta name="apple-mobile-web-app-title" content="MediCheck">
     <link rel="apple-touch-icon" href="/icons/icon-192.png">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "MediCheck",
+      "url": "https://medicheck.med.br",
+      "description": "Consulte informações completas sobre medicamentos: para que serve, efeitos colaterais, receita e interações. Revisado por farmacêutica responsável CRF-SP 33.109.",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://medicheck.med.br/?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "MediCheck",
+        "url": "https://medicheck.med.br",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://medicheck.med.br/icons/icon-192.png"
+        }
+      }
+    }
+    </script>
     <style>
 .faq-lista {
     margin-top: 8px;
@@ -3181,11 +3204,75 @@ window.addEventListener('DOMContentLoaded', () => {
             `;
             medicineModal.classList.add('active');
             document.body.style.overflow = 'hidden';
+
+            // SEO dinâmico por medicamento
+            const seoDesc = medicine.descricao_seo || medicine.descricao || '';
+            const seoDescTrunc = seoDesc.length > 140 ? seoDesc.substring(0, 137) + '...' : seoDesc;
+            const medSlug = slugify(medicine.nome);
+
+            document.title = `${medicine.nome} - Para que serve, efeitos e receita | MediCheck`;
+
+            let metaDesc = document.querySelector('meta[name="description"]');
+            if (!metaDesc) { metaDesc = document.createElement('meta'); metaDesc.name = 'description'; document.head.appendChild(metaDesc); }
+            metaDesc.setAttribute('content', `${seoDescTrunc} — Informações revisadas por farmacêutica CRF-SP 33.109.`);
+
+            let metaOgTitle = document.querySelector('meta[property="og:title"]');
+            if (metaOgTitle) metaOgTitle.setAttribute('content', `${medicine.nome} - Para que serve, efeitos e receita | MediCheck`);
+            let metaOgDesc = document.querySelector('meta[property="og:description"]');
+            if (metaOgDesc) metaOgDesc.setAttribute('content', `${seoDescTrunc} — Informações revisadas por farmacêutica CRF-SP 33.109.`);
+
+            let canonical = document.querySelector('link[rel="canonical"]');
+            if (canonical) canonical.setAttribute('href', `https://medicheck.med.br/medicamentos/${medSlug}/`);
+
+            // JSON-LD MedicalWebPage
+            let jsonLd = document.getElementById('jsonld-med');
+            if (!jsonLd) { jsonLd = document.createElement('script'); jsonLd.type = 'application/ld+json'; jsonLd.id = 'jsonld-med'; document.head.appendChild(jsonLd); }
+            const faqSchema = (medicine.perguntas_frequentes && medicine.perguntas_frequentes.length > 0)
+                ? medicine.perguntas_frequentes.map(f => ({ '@type': 'Question', name: f.pergunta, acceptedAnswer: { '@type': 'Answer', text: f.resposta } }))
+                : [];
+            const schema = {
+                '@context': 'https://schema.org',
+                '@type': 'MedicalWebPage',
+                'name': `${medicine.nome} - Para que serve, efeitos e receita`,
+                'description': seoDescTrunc,
+                'url': `https://medicheck.med.br/medicamentos/${medSlug}/`,
+                'about': {
+                    '@type': 'Drug',
+                    'name': medicine.nome,
+                    'alternateName': medicine.generico || undefined,
+                    'description': seoDesc,
+                    'prescriptionStatus': medicine.receita === 'Não' ? 'OTC' : 'PrescriptionOnly'
+                },
+                'reviewedBy': {
+                    '@type': 'Person',
+                    'name': 'Rita de Cássia Oliveira Soares da Silva',
+                    'credential': 'CRF-SP 33.109',
+                    'jobTitle': 'Farmacêutica Responsável'
+                },
+                'publisher': { '@type': 'Organization', 'name': 'MediCheck', 'url': 'https://medicheck.med.br' }
+            };
+            if (faqSchema.length > 0) {
+                schema['mainEntity'] = { '@type': 'FAQPage', 'mainEntity': faqSchema };
+            }
+            jsonLd.textContent = JSON.stringify(schema);
         }
 
         function closeMedicineModal() {
             medicineModal.classList.remove('active');
             document.body.style.overflow = 'auto';
+
+            // Restaurar SEO padrão do site
+            document.title = 'MediCheck - Consulta de Medicamentos | medicheck.med.br';
+            const metaDesc = document.querySelector('meta[name="description"]');
+            if (metaDesc) metaDesc.setAttribute('content', 'MediCheck — Consulte informações completas sobre medicamentos: para que serve, efeitos colaterais, receita e interações. Conteúdo revisado por farmacêutica responsável CRF-SP 33.109.');
+            const metaOgTitle = document.querySelector('meta[property="og:title"]');
+            if (metaOgTitle) metaOgTitle.setAttribute('content', 'MediCheck - Seu Medicamento Explicado');
+            const metaOgDesc = document.querySelector('meta[property="og:description"]');
+            if (metaOgDesc) metaOgDesc.setAttribute('content', 'Consulte informações completas sobre medicamentos de forma clara e segura. Revisado por farmacêutica responsável.');
+            const canonical = document.querySelector('link[rel="canonical"]');
+            if (canonical) canonical.setAttribute('href', 'https://medicheck.med.br/');
+            const jsonLd = document.getElementById('jsonld-med');
+            if (jsonLd) jsonLd.remove();
         }
 
         function closeAboutModal() {
