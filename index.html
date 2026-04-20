@@ -223,17 +223,36 @@ border-radius:0 0 20px 20px;
             transform: translateY(-2px);
         }
 
-        /* Botão Entrar no nav */
-        .nav-btn-entrar {
-            border-color: #764ba2 !important;
-            color: #764ba2 !important;
-            background: white !important;
+        /* Barra de ação acima dos tabs */
+        .mc-topbar {
+            display: flex;
+            justify-content: flex-end;
+            gap: 10px;
+            margin-bottom: 14px;
         }
-        .nav-btn-entrar:hover, .nav-btn-entrar.active {
-            background: linear-gradient(135deg, #667eea, #764ba2) !important;
-            color: white !important;
-            border-color: transparent !important;
+        .mc-topbar-btn {
+            padding: 9px 18px;
+            border-radius: 8px;
+            border: none;
+            font-size: 14px;
+            font-weight: 700;
+            font-family: inherit;
+            cursor: pointer;
+            transition: 0.2s;
+            white-space: nowrap;
         }
+        .mc-topbar-premium {
+            background: linear-gradient(135deg, #f39c12, #e67e22);
+            color: white;
+            box-shadow: 0 2px 8px rgba(243,156,18,0.35);
+        }
+        .mc-topbar-premium:hover { opacity: 0.9; transform: translateY(-1px); }
+        .mc-topbar-entrar {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            box-shadow: 0 2px 8px rgba(102,126,234,0.35);
+        }
+        .mc-topbar-entrar:hover { opacity: 0.9; transform: translateY(-1px); }
 
         /* Nav scrollável */
         .nav-scroll-wrap {
@@ -1717,6 +1736,12 @@ border-radius:0 0 20px 20px;
 </div>
 
         <div class="content">
+            <!-- Barra de ação: sempre visível acima dos tabs -->
+            <div class="mc-topbar">
+                <button class="mc-topbar-btn mc-topbar-premium" data-tab="premium" onclick="document.querySelector('[data-tab=premium]').click()">⭐ Premium</button>
+                <button class="mc-topbar-btn mc-topbar-entrar" id="nav-btn-entrar" onclick="mcNavEntrarClick()">🔑 Entrar</button>
+            </div>
+
             <div class="nav-scroll-wrap">
                 <div class="nav-buttons">
                     <button class="nav-btn active" data-tab="home">🏠 Home</button>
@@ -1731,8 +1756,6 @@ border-radius:0 0 20px 20px;
                     <button class="nav-btn" data-tab="privacidade">🔒 Privacidade</button>
                     <button class="nav-btn" data-tab="termos">📋 Termos</button>
                     <button class="nav-btn" data-tab="contato">📧 Contato</button>
-                    <button class="nav-btn nav-btn-premium" data-tab="premium">⭐ Premium</button>
-                    <button class="nav-btn nav-btn-entrar" id="nav-btn-entrar" onclick="mcNavEntrarClick()">🔑 Entrar</button>
                 </div>
             </div>
 
