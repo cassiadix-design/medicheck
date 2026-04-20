@@ -223,29 +223,19 @@ border-radius:0 0 20px 20px;
             transform: translateY(-2px);
         }
 
-        /* Botão flutuante Premium (mobile) */
-        .mc-fab-premium {
-            display: none;
-            position: fixed;
-            bottom: 24px;
-            right: 18px;
-            z-index: 999;
-            background: linear-gradient(135deg, #f39c12, #e67e22);
-            color: white;
-            border: none;
-            border-radius: 28px;
-            padding: 13px 20px;
-            font-size: 14px;
-            font-weight: 800;
-            font-family: inherit;
-            cursor: pointer;
-            box-shadow: 0 4px 18px rgba(243,156,18,0.5);
-            transition: 0.2s;
-            white-space: nowrap;
+        /* Botão Entrar no nav */
+        .nav-btn-entrar {
+            border-color: #764ba2 !important;
+            color: #764ba2 !important;
+            background: white !important;
         }
-        .mc-fab-premium:hover { transform: scale(1.05); opacity: 0.95; }
+        .nav-btn-entrar:hover, .nav-btn-entrar.active {
+            background: linear-gradient(135deg, #667eea, #764ba2) !important;
+            color: white !important;
+            border-color: transparent !important;
+        }
 
-        /* Indicador de scroll no nav */
+        /* Nav scrollável */
         .nav-scroll-wrap {
             position: relative;
             margin-bottom: 30px;
@@ -255,10 +245,9 @@ border-radius:0 0 20px 20px;
             display: none;
             position: absolute;
             top: 0; right: 0; bottom: 0;
-            width: 40px;
-            background: linear-gradient(to right, transparent, rgba(255,255,255,0.95));
+            width: 48px;
+            background: linear-gradient(to right, transparent, rgba(255,255,255,0.97));
             pointer-events: none;
-            border-radius: 0 10px 10px 0;
         }
 
         @media (max-width: 700px) {
@@ -277,15 +266,10 @@ border-radius:0 0 20px 20px;
                 flex: 0 0 auto;
                 padding: 10px 14px;
                 font-size: 13px;
+                font-weight: 700;
                 white-space: nowrap;
                 border-width: 2px;
             }
-            /* Oculta Premium do nav scrollável no mobile — fica no FAB */
-            .nav-btn-premium { display: none; }
-            .mc-fab-premium { display: flex; align-items: center; gap: 7px; }
-            /* Login button no header menor no mobile */
-            .mc-auth-btn-entrar { font-size: 12px; padding: 7px 14px; }
-            #mc-auth-nome { font-size: 12px; }
         }
 
         .search-section {
@@ -1730,13 +1714,6 @@ border-radius:0 0 20px 20px;
         <div class="header">
     <h1>💊 MediCheck</h1>
     <p>Seu Medicamento Explicado</p>
-    <div class="mc-auth-bar">
-        <div id="mc-auth-logado" style="display:none;">
-            <span id="mc-auth-nome"></span>
-            <button class="mc-auth-btn-sair" onclick="mcLogout()">Sair</button>
-        </div>
-        <button id="mc-auth-btn-entrar" class="mc-auth-btn-entrar" onclick="mcAbrirModal()">🔑 Entrar / Criar conta</button>
-    </div>
 </div>
 
         <div class="content">
@@ -1754,13 +1731,10 @@ border-radius:0 0 20px 20px;
                     <button class="nav-btn" data-tab="privacidade">🔒 Privacidade</button>
                     <button class="nav-btn" data-tab="termos">📋 Termos</button>
                     <button class="nav-btn" data-tab="contato">📧 Contato</button>
-                    <button class="nav-btn nav-btn-premium" data-tab="premium">👑 Premium</button>
+                    <button class="nav-btn nav-btn-premium" data-tab="premium">⭐ Premium</button>
+                    <button class="nav-btn nav-btn-entrar" id="nav-btn-entrar" onclick="mcNavEntrarClick()">🔑 Entrar</button>
                 </div>
             </div>
-            <!-- Botão flutuante Premium (apenas mobile) -->
-            <button class="mc-fab-premium" onclick="document.querySelector('[data-tab=premium]').click()">
-                👑 Premium
-            </button>
 
             <div id="home" class="tab-content active">
                 <div class="search-section">
@@ -5131,21 +5105,6 @@ window.addEventListener('DOMContentLoaded', () => {
         return mcCurrentUser !== null;
     }
 
-    function mcAtualizarUIAuth() {
-        const btnEntrar = document.getElementById('mc-auth-btn-entrar');
-        const divLogado = document.getElementById('mc-auth-logado');
-        const nomeEl    = document.getElementById('mc-auth-nome');
-        if (mcCurrentUser) {
-            const nome = mcCurrentUser.displayName || mcCurrentUser.email.split('@')[0];
-            nomeEl.textContent = '👤 ' + nome;
-            divLogado.style.display = 'flex';
-            btnEntrar.style.display = 'none';
-        } else {
-            divLogado.style.display = 'none';
-            btnEntrar.style.display = 'inline-block';
-        }
-    }
-
     // Modal
     let mcModoAuth = 'login';
 
@@ -5322,19 +5281,24 @@ window.addEventListener('DOMContentLoaded', () => {
     // Atualiza UI premium quando auth state muda
     const _mcAtualizarUIAuthOriginal = typeof mcAtualizarUIAuth === 'function' ? mcAtualizarUIAuth : null;
     function mcAtualizarUIAuth() {
-        const btnEntrar = document.getElementById('mc-auth-btn-entrar');
-        const divLogado = document.getElementById('mc-auth-logado');
-        const nomeEl    = document.getElementById('mc-auth-nome');
-        if (mcCurrentUser) {
-            const nome = mcCurrentUser.displayName || mcCurrentUser.email.split('@')[0];
-            nomeEl.textContent = '👤 ' + nome;
-            divLogado.style.display = 'flex';
-            btnEntrar.style.display = 'none';
-        } else {
-            divLogado.style.display = 'none';
-            btnEntrar.style.display = 'inline-block';
+        const btnNav = document.getElementById('nav-btn-entrar');
+        if (btnNav) {
+            if (mcCurrentUser) {
+                const nome = mcCurrentUser.displayName || mcCurrentUser.email.split('@')[0];
+                btnNav.textContent = '👤 ' + nome.split(' ')[0];
+            } else {
+                btnNav.textContent = '🔑 Entrar';
+            }
         }
         mcAtualizarUIPremium();
+    }
+
+    function mcNavEntrarClick() {
+        if (mcCurrentUser) {
+            if (confirm('Sair da conta?')) mcLogout();
+        } else {
+            mcAbrirModal();
+        }
     }
 
     // Enter no campo de senha faz submit
