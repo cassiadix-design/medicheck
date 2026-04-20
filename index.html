@@ -125,6 +125,41 @@ border-radius:0 0 20px 20px;
             position: relative;
         }
 
+        /* === Firebase Auth UI === */
+        .mc-auth-bar { margin-top: 16px; display: flex; justify-content: center; align-items: center; gap: 10px; }
+        .mc-auth-btn-entrar { background: rgba(255,255,255,0.15); border: 1.5px solid rgba(255,255,255,0.6); color: white; padding: 8px 18px; border-radius: 20px; font-size: 13px; font-weight: 700; cursor: pointer; font-family: inherit; transition: 0.2s; }
+        .mc-auth-btn-entrar:hover { background: rgba(255,255,255,0.3); }
+        #mc-auth-logado { display: flex; align-items: center; gap: 10px; }
+        #mc-auth-nome { font-size: 13px; color: rgba(255,255,255,0.9); background: rgba(255,255,255,0.15); padding: 6px 14px; border-radius: 20px; }
+        .mc-auth-btn-sair { background: transparent; border: 1.5px solid rgba(255,255,255,0.5); color: rgba(255,255,255,0.8); padding: 6px 14px; border-radius: 20px; font-size: 12px; cursor: pointer; font-family: inherit; transition: 0.2s; }
+        .mc-auth-btn-sair:hover { background: rgba(255,255,255,0.15); }
+        /* Modal overlay */
+        .mc-modal-overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.55); z-index: 9999; display: none; align-items: center; justify-content: center; padding: 20px; }
+        .mc-modal-overlay.show { display: flex; }
+        .mc-modal { background: white; border-radius: 16px; padding: 32px 28px; width: 100%; max-width: 400px; box-shadow: 0 20px 60px rgba(0,0,0,0.25); position: relative; }
+        .mc-modal h2 { font-size: 22px; color: #222; margin-bottom: 6px; text-align: center; }
+        .mc-modal-sub { text-align: center; color: #777; font-size: 14px; margin-bottom: 24px; }
+        .mc-modal-toggle { display: flex; gap: 0; margin-bottom: 24px; border: 2px solid #667eea; border-radius: 8px; overflow: hidden; }
+        .mc-modal-toggle button { flex: 1; padding: 10px; border: none; background: white; color: #667eea; font-weight: 700; font-size: 14px; cursor: pointer; font-family: inherit; transition: 0.15s; }
+        .mc-modal-toggle button.active { background: #667eea; color: white; }
+        .mc-field { margin-bottom: 14px; }
+        .mc-field label { display: block; font-size: 13px; font-weight: 700; color: #444; margin-bottom: 5px; }
+        .mc-field input { width: 100%; padding: 12px 14px; border: 2px solid #ddd; border-radius: 8px; font-size: 15px; box-sizing: border-box; font-family: inherit; transition: 0.2s; }
+        .mc-field input:focus { outline: none; border-color: #667eea; box-shadow: 0 0 0 3px rgba(102,126,234,0.15); }
+        .mc-btn-auth { width: 100%; padding: 13px; background: linear-gradient(135deg, #667eea, #764ba2); color: white; border: none; border-radius: 8px; font-size: 15px; font-weight: 700; cursor: pointer; font-family: inherit; margin-top: 4px; transition: 0.2s; }
+        .mc-btn-auth:hover { opacity: 0.9; }
+        .mc-btn-auth:disabled { opacity: 0.6; cursor: not-allowed; }
+        .mc-divider { display: flex; align-items: center; gap: 12px; margin: 18px 0; color: #bbb; font-size: 13px; }
+        .mc-divider::before, .mc-divider::after { content: ''; flex: 1; height: 1px; background: #e0e0e0; }
+        .mc-btn-google { width: 100%; padding: 12px; background: white; border: 2px solid #ddd; border-radius: 8px; font-size: 14px; font-weight: 700; cursor: pointer; font-family: inherit; display: flex; align-items: center; justify-content: center; gap: 10px; transition: 0.2s; color: #333; }
+        .mc-btn-google:hover { border-color: #667eea; background: #f8f9ff; }
+        .mc-btn-google:disabled { opacity: 0.6; cursor: not-allowed; }
+        .mc-auth-erro { background: #fde8e8; border: 1px solid #e74c3c; border-radius: 8px; padding: 10px 14px; font-size: 13px; color: #c0392b; margin-top: 12px; display: none; }
+        .mc-auth-erro.show { display: block; }
+        .mc-modal-fechar { position: absolute; top: 14px; right: 16px; background: none; border: none; font-size: 22px; cursor: pointer; color: #aaa; line-height: 1; }
+        .mc-modal-fechar:hover { color: #555; }
+        .mc-premium-badge { background: linear-gradient(135deg, #667eea, #764ba2); color: white; border-radius: 8px; padding: 10px 14px; font-size: 13px; text-align: center; margin-bottom: 20px; }
+
         .header {
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             color: white;
@@ -1577,7 +1612,50 @@ border-radius:0 0 20px 20px;
             cursor: pointer; transition: 0.2s; font-family: inherit;
         }
         .sint-tag:hover { background: #e74c3c; color: white; }
+
+        /* === PREMIUM PAGE === */
+        .nav-btn-premium { border-color: #f39c12 !important; color: #f39c12 !important; }
+        .nav-btn-premium.active, .nav-btn-premium:hover { background: linear-gradient(135deg, #f39c12, #e67e22) !important; color: white !important; border-color: transparent !important; }
+        .premium-content { display: none; }
+        .premium-content.active { display: block; }
+        .premium-hero { background: linear-gradient(135deg, #667eea, #764ba2); color: white; border-radius: 16px; padding: 36px 28px; text-align: center; margin-bottom: 28px; }
+        .premium-hero h2 { font-size: 28px; font-weight: 800; margin-bottom: 8px; }
+        .premium-hero p { font-size: 16px; opacity: 0.9; line-height: 1.6; }
+        .premium-trial-badge { display: inline-block; background: #f39c12; color: white; font-weight: 800; font-size: 14px; padding: 6px 18px; border-radius: 20px; margin-top: 14px; letter-spacing: 0.5px; }
+        .premium-plans { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 28px; }
+        @media (max-width: 600px) { .premium-plans { grid-template-columns: 1fr; } }
+        .premium-card { border: 2px solid #ddd; border-radius: 16px; padding: 28px 22px; background: white; position: relative; transition: 0.2s; }
+        .premium-card:hover { box-shadow: 0 8px 30px rgba(102,126,234,0.15); transform: translateY(-2px); }
+        .premium-card.destaque { border-color: #667eea; box-shadow: 0 4px 20px rgba(102,126,234,0.2); }
+        .premium-card-badge { position: absolute; top: -12px; left: 50%; transform: translateX(-50%); background: #667eea; color: white; font-size: 11px; font-weight: 800; padding: 4px 16px; border-radius: 20px; white-space: nowrap; letter-spacing: 0.5px; }
+        .premium-card h3 { font-size: 18px; color: #333; margin-bottom: 6px; }
+        .premium-preco { margin: 14px 0 4px; }
+        .premium-preco-valor { font-size: 38px; font-weight: 800; color: #222; line-height: 1; }
+        .premium-preco-periodo { font-size: 14px; color: #888; margin-left: 4px; }
+        .premium-economia { font-size: 12px; color: #27ae60; font-weight: 700; margin-bottom: 16px; min-height: 18px; }
+        .premium-beneficios { list-style: none; padding: 0; margin: 0 0 20px; font-size: 14px; color: #444; }
+        .premium-beneficios li { padding: 5px 0; display: flex; align-items: flex-start; gap: 8px; line-height: 1.5; }
+        .premium-beneficios li::before { content: '✓'; color: #27ae60; font-weight: 800; flex-shrink: 0; }
+        .premium-btn-mp { width: 100%; padding: 14px; border: none; border-radius: 10px; font-size: 15px; font-weight: 800; cursor: pointer; font-family: inherit; transition: 0.2s; display: flex; align-items: center; justify-content: center; gap: 10px; text-decoration: none; }
+        .premium-btn-mp.mensal { background: linear-gradient(135deg, #009ee3, #0077cc); color: white; }
+        .premium-btn-mp.anual  { background: linear-gradient(135deg, #667eea, #764ba2); color: white; }
+        .premium-btn-mp:hover  { opacity: 0.9; transform: translateY(-1px); }
+        .premium-btn-mp:disabled { opacity: 0.5; cursor: not-allowed; transform: none; }
+        .premium-trial-info { text-align: center; font-size: 13px; color: #888; margin-bottom: 24px; line-height: 1.6; }
+        .premium-garantia { background: #f0fdf4; border: 1px solid #86efac; border-radius: 12px; padding: 16px 20px; text-align: center; font-size: 14px; color: #166534; margin-bottom: 24px; }
+        .premium-faq { margin-bottom: 24px; }
+        .premium-faq h3 { font-size: 16px; font-weight: 800; color: #333; margin-bottom: 12px; }
+        .premium-faq-item { border-bottom: 1px solid #f0f0f0; padding: 12px 0; }
+        .premium-faq-item strong { color: #444; font-size: 14px; display: block; margin-bottom: 4px; }
+        .premium-faq-item span { color: #666; font-size: 13px; line-height: 1.6; }
+        .premium-logado-hero { background: linear-gradient(135deg, #f39c12, #e67e22); color: white; border-radius: 16px; padding: 36px 28px; text-align: center; margin-bottom: 20px; }
+        .premium-logado-hero h2 { font-size: 26px; font-weight: 800; margin-bottom: 8px; }
+        .premium-login-aviso { background: #f8f4ff; border: 2px solid #c5b3f7; border-radius: 12px; padding: 20px; text-align: center; margin-bottom: 20px; }
+        .premium-login-aviso p { color: #4a3580; font-size: 15px; margin-bottom: 14px; }
     </style>
+    <!-- Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-auth-compat.js"></script>
 </head>
 
 <body>
@@ -1585,6 +1663,13 @@ border-radius:0 0 20px 20px;
         <div class="header">
     <h1>💊 MediCheck</h1>
     <p>Seu Medicamento Explicado</p>
+    <div class="mc-auth-bar">
+        <div id="mc-auth-logado" style="display:none;">
+            <span id="mc-auth-nome"></span>
+            <button class="mc-auth-btn-sair" onclick="mcLogout()">Sair</button>
+        </div>
+        <button id="mc-auth-btn-entrar" class="mc-auth-btn-entrar" onclick="mcAbrirModal()">🔑 Entrar / Criar conta</button>
+    </div>
 </div>
 
         <div class="content">
@@ -1601,6 +1686,7 @@ border-radius:0 0 20px 20px;
                 <button class="nav-btn" data-tab="privacidade">🔒 Privacidade</button>
                 <button class="nav-btn" data-tab="termos">📋 Termos</button>
                 <button class="nav-btn" data-tab="contato">📧 Contato</button>
+                <button class="nav-btn nav-btn-premium" data-tab="premium">👑 Premium</button>
             </div>
 
             <div id="home" class="tab-content active">
@@ -1928,6 +2014,16 @@ border-radius:0 0 20px 20px;
                 .mc-spinner { display: inline-block; width: 28px; height: 28px; border: 3px solid #ddd; border-top-color: #c0392b; border-radius: 50%; animation: mcSpin 0.8s linear infinite; }
                 @keyframes mcSpin { to { transform: rotate(360deg); } }
                 .mc-spinner-txt { font-size: 14px; color: #666; margin-top: 10px; }
+                .mc-contador-consultas { font-size: 12px; color: #999; text-align: right; margin-bottom: 10px; padding: 4px 8px; background: #fafafa; border-radius: 6px; border: 1px solid #eee; }
+                .mc-contador-consultas span { font-weight: 700; color: #667eea; }
+                .mc-premium-teaser { background: linear-gradient(135deg, #f8f4ff, #ede9ff); border: 1px solid #c5b3f7; border-radius: 10px; padding: 14px 16px; margin-top: 14px; font-size: 13px; color: #4a3580; line-height: 1.6; }
+                .mc-premium-teaser a { color: #6c4de6; font-weight: 700; text-decoration: none; border-bottom: 1px solid #c5b3f7; cursor: pointer; }
+                .mc-premium-teaser a:hover { color: #4a3580; }
+                .mc-limite-aviso { padding: 24px 20px; text-align: center; }
+                .mc-limite-aviso h3 { color: #e65100; font-size: 18px; margin-bottom: 10px; }
+                .mc-limite-aviso p { color: #555; font-size: 14px; line-height: 1.7; margin-bottom: 16px; }
+                .mc-limite-btn { display: inline-block; background: linear-gradient(135deg, #6c4de6, #4a3580); color: white; padding: 13px 28px; border-radius: 8px; font-weight: 700; text-decoration: none; font-size: 15px; cursor: pointer; border: none; font-family: inherit; }
+                .mc-limite-btn:hover { opacity: 0.9; }
                 </style>
 
                 <div class="mc-header">
@@ -1968,6 +2064,8 @@ border-radius:0 0 20px 20px;
                         <button class="mc-chip moderado" onclick="mcTestar('atorvastatina','claritromicina')">Estatina + Claritromicina</button>
                         <button class="mc-chip baixo" onclick="mcTestar('paracetamol','dipirona')">Paracetamol + Dipirona</button>
                     </div>
+
+                    <div id="mc-contador-consultas" class="mc-contador-consultas" style="display:none;"></div>
 
                     <div id="mc-resultado-ia" class="mc-resultado-ia">
                         <div id="mc-nivel-ia" class="mc-nivel-ia neutro"></div>
@@ -2158,10 +2256,66 @@ border-radius:0 0 20px 20px;
                     return null;
                 }
 
+                // === PREMIUM: controle de limite diário ===
+                const MC_LIMITE_DIARIO = 3;
+
+                function mcGetConsultasHoje() {
+                    const hoje = new Date().toISOString().slice(0, 10);
+                    try {
+                        const dados = JSON.parse(localStorage.getItem('mc_consultas') || '{}');
+                        return dados.data === hoje ? (dados.count || 0) : 0;
+                    } catch(e) { return 0; }
+                }
+
+                function mcRegistrarConsulta() {
+                    const hoje = new Date().toISOString().slice(0, 10);
+                    try {
+                        const count = mcGetConsultasHoje() + 1;
+                        localStorage.setItem('mc_consultas', JSON.stringify({ data: hoje, count }));
+                    } catch(e) {}
+                    mcAtualizarContador();
+                }
+
+                function mcUsuarioLogado() {
+                    return false; // Firebase integration — Fase 2
+                }
+
+                function mcAtualizarContador() {
+                    const el = document.getElementById('mc-contador-consultas');
+                    if (!el || mcUsuarioLogado()) { if (el) el.style.display = 'none'; return; }
+                    const usadas = mcGetConsultasHoje();
+                    const restantes = Math.max(0, MC_LIMITE_DIARIO - usadas);
+                    el.style.display = 'block';
+                    el.innerHTML = '🔓 <span>' + restantes + '</span> consulta' + (restantes !== 1 ? 's' : '') + ' gratuita' + (restantes !== 1 ? 's' : '') + ' restante' + (restantes !== 1 ? 's' : '') + ' hoje';
+                }
+
+                function mcPremiumTeaser() {
+                    return '<div class="mc-premium-teaser">🔍 <strong>Encontramos pontos de atenção adicionais para esta combinação.</strong> <a onclick="document.getElementById(\'mc-premium-section\') && document.getElementById(\'mc-premium-section\').scrollIntoView({behavior:\'smooth\'})">→ Ver análise completa no MediCheck Premium</a></div>';
+                }
+
+                function mcMostrarLimiteAtingido() {
+                    const resultado = document.getElementById('mc-resultado-ia');
+                    const nivel = document.getElementById('mc-nivel-ia');
+                    const corpo = document.getElementById('mc-corpo-ia');
+                    resultado.classList.add('show');
+                    nivel.className = 'mc-nivel-ia neutro';
+                    nivel.textContent = '🔒 Limite diário de consultas gratuitas atingido';
+                    corpo.innerHTML = '<div class="mc-limite-aviso"><h3>Você usou suas ' + MC_LIMITE_DIARIO + ' consultas gratuitas de hoje</h3><p>Assine o <strong>MediCheck Premium</strong> e tenha acesso ilimitado às verificações de interações, histórico completo e análises mais detalhadas.</p><button class="mc-limite-btn">✨ Conhecer o MediCheck Premium</button><p style="font-size:12px;color:#aaa;margin-top:14px;margin-bottom:0;">Suas consultas gratuitas renovam automaticamente amanhã às 0h.</p></div>';
+                }
+
+                // Inicializa o contador ao carregar
+                (function() { setTimeout(mcAtualizarContador, 100); })();
+
                 async function mcVerificar() {
                     const m1 = document.getElementById('mc-inter1').value.trim();
                     const m2 = document.getElementById('mc-inter2').value.trim();
                     if (!m1 || !m2) { alert('Por favor, preencha os dois medicamentos.'); return; }
+
+                    // Verificar limite diário (apenas usuários não logados)
+                    if (!mcUsuarioLogado() && mcGetConsultasHoje() >= MC_LIMITE_DIARIO) {
+                        mcMostrarLimiteAtingido();
+                        return;
+                    }
 
                     const resultado = document.getElementById('mc-resultado-ia');
                     const nivel = document.getElementById('mc-nivel-ia');
@@ -2175,7 +2329,8 @@ border-radius:0 0 20px 20px;
                         const textos = { alto: '🔴 RISCO ALTO', moderado: '🟡 RISCO MODERADO', baixo: '🟢 RISCO BAIXO' };
                         nivel.className = 'mc-nivel-ia ' + fixo.nivel;
                         nivel.textContent = textos[fixo.nivel] + ' — ' + fixo.titulo;
-                        corpo.innerHTML = '<p><strong>⚠️ Efeito da interação:</strong><br>' + fixo.efeito + '</p><p><strong>✅ Conduta recomendada:</strong><br>' + fixo.conduta + '</p><p style="font-size:11px;color:#999;margin-top:8px;">Base de dados fixa — Conteúdo educacional revisado por farmacêutica responsável.</p>';
+                        corpo.innerHTML = '<p><strong>⚠️ Efeito da interação:</strong><br>' + fixo.efeito + '</p><p><strong>✅ Conduta recomendada:</strong><br>' + fixo.conduta + '</p><p style="font-size:11px;color:#999;margin-top:8px;">Base de dados fixa — Conteúdo educacional revisado por farmacêutica responsável.</p>' + mcPremiumTeaser();
+                        mcRegistrarConsulta();
                         return;
                     }
 
@@ -2184,7 +2339,8 @@ border-radius:0 0 20px 20px;
                         const c = mcCacheIA[cacheKey];
                         nivel.className = 'mc-nivel-ia ' + c.nivel;
                         nivel.textContent = c.titulo;
-                        corpo.innerHTML = c.html + '<p style="font-size:11px;color:#999;margin-top:8px;">✦ Analisado por IA — <span style="background:#e8f0fe;padding:2px 8px;border-radius:10px;color:#667eea;font-weight:700;">CACHE</span> — Conteúdo educacional.</p>';
+                        corpo.innerHTML = c.html + '<p style="font-size:11px;color:#999;margin-top:8px;">✦ Analisado por IA — <span style="background:#e8f0fe;padding:2px 8px;border-radius:10px;color:#667eea;font-weight:700;">CACHE</span> — Conteúdo educacional.</p>' + mcPremiumTeaser();
+                        mcRegistrarConsulta();
                         return;
                     }
 
@@ -2218,8 +2374,9 @@ border-radius:0 0 20px 20px;
                         const tituloFinal = (icones[parsed.nivel] || icones.nenhum) + (parsed.titulo ? ' — ' + parsed.titulo : '');
                         nivel.className = 'mc-nivel-ia ' + cor;
                         nivel.textContent = tituloFinal;
-                        corpo.innerHTML = html + '<p style="font-size:11px;color:#999;margin-top:8px;">✦ Analisado por Inteligência Artificial — Conteúdo educacional. Consulte sempre seu farmacêutico.</p>';
+                        corpo.innerHTML = html + '<p style="font-size:11px;color:#999;margin-top:8px;">✦ Analisado por Inteligência Artificial — Conteúdo educacional. Consulte sempre seu farmacêutico.</p>' + mcPremiumTeaser();
                         mcCacheIA[cacheKey] = { nivel: cor, titulo: tituloFinal, html: html };
+                        mcRegistrarConsulta();
                     } catch(e) {
                         nivel.className = 'mc-nivel-ia neutro';
                         nivel.textContent = 'Erro na análise';
@@ -2925,6 +3082,110 @@ border-radius:0 0 20px 20px;
 
                 <div id="sintomasResultado"></div>
             </div>
+
+        <!-- PREMIUM PAGE -->
+        <div id="premium" class="premium-content">
+
+            <!-- Estado: usuário já é premium -->
+            <div id="premium-ativo" style="display:none;">
+                <div class="premium-logado-hero">
+                    <div style="font-size:48px;margin-bottom:12px;">👑</div>
+                    <h2>Você é Premium!</h2>
+                    <p style="opacity:0.9;font-size:15px;">Obrigado por apoiar o MediCheck.<br>Consultas ilimitadas ativas na sua conta.</p>
+                </div>
+            </div>
+
+            <!-- Estado: usuário não logado -->
+            <div id="premium-sem-login" style="display:none;">
+                <div class="premium-login-aviso">
+                    <p>🔑 <strong>Entre na sua conta</strong> antes de assinar para vincular o Premium ao seu perfil.</p>
+                    <button class="mc-btn-auth" style="width:auto;padding:10px 28px;" onclick="mcAbrirModal()">Entrar / Criar conta grátis</button>
+                </div>
+            </div>
+
+            <!-- Página de planos (sempre visível) -->
+            <div id="premium-planos">
+                <div class="premium-hero">
+                    <h2>👑 MediCheck Premium</h2>
+                    <p>Consultas ilimitadas, sem anúncios e com análises ainda mais detalhadas.<br>Cancele quando quiser.</p>
+                    <div class="premium-trial-badge">🎁 7 dias grátis — sem cobrar agora</div>
+                </div>
+
+                <div class="premium-plans">
+                    <!-- Plano Mensal -->
+                    <div class="premium-card">
+                        <h3>Mensal</h3>
+                        <div class="premium-preco">
+                            <span class="premium-preco-valor">R$9,90</span>
+                            <span class="premium-preco-periodo">/mês</span>
+                        </div>
+                        <div class="premium-economia">&nbsp;</div>
+                        <ul class="premium-beneficios">
+                            <li>Consultas ilimitadas por dia</li>
+                            <li>Verificador A+B sem restrições</li>
+                            <li>Sem anúncios</li>
+                            <li>Cancele a qualquer momento</li>
+                        </ul>
+                        <button class="premium-btn-mp mensal" id="btn-assinar-mensal" onclick="mcAssinar('mensal')">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="white"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/></svg>
+                            Assinar com Mercado Pago
+                        </button>
+                    </div>
+
+                    <!-- Plano Anual -->
+                    <div class="premium-card destaque">
+                        <div class="premium-card-badge">✨ MELHOR VALOR — 24% OFF</div>
+                        <h3>Anual</h3>
+                        <div class="premium-preco">
+                            <span class="premium-preco-valor">R$89,90</span>
+                            <span class="premium-preco-periodo">/ano</span>
+                        </div>
+                        <div class="premium-economia">Equivale a R$7,49/mês — você economiza R$28,90</div>
+                        <ul class="premium-beneficios">
+                            <li>Consultas ilimitadas por dia</li>
+                            <li>Verificador A+B sem restrições</li>
+                            <li>Sem anúncios</li>
+                            <li>Acesso a novos recursos primeiro</li>
+                            <li>Cancele a qualquer momento</li>
+                        </ul>
+                        <button class="premium-btn-mp anual" id="btn-assinar-anual" onclick="mcAssinar('anual')">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="white"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/></svg>
+                            Assinar com Mercado Pago
+                        </button>
+                    </div>
+                </div>
+
+                <p class="premium-trial-info">
+                    🎁 <strong>7 dias grátis</strong> — nenhum valor é cobrado durante o período trial.<br>
+                    Cancele antes do fim do trial e não paga nada. Cobrança via Mercado Pago, seguro e fácil.
+                </p>
+
+                <div class="premium-garantia">
+                    🛡️ <strong>Garantia de 7 dias.</strong> Não gostou? Cancele sem burocracia e sem cobranças.
+                </div>
+
+                <div class="premium-faq">
+                    <h3>Perguntas frequentes</h3>
+                    <div class="premium-faq-item">
+                        <strong>O trial é realmente grátis?</strong>
+                        <span>Sim. Nenhum valor é debitado nos primeiros 7 dias. Você pode cancelar antes do vencimento sem custo algum.</span>
+                    </div>
+                    <div class="premium-faq-item">
+                        <strong>Como cancelo?</strong>
+                        <span>Pelo próprio aplicativo do Mercado Pago, em "Assinaturas". Simples e sem burocracia.</span>
+                    </div>
+                    <div class="premium-faq-item">
+                        <strong>O que muda no plano gratuito?</strong>
+                        <span>O plano gratuito continua disponível com 3 verificações de interações por dia. O Premium remove esse limite e adiciona outros benefícios.</span>
+                    </div>
+                    <div class="premium-faq-item">
+                        <strong>É seguro pagar pelo Mercado Pago?</strong>
+                        <span>Sim. O Mercado Pago é a maior plataforma de pagamentos da América Latina, com criptografia e proteção ao comprador.</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
 
         </div>
 
@@ -4247,7 +4508,7 @@ window.addEventListener('DOMContentLoaded', () => {
                 btn.classList.add('active');
 
                 // Esconde tudo
-                ['home','vacinas','exames','idosos','interacoes','calculadora','curiosidades','privacidade','termos','contato','comparar','sintomas'].forEach(id => {
+                ['home','vacinas','exames','idosos','interacoes','calculadora','curiosidades','privacidade','termos','contato','comparar','sintomas','premium'].forEach(id => {
                     const el = document.getElementById(id);
                     if (el) el.classList.remove('active');
                 });
@@ -4722,6 +4983,297 @@ window.addEventListener('DOMContentLoaded', () => {
             pwaBanner.style.display = 'none';
             deferredPrompt = null;
         });
+    </script>
+
+    <!-- Modal de autenticação -->
+    <div class="mc-modal-overlay" id="mc-modal-overlay" onclick="mcFecharModalFora(event)">
+        <div class="mc-modal">
+            <button class="mc-modal-fechar" onclick="mcFecharModal()" title="Fechar">×</button>
+            <h2>💊 MediCheck</h2>
+            <p class="mc-modal-sub">Entre para ter consultas ilimitadas</p>
+
+            <div class="mc-premium-badge">
+                ✨ <strong>Premium grátis:</strong> Login libera consultas ilimitadas
+            </div>
+
+            <div class="mc-modal-toggle">
+                <button id="mc-toggle-login" class="active" onclick="mcAlternarModo('login')">Entrar</button>
+                <button id="mc-toggle-cadastro" onclick="mcAlternarModo('cadastro')">Criar conta</button>
+            </div>
+
+            <div class="mc-field">
+                <label for="mc-auth-email">E-mail</label>
+                <input type="email" id="mc-auth-email" placeholder="seu@email.com" autocomplete="email" />
+            </div>
+            <div class="mc-field">
+                <label for="mc-auth-senha">Senha</label>
+                <input type="password" id="mc-auth-senha" placeholder="Mínimo 6 caracteres" autocomplete="current-password" />
+            </div>
+
+            <button class="mc-btn-auth" id="mc-btn-auth-submit" onclick="mcSubmitAuth()">Entrar</button>
+
+            <div class="mc-divider">ou</div>
+
+            <button class="mc-btn-google" id="mc-btn-google" onclick="mcLoginGoogle()">
+                <svg width="18" height="18" viewBox="0 0 18 18"><path fill="#4285F4" d="M17.64 9.2c0-.637-.057-1.251-.164-1.84H9v3.481h4.844c-.209 1.125-.843 2.078-1.796 2.717v2.258h2.908c1.702-1.567 2.684-3.875 2.684-6.615z"/><path fill="#34A853" d="M9 18c2.43 0 4.467-.806 5.956-2.18l-2.908-2.259c-.806.54-1.837.86-3.048.86-2.344 0-4.328-1.584-5.036-3.711H.957v2.332C2.438 15.983 5.482 18 9 18z"/><path fill="#FBBC05" d="M3.964 10.71c-.18-.54-.282-1.117-.282-1.71s.102-1.17.282-1.71V4.958H.957C.347 6.173 0 7.548 0 9s.348 2.827.957 4.042l3.007-2.332z"/><path fill="#EA4335" d="M9 3.58c1.321 0 2.508.454 3.44 1.345l2.582-2.58C13.463.891 11.426 0 9 0 5.482 0 2.438 2.017.957 4.958L3.964 7.29C4.672 5.163 6.656 3.58 9 3.58z"/></svg>
+                Continuar com Google
+            </button>
+
+            <div class="mc-auth-erro" id="mc-auth-erro"></div>
+        </div>
+    </div>
+
+    <!-- Firebase Auth Logic -->
+    <script>
+    // =====================================================
+    // FIREBASE CONFIG — substitua pelos seus valores reais
+    // =====================================================
+    const firebaseConfig = {
+        apiKey:            "AIzaSyA4pxB4i304IDMrX1OIwyw4sfMC0TA4msE",
+        authDomain:        "medicheck-bdef6.firebaseapp.com",
+        projectId:         "medicheck-bdef6",
+        storageBucket:     "medicheck-bdef6.firebasestorage.app",
+        messagingSenderId: "433921738294",
+        appId:             "1:433921738294:web:fbbe98c71e8ace6d9ffa97",
+        measurementId:     "G-2GT8JE7LTC"
+    };
+    // =====================================================
+
+    // Estado de autenticação global
+    let mcCurrentUser = null;
+
+    // Inicializa Firebase (com proteção para placeholders)
+    const MC_FIREBASE_ATIVO = !firebaseConfig.apiKey.includes('COLE_');
+    if (MC_FIREBASE_ATIVO) {
+        firebase.initializeApp(firebaseConfig);
+        firebase.auth().onAuthStateChanged(function(user) {
+            mcCurrentUser = user;
+            mcAtualizarUIAuth();
+            mcAtualizarContador();
+        });
+    }
+
+    // Sobrescreve mcUsuarioLogado() definida no bloco do verificador
+    function mcUsuarioLogado() {
+        return mcCurrentUser !== null;
+    }
+
+    function mcAtualizarUIAuth() {
+        const btnEntrar = document.getElementById('mc-auth-btn-entrar');
+        const divLogado = document.getElementById('mc-auth-logado');
+        const nomeEl    = document.getElementById('mc-auth-nome');
+        if (mcCurrentUser) {
+            const nome = mcCurrentUser.displayName || mcCurrentUser.email.split('@')[0];
+            nomeEl.textContent = '👤 ' + nome;
+            divLogado.style.display = 'flex';
+            btnEntrar.style.display = 'none';
+        } else {
+            divLogado.style.display = 'none';
+            btnEntrar.style.display = 'inline-block';
+        }
+    }
+
+    // Modal
+    let mcModoAuth = 'login';
+
+    function mcAbrirModal() {
+        if (!MC_FIREBASE_ATIVO) {
+            alert('Firebase ainda não configurado. Siga o guia no código para adicionar suas credenciais.');
+            return;
+        }
+        document.getElementById('mc-modal-overlay').classList.add('show');
+        document.getElementById('mc-auth-email').focus();
+    }
+
+    function mcFecharModal() {
+        document.getElementById('mc-modal-overlay').classList.remove('show');
+        document.getElementById('mc-auth-erro').classList.remove('show');
+        document.getElementById('mc-auth-email').value = '';
+        document.getElementById('mc-auth-senha').value = '';
+    }
+
+    function mcFecharModalFora(e) {
+        if (e.target === document.getElementById('mc-modal-overlay')) mcFecharModal();
+    }
+
+    function mcAlternarModo(modo) {
+        mcModoAuth = modo;
+        document.getElementById('mc-toggle-login').classList.toggle('active', modo === 'login');
+        document.getElementById('mc-toggle-cadastro').classList.toggle('active', modo === 'cadastro');
+        document.getElementById('mc-btn-auth-submit').textContent = modo === 'login' ? 'Entrar' : 'Criar conta';
+        document.getElementById('mc-auth-erro').classList.remove('show');
+    }
+
+    function mcMostrarErroAuth(msg) {
+        const el = document.getElementById('mc-auth-erro');
+        el.textContent = msg;
+        el.classList.add('show');
+    }
+
+    async function mcSubmitAuth() {
+        const email = document.getElementById('mc-auth-email').value.trim();
+        const senha = document.getElementById('mc-auth-senha').value;
+        const btn   = document.getElementById('mc-btn-auth-submit');
+
+        if (!email || !senha) { mcMostrarErroAuth('Preencha e-mail e senha.'); return; }
+        if (senha.length < 6)  { mcMostrarErroAuth('A senha deve ter pelo menos 6 caracteres.'); return; }
+
+        btn.disabled = true;
+        btn.textContent = 'Aguarde...';
+        document.getElementById('mc-auth-erro').classList.remove('show');
+
+        try {
+            if (mcModoAuth === 'login') {
+                await firebase.auth().signInWithEmailAndPassword(email, senha);
+            } else {
+                await firebase.auth().createUserWithEmailAndPassword(email, senha);
+            }
+            mcFecharModal();
+        } catch(e) {
+            const erros = {
+                'auth/user-not-found':       'Nenhuma conta encontrada com este e-mail.',
+                'auth/wrong-password':        'Senha incorreta.',
+                'auth/email-already-in-use':  'Este e-mail já possui uma conta. Clique em "Entrar".',
+                'auth/invalid-email':         'E-mail inválido.',
+                'auth/too-many-requests':     'Muitas tentativas. Tente novamente em alguns minutos.',
+                'auth/network-request-failed':'Sem conexão. Verifique sua internet.',
+            };
+            mcMostrarErroAuth(erros[e.code] || 'Erro: ' + e.message);
+        } finally {
+            btn.disabled = false;
+            btn.textContent = mcModoAuth === 'login' ? 'Entrar' : 'Criar conta';
+        }
+    }
+
+    async function mcLoginGoogle() {
+        const btn = document.getElementById('mc-btn-google');
+        btn.disabled = true;
+        document.getElementById('mc-auth-erro').classList.remove('show');
+        try {
+            const provider = new firebase.auth.GoogleAuthProvider();
+            await firebase.auth().signInWithPopup(provider);
+            mcFecharModal();
+        } catch(e) {
+            if (e.code !== 'auth/popup-closed-by-user') {
+                mcMostrarErroAuth('Erro ao entrar com Google. Tente novamente.');
+            }
+        } finally {
+            btn.disabled = false;
+        }
+    }
+
+    async function mcLogout() {
+        await firebase.auth().signOut();
+    }
+
+    // =====================================================
+    // MERCADO PAGO — links de assinatura
+    // Crie os planos em: mercadopago.com.br/subscriptions
+    // (Plano com trial de 7 dias para cada preço)
+    // Cole os links de pagamento gerados abaixo:
+    // =====================================================
+    const MC_MP_LINKS = {
+        mensal: 'COLE_LINK_MERCADOPAGO_MENSAL_AQUI',   // ex: https://mpago.la/xxxxx
+        anual:  'COLE_LINK_MERCADOPAGO_ANUAL_AQUI'     // ex: https://mpago.la/yyyyy
+    };
+    // =====================================================
+
+    // Estado premium (armazenado no localStorage após ativação manual)
+    // Em produção: validar via webhook Firebase Function → Firestore
+    function mcIsPremium() {
+        try { return localStorage.getItem('mc_premium') === '1'; } catch(e) { return false; }
+    }
+
+    function mcAtivarPremium() {
+        try { localStorage.setItem('mc_premium', '1'); } catch(e) {}
+        mcAtualizarUIPremium();
+        mcAtualizarContador();
+    }
+
+    function mcAtualizarUIPremium() {
+        const premium  = mcIsPremium();
+        const logado   = mcUsuarioLogado();
+
+        const elAtivo    = document.getElementById('premium-ativo');
+        const elSemLogin = document.getElementById('premium-sem-login');
+        const elPlanos   = document.getElementById('premium-planos');
+
+        if (!elAtivo) return;
+
+        if (premium) {
+            elAtivo.style.display    = 'block';
+            elSemLogin.style.display = 'none';
+        } else if (!logado) {
+            elAtivo.style.display    = 'none';
+            elSemLogin.style.display = 'block';
+        } else {
+            elAtivo.style.display    = 'none';
+            elSemLogin.style.display = 'none';
+        }
+        // Planos sempre visíveis (exceto se já premium)
+        elPlanos.style.display = premium ? 'none' : 'block';
+    }
+
+    function mcAssinar(plano) {
+        if (!mcUsuarioLogado()) {
+            mcAbrirModal();
+            return;
+        }
+        const link = MC_MP_LINKS[plano];
+        if (link.includes('COLE_')) {
+            alert('Link do Mercado Pago ainda não configurado.\nSiga o guia no código para criar os planos.');
+            return;
+        }
+        // Abre checkout MP em nova aba
+        window.open(link, '_blank');
+    }
+
+    // Detecta retorno de pagamento bem-sucedido via URL (?mc_status=approved)
+    (function mcDetectarRetornoMP() {
+        const params = new URLSearchParams(window.location.search);
+        if (params.get('mc_status') === 'approved' || params.get('collection_status') === 'approved') {
+            mcAtivarPremium();
+            // Navegar para a aba Premium
+            setTimeout(() => {
+                const btnPremium = document.querySelector('[data-tab="premium"]');
+                if (btnPremium) btnPremium.click();
+            }, 500);
+            // Limpa o parâmetro da URL sem recarregar
+            const url = new URL(window.location);
+            url.searchParams.delete('mc_status');
+            url.searchParams.delete('collection_status');
+            window.history.replaceState({}, '', url);
+        }
+    })();
+
+    // Atualiza UI premium quando auth state muda
+    const _mcAtualizarUIAuthOriginal = typeof mcAtualizarUIAuth === 'function' ? mcAtualizarUIAuth : null;
+    function mcAtualizarUIAuth() {
+        const btnEntrar = document.getElementById('mc-auth-btn-entrar');
+        const divLogado = document.getElementById('mc-auth-logado');
+        const nomeEl    = document.getElementById('mc-auth-nome');
+        if (mcCurrentUser) {
+            const nome = mcCurrentUser.displayName || mcCurrentUser.email.split('@')[0];
+            nomeEl.textContent = '👤 ' + nome;
+            divLogado.style.display = 'flex';
+            btnEntrar.style.display = 'none';
+        } else {
+            divLogado.style.display = 'none';
+            btnEntrar.style.display = 'inline-block';
+        }
+        mcAtualizarUIPremium();
+    }
+
+    // Enter no campo de senha faz submit
+    document.addEventListener('DOMContentLoaded', function() {
+        document.getElementById('mc-auth-senha').addEventListener('keydown', function(e) {
+            if (e.key === 'Enter') mcSubmitAuth();
+        });
+        document.getElementById('mc-auth-email').addEventListener('keydown', function(e) {
+            if (e.key === 'Enter') document.getElementById('mc-auth-senha').focus();
+        });
+        mcAtualizarUIPremium();
+    });
     </script>
 </body>
 </html>
