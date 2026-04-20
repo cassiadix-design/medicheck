@@ -223,6 +223,71 @@ border-radius:0 0 20px 20px;
             transform: translateY(-2px);
         }
 
+        /* Botão flutuante Premium (mobile) */
+        .mc-fab-premium {
+            display: none;
+            position: fixed;
+            bottom: 24px;
+            right: 18px;
+            z-index: 999;
+            background: linear-gradient(135deg, #f39c12, #e67e22);
+            color: white;
+            border: none;
+            border-radius: 28px;
+            padding: 13px 20px;
+            font-size: 14px;
+            font-weight: 800;
+            font-family: inherit;
+            cursor: pointer;
+            box-shadow: 0 4px 18px rgba(243,156,18,0.5);
+            transition: 0.2s;
+            white-space: nowrap;
+        }
+        .mc-fab-premium:hover { transform: scale(1.05); opacity: 0.95; }
+
+        /* Indicador de scroll no nav */
+        .nav-scroll-wrap {
+            position: relative;
+            margin-bottom: 30px;
+        }
+        .nav-scroll-wrap::after {
+            content: '';
+            display: none;
+            position: absolute;
+            top: 0; right: 0; bottom: 0;
+            width: 40px;
+            background: linear-gradient(to right, transparent, rgba(255,255,255,0.95));
+            pointer-events: none;
+            border-radius: 0 10px 10px 0;
+        }
+
+        @media (max-width: 700px) {
+            .nav-scroll-wrap::after { display: block; }
+            .nav-buttons {
+                flex-wrap: nowrap;
+                overflow-x: auto;
+                -webkit-overflow-scrolling: touch;
+                scrollbar-width: none;
+                gap: 8px;
+                margin-bottom: 0;
+                padding-bottom: 4px;
+            }
+            .nav-buttons::-webkit-scrollbar { display: none; }
+            .nav-btn {
+                flex: 0 0 auto;
+                padding: 10px 14px;
+                font-size: 13px;
+                white-space: nowrap;
+                border-width: 2px;
+            }
+            /* Oculta Premium do nav scrollável no mobile — fica no FAB */
+            .nav-btn-premium { display: none; }
+            .mc-fab-premium { display: flex; align-items: center; gap: 7px; }
+            /* Login button no header menor no mobile */
+            .mc-auth-btn-entrar { font-size: 12px; padding: 7px 14px; }
+            #mc-auth-nome { font-size: 12px; }
+        }
+
         .search-section {
             margin-bottom: 30px;
         }
@@ -1328,12 +1393,14 @@ border-radius:0 0 20px 20px;
 
         @media (max-width: 480px) {
             .header {
-                padding: 30px 20px;
+                padding: 24px 16px 20px;
             }
 
             .header h1 {
-                font-size: 28px;
+                font-size: 26px;
             }
+
+            .mc-auth-bar { margin-top: 12px; }
 
             .content {
                 padding: 20px 15px;
@@ -1673,21 +1740,27 @@ border-radius:0 0 20px 20px;
 </div>
 
         <div class="content">
-            <div class="nav-buttons">
-                <button class="nav-btn active" data-tab="home">🏠 Home</button>
-                <button class="nav-btn" data-tab="vacinas">💉 Vacinas</button>
-                <button class="nav-btn" data-tab="exames">🧪 Exames</button>
-                <button class="nav-btn" data-tab="idosos">🧓 Idosos</button>
-                <button class="nav-btn" data-tab="interacoes">⚡ Interações</button>
-                <button class="nav-btn" data-tab="calculadora">🧮 Calculadora</button>
-                <button class="nav-btn" data-tab="curiosidades">✨ Curiosidades</button>
-                <button class="nav-btn" data-tab="sintomas">🤒 Sintomas</button>
-                <button class="nav-btn" data-tab="comparar">⚖️ Comparar</button>
-                <button class="nav-btn" data-tab="privacidade">🔒 Privacidade</button>
-                <button class="nav-btn" data-tab="termos">📋 Termos</button>
-                <button class="nav-btn" data-tab="contato">📧 Contato</button>
-                <button class="nav-btn nav-btn-premium" data-tab="premium">👑 Premium</button>
+            <div class="nav-scroll-wrap">
+                <div class="nav-buttons">
+                    <button class="nav-btn active" data-tab="home">🏠 Home</button>
+                    <button class="nav-btn" data-tab="vacinas">💉 Vacinas</button>
+                    <button class="nav-btn" data-tab="exames">🧪 Exames</button>
+                    <button class="nav-btn" data-tab="idosos">🧓 Idosos</button>
+                    <button class="nav-btn" data-tab="interacoes">⚡ Interações</button>
+                    <button class="nav-btn" data-tab="calculadora">🧮 Calculadora</button>
+                    <button class="nav-btn" data-tab="curiosidades">✨ Curiosidades</button>
+                    <button class="nav-btn" data-tab="sintomas">🤒 Sintomas</button>
+                    <button class="nav-btn" data-tab="comparar">⚖️ Comparar</button>
+                    <button class="nav-btn" data-tab="privacidade">🔒 Privacidade</button>
+                    <button class="nav-btn" data-tab="termos">📋 Termos</button>
+                    <button class="nav-btn" data-tab="contato">📧 Contato</button>
+                    <button class="nav-btn nav-btn-premium" data-tab="premium">👑 Premium</button>
+                </div>
             </div>
+            <!-- Botão flutuante Premium (apenas mobile) -->
+            <button class="mc-fab-premium" onclick="document.querySelector('[data-tab=premium]').click()">
+                👑 Premium
+            </button>
 
             <div id="home" class="tab-content active">
                 <div class="search-section">
