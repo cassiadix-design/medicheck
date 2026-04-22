@@ -23953,7 +23953,7 @@
   },
   {
     "nome": "Polietilenoglicol — Movicol / Muvinlax",
-    "generico": "Macrogol 3350 (Polietilenoglicol)",
+    "generico": "Macrogol 3350 + Bicarbonato de sódio + Cloreto de sódio + Cloreto de potássio",
     "tipo": "Laxante osmótico",
     "sinonimos": [
       "movicol",
@@ -23964,7 +23964,7 @@
       "glycolax",
       "lactulomax"
     ],
-    "descricao": "Laxante osmótico que retém água no intestino, amolecendo as fezes e facilitando a evacuação. Usado no tratamento da constipação crônica e para preparo intestinal antes de exames. Não é absorvido pelo organismo.",
+    "descricao": "Laxante osmótico que retém água no intestino, amolecendo as fezes e facilitando a evacuação. Usado no tratamento da constipação crônica e para preparo intestinal antes de exames. Não é absorvido pelo organismo. Composição por sachê (Muvinlax): Macrogol 3350 13,125g + Bicarbonato de sódio 0,1775g + Cloreto de sódio 0,3507g + Cloreto de potássio 0,0466g.",
     "receita": "Não",
     "receita_display": "🟢 Venda Livre — Sem Receita",
     "receita_cor": "verde",
