@@ -24166,6 +24166,83 @@
     "quando_procurar_medico": "Procure médico se: inchaço intenso no rosto ou pernas, pressão muito elevada, febre alta (pode mascarar infecção), confusão mental, fraqueza muscular intensa, ou nunca interromper abruptamente sem orientação médica — pode causar crise adrenal."
   },
   {
+    "nome": "Prednisolona 5mg - 20mg - 40mg Comprimido",
+    "generico": "Prednisolona",
+    "tipo": "Corticoide sistêmico oral",
+    "sinonimos": [
+      "predsim",
+      "predsim 20mg",
+      "predsim 40mg",
+      "prednisolona comprimido"
+    ],
+    "descricao": "Corticoide sistêmico oral de ação anti-inflamatória e imunossupressora potente, disponível em comprimidos de 5mg, 20mg e 40mg. Indicado para doenças inflamatórias e autoimunes como artrite reumatoide, lúpus, nefrite lúpica, asma grave, dermatite atópica severa, doença inflamatória intestinal e reações alérgicas graves. Diferente da prednisona, é a forma ativa — o fígado não precisa convertê-la — tornando-a a escolha preferida em pacientes com doença hepática e em crianças.",
+    "receita": "Sim",
+    "classe_receita": "TARJADO_PRATICA",
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita é retida na farmácia.",
+    "receita_cor": "vermelho",
+    "receita_nota": "Tarja vermelha com retenção de receita. Consulte sempre o farmacêutico.",
+    "efeitos": "Em uso curto (até 5–7 dias): aumento do apetite, insônia, irritabilidade, agitação e retenção de líquidos. Com uso prolongado (semanas ou meses): hiperglicemia (podendo desencadear diabetes), hipertensão, osteoporose, ganho de peso, redistribuição de gordura (face arredondada — síndrome cushingoide), fraqueza muscular, catarata, glaucoma, estrias roxas e imunossupressão grave.",
+    "aviso_grave": "NUNCA interrompa a prednisolona abruptamente após uso prolongado. O organismo reduz sua produção natural de cortisol durante o tratamento e precisa de tempo para se readaptar. A suspensão abrupta pode causar insuficiência adrenal aguda — crise grave com fraqueza extrema, tontura, náusea, vômitos e colapso hemodinâmico. A retirada deve ser sempre gradual e orientada pelo médico.",
+    "recomendacao": "☎️ LIGUE SAMU (192) em caso de fraqueza extrema súbita, tontura intensa, colapso ou febre alta com sinais de infecção grave — especialmente se parou o medicamento recentemente.",
+    "educacao": "Tome sempre pela manhã com alimento — o horário matinal imita o ritmo natural do cortisol e reduz a insônia. O médico pode prescrever protetor gástrico junto. Em tratamentos prolongados, pergunte ao médico sobre suplementação de cálcio e vitamina D para proteger os ossos. Evite contato com pessoas doentes — sua imunidade estará reduzida. Não se vacine com vacinas de vírus vivos durante o tratamento. 🔍 A prednisolona é a forma ativa do corticoide — ao contrário da prednisona, não precisa ser convertida pelo fígado para agir. Por isso é preferida em hepatopatas.",
+    "resposta_rapida": [
+      "Corticoide sistêmico oral",
+      "Inflamação, autoimunidade e alergias graves",
+      "Tome pela manhã com alimento",
+      "Nunca pare abruptamente — desmame gradual",
+      "Uso prolongado: risco de osteoporose e imunossupressão"
+    ],
+    "receita_obrigatoria": true,
+    "tipo_receita": "simples",
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Predsim é o mesmo que prednisolona?",
+        "resposta": "Sim. Predsim é um dos nomes comerciais da prednisolona comprimido — o princípio ativo é o mesmo. Existem versões de 5mg, 20mg e 40mg."
+      },
+      {
+        "pergunta": "Prednisolona comprimido pode parar de tomar de repente?",
+        "resposta": "Não. Após uso prolongado (mais de 7–14 dias), nunca interromper abruptamente — risco de insuficiência adrenal aguda com colapso. A retirada deve ser gradual conforme orientação médica. Cursos muito curtos (3–5 dias) geralmente podem ser interrompidos sem redução gradual."
+      },
+      {
+        "pergunta": "Prednisolona comprimido e prednisona são iguais?",
+        "resposta": "São muito similares, mas não iguais. A prednisolona é a forma ativa — o fígado não precisa convertê-la. Por isso é preferida em pacientes com doença hepática, em crianças e quando se deseja maior previsibilidade de ação."
+      },
+      {
+        "pergunta": "Prednisolona 20mg e 40mg para que servem?",
+        "resposta": "As dosagens maiores (20mg e 40mg) são usadas em doenças autoimunes graves, nefrite lúpica, crises de asma severa, síndrome nefrótica e tratamentos de pulso. A dosagem é sempre definida pelo médico conforme a doença e o peso do paciente."
+      },
+      {
+        "pergunta": "Prednisolona comprimido engorda?",
+        "resposta": "Em uso curto pode causar aumento de apetite e retenção de líquidos. No uso prolongado pode levar a ganho de peso real e redistribuição de gordura para o rosto e tronco (síndrome cushingoide)."
+      },
+      {
+        "pergunta": "Prednisolona baixa a imunidade?",
+        "resposta": "Sim. Corticoides sistêmicos suprimem o sistema imunológico. Pacientes em uso devem evitar contato com pessoas doentes, não tomar vacinas de vírus vivos e comunicar ao médico qualquer sinal de infecção."
+      },
+      {
+        "pergunta": "Prednisolona comprimido pode tomar à noite?",
+        "resposta": "Não é recomendado. Deve ser tomada preferencialmente pela manhã com alimentos — imita o pico natural do cortisol e reduz o risco de insônia e outros efeitos colaterais."
+      },
+      {
+        "pergunta": "Posso beber álcool tomando Prednisolona comprimido?",
+        "resposta": "Evite. A combinação aumenta o risco de úlcera gástrica e pode interferir no sistema imune. Limite ao máximo durante o tratamento."
+      },
+      {
+        "pergunta": "Prednisolona causa osteoporose?",
+        "resposta": "Sim, com uso prolongado. O médico pode recomendar suplementação de cálcio e vitamina D e, em casos de alto risco, medicamentos específicos para proteção óssea (bisfosfonatos)."
+      },
+      {
+        "pergunta": "O que fazer se esquecer uma dose de Prednisolona comprimido?",
+        "resposta": "Se lembrar no mesmo dia, tome assim que possível. Se já for próximo do horário da próxima dose, pule e continue normalmente. Nunca dobre a dose para compensar a esquecida."
+      }
+    ],
+    "descricao_seo": "Prednisolona 5mg - 20mg - 40mg Comprimido é um medicamento usado para: corticoide sistêmico oral de ação anti-inflamatória e imunossupressora potente, indicado para doenças autoimunes (lúpus, artrite reumatoide), asma grave, dermatite atópica severa, reações alérgicas graves e nefrite lúpica. Os efeitos colaterais mais relatados são: em uso curto, aumento do apetite, insônia e irritabilidade; no uso prolongado, hiperglicemia, hipertensão, osteoporose, ganho de peso e imunossupressão. Importante: NUNCA interrompa a prednisolona abruptamente após uso prolongado — risco de insuficiência adrenal aguda com colapso. A retirada deve ser gradual. Prednisolona 5mg - 20mg - 40mg Comprimido é vendido somente com receita médica — nunca use sem orientação de um profissional de saúde.",
+    "alerta_farmaceutico": "Erro crítico no balcão: paciente interrompe o corticoide abruptamente após uso prolongado — risco de insuficiência adrenal aguda com colapso hemodinâmico. Sempre reforçar que a retirada deve ser gradual, conforme orientação médica. Atenção especial a pacientes que vieram de outros serviços sem receber essa orientação.",
+    "quando_procurar_medico": "Procure médico se: fraqueza extrema ou tontura intensa (especialmente se parou o medicamento recentemente), febre ou sinais de infecção (corticoides mascaram sintomas), glicemia muito elevada, inchaço intenso no rosto ou pernas, pressão muito alta, confusão mental, visão turva ou surgimento de estrias roxas largas no abdômen."
+  },
+  {
     "nome": "Prednisona 5mg - 20mg",
     "generico": "Prednisona",
     "tipo": "Corticoide / Anti-inflamatório",
