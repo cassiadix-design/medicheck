@@ -1371,10 +1371,12 @@ border-radius:0 0 20px 20px;
 
                     const fixo = mcBuscarFixo(m1.toLowerCase(), m2.toLowerCase());
                     if (fixo) {
+                        const gravBadge = { contraindicado: '🚫 CONTRAINDICADO', grave: '🔴 RISCO GRAVE', moderada: '🟡 RISCO MODERADO', leve: '🟢 RISCO LEVE' };
                         const textos = { alto: '🔴 RISCO ALTO', moderado: '🟡 RISCO MODERADO', baixo: '🟢 RISCO BAIXO' };
+                        const gravLabel = (fixo.gravidade && gravBadge[fixo.gravidade]) ? gravBadge[fixo.gravidade] : textos[fixo.nivel];
                         nivel.className = 'mc-nivel-ia ' + fixo.nivel;
-                        nivel.textContent = textos[fixo.nivel] + ' — ' + fixo.titulo;
-                        corpo.innerHTML = '<p><strong>⚠️ Efeito da interação:</strong><br>' + fixo.efeito + '</p><p><strong>✅ Conduta recomendada:</strong><br>' + fixo.conduta + '</p><p style="font-size:11px;color:#999;margin-top:8px;">Base de dados fixa — Conteúdo educacional revisado por farmacêutica responsável.</p>';
+                        nivel.textContent = gravLabel + ' — ' + fixo.titulo;
+                        corpo.innerHTML = (fixo.mecanismo ? '<p><strong>🔬 Mecanismo:</strong><br>' + fixo.mecanismo + '</p>' : '') + '<p><strong>⚠️ O que pode acontecer:</strong><br>' + fixo.efeito + '</p><p><strong>✅ O que fazer:</strong><br>' + fixo.conduta + '</p><p style="font-size:11px;color:#999;margin-top:8px;">Base de dados fixa — Conteúdo educacional revisado por farmacêutica responsável.</p>';
                         return;
                     }
 
@@ -1448,8 +1450,9 @@ border-radius:0 0 20px 20px;
                         const div = document.createElement('div');
                         div.className = 'inter-card';
                         div.onclick = function() { mcToggleCard(div); };
-                        const icone = inter.nivel === 'alto' ? '🔴' : inter.nivel === 'moderado' ? '🟡' : '🟢';
-                        div.innerHTML = '<div class="inter-card-titulo ' + inter.nivel + '">' + icone + ' ' + inter.titulo + ' <span>▼</span></div><div class="inter-card-corpo"><p><strong>⚠️ Efeito:</strong> ' + inter.efeito + '</p><p><strong>✅ Conduta:</strong> ' + inter.conduta + '</p></div>';
+                        const gravIcone = { contraindicado: '🚫', grave: '🔴', moderada: '🟡', leve: '🟢' };
+                        const icone = inter.gravidade ? (gravIcone[inter.gravidade] || '🔴') : (inter.nivel === 'alto' ? '🔴' : inter.nivel === 'moderado' ? '🟡' : '🟢');
+                        div.innerHTML = '<div class="inter-card-titulo ' + inter.nivel + '">' + icone + ' ' + inter.titulo + ' <span>▼</span></div><div class="inter-card-corpo">' + (inter.mecanismo ? '<p><strong>🔬 Mecanismo:</strong> ' + inter.mecanismo + '</p>' : '') + '<p><strong>⚠️ O que pode acontecer:</strong> ' + inter.efeito + '</p><p><strong>✅ O que fazer:</strong> ' + inter.conduta + '</p></div>';
                         lista.appendChild(div);
                     });
                 })();
