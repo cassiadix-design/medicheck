@@ -2214,4 +2214,10 @@
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
+  <url>
+    <loc>https://medicheck.med.br/medicamentos/clobutinol-hytos-plus/</loc>
+    <lastmod>2026-04-28</lastmod>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
 </urlset>

@@ -31086,5 +31086,65 @@
     "descricao_seo": "Zopiclona 3,75mg - 7,5mg é um medicamento usado para: indicada para o tratamento de curto prazo da insônia — dificuldade para adormecer, acordar frequentemente durante a noite ou acordar muito cedo. Os efeitos colaterais mais relatados são: o efeito colateral mais característico e frequente é o gosto amargo ou metálico na boca, que persiste até o dia seguinte e pode ser bastante incômodo. Importante: Nunca misture com álcool ou outros sedativos — risco de depressão respiratória grave. Não dirija ou opere máquinas na manhã seguinte — a sonolência residual pode prejudicar os reflexos. Zopiclona 3,75mg - 7,5mg é vendido somente com receita médica — nunca use sem orientação de um profissional de saúde.",
     "alerta_farmaceutico": "Erro comum no balcão: paciente toma o hipnótico e ainda permanece ativo por horas — os \"Z-drugs\" (zolpidem) podem causar comportamentos automáticos perigosos (comer, dirigir dormindo) sem memória posterior. Tomar imediatamente antes de deitar.",
     "quando_procurar_medico": "Procure médico se: dificuldade para respirar durante o sono, confusão mental intensa, comportamentos automáticos sem memória, dependência (necessidade de doses maiores), ou crise de abstinência ao tentar parar (tremores, suor, convulsão)."
+  },
+  {
+    "nome": "Clobutinol — Hytos Plus",
+    "generico": "Clobutinol",
+    "tipo": "Antitussígeno — PROIBIDO PELA ANVISA",
+    "sinonimos": ["Hytos Plus", "Clobutinol", "antitussigeno proibido", "xarope tosse proibido", "retirado mercado"],
+    "descricao": "O Clobutinol era um antitussígeno de ação central comercializado no Brasil como Hytos Plus (associação). Era indicado para tosse seca e irritativa. Teve o registro cancelado e a comercialização proibida pela ANVISA por causar risco de arritmia cardíaca grave — prolongamento do intervalo QT, podendo levar a Torsade de Pointes e morte súbita.",
+    "receita": "Proibido",
+    "receita_nota": "PROIBIDO PELA ANVISA. Registro cancelado. Não pode ser comercializado, dispensado ou fabricado no Brasil.",
+    "efeitos": "Prolongamento do intervalo QT no eletrocardiograma, arritmia ventricular (Torsade de Pointes), fibrilação ventricular, morte súbita. O risco é aumentado em pessoas com síndrome do QT longo, distúrbios eletrolíticos ou uso concomitante de outros medicamentos que prolongam o QT.",
+    "aviso_grave": "MEDICAMENTO PROIBIDO PELA ANVISA. O Clobutinol causa prolongamento do intervalo QT e risco de arritmia ventricular fatal. Não use. Se ainda tiver em casa, descarte em farmácia habilitada. Nunca ofereça a outras pessoas ou crianças.",
+    "recomendacao": "☎️ Se usou recentemente e sentir palpitações, batimento irregular, tontura ou desmaio: LIGUE IMEDIATAMENTE PARA O SAMU (192). Para descarte seguro, leve a qualquer farmácia — sem custo.",
+    "educacao": "O Clobutinol (Hytos Plus) foi retirado do mercado porque estudos pós-comercialização comprovaram que bloqueia canais de potássio no coração (corrente hERG), prolongando o intervalo QT. Esse efeito pode desencadear Torsade de Pointes — uma arritmia ventricular grave que pode evoluir para fibrilação ventricular e parada cardíaca. A ANVISA e a EMA (Agência Europeia de Medicamentos) cancelaram o registro simultaneamente. Alternativas aprovadas e seguras para tosse seca: Dextrometorfano e Levodropropizina.",
+    "resposta_rapida": [
+      "🚫 PROIBIDO PELA ANVISA",
+      "Causa arritmia cardíaca grave",
+      "Registro cancelado no Brasil",
+      "Não use mesmo que tenha em casa",
+      "Descarte em farmácia habilitada"
+    ],
+    "classe_receita": "PROIBIDO",
+    "receita_display": "🚫 PROIBIDO — Registro Cancelado",
+    "receita_descricao": "Medicamento proibido pela ANVISA. Registro cancelado por risco de arritmia cardíaca grave. Não pode ser comercializado, dispensado ou fabricado no Brasil.",
+    "receita_cor": "vermelho",
+    "perguntas_frequentes": [
+      {
+        "pergunta": "O Clobutinol ainda é vendido em farmácias?",
+        "resposta": "Não. A ANVISA cancelou o registro e proibiu a comercialização. Se encontrar à venda, denuncie ao Disque-ANVISA: 0800 642 9782."
+      },
+      {
+        "pergunta": "Por que o Hytos Plus foi retirado do mercado?",
+        "resposta": "Porque continha Clobutinol, que prolonga o intervalo QT e pode causar arritmias ventriculares fatais. A ANVISA e a EMA cancelaram o registro por considerar que o risco supera os benefícios."
+      },
+      {
+        "pergunta": "Tomei Clobutinol recentemente. O que devo fazer?",
+        "resposta": "Se não sentiu sintomas cardíacos, informe seu médico na próxima consulta. Se sentir palpitações, batimento irregular, tontura ou desmaio, vá ao pronto-socorro ou ligue para o SAMU (192) imediatamente."
+      },
+      {
+        "pergunta": "Posso dar Clobutinol para meu filho?",
+        "resposta": "Não. Em hipótese alguma. O medicamento está proibido exatamente pelo risco cardíaco grave. Descarte em farmácia e consulte o pediatra sobre alternativas aprovadas."
+      },
+      {
+        "pergunta": "Qual é o substituto do Clobutinol para tosse seca?",
+        "resposta": "Dextrometorfano e Levodropropizina são alternativas aprovadas e seguras para tosse seca. Consulte seu farmacêutico ou médico."
+      },
+      {
+        "pergunta": "Onde posso descartar o Clobutinol?",
+        "resposta": "Leve a qualquer farmácia que participe do programa de descarte de medicamentos. Não jogue no lixo comum nem no vaso sanitário."
+      },
+      {
+        "pergunta": "O que é o intervalo QT e por que ele importa?",
+        "resposta": "O intervalo QT mede o tempo de contração e relaxamento do coração no ECG. Quando prolongado por medicamentos como o Clobutinol, o coração fica vulnerável a arritmias graves como Torsade de Pointes, que pode levar à morte súbita."
+      }
+    ],
+    "receita_obrigatoria": true,
+    "tipo_receita": "proibido",
+    "retencao_receita": false,
+    "descricao_seo": "Clobutinol (Hytos Plus) é um medicamento PROIBIDO PELA ANVISA. O registro foi cancelado por causar risco de arritmia cardíaca grave — prolongamento do intervalo QT e Torsade de Pointes. Não use este medicamento. Se ainda tiver em casa, descarte em farmácia habilitada. Alternativas seguras para tosse seca: Dextrometorfano e Levodropropizina.",
+    "alerta_farmaceutico": "Atenção: o Clobutinol (Hytos Plus) ainda pode aparecer em estoques antigos de pacientes ou em medicamentos importados ilegalmente. Qualquer produto contendo Clobutinol está proibido no Brasil. O risco de prolongamento do QT é potencializado com macrolídeos, azólicos, antipsicóticos e antiarrítmicos.",
+    "quando_procurar_medico": "Se usou Clobutinol recentemente e sentir palpitações, batimento cardíaco irregular, tontura intensa, dor no peito ou desmaio: vá ao Pronto-Socorro ou ligue para o SAMU (192) imediatamente."
   }
 ]
