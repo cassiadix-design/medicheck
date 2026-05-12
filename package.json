@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
-    "preview": "astro preview"
+    "preview": "astro preview",
+    "sync": "node sync-faqs.cjs"
   },
   "dependencies": {
     "astro": "^4.15.0"
