@@ -6,9 +6,11 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "sync": "node sync-faqs.cjs"
+    "sync": "node sync-faqs.cjs",
+    "gerar-faqs": "node gerar-faqs.cjs"
   },
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.95.2",
     "astro": "^4.15.0"
   }
 }
