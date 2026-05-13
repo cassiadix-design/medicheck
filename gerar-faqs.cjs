@@ -58,11 +58,12 @@ async function main() {
 
   const meds = JSON.parse(fs.readFileSync(ARQUIVO, 'utf8'));
   const inicio = parseInt(process.env.START_INDEX || '0');
+  const fim = parseInt(process.env.END_INDEX || String(meds.length));
   let processados = 0, erros = 0;
 
-  console.log(`Iniciando a partir do índice ${inicio} (${meds.length - inicio} medicamentos)`);
+  console.log(`Processando índices ${inicio}–${fim - 1} (${fim - inicio} medicamento(s))`);
 
-  for (let i = inicio; i < meds.length; i++) {
+  for (let i = inicio; i < fim; i++) {
     const med = meds[i];
     try {
       const novasFaqs = await gerarFaqs(med);

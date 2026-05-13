@@ -25,7 +25,25 @@
       "Bash(git -C /c/Users/Usuario/Desktop/Medicheck log --oneline --all --diff-filter=D --name-only -20)",
       "Bash(grep -v 'medicheck.med.br/$')",
       "Bash(ls \"C:/Users/Usuario/Desktop/medicheck/index.html\"*)",
-      "WebFetch(domain:medicheck.med.br)"
+      "WebFetch(domain:medicheck.med.br)",
+      "Read(//c/Users/Usuario/Downloads/**)",
+      "Bash(unzip -o \"https___medicheck.med.br_-Coverage-Drilldown-2026-04-20.zip\" -d coverage_report_medicheck)",
+      "Bash([ -d \"/c/Users/Usuario/Desktop/medicheck/medicamentos/$slug\" ])",
+      "Bash(awk '{print $NF}')",
+      "Bash(xargs -I{} bash -c 'wc -l C:/Users/Usuario/Desktop/medicheck/medicamentos/{}/index.html 2>/dev/null')",
+      "Bash(xargs wc *)",
+      "Bash(xxd)",
+      "Bash(grep -E \"\\\\.\\(js|html|cjs\\)$\")",
+      "Bash(ls src/pages/medicamento/)",
+      "Bash(ls src/pages/medicamentos/)",
+      "Bash(git log *)",
+      "Bash(grep -E \"^\\(omeprazol|paracetamol|ibuprofeno|dipirona|amoxicilina|losartana|metformina|atenolol|dexametasona|azitromicina|nimesulida|cetirizina|loratadina|sinvastatina|captopril|prednisona|amoxicilina\\)$\")",
+      "Bash(xargs grep *)",
+      "Bash(claude doctor *)",
+      "PowerShell(claude doctor *)",
+      "Bash(git *)",
+      "PowerShell(node -e \"const fs=require\\('fs'\\); const data=JSON.parse\\(fs.readFileSync\\('C:/Users/Usuario/Desktop/medicheck/medicamentos.json','utf8'\\)\\); console.log\\('JSON valido. Total:', data.length\\); console.log\\('Ultimo:', data[data.length-1].nome\\);\")",
+      "Bash(grep -n \"// ===== FIM\\\\|mcInteracoesDB\\\\s*=\\\\|^\\\\s*\\\\];\\\\s*$\" /c/Users/Usuario/Desktop/medicheck/index.html)"
     ]
   }
 }
