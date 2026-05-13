@@ -2667,7 +2667,7 @@ border-radius:0 0 20px 20px;
                     { med1: ['semaglutida'], med2: ['anticoagulante oral','warfarina'], nivel: 'moderado', titulo: 'Semaglutida + Anticoagulante Oral', mecanismo: 'A semaglutida retarda o esvaziamento gástrico, podendo alterar a velocidade de absorção de vários medicamentos orais, incluindo a warfarina.', efeito: 'Possível variação na absorção da warfarina — especialmente no início do tratamento quando o esvaziamento gástrico é mais retardado.', conduta: '⚠️ Monitorar INR com mais frequência nas primeiras semanas de semaglutida. Não há mudança de dose preventiva necessária.' },
                     { med1: ['rivaroxabana'], med2: ['naproxeno'], nivel: 'alto', titulo: 'Rivaroxabana + Naproxeno', mecanismo: 'O naproxeno inibe a COX-1 plaquetária e irrita a mucosa gastrointestinal — somado ao efeito anticoagulante da rivaroxabana, o risco de sangramento GI é muito elevado.', efeito: 'Risco muito alto de hemorragia gastrointestinal grave.', conduta: '❌ Evitar. Usar paracetamol para analgesia em pacientes com rivaroxabana.' },
                     { med1: ['apixabana'], med2: ['naproxeno'], nivel: 'alto', titulo: 'Apixabana + Naproxeno', mecanismo: 'AINEs inibem a agregação plaquetária e danificam a mucosa gastrointestinal, multiplicando o risco hemorrágico da apixabana.', efeito: 'Risco muito elevado de sangramento gastrointestinal grave.', conduta: '❌ Evitar AINEs com apixabana. Usar paracetamol para dor leve a moderada.' },
-                    { med1: ['clopidogrel'], md2: ['naproxeno','ibuprofeno'], nivel: 'moderado', titulo: 'Clopidogrel + AINE', mecanismo: 'Ibuprofeno pode competir com a aspirina (frequentemente coadministrada) pelo sítio de acetilação da COX-1 plaquetária, reduzindo o efeito antiagregante. AINEs também aumentam risco de sangramento GI.', efeito: 'Possível redução da eficácia antiagregante e aumento do risco de sangramento gastrointestinal.', conduta: '⚠️ Preferir paracetamol para analgesia. Tomar ibuprofeno pelo menos 8 horas antes ou 30 minutos depois da aspirina se uso simultâneo for necessário.' },
+                    { med1: ['clopidogrel'], med2: ['naproxeno','ibuprofeno'], nivel: 'moderado', titulo: 'Clopidogrel + AINE', mecanismo: 'Ibuprofeno pode competir com a aspirina (frequentemente coadministrada) pelo sítio de acetilação da COX-1 plaquetária, reduzindo o efeito antiagregante. AINEs também aumentam risco de sangramento GI.', efeito: 'Possível redução da eficácia antiagregante e aumento do risco de sangramento gastrointestinal.', conduta: '⚠️ Preferir paracetamol para analgesia. Tomar ibuprofeno pelo menos 8 horas antes ou 30 minutos depois da aspirina se uso simultâneo for necessário.' },
                     { med1: ['diltiazem'], med2: ['ivabradina'], nivel: 'alto', titulo: 'Diltiazem + Ivabradina (Bradicardia)', mecanismo: 'O diltiazem inibe CYP3A4 (eleva os níveis de ivabradina) e também reduz a frequência cardíaca (cronotropismo negativo) — efeito duplo e perigoso.', efeito: 'Bradicardia sinusal grave com risco de síncope e parada cardíaca.', conduta: '❌ Contraindicado. O diltiazem eleva os níveis de ivabradina E potencializa seu efeito bradicardizante.' },
                     { med1: ['captopril','enalapril'], med2: ['sucralfato'], nivel: 'baixo', titulo: 'IECA + Sucralfato', mecanismo: 'O sucralfato pode reduzir levemente a absorção de alguns IECAs (captopril) ao se ligar a eles no intestino.', efeito: 'Leve redução da absorção do IECA — impacto clínico geralmente mínimo.', conduta: '✅ Tomar IECA 1–2 horas antes do sucralfato como precaução.' },
                     { med1: ['cetirizina'], med2: ['loratadina'], nivel: 'baixo', titulo: 'Cetirizina + Loratadina (Combinação Desnecessária)', mecanismo: 'Ambas são anti-histamínicas H1 de segunda geração com mecanismo idêntico — a combinação não oferece benefício adicional mas duplica os efeitos adversos.', efeito: 'Sedação aumentada sem melhora da eficácia anti-histamínica.', conduta: '⚠️ Sem benefício terapêutico em combinar dois anti-histamínicos. Usar apenas um, na dose adequada.' },
@@ -2715,7 +2715,7 @@ border-radius:0 0 20px 20px;
                 function mcSemAcento(s) { return s.normalize('NFD').replace(/[̀-ͯ]/g, ''); }
 
                 const mcAutoIdx = { 'mc-ac1': -1, 'mc-ac2': -1, 'mc-ac-add': -1 };
-                let mcMeds = [];
+                var mcMeds = [];
 
                 function mcFiltrarAuto(input, acId) {
                     const val = mcSemAcento(input.value.toLowerCase().trim());
@@ -2829,7 +2829,7 @@ border-radius:0 0 20px 20px;
                 }
 
                 // === PREMIUM: controle de limite diário ===
-                const MC_LIMITE_DIARIO = 3;
+                const MC_LIMITE_DIARIO = 10;
 
                 function mcGetConsultasHoje() {
                     const hoje = new Date().toISOString().slice(0, 10);
@@ -2879,7 +2879,7 @@ border-radius:0 0 20px 20px;
                 (function() { setTimeout(mcAtualizarContador, 100); })();
 
 
-                async function mcVerificar() {
+                function mcVerificar() {
                     if (mcMeds.length < 2) { alert('Adicione pelo menos 2 medicamentos para verificar.'); return; }
 
                     if (!mcUsuarioLogado() && mcGetConsultasHoje() >= MC_LIMITE_DIARIO) {
@@ -2911,73 +2911,12 @@ border-radius:0 0 20px 20px;
                             return;
                         }
 
-                        const cacheKey = [mcNorm(m1.toLowerCase()), mcNorm(m2.toLowerCase())].sort().join('|');
-                        if (mcCacheIA[cacheKey]) {
-                            const c = mcCacheIA[cacheKey];
-                            nivel.className = 'mc-nivel-ia ' + c.nivel;
-                            nivel.textContent = c.titulo;
-                            corpo.innerHTML = c.html + '<p style="font-size:11px;color:#999;margin-top:8px;">✦ Analisado por IA — <span style="background:#e8f0fe;padding:2px 8px;border-radius:10px;color:#667eea;font-weight:700;">CACHE</span> — Conteúdo educacional.</p>' + mcPremiumTeaser();
-                            mcRegistrarConsulta();
-                            return;
-                        }
-
-                        nivel.className = 'mc-nivel-ia neutro';
-                        nivel.textContent = '✦ Analisando com Inteligência Artificial...';
-                        corpo.innerHTML = '<div class="mc-spinner-wrap"><div class="mc-spinner"></div><div class="mc-spinner-txt">Consultando a IA sobre <strong>' + m1 + '</strong> + <strong>' + m2 + '</strong>...</div></div>';
-                        btn.disabled = true;
-
-                        try {
-                            const res = await fetch('https://api.anthropic.com/v1/messages', {
-                                method: 'POST',
-                                headers: { 'Content-Type': 'application/json', 'x-api-key': ANTHROPIC_API_KEY, 'anthropic-version': '2023-06-01', 'anthropic-dangerous-direct-browser-access': 'true' },
-                                body: JSON.stringify({
-                                    model: 'claude-sonnet-4-20250514',
-                                    max_tokens: 1000,
-                                    system: 'Você é uma farmacêutica clínica especialista em interações medicamentosas e alimento-medicamento. Analise a combinação informada — que pode envolver dois medicamentos, um medicamento e um alimento, ou dois alimentos com efeito farmacológico relevante — e responda APENAS com um objeto JSON válido, sem markdown, sem texto adicional antes ou depois.\n\nCampos obrigatórios:\n- "nivel": "alto" | "moderado" | "baixo" | "nenhum"\n- "gravidade": "grave" | "moderada" | "leve" | "sem_interacao"\n- "titulo": título curto e descritivo da interação (máx. 60 caracteres)\n- "efeito": descrição clara do efeito clínico esperado, em linguagem acessível ao paciente\n- "mecanismo_resumo": mecanismo farmacológico em uma frase objetiva\n- "onset": "rapido" | "lento" | "variavel"\n- "evidencia": "estabelecida" | "provavel" | "suspeita"\n- "conduta": orientação prática com emoji adequado (❌ evitar, ⚠️ monitorar, ✅ seguro com cuidado)\n\nRegras:\n- Se não houver interação relevante conhecida, use nivel "nenhum" e gravidade "sem_interacao".\n- Nunca invente interações graves sem embasamento científico.\n- Para interações alimento-medicamento, adapte a linguagem para o contexto alimentar.\n- Mantenha tom profissional, claro e acessível ao público leigo.',
-                                    messages: [{ role: 'user', content: 'Analise a interação entre: ' + m1 + ' e ' + m2 }]
-                                })
-                            });
-                            const data = await res.json();
-                            const texto = (data.content && data.content[0] && data.content[0].text) ? data.content[0].text : '{}';
-                            let parsed;
-                            try { parsed = JSON.parse(texto); } catch(e) { parsed = { nivel: 'nenhum', gravidade: 'sem_interacao', titulo: 'Erro ao processar', efeito: texto, mecanismo_resumo: '', onset: 'variavel', evidencia: 'suspeita', conduta: 'Consulte seu farmacêutico.' }; }
-
-                            const cores = { alto: 'alto', moderado: 'moderado', baixo: 'baixo', nenhum: 'baixo' };
-                            const icones = { alto: '🔴 RISCO ALTO', moderado: '🟡 RISCO MODERADO', baixo: '🟢 RISCO BAIXO', nenhum: '🟢 Sem interação relevante encontrada' };
-
-                            const badgeGravidade = (function() {
-                                const cfg = {
-                                    grave:         { bg: '#c0392b', color: '#fff', label: '● Grave' },
-                                    moderada:      { bg: '#e8751a', color: '#fff', label: '● Moderada' },
-                                    leve:          { bg: '#27ae60', color: '#fff', label: '● Leve' },
-                                    sem_interacao: { bg: '#95a5a6', color: '#fff', label: '● Sem interação' }
-                                };
-                                const g = cfg[parsed.gravidade] || cfg.sem_interacao;
-                                return '<span style="display:inline-block;background:' + g.bg + ';color:' + g.color + ';font-size:11px;font-weight:700;padding:2px 10px;border-radius:20px;margin-bottom:10px;">' + g.label + '</span>';
-                            })();
-
-                            const badgeOnset = parsed.onset ? '<span style="display:inline-block;background:#eaf0fb;color:#2c5282;font-size:11px;font-weight:600;padding:2px 8px;border-radius:20px;margin-right:4px;">⏱ Início: ' + { rapido: 'rápido', lento: 'lento', variavel: 'variável' }[parsed.onset] + '</span>' : '';
-                            const badgeEvidencia = parsed.evidencia ? '<span style="display:inline-block;background:#f0faf4;color:#276749;font-size:11px;font-weight:600;padding:2px 8px;border-radius:20px;">📚 Evidência: ' + { estabelecida: 'estabelecida', provavel: 'provável', suspeita: 'suspeita' }[parsed.evidencia] + '</span>' : '';
-
-                            const html = badgeGravidade
-                                + '<p><strong>⚠️ Efeito da interação:</strong><br>' + (parsed.efeito || 'Não identificado.') + '</p>'
-                                + (parsed.mecanismo_resumo ? '<p><strong>🔬 Mecanismo:</strong><br>' + parsed.mecanismo_resumo + '</p>' : '')
-                                + ((badgeOnset || badgeEvidencia) ? '<p style="margin-top:6px;">' + badgeOnset + badgeEvidencia + '</p>' : '')
-                                + '<p><strong>✅ Conduta recomendada:</strong><br>' + (parsed.conduta || 'Consulte seu médico ou farmacêutico.') + '</p>';
-
-                            const cor = cores[parsed.nivel] || 'baixo';
-                            const tituloFinal = (icones[parsed.nivel] || icones.nenhum) + (parsed.titulo ? ' — ' + parsed.titulo : '');
-                            nivel.className = 'mc-nivel-ia ' + cor;
-                            nivel.textContent = tituloFinal;
-                            corpo.innerHTML = html + '<p style="font-size:11px;color:#999;margin-top:8px;">✦ Analisado por Inteligência Artificial — Conteúdo educacional. Consulte sempre seu farmacêutico.</p>' + mcPremiumTeaser();
-                            mcCacheIA[cacheKey] = { nivel: cor, titulo: tituloFinal, html: html };
-                            mcRegistrarConsulta();
-                        } catch(e) {
-                            nivel.className = 'mc-nivel-ia neutro';
-                            nivel.textContent = '⚠️ Análise por IA temporariamente indisponível';
-                            corpo.innerHTML = '<p>No momento a análise por IA está temporariamente indisponível. Use a aba <strong>Interações Conhecidas</strong> para consultar nossa base com 501 combinações cadastradas.</p>';
-                        }
-                        btn.disabled = false;
+                        nivel.className = 'mc-nivel-ia baixo';
+                        nivel.textContent = '✅ Nenhuma interação cadastrada para este par';
+                        corpo.innerHTML = '<p>Nenhuma interação entre <strong>' + m1 + '</strong> e <strong>' + m2 + '</strong> está cadastrada na nossa base de dados.</p>'
+                            + '<p style="color:#666;font-size:13px;">Isso não garante ausência de interação — consulte sempre seu médico ou farmacêutico antes de combinar medicamentos.</p>'
+                            + mcPremiumTeaser();
+                        mcRegistrarConsulta();
                         return;
                     }
 
