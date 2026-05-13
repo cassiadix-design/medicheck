@@ -2059,7 +2059,7 @@ border-radius:0 0 20px 20px;
                 .mc-autocomplete { position: absolute; top: 100%; left: 0; right: 0; background: white; border: 2px solid #667eea; border-top: none; border-radius: 0 0 8px 8px; max-height: 180px; overflow-y: auto; z-index: 100; display: none; box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
                 .mc-autocomplete.show { display: block; }
                 .mc-autocomplete-item { padding: 10px 14px; font-size: 14px; cursor: pointer; color: #333; border-bottom: 1px solid #f0f0f0; }
-                .mc-autocomplete-item:hover { background: #f0f4ff; color: #667eea; font-weight: 600; }
+                .mc-autocomplete-item:hover, .mc-autocomplete-item.ativo { background: #f0f4ff; color: #667eea; font-weight: 600; }
                 .mc-btn-verificar { padding: 12px 22px; background: #c0392b; color: white; border: none; border-radius: 8px; font-weight: 700; cursor: pointer; font-size: 15px; font-family: inherit; white-space: nowrap; transition: 0.2s; }
                 .mc-btn-verificar:hover { background: #922b21; }
                 .mc-btn-verificar:disabled { background: #aaa; cursor: not-allowed; }
@@ -2117,11 +2117,11 @@ border-radius:0 0 20px 20px;
 
                     <div class="mc-busca-ia">
                         <div class="mc-busca-wrap">
-                            <input type="text" id="mc-inter1" placeholder="💊 Medicamento 1 (ex: alprazolam)" oninput="mcFiltrarAuto(this,'mc-ac1')" onblur="mcFecharAuto('mc-ac1',300)" autocomplete="off" />
+                            <input type="text" id="mc-inter1" placeholder="💊 Medicamento 1 (ex: alprazolam)" oninput="mcFiltrarAuto(this,'mc-ac1')" onkeydown="mcNavAuto(this,'mc-ac1',event)" onblur="mcFecharAuto('mc-ac1',300)" autocomplete="off" />
                             <div id="mc-ac1" class="mc-autocomplete"></div>
                         </div>
                         <div class="mc-busca-wrap">
-                            <input type="text" id="mc-inter2" placeholder="💊 Medicamento 2 (ex: codeína)" oninput="mcFiltrarAuto(this,'mc-ac2')" onblur="mcFecharAuto('mc-ac2',300)" autocomplete="off" />
+                            <input type="text" id="mc-inter2" placeholder="💊 Medicamento 2 (ex: codeína)" oninput="mcFiltrarAuto(this,'mc-ac2')" onkeydown="mcNavAuto(this,'mc-ac2',event)" onblur="mcFecharAuto('mc-ac2',300)" autocomplete="off" />
                             <div id="mc-ac2" class="mc-autocomplete"></div>
                         </div>
                         <button class="mc-btn-verificar" id="mc-btn" onclick="mcVerificar()">🔍 Verificar</button>
@@ -2680,9 +2680,12 @@ border-radius:0 0 20px 20px;
 
                 const mcCacheIA = {};
 
+                const mcAutoIdx = { 'mc-ac1': -1, 'mc-ac2': -1 };
+
                 function mcFiltrarAuto(input, acId) {
                     const val = input.value.toLowerCase().trim();
                     const ac = document.getElementById(acId);
+                    mcAutoIdx[acId] = -1;
                     if (val.length < 2) { ac.classList.remove('show'); return; }
                     const matches = mcMedNomes.filter(n => n.toLowerCase().includes(val)).slice(0, 8);
                     if (!matches.length) { ac.classList.remove('show'); return; }
@@ -2694,10 +2697,35 @@ border-radius:0 0 20px 20px;
                     const inputId = acId === 'mc-ac1' ? 'mc-inter1' : 'mc-inter2';
                     document.getElementById(inputId).value = nome;
                     document.getElementById(acId).classList.remove('show');
+                    mcAutoIdx[acId] = -1;
                 }
 
                 function mcFecharAuto(acId, delay) {
-                    setTimeout(() => document.getElementById(acId).classList.remove('show'), delay);
+                    setTimeout(() => { document.getElementById(acId).classList.remove('show'); mcAutoIdx[acId] = -1; }, delay);
+                }
+
+                function mcNavAuto(input, acId, e) {
+                    const ac = document.getElementById(acId);
+                    if (!ac.classList.contains('show')) { if (e.key === 'Enter') mcVerificar(); return; }
+                    const items = ac.querySelectorAll('.mc-autocomplete-item');
+                    if (!items.length) return;
+                    if (e.key === 'ArrowDown') {
+                        e.preventDefault();
+                        mcAutoIdx[acId] = Math.min(mcAutoIdx[acId] + 1, items.length - 1);
+                        items.forEach((item, i) => item.classList.toggle('ativo', i === mcAutoIdx[acId]));
+                    } else if (e.key === 'ArrowUp') {
+                        e.preventDefault();
+                        mcAutoIdx[acId] = Math.max(mcAutoIdx[acId] - 1, -1);
+                        items.forEach((item, i) => item.classList.toggle('ativo', i === mcAutoIdx[acId]));
+                    } else if (e.key === 'Enter') {
+                        if (mcAutoIdx[acId] >= 0 && items[mcAutoIdx[acId]]) {
+                            e.preventDefault();
+                            mcSelecionarAuto(acId, items[mcAutoIdx[acId]].textContent);
+                        }
+                    } else if (e.key === 'Escape') {
+                        ac.classList.remove('show');
+                        mcAutoIdx[acId] = -1;
+                    }
                 }
 
                 function mcTestar(m1, m2) {
