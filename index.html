@@ -5734,6 +5734,27 @@ window.addEventListener('DOMContentLoaded', () => {
         window.open(link, '_blank');
     }
 
+    // Detecta chegada de página de medicamento via URL (?med=NOME)
+    (function mcDetectarMed() {
+        const params = new URLSearchParams(window.location.search);
+        const med = params.get('med');
+        if (!med) return;
+        const url = new URL(window.location);
+        url.searchParams.delete('med');
+        window.history.replaceState({}, '', url);
+        setTimeout(() => {
+            const btnInter = document.querySelector('[data-tab="interacoes"]');
+            if (btnInter) btnInter.click();
+            const input1 = document.getElementById('mc-inter1');
+            if (input1) {
+                input1.value = med;
+                input1.dispatchEvent(new Event('input'));
+                const input2 = document.getElementById('mc-inter2');
+                if (input2) input2.focus();
+            }
+        }, 350);
+    })();
+
     // Detecta retorno de pagamento bem-sucedido via URL (?mc_status=approved)
     (function mcDetectarRetornoMP() {
         const params = new URLSearchParams(window.location.search);
