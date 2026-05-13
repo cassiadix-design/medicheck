@@ -2712,16 +2712,17 @@ border-radius:0 0 20px 20px;
                     'losec':'omeprazol','pepzol':'omeprazol',
                 };
                 function mcNorm(n) { return mcAlias[n] || n; }
+                function mcSemAcento(s) { return s.normalize('NFD').replace(/[̀-ͯ]/g, ''); }
 
                 const mcAutoIdx = { 'mc-ac1': -1, 'mc-ac2': -1, 'mc-ac-add': -1 };
                 let mcMeds = [];
 
                 function mcFiltrarAuto(input, acId) {
-                    const val = input.value.toLowerCase().trim();
+                    const val = mcSemAcento(input.value.toLowerCase().trim());
                     const ac = document.getElementById(acId);
                     mcAutoIdx[acId] = -1;
                     if (val.length < 2) { ac.classList.remove('show'); return; }
-                    const matches = mcMedNomes.filter(n => n.toLowerCase().includes(val)).slice(0, 8);
+                    const matches = mcMedNomes.filter(n => mcSemAcento(n.toLowerCase()).includes(val)).slice(0, 8);
                     if (!matches.length) { ac.classList.remove('show'); return; }
                     ac.innerHTML = matches.map(n => '<div class="mc-autocomplete-item" onmousedown="mcSelecionarAuto(\'' + acId + '\',\'' + n + '\')">' + n + '</div>').join('');
                     ac.classList.add('show');
@@ -2816,11 +2817,12 @@ border-radius:0 0 20px 20px;
                 }
 
                 function mcBuscarFixo(m1, m2) {
+                    const n1 = mcSemAcento(m1), n2 = mcSemAcento(m2);
                     for (const inter of mcInteracoesDB) {
-                        const a = inter.med1.some(m => m1.includes(m) || m.includes(m1));
-                        const b = inter.med2.some(m => m2.includes(m) || m.includes(m2));
-                        const c = inter.med2.some(m => m1.includes(m) || m.includes(m1));
-                        const d = inter.med1.some(m => m2.includes(m) || m.includes(m2));
+                        const a = inter.med1.some(m => { const s = mcSemAcento(m); return n1.includes(s) || s.includes(n1); });
+                        const b = inter.med2.some(m => { const s = mcSemAcento(m); return n2.includes(s) || s.includes(n2); });
+                        const c = inter.med2.some(m => { const s = mcSemAcento(m); return n1.includes(s) || s.includes(n1); });
+                        const d = inter.med1.some(m => { const s = mcSemAcento(m); return n2.includes(s) || s.includes(n2); });
                         if ((a && b) || (c && d)) return inter;
                     }
                     return null;
@@ -2876,6 +2878,7 @@ border-radius:0 0 20px 20px;
                 // Inicializa o contador ao carregar
                 (function() { setTimeout(mcAtualizarContador, 100); })();
 
+
                 async function mcVerificar() {
                     if (mcMeds.length < 2) { alert('Adicione pelo menos 2 medicamentos para verificar.'); return; }
 
@@ -2890,23 +2893,25 @@ border-radius:0 0 20px 20px;
                     const btn = document.getElementById('mc-btn');
                     resultado.classList.add('show');
 
-                    // Generate all C(n,2) pairs
-                    const pairs = [];
-                    for (let i = 0; i < mcMeds.length; i++)
-                        for (let j = i + 1; j < mcMeds.length; j++)
-                            pairs.push([mcMeds[i], mcMeds[j]]);
-
-                    const pairResults = pairs.map(([a, b]) => ({
-                        a, b, fixo: mcBuscarFixo(mcNorm(a.toLowerCase()), mcNorm(b.toLowerCase()))
-                    }));
-
-                    const anyFixed = pairResults.some(r => r.fixo !== null);
-
-                    // 2-drug, no fixed result → try AI
-                    if (mcMeds.length === 2 && !anyFixed) {
+                    // === 2 MEDICAMENTOS: resultado único (base fixa ou IA) ===
+                    if (mcMeds.length === 2) {
                         const [m1, m2] = mcMeds;
-                        const cacheKey = [mcNorm(m1.toLowerCase()), mcNorm(m2.toLowerCase())].sort().join('|');
+                        const fixo = mcBuscarFixo(mcNorm(m1.toLowerCase()), mcNorm(m2.toLowerCase()));
 
+                        if (fixo) {
+                            const textos = { alto: '🔴 RISCO ALTO', moderado: '🟡 RISCO MODERADO', baixo: '🟢 RISCO BAIXO' };
+                            nivel.className = 'mc-nivel-ia ' + fixo.nivel;
+                            nivel.textContent = textos[fixo.nivel] + ' — ' + fixo.titulo;
+                            corpo.innerHTML = '<p><strong>⚠️ Efeito da interação:</strong><br>' + fixo.efeito + '</p>'
+                                + (fixo.mecanismo ? '<p><strong>🔬 Mecanismo:</strong><br>' + fixo.mecanismo + '</p>' : '')
+                                + '<p><strong>✅ Conduta recomendada:</strong><br>' + fixo.conduta + '</p>'
+                                + '<p style="font-size:11px;color:#999;margin-top:8px;">Base de dados fixa — Conteúdo educacional revisado por farmacêutica responsável.</p>'
+                                + mcPremiumTeaser();
+                            mcRegistrarConsulta();
+                            return;
+                        }
+
+                        const cacheKey = [mcNorm(m1.toLowerCase()), mcNorm(m2.toLowerCase())].sort().join('|');
                         if (mcCacheIA[cacheKey]) {
                             const c = mcCacheIA[cacheKey];
                             nivel.className = 'mc-nivel-ia ' + c.nivel;
@@ -2976,7 +2981,16 @@ border-radius:0 0 20px 20px;
                         return;
                     }
 
-                    // Multi-pair mode: group results by risk level
+                    // === 3+ MEDICAMENTOS: verificar todos os pares e agrupar por risco ===
+                    const pairs = [];
+                    for (let i = 0; i < mcMeds.length; i++)
+                        for (let j = i + 1; j < mcMeds.length; j++)
+                            pairs.push([mcMeds[i], mcMeds[j]]);
+
+                    const pairResults = pairs.map(([a, b]) => ({
+                        a, b, fixo: mcBuscarFixo(mcNorm(a.toLowerCase()), mcNorm(b.toLowerCase()))
+                    }));
+
                     mcRegistrarConsulta();
 
                     const textos = { alto: '🔴 RISCO ALTO', moderado: '🟡 RISCO MODERADO', baixo: '🟢 RISCO BAIXO' };
