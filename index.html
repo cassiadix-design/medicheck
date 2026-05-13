@@ -1723,6 +1723,8 @@ border-radius:0 0 20px 20px;
         .premium-login-aviso { background: #f8f4ff; border: 2px solid #c5b3f7; border-radius: 12px; padding: 20px; text-align: center; margin-bottom: 20px; }
         .premium-login-aviso p { color: #4a3580; font-size: 15px; margin-bottom: 14px; }
     </style>
+    <!-- Configuração local (chave Anthropic — não vai ao GitHub) -->
+    <script src="config.js"></script>
     <!-- Firebase SDK -->
     <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app-compat.js"></script>
     <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-auth-compat.js"></script>
@@ -2810,23 +2812,41 @@ border-radius:0 0 20px 20px;
                     try {
                         const res = await fetch('https://api.anthropic.com/v1/messages', {
                             method: 'POST',
-                            headers: { 'Content-Type': 'application/json' },
+                            headers: { 'Content-Type': 'application/json', 'x-api-key': ANTHROPIC_API_KEY, 'anthropic-version': '2023-06-01', 'anthropic-dangerous-direct-browser-access': 'true' },
                             body: JSON.stringify({
                                 model: 'claude-sonnet-4-20250514',
                                 max_tokens: 1000,
-                                system: 'Você é uma farmacêutica especialista em interações medicamentosas. Analise a combinação e responda APENAS em JSON válido, sem markdown, sem explicação extra.\n\nFormato obrigatório:\n{"nivel":"alto"|"moderado"|"baixo"|"nenhum","titulo":"texto curto","efeito":"descrição clara do efeito","conduta":"conduta recomendada com emoji ❌ ⚠️ ou ✅","mecanismo":"mecanismo em 1 frase"}\n\nSe não houver interação relevante conhecida, use nivel "nenhum". Nunca invente interações graves que não existem.',
+                                system: 'Você é uma farmacêutica clínica especialista em interações medicamentosas e alimento-medicamento. Analise a combinação informada — que pode envolver dois medicamentos, um medicamento e um alimento, ou dois alimentos com efeito farmacológico relevante — e responda APENAS com um objeto JSON válido, sem markdown, sem texto adicional antes ou depois.\n\nCampos obrigatórios:\n- "nivel": "alto" | "moderado" | "baixo" | "nenhum"\n- "gravidade": "grave" | "moderada" | "leve" | "sem_interacao"\n- "titulo": título curto e descritivo da interação (máx. 60 caracteres)\n- "efeito": descrição clara do efeito clínico esperado, em linguagem acessível ao paciente\n- "mecanismo_resumo": mecanismo farmacológico em uma frase objetiva\n- "onset": "rapido" | "lento" | "variavel"\n- "evidencia": "estabelecida" | "provavel" | "suspeita"\n- "conduta": orientação prática com emoji adequado (❌ evitar, ⚠️ monitorar, ✅ seguro com cuidado)\n\nRegras:\n- Se não houver interação relevante conhecida, use nivel "nenhum" e gravidade "sem_interacao".\n- Nunca invente interações graves sem embasamento científico.\n- Para interações alimento-medicamento, adapte a linguagem para o contexto alimentar.\n- Mantenha tom profissional, claro e acessível ao público leigo.',
                                 messages: [{ role: 'user', content: 'Analise a interação entre: ' + m1 + ' e ' + m2 }]
                             })
                         });
                         const data = await res.json();
                         const texto = (data.content && data.content[0] && data.content[0].text) ? data.content[0].text : '{}';
                         let parsed;
-                        try { parsed = JSON.parse(texto); } catch(e) { parsed = { nivel: 'nenhum', titulo: 'Erro ao processar', efeito: texto, conduta: 'Consulte seu farmacêutico.', mecanismo: '' }; }
+                        try { parsed = JSON.parse(texto); } catch(e) { parsed = { nivel: 'nenhum', gravidade: 'sem_interacao', titulo: 'Erro ao processar', efeito: texto, mecanismo_resumo: '', onset: 'variavel', evidencia: 'suspeita', conduta: 'Consulte seu farmacêutico.' }; }
 
                         const cores = { alto: 'alto', moderado: 'moderado', baixo: 'baixo', nenhum: 'baixo' };
                         const icones = { alto: '🔴 RISCO ALTO', moderado: '🟡 RISCO MODERADO', baixo: '🟢 RISCO BAIXO', nenhum: '🟢 Sem interação relevante encontrada' };
 
-                        const html = '<p><strong>⚠️ Efeito da interação:</strong><br>' + (parsed.efeito || 'Não identificado.') + '</p>' + (parsed.mecanismo ? '<p><strong>🔬 Mecanismo:</strong><br>' + parsed.mecanismo + '</p>' : '') + '<p><strong>✅ Conduta recomendada:</strong><br>' + (parsed.conduta || 'Consulte seu médico ou farmacêutico.') + '</p>';
+                        const badgeGravidade = (function() {
+                            const cfg = {
+                                grave:         { bg: '#c0392b', color: '#fff', label: '● Grave' },
+                                moderada:      { bg: '#e8751a', color: '#fff', label: '● Moderada' },
+                                leve:          { bg: '#27ae60', color: '#fff', label: '● Leve' },
+                                sem_interacao: { bg: '#95a5a6', color: '#fff', label: '● Sem interação' }
+                            };
+                            const g = cfg[parsed.gravidade] || cfg.sem_interacao;
+                            return '<span style="display:inline-block;background:' + g.bg + ';color:' + g.color + ';font-size:11px;font-weight:700;padding:2px 10px;border-radius:20px;margin-bottom:10px;">' + g.label + '</span>';
+                        })();
+
+                        const badgeOnset = parsed.onset ? '<span style="display:inline-block;background:#eaf0fb;color:#2c5282;font-size:11px;font-weight:600;padding:2px 8px;border-radius:20px;margin-right:4px;">⏱ Início: ' + { rapido: 'rápido', lento: 'lento', variavel: 'variável' }[parsed.onset] + '</span>' : '';
+                        const badgeEvidencia = parsed.evidencia ? '<span style="display:inline-block;background:#f0faf4;color:#276749;font-size:11px;font-weight:600;padding:2px 8px;border-radius:20px;">📚 Evidência: ' + { estabelecida: 'estabelecida', provavel: 'provável', suspeita: 'suspeita' }[parsed.evidencia] + '</span>' : '';
+
+                        const html = badgeGravidade
+                            + '<p><strong>⚠️ Efeito da interação:</strong><br>' + (parsed.efeito || 'Não identificado.') + '</p>'
+                            + (parsed.mecanismo_resumo ? '<p><strong>🔬 Mecanismo:</strong><br>' + parsed.mecanismo_resumo + '</p>' : '')
+                            + ((badgeOnset || badgeEvidencia) ? '<p style="margin-top:6px;">' + badgeOnset + badgeEvidencia + '</p>' : '')
+                            + '<p><strong>✅ Conduta recomendada:</strong><br>' + (parsed.conduta || 'Consulte seu médico ou farmacêutico.') + '</p>';
 
                         const cor = cores[parsed.nivel] || 'baixo';
                         const tituloFinal = (icones[parsed.nivel] || icones.nenhum) + (parsed.titulo ? ' — ' + parsed.titulo : '');
