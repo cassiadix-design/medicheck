@@ -40252,5 +40252,641 @@
     "descricao_seo": "Clobutinol (Hytos Plus) é um medicamento PROIBIDO PELA ANVISA. O registro foi cancelado por causar risco de arritmia cardíaca grave — prolongamento do intervalo QT e Torsade de Pointes. Não use este medicamento. Se ainda tiver em casa, descarte em farmácia habilitada. Alternativas seguras para tosse seca: Dextrometorfano e Levodropropizina.",
     "alerta_farmaceutico": "Atenção: o Clobutinol (Hytos Plus) ainda pode aparecer em estoques antigos de pacientes ou em medicamentos importados ilegalmente. Qualquer produto contendo Clobutinol está proibido no Brasil. O risco de prolongamento do QT é potencializado com macrolídeos, azólicos, antipsicóticos e antiarrítmicos.",
     "quando_procurar_medico": "Se usou Clobutinol recentemente e sentir palpitações, batimento cardíaco irregular, tontura intensa, dor no peito ou desmaio: vá ao Pronto-Socorro ou ligue para o SAMU (192) imediatamente."
+  },
+  {
+    "nome": "Leucogen (Timomodulina)",
+    "generico": "Timomodulina",
+    "tipo": "Imunomodulador — Extrato de timo bovino",
+    "sinonimos": [
+      "leucogen",
+      "timomodulina",
+      "extrato de timo",
+      "fração proteica de timo"
+    ],
+    "descricao": "Extraído do timo bovino, o Leucogen é usado para modular o sistema imunológico — ajudar o corpo a se defender melhor de infecções, especialmente respiratórias. Age estimulando a maturação dos linfócitos T (células de defesa). Popular no Brasil para crianças e adultos com infecções respiratórias repetitivas. A evidência científica é moderada e o mecanismo ainda é estudado.",
+    "receita": "Sim",
+    "receita_display": "🔴 Receita Simples",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia.",
+    "receita_nota": "Geralmente usado em ciclos de 30 a 90 dias conforme orientação médica.",
+    "efeitos": "Geralmente muito bem tolerado. Raramente: reações alérgicas leves (coceira, vermelhidão), desconforto gástrico leve.",
+    "aviso_grave": "Não usar com imunossupressores potentes (ciclosporina, corticoides em doses altas, metotrexato) — podem ter efeitos opostos. Evitar em alergia a proteínas bovinas. Risco teórico mínimo de transmissão de príons (origem bovina), regulamentado pela ANVISA.",
+    "recomendacao": "⚠️ Usar sempre sob orientação médica. Não substitui tratamento de infecções ativas — auxilia na prevenção, não trata infecção já instalada.",
+    "educacao": "O timo é uma glândula do sistema imunológico responsável pela formação dos linfócitos T. Com a idade ele involui. O Leucogen fornece peptídeos que auxiliam nessa função, especialmente em crianças com infecções recorrentes.",
+    "resposta_rapida": [
+      "Reforço imunológico",
+      "Infecções respiratórias repetitivas",
+      "Receita simples",
+      "Origem bovina (extrato de timo)",
+      "Não trata infecções ativas"
+    ],
+    "receita_obrigatoria": true,
+    "tipo_receita": "simples",
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Leucogen serve para quê?",
+        "resposta": "Serve para modular o sistema imunológico — ajudar o corpo a se defender melhor de infecções, especialmente respiratórias. Muito usado em crianças que ficam doentes com frequência."
+      },
+      {
+        "pergunta": "Leucogen pode dar para criança?",
+        "resposta": "Sim. É amplamente prescrito por pediatras para crianças com infecções respiratórias recorrentes. Seguir sempre a dose e o tempo recomendados pelo médico."
+      },
+      {
+        "pergunta": "Quanto tempo leva para o Leucogen fazer efeito?",
+        "resposta": "O efeito é gradual. A maioria dos médicos prescreve por ciclos de 30 a 90 dias. Os resultados costumam aparecer com uso contínuo — não é de ação imediata."
+      },
+      {
+        "pergunta": "Leucogen pode tomar todo dia?",
+        "resposta": "Sim, geralmente é tomado todos os dias por um período determinado. A dose e o tempo seguem a orientação do médico."
+      },
+      {
+        "pergunta": "Leucogen engorda?",
+        "resposta": "Não. Leucogen não interfere no peso."
+      },
+      {
+        "pergunta": "Leucogen pode tomar com outros remédios?",
+        "resposta": "Em geral sim, mas deve-se evitar junto com imunossupressores (como ciclosporina ou corticoides em doses altas). Informe sempre o médico sobre todos os medicamentos que usa."
+      },
+      {
+        "pergunta": "Leucogen é o mesmo que vitamina C para imunidade?",
+        "resposta": "Não. São coisas diferentes. A vitamina C é antioxidante. O Leucogen age diretamente na maturação dos linfócitos T — células específicas de defesa. Mecanismos distintos."
+      },
+      {
+        "pergunta": "Leucogen pode ser usado durante a gravidez?",
+        "resposta": "Não há estudos suficientes sobre segurança na gravidez. Por precaução, gestantes devem evitar sem orientação médica clara."
+      },
+      {
+        "pergunta": "Leucogen é natural? Tem contraindicação?",
+        "resposta": "É de origem natural (extrato bovino), mas isso não significa isento de riscos. Contraindicado em alergia a proteínas bovinas e deve ser evitado com imunossupressores."
+      }
+    ],
+    "descricao_seo": "Leucogen (Timomodulina) é um imunomodulador de extrato de timo bovino, usado para reforçar a imunidade em infecções respiratórias recorrentes, especialmente em crianças. Age estimulando os linfócitos T. Geralmente bem tolerado. Exige receita médica.",
+    "alerta_farmaceutico": "Não confundir com vitaminas ou suplementos de venda livre. Leucogen é medicamento sujeito à receita. Atenção à procedência: produto sem registro ANVISA não tem qualidade garantida.",
+    "quando_procurar_medico": "Procure médico se: infecções continuarem frequentes após o ciclo, aparecerem sinais de alergia (inchaço, dificuldade para respirar), ou qualquer sintoma incomum durante o uso."
+  },
+  {
+    "nome": "Ciclosporina",
+    "generico": "Ciclosporina",
+    "tipo": "Imunossupressor — Inibidor de calcineurina",
+    "sinonimos": [
+      "sandimmun",
+      "neoral",
+      "equoral",
+      "imusporin",
+      "ciclosporin",
+      "ciclosporina 25mg",
+      "ciclosporina 50mg",
+      "ciclosporina 100mg"
+    ],
+    "descricao": "Potente medicamento que suprime o sistema imunológico. Essencial para evitar a rejeição de órgãos transplantados (rim, fígado, coração, pulmão). Também usado em doenças onde o sistema imunológico ataca o próprio corpo: artrite reumatoide grave, psoríase grave, síndrome nefrótica, doença inflamatória intestinal. Age bloqueando os linfócitos T — células responsáveis pela rejeição e pela inflamação.",
+    "receita": "Sim",
+    "receita_display": "🔴 Receita Simples",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Exige prescrição médica. Medicamento de uso altamente especializado — geralmente prescrito por nefrologista, reumatologista, dermatologista ou equipe de transplante.",
+    "receita_nota": "Monitoramento regular de função renal, pressão arterial e nível sérico obrigatório durante todo o tratamento.",
+    "efeitos": "Redução da função renal (muito comum e dose-dependente), pressão alta, crescimento excessivo de pelos (hipertricose), aumento da gengiva (hiperplasia gengival), tremores nas mãos, náuseas. Com uso prolongado: risco maior de infecções graves e de alguns tipos de câncer (linfoma, câncer de pele).",
+    "aviso_grave": "NEFROTÓXICO — pode prejudicar os rins progressivamente. Monitorar creatinina e ureia regularmente. HIPERTENSÃO — pode elevar a pressão arterial. MUITAS INTERAÇÕES CRÍTICAS: antifúngicos azólicos (fluconazol, itraconazol, cetoconazol) elevam muito os níveis — risco de toxicidade renal grave. Rifampicina, carbamazepina e fenitoína REDUZEM os níveis — risco de rejeição. Estatinas (sinvastatina, lovastatina) aumentam risco de lesão muscular grave. Não ingerir toranja (grapefruit).",
+    "recomendacao": "⚠️ Nunca interromper sem orientação médica — em transplantados pode causar rejeição aguda. Consultas e exames regulares obrigatórios. Evitar exposição solar excessiva (risco de câncer de pele). Usar protetor solar diariamente.",
+    "educacao": "A ciclosporina tem janela terapêutica estreita — a diferença entre dose eficaz e dose tóxica é pequena. Por isso, exames de nível sérico (dosagem no sangue) são feitos regularmente. Dose baixa = risco de rejeição; dose alta = toxicidade renal.",
+    "resposta_rapida": [
+      "Transplantes de órgãos",
+      "Doenças autoimunes graves",
+      "Monitorar rins e pressão sempre",
+      "Muitas interações medicamentosas",
+      "Não parar sem orientação médica"
+    ],
+    "receita_obrigatoria": true,
+    "tipo_receita": "simples",
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Ciclosporina causa queda de cabelo?",
+        "resposta": "Ao contrário — a ciclosporina causa crescimento excessivo de pelos (hipertricose), não queda. Hiperplasia gengival (crescimento da gengiva) também é comum."
+      },
+      {
+        "pergunta": "Ciclosporina engorda?",
+        "resposta": "Pode causar retenção de líquidos e indiretamente aumento de peso. Muitos pacientes também usam corticoides juntos, que contribuem para ganho de peso."
+      },
+      {
+        "pergunta": "Posso tomar fluconazol com ciclosporina?",
+        "resposta": "Apenas com monitoramento médico rigoroso. O fluconazol inibe a enzima que metaboliza a ciclosporina, podendo triplicar seus níveis no sangue — risco sério de toxicidade renal."
+      },
+      {
+        "pergunta": "Ciclosporina pode afetar os rins permanentemente?",
+        "resposta": "Sim, uso prolongado em doses altas pode causar fibrose renal (cicatriz no rim) irreversível. Por isso o monitoramento regular da função renal é obrigatório."
+      },
+      {
+        "pergunta": "Posso parar de tomar ciclosporina?",
+        "resposta": "Nunca sozinho — especialmente em transplantados. A interrupção abrupta pode causar rejeição aguda do órgão, que é uma emergência médica grave."
+      },
+      {
+        "pergunta": "Ciclosporina pode ser usada para psoríase?",
+        "resposta": "Sim. Em psoríase grave que não responde a outros tratamentos, é uma opção eficaz. Geralmente em ciclos curtos (3 a 6 meses) para minimizar os efeitos nos rins."
+      },
+      {
+        "pergunta": "Ciclosporina e sol: pode tomar sol?",
+        "resposta": "Deve-se evitar exposição solar excessiva e usar protetor solar. A ciclosporina suprime a imunidade da pele e aumenta o risco de câncer de pele com exposição solar."
+      },
+      {
+        "pergunta": "Ciclosporina pode tomar com estatina de colesterol?",
+        "resposta": "Com cautela. Ciclosporina aumenta os níveis das estatinas no sangue — especialmente sinvastatina e lovastatina — aumentando risco de lesão muscular grave. Preferir pravastatina ou rosuvastatina em doses menores."
+      },
+      {
+        "pergunta": "Posso comer toranja (grapefruit) tomando ciclosporina?",
+        "resposta": "Não. A toranja inibe a mesma enzima que metaboliza a ciclosporina, elevando seus níveis e aumentando o risco de toxicidade. Evite totalmente durante o tratamento."
+      }
+    ],
+    "descricao_seo": "Ciclosporina é um imunossupressor potente usado em transplantes de órgãos e doenças autoimunes graves como artrite reumatoide, psoríase e síndrome nefrótica. Age bloqueando os linfócitos T. Exige monitoramento rigoroso dos rins, pressão e nível sérico. Muitas interações medicamentosas críticas.",
+    "alerta_farmaceutico": "Ciclosporina tem janela terapêutica estreita e formulações NÃO são intercambiáveis (Neoral vs Sandimmun têm biodisponibilidade diferente). Não substituir marca sem avaliação médica. Interações com azólicos e rifampicina são críticas. Estatinas — preferir pravastatina.",
+    "quando_procurar_medico": "Emergência: diminuição súbita da urina, inchaço intenso nas pernas, pressão muito alta com dor de cabeça, febre com calafrios (infecção grave em imunossuprimido), ou — em transplantados — qualquer sinal de rejeição (febre, dor no local do transplante, piora do órgão)."
+  },
+  {
+    "nome": "Propiltiouracil (PTU)",
+    "generico": "Propiltiouracil",
+    "tipo": "Antitireoidiano — Inibidor da síntese de hormônios tireoidianos",
+    "sinonimos": [
+      "ptu",
+      "propiltiouracil 100mg",
+      "propiltiouracila"
+    ],
+    "descricao": "Medicamento que reduz a produção de hormônios pela tireoide. Usado quando a tireoide está hiperativa (hipertireoidismo), como na Doença de Graves e no bócio multinodular tóxico. Além de bloquear a produção dos hormônios, o PTU também impede a conversão de T4 em T3 (a forma mais ativa). É a escolha preferida no primeiro trimestre da gravidez por atravessar menos a placenta que o metimazol.",
+    "receita": "Sim",
+    "receita_display": "🔴 Receita Simples",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Exige prescrição médica, geralmente de endocrinologista.",
+    "receita_nota": "Geralmente tomado 3 vezes ao dia (a cada 8 horas) para manter níveis estáveis. Dose ajustada conforme exames de T3, T4 livre e TSH.",
+    "efeitos": "Coceira (prurido), erupção cutânea (rash), dores nas articulações, febre, náuseas. Raro mas grave: agranulocitose (queda dos glóbulos brancos). Hepatotoxicidade (lesão hepática) é mais comum com PTU do que com metimazol.",
+    "aviso_grave": "AGRANULOCITOSE: febre súbita + dor de garganta intensa durante o tratamento = emergência médica imediata — hemograma urgente. Pode indicar queda grave dos glóbulos brancos, fatal sem tratamento rápido. HEPATOTOXICIDADE: olhos amarelados, urina escura, dor abdominal = parar imediatamente e buscar atendimento urgente. Por esse risco hepático maior, PTU não é a primeira escolha fora da gravidez.",
+    "recomendacao": "⚠️ Exames regulares: TSH, T4 livre e hemograma durante o tratamento. Nunca interromper sozinho — pode causar recaída grave do hipertireoidismo (crise tireotóxica). Informar ao médico qualquer febre ou infecção durante o uso.",
+    "educacao": "O PTU age de duas formas: impede a tireoide de fabricar novos hormônios E bloqueia a conversão de T4 em T3 nos tecidos. Por isso em crises graves (tempestade tireoidiana) o PTU é preferido ao metimazol. Na gravidez, é usado no 1º trimestre pois atravessa menos a placenta.",
+    "resposta_rapida": [
+      "Hipertireoidismo (tireoide acelerada)",
+      "Doença de Graves",
+      "Preferido no 1º trimestre da gravidez",
+      "Tomar de 8 em 8 horas",
+      "Febre + dor de garganta = emergência"
+    ],
+    "receita_obrigatoria": true,
+    "tipo_receita": "simples",
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "PTU é melhor que Metimazol (Tapazol)?",
+        "resposta": "Depende da situação. O PTU é preferido no 1º trimestre da gravidez e em crises graves de hipertireoidismo. Fora esses casos, o metimazol é geralmente preferido por ter menor risco de dano ao fígado e posologia mais conveniente (1 a 2 vezes ao dia)."
+      },
+      {
+        "pergunta": "PTU pode ser usado na gravidez?",
+        "resposta": "Sim, especialmente no primeiro trimestre. Após o 1º trimestre, muitos médicos fazem a transição para metimazol. A decisão deve ser do médico com acompanhamento cuidadoso."
+      },
+      {
+        "pergunta": "PTU causa queda de cabelo?",
+        "resposta": "A queda de cabelo no hipertireoidismo é causada principalmente pela doença em si. Com o controle do hipertireoidismo pelo PTU, os cabelos tendem a melhorar."
+      },
+      {
+        "pergunta": "Quanto tempo leva para o PTU fazer efeito?",
+        "resposta": "Os primeiros efeitos aparecem em 2 a 4 semanas, mas a normalização completa dos hormônios pode levar 4 a 8 semanas. Os exames são o melhor guia."
+      },
+      {
+        "pergunta": "PTU pode ser tomado com levotiroxina?",
+        "resposta": "Sim. Em alguns casos o médico usa os dois juntos ('bloquear e repor'). Não fazer isso por conta própria."
+      },
+      {
+        "pergunta": "Posso parar de tomar PTU se me sentir melhor?",
+        "resposta": "Não. O hipertireoidismo pode parecer controlado, mas os sintomas voltam rápido sem o medicamento. A interrupção deve ser gradual e sempre orientada pelo médico com base nos exames."
+      },
+      {
+        "pergunta": "PTU faz mal para o fígado?",
+        "resposta": "Pode. O PTU tem mais risco de causar dano hepático do que o metimazol. Sinais de alerta: pele ou olhos amarelados, urina muito escura, dor no lado direito do abdômen. Se isso acontecer, procure seu médico imediatamente."
+      },
+      {
+        "pergunta": "É normal sentir dor nas juntas tomando PTU?",
+        "resposta": "Dores articulares são um efeito adverso relatado. Se for leve, pode-se continuar com monitoramento. Se for intensa ou com inchaço, informe o médico."
+      }
+    ],
+    "descricao_seo": "Propiltiouracil (PTU) é um antitireoidiano para hipertireoidismo (Doença de Graves, bócio tóxico). Reduz a produção de hormônios pela tireoide e bloqueia a conversão de T4 em T3. Escolha preferida no 1º trimestre da gravidez. Febre com dor de garganta durante o uso exige avaliação emergencial imediata (agranulocitose).",
+    "alerta_farmaceutico": "PTU tem mais risco de hepatotoxicidade grave que metimazol — monitorar enzimas hepáticas. Agranulocitose é emergência — orientar explicitamente sobre febre + dor de garganta. Não substituir PTU por metimazol sem orientação (especialmente gestantes no 1º trimestre).",
+    "quando_procurar_medico": "Emergência: febre + dor de garganta forte (possível agranulocitose), pele/olhos amarelados ou urina escura (hepatite), batimento cardíaco muito acelerado ou irregular. Consulta: TSH fora da faixa, qualquer nódulo novo na tireoide, sintomas de hipotireoidismo (cansaço extremo, ganho de peso) indicando superdosagem."
+  },
+  {
+    "nome": "Metimazol (Tapazol)",
+    "generico": "Metimazol",
+    "tipo": "Antitireoidiano — Inibidor da síntese de hormônios tireoidianos",
+    "sinonimos": [
+      "tapazol",
+      "metimazol",
+      "metibasol",
+      "tapazole"
+    ],
+    "descricao": "O antitireoidiano mais utilizado no tratamento do hipertireoidismo (tireoide acelerada). Age bloqueando a enzima que a tireoide usa para produzir seus hormônios (T3 e T4). Mais potente e com efeito mais duradouro que o PTU, o que permite tomar apenas 1 a 2 vezes ao dia. É a primeira escolha para hipertireoidismo em adultos fora da gravidez.",
+    "receita": "Sim",
+    "receita_display": "🔴 Receita Simples",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Exige prescrição médica, geralmente de endocrinologista.",
+    "receita_nota": "Geralmente tomado 1 a 2 vezes ao dia. A dose é ajustada conforme exames de TSH, T3 e T4 livre.",
+    "efeitos": "Coceira (prurido) e erupção cutânea são os mais comuns. Febre, dores nas articulações, náuseas. Raro mas grave: agranulocitose (queda de glóbulos brancos). Menos hepatotóxico que o PTU. Em doses altas pode causar hipotireoidismo (tireoide lenta demais).",
+    "aviso_grave": "AGRANULOCITOSE: febre súbita + dor de garganta durante o tratamento = emergência médica imediata — hemograma urgente. TERATOGÊNICO NO 1º TRIMESTRE: pode causar defeito raro no couro cabeludo do bebê (aplasia cutis) — EVITAR no 1º trimestre da gravidez (usar PTU nesse período).",
+    "recomendacao": "⚠️ Exames regulares de TSH, T4 livre e hemograma obrigatórios. Avisar qualquer febre ou infecção durante o uso. Não parar sem orientação — pode causar recaída grave do hipertireoidismo.",
+    "educacao": "Diferente do PTU, o metimazol age apenas bloqueando a produção de hormônios na tireoide. Por isso é preferido no dia a dia: menos frequência de doses e menor risco ao fígado. Usado há décadas, é o antitireoidiano padrão no mundo.",
+    "resposta_rapida": [
+      "Hipertireoidismo (tireoide acelerada)",
+      "Doença de Graves",
+      "Primeira escolha fora da gravidez",
+      "1 a 2 vezes ao dia",
+      "Febre + dor de garganta = emergência"
+    ],
+    "receita_obrigatoria": true,
+    "tipo_receita": "simples",
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Metimazol (Tapazol) engorda?",
+        "resposta": "Pode parecer que sim. Quando o hipertireoidismo é controlado, o metabolismo volta ao normal — o corpo para de 'queimar' tudo em excesso. Isso pode levar a um leve ganho de peso, que é na verdade o retorno ao peso saudável."
+      },
+      {
+        "pergunta": "Tapazol pode ser usado na gravidez?",
+        "resposta": "Evitar no 1º trimestre — pode causar defeito raro no couro cabeludo do bebê (aplasia cutis). No 2º e 3º trimestres pode ser usado em doses menores. No 1º trimestre, o PTU é preferido."
+      },
+      {
+        "pergunta": "Quanto tempo leva para o Metimazol fazer efeito?",
+        "resposta": "Em 2 a 6 semanas os hormônios começam a normalizar. A melhora dos sintomas (coração acelerado, nervosismo, suor excessivo) costuma aparecer em 3 a 4 semanas. Os exames orientam os ajustes."
+      },
+      {
+        "pergunta": "Metimazol causa queda de cabelo?",
+        "resposta": "A queda de cabelo no hipertireoidismo é causada pela doença em si. Com o tratamento e o controle da tireoide, os cabelos tendem a melhorar."
+      },
+      {
+        "pergunta": "Posso parar o Metimazol quando a tireoide normalizar?",
+        "resposta": "Não por conta própria. O médico decide quando e como reduzir a dose com base nos exames. Muitos pacientes precisam do medicamento por 12 a 18 meses ou mais."
+      },
+      {
+        "pergunta": "Metimazol pode curar o hipertireoidismo?",
+        "resposta": "Em alguns casos sim — cerca de 40 a 60% dos pacientes com Doença de Graves entram em remissão após 12 a 18 meses de tratamento. Outros precisam de tratamento definitivo (iodo radioativo ou cirurgia)."
+      },
+      {
+        "pergunta": "O que é Tapazol?",
+        "resposta": "Tapazol é o nome comercial do metimazol. O princípio ativo é o mesmo. É o antitireoidiano mais usado no mundo para controlar o hipertireoidismo."
+      },
+      {
+        "pergunta": "Metimazol pode tomar com levotiroxina?",
+        "resposta": "Sim, em alguns casos o médico combina os dois (esquema 'block and replace'). Nunca faça isso por conta própria — requer monitoramento constante dos exames."
+      }
+    ],
+    "descricao_seo": "Metimazol (Tapazol) é o antitireoidiano mais usado no tratamento do hipertireoidismo. Bloqueia a produção de hormônios pela tireoide. É a primeira escolha fora da gravidez — no 1º trimestre usa-se PTU. Exige exames regulares. Febre com dor de garganta durante o uso é emergência médica (agranulocitose).",
+    "alerta_farmaceutico": "Metimazol e PTU não são intercambiáveis — especialmente em gestantes. No 1º trimestre da gestação, usar PTU. Após o 1º trimestre, avaliar retorno ao metimazol. Monitorar hemograma. Orientar explicitamente sobre sinal de alarme: febre + dor de garganta = emergência.",
+    "quando_procurar_medico": "Emergência: febre súbita com dor de garganta intensa (agranulocitose), olhos ou pele amarelados (hepatite), coração muito acelerado e irregular. Consulta de rotina: TSH fora da faixa, surgimento de nódulo na tireoide, sintomas de hipotireoidismo (cansaço extremo, friagem) indicando superdosagem."
+  },
+  {
+    "nome": "Fluvoxamina",
+    "generico": "Fluvoxamina",
+    "tipo": "Antidepressivo ISRS — Inibidor Seletivo da Recaptação de Serotonina",
+    "sinonimos": [
+      "luvox",
+      "fluvoxamina maleato",
+      "fluvoxamine"
+    ],
+    "descricao": "Antidepressivo da família dos ISRS (mesma classe da fluoxetina e sertralina), com indicação preferencial para o Transtorno Obsessivo-Compulsivo (TOC). Também usado em depressão, fobia social e ansiedade. Tem o perfil de interações medicamentosas mais complexo dos ISRS — é potente inibidor das enzimas CYP1A2 e CYP3A4, que metabolizam muitos outros remédios.",
+    "receita": "Sim",
+    "receita_display": "🔴 Receita Simples",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia.",
+    "receita_nota": "Geralmente iniciado em dose baixa (50mg) e aumentado gradualmente. Tomar preferencialmente à noite pela sedação inicial.",
+    "efeitos": "Náuseas e vômitos (muito comuns no início), sonolência, boca seca, tontura, insônia, cefaleia, disfunção sexual. Os efeitos gastrointestinais tendem a melhorar após 2 a 3 semanas.",
+    "aviso_grave": "MÚLTIPLAS INTERAÇÕES GRAVES: inibe CYP1A2 e CYP3A4. Eleva perigosamente os níveis de: clozapina (COMBINAÇÃO PERIGOSA — pode causar convulsão e colapso), teofilina, cafeína em excesso e outros medicamentos metabolizados por essas enzimas. SÍNDROME SEROTONINÉRGICA: não combinar com outros antidepressivos serotoninérgicos, tramadol ou linezolida sem supervisão médica.",
+    "recomendacao": "⚠️ Informar ao médico e farmacêutico TODOS os medicamentos em uso — as interações são muitas e podem ser graves. Não interromper de forma abrupta — reduzir gradualmente para evitar síndrome de descontinuação.",
+    "educacao": "A fluvoxamina aumenta a disponibilidade de serotonina no cérebro, reduzindo pensamentos obsessivos e compulsões do TOC. Em relação a outros ISRS, tem o maior impacto no metabolismo de outros medicamentos — isso é o ponto de atenção mais importante.",
+    "resposta_rapida": [
+      "TOC (Transtorno Obsessivo-Compulsivo)",
+      "Depressão e fobia social",
+      "Receita simples",
+      "Tomar de preferência à noite",
+      "Muitas interações — informar todos os remédios"
+    ],
+    "receita_obrigatoria": true,
+    "tipo_receita": "simples",
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Fluvoxamina serve para TOC?",
+        "resposta": "Sim. É um dos antidepressivos com indicação mais sólida para o Transtorno Obsessivo-Compulsivo. Em geral, são necessárias doses maiores e mais tempo de tratamento do que na depressão."
+      },
+      {
+        "pergunta": "Fluvoxamina dá sono?",
+        "resposta": "Sim, a sonolência é relatada especialmente no início. Por isso é frequentemente prescrita para tomar à noite. Com o tempo, esse efeito costuma diminuir."
+      },
+      {
+        "pergunta": "Quanto tempo leva para a Fluvoxamina fazer efeito?",
+        "resposta": "Para depressão, o efeito aparece em 2 a 4 semanas. No TOC, pode levar 6 a 12 semanas para o efeito completo. O tratamento normalmente dura pelo menos 1 ano."
+      },
+      {
+        "pergunta": "Fluvoxamina engorda?",
+        "resposta": "É um dos ISRS com menor tendência a ganho de peso. Alguns pacientes perdem peso no início pelas náuseas. Em uso prolongado, pequenas variações de peso podem ocorrer."
+      },
+      {
+        "pergunta": "Posso tomar Fluvoxamina com clozapina?",
+        "resposta": "Apenas com supervisão médica muito rigorosa. A fluvoxamina pode aumentar os níveis de clozapina no sangue em 5 a 10 vezes — isso é perigoso e pode causar convulsão."
+      },
+      {
+        "pergunta": "Posso tomar café tomando Fluvoxamina?",
+        "resposta": "Com moderação. A fluvoxamina inibe a enzima que metaboliza a cafeína (CYP1A2), fazendo a cafeína durar muito mais. Excesso de café pode intensificar insônia, agitação e palpitações."
+      },
+      {
+        "pergunta": "Fluvoxamina pode ser usada por crianças?",
+        "resposta": "Sim. É um dos poucos ISRS aprovados para crianças e adolescentes com TOC. A dose é menor e ajustada pelo peso."
+      },
+      {
+        "pergunta": "O que acontece se parar de tomar Fluvoxamina de repente?",
+        "resposta": "Pode causar síndrome de descontinuação: tontura, sensação de choques elétricos, irritabilidade, ansiedade, insônia. Sempre reduzir gradualmente com orientação médica."
+      },
+      {
+        "pergunta": "Fluvoxamina dá dependência?",
+        "resposta": "Não cria dependência química como benzodiazepínicos ou opioides. Mas o organismo se adapta e a retirada abrupta causa sintomas desconfortáveis — por isso deve ser feita de forma gradual."
+      }
+    ],
+    "descricao_seo": "Fluvoxamina (Luvox) é um antidepressivo ISRS com indicação preferencial para TOC (Transtorno Obsessivo-Compulsivo). Também usado em depressão e fobia social. Tem o maior potencial de interações medicamentosas da classe — inibe CYP1A2 e CYP3A4. Combinação com clozapina é perigosa. Requer receita médica.",
+    "alerta_farmaceutico": "Fluvoxamina tem o maior potencial de interações entre os ISRS. Paciente usando clozapina NÃO deve iniciar fluvoxamina sem ajuste rigoroso da dose de clozapina. Cafeína acumula-se mais. Não dispensar sem checar medicamentos concomitantes.",
+    "quando_procurar_medico": "Procure médico se: aumento das obsessões e compulsões apesar do tratamento, pensamentos de se machucar, febre alta com agitação e batimentos acelerados (possível síndrome serotoninérgica — emergência), convulsão, ou sintomas intensos ao reduzir a dose."
+  },
+  {
+    "nome": "Oxicodona",
+    "generico": "Oxicodona",
+    "tipo": "Analgésico opioide — Agonista opioide forte",
+    "sinonimos": [
+      "oxycontin",
+      "oxyneo",
+      "oxicodona cloridrato",
+      "oxyfast",
+      "targin"
+    ],
+    "descricao": "Opioide forte indicado para dor intensa que não responde a analgésicos convencionais — como dor oncológica, dor pós-operatória grave ou dor crônica severa. Existe em formulações de liberação imediata (ação em 30 minutos) e liberação prolongada — OxyContin (age por 12 horas). No Brasil é medicamento de controle especial (Lista B2), com receita amarela retida na farmácia.",
+    "receita": "Sim",
+    "receita_display": "🔴 Receita B2 — Controle Especial (Amarela)",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Receita de controle especial (Lista B2 — psicotrópico) obrigatória. A receita amarela é retida na farmácia. Máximo de 30 dias por receita. Só pode ser prescrita por médico habilitado.",
+    "receita_nota": "A receita é retida na farmácia. Cada receita permite dispensar apenas 30 dias de tratamento. Guarde o comprovante de retirada.",
+    "efeitos": "Constipação intestinal (quase universal — iniciar laxativo preventivo), náuseas, vômitos, sonolência, tontura, boca seca, coceira. Com uso prolongado: dependência física, tolerância (necessidade de doses maiores). Superdosagem: depressão respiratória grave.",
+    "aviso_grave": "DEPRESSÃO RESPIRATÓRIA — superdosagem pode causar parada respiratória e morte. Antídoto: naloxona (Narcan). DEPENDÊNCIA — usar pelo menor tempo e na menor dose eficaz. NÃO combinar com álcool, benzodiazepínicos (clonazepam, diazepam) ou outros sedativos — risco de morte por parada respiratória. OxyContin (liberação prolongada) NUNCA deve ser partido, mastigado ou dissolvido. ABSTINÊNCIA: interrupção abrupta causa síndrome severa.",
+    "recomendacao": "⚠️ Usar APENAS conforme a prescrição — nunca aumentar a dose por conta própria. Iniciar laxativo preventivo (constipação é quase certa). Guardar em local seguro, trancado, longe de crianças. Se for parar, reduzir gradualmente com orientação médica.",
+    "educacao": "A oxicodona age nos receptores opioides do cérebro e medula espinhal, reduzindo a percepção da dor. A tolerância pode se desenvolver com o tempo. Isso não é o mesmo que vício — pacientes que usam corretamente para dor real raramente desenvolvem transtorno por uso de opioides.",
+    "resposta_rapida": [
+      "Dor intensa (oncológica, pós-operatória)",
+      "Receita amarela retida — Controle Especial B2",
+      "Não partir ou mastigar OxyContin",
+      "Não misturar com álcool ou benzodiazepínico",
+      "Prevenir constipação com laxativo"
+    ],
+    "receita_obrigatoria": true,
+    "tipo_receita": "b2",
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Oxicodona vicia?",
+        "resposta": "Pode causar dependência física (o corpo se adapta e precisa do medicamento), o que é diferente de vício. Pacientes que usam corretamente para dor crônica raramente desenvolvem comportamento de vício. O risco existe, por isso é controlado e prescrito com cuidado."
+      },
+      {
+        "pergunta": "Oxicodona é mais forte que morfina?",
+        "resposta": "Tem potência similar ou ligeiramente superior à morfina por via oral. São usados em situações parecidas, com variações conforme o paciente e o médico."
+      },
+      {
+        "pergunta": "O que é OxyContin?",
+        "resposta": "OxyContin é a marca de oxicodona de liberação prolongada — age por 12 horas. Não deve ser partido, mastigado ou dissolvido. Isso liberaria toda a dose de uma vez — risco de morte."
+      },
+      {
+        "pergunta": "Oxicodona pode tomar com Clonazepam ou Diazepam?",
+        "resposta": "Não sem supervisão médica rigorosa. A combinação de opioide + benzodiazepínico é responsável por muitas mortes por superdosagem — ambos deprimem a respiração."
+      },
+      {
+        "pergunta": "Oxicodona dá constipação?",
+        "resposta": "Sim, quase sempre. A constipação não melhora com o tempo (ao contrário da náusea). Por isso recomenda-se iniciar um laxativo preventivo (lactulose ou bisacodil) ao mesmo tempo."
+      },
+      {
+        "pergunta": "O que fazer em caso de superdosagem de oxicodona?",
+        "resposta": "Ligue imediatamente para o SAMU (192) ou vá ao pronto-socorro. Antídoto: naloxona (Narcan). Sinais: respiração muito lenta ou parada, lábios azulados, não acorda."
+      },
+      {
+        "pergunta": "Posso parar de tomar oxicodona de repente?",
+        "resposta": "Não. A interrupção abrupta causa síndrome de abstinência: dores musculares intensas, ansiedade, sudorese, vômitos, diarreia, insônia. Reduzir gradualmente com orientação médica."
+      },
+      {
+        "pergunta": "Como guardar a oxicodona em casa com segurança?",
+        "resposta": "Em local seguro, trancado se possível, longe de crianças e adolescentes. Opioides são frequentemente desviados dentro de casa. Devolver sobras na farmácia para descarte seguro."
+      }
+    ],
+    "descricao_seo": "Oxicodona é um analgésico opioide forte para dor intensa, como dor oncológica e pós-operatória. Controle Especial B2 — receita amarela retida na farmácia. Risco de dependência e depressão respiratória. Não combinar com álcool ou benzodiazepínicos. Prevenir constipação com laxativo. OxyContin não deve ser partido.",
+    "alerta_farmaceutico": "Verificar receita de controle especial B2 (amarela) — retida. Orientar sobre risco grave na combinação com benzodiazepínicos, álcool e outros depressores do SNC. Constipação é quase certa — recomendar laxativo profilático. OxyContin (liberação prolongada) não deve ser partido ou mastigado — risco de superdosagem fatal.",
+    "quando_procurar_medico": "EMERGÊNCIA — SAMU (192) imediatamente se: respiração muito lenta ou parou, lábios azulados, não consegue acordar. Consulta urgente se: dor fora de controle mesmo com o medicamento, sinais de abstinência (dores intensas, vômitos ao reduzir dose), comportamento de busca compulsiva por mais medicamento."
+  },
+  {
+    "nome": "Valaciclovir",
+    "generico": "Valaciclovir",
+    "tipo": "Antiviral — Pró-fármaco do aciclovir",
+    "sinonimos": [
+      "valtrex",
+      "valacyclovir",
+      "herpstal",
+      "valaciclovir cloridrato",
+      "valvir"
+    ],
+    "descricao": "Antiviral usado no tratamento de infecções pelo vírus herpes: herpes labial (bolhinhas no lábio), herpes genital, herpes-zóster (cobreiro) e varicela (catapora) em adultos imunocomprometidos. É o pró-fármaco do aciclovir — o organismo o converte em aciclovir, mas com absorção 3 a 5 vezes melhor pelo intestino. Isso permite doses menos frequentes e mais práticas que o aciclovir.",
+    "receita": "Sim",
+    "receita_display": "🔴 Receita Simples",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia.",
+    "receita_nota": "Para herpes labial: 2g a cada 12h por apenas 1 dia. Para herpes genital e cobreiro: doses e duração variam. Sempre seguir a prescrição.",
+    "efeitos": "Geralmente bem tolerado. Dor de cabeça, náuseas, vômitos, diarreia, tontura. Em doses altas ou imunodeprimidos: comprometimento renal.",
+    "aviso_grave": "Manter boa hidratação durante o tratamento — especialmente em doses altas e em idosos — para evitar acúmulo nos rins. Ajuste de dose obrigatório em insuficiência renal. Em imunodeprimidos graves (HIV, transplantados), doses altas podem raramente causar comprometimento renal sério.",
+    "recomendacao": "⚠️ Iniciar o tratamento o mais cedo possível — o valaciclovir é mais eficaz quando tomado nos primeiros sinais da crise (formigamento, ardência) antes da bolha aparecer. Beber bastante água durante o tratamento.",
+    "educacao": "O valaciclovir não elimina o vírus do organismo — o herpes fica latente nos nervos para sempre. O medicamento reduz a intensidade e duração das crises e, em uso contínuo (supressivo), diminui a frequência das recorrências e o risco de transmissão para o parceiro.",
+    "resposta_rapida": [
+      "Herpes labial, genital e cobreiro",
+      "Iniciar nos primeiros sintomas",
+      "Beber bastante água",
+      "Mais eficaz que aciclovir oral (menos doses)",
+      "Receita simples"
+    ],
+    "receita_obrigatoria": true,
+    "tipo_receita": "simples",
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Valaciclovir cura o herpes?",
+        "resposta": "Não. O herpes não tem cura — o vírus fica dormente nos nervos pelo resto da vida. O valaciclovir controla as crises e, em uso contínuo, diminui a frequência das recorrências."
+      },
+      {
+        "pergunta": "Qual a diferença entre valaciclovir e aciclovir?",
+        "resposta": "O valaciclovir é convertido em aciclovir pelo organismo, mas é absorvido 3 a 5 vezes melhor pelo intestino. Para herpes labial, funciona em apenas 2 doses em 1 dia, contra 5 doses ao dia por 5 dias do aciclovir."
+      },
+      {
+        "pergunta": "Valaciclovir pode ser usado na gravidez?",
+        "resposta": "Com orientação médica. É usado na gravidez em casos de herpes genital ativo — o risco da infecção para o bebê (especialmente durante o parto) geralmente supera o risco do medicamento."
+      },
+      {
+        "pergunta": "Posso tomar valaciclovir todo dia para prevenir herpes?",
+        "resposta": "Sim, o uso supressivo (diário) é indicado para pessoas com herpes genital com muitas recorrências ou que querem reduzir o risco de transmissão para o parceiro."
+      },
+      {
+        "pergunta": "Valaciclovir funciona para herpes-zóster (cobreiro)?",
+        "resposta": "Sim, é um dos tratamentos padrão para o cobreiro. O importante é iniciar dentro de 72 horas do surgimento das bolhas — quanto mais cedo, melhor o resultado e menor o risco de dor persistente após as bolhas (neuralgia pós-herpética)."
+      },
+      {
+        "pergunta": "Valaciclovir engorda?",
+        "resposta": "Não. Valaciclovir não afeta o peso."
+      },
+      {
+        "pergunta": "Posso beber álcool com valaciclovir?",
+        "resposta": "O álcool não tem interação direta grave. Mas pode desidratar o organismo e enfraquecer a imunidade — prejudicando a recuperação. Evitar ou reduzir durante o tratamento."
+      },
+      {
+        "pergunta": "Valaciclovir funciona para herpes no lábio causado por estresse?",
+        "resposta": "Sim — o herpes labial é causado pelo HSV-1, e o valaciclovir é eficaz. Para maior resultado, usar nos primeiros sintomas (formigamento ou ardência no lábio), antes da bolha aparecer."
+      }
+    ],
+    "descricao_seo": "Valaciclovir (Valtrex) é um antiviral para herpes labial, herpes genital e cobreiro (herpes-zóster). Pró-fármaco do aciclovir com absorção superior — doses menos frequentes. Iniciar nos primeiros sintomas. Beber bastante água. Receita médica obrigatória.",
+    "alerta_farmaceutico": "Valaciclovir NÃO é intercambiável em dose 1:1 com aciclovir — posologias são diferentes. Para herpes labial: 2g a cada 12h por 1 dia (Valtrex) vs 5 doses diárias de aciclovir por 5 dias. Em insuficiência renal: ajuste de dose obrigatório. Orientar hidratação adequada.",
+    "quando_procurar_medico": "Procure médico se: bolhas surgem no olho (ceratite herpética — emergência para a visão), dor intensa persiste depois que as bolhas sumiram no cobreiro (neuralgia pós-herpética), primeira crise de herpes genital, ou sinais de comprometimento renal (urina escura, diminuição da quantidade de urina)."
+  },
+  {
+    "nome": "Tamoxifeno",
+    "generico": "Tamoxifeno",
+    "tipo": "Hormônioterapia — Modulador Seletivo do Receptor de Estrogênio (SERM)",
+    "sinonimos": [
+      "nolvadex",
+      "tamoxifeno citrato",
+      "kessar",
+      "tecnofen"
+    ],
+    "descricao": "Medicamento usado principalmente no tratamento do câncer de mama com receptores hormonais positivos (RE+/RP+). Age bloqueando o efeito do estrogênio nas células mamárias — impedindo o crescimento de tumores que dependem desse hormônio para crescer. É a principal hormônioterapia para mulheres pré-menopausa com câncer de mama. Também é usado em homens com câncer de mama e, em doses menores, para induzir ovulação.",
+    "receita": "Sim",
+    "receita_display": "🔴 Receita Simples",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Exige prescrição médica. O tratamento do câncer de mama é acompanhado por oncologista.",
+    "receita_nota": "Geralmente 1 comprimido de 20mg por dia, por 5 a 10 anos, conforme indicação oncológica.",
+    "efeitos": "Ondas de calor (fogachos — muito comuns), irregularidade menstrual, amenorreia, corrimento vaginal, ressecamento vaginal, náuseas. Em uso prolongado: aumento do risco de câncer de endométrio (útero) e de trombose venosa.",
+    "aviso_grave": "CÂNCER DE ENDOMÉTRIO: qualquer sangramento vaginal anormal durante o tratamento = consulta imediata ao ginecologista. TROMBOSE: risco aumentado de trombose venosa profunda (TVP) e embolia pulmonar — procurar emergência se dor e inchaço na perna ou dificuldade súbita para respirar. TERATOGÊNICO: não usar na gravidez. Usar contracepção eficaz não hormonal durante o tratamento. INTERAÇÃO CRÍTICA: fluoxetina e paroxetina reduzem a eficácia do tamoxifeno — preferir outros antidepressivos.",
+    "recomendacao": "⚠️ Informar ao oncologista sobre TODOS os medicamentos — especialmente antidepressivos. Exame ginecológico anual obrigatório para monitorar o endométrio. Contracepção não hormonal (DIU de cobre, preservativo) é obrigatória durante o tratamento.",
+    "educacao": "O tamoxifeno é um pró-fármaco convertido no fígado em endoxifeno, que é o responsável pelo efeito antitumoral. Medicamentos que inibem a enzima CYP2D6 (como fluoxetina e paroxetina) reduzem essa conversão, tornando o tamoxifeno menos eficaz.",
+    "resposta_rapida": [
+      "Câncer de mama RE+ (receptores hormonais positivos)",
+      "Principal hormônioterapia pré-menopausa",
+      "5 a 10 anos de tratamento",
+      "Sangramento vaginal = consulta imediata",
+      "Não usar com fluoxetina ou paroxetina"
+    ],
+    "receita_obrigatoria": true,
+    "tipo_receita": "simples",
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Para que serve o tamoxifeno?",
+        "resposta": "Principalmente para tratar o câncer de mama que tem receptores para o estrogênio (RE+). Bloqueia o estrogênio nas células do tumor, impedindo o crescimento. Usado por 5 a 10 anos após a cirurgia para prevenir recaídas."
+      },
+      {
+        "pergunta": "Tamoxifeno engorda?",
+        "resposta": "Pode contribuir para ganho de peso — por mudanças hormonais, retenção de líquidos e fogachos que afetam sono e atividade física. Uma rotina de exercícios ajuda a controlar o peso."
+      },
+      {
+        "pergunta": "Posso engravidar tomando tamoxifeno?",
+        "resposta": "Não. O tamoxifeno é teratogênico — pode causar malformações no bebê. Usar contracepção eficaz e não hormonal durante todo o tratamento e por pelo menos 2 meses após o término."
+      },
+      {
+        "pergunta": "Tamoxifeno pode tomar com fluoxetina?",
+        "resposta": "Não é recomendado. A fluoxetina inibe a enzima que converte o tamoxifeno em seu princípio ativo (endoxifeno), tornando o tratamento do câncer menos eficaz. Pergunte ao oncologista sobre opções de antidepressivo com menor interferência."
+      },
+      {
+        "pergunta": "Por quanto tempo preciso tomar tamoxifeno?",
+        "resposta": "Geralmente 5 anos. Estudos mostram que 10 anos reduz ainda mais o risco de recaída. O oncologista avalia cada caso. É um tratamento longo, mas essencial para prevenir o retorno do câncer."
+      },
+      {
+        "pergunta": "Tamoxifeno causa câncer?",
+        "resposta": "O tamoxifeno reduz drasticamente o risco de recaída do câncer de mama. Porém, age como estrogênio no útero — aumentando levemente o risco de câncer de endométrio com uso prolongado. Por isso qualquer sangramento vaginal deve ser investigado imediatamente."
+      },
+      {
+        "pergunta": "Tamoxifeno dá fogacho (ondas de calor)?",
+        "resposta": "Sim — ondas de calor são o efeito mais comum, especialmente no início. Melhoram com o tempo para a maioria. Roupas leves, ambientes frescos e, quando necessário, medicamentos específicos podem ajudar."
+      },
+      {
+        "pergunta": "Tamoxifeno pode ser usado em homens?",
+        "resposta": "Sim. Câncer de mama em homens é raro, mas quando ocorre com receptores hormonais positivos, o tamoxifeno é o tratamento hormonal de escolha."
+      },
+      {
+        "pergunta": "Posso parar o tamoxifeno se os efeitos colaterais incomodam muito?",
+        "resposta": "Converse com seu oncologista antes de parar. Os efeitos geralmente melhoram com o tempo. Interromper o tratamento aumenta o risco de recaída. Há opções para manejar os efeitos sem parar o tratamento."
+      }
+    ],
+    "descricao_seo": "Tamoxifeno (Nolvadex) é o principal tratamento hormonal para câncer de mama RE+ em mulheres pré-menopausa. Usado por 5 a 10 anos. Efeitos: fogachos, risco de câncer de endométrio e trombose. Interação importante com fluoxetina e paroxetina (reduzem eficácia). Exige receita médica e acompanhamento oncológico.",
+    "alerta_farmaceutico": "Interação crítica: fluoxetina, paroxetina e bupropiona inibem CYP2D6 — reduzem conversão do tamoxifeno em endoxifeno, comprometendo eficácia oncológica. Orientar sobre sangramento vaginal (endométrio) e sinais de trombose. Contracepção não hormonal obrigatória.",
+    "quando_procurar_medico": "Emergência: dor e inchaço em uma perna + vermelhidão (TVP), dificuldade súbita para respirar ou dor no peito (embolia pulmonar). Consulta urgente: qualquer sangramento vaginal durante o tratamento — pode indicar hiperplasia ou câncer de endométrio. Rotina: exame ginecológico anual obrigatório."
+  },
+  {
+    "nome": "Letrozol",
+    "generico": "Letrozol",
+    "tipo": "Hormônioterapia — Inibidor de Aromatase (3ª geração)",
+    "sinonimos": [
+      "femara",
+      "letrozol",
+      "femstimax",
+      "letrozolo"
+    ],
+    "descricao": "Medicamento que bloqueia a produção de estrogênio em mulheres após a menopausa. Usado no tratamento do câncer de mama com receptores hormonais positivos em mulheres pós-menopausa — geralmente por 5 anos após a cirurgia. Age inibindo a aromatase, a enzima que converte andrógenos em estrogênio nos tecidos gordurosos (principal fonte de estrogênio após a menopausa). Também amplamente usado para indução da ovulação em mulheres com dificuldade para engravidar.",
+    "receita": "Sim",
+    "receita_display": "🔴 Receita Simples",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Exige prescrição médica. Para câncer de mama, prescrito por oncologista. Para indução da ovulação, por ginecologista especializado.",
+    "receita_nota": "Câncer de mama: 1 comprimido de 2,5mg por dia por 5 anos ou mais. Indução da ovulação: 2,5 a 5mg por dia do 3º ao 7º dia do ciclo menstrual.",
+    "efeitos": "Ondas de calor (fogachos), dores nas articulações e ossos (artralgia — muito comuns, afetam 30 a 50% das pacientes), fadiga, osteopenia (perda de densidade óssea), ressecamento vaginal, cefaleia, náuseas.",
+    "aviso_grave": "PERDA ÓSSEA: o letrozol reduz muito o estrogênio, acelerando a perda de cálcio dos ossos — suplementação de cálcio e vitamina D obrigatória, densitometria óssea regular. CONTRAINDICADO NA GRAVIDEZ: causa malformações graves — mesmo em uso para induzir ovulação, suspender quando a gravidez é confirmada. NÃO USAR EM PRÉ-MENOPAUSA para câncer de mama sem supressão ovariana — o bloqueio periférico de estrogênio é insuficiente.",
+    "recomendacao": "⚠️ Tomar cálcio (1000 a 1200mg/dia) e vitamina D3 (1000 a 2000UI/dia) durante todo o tratamento para proteger os ossos. Exercícios com impacto (caminhada, musculação leve) também ajudam. Reportar ao oncologista dor articular intensa que prejudique a qualidade de vida.",
+    "educacao": "Diferente do tamoxifeno, o letrozol não bloqueia os receptores do estrogênio — impede que o estrogênio seja produzido. Por isso é mais eficaz em mulheres pós-menopausa e ineficaz sem supressão ovariana em pré-menopausa.",
+    "resposta_rapida": [
+      "Câncer de mama pós-menopausa (RE+)",
+      "5 anos de tratamento",
+      "Tomar cálcio e vitamina D obrigatoriamente",
+      "Dores nas articulações são comuns",
+      "Não usar na gravidez"
+    ],
+    "receita_obrigatoria": true,
+    "tipo_receita": "simples",
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Letrozol é para que?",
+        "resposta": "Principalmente para tratar câncer de mama com receptores hormonais positivos em mulheres após a menopausa. Também muito usado para induzir ovulação em mulheres com dificuldade para engravidar."
+      },
+      {
+        "pergunta": "Letrozol dói nas juntas? Dor nos ossos é normal?",
+        "resposta": "Sim, dores nas articulações (artralgia) e músculos são os efeitos mais comuns e incomodativos. Afetam 30 a 50% das pacientes. Para muitas melhoram com o tempo. Se for muito intensa, converse com o oncologista."
+      },
+      {
+        "pergunta": "Letrozol para engravidar: como funciona?",
+        "resposta": "Em mulheres com dificuldade para ovular (como na SOP), o letrozol é tomado por 5 dias no início do ciclo para estimular a ovulação. É tão eficaz quanto o clomifeno, com menos efeitos colaterais."
+      },
+      {
+        "pergunta": "Letrozol engorda?",
+        "resposta": "Pode causar pequeno aumento de peso, relacionado à queda de estrogênio (semelhante à menopausa). Alimentação equilibrada e exercícios ajudam a controlar o peso."
+      },
+      {
+        "pergunta": "Letrozol pode ser tomado por mulheres antes da menopausa?",
+        "resposta": "Para câncer de mama, não — a menos que os ovários estejam suprimidos com outro medicamento (análogo de GnRH). Para indução da ovulação, pode ser usado em pré-menopausa — suspenso quando a gravidez é confirmada."
+      },
+      {
+        "pergunta": "Letrozol prejudica os ossos?",
+        "resposta": "Sim. Ao reduzir o estrogênio (que protege os ossos), acelera a perda óssea. Por isso cálcio e vitamina D são obrigatórios durante todo o tratamento, e a densitometria óssea é feita regularmente."
+      },
+      {
+        "pergunta": "Qual a diferença entre letrozol e tamoxifeno?",
+        "resposta": "Ambos tratam câncer de mama RE+, mas de formas diferentes. Tamoxifeno bloqueia o receptor do estrogênio; letrozol impede a produção do estrogênio. O tamoxifeno é preferido em pré-menopausa; o letrozol, em pós-menopausa, onde é geralmente mais eficaz."
+      },
+      {
+        "pergunta": "Por quanto tempo preciso tomar letrozol?",
+        "resposta": "Para câncer de mama, geralmente 5 anos. Em alguns casos de alto risco pode-se estender para 10 anos. Para indução de ovulação, é por apenas 5 dias por ciclo."
+      },
+      {
+        "pergunta": "Posso parar o letrozol se os efeitos colaterais forem fortes?",
+        "resposta": "Converse com seu oncologista antes de qualquer decisão. Os efeitos às vezes podem ser manejados. Parar o tratamento aumenta o risco de recaída do câncer. Há alternativas se o letrozol não estiver sendo tolerado."
+      }
+    ],
+    "descricao_seo": "Letrozol (Femara) é um inibidor de aromatase para câncer de mama com receptores hormonais positivos em mulheres pós-menopausa. Também usado para induzir ovulação. Efeitos: dores articulares, fogachos, perda óssea. Cálcio e vitamina D obrigatórios durante o tratamento. Contraindicado na gravidez. Receita médica.",
+    "alerta_farmaceutico": "Letrozol é contraindicado em pré-menopausa para câncer sem supressão ovariana. Cálcio + vitamina D obrigatórios — orientar suplementação óssea. Teratogênico — orientar contracepção mesmo em uso para infertilidade. Dores articulares são comuns — não confundir com artrite nova.",
+    "quando_procurar_medico": "Consulta urgente: dores articulares muito intensas que impedem atividades do dia a dia, fratura com trauma mínimo (osteoporose grave), sinais de coágulo (dor + inchaço na perna). Rotina: densitometria óssea anual, exames de sangue conforme orientação oncológica."
   }
 ]
