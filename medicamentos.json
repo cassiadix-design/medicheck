@@ -3109,6 +3109,22 @@
     "interacoes": [
       {
         "com": [
+          "fluoxetina",
+          "sertralina",
+          "escitalopram",
+          "paroxetina",
+          "citalopram",
+          "venlafaxina",
+          "duloxetina",
+          "fluvoxamina"
+        ],
+        "nivel": "moderado",
+        "titulo": "ISRS / IRSN + Benzodiazepínico / Hipnótico",
+        "efeito": "Potencialização da sedação do sistema nervoso central. Risco de sonolência excessiva, comprometimento psicomotor e, em doses altas, depressão respiratória. Fluoxetina e fluvoxamina também inibem CYP3A4, elevando níveis de alprazolam, clonazepam e zolpidem.",
+        "conduta": "⚠️ Usar com cautela. Iniciar benzodiazepínico na menor dose possível. Evitar dirigir ou operar máquinas. Preferir benzodiazepínicos de meia-vida curta. Fluoxetina e fluvoxamina requerem redução de dose do benzodiazepínico."
+      },
+      {
+        "com": [
           "codeína",
           "tramadol",
           "morfina",
@@ -8942,6 +8958,22 @@
     "interacoes": [
       {
         "com": [
+          "fluoxetina",
+          "sertralina",
+          "escitalopram",
+          "paroxetina",
+          "citalopram",
+          "venlafaxina",
+          "duloxetina",
+          "fluvoxamina"
+        ],
+        "nivel": "moderado",
+        "titulo": "ISRS / IRSN + Benzodiazepínico / Hipnótico",
+        "efeito": "Potencialização da sedação do sistema nervoso central. Risco de sonolência excessiva, comprometimento psicomotor e, em doses altas, depressão respiratória. Fluoxetina e fluvoxamina também inibem CYP3A4, elevando níveis de alprazolam, clonazepam e zolpidem.",
+        "conduta": "⚠️ Usar com cautela. Iniciar benzodiazepínico na menor dose possível. Evitar dirigir ou operar máquinas. Preferir benzodiazepínicos de meia-vida curta. Fluoxetina e fluvoxamina requerem redução de dose do benzodiazepínico."
+      },
+      {
+        "com": [
           "codeína",
           "tramadol",
           "morfina",
@@ -13802,6 +13834,22 @@
     "interacoes": [
       {
         "com": [
+          "alprazolam",
+          "clonazepam",
+          "diazepam",
+          "lorazepam",
+          "bromazepam",
+          "midazolam",
+          "zolpidem",
+          "zopiclona"
+        ],
+        "nivel": "moderado",
+        "titulo": "ISRS / IRSN + Benzodiazepínico / Hipnótico",
+        "efeito": "Potencialização da sedação do sistema nervoso central. Risco de sonolência excessiva, comprometimento psicomotor e, em doses altas, depressão respiratória. Fluoxetina e fluvoxamina também inibem CYP3A4, elevando níveis de alprazolam, clonazepam e zolpidem.",
+        "conduta": "⚠️ Usar com cautela. Iniciar benzodiazepínico na menor dose possível. Evitar dirigir ou operar máquinas. Preferir benzodiazepínicos de meia-vida curta. Fluoxetina e fluvoxamina requerem redução de dose do benzodiazepínico."
+      },
+      {
+        "com": [
           "rasagilina"
         ],
         "nivel": "alto",
@@ -14584,6 +14632,22 @@
     "alerta_farmaceutico": "Erro comum no balcão: paciente pede para dobrar a dose porque \"está sentindo menos efeito\" — é sinal de tolerância farmacológica, não de dose insuficiente. Aumentar a dose por conta própria acelera a dependência física e o desmame posterior será mais difícil.",
     "quando_procurar_medico": "Procure médico se: dificuldade para respirar durante o sono, confusão mental intensa, comportamentos automáticos sem memória, dependência (necessidade de doses maiores), ou crise de abstinência ao tentar parar (tremores, suor, convulsão).",
     "interacoes": [
+      {
+        "com": [
+          "fluoxetina",
+          "sertralina",
+          "escitalopram",
+          "paroxetina",
+          "citalopram",
+          "venlafaxina",
+          "duloxetina",
+          "fluvoxamina"
+        ],
+        "nivel": "moderado",
+        "titulo": "ISRS / IRSN + Benzodiazepínico / Hipnótico",
+        "efeito": "Potencialização da sedação do sistema nervoso central. Risco de sonolência excessiva, comprometimento psicomotor e, em doses altas, depressão respiratória. Fluoxetina e fluvoxamina também inibem CYP3A4, elevando níveis de alprazolam, clonazepam e zolpidem.",
+        "conduta": "⚠️ Usar com cautela. Iniciar benzodiazepínico na menor dose possível. Evitar dirigir ou operar máquinas. Preferir benzodiazepínicos de meia-vida curta. Fluoxetina e fluvoxamina requerem redução de dose do benzodiazepínico."
+      },
       {
         "com": [
           "codeína",
@@ -18816,6 +18880,22 @@
     "interacoes": [
       {
         "com": [
+          "fluoxetina",
+          "sertralina",
+          "escitalopram",
+          "paroxetina",
+          "citalopram",
+          "venlafaxina",
+          "duloxetina",
+          "fluvoxamina"
+        ],
+        "nivel": "moderado",
+        "titulo": "ISRS / IRSN + Benzodiazepínico / Hipnótico",
+        "efeito": "Potencialização da sedação do sistema nervoso central. Risco de sonolência excessiva, comprometimento psicomotor e, em doses altas, depressão respiratória. Fluoxetina e fluvoxamina também inibem CYP3A4, elevando níveis de alprazolam, clonazepam e zolpidem.",
+        "conduta": "⚠️ Usar com cautela. Iniciar benzodiazepínico na menor dose possível. Evitar dirigir ou operar máquinas. Preferir benzodiazepínicos de meia-vida curta. Fluoxetina e fluvoxamina requerem redução de dose do benzodiazepínico."
+      },
+      {
+        "com": [
           "codeína",
           "tramadol",
           "morfina",
@@ -21328,6 +21408,22 @@
     "interacoes": [
       {
         "com": [
+          "alprazolam",
+          "clonazepam",
+          "diazepam",
+          "lorazepam",
+          "bromazepam",
+          "midazolam",
+          "zolpidem",
+          "zopiclona"
+        ],
+        "nivel": "moderado",
+        "titulo": "ISRS / IRSN + Benzodiazepínico / Hipnótico",
+        "efeito": "Potencialização da sedação do sistema nervoso central. Risco de sonolência excessiva, comprometimento psicomotor e, em doses altas, depressão respiratória. Fluoxetina e fluvoxamina também inibem CYP3A4, elevando níveis de alprazolam, clonazepam e zolpidem.",
+        "conduta": "⚠️ Usar com cautela. Iniciar benzodiazepínico na menor dose possível. Evitar dirigir ou operar máquinas. Preferir benzodiazepínicos de meia-vida curta. Fluoxetina e fluvoxamina requerem redução de dose do benzodiazepínico."
+      },
+      {
+        "com": [
           "tramadol",
           "tapentadol"
         ],
@@ -22872,6 +22968,22 @@
     "alerta_farmaceutico": "Erro comum no balcão: paciente para o antidepressivo abruptamente quando se sente bem — pode causar síndrome de descontinuação (tontura, \"choques elétricos\", irritabilidade, insônia). A retirada deve ser sempre gradual sob supervisão médica.",
     "quando_procurar_medico": "Procure médico se: pensamentos de automutilação ou suicídio, agitação intensa ou piora do humor nos primeiros dias, febre alta com rigidez muscular e confusão (síndrome serotoninérgica), convulsões, ou incapacidade de continuar o tratamento.",
     "interacoes": [
+      {
+        "com": [
+          "alprazolam",
+          "clonazepam",
+          "diazepam",
+          "lorazepam",
+          "bromazepam",
+          "midazolam",
+          "zolpidem",
+          "zopiclona"
+        ],
+        "nivel": "moderado",
+        "titulo": "ISRS / IRSN + Benzodiazepínico / Hipnótico",
+        "efeito": "Potencialização da sedação do sistema nervoso central. Risco de sonolência excessiva, comprometimento psicomotor e, em doses altas, depressão respiratória. Fluoxetina e fluvoxamina também inibem CYP3A4, elevando níveis de alprazolam, clonazepam e zolpidem.",
+        "conduta": "⚠️ Usar com cautela. Iniciar benzodiazepínico na menor dose possível. Evitar dirigir ou operar máquinas. Preferir benzodiazepínicos de meia-vida curta. Fluoxetina e fluvoxamina requerem redução de dose do benzodiazepínico."
+      },
       {
         "com": [
           "rasagilina"
@@ -26269,6 +26381,22 @@
     "interacoes": [
       {
         "com": [
+          "alprazolam",
+          "clonazepam",
+          "diazepam",
+          "lorazepam",
+          "bromazepam",
+          "midazolam",
+          "zolpidem",
+          "zopiclona"
+        ],
+        "nivel": "moderado",
+        "titulo": "ISRS / IRSN + Benzodiazepínico / Hipnótico",
+        "efeito": "Potencialização da sedação do sistema nervoso central. Risco de sonolência excessiva, comprometimento psicomotor e, em doses altas, depressão respiratória. Fluoxetina e fluvoxamina também inibem CYP3A4, elevando níveis de alprazolam, clonazepam e zolpidem.",
+        "conduta": "⚠️ Usar com cautela. Iniciar benzodiazepínico na menor dose possível. Evitar dirigir ou operar máquinas. Preferir benzodiazepínicos de meia-vida curta. Fluoxetina e fluvoxamina requerem redução de dose do benzodiazepínico."
+      },
+      {
+        "com": [
           "rasagilina"
         ],
         "nivel": "alto",
@@ -26580,6 +26708,22 @@
     "alerta_farmaceutico": "Erro comum no balcão: paciente para o antidepressivo abruptamente quando se sente bem — pode causar síndrome de descontinuação (tontura, \"choques elétricos\", irritabilidade, insônia). A retirada deve ser sempre gradual sob supervisão médica.",
     "quando_procurar_medico": "Procure médico se: pensamentos de automutilação ou suicídio, agitação intensa ou piora do humor nos primeiros dias, febre alta com rigidez muscular e confusão (síndrome serotoninérgica), convulsões, ou incapacidade de continuar o tratamento.",
     "interacoes": [
+      {
+        "com": [
+          "alprazolam",
+          "clonazepam",
+          "diazepam",
+          "lorazepam",
+          "bromazepam",
+          "midazolam",
+          "zolpidem",
+          "zopiclona"
+        ],
+        "nivel": "moderado",
+        "titulo": "ISRS / IRSN + Benzodiazepínico / Hipnótico",
+        "efeito": "Potencialização da sedação do sistema nervoso central. Risco de sonolência excessiva, comprometimento psicomotor e, em doses altas, depressão respiratória. Fluoxetina e fluvoxamina também inibem CYP3A4, elevando níveis de alprazolam, clonazepam e zolpidem.",
+        "conduta": "⚠️ Usar com cautela. Iniciar benzodiazepínico na menor dose possível. Evitar dirigir ou operar máquinas. Preferir benzodiazepínicos de meia-vida curta. Fluoxetina e fluvoxamina requerem redução de dose do benzodiazepínico."
+      },
       {
         "com": [
           "rasagilina"
@@ -35938,6 +36082,22 @@
     "interacoes": [
       {
         "com": [
+          "fluoxetina",
+          "sertralina",
+          "escitalopram",
+          "paroxetina",
+          "citalopram",
+          "venlafaxina",
+          "duloxetina",
+          "fluvoxamina"
+        ],
+        "nivel": "moderado",
+        "titulo": "ISRS / IRSN + Benzodiazepínico / Hipnótico",
+        "efeito": "Potencialização da sedação do sistema nervoso central. Risco de sonolência excessiva, comprometimento psicomotor e, em doses altas, depressão respiratória. Fluoxetina e fluvoxamina também inibem CYP3A4, elevando níveis de alprazolam, clonazepam e zolpidem.",
+        "conduta": "⚠️ Usar com cautela. Iniciar benzodiazepínico na menor dose possível. Evitar dirigir ou operar máquinas. Preferir benzodiazepínicos de meia-vida curta. Fluoxetina e fluvoxamina requerem redução de dose do benzodiazepínico."
+      },
+      {
+        "com": [
           "codeína",
           "tramadol",
           "morfina",
@@ -38866,6 +39026,22 @@
     "alerta_farmaceutico": "Erro comum no balcão: paciente relata que \"o medicamento não está mais fazendo efeito\" e pede dose maior — é tolerância farmacológica, e aumentar a dose por conta própria acelera a dependência física. O médico deve ser consultado para reavaliação.",
     "quando_procurar_medico": "Procure médico se: dificuldade para respirar durante o sono, confusão mental intensa, comportamentos automáticos sem memória, dependência (necessidade de doses maiores), ou crise de abstinência ao tentar parar (tremores, suor, convulsão).",
     "interacoes": [
+      {
+        "com": [
+          "fluoxetina",
+          "sertralina",
+          "escitalopram",
+          "paroxetina",
+          "citalopram",
+          "venlafaxina",
+          "duloxetina",
+          "fluvoxamina"
+        ],
+        "nivel": "moderado",
+        "titulo": "ISRS / IRSN + Benzodiazepínico / Hipnótico",
+        "efeito": "Potencialização da sedação do sistema nervoso central. Risco de sonolência excessiva, comprometimento psicomotor e, em doses altas, depressão respiratória. Fluoxetina e fluvoxamina também inibem CYP3A4, elevando níveis de alprazolam, clonazepam e zolpidem.",
+        "conduta": "⚠️ Usar com cautela. Iniciar benzodiazepínico na menor dose possível. Evitar dirigir ou operar máquinas. Preferir benzodiazepínicos de meia-vida curta. Fluoxetina e fluvoxamina requerem redução de dose do benzodiazepínico."
+      },
       {
         "tipo": "duplicacao",
         "classe": "Benzodiazepínico",
@@ -45235,6 +45411,22 @@
     "interacoes": [
       {
         "com": [
+          "alprazolam",
+          "clonazepam",
+          "diazepam",
+          "lorazepam",
+          "bromazepam",
+          "midazolam",
+          "zolpidem",
+          "zopiclona"
+        ],
+        "nivel": "moderado",
+        "titulo": "ISRS / IRSN + Benzodiazepínico / Hipnótico",
+        "efeito": "Potencialização da sedação do sistema nervoso central. Risco de sonolência excessiva, comprometimento psicomotor e, em doses altas, depressão respiratória. Fluoxetina e fluvoxamina também inibem CYP3A4, elevando níveis de alprazolam, clonazepam e zolpidem.",
+        "conduta": "⚠️ Usar com cautela. Iniciar benzodiazepínico na menor dose possível. Evitar dirigir ou operar máquinas. Preferir benzodiazepínicos de meia-vida curta. Fluoxetina e fluvoxamina requerem redução de dose do benzodiazepínico."
+      },
+      {
+        "com": [
           "rasagilina"
         ],
         "nivel": "alto",
@@ -51383,6 +51575,22 @@
     "interacoes": [
       {
         "com": [
+          "alprazolam",
+          "clonazepam",
+          "diazepam",
+          "lorazepam",
+          "bromazepam",
+          "midazolam",
+          "zolpidem",
+          "zopiclona"
+        ],
+        "nivel": "moderado",
+        "titulo": "ISRS / IRSN + Benzodiazepínico / Hipnótico",
+        "efeito": "Potencialização da sedação do sistema nervoso central. Risco de sonolência excessiva, comprometimento psicomotor e, em doses altas, depressão respiratória. Fluoxetina e fluvoxamina também inibem CYP3A4, elevando níveis de alprazolam, clonazepam e zolpidem.",
+        "conduta": "⚠️ Usar com cautela. Iniciar benzodiazepínico na menor dose possível. Evitar dirigir ou operar máquinas. Preferir benzodiazepínicos de meia-vida curta. Fluoxetina e fluvoxamina requerem redução de dose do benzodiazepínico."
+      },
+      {
+        "com": [
           "rasagilina"
         ],
         "nivel": "alto",
@@ -56975,6 +57183,22 @@
     "interacoes": [
       {
         "com": [
+          "alprazolam",
+          "clonazepam",
+          "diazepam",
+          "lorazepam",
+          "bromazepam",
+          "midazolam",
+          "zolpidem",
+          "zopiclona"
+        ],
+        "nivel": "moderado",
+        "titulo": "ISRS / IRSN + Benzodiazepínico / Hipnótico",
+        "efeito": "Potencialização da sedação do sistema nervoso central. Risco de sonolência excessiva, comprometimento psicomotor e, em doses altas, depressão respiratória. Fluoxetina e fluvoxamina também inibem CYP3A4, elevando níveis de alprazolam, clonazepam e zolpidem.",
+        "conduta": "⚠️ Usar com cautela. Iniciar benzodiazepínico na menor dose possível. Evitar dirigir ou operar máquinas. Preferir benzodiazepínicos de meia-vida curta. Fluoxetina e fluvoxamina requerem redução de dose do benzodiazepínico."
+      },
+      {
+        "com": [
           "rasagilina"
         ],
         "nivel": "alto",
@@ -59143,6 +59367,22 @@
     "interacoes": [
       {
         "com": [
+          "fluoxetina",
+          "sertralina",
+          "escitalopram",
+          "paroxetina",
+          "citalopram",
+          "venlafaxina",
+          "duloxetina",
+          "fluvoxamina"
+        ],
+        "nivel": "moderado",
+        "titulo": "ISRS / IRSN + Benzodiazepínico / Hipnótico",
+        "efeito": "Potencialização da sedação do sistema nervoso central. Risco de sonolência excessiva, comprometimento psicomotor e, em doses altas, depressão respiratória. Fluoxetina e fluvoxamina também inibem CYP3A4, elevando níveis de alprazolam, clonazepam e zolpidem.",
+        "conduta": "⚠️ Usar com cautela. Iniciar benzodiazepínico na menor dose possível. Evitar dirigir ou operar máquinas. Preferir benzodiazepínicos de meia-vida curta. Fluoxetina e fluvoxamina requerem redução de dose do benzodiazepínico."
+      },
+      {
+        "com": [
           "codeína",
           "tramadol",
           "morfina",
@@ -59165,6 +59405,14 @@
         "titulo": "Benzodiazepínico / Hipnótico + Álcool",
         "efeito": "Potencialização da sedação do SNC. Risco de depressão respiratória e morte.",
         "conduta": "❌ Proibido. Álcool é contraindicado com benzodiazepínicos e hipnóticos."
+      },
+      {
+        "tipo": "duplicacao",
+        "classe": "Benzodiazepínico",
+        "nivel": "alto",
+        "titulo": "🔄 Duplicação Terapêutica — Dois Benzodiazepínicos",
+        "efeito": "Usar dois benzodiazepínicos ao mesmo tempo soma os efeitos sedativos — risco de sedação profunda, respiração muito lenta e parada respiratória.",
+        "conduta": "❌ Nunca usar dois benzodiazepínicos simultaneamente sem indicação hospitalar. Se recebeu duas prescrições, avise o médico — provavelmente um substituirá o outro gradualmente."
       }
     ]
   },
@@ -59346,6 +59594,22 @@
     "interacoes": [
       {
         "com": [
+          "fluoxetina",
+          "sertralina",
+          "escitalopram",
+          "paroxetina",
+          "citalopram",
+          "venlafaxina",
+          "duloxetina",
+          "fluvoxamina"
+        ],
+        "nivel": "moderado",
+        "titulo": "ISRS / IRSN + Benzodiazepínico / Hipnótico",
+        "efeito": "Potencialização da sedação do sistema nervoso central. Risco de sonolência excessiva, comprometimento psicomotor e, em doses altas, depressão respiratória. Fluoxetina e fluvoxamina também inibem CYP3A4, elevando níveis de alprazolam, clonazepam e zolpidem.",
+        "conduta": "⚠️ Usar com cautela. Iniciar benzodiazepínico na menor dose possível. Evitar dirigir ou operar máquinas. Preferir benzodiazepínicos de meia-vida curta. Fluoxetina e fluvoxamina requerem redução de dose do benzodiazepínico."
+      },
+      {
+        "com": [
           "codeína",
           "tramadol",
           "morfina",
@@ -59368,6 +59632,14 @@
         "titulo": "Benzodiazepínico / Hipnótico + Álcool",
         "efeito": "Potencialização da sedação do SNC. Risco de depressão respiratória e morte.",
         "conduta": "❌ Proibido. Álcool é contraindicado com benzodiazepínicos e hipnóticos."
+      },
+      {
+        "tipo": "duplicacao",
+        "classe": "Benzodiazepínico",
+        "nivel": "alto",
+        "titulo": "🔄 Duplicação Terapêutica — Dois Benzodiazepínicos",
+        "efeito": "Usar dois benzodiazepínicos ao mesmo tempo soma os efeitos sedativos — risco de sedação profunda, respiração muito lenta e parada respiratória.",
+        "conduta": "❌ Nunca usar dois benzodiazepínicos simultaneamente sem indicação hospitalar. Se recebeu duas prescrições, avise o médico — provavelmente um substituirá o outro gradualmente."
       }
     ]
   },
@@ -60081,6 +60353,22 @@
     "alerta_farmaceutico": "Fluvoxamina tem o maior potencial de interações entre os ISRS. Paciente usando clozapina NÃO deve iniciar fluvoxamina sem ajuste rigoroso da dose de clozapina. Cafeína acumula-se mais. Não dispensar sem checar medicamentos concomitantes.",
     "quando_procurar_medico": "Procure médico se: aumento das obsessões e compulsões apesar do tratamento, pensamentos de se machucar, febre alta com agitação e batimentos acelerados (possível síndrome serotoninérgica — emergência), convulsão, ou sintomas intensos ao reduzir a dose.",
     "interacoes": [
+      {
+        "com": [
+          "alprazolam",
+          "clonazepam",
+          "diazepam",
+          "lorazepam",
+          "bromazepam",
+          "midazolam",
+          "zolpidem",
+          "zopiclona"
+        ],
+        "nivel": "moderado",
+        "titulo": "ISRS / IRSN + Benzodiazepínico / Hipnótico",
+        "efeito": "Potencialização da sedação do sistema nervoso central. Risco de sonolência excessiva, comprometimento psicomotor e, em doses altas, depressão respiratória. Fluoxetina e fluvoxamina também inibem CYP3A4, elevando níveis de alprazolam, clonazepam e zolpidem.",
+        "conduta": "⚠️ Usar com cautela. Iniciar benzodiazepínico na menor dose possível. Evitar dirigir ou operar máquinas. Preferir benzodiazepínicos de meia-vida curta. Fluoxetina e fluvoxamina requerem redução de dose do benzodiazepínico."
+      },
       {
         "com": [
           "melatonina"

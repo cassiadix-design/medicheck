@@ -2,6 +2,32 @@
 var mcInteracoesDB = [
   {
     "med1": [
+      "fluoxetina",
+      "sertralina",
+      "escitalopram",
+      "paroxetina",
+      "citalopram",
+      "venlafaxina",
+      "duloxetina",
+      "fluvoxamina"
+    ],
+    "med2": [
+      "alprazolam",
+      "clonazepam",
+      "diazepam",
+      "lorazepam",
+      "bromazepam",
+      "midazolam",
+      "zolpidem",
+      "zopiclona"
+    ],
+    "nivel": "moderado",
+    "titulo": "ISRS / IRSN + Benzodiazepínico / Hipnótico",
+    "efeito": "Potencialização da sedação do sistema nervoso central. Risco de sonolência excessiva, comprometimento psicomotor e, em doses altas, depressão respiratória. Fluoxetina e fluvoxamina também inibem CYP3A4, elevando níveis de alprazolam, clonazepam e zolpidem.",
+    "conduta": "⚠️ Usar com cautela. Iniciar benzodiazepínico na menor dose possível. Evitar dirigir ou operar máquinas. Preferir benzodiazepínicos de meia-vida curta. Fluoxetina e fluvoxamina requerem redução de dose do benzodiazepínico."
+  },
+  {
+    "med1": [
       "alprazolam",
       "clonazepam",
       "diazepam",
@@ -4247,7 +4273,9 @@ var mcClassesDuplicacao = [
       "diazepam",
       "lorazepam",
       "bromazepam",
-      "midazolam"
+      "midazolam",
+      "zolpidem",
+      "zopiclona"
     ],
     "titulo": "🔄 Duplicação Terapêutica — Dois Benzodiazepínicos",
     "efeito": "Usar dois benzodiazepínicos ao mesmo tempo soma os efeitos sedativos — risco de sedação profunda, respiração muito lenta e parada respiratória.",
