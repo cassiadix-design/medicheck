@@ -1,0 +1,4395 @@
+{
+  "regras": [
+    {
+      "med1": [
+        "alprazolam",
+        "clonazepam",
+        "diazepam",
+        "lorazepam",
+        "bromazepam",
+        "zolpidem",
+        "zopiclona"
+      ],
+      "med2": [
+        "codeína",
+        "tramadol",
+        "morfina",
+        "fentanila",
+        "tapentadol",
+        "buprenorfina"
+      ],
+      "nivel": "alto",
+      "titulo": "Benzodiazepínico / Hipnótico + Opioide",
+      "efeito": "Depressão respiratória grave e sedação profunda. Risco de parada respiratória e morte.",
+      "conduta": "❌ Evitar a associação. Se necessário, monitoramento hospitalar rigoroso."
+    },
+    {
+      "med1": [
+        "alprazolam",
+        "clonazepam",
+        "diazepam",
+        "lorazepam",
+        "bromazepam",
+        "zolpidem",
+        "zopiclona"
+      ],
+      "med2": [
+        "álcool",
+        "alcool",
+        "bebida"
+      ],
+      "nivel": "alto",
+      "titulo": "Benzodiazepínico / Hipnótico + Álcool",
+      "efeito": "Potencialização da sedação do SNC. Risco de depressão respiratória e morte.",
+      "conduta": "❌ Proibido. Álcool é contraindicado com benzodiazepínicos e hipnóticos."
+    },
+    {
+      "med1": [
+        "sildenafila",
+        "tadalafila"
+      ],
+      "med2": [
+        "nitroglicerina",
+        "nitrato",
+        "isossorbida"
+      ],
+      "nivel": "alto",
+      "titulo": "Sildenafila / Tadalafila + Nitratos",
+      "efeito": "Queda grave e súbita da pressão arterial — pode ser fatal.",
+      "conduta": "❌ Contraindicado absolutamente."
+    },
+    {
+      "med1": [
+        "warfarina",
+        "varfarina"
+      ],
+      "med2": [
+        "ibuprofeno",
+        "diclofenaco",
+        "nimesulida",
+        "cetoprofeno",
+        "meloxicam",
+        "etoricoxibe",
+        "celecoxibe",
+        "aine"
+      ],
+      "nivel": "alto",
+      "titulo": "Warfarina + Anti-inflamatório (AINE)",
+      "efeito": "AINEs aumentam muito o risco de sangramento grave em pacientes anticoagulados.",
+      "conduta": "❌ Evitar. Usar paracetamol ou dipirona para dor. Informar sempre ao médico."
+    },
+    {
+      "med1": [
+        "warfarina",
+        "varfarina"
+      ],
+      "med2": [
+        "fluconazol",
+        "itraconazol",
+        "claritromicina",
+        "metronidazol",
+        "ciprofloxacino"
+      ],
+      "nivel": "alto",
+      "titulo": "Warfarina + Antifúngico / Antibiótico",
+      "efeito": "Potencializam muito o efeito anticoagulante — risco de sangramento grave.",
+      "conduta": "❌ Monitorar INR com muita frequência. Ajustar dose com médico."
+    },
+    {
+      "med1": [
+        "metotrexato"
+      ],
+      "med2": [
+        "ibuprofeno",
+        "diclofenaco",
+        "nimesulida",
+        "cetoprofeno",
+        "meloxicam",
+        "aine"
+      ],
+      "nivel": "alto",
+      "titulo": "Metotrexato + AINE",
+      "efeito": "AINEs reduzem eliminação do metotrexato, causando toxicidade grave na medula óssea.",
+      "conduta": "❌ Evitar. Informar sempre ao reumatologista."
+    },
+    {
+      "med1": [
+        "dissulfiram"
+      ],
+      "med2": [
+        "álcool",
+        "alcool",
+        "metronidazol",
+        "bebida"
+      ],
+      "nivel": "alto",
+      "titulo": "Dissulfiram + Álcool / Metronidazol",
+      "efeito": "Reação grave: rubor intenso, vômito, taquicardia, hipotensão. Pode ser fatal.",
+      "conduta": "❌ Absolutamente contraindicado."
+    },
+    {
+      "med1": [
+        "lítio",
+        "carbonato de lítio"
+      ],
+      "med2": [
+        "ibuprofeno",
+        "diclofenaco",
+        "captopril",
+        "enalapril",
+        "losartana",
+        "aine"
+      ],
+      "nivel": "alto",
+      "titulo": "Lítio + AINE / IECA",
+      "efeito": "Elevação do nível sérico de lítio — risco de toxicidade grave (tremores, confusão, convulsões).",
+      "conduta": "❌ Monitorar níveis de lítio rigorosamente. Evitar AINE sem orientação."
+    },
+    {
+      "med1": [
+        "amiodarona"
+      ],
+      "med2": [
+        "warfarina",
+        "varfarina"
+      ],
+      "nivel": "alto",
+      "titulo": "Amiodarona + Warfarina",
+      "efeito": "Amiodarona potencializa fortemente o efeito anticoagulante da warfarina — risco de hemorragia grave.",
+      "conduta": "❌ Reduzir dose de warfarina em 30-50% e monitorar INR semanalmente."
+    },
+    {
+      "med1": [
+        "amiodarona"
+      ],
+      "med2": [
+        "sinvastatina",
+        "atorvastatina"
+      ],
+      "nivel": "alto",
+      "titulo": "Amiodarona + Estatina",
+      "efeito": "Amiodarona inibe metabolismo das estatinas — risco aumentado de rabdomiólise e insuficiência renal.",
+      "conduta": "❌ Limitar dose de sinvastatina a 20mg/dia. Preferir rosuvastatina com cautela."
+    },
+    {
+      "med1": [
+        "carbamazepina"
+      ],
+      "med2": [
+        "contraceptivo",
+        "etinilestradiol",
+        "levonorgestrel",
+        "desogestrel"
+      ],
+      "nivel": "alto",
+      "titulo": "Carbamazepina + Anticoncepcional",
+      "efeito": "Carbamazepina acelera o metabolismo dos hormônios anticoncepcionais, reduzindo drasticamente a eficácia contraceptiva.",
+      "conduta": "❌ Usar método contraceptivo adicional (preservativo). Discutir alternativas com médico."
+    },
+    {
+      "med1": [
+        "carbamazepina"
+      ],
+      "med2": [
+        "claritromicina",
+        "eritromicina",
+        "fluconazol",
+        "itraconazol"
+      ],
+      "nivel": "alto",
+      "titulo": "Carbamazepina + Macrolídeo / Antifúngico",
+      "efeito": "Antibióticos/antifúngicos inibem metabolismo da carbamazepina — risco de toxicidade (diplopia, ataxia, confusão).",
+      "conduta": "❌ Evitar ou monitorar nível sérico de carbamazepina rigorosamente."
+    },
+    {
+      "med1": [
+        "isotretinoína",
+        "acitretina"
+      ],
+      "med2": [
+        "tetraciclina",
+        "doxiciclina",
+        "minociclina"
+      ],
+      "nivel": "alto",
+      "titulo": "Retinoide + Tetraciclina",
+      "efeito": "Combinação causa pseudotumor cerebri (hipertensão intracraniana) — cefaleia intensa, alteração visual, risco de perda de visão.",
+      "conduta": "❌ Contraindicado absolutamente. Nunca combinar."
+    },
+    {
+      "med1": [
+        "rasagilina",
+        "selegilina"
+      ],
+      "med2": [
+        "tramadol",
+        "petidina",
+        "meperidina"
+      ],
+      "nivel": "alto",
+      "titulo": "Inibidor MAO-B + Tramadol",
+      "efeito": "Risco de síndrome serotoninérgica grave e síndrome hipertensiva aguda — potencialmente fatal.",
+      "conduta": "❌ Contraindicado. Aguardar 14 dias após suspender o inibidor de MAO."
+    },
+    {
+      "med1": [
+        "rasagilina"
+      ],
+      "med2": [
+        "fluoxetina",
+        "sertralina",
+        "escitalopram",
+        "paroxetina",
+        "venlafaxina"
+      ],
+      "nivel": "alto",
+      "titulo": "Inibidor MAO-B + Antidepressivo",
+      "efeito": "Risco de síndrome serotoninérgica grave — agitação, hipertermia, convulsões, risco de morte.",
+      "conduta": "❌ Contraindicado. Aguardar 14 dias de washout entre os medicamentos."
+    },
+    {
+      "med1": [
+        "rivaroxabana",
+        "apixabana"
+      ],
+      "med2": [
+        "ibuprofeno",
+        "diclofenaco",
+        "aine",
+        "aspirina",
+        "ácido acetilsalicílico"
+      ],
+      "nivel": "alto",
+      "titulo": "Anticoagulante Oral (NOAC) + AINE / AAS",
+      "efeito": "Combinação multiplica o risco de sangramento gastrointestinal grave.",
+      "conduta": "❌ Evitar. Usar paracetamol para dor quando necessário. Consultar médico."
+    },
+    {
+      "med1": [
+        "tacrolimo"
+      ],
+      "med2": [
+        "claritromicina",
+        "eritromicina",
+        "fluconazol",
+        "itraconazol",
+        "cetoconazol"
+      ],
+      "nivel": "alto",
+      "titulo": "Tacrolimo + Macrolídeo / Antifúngico",
+      "efeito": "Inibem metabolismo do tacrolimo — concentrações tóxicas podem causar insuficiência renal aguda e neurotoxicidade.",
+      "conduta": "❌ Monitorar nível sérico de tacrolimo e função renal rigorosamente."
+    },
+    {
+      "med1": [
+        "digoxina"
+      ],
+      "med2": [
+        "amiodarona",
+        "verapamil",
+        "diltiazem"
+      ],
+      "nivel": "alto",
+      "titulo": "Digoxina + Antiarrítmico",
+      "efeito": "Verapamil, diltiazem e amiodarona elevam os níveis de digoxina — risco de intoxicação digitálica (bradicardia, arritmias).",
+      "conduta": "❌ Reduzir dose de digoxina. Monitorar nível sérico e ECG."
+    },
+    {
+      "med1": [
+        "clopidogrel"
+      ],
+      "med2": [
+        "omeprazol",
+        "esomeprazol"
+      ],
+      "nivel": "alto",
+      "titulo": "Clopidogrel + Omeprazol / Esomeprazol",
+      "efeito": "Omeprazol e esomeprazol inibem a ativação do clopidogrel — risco cardiovascular aumentado (infarto, trombose de stent).",
+      "conduta": "❌ Substituir por pantoprazol ou rabeprazol se IBP for necessário."
+    },
+    {
+      "med1": [
+        "fenitoína"
+      ],
+      "med2": [
+        "fluconazol",
+        "itraconazol",
+        "claritromicina",
+        "amiodarona"
+      ],
+      "nivel": "alto",
+      "titulo": "Fenitoína + Inibidores de CYP",
+      "efeito": "Elevam os níveis de fenitoína — risco de toxicidade (nistagmo, ataxia, confusão mental).",
+      "conduta": "❌ Monitorar nível sérico de fenitoína. Ajustar dose com médico."
+    },
+    {
+      "med1": [
+        "fluoxetina",
+        "sertralina",
+        "escitalopram",
+        "paroxetina",
+        "citalopram",
+        "venlafaxina",
+        "duloxetina"
+      ],
+      "med2": [
+        "tramadol",
+        "tapentadol"
+      ],
+      "nivel": "moderado",
+      "titulo": "Antidepressivo ISRS/IRSN + Tramadol",
+      "efeito": "Risco de síndrome serotoninérgica — agitação, tremores, febre e confusão mental.",
+      "conduta": "⚠️ Usar com cautela. Atenção a sintomas neurológicos."
+    },
+    {
+      "med1": [
+        "atorvastatina",
+        "sinvastatina",
+        "rosuvastatina"
+      ],
+      "med2": [
+        "claritromicina",
+        "eritromicina",
+        "itraconazol",
+        "cetoconazol",
+        "fluconazol"
+      ],
+      "nivel": "moderado",
+      "titulo": "Estatina + Macrolídeo / Antifúngico",
+      "efeito": "Elevam concentração da estatina — risco de miopatia e rabdomiólise.",
+      "conduta": "⚠️ Suspender estatina temporariamente ou reduzir dose. Orientação médica."
+    },
+    {
+      "med1": [
+        "captopril",
+        "enalapril",
+        "losartana",
+        "valsartana",
+        "lisinopril",
+        "candesartana"
+      ],
+      "med2": [
+        "espironolactona",
+        "potássio",
+        "suplemento de potássio"
+      ],
+      "nivel": "moderado",
+      "titulo": "IECA / BRA + Potássio / Espironolactona",
+      "efeito": "Risco de hipercalemia (potássio alto) — pode causar arritmias cardíacas graves.",
+      "conduta": "⚠️ Monitorar potássio regularmente. Evitar suplementos sem orientação."
+    },
+    {
+      "med1": [
+        "metformina"
+      ],
+      "med2": [
+        "álcool",
+        "alcool"
+      ],
+      "nivel": "moderado",
+      "titulo": "Metformina + Álcool",
+      "efeito": "Aumento do risco de acidose lática — acúmulo de ácido no sangue.",
+      "conduta": "⚠️ Evitar consumo excessivo de álcool."
+    },
+    {
+      "med1": [
+        "ibuprofeno",
+        "diclofenaco",
+        "nimesulida",
+        "aine"
+      ],
+      "med2": [
+        "captopril",
+        "enalapril",
+        "losartana",
+        "atenolol",
+        "metoprolol",
+        "bisoprolol"
+      ],
+      "nivel": "moderado",
+      "titulo": "AINE + Anti-hipertensivo",
+      "efeito": "AINEs podem reduzir o efeito anti-hipertensivo e piorar a função renal.",
+      "conduta": "⚠️ Usar com cautela. Preferir paracetamol para dor em hipertensos."
+    },
+    {
+      "med1": [
+        "paracetamol"
+      ],
+      "med2": [
+        "álcool",
+        "alcool"
+      ],
+      "nivel": "moderado",
+      "titulo": "Paracetamol + Álcool",
+      "efeito": "Álcool aumenta risco de hepatotoxicidade com paracetamol, especialmente em doses altas ou uso crônico.",
+      "conduta": "⚠️ Evitar paracetamol em altas doses em quem bebe regularmente."
+    },
+    {
+      "med1": [
+        "fluoxetina",
+        "paroxetina"
+      ],
+      "med2": [
+        "tamoxifeno"
+      ],
+      "nivel": "moderado",
+      "titulo": "Fluoxetina / Paroxetina + Tamoxifeno",
+      "efeito": "Inibem metabolização do tamoxifeno em seu metabólito ativo, reduzindo eficácia no tratamento do câncer de mama.",
+      "conduta": "⚠️ Preferir sertralina ou venlafaxina como antidepressivo. Discutir com oncologista."
+    },
+    {
+      "med1": [
+        "metronidazol"
+      ],
+      "med2": [
+        "álcool",
+        "alcool",
+        "bebida"
+      ],
+      "nivel": "moderado",
+      "titulo": "Metronidazol + Álcool",
+      "efeito": "Reação tipo dissulfiram — rubor, náusea, taquicardia. Evitar álcool durante e 48h após o tratamento.",
+      "conduta": "⚠️ Proibido álcool durante o tratamento e por 48 horas após a última dose."
+    },
+    {
+      "med1": [
+        "fluoroquinolona",
+        "ciprofloxacino",
+        "levofloxacino",
+        "moxifloxacino"
+      ],
+      "med2": [
+        "antiácido",
+        "cálcio",
+        "magnésio",
+        "ferro",
+        "zinco"
+      ],
+      "nivel": "moderado",
+      "titulo": "Fluoroquinolona + Antiácido / Minerais",
+      "efeito": "Antiácidos com alumínio, magnésio, cálcio, ferro e zinco quelam as fluoroquinolonas, reduzindo drasticamente a absorção.",
+      "conduta": "⚠️ Tomar fluoroquinolona 2 horas antes ou 6 horas depois de antiácidos e minerais."
+    },
+    {
+      "med1": [
+        "ciprofloxacino",
+        "levofloxacino"
+      ],
+      "med2": [
+        "teofilina",
+        "cafeína"
+      ],
+      "nivel": "moderado",
+      "titulo": "Fluoroquinolona + Teofilina / Cafeína",
+      "efeito": "Fluoroquinolonas inibem metabolismo da teofilina — risco de toxicidade (náusea, taquicardia, convulsões).",
+      "conduta": "⚠️ Monitorar nível sérico de teofilina e reduzir dose se necessário."
+    },
+    {
+      "med1": [
+        "doxiciclina",
+        "tetraciclina"
+      ],
+      "med2": [
+        "antiácido",
+        "cálcio",
+        "ferro",
+        "magnésio",
+        "leite"
+      ],
+      "nivel": "moderado",
+      "titulo": "Tetraciclina / Doxiciclina + Antiácido / Leite",
+      "efeito": "Cálcio, magnésio e ferro quelam as tetraciclinas, reduzindo muito a absorção e eficácia antibiótica.",
+      "conduta": "⚠️ Tomar 2 horas antes ou 3 horas depois de antiácidos, leite e suplementos minerais."
+    },
+    {
+      "med1": [
+        "levotiroxina"
+      ],
+      "med2": [
+        "cálcio",
+        "ferro",
+        "antiácido",
+        "colestiramina",
+        "magnésio"
+      ],
+      "nivel": "moderado",
+      "titulo": "Levotiroxina + Cálcio / Ferro / Antiácido",
+      "efeito": "Reduzem absorção da levotiroxina — hipotireoidismo pode não ser controlado adequadamente.",
+      "conduta": "⚠️ Tomar levotiroxina 30-60 minutos antes do café e 4 horas antes de suplementos minerais."
+    },
+    {
+      "med1": [
+        "propranolol",
+        "atenolol",
+        "metoprolol",
+        "bisoprolol",
+        "carvedilol"
+      ],
+      "med2": [
+        "verapamil",
+        "diltiazem"
+      ],
+      "nivel": "moderado",
+      "titulo": "Betabloqueador + Verapamil / Diltiazem",
+      "efeito": "Combinação pode causar bradicardia grave, bloqueio atrioventricular e insuficiência cardíaca.",
+      "conduta": "⚠️ Usar somente sob supervisão cardiológica com monitoramento de ECG."
+    },
+    {
+      "med1": [
+        "insulina",
+        "insulina nph",
+        "insulina regular"
+      ],
+      "med2": [
+        "propranolol",
+        "atenolol",
+        "metoprolol",
+        "betabloqueador"
+      ],
+      "nivel": "moderado",
+      "titulo": "Insulina + Betabloqueador",
+      "efeito": "Betabloqueadores mascaram os sintomas de hipoglicemia (tremor, taquicardia). Suor pode ser o único sinal restante.",
+      "conduta": "⚠️ Monitorar glicemia com mais frequência. Preferir betabloqueadores cardiosseletivos."
+    },
+    {
+      "med1": [
+        "glibenclamida",
+        "glicazida",
+        "glimepirida"
+      ],
+      "med2": [
+        "fluconazol",
+        "ciprofloxacino",
+        "claritromicina"
+      ],
+      "nivel": "alto",
+      "titulo": "Sulfonilureia + Antibiótico / Antifúngico",
+      "efeito": "Potencialização grave do efeito hipoglicemiante — risco de hipoglicemia intensa e prolongada, especialmente com ciprofloxacino e fluconazol. Idosos têm risco maior de hipoglicemia assintomática.",
+      "conduta": "❌ Monitorar glicemia com frequência aumentada durante o tratamento. Orientar o paciente a reconhecer sintomas de hipoglicemia (tremor, suor, tontura, confusão). Ajustar dose de sulfonilureia se necessário."
+    },
+    {
+      "med1": [
+        "semaglutida",
+        "liraglutida",
+        "tirzepatida"
+      ],
+      "med2": [
+        "insulina",
+        "sulfonilureia",
+        "glibenclamida"
+      ],
+      "nivel": "moderado",
+      "titulo": "GLP-1 + Insulina / Sulfonilureia",
+      "efeito": "Combinação potencializa a redução da glicose — risco aumentado de hipoglicemia.",
+      "conduta": "⚠️ Reduzir dose de insulina ou sulfonilureia ao iniciar GLP-1. Monitorar glicemia."
+    },
+    {
+      "med1": [
+        "dapagliflozina",
+        "empagliflozina",
+        "canagliflozina"
+      ],
+      "med2": [
+        "diurético",
+        "furosemida",
+        "hidroclorotiazida"
+      ],
+      "nivel": "moderado",
+      "titulo": "SGLT-2 + Diurético",
+      "efeito": "Combinação pode causar desidratação e hipotensão, especialmente em idosos.",
+      "conduta": "⚠️ Monitorar pressão arterial e sinais de desidratação. Ajustar doses."
+    },
+    {
+      "med1": [
+        "colchicina"
+      ],
+      "med2": [
+        "claritromicina",
+        "eritromicina",
+        "cetoconazol",
+        "itraconazol"
+      ],
+      "nivel": "moderado",
+      "titulo": "Colchicina + Macrolídeo / Antifúngico",
+      "efeito": "Inibem metabolismo da colchicina — risco de toxicidade grave (miopatia, mielossupressão, insuficiência de múltiplos órgãos).",
+      "conduta": "⚠️ Reduzir dose de colchicina ou evitar a combinação. Risco elevado."
+    },
+    {
+      "med1": [
+        "pregabalina",
+        "gabapentina"
+      ],
+      "med2": [
+        "opioides",
+        "morfina",
+        "codeína",
+        "tramadol",
+        "fentanila"
+      ],
+      "nivel": "alto",
+      "titulo": "Pregabalina / Gabapentina + Opioide",
+      "efeito": "Potencialização grave da depressão respiratória e sedação — risco aumentado de overdose fatal. FDA emitiu alerta de caixa preta para essa combinação.",
+      "conduta": "❌ Evitar combinação sempre que possível. Monitorar respiração rigorosamente. Ter naloxona disponível em pacientes de risco."
+    },
+    {
+      "med1": [
+        "pregabalina",
+        "gabapentina"
+      ],
+      "med2": [
+        "álcool",
+        "alcool",
+        "benzodiazepínico",
+        "alprazolam",
+        "diazepam"
+      ],
+      "nivel": "moderado",
+      "titulo": "Pregabalina / Gabapentina + Álcool / BZD",
+      "efeito": "Potencialização da sedação do SNC — tontura, confusão, risco de quedas.",
+      "conduta": "⚠️ Evitar álcool. Usar benzodiazepínico com muita cautela e em doses mínimas."
+    },
+    {
+      "med1": [
+        "rifampicina"
+      ],
+      "med2": [
+        "contraceptivo",
+        "etinilestradiol",
+        "levonorgestrel"
+      ],
+      "nivel": "moderado",
+      "titulo": "Rifampicina + Anticoncepcional",
+      "efeito": "Rifampicina é potente indutor enzimático — reduz drasticamente a eficácia do anticoncepcional hormonal.",
+      "conduta": "⚠️ Usar método contraceptivo adicional durante e por 28 dias após o término da rifampicina."
+    },
+    {
+      "med1": [
+        "rifampicina"
+      ],
+      "med2": [
+        "warfarina",
+        "varfarina"
+      ],
+      "nivel": "moderado",
+      "titulo": "Rifampicina + Warfarina",
+      "efeito": "Rifampicina reduz muito o efeito anticoagulante da warfarina — risco de trombose.",
+      "conduta": "⚠️ Aumentar dose de warfarina e monitorar INR frequentemente."
+    },
+    {
+      "med1": [
+        "isoniazida"
+      ],
+      "med2": [
+        "fenitoína",
+        "carbamazepina"
+      ],
+      "nivel": "moderado",
+      "titulo": "Isoniazida + Anticonvulsivante",
+      "efeito": "Isoniazida inibe metabolismo da fenitoína e carbamazepina — risco de toxicidade neurológica.",
+      "conduta": "⚠️ Monitorar nível sérico dos anticonvulsivantes. Ajustar doses."
+    },
+    {
+      "med1": [
+        "fluoxetina",
+        "paroxetina",
+        "sertralina",
+        "escitalopram"
+      ],
+      "med2": [
+        "sumatriptana",
+        "rizatriptana",
+        "triptano"
+      ],
+      "nivel": "moderado",
+      "titulo": "ISRS + Triptano",
+      "efeito": "Risco de síndrome serotoninérgica leve a moderada — cefaleia, agitação, tremores, sudorese.",
+      "conduta": "⚠️ Usar com cautela. Monitorar sintomas após a combinação. Orientar o paciente."
+    },
+    {
+      "med1": [
+        "haloperidol",
+        "quetiapina",
+        "risperidona",
+        "olanzapina"
+      ],
+      "med2": [
+        "lítio",
+        "carbonato de lítio"
+      ],
+      "nivel": "moderado",
+      "titulo": "Antipsicótico + Lítio",
+      "efeito": "Risco aumentado de neurotoxicidade — sintomas extrapiramidais, síndrome neuroléptica maligna em casos raros.",
+      "conduta": "⚠️ Monitorar nível sérico de lítio e sinais neurológicos regularmente."
+    },
+    {
+      "med1": [
+        "bupropiona"
+      ],
+      "med2": [
+        "tramadol",
+        "antidepressivo",
+        "amitriptilina",
+        "venlafaxina"
+      ],
+      "nivel": "alto",
+      "titulo": "Bupropiona + Tramadol / Antidepressivo",
+      "efeito": "Risco grave de convulsões — tramadol e bupropiona ambos reduzem o limiar convulsivante; combinação pode desencadear convulsão mesmo sem histórico prévio.",
+      "conduta": "❌ Contraindicado tramadol com bupropiona. Usar alternativa analgésica não serotoninérgica (ex: paracetamol). Se combinação de antidepressivos for necessária, monitorar com médico."
+    },
+    {
+      "med1": [
+        "verapamil",
+        "diltiazem"
+      ],
+      "med2": [
+        "sinvastatina",
+        "atorvastatina"
+      ],
+      "nivel": "moderado",
+      "titulo": "Verapamil / Diltiazem + Estatina",
+      "efeito": "Inibem metabolismo das estatinas — risco de miopatia e rabdomiólise, especialmente com sinvastatina.",
+      "conduta": "⚠️ Limitar sinvastatina a 10mg/dia. Preferir rosuvastatina ou pravastatina."
+    },
+    {
+      "med1": [
+        "mirtazapina"
+      ],
+      "med2": [
+        "álcool",
+        "alcool",
+        "benzodiazepínico",
+        "diazepam",
+        "alprazolam"
+      ],
+      "nivel": "moderado",
+      "titulo": "Mirtazapina + Álcool / Benzodiazepínico",
+      "efeito": "Potencialização da sedação — sonolência intensa, comprometimento psicomotor, risco de quedas.",
+      "conduta": "⚠️ Evitar álcool. Usar benzodiazepínico com cautela e preferir doses baixas."
+    },
+    {
+      "med1": [
+        "amitriptilina",
+        "nortriptilina"
+      ],
+      "med2": [
+        "tramadol",
+        "opioides"
+      ],
+      "nivel": "moderado",
+      "titulo": "Antidepressivo Tricíclico + Tramadol",
+      "efeito": "Risco de síndrome serotoninérgica e potencialização da depressão do SNC.",
+      "conduta": "⚠️ Usar com cautela e em doses mínimas. Monitorar sintomas neurológicos."
+    },
+    {
+      "med1": [
+        "sulfametoxazol",
+        "sulfametoxazol + trimetoprima"
+      ],
+      "med2": [
+        "warfarina",
+        "varfarina"
+      ],
+      "nivel": "moderado",
+      "titulo": "Sulfametoxazol-Trimetoprima + Warfarina",
+      "efeito": "Potencializa muito o efeito anticoagulante — risco elevado de sangramento.",
+      "conduta": "⚠️ Monitorar INR frequentemente durante e após o antibiótico."
+    },
+    {
+      "med1": [
+        "sulfametoxazol",
+        "sulfametoxazol + trimetoprima"
+      ],
+      "med2": [
+        "captopril",
+        "enalapril",
+        "losartana",
+        "espironolactona"
+      ],
+      "nivel": "moderado",
+      "titulo": "Sulfametoxazol-Trimetoprima + IECA / Espironolactona",
+      "efeito": "Trimetoprima bloqueia excreção renal de potássio — risco de hipercalemia grave com IECA ou espironolactona.",
+      "conduta": "⚠️ Monitorar potássio sérico durante o tratamento combinado."
+    },
+    {
+      "med1": [
+        "alopurinol"
+      ],
+      "med2": [
+        "azatioprina",
+        "mercaptopurina"
+      ],
+      "nivel": "moderado",
+      "titulo": "Alopurinol + Azatioprina",
+      "efeito": "Alopurinol inibe metabolismo da azatioprina — risco de toxicidade grave na medula óssea.",
+      "conduta": "⚠️ Reduzir dose de azatioprina para 25-33% do normal. Monitorar hemograma."
+    },
+    {
+      "med1": [
+        "alopurinol"
+      ],
+      "med2": [
+        "amoxicilina",
+        "ampicilina"
+      ],
+      "nivel": "moderado",
+      "titulo": "Alopurinol + Amoxicilina / Ampicilina",
+      "efeito": "Combinação aumenta muito o risco de erupção cutânea alérgica (rash maculopapular).",
+      "conduta": "⚠️ Informar médico e farmacêutico. Monitorar surgimento de lesões na pele."
+    },
+    {
+      "med1": [
+        "furosemida",
+        "hidroclorotiazida"
+      ],
+      "med2": [
+        "lítio",
+        "carbonato de lítio"
+      ],
+      "nivel": "moderado",
+      "titulo": "Diurético + Lítio",
+      "efeito": "Diuréticos reduzem a eliminação renal de lítio — risco de intoxicação por lítio.",
+      "conduta": "⚠️ Monitorar nível sérico de lítio com mais frequência ao iniciar diurético."
+    },
+    {
+      "med1": [
+        "metilfenidato",
+        "lisdexanfetamina"
+      ],
+      "med2": [
+        "inibidor de mao",
+        "isocarboxazida"
+      ],
+      "nivel": "moderado",
+      "titulo": "Estimulante TDAH + Inibidor de MAO",
+      "efeito": "Risco de crise hipertensiva grave e síndrome serotoninérgica.",
+      "conduta": "⚠️ Contraindicado. Aguardar 14 dias após suspender inibidor de MAO."
+    },
+    {
+      "med1": [
+        "metilfenidato",
+        "lisdexanfetamina"
+      ],
+      "med2": [
+        "antidepressivo",
+        "amitriptilina",
+        "imipramina"
+      ],
+      "nivel": "moderado",
+      "titulo": "Estimulante TDAH + Antidepressivo Tricíclico",
+      "efeito": "Estimulantes elevam nível sérico dos tricíclicos — risco de arritmias e toxicidade cardiovascular.",
+      "conduta": "⚠️ Monitorar ECG e pressão arterial. Usar doses mínimas necessárias."
+    },
+    {
+      "med1": [
+        "donepezila",
+        "rivastigmina"
+      ],
+      "med2": [
+        "biperideno",
+        "escopolamina",
+        "oxibutinina",
+        "amitriptilina"
+      ],
+      "nivel": "moderado",
+      "titulo": "Inibidor de Colinesterase + Anticolinérgico",
+      "efeito": "Mecanismos opostos — anticolinérgicos antagonizam completamente o efeito do inibidor de colinesterase.",
+      "conduta": "⚠️ Evitar a combinação. Revisar necessidade de anticolinérgico com médico."
+    },
+    {
+      "med1": [
+        "haloperidol",
+        "quetiapina",
+        "risperidona",
+        "olanzapina",
+        "clozapina"
+      ],
+      "med2": [
+        "metoclopramida",
+        "domperidona"
+      ],
+      "nivel": "moderado",
+      "titulo": "Antipsicótico + Metoclopramida / Domperidona",
+      "efeito": "Todos bloqueiam dopamina — risco aumentado de efeitos extrapiramidais e síndrome neuroléptica maligna.",
+      "conduta": "⚠️ Evitar a combinação. Usar ondansetrom como alternativa antiemética."
+    },
+    {
+      "med1": [
+        "ondansetrom"
+      ],
+      "med2": [
+        "amiodarona",
+        "haloperidol",
+        "azitromicina",
+        "moxifloxacino"
+      ],
+      "nivel": "moderado",
+      "titulo": "Ondansetrom + Prolongadores de QT",
+      "efeito": "Combinação de medicamentos que prolongam o intervalo QT — risco de arritmia ventricular grave (Torsades de Pointes).",
+      "conduta": "⚠️ Evitar combinação. Se necessário, monitoramento com ECG."
+    },
+    {
+      "med1": [
+        "vareniclina"
+      ],
+      "med2": [
+        "álcool",
+        "alcool"
+      ],
+      "nivel": "moderado",
+      "titulo": "Vareniclina + Álcool",
+      "efeito": "Vareniclina pode aumentar os efeitos intoxicantes do álcool e reduzir a tolerância.",
+      "conduta": "⚠️ Limitar consumo de álcool durante o tratamento de cessação do tabagismo."
+    },
+    {
+      "med1": [
+        "topiramato"
+      ],
+      "med2": [
+        "contraceptivo",
+        "etinilestradiol"
+      ],
+      "nivel": "moderado",
+      "titulo": "Topiramato + Anticoncepcional Hormonal",
+      "efeito": "Topiramato em doses altas reduz eficácia dos anticoncepcionais hormonais.",
+      "conduta": "⚠️ Usar método contraceptivo adicional ou considerar anticoncepcional de alta dose."
+    },
+    {
+      "med1": [
+        "isotretinoína"
+      ],
+      "med2": [
+        "vitamina a",
+        "suplemento vitamina a"
+      ],
+      "nivel": "moderado",
+      "titulo": "Isotretinoína + Vitamina A",
+      "efeito": "Ambos são retinoides — combinação causa hipervitaminose A com cefaleia, náusea, descamação grave.",
+      "conduta": "⚠️ Suspender suplementos de vitamina A durante o tratamento com isotretinoína."
+    },
+    {
+      "med1": [
+        "melatonina"
+      ],
+      "med2": [
+        "fluvoxamina",
+        "cimetidina"
+      ],
+      "nivel": "moderado",
+      "titulo": "Melatonina + Fluvoxamina / Cimetidina",
+      "efeito": "Inibem metabolismo da melatonina — concentrações podem ficar muito elevadas causando sedação excessiva.",
+      "conduta": "⚠️ Reduzir dose de melatonina. Monitorar sedação."
+    },
+    {
+      "med1": [
+        "ômega-3"
+      ],
+      "med2": [
+        "warfarina",
+        "varfarina",
+        "rivaroxabana",
+        "clopidogrel"
+      ],
+      "nivel": "moderado",
+      "titulo": "Ômega-3 + Anticoagulante / Antiagregante",
+      "efeito": "Em doses altas, ômega-3 tem efeito antiagregante plaquetário — pode potencializar sangramento.",
+      "conduta": "⚠️ Informar médico sobre uso de ômega-3. Monitorar sinais de sangramento."
+    },
+    {
+      "med1": [
+        "desmopressina"
+      ],
+      "med2": [
+        "ibuprofeno",
+        "diclofenaco",
+        "aine"
+      ],
+      "nivel": "moderado",
+      "titulo": "Desmopressina + AINE",
+      "efeito": "AINEs potencializam o efeito antidiurético da desmopressina — risco de hiponatremia (sódio baixo).",
+      "conduta": "⚠️ Monitorar sódio sérico. Evitar AINE ou usar com cautela."
+    },
+    {
+      "med1": [
+        "paracetamol"
+      ],
+      "med2": [
+        "dipirona"
+      ],
+      "nivel": "baixo",
+      "titulo": "Paracetamol + Dipirona",
+      "efeito": "Combinação geralmente segura em doses normais. Pode potencializar o efeito analgésico.",
+      "conduta": "✅ Pode ser usada sob orientação médica. Respeitar as doses máximas."
+    },
+    {
+      "med1": [
+        "ibuprofeno",
+        "diclofenaco"
+      ],
+      "med2": [
+        "paracetamol"
+      ],
+      "nivel": "baixo",
+      "titulo": "AINE + Paracetamol",
+      "efeito": "Combinação segura e frequentemente usada para potencializar analgesia. Mecanismos complementares.",
+      "conduta": "✅ Combinação válida. Respeitar as doses máximas de cada medicamento."
+    },
+    {
+      "med1": [
+        "omeprazol",
+        "pantoprazol",
+        "lansoprazol"
+      ],
+      "med2": [
+        "ibuprofeno",
+        "diclofenaco",
+        "aine",
+        "aspirina"
+      ],
+      "nivel": "baixo",
+      "titulo": "IBP + AINE (combinação protetora)",
+      "efeito": "O IBP protege a mucosa gástrica dos danos causados pelos AINEs. Combinação frequentemente recomendada.",
+      "conduta": "✅ Combinação adequada e protetora. Usar pelo menor tempo necessário."
+    },
+    {
+      "med1": [
+        "ácido fólico"
+      ],
+      "med2": [
+        "metotrexato"
+      ],
+      "nivel": "baixo",
+      "titulo": "Ácido Fólico + Metotrexato",
+      "efeito": "O ácido fólico reduz toxicidade do metotrexato (mucosite, náusea) sem reduzir sua eficácia terapêutica.",
+      "conduta": "✅ Combinação recomendada. Tomar ácido fólico 24h após a dose semanal de metotrexato."
+    },
+    {
+      "med1": [
+        "furosemida"
+      ],
+      "med2": [
+        "espironolactona"
+      ],
+      "nivel": "baixo",
+      "titulo": "Furosemida + Espironolactona",
+      "efeito": "Combinação diurética complementar — furosemida perde potássio e espironolactona poupa, equilibrando o efeito.",
+      "conduta": "✅ Combinação frequentemente intencional. Monitorar eletrólitos periodicamente."
+    },
+    {
+      "med1": [
+        "metformina"
+      ],
+      "med2": [
+        "semaglutida",
+        "liraglutida",
+        "sitagliptina",
+        "saxagliptina",
+        "alogliptina",
+        "linagliptina"
+      ],
+      "nivel": "baixo",
+      "titulo": "Metformina + Antidiabético (complementar)",
+      "efeito": "Combinação de mecanismos complementares para controle glicêmico. Amplamente recomendada. Monitorar hipoglicemia com inibidores DPP-4 (sitagliptina, saxagliptina).",
+      "conduta": "✅ Combinação padrão no tratamento do DM2. Monitorar glicemia regularmente."
+    },
+    {
+      "med1": [
+        "atorvastatina",
+        "rosuvastatina",
+        "sinvastatina"
+      ],
+      "med2": [
+        "ezetimiba"
+      ],
+      "nivel": "baixo",
+      "titulo": "Estatina + Ezetimiba",
+      "efeito": "Combinação complementar para redução do colesterol — mecanismos diferentes e sinérgicos.",
+      "conduta": "✅ Combinação recomendada para dislipidemia resistente à estatina isolada."
+    },
+    {
+      "med1": [
+        "anlodipino",
+        "nifedipina"
+      ],
+      "med2": [
+        "atorvastatina",
+        "sinvastatina"
+      ],
+      "nivel": "baixo",
+      "titulo": "Anlodipino + Estatina",
+      "efeito": "Anlodipino pode aumentar levemente os níveis de sinvastatina — efeito clínico geralmente irrelevante.",
+      "conduta": "✅ Combinação geralmente segura. Limitar sinvastatina a 20mg com anlodipino."
+    },
+    {
+      "med1": [
+        "captopril",
+        "enalapril",
+        "losartana"
+      ],
+      "med2": [
+        "diurético",
+        "hidroclorotiazida",
+        "furosemida"
+      ],
+      "nivel": "baixo",
+      "titulo": "IECA / BRA + Diurético",
+      "efeito": "Combinação anti-hipertensiva clássica e muito utilizada. Efeitos complementares.",
+      "conduta": "✅ Combinação amplamente recomendada. Monitorar pressão e eletrólitos."
+    },
+    {
+      "med1": [
+        "aspirina",
+        "ácido acetilsalicílico"
+      ],
+      "med2": [
+        "clopidogrel"
+      ],
+      "nivel": "baixo",
+      "titulo": "AAS + Clopidogrel (dupla antiagregação)",
+      "efeito": "Dupla antiagregação plaquetária — aumento do risco de sangramento, mas indicada em situações específicas (stent coronariano, SCA).",
+      "conduta": "✅ Combinação indicada em contextos cardiovasculares específicos. Monitorar sangramentos."
+    },
+    {
+      "med1": [
+        "vitamina d",
+        "colecalciferol"
+      ],
+      "med2": [
+        "cálcio"
+      ],
+      "nivel": "baixo",
+      "titulo": "Vitamina D + Cálcio",
+      "efeito": "Combinação sinérgica — vitamina D aumenta a absorção intestinal de cálcio. Amplamente recomendada.",
+      "conduta": "✅ Combinação ideal para prevenção de osteoporose. Respeitar doses adequadas."
+    },
+    {
+      "med1": [
+        "clozapina"
+      ],
+      "med2": [
+        "ciprofloxacino",
+        "levofloxacino",
+        "claritromicina"
+      ],
+      "nivel": "alto",
+      "titulo": "Clozapina + Antibiótico Inibidor de CYP1A2",
+      "efeito": "Antibióticos elevam drasticamente os níveis de clozapina — risco de convulsões, agranulocitose e toxicidade grave.",
+      "conduta": "❌ Monitorar nível sérico de clozapina e hemograma rigorosamente."
+    },
+    {
+      "med1": [
+        "clozapina"
+      ],
+      "med2": [
+        "carbamazepina",
+        "fenitoína"
+      ],
+      "nivel": "alto",
+      "titulo": "Clozapina + Carbamazepina / Fenitoína",
+      "efeito": "Indutores enzimáticos reduzem muito os níveis de clozapina. Carbamazepina também potencializa agranulocitose.",
+      "conduta": "❌ Evitar carbamazepina com clozapina. Monitorar nível sérico."
+    },
+    {
+      "med1": [
+        "metotrexato"
+      ],
+      "med2": [
+        "sulfametoxazol",
+        "trimetoprima",
+        "sulfametoxazol + trimetoprima"
+      ],
+      "nivel": "alto",
+      "titulo": "Metotrexato + Sulfametoxazol-Trimetoprima",
+      "efeito": "Ambos inibem o folato — risco extremo de mielossupressão grave, pancitopenia e toxicidade fatal.",
+      "conduta": "❌ Contraindicado. Se inevitável, monitoramento hematológico intensivo."
+    },
+    {
+      "med1": [
+        "tacrolimo"
+      ],
+      "med2": [
+        "ibuprofeno",
+        "diclofenaco",
+        "aine",
+        "nimesulida"
+      ],
+      "nivel": "alto",
+      "titulo": "Imunossupressor + AINE",
+      "efeito": "AINEs potencializam nefrotoxicidade do tacrolimo — risco de insuficiência renal aguda.",
+      "conduta": "❌ Evitar AINEs. Usar paracetamol. Monitorar função renal."
+    },
+    {
+      "med1": [
+        "fentanila",
+        "morfina",
+        "codeína",
+        "tramadol"
+      ],
+      "med2": [
+        "álcool",
+        "alcool"
+      ],
+      "nivel": "alto",
+      "titulo": "Opioide + Álcool",
+      "efeito": "Potencialização da depressão do SNC e respiratória — risco muito alto de overdose fatal.",
+      "conduta": "❌ Proibido. Álcool é contraindicado com qualquer opioide."
+    },
+    {
+      "med1": [
+        "naltrexona"
+      ],
+      "med2": [
+        "codeína",
+        "morfina",
+        "tramadol",
+        "fentanila"
+      ],
+      "nivel": "alto",
+      "titulo": "Naltrexona + Opioide",
+      "efeito": "Naltrexona bloqueia completamente o efeito dos opioides e precipita abstinência grave em dependentes.",
+      "conduta": "❌ Nunca iniciar naltrexona sem estar limpo de opioides há pelo menos 7-10 dias."
+    },
+    {
+      "med1": [
+        "bupropiona"
+      ],
+      "med2": [
+        "álcool",
+        "alcool"
+      ],
+      "nivel": "moderado",
+      "titulo": "Bupropiona + Álcool",
+      "efeito": "Álcool reduz o limiar convulsivante já baixo da bupropiona — risco aumentado de convulsões.",
+      "conduta": "⚠️ Evitar ou minimizar muito o consumo de álcool durante o tratamento."
+    },
+    {
+      "med1": [
+        "quetiapina",
+        "olanzapina",
+        "risperidona"
+      ],
+      "med2": [
+        "álcool",
+        "alcool"
+      ],
+      "nivel": "moderado",
+      "titulo": "Antipsicótico + Álcool",
+      "efeito": "Potencialização da sedação, hipotensão ortostática e comprometimento cognitivo.",
+      "conduta": "⚠️ Evitar álcool. Risco aumentado de quedas e acidentes."
+    },
+    {
+      "med1": [
+        "metoclopramida"
+      ],
+      "med2": [
+        "levodopa",
+        "carbidopa + levodopa"
+      ],
+      "nivel": "moderado",
+      "titulo": "Metoclopramida + Levodopa",
+      "efeito": "Metoclopramida antagoniza o efeito da levodopa no SNC — piora dos sintomas parkinsonianos.",
+      "conduta": "⚠️ Contraindicado em parkinsonianos. Usar domperidona como alternativa antiemética."
+    },
+    {
+      "med1": [
+        "trazodona"
+      ],
+      "med2": [
+        "fluoxetina",
+        "paroxetina",
+        "sertralina",
+        "escitalopram"
+      ],
+      "nivel": "moderado",
+      "titulo": "Trazodona + ISRS",
+      "efeito": "Risco de síndrome serotoninérgica leve e potencialização da sedação — hipotensão ortostática aumentada.",
+      "conduta": "⚠️ Iniciar trazodona em dose baixa. Monitorar pressão ao levantar."
+    },
+    {
+      "med1": [
+        "dapagliflozina",
+        "empagliflozina",
+        "canagliflozina"
+      ],
+      "med2": [
+        "insulina",
+        "insulina nph",
+        "insulina regular"
+      ],
+      "nivel": "moderado",
+      "titulo": "SGLT-2 + Insulina",
+      "efeito": "Combinação eficaz mas com risco de cetoacidose diabética euglicêmica — glicose pode parecer normal.",
+      "conduta": "⚠️ Reduzir dose de insulina ao iniciar SGLT-2. Monitorar cetones."
+    },
+    {
+      "med1": [
+        "pioglitazona"
+      ],
+      "med2": [
+        "insulina",
+        "insulina nph"
+      ],
+      "nivel": "moderado",
+      "titulo": "Pioglitazona + Insulina",
+      "efeito": "Combinação potencializa retenção de líquidos — risco de edema e insuficiência cardíaca descompensada.",
+      "conduta": "⚠️ Contraindicado em insuficiência cardíaca. Monitorar retenção hídrica."
+    },
+    {
+      "med1": [
+        "colchicina"
+      ],
+      "med2": [
+        "atorvastatina",
+        "sinvastatina",
+        "rosuvastatina"
+      ],
+      "nivel": "moderado",
+      "titulo": "Colchicina + Estatina",
+      "efeito": "Combinação aumenta risco de miopatia — ambos podem causar dano muscular com risco aditivo.",
+      "conduta": "⚠️ Monitorar sintomas musculares. Usar dose mínima eficaz de colchicina."
+    },
+    {
+      "med1": [
+        "alopurinol"
+      ],
+      "med2": [
+        "warfarina",
+        "varfarina"
+      ],
+      "nivel": "moderado",
+      "titulo": "Alopurinol + Warfarina",
+      "efeito": "Alopurinol pode inibir metabolismo da warfarina — potencialização do efeito anticoagulante.",
+      "conduta": "⚠️ Monitorar INR após iniciar ou ajustar alopurinol."
+    },
+    {
+      "med1": [
+        "ciprofloxacino",
+        "levofloxacino"
+      ],
+      "med2": [
+        "warfarina",
+        "varfarina"
+      ],
+      "nivel": "alto",
+      "titulo": "Fluoroquinolona + Warfarina",
+      "efeito": "Fluoroquinolonas potencializam fortemente o efeito anticoagulante da warfarina — INR pode dobrar em 2-3 dias com risco de hemorragia grave (digestiva, intracraniana).",
+      "conduta": "❌ Monitorar INR em 2-3 dias após iniciar o antibiótico. Alertar o paciente sobre sinais de sangramento (urina avermelhada, fezes escuras, hematomas). Reduzir dose de warfarina se necessário."
+    },
+    {
+      "med1": [
+        "azitromicina"
+      ],
+      "med2": [
+        "warfarina",
+        "varfarina"
+      ],
+      "nivel": "moderado",
+      "titulo": "Azitromicina + Warfarina",
+      "efeito": "Azitromicina pode potencializar o efeito da warfarina.",
+      "conduta": "⚠️ Monitorar INR durante o tratamento com azitromicina."
+    },
+    {
+      "med1": [
+        "isotretinoína"
+      ],
+      "med2": [
+        "álcool",
+        "alcool"
+      ],
+      "nivel": "moderado",
+      "titulo": "Isotretinoína + Álcool",
+      "efeito": "Álcool potencializa hepatotoxicidade e eleva triglicerídeos — dois efeitos da isotretinoína.",
+      "conduta": "⚠️ Evitar álcool durante todo o tratamento. Monitorar perfil lipídico."
+    },
+    {
+      "med1": [
+        "tamsulosina",
+        "silodosina"
+      ],
+      "med2": [
+        "sildenafila",
+        "tadalafila"
+      ],
+      "nivel": "moderado",
+      "titulo": "Alfabloqueador + Inibidor PDE-5",
+      "efeito": "Combinação causa hipotensão ortostática significativa — risco de síncope nas primeiras doses.",
+      "conduta": "⚠️ Iniciar inibidor PDE-5 na menor dose. Não tomar junto com alfabloqueador."
+    },
+    {
+      "med1": [
+        "colestiramina",
+        "colestipol"
+      ],
+      "med2": [
+        "levotiroxina",
+        "digoxina",
+        "warfarina",
+        "paracetamol"
+      ],
+      "nivel": "moderado",
+      "titulo": "Colestiramina / Colestipol + Vários Medicamentos",
+      "efeito": "Resinas quelam praticamente todos os medicamentos no intestino — redução da absorção de quase qualquer fármaco.",
+      "conduta": "⚠️ Tomar TODOS os outros medicamentos 1h antes ou 4-6h depois das resinas."
+    },
+    {
+      "med1": [
+        "carbamazepina"
+      ],
+      "med2": [
+        "varfarina",
+        "warfarina"
+      ],
+      "nivel": "moderado",
+      "titulo": "Carbamazepina + Warfarina",
+      "efeito": "Carbamazepina induz metabolismo da warfarina — redução do efeito anticoagulante.",
+      "conduta": "⚠️ Monitorar INR frequentemente. Pode ser necessário aumentar dose de warfarina."
+    },
+    {
+      "med1": [
+        "fenitoína"
+      ],
+      "med2": [
+        "contraceptivo",
+        "etinilestradiol",
+        "levonorgestrel"
+      ],
+      "nivel": "moderado",
+      "titulo": "Fenitoína + Anticoncepcional",
+      "efeito": "Fenitoína induz metabolismo dos hormônios contraceptivos — redução significativa da eficácia.",
+      "conduta": "⚠️ Usar método contraceptivo adicional. Considerar anticoncepcionais alternativos."
+    },
+    {
+      "med1": [
+        "lamotrigina"
+      ],
+      "med2": [
+        "contraceptivo",
+        "etinilestradiol",
+        "levonorgestrel"
+      ],
+      "nivel": "moderado",
+      "titulo": "Lamotrigina + Anticoncepcional Hormonal",
+      "efeito": "Anticoncepcionais reduzem os níveis de lamotrigina em até 50% — perda de controle das crises epilépticas.",
+      "conduta": "⚠️ Ajustar dose de lamotrigina ao iniciar ou parar anticoncepcional."
+    },
+    {
+      "med1": [
+        "valproato",
+        "ácido valproico",
+        "divalproato"
+      ],
+      "med2": [
+        "carbamazepina",
+        "fenitoína",
+        "lamotrigina"
+      ],
+      "nivel": "moderado",
+      "titulo": "Valproato + Outro Anticonvulsivante",
+      "efeito": "Interações complexas — valproato inibe metabolismo da lamotrigina (toxicidade) e é induzido pela carbamazepina (menor eficácia).",
+      "conduta": "⚠️ Monitorar nível sérico de ambos. Ajustes de dose frequentes."
+    },
+    {
+      "med1": [
+        "sumatriptana",
+        "rizatriptana"
+      ],
+      "med2": [
+        "ergotamina"
+      ],
+      "nivel": "moderado",
+      "titulo": "Triptano + Ergotamina",
+      "efeito": "Ambos causam vasoconstrição — combinação pode causar isquemia grave.",
+      "conduta": "⚠️ Não usar triptano dentro de 24h após ergotamina e vice-versa."
+    },
+    {
+      "med1": [
+        "denosumabe"
+      ],
+      "med2": [
+        "cálcio",
+        "vitamina d"
+      ],
+      "nivel": "moderado",
+      "titulo": "Denosumabe + Cálcio / Vitamina D (obrigatório)",
+      "efeito": "Denosumabe causa hipocalcemia — cálcio e vitamina D devem ser suplementados obrigatoriamente.",
+      "conduta": "⚠️ Suplementação de cálcio e vitamina D é OBRIGATÓRIA com denosumabe."
+    },
+    {
+      "med1": [
+        "ácido zoledrónico",
+        "alendronato"
+      ],
+      "med2": [
+        "cálcio",
+        "vitamina d"
+      ],
+      "nivel": "moderado",
+      "titulo": "Bisfosfonato + Cálcio / Vitamina D",
+      "efeito": "Bisfosfonatos requerem cálcio e vitamina D adequados — deficiência compromete a eficácia.",
+      "conduta": "⚠️ Suplementar cálcio e vitamina D antes e durante o tratamento."
+    },
+    {
+      "med1": [
+        "epoetina",
+        "eritropoetina"
+      ],
+      "med2": [
+        "ferro",
+        "sulfato ferroso",
+        "ferro sacarato"
+      ],
+      "nivel": "moderado",
+      "titulo": "Eritropoetina + Ferro (necessário)",
+      "efeito": "A eritropoetina requer estoques de ferro adequados para funcionar — sem ferro, a resposta eritropoiética falha.",
+      "conduta": "⚠️ Garantir estoques de ferro adequados antes e durante o tratamento."
+    },
+    {
+      "med1": [
+        "escopolamina",
+        "hioscina"
+      ],
+      "med2": [
+        "amitriptilina",
+        "prometazina",
+        "biperideno",
+        "oxibutinina"
+      ],
+      "nivel": "moderado",
+      "titulo": "Múltiplos Anticolinérgicos",
+      "efeito": "Efeitos anticolinérgicos cumulativos — boca seca intensa, retenção urinária, confusão mental, delirium em idosos.",
+      "conduta": "⚠️ Evitar múltiplos anticolinérgicos. Revisar polifarmácia com médico."
+    },
+    {
+      "med1": [
+        "rifampicina"
+      ],
+      "med2": [
+        "fluconazol",
+        "itraconazol"
+      ],
+      "nivel": "moderado",
+      "titulo": "Rifampicina + Antifúngico Azólico",
+      "efeito": "Rifampicina induz metabolismo dos azólicos — redução drástica da eficácia antifúngica.",
+      "conduta": "⚠️ Evitar combinação ou aumentar dose do antifúngico com monitoramento."
+    },
+    {
+      "med1": [
+        "metformina"
+      ],
+      "med2": [
+        "vitamina b12",
+        "cianocobalamina"
+      ],
+      "nivel": "baixo",
+      "titulo": "Metformina + Vitamina B12 (monitorar)",
+      "efeito": "Metformina reduz absorção de vitamina B12 com uso prolongado — risco de deficiência e neuropatia.",
+      "conduta": "✅ Monitorar vitamina B12 a cada 1-2 anos. Suplementar se níveis baixos."
+    },
+    {
+      "med1": [
+        "prednisona",
+        "prednisolona",
+        "dexametasona",
+        "hidrocortisona"
+      ],
+      "med2": [
+        "cálcio",
+        "vitamina d"
+      ],
+      "nivel": "baixo",
+      "titulo": "Corticoide + Cálcio / Vitamina D (protetora)",
+      "efeito": "Corticoides causam perda óssea — suplementação de cálcio e vitamina D é protetora no uso crônico.",
+      "conduta": "✅ Suplementação recomendada em uso crônico de corticoides."
+    },
+    {
+      "med1": [
+        "isoniazida"
+      ],
+      "med2": [
+        "vitamina b6",
+        "piridoxina"
+      ],
+      "nivel": "baixo",
+      "titulo": "Isoniazida + Vitamina B6 (protetora)",
+      "efeito": "Isoniazida causa deficiência de B6 — neuropatia periférica preventível com suplementação.",
+      "conduta": "✅ Suplementar vitamina B6 (10-50mg/dia) durante todo o tratamento com isoniazida."
+    },
+    {
+      "med1": [
+        "prednisona",
+        "prednisolona",
+        "dexametasona"
+      ],
+      "med2": [
+        "omeprazol",
+        "pantoprazol"
+      ],
+      "nivel": "baixo",
+      "titulo": "Corticoide + IBP (protetora)",
+      "efeito": "Corticoides em doses altas aumentam risco de úlcera — IBP é protetor gástrico recomendado.",
+      "conduta": "✅ IBP indicado no uso de corticoides sistêmicos por mais de 2 semanas."
+    },
+    {
+      "med1": [
+        "sinvastatina",
+        "atorvastatina",
+        "rosuvastatina"
+      ],
+      "med2": [
+        "ubiquinona"
+      ],
+      "nivel": "baixo",
+      "titulo": "Estatina + Coenzima Q10",
+      "efeito": "Estatinas reduzem síntese de CoQ10 — suplementação pode reduzir miopatia induzida por estatina.",
+      "conduta": "✅ CoQ10 (100-200mg/dia) é seguro e pode ajudar com dores musculares por estatina."
+    },
+    {
+      "med1": [
+        "sertralina",
+        "escitalopram",
+        "fluoxetina"
+      ],
+      "med2": [
+        "ômega-3"
+      ],
+      "nivel": "baixo",
+      "titulo": "ISRS + Ômega-3",
+      "efeito": "Ômega-3 pode ter efeito sinérgico antidepressivo — combinação frequentemente usada.",
+      "conduta": "✅ Combinação segura e potencialmente benéfica."
+    },
+    {
+      "med1": [
+        "warfarina",
+        "varfarina"
+      ],
+      "med2": [
+        "aspirina",
+        "ácido acetilsalicílico",
+        "aas"
+      ],
+      "nivel": "alto",
+      "titulo": "Warfarina + Aspirina / AAS",
+      "efeito": "Combinação de anticoagulante oral + antiagregante plaquetário multiplica o risco de sangramento grave — hemorragia digestiva e intracraniana.",
+      "conduta": "❌ Evitar salvo indicação médica específica (ex: FA + stent). Monitorar rigorosamente com médico."
+    },
+    {
+      "med1": [
+        "warfarina",
+        "varfarina"
+      ],
+      "med2": [
+        "fluoxetina",
+        "sertralina",
+        "escitalopram",
+        "paroxetina",
+        "citalopram"
+      ],
+      "nivel": "moderado",
+      "titulo": "Warfarina + ISRS",
+      "efeito": "ISRS inibem metabolismo da warfarina via CYP2C9 e possuem efeito antiagregante plaquetário — INR pode elevar e risco de sangramento aumenta.",
+      "conduta": "⚠️ Monitorar INR com maior frequência ao iniciar ou ajustar dose do ISRS."
+    },
+    {
+      "med1": [
+        "warfarina",
+        "varfarina"
+      ],
+      "med2": [
+        "paracetamol"
+      ],
+      "nivel": "moderado",
+      "titulo": "Warfarina + Paracetamol (dose alta)",
+      "efeito": "Paracetamol em doses acima de 2g/dia pode potencializar o efeito anticoagulante da warfarina — risco de sangramento inesperado.",
+      "conduta": "⚠️ Usar paracetamol na menor dose eficaz. Monitorar INR com uso regular ou prolongado."
+    },
+    {
+      "med1": [
+        "sildenafila",
+        "tadalafila"
+      ],
+      "med2": [
+        "ritonavir",
+        "lopinavir",
+        "atazanavir",
+        "darunavir",
+        "inibidor de protease"
+      ],
+      "nivel": "alto",
+      "titulo": "Sildenafila / Tadalafila + Inibidor de Protease (HIV)",
+      "efeito": "Ritonavir e outros inibidores de protease aumentam o nível de sildenafila em até 11 vezes — risco de hipotensão grave, perda de visão e priapismo.",
+      "conduta": "❌ Contraindicado. Se imprescindível, limitar sildenafila a 25mg a cada 48h sob supervisão médica."
+    },
+    {
+      "med1": [
+        "sinvastatina",
+        "atorvastatina",
+        "rosuvastatina"
+      ],
+      "med2": [
+        "ciclosporina"
+      ],
+      "nivel": "alto",
+      "titulo": "Estatina + Ciclosporina",
+      "efeito": "Ciclosporina inibe fortemente CYP3A4 e transportadores — aumento massivo dos níveis da estatina com risco de rabdomiólise grave e insuficiência renal aguda.",
+      "conduta": "❌ Contraindicado com sinvastatina. Usar pravastatina em dose reduzida apenas sob supervisão médica."
+    },
+    {
+      "med1": [
+        "sinvastatina",
+        "atorvastatina",
+        "rosuvastatina"
+      ],
+      "med2": [
+        "genfibrozila"
+      ],
+      "nivel": "moderado",
+      "titulo": "Estatina + Genfibrozila / Fibrato",
+      "efeito": "Genfibrozila inibe o metabolismo das estatinas — risco aumentado de miopatia e rabdomiólise, especialmente com sinvastatina.",
+      "conduta": "⚠️ Preferir fenofibrato ao genfibrozila. Monitorar sintomas musculares. Evitar genfibrozila + sinvastatina."
+    },
+    {
+      "med1": [
+        "fluoxetina",
+        "sertralina",
+        "escitalopram",
+        "paroxetina",
+        "citalopram"
+      ],
+      "med2": [
+        "lítio",
+        "carbonato de lítio"
+      ],
+      "nivel": "moderado",
+      "titulo": "ISRS + Lítio",
+      "efeito": "Combinação potencializa a atividade serotoninérgica — risco de síndrome serotoninérgica e aumento da toxicidade do lítio.",
+      "conduta": "⚠️ Monitorar nível sérico de lítio e sinais de toxicidade (tremor, confusão, náusea) regularmente."
+    },
+    {
+      "med1": [
+        "clopidogrel"
+      ],
+      "med2": [
+        "fluoxetina",
+        "fluvoxamina",
+        "escitalopram"
+      ],
+      "nivel": "moderado",
+      "titulo": "Clopidogrel + ISRS (CYP2C19)",
+      "efeito": "Fluoxetina, fluvoxamina e escitalopram inibem CYP2C19 — reduzem ativação do clopidogrel (pró-droga) e aumentam risco de eventos cardiovasculares.",
+      "conduta": "⚠️ Preferir sertralina ou venlafaxina como antidepressivo. Discutir troca com médico."
+    },
+    {
+      "med1": [
+        "levotiroxina"
+      ],
+      "med2": [
+        "omeprazol",
+        "pantoprazol",
+        "lansoprazol",
+        "esomeprazol",
+        "rabeprazol"
+      ],
+      "nivel": "moderado",
+      "titulo": "Levotiroxina + IBP (Omeprazol / Pantoprazol)",
+      "efeito": "IBPs elevam o pH gástrico e podem reduzir a absorção da levotiroxina — controle do hipotireoidismo comprometido.",
+      "conduta": "⚠️ Tomar levotiroxina 30–60 min antes do IBP. Monitorar TSH periodicamente para ajuste de dose."
+    },
+    {
+      "med1": [
+        "prednisona",
+        "prednisolona",
+        "dexametasona",
+        "hidrocortisona"
+      ],
+      "med2": [
+        "ibuprofeno",
+        "diclofenaco",
+        "nimesulida",
+        "meloxicam",
+        "cetoprofeno",
+        "aspirina",
+        "aine"
+      ],
+      "nivel": "alto",
+      "titulo": "Corticoide + AINE / Aspirina",
+      "efeito": "Combinação de dois agentes agressivos para a mucosa gástrica — risco muito elevado de úlcera péptica e sangramento gastrointestinal grave.",
+      "conduta": "❌ Evitar. Se necessário, adicionar protetor gástrico (IBP). Prefira paracetamol para dor."
+    },
+    {
+      "med1": [
+        "prednisona",
+        "prednisolona",
+        "dexametasona"
+      ],
+      "med2": [
+        "insulina",
+        "insulina nph",
+        "insulina regular",
+        "glibenclamida",
+        "metformina"
+      ],
+      "nivel": "moderado",
+      "titulo": "Corticoide + Antidiabético / Insulina",
+      "efeito": "Corticoides elevam a glicemia — podem neutralizar o efeito dos antidiabéticos e descompensar o diabetes, especialmente com doses altas.",
+      "conduta": "⚠️ Monitorar glicemia com maior frequência. Ajuste de dose de insulina ou antidiabético pode ser necessário."
+    },
+    {
+      "med1": [
+        "prednisona",
+        "prednisolona"
+      ],
+      "med2": [
+        "ciprofloxacino",
+        "levofloxacino",
+        "moxifloxacino"
+      ],
+      "nivel": "moderado",
+      "titulo": "Corticoide + Fluoroquinolona",
+      "efeito": "Combinação aumenta muito o risco de tendinite e ruptura espontânea do tendão de Aquiles, especialmente em pacientes idosos.",
+      "conduta": "⚠️ Monitorar dor e inflamação em tendões. Suspender e consultar médico se surgir dor no tendão."
+    },
+    {
+      "med1": [
+        "valproato",
+        "ácido valproico",
+        "divalproato"
+      ],
+      "med2": [
+        "meropenem",
+        "imipenem",
+        "ertapenem",
+        "carbapenem"
+      ],
+      "nivel": "alto",
+      "titulo": "Valproato + Antibiótico Carbapenem",
+      "efeito": "Antibióticos carbapenem (meropenem, imipenem) reduzem os níveis de valproato em 60–90% nas primeiras 24h — risco de convulsões com falha abrupta do tratamento antiepiléptico.",
+      "conduta": "❌ Evitar combinação. Se inevitável, monitorar nível sérico de valproato intensivamente e considerar anticonvulsivante alternativo."
+    },
+    {
+      "med1": [
+        "metotrexato"
+      ],
+      "med2": [
+        "omeprazol",
+        "pantoprazol",
+        "lansoprazol",
+        "esomeprazol"
+      ],
+      "nivel": "moderado",
+      "titulo": "Metotrexato + IBP (Omeprazol)",
+      "efeito": "IBPs competem com a excreção tubular renal do metotrexato — podem elevar seus níveis séricos e aumentar toxicidade (mucosite, mielossupressão).",
+      "conduta": "⚠️ Suspender IBP 1–2 dias antes de doses altas de metotrexato. Monitorar sinais de toxicidade."
+    },
+    {
+      "med1": [
+        "azitromicina"
+      ],
+      "med2": [
+        "digoxina"
+      ],
+      "nivel": "moderado",
+      "titulo": "Azitromicina + Digoxina",
+      "efeito": "Azitromicina altera a flora intestinal e inibe P-gp — pode elevar nível sérico de digoxina em 40–70%, com risco de intoxicação digitálica (bradicardia, arritmias).",
+      "conduta": "⚠️ Monitorar nível sérico de digoxina e sinais de toxicidade durante e após o tratamento."
+    },
+    {
+      "med1": [
+        "fluconazol",
+        "itraconazol"
+      ],
+      "med2": [
+        "escitalopram",
+        "citalopram"
+      ],
+      "nivel": "moderado",
+      "titulo": "Antifúngico Azólico + Escitalopram / Citalopram",
+      "efeito": "Fluconazol inibe CYP2C19 — eleva nível de escitalopram/citalopram e pode prolongar o intervalo QT, com risco de arritmia ventricular grave.",
+      "conduta": "⚠️ Monitorar ECG. Considerar reduzir dose de escitalopram durante o tratamento antifúngico."
+    },
+    {
+      "med1": [
+        "epoetina",
+        "eritropoetina",
+        "alfaepoetina"
+      ],
+      "med2": [
+        "captopril",
+        "enalapril",
+        "losartana",
+        "metoprolol",
+        "atenolol",
+        "bisoprolol",
+        "anlodipino"
+      ],
+      "nivel": "moderado",
+      "titulo": "Eritropoetina + Anti-hipertensivo",
+      "efeito": "Eritropoetina eleva hematócrito e pressão arterial — pode comprometer o controle da hipertensão e exigir ajuste dos anti-hipertensivos.",
+      "conduta": "⚠️ Monitorar PA regularmente durante o tratamento. Ajustar dose do anti-hipertensivo se necessário."
+    },
+    {
+      "med1": [
+        "tramadol"
+      ],
+      "med2": [
+        "ondansetrom",
+        "ondansetrona",
+        "granisetrona"
+      ],
+      "nivel": "moderado",
+      "titulo": "Tramadol + Ondansetrona (antagonista 5-HT3)",
+      "efeito": "Ondansetrona antagoniza receptores 5-HT3 e inibe CYP2D6 — pode reduzir significativamente a eficácia analgésica do tramadol.",
+      "conduta": "⚠️ Monitorar controle da dor. Considerar analgésico alternativo ou aumentar dose de tramadol com cautela."
+    },
+    {
+      "med1": [
+        "alopurinol"
+      ],
+      "med2": [
+        "ciclofosfamida"
+      ],
+      "nivel": "moderado",
+      "titulo": "Alopurinol + Ciclofosfamida",
+      "efeito": "Alopurinol inibe metabolismo da ciclofosfamida — pode aumentar toxicidade hematológica (mielossupressão).",
+      "conduta": "⚠️ Monitorar hemograma. Reduzir dose de ciclofosfamida se necessário sob orientação oncológica."
+    },
+    {
+      "med1": [
+        "sinvastatina",
+        "atorvastatina"
+      ],
+      "med2": [
+        "ritonavir",
+        "lopinavir",
+        "atazanavir"
+      ],
+      "nivel": "alto",
+      "titulo": "Estatina + Ritonavir / Inibidor de Protease (HIV)",
+      "efeito": "Ritonavir inibe fortemente o CYP3A4 — eleva os níveis de sinvastatina em até 30x e atorvastatina em até 9x, com risco altíssimo de rabdomiólise grave e insuficiência renal aguda.",
+      "conduta": "❌ Sinvastatina é contraindicada com ritonavir. Atorvastatina: dose máxima 20mg/dia. Preferir pravastatina ou rosuvastatina em dose baixa sob supervisão médica."
+    },
+    {
+      "med1": [
+        "sinvastatina",
+        "atorvastatina",
+        "rosuvastatina"
+      ],
+      "med2": [
+        "rifampicina"
+      ],
+      "nivel": "moderado",
+      "titulo": "Estatina + Rifampicina",
+      "efeito": "Rifampicina induz fortemente CYP3A4 e CYP2C9 — reduz drasticamente os níveis das estatinas, comprometendo o controle do colesterol.",
+      "conduta": "⚠️ Monitorar colesterol durante o tratamento com rifampicina. Ajuste de dose da estatina pode ser necessário com orientação médica."
+    },
+    {
+      "med1": [
+        "sinvastatina",
+        "atorvastatina",
+        "rosuvastatina"
+      ],
+      "med2": [
+        "warfarina",
+        "varfarina"
+      ],
+      "nivel": "moderado",
+      "titulo": "Estatina + Warfarina",
+      "efeito": "Sinvastatina e atorvastatina podem inibir metabolismo da warfarina via CYP2C9 — potencializam o efeito anticoagulante com risco de elevação do INR e sangramento.",
+      "conduta": "⚠️ Monitorar INR ao iniciar, trocar ou ajustar dose da estatina. Ajuste de warfarina pode ser necessário."
+    },
+    {
+      "med1": [
+        "sinvastatina",
+        "atorvastatina",
+        "rosuvastatina"
+      ],
+      "med2": [
+        "álcool",
+        "alcool"
+      ],
+      "nivel": "moderado",
+      "titulo": "Estatina + Álcool",
+      "efeito": "Álcool e estatinas podem causar dano hepático — uso combinado eleva risco de hepatotoxicidade e piora da miopatia. Doença hepática alcoólica é contraindicação às estatinas.",
+      "conduta": "⚠️ Evitar consumo excessivo de álcool. Monitorar enzimas hepáticas (TGO/TGP) regularmente."
+    },
+    {
+      "med1": [
+        "sinvastatina",
+        "atorvastatina",
+        "rosuvastatina"
+      ],
+      "med2": [
+        "niacina",
+        "ácido nicotínico"
+      ],
+      "nivel": "moderado",
+      "titulo": "Estatina + Niacina (doses altas)",
+      "efeito": "Niacina em doses altas (>1g/dia) combinada com estatina aumenta o risco de miopatia e rabdomiólise — efeito aditivo no dano muscular.",
+      "conduta": "⚠️ Usar a menor dose eficaz de niacina. Monitorar sintomas musculares (dor, fraqueza, urina escura)."
+    },
+    {
+      "med1": [
+        "sinvastatina",
+        "atorvastatina"
+      ],
+      "med2": [
+        "toranja",
+        "grapefruit",
+        "suco de toranja"
+      ],
+      "nivel": "moderado",
+      "titulo": "Estatina + Suco de Toranja (Grapefruit)",
+      "efeito": "Compostos da toranja inibem o CYP3A4 intestinal — elevam os níveis de sinvastatina e atorvastatina com risco de miopatia e rabdomiólise. Rosuvastatina não é afetada.",
+      "conduta": "⚠️ Evitar consumo de toranja (grapefruit) durante uso de sinvastatina ou atorvastatina. Trocar por rosuvastatina se consumo for inevitável."
+    },
+    {
+      "med1": [
+        "sinvastatina",
+        "atorvastatina",
+        "rosuvastatina"
+      ],
+      "med2": [
+        "fenofibrato"
+      ],
+      "nivel": "baixo",
+      "titulo": "Estatina + Fenofibrato",
+      "efeito": "Combinação geralmente segura para dislipidemia mista — fenofibrato tem risco de miopatia muito menor que genfibrozila e raramente eleva os níveis da estatina.",
+      "conduta": "✅ Combinação geralmente bem tolerada. Monitorar sintomas musculares (dor, fraqueza). Preferir fenofibrato a genfibrozila na associação com estatina."
+    },
+    {
+      "med1": [
+        "metformina"
+      ],
+      "med2": [
+        "contraste iodado",
+        "contraste",
+        "contraste radiológico"
+      ],
+      "nivel": "alto",
+      "titulo": "Metformina + Contraste Iodado",
+      "efeito": "Contraste iodado pode precipitar insuficiência renal aguda — metformina acumula e causa acidose lática grave, potencialmente fatal.",
+      "conduta": "❌ Suspender metformina 48h antes do exame com contraste iodado. Reiniciar somente após confirmar função renal normal (48h após o exame)."
+    },
+    {
+      "med1": [
+        "metformina"
+      ],
+      "med2": [
+        "furosemida",
+        "hidroclorotiazida",
+        "indapamida"
+      ],
+      "nivel": "moderado",
+      "titulo": "Metformina + Diurético (Furosemida)",
+      "efeito": "Diuréticos podem causar desidratação e reduzir função renal — elevam o nível sérico da metformina e aumentam o risco de acidose lática.",
+      "conduta": "⚠️ Monitorar função renal (creatinina) regularmente. Manter hidratação adequada."
+    },
+    {
+      "med1": [
+        "metformina"
+      ],
+      "med2": [
+        "captopril",
+        "enalapril",
+        "lisinopril"
+      ],
+      "nivel": "moderado",
+      "titulo": "Metformina + IECA (Captopril / Enalapril)",
+      "efeito": "IECAs podem potencializar o efeito hipoglicemiante da metformina — risco aumentado de hipoglicemia, especialmente em idosos ou com função renal reduzida.",
+      "conduta": "⚠️ Monitorar glicemia. Atenção redobrada em idosos. Ajustar dose se necessário com orientação médica."
+    },
+    {
+      "med1": [
+        "metformina"
+      ],
+      "med2": [
+        "ciprofloxacino",
+        "levofloxacino",
+        "moxifloxacino"
+      ],
+      "nivel": "moderado",
+      "titulo": "Metformina + Ciprofloxacino / Fluoroquinolona",
+      "efeito": "Fluoroquinolonas podem causar hipoglicemia grave ao potencializar o efeito hipoglicemiante — mecanismo relacionado à estimulação da secreção de insulina.",
+      "conduta": "⚠️ Monitorar glicemia com frequência durante o tratamento antibiótico. Ajuste de dose pode ser necessário."
+    },
+    {
+      "med1": [
+        "metformina"
+      ],
+      "med2": [
+        "aspirina",
+        "ácido acetilsalicílico",
+        "aas"
+      ],
+      "nivel": "moderado",
+      "titulo": "Metformina + AAS (doses anti-inflamatórias)",
+      "efeito": "AAS em doses altas (>1g) potencializa o efeito hipoglicemiante por ação direta nos receptores de insulina — risco de hipoglicemia.",
+      "conduta": "⚠️ Doses cardioprotetoras (100mg/dia) têm risco mínimo. Monitorar glicemia ao usar AAS em doses anti-inflamatórias."
+    },
+    {
+      "med1": [
+        "metformina"
+      ],
+      "med2": [
+        "cimetidina"
+      ],
+      "nivel": "moderado",
+      "titulo": "Metformina + Cimetidina",
+      "efeito": "Cimetidina compete pelos transportadores renais da metformina — eleva nível sérico da metformina em até 60%, aumentando risco de acidose lática e efeitos adversos.",
+      "conduta": "⚠️ Preferir IBP (omeprazol) como protetor gástrico. Se necessário usar cimetidina, monitorar sinais de intolerância digestiva."
+    },
+    {
+      "med1": [
+        "metformina"
+      ],
+      "med2": [
+        "insulina",
+        "insulina nph",
+        "insulina regular",
+        "insulina glargina"
+      ],
+      "nivel": "moderado",
+      "titulo": "Metformina + Insulina",
+      "efeito": "Combinação aumenta o risco de hipoglicemia — metformina isolada raramente causa hipoglicemia, mas potencializa o efeito da insulina exógena.",
+      "conduta": "⚠️ Monitorar glicemia com frequência. Ajuste de dose de insulina ao iniciar metformina. Orientar sobre sintomas e conduta na hipoglicemia."
+    },
+    {
+      "med1": [
+        "aspirina",
+        "ácido acetilsalicílico",
+        "aas"
+      ],
+      "med2": [
+        "ibuprofeno"
+      ],
+      "nivel": "moderado",
+      "titulo": "AAS + Ibuprofeno (bloqueio cardioprotetor)",
+      "efeito": "Ibuprofeno compete pelo sítio de ligação da COX-1 — bloqueia o efeito cardioprotetor (antiagregante) do AAS de baixa dose quando tomado antes.",
+      "conduta": "⚠️ Tomar AAS pelo menos 30 min antes do ibuprofeno. Preferir paracetamol para dor em quem usa AAS cardioprotetor."
+    },
+    {
+      "med1": [
+        "aspirina",
+        "ácido acetilsalicílico",
+        "aas"
+      ],
+      "med2": [
+        "heparina",
+        "enoxaparina"
+      ],
+      "nivel": "alto",
+      "titulo": "AAS + Heparina / Enoxaparina",
+      "efeito": "Dupla inibição da coagulação — AAS inibe agregação plaquetária e heparina inibe fatores de coagulação. Risco alto de sangramento grave.",
+      "conduta": "❌ Evitar associação não intencional. Quando usada em contexto hospitalar específico, monitoramento rigoroso obrigatório."
+    },
+    {
+      "med1": [
+        "aspirina",
+        "ácido acetilsalicílico",
+        "aas"
+      ],
+      "med2": [
+        "fluoxetina",
+        "sertralina",
+        "escitalopram",
+        "paroxetina",
+        "citalopram"
+      ],
+      "nivel": "moderado",
+      "titulo": "AAS + ISRS (Antidepressivo)",
+      "efeito": "ISRS reduzem a serotonina plaquetária, diminuindo a agregação plaquetária — combinação com AAS multiplica o risco de sangramento gastrointestinal.",
+      "conduta": "⚠️ Considerar protetor gástrico (IBP). Monitorar sinais de sangramento (fezes escuras, dor abdominal)."
+    },
+    {
+      "med1": [
+        "aspirina",
+        "ácido acetilsalicílico",
+        "aas"
+      ],
+      "med2": [
+        "metotrexato"
+      ],
+      "nivel": "alto",
+      "titulo": "AAS + Metotrexato",
+      "efeito": "Salicilatos competem com o metotrexato pelos transportadores renais e proteínas plasmáticas — elevam seus níveis séricos com risco de toxicidade grave (mucosite, mielossupressão, hepatotoxicidade).",
+      "conduta": "❌ Evitar AAS em doses altas com metotrexato. Doses cardioprotetoras (100mg) devem ser avaliadas caso a caso com reumatologista."
+    },
+    {
+      "med1": [
+        "aspirina",
+        "ácido acetilsalicílico",
+        "aas"
+      ],
+      "med2": [
+        "lítio",
+        "carbonato de lítio"
+      ],
+      "nivel": "moderado",
+      "titulo": "AAS + Lítio",
+      "efeito": "Salicilatos reduzem a excreção renal do lítio — podem elevar o nível sérico com risco de toxicidade por lítio (tremores, confusão, náusea).",
+      "conduta": "⚠️ Monitorar nível sérico de lítio ao iniciar ou alterar dose de AAS. Ajuste de dose com orientação médica."
+    },
+    {
+      "med1": [
+        "aspirina",
+        "ácido acetilsalicílico",
+        "aas"
+      ],
+      "med2": [
+        "captopril",
+        "enalapril",
+        "lisinopril"
+      ],
+      "nivel": "moderado",
+      "titulo": "AAS + IECA (Captopril / Enalapril)",
+      "efeito": "AAS inibe prostaglandinas vasodilatadoras — pode atenuar o efeito anti-hipertensivo e a proteção renal dos IECAs, especialmente em doses acima de 100mg.",
+      "conduta": "⚠️ Doses cardioprotetoras (100mg/dia) têm impacto clínico mínimo. Evitar AAS em doses altas em pacientes com IECA para hipertensão ou insuficiência cardíaca."
+    },
+    {
+      "med1": [
+        "omeprazol",
+        "pantoprazol",
+        "lansoprazol",
+        "esomeprazol",
+        "rabeprazol"
+      ],
+      "med2": [
+        "sulfato ferroso",
+        "ferro",
+        "fumarato ferroso"
+      ],
+      "nivel": "moderado",
+      "titulo": "IBP + Sulfato Ferroso (Ferro)",
+      "efeito": "IBPs reduzem o ácido gástrico necessário para absorver o ferro — podem comprometer o tratamento da anemia ferropriva e retardar a recuperação dos estoques de ferro.",
+      "conduta": "⚠️ Tomar sulfato ferroso em jejum, separado do IBP por pelo menos 2 horas. Monitorar ferritina e hemograma durante o tratamento."
+    },
+    {
+      "med1": [
+        "omeprazol",
+        "pantoprazol",
+        "lansoprazol",
+        "esomeprazol",
+        "rabeprazol"
+      ],
+      "med2": [
+        "vitamina b12",
+        "cianocobalamina",
+        "metilcobalamina"
+      ],
+      "nivel": "moderado",
+      "titulo": "IBP + Vitamina B12 (uso prolongado)",
+      "efeito": "Uso de IBP por mais de 1 ano reduz a absorção de vitamina B12 — risco de deficiência com anemia megaloblástica, fadiga e neuropatia periférica.",
+      "conduta": "⚠️ Monitorar vitamina B12 anualmente em uso prolongado. Suplementar se níveis baixos ou sintomas neurológicos (formigamento, fraqueza)."
+    },
+    {
+      "med1": [
+        "omeprazol",
+        "pantoprazol",
+        "lansoprazol",
+        "esomeprazol",
+        "rabeprazol"
+      ],
+      "med2": [
+        "cálcio",
+        "carbonato de cálcio",
+        "colecalciferol"
+      ],
+      "nivel": "moderado",
+      "titulo": "IBP + Cálcio / Vitamina D (uso prolongado)",
+      "efeito": "IBPs reduzem a acidez necessária para absorver cálcio — uso prolongado aumenta risco de osteoporose e fraturas de quadril, punho e coluna.",
+      "conduta": "⚠️ Preferir citrato de cálcio (não depende de ácido). Monitorar densidade óssea em uso crônico. Suplementar vitamina D. Usar IBP pela menor dose e tempo necessários."
+    },
+    {
+      "med1": [
+        "omeprazol",
+        "pantoprazol",
+        "lansoprazol",
+        "esomeprazol",
+        "rabeprazol"
+      ],
+      "med2": [
+        "magnésio"
+      ],
+      "nivel": "moderado",
+      "titulo": "IBP + Magnésio (hipomagnesemia)",
+      "efeito": "Uso prolongado de IBP (>1 ano) pode causar hipomagnesemia grave — sintomas: câimbras, tremores, convulsões e arritmias cardíacas.",
+      "conduta": "⚠️ Monitorar magnésio sérico em uso prolongado, especialmente com diuréticos. Suspender IBP e repor magnésio se nível baixo."
+    },
+    {
+      "med1": [
+        "omeprazol",
+        "pantoprazol",
+        "lansoprazol",
+        "esomeprazol",
+        "rabeprazol"
+      ],
+      "med2": [
+        "itraconazol",
+        "cetoconazol"
+      ],
+      "nivel": "moderado",
+      "titulo": "IBP + Itraconazol / Cetoconazol",
+      "efeito": "IBPs elevam o pH gástrico e reduzem significativamente a absorção de itraconazol e cetoconazol — comprometem a eficácia do tratamento antifúngico.",
+      "conduta": "⚠️ Suspender IBP durante o tratamento antifúngico. Cápsulas de itraconazol podem ser tomadas com bebida ácida. Considerar fluconazol como alternativa (absorção não depende de ácido)."
+    },
+    {
+      "med1": [
+        "omeprazol",
+        "pantoprazol",
+        "lansoprazol",
+        "esomeprazol",
+        "rabeprazol"
+      ],
+      "med2": [
+        "atazanavir"
+      ],
+      "nivel": "alto",
+      "titulo": "IBP + Atazanavir (Antirretroviral)",
+      "efeito": "Atazanavir requer pH ácido para dissolução e absorção — IBPs reduzem drasticamente seus níveis séricos com risco de falha no tratamento antirretroviral e resistência viral.",
+      "conduta": "❌ Atazanavir é contraindicado com IBPs. Substituir antirretroviral ou o IBP com orientação do infectologista. Dar preferência a antiácidos ou antagonistas H2."
+    },
+    {
+      "med1": [
+        "omeprazol",
+        "esomeprazol"
+      ],
+      "med2": [
+        "diazepam"
+      ],
+      "nivel": "baixo",
+      "titulo": "Omeprazol + Diazepam (CYP2C19)",
+      "efeito": "Omeprazol e esomeprazol inibem CYP2C19 — podem elevar os níveis de diazepam, prolongando sua sedação e efeito ansiolítico.",
+      "conduta": "✅ Risco geralmente baixo. Atenção em idosos ou doses altas de diazepam. Pantoprazol ou rabeprazol são alternativas com menor inibição do CYP2C19."
+    },
+    {
+      "med1": [
+        "captopril",
+        "enalapril",
+        "lisinopril",
+        "losartana",
+        "valsartana",
+        "candesartana"
+      ],
+      "med2": [
+        "ciclosporina"
+      ],
+      "nivel": "alto",
+      "titulo": "IECA / BRA + Ciclosporina",
+      "efeito": "Ciclosporina é nefrotóxica e retém potássio — combinação com IECA ou BRA eleva o risco de insuficiência renal aguda e hipercalemia grave com arritmias.",
+      "conduta": "❌ Evitar associação sempre que possível. Se necessária (transplantado com hipertensão), monitorar função renal e potássio rigorosamente."
+    },
+    {
+      "med1": [
+        "captopril",
+        "enalapril",
+        "lisinopril",
+        "losartana",
+        "valsartana",
+        "candesartana"
+      ],
+      "med2": [
+        "heparina",
+        "enoxaparina"
+      ],
+      "nivel": "moderado",
+      "titulo": "IECA / BRA + Heparina / Enoxaparina",
+      "efeito": "Heparina (mesmo em doses profiláticas) inibe síntese de aldosterona — eleva potássio sérico com risco aditivo de hipercalemia grave quando combinada com IECA ou BRA.",
+      "conduta": "⚠️ Monitorar potássio sérico durante uso concomitante. Atenção especial em pacientes com função renal reduzida."
+    },
+    {
+      "med1": [
+        "captopril",
+        "enalapril",
+        "lisinopril",
+        "losartana"
+      ],
+      "med2": [
+        "insulina",
+        "insulina nph",
+        "insulina regular",
+        "glibenclamida"
+      ],
+      "nivel": "moderado",
+      "titulo": "IECA / BRA + Insulina / Sulfonilureia",
+      "efeito": "IECAs e BRAs aumentam a sensibilidade à insulina — potencializam o efeito hipoglicemiante, com maior risco de hipoglicemia, especialmente em idosos e pacientes com função renal reduzida.",
+      "conduta": "⚠️ Monitorar glicemia. Ajuste de dose de insulina ou sulfonilureia pode ser necessário ao iniciar ou ajustar o anti-hipertensivo."
+    },
+    {
+      "med1": [
+        "captopril",
+        "enalapril",
+        "lisinopril",
+        "losartana",
+        "valsartana",
+        "candesartana"
+      ],
+      "med2": [
+        "álcool",
+        "alcool"
+      ],
+      "nivel": "moderado",
+      "titulo": "IECA / BRA + Álcool",
+      "efeito": "Álcool potencializa o efeito vasodilatador dos IECA e BRA — risco aumentado de hipotensão, tontura intensa e quedas, especialmente ao levantar.",
+      "conduta": "⚠️ Evitar consumo de álcool. Risco maior em idosos. Se consumir, levantar devagar e segurar em apoios."
+    },
+    {
+      "med1": [
+        "captopril",
+        "enalapril",
+        "lisinopril",
+        "losartana",
+        "valsartana"
+      ],
+      "med2": [
+        "tacrolimo"
+      ],
+      "nivel": "moderado",
+      "titulo": "IECA / BRA + Tacrolimo",
+      "efeito": "Tacrolimo causa hipercalemia e nefrotoxicidade — combinação com IECA ou BRA potencializa esses efeitos com risco de insuficiência renal e arritmias.",
+      "conduta": "⚠️ Monitorar função renal e potássio rigorosamente. Ajuste de doses sob supervisão de especialista."
+    },
+    {
+      "med1": [
+        "losartana",
+        "captopril",
+        "enalapril",
+        "lisinopril"
+      ],
+      "med2": [
+        "rifampicina"
+      ],
+      "nivel": "moderado",
+      "titulo": "Losartana / IECA + Rifampicina",
+      "efeito": "Rifampicina induz fortemente enzimas hepáticas — reduz os níveis de losartana e de alguns IECA, comprometendo o controle da pressão arterial.",
+      "conduta": "⚠️ Monitorar pressão arterial durante o tratamento com rifampicina. Ajuste de dose do anti-hipertensivo pode ser necessário."
+    },
+    {
+      "med1": [
+        "captopril",
+        "enalapril",
+        "lisinopril",
+        "losartana",
+        "valsartana"
+      ],
+      "med2": [
+        "anlodipino",
+        "nifedipina",
+        "metoprolol",
+        "carvedilol",
+        "bisoprolol",
+        "atenolol"
+      ],
+      "nivel": "baixo",
+      "titulo": "IECA / BRA + Anlodipino / Beta-bloqueador (complementar)",
+      "efeito": "Combinações clássicas e amplamente recomendadas para hipertensão e insuficiência cardíaca — mecanismos complementares com controle pressórico aditivo.",
+      "conduta": "✅ Combinação padrão em hipertensão e insuficiência cardíaca. Monitorar pressão e frequência cardíaca. Levantar devagar para evitar tontura."
+    },
+    {
+      "med1": [
+        "amiodarona"
+      ],
+      "med2": [
+        "metoprolol",
+        "carvedilol",
+        "bisoprolol",
+        "atenolol",
+        "propranolol"
+      ],
+      "nivel": "alto",
+      "titulo": "Amiodarona + Beta-bloqueador",
+      "efeito": "Amiodarona e beta-bloqueadores somam seus efeitos de reduzir a frequência cardíaca — risco de bradicardia grave, bloqueio atrioventricular e parada cardíaca.",
+      "conduta": "❌ Evitar associação. Se necessária, iniciar com doses baixas e monitorar frequência cardíaca e ECG regularmente com cardiologista."
+    },
+    {
+      "med1": [
+        "amiodarona"
+      ],
+      "med2": [
+        "verapamil",
+        "diltiazem"
+      ],
+      "nivel": "alto",
+      "titulo": "Amiodarona + Verapamil / Diltiazem",
+      "efeito": "Combinação de dois depressores do nódulo sinusal e AV — risco muito alto de bradicardia grave, bloqueio cardíaco completo e parada sinusal.",
+      "conduta": "❌ Contraindicado. Evitar associação. Se inevitável, monitoramento hospitalar rigoroso com ECG contínuo."
+    },
+    {
+      "med1": [
+        "amiodarona"
+      ],
+      "med2": [
+        "azitromicina",
+        "claritromicina",
+        "eritromicina"
+      ],
+      "nivel": "alto",
+      "titulo": "Amiodarona + Macrolídeo (Azitromicina)",
+      "efeito": "Ambos prolongam o intervalo QT do eletrocardiograma — risco de arritmia ventricular grave (Torsades de Pointes) potencialmente fatal.",
+      "conduta": "❌ Evitar associação. Preferir amoxicilina ou doxiciclina quando antibiótico for necessário. Monitorar ECG se combinação for inevitável."
+    },
+    {
+      "med1": [
+        "amiodarona"
+      ],
+      "med2": [
+        "ciprofloxacino",
+        "levofloxacino",
+        "moxifloxacino"
+      ],
+      "nivel": "alto",
+      "titulo": "Amiodarona + Fluoroquinolona",
+      "efeito": "Fluoroquinolonas e amiodarona prolongam o intervalo QT — risco aditivo de Torsades de Pointes e morte súbita cardíaca.",
+      "conduta": "❌ Evitar associação. Preferir outro antibiótico (amoxicilina, doxiciclina). Se inevitável, monitorar ECG continuamente."
+    },
+    {
+      "med1": [
+        "amiodarona"
+      ],
+      "med2": [
+        "levotiroxina"
+      ],
+      "nivel": "moderado",
+      "titulo": "Amiodarona + Levotiroxina (Disfunção Tireoidiana)",
+      "efeito": "Amiodarona contém 37% de iodo e inibe a conversão de T4 em T3 — pode causar hipotireoidismo ou hipertireoidismo mesmo após anos de uso, alterando a necessidade de levotiroxina.",
+      "conduta": "⚠️ Monitorar TSH, T3 e T4 a cada 3–6 meses. Ajuste da dose de levotiroxina pode ser necessário. Alertar médico ao iniciar ou suspender amiodarona."
+    },
+    {
+      "med1": [
+        "amiodarona"
+      ],
+      "med2": [
+        "clopidogrel"
+      ],
+      "nivel": "moderado",
+      "titulo": "Amiodarona + Clopidogrel",
+      "efeito": "Amiodarona inibe CYP2C19 — reduz a ativação do clopidogrel (pró-fármaco), comprometendo o efeito antiagregante e aumentando o risco de infarto e trombose de stent.",
+      "conduta": "⚠️ Considerar alternativa ao clopidogrel (ticagrelor, prasugrel) com orientação cardiológica. Monitorar eventos cardiovasculares."
+    },
+    {
+      "med1": [
+        "amiodarona"
+      ],
+      "med2": [
+        "rivaroxabana",
+        "apixabana",
+        "dabigatrana"
+      ],
+      "nivel": "moderado",
+      "titulo": "Amiodarona + Anticoagulante Oral (NOAC)",
+      "efeito": "Amiodarona inibe P-glicoproteína e CYP3A4 — eleva os níveis de rivaroxabana, apixabana e dabigatrana com aumento do risco de sangramento.",
+      "conduta": "⚠️ Monitorar sinais de sangramento (fezes escuras, hematomas, sangramento prolongado). Considerar redução de dose do NOAC com orientação médica."
+    },
+    {
+      "med1": [
+        "fluoxetina",
+        "sertralina",
+        "escitalopram",
+        "paroxetina",
+        "citalopram",
+        "venlafaxina",
+        "duloxetina"
+      ],
+      "med2": [
+        "ibuprofeno",
+        "diclofenaco",
+        "nimesulida",
+        "meloxicam",
+        "cetoprofeno"
+      ],
+      "nivel": "moderado",
+      "titulo": "ISRS / IRSN + AINE (Ibuprofeno / Diclofenaco)",
+      "efeito": "ISRS reduzem a serotonina plaquetária (efeito antiagregante) e AINEs irritam a mucosa gástrica — combinação multiplica o risco de sangramento gastrointestinal grave.",
+      "conduta": "⚠️ Adicionar protetor gástrico (IBP). Preferir paracetamol para dor. Monitorar sinais de sangramento (fezes escuras, dor abdominal)."
+    },
+    {
+      "med1": [
+        "fluoxetina",
+        "sertralina",
+        "escitalopram",
+        "paroxetina",
+        "citalopram"
+      ],
+      "med2": [
+        "álcool",
+        "alcool"
+      ],
+      "nivel": "moderado",
+      "titulo": "ISRS + Álcool",
+      "efeito": "Álcool potencializa a sedação dos antidepressivos e intensifica a depressão do SNC — comprometimento cognitivo, tontura, sedação excessiva e piora do humor e da depressão.",
+      "conduta": "⚠️ Evitar consumo de álcool durante o tratamento. Álcool pode comprometer o efeito terapêutico do antidepressivo e aumentar risco de pensamentos depressivos."
+    },
+    {
+      "med1": [
+        "fluoxetina",
+        "sertralina",
+        "escitalopram",
+        "paroxetina",
+        "citalopram",
+        "venlafaxina"
+      ],
+      "med2": [
+        "linezolida"
+      ],
+      "nivel": "alto",
+      "titulo": "ISRS / IRSN + Linezolida",
+      "efeito": "Linezolida é um fraco inibidor da MAO — combinação com ISRS causa síndrome serotoninérgica grave: agitação, tremores, hipertermia, convulsões e risco de morte.",
+      "conduta": "❌ Contraindicado. Interromper ISRS antes de iniciar linezolida (washout de 14 dias; 5 semanas para fluoxetina). Buscar antibiótico alternativo ao linezolida se possível."
+    },
+    {
+      "med1": [
+        "fluoxetina",
+        "paroxetina"
+      ],
+      "med2": [
+        "haloperidol",
+        "risperidona",
+        "aripiprazol"
+      ],
+      "nivel": "moderado",
+      "titulo": "Fluoxetina / Paroxetina + Antipsicótico (CYP2D6)",
+      "efeito": "Fluoxetina e paroxetina inibem fortemente CYP2D6 — elevam os níveis de haloperidol, risperidona e aripiprazol com risco de efeitos extrapiramidais graves e prolongamento do QT.",
+      "conduta": "⚠️ Monitorar efeitos extrapiramidais (rigidez, tremor) e ECG. Considerar redução de dose do antipsicótico. Preferir sertralina ou escitalopram como antidepressivo alternativo."
+    },
+    {
+      "med1": [
+        "fluoxetina",
+        "sertralina",
+        "escitalopram",
+        "paroxetina",
+        "citalopram"
+      ],
+      "med2": [
+        "carbamazepina"
+      ],
+      "nivel": "moderado",
+      "titulo": "ISRS + Carbamazepina",
+      "efeito": "Carbamazepina induz CYP3A4 — reduz os níveis séricos do ISRS, comprometendo o efeito antidepressivo. Fluoxetina, por sua vez, inibe o metabolismo da carbamazepina, elevando seus níveis.",
+      "conduta": "⚠️ Monitorar resposta clínica do antidepressivo. Com fluoxetina, monitorar sinais de toxicidade por carbamazepina (tontura, visão dupla, náusea)."
+    },
+    {
+      "med1": [
+        "fluoxetina",
+        "paroxetina"
+      ],
+      "med2": [
+        "codeína"
+      ],
+      "nivel": "moderado",
+      "titulo": "Fluoxetina / Paroxetina + Codeína",
+      "efeito": "Fluoxetina e paroxetina inibem CYP2D6 — bloqueiam a conversão de codeína em morfina (forma ativa), reduzindo drasticamente o efeito analgésico da codeína.",
+      "conduta": "⚠️ Codeína pode ser ineficaz como analgésico. Preferir paracetamol ou ibuprofeno para dor. Informar o médico sobre o antidepressivo em uso antes de prescrever codeína."
+    },
+    {
+      "med1": [
+        "fluoxetina",
+        "sertralina",
+        "escitalopram",
+        "paroxetina"
+      ],
+      "med2": [
+        "insulina",
+        "insulina nph",
+        "insulina regular",
+        "glibenclamida"
+      ],
+      "nivel": "moderado",
+      "titulo": "ISRS + Antidiabético / Insulina",
+      "efeito": "ISRS podem alterar a regulação da glicose — fluoxetina aumenta a sensibilidade à insulina podendo causar hipoglicemia; paroxetina pode causar ganho de peso e piorar o controle glicêmico.",
+      "conduta": "⚠️ Monitorar glicemia ao iniciar ou ajustar ISRS. Ajuste de dose de insulina ou antidiabético pode ser necessário com orientação médica."
+    },
+    {
+      "med1": [
+        "fluoxetina",
+        "sertralina",
+        "escitalopram",
+        "paroxetina",
+        "citalopram",
+        "venlafaxina"
+      ],
+      "med2": [
+        "hipericão",
+        "erva-de-são-joão",
+        "hypericum"
+      ],
+      "nivel": "alto",
+      "titulo": "ISRS / IRSN + Hipericão (Erva-de-São-João)",
+      "efeito": "Hipericão tem atividade serotoninérgica e induz CYP3A4 — combinação com ISRS causa síndrome serotoninérgica e pode reduzir os níveis do antidepressivo prescrito, gerando efeito paradoxal.",
+      "conduta": "❌ Contraindicado. Nunca associar fitoterápico com antidepressivo sem orientação médica. Informar sempre sobre todos os suplementos e chás em uso."
+    },
+    {
+      "med1": [
+        "etinilestradiol",
+        "levonorgestrel",
+        "drospirenona",
+        "contraceptivo",
+        "anticoncepcional"
+      ],
+      "med2": [
+        "hipericão",
+        "erva-de-são-joão",
+        "hypericum"
+      ],
+      "nivel": "alto",
+      "titulo": "Anticoncepcional + Hipericão (Erva-de-São-João)",
+      "efeito": "Hipericão induz fortemente o CYP3A4 — reduz os níveis dos hormônios do anticoncepcional causando falha contraceptiva e sangramento de escape.",
+      "conduta": "❌ Não associar. Usar método contraceptivo adicional (preservativo). Informar sempre médico ou farmacêutico sobre uso de fitoterápicos."
+    },
+    {
+      "med1": [
+        "etinilestradiol",
+        "levonorgestrel",
+        "drospirenona",
+        "contraceptivo",
+        "anticoncepcional"
+      ],
+      "med2": [
+        "oxcarbazepina"
+      ],
+      "nivel": "alto",
+      "titulo": "Anticoncepcional + Oxcarbazepina",
+      "efeito": "Oxcarbazepina induz CYP3A4 — reduz os níveis dos hormônios contraceptivos podendo causar falha do anticoncepcional e gravidez não planejada.",
+      "conduta": "❌ Usar método contraceptivo adicional (preservativo). Considerar anticoncepcional de alta dose ou método não hormonal. Discutir alternativas com médico."
+    },
+    {
+      "med1": [
+        "etinilestradiol",
+        "levonorgestrel",
+        "drospirenona",
+        "contraceptivo",
+        "anticoncepcional"
+      ],
+      "med2": [
+        "ritonavir",
+        "lopinavir",
+        "efavirenz"
+      ],
+      "nivel": "alto",
+      "titulo": "Anticoncepcional + Antirretroviral (HIV)",
+      "efeito": "Ritonavir e efavirenz induzem CYP3A4 — reduzem os níveis de etinilestradiol em até 40%, com risco real de falha contraceptiva e gravidez não planejada.",
+      "conduta": "❌ Usar método contraceptivo adicional confiável (preservativo + DIU). Discutir alternativas com infectologista."
+    },
+    {
+      "med1": [
+        "etinilestradiol",
+        "levonorgestrel",
+        "drospirenona",
+        "contraceptivo",
+        "anticoncepcional"
+      ],
+      "med2": [
+        "tabaco",
+        "cigarro",
+        "tabagismo",
+        "fumo"
+      ],
+      "nivel": "alto",
+      "titulo": "Anticoncepcional + Tabagismo",
+      "efeito": "Cigarro combinado com anticoncepcional oral aumenta drasticamente o risco de trombose venosa profunda, AVC, infarto e embolia pulmonar — especialmente em mulheres acima de 35 anos.",
+      "conduta": "❌ Contraindicado em fumantes com mais de 35 anos. Quem fuma deve optar por métodos não estrogênicos (minipílula, DIU, implante). Parar de fumar é essencial."
+    },
+    {
+      "med1": [
+        "drospirenona",
+        "contraceptivo",
+        "anticoncepcional"
+      ],
+      "med2": [
+        "espironolactona",
+        "captopril",
+        "enalapril",
+        "lisinopril",
+        "losartana",
+        "valsartana"
+      ],
+      "nivel": "moderado",
+      "titulo": "Drospirenona (Anticoncepcional) + Espironolactona / IECA / BRA",
+      "efeito": "Drospirenona tem atividade anti-mineralocorticoide semelhante à espironolactona — combinação com poupadores de potássio eleva risco de hipercalemia com arritmias.",
+      "conduta": "⚠️ Monitorar potássio sérico. Atenção em pacientes com doença renal. Informar médico sobre anticoncepcional com drospirenona ao usar medicamentos para pressão."
+    },
+    {
+      "med1": [
+        "etinilestradiol",
+        "levonorgestrel",
+        "drospirenona",
+        "contraceptivo",
+        "anticoncepcional"
+      ],
+      "med2": [
+        "warfarina",
+        "varfarina"
+      ],
+      "nivel": "moderado",
+      "titulo": "Anticoncepcional + Warfarina",
+      "efeito": "Anticoncepcionais aumentam fatores de coagulação e podem alterar o metabolismo da warfarina — efeito anticoagulante imprevisível e risco tromboembólico elevado na combinação.",
+      "conduta": "⚠️ Monitorar INR regularmente. Considerar método contraceptivo não estrogênico (DIU, progesterona isolada) para pacientes anticoaguladas."
+    },
+    {
+      "med1": [
+        "etinilestradiol",
+        "levonorgestrel",
+        "drospirenona",
+        "contraceptivo",
+        "anticoncepcional"
+      ],
+      "med2": [
+        "ácido fólico"
+      ],
+      "nivel": "baixo",
+      "titulo": "Anticoncepcional + Ácido Fólico (depleção)",
+      "efeito": "Uso prolongado de anticoncepcional oral pode reduzir os níveis de ácido fólico — maior risco de deficiência em mulheres que planejam engravidar após descontinuar.",
+      "conduta": "✅ Suplementar ácido fólico 400mcg/dia, especialmente ao planejar gravidez. Iniciar suplementação já durante o uso do anticoncepcional."
+    },
+    {
+      "med1": [
+        "alprazolam"
+      ],
+      "med2": [
+        "diazepam"
+      ],
+      "nivel": "moderado",
+      "titulo": "Alprazolam + Diazepam — Dois Benzodiazepínicos",
+      "efeito": "Usar alprazolam e diazepam juntos soma os efeitos sedativos de dois benzodiazepínicos — potencializa sonolência intensa, confusão mental, lentidão de reações e risco elevado de quedas. Em idosos, o risco é ainda maior porque o organismo elimina esses medicamentos mais devagar, levando ao acúmulo e à sedação prolongada.",
+      "conduta": "⚠️ Evitar a combinação. Se o uso simultâneo for inevitável por indicação médica específica, usar a menor dose possível de cada um e manter supervisão próxima. Idosos devem ser monitorados para sinais de sedação excessiva, desequilíbrio e confusão."
+    },
+    {
+      "med1": [
+        "alprazolam",
+        "diazepam",
+        "clonazepam"
+      ],
+      "med2": [
+        "fluconazol",
+        "itraconazol",
+        "cetoconazol"
+      ],
+      "nivel": "moderado",
+      "titulo": "Benzodiazepínico + Antifúngico Azólico (CYP3A4)",
+      "efeito": "Fluconazol e itraconazol inibem o CYP3A4 — elevam os níveis de alprazolam, diazepam e clonazepam em 50–100%, intensificando sedação, ataxia e risco de quedas. Lorazepam não é afetado por essa via.",
+      "conduta": "⚠️ Evitar fluconazol e itraconazol com alprazolam ou diazepam. Se antifúngico for necessário, preferir lorazepam. Reduzir dose do benzodiazepínico e monitorar sedação."
+    },
+    {
+      "med1": [
+        "alprazolam",
+        "diazepam",
+        "clonazepam"
+      ],
+      "med2": [
+        "claritromicina",
+        "eritromicina"
+      ],
+      "nivel": "moderado",
+      "titulo": "Benzodiazepínico + Macrolídeo (CYP3A4)",
+      "efeito": "Claritromicina e eritromicina inibem CYP3A4 — elevam os níveis de alprazolam, diazepam e clonazepam, prolongando e intensificando a sedação. Lorazepam não é afetado por essa via metabólica.",
+      "conduta": "⚠️ Preferir azitromicina ou amoxicilina quando antibiótico for necessário. Se macrolídeo for inevitável, reduzir dose do benzodiazepínico e monitorar sedação."
+    },
+    {
+      "med1": [
+        "alprazolam",
+        "clonazepam",
+        "diazepam",
+        "lorazepam"
+      ],
+      "med2": [
+        "quetiapina",
+        "olanzapina",
+        "haloperidol",
+        "risperidona",
+        "clozapina"
+      ],
+      "nivel": "moderado",
+      "titulo": "Benzodiazepínico + Antipsicótico",
+      "efeito": "Combinação de dois depressores do SNC — soma sedação, hipotensão ortostática e risco de depressão respiratória. Em idosos, aumenta muito o risco de quedas, fratura de quadril e confusão mental.",
+      "conduta": "⚠️ Evitar sempre que possível. Se necessária (ex: agitação aguda hospitalar), usar doses mínimas e monitorar frequência respiratória e pressão arterial."
+    },
+    {
+      "med1": [
+        "alprazolam",
+        "clonazepam",
+        "diazepam",
+        "lorazepam"
+      ],
+      "med2": [
+        "prometazina",
+        "hidroxizina",
+        "difenidramina"
+      ],
+      "nivel": "moderado",
+      "titulo": "Benzodiazepínico + Antihistamínico Sedante",
+      "efeito": "Antihistamínicos sedantes potencializam a depressão do SNC dos benzodiazepínicos — sonolência intensa, comprometimento dos reflexos das vias aéreas e risco elevado de quedas e acidentes.",
+      "conduta": "⚠️ Evitar a associação. Substituir prometazina por ondansetrom se antiemético for necessário. Risco muito alto em idosos — combinação listada nos Critérios de Beers."
+    },
+    {
+      "med1": [
+        "alprazolam",
+        "diazepam",
+        "clonazepam"
+      ],
+      "med2": [
+        "carbamazepina"
+      ],
+      "nivel": "moderado",
+      "titulo": "Benzodiazepínico + Carbamazepina (CYP3A4)",
+      "efeito": "Carbamazepina induz fortemente o CYP3A4 — reduz os níveis de alprazolam, diazepam e clonazepam em 40–60%, podendo comprometer o controle da ansiedade e das crises epilépticas. Lorazepam é menos afetado.",
+      "conduta": "⚠️ Monitorar eficácia clínica do benzodiazepínico. Pode ser necessário ajustar dose com orientação médica. Lorazepam é alternativa mais estável na combinação com carbamazepina."
+    },
+    {
+      "med1": [
+        "alprazolam",
+        "diazepam",
+        "clonazepam"
+      ],
+      "med2": [
+        "rifampicina"
+      ],
+      "nivel": "moderado",
+      "titulo": "Benzodiazepínico + Rifampicina (CYP3A4)",
+      "efeito": "Rifampicina é o indutor de CYP3A4 mais potente disponível — reduz os níveis de alprazolam, diazepam e clonazepam em 80–90%, podendo anular o efeito ansiolítico e precipitar abstinência em dependentes. Lorazepam é menos afetado.",
+      "conduta": "⚠️ Evitar a combinação. Se inevitável (ex: tuberculose ativa), aumentar dose do benzodiazepínico sob supervisão médica ou substituir por lorazepam. Monitorar sintomas de abstinência ao iniciar rifampicina."
+    },
+    {
+      "med1": [
+        "alprazolam",
+        "diazepam"
+      ],
+      "med2": [
+        "fluoxetina",
+        "fluvoxamina"
+      ],
+      "nivel": "baixo",
+      "titulo": "Alprazolam / Diazepam + Fluoxetina / Fluvoxamina (CYP2C19)",
+      "efeito": "Fluoxetina inibe CYP2C19 e CYP3A4; fluvoxamina inibe fortemente CYP1A2 e CYP2C19 — podem elevar moderadamente os níveis de alprazolam e diazepam, prolongando a sedação. Clonazepam e lorazepam são menos afetados.",
+      "conduta": "✅ Risco geralmente baixo em doses habituais. Monitorar sedação excessiva ao iniciar ou ajustar o antidepressivo. Informar médico se houver sonolência intensa ou desequilíbrio."
+    },
+    {
+      "med1": [
+        "amoxicilina",
+        "amoxicilina + clavulanato"
+      ],
+      "med2": [
+        "metotrexato"
+      ],
+      "nivel": "moderado",
+      "titulo": "Amoxicilina + Metotrexato",
+      "efeito": "Penicilinas inibem transportadores de excreção tubular renal do metotrexato — reduzem sua eliminação, elevando os níveis séricos. Risco de toxicidade: aftas dolorosas, queda dos glóbulos brancos e lesão renal.",
+      "conduta": "⚠️ Evitar amoxicilina em pacientes com metotrexato em doses altas (quimioterapia). Em doses baixas (artrite, psoríase), monitorar aftas, febre e hemograma durante o antibiótico."
+    },
+    {
+      "med1": [
+        "amoxicilina",
+        "amoxicilina + clavulanato"
+      ],
+      "med2": [
+        "warfarina",
+        "varfarina"
+      ],
+      "nivel": "moderado",
+      "titulo": "Amoxicilina + Warfarina",
+      "efeito": "Amoxicilina altera a flora intestinal produtora de vitamina K — pode potencializar o efeito anticoagulante da warfarina com risco de elevação do INR e sangramento. O efeito é menos intenso que com ciprofloxacino ou metronidazol.",
+      "conduta": "⚠️ Monitorar INR durante e após o antibiótico. Informar médico sobre o uso de warfarina antes de qualquer antibiótico."
+    },
+    {
+      "med1": [
+        "azitromicina"
+      ],
+      "med2": [
+        "haloperidol",
+        "quetiapina",
+        "citalopram",
+        "escitalopram"
+      ],
+      "nivel": "alto",
+      "titulo": "Azitromicina + Prolongadores de QT (Antipsicótico / ISRS)",
+      "efeito": "Azitromicina prolonga o intervalo QT do eletrocardiograma — combinação com haloperidol, quetiapina, citalopram ou escitalopram (que também prolongam o QT) aumenta muito o risco de arritmia ventricular grave (Torsades de Pointes) e morte súbita.",
+      "conduta": "❌ Evitar azitromicina em pacientes que usam esses medicamentos. Preferir amoxicilina ou doxiciclina quando antibiótico for necessário. Se inevitável, monitorar ECG."
+    },
+    {
+      "med1": [
+        "ciprofloxacino",
+        "levofloxacino",
+        "moxifloxacino"
+      ],
+      "med2": [
+        "insulina",
+        "insulina nph",
+        "insulina regular",
+        "insulina glargina"
+      ],
+      "nivel": "moderado",
+      "titulo": "Ciprofloxacino + Insulina (Disglicemia)",
+      "efeito": "Ciprofloxacino pode causar tanto hipoglicemia (estimulando secreção de insulina pancreática) quanto hiperglicemia (inibindo a liberação de insulina) — glicemia imprevisível em diabéticos insulinodependentes, com risco de descontrole grave.",
+      "conduta": "⚠️ Monitorar glicemia capilar com maior frequência durante o antibiótico. Ajustar dose de insulina com orientação médica. Comunicar ao médico valores fora da faixa esperada."
+    },
+    {
+      "med1": [
+        "ciprofloxacino"
+      ],
+      "med2": [
+        "duloxetina",
+        "tizanidina"
+      ],
+      "nivel": "moderado",
+      "titulo": "Ciprofloxacino + Duloxetina / Tizanidina (CYP1A2)",
+      "efeito": "Ciprofloxacino inibe o CYP1A2 — eleva os níveis de duloxetina (risco de náusea, tontura e toxicidade) e pode multiplicar os níveis de tizanidina (sedação intensa e hipotensão grave).",
+      "conduta": "⚠️ Contraindicado com tizanidina. Com duloxetina, monitorar efeitos adversos e considerar antibiótico alternativo (amoxicilina). Reduzir dose se sinais de toxicidade aparecerem."
+    },
+    {
+      "med1": [
+        "metronidazol"
+      ],
+      "med2": [
+        "fenitoína",
+        "carbamazepina"
+      ],
+      "nivel": "moderado",
+      "titulo": "Metronidazol + Fenitoína / Carbamazepina",
+      "efeito": "Metronidazol inibe CYP2C9 e CYP2C19 — eleva os níveis séricos de fenitoína e carbamazepina com risco de toxicidade neurológica: nistagmo, visão dupla, ataxia e confusão mental.",
+      "conduta": "⚠️ Monitorar nível sérico dos anticonvulsivantes durante o tratamento. Ficar atento a sintomas de intoxicação (tontura, visão dupla). Ajustar dose com orientação médica."
+    },
+    {
+      "med1": [
+        "lítio",
+        "carbonato de lítio"
+      ],
+      "med2": [
+        "carbamazepina"
+      ],
+      "nivel": "alto",
+      "titulo": "Lítio + Carbamazepina",
+      "efeito": "Combinação causa neurotoxicidade mesmo quando os dois medicamentos estão em níveis séricos considerados normais — tremores, confusão, visão dupla, descoordenação motora e alterações no EEG. O mecanismo ainda não é completamente compreendido.",
+      "conduta": "❌ Usar com extrema cautela. O nível sérico do lítio não é suficiente para detectar o risco — sintomas clínicos devem guiar a decisão. Monitorar sinais neurológicos frequentemente."
+    },
+    {
+      "med1": [
+        "lítio",
+        "carbonato de lítio"
+      ],
+      "med2": [
+        "teofilina",
+        "cafeína"
+      ],
+      "nivel": "moderado",
+      "titulo": "Lítio + Teofilina / Cafeína",
+      "efeito": "Teofilina aumenta a excreção renal do lítio — reduz o nível sérico podendo piorar o controle do humor. Mudanças bruscas no consumo de cafeína também afetam o lítio: parar o café abruptamente pode elevar o lítio para níveis tóxicos.",
+      "conduta": "⚠️ Manter consumo de cafeína estável durante o tratamento. Não interromper café de forma abrupta. Monitorar nível sérico de lítio ao iniciar ou ajustar teofilina."
+    },
+    {
+      "med1": [
+        "prednisona",
+        "prednisolona",
+        "dexametasona",
+        "betametasona",
+        "hidrocortisona"
+      ],
+      "med2": [
+        "insulina",
+        "insulina nph",
+        "insulina regular",
+        "insulina glargina",
+        "metformina",
+        "glibenclamida",
+        "glicazida",
+        "glimepirida",
+        "semaglutida"
+      ],
+      "nivel": "moderado",
+      "titulo": "Corticoide + Antidiabético / Insulina",
+      "efeito": "Corticoides elevam a glicemia ao aumentar a resistência à insulina e a produção de glicose pelo fígado — o antidiabético ou a insulina podem não ser suficientes para controlar o açúcar durante o uso do corticoide.",
+      "conduta": "⚠️ Monitorar glicemia com mais frequência durante o corticoide. Pode ser necessário aumentar a dose do antidiabético temporariamente. Avisar o médico ao iniciar ou suspender o corticoide."
+    },
+    {
+      "med1": [
+        "prednisona",
+        "prednisolona",
+        "dexametasona",
+        "betametasona",
+        "hidrocortisona"
+      ],
+      "med2": [
+        "warfarina",
+        "varfarina"
+      ],
+      "nivel": "moderado",
+      "titulo": "Corticoide + Warfarina",
+      "efeito": "Corticoides podem aumentar ou reduzir o efeito anticoagulante da warfarina — o INR fica imprevisível. Doses altas tendem a elevar o INR, aumentando o risco de sangramento inesperado.",
+      "conduta": "⚠️ Monitorar INR com mais frequência ao iniciar, ajustar ou suspender o corticoide. Comunicar ao médico qualquer mudança no regime de corticoide."
+    },
+    {
+      "med1": [
+        "prednisona",
+        "prednisolona",
+        "dexametasona",
+        "betametasona",
+        "hidrocortisona"
+      ],
+      "med2": [
+        "furosemida",
+        "hidroclorotiazida",
+        "indapamida"
+      ],
+      "nivel": "moderado",
+      "titulo": "Corticoide + Diurético — Hipocalemia",
+      "efeito": "Corticoides e diuréticos eliminam potássio pelo rim — a combinação pode causar hipocalemia grave (potássio baixo) com fraqueza muscular intensa, câimbras e arritmias cardíacas. Risco ainda maior em quem também usa digoxina.",
+      "conduta": "⚠️ Monitorar potássio sérico regularmente. Suplementar potássio se necessário. Atenção redobrada em pacientes com digoxina — hipocalemia potencializa a toxicidade digitálica."
+    },
+    {
+      "med1": [
+        "prednisona",
+        "prednisolona",
+        "dexametasona",
+        "betametasona",
+        "hidrocortisona"
+      ],
+      "med2": [
+        "vacina viva",
+        "febre amarela",
+        "varicela",
+        "sarampo",
+        "mmr"
+      ],
+      "nivel": "alto",
+      "titulo": "Corticoide + Vacina Viva",
+      "efeito": "Corticoides em doses imunossupressoras inibem as defesas do organismo — vacinas vivas atenuadas (febre amarela, varicela, sarampo/MMR) podem causar a doença pelo próprio vírus da vacina em pacientes imunossuprimidos.",
+      "conduta": "❌ Não vacinar com vacinas vivas durante uso de corticoide em dose alta (≥20mg/dia de prednisona por ≥14 dias). Aguardar pelo menos 1 mês após a suspensão antes de vacinar."
+    },
+    {
+      "med1": [
+        "prednisona",
+        "prednisolona",
+        "dexametasona",
+        "betametasona",
+        "hidrocortisona"
+      ],
+      "med2": [
+        "cetoconazol",
+        "fluconazol",
+        "itraconazol"
+      ],
+      "nivel": "moderado",
+      "titulo": "Corticoide + Antifúngico Azólico",
+      "efeito": "Cetoconazol, fluconazol e itraconazol inibem o CYP3A4 — o corticoide é metabolizado mais devagar e acumula no sangue. Isso intensifica os efeitos colaterais: glicemia alta, pressão alta, ganho de peso e risco de Síndrome de Cushing iatrogênica.",
+      "conduta": "⚠️ Reduzir dose do corticoide e monitorar sinais de excesso (inchaço, glicemia alta, pressão elevada). Considerar antifúngico alternativo com menor interação quando possível."
+    },
+    {
+      "med1": [
+        "prednisona",
+        "prednisolona",
+        "dexametasona",
+        "betametasona",
+        "hidrocortisona"
+      ],
+      "med2": [
+        "rifampicina"
+      ],
+      "nivel": "moderado",
+      "titulo": "Corticoide + Rifampicina",
+      "efeito": "Rifampicina é um indutor potente de CYP3A4 — acelera muito o metabolismo do corticoide, reduzindo seu nível sérico em até 50–60%. O efeito anti-inflamatório pode se tornar insuficiente e a doença de base piora.",
+      "conduta": "⚠️ Pode ser necessário dobrar a dose do corticoide durante o tratamento com rifampicina. Ajuste obrigatório com orientação médica. Monitorar o controle da doença de base."
+    },
+    {
+      "med1": [
+        "prednisona",
+        "prednisolona",
+        "dexametasona",
+        "betametasona",
+        "hidrocortisona"
+      ],
+      "med2": [
+        "lítio",
+        "carbonato de lítio"
+      ],
+      "nivel": "moderado",
+      "titulo": "Corticoide + Lítio",
+      "efeito": "Corticoides alteram o balanço de sódio e a filtração renal — podem modificar a excreção do lítio de forma imprevisível, elevando ou reduzindo o nível sérico. Doses altas de corticoide também podem agravar instabilidade do humor em pacientes bipolares.",
+      "conduta": "⚠️ Monitorar nível sérico de lítio ao iniciar ou suspender corticoide. Atenção a sintomas de toxicidade (tremor, náusea, confusão) e a piora do humor."
+    },
+    {
+      "med1": [
+        "rivaroxabana",
+        "apixabana",
+        "dabigatrana"
+      ],
+      "med2": [
+        "fluconazol",
+        "cetoconazol",
+        "itraconazol",
+        "voriconazol"
+      ],
+      "nivel": "alto",
+      "titulo": "NOAC + Antifúngico Azólico",
+      "efeito": "Fluconazol, cetoconazol e itraconazol inibem CYP3A4 e P-glicoproteína — os anticoagulantes rivaroxabana, apixabana e dabigatrana acumulam no sangue e o risco de sangramento grave sobe muito.",
+      "conduta": "❌ Evitar combinação. Se antifúngico for imprescindível, considerar anfotericina B ou anidulafungina (menor interação). Monitorar sinais de sangramento (urina vermelha, fezes escuras, hematomas grandes) rigorosamente."
+    },
+    {
+      "med1": [
+        "rivaroxabana",
+        "apixabana",
+        "dabigatrana"
+      ],
+      "med2": [
+        "carbamazepina",
+        "rifampicina",
+        "fenitoína"
+      ],
+      "nivel": "alto",
+      "titulo": "NOAC + Indutor Enzimático (Carbamazepina / Rifampicina)",
+      "efeito": "Carbamazepina, rifampicina e fenitoína induzem CYP3A4 e P-glicoproteína — aceleram muito a eliminação dos anticoagulantes, reduzindo os níveis séricos em 50–85%. O sangue pode coagular mesmo com o paciente tomando o anticoagulante, com risco de trombose e AVC.",
+      "conduta": "❌ Evitar a combinação. Se o indutor for indispensável, considerar warfarina com monitoramento rigoroso de INR. Nunca interromper o anticoagulante sem orientação médica."
+    },
+    {
+      "med1": [
+        "rivaroxabana",
+        "apixabana",
+        "dabigatrana"
+      ],
+      "med2": [
+        "claritromicina",
+        "eritromicina"
+      ],
+      "nivel": "moderado",
+      "titulo": "NOAC + Macrolídeo (Claritromicina / Eritromicina)",
+      "efeito": "Claritromicina e eritromicina inibem P-glicoproteína e CYP3A4 — elevam os níveis dos anticoagulantes orais, aumentando o risco de sangramento durante o tratamento do antibiótico.",
+      "conduta": "⚠️ Preferir azitromicina ou amoxicilina quando antibiótico for necessário. Se claritromicina for indispensável, monitorar sinais de sangramento durante o tratamento e alguns dias após."
+    },
+    {
+      "med1": [
+        "rivaroxabana",
+        "apixabana",
+        "dabigatrana"
+      ],
+      "med2": [
+        "fluoxetina",
+        "sertralina",
+        "escitalopram",
+        "paroxetina",
+        "citalopram",
+        "venlafaxina",
+        "duloxetina"
+      ],
+      "nivel": "moderado",
+      "titulo": "NOAC + ISRS / IRSN",
+      "efeito": "ISRS e IRSN reduzem a serotonina plaquetária, inibindo a agregação plaquetária — combinação com anticoagulante oral potencializa o risco de sangramento gastrointestinal e intracraniano, especialmente em idosos.",
+      "conduta": "⚠️ Usar a menor dose eficaz do antidepressivo. Adicionar protetor gástrico (IBP). Monitorar sinais de sangramento (fezes escuras, tontura). Evitar AINEs concomitantes."
+    },
+    {
+      "med1": [
+        "dabigatrana"
+      ],
+      "med2": [
+        "verapamil",
+        "diltiazem"
+      ],
+      "nivel": "moderado",
+      "titulo": "Dabigatrana + Verapamil / Diltiazem",
+      "efeito": "Verapamil e diltiazem inibem P-glicoproteína — reduzem a eliminação da dabigatrana, elevando seus níveis séricos e o risco de sangramento. O efeito é maior com verapamil de liberação imediata.",
+      "conduta": "⚠️ Reduzir dose de dabigatrana se houver comprometimento renal. Monitorar sinais de sangramento. Preferir amlodipino como bloqueador de canal de cálcio quando possível."
+    },
+    {
+      "med1": [
+        "enoxaparina",
+        "heparina"
+      ],
+      "med2": [
+        "ibuprofeno",
+        "diclofenaco",
+        "nimesulida",
+        "meloxicam",
+        "naproxeno",
+        "cetoprofeno",
+        "aine"
+      ],
+      "nivel": "alto",
+      "titulo": "Heparina / Enoxaparina + AINE",
+      "efeito": "AINEs inibem a função plaquetária e agridem a mucosa gástrica — combinação com heparina ou enoxaparina multiplica o risco de sangramento grave, especialmente gastrointestinal. A proteção da mucosa já reduzida pelo AINE agrava qualquer sangramento anticoagulante.",
+      "conduta": "❌ Evitar AINEs durante uso de heparina ou enoxaparina. Usar paracetamol para dor. Se dor inflamatória grave, discutir risco-benefício com médico e usar protetor gástrico (IBP)."
+    },
+    {
+      "med1": [
+        "enoxaparina",
+        "heparina"
+      ],
+      "med2": [
+        "captopril",
+        "enalapril",
+        "lisinopril",
+        "losartana",
+        "valsartana",
+        "espironolactona"
+      ],
+      "nivel": "moderado",
+      "titulo": "Heparina / Enoxaparina + IECA / BRA",
+      "efeito": "Heparina bloqueia a síntese de aldosterona, retendo potássio — combinação com IECA ou BRA (que também elevam o potássio) pode causar hipercalemia grave, com risco de arritmias fatais. O risco é maior em pacientes com insuficiência renal.",
+      "conduta": "⚠️ Monitorar potássio sérico durante o uso de heparina ou enoxaparina em pacientes que tomam IECA ou BRA. Atenção especial em insuficiência renal."
+    },
+    {
+      "med1": [
+        "fluconazol",
+        "itraconazol",
+        "cetoconazol"
+      ],
+      "med2": [
+        "quetiapina",
+        "haloperidol",
+        "risperidona",
+        "clozapina"
+      ],
+      "nivel": "moderado",
+      "titulo": "Antifúngico Azólico + Antipsicótico (CYP3A4)",
+      "efeito": "Fluconazol, itraconazol e cetoconazol inibem CYP3A4 — elevam os níveis de quetiapina, haloperidol e risperidona no sangue. O resultado é sedação mais intensa, queda de pressão ao levantar e risco de prolongamento do intervalo QT (arritmia grave).",
+      "conduta": "⚠️ Reduzir dose do antipsicótico ao iniciar antifúngico. Monitorar sonolência excessiva e pressão arterial. Evitar outros medicamentos que prolongam o QT durante a combinação."
+    },
+    {
+      "med1": [
+        "fluconazol",
+        "itraconazol",
+        "cetoconazol"
+      ],
+      "med2": [
+        "sildenafila",
+        "tadalafila",
+        "vardenafila"
+      ],
+      "nivel": "moderado",
+      "titulo": "Antifúngico Azólico + Sildenafila / Tadalafila",
+      "efeito": "Azólicos inibem CYP3A4 — o metabolismo da sildenafila e da tadalafila fica mais lento e os níveis no sangue sobem muito. O resultado é queda intensa da pressão arterial, rubor, visão alterada e, em casos raros, priapismo.",
+      "conduta": "⚠️ Reduzir dose de sildenafila para 25mg e evitar doses repetidas. Com tadalafila, usar 5mg e não repetir em 72h. Monitorar tontura e pressão arterial. Evitar nitratos junto."
+    },
+    {
+      "med1": [
+        "fluconazol",
+        "itraconazol",
+        "cetoconazol",
+        "voriconazol"
+      ],
+      "med2": [
+        "ciclosporina"
+      ],
+      "nivel": "alto",
+      "titulo": "Antifúngico Azólico + Ciclosporina",
+      "efeito": "Todos os azólicos inibem fortemente CYP3A4 — os níveis de ciclosporina podem dobrar ou triplicar. A ciclosporina em excesso causa insuficiência renal aguda, hipertensão grave e neurotoxicidade (tremores, convulsões). O efeito começa em 1-3 dias.",
+      "conduta": "❌ Reduzir dose de ciclosporina em 50% ao iniciar azólico e monitorar nível sérico 2-3 vezes por semana. Ajustar com especialista em transplante. Monitorar função renal e pressão arterial diariamente."
+    },
+    {
+      "med1": [
+        "itraconazol",
+        "cetoconazol"
+      ],
+      "med2": [
+        "digoxina"
+      ],
+      "nivel": "moderado",
+      "titulo": "Itraconazol / Cetoconazol + Digoxina",
+      "efeito": "Itraconazol e cetoconazol inibem P-glicoproteína — reduzem a eliminação da digoxina, elevando seus níveis séricos em 50–70%. Com potássio normal, já pode aparecer bradicardia e arritmia; com hipocalemia, o risco é ainda maior.",
+      "conduta": "⚠️ Reduzir dose de digoxina ao iniciar itraconazol. Monitorar nível sérico de digoxina e ECG durante o tratamento antifúngico. Manter potássio em faixa normal."
+    },
+    {
+      "med1": [
+        "anfotericina b",
+        "anfotericina"
+      ],
+      "med2": [
+        "gentamicina",
+        "amicacina",
+        "tobramicina",
+        "aminoglicosídeo"
+      ],
+      "nivel": "alto",
+      "titulo": "Anfotericina B + Aminoglicosídeo",
+      "efeito": "Ambos são nefrotóxicos por mecanismos diferentes — a combinação causa dano renal muito mais intenso do que cada um separado. Insuficiência renal aguda pode se instalar rapidamente, especialmente em pacientes já desidratados ou com rim comprometido.",
+      "conduta": "❌ Evitar combinação sempre que possível. Se indispensável, manter hidratação venosa intensa, monitorar creatinina e débito urinário diariamente. Considerar anfotericina lipossomal (menor nefrotoxicidade)."
+    },
+    {
+      "med1": [
+        "anfotericina b",
+        "anfotericina"
+      ],
+      "med2": [
+        "digoxina"
+      ],
+      "nivel": "alto",
+      "titulo": "Anfotericina B + Digoxina",
+      "efeito": "Anfotericina B causa hipocalemia (baixa o potássio) ao danificar os túbulos renais — com potássio baixo, o coração fica muito mais sensível à digoxina e pode haver intoxicação digitálica com arritmias graves mesmo com nível sérico de digoxina aparentemente normal.",
+      "conduta": "❌ Monitorar potássio sérico diariamente durante anfotericina. Repor potássio para manter acima de 3,5 mEq/L. Reduzir dose de digoxina se necessário. Monitorar ECG regularmente."
+    },
+    {
+      "med1": [
+        "anfotericina b",
+        "anfotericina"
+      ],
+      "med2": [
+        "furosemida",
+        "hidroclorotiazida",
+        "indapamida"
+      ],
+      "nivel": "moderado",
+      "titulo": "Anfotericina B + Diurético",
+      "efeito": "Anfotericina B e diuréticos eliminam potássio e magnésio pelos rins — a combinação pode causar hipocalemia e hipomagnesemia graves, com câimbras intensas, fraqueza muscular e risco de arritmias cardíacas.",
+      "conduta": "⚠️ Monitorar potássio e magnésio séricos com frequência. Repor eletrólitos conforme necessário. Evitar furosemida em altas doses durante anfotericina, se possível."
+    },
+    {
+      "med1": [
+        "anfotericina b",
+        "anfotericina"
+      ],
+      "med2": [
+        "ciclosporina",
+        "tacrolimo"
+      ],
+      "nivel": "alto",
+      "titulo": "Anfotericina B + Imunossupressor (Ciclosporina / Tacrolimo)",
+      "efeito": "Anfotericina B e ciclosporina/tacrolimo causam nefrotoxicidade por mecanismos diferentes — juntos, o risco de insuficiência renal aguda é muito alto, especialmente nos primeiros dias de uso. Em pacientes transplantados, o rim já está sob estresse.",
+      "conduta": "❌ Monitorar creatinina, ureia e débito urinário diariamente. Preferir anfotericina lipossomal (AmBisome), que é menos nefrotóxica. Ajustar dose de imunossupressor com especialista. Hidratação venosa adequada é essencial."
+    },
+    {
+      "med1": [
+        "fentanila"
+      ],
+      "med2": [
+        "fluconazol",
+        "itraconazol",
+        "cetoconazol",
+        "voriconazol",
+        "claritromicina",
+        "eritromicina"
+      ],
+      "nivel": "alto",
+      "titulo": "Fentanila + Inibidor de CYP3A4 (Azólico / Macrolídeo)",
+      "efeito": "Fentanila é quase completamente metabolizada pelo CYP3A4 — azólicos e macrolídeos inibem essa enzima e podem elevar os níveis de fentanila em até 10 vezes. O resultado é sedação profunda e depressão respiratória grave, que pode aparecer horas após a combinação.",
+      "conduta": "❌ Evitar azólicos e macrolídeos em pacientes com fentanila. Se antifúngico for necessário, preferir anfotericina B ou anidulafungina. Se antibiótico for necessário, preferir azitromicina ou amoxicilina. Monitorar respiração e nível de consciência."
+    },
+    {
+      "med1": [
+        "fentanila",
+        "buprenorfina"
+      ],
+      "med2": [
+        "rifampicina",
+        "carbamazepina",
+        "fenitoína"
+      ],
+      "nivel": "alto",
+      "titulo": "Fentanila / Buprenorfina + Indutor de CYP3A4",
+      "efeito": "Rifampicina, carbamazepina e fenitoína induzem CYP3A4 — aceleram muito a eliminação de fentanila e buprenorfina, reduzindo os níveis séricos em 50–80%. A analgesia falha e, em pacientes com dependência, podem surgir sintomas graves de abstinência (sudorese, agitação, câimbras, vômito).",
+      "conduta": "❌ Evitar a combinação. Se indutor for indispensável, aumentar substancialmente a dose do opioide sob supervisão médica. Monitorar controle da dor e sinais de abstinência. Ao suspender o indutor, reduzir dose do opioide gradualmente para evitar superdosagem."
+    },
+    {
+      "med1": [
+        "morfina",
+        "oxicodona",
+        "codeína",
+        "tramadol",
+        "fentanila",
+        "buprenorfina"
+      ],
+      "med2": [
+        "prometazina",
+        "hidroxizina",
+        "difenidramina",
+        "cetrizina"
+      ],
+      "nivel": "alto",
+      "titulo": "Opioide + Antihistamínico Sedante",
+      "efeito": "Prometazina, hidroxizina e difenidramina são antihistamínicos com forte efeito sedativo — somado ao opioide, causam depressão do SNC muito mais intensa, com risco real de parada respiratória. A combinação foi associada a mortes, especialmente em crianças e idosos.",
+      "conduta": "❌ Evitar prometazina com qualquer opioide — a FDA contraindicou essa combinação em crianças. Em adultos, usar ondansetrona como antiemético alternativo. Se hidroxizina for necessária, usar a menor dose possível com monitoramento da respiração."
+    },
+    {
+      "med1": [
+        "codeína",
+        "tramadol"
+      ],
+      "med2": [
+        "fluoxetina",
+        "paroxetina",
+        "bupropiona"
+      ],
+      "nivel": "moderado",
+      "titulo": "Codeína / Tramadol + Inibidor de CYP2D6 (Fluoxetina / Paroxetina)",
+      "efeito": "Codeína e tramadol precisam do CYP2D6 para se transformar nos metabólitos ativos que causam analgesia — fluoxetina, paroxetina e bupropiona bloqueiam essa enzima, reduzindo muito o efeito analgésico. O paciente sente menos alívio da dor e pode aumentar a dose sem saber, elevando o risco de outros efeitos adversos.",
+      "conduta": "⚠️ Considerar analgésico alternativo (paracetamol, tramadol em doses menores, oxicodona). Informar o médico que prescreve o antidepressivo. Monitorar eficácia analgésica e não aumentar dose de codeína sem orientação."
+    },
+    {
+      "med1": [
+        "tramadol"
+      ],
+      "med2": [
+        "linezolida"
+      ],
+      "nivel": "alto",
+      "titulo": "Tramadol + Linezolida",
+      "efeito": "Linezolida inibe fracamente a monoaminoxidase (MAO) — combinada com tramadol (que libera serotonina e inibe sua recaptação), provoca síndrome serotoninérgica: agitação, tremores, suor intenso, febre alta e, nos casos graves, convulsões e risco de morte.",
+      "conduta": "❌ Contraindicado. Suspender tramadol ao iniciar linezolida. Usar alternativa analgésica sem ação serotoninérgica (paracetamol, dipirona, morfina em baixa dose). Aguardar 24h após a última dose de linezolida antes de retomar tramadol."
+    },
+    {
+      "med1": [
+        "morfina",
+        "oxicodona",
+        "codeína",
+        "tramadol",
+        "fentanila"
+      ],
+      "med2": [
+        "quetiapina",
+        "olanzapina",
+        "haloperidol",
+        "clorpromazina"
+      ],
+      "nivel": "moderado",
+      "titulo": "Opioide + Antipsicótico Sedativo",
+      "efeito": "Antipsicóticos como quetiapina e olanzapina potencializam a sedação dos opioides e podem somar efeitos sobre a pressão arterial e a respiração. O risco de quedas, tontura intensa e hipotensão ao levantar aumenta muito, especialmente em idosos.",
+      "conduta": "⚠️ Iniciar com as menores doses possíveis de ambos. Monitorar pressão arterial, nível de consciência e frequência respiratória. Reforçar cuidados com quedas. Evitar associar os dois sem necessidade clínica clara."
+    },
+    {
+      "med1": [
+        "tramadol"
+      ],
+      "med2": [
+        "carbamazepina"
+      ],
+      "nivel": "moderado",
+      "titulo": "Tramadol + Carbamazepina",
+      "efeito": "Duplo problema: carbamazepina induz CYP3A4 e reduz os níveis de tramadol em até 50%, diminuindo a analgesia — e ao mesmo tempo ambos reduzem o limiar convulsivante, aumentando o risco de convulsão, especialmente em doses mais altas ou em pacientes com histórico epiléptico.",
+      "conduta": "⚠️ Monitorar controle da dor e ajustar dose com médico. Evitar tramadol em pacientes epilépticos que usam carbamazepina — preferir oxicodona ou morfina como analgésico opioide alternativo."
+    },
+    {
+      "med1": [
+        "clozapina"
+      ],
+      "med2": [
+        "fluvoxamina"
+      ],
+      "nivel": "alto",
+      "titulo": "Clozapina + Fluvoxamina",
+      "efeito": "Fluvoxamina é o inibidor mais potente do CYP1A2 — enzima responsável por até 70% do metabolismo da clozapina. A combinação pode elevar os níveis de clozapina em 5 a 10 vezes, causando toxicidade grave: convulsões, hipotensão intensa, sedação profunda e risco de agranulocitose.",
+      "conduta": "❌ Contraindicado. Substituir fluvoxamina por outro antidepressivo sem ação sobre CYP1A2 (sertralina, escitalopram). Se a combinação for inevitável, reduzir clozapina para 1/3 da dose e monitorar nível sérico semanalmente."
+    },
+    {
+      "med1": [
+        "clozapina"
+      ],
+      "med2": [
+        "tabaco",
+        "cigarro"
+      ],
+      "nivel": "alto",
+      "titulo": "Clozapina + Tabaco (Fumo)",
+      "efeito": "A fumaça do cigarro induz fortemente CYP1A2 — fumantes precisam de doses 50–70% maiores de clozapina para manter o mesmo efeito. Quando o paciente para de fumar (hospitalização, internação, decisão própria), os níveis de clozapina sobem rapidamente e podem dobrar em 1–2 semanas, causando toxicidade grave.",
+      "conduta": "❌ Monitorar nível sérico de clozapina ao parar de fumar. Reduzir dose de clozapina em 30–50% nas primeiras semanas após cessação do tabagismo. Informar médico imediatamente ao internar paciente fumante."
+    },
+    {
+      "med1": [
+        "quetiapina",
+        "olanzapina",
+        "clozapina"
+      ],
+      "med2": [
+        "rifampicina"
+      ],
+      "nivel": "alto",
+      "titulo": "Quetiapina / Olanzapina / Clozapina + Rifampicina",
+      "efeito": "Rifampicina é o indutor de CYP3A4 mais potente disponível — reduz os níveis de quetiapina em mais de 80% e os de olanzapina e clozapina em 50–70%. A perda de controle psiquiátrico é rápida: podem surgir agitação, alucinações e recaída psicótica em dias.",
+      "conduta": "❌ Evitar rifampicina em pacientes com esquizofrenia ou transtorno bipolar controlados com esses antipsicóticos. Se rifampicina for indispensável (tuberculose), aumentar dose do antipsicótico significativamente sob supervisão psiquiátrica. Reduzir dose ao suspender rifampicina."
+    },
+    {
+      "med1": [
+        "haloperidol",
+        "quetiapina",
+        "risperidona",
+        "olanzapina",
+        "clozapina"
+      ],
+      "med2": [
+        "captopril",
+        "enalapril",
+        "losartana",
+        "atenolol",
+        "anlodipino",
+        "amlodipino",
+        "metoprolol",
+        "bisoprolol"
+      ],
+      "nivel": "moderado",
+      "titulo": "Antipsicótico + Anti-hipertensivo",
+      "efeito": "Antipsicóticos bloqueiam receptores alfa-1 adrenérgicos e causam queda de pressão ao levantar (hipotensão ortostática) — combinados com anti-hipertensivos, o efeito é somado. O resultado pode ser tontura intensa, desmaio e quedas, especialmente nos primeiros dias de tratamento ou ao ajustar doses.",
+      "conduta": "⚠️ Orientar o paciente a levantar devagar (deitar → sentar → levantar em etapas). Monitorar pressão arterial deitado e em pé. Revisar necessidade e dose do anti-hipertensivo. Risco muito alto de queda em idosos."
+    },
+    {
+      "med1": [
+        "haloperidol",
+        "quetiapina",
+        "risperidona",
+        "olanzapina",
+        "clozapina"
+      ],
+      "med2": [
+        "biperideno",
+        "amitriptilina",
+        "oxibutinina",
+        "solifenacina",
+        "escopolamina"
+      ],
+      "nivel": "moderado",
+      "titulo": "Antipsicótico + Anticolinérgico",
+      "efeito": "Clozapina, olanzapina e quetiapina já têm forte ação anticolinérgica — adicionar biperideno, amitriptilina ou oxibutinina soma os efeitos: boca muito seca, visão embaçada, retenção urinária, constipação grave e, especialmente em idosos, confusão mental e delirium.",
+      "conduta": "⚠️ Evitar múltiplos anticolinérgicos. Revisar se o biperideno (usado para efeitos extrapiramidais) ainda é necessário. Preferir antipsicóticos com menor carga anticolinérgica (haloperidol, risperidona) quando anticolinérgico for imprescindível."
+    },
+    {
+      "med1": [
+        "haloperidol",
+        "risperidona",
+        "clorpromazina"
+      ],
+      "med2": [
+        "levodopa",
+        "carbidopa + levodopa",
+        "pramipexol"
+      ],
+      "nivel": "alto",
+      "titulo": "Antipsicótico Típico + Levodopa / Agonista Dopaminérgico",
+      "efeito": "Antipsicóticos típicos (haloperidol, risperidona, clorpromazina) bloqueiam receptores de dopamina — efeito diretamente oposto ao da levodopa e do pramipexol, que estimulam o sistema dopaminérgico. A combinação anula o tratamento do Parkinson e pode precipitar crise parkinsônica grave com rigidez extrema.",
+      "conduta": "❌ Contraindicado em pacientes com Doença de Parkinson. Se sedação ou antipsicótico for necessário em parkinsoniano, usar clozapina ou quetiapina em dose baixa (são os únicos com menor bloqueio dopaminérgico nigroestriatal)."
+    },
+    {
+      "med1": [
+        "haloperidol",
+        "quetiapina",
+        "risperidona",
+        "olanzapina",
+        "clozapina"
+      ],
+      "med2": [
+        "amitriptilina",
+        "nortriptilina",
+        "imipramina",
+        "clomipramina"
+      ],
+      "nivel": "alto",
+      "titulo": "Antipsicótico + Antidepressivo Tricíclico (QT)",
+      "efeito": "Ambas as classes prolongam o intervalo QT do eletrocardiograma — a combinação multiplica o risco de arritmia ventricular grave (Torsades de Pointes) e morte súbita. Haloperidol e tricíclicos são os maiores prolongadores do QT em suas respectivas classes.",
+      "conduta": "❌ Evitar a combinação. Se antidepressivo for necessário, preferir ISRS (sertralina, escitalopram) que têm menor risco de QT. Se a combinação for inevitável, fazer ECG antes e após 5-7 dias de tratamento. Suspender se QTc > 500ms."
+    },
+    {
+      "med1": [
+        "metronidazol"
+      ],
+      "med2": [
+        "lítio",
+        "carbonato de lítio"
+      ],
+      "nivel": "moderado",
+      "titulo": "Metronidazol + Lítio",
+      "efeito": "Metronidazol reduz o clearance renal do lítio — eleva os níveis séricos podendo causar toxicidade: tremores finos, náusea, confusão mental e, em casos graves, convulsões e arritmias cardíacas.",
+      "conduta": "⚠️ Monitorar nível sérico de lítio durante e após o tratamento com metronidazol. Manter hidratação adequada. Ajustar dose com orientação médica ao iniciar o antibiótico."
+    },
+    {
+      "med1": [
+        "rifampicina"
+      ],
+      "med2": [
+        "ciclosporina"
+      ],
+      "nivel": "alto",
+      "titulo": "Rifampicina + Ciclosporina",
+      "efeito": "Rifampicina é um dos mais potentes indutores do CYP3A4 e da P-glicoproteína — acelera tanto a metabolização quanto a eliminação da ciclosporina, reduzindo seus níveis sanguíneos em 70 a 90% em poucos dias. O resultado é perda quase total do efeito imunossupressor, com risco real de rejeição aguda em transplantados.",
+      "conduta": "❌ Combinação contraindicada na prática. Se o tratamento da tuberculose for imprescindível, avaliar substituição da rifampicina por rifabutina (indutor muito mais fraco) com monitoramento rigoroso de níveis de ciclosporina. Nunca interromper a rifampicina abruptamente — os níveis de ciclosporina sobem rapidamente e podem causar toxicidade."
+    },
+    {
+      "med1": [
+        "carbamazepina",
+        "fenitoína",
+        "fenobarbital",
+        "oxcarbazepina"
+      ],
+      "med2": [
+        "ciclosporina"
+      ],
+      "nivel": "alto",
+      "titulo": "Anticonvulsivante Indutor + Ciclosporina",
+      "efeito": "Carbamazepina, fenitoína e fenobarbital induzem fortemente as enzimas que metabolizam a ciclosporina (CYP3A4), reduzindo seus níveis sanguíneos em 40 a 90%. Em transplantados, isso pode levar à rejeição do órgão mesmo sem sintomas iniciais. A oxcarbazepina tem efeito menor, mas ainda significativo.",
+      "conduta": "❌ Evitar a combinação sempre que possível. Se o anticonvulsivante for indispensável, monitorar nível sérico de ciclosporina (trough) com frequência elevada logo após o início ou ajuste do anticonvulsivante. Pode ser necessário dobrar ou triplicar a dose de ciclosporina. Preferir anticonvulsivantes sem indução enzimática (levetiracetam, topiramato em doses baixas) em transplantados."
+    },
+    {
+      "med1": [
+        "claritromicina",
+        "eritromicina",
+        "azitromicina"
+      ],
+      "med2": [
+        "ciclosporina"
+      ],
+      "nivel": "alto",
+      "titulo": "Macrolídeo + Ciclosporina",
+      "efeito": "Claritromicina e eritromicina inibem fortemente o CYP3A4, reduzindo a metabolização da ciclosporina e elevando seus níveis sanguíneos em 2 a 3 vezes. Isso aumenta muito o risco de toxicidade: dano renal (nefrotoxicidade), tremores, hipertensão e neurotoxicidade. A azitromicina tem interação menor, mas não é isenta de risco.",
+      "conduta": "❌ Evitar claritromicina e eritromicina em pacientes usando ciclosporina. Se antibiótico macrolídeo for necessário, prefira azitromicina com monitoramento. Em qualquer caso, verificar nível sérico de ciclosporina e função renal ao iniciar e ao encerrar o antibiótico."
+    },
+    {
+      "med1": [
+        "ibuprofeno",
+        "diclofenaco",
+        "naproxeno",
+        "meloxicam",
+        "cetoprofeno",
+        "nimesulida",
+        "celecoxibe",
+        "etoricoxibe",
+        "indometacina"
+      ],
+      "med2": [
+        "ciclosporina"
+      ],
+      "nivel": "alto",
+      "titulo": "AINE + Ciclosporina",
+      "efeito": "AINEs reduzem a produção de prostaglandinas renais responsáveis pela vasodilatação dos vasos do rim — sozinhos já causam redução do fluxo renal. A ciclosporina, por sua vez, causa vasoconstrição renal direta. A combinação potencializa a nefrotoxicidade: queda abrupta do filtrado glomerular, elevação de creatinina e risco de insuficiência renal aguda, mesmo com doses habituais de AINE.",
+      "conduta": "❌ Evitar AINEs em pacientes transplantados ou em uso crônico de ciclosporina. Para dor e febre, preferir paracetamol em doses habituais. Se AINE for absolutamente necessário por curto período, monitorar creatinina e potássio a cada 2–3 dias. Suspender imediatamente se creatinina subir > 25% do basal."
+    },
+    {
+      "med1": [
+        "colchicina"
+      ],
+      "med2": [
+        "ciclosporina"
+      ],
+      "nivel": "alto",
+      "titulo": "Colchicina + Ciclosporina",
+      "efeito": "Ciclosporina inibe a P-glicoproteína e o CYP3A4 — as principais vias de eliminação da colchicina. Isso eleva os níveis de colchicina em 3 a 4 vezes, com risco de toxicidade grave: miopatia (fraqueza muscular intensa), neuropatia periférica, neutropenia grave e até falência de múltiplos órgãos. Casos fatais foram relatados mesmo com doses terapêuticas normais de colchicina.",
+      "conduta": "❌ Combinação de alto risco. Se o tratamento da gota for necessário, usar a menor dose possível de colchicina (0,5 mg/dia ou em dias alternados) e monitorar creatinina quinase, hemograma e função renal semanalmente. Orientar o paciente a relatar imediatamente fraqueza muscular ou formigamento. Prednisolona em dose baixa pode ser alternativa para crises agudas de gota nesses pacientes."
+    },
+    {
+      "med1": [
+        "diltiazem",
+        "verapamil"
+      ],
+      "med2": [
+        "ciclosporina"
+      ],
+      "nivel": "moderado",
+      "titulo": "Diltiazem / Verapamil + Ciclosporina",
+      "efeito": "Diltiazem e verapamil inibem o CYP3A4 e a P-glicoproteína, reduzindo o metabolismo da ciclosporina e elevando seus níveis sanguíneos em 30 a 60%. Embora em alguns casos esse efeito seja usado de forma intencional para reduzir a dose necessária de ciclosporina (estratégia de economia de dose), o risco de toxicidade — especialmente renal — aumenta.",
+      "conduta": "⚠️ Se a combinação for mantida intencionalmente (estratégia de dose), monitorar nível sérico de ciclosporina e creatinina com frequência. Se a combinação for incidental, considerar trocar o bloqueador de canal de cálcio por anlodipino (sem interação significativa com CYP3A4). Ajuste de dose de ciclosporina geralmente necessário."
+    },
+    {
+      "med1": [
+        "digoxina"
+      ],
+      "med2": [
+        "ciclosporina"
+      ],
+      "nivel": "moderado",
+      "titulo": "Digoxina + Ciclosporina",
+      "efeito": "Ciclosporina inibe a P-glicoproteína intestinal e renal, que é responsável pela secreção ativa da digoxina. O resultado é aumento dos níveis sanguíneos de digoxina, com risco de toxicidade digitálica: bradicardia, bloqueios cardíacos, náuseas, visão amarelada e arritmias graves — a janela terapêutica da digoxina é muito estreita.",
+      "conduta": "⚠️ Monitorar nível sérico de digoxina (manter entre 0,5–0,9 ng/mL em pacientes com insuficiência cardíaca) e ECG ao iniciar ou ajustar ciclosporina. Reduzir dose de digoxina em 25–50% ao iniciar a combinação. Atenção redobrada em idosos e pacientes com função renal reduzida."
+    },
+    {
+      "med1": [
+        "metotrexato"
+      ],
+      "med2": [
+        "ciclosporina"
+      ],
+      "nivel": "moderado",
+      "titulo": "Metotrexato + Ciclosporina",
+      "efeito": "A combinação de metotrexato e ciclosporina é usada intencionalmente em artrite reumatoide refratária e em protocolos de transplante de medula óssea, mas ambos os fármacos causam hepatotoxicidade e nefrotoxicidade — a ciclosporina ainda pode reduzir a eliminação renal do metotrexato, elevando seus níveis e o risco de toxicidade hematológica (queda de leucócitos e plaquetas).",
+      "conduta": "⚠️ Combinação possível sob supervisão reumatológica ou oncológica especializada. Monitorar função hepática (ALT/AST), função renal e hemograma regularmente. Suplementar ácido fólico (5 mg/semana) para reduzir toxicidade do metotrexato. Ajustar doses conforme tolerabilidade."
+    },
+    {
+      "med1": [
+        "rifampicina"
+      ],
+      "med2": [
+        "tacrolimo"
+      ],
+      "nivel": "alto",
+      "titulo": "Rifampicina + Tacrolimo",
+      "efeito": "Rifampicina é um dos mais potentes indutores do CYP3A4 e da P-glicoproteína — enzimas responsáveis pela metabolização e eliminação do tacrolimo. Em poucos dias, os níveis de tacrolimo podem cair 70 a 90%, levando à perda do efeito imunossupressor e à rejeição aguda do órgão transplantado, muitas vezes sem sintomas iniciais perceptíveis.",
+      "conduta": "❌ Combinação praticamente contraindicada em transplantados. Se o tratamento da tuberculose for imprescindível, discutir com a equipe de transplante a substituição da rifampicina por rifabutina (indutor muito mais fraco), com monitoramento diário dos níveis séricos de tacrolimo. Nunca suspender a rifampicina abruptamente — os níveis de tacrolimo sobem rapidamente e podem causar toxicidade grave."
+    },
+    {
+      "med1": [
+        "carbamazepina",
+        "fenitoína",
+        "fenobarbital",
+        "oxcarbazepina"
+      ],
+      "med2": [
+        "tacrolimo"
+      ],
+      "nivel": "alto",
+      "titulo": "Anticonvulsivante Indutor Enzimático + Tacrolimo",
+      "efeito": "Carbamazepina, fenitoína e fenobarbital induzem fortemente o CYP3A4, a principal enzima que metaboliza o tacrolimo — os níveis sanguíneos de tacrolimo caem em 50 a 90% após o início desses anticonvulsivantes. Em transplantados, isso pode resultar em rejeição do órgão silenciosa, sem febre ou sintomas claros, descoberta só em biopsia.",
+      "conduta": "❌ Evitar sempre que possível em pacientes transplantados. Se anticonvulsivante for indispensável, preferir levetiracetam, lamotrigina ou valproato — que não induzem CYP3A4 — com avaliação neurológica. Caso o indutor seja mantido, monitorar nível sérico de tacrolimo (trough) em 48–72h e a cada ajuste de dose, podendo ser necessário multiplicar a dose habitual por 3 a 5 vezes."
+    },
+    {
+      "med1": [
+        "voriconazol"
+      ],
+      "med2": [
+        "tacrolimo"
+      ],
+      "nivel": "alto",
+      "titulo": "Voriconazol + Tacrolimo",
+      "efeito": "Voriconazol é o inibidor mais potente do CYP3A4 entre os antifúngicos — eleva os níveis de tacrolimo em média 3 vezes, podendo chegar a 5 vezes em alguns pacientes. Com tacrolimo acumulado, o risco de toxicidade renal grave, tremores, confusão mental e hipertensão é muito alto. A janela terapêutica do tacrolimo é muito estreita: pequenas variações causam rejeição ou toxicidade.",
+      "conduta": "❌ Se o voriconazol for indispensável (aspergilose invasiva, por exemplo), reduzir a dose de tacrolimo em 2/3 logo ao iniciar o antifúngico e monitorar o nível sérico de tacrolimo em 48–72h. Ao suspender o voriconazol, voltar à dose original gradualmente com monitoramento contínuo. Nunca iniciar ou suspender voriconazol sem ajuste imediato da dose de tacrolimo."
+    },
+    {
+      "med1": [
+        "gentamicina",
+        "amicacina",
+        "tobramicina"
+      ],
+      "med2": [
+        "tacrolimo"
+      ],
+      "nivel": "alto",
+      "titulo": "Aminoglicosídeo + Tacrolimo",
+      "efeito": "Aminoglicosídeos como gentamicina e amicacina causam dano direto às células dos túbulos renais — o mesmo local onde o tacrolimo exerce sua nefrotoxicidade. A combinação potencializa o dano renal de forma aditiva, podendo causar insuficiência renal aguda rapidamente, especialmente em pacientes já com filtrado glomerular reduzido após o transplante.",
+      "conduta": "❌ Evitar aminoglicosídeos em transplantados em uso de tacrolimo. Se forem indispensáveis (infecção grave por gram-negativos), usar dose única diária (dosagem estendida) em vez de múltiplas doses, manter hidratação venosa intensa e monitorar creatinina, ureia e débito urinário a cada 12–24h. Preferir alternativas como ceftriaxona, piperacilina-tazobactam ou meropenem quando disponíveis."
+    },
+    {
+      "med1": [
+        "hipericão",
+        "erva-de-são-joão"
+      ],
+      "med2": [
+        "tacrolimo"
+      ],
+      "nivel": "alto",
+      "titulo": "Hipericão (Erva-de-São-João) + Tacrolimo",
+      "efeito": "O hipericão — usado como antidepressivo natural — é um indutor potente do CYP3A4 e da P-glicoproteína, as principais vias de eliminação do tacrolimo. O uso regular do hipericão pode reduzir os níveis de tacrolimo em 50 a 80%, levando à perda do efeito imunossupressor e à rejeição aguda, mesmo meses após o transplante. Muitos pacientes não informam o uso de fitoterápicos ao médico por não considerarem medicamento.",
+      "conduta": "❌ Hipericão é contraindicado em qualquer paciente transplantado em uso de tacrolimo ou ciclosporina. Orientar ativamente o paciente — e seus familiares — sobre esse risco. Perguntar sobre uso de fitoterápicos, chás e suplementos em todas as consultas. Se houver suspeita de uso recente, monitorar nível sérico de tacrolimo imediatamente."
+    },
+    {
+      "med1": [
+        "colchicina"
+      ],
+      "med2": [
+        "tacrolimo"
+      ],
+      "nivel": "alto",
+      "titulo": "Colchicina + Tacrolimo",
+      "efeito": "Tacrolimo inibe a P-glicoproteína, que é a principal bomba de eliminação da colchicina pelo intestino e pelos rins. Com essa via bloqueada, os níveis de colchicina sobem muito — podendo triplicar ou quadruplicar — com risco grave de toxicidade: fraqueza muscular intensa (miopatia), formigamento nos pés e mãos (neuropatia), queda de glóbulos brancos (neutropenia) e, em casos extremos, falência de múltiplos órgãos.",
+      "conduta": "❌ Combinação de alto risco. Se o tratamento da gota for necessário em paciente transplantado, usar colchicina na menor dose possível (0,5 mg em dose única para crise aguda) e monitorar creatinina quinase, hemograma e função renal. Corticosteroide em dose baixa ou anakinra são alternativas mais seguras para crises de gota nesses pacientes. Orientar a relatar imediatamente fraqueza muscular ou formigamento."
+    },
+    {
+      "med1": [
+        "diltiazem",
+        "verapamil"
+      ],
+      "med2": [
+        "tacrolimo"
+      ],
+      "nivel": "moderado",
+      "titulo": "Diltiazem / Verapamil + Tacrolimo",
+      "efeito": "Diltiazem e verapamil inibem o CYP3A4, reduzindo a metabolização do tacrolimo e elevando seus níveis sanguíneos em 30 a 50%. Em alguns centros de transplante esse efeito é usado intencionalmente para permitir doses menores de tacrolimo. No entanto, sem ajuste adequado, o risco de toxicidade renal e neurológica aumenta.",
+      "conduta": "⚠️ Monitorar nível sérico de tacrolimo ao iniciar, ajustar ou suspender diltiazem ou verapamil. Reduzir a dose de tacrolimo em 25–40% ao adicionar esses bloqueadores de canal de cálcio. Se anti-hipertensivo for necessário sem interação, preferir anlodipino — que não interfere no CYP3A4."
+    },
+    {
+      "med1": [
+        "metoclopramida"
+      ],
+      "med2": [
+        "tacrolimo"
+      ],
+      "nivel": "moderado",
+      "titulo": "Metoclopramida + Tacrolimo",
+      "efeito": "Metoclopramida acelera o esvaziamento gástrico e o trânsito intestinal, fazendo com que o tacrolimo chegue mais rápido ao intestino delgado e seja absorvido de forma mais concentrada — o pico de concentração sanguínea sobe, aumentando o risco de toxicidade (dano renal, tremores, hipertensão). O efeito é mais pronunciado nas primeiras horas após a dose de tacrolimo.",
+      "conduta": "⚠️ Monitorar nível sérico de tacrolimo ao iniciar metoclopramida. Pode ser necessário reduzir ligeiramente a dose de tacrolimo. Para náuseas e gastroparesia em transplantados, avaliar ondansetrona como alternativa (sem interação farmacocinética com tacrolimo)."
+    },
+    {
+      "med1": [
+        "warfarina"
+      ],
+      "med2": [
+        "tamoxifeno"
+      ],
+      "nivel": "alto",
+      "titulo": "Warfarina + Tamoxifeno",
+      "efeito": "Tamoxifeno inibe o CYP2C9, a principal enzima que elimina a warfarina do organismo. Com essa via bloqueada, a warfarina se acumula no sangue e o efeito anticoagulante fica muito mais forte que o esperado — o INR pode subir rapidamente, com risco real de sangramento grave: hematomas espontâneos, sangramento digestivo, urinário ou, nos casos mais sérios, no cérebro.",
+      "conduta": "❌ Monitorar o INR a cada 5–7 dias nas primeiras 4 semanas após iniciar ou suspender o tamoxifeno. A dose de warfarina geralmente precisa ser reduzida em 30 a 50%. Orientar a paciente a relatar imediatamente qualquer sangramento ou hematoma incomum."
+    },
+    {
+      "med1": [
+        "rifampicina",
+        "carbamazepina",
+        "fenitoína",
+        "fenobarbital",
+        "oxcarbazepina"
+      ],
+      "med2": [
+        "tamoxifeno"
+      ],
+      "nivel": "alto",
+      "titulo": "Indutor Enzimático + Tamoxifeno",
+      "efeito": "Rifampicina, carbamazepina, fenitoína e fenobarbital aceleram fortemente as enzimas que metabolizam o tamoxifeno e seu metabólito ativo (endoxifeno, que é 100 vezes mais potente que o tamoxifeno). Com o endoxifeno reduzido, o tratamento hormonal do câncer de mama perde grande parte da sua eficácia — mesmo que a paciente esteja tomando a dose correta de tamoxifeno.",
+      "conduta": "❌ Evitar a combinação em pacientes com câncer de mama hormônio-receptor positivo. Se anticonvulsivante for indispensável, discutir com a oncologista a substituição por levetiracetam ou lamotrigina, que não induzem essas enzimas. Nunca ajustar a dose de tamoxifeno por conta própria para compensar."
+    },
+    {
+      "med1": [
+        "etinilestradiol",
+        "estradiol",
+        "estriol",
+        "anticoncepcional oral",
+        "drospirenona",
+        "levonorgestrel"
+      ],
+      "med2": [
+        "tamoxifeno"
+      ],
+      "nivel": "alto",
+      "titulo": "Estrogênio / Anticoncepcional Combinado + Tamoxifeno",
+      "efeito": "Tamoxifeno age bloqueando os receptores de estrogênio nas células do tumor — é exatamente esse bloqueio que impede o crescimento do câncer de mama hormônio-receptor positivo. O uso de estrogênios exógenos (pílula combinada, TRH, adesivos, géis) introduz estrogênio no organismo que compete por esses mesmos receptores e pode anular completamente o efeito antitumoral do tamoxifeno.",
+      "conduta": "❌ Contraindicado. Anticoncepção hormonal combinada (com estrogênio) não deve ser usada durante o tamoxifeno. Opções seguras: DIU de cobre, preservativo, implante de progesterona isolada (discutir com oncologista). Terapia de reposição hormonal com estrogênio é contraindicada durante e até 2 anos após o tratamento."
+    },
+    {
+      "med1": [
+        "bupropiona"
+      ],
+      "med2": [
+        "tamoxifeno"
+      ],
+      "nivel": "moderado",
+      "titulo": "Bupropiona + Tamoxifeno",
+      "efeito": "Bupropiona inibe moderadamente o CYP2D6, a enzima que transforma o tamoxifeno em endoxifeno — seu metabólito ativo, responsável pela maior parte do efeito antitumoral. Com o CYP2D6 inibido, o nível de endoxifeno cai e a eficácia do tratamento do câncer de mama pode ser reduzida, mesmo que a paciente esteja tomando a dose certa de tamoxifeno.",
+      "conduta": "⚠️ Evitar bupropiona durante o tratamento com tamoxifeno. Para depressão ou para parar de fumar, discutir com a oncologista alternativas de menor impacto no CYP2D6: sertralina, venlafaxina ou vareniclina (para cessação tabágica). Nunca substituir o antidepressivo sem orientação médica."
+    },
+    {
+      "med1": [
+        "etinilestradiol",
+        "estradiol",
+        "estriol",
+        "anticoncepcional oral",
+        "drospirenona",
+        "levonorgestrel"
+      ],
+      "med2": [
+        "letrozol"
+      ],
+      "nivel": "alto",
+      "titulo": "Estrogênio / Anticoncepcional Hormonal + Letrozol",
+      "efeito": "Letrozol age inibindo a aromatase, a enzima que produz estrogênio no organismo — ao bloquear essa enzima, os níveis de estrogênio caem e o tumor hormônio-dependente perde seu combustível. O uso de estrogênios exógenos (pílula, TRH, adesivos, géis) repõe diretamente o estrogênio que o letrozol suprimiu, anulando completamente o mecanismo do tratamento.",
+      "conduta": "❌ Contraindicado. Letrozol é indicado apenas para mulheres na pós-menopausa — não deve ser usado com nenhuma forma de estrogênio exógeno. Qualquer suspeita de reposição hormonal deve ser comunicada imediatamente à oncologista. Para sintomas da menopausa, discutir opções não hormonais."
+    },
+    {
+      "med1": [
+        "tamoxifeno"
+      ],
+      "med2": [
+        "letrozol"
+      ],
+      "nivel": "moderado",
+      "titulo": "Tamoxifeno + Letrozol (uso simultâneo)",
+      "efeito": "Quando usados ao mesmo tempo (e não em sequência), o tamoxifeno reduz os níveis plasmáticos do letrozol em cerca de 37% — provavelmente por induzir enzimas que aceleram o metabolismo do letrozol. Além disso, o tamoxifeno tem leve atividade estrogênica que pode antagonizar parcialmente o efeito supressor do letrozol. Estudos clínicos mostraram que a combinação simultânea não é superior ao letrozol isolado.",
+      "conduta": "⚠️ A combinação simultânea de tamoxifeno e letrozol não é recomendada na prática oncológica. O uso sequencial (tamoxifeno por alguns anos seguido de inibidor de aromatase) é uma estratégia válida e guideline-based, mas deve ser coordenado pela oncologista. Nunca usar os dois ao mesmo tempo por iniciativa própria."
+    },
+    {
+      "med1": [
+        "rifampicina",
+        "carbamazepina",
+        "fenitoína",
+        "fenobarbital"
+      ],
+      "med2": [
+        "letrozol"
+      ],
+      "nivel": "moderado",
+      "titulo": "Indutor Enzimático + Letrozol",
+      "efeito": "Rifampicina, carbamazepina e fenitoína induzem o CYP3A4 e o CYP2A6, as principais enzimas que eliminam o letrozol — os níveis plasmáticos do letrozol podem cair significativamente, reduzindo a supressão de estrogênio e comprometendo a eficácia do tratamento hormonal do câncer de mama.",
+      "conduta": "⚠️ Evitar a combinação. Se anticonvulsivante for indispensável, discutir com a oncologista a substituição por levetiracetam ou lamotrigina, que não interferem no metabolismo do letrozol. Monitorar marcadores tumorais e resposta clínica se a combinação for inevitável."
+    },
+    {
+      "med1": [
+        "warfarina"
+      ],
+      "med2": [
+        "letrozol"
+      ],
+      "nivel": "moderado",
+      "titulo": "Warfarina + Letrozol",
+      "efeito": "Letrozol inibe fracamente o CYP2C9, a enzima responsável pela eliminação da warfarina — o resultado é uma elevação moderada dos níveis de warfarina e aumento do efeito anticoagulante, com risco de sangramento. A interação foi documentada em estudos clínicos, embora a magnitude varie entre pacientes.",
+      "conduta": "⚠️ Monitorar o INR com mais frequência ao iniciar o letrozol (a cada 2–3 semanas nas primeiras 6 semanas). Pode ser necessária redução moderada da dose de warfarina. Orientar a paciente a relatar qualquer sangramento, hematoma incomum ou fezes escuras."
+    },
+    {
+      "med1": [
+        "oxicodona"
+      ],
+      "med2": [
+        "fluconazol",
+        "itraconazol",
+        "cetoconazol",
+        "voriconazol",
+        "claritromicina",
+        "eritromicina",
+        "ritonavir"
+      ],
+      "nivel": "alto",
+      "titulo": "Oxicodona + Inibidor de CYP3A4",
+      "efeito": "Oxicodona é metabolizada principalmente pelo CYP3A4 — fluconazol, itraconazol, claritromicina e ritonavir bloqueiam essa enzima, fazendo o nível de oxicodona subir de forma significativa (em média 50 a 150%). O resultado é sedação intensa e desproporcional à dose, com risco real de depressão respiratória grave e overdose mesmo em quem usa oxicodona regularmente.",
+      "conduta": "❌ Evitar a combinação sempre que possível. Se antifúngico for necessário, preferir fluconazol em dose única (menor impacto) ou anfotericina B. Se antibiótico for necessário, preferir azitromicina. Caso a combinação seja inevitável, reduzir a dose de oxicodona em 30 a 50% e monitorar nível de consciência e frequência respiratória com atenção."
+    },
+    {
+      "med1": [
+        "oxicodona"
+      ],
+      "med2": [
+        "rifampicina",
+        "carbamazepina",
+        "fenitoína",
+        "fenobarbital"
+      ],
+      "nivel": "alto",
+      "titulo": "Oxicodona + Indutor de CYP3A4",
+      "efeito": "Rifampicina, carbamazepina e fenitoína induzem o CYP3A4 e aceleram a eliminação da oxicodona, reduzindo seus níveis sanguíneos em 50 a 90%. A analgesia falha e o paciente sente que a medicação \"não está fazendo efeito\" — o risco é ele aumentar a dose por conta própria e, ao suspender o indutor, sofrer uma overdose grave com os níveis de oxicodona subindo rapidamente.",
+      "conduta": "❌ Evitar a combinação. Se anticonvulsivante for indispensável, preferir levetiracetam (sem indução de CYP3A4). Caso o indutor não possa ser substituído, a dose de oxicodona precisará ser aumentada substancialmente sob supervisão médica — e sempre reduzida de forma gradual ao suspender o indutor."
+    },
+    {
+      "med1": [
+        "ibuprofeno",
+        "naproxeno",
+        "diclofenaco",
+        "nimesulida",
+        "meloxicam",
+        "celecoxibe",
+        "cetoprofeno",
+        "indometacina"
+      ],
+      "med2": [
+        "valaciclovir"
+      ],
+      "nivel": "moderado",
+      "titulo": "AINE + Valaciclovir",
+      "efeito": "Valaciclovir é convertido em aciclovir no organismo e eliminado quase totalmente pelos rins por filtração glomerular e secreção tubular. AINEs reduzem o fluxo sanguíneo renal e a taxa de filtração — com isso, o aciclovir se acumula no sangue e pode causar toxicidade: cristais de aciclovir nos rins (cristalúria), elevação de creatinina e, em doses altas ou pacientes desidratados, tremores, confusão e convulsões.",
+      "conduta": "⚠️ Manter hidratação adequada (2 a 3 litros de água por dia) durante o tratamento com valaciclovir. Evitar AINEs se possível — preferir paracetamol para dor ou febre. Monitorar função renal em idosos e pacientes com rim comprometido. Dose de valaciclovir deve ser ajustada conforme a creatinina."
+    },
+    {
+      "med1": [
+        "metotrexato"
+      ],
+      "med2": [
+        "valaciclovir"
+      ],
+      "nivel": "moderado",
+      "titulo": "Metotrexato + Valaciclovir",
+      "efeito": "Ambos — metotrexato e aciclovir (metabólito do valaciclovir) — competem pela mesma via de eliminação renal (secreção tubular ativa). Quando usados juntos, a eliminação de ambos fica prejudicada: o metotrexato se acumula e aumenta o risco de toxicidade hematológica (queda de leucócitos e plaquetas) e mucosites; o aciclovir acumulado pode causar toxicidade renal.",
+      "conduta": "⚠️ Monitorar função renal e hemograma durante e após a combinação. Manter hidratação intensa. Se possível, separar os tratamentos no tempo — tratar o episódio herpético antes de reiniciar o metotrexato. Comunicar ao reumatologista ou oncologista antes de iniciar valaciclovir."
+    },
+    {
+      "med1": [
+        "warfarina"
+      ],
+      "med2": [
+        "propiltiouracil",
+        "ptu",
+        "metimazol",
+        "tapazol"
+      ],
+      "nivel": "alto",
+      "titulo": "Warfarina + Antitireoidiano (PTU / Metimazol)",
+      "efeito": "Essa interação tem dois mecanismos que se somam: PTU e metimazol inibem diretamente a síntese de fatores de coagulação dependentes de vitamina K (efeito anticoagulante direto), e ao corrigir o hipertireoidismo, o metabolismo acelerado da warfarina se normaliza — o que já era controlado na dose do hipertireoideo passa a ser superdosagem quando o paciente fica eutireoideo. O INR pode subir de forma significativa e inesperada durante o tratamento.",
+      "conduta": "❌ Monitorar o INR a cada 2–3 semanas durante o ajuste da dose do antitireoidiano. A dose de warfarina geralmente precisa ser reduzida progressivamente conforme a função tireoidiana se normaliza. Orientar o paciente a relatar qualquer sangramento ou hematoma. Coordenação entre endocrinologista e equipe que maneja a anticoagulação é essencial."
+    },
+    {
+      "med1": [
+        "amiodarona"
+      ],
+      "med2": [
+        "propiltiouracil",
+        "ptu",
+        "metimazol",
+        "tapazol"
+      ],
+      "nivel": "moderado",
+      "titulo": "Amiodarona + Antitireoidiano (PTU / Metimazol)",
+      "efeito": "Amiodarona contém 37% de iodo em sua estrutura e libera iodo continuamente no organismo — isso pode causar disfunção tireoidiana de duas formas: hipotireoidismo (excesso de iodo bloqueia a tireoide) ou hipertireoidismo (iodo estimula produção excessiva). Quando PTU ou metimazol são usados para tratar o hipertireoidismo induzido pela amiodarona, a resposta pode ser imprevisível e lenta, porque o iodo acumulado continua interferindo na função tireoidiana por meses após suspender a amiodarona.",
+      "conduta": "⚠️ O hipertireoidismo induzido por amiodarona é de difícil manejo — pode exigir doses altas de antitireoidiano e longo tempo de tratamento. Monitorar TSH e T4 livre mensalmente. Em casos graves resistentes ao PTU/metimazol, pode ser necessária tireoidectomia ou iodo radioativo sob avaliação especializada."
+    },
+    {
+      "med1": [
+        "lítio",
+        "carbonato de lítio"
+      ],
+      "med2": [
+        "propiltiouracil",
+        "ptu",
+        "metimazol",
+        "tapazol"
+      ],
+      "nivel": "moderado",
+      "titulo": "Lítio + Antitireoidiano (PTU / Metimazol)",
+      "efeito": "Lítio inibe a liberação de hormônios tireoidianos pela glândula tireoide — mecanismo parecido (mas diferente) ao do PTU e metimazol. A combinação soma os efeitos bloqueadores, aumentando o risco de hipotireoidismo: cansaço extremo, ganho de peso, lentidão, sensação de frio, constipação e, em graus mais avançados, confusão mental (mixedema). O lítio ainda pode agravar o bócio já existente.",
+      "conduta": "⚠️ Monitorar TSH e T4 livre a cada 3–6 meses. Ajustar a dose do antitireoidiano conforme os exames de tireoide, pois o lítio pode permitir usar doses menores de PTU ou metimazol. Orientar o paciente a relatar cansaço intenso, ganho de peso rápido ou sensação de frio excessivo."
+    },
+    {
+      "med1": [
+        "digoxina"
+      ],
+      "med2": [
+        "propiltiouracil",
+        "ptu",
+        "metimazol",
+        "tapazol"
+      ],
+      "nivel": "moderado",
+      "titulo": "Digoxina + Antitireoidiano (PTU / Metimazol)",
+      "efeito": "No hipertireoidismo, o organismo metaboliza e elimina a digoxina muito mais rápido que o normal — os pacientes hipertireoideos precisam de doses maiores para ter efeito terapêutico. Quando PTU ou metimazol corrigem o hipertireoidismo e a tireoide volta ao normal, a eliminação da digoxina desacelera: a dose que era adequada para o estado hipertireoideu passa a ser excessiva, com risco de intoxicação digitálica (bradicardia, enjoo, visão amarelada, arritmias).",
+      "conduta": "⚠️ Monitorar nível sérico de digoxina e ECG a cada 4–6 semanas durante o controle do hipertireoidismo com antitireoidiano. Reduzir a dose de digoxina gradualmente conforme a função tireoidiana se normaliza. Atenção redobrada em idosos e pacientes com insuficiência renal."
+    },
+    {
+      "med1": [
+        "teofilina"
+      ],
+      "med2": [
+        "fluvoxamina"
+      ],
+      "nivel": "alto",
+      "titulo": "Teofilina + Fluvoxamina",
+      "efeito": "Fluvoxamina é o inibidor mais potente do CYP1A2 disponível na prática clínica — e a teofilina depende quase exclusivamente do CYP1A2 para ser eliminada. A combinação pode triplicar os níveis de teofilina em poucos dias, ultrapassando rapidamente o limite seguro (faixa terapêutica muito estreita). O resultado é toxicidade grave: náuseas e vômitos intensos, coração acelerado (taquicardia), tremores, agitação e, nos casos mais sérios, convulsões e arritmias cardíacas que podem ser fatais.",
+      "conduta": "❌ Contraindicado. Evitar fluvoxamina em pacientes em uso de teofilina. Se antidepressivo ISRS for necessário, escolher sertralina, escitalopram ou citalopram — que não inibem CYP1A2. Se a combinação for inevitável, reduzir a dose de teofilina em 50% ao iniciar a fluvoxamina e monitorar nível sérico de teofilina a cada 3–5 dias até estabilização."
+    },
+    {
+      "med1": [
+        "tizanidina"
+      ],
+      "med2": [
+        "fluvoxamina"
+      ],
+      "nivel": "alto",
+      "titulo": "Tizanidina + Fluvoxamina",
+      "efeito": "Tizanidina é quase totalmente metabolizada pelo CYP1A2 — e fluvoxamina bloqueia esse caminho de forma tão intensa que os níveis de tizanidina podem subir até 33 vezes o valor normal. Com tanta tizanidina circulante, surgem hipotensão grave (pressão cai perigosamente), sedação profunda e dificuldade de coordenação motora. Há relatos de pacientes que passaram a não conseguir se manter em pé após iniciar fluvoxamina junto com tizanidina.",
+      "conduta": "❌ Combinação contraindicada. Suspender a tizanidina ao iniciar fluvoxamina. Para relaxamento muscular, discutir com o médico alternativas que não dependam do CYP1A2, como baclofeno ou ciclobenzaprina (com cautela quanto à sedação aditiva). Se a tizanidina for indispensável, não usar fluvoxamina — escolher outro antidepressivo."
+    },
+    {
+      "med1": [
+        "warfarina"
+      ],
+      "med2": [
+        "fluvoxamina"
+      ],
+      "nivel": "alto",
+      "titulo": "Warfarina + Fluvoxamina",
+      "efeito": "Warfarina existe em duas formas no organismo (R e S): a forma R é eliminada pelo CYP1A2 e a forma S pelo CYP2C9 — fluvoxamina inibe os dois, impedindo a eliminação de ambas. O resultado é acúmulo de warfarina e aumento expressivo do INR, com risco de sangramento grave: hematomas espontâneos, sangramento digestivo, urinário ou, nos casos mais sérios, hemorragia cerebral.",
+      "conduta": "❌ Monitorar o INR com muita frequência (a cada 3–5 dias) nas primeiras 2–3 semanas após iniciar a fluvoxamina. A dose de warfarina geralmente precisa ser reduzida em 30 a 50%. Se possível, substituir a fluvoxamina por outro antidepressivo com menor impacto nas enzimas do CYP (sertralina ou escitalopram têm menor efeito sobre CYP1A2 e CYP2C9)."
+    },
+    {
+      "med1": [
+        "cafeína"
+      ],
+      "med2": [
+        "fluvoxamina"
+      ],
+      "nivel": "moderado",
+      "titulo": "Cafeína + Fluvoxamina",
+      "efeito": "A cafeína do café, chá, energéticos e refrigerantes é eliminada principalmente pelo CYP1A2 — fluvoxamina bloqueia essa enzima e faz a cafeína se acumular no organismo, prolongando e intensificando seus efeitos. Quem toma café normalmente sem sentir muito efeito pode passar a ter insônia intensa, coração acelerado, sensação de ansiedade ou nervosismo, tremores nas mãos e dor de cabeça — tudo com o mesmo consumo de cafeína de antes.",
+      "conduta": "⚠️ Orientar o paciente a reduzir significativamente o consumo de café, chá preto, chá verde, energéticos e refrigerantes à base de cola ao iniciar fluvoxamina. Não há contraindicação absoluta, mas o consumo não monitorado pode piorar ansiedade, insônia e tolerabilidade do antidepressivo. Cafeína em doses altas pode também reduzir o limiar convulsivante."
+    },
+    {
+      "med1": [
+        "ciclosporina"
+      ],
+      "med2": [
+        "fluvoxamina"
+      ],
+      "nivel": "moderado",
+      "titulo": "Ciclosporina + Fluvoxamina",
+      "efeito": "Fluvoxamina inibe CYP3A4 e CYP2C19, enzimas que participam do metabolismo da ciclosporina — o resultado é elevação dos níveis de ciclosporina no sangue, com risco de nefrotoxicidade (dano renal), tremores, hipertensão e outros sinais de toxicidade do imunossupressor. Em transplantados, qualquer variação nos níveis de ciclosporina pode ser clinicamente significativa.",
+      "conduta": "⚠️ Monitorar nível sérico de ciclosporina (trough) e creatinina ao iniciar ou suspender fluvoxamina. Pode ser necessário reduzir a dose de ciclosporina. Avaliar substituição da fluvoxamina por sertralina ou escitalopram, que têm impacto muito menor sobre o CYP3A4, antes de iniciar em transplantados."
+    },
+    {
+      "med1": [
+        "ciclosporina",
+        "tacrolimo"
+      ],
+      "med2": [
+        "leucogen",
+        "timomodulina"
+      ],
+      "nivel": "moderado",
+      "titulo": "Ciclosporina / Tacrolimo + Leucogen (Timomodulina)",
+      "efeito": "Leucogen (timomodulina) é um imunomodulador que estimula a resposta imunológica — especialmente a atividade de linfócitos T e células de defesa. Ciclosporina e tacrolimo, por sua vez, suprimem exatamente esse sistema imunológico para evitar a rejeição de órgãos transplantados. A combinação cria um conflito farmacológico: o Leucogen pode reativar defesas imunológicas que o imunossupressor está tentando bloquear, aumentando o risco de rejeição mesmo sem sintomas claros.",
+      "conduta": "⚠️ Leucogen não deve ser usado em pacientes transplantados em uso de ciclosporina ou tacrolimo sem avaliação da equipe de transplante. Informar sempre o médico especialista sobre qualquer suplemento imunomodulador antes de iniciar. O benefício do Leucogen na redução de infecções nesses pacientes não foi estudado de forma adequada e o risco de rejeição é real."
+    },
+    {
+      "med1": [
+        "prednisona",
+        "prednisolona",
+        "dexametasona",
+        "betametasona"
+      ],
+      "med2": [
+        "leucogen",
+        "timomodulina"
+      ],
+      "nivel": "moderado",
+      "titulo": "Corticoide + Leucogen (Timomodulina)",
+      "efeito": "Corticoides como prednisona e dexametasona suprimem amplamente o sistema imunológico — reduzem a produção de células de defesa e bloqueiam a inflamação. Leucogen estimula o sistema imunológico na direção oposta, ativando linfócitos e macrófagos. A combinação pode reduzir a eficácia do corticoide no controle de doenças autoimunes (como lúpus, artrite reumatoide, pênfigo) ou em situações onde a imunossupressão é intencional e necessária.",
+      "conduta": "⚠️ Evitar Leucogen durante tratamento com corticoide em alta dose para doenças autoimunes ou inflamatórias graves. Se o uso for para infecções de repetição durante corticoterapia leve (como em asma), discutir com o médico — a relação benefício-risco pode ser favorável em doses baixas de corticoide. Sempre informar todos os medicamentos, inclusive suplementos, ao médico."
+    },
+    {
+      "med1": [
+        "infliximabe",
+        "adalimumabe",
+        "etanercepte",
+        "secuquinumabe",
+        "vedolizumabe"
+      ],
+      "med2": [
+        "leucogen",
+        "timomodulina"
+      ],
+      "nivel": "moderado",
+      "titulo": "Imunobiológico + Leucogen (Timomodulina)",
+      "efeito": "Medicamentos biológicos como infliximabe e adalimumabe bloqueiam partes específicas do sistema imunológico (como o TNF-alfa) para tratar doenças autoimunes graves — artrite reumatoide, doença de Crohn, psoríase. Leucogen (timomodulina) estimula a atividade imunológica de forma ampla, incluindo células que participam da inflamação que o biológico está tentando controlar. A combinação pode, teoricamente, reduzir a eficácia do tratamento biológico ou reativar a doença de base.",
+      "conduta": "⚠️ Não iniciar Leucogen sem comunicar ao reumatologista, gastroenterologista ou dermatologista responsável pelo tratamento biológico. A interação é principalmente farmacológica (antagonismo imunológico) e não foi estudada especificamente com leucogen, mas o princípio de não estimular o sistema imune enquanto se usa um imunossupressor biológico é bem estabelecido."
+    }
+  ],
+  "duplicacao": [
+    {
+      "classe": "Benzodiazepínico",
+      "nivel": "alto",
+      "medicamentos": [
+        "alprazolam",
+        "clonazepam",
+        "diazepam",
+        "lorazepam",
+        "bromazepam",
+        "midazolam"
+      ],
+      "titulo": "🔄 Duplicação Terapêutica — Dois Benzodiazepínicos",
+      "efeito": "Usar dois benzodiazepínicos ao mesmo tempo soma os efeitos sedativos — risco de sedação profunda, respiração muito lenta e parada respiratória.",
+      "conduta": "❌ Nunca usar dois benzodiazepínicos simultaneamente sem indicação hospitalar. Se recebeu duas prescrições, avise o médico — provavelmente um substituirá o outro gradualmente."
+    },
+    {
+      "classe": "Opioide",
+      "nivel": "alto",
+      "medicamentos": [
+        "codeína",
+        "tramadol",
+        "morfina",
+        "oxicodona",
+        "buprenorfina",
+        "fentanila",
+        "tapentadol"
+      ],
+      "titulo": "🔄 Duplicação Terapêutica — Dois Opioides",
+      "efeito": "Dois opioides juntos multiplicam o risco de depressão respiratória — a respiração pode desacelerar até parar completamente. É uma das principais causas de morte por overdose.",
+      "conduta": "❌ Contraindicado. Nunca combinar dois opioides sem supervisão hospitalar rigorosa. Se em uso acidental, procure emergência imediatamente."
+    },
+    {
+      "classe": "ISRS / IRSN",
+      "nivel": "alto",
+      "medicamentos": [
+        "fluoxetina",
+        "sertralina",
+        "escitalopram",
+        "paroxetina",
+        "citalopram",
+        "venlafaxina",
+        "duloxetina",
+        "fluvoxamina"
+      ],
+      "titulo": "🔄 Duplicação Terapêutica — Dois Antidepressivos ISRS/IRSN",
+      "efeito": "Dois antidepressivos da mesma família somam a ação na serotonina — risco de síndrome serotoninérgica: agitação intensa, tremores, febre alta, convulsões e risco de morte.",
+      "conduta": "❌ Evitar. Trocar de ISRS exige período sem o medicamento antigo (washout) orientado pelo médico. Nunca usar os dois ao mesmo tempo sem prescrição específica."
+    },
+    {
+      "classe": "Antipsicótico",
+      "nivel": "alto",
+      "medicamentos": [
+        "haloperidol",
+        "quetiapina",
+        "olanzapina",
+        "risperidona",
+        "clozapina",
+        "aripiprazol"
+      ],
+      "titulo": "🔄 Duplicação Terapêutica — Dois Antipsicóticos",
+      "efeito": "Dois antipsicóticos prolongam o intervalo QT do eletrocardiograma — risco de arritmia grave e morte súbita. Somam também sedação extrema e efeitos motores como rigidez e tremores.",
+      "conduta": "❌ Evitar. Dois antipsicóticos simultâneos raramente são indicados e só sob acompanhamento psiquiátrico intensivo com monitoramento de ECG."
+    },
+    {
+      "classe": "Estatina",
+      "nivel": "moderado",
+      "medicamentos": [
+        "sinvastatina",
+        "atorvastatina",
+        "rosuvastatina",
+        "pravastatina",
+        "pitavastatina",
+        "fluvastatina"
+      ],
+      "titulo": "🔄 Duplicação Terapêutica — Duas Estatinas",
+      "efeito": "Duas estatinas ao mesmo tempo dobram o risco de lesão muscular (miopatia): dor, fraqueza e, nos casos graves, destruição muscular com dano renal (rabdomiólise).",
+      "conduta": "⚠️ Evitar. Apenas uma estatina por vez. Se o colesterol não está controlado, trocar de estatina ou associar ezetimiba — nunca duas estatinas simultaneamente."
+    },
+    {
+      "classe": "AINE",
+      "nivel": "moderado",
+      "medicamentos": [
+        "ibuprofeno",
+        "diclofenaco",
+        "naproxeno",
+        "cetoprofeno",
+        "meloxicam",
+        "nimesulida",
+        "etoricoxibe",
+        "celecoxibe"
+      ],
+      "titulo": "🔄 Duplicação Terapêutica — Dois Anti-inflamatórios (AINEs)",
+      "efeito": "Dois AINEs aumentam o risco de sangramento no estômago e intestino sem melhorar a dor — os efeitos colaterais se somam, mas o alívio não aumenta.",
+      "conduta": "⚠️ Usar apenas um AINE por vez, na menor dose e pelo menor tempo possível. Para dor mais intensa, associar paracetamol é mais seguro do que combinar dois AINEs."
+    },
+    {
+      "classe": "Betabloqueador",
+      "nivel": "moderado",
+      "medicamentos": [
+        "atenolol",
+        "metoprolol",
+        "bisoprolol",
+        "propranolol",
+        "carvedilol",
+        "nebivolol"
+      ],
+      "titulo": "🔄 Duplicação Terapêutica — Dois Betabloqueadores",
+      "efeito": "Dois betabloqueadores somam a redução da frequência cardíaca — risco de bradicardia grave (coração muito lento), tontura intensa, cansaço extremo e desmaio.",
+      "conduta": "⚠️ Usar apenas um betabloqueador por vez. Se a pressão ou frequência não está controlada, ajustar dose ou trocar de classe com orientação do cardiologista."
+    },
+    {
+      "classe": "IECA",
+      "nivel": "moderado",
+      "medicamentos": [
+        "captopril",
+        "enalapril",
+        "lisinopril",
+        "ramipril",
+        "perindopril"
+      ],
+      "titulo": "🔄 Duplicação Terapêutica — Dois IECAs",
+      "efeito": "Dois IECAs somam o risco de queda excessiva da pressão, potássio alto no sangue e piora da função renal — sem benefício adicional comprovado.",
+      "conduta": "⚠️ Usar apenas um IECA por vez. Se a pressão não está controlada, adicionar medicamento de outra classe com orientação médica."
+    },
+    {
+      "classe": "BRA / Sartana",
+      "nivel": "moderado",
+      "medicamentos": [
+        "losartana",
+        "valsartana",
+        "olmesartana",
+        "irbesartana",
+        "candesartana",
+        "telmisartana"
+      ],
+      "titulo": "🔄 Duplicação Terapêutica — Duas Sartanas (BRA)",
+      "efeito": "Duas sartanas somam o risco de queda excessiva da pressão, potássio alto e piora da função renal — sem benefício adicional comprovado.",
+      "conduta": "⚠️ Usar apenas uma sartana por vez. Ajustar dose ou associar medicamento de outra classe com orientação médica."
+    }
+  ],
+  "iecas": [
+    "captopril",
+    "enalapril",
+    "lisinopril",
+    "ramipril",
+    "perindopril"
+  ],
+  "bras": [
+    "losartana",
+    "valsartana",
+    "olmesartana",
+    "irbesartana",
+    "candesartana",
+    "telmisartana"
+  ]
+}
