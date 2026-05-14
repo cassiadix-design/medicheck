@@ -1,2 +1,11 @@
+/*
+  X-Frame-Options: DENY
+
+/index.html
+  Cache-Control: no-store
+
 /mc-interacoes-data.js
+  Cache-Control: public, max-age=3600, must-revalidate
+
+/mc-interacoes-data-v3.js
   Cache-Control: public, max-age=3600, must-revalidate

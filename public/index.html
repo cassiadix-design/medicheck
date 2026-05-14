@@ -1161,8 +1161,11 @@ border-radius:0 0 20px 20px;
                 <script src="/mc-interacoes-data-v3.js"></script>
 
                 <script>
-                /* mcInteracoesDB movido para mc-interacoes-data.js */
+                /* mcInteracoesDB movido para mc-interacoes-data-v3.js */
 
+                if (typeof mcInteracoesDB === 'undefined' || typeof mcClassesDuplicacao === 'undefined') {
+                    console.error('[MediCheck] ERRO: mc-interacoes-data-v3.js não foi carregado. Verificador de interações não funcionará.');
+                }
 
                 const mcMedNomes = ["Acetazolamida","Acetilcisteína","Aciclovir","Acitretina","Adapaleno","Albendazol","Alendronato","Alfaepoetina","Alopurinol","Alprazolam","Ambroxol","Amicacina","Amiodarona","Amitriptilina","Amoxicilina","Amoxicilina + Clavulanato","Anfotericina B","Anlodipino","Aripiprazol","Atenolol","Atorvastatina","Azatioprina","Azitromicina","Baclofen","Beclometasona","Betaistina","Betametasona","Biperideno","Bisacodil","Bisoprolol","Bromazepam","Bromocriptina","Budesonida","Buprenorfina","Bupropiona","Cabergolina","Cafeína","Candesartana","Captopril","Carbamazepina","Carbidopa + Levodopa","Carbonato de Lítio","Carvedilol","Carisoprodol","Cefalexina","Ceftriaxona","Celecoxibe","Cetirizina","Cetoconazol","Cetoprofeno","Ciclobenzaprina","Ciprofloxacino","Citalopram","Claritromicina","Clindamicina","Clomifeno","Clonazepam","Clopidogrel","Cloroquina","Clorpromazina","Clozapina","Codeína","Colestiramina","Colchicina","Colecalciferol","Dabigatrana","Dapagliflozina","Denosumabe","Desloratadina","Desmopressina","Dexametasona","Diazepam","Diclofenaco","Digoxina","Diltiazem","Dipirona","Dissulfiram","Donepezila","Doxiciclina","Duloxetina","Dutasterida","Empagliflozina","Enalapril","Enoxaparina","Epoetina Alfa","Escitalopram","Esomeprazol","Espironolactona","Etoricoxibe","Ezetimiba","Fenofibrato","Fenitoína","Fenoterol","Fentanila","Finasterida","Fluconazol","Fluoxetina","Fluvoxamina","Formoterol + Budesonida","Furosemida","Gabapentina","Glibenclamida","Gentamicina","Griseofulvina","Haloperidol","Heparina","Hidroclorotiazida","Hidrocortisona","Hidroquinona","Hidroxizina","Ibuprofeno","Infliximabe","Insulina NPH","Insulina Regular","Insulina Glargina","Ipratrópio","Irbesartana","Isoniazida","Isotretinoína","Itraconazol","Ivabradina","Ivermectina","Lactulose","Lamotrigina","Lansoprazol","Leflunomida","Levetiracetam","Levofloxacina","Levonorgestrel","Levotiroxina","Linagliptina","Liraglutida","Lisdexanfetamina","Lisinopril","Loperamida","Loratadina","Lorazepam","Losartana","Magnésio","Meloxicam","Memantina","Mesalazina","Metformina","Metilfenidato","Metocarbamol","Metoclopramida","Metotrexato","Metoprolol","Metronidazol","Miconazol","Midazolam","Minoxidil","Mirtazapina","Montelucaste","Morfina","Moxifloxacino","Mupirocina","Naloxona","Naltrexona","Naproxeno","Nebivolol","Nifedipina","Nimesulida","Nitroglicerina","Olanzapina","Olmesartana","Omeprazol","Ondansetrom","Oseltamivir","Oxcarbazepina","Oxibutinina","Oxicodona","Pantoprazol","Paracetamol","Paroxetina","Perindopril","Permetrina","Pioglitazona","Pramipexol","Prednisona","Pregabalina","Progesterona","Prometazina","Propranolol","Quetiapina","Rabeprazol","Rasagilina","Rifampicina","Risperidona","Rivaroxabana","Rosuvastatina","Salbutamol","Semaglutida","Sertralina","Sildenafila","Silodosina","Sinvastatina","Sitagliptina","Saxagliptina","Alogliptina","Solifenacina","Sulfato Ferroso","Tacrolimo","Tadalafila","Tamsulosina","Tapentadol","Telmisartana","Terbinafina","Teofilina","Tiotropio","Tizanidina","Topiramato","Tramadol","Trazodona","Tretinoína","Vancomicina","Valsartana","Vareniclina","Venlafaxina","Verapamil","Warfarina","Zinco","Zolpidem","Zopiclona","Ácido Fólico","Ácido Zoledrónico","Álcool","Ômega-3","Prednisolona","Prednisolona comprimido","Eritropoetina","Ciclosporina","Valproato de Sódio","Meropenem","Imipenem","Clonidina","Genfibrozila","Ritonavir","Lopinavir","Carbapenem","Cimetidina","Ramipril","Niacina","Toranja","Atazanavir","Vitamina B12","Linezolida","Hipericão","Erva-de-São-João","Voriconazol","Tamoxifeno","Letrozol","Anastrozol","Exemestano","Valaciclovir","Propiltiouracil","Metimazol","Leucogen","Timomodulina","Etinilestradiol","Drospirenona","Anticoncepcional Oral","Tabaco","Cigarro","Gliclazida","Glimepirida","Acarbose","Nitrofurantoína","Norfloxacino","Apixabana","Fenobarbital","Clobazam","Melatonina","Buspirona","Nortriptilina","Fexofenadina","Dexclorfeniramina","Nistatina","Simeticona","Carbonato de Cálcio","Isossorbida Mononitrato"];
 
@@ -1172,6 +1175,7 @@ border-radius:0 0 20px 20px;
                 /* mcClassesDuplicacao movido para mc-interacoes-data.js */
 
                 function mcDetectarDuplicacao(m1, m2) {
+                    if (!Array.isArray(mcClassesDuplicacao)) return null;
                     for (const cls of mcClassesDuplicacao) {
                         const em1 = cls.medicamentos.some(m => m1.includes(m) || m.includes(m1));
                         const em2 = cls.medicamentos.some(m => m2.includes(m) || m.includes(m2));
@@ -1214,12 +1218,15 @@ border-radius:0 0 20px 20px;
                 }
 
                 function mcBuscarFixo(m1, m2) {
+                    if (!Array.isArray(mcInteracoesDB)) return null;
                     for (const inter of mcInteracoesDB) {
-                        const a = inter.med1.some(m => m1.includes(m) || m.includes(m1));
-                        const b = inter.med2.some(m => m2.includes(m) || m.includes(m2));
-                        const c = inter.med2.some(m => m1.includes(m) || m.includes(m1));
-                        const d = inter.med1.some(m => m2.includes(m) || m.includes(m2));
-                        if ((a && b) || (c && d)) return inter;
+                        // Sentido direto: m1 ∈ med1 e m2 ∈ med2
+                        const direto = inter.med1.some(m => m1.includes(m) || m.includes(m1)) &&
+                                       inter.med2.some(m => m2.includes(m) || m.includes(m2));
+                        // Sentido inverso: m1 ∈ med2 e m2 ∈ med1
+                        const inverso = inter.med2.some(m => m1.includes(m) || m.includes(m1)) &&
+                                        inter.med1.some(m => m2.includes(m) || m.includes(m2));
+                        if (direto || inverso) return inter;
                     }
                     return null;
                 }
