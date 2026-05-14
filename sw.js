@@ -1,5 +1,5 @@
 // MediCheck Service Worker
-const CACHE_NAME = 'medicheck-v4';
+const CACHE_NAME = 'medicheck-v5';
 const STATIC_ASSETS = [
   '/index.html',
   '/manifest.json',
@@ -8,7 +8,7 @@ const STATIC_ASSETS = [
   '/icons/icon-512.png',
   '/favicon.png'
 ];
-const DATA_CACHE = 'medicheck-data-v4';
+const DATA_CACHE = 'medicheck-data-v5';
 
 // Instala e faz cache dos arquivos estáticos (resiliente: falha individual não cancela install)
 self.addEventListener('install', event => {
