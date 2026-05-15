@@ -4260,6 +4260,60 @@ var mcInteracoesDB = [
     "titulo": "Imunobiológico + Leucogen (Timomodulina)",
     "efeito": "Medicamentos biológicos como infliximabe e adalimumabe bloqueiam partes específicas do sistema imunológico (como o TNF-alfa) para tratar doenças autoimunes graves — artrite reumatoide, doença de Crohn, psoríase. Leucogen (timomodulina) estimula a atividade imunológica de forma ampla, incluindo células que participam da inflamação que o biológico está tentando controlar. A combinação pode, teoricamente, reduzir a eficácia do tratamento biológico ou reativar a doença de base.",
     "conduta": "⚠️ Não iniciar Leucogen sem comunicar ao reumatologista, gastroenterologista ou dermatologista responsável pelo tratamento biológico. A interação é principalmente farmacológica (antagonismo imunológico) e não foi estudada especificamente com leucogen, mas o princípio de não estimular o sistema imune enquanto se usa um imunossupressor biológico é bem estabelecido."
+  },
+  {
+    "med1": ["valproato","ácido valproico","divalproato","depakene","depakote"],
+    "med2": ["lamotrigina","lamictal"],
+    "nivel": "alto",
+    "titulo": "Valproato + Lamotrigina (Toxicidade Grave — Risco de Stevens-Johnson)",
+    "mecanismo": "O valproato inibe a glucuronidação da lamotrigina (UGT1A4), reduzindo sua eliminação em até 50% e dobrando sua meia-vida. Os níveis plasmáticos da lamotrigina atingem concentrações tóxicas mesmo em doses antes toleradas.",
+    "efeito": "Toxicidade grave pela lamotrigina — ataxia, diplopia, vertigem, náusea. Em casos graves: síndrome de Stevens-Johnson (reação cutânea bolhosa potencialmente fatal) e necrólise epidérmica tóxica.",
+    "conduta": "❌ Quando valproato é associado, a dose de lamotrigina deve ser reduzida para 50% da habitual e a titulação deve ser muito mais lenta. Monitorar rigorosamente sintomas cutâneos (eritema, bolhas). Qualquer lesão cutânea suspeita exige suspensão imediata da lamotrigina."
+  },
+  {
+    "med1": ["valproato","ácido valproico","divalproato","depakene","depakote"],
+    "med2": ["carbamazepina","tegretol"],
+    "nivel": "moderado",
+    "titulo": "Valproato + Carbamazepina (Indução Enzimática Mútua — Monitorar Níveis Séricos)",
+    "mecanismo": "A carbamazepina induz CYP2C9 e CYP3A4, reduzindo os níveis de valproato em 40–60%. O valproato inibe o metabolismo do metabólito ativo da carbamazepina (carbamazepina-10,11-epóxido), podendo elevar sua toxicidade mesmo com níveis totais normais. Interação bidirecional complexa.",
+    "efeito": "Redução dos níveis de valproato (perda do controle das crises epilépticas) e possível acúmulo do metabólito tóxico da carbamazepina (toxicidade neurológica: tontura, diplopia, ataxia). Controle epiléptico imprevisível.",
+    "conduta": "⚠️ Monitorar nível sérico de ambos os anticonvulsivantes regularmente, especialmente ao iniciar ou ajustar doses. Ajustes frequentes podem ser necessários. Monitorar sinais de toxicidade da carbamazepina mesmo com níveis totais aparentemente normais."
+  },
+  {
+    "med1": ["carbamazepina","tegretol"],
+    "med2": ["lamotrigina","lamictal"],
+    "nivel": "moderado",
+    "titulo": "Carbamazepina + Lamotrigina (Indução do Metabolismo — Dose de Lamotrigina Aumentada)",
+    "mecanismo": "A carbamazepina é potente indutora de UGT1A4 e CYP3A4, acelerando o metabolismo e a eliminação da lamotrigina. Os níveis plasmáticos da lamotrigina podem ser reduzidos em 40–50%, comprometendo o controle das crises.",
+    "efeito": "Níveis subterapêuticos de lamotrigina com perda do controle epiléptico. A dose de lamotrigina geralmente precisa ser maior (até 2×) quando usada com carbamazepina, em comparação ao uso isolado.",
+    "conduta": "⚠️ Doses de lamotrigina geralmente precisam ser ajustadas para cima ao associar carbamazepina. Monitorar nível sérico e resposta clínica ao ajustar qualquer um dos medicamentos. Ao suspender carbamazepina, reduzir lamotrigina gradualmente para evitar toxicidade."
+  },
+  {
+    "med1": ["pseudoefedrina","fenilefrina","descongestionante"],
+    "med2": ["tranilcipromina","fenelzina","isocarboxazida","imao","inibidor de mao"],
+    "nivel": "alto",
+    "titulo": "Descongestionante (Pseudoefedrina / Fenilefrina) + IMAO (Crise Hipertensiva Grave)",
+    "mecanismo": "Pseudoefedrina e fenilefrina são simpaticomiméticos que promovem liberação de noradrenalina e agonismo α-adrenérgico direto. Os IMAOs inibem a degradação das catecolaminas — a combinação causa acúmulo maciço de noradrenalina na fenda sináptica com vasoconstrição extrema.",
+    "efeito": "Crise hipertensiva grave (PA >180/120 mmHg) — cefaleia occipital explosiva, sudorese, palidez, rigidez nucal, risco de hemorragia intracraniana, AVC e parada cardíaca.",
+    "conduta": "❌ Contraindicado absolutamente. Descongestionantes (inclusive nasais com fenilefrina) são proibidos em pacientes usando IMAOs ou dentro de 14 dias após sua suspensão. Substituir por lavagem nasal salina ou corticoide tópico nasal para congestão."
+  },
+  {
+    "med1": ["pseudoefedrina","fenilefrina","descongestionante"],
+    "med2": ["amitriptilina","imipramina","clomipramina","nortriptilina","antidepressivo tricíclico"],
+    "nivel": "alto",
+    "titulo": "Descongestionante + Antidepressivo Tricíclico (Potencialização Cardiovascular)",
+    "mecanismo": "Os antidepressivos tricíclicos bloqueiam a recaptação de noradrenalina e a entrada pré-sináptica dos simpaticomiméticos, potencializando seus efeitos cardiovasculares. A pseudoefedrina e fenilefrina têm ação direta nos receptores α e β adrenérgicos, com efeito amplificado pelos tricíclicos.",
+    "efeito": "Hipertensão grave, taquiarritmias (taquicardia supraventricular, fibrilação ventricular), palpitações intensas e risco de síndrome coronariana aguda por vasospasmo coronariano.",
+    "conduta": "❌ Evitar descongestionantes sistêmicos em pacientes em uso de antidepressivos tricíclicos. Usar lavagem salina nasal ou corticoide nasal tópico para congestão. Caso imprescindível, supervisão médica com monitoramento cardíaco."
+  },
+  {
+    "med1": ["prednisona","dexametasona","betametasona","hidrocortisona","prednisolona","corticoide","corticosteroide"],
+    "med2": ["metformina","insulina","insulina nph","insulina regular","glibenclamida","gliclazida","glimepirida","glipizida","sitagliptina","linagliptina","semaglutida","liraglutida","antidiabético"],
+    "nivel": "moderado",
+    "titulo": "Corticoide + Antidiabético (Hiperglicemia Corticosteroide — Ajuste de Dose)",
+    "mecanismo": "Corticoides elevam a glicose por múltiplos mecanismos: aumentam a gliconeogênese hepática, causam resistência insulínica periférica, inibem a captação de glicose pelos tecidos e estimulam a secreção de glucagon. O padrão típico é hiperglicemia pós-prandial com glicemia de jejum relativamente preservada, especialmente com prednisona em dose matinal.",
+    "efeito": "Hiperglicemia corticosteroide — antagoniza o efeito de todos os antidiabéticos orais e da insulina. Pode descompensar diabetes previamente controlado, revelar diabetes não diagnosticado ou causar hiperglicemia mesmo em não-diabéticos com doses altas.",
+    "conduta": "⚠️ Monitorar glicemia 2–4× ao dia durante corticoterapia. Pode ser necessário aumentar dose de metformina, intensificar insulinização ou adicionar insulina em pacientes antes bem controlados com antidiabéticos orais. Ao suspender corticoide, reduzir antidiabéticos gradualmente para evitar hipoglicemia."
   }
 ];
 
