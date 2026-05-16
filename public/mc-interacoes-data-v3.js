@@ -8431,6 +8431,403 @@ var mcInteracoesDB = [
     "mecanismo": "Antipsicóticos típicos causam efeitos extrapiramidais (parkinsonismo) e anticolinérgicos são usados para tratá-los. Porém, o bloqueio colinérgico cumulativo potencializa a toxicidade anticolinérgica e pode paradoxalmente reduzir o efeito antipsicótico via neurônios colinérgicos estriatais. O uso prolongado de anticolinérgico com antipsicótico também aumenta o risco de discinesia tardia.",
     "efeito": "Síndrome anticolinérgica cumulativa: boca seca intensa, constipação grave, retenção urinária, taquicardia, visão turva, confusão mental e delirium — idosos são especialmente vulneráveis. Paradoxalmente, pode reduzir a eficácia antipsicótica e aumentar o risco de discinesia tardia em uso prolongado.",
     "conduta": "⚠️ Usar anticolinérgico (ex.: biperideno) apenas pelo tempo mínimo necessário para controlar efeitos extrapiramidais agudos — não de forma profilática. Preferir antipsicóticos com menor potencial extrapiramidal (quetiapina, risperidona em dose baixa) para evitar a necessidade do anticolinérgico. Em idosos: vigilância redobrada para síndrome anticolinérgica (confusão, retenção urinária). Tentar retirar gradualmente o anticolinérgico após 3 meses de estabilização."
+  },
+  {
+    "med1": [
+      "acenocumarol",
+      "sintrom"
+    ],
+    "med2": [
+      "fluconazol",
+      "cetoconazol",
+      "itraconazol",
+      "voriconazol"
+    ],
+    "nivel": "alto",
+    "titulo": "Acenocumarol + Antifúngico Azólico (Risco de Sangramento Grave)",
+    "mecanismo": "O acenocumarol é metabolizado principalmente pela CYP2C9. Os antifúngicos azólicos inibem esta enzima de forma potente, elevando significativamente os níveis de acenocumarol e seu efeito anticoagulante.",
+    "efeito": "Elevação expressiva do INR com risco grave de hemorragia — sangramento gastrointestinal, intracraniano ou em outros locais críticos.",
+    "conduta": "❌ Reduzir dose de acenocumarol ao iniciar azólico e monitorar INR em 2–3 dias. Preferir terbinafina tópica ou fluconazol em dose única para infecções superficiais."
+  },
+  {
+    "med1": [
+      "acenocumarol",
+      "sintrom"
+    ],
+    "med2": [
+      "amiodarona"
+    ],
+    "nivel": "alto",
+    "titulo": "Acenocumarol + Amiodarona (Risco Prolongado)",
+    "mecanismo": "A amiodarona e seu metabólito desmetil-amiodarona inibem CYP2C9 de forma persistente — o efeito permanece por meses após suspender a amiodarona por sua meia-vida de 40–55 dias. O acenocumarol é metabolizado principalmente pela CYP2C9.",
+    "efeito": "Elevação progressiva do INR e risco crescente de hemorragia grave — o efeito persiste muito tempo após suspender a amiodarona.",
+    "conduta": "❌ Reduzir dose de acenocumarol em 30–50% ao iniciar amiodarona. Monitorar INR semanalmente. O efeito persiste meses após suspender a amiodarona."
+  },
+  {
+    "med1": [
+      "acenocumarol",
+      "sintrom"
+    ],
+    "med2": [
+      "metronidazol"
+    ],
+    "nivel": "alto",
+    "titulo": "Acenocumarol + Metronidazol",
+    "mecanismo": "O metronidazol inibe CYP2C9 — principal via de metabolismo do acenocumarol — bloqueando sua inativação e elevando expressivamente o INR.",
+    "efeito": "Elevação expressiva do INR com risco de hemorragia grave.",
+    "conduta": "❌ Reduzir dose de acenocumarol em 25–50% ao iniciar metronidazol. Monitorar INR em 2–3 dias."
+  },
+  {
+    "med1": [
+      "acenocumarol",
+      "sintrom"
+    ],
+    "med2": [
+      "vitamina k",
+      "fitomenadiona",
+      "fitoquinona"
+    ],
+    "nivel": "alto",
+    "titulo": "Acenocumarol + Vitamina K",
+    "mecanismo": "A vitamina K é o cofator da síntese dos fatores de coagulação que o acenocumarol inibe. A ingestão de vitamina K restaura a coagulação e antagoniza o efeito anticoagulante.",
+    "efeito": "Redução do INR com risco de falha anticoagulante — trombose, AVC e embolia pulmonar.",
+    "conduta": "❌ Manter consumo de folhas verdes (couve, espinafre, brócolis) constante. Evitar suplementos de vitamina K sem monitoramento do INR."
+  },
+  {
+    "med1": [
+      "acenocumarol",
+      "sintrom"
+    ],
+    "med2": [
+      "ibuprofeno",
+      "naproxeno",
+      "diclofenaco",
+      "aine",
+      "aspirina",
+      "ácido acetilsalicílico"
+    ],
+    "nivel": "alto",
+    "titulo": "Acenocumarol + AINE / AAS",
+    "mecanismo": "AINEs inibem a COX-1 plaquetária (antiagregante) e danificam a mucosa gastrointestinal. O acenocumarol é anticoagulante. A combinação multiplica o risco hemorrágico por dois mecanismos simultâneos.",
+    "efeito": "Risco muito elevado de sangramento gastrointestinal grave — potencialmente fatal.",
+    "conduta": "❌ Evitar AINEs com acenocumarol. Usar paracetamol para analgesia. Nunca usar aspirina com acenocumarol sem indicação específica e monitoramento rigoroso do INR."
+  },
+  {
+    "med1": [
+      "dabigatrana",
+      "pradaxa"
+    ],
+    "med2": [
+      "amiodarona"
+    ],
+    "nivel": "moderado",
+    "titulo": "Dabigatrana + Amiodarona (Inibição de P-gp)",
+    "mecanismo": "A amiodarona inibe a P-glicoproteína intestinal e renal, reduzindo a eliminação ativa da dabigatrana e elevando seus níveis séricos em até 60%. A dabigatrana não é metabolizada pelo CYP — a P-gp é sua principal via de eliminação.",
+    "efeito": "Aumento do efeito anticoagulante da dabigatrana com risco aumentado de sangramento.",
+    "conduta": "⚠️ Considerar redução da dose de dabigatrana (de 150mg para 110mg 2×/dia) ao associar amiodarona, especialmente em idosos ou com função renal reduzida. Monitorar sinais de sangramento."
+  },
+  {
+    "med1": [
+      "dabigatrana",
+      "pradaxa"
+    ],
+    "med2": [
+      "verapamil"
+    ],
+    "nivel": "moderado",
+    "titulo": "Dabigatrana + Verapamil (Inibição de P-gp)",
+    "mecanismo": "O verapamil inibe a P-glicoproteína, transportador responsável pela eliminação ativa da dabigatrana — elevando seus níveis plasmáticos significativamente. O efeito é maior com formulações de liberação imediata de verapamil.",
+    "efeito": "Aumento do efeito anticoagulante com risco de sangramento, especialmente em pacientes com função renal reduzida.",
+    "conduta": "⚠️ Administrar verapamil pelo menos 2 horas antes da dabigatrana para minimizar o pico plasmático. Considerar dose de 110mg 2×/dia em idosos ou com IRC leve a moderada."
+  },
+  {
+    "med1": [
+      "dabigatrana",
+      "pradaxa"
+    ],
+    "med2": [
+      "rifampicina",
+      "carbamazepina",
+      "fenitoína",
+      "fenobarbital",
+      "erva de são joão"
+    ],
+    "nivel": "alto",
+    "titulo": "Dabigatrana + Indutor de P-gp (Redução Grave do Efeito Anticoagulante)",
+    "mecanismo": "Rifampicina e outros indutores potentes de P-gp aumentam drasticamente a eliminação da dabigatrana, reduzindo seus níveis plasmáticos em até 66% — comprometendo gravemente o efeito anticoagulante.",
+    "efeito": "Falha anticoagulante — risco de trombose, AVC isquêmico e embolia pulmonar.",
+    "conduta": "❌ Contraindicado com rifampicina. Evitar indutores de P-gp com dabigatrana — o efeito anticoagulante torna-se inadequado e imprevisível."
+  },
+  {
+    "med1": [
+      "dabigatrana",
+      "pradaxa"
+    ],
+    "med2": [
+      "cetoconazol",
+      "itraconazol"
+    ],
+    "nivel": "alto",
+    "titulo": "Dabigatrana + Azólico Potente (Inibição Intensa de P-gp)",
+    "mecanismo": "Cetoconazol e itraconazol inibem fortemente a P-gp — principal transportador de eliminação da dabigatrana. Os níveis séricos podem aumentar significativamente, com risco de supranível anticoagulante.",
+    "efeito": "Risco elevado de sangramento por acúmulo de dabigatrana.",
+    "conduta": "❌ Cetoconazol sistêmico é contraindicado com dabigatrana. Usar fluconazol com precaução e monitoramento rigoroso de sinais de sangramento."
+  },
+  {
+    "med1": [
+      "edoxabana",
+      "lixiana",
+      "savaysa"
+    ],
+    "med2": [
+      "ciclosporina",
+      "quinidina",
+      "cetoconazol"
+    ],
+    "nivel": "alto",
+    "titulo": "Edoxabana + Inibidor Potente de P-gp",
+    "mecanismo": "A edoxabana é substrato da P-glicoproteína. Inibidores potentes de P-gp (ciclosporina, quinidina, cetoconazol) reduzem sua eliminação, elevando significativamente os níveis séricos e o risco hemorrágico.",
+    "efeito": "Risco elevado de sangramento por supranível de edoxabana.",
+    "conduta": "⚠️ Reduzir a dose de edoxabana para 30mg/dia quando associada a inibidores potentes de P-gp. Monitorar sinais de sangramento ativamente."
+  },
+  {
+    "med1": [
+      "edoxabana",
+      "lixiana",
+      "savaysa"
+    ],
+    "med2": [
+      "rifampicina",
+      "carbamazepina",
+      "fenitoína"
+    ],
+    "nivel": "alto",
+    "titulo": "Edoxabana + Indutor de P-gp (Redução do Efeito Anticoagulante)",
+    "mecanismo": "Rifampicina e outros indutores de P-gp aumentam a eliminação da edoxabana, reduzindo sua eficácia anticoagulante de forma significativa.",
+    "efeito": "Falha anticoagulante — risco de trombose, AVC e embolia pulmonar.",
+    "conduta": "❌ Evitar indutores potentes de P-gp com edoxabana. O efeito anticoagulante torna-se inadequado e imprevisível."
+  },
+  {
+    "med1": [
+      "cilostazol",
+      "cebralat",
+      "pletal"
+    ],
+    "med2": [
+      "claritromicina",
+      "eritromicina",
+      "itraconazol",
+      "cetoconazol",
+      "fluconazol",
+      "voriconazol"
+    ],
+    "nivel": "alto",
+    "titulo": "Cilostazol + Inibidor de CYP3A4 / CYP2C19",
+    "mecanismo": "O cilostazol é metabolizado principalmente por CYP3A4 e CYP2C19. Inibidores dessas enzimas elevam substancialmente os níveis do cilostazol e de seu metabólito ativo, amplificando o risco de efeitos adversos cardiovasculares e hemorrágicos.",
+    "efeito": "Taquicardia, cefaleia intensa, hipotensão e risco aumentado de sangramento — os metabólitos acumulam em concentrações tóxicas.",
+    "conduta": "❌ Contraindicado com inibidores fortes de CYP3A4 (cetoconazol, itraconazol, claritromicina). Com inibidores moderados: reduzir dose de cilostazol para 50mg 2×/dia e monitorar tolerância."
+  },
+  {
+    "med1": [
+      "cilostazol",
+      "cebralat",
+      "pletal"
+    ],
+    "med2": [
+      "omeprazol",
+      "esomeprazol",
+      "lansoprazol"
+    ],
+    "nivel": "moderado",
+    "titulo": "Cilostazol + IBP (Inibidor de CYP2C19)",
+    "mecanismo": "Omeprazol e esomeprazol são inibidores potentes de CYP2C19, reduzindo o metabolismo do cilostazol e elevando seus níveis séricos e de seu metabólito ativo.",
+    "efeito": "Aumento dos efeitos adversos do cilostazol — taquicardia, palpitações, cefaleia.",
+    "conduta": "⚠️ Reduzir dose de cilostazol para 50mg 2×/dia ao usar omeprazol ou esomeprazol. Preferir pantoprazol ou rabeprazol como IBP."
+  },
+  {
+    "med1": [
+      "cilostazol",
+      "cebralat",
+      "pletal"
+    ],
+    "med2": [
+      "warfarina",
+      "varfarina",
+      "acenocumarol",
+      "sintrom",
+      "apixabana",
+      "rivaroxabana",
+      "dabigatrana",
+      "edoxabana",
+      "heparina",
+      "enoxaparina"
+    ],
+    "nivel": "alto",
+    "titulo": "Cilostazol + Anticoagulante",
+    "mecanismo": "O cilostazol é um antiagregante plaquetário potente (inibidor de PDE III). Combinado com anticoagulantes, o risco hemorrágico é aditivo — bloqueio simultâneo da hemostasia primária (plaquetária) e secundária (coagulação).",
+    "efeito": "Risco elevado de sangramento grave — gastrointestinal, intracraniano ou pós-cirúrgico.",
+    "conduta": "⚠️ Usar com extrema cautela. A combinação pode ser necessária em contextos específicos (ex.: doença arterial periférica + fibrilação atrial). Monitorar sinais de sangramento ativamente."
+  },
+  {
+    "med1": [
+      "dipiridamol",
+      "persantin"
+    ],
+    "med2": [
+      "cafeína",
+      "café",
+      "chá preto",
+      "bebida energética"
+    ],
+    "nivel": "moderado",
+    "titulo": "Dipiridamol + Cafeína (Antagonismo — Teste de Estresse Inválido)",
+    "mecanismo": "O dipiridamol inibe a adenosina desaminase, elevando os níveis de adenosina e causando vasodilatação coronariana. A cafeína é antagonista competitivo dos receptores de adenosina — reverte este efeito vasodilatador.",
+    "efeito": "Redução ou anulação do efeito vasodilatador do dipiridamol — teste de estresse farmacológico inválido; pode mascarar isquemia coronariana.",
+    "conduta": "⚠️ Suspender cafeína (café, chá, refrigerante, chocolate) por 24–48 horas antes de exame com dipiridamol IV. Na terapia oral crônica, a interação é clinicamente menos relevante."
+  },
+  {
+    "med1": [
+      "dipiridamol",
+      "persantin"
+    ],
+    "med2": [
+      "adenosina"
+    ],
+    "nivel": "alto",
+    "titulo": "Dipiridamol + Adenosina (Potenciação Grave da Bradicardia)",
+    "mecanismo": "O dipiridamol bloqueia a recaptação e o metabolismo da adenosina, elevando muito seus níveis plasmáticos. A combinação potencializa o efeito cronotrópico negativo da adenosina de forma sinérgica.",
+    "efeito": "Bradicardia grave, bloqueio AV e hipotensão — risco de síncope e parada cardíaca.",
+    "conduta": "❌ Contraindicado. Se adenosina for necessária em pacientes com dipiridamol (ex.: cardioversão em emergência), usar dose muito reduzida com monitoramento cardíaco intensivo."
+  },
+  {
+    "med1": [
+      "prasugrel",
+      "efient"
+    ],
+    "med2": [
+      "warfarina",
+      "varfarina",
+      "acenocumarol",
+      "sintrom",
+      "apixabana",
+      "rivaroxabana",
+      "dabigatrana",
+      "edoxabana"
+    ],
+    "nivel": "alto",
+    "titulo": "Prasugrel + Anticoagulante Oral",
+    "mecanismo": "O prasugrel é um inibidor irreversível de P2Y12 (antiagregante muito potente). Combinado com anticoagulante oral, o risco hemorrágico é substancialmente aumentado — duplo bloqueio da hemostasia plaquetária e da coagulação.",
+    "efeito": "Risco muito elevado de sangramento grave — gastrointestinal, intracraniano e retroperitoneal.",
+    "conduta": "⚠️ Terapia tripla (dupla antiagregação + anticoagulante) só deve ser mantida pelo menor tempo necessário. Preferir prasugrel + anticoagulante sem aspirina quando possível. Monitorar sinais de sangramento ativamente."
+  },
+  {
+    "med1": [
+      "prasugrel",
+      "efient"
+    ],
+    "med2": [
+      "ibuprofeno",
+      "naproxeno",
+      "diclofenaco",
+      "aine"
+    ],
+    "nivel": "moderado",
+    "titulo": "Prasugrel + AINE",
+    "mecanismo": "O prasugrel inibe irreversivelmente as plaquetas via P2Y12. AINEs adicionam inibição reversível da COX-1 plaquetária e irritação da mucosa gastrointestinal — aumentando o risco de sangramento.",
+    "efeito": "Risco aumentado de sangramento gastrointestinal e em outros sítios.",
+    "conduta": "⚠️ Evitar AINEs com prasugrel. Usar paracetamol para analgesia."
+  },
+  {
+    "med1": [
+      "ticagrelor",
+      "brilique",
+      "brilinta"
+    ],
+    "med2": [
+      "cetoconazol",
+      "itraconazol",
+      "claritromicina",
+      "ritonavir",
+      "atazanavir"
+    ],
+    "nivel": "alto",
+    "titulo": "Ticagrelor + Inibidor Potente de CYP3A4",
+    "mecanismo": "O ticagrelor é metabolizado pela CYP3A4. Inibidores potentes desta enzima elevam os níveis de ticagrelor em até 7 vezes, amplificando seu efeito antiagregante e o risco de sangramento e efeitos adversos.",
+    "efeito": "Supranível de ticagrelor com risco grave de sangramento, dispneia e bradicardia.",
+    "conduta": "❌ Contraindicado com inibidores fortes de CYP3A4. Suspender o inibidor antes ou usar antiagregante alternativo (clopidogrel) se o inibidor for essencial."
+  },
+  {
+    "med1": [
+      "ticagrelor",
+      "brilique",
+      "brilinta"
+    ],
+    "med2": [
+      "rifampicina",
+      "carbamazepina",
+      "fenitoína",
+      "fenobarbital",
+      "dexametasona"
+    ],
+    "nivel": "alto",
+    "titulo": "Ticagrelor + Indutor Forte de CYP3A4",
+    "mecanismo": "Indutores potentes de CYP3A4 aceleram o metabolismo do ticagrelor, reduzindo seus níveis plasmáticos em até 75% — comprometendo gravemente o efeito antiagregante plaquetário.",
+    "efeito": "Perda de eficácia antiagregante — risco de trombose do stent e eventos cardiovasculares graves (IAM, AVC).",
+    "conduta": "❌ Contraindicado com indutores fortes de CYP3A4. Usar clopidogrel como alternativa se indutor enzimático for necessário."
+  },
+  {
+    "med1": [
+      "ticagrelor",
+      "brilique",
+      "brilinta"
+    ],
+    "med2": [
+      "aspirina",
+      "ácido acetilsalicílico"
+    ],
+    "nivel": "moderado",
+    "titulo": "Ticagrelor + Aspirina em Dose Alta (Redução de Eficácia)",
+    "mecanismo": "O ticagrelor requer aspirina em baixa dose (75–100mg) para otimizar seu efeito antiagregante. Doses altas de aspirina (>100mg/dia) reduzem a eficácia do ticagrelor — mecanismo possivelmente relacionado à redução da tromboxano sintase plaquetária.",
+    "efeito": "Redução da eficácia antiagregante do ticagrelor — possível aumento do risco cardiovascular.",
+    "conduta": "⚠️ Usar aspirina somente em dose baixa (75–100mg/dia) com ticagrelor. Doses >100mg/dia são contraindicadas em manutenção — usar apenas aspirina em baixa dose como terapia dupla."
+  },
+  {
+    "med1": [
+      "fondaparinux",
+      "arixtra"
+    ],
+    "med2": [
+      "ibuprofeno",
+      "naproxeno",
+      "diclofenaco",
+      "aine",
+      "aspirina",
+      "ácido acetilsalicílico"
+    ],
+    "nivel": "alto",
+    "titulo": "Fondaparinux + AINE / Aspirina",
+    "mecanismo": "O fondaparinux inibe o fator Xa, bloqueando a via extrínseca da coagulação. AINEs e aspirina inibem a COX-1 plaquetária e danificam a mucosa gastrointestinal — a combinação provoca bloqueio duplo da hemostasia.",
+    "efeito": "Risco muito elevado de sangramento gastrointestinal e em outros sítios — potencialmente fatal.",
+    "conduta": "❌ Evitar AINEs com fondaparinux. Usar paracetamol para analgesia."
+  },
+  {
+    "med1": [
+      "fondaparinux",
+      "arixtra"
+    ],
+    "med2": [
+      "clopidogrel",
+      "prasugrel",
+      "ticagrelor",
+      "brilique",
+      "brilinta",
+      "efient"
+    ],
+    "nivel": "alto",
+    "titulo": "Fondaparinux + Antiagregante Plaquetário",
+    "mecanismo": "A combinação de anticoagulante parenteral (fondaparinux) com antiagregante plaquetário provoca bloqueio simultâneo da coagulação e da função plaquetária — dupla inibição da hemostasia.",
+    "efeito": "Risco muito elevado de sangramento grave, especialmente gastrointestinal e em locais de acesso vascular.",
+    "conduta": "⚠️ A terapia combinada pode ser necessária em síndromes coronarianas agudas — usar pelo menor tempo possível e com monitoramento rigoroso de sinais de sangramento."
   }
 ];
 
