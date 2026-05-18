@@ -9239,6 +9239,269 @@ var mcInteracoesDB = [
     "mecanismo": "A tizanidina tem ação hipotensora central via agonismo α2-adrenérgico — mecanismo similar à clonidina. Combinada com anti-hipertensivos, o efeito hipotensor é aditivo.",
     "efeito": "Hipotensão ortostática significativa — tontura, lipotimia e risco de queda ao levantar. O risco é maior com a primeira dose ou após aumento de dose.",
     "conduta": "⚠️ Monitorar pressão arterial, especialmente na posição em pé, ao iniciar tizanidina em pacientes hipertensos. Iniciar com 2mg e ajustar gradualmente. Orientar mudança de posição lentamente ao levantar."
+  },
+  {
+    "med1": [
+      "felodipino",
+      "plendil",
+      "renedil"
+    ],
+    "med2": [
+      "rifampicina",
+      "rifampin"
+    ],
+    "nivel": "alto",
+    "titulo": "Felodipino + Rifampicina (Indução de CYP3A4 — Perda do Efeito Anti-hipertensivo)",
+    "mecanismo": "A rifampicina é um indutor potente de CYP3A4, a principal enzima responsável pelo metabolismo do felodipino. A co-administração reduz a AUC do felodipino em até 90%, tornando-o praticamente ineficaz.",
+    "efeito": "Perda quase total do efeito anti-hipertensivo e antianginoso. O paciente pode apresentar hipertensão grave durante a vigência do tratamento com rifampicina.",
+    "conduta": "🚫 Combinação contraindicada na prática clínica. Substituir o felodipino por anti-hipertensivo não metabolizado pela CYP3A4 (ex: hidroclorotiazida, lisinopril, atenolol). Após suspensão da rifampicina, reintroduzir o BCC com cuidado."
+  },
+  {
+    "med1": [
+      "felodipino",
+      "plendil",
+      "renedil"
+    ],
+    "med2": [
+      "cetoconazol",
+      "itraconazol",
+      "voriconazol",
+      "posaconazol",
+      "claritromicina",
+      "ritonavir",
+      "saquinavir"
+    ],
+    "nivel": "moderado",
+    "titulo": "Felodipino + Inibidor de CYP3A4 (Aumento dos Níveis — Hipotensão)",
+    "mecanismo": "Inibidores potentes de CYP3A4 (antifúngicos azólicos, macrolídeos, inibidores de protease) reduzem o metabolismo hepático de primeira passagem do felodipino, elevando seus níveis plasmáticos significativamente.",
+    "efeito": "Hipotensão arterial, taquicardia reflexa, cefaleia, rubor facial e edema periférico intensificados. Em idosos: risco de síncope.",
+    "conduta": "⚠️ Monitorar pressão arterial com atenção ao iniciar ou suspender o inibidor de CYP3A4. Considerar redução de dose do felodipino. Preferir antifúngicos tópicos quando possível."
+  },
+  {
+    "med1": [
+      "felodipino",
+      "plendil",
+      "renedil"
+    ],
+    "med2": [
+      "atenolol",
+      "metoprolol",
+      "propranolol",
+      "bisoprolol",
+      "carvedilol"
+    ],
+    "nivel": "moderado",
+    "titulo": "Felodipino + Beta-bloqueador (Hipotensão e Bradicardia Aditivas)",
+    "mecanismo": "O felodipino causa vasodilatação periférica e pode induzir taquicardia reflexa. Os beta-bloqueadores atenuam essa resposta reflexa e somam efeito hipotensor. A combinação é frequentemente usada na HAS, mas requer atenção à dose.",
+    "efeito": "Hipotensão arterial, bradicardia e redução do débito cardíaco — especialmente ao iniciar ou aumentar a dose de qualquer um dos fármacos. Risco maior em idosos e em pacientes com disfunção sistólica.",
+    "conduta": "⚠️ Associação possível e frequentemente usada, mas iniciar com doses baixas e monitorar PA e frequência cardíaca. Evitar em bradicardia sintomática ou bloqueio AV de 2º-3º grau."
+  },
+  {
+    "med1": [
+      "nifedipino",
+      "nifedipina",
+      "adalat"
+    ],
+    "med2": [
+      "rifampicina",
+      "rifampin"
+    ],
+    "nivel": "alto",
+    "titulo": "Nifedipino + Rifampicina (Indução de CYP3A4 — Perda do Efeito)",
+    "mecanismo": "A rifampicina induz fortemente a CYP3A4, que é responsável pelo metabolismo de primeira passagem do nifedipino. A AUC do nifedipino cai em 70–90% com a co-administração.",
+    "efeito": "Controle pressórico inadequado, retorno da angina e risco de eventos cardiovasculares por perda do efeito terapêutico.",
+    "conduta": "🚫 Evitar combinação. Substituir por anti-hipertensivo sem metabolismo significativo pela CYP3A4 (atenolol, lisinopril, hidroclorotiazida) durante o tratamento com rifampicina."
+  },
+  {
+    "med1": [
+      "nifedipino",
+      "nifedipina",
+      "adalat"
+    ],
+    "med2": [
+      "fenitoína",
+      "carbamazepina",
+      "fenobarbital",
+      "oxcarbazepina"
+    ],
+    "nivel": "moderado",
+    "titulo": "Nifedipino + Anticonvulsivante Indutor (Redução dos Níveis de Nifedipino)",
+    "mecanismo": "Fenitoína, carbamazepina e fenobarbital são indutores moderados a potentes da CYP3A4. Reduzem a biodisponibilidade oral do nifedipino, comprometendo o controle pressórico.",
+    "efeito": "Perda ou redução significativa do efeito anti-hipertensivo. Pode necessitar de doses mais elevadas de nifedipino ou troca do anti-hipertensivo.",
+    "conduta": "⚠️ Monitorar PA com maior frequência ao usar anticonvulsivantes indutores. Ajustar dose do nifedipino conforme resposta clínica ou substituir por anti-hipertensivo não-substrato de CYP3A4."
+  },
+  {
+    "med1": [
+      "nifedipino",
+      "nifedipina",
+      "adalat"
+    ],
+    "med2": [
+      "digoxina",
+      "lanoxin"
+    ],
+    "nivel": "moderado",
+    "titulo": "Nifedipino + Digoxina (Aumento dos Níveis de Digoxina)",
+    "mecanismo": "O nifedipino pode reduzir a depuração renal da digoxina por inibição da P-glicoproteína e por alterações no fluxo renal, elevando os níveis séricos da digoxina em 15–45%.",
+    "efeito": "Risco de toxicidade digitálica — náuseas, vômitos, visão com halo amarelado/verde, bradicardia e arritmias (bloqueio AV, extrassístoles ventriculares).",
+    "conduta": "⚠️ Monitorar nível sérico de digoxina ao iniciar ou suspender nifedipino. Medir digoxinemia e ECG quando houver suspeita de toxicidade. Pode ser necessário reduzir a dose de digoxina."
+  },
+  {
+    "med1": [
+      "nimodipino",
+      "nimotop"
+    ],
+    "med2": [
+      "rifampicina",
+      "rifampin"
+    ],
+    "nivel": "alto",
+    "titulo": "Nimodipino + Rifampicina (Indução Potente de CYP3A4 — Perda do Efeito Neuroprotetor)",
+    "mecanismo": "A rifampicina induz fortemente a CYP3A4, reduzindo a biodisponibilidade do nimodipino em mais de 85%. O nimodipino é usado após hemorragia subaracnóidea para prevenir vasoespasmo cerebral — perder seu efeito representa risco neurológico grave.",
+    "efeito": "Perda do efeito neuroprotetor após hemorragia subaracnóidea, com risco aumentado de vasoespasmo e isquemia cerebral.",
+    "conduta": "🚫 Contraindicado. Não usar rifampicina concomitantemente ao nimodipino pós-HSA. Substituir rifampicina por antibiótico alternativo (azitromicina, fluoroquinolona) se possível."
+  },
+  {
+    "med1": [
+      "nimodipino",
+      "nimotop"
+    ],
+    "med2": [
+      "cetoconazol",
+      "itraconazol",
+      "voriconazol",
+      "claritromicina",
+      "ritonavir"
+    ],
+    "nivel": "alto",
+    "titulo": "Nimodipino + Inibidor Potente de CYP3A4 (Toxicidade por Acúmulo)",
+    "mecanismo": "O nimodipino é metabolizado quase exclusivamente pela CYP3A4. Inibidores potentes (antifúngicos azólicos, claritromicina, ritonavir) elevam sua AUC em 4–9 vezes, com risco de toxicidade grave.",
+    "efeito": "Hipotensão grave, cefaleia intensa, rubor e risco de colapso cardiovascular. Em contexto pós-HSA, a hipotensão pode piorar a perfusão cerebral e agravar o quadro neurológico.",
+    "conduta": "🚫 Evitar combinação. Se necessário, reduzir dose do nimodipino drasticamente e monitorar PA de forma contínua em ambiente hospitalar."
+  },
+  {
+    "med1": [
+      "nimodipino",
+      "nimotop"
+    ],
+    "med2": [
+      "valproato",
+      "divalproato",
+      "ácido valproico",
+      "depakote",
+      "depakene"
+    ],
+    "nivel": "moderado",
+    "titulo": "Nimodipino + Valproato (Aumento dos Níveis de Nimodipino)",
+    "mecanismo": "O valproato inibe enzimas hepáticas, podendo reduzir o metabolismo do nimodipino e elevar seus níveis plasmáticos. Embora o mecanismo exato seja incompletamente compreendido, a interação é clinicamente relevante.",
+    "efeito": "Hipotensão arterial e bradicardia mais pronunciadas. Cefaleia e rubor intensificados.",
+    "conduta": "⚠️ Monitorar PA ao associar valproato e nimodipino. Ajustar dose do nimodipino se necessário. Atenção especial em pacientes com epilepsia que recebem nimodipino por vasoespasmo pós-HSA."
+  },
+  {
+    "med1": [
+      "nisoldipino",
+      "syscor",
+      "baymycard"
+    ],
+    "med2": [
+      "rifampicina",
+      "rifampin"
+    ],
+    "nivel": "alto",
+    "titulo": "Nisoldipino + Rifampicina (Indução Máxima de CYP3A4 — Perda Total do Efeito)",
+    "mecanismo": "A rifampicina induz a CYP3A4 de forma tão intensa que a biodisponibilidade oral do nisoldipino cai praticamente a zero. Esta é uma das interações fármaco-fármaco mais drásticas descritas para BCCs.",
+    "efeito": "Perda total do efeito anti-hipertensivo, com risco de hipertensão grave e eventos cardiovasculares. Níveis plasmáticos tornam-se indetectáveis.",
+    "conduta": "🚫 Contraindicado. Substituir o nisoldipino por anti-hipertensivo não dependente de CYP3A4 (tiazídico, IECA, beta-bloqueador) durante e após o uso de rifampicina."
+  },
+  {
+    "med1": [
+      "nisoldipino",
+      "syscor",
+      "baymycard"
+    ],
+    "med2": [
+      "fenitoína",
+      "carbamazepina",
+      "fenobarbital"
+    ],
+    "nivel": "alto",
+    "titulo": "Nisoldipino + Anticonvulsivante Indutor (Perda do Efeito Anti-hipertensivo)",
+    "mecanismo": "Fenitoína e carbamazepina são indutores potentes de CYP3A4. Estudos mostram redução da AUC do nisoldipino em mais de 80% com a co-administração de fenitoína — tornando o tratamento ineficaz.",
+    "efeito": "Controle pressórico insuficiente com PA elevada mesmo em doses habituais de nisoldipino.",
+    "conduta": "🚫 Evitar combinação. Substituir o nisoldipino por anti-hipertensivo sem interação relevante de CYP3A4 em pacientes em uso crônico de anticonvulsivantes indutores."
+  },
+  {
+    "med1": [
+      "nisoldipino",
+      "syscor",
+      "baymycard"
+    ],
+    "med2": [
+      "cetoconazol",
+      "itraconazol",
+      "claritromicina",
+      "ritonavir"
+    ],
+    "nivel": "moderado",
+    "titulo": "Nisoldipino + Inibidor de CYP3A4 (Aumento dos Níveis — Hipotensão)",
+    "mecanismo": "Inibidores potentes de CYP3A4 reduzem o metabolismo hepático de primeira passagem do nisoldipino, elevando sua AUC em 4–6 vezes — com consequente hipotensão e taquicardia reflexa.",
+    "efeito": "Hipotensão arterial, taquicardia, cefaleia, rubor e edema intensificados. Risco de síncope em pacientes idosos ou com disfunção autonômica.",
+    "conduta": "⚠️ Reduzir dose do nisoldipino ao iniciar inibidor de CYP3A4. Monitorar PA de perto. Suspenso o inibidor, a dose original pode ser necessária."
+  },
+  {
+    "med1": [
+      "indapamida",
+      "natrilix"
+    ],
+    "med2": [
+      "digoxina",
+      "lanoxin"
+    ],
+    "nivel": "moderado",
+    "titulo": "Indapamida + Digoxina (Hipocalemia → Toxicidade Digitálica)",
+    "mecanismo": "A indapamida, como os tiazídicos, pode causar hipocalemia. A hipocalemia aumenta a sensibilidade do miocárdio à digoxina por competição com o potássio pelos sítios de ligação da Na⁺/K⁺-ATPase — potencializando sua toxicidade mesmo com níveis séricos de digoxina dentro da faixa terapêutica.",
+    "efeito": "Risco de toxicidade digitálica mesmo com digoxinemia normal — náuseas, bradicardia, bloqueio AV, extrassístoles e taquiarritmias ventriculares.",
+    "conduta": "⚠️ Monitorar potássio sérico regularmente. Repor potássio se K⁺ < 3,5 mEq/L. Considerar associação com diurético poupador de potássio (espironolactona, amilorida). Monitorar ECG e digoxinemia."
+  },
+  {
+    "med1": [
+      "indapamida",
+      "natrilix"
+    ],
+    "med2": [
+      "ibuprofeno",
+      "naproxeno",
+      "diclofenaco",
+      "celecoxibe",
+      "etoricoxibe",
+      "nimesulida",
+      "cetoprofeno"
+    ],
+    "nivel": "moderado",
+    "titulo": "Indapamida + AINE (Redução do Efeito Diurético e Anti-hipertensivo)",
+    "mecanismo": "Os AINEs inibem a síntese de prostaglandinas vasodilatadoras renais, que são necessárias para o efeito diurético e natriurético dos tiazídicos. Além disso, os AINEs causam retenção de sódio e água, antagonizando o efeito anti-hipertensivo.",
+    "efeito": "Redução do efeito diurético e anti-hipertensivo da indapamida. Pode haver aumento da PA e retenção de líquidos, especialmente com uso crônico de AINEs.",
+    "conduta": "⚠️ Preferir paracetamol como analgésico/antipirético em pacientes usando indapamida para HAS. Se AINE for necessário, usar pelo menor tempo possível e monitorar PA e função renal."
+  },
+  {
+    "med1": [
+      "indapamida",
+      "natrilix"
+    ],
+    "med2": [
+      "enalapril",
+      "captopril",
+      "lisinopril",
+      "losartana",
+      "valsartana",
+      "candesartana",
+      "telmisartana"
+    ],
+    "nivel": "moderado",
+    "titulo": "Indapamida + IECA / BRA (Hipotensão de Primeira Dose)",
+    "mecanismo": "A indapamida causa depleção de sódio e ativação do sistema renina-angiotensina. A introdução de IECA ou BRA nesse contexto bloqueia abruptamente a angiotensina II — podendo causar queda brusca da PA na primeira dose (fenômeno de primeira dose).",
+    "efeito": "Hipotensão aguda, tontura, síncope — especialmente nas primeiras horas após a primeira dose do IECA/BRA em paciente usando indapamida.",
+    "conduta": "⚠️ Iniciar IECA/BRA com dose mínima. Orientar o paciente a tomar a primeira dose à noite, deitado. Monitorar PA nas primeiras 2 horas após a 1ª dose. A combinação é eficaz e amplamente utilizada após o ajuste."
   }
 ];
 

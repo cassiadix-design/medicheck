@@ -1,0 +1,506 @@
+[
+  {
+    "nome": "Felodipino 2,5mg - 5mg - 10mg",
+    "generico": "Felodipino",
+    "tipo": "Bloqueador de Canal de Cálcio — Diidropiridínico",
+    "sinonimos": ["felodipino", "plendil", "felodipino 5mg", "felodipino 10mg", "plendil 5mg", "plendil 10mg"],
+    "descricao": "Bloqueador de canal de cálcio de segunda geração com alta seletividade vascular. Age relaxando as artérias, reduzindo a pressão arterial sem afetar significativamente a frequência cardíaca. Disponível em comprimido de liberação prolongada — não deve ser partido, mastigado ou amassado. Indicado para hipertensão arterial e angina estável.",
+    "receita": "Sim",
+    "receita_display": "🔵 Receita Simples",
+    "receita_cor": "azul",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia.",
+    "receita_nota": "Uso contínuo. Não interromper abruptamente sem orientação médica.",
+    "efeitos": "Edema de tornozelo (muito comum — acúmulo de líquido por vasodilatação periférica), cefaleia, rubor facial (calor no rosto), palpitações, taquicardia reflexa leve, tontura. O edema é periférico, não cardíaco.",
+    "aviso_grave": "Não partir, mastigar ou triturar o comprimido — é liberação prolongada e a quebra causa liberação súbita de toda a dose, com risco de hipotensão grave. Interação grave com suco de grapefruit (toranja): aumenta os níveis do felodipino em até 3 vezes, causando hipotensão perigosa. Evitar absolutamente grapefruit durante todo o tratamento.",
+    "recomendacao": "⚠️ Engolir o comprimido inteiro, sempre no mesmo horário, de preferência pela manhã. Evitar grapefruit e suco de toranja em qualquer forma. Levantar devagar para evitar tontura (hipotensão postural). Monitorar pressão arterial regularmente.",
+    "educacao": "O edema (inchaço) nas pernas e tornozelos é o efeito colateral mais comum — coloque os pés para cima ao sentar e meias de compressão ajudam a reduzir. Se o inchaço for intenso ou aparecer falta de ar, informe ao médico imediatamente.",
+    "resposta_rapida": [
+      "Bloqueador de cálcio — vasodilatador arterial",
+      "Receita simples",
+      "NÃO partir o comprimido — liberação prolongada",
+      "Grapefruit PROIBIDO — hipotensão grave",
+      "Edema de tornozelo é comum"
+    ],
+    "receita_obrigatoria": true,
+    "tipo_receita": "simples",
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Por que meus tornozelos estão inchados tomando felodipino?",
+        "resposta": "O inchaço (edema) nos tornozelos é o efeito colateral mais comum dos bloqueadores de cálcio diidropiridínicos. Ocorre por vasodilatação periférica que aumenta a pressão capilar — não é sinal de problema cardíaco ou renal. Elevar as pernas ao repouso e meias de compressão ajudam. Se for intenso ou vier acompanhado de falta de ar, informe ao médico."
+      },
+      {
+        "pergunta": "Posso tomar felodipino com grapefruit ou suco de toranja?",
+        "resposta": "Não. O grapefruit inibe a enzima CYP3A4 intestinal que metaboliza o felodipino, podendo triplicar sua concentração no sangue e causar hipotensão grave. Evite grapefruit e toranja em qualquer forma (suco, fruta inteira, extrato) durante todo o tratamento."
+      },
+      {
+        "pergunta": "Posso partir o comprimido de felodipino?",
+        "resposta": "Não. O felodipino é apresentado em comprimido de liberação prolongada — partir, mastigar ou triturar destrói o mecanismo de liberação e pode causar absorção rápida e perigosa de toda a dose de uma vez, com risco de hipotensão grave."
+      },
+      {
+        "pergunta": "O felodipino diminui a frequência cardíaca?",
+        "resposta": "Não significativamente. Ao contrário do verapamil e diltiazem, o felodipino é seletivo para vasos — seu efeito principal é vasodilatação arterial. Pode até causar leve aumento reflexo da frequência cardíaca (taquicardia reflexa) no início do tratamento."
+      },
+      {
+        "pergunta": "Quanto tempo demora para o felodipino fazer efeito?",
+        "resposta": "O efeito anti-hipertensivo começa nas primeiras horas após a tomada, mas o controle pressórico estável leva 1 a 2 semanas de uso contínuo."
+      },
+      {
+        "pergunta": "Posso parar de tomar felodipino de repente?",
+        "resposta": "Não é recomendado. A interrupção abrupta pode causar rebote hipertensivo. Sempre reduza a dose gradualmente com orientação médica."
+      }
+    ],
+    "descricao_seo": "Felodipino 2,5mg a 10mg é um bloqueador de canal de cálcio diidropiridínico para hipertensão arterial e angina. Comprimido de liberação prolongada — não partir. Evitar grapefruit: risco de hipotensão grave. Efeito colateral mais comum: edema de tornozelo.",
+    "alerta_farmaceutico": "Interação importante com suco de grapefruit — inibição de CYP3A4 intestinal pode triplicar os níveis. Verificar uso concomitante de outros anti-hipertensivos (hipotensão aditiva). Associação com betabloqueador é segura e frequentemente usada para hipertensão + angina.",
+    "quando_procurar_medico": "Procure médico se: pressão muito baixa com tontura intensa ou desmaio, edema súbito e intenso com falta de ar, dor no peito ou palpitações persistentes, ou rubor e cefaleia intensa que não melhora.",
+    "interacoes": []
+  },
+  {
+    "nome": "Nifedipino 10mg - 20mg - 30mg",
+    "generico": "Nifedipino",
+    "tipo": "Bloqueador de Canal de Cálcio — Diidropiridínico",
+    "sinonimos": ["nifedipino", "adalat", "nifedipino 10mg", "nifedipino 20mg", "nifedipino 30mg", "adalat retard", "adalat oros", "nifedipino oros", "adalat 20mg"],
+    "descricao": "Primeiro bloqueador de canal de cálcio diidropiridínico amplamente utilizado. Age vasodilatando as artérias, reduzindo a pressão arterial. Disponível em formulação imediata (10mg) e liberação prolongada retard/OROS. Indicado para hipertensão arterial, angina estável e fenômeno de Raynaud. Preferir sempre a formulação de liberação prolongada.",
+    "receita": "Sim",
+    "receita_display": "🔵 Receita Simples",
+    "receita_cor": "azul",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia.",
+    "receita_nota": "Preferir formulação de liberação prolongada (retard/OROS). A formulação imediata sublingual é CONTRAINDICADA para crise hipertensiva.",
+    "efeitos": "Edema de tornozelo, cefaleia, rubor facial, palpitações, taquicardia reflexa, tontura, poliúria leve.",
+    "aviso_grave": "O uso sublingual de nifedipino para crise hipertensiva é ABSOLUTAMENTE CONTRAINDICADO pelas diretrizes brasileiras e internacionais — causa queda brusca e imprevisível da pressão com risco de AVC isquêmico e infarto. Nunca orientar 'mastigar ou colocar embaixo da língua'. Evitar suco de grapefruit. As formulações OROS/retard não devem ser partidas.",
+    "recomendacao": "⚠️ Usar sempre a formulação prescrita pelo médico (retard ou OROS). Engolir inteiro — não partir. Evitar grapefruit. Monitorar pressão arterial. A presença da 'casca' intacta nas fezes da formulação OROS é normal.",
+    "educacao": "É completamente normal encontrar a casca do comprimido OROS nas fezes — o medicamento já foi liberado e absorvido ao longo do trajeto intestinal. O inchaço nos tornozelos é esperado e geralmente melhora ao elevar as pernas. Nunca use o nifedipino embaixo da língua — é perigoso.",
+    "resposta_rapida": [
+      "Bloqueador de cálcio — vasodilatador",
+      "Receita simples",
+      "Sublingual é CONTRAINDICADO — risco de AVC",
+      "Evitar grapefruit",
+      "Formulação OROS: não partir"
+    ],
+    "receita_obrigatoria": true,
+    "tipo_receita": "simples",
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Posso usar nifedipino sublingual para crise de pressão?",
+        "resposta": "Não. O uso sublingual de nifedipino é contraindicado nas diretrizes brasileiras e internacionais. A queda brusca e imprevisível da pressão pode causar AVC isquêmico, infarto e morte — especialmente em idosos com artérias já estreitadas. Para urgência hipertensiva, procure atendimento médico imediatamente."
+      },
+      {
+        "pergunta": "Encontrei a casca do comprimido nas fezes — o remédio não funcionou?",
+        "resposta": "É completamente normal com a formulação OROS. A casca é o reservatório polimérico que liberou o medicamento gradualmente ao longo do trato digestivo — o fármaco foi absorvido normalmente. Não se preocupe."
+      },
+      {
+        "pergunta": "Nifedipino e nifedipino retard são a mesma coisa?",
+        "resposta": "São o mesmo princípio ativo, mas com perfis de liberação diferentes. O nifedipino de liberação imediata (10mg) tem ação rápida e curta. O retard e OROS têm liberação prolongada — preferidos por manterem a pressão estável ao longo do dia e causarem menos taquicardia reflexa."
+      },
+      {
+        "pergunta": "Posso tomar nifedipino com grapefruit?",
+        "resposta": "Não. O grapefruit inibe a enzima CYP3A4 intestinal, que metaboliza o nifedipino, podendo dobrar sua concentração no sangue e causar hipotensão perigosa. Evite grapefruit (toranja) em qualquer forma."
+      },
+      {
+        "pergunta": "Nifedipino serve para o fenômeno de Raynaud?",
+        "resposta": "Sim. O nifedipino é um dos medicamentos mais usados para o fenômeno de Raynaud — a vasodilatação que provoca reduz os espasmos vasculares nos dedos causados pelo frio ou estresse."
+      },
+      {
+        "pergunta": "Posso parar o nifedipino de repente?",
+        "resposta": "Não. A interrupção abrupta pode causar rebote hipertensivo. Reduza gradualmente com orientação médica."
+      }
+    ],
+    "descricao_seo": "Nifedipino 10mg a 30mg é um bloqueador de canal de cálcio para hipertensão e angina. O uso sublingual é CONTRAINDICADO — risco de AVC e infarto. Evitar grapefruit. Formulações OROS/retard não devem ser partidas. Efeito colateral mais comum: edema de tornozelo.",
+    "alerta_farmaceutico": "Uso sublingual absolutamente contraindicado — risco de hipotensão grave e eventos cardiovasculares isquêmicos. Interação com grapefruit (inibição CYP3A4). Verificar associações com outros anti-hipertensivos. Formulação OROS: casca nas fezes é normal.",
+    "quando_procurar_medico": "Procure médico se: tontura intensa ou desmaio, dor no peito, palpitações persistentes, edema intenso com falta de ar, ou pressão muito baixa.",
+    "interacoes": []
+  },
+  {
+    "nome": "Nimodipino 30mg",
+    "generico": "Nimodipino",
+    "tipo": "Bloqueador de Canal de Cálcio — Diidropiridínico Cerebrovascular",
+    "sinonimos": ["nimodipino", "nimotop", "nimodipino 30mg", "nimotop 30mg", "nimotop ampola"],
+    "descricao": "Bloqueador de canal de cálcio diidropiridínico com seletividade para artérias cerebrais — atravessa facilmente a barreira hematoencefálica. Indicado principalmente para prevenção de vasoespasmo cerebral após hemorragia subaracnóidea (ruptura de aneurisma). Também usado para vertigem, zumbido e distúrbios cognitivos por insuficiência cerebrovascular crônica.",
+    "receita": "Sim",
+    "receita_display": "🔵 Receita Simples",
+    "receita_cor": "azul",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia.",
+    "receita_nota": "Na hemorragia subaracnóidea: uso hospitalar urgente (iniciar até 4 dias após o evento, por 21 dias). A ampola é SOMENTE para uso oral/enteral — NUNCA injetar na veia.",
+    "efeitos": "Hipotensão (principal — monitorar sempre), cefaleia, rubor facial, edema de tornozelo, náusea, diarreia, tontura.",
+    "aviso_grave": "ALERTA CRÍTICO DE SEGURANÇA: a ampola de nimodipino contém etanol e propilenoglicol — é exclusivamente para uso oral ou por sonda nasogástrica. Administração intravenosa direta já causou mortes. Risco de hipotensão significativa, especialmente associado a outros anti-hipertensivos. Evitar grapefruit.",
+    "recomendacao": "⚠️ Tomar com intervalo regular (geralmente 4/4h na hemorragia subaracnóidea). Monitorar pressão arterial. A ampola oral deve ser aspirada com seringa e administrada por sonda ou diluída em soro — nunca injetada diretamente na veia.",
+    "educacao": "Em caso de hemorragia subaracnóidea, o nimodipino é medicamento de suporte crítico — siga rigorosamente o horário prescrito. Para indicações ambulatoriais (vertigem, distúrbios cognitivos), tome no horário regular e comunique qualquer tontura intensa ao médico.",
+    "resposta_rapida": [
+      "Bloqueador de cálcio cerebrovascular",
+      "Receita simples",
+      "Ampola: NUNCA injetar na veia — oral/sonda apenas",
+      "Monitorar hipotensão",
+      "Grapefruit proibido"
+    ],
+    "receita_obrigatoria": true,
+    "tipo_receita": "simples",
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Para que serve o nimodipino?",
+        "resposta": "O principal uso é prevenir o vasoespasmo cerebral após hemorragia subaracnóidea (ruptura de aneurisma cerebral) — reduz o risco de AVC isquêmico tardio nessa situação. Também é usado para vertigem, zumbido e distúrbios cognitivos por insuficiência cerebrovascular."
+      },
+      {
+        "pergunta": "Por que o nimodipino é diferente dos outros bloqueadores de cálcio?",
+        "resposta": "O nimodipino tem estrutura química lipofílica que permite atravessar a barreira hematoencefálica e age preferencialmente nas artérias cerebrais. Seu efeito cardiovascular sistêmico é menor do que o de outros bloqueadores de cálcio."
+      },
+      {
+        "pergunta": "É perigoso injetar a ampola de nimodipino diretamente na veia?",
+        "resposta": "Sim — é um erro com relatos de morte. A ampola de nimodipino contém etanol e propilenoglicol, que são tóxicos por via intravenosa direta. Ela deve ser administrada por via oral (aspirada com seringa e engolida) ou por sonda nasogástrica, jamais injetada diretamente na veia."
+      },
+      {
+        "pergunta": "Posso tomar nimodipino com grapefruit?",
+        "resposta": "Não. O grapefruit inibe a CYP3A4, aumentando os níveis de nimodipino e o risco de hipotensão."
+      },
+      {
+        "pergunta": "Nimodipino baixa muito a pressão?",
+        "resposta": "Pode causar hipotensão significativa, especialmente na dose usada para hemorragia subaracnóidea (60mg a cada 4h). Por isso a pressão arterial é monitorada com frequência durante o tratamento hospitalar."
+      },
+      {
+        "pergunta": "Por quanto tempo usar nimodipino?",
+        "resposta": "Na hemorragia subaracnóidea: 21 dias corridos (padrão). Para indicações ambulatoriais (vertigem, distúrbios cognitivos): conforme orientação médica, geralmente 1 a 3 meses."
+      }
+    ],
+    "descricao_seo": "Nimodipino 30mg é um bloqueador de canal de cálcio cerebrovascular. Indicado para vasoespasmo pós-hemorragia subaracnóidea, vertigem e distúrbios cognitivos. ATENÇÃO: a ampola NUNCA deve ser injetada na veia — uso oral ou por sonda. Evitar grapefruit.",
+    "alerta_farmaceutico": "Alerta crítico: a ampola de nimodipino é exclusivamente para uso oral/enteral — administração IV direta é potencialmente fatal. Monitorar hipotensão ao associar com outros anti-hipertensivos. Interação com grapefruit (inibição CYP3A4). Iniciar em até 4 dias após hemorragia subaracnóidea.",
+    "quando_procurar_medico": "Procure médico imediatamente se: tontura intensa ou desmaio, cefaleia súbita e explosiva (especialmente em pós-operatório de aneurisma), pressão muito baixa, ou qualquer novo sintoma neurológico (fraqueza, fala arrastada, confusão).",
+    "interacoes": []
+  },
+  {
+    "nome": "Nisoldipino 5mg - 10mg - 20mg",
+    "generico": "Nisoldipino",
+    "tipo": "Bloqueador de Canal de Cálcio — Diidropiridínico",
+    "sinonimos": ["nisoldipino", "syscor", "nisoldipino 10mg", "nisoldipino 20mg", "syscor 10mg"],
+    "descricao": "Bloqueador de canal de cálcio diidropiridínico com alta seletividade vascular periférica, indicado para hipertensão arterial. Apresenta uma das interações mais intensas com suco de grapefruit entre todos os medicamentos conhecidos — pode aumentar sua biodisponibilidade em até 9 vezes por ser quase completamente metabolizado pelo CYP3A4 intestinal antes de chegar à circulação.",
+    "receita": "Sim",
+    "receita_display": "🔵 Receita Simples",
+    "receita_cor": "azul",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia.",
+    "receita_nota": "Tomar em jejum ou com refeição leve sem grapefruit. Comprimido de liberação controlada — não partir.",
+    "efeitos": "Edema periférico (tornozelo), cefaleia, rubor facial, palpitações, taquicardia reflexa, tontura.",
+    "aviso_grave": "A interação com grapefruit é uma das mais intensas de toda a farmacologia clínica — o grapefruit pode elevar os níveis de nisoldipino em até 900% (9 vezes), causando hipotensão grave e potencialmente fatal. Evitar absolutamente grapefruit em qualquer forma (suco, fruta inteira, extrato, bala com sabor) durante TODO o tratamento.",
+    "recomendacao": "⚠️ Engolir inteiro — não partir, mastigar ou triturar. Evitar qualquer produto com grapefruit ou toranja. Monitorar pressão arterial. Tomar sempre no mesmo horário.",
+    "educacao": "O inchaço nos tornozelos é esperado e não indica problema cardíaco — elevar as pernas e meias de compressão ajudam. Grapefruit e toranja são completamente proibidos durante o tratamento com nisoldipino — qualquer quantidade, qualquer forma.",
+    "resposta_rapida": [
+      "Bloqueador de cálcio — vasodilatador",
+      "Receita simples",
+      "Grapefruit: aumento de até 900% — PROIBIDO",
+      "NÃO partir o comprimido",
+      "Edema de tornozelo é comum"
+    ],
+    "receita_obrigatoria": true,
+    "tipo_receita": "simples",
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Por que o grapefruit é tão perigoso com nisoldipino?",
+        "resposta": "O grapefruit contém furanocumarinas que inibem irreversivelmente a enzima CYP3A4 intestinal, responsável por metabolizar o nisoldipino antes de entrar na circulação. O nisoldipino tem baixíssima biodisponibilidade oral (cerca de 5%), então qualquer inibição do metabolismo de primeira passagem eleva dramaticamente seus níveis — podendo aumentar em até 9 vezes, causando hipotensão grave."
+      },
+      {
+        "pergunta": "Posso comer só um pedacinho de grapefruit enquanto uso nisoldipino?",
+        "resposta": "Não. A inibição da CYP3A4 pelo grapefruit é irreversível e pode durar 24 a 72 horas após uma única ingestão. Qualquer quantidade é potencialmente perigosa com o nisoldipino."
+      },
+      {
+        "pergunta": "Posso partir o comprimido de nisoldipino?",
+        "resposta": "Não. É um comprimido de liberação controlada — partir destrói o mecanismo de liberação e pode causar absorção rápida e perigosa de toda a dose de uma vez."
+      },
+      {
+        "pergunta": "Nisoldipino funciona para angina?",
+        "resposta": "Sua indicação principal é hipertensão arterial. Para angina, são preferidos outros bloqueadores de cálcio com maior evidência ou nitratos."
+      },
+      {
+        "pergunta": "Nisoldipino interfere com a frequência cardíaca?",
+        "resposta": "Não significativamente. Como diidropiridínico seletivo para vasos, seu efeito principal é vasodilatação. Pode haver leve taquicardia reflexa no início do tratamento."
+      },
+      {
+        "pergunta": "Nisoldipino pode causar inchaço?",
+        "resposta": "Sim. O edema de tornozelo é o efeito colateral mais comum, causado pela vasodilatação periférica que aumenta a pressão capilar. Elevar as pernas e meias de compressão ajudam."
+      }
+    ],
+    "descricao_seo": "Nisoldipino é um bloqueador de canal de cálcio para hipertensão arterial com a maior interação com grapefruit conhecida — aumento de até 900% nos níveis. Comprimido de liberação prolongada: não partir. Efeito colateral: edema de tornozelo.",
+    "alerta_farmaceutico": "Interação com grapefruit é a mais intensa de todos os medicamentos — aumento de 5 a 9 vezes nos níveis. Verificar outros anti-hipertensivos (hipotensão aditiva). Monitorar pressão arterial ao iniciar e ajustar doses.",
+    "quando_procurar_medico": "Procure médico se: pressão muito baixa com tontura ou desmaio, dor no peito, palpitações persistentes, ou inchaço intenso com falta de ar.",
+    "interacoes": []
+  },
+  {
+    "nome": "Clonidina 0,1mg - 0,2mg",
+    "generico": "Clonidina",
+    "tipo": "Anti-hipertensivo de Ação Central — Agonista Alfa-2 Adrenérgico",
+    "sinonimos": ["clonidina", "atensina", "clonidina 0,1mg", "clonidina 0,2mg", "atensina 0,1mg", "catapres"],
+    "descricao": "Anti-hipertensivo de ação central que estimula receptores alfa-2 adrenérgicos no tronco cerebral, reduzindo o tônus simpático e, consequentemente, a pressão arterial e a frequência cardíaca. Também usado para alívio de sintomas de abstinência de opioides e álcool, rubores da menopausa e como adjuvante no TDAH.",
+    "receita": "Sim",
+    "receita_display": "🔵 Receita Simples",
+    "receita_cor": "azul",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia.",
+    "receita_nota": "Não interromper abruptamente — risco de hipertensão rebote grave. Redução gradual obrigatória.",
+    "efeitos": "Boca seca intensa (xerostomia), sedação e sonolência, tontura, constipação, bradicardia, hipotensão ortostática, depressão, disfunção sexual.",
+    "aviso_grave": "Interrupção abrupta causa hipertensão rebote grave (PA pode subir acima dos níveis pré-tratamento) com risco de AVC, infarto e encefalopatia hipertensiva — especialmente em doses altas ou uso prolongado. Sempre reduzir gradualmente durante vários dias. Potencializa outros depressores do SNC (álcool, benzodiazepínicos).",
+    "recomendacao": "⚠️ Nunca parar de repente — reduzir gradualmente com orientação médica. Evitar álcool e outros sedativos. Levantar devagar para evitar tontura. Usar saliva artificial ou água frequente para boca seca.",
+    "educacao": "A sonolência é intensa no início, especialmente com doses maiores — não dirija ou opere máquinas nas primeiras semanas. A boca seca pode ser aliviada com água frequente, balas sem açúcar e saliva artificial. Nunca esqueça de tomar — e se esquecer uma dose, tome assim que lembrar, mas nunca dobre a dose.",
+    "resposta_rapida": [
+      "Anti-hipertensivo de ação central",
+      "Receita simples",
+      "NUNCA parar abruptamente — hipertensão rebote",
+      "Sedação e boca seca são comuns",
+      "Evitar álcool"
+    ],
+    "receita_obrigatoria": true,
+    "tipo_receita": "simples",
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "O que acontece se eu parar a clonidina de repente?",
+        "resposta": "Pode ocorrer hipertensão rebote grave — a pressão sobe acima dos valores anteriores ao tratamento, com risco de AVC, infarto e encefalopatia hipertensiva. O risco é maior com doses altas e uso prolongado. Sempre reduza gradualmente durante vários dias com orientação médica."
+      },
+      {
+        "pergunta": "Clonidina causa muito sono?",
+        "resposta": "Sim, a sedação é um efeito esperado, especialmente nas primeiras semanas e com doses maiores. Tende a diminuir com o tempo. Evite dirigir, operar máquinas ou consumir álcool enquanto a sedação persistir."
+      },
+      {
+        "pergunta": "A clonidina pode ser usada para abstinência de opioides?",
+        "resposta": "Sim. A clonidina reduz os sintomas autonômicos da abstinência de opioides (sudorese, taquicardia, agitação, hipertensão) por seu efeito simpatoolítico central. É uma indicação estabelecida, usada sob supervisão médica."
+      },
+      {
+        "pergunta": "Clonidina é bom para pressão alta de emergência?",
+        "resposta": "Pode ser usada em urgências hipertensivas por via oral, com queda da pressão em 30 a 60 minutos. Porém, requer monitoramento e não substitui avaliação médica — procure atendimento em caso de crise hipertensiva."
+      },
+      {
+        "pergunta": "Por que a clonidina causa tanta boca seca?",
+        "resposta": "A estimulação de receptores alfa-2 nas glândulas salivares reduz a produção de saliva. A xerostomia é um dos efeitos colaterais mais frequentes. Beber água regularmente, balas sem açúcar e sprays de saliva artificial ajudam."
+      },
+      {
+        "pergunta": "Clonidina interage com outros remédios para dormir ou ansiedade?",
+        "resposta": "Sim. A clonidina potencializa a sedação de benzodiazepínicos, álcool, opioides e antidepressivos com ação sedativa. A combinação aumenta o risco de sonolência excessiva, hipotensão e depressão respiratória."
+      }
+    ],
+    "descricao_seo": "Clonidina 0,1mg e 0,2mg é um anti-hipertensivo de ação central (agonista alfa-2). NUNCA interromper abruptamente — risco de hipertensão rebote grave. Causa sedação e boca seca. Também usada para abstinência de opioides e rubores da menopausa.",
+    "alerta_farmaceutico": "Interrupção abrupta causa hipertensão rebote potencialmente fatal — orientar rigorosamente sobre redução gradual. Potencializa depressores do SNC (álcool, BZD, opioides). Associação com betabloqueadores: bradicardia e rebote hipertensivo ao suspender — retirar betabloqueador antes da clonidina.",
+    "quando_procurar_medico": "Procure médico imediatamente se: parou a clonidina abruptamente e a pressão está muito alta, tontura intensa ao levantar com quase desmaio, bradicardia grave, cefaleia intensa súbita, ou sintomas de AVC (fraqueza, fala arrastada, confusão).",
+    "interacoes": []
+  },
+  {
+    "nome": "Dronedarona 400mg",
+    "generico": "Dronedarona",
+    "tipo": "Antiarrítmico — Classe III (Análogo da Amiodarona sem Iodo)",
+    "sinonimos": ["dronedarona", "multaq", "dronedarona 400mg", "multaq 400mg"],
+    "descricao": "Antiarrítmico de classe III derivado estruturalmente da amiodarona, porém sem iodo na molécula, desenvolvido para reduzir a toxicidade tireoidiana e pulmonar. Indicado para manutenção do ritmo sinusal em pacientes com fibrilação atrial (FA) não permanente (paroxística ou persistente). Tem múltiplos mecanismos de ação: bloqueia canais de sódio, potássio, cálcio e tem ação anti-adrenérgica leve.",
+    "receita": "Sim",
+    "receita_display": "🔵 Receita Simples",
+    "receita_cor": "azul",
+    "receita_descricao": "Exige prescrição médica especializada (cardiologista). A receita não é retida na farmácia.",
+    "receita_nota": "Tomar sempre com a refeição principal. Contraindicada em IC descompensada e FA permanente. Monitoramento hepático e renal obrigatório.",
+    "efeitos": "Diarreia, náusea, vômito, dor abdominal, bradicardia, aumento da creatinina sérica (efeito tubular — não indica piora renal), prolongamento do QT, rash cutâneo.",
+    "aviso_grave": "Contraindicada em insuficiência cardíaca descompensada (NYHA III-IV) ou com fração de ejeção reduzida instável — aumenta mortalidade (estudo ANDROMEDA). Contraindicada em FA permanente — aumenta mortalidade e AVC (estudo PALLAS). Hepatotoxicidade rara mas grave: monitorar enzimas hepáticas. Muitas interações medicamentosas (inibe CYP3A4 e P-glicoproteína).",
+    "recomendacao": "⚠️ Tomar sempre com a refeição principal (aumenta absorção em até 70%). Monitorar ECG, enzimas hepáticas e creatinina periodicamente. Não usar com grapefruit. Comunicar ao médico qualquer sinal de hepatite (icterícia, urina escura, dor no quadrante superior direito).",
+    "educacao": "O aumento da creatinina observado nos primeiros dias é geralmente um efeito farmacológico reversível na secreção tubular — não indica piora da função renal em si (informe ao nefrologista para interpretação correta). Avise ao cardiologista todos os medicamentos que usa — as interações são numerosas e importantes.",
+    "resposta_rapida": [
+      "Antiarrítmico — fibrilação atrial não permanente",
+      "Receita simples",
+      "Contraindicada em IC descompensada e FA permanente",
+      "Muitas interações (inibe CYP3A4 e P-gp)",
+      "Tomar sempre com refeição"
+    ],
+    "receita_obrigatoria": true,
+    "tipo_receita": "simples",
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Qual a diferença entre dronedarona e amiodarona?",
+        "resposta": "A dronedarona é um análogo da amiodarona sem iodo, desenvolvida para ter menos toxicidade tireoidiana e pulmonar. Porém, tem eficácia inferior à amiodarona e é contraindicada em IC descompensada — situação em que a amiodarona pode ser usada com monitoramento adequado."
+      },
+      {
+        "pergunta": "Por que minha creatinina subiu ao começar a dronedarona?",
+        "resposta": "A dronedarona inibe a secreção tubular de creatinina pelos rins, elevando sua concentração sérica artificialmente — sem que a função renal real tenha piorado. A taxa de filtração glomerular e a cistatina C permanecem inalteradas. Informe ao nefrologista sobre o uso de dronedarona para interpretação correta dos exames."
+      },
+      {
+        "pergunta": "Dronedarona pode ser usada em qualquer fibrilação atrial?",
+        "resposta": "Não. É indicada apenas para FA paroxística ou persistente (não permanente) em pacientes sem IC descompensada. Em FA permanente ou IC grave, é contraindicada — estudos mostraram aumento da mortalidade nessas situações."
+      },
+      {
+        "pergunta": "Dronedarona pode causar problemas no fígado?",
+        "resposta": "Sim — hepatotoxicidade grave é um risco raro mas real, com casos de insuficiência hepática. Monitoramento das enzimas hepáticas é necessário no início e periodicamente. Procure médico imediatamente se aparecer icterícia, urina escura ou dor no abdômen superior direito."
+      },
+      {
+        "pergunta": "Posso tomar dronedarona sem comer?",
+        "resposta": "Não. Deve ser tomada sempre com a refeição principal — a alimentação aumenta significativamente a absorção do medicamento (até 70% de aumento)."
+      },
+      {
+        "pergunta": "Dronedarona interage com muitos medicamentos?",
+        "resposta": "Sim. A dronedarona inibe CYP3A4 e P-glicoproteína, causando interações com digoxina (aumenta nível em 2,5 vezes — reduzir dose pela metade), sinvastatina (máximo 10mg), ciclosporina, dabigatrana e rivaroxabana. Sempre informe ao cardiologista todos os medicamentos em uso."
+      }
+    ],
+    "descricao_seo": "Dronedarona 400mg (Multaq) é um antiarrítmico para manutenção do ritmo sinusal na fibrilação atrial não permanente. Contraindicada em insuficiência cardíaca descompensada e FA permanente. Muitas interações (inibe CYP3A4). Tomar sempre com refeição.",
+    "alerta_farmaceutico": "Contraindicada em IC descompensada ou FA permanente — risco de mortalidade aumentada (estudos ANDROMEDA e PALLAS). Inibe CYP3A4 e P-gp: digoxina (reduzir 50%), sinvastatina (máximo 10mg), anticoagulantes DOAC (níveis elevados). Monitorar função hepática e ECG.",
+    "quando_procurar_medico": "Procure médico imediatamente se: falta de ar com inchaço nas pernas (IC descompensada), icterícia ou urina escura (hepatotoxicidade), palpitações ou síncope, ou bradicardia intensa (FC < 50bpm).",
+    "interacoes": []
+  },
+  {
+    "nome": "Sotalol 80mg - 160mg",
+    "generico": "Sotalol",
+    "tipo": "Antiarrítmico — Classe II + III (Beta-bloqueador + Bloqueio IKr)",
+    "sinonimos": ["sotalol", "sotacor", "sotalol 80mg", "sotalol 160mg", "sotacor 80mg", "sotacor 160mg"],
+    "descricao": "Antiarrítmico único que combina ação beta-bloqueadora (classe II) com bloqueio de canais de potássio IKr (classe III), prolongando o período refratário cardíaco e o intervalo QT. Indicado para fibrilação atrial, flutter atrial e taquicardias ventriculares sustentadas. O início do tratamento deve ser feito com internação e monitoramento do ECG.",
+    "receita": "Sim",
+    "receita_display": "🔵 Receita Simples",
+    "receita_cor": "azul",
+    "receita_descricao": "Exige prescrição médica especializada (cardiologista). A receita não é retida na farmácia.",
+    "receita_nota": "Início do tratamento geralmente hospitalar — monitoramento do QTc obrigatório. Não interromper abruptamente — risco de arritmia de rebote.",
+    "efeitos": "Bradicardia, prolongamento do QT, fadiga intensa, dispneia de esforço, tontura, disfunção erétil, piora do broncoespasmo (ação beta não seletiva), hipotensão.",
+    "aviso_grave": "Risco de Torsades de Pointes — arritmia ventricular potencialmente fatal causada pelo prolongamento excessivo do QT. O risco aumenta com: hipocalemia, hipomagnesemia, outros medicamentos que prolongam o QT, disfunção renal (sotalol é eliminado pelos rins sem metabolismo hepático) e doses altas. Contraindicado em asma, DPOC grave e bradicardia sinusal.",
+    "recomendacao": "⚠️ Manter eletrólitos normais (potássio e magnésio) — hipocalemia aumenta drasticamente o risco de arritmia. Monitorar ECG e função renal regularmente. Evitar outros medicamentos que prolongam o QT. Não interromper abruptamente — reduzir gradualmente.",
+    "educacao": "A fadiga e redução da tolerância ao exercício são comuns por ser beta-bloqueador — tendem a melhorar com o tempo. Mantenha hidratação adequada e consuma alimentos ricos em potássio (banana, laranja, feijão). Qualquer palpitação intensa, tontura súbita ou desmaio: ir imediatamente ao pronto-socorro.",
+    "resposta_rapida": [
+      "Antiarrítmico classe II + III",
+      "Receita simples",
+      "Risco de Torsades de Pointes — monitorar QTc",
+      "Manter potássio e magnésio normais",
+      "Contraindicado em asma"
+    ],
+    "receita_obrigatoria": true,
+    "tipo_receita": "simples",
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "O que é Torsades de Pointes e por que o sotalol pode causar?",
+        "resposta": "Torsades de Pointes é uma arritmia ventricular grave onde o ritmo cardíaco 'gira' em torno da linha de base no ECG. O sotalol prolonga o intervalo QT — um QT muito longo pode desencadear essa arritmia, especialmente quando associado a baixo potássio, baixo magnésio, ou outros medicamentos que também prolongam o QT."
+      },
+      {
+        "pergunta": "Por que preciso internar para começar o sotalol?",
+        "resposta": "Porque o sotalol pode causar arritmias graves nas primeiras doses, especialmente se o QT se prolongar demais. O monitoramento hospitalar com ECG seriado nas primeiras 72h permite detectar e agir rapidamente se o QTc ultrapassar o limite de segurança (geralmente 500ms)."
+      },
+      {
+        "pergunta": "Sotalol funciona também como beta-bloqueador?",
+        "resposta": "Sim. O sotalol tem ação beta-bloqueadora não seletiva (classe II), desacelerando o coração. Por isso pode piorar asma, causar bradicardia, fadiga e reduzir a tolerância ao exercício."
+      },
+      {
+        "pergunta": "Por que é importante manter o potássio normal usando sotalol?",
+        "resposta": "A hipocalemia (potássio baixo) amplifica o efeito do sotalol sobre o QT — aumentando muito o risco de Torsades de Pointes. Diuréticos como furosemida e tiazídicos podem baixar o potássio, exigindo suplementação ou troca por diurético poupador de potássio."
+      },
+      {
+        "pergunta": "Posso parar o sotalol sozinho?",
+        "resposta": "Não. A interrupção abrupta de beta-bloqueadores pode causar taquicardia de rebote, angina e infarto em pacientes com doença coronariana. Reduza gradualmente com orientação do cardiologista."
+      },
+      {
+        "pergunta": "Sotalol pode ser usado em asmáticos?",
+        "resposta": "Não. Por sua ação beta-bloqueadora não seletiva (bloqueia receptores β2 brônquicos), o sotalol pode precipitar broncoespasmo grave em asmáticos e pacientes com DPOC. É contraindicado nessas condições."
+      }
+    ],
+    "descricao_seo": "Sotalol 80mg-160mg (Sotacor) é um antiarrítmico de classe II+III para fibrilação atrial e arritmias ventriculares. Risco de Torsades de Pointes — início hospitalar com monitoramento do QT. Contraindicado em asma. Manter potássio e magnésio normais.",
+    "alerta_farmaceutico": "Início hospitalar obrigatório com ECG seriado (72h). Risco de Torsades de Pointes — verificar QTc basal e após cada ajuste. Interação com diuréticos (hipocalemia → risco de arritmia) e outros QT prolongadores. Contraindicado em asma, DPOC grave, bradicardia e IR grave (ajuste de dose por clearance de creatinina).",
+    "quando_procurar_medico": "Procure o pronto-socorro imediatamente se: palpitações rápidas e irregulares, tontura intensa súbita, desmaio, dificuldade para respirar repentina, ou dor no peito.",
+    "interacoes": []
+  },
+  {
+    "nome": "Indapamida 1,5mg - 2,5mg",
+    "generico": "Indapamida",
+    "tipo": "Diurético Tiazídico-Like — Anti-hipertensivo",
+    "sinonimos": ["indapamida", "natrilix", "indapamida 1,5mg", "indapamida 2,5mg", "natrilix sr", "natrilix retard"],
+    "descricao": "Diurético tiazídico-like com ação anti-hipertensiva predominante em doses baixas (1,5mg SR). Em doses menores, o efeito é principalmente vasodilatador direto; em doses maiores, o efeito diurético é mais pronunciado. Indicado para hipertensão arterial e edema. Tem menor impacto metabólico que os tiazídicos clássicos em doses terapêuticas habituais.",
+    "receita": "Sim",
+    "receita_display": "🔵 Receita Simples",
+    "receita_cor": "azul",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia.",
+    "receita_nota": "Tomar pela manhã para evitar noctúria. Monitorar eletrólitos periodicamente.",
+    "efeitos": "Hipocalemia (potássio baixo), hiponatremia, tonturas, câimbras musculares, poliúria, cefaleia, hiperuricemia leve, hiperglicemia leve.",
+    "aviso_grave": "Hipocalemia pode potencializar toxicidade da digoxina e o risco de arritmias. Hiponatremia pode causar confusão mental em idosos. Contraindicada em insuficiência renal grave (ClCr < 30 ml/min) e alergia a sulfonamidas. Monitorar eletrólitos, especialmente em idosos e pacientes com uso de outros diuréticos.",
+    "recomendacao": "⚠️ Tomar pela manhã com água e alimento. Monitorar potássio, sódio e ácido úrico periodicamente. Ingerir alimentos ricos em potássio. Manter boa hidratação.",
+    "educacao": "O aumento de urina é esperado, por isso tome de manhã. Se sentir câimbras, fraqueza muscular ou tontura intensa, avise o médico — pode ser hipocalemia. Beber bastante água e comer alimentos ricos em potássio (banana, laranja, feijão) ajudam.",
+    "resposta_rapida": [
+      "Diurético tiazídico-like",
+      "Receita simples",
+      "Monitorar potássio sérico",
+      "Tomar de manhã (evita acordar à noite)",
+      "Menor impacto metabólico que hidroclorotiazida"
+    ],
+    "receita_obrigatoria": true,
+    "tipo_receita": "simples",
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Qual a diferença entre indapamida e hidroclorotiazida?",
+        "resposta": "São da mesma classe (tiazídicos/tiazídico-like), mas a indapamida em doses baixas (1,5mg SR) tem maior componente vasodilatador e menor impacto sobre colesterol, glicemia e ácido úrico do que a hidroclorotiazida. Ambas reduzem o potássio."
+      },
+      {
+        "pergunta": "Por que a indapamida baixa o potássio?",
+        "resposta": "Ao aumentar a excreção de sódio no túbulo distal, mais sódio chega ao túbulo coletor — onde a aldosterona promove troca de sódio por potássio. Isso aumenta a perda de potássio na urina. Dieta rica em potássio ou suplementação pode ser necessária."
+      },
+      {
+        "pergunta": "Por que devo tomar indapamida pela manhã?",
+        "resposta": "Para evitar noctúria — acordar várias vezes à noite para urinar. Tomando pela manhã, o pico do efeito diurético ocorre durante o dia, preservando o sono noturno."
+      },
+      {
+        "pergunta": "Indapamida pode ser usada em pacientes com gota?",
+        "resposta": "Com cautela. Pode elevar o ácido úrico leve a moderadamente, com risco de precipitar crises de gota em pacientes predispostos. Informe ao médico se tiver histórico de gota."
+      },
+      {
+        "pergunta": "Posso tomar indapamida com anti-inflamatório?",
+        "resposta": "Com cautela. AINEs (ibuprofeno, diclofenaco) podem reduzir o efeito anti-hipertensivo e aumentar o risco de toxicidade renal. Prefira paracetamol ou dipirona para dor."
+      },
+      {
+        "pergunta": "Indapamida causa muita urina?",
+        "resposta": "Em doses habituais (1,5mg SR), o efeito diurético é moderado — não tão intenso quanto furosemida. Nas primeiras semanas há um aumento perceptível de urina que tende a estabilizar."
+      }
+    ],
+    "descricao_seo": "Indapamida 1,5mg e 2,5mg (Natrilix) é um diurético tiazídico-like para hipertensão arterial e edema. Menor impacto metabólico que hidroclorotiazida. Monitorar potássio. Tomar de manhã para evitar noctúria.",
+    "alerta_farmaceutico": "Hipocalemia pode potencializar toxicidade digitálica e risco de arritmias — monitorar potássio em uso de digoxina ou antiarrítmicos. Hiponatremia pode ocorrer em idosos ou com uso de outros diuréticos. Interação com AINEs (redução do efeito e risco renal).",
+    "quando_procurar_medico": "Procure médico se: câimbras intensas ou fraqueza muscular (hipocalemia), tontura intensa, confusão mental (hiponatremia — especialmente em idosos), diminuição da urina, ou piora do controle da pressão.",
+    "interacoes": []
+  },
+  {
+    "nome": "Clortalidona 12,5mg - 25mg - 50mg",
+    "generico": "Clortalidona",
+    "tipo": "Diurético Tiazídico de Ação Prolongada",
+    "sinonimos": ["clortalidona", "higroton", "clortalidona 25mg", "clortalidona 50mg", "higroton 25mg", "higroton 50mg"],
+    "descricao": "Diurético tiazídico de ação muito prolongada (meia-vida de 45 a 60 horas — muito superior à hidroclorotiazida de 6-12h). Inibe a reabsorção de sódio no túbulo contorcido distal, reduzindo a volemia e a pressão arterial de forma estável ao longo de 24 horas. Considerado superior à hidroclorotiazida para proteção cardiovascular em estudos de referência (ALLHAT).",
+    "receita": "Sim",
+    "receita_display": "🔵 Receita Simples",
+    "receita_cor": "azul",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia.",
+    "receita_nota": "Tomar pela manhã para evitar noctúria. Monitorar eletrólitos, glicemia e ácido úrico periodicamente.",
+    "efeitos": "Hipocalemia (o principal — baixo potássio), hiponatremia, hipomagnesemia, hiperuricemia (gota), hiperglicemia, elevação do LDL, poliúria, tontura, câimbras, fraqueza muscular.",
+    "aviso_grave": "Hipocalemia grave pode desencadear arritmias cardíacas — risco especialmente alto em pacientes usando digoxina ou antiarrítmicos (sotalol, quinidina). Não usar em anúria ou alergia a sulfonamidas. A meia-vida longa significa que os efeitos (inclusive os adversos) persistem por 2 a 3 dias após a suspensão. Risco de precipitação de gota em pacientes com hiperuricemia.",
+    "recomendacao": "⚠️ Tomar pela manhã com o café da manhã. Monitorar potássio, sódio, glicemia e ácido úrico periodicamente. Ingerir alimentos ricos em potássio (banana, laranja, feijão, batata). Manter boa hidratação — evitar desidratação.",
+    "educacao": "O aumento de urina é esperado, especialmente nas primeiras semanas — por isso tome de manhã. Se sentir câimbras ou fraqueza muscular, avise ao médico (pode ser hipocalemia). A meia-vida longa é uma vantagem para controle pressórico estável, mas significa que se esquecer um dia não é catastrófico — retome normalmente.",
+    "resposta_rapida": [
+      "Diurético tiazídico — ação muito prolongada (45–60h)",
+      "Receita simples",
+      "Monitorar potássio sérico",
+      "Tomar de manhã (evita noctúria)",
+      "Superior à hidroclorotiazida em proteção cardiovascular"
+    ],
+    "receita_obrigatoria": true,
+    "tipo_receita": "simples",
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Qual a diferença entre clortalidona e hidroclorotiazida?",
+        "resposta": "São da mesma classe (tiazídicos), mas a clortalidona tem meia-vida muito mais longa (45–60h vs 6–12h da hidroclorotiazida), produzindo redução de pressão mais estável ao longo das 24 horas. O estudo ALLHAT demonstrou melhor proteção cardiovascular com clortalidona. A clortalidona tem maior potencial de causar hipocalemia por isso."
+      },
+      {
+        "pergunta": "Por que a clortalidona baixa o potássio?",
+        "resposta": "Ao aumentar a excreção de sódio no túbulo distal, mais sódio chega ao túbulo coletor, onde a aldosterona promove troca de sódio por potássio. Assim, mais potássio é eliminado na urina. Dieta rica em potássio e, se necessário, suplementação ou associação com diurético poupador de potássio (espironolactona) são estratégias de manejo."
+      },
+      {
+        "pergunta": "Clortalidona pode causar gota?",
+        "resposta": "Sim. Reduz a excreção renal de ácido úrico, elevando seus níveis séricos (hiperuricemia), o que pode precipitar crises de gota em pacientes predispostos. Informe ao médico se tiver histórico de gota."
+      },
+      {
+        "pergunta": "Por que devo tomar clortalidona de manhã?",
+        "resposta": "Para evitar noctúria — acordar várias vezes à noite para urinar. Tomando pela manhã, o pico do efeito diurético ocorre durante o dia. A meia-vida longa garante ação anti-hipertensiva durante toda a noite mesmo tomando de manhã."
+      },
+      {
+        "pergunta": "Clortalidona pode aumentar o açúcar no sangue?",
+        "resposta": "Sim. Diuréticos tiazídicos podem elevar a glicemia, especialmente em pacientes com pré-diabetes ou diabetes. Monitorar a glicose periodicamente durante o tratamento e informar ao médico se o controle do diabetes piorar."
+      },
+      {
+        "pergunta": "Posso tomar clortalidona com anti-inflamatório?",
+        "resposta": "Com cautela. AINEs (ibuprofeno, diclofenaco, naproxeno) podem reduzir o efeito anti-hipertensivo dos diuréticos e aumentar o risco de toxicidade renal — especialmente em idosos. Use paracetamol ou dipirona para dor enquanto estiver usando clortalidona."
+      }
+    ],
+    "descricao_seo": "Clortalidona 12,5mg a 50mg (Higroton) é um diurético tiazídico de ação prolongada (45-60h) para hipertensão e edema. Superior à hidroclorotiazida na proteção cardiovascular. Monitorar potássio. Tomar de manhã. Pode elevar ácido úrico e glicemia.",
+    "alerta_farmaceutico": "Hipocalemia é o principal risco — monitorar potássio, especialmente em uso de digoxina ou antiarrítmicos (risco de arritmia fatal). Hiperuricemia pode precipitar gota. Interação com AINEs (redução do efeito e risco renal). Monitorar glicemia em diabéticos. Meia-vida longa: efeitos adversos persistem 2-3 dias após suspensão.",
+    "quando_procurar_medico": "Procure médico se: câimbras intensas ou fraqueza muscular (hipocalemia), tontura intensa ou desmaio, diminuição abrupta da urina, dor articular intensa (gota), piora do diabetes, ou confusão mental em idosos (hiponatremia).",
+    "interacoes": []
+  }
+]
