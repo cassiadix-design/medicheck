@@ -1,0 +1,998 @@
+[
+  {
+    "nome": "Clorpromazina 25mg - 100mg",
+    "generico": "Clorpromazina",
+    "tipo": "Antipsicótico típico — Fenotiazínico",
+    "sinonimos": ["clorpromazina", "amplictil", "clorpromazina 25mg", "clorpromazina 100mg", "amplictil 25mg", "amplictil 100mg"],
+    "descricao": "Primeiro antipsicótico da história (1952). Age bloqueando receptores de dopamina (D2) no cérebro, reduzindo sintomas psicóticos como alucinações e delírios. Também tem ação sedativa, antieméica e antiemética intensa.",
+    "receita": "Sim",
+    "receita_display": "🔴 Receita Especial B2 — Psicotrópico",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Psicotrópico — receita de controle especial (notificação azul B2). Retirada máxima 60 dias.",
+    "receita_nota": "Uso sob supervisão psiquiátrica. Não interromper abruptamente.",
+    "efeitos": "Sedação intensa, hipotensão postural, boca seca, constipação, sintomas extrapiramidais (tremor, rigidez, acatisia), fotossensibilidade, ganho de peso.",
+    "aviso_grave": "Risco de discinesia tardia (movimento involuntário irreversível) com uso prolongado. Síndrome neuroléptica maligna é emergência médica: febre alta, rigidez muscular, confusão mental — ir ao pronto-socorro imediatamente. Não usar em idosos com demência (aumenta mortalidade).",
+    "recomendacao": "⚠️ Iniciar com doses baixas. Evitar exposição prolongada ao sol (fotossensibilidade). Não dirigir ou operar máquinas — sedação intensa. Monitorar pressão arterial regularmente.",
+    "educacao": "Levante-se devagar da cama para evitar tontura (hipotensão postural). Use protetor solar. Não tome álcool — potencializa a sedação perigosamente.",
+    "resposta_rapida": [
+      "Antipsicótico típico — 1ª geração",
+      "Controle especial B2 — receita retida",
+      "Risco de sintomas extrapiramidais",
+      "Síndrome neuroléptica maligna = emergência",
+      "Não interromper sem orientação médica"
+    ],
+    "receita_obrigatoria": true,
+    "tipo_receita": "B2",
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Clorpromazina causa dependência?",
+        "resposta": "Não causa dependência química, mas a interrupção abrupta pode causar síndrome de descontinuação com náuseas, insônia e agitação. Sempre reduzir a dose gradualmente com orientação médica."
+      },
+      {
+        "pergunta": "Clorpromazina dá muito sono?",
+        "resposta": "Sim, a sedação é um dos efeitos mais comuns, especialmente no início. Tende a diminuir com o tempo. Por isso o médico geralmente orienta tomar à noite."
+      },
+      {
+        "pergunta": "Posso tomar clorpromazina com álcool?",
+        "resposta": "Não. A combinação potencializa a depressão do sistema nervoso central, podendo causar sedação perigosa, queda de pressão e depressão respiratória."
+      },
+      {
+        "pergunta": "O que é síndrome neuroléptica maligna?",
+        "resposta": "É uma emergência médica rara mas grave: febre alta, rigidez muscular intensa, alteração de consciência e instabilidade autonômica. Procure pronto-socorro imediatamente se esses sintomas aparecerem."
+      },
+      {
+        "pergunta": "Clorpromazina engorda?",
+        "resposta": "Sim, ganho de peso é comum com uso prolongado, relacionado ao bloqueio de receptores histamínicos e dopaminérgicos. Dieta equilibrada e atividade física ajudam a minimizar."
+      },
+      {
+        "pergunta": "Por quanto tempo preciso tomar clorpromazina?",
+        "resposta": "Depende do diagnóstico. Em esquizofrenia, o tratamento geralmente é de longo prazo. Nunca interrompa sem orientação do psiquiatra — a recaída pode ser grave."
+      }
+    ],
+    "descricao_seo": "Clorpromazina 25mg - 100mg é um antipsicótico típico fenotiazínico usado para esquizofrenia, psicoses e agitação. Exige receita de controle especial B2. Principais efeitos colaterais: sedação, sintomas extrapiramidais e hipotensão postural. Não use sem acompanhamento psiquiátrico.",
+    "alerta_farmaceutico": "Risco de interação grave com outros depressores do SNC (álcool, benzodiazepínicos, opioides). Verificar uso concomitante de outros antipsicóticos — potencializa risco de discinesia tardia e síndrome neuroléptica maligna.",
+    "quando_procurar_medico": "Procure médico se: febre alta com rigidez muscular (síndrome neuroléptica maligna — emergência), movimentos involuntários da face ou corpo (discinesia tardia), pressão muito baixa com tontura intensa, dificuldade de engolir ou pescoço rígido (distonia aguda) ou piora dos sintomas psicóticos.",
+    "interacoes": []
+  },
+  {
+    "nome": "Fluvoxamina 50mg - 100mg",
+    "generico": "Fluvoxamina",
+    "tipo": "Antidepressivo ISRS — Inibidor Seletivo da Recaptação de Serotonina",
+    "sinonimos": ["fluvoxamina", "luvox", "fluvoxamina 50mg", "fluvoxamina 100mg", "luvox 100mg"],
+    "descricao": "ISRS com indicação principal para Transtorno Obsessivo-Compulsivo (TOC). Também usado em depressão, fobia social e ansiedade. Potente inibidor das enzimas CYP1A2 e CYP2C19 — causa muitas interações medicamentosas importantes.",
+    "receita": "Sim",
+    "receita_display": "🔴 Receita Simples",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos.",
+    "receita_nota": "Efeito pleno em 4 a 8 semanas. Não interromper abruptamente.",
+    "efeitos": "Náusea (muito comum no início), sonolência, boca seca, sudorese, disfunção sexual, insônia, cefaleia. A náusea tende a melhorar após 2 semanas.",
+    "aviso_grave": "Risco de síndrome serotoninérgica se combinada com outros serotoninérgicos (tramadol, triptanos, IMAO). Atenção especial às interações: fluvoxamina inibe CYP1A2 e aumenta muito os níveis de teofilina, clozapina, cafeína e outros. Pode aumentar ideação suicida em jovens nas primeiras semanas.",
+    "recomendacao": "⚠️ Tomar sempre no mesmo horário. Se causar muito sono, tomar à noite. Se causar insônia, tomar de manhã. Não interromper sem orientação médica — risco de síndrome de descontinuação.",
+    "educacao": "Os primeiros dias podem ser difíceis (náusea, ansiedade aumentada), mas esses efeitos passam. O benefício terapêutico leva semanas para aparecer — não desista nas primeiras semanas.",
+    "resposta_rapida": [
+      "ISRS — principalmente para TOC",
+      "Receita simples",
+      "Muitas interações (inibe CYP1A2/CYP2C19)",
+      "Efeito pleno em 4 a 8 semanas",
+      "Não interromper abruptamente"
+    ],
+    "receita_obrigatoria": true,
+    "tipo_receita": "simples",
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Fluvoxamina é para depressão ou TOC?",
+        "resposta": "Principalmente para TOC (Transtorno Obsessivo-Compulsivo), mas também é usada para depressão, fobia social e ansiedade. No Brasil é frequentemente prescrita para TOC refratário."
+      },
+      {
+        "pergunta": "Fluvoxamina causa muito sono?",
+        "resposta": "Sim, sonolência é comum, especialmente no início. Tomar à noite pode ajudar. Com o tempo, muitos pacientes se adaptam ao efeito sedativo."
+      },
+      {
+        "pergunta": "Quanto tempo para fluvoxamina fazer efeito?",
+        "resposta": "Os primeiros sinais de melhora podem aparecer em 2 a 4 semanas, mas o efeito pleno no TOC pode levar 8 a 12 semanas. Não interrompa por achar que não está funcionando antes desse prazo."
+      },
+      {
+        "pergunta": "Fluvoxamina tem muitas interações?",
+        "resposta": "Sim, é o ISRS com mais interações medicamentosas. Inibe fortemente as enzimas CYP1A2 e CYP2C19, elevando os níveis de vários medicamentos como teofilina, clozapina, warfarina, diazepam e cafeína. Sempre informe todos os medicamentos que usa."
+      },
+      {
+        "pergunta": "Posso parar fluvoxamina de repente?",
+        "resposta": "Não. A interrupção abrupta pode causar síndrome de descontinuação: tonturas, sensação de choque elétrico, náusea, irritabilidade e ansiedade. A dose deve ser reduzida gradualmente."
+      },
+      {
+        "pergunta": "Fluvoxamina afeta a função sexual?",
+        "resposta": "Sim, como todos os ISRS, pode causar redução da libido, dificuldade de orgasmo e ejaculação retardada. Converse com o médico — há estratégias para minimizar esse efeito."
+      }
+    ],
+    "descricao_seo": "Fluvoxamina 50mg - 100mg (Luvox) é um antidepressivo ISRS usado principalmente para TOC (Transtorno Obsessivo-Compulsivo), depressão e fobia social. Exige receita simples. Atenção às interações: inibe CYP1A2 e CYP2C19.",
+    "alerta_farmaceutico": "Fluvoxamina é o ISRS com maior risco de interações — inibe CYP1A2 e CYP2C19. Aumenta drasticamente os níveis de teofilina (risco de toxicidade), clozapina, ramelteon e melatonina. Verificar toda a medicação do paciente antes de dispensar.",
+    "quando_procurar_medico": "Procure médico se: agitação extrema, confusão, tremores e febre (síndrome serotoninérgica — emergência), pensamentos suicidas ou de automutilação, convulsões, sangramento incomum ou prolongado, ou ausência de melhora após 8 semanas de uso.",
+    "interacoes": []
+  },
+  {
+    "nome": "Midazolam 5mg/mL - 15mg comprimido",
+    "generico": "Midazolam",
+    "tipo": "Benzodiazepínico de curta ação — Sedativo/Hipnótico",
+    "sinonimos": ["midazolam", "dormonid", "midazolam 15mg", "dormonid 15mg", "midazolam injetavel"],
+    "descricao": "Benzodiazepínico de ação ultrarrápida e curta duração. Usado principalmente para sedação em procedimentos médicos, pré-anestesia, sedação em UTI e controle de crises convulsivas agudas. O comprimido é usado para ansiedade e insônia de curto prazo.",
+    "receita": "Sim",
+    "receita_display": "🔴 Controlado B1 — Receita Azul (Benzodiazepínico)",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Psicotrópico benzodiazepínico categoria B1. Exige receita azul de controle especial em duas vias. Retirada máxima: 30 dias.",
+    "receita_nota": "Uso oral para ansiedade/insônia de curto prazo. Uso injetável restrito ao ambiente hospitalar.",
+    "efeitos": "Sedação, amnésia anterógrada (apaga memória do período de ação — intencional em procedimentos), depressão respiratória (dose-dependente), hipotensão, reação paradoxal (agitação) em idosos e crianças.",
+    "aviso_grave": "Depressão respiratória grave — especialmente com álcool, opioides ou outros depressores do SNC. O uso injetável deve ter antídoto (flumazenil) disponível. Potencial de dependência e tolerância com uso prolongado. Amnésia anterógrada pode ser explorada abusivamente (droga de imobilização).",
+    "recomendacao": "⚠️ Nunca dirigir ou operar máquinas após uso. Não usar álcool. Não usar por mais de 2 a 4 semanas para insônia. Idosos: usar doses menores — maior sensibilidade e risco de queda.",
+    "educacao": "O midazolam oral apaga a memória do período de ação — isso é normal e intencional em procedimentos. Em uso para insônia, pode causar dependência se usado por muito tempo. Sempre combine com médico a duração do tratamento.",
+    "resposta_rapida": [
+      "Benzodiazepínico de ação curta",
+      "Controle especial B1 — receita azul retida",
+      "Risco de depressão respiratória",
+      "Não associar com álcool ou opioides",
+      "Dependência com uso prolongado"
+    ],
+    "receita_obrigatoria": true,
+    "tipo_receita": "B1",
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Por que o midazolam apaga a memória?",
+        "resposta": "O midazolam causa amnésia anterógrada — impede a formação de novas memórias durante sua ação. Isso é intencional em procedimentos médicos, para que o paciente não se lembre de momentos desconfortáveis."
+      },
+      {
+        "pergunta": "Midazolam é perigoso?",
+        "resposta": "Em ambiente hospitalar, com monitoramento adequado, é seguro. Em casa, o risco maior é a combinação com álcool, opioides ou outros sedativos, que pode causar depressão respiratória grave."
+      },
+      {
+        "pergunta": "Midazolam vicia?",
+        "resposta": "Sim, como todos os benzodiazepínicos, causa dependência física e psicológica com uso prolongado. Tolerância se desenvolve rapidamente. Por isso o uso oral é limitado a curto prazo."
+      },
+      {
+        "pergunta": "Qual o antídoto do midazolam?",
+        "resposta": "Flumazenil (Lanexat) — antagonista dos benzodiazepínicos. Reverte rapidamente a sedação, mas tem ação mais curta que o midazolam, podendo haver ressedação."
+      },
+      {
+        "pergunta": "Posso tomar midazolam e dirigir?",
+        "resposta": "Não. A sedação e o comprometimento cognitivo tornam qualquer atividade que exija atenção extremamente perigosa. Aguarde pelo menos 8 horas após a última dose."
+      }
+    ],
+    "descricao_seo": "Midazolam (Dormonid) é um benzodiazepínico de ação curta usado para sedação em procedimentos, pré-anestesia e crises convulsivas. Controle especial B1. Risco de depressão respiratória — não associar com álcool ou opioides.",
+    "alerta_farmaceutico": "Alto risco de interação com opioides, álcool e outros depressores do SNC — depressão respiratória fatal. Idosos requerem doses muito menores. A formulação injetável tem concentração 10x maior que o comprimido — atenção ao dispensar para não confundir.",
+    "quando_procurar_medico": "Procure emergência se: dificuldade para respirar, lábios ou unhas azuladas, não consegue acordar, respiração muito lenta ou irregular após uso. Procure médico se: uso por mais de 4 semanas, sintomas de abstinência ao tentar parar (tremores, suor, convulsão).",
+    "interacoes": []
+  },
+  {
+    "nome": "Moclobemida 150mg - 300mg",
+    "generico": "Moclobemida",
+    "tipo": "Antidepressivo IMAO reverso seletivo (RIMA) — Inibidor reversível da MAO-A",
+    "sinonimos": ["moclobemida", "aurorix", "moclobemida 150mg", "moclobemida 300mg", "aurorix 150mg", "aurorix 300mg", "rima"],
+    "descricao": "Antidepressivo da classe IMAO, mas diferente dos MAOIs clássicos: é reversível e seletivo para MAO-A. Isso significa menor risco de crise hipertensiva com alimentos ricos em tiramina. Usado para depressão e fobia social.",
+    "receita": "Sim",
+    "receita_display": "🔴 Receita Simples",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia.",
+    "receita_nota": "Tomar após as refeições para reduzir náusea. Efeito pleno em 3 a 6 semanas.",
+    "efeitos": "Insônia (comum — tomar de manhã), náusea, cefaleia, agitação, boca seca. Menos efeitos colaterais que os MAOIs irreversíveis.",
+    "aviso_grave": "Não combinar com outros antidepressivos serotoninérgicos, tramadol ou triptanos — risco de síndrome serotoninérgica. Diferente dos MAOIs clássicos, a restrição alimentar com tiramina é menor, mas ainda recomendada em doses altas. Intervalo mínimo de 14 dias ao trocar de ou para qualquer IMAO.",
+    "recomendacao": "⚠️ Tomar de manhã ou em duas doses (manhã e meio-dia) para evitar insônia. Não tomar à noite. Intervalo de 2 semanas ao substituir por outro antidepressivo.",
+    "educacao": "A moclobemida tem menos restrições alimentares que os MAOIs antigos (fenelzina, tranilcipromina), mas em doses altas é prudente evitar grandes quantidades de queijo curado, vinho tinto, embutidos e outros alimentos ricos em tiramina.",
+    "resposta_rapida": [
+      "IMAO reversível — menos restrições alimentares",
+      "Receita simples",
+      "Tomar de manhã — causa insônia",
+      "Não associar com outros antidepressivos",
+      "Intervalo de 14 dias ao trocar de IMAO"
+    ],
+    "receita_obrigatoria": true,
+    "tipo_receita": "simples",
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Moclobemida é diferente dos outros MAOIs?",
+        "resposta": "Sim. É reversível e seletivo para MAO-A, ao contrário de fenelzina e tranilcipromina. Isso significa que as restrições alimentares com tiramina são muito menores e os riscos de crise hipertensiva são significativamente reduzidos."
+      },
+      {
+        "pergunta": "Preciso fazer dieta especial com moclobemida?",
+        "resposta": "Em doses habituais, a restrição é mínima. Mas em doses altas (acima de 450mg/dia), é prudente evitar grandes quantidades de queijo curado, vinho tinto e embutidos. Consulte seu médico."
+      },
+      {
+        "pergunta": "Por que moclobemida causa insônia?",
+        "resposta": "O aumento de dopamina e noradrenalina tem efeito ativador. Por isso é recomendado tomar pela manhã ou no máximo até o meio-dia — tomar à noite dificulta o sono."
+      },
+      {
+        "pergunta": "Quanto tempo para moclobemida fazer efeito?",
+        "resposta": "As primeiras melhoras costumam aparecer em 2 a 3 semanas, com efeito pleno em 4 a 6 semanas. Não interrompa antes desse prazo por achar que não está funcionando."
+      },
+      {
+        "pergunta": "Posso tomar moclobemida com fluoxetina?",
+        "resposta": "Não. A combinação de qualquer IMAO com ISRS (fluoxetina, sertralina, escitalopram etc.) causa risco grave de síndrome serotoninérgica. É necessário um intervalo de segurança entre as medicações — consulte o médico."
+      }
+    ],
+    "descricao_seo": "Moclobemida 150mg - 300mg (Aurorix) é um antidepressivo IMAO reversível usado para depressão e fobia social. Receita simples. Tem menos restrições alimentares que os MAOIs clássicos. Não associar com outros antidepressivos serotoninérgicos.",
+    "alerta_farmaceutico": "Verificar se paciente usa qualquer outro antidepressivo, tramadol, triptanos ou dextrometorfano — risco de síndrome serotoninérgica. Ao trocar de moclobemida para outro antidepressivo, respeitar intervalo de pelo menos 24 horas (e vice-versa, ao trocar de fluoxetina para moclobemida, aguardar 5 semanas).",
+    "quando_procurar_medico": "Procure emergência se: febre, agitação extrema, tremores musculares, confusão (síndrome serotoninérgica). Procure médico se: pressão muito elevada com cefaleia intensa após ingestão de alimentos ricos em tiramina, insônia intratável ou piora da ansiedade.",
+    "interacoes": []
+  },
+  {
+    "nome": "Fenelzina 15mg",
+    "generico": "Fenelzina",
+    "tipo": "Antidepressivo IMAO irreversível não seletivo",
+    "sinonimos": ["fenelzina", "nardil", "phenelzine", "imao", "inibidor da mao"],
+    "descricao": "IMAO irreversível não seletivo — inibe tanto MAO-A quanto MAO-B permanentemente. Usado em depressão atípica, depressão resistente e fobia social grave. Não registrado na ANVISA — disponível apenas via importação especial autorizada.",
+    "receita": "Sim",
+    "receita_display": "🔴 Receita Simples",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Exige prescrição médica. Medicamento importado — não disponível nas farmácias convencionais no Brasil.",
+    "receita_nota": "Requer dieta rigorosa com restrição de tiramina durante todo o tratamento e por 14 dias após a interrupção.",
+    "efeitos": "Hipotensão postural (muito comum), insônia ou hipersonia, ganho de peso, disfunção sexual, edema, parestesias, boca seca. Crise hipertensiva com alimentos ricos em tiramina.",
+    "aviso_grave": "Crise hipertensiva grave pode ocorrer com alimentos ricos em tiramina (queijo curado, vinho, embutidos, cerveja escura, fígado). É uma emergência médica. Não combinar com nenhum outro antidepressivo — intervalo mínimo de 14 dias. Com fluoxetina, o intervalo deve ser de 5 semanas.",
+    "recomendacao": "⚠️ Dieta com restrição de tiramina é obrigatória durante todo o tratamento. Carregar cartão de identificação de uso de IMAO. Informar todos os médicos e dentistas antes de qualquer procedimento.",
+    "educacao": "A fenelzina bloqueia permanentemente a enzima MAO — o efeito só some após 2 a 3 semanas do fim do tratamento (tempo de regeneração da enzima). Por isso as restrições alimentares continuam por 14 dias após parar o medicamento.",
+    "resposta_rapida": [
+      "IMAO irreversível — restrição alimentar obrigatória",
+      "Não disponível no Brasil sem importação especial",
+      "Intervalo de 14 dias ao trocar de antidepressivo",
+      "Crise hipertensiva = emergência",
+      "Informar todos os médicos e dentistas"
+    ],
+    "receita_obrigatoria": true,
+    "tipo_receita": "simples",
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Fenelzina está disponível no Brasil?",
+        "resposta": "Não é registrada na ANVISA. Pode ser obtida via importação especial autorizada pela ANVISA, geralmente para casos de depressão resistente a outros tratamentos."
+      },
+      {
+        "pergunta": "Quais alimentos devo evitar com fenelzina?",
+        "resposta": "Queijos curados (parmesão, brie, camembert), vinho tinto, cervejas escuras, embutidos defumados, fígado, extrato de levedura (Marmite), molho de soja em grandes quantidades e peixes em conserva. A restrição continua por 14 dias após parar o medicamento."
+      },
+      {
+        "pergunta": "O que acontece se eu comer queijo curado com fenelzina?",
+        "resposta": "A tiramina não é metabolizada e causa liberação maciça de noradrenalina — crise hipertensiva grave com cefaleia occipital intensa, rubor, palpitações e risco de AVC. Procure o pronto-socorro imediatamente."
+      },
+      {
+        "pergunta": "Posso fazer anestesia usando fenelzina?",
+        "resposta": "É de alto risco. Informe o anestesista com antecedência — alguns anestésicos e analgésicos (meperidina/petidina, por exemplo) são contraindicados com IMAO e podem causar reações fatais."
+      },
+      {
+        "pergunta": "Por que a fenelzina é usada se tem tantos riscos?",
+        "resposta": "Para depressão atípica (com hipersonia, hiperfagia, sensibilidade à rejeição) e depressão resistente, os MAOIs frequentemente funcionam quando outros antidepressivos falharam. O benefício supera os riscos em casos selecionados e com monitoramento adequado."
+      }
+    ],
+    "descricao_seo": "Fenelzina 15mg (Nardil) é um antidepressivo IMAO irreversível usado para depressão atípica e resistente. Não registrado na ANVISA — importação especial. Exige dieta rigorosa com restrição de tiramina e intervalo de 14 dias ao trocar de antidepressivo.",
+    "alerta_farmaceutico": "Medicamento com perfil de risco elevado. Interações potencialmente fatais com: meperidina, tramadol, dextrometorfano, todos os antidepressivos serotoninérgicos, simpatomiméticos (incluindo descongestionantes). Verificar toda a lista de medicamentos e alertar sobre dieta.",
+    "quando_procurar_medico": "Procure emergência se: cefaleia occipital súbita e intensa, rubor facial, palpitações, pressão muito elevada (crise hipertensiva por tiramina). Procure emergência também se: febre alta, rigidez, confusão (síndrome serotoninérgica). Informe o médico antes de qualquer cirurgia ou procedimento.",
+    "interacoes": []
+  },
+  {
+    "nome": "Flufenazina 1mg - 5mg",
+    "generico": "Flufenazina",
+    "tipo": "Antipsicótico típico — Fenotiazínico de alta potência",
+    "sinonimos": ["flufenazina", "anatensol", "flufenazina 1mg", "flufenazina 5mg", "anatensol 1mg"],
+    "descricao": "Antipsicótico típico de alta potência da classe fenotiazínica. Disponível em comprimidos e na forma de decanoato (injetável de longa duração). Usado para esquizofrenia e psicoses, especialmente quando a adesão ao tratamento oral é um problema.",
+    "receita": "Sim",
+    "receita_display": "🔴 Receita Especial B2 — Psicotrópico",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Psicotrópico — receita de controle especial (notificação azul B2). Retirada máxima 60 dias.",
+    "receita_nota": "Disponível em formulação injetável de longa duração (decanoato) — aplicação a cada 2 a 4 semanas.",
+    "efeitos": "Alta incidência de sintomas extrapiramidais (rigidez, tremor, acatisia, distonia aguda). Menor sedação que a clorpromazina. Tardive dyskinesia com uso prolongado. Hiperprolactinemia.",
+    "aviso_grave": "Risco muito elevado de sintomas extrapiramidais — maior que outros antipsicóticos. Síndrome neuroléptica maligna: febre, rigidez, confusão — emergência médica. Não usar em idosos com demência (risco aumentado de morte). Monitorar ECG — prolonga intervalo QT.",
+    "recomendacao": "⚠️ Alta potência = mais efeitos extrapiramidais. Anticolinérgico (biperideno) pode ser prescrito junto para prevenir distonia. Monitorar sinais de movimentos involuntários periodicamente.",
+    "educacao": "A flufenazina decanoato (injetável) permite tratamento mensal — útil para quem tem dificuldade de tomar comprimidos diariamente. Informe imediatamente ao médico qualquer rigidez no pescoço, olhos virados para cima ou dificuldade de engolir.",
+    "resposta_rapida": [
+      "Antipsicótico típico de alta potência",
+      "Controle especial B2 — receita retida",
+      "Alto risco de sintomas extrapiramidais",
+      "Disponível em injetável de longa duração",
+      "Síndrome neuroléptica maligna = emergência"
+    ],
+    "receita_obrigatoria": true,
+    "tipo_receita": "B2",
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Qual a diferença entre flufenazina oral e decanoato?",
+        "resposta": "A flufenazina decanoato é a versão injetável de longa duração, aplicada a cada 2 a 4 semanas. É usada quando há problemas de adesão ao tratamento oral diário ou quando o paciente prefere não tomar comprimidos todos os dias."
+      },
+      {
+        "pergunta": "Flufenazina causa muitos efeitos extrapiramidais?",
+        "resposta": "Sim, é um dos antipsicóticos com maior risco de sintomas extrapiramidais (tremor, rigidez, acatisia e distonia aguda) porque é de alta potência. O médico pode prescrever biperideno junto para prevenir esses efeitos."
+      },
+      {
+        "pergunta": "O que é acatisia?",
+        "resposta": "Acatisia é uma sensação intensa de inquietação interna — o paciente não consegue ficar parado, precisa ficar se movimentando. É um efeito extrapiramidal comum com antipsicóticos típicos de alta potência e muito desconfortável."
+      },
+      {
+        "pergunta": "Posso parar de tomar flufenazina se me sentir bem?",
+        "resposta": "Não, sem orientação médica. A melhora é resultado do tratamento. A interrupção abrupta pode causar recaída dos sintomas psicóticos. A retirada deve ser gradual e supervisionada."
+      },
+      {
+        "pergunta": "Flufenazina pode ser usada durante a gravidez?",
+        "resposta": "Somente se o benefício superar os riscos, avaliado pelo psiquiatra. Pode causar sintomas extrapiramidais no recém-nascido. Nunca interrompa o tratamento sem orientação médica, mesmo na gravidez."
+      }
+    ],
+    "descricao_seo": "Flufenazina 1mg - 5mg (Anatensol) é um antipsicótico típico de alta potência usado para esquizofrenia e psicoses. Controle especial B2. Disponível em injetável de longa duração (decanoato). Alto risco de sintomas extrapiramidais.",
+    "alerta_farmaceutico": "Alta potência dopaminérgica — maior risco de EPS e discinesia tardia entre os fenotiazínicos. Verificar uso concomitante de outros antipsicóticos. Atenção ao prolongamento de QT com outros fármacos cardiotóxicos.",
+    "quando_procurar_medico": "Procure emergência se: pescoço rígido ou inclinado (distonia cervical), olhos virados (crise oculogira), dificuldade de engolir, febre com rigidez muscular (síndrome neuroléptica maligna). Informe o médico se: movimentos involuntários da língua, face ou membros, ou inquietação intensa (acatisia).",
+    "interacoes": []
+  },
+  {
+    "nome": "Isocarboxazida 10mg",
+    "generico": "Isocarboxazida",
+    "tipo": "Antidepressivo IMAO irreversível não seletivo",
+    "sinonimos": ["isocarboxazida", "marplan", "imao", "inibidor mao irreversivel"],
+    "descricao": "IMAO irreversível não seletivo, da mesma classe que fenelzina e tranilcipromina. Usado para depressão resistente e atípica. Não registrado na ANVISA — disponível apenas via importação especial autorizada no Brasil.",
+    "receita": "Sim",
+    "receita_display": "🔴 Receita Simples",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Exige prescrição médica. Medicamento importado — não disponível nas farmácias convencionais no Brasil.",
+    "receita_nota": "Restrição alimentar de tiramina obrigatória durante o tratamento e por 14 dias após a interrupção.",
+    "efeitos": "Hipotensão postural, insônia, ganho de peso, disfunção sexual, edema, boca seca, tontura. Crise hipertensiva com alimentos ricos em tiramina.",
+    "aviso_grave": "Mesmos riscos da fenelzina: crise hipertensiva com tiramina, interações fatais com meperidina, tramadol, dextrometorfano e todos os antidepressivos serotoninérgicos. Intervalo mínimo de 14 dias ao trocar de antidepressivo (5 semanas se trocar de/para fluoxetina).",
+    "recomendacao": "⚠️ Dieta com restrição de tiramina obrigatória. Carregar identificação de usuário de IMAO. Informar todos os profissionais de saúde antes de qualquer procedimento.",
+    "educacao": "Como todos os MAOIs irreversíveis, a isocarboxazida bloqueia permanentemente a enzima MAO. As restrições alimentares e de medicamentos continuam por 14 dias após a última dose — tempo para o organismo regenerar a enzima.",
+    "resposta_rapida": [
+      "IMAO irreversível — restrição alimentar obrigatória",
+      "Não disponível no Brasil sem importação especial",
+      "Intervalo de 14 dias ao trocar de antidepressivo",
+      "Interações fatais com opioides e serotoninérgicos",
+      "Crise hipertensiva com tiramina = emergência"
+    ],
+    "receita_obrigatoria": true,
+    "tipo_receita": "simples",
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Isocarboxazida está disponível no Brasil?",
+        "resposta": "Não é registrada na ANVISA. Pode ser importada via autorização especial da ANVISA para casos de depressão resistente a outros tratamentos."
+      },
+      {
+        "pergunta": "Qual a diferença entre isocarboxazida e moclobemida?",
+        "resposta": "A isocarboxazida é um IMAO irreversível — bloqueia a enzima permanentemente por semanas. A moclobemida é reversível — o bloqueio dura horas. Isso faz a isocarboxazida ter muito mais restrições alimentares e risco de interações."
+      },
+      {
+        "pergunta": "Por quanto tempo preciso manter a dieta após parar isocarboxazida?",
+        "resposta": "Por pelo menos 14 dias após a última dose. Esse é o tempo necessário para o organismo regenerar a enzima MAO em quantidade suficiente para metabolizar a tiramina com segurança."
+      },
+      {
+        "pergunta": "Posso usar anestesia local com isocarboxazida?",
+        "resposta": "Depende do anestésico. Alguns são contraindicados (especialmente os com vasoconstritores adrenérgicos). Informe sempre o dentista e o médico sobre o uso de IMAO antes de qualquer procedimento."
+      },
+      {
+        "pergunta": "Quando isocarboxazida é indicada?",
+        "resposta": "Reservada para depressão resistente, depressão atípica (com hipersonia, hiperfagia, sensibilidade à rejeição) e casos em que outros antidepressivos falharam. O perfil de riscos limita seu uso a situações específicas."
+      }
+    ],
+    "descricao_seo": "Isocarboxazida 10mg (Marplan) é um antidepressivo IMAO irreversível usado para depressão resistente. Não registrado na ANVISA — importação especial. Exige dieta rigorosa com tiramina e intervalo de 14 dias ao trocar de antidepressivo.",
+    "alerta_farmaceutico": "Perfil de interações idêntico à fenelzina — potencialmente fatal com meperidina, tramadol, dextrometorfano e todos os serotoninérgicos. Verificar toda a medicação. Alertar sobre dieta de restrição de tiramina e sua duração após interrupção.",
+    "quando_procurar_medico": "Procure emergência se: cefaleia súbita e intensa, rubor, palpitações, pressão muito elevada (crise hipertensiva). Procure emergência se: febre, agitação, tremores musculares (síndrome serotoninérgica). Informe o médico antes de qualquer cirurgia.",
+    "interacoes": []
+  },
+  {
+    "nome": "Dextrometorfano 15mg/5mL xarope",
+    "generico": "Dextrometorfano",
+    "tipo": "Antitussígeno — Antagonista NMDA / Agonista sigma-1",
+    "sinonimos": ["dextrometorfano", "dxm", "neotoss", "vick 44", "robitussin", "dextrometorfano xarope", "tossifen"],
+    "descricao": "Antitussígeno (para tosse seca) de venda livre nas doses habituais. Em doses muito altas, tem efeito dissociativo. Mecanismo: bloqueia receptores NMDA e ativa receptores sigma-1. Em combinação com quinidina, é aprovado para tratamento de afeto pseudobulbar.",
+    "receita": "Não",
+    "receita_display": "🟢 Venda Livre (doses antitussígenas)",
+    "receita_cor": "verde",
+    "receita_descricao": "Nas formulações antitussígenas convencionais, é venda livre. Formulações associadas (com quinidina) exigem receita.",
+    "receita_nota": "Usar apenas para tosse seca. Não exceder dose recomendada — doses altas causam efeito dissociativo.",
+    "efeitos": "Tontura, sonolência, náusea, boca seca nas doses habituais. Em doses altas: dissociação, alucinações, taquicardia, hipertensão.",
+    "aviso_grave": "NÃO usar com IMAO (fenelzina, tranilcipromina, moclobemida) — risco de síndrome serotoninérgica grave com risco de morte. Não usar com fluoxetina ou paroxetina — aumentam muito os níveis de DXM. Potencial de abuso em doses altas (efeito dissociativo). Contraindicado em crianças menores de 2 anos.",
+    "recomendacao": "⚠️ Usar apenas na dose recomendada para tosse. Não usar para fins recreativos. Verificar se outros medicamentos em uso contêm dextrometorfano (presente em muitos antigripais combinados — evitar dose dupla).",
+    "educacao": "Muitos xaropes para tosse e antigripais contêm dextrometorfano. Verifique todos os medicamentos que está usando para não duplicar a dose sem perceber. Em caso de dúvida, consulte o farmacêutico.",
+    "resposta_rapida": [
+      "Antitussígeno para tosse seca",
+      "Venda livre nas doses habituais",
+      "NÃO associar com IMAO",
+      "Presente em muitos antigripais — cuidado com dose dupla",
+      "Doses altas causam dissociação"
+    ],
+    "receita_obrigatoria": false,
+    "tipo_receita": "isento",
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Dextrometorfano serve para tosse com catarro?",
+        "resposta": "Não. É indicado apenas para tosse seca irritativa. Para tosse produtiva (com catarro), o dextrometorfano pode ser prejudicial — suprime o reflexo de tosse que ajuda a eliminar as secreções."
+      },
+      {
+        "pergunta": "Posso dar dextrometorfano para criança?",
+        "resposta": "Contraindicado em menores de 2 anos. Entre 2 e 6 anos, apenas com orientação médica. Em maiores de 6 anos, seguir a dose por peso indicada na bula. Nunca dar a dose de adulto para crianças."
+      },
+      {
+        "pergunta": "Dextrometorfano interage com antidepressivos?",
+        "resposta": "Sim — interação grave com MAOIs (fenelzina, tranilcipromina, isocarboxazida) e importante com fluoxetina e paroxetina, que bloqueiam seu metabolismo e aumentam muito seus níveis no sangue."
+      },
+      {
+        "pergunta": "Por que dextrometorfano pode causar alucinações em doses altas?",
+        "resposta": "Em doses muito acima do terapêutico, bloqueia receptores NMDA no cérebro — o mesmo mecanismo da cetamina e do PCP — causando efeito dissociativo. Por isso é importante não exceder a dose recomendada."
+      },
+      {
+        "pergunta": "Dextrometorfano está em quais medicamentos comuns?",
+        "resposta": "Neotoss, Vick 44, Robitussin DM, Dimetapp DM e vários antigripais combinados. Verifique o rótulo de todos os medicamentos para tosse e gripe para evitar duplicar a dose."
+      }
+    ],
+    "descricao_seo": "Dextrometorfano 15mg/5mL é um antitussígeno para tosse seca de venda livre. Não usar com IMAO — risco de síndrome serotoninérgica grave. Presente em muitos antigripais combinados — atenção à dose dupla.",
+    "alerta_farmaceutico": "Verificar se paciente usa IMAO — interação potencialmente fatal. Fluoxetina e paroxetina inibem CYP2D6 e aumentam muito os níveis de DXM. Presente em dezenas de antigripais — perguntar sobre todos os medicamentos em uso para evitar superdosagem acidental.",
+    "quando_procurar_medico": "Procure emergência se: febre, agitação extrema, confusão após uso com antidepressivo (síndrome serotoninérgica), taquicardia intensa, convulsão. Procure médico se: tosse persiste por mais de 7 dias, acompanhada de febre ou expectoração com sangue.",
+    "interacoes": []
+  },
+  {
+    "nome": "Modafinil 100mg - 200mg",
+    "generico": "Modafinil",
+    "tipo": "Agente promotor de vigília — Estimulante do SNC",
+    "sinonimos": ["modafinil", "stavigile", "vigiflux", "modafinil 100mg", "modafinil 200mg", "stavigile 200mg"],
+    "descricao": "Promove vigília e alerta sem os efeitos colaterais típicos das anfetaminas. Mecanismo não completamente elucidado — inibe a recaptação de dopamina e ativa neurônios histaminérgicos. Indicado para narcolepsia, apneia obstrutiva do sono e transtorno do trabalho em turnos.",
+    "receita": "Sim",
+    "receita_display": "🔴 Controlado B1 — Psicotrópico Estimulante",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Psicotrópico estimulante categoria B1. Exige receita azul de controle especial em duas vias. Retirada máxima: 30 dias.",
+    "receita_nota": "Tomar de manhã para evitar insônia. Na apneia do sono, não substitui o CPAP.",
+    "efeitos": "Cefaleia (muito comum), náusea, boca seca, ansiedade, insônia, palpitações. Raramente: reações cutâneas graves (Stevens-Johnson).",
+    "aviso_grave": "Reação cutânea grave (Stevens-Johnson): erupção com bolhas, descamação da pele, lesões na boca — emergência médica, interromper imediatamente. Pode reduzir a eficácia de anticoncepcionais hormonais — usar método adicional. Potencial de abuso. Contraindicado em cardiopatias graves.",
+    "recomendacao": "⚠️ Tomar cedo pela manhã. Se trabalho em turno, tomar 1 hora antes do turno. Não substitui o sono — o organismo ainda precisa dormir regularmente. Usar método contraceptivo adicional ao anticoncepcional hormonal.",
+    "educacao": "O modafinil não elimina a necessidade de sono — apenas retarda a sonolência. Usar com responsabilidade: não usar para estudar a noite toda cronicamente, pois isso prejudica a consolidação da memória e a saúde a longo prazo.",
+    "resposta_rapida": [
+      "Promotor de vigília — narcolepsia e apneia do sono",
+      "Controle especial B1 — receita azul retida",
+      "Tomar de manhã",
+      "Reduz eficácia do anticoncepcional hormonal",
+      "Não elimina a necessidade de sono"
+    ],
+    "receita_obrigatoria": true,
+    "tipo_receita": "B1",
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Modafinil é anfetamina?",
+        "resposta": "Não. Tem mecanismo diferente das anfetaminas e perfil de efeitos colaterais mais favorável. Mas é um psicotrópico estimulante sujeito a controle especial, com potencial de dependência."
+      },
+      {
+        "pergunta": "Modafinil serve para melhorar o desempenho intelectual?",
+        "resposta": "É aprovado apenas para distúrbios do sono. O uso fora da indicação (melhora cognitiva em pessoas saudáveis) é off-label, não tem eficácia comprovada a longo prazo e tem riscos. Além disso, é controlado — usar sem indicação médica é ilegal."
+      },
+      {
+        "pergunta": "Modafinil afeta o anticoncepcional?",
+        "resposta": "Sim. O modafinil induz enzimas hepáticas que aceleram a metabolização de anticoncepcionais hormonais (pílula, adesivo, implante), podendo reduzir sua eficácia. Use método adicional (preservativo) durante o tratamento e por 2 meses após."
+      },
+      {
+        "pergunta": "Posso tomar modafinil à noite?",
+        "resposta": "Não é recomendado. A meia-vida é de 12 a 15 horas — tomar à tarde ou à noite causará insônia significativa. Tomar sempre pela manhã, salvo orientação médica específica para trabalho em turno."
+      },
+      {
+        "pergunta": "Modafinil causa dependência?",
+        "resposta": "Tem potencial de dependência, embora menor que as anfetaminas. Por isso é controlado. Uso prolongado pode causar tolerância e sintomas de abstinência ao parar — fadiga intensa e hipersonia de rebote."
+      }
+    ],
+    "descricao_seo": "Modafinil 100mg - 200mg (Stavigile, Vigiflux) é um agente promotor de vigília controlado B1, usado para narcolepsia, apneia do sono e transtorno do trabalho em turno. Reduz eficácia de anticoncepcionais hormonais. Tomar pela manhã.",
+    "alerta_farmaceutico": "Indutor enzimático — reduz eficácia de anticoncepcionais hormonais, ciclosporina e outros fármacos metabolizados pelo CYP3A4. Verificar anticoncepcional em uso. Contraindicado em cardiopatias arrítmicas graves.",
+    "quando_procurar_medico": "Procure emergência se: erupção cutânea com bolhas ou descamação, lesões na boca, febre alta (reação de Stevens-Johnson). Procure médico se: palpitações ou dor no peito, pressão muito elevada, ansiedade intensa ou piora da insônia.",
+    "interacoes": []
+  },
+  {
+    "nome": "Pimozida 1mg - 4mg",
+    "generico": "Pimozida",
+    "tipo": "Antipsicótico típico — Difenilbutilpiperidina",
+    "sinonimos": ["pimozida", "orap", "pimozida 1mg", "pimozida 4mg", "orap 4mg"],
+    "descricao": "Antipsicótico típico de alta potência com indicação específica para Síndrome de Tourette (tiques motores e vocais) e psicose monosintomática hipocondríaca. Bloqueia receptores D2 com alta seletividade.",
+    "receita": "Sim",
+    "receita_display": "🔴 Receita Especial B2 — Psicotrópico",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Psicotrópico — receita de controle especial (notificação azul B2). Retirada máxima 60 dias.",
+    "receita_nota": "Monitoramento de ECG obrigatório antes e durante o tratamento — prolonga intervalo QT.",
+    "efeitos": "Prolongamento do QT (risco cardíaco importante), sintomas extrapiramidais, sedação, boca seca, constipação, hiperprolactinemia.",
+    "aviso_grave": "Risco cardíaco real: prolongamento do intervalo QT pode causar arritmia grave (torsades de pointes) e morte súbita. Não usar com outros medicamentos que prolongam QT (quinolonase, antifúngicos azólicos, eritromicina, antiarrítmicos). ECG obrigatório antes de iniciar.",
+    "recomendacao": "⚠️ ECG antes de iniciar e periodicamente durante o tratamento. Informar todos os médicos — risco de interação cardíaca grave com muitos medicamentos comuns. Evitar hipocalemia e hipomagnesemia (distúrbios que agravam o risco de QT).",
+    "educacao": "A pimozida é uma das opções para Síndrome de Tourette quando outros tratamentos falharam. O risco cardíaco é real mas manejável com monitoramento adequado. Não use sem supervisão médica especializada.",
+    "resposta_rapida": [
+      "Antipsicótico para Tourette e psicose monosintomática",
+      "Controle especial B2 — receita retida",
+      "ECG obrigatório — prolonga intervalo QT",
+      "Muitas interações cardíacas",
+      "Monitoramento periódico indispensável"
+    ],
+    "receita_obrigatoria": true,
+    "tipo_receita": "B2",
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Pimozida é usada para Tourette?",
+        "resposta": "Sim, é uma das indicações aprovadas. É eficaz para reduzir tiques motores e vocais na Síndrome de Tourette, mas o risco cardíaco (prolongamento QT) exige monitoramento com ECG."
+      },
+      {
+        "pergunta": "Por que pimozida exige ECG?",
+        "resposta": "Porque prolonga o intervalo QT no eletrocardiograma — um marcador de risco para arritmias ventriculares graves como torsades de pointes, que podem causar síncope e morte súbita."
+      },
+      {
+        "pergunta": "Quais medicamentos não posso usar com pimozida?",
+        "resposta": "Vários: antibióticos macrolídeos (eritromicina, azitromicina), quinolonas, antifúngicos azólicos (cetoconazol, itraconazol), inibidores de CYP3A4, antidepressivos tricíclicos e outros que prolongam QT. Sempre verifique com o médico e farmacêutico."
+      },
+      {
+        "pergunta": "Pimozida pode ser usada em crianças?",
+        "resposta": "Sim, mas com cautela e monitoramento rigoroso. É uma das opções para Tourette em crianças que não responderam a outras terapias. A dose é ajustada por peso e o ECG é obrigatório."
+      },
+      {
+        "pergunta": "Há alternativas à pimozida para Tourette?",
+        "resposta": "Sim. Haloperidol, risperidona, aripiprazol e clonidina também são usados para Tourette, com diferentes perfis de efeitos colaterais. A pimozida é geralmente reservada para casos refratários."
+      }
+    ],
+    "descricao_seo": "Pimozida 1mg - 4mg (Orap) é um antipsicótico típico usado para Síndrome de Tourette e psicose monosintomática. Controle especial B2. Exige ECG obrigatório — prolonga intervalo QT com risco de arritmia grave.",
+    "alerta_farmaceutico": "Alto risco de prolongamento QT — verificar todos os medicamentos concomitantes. Interação grave com CYP3A4 — inibidores aumentam muito os níveis de pimozida. Azitromicina, eritromicina e cetoconazol são contraindicados. Verificar eletrólitos (cálcio, magnésio, potássio).",
+    "quando_procurar_medico": "Procure emergência se: palpitações, síncope, tontura intensa ou desmaio (possível arritmia). Procure médico antes de usar qualquer medicamento novo (risco de interação cardíaca), se sentir o coração acelerado ou irregular.",
+    "interacoes": []
+  },
+  {
+    "nome": "Selegilina 5mg - 10mg",
+    "generico": "Selegilina",
+    "tipo": "Inibidor seletivo da MAO-B — Antiparkinsoniano",
+    "sinonimos": ["selegilina", "niar", "jumex", "selegilina 5mg", "selegilina 10mg", "deprenil", "mao-b"],
+    "descricao": "Inibidor seletivo e irreversível da MAO-B. Nas doses terapêuticas para Parkinson (até 10mg/dia), não inibe MAO-A — por isso tem muito menos restrições alimentares com tiramina que os MAOIs não seletivos. Usado como adjuvante da levodopa no Parkinson.",
+    "receita": "Sim",
+    "receita_display": "🔴 Receita Simples",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia.",
+    "receita_nota": "Tomar de manhã e ao meio-dia — causa insônia se tomado à tarde. Dose máxima: 10mg/dia (acima disso perde seletividade MAO-B).",
+    "efeitos": "Insônia (muito comum), náusea, tontura, hipotensão postural, boca seca. Pode potencializar efeitos e efeitos colaterais da levodopa (discinesias, alucinações).",
+    "aviso_grave": "NÃO ultrapassar 10mg/dia — doses maiores inibem também a MAO-A, gerando risco de crise hipertensiva com tiramina igual aos MAOIs clássicos. Não combinar com antidepressivos serotoninérgicos (ISRS, tricíclicos) — risco de síndrome serotoninérgica. Não usar com meperidina.",
+    "recomendacao": "⚠️ Tomar a segunda dose no máximo ao meio-dia. Não exceder 10mg/dia. Monitorar se a levodopa causar mais discinesias ou alucinações após iniciar selegilina — pode ser necessário reduzir a dose de levodopa.",
+    "educacao": "A selegilina pode permitir reduzir a dose de levodopa ao longo do tempo, prolongando seu efeito. Nas doses habituais (5 a 10mg/dia), a restrição alimentar com tiramina é mínima, mas prudente evitar grandes quantidades de alimentos muito ricos em tiramina.",
+    "resposta_rapida": [
+      "Inibidor MAO-B — adjuvante do Parkinson",
+      "Receita simples",
+      "Tomar de manhã — causa insônia à tarde",
+      "NÃO exceder 10mg/dia",
+      "Não associar com ISRS ou meperidina"
+    ],
+    "receita_obrigatoria": true,
+    "tipo_receita": "simples",
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Selegilina serve para depressão?",
+        "resposta": "Nas doses para Parkinson, o efeito antidepressivo é modesto. Existe um adesivo transdérmico de selegilina (não disponível no Brasil) aprovado para depressão em doses maiores, onde o risco de IMAO não seletivo se aplica."
+      },
+      {
+        "pergunta": "Por que não posso exceder 10mg de selegilina?",
+        "resposta": "Porque acima de 10mg/dia, perde a seletividade para MAO-B e passa a inibir também a MAO-A — tornando-se equivalente a um IMAO não seletivo, com todos os riscos de crise hipertensiva por tiramina e interações graves."
+      },
+      {
+        "pergunta": "Selegilina pode piorar o Parkinson?",
+        "resposta": "Não piora. Mas pode aumentar os efeitos colaterais da levodopa — especialmente discinesias (movimentos involuntários) e alucinações. Nesse caso, o médico pode reduzir a dose de levodopa."
+      },
+      {
+        "pergunta": "Posso tomar selegilina com antidepressivo?",
+        "resposta": "Com cuidado. ISRS (fluoxetina, sertralina) e antidepressivos tricíclicos são geralmente contraindicados ou usados com intervalo de segurança. Converse com o neurologista e psiquiatra antes de combinar."
+      },
+      {
+        "pergunta": "Selegilina é o mesmo que rasagilina?",
+        "resposta": "Não, são medicamentos diferentes da mesma classe (inibidores MAO-B). A rasagilina é mais seletiva e tem menos metabólitos estimulantes. Ambas são usadas para Parkinson, mas com perfis de efeitos colaterais ligeiramente distintos."
+      }
+    ],
+    "descricao_seo": "Selegilina 5mg - 10mg (Niar, Jumex) é um inibidor seletivo da MAO-B usado como adjuvante no Parkinson. Receita simples. Não exceder 10mg/dia. Não associar com ISRS ou meperidina — risco de síndrome serotoninérgica.",
+    "alerta_farmaceutico": "Nas doses habituais (5 a 10mg), risco de tiramina é baixo. Mas verificar outros medicamentos — ISRS, tramadol e meperidina são contraindicados. Ao combinar com levodopa, monitorar discinesias e alucinações — pode ser necessário reduzir dose de levodopa.",
+    "quando_procurar_medico": "Procure médico se: aumento de movimentos involuntários (discinesias) com a levodopa, alucinações ou confusão mental, insônia intratável ou agitação intensa. Procure emergência se: febre, tremores generalizados e confusão após uso com outro medicamento (síndrome serotoninérgica).",
+    "interacoes": []
+  },
+  {
+    "nome": "Tioridazina 25mg - 100mg (descontinuada)",
+    "generico": "Tioridazina",
+    "tipo": "Antipsicótico típico — Fenotiazínico (RETIRADO DO MERCADO)",
+    "sinonimos": ["tioridazina", "mellaril", "tioridazina 25mg", "tioridazina 100mg", "mellaril 25mg"],
+    "descricao": "Antipsicótico típico fenotiazínico retirado do mercado mundial em 2005 por toxicidade cardíaca (prolongamento grave do QT) e retinopatia pigmentar irreversível. Não está disponível no Brasil. Mantido como referência informativa para profissionais de saúde.",
+    "receita": "Sim",
+    "receita_display": "🔴 Receita Especial B2 — Psicotrópico (descontinuado)",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Medicamento descontinuado — retirado do mercado. Não disponível no Brasil.",
+    "receita_nota": "ATENÇÃO: Medicamento retirado do mercado mundial. Não está disponível para prescrição.",
+    "efeitos": "Prolongamento grave do QT, retinopatia pigmentar (com doses acumuladas altas), sedação intensa, hipotensão, sintomas extrapiramidais (menor incidência que outros típicos), hiperprolactinemia.",
+    "aviso_grave": "MEDICAMENTO RETIRADO DO MERCADO. Principais motivos: risco inaceitável de torsades de pointes (arritmia fatal) e retinopatia pigmentar irreversível causando cegueira. Qualquer paciente ainda usando tioridazina deve ser avaliado urgentemente pelo psiquiatra para substituição.",
+    "recomendacao": "⚠️ Medicamento descontinuado. Se você ou alguém ainda usa tioridazina obtida de alguma forma, procure psiquiatra imediatamente para substituição segura. A continuação do uso representa risco cardíaco e ocular grave.",
+    "educacao": "A tioridazina foi retirada do mercado porque causava danos irreversíveis à retina (retinopatia pigmentar) com o uso prolongado, além de risco cardíaco grave. Hoje existem antipsicóticos mais seguros e eficazes disponíveis.",
+    "resposta_rapida": [
+      "Antipsicótico típico RETIRADO DO MERCADO em 2005",
+      "Não disponível no Brasil",
+      "Causa retinopatia e arritmia cardíaca grave",
+      "Substituir urgentemente se ainda em uso",
+      "Referência histórica/informativa"
+    ],
+    "receita_obrigatoria": true,
+    "tipo_receita": "B2",
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Por que a tioridazina foi retirada do mercado?",
+        "resposta": "Por dois motivos principais: prolongamento do intervalo QT (causando arritmias fatais) e retinopatia pigmentar — uma degeneração irreversível da retina que causa perda progressiva da visão com o uso crônico em doses altas."
+      },
+      {
+        "pergunta": "A tioridazina ainda é usada em algum lugar?",
+        "resposta": "Foi retirada do mercado em praticamente todos os países. Em casos muito raros de uso compassivo para esquizofrenia resistente, pode ser obtida com autorização especial em alguns países, mas isso é excepcional."
+      },
+      {
+        "pergunta": "O que substituiu a tioridazina?",
+        "resposta": "Antipsicóticos atípicos (segunda geração) como clozapina, olanzapina, quetiapina e risperidona oferecem eficácia similar ou superior com perfil de segurança muito melhor."
+      },
+      {
+        "pergunta": "Se eu estou tomando tioridazina, o que devo fazer?",
+        "resposta": "Procure psiquiatra imediatamente. O medicamento não deveria estar disponível. Se obtido de alguma fonte informal, o risco cardíaco e ocular é real. A substituição deve ser feita gradualmente sob supervisão médica."
+      },
+      {
+        "pergunta": "A tioridazina causava cegueira?",
+        "resposta": "Sim, em doses altas e uso prolongado. A retinopatia pigmentar é irreversível — a visão não se recupera após o dano. Era um dos motivos principais para a retirada do mercado."
+      }
+    ],
+    "descricao_seo": "Tioridazina (Mellaril) é um antipsicótico típico retirado do mercado mundial em 2005 por causar arritmia cardíaca grave (prolongamento QT) e retinopatia pigmentar irreversível. Não disponível no Brasil. Referência informativa.",
+    "alerta_farmaceutico": "DESCONTINUADO — não dispensar. Se paciente apresentar receita ou solicitar tioridazina, orientar imediatamente a buscar avaliação psiquiátrica urgente para substituição. Não há formulação legal disponível no Brasil.",
+    "quando_procurar_medico": "Se ainda usa tioridazina: procure psiquiatra imediatamente para substituição. Procure oftalmologista se notar alteração visual (campo visual, percepção de cores). Procure emergência se sentir palpitações, síncope ou tontura intensa.",
+    "interacoes": []
+  },
+  {
+    "nome": "Tolterodina 2mg - 4mg",
+    "generico": "Tolterodina",
+    "tipo": "Anticolinérgico — Antagonista muscarínico para bexiga hiperativa",
+    "sinonimos": ["tolterodina", "detrusitol", "detrol", "tolterodina 2mg", "tolterodina 4mg", "detrusitol la", "bexiga hiperativa"],
+    "descricao": "Anticolinérgico seletivo para receptores muscarínicos da bexiga. Reduz as contrações involuntárias do músculo detrusor, diminuindo urgência miccional, frequência e incontinência de urgência. Usado para bexiga hiperativa.",
+    "receita": "Sim",
+    "receita_display": "🔴 Receita Simples",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia.",
+    "receita_nota": "Comprimido de liberação prolongada (LA/LP) tomado uma vez ao dia. Comprimido convencional duas vezes ao dia.",
+    "efeitos": "Boca seca (muito comum), constipação, visão embaçada, taquicardia, retenção urinária (paradoxal), ressecamento ocular.",
+    "aviso_grave": "CONTRAINDICADO em glaucoma de ângulo fechado (pode desencadear crise aguda) e retenção urinária (obstrução de saída vesical). Em idosos: risco aumentado de confusão mental, demência e quedas — evitar ou usar com extrema cautela (Lista de Beers). Monitorar se há obstrução prostática.",
+    "recomendacao": "⚠️ Informe ao médico se tem glaucoma, próstata aumentada ou qualquer dificuldade para urinar. Em idosos acima de 65 anos, preferir anticolinérgicos mais seletivos ou outras classes terapêuticas. Beber água suficiente para aliviar a boca seca.",
+    "educacao": "A boca seca é o efeito colateral mais comum. Chupar balas sem açúcar, manter boa hidratação e usar saliva artificial pode ajudar. Se sentir dificuldade súbita de urinar, procure médico — pode ser retenção urinária.",
+    "resposta_rapida": [
+      "Para bexiga hiperativa — urgência e frequência urinária",
+      "Receita simples",
+      "Contraindicado em glaucoma de ângulo fechado",
+      "Cuidado em idosos — risco cognitivo",
+      "Boca seca é o efeito mais comum"
+    ],
+    "receita_obrigatoria": true,
+    "tipo_receita": "simples",
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Tolterodina cura a bexiga hiperativa?",
+        "resposta": "Não cura, mas controla os sintomas enquanto é usada. Reduz urgência, frequência e episódios de incontinência. Ao parar o medicamento, os sintomas tendem a retornar. Geralmente é complementada com exercícios do assoalho pélvico."
+      },
+      {
+        "pergunta": "Por que tolterodina causa tanta boca seca?",
+        "resposta": "Porque bloqueia receptores muscarínicos nas glândulas salivares, reduzindo a produção de saliva. É um efeito esperado da classe dos anticolinérgicos. Chupar balas sem açúcar e beber água ajudam."
+      },
+      {
+        "pergunta": "Tolterodina pode ser usada por idosos?",
+        "resposta": "Com cautela. Anticolinérgicos em idosos aumentam risco de confusão mental, quedas, retenção urinária e constipação grave. A tolterodina consta na Lista de Beers (medicamentos potencialmente inapropriados para idosos). Converse com o médico sobre alternativas."
+      },
+      {
+        "pergunta": "Posso usar tolterodina se tenho glaucoma?",
+        "resposta": "Depende do tipo. No glaucoma de ângulo fechado, é contraindicada — pode desencadear crise aguda de glaucoma com risco de perda da visão. No glaucoma de ângulo aberto controlado, pode ser usada com monitoramento. Informe ao médico sobre o glaucoma."
+      },
+      {
+        "pergunta": "Quanto tempo para tolterodina fazer efeito?",
+        "resposta": "A melhora costuma aparecer gradualmente em 4 a 8 semanas de uso regular. Não abandone antes desse prazo por achar que não está funcionando."
+      }
+    ],
+    "descricao_seo": "Tolterodina 2mg - 4mg (Detrusitol) é um anticolinérgico para bexiga hiperativa que reduz urgência e frequência miccional. Receita simples. Contraindicado em glaucoma de ângulo fechado. Cuidado em idosos — risco cognitivo.",
+    "alerta_farmaceutico": "Verificar glaucoma e obstrução prostática antes de dispensar — contraindicações absolutas. Em idosos, avaliar com o médico alternativas mais seguras (mirabegrona tem menor risco cognitivo). Atenção a interações com outros anticolinérgicos (efeito aditivo — xerostomia, constipação, retenção urinária).",
+    "quando_procurar_medico": "Procure médico se: dor aguda nos olhos com visão embaçada e olho vermelho (glaucoma agudo), dificuldade súbita de urinar (retenção urinária), confusão mental em idosos. Informe o médico se os sintomas urinários não melhorarem em 8 semanas.",
+    "interacoes": []
+  },
+  {
+    "nome": "Trifluoperazina 1mg - 5mg",
+    "generico": "Trifluoperazina",
+    "tipo": "Antipsicótico típico — Fenotiazínico de alta potência",
+    "sinonimos": ["trifluoperazina", "fluazine", "stelazine", "trifluoperazina 1mg", "trifluoperazina 5mg", "fluazine 5mg"],
+    "descricao": "Antipsicótico típico de alta potência da classe fenotiazínica. Usado para esquizofrenia e ansiedade grave de curto prazo. Alta potência dopaminérgica implica menor sedação, mas maior risco de sintomas extrapiramidais.",
+    "receita": "Sim",
+    "receita_display": "🔴 Receita Especial B2 — Psicotrópico",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Psicotrópico — receita de controle especial (notificação azul B2). Retirada máxima 60 dias.",
+    "receita_nota": "Uso para ansiedade limitado a curto prazo (até 12 semanas). Esquizofrenia: tratamento de longo prazo.",
+    "efeitos": "Alta incidência de sintomas extrapiramidais (acatisia, distonia, parkinsonismo), fotossensibilidade, alteração de pigmentação da pele, hiperprolactinemia, prolongamento do QT.",
+    "aviso_grave": "Alto risco de sintomas extrapiramidais — entre os mais elevados dos antipsicóticos típicos. Síndrome neuroléptica maligna: febre, rigidez, confusão — emergência médica. Discinesia tardia irreversível com uso prolongado. Não usar em idosos com demência.",
+    "recomendacao": "⚠️ Usar protetor solar — fotossensibilidade intensa. Anticolinérgico (biperideno) pode ser prescrito preventivamente. Monitorar movimentos involuntários periodicamente. Não interromper abruptamente.",
+    "educacao": "Informe imediatamente ao médico se sentir pescoço rígido, olhos puxados para cima, dificuldade de engolir ou inquietação extrema — são sinais de sintomas extrapiramidais que precisam de tratamento imediato.",
+    "resposta_rapida": [
+      "Antipsicótico típico de alta potência",
+      "Controle especial B2 — receita retida",
+      "Alto risco de sintomas extrapiramidais",
+      "Usar protetor solar — fotossensibilidade",
+      "Síndrome neuroléptica maligna = emergência"
+    ],
+    "receita_obrigatoria": true,
+    "tipo_receita": "B2",
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Trifluoperazina é muito forte?",
+        "resposta": "É um antipsicótico de alta potência — doses menores em miligramas têm efeito equivalente a doses maiores de antipsicóticos de baixa potência (como clorpromazina). Isso não significa necessariamente \"mais forte\", mas sim diferente perfil de efeitos colaterais."
+      },
+      {
+        "pergunta": "Por que trifluoperazina causa tantos sintomas extrapiramidais?",
+        "resposta": "Por ser de alta potência — bloqueia intensamente os receptores D2 não só no sistema límbico (efeito antipsicótico) mas também no sistema nigroestriatal (causando parkinsonismo, distonia e acatisia)."
+      },
+      {
+        "pergunta": "Trifluoperazina pode ser usada para ansiedade?",
+        "resposta": "Sim, mas apenas em doses baixas e por curto prazo (máximo 12 semanas). O risco de discinesia tardia com uso prolongado torna inadequado para ansiedade crônica, que tem outras opções mais seguras."
+      },
+      {
+        "pergunta": "O que é discinesia tardia?",
+        "resposta": "São movimentos involuntários, geralmente da face (carranca, estalar de lábios, movimentos de língua) e membros, que aparecem após uso prolongado de antipsicóticos típicos. Podem ser irreversíveis. Monitoramento regular é essencial."
+      },
+      {
+        "pergunta": "Trifluoperazina pode ser tomada com sol?",
+        "resposta": "Com cuidado — causa fotossensibilidade intensa. Use protetor solar FPS alto, chapéu e roupas protetoras. A exposição sem proteção pode causar queimaduras graves e manchas de pigmentação permanentes."
+      }
+    ],
+    "descricao_seo": "Trifluoperazina 1mg - 5mg (Fluazine) é um antipsicótico típico de alta potência usado para esquizofrenia e ansiedade grave. Controle especial B2. Alto risco de sintomas extrapiramidais. Usar protetor solar — fotossensibilidade.",
+    "alerta_farmaceutico": "Alta potência = alto risco de EPS. Verificar uso concomitante de outros antipsicóticos. Fotossensibilidade importante — alertar paciente. Anticolinérgico profilático frequentemente necessário. Monitorar ECG com outros fármacos que prolongam QT.",
+    "quando_procurar_medico": "Procure emergência se: pescoço rígido, olhos virados, dificuldade de engolir (distonia aguda), febre com rigidez muscular (síndrome neuroléptica maligna). Procure médico se: movimentos involuntários da face ou corpo, inquietação incontrolável (acatisia), piora dos sintomas psicóticos.",
+    "interacoes": []
+  },
+  {
+    "nome": "Tranilcipromina 10mg",
+    "generico": "Tranilcipromina",
+    "tipo": "Antidepressivo IMAO irreversível não seletivo",
+    "sinonimos": ["tranilcipromina", "parnate", "stelapar", "tranilcipromina 10mg", "parnate 10mg", "imao"],
+    "descricao": "IMAO irreversível não seletivo com propriedades estimulantes (estrutura similar às anfetaminas). Indicado para depressão atípica, depressão resistente a outros antidepressivos e fobia social grave. Disponível no Brasil via prescrição médica.",
+    "receita": "Sim",
+    "receita_display": "🔴 Receita Simples",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia.",
+    "receita_nota": "Dieta com restrição de tiramina obrigatória. Tomar de manhã — efeito estimulante causa insônia.",
+    "efeitos": "Insônia (muito comum — efeito estimulante), hipotensão postural, cefaleia, tontura, boca seca, disfunção sexual. Menos ganho de peso que fenelzina.",
+    "aviso_grave": "Crise hipertensiva com alimentos ricos em tiramina — mesmos riscos da fenelzina. Não combinar com nenhum outro antidepressivo, tramadol, dextrometorfano ou simpatomiméticos. Intervalo mínimo de 14 dias ao trocar de antidepressivo (5 semanas ao trocar de fluoxetina).",
+    "recomendacao": "⚠️ Tomar de manhã — efeito estimulante impossibilita sono se tomado à tarde. Dieta com restrição de tiramina obrigatória durante todo o tratamento e por 14 dias após parar. Carregar identificação de usuário de IMAO.",
+    "educacao": "A tranilcipromina tem efeito mais estimulante que a fenelzina — muitos pacientes relatam mais energia e melhora mais rápida, mas também mais insônia. A restrição alimentar é a mesma de todos os MAOIs irreversíveis e deve ser levada muito a sério.",
+    "resposta_rapida": [
+      "IMAO irreversível com efeito estimulante",
+      "Receita simples",
+      "Dieta de tiramina obrigatória",
+      "Tomar de manhã — causa insônia",
+      "Intervalo de 14 dias ao trocar de antidepressivo"
+    ],
+    "receita_obrigatoria": true,
+    "tipo_receita": "simples",
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Tranilcipromina é diferente da fenelzina?",
+        "resposta": "São da mesma classe (IMAO irreversível não seletivo), mas a tranilcipromina tem estrutura química semelhante às anfetaminas — causando mais insônia e agitação, mas menos ganho de peso. As restrições alimentares são as mesmas."
+      },
+      {
+        "pergunta": "Tranilcipromina é disponível no Brasil?",
+        "resposta": "Sim, diferente de fenelzina e isocarboxazida, a tranilcipromina (Stelapar, Parnate) é registrada na ANVISA e disponível no Brasil, embora pouco prescrita por causa das restrições."
+      },
+      {
+        "pergunta": "Quais alimentos devo evitar com tranilcipromina?",
+        "resposta": "Queijos curados e maturados, vinho tinto, cerveja escura/artesanal, embutidos defumados, fígado, extrato de levedura (Marmite), peixe em conserva e grandes quantidades de molho de soja. A restrição continua 14 dias após parar."
+      },
+      {
+        "pergunta": "Por que tranilcipromina causa tanta insônia?",
+        "resposta": "Por ter estrutura química próxima às anfetaminas e efeito estimulante mais pronunciado que outros MAOIs. Tomar sempre de manhã, nunca à tarde ou à noite."
+      },
+      {
+        "pergunta": "Posso beber vinho com tranilcipromina?",
+        "resposta": "Não. Além do álcool em si, o vinho (especialmente o tinto) é rico em tiramina — pode desencadear crise hipertensiva grave com cefaleia intensa, rubor e risco de AVC. Completamente proibido."
+      }
+    ],
+    "descricao_seo": "Tranilcipromina 10mg (Parnate, Stelapar) é um antidepressivo IMAO irreversível com efeito estimulante, usado para depressão atípica e resistente. Receita simples. Exige dieta rigorosa com restrição de tiramina. Tomar de manhã.",
+    "alerta_farmaceutico": "Mesmo perfil de risco que fenelzina — verificar toda a medicação antes de dispensar. Interações fatais com meperidina, tramadol, dextrometorfano, todos os serotoninérgicos e simpatomiméticos. Alertar sobre dieta e identificação de IMAO.",
+    "quando_procurar_medico": "Procure emergência se: cefaleia occipital súbita e intensa, rubor, palpitações, pressão muito elevada após ingestão de alimento com tiramina. Procure emergência se: febre, tremores, confusão (síndrome serotoninérgica). Informe médico antes de qualquer cirurgia.",
+    "interacoes": []
+  },
+  {
+    "nome": "Triazolam 0,125mg - 0,25mg",
+    "generico": "Triazolam",
+    "tipo": "Benzodiazepínico hipnótico de ultracurta ação",
+    "sinonimos": ["triazolam", "halcion", "triazolam 0,25mg", "triazolam 0,125mg", "halcion 0,25mg"],
+    "descricao": "Benzodiazepínico de ultracurta duração de ação (meia-vida de 2 a 5 horas). Indicado para insônia de início do sono. Ação rápida e curta — mínimo efeito residual matinal quando usado na dose correta.",
+    "receita": "Sim",
+    "receita_display": "🔴 Controlado B1 — Receita Azul (Benzodiazepínico)",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Psicotrópico benzodiazepínico categoria B1. Exige receita azul de controle especial em duas vias. Retirada máxima: 30 dias.",
+    "receita_nota": "Usar apenas para insônia de curto prazo — máximo 2 semanas. Tomar imediatamente antes de deitar.",
+    "efeitos": "Amnésia anterógrada (pode apagar memória de acontecimentos após tomar), sonambulismo, insônia de rebote ao parar, dependência com uso prolongado, sedação residual em doses altas.",
+    "aviso_grave": "Alto potencial de dependência e tolerância mesmo com uso de curto prazo. Amnésia anterógrada pode ser grave — alguns pacientes fazem coisas (dirigir, comer, ligar) sem se lembrar. Insônia de rebote intensa ao parar. Não usar em idosos — quedas e confusão. Interação perigosa com álcool e CYP3A4.",
+    "recomendacao": "⚠️ Tomar imediatamente antes de deitar — não após tomar. Garantir 7 a 8 horas de tempo na cama após a dose. Não associar com álcool. Uso máximo 2 semanas para evitar dependência.",
+    "educacao": "O triazolam pode causar comportamentos automáticos sem memória — como comer, fazer ligações ou dirigir enquanto ainda sob efeito, sem se lembrar depois. Se isso ocorrer, informe o médico imediatamente.",
+    "resposta_rapida": [
+      "Benzodiazepínico de ultracurta ação para insônia",
+      "Controle especial B1 — receita azul retida",
+      "Máximo 2 semanas de uso",
+      "Amnésia anterógrada — comportamentos automáticos",
+      "Não usar com álcool"
+    ],
+    "receita_obrigatoria": true,
+    "tipo_receita": "B1",
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Triazolam causa amnésia?",
+        "resposta": "Sim, amnésia anterógrada — impede a formação de memórias após a tomada. Em doses maiores ou combinado com álcool, pode causar episódios mais longos de comportamento automático sem memória. Tome sempre imediatamente antes de deitar."
+      },
+      {
+        "pergunta": "Triazolam é bom para insônia?",
+        "resposta": "Para insônia de início do sono e de curto prazo, sim. A ultracurta duração reduz o efeito residual matinal. Mas não é adequado para insônia crônica — causa dependência rapidamente e piora a insônia com o tempo."
+      },
+      {
+        "pergunta": "O que é insônia de rebote?",
+        "resposta": "Quando para-se de usar triazolam após algumas semanas, a insônia volta mais intensa do que antes. Isso é a insônia de rebote — um sinal de que o organismo ficou dependente do medicamento para dormir."
+      },
+      {
+        "pergunta": "Triazolam pode ser usado em idosos?",
+        "resposta": "Não é recomendado. Idosos são mais sensíveis aos benzodiazepínicos — maior risco de confusão mental, quedas e fratura de quadril. Consta na Lista de Beers de medicamentos potencialmente inapropriados para idosos."
+      },
+      {
+        "pergunta": "Por quanto tempo posso usar triazolam?",
+        "resposta": "Idealmente no máximo 2 semanas. O uso prolongado causa tolerância (precisa de doses maiores para dormir) e dependência física. A retirada após uso longo deve ser gradual para evitar crise de abstinência."
+      }
+    ],
+    "descricao_seo": "Triazolam 0,125mg - 0,25mg (Halcion) é um benzodiazepínico hipnótico de ultracurta ação para insônia. Controle especial B1. Uso máximo 2 semanas. Risco de amnésia anterógrada, dependência e insônia de rebote.",
+    "alerta_farmaceutico": "Ultracurta ação mas alto potencial de dependência. Inibidores de CYP3A4 (cetoconazol, eritromicina, sumo de toranja) aumentam muito os níveis — risco de toxicidade. Contraindicado em idosos. Verificar outros depressores do SNC em uso.",
+    "quando_procurar_medico": "Procure médico se: dificuldade de parar de usar, insônia pior que antes de iniciar (rebote), episódios de sonambulismo ou comportamentos sem memória, ansiedade ou tremores ao tentar parar (abstinência).",
+    "interacoes": []
+  },
+  {
+    "nome": "Nitrazepam 5mg - 10mg",
+    "generico": "Nitrazepam",
+    "tipo": "Benzodiazepínico hipnótico de ação intermediária",
+    "sinonimos": ["nitrazepam", "mogadon", "sonipam", "nitrazepam 5mg", "nitrazepam 10mg", "mogadon 5mg"],
+    "descricao": "Benzodiazepínico de ação intermediária (meia-vida de 16 a 38 horas). Usado para insônia e, em pediatria, para espasmos infantis (Síndrome de West) e epilepsia refratária. Causa mais sedação residual que o triazolam.",
+    "receita": "Sim",
+    "receita_display": "🔴 Controlado B1 — Receita Azul (Benzodiazepínico)",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Psicotrópico benzodiazepínico categoria B1. Exige receita azul de controle especial em duas vias. Retirada máxima: 30 dias.",
+    "receita_nota": "Meia-vida longa — efeito residual na manhã seguinte é esperado. Cuidado ao dirigir no dia seguinte.",
+    "efeitos": "Sedação residual matinal (ressaca), amnésia anterógrada, hipotonia muscular, ataxia, insônia de rebote ao parar, dependência.",
+    "aviso_grave": "Em crianças: pode causar hipersecreção brônquica e apneia — uso pediátrico restrito a epilepsia refratária com supervisão especializada. Em idosos: sedação prolongada aumenta risco de quedas e fraturas. Meia-vida longa implica acúmulo com doses repetidas.",
+    "recomendacao": "⚠️ Meia-vida longa — não dirigir nem operar máquinas na manhã seguinte. Uso para insônia limitado a 2 a 4 semanas. Em uso pediátrico para epilepsia, monitorar função respiratória.",
+    "educacao": "Diferente do triazolam, o nitrazepam fica ativo no organismo por muitas horas após acordar. É normal sentir sono e lentidão no dia seguinte — por isso não dirigir. Em crianças com espasmos infantis, é uma das poucas opções eficazes.",
+    "resposta_rapida": [
+      "Benzodiazepínico de ação intermediária",
+      "Controle especial B1 — receita azul retida",
+      "Sedação residual na manhã — não dirigir",
+      "Usado também para espasmos infantis",
+      "Máximo 2 a 4 semanas para insônia"
+    ],
+    "receita_obrigatoria": true,
+    "tipo_receita": "B1",
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Qual a diferença entre nitrazepam e triazolam para insônia?",
+        "resposta": "O triazolam tem ação ultracurta (2 a 5 horas) — bom para adormecer, pouco efeito residual. O nitrazepam tem ação intermediária (16 a 38 horas) — mantém o sono por mais tempo, mas causa sonolência no dia seguinte."
+      },
+      {
+        "pergunta": "Nitrazepam é usado em crianças?",
+        "resposta": "Sim, especificamente para espasmos infantis (Síndrome de West) e algumas epilepsias pediátricas refratárias. O uso em crianças é restrito a epilepsia sob supervisão de neuropediatra — não para insônia infantil."
+      },
+      {
+        "pergunta": "Por que sinto sono no dia seguinte ao tomar nitrazepam?",
+        "resposta": "Porque a meia-vida é longa (até 38 horas) — o medicamento ainda está ativo no organismo na manhã seguinte. É a chamada sedação residual ou \"ressaca\". Por isso evite dirigir ou atividades que exijam atenção no dia seguinte."
+      },
+      {
+        "pergunta": "Nitrazepam causa dependência?",
+        "resposta": "Sim, como todos os benzodiazepínicos. O risco é proporcional à dose e duração do uso. A retirada após uso prolongado deve ser gradual, pois a interrupção abrupta pode causar crise de abstinência com convulsões."
+      },
+      {
+        "pergunta": "Posso tomar nitrazepam com outros remédios para dormir?",
+        "resposta": "Não sem orientação médica. A combinação com outros depressores do SNC (álcool, outros benzodiazepínicos, opioides, anti-histamínicos sedativos) potencializa a sedação e pode causar depressão respiratória grave."
+      }
+    ],
+    "descricao_seo": "Nitrazepam 5mg - 10mg (Mogadon) é um benzodiazepínico hipnótico de ação intermediária para insônia e epilepsia pediátrica. Controle especial B1. Causa sedação residual na manhã seguinte — não dirigir. Máximo 4 semanas para insônia.",
+    "alerta_farmaceutico": "Meia-vida longa — acumula com doses repetidas, especialmente em idosos e hepatopatas. Risco aumentado de queda em idosos. Em crianças, monitorar função respiratória. Verificar outros depressores do SNC — potencialização da sedação.",
+    "quando_procurar_medico": "Procure médico se: dificuldade de parar de usar, insônia pior que antes do tratamento (rebote), confusão mental prolongada, tremores ou convulsões ao tentar parar (abstinência). Em crianças: procure emergência se dificuldade respiratória após dose.",
+    "interacoes": []
+  },
+  {
+    "nome": "Tizanidina 2mg - 4mg",
+    "generico": "Tizanidina",
+    "tipo": "Relaxante muscular de ação central — Agonista alfa-2 adrenérgico",
+    "sinonimos": ["tizanidina", "sirdalud", "tizanidina 2mg", "tizanidina 4mg", "sirdalud 4mg", "sirdalud mr"],
+    "descricao": "Relaxante muscular de ação central que atua como agonista dos receptores alfa-2 adrenérgicos na medula espinal, reduzindo a espasticidade. Usado para espasticidade muscular na esclerose múltipla, AVC, lesão medular e também para contraturas musculares agudas.",
+    "receita": "Sim",
+    "receita_display": "🔴 Receita Simples",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia.",
+    "receita_nota": "Iniciar com doses baixas (2mg) e aumentar gradualmente. Monitorar pressão arterial e função hepática.",
+    "efeitos": "Sedação intensa (muito comum), hipotensão (especialmente postural), boca seca, tontura, fraqueza muscular, alucinações (em doses altas), hepatotoxicidade (rara).",
+    "aviso_grave": "Hepatotoxicidade: monitorar enzimas hepáticas no início do tratamento e periodicamente. Hipotensão intensa — especialmente combinada com anti-hipertensivos ou álcool. Não interromper abruptamente após uso prolongado — risco de hipertensão rebote e taquicardia. Interação grave com ciprofloxacino e fluvoxamina (aumentam muito os níveis).",
+    "recomendacao": "⚠️ Não dirigir — sedação intensa. Levantar devagar (hipotensão postural). Monitorar pressão e exames de fígado. Não usar com ciprofloxacino ou fluvoxamina. Não parar abruptamente após uso prolongado.",
+    "educacao": "A sedação intensa é esperada, especialmente no início. Não beba álcool — potencializa a sedação e a queda de pressão. Se tiver tomando antibiótico (especialmente ciprofloxacino), avise o médico — a combinação pode ser perigosa.",
+    "resposta_rapida": [
+      "Relaxante muscular para espasticidade",
+      "Receita simples",
+      "Sedação intensa — não dirigir",
+      "Interação grave com ciprofloxacino",
+      "Monitorar fígado e pressão arterial"
+    ],
+    "receita_obrigatoria": true,
+    "tipo_receita": "simples",
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Tizanidina é só para espasticidade ou também para tensão muscular comum?",
+        "resposta": "É aprovada para espasticidade (na esclerose múltipla, AVC, lesão medular), mas frequentemente usada off-label para dor lombar com contraturas agudas. Para tensão muscular crônica, há outras opções com menos efeitos colaterais."
+      },
+      {
+        "pergunta": "Tizanidina causa muito sono?",
+        "resposta": "Sim, é um dos efeitos mais comuns — sedação intensa, especialmente nas primeiras doses. O médico normalmente orienta tomar à noite ou em doses baixas durante o dia para minimizar esse efeito."
+      },
+      {
+        "pergunta": "Por que não posso tomar tizanidina com ciprofloxacino?",
+        "resposta": "O ciprofloxacino (antibiótico quinolona) inibe fortemente a enzima CYP1A2 que metaboliza a tizanidina — os níveis de tizanidina podem aumentar até 10 vezes, causando hipotensão grave, sedação extrema e bradicardia. A combinação é contraindicada."
+      },
+      {
+        "pergunta": "Tizanidina pode causar problemas no fígado?",
+        "resposta": "Em uma minoria de pacientes, sim. Por isso é recomendado monitorar as enzimas hepáticas (TGO, TGP) no início do tratamento e periodicamente. Se sentir dor abdominal, icterícia (amarelamento) ou urina escura, procure médico."
+      },
+      {
+        "pergunta": "Posso parar tizanidina de repente?",
+        "resposta": "Após uso prolongado, não. A retirada abrupta pode causar hipertensão de rebote, taquicardia e agitação — semelhante à retirada de clonidina. Reduza gradualmente com orientação médica."
+      }
+    ],
+    "descricao_seo": "Tizanidina 2mg - 4mg (Sirdalud) é um relaxante muscular central para espasticidade e contraturas. Receita simples. Sedação intensa — não dirigir. Interação grave com ciprofloxacino. Monitorar fígado e pressão arterial.",
+    "alerta_farmaceutico": "Interação grave e contraindicada com ciprofloxacino e fluvoxamina (inibem CYP1A2 — aumentam muito os níveis). Hipotensão aditiva com anti-hipertensivos e álcool. Verificar função hepática antes de dispensar cronicamente. Não interromper abruptamente após uso prolongado.",
+    "quando_procurar_medico": "Procure médico se: tontura muito intensa ao levantar (hipotensão), icterícia, urina escura ou dor abdominal (hepatotoxicidade), alucinações. Informe o médico antes de usar qualquer antibiótico (especialmente ciprofloxacino ou levofloxacino).",
+    "interacoes": []
+  },
+  {
+    "nome": "Mesoridazina 10mg - 50mg (descontinuada)",
+    "generico": "Mesoridazina",
+    "tipo": "Antipsicótico típico — Fenotiazínico (RETIRADO DO MERCADO)",
+    "sinonimos": ["mesoridazina", "serentil", "mesoridazina 25mg", "serentil 25mg"],
+    "descricao": "Antipsicótico típico fenotiazínico, metabólito ativo da tioridazina. Retirado do mercado em 2004 por toxicidade cardíaca grave (prolongamento do QT e torsades de pointes). Não disponível no Brasil. Mantido como referência informativa.",
+    "receita": "Sim",
+    "receita_display": "🔴 Receita Especial B2 — Psicotrópico (descontinuado)",
+    "receita_cor": "vermelho",
+    "receita_descricao": "Medicamento descontinuado — retirado do mercado. Não disponível no Brasil.",
+    "receita_nota": "ATENÇÃO: Medicamento retirado do mercado. Não disponível para prescrição ou dispensação.",
+    "efeitos": "Prolongamento grave do QT (risco de arritmia fatal), sedação intensa, hipotensão postural, boca seca, sintomas extrapiramidais (menor incidência), hiperprolactinemia.",
+    "aviso_grave": "MEDICAMENTO RETIRADO DO MERCADO. Causa prolongamento grave do intervalo QT com risco de torsades de pointes e morte súbita. Qualquer paciente ainda usando mesoridazina deve ser encaminhado urgentemente ao psiquiatra para substituição.",
+    "recomendacao": "⚠️ Medicamento descontinuado. Não disponível nas farmácias. Se encontrar de alguma fonte informal, não use — o risco cardíaco é real e grave. Procure psiquiatra para avaliação e prescrição de alternativa segura.",
+    "educacao": "A mesoridazina foi retirada do mercado pelo mesmo motivo que a tioridazina — risco inaceitável de arritmia cardíaca fatal. Antipsicóticos atípicos modernos oferecem eficácia semelhante com muito mais segurança.",
+    "resposta_rapida": [
+      "Antipsicótico típico RETIRADO DO MERCADO em 2004",
+      "Não disponível no Brasil",
+      "Causa arritmia cardíaca grave (torsades de pointes)",
+      "Substituir urgentemente se ainda em uso",
+      "Referência histórica/informativa"
+    ],
+    "receita_obrigatoria": true,
+    "tipo_receita": "B2",
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Por que a mesoridazina foi retirada do mercado?",
+        "resposta": "Por causar prolongamento grave do intervalo QT — predispondo à arritmia ventricular fatal chamada torsades de pointes. O risco era considerado inaceitável diante das alternativas disponíveis."
+      },
+      {
+        "pergunta": "Mesoridazina ainda existe em algum lugar?",
+        "resposta": "Foi retirada do mercado na maioria dos países ao redor de 2004. Não está disponível em farmácias no Brasil. Qualquer acesso informal a esse medicamento representa risco cardíaco grave."
+      },
+      {
+        "pergunta": "Qual é a diferença entre mesoridazina e tioridazina?",
+        "resposta": "A mesoridazina é o principal metabólito ativo da tioridazina — ou seja, parte do efeito da tioridazina é mediado pela sua conversão em mesoridazina no organismo. Ambas foram retiradas do mercado pelos mesmos motivos cardíacos."
+      },
+      {
+        "pergunta": "O que substituiu a mesoridazina?",
+        "resposta": "Antipsicóticos atípicos (segunda geração) como olanzapina, quetiapina, risperidona e aripiprazol oferecem eficácia antipsicótica com perfil de segurança muito superior, sem o risco cardíaco da mesoridazina."
+      },
+      {
+        "pergunta": "Se ainda estou tomando mesoridazina, o que devo fazer?",
+        "resposta": "Procure psiquiatra imediatamente. O medicamento não deveria estar disponível. A continuação do uso representa risco real de arritmia cardíaca fatal. A substituição deve ser feita gradualmente sob supervisão médica."
+      }
+    ],
+    "descricao_seo": "Mesoridazina (Serentil) é um antipsicótico típico fenotiazínico retirado do mercado em 2004 por causar arritmia cardíaca grave (torsades de pointes). Não disponível no Brasil. Referência histórica e informativa.",
+    "alerta_farmaceutico": "DESCONTINUADO — não dispensar em hipótese alguma. Se paciente apresentar receita ou solicitar mesoridazina, orientar imediatamente a buscar avaliação psiquiátrica urgente para substituição por antipsicótico seguro disponível.",
+    "quando_procurar_medico": "Se ainda usa mesoridazina: procure psiquiatra imediatamente para substituição. Procure emergência se sentir palpitações, síncope, tontura intensa ou desmaio (possível arritmia grave).",
+    "interacoes": []
+  }
+]
