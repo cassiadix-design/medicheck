@@ -1171,6 +1171,24 @@ border-radius:0 0 20px 20px;
 
                 const mcCacheIA = {};
 
+                const mcAlias = {
+                    'aurorix':'moclobemida','moclox':'moclobemida',
+                    'nardil':'fenelzina',
+                    'flufenan':'flufenazina','moditen':'flufenazina','prolixin':'flufenazina',
+                    'marplan':'isocarboxazida',
+                    'tossex':'dextrometorfano','vick 44':'dextrometorfano','dextromethorphan':'dextrometorfano','novahistina':'dextrometorfano',
+                    'stavigile':'modafinil','modiodal':'modafinil','provigil':'modafinil',
+                    'orap':'pimozida',
+                    'jumex':'selegilina','eldepryl':'selegilina','emsam':'selegilina',
+                    'melleril':'tioridazina',
+                    'detrusitol':'tolterodina',
+                    'parnate':'tranilcipromina',
+                    'halcion':'triazolam',
+                    'sirdalud':'tizanidina','zanaflex':'tizanidina',
+                    'serentil':'mesoridazina',
+                };
+                function mcNorm(n) { const k = n.toLowerCase().trim(); return mcAlias[k] || n; }
+
                 // ===== DETECÇÃO DE DUPLICAÇÃO TERAPÊUTICA =====
                 /* mcClassesDuplicacao movido para mc-interacoes-data.js */
 
@@ -1232,8 +1250,8 @@ border-radius:0 0 20px 20px;
                 }
 
                 async function mcVerificar() {
-                    const m1 = document.getElementById('mc-inter1').value.trim();
-                    const m2 = document.getElementById('mc-inter2').value.trim();
+                    const m1 = mcNorm(document.getElementById('mc-inter1').value.trim());
+                    const m2 = mcNorm(document.getElementById('mc-inter2').value.trim());
                     if (!m1 || !m2) { alert('Por favor, preencha os dois medicamentos.'); return; }
 
                     const resultado = document.getElementById('mc-resultado-ia');
