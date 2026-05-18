@@ -9502,6 +9502,160 @@ var mcInteracoesDB = [
     "mecanismo": "A indapamida causa depleção de sódio e ativação do sistema renina-angiotensina. A introdução de IECA ou BRA nesse contexto bloqueia abruptamente a angiotensina II — podendo causar queda brusca da PA na primeira dose (fenômeno de primeira dose).",
     "efeito": "Hipotensão aguda, tontura, síncope — especialmente nas primeiras horas após a primeira dose do IECA/BRA em paciente usando indapamida.",
     "conduta": "⚠️ Iniciar IECA/BRA com dose mínima. Orientar o paciente a tomar a primeira dose à noite, deitado. Monitorar PA nas primeiras 2 horas após a 1ª dose. A combinação é eficaz e amplamente utilizada após o ajuste."
+  },
+  {
+    "med1": [
+      "dronedarona",
+      "multaq"
+    ],
+    "med2": [
+      "warfarina",
+      "varfarina",
+      "acenocumarol",
+      "sintrom"
+    ],
+    "nivel": "moderado",
+    "titulo": "Dronedarona + Anticoagulante Cumarínico (Aumento do INR por Inibição de CYP2C9)",
+    "mecanismo": "A dronedarona inibe moderadamente a CYP2C9, principal enzima responsável pelo metabolismo do S-warfarina (enantiômero mais ativo). A co-administração eleva o INR em média 1,2–1,7 vezes acima do valor prévio.",
+    "efeito": "Risco aumentado de sangramento — equimoses, epistaxe, hematúria, sangramento gastrointestinal e, nos casos graves, hemorragia intracraniana.",
+    "conduta": "⚠️ Monitorar INR com maior frequência ao iniciar ou suspender a dronedarona. Ajustar a dose do cumarínico conforme INR. Considerar troca para anticoagulante de ação direta (apixabana, rivaroxabana) como alternativa mais previsível."
+  },
+  {
+    "med1": [
+      "dronedarona",
+      "multaq"
+    ],
+    "med2": [
+      "dabigatrana",
+      "pradaxa"
+    ],
+    "nivel": "moderado",
+    "titulo": "Dronedarona + Dabigatrana (Inibição de P-gp — Aumento dos Níveis de Dabigatrana)",
+    "mecanismo": "A dronedarona é inibidora da glicoproteína P (P-gp). A dabigatrana (etexilato) é substrato da P-gp para absorção intestinal. A co-administração reduz a secreção intestinal de dabigatrana, elevando seus níveis plasmáticos em 70–100%.",
+    "efeito": "Aumento significativo da exposição à dabigatrana — com risco de sangramento maior, incluindo hemorragia gastrointestinal e intracraniana.",
+    "conduta": "⚠️ A associação é contraindicada na maioria das diretrizes quando a função renal está reduzida (ClCr < 50 mL/min). Com função renal normal, usar dabigatrana 110mg 2×/dia e monitorar função renal. Considerar apixabana ou rivaroxabana como alternativa mais segura."
+  },
+  {
+    "med1": [
+      "dronedarona",
+      "multaq"
+    ],
+    "med2": [
+      "rifampicina",
+      "rifampin"
+    ],
+    "nivel": "alto",
+    "titulo": "Dronedarona + Rifampicina (Indução de CYP3A4 — Perda da Eficácia Antiarrítmica)",
+    "mecanismo": "A rifampicina é indutora potente de CYP3A4, principal via de metabolismo da dronedarona. A co-administração reduz a exposição à dronedarona em mais de 80%, tornando-a ineficaz para controle do ritmo cardíaco.",
+    "efeito": "Perda do controle do ritmo na FA — recorrência de fibrilação atrial e risco de eventos tromboembólicos.",
+    "conduta": "🚫 Combinação contraindicada. Substituir a rifampicina por antibiótico alternativo (azitromicina, fluoroquinolona com cuidado para QT) ou substituir a dronedarona por outro antiarrítmico não dependente de CYP3A4."
+  },
+  {
+    "med1": [
+      "dronedarona",
+      "multaq"
+    ],
+    "med2": [
+      "verapamil",
+      "diltiazem"
+    ],
+    "nivel": "alto",
+    "titulo": "Dronedarona + Verapamil / Diltiazem (Bradicardia Grave e Bloqueio AV)",
+    "mecanismo": "A dronedarona prolonga o intervalo PR por ação sobre canais de cálcio e canais Ih. O verapamil e o diltiazem são bloqueadores dos canais de cálcio com efeito cronotrópico e dromotrópico negativo pronunciado. A combinação potencializa o risco de bloqueio atrioventricular.",
+    "efeito": "Bradicardia grave (FC < 50 bpm), bloqueio AV de 1º, 2º ou 3º grau, tonturas e síncope. Em idosos: risco de colapso hemodinâmico.",
+    "conduta": "🚫 Se a combinação for inevitável: realizar ECG antes de iniciar e em 1–2 semanas. Iniciar verapamil ou diltiazem em dose mínima e monitorar FC e intervalo PR rigorosamente. Em geral, evitar a combinação."
+  },
+  {
+    "med1": [
+      "sotalol",
+      "sotacor"
+    ],
+    "med2": [
+      "hidroclorotiazida",
+      "furosemida",
+      "bumetanida",
+      "ácido etacrínico",
+      "indapamida",
+      "clortalidona"
+    ],
+    "nivel": "alto",
+    "titulo": "Sotalol + Diurético Hipocalemiante (Hipocalemia → Torsades de Pointes)",
+    "mecanismo": "O sotalol prolonga o intervalo QT por bloqueio de canais de potássio IKr. A hipocalemia induzida por diuréticos tiazídicos e de alça potencializa o bloqueio dos canais de potássio, aumentando ainda mais o QTc e o risco de taquicardia ventricular polimórfica.",
+    "efeito": "QT prolongado e risco de Torsades de Pointes — taquicardia ventricular polimórfica potencialmente fatal. O risco é maior com doses elevadas de sotalol e hipocalemia grave (K⁺ < 3,0 mEq/L).",
+    "conduta": "🚫 Monitorar potássio sérico rigorosamente ao combinar sotalol com diuréticos. Manter K⁺ ≥ 4,0 mEq/L durante uso de sotalol. Considerar adição de diurético poupador de potássio (espironolactona, amilorida) ou suplementação oral de KCl. Realizar ECG periódico."
+  },
+  {
+    "med1": [
+      "sotalol",
+      "sotacor"
+    ],
+    "med2": [
+      "verapamil",
+      "diltiazem"
+    ],
+    "nivel": "alto",
+    "titulo": "Sotalol + Verapamil / Diltiazem (Bradicardia Grave e Bloqueio AV — Risco de Colapso)",
+    "mecanismo": "O sotalol é beta-bloqueador não seletivo com propriedades antiarrítmicas classe III (prolongamento do QT). O verapamil e o diltiazem são bloqueadores dos canais de cálcio com ação cronotrópica e dromotrópica negativa. A combinação é sinérgica para depressão da condução e do automatismo cardíacos.",
+    "efeito": "Bradicardia grave, bloqueio AV de alto grau (podendo chegar ao bloqueio completo), hipotensão severa e risco de parada cardíaca. Casos fatais foram relatados.",
+    "conduta": "🚫 Combinação geralmente contraindicada. Se absolutamente necessária, realizar apenas em ambiente hospitalar com monitorização contínua do ECG. Em pacientes ambulatoriais, substituir um dos fármacos."
+  },
+  {
+    "med1": [
+      "sotalol",
+      "sotacor"
+    ],
+    "med2": [
+      "insulina",
+      "insulina nph",
+      "insulina regular",
+      "insulina glargina",
+      "glibenclamida",
+      "gliclazida",
+      "glimepirida"
+    ],
+    "nivel": "moderado",
+    "titulo": "Sotalol + Antidiabético (Mascaramento da Taquicardia Hipoglicêmica)",
+    "mecanismo": "Como beta-bloqueador não seletivo, o sotalol bloqueia os receptores β2-adrenérgicos responsáveis por tremor e taquicardia — sinais de alerta de hipoglicemia. Além disso, pode prolongar e intensificar episódios hipoglicêmicos ao reduzir a glicogenólise mediada por catecolaminas.",
+    "efeito": "Mascaramento dos sinais adrenérgicos de hipoglicemia (tremor, palpitações) — o paciente pode não perceber a hipoglicemia a tempo. A sudorese persiste como sinal de alerta, mas pode ser insuficiente. Risco de hipoglicemia grave desapercebida.",
+    "conduta": "⚠️ Orientar paciente diabético em uso de sotalol a monitorar glicemia com maior frequência — especialmente antes de atividade física e durante ajuste de dose de insulina/hipoglicemiante. Reforçar que o tremor e as palpitações podem estar ausentes na hipoglicemia."
+  },
+  {
+    "med1": [
+      "clortalidona",
+      "higrotona",
+      "hygroton"
+    ],
+    "med2": [
+      "digoxina",
+      "lanoxin"
+    ],
+    "nivel": "moderado",
+    "titulo": "Clortalidona + Digoxina (Hipocalemia → Toxicidade Digitálica)",
+    "mecanismo": "A clortalidona causa perda renal de potássio e magnésio. A hipocalemia aumenta a afinidade da digoxina pela Na⁺/K⁺-ATPase miocárdica — potencializando sua toxicidade mesmo com digoxinemia dentro da faixa terapêutica. O efeito é intensificado pela hipomagnesemia associada.",
+    "efeito": "Toxicidade digitálica clinicamente significativa mesmo com níveis séricos de digoxina normais — bradicardia sinusal, bloqueio AV, extrassístoles ventriculares, náuseas e visão com halo amarelado/verde.",
+    "conduta": "⚠️ Monitorar potássio e magnésio séricos regularmente. Manter K⁺ ≥ 4,0 mEq/L e Mg²⁺ ≥ 0,8 mEq/L em pacientes digitalizados. Considerar adição de poupador de potássio (espironolactona) ou suplementação. Realizar ECG e digoxinemia se houver suspeita de toxicidade."
+  },
+  {
+    "med1": [
+      "clortalidona",
+      "higrotona",
+      "hygroton"
+    ],
+    "med2": [
+      "enalapril",
+      "captopril",
+      "lisinopril",
+      "ramipril",
+      "losartana",
+      "valsartana",
+      "candesartana",
+      "telmisartana"
+    ],
+    "nivel": "moderado",
+    "titulo": "Clortalidona + IECA / BRA (Hipotensão de Primeira Dose)",
+    "mecanismo": "A clortalidona tem ação prolongada (meia-vida de 45–60h) e causa depleção volumétrica e sódica sustentada, ativando o sistema renina-angiotensina. A introdução de IECA ou BRA nesse contexto bloqueia abruptamente o eixo renina-angiotensina, podendo causar queda intensa da PA.",
+    "efeito": "Hipotensão aguda e ortostática — tontura, síncope e, nos casos graves, insuficiência renal aguda pré-renal. O risco é maior em idosos, pacientes com depleção volumétrica ou que recebem doses altas de clortalidona.",
+    "conduta": "⚠️ Iniciar IECA/BRA com a menor dose disponível. Orientar a tomar a primeira dose à noite, deitado. Monitorar PA e creatinina/ureia nas primeiras semanas. A associação é amplamente usada e eficaz após o ajuste de doses."
   }
 ];
 
