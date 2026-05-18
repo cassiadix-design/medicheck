@@ -8828,6 +8828,417 @@
       "mecanismo": "A combinação de anticoagulante parenteral (fondaparinux) com antiagregante plaquetário provoca bloqueio simultâneo da coagulação e da função plaquetária — dupla inibição da hemostasia.",
       "efeito": "Risco muito elevado de sangramento grave, especialmente gastrointestinal e em locais de acesso vascular.",
       "conduta": "⚠️ A terapia combinada pode ser necessária em síndromes coronarianas agudas — usar pelo menor tempo possível e com monitoramento rigoroso de sinais de sangramento."
+    },
+    {
+      "med1": [
+        "moclobemida",
+        "aurorix"
+      ],
+      "med2": [
+        "fluoxetina",
+        "sertralina",
+        "escitalopram",
+        "paroxetina",
+        "citalopram",
+        "fluvoxamina",
+        "isrs"
+      ],
+      "nivel": "alto",
+      "titulo": "Moclobemida + ISRS (Síndrome Serotoninérgica)",
+      "mecanismo": "A moclobemida (RIMA) inibe reversivelmente a MAO-A, reduzindo a degradação de serotonina. Combinada com ISRS, que bloqueia a recaptação de serotonina, o efeito serotoninérgico é aditivo e pode precipitar síndrome serotoninérgica.",
+      "efeito": "Síndrome serotoninérgica — agitação, confusão, tremor, mioclonias, sudorese, taquicardia, hipertermia — podendo evoluir para convulsões e colapso cardiovascular em casos graves.",
+      "conduta": "❌ Contraindicado. Respeitar período de washout: 14 dias após suspender moclobemida antes de iniciar ISRS; 14 dias após suspender ISRS antes de iniciar moclobemida (exceto fluoxetina — 5 semanas de washout)."
+    },
+    {
+      "med1": [
+        "moclobemida",
+        "aurorix"
+      ],
+      "med2": [
+        "sumatriptana",
+        "naratriptana",
+        "rizatriptana",
+        "zolmitriptana",
+        "eletriptana",
+        "almotriptana",
+        "frovatriptana",
+        "triptano"
+      ],
+      "nivel": "alto",
+      "titulo": "Moclobemida + Triptano (Síndrome Serotoninérgica)",
+      "mecanismo": "A moclobemida inibe a degradação de serotonina via MAO-A. Os triptanos são agonistas de receptores 5-HT1 — a combinação eleva os efeitos serotoninérgicos de forma sinérgica.",
+      "efeito": "Síndrome serotoninérgica — hipertensão, taquicardia, agitação, tremor, hipertermia — potencialmente fatal.",
+      "conduta": "❌ Contraindicado. Evitar triptanos durante e até 24 horas após o uso de moclobemida. Em enxaqueca refratária com necessidade de triptano, discutir suspensão da moclobemida com washout adequado."
+    },
+    {
+      "med1": [
+        "moclobemida",
+        "aurorix"
+      ],
+      "med2": [
+        "tramadol",
+        "tramal"
+      ],
+      "nivel": "moderado",
+      "titulo": "Moclobemida + Tramadol (Síndrome Serotoninérgica)",
+      "mecanismo": "O tramadol inibe a recaptação de serotonina e noradrenalina além de sua ação opioide fraca. Combinado com moclobemida (inibidor de MAO-A), os níveis de serotonina aumentam de forma significativa.",
+      "efeito": "Síndrome serotoninérgica moderada a grave — agitação, tremor, diaforese, taquicardia, hipertermia.",
+      "conduta": "⚠️ Evitar. Substituir tramadol por opioide sem ação serotoninérgica (morfina, codeína) em pacientes usando moclobemida. Se uso conjunto for inevitável, monitorar sinais de síndrome serotoninérgica ativamente."
+    },
+    {
+      "med1": [
+        "moclobemida",
+        "aurorix"
+      ],
+      "med2": [
+        "tiramina",
+        "queijo maturado",
+        "vinho tinto",
+        "frios",
+        "embutidos"
+      ],
+      "nivel": "moderado",
+      "titulo": "Moclobemida + Tiramina (Crise Hipertensiva — Menos Intensa que IMAOs Irreversíveis)",
+      "mecanismo": "A moclobemida (RIMA) inibe de forma reversível e seletiva a MAO-A — ao contrário dos IMAOs irreversíveis, a tiramina pode competir pelo sítio ativo da MAO. Em doses normais o risco é menor, mas ingestão excessiva de tiramina pode superar a capacidade enzimática residual.",
+      "efeito": "Elevação da pressão arterial geralmente moderada após ingestão de grandes quantidades de alimentos ricos em tiramina. O risco é menor do que com IMAOs irreversíveis, mas real com excesso alimentar.",
+      "conduta": "⚠️ Restrição moderada de tiramina — evitar grandes quantidades de queijos muito maturados, embutidos curados e vinho tinto. Não é necessária restrição absoluta como com IMAOs irreversíveis, mas excesso deve ser evitado."
+    },
+    {
+      "med1": [
+        "flufenazina",
+        "flufenan"
+      ],
+      "med2": [
+        "álcool",
+        "alcool",
+        "etanol",
+        "bebida alcoólica"
+      ],
+      "nivel": "moderado",
+      "titulo": "Flufenazina + Álcool (Depressão do SNC e Hipotensão Postural)",
+      "mecanismo": "A flufenazina (antipsicótico típico) deprime o SNC e tem efeito α-bloqueador que causa hipotensão postural. O álcool potencializa ambos os efeitos por mecanismos aditivos sobre o SNC e sobre o controle vascular.",
+      "efeito": "Sedação excessiva, hipotensão postural grave com risco de síncope e quedas. Em idosos: risco elevado de fratura. Comprometimento cognitivo e psicomotor.",
+      "conduta": "⚠️ Proibir álcool durante o uso de flufenazina. Orientar sobre risco de tontura ao levantar (hipotensão ortostática) — especialmente perigoso quando associado ao álcool."
+    },
+    {
+      "med1": [
+        "flufenazina",
+        "flufenan",
+        "trifluoperazina"
+      ],
+      "med2": [
+        "amiodarona",
+        "sotalol",
+        "quinidina",
+        "dronedarona",
+        "antiarrítmico"
+      ],
+      "nivel": "alto",
+      "titulo": "Flufenazina / Trifluoperazina + Anti-arrítmico (Prolongamento do QT — Torsades de Pointes)",
+      "mecanismo": "Flufenazina e trifluoperazina são fenotiazinas que bloqueiam canais de potássio cardíacos (IKr), prolongando o intervalo QT. Combinadas com anti-arrítmicos que também prolongam o QT (amiodarona, sotalol, quinidina), o efeito é aditivo.",
+      "efeito": "Prolongamento aditivo do QTc com risco de Torsades de Pointes — arritmia ventricular polimórfica que pode degenerar em fibrilação ventricular e morte súbita.",
+      "conduta": "❌ Evitar a combinação. Se necessário, monitorar ECG (QTc) antes e durante o tratamento. Suspender se QTc > 500ms. Corrigir hipocalemia e hipomagnesemia que potencializam o risco."
+    },
+    {
+      "med1": [
+        "flufenazina",
+        "flufenan"
+      ],
+      "med2": [
+        "carbonato de lítio",
+        "lítio"
+      ],
+      "nivel": "moderado",
+      "titulo": "Flufenazina + Lítio (Toxicidade Neurotóxica)",
+      "mecanismo": "A combinação de antipsicótico típico com lítio pode aumentar a sensibilidade do SNC à toxicidade do lítio. Há relatos de síndrome neurotóxica — especialmente com lítio em nível sérico no limite superior ou em idosos.",
+      "efeito": "Toxicidade neurológica: tremor intenso, confusão, disartria, ataxia e, em casos graves, encefalopatia. O risco é maior com lítio > 1,0 mEq/L.",
+      "conduta": "⚠️ Monitorar lítio sérico com maior frequência. Manter lítio no limite inferior da faixa terapêutica (0,6–0,8 mEq/L). Vigilância rigorosa de sinais de toxicidade neurológica (tremor, dificuldade de fala, desorientação)."
+    },
+    {
+      "med1": [
+        "modafinil",
+        "stavigile",
+        "modiodal"
+      ],
+      "med2": [
+        "warfarina",
+        "varfarina",
+        "acenocumarol",
+        "sintrom"
+      ],
+      "nivel": "moderado",
+      "titulo": "Modafinil + Anticoagulante Cumarínico (Queda do INR por Indução de CYP2C9)",
+      "mecanismo": "O modafinil é indutor moderado de CYP2C9, principal via de metabolismo de warfarina e acenocumarol. A indução enzimática aumenta o clearance do anticoagulante, reduzindo seus níveis plasmáticos e o INR.",
+      "efeito": "Queda do INR com risco de subterapia anticoagulante — trombose, AVC e embolia pulmonar em pacientes com fibrilação atrial ou prótese valvar.",
+      "conduta": "⚠️ Monitorar INR em 5–7 dias após iniciar ou suspender modafinil. Ajustar dose de anticoagulante conforme necessário. Não suspender modafinil abruptamente em pacientes anticoagulados."
+    },
+    {
+      "med1": [
+        "modafinil",
+        "stavigile",
+        "modiodal"
+      ],
+      "med2": [
+        "ciclosporina",
+        "sandimmun"
+      ],
+      "nivel": "moderado",
+      "titulo": "Modafinil + Ciclosporina (Redução dos Níveis por Indução de CYP3A4)",
+      "mecanismo": "O modafinil induz CYP3A4, principal via de metabolismo da ciclosporina, acelerando sua depuração e reduzindo os níveis séricos.",
+      "efeito": "Queda dos níveis de ciclosporina abaixo do terapêutico — risco real de rejeição aguda em transplantados.",
+      "conduta": "❌ Evitar em transplantados em uso de ciclosporina. Se uso conjunto for indispensável, monitorar níveis de ciclosporina (C0/C2) semanalmente e ajustar dose. Ao suspender modafinil, reduzir ciclosporina gradualmente para evitar toxicidade por acúmulo."
+    },
+    {
+      "med1": [
+        "pimozida",
+        "orap"
+      ],
+      "med2": [
+        "cetoconazol",
+        "itraconazol",
+        "voriconazol",
+        "posaconazol",
+        "claritromicina",
+        "eritromicina"
+      ],
+      "nivel": "alto",
+      "titulo": "Pimozida + Inibidor de CYP3A4 (QT Prolongado — Risco Fatal)",
+      "mecanismo": "A pimozida é metabolizada primariamente pela CYP3A4. Inibidores desta enzima (azólicos e macrolídeos) elevam drasticamente seus níveis plasmáticos — e a pimozida já prolonga o QT de forma dose-dependente.",
+      "efeito": "Prolongamento grave do intervalo QTc com risco de Torsades de Pointes e fibrilação ventricular — potencialmente fatal. Casos de morte súbita cardíaca relatados com esta combinação.",
+      "conduta": "❌ Contraindicado absolutamente com inibidores potentes de CYP3A4. A FDA emitiu alerta específico para esta combinação. Se antifúngico for necessário, preferir terbinafina ou anfotericina B (sem inibição de CYP3A4)."
+    },
+    {
+      "med1": [
+        "pimozida",
+        "orap"
+      ],
+      "med2": [
+        "fluoxetina",
+        "paroxetina",
+        "fluvoxamina"
+      ],
+      "nivel": "alto",
+      "titulo": "Pimozida + ISRS Inibidor de CYP2D6 (QT Prolongado)",
+      "mecanismo": "A pimozida é parcialmente metabolizada pela CYP2D6. Fluoxetina, paroxetina e fluvoxamina inibem esta e outras vias metabólicas da pimozida — a fluvoxamina também inibe CYP1A2, elevando ainda mais os níveis. O acúmulo de pimozida prolonga o QTc de forma grave.",
+      "efeito": "Prolongamento grave do QTc com risco de Torsades de Pointes e morte súbita.",
+      "conduta": "❌ Contraindicado com fluoxetina, paroxetina e fluvoxamina. Se ISRS for necessário, usar sertralina ou escitalopram em doses baixas com monitoramento do ECG (QTc)."
+    },
+    {
+      "med1": [
+        "pimozida",
+        "orap",
+        "tioridazina",
+        "mesoridazina"
+      ],
+      "med2": [
+        "amiodarona",
+        "sotalol",
+        "quinidina",
+        "dronedarona",
+        "metadona",
+        "haloperidol"
+      ],
+      "nivel": "alto",
+      "titulo": "Pimozida / Tioridazina / Mesoridazina + QT Prolongadores (Risco de Morte Súbita)",
+      "mecanismo": "Pimozida, tioridazina e mesoridazina são os antipsicóticos com maior risco de prolongamento de QT — bloqueio de canais hERG/IKr cardíacos. Combinados com outros QT prolongadores (antiarrítmicos classe IA/III, metadona, outros antipsicóticos), o efeito é aditivo e pode ser fatal.",
+      "efeito": "Prolongamento grave do QTc com alto risco de Torsades de Pointes, fibrilação ventricular e morte súbita — mesmo em pacientes sem cardiopatia prévia conhecida.",
+      "conduta": "❌ Evitar qualquer combinação de pimozida, tioridazina ou mesoridazina com outros QT prolongadores. Monitorar ECG obrigatoriamente. Corrigir hipocalemia e hipomagnesemia. Considerar substituição por antipsicótico com menor risco de QT (aripiprazol)."
+    },
+    {
+      "med1": [
+        "selegilina",
+        "jumex",
+        "eldepryl"
+      ],
+      "med2": [
+        "fluoxetina",
+        "sertralina",
+        "escitalopram",
+        "paroxetina",
+        "citalopram",
+        "fluvoxamina"
+      ],
+      "nivel": "alto",
+      "titulo": "Selegilina + ISRS (Síndrome Serotoninérgica)",
+      "mecanismo": "Em doses baixas (5–10mg/dia), a selegilina inibe seletivamente MAO-B. Porém, mesmo nessas doses, a combinação com ISRSs que elevam a serotonina sináptica pode precipitar síndrome serotoninérgica — o risco aumenta com doses > 10mg/dia, quando a seletividade se perde.",
+      "efeito": "Síndrome serotoninérgica — agitação, hipertermia, rigidez muscular, mioclonias, taquicardia, sudorese, convulsões — potencialmente fatal.",
+      "conduta": "❌ Contraindicado. Respeitar washout de 14 dias após suspender selegilina antes de iniciar ISRS; 14 dias (ou 5 semanas para fluoxetina) após suspender ISRS antes de iniciar selegilina."
+    },
+    {
+      "med1": [
+        "selegilina",
+        "jumex",
+        "eldepryl"
+      ],
+      "med2": [
+        "sumatriptana",
+        "naratriptana",
+        "rizatriptana",
+        "zolmitriptana",
+        "eletriptana",
+        "triptano"
+      ],
+      "nivel": "alto",
+      "titulo": "Selegilina + Triptano (Síndrome Serotoninérgica)",
+      "mecanismo": "A selegilina inibe MAO-B (e parcialmente MAO-A em doses altas), reduzindo a degradação de serotonina. Os triptanos são agonistas serotonérgicos diretos (5-HT1). A combinação eleva o tônus serotonérgico central de forma perigosa.",
+      "efeito": "Síndrome serotoninérgica — cefaleia grave, hipertensão, hipertermia, agitação, tremor.",
+      "conduta": "❌ Contraindicado. Usar analgésicos não-serotonérgicos para crises de enxaqueca em pacientes com selegilina (AINEs, paracetamol — nunca triptanos)."
+    },
+    {
+      "med1": [
+        "selegilina",
+        "jumex"
+      ],
+      "med2": [
+        "tiramina",
+        "queijo maturado",
+        "vinho tinto",
+        "frios",
+        "embutidos"
+      ],
+      "nivel": "moderado",
+      "titulo": "Selegilina em Dose Alta + Tiramina (Crise Hipertensiva)",
+      "mecanismo": "Em doses baixas (5–10mg/dia oral), a selegilina tem seletividade MAO-B e o risco com tiramina é mínimo. Em doses > 10mg/dia ou na forma transdérmica em dose alta, a seletividade se perde e MAO-A também é inibida — com o mesmo risco dos IMAOs irreversíveis.",
+      "efeito": "Crise hipertensiva com doses altas — cefaleia súbita e intensa, rigidez de nuca, risco de AVC hemorrágico.",
+      "conduta": "⚠️ Em dose baixa oral (5–10mg/dia): sem restrição rigorosa de tiramina. Com doses > 10mg/dia ou sistema transdérmico de alta dose: seguir restrição de tiramina equivalente a IMAO irreversível (evitar queijos maturados, embutidos curados e vinho tinto em quantidade)."
+    },
+    {
+      "med1": [
+        "tioridazina",
+        "mesoridazina"
+      ],
+      "med2": [
+        "álcool",
+        "alcool",
+        "etanol",
+        "bebida alcoólica"
+      ],
+      "nivel": "moderado",
+      "titulo": "Tioridazina / Mesoridazina + Álcool (Depressão do SNC e Risco Cardiovascular)",
+      "mecanismo": "Tioridazina e mesoridazina são fenotiazinas com efeito sedativo, anticolinérgico e α-bloqueador. O álcool potencializa todos esses efeitos por mecanismos aditivos sobre o SNC e sobre o controle cardiovascular — e ambas já têm alto risco de prolongamento do QT de forma independente.",
+      "efeito": "Sedação profunda, hipotensão ortostática grave, taquicardia e agravamento do risco de prolongamento do QT. Em idosos: risco elevado de queda e fratura. Risco de comprometimento cardiovascular grave.",
+      "conduta": "⚠️ Álcool absolutamente contraindicado durante o uso de tioridazina e mesoridazina. Reforçar orientação ao paciente sobre risco de síncope, quedas e alterações do ritmo cardíaco."
+    },
+    {
+      "med1": [
+        "tolterodina",
+        "detrusitol"
+      ],
+      "med2": [
+        "cetoconazol",
+        "itraconazol",
+        "voriconazol",
+        "claritromicina",
+        "ritonavir"
+      ],
+      "nivel": "moderado",
+      "titulo": "Tolterodina + Inibidor de CYP3A4 (Toxicidade Anticolinérgica por Acúmulo)",
+      "mecanismo": "A tolterodina é metabolizada pela CYP3A4 e CYP2D6. Inibidores potentes de CYP3A4 (cetoconazol, claritromicina, ritonavir) elevam os níveis de tolterodina em até 4–5 vezes — aumentando o risco de toxicidade anticolinérgica.",
+      "efeito": "Síndrome anticolinérgica por supradosagem relativa — boca seca intensa, retenção urinária, constipação, visão turva, taquicardia, confusão mental (especialmente em idosos).",
+      "conduta": "⚠️ Limitar dose de tolterodina a 1mg 2×/dia ao usar inibidores potentes de CYP3A4. Avaliar alternativa com beta-3 agonista (mirabegron) — sem bloqueio anticolinérgico e sem interação relevante de CYP3A4."
+    },
+    {
+      "med1": [
+        "tolterodina",
+        "detrusitol"
+      ],
+      "med2": [
+        "biperideno",
+        "escopolamina",
+        "oxibutinina",
+        "hioscina",
+        "prometazina",
+        "difenidramina",
+        "amitriptilina",
+        "imipramina"
+      ],
+      "nivel": "moderado",
+      "titulo": "Tolterodina + Outros Anticolinérgicos (Síndrome Anticolinérgica Cumulativa)",
+      "mecanismo": "A tolterodina é um anticolinérgico urinário. Associada a outros fármacos com ação anticolinérgica (antidepressivos tricíclicos, anti-histamínicos clássicos, antipsicóticos), o bloqueio muscarínico total é aditivo.",
+      "efeito": "Síndrome anticolinérgica cumulativa — boca seca intensa, retenção urinária, constipação grave, visão turva, taquicardia, confusão e delirium — especialmente grave em idosos (critérios de Beers).",
+      "conduta": "⚠️ Revisar polifarmácia em idosos — a carga anticolinérgica total é mais importante que cada fármaco individualmente. Considerar mirabegron como alternativa sem efeito anticolinérgico adicional."
+    },
+    {
+      "med1": [
+        "dextrometorfano",
+        "dextromethorphan"
+      ],
+      "med2": [
+        "fluoxetina",
+        "paroxetina",
+        "sertralina",
+        "escitalopram",
+        "citalopram",
+        "fluvoxamina"
+      ],
+      "nivel": "moderado",
+      "titulo": "Dextrometorfano + ISRS (Síndrome Serotoninérgica e Elevação de Níveis)",
+      "mecanismo": "O dextrometorfano (DXM) inibe fracamente a recaptação de serotonina e é substrato de CYP2D6. ISRSs inibidores potentes de CYP2D6 (fluoxetina, paroxetina) elevam os níveis de DXM e seu efeito serotoninérgico.",
+      "efeito": "Síndrome serotoninérgica moderada a grave — agitação, tremor, mioclonias, sudorese, hipertermia — especialmente com fluoxetina e paroxetina (inibidores potentes de CYP2D6).",
+      "conduta": "⚠️ Evitar xaropes com dextrometorfano em pacientes usando fluoxetina ou paroxetina. Preferir mucolíticos sem DXM (ambroxol, carbocisteína) para tosse."
+    },
+    {
+      "med1": [
+        "dextrometorfano",
+        "dextromethorphan"
+      ],
+      "med2": [
+        "álcool",
+        "alcool",
+        "etanol",
+        "bebida alcoólica"
+      ],
+      "nivel": "moderado",
+      "titulo": "Dextrometorfano + Álcool (Potencialização da Depressão do SNC)",
+      "mecanismo": "O dextrometorfano é antagonista NMDA com efeitos dissociativos em doses elevadas. O álcool deprime o SNC por múltiplos mecanismos. A combinação potencializa mutuamente os efeitos depressores centrais.",
+      "efeito": "Sedação excessiva, comprometimento cognitivo e psicomotor, tontura e risco de efeitos dissociativos intensificados. Em doses altas de DXM com álcool: risco de psicose dissociativa aguda.",
+      "conduta": "⚠️ Evitar álcool durante uso de antitussígenos com dextrometorfano. Orientar sobre comprometimento da capacidade de conduzir veículos."
+    },
+    {
+      "med1": [
+        "tizanidina",
+        "sirdalud"
+      ],
+      "med2": [
+        "morfina",
+        "codeína",
+        "tramadol",
+        "oxicodona",
+        "fentanila",
+        "clonazepam",
+        "diazepam",
+        "alprazolam",
+        "bromazepam",
+        "lorazepam",
+        "zolpidem"
+      ],
+      "nivel": "moderado",
+      "titulo": "Tizanidina + Opioide / Benzodiazepínico (Sedação e Hipotensão Cumulativa)",
+      "mecanismo": "A tizanidina deprime o SNC via agonismo α2-adrenérgico central. Combinada com opioides ou benzodiazepínicos, o efeito depressor central e hipotensor é aditivo — aumentando o risco de sedação excessiva, depressão respiratória e quedas.",
+      "efeito": "Sedação profunda, hipotensão grave, tontura intensa e risco de queda — especialmente em idosos. Em doses elevadas: risco de depressão respiratória.",
+      "conduta": "⚠️ Usar com extrema cautela. Iniciar com dose mínima de tizanidina (2mg). Proibir álcool. Se possível, evitar associação com opioides e benzodiazepínicos — especialmente em idosos."
+    },
+    {
+      "med1": [
+        "tizanidina",
+        "sirdalud"
+      ],
+      "med2": [
+        "amlodipino",
+        "anlodipino",
+        "hidroclorotiazida",
+        "enalapril",
+        "captopril",
+        "losartana",
+        "valsartana",
+        "atenolol",
+        "propranolol"
+      ],
+      "nivel": "moderado",
+      "titulo": "Tizanidina + Anti-hipertensivo (Hipotensão Aditiva)",
+      "mecanismo": "A tizanidina tem ação hipotensora central via agonismo α2-adrenérgico — mecanismo similar à clonidina. Combinada com anti-hipertensivos, o efeito hipotensor é aditivo.",
+      "efeito": "Hipotensão ortostática significativa — tontura, lipotimia e risco de queda ao levantar. O risco é maior com a primeira dose ou após aumento de dose.",
+      "conduta": "⚠️ Monitorar pressão arterial, especialmente na posição em pé, ao iniciar tizanidina em pacientes hipertensos. Iniciar com 2mg e ajustar gradualmente. Orientar mudança de posição lentamente ao levantar."
     }
   ],
   "duplicacao": [
