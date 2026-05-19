@@ -10519,6 +10519,129 @@
       "mecanismo": "Combinação sinérgica de vasoconstritores. Zolmitriptana (agonista 5-HT1B/1D) e ergotamina/di-hidroergotamina causam vasoconstrição aditiva de artérias coronarianas, cerebrais e periféricas.",
       "efeito": "Vasoespasmo grave com risco de isquemia coronariana e cerebral. Elevação da pressão arterial. Casos de infarto periférico foram relatados.",
       "conduta": "🚫 Contraindicado. Separar por pelo menos 24 horas. Não combinar como estratégia de resgate na crise migranosa."
+    },
+    {
+      "med1": [
+        "imatinibe",
+        "gleevec",
+        "glivec"
+      ],
+      "med2": [
+        "warfarina",
+        "varfarina",
+        "acenocumarol",
+        "sintrom"
+      ],
+      "nivel": "alto",
+      "titulo": "Imatinibe + Varfarina / Warfarina (Inibição de CYP2C9 — Aumento do INR)",
+      "mecanismo": "O imatinibe inibe a CYP2C9 e a OATP1B1, comprometendo o metabolismo hepático do enantiômero S-warfarina (mais ativo). Os níveis de warfarina aumentam de forma clinicamente significativa e imprevisível.",
+      "efeito": "Aumento do INR com risco de sangramento grave — equimoses, epistaxe, hematúria, sangramento gastrointestinal e hemorragia intracraniana.",
+      "conduta": "⚠️ Monitorar INR com alta frequência ao iniciar, ajustar ou suspender imatinibe. Considerar substituir varfarina por anticoagulante de ação direta (apixabana, rivaroxabana) — sem metabolismo pela CYP2C9 e sem necessidade de monitoramento de INR."
+    },
+    {
+      "med1": [
+        "imatinibe",
+        "gleevec",
+        "glivec"
+      ],
+      "med2": [
+        "cetoconazol",
+        "ketoconazol",
+        "itraconazol",
+        "voriconazol",
+        "posaconazol",
+        "claritromicina",
+        "ritonavir"
+      ],
+      "nivel": "moderado",
+      "titulo": "Imatinibe + Inibidor de CYP3A4 (Aumento dos Níveis de Imatinibe — Toxicidade)",
+      "mecanismo": "O imatinibe é metabolizado principalmente pela CYP3A4. Inibidores potentes dessa enzima (azólicos sistêmicos, claritromicina, ritonavir) reduzem o clearance do imatinibe, elevando a exposição sistêmica em aproximadamente 40%.",
+      "efeito": "Aumento do risco de toxicidade do imatinibe — citopenias (neutropenia, trombocitopenia), edema, náuseas, elevação de transaminases e hepatotoxicidade.",
+      "conduta": "⚠️ Monitorar toxicidade do imatinibe (hemograma e transaminases) ao introduzir inibidor de CYP3A4. Considerar redução de dose de imatinibe se toxicidade surgir. Preferir antifúngico tópico ou alternativa sistêmica com menor interação de CYP3A4."
+    },
+    {
+      "med1": [
+        "erlotinibe",
+        "tarceva",
+        "gefitinibe",
+        "iressa",
+        "lapatinibe",
+        "tykerb",
+        "tyverb"
+      ],
+      "med2": [
+        "rifampicina",
+        "rifampin",
+        "carbamazepina",
+        "fenitoína",
+        "fenobarbital",
+        "primidona"
+      ],
+      "nivel": "alto",
+      "titulo": "Inibidor de Tirosina Quinase EGFR/HER2 + Indutor Potente de CYP3A4 (Falha Oncológica Grave)",
+      "mecanismo": "Erlotinibe, gefitinibe e lapatinibe são metabolizados predominantemente pela CYP3A4. Indutores potentes (rifampicina, carbamazepina, fenitoína, fenobarbital) reduzem os níveis plasmáticos em 66–83%, comprometendo dramaticamente a exposição ao antineoplásico.",
+      "efeito": "Falha terapêutica oncológica — níveis subterapêuticos do inibidor de tirosina quinase com possível progressão da doença.",
+      "conduta": "❌ Contraindicado. Substituir o indutor enzimático por alternativa sem indução de CYP3A4. Se indispensável, considerar aumento de dose supervisionado por oncologista especialista."
+    },
+    {
+      "med1": [
+        "erlotinibe",
+        "tarceva"
+      ],
+      "med2": [
+        "tabaco",
+        "cigarro",
+        "tabagismo"
+      ],
+      "nivel": "moderado",
+      "titulo": "Erlotinibe + Tabaco (Indução de CYP1A2 — Níveis Subterapêuticos)",
+      "mecanismo": "O tabaco induz a CYP1A2 no fígado e no intestino, acelerando o metabolismo do erlotinibe. Fumantes ativos apresentam redução de 50–60% na exposição ao erlotinibe em comparação a não-fumantes.",
+      "efeito": "Níveis subterapêuticos de erlotinibe — risco de falha no tratamento do carcinoma pulmonar não pequenas células (CPNPC) com mutação EGFR.",
+      "conduta": "⚠️ Cessação tabágica é parte integrante do tratamento com erlotinibe. Ao parar de fumar, os níveis aumentam — monitorar toxicidade e ajustar dose conforme necessário. Em fumantes que não conseguem parar, o oncologista pode considerar aumento da dose."
+    },
+    {
+      "med1": [
+        "lapatinibe",
+        "tykerb",
+        "tyverb"
+      ],
+      "med2": [
+        "amiodarona",
+        "cordarone",
+        "sotalol",
+        "sotacor",
+        "dronedarona",
+        "multaq",
+        "haloperidol",
+        "haldol",
+        "quetiapina",
+        "metadona",
+        "ondansetrona",
+        "azitromicina",
+        "moxifloxacino",
+        "clorpromazina"
+      ],
+      "nivel": "alto",
+      "titulo": "Lapatinibe + Prolongadores do Intervalo QT (Risco de Torsades de Pointes)",
+      "mecanismo": "O lapatinibe prolonga o intervalo QTc de forma dose-dependente por bloqueio dos canais hERG/IKr cardíacos. A combinação com outros fármacos que também prolongam o QT (antiarrítmicos, antipsicóticos, antibióticos, metadona) aumenta o risco de forma aditiva.",
+      "efeito": "Prolongamento grave do QTc com risco de Torsades de Pointes — arritmia ventricular polimórfica que pode degenerar em fibrilação ventricular e morte súbita.",
+      "conduta": "❌ Evitar combinações com outros prolongadores do QT. Obter ECG basal antes de iniciar lapatinibe e monitorar periodicamente. Corrigir hipocalemia e hipomagnesemia. Suspender lapatinibe se QTc > 500ms."
+    },
+    {
+      "med1": [
+        "lenalidomida",
+        "revlimid"
+      ],
+      "med2": [
+        "warfarina",
+        "varfarina",
+        "acenocumarol"
+      ],
+      "nivel": "moderado",
+      "titulo": "Lenalidomida + Varfarina (Variação do INR — Monitoramento Obrigatório)",
+      "mecanismo": "A lenalidomida pode potencializar ou antagonizar o efeito anticoagulante da varfarina por mecanismo não completamente elucidado, possivelmente relacionado à modulação de fatores de coagulação no contexto do mieloma múltiplo e da resposta tumoral ao tratamento.",
+      "efeito": "Variação imprevisível do INR — tanto elevação (risco de sangramento) quanto redução (risco tromboembólico) — tornando o controle anticoagulante instável.",
+      "conduta": "⚠️ Monitorar INR com maior frequência durante todo o tratamento com lenalidomida. Considerar anticoagulante de ação direta como alternativa à varfarina para profilaxia ou tratamento de tromboembolismo em mieloma — embora a evidência específica nessa população seja limitada."
     }
   ],
   "duplicacao": [

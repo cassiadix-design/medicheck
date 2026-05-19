@@ -65226,5 +65226,262 @@
     "alerta_farmaceutico": "Verificar uso de cimetidina (reduzir dose máxima para 5mg/24h). IMAOs são contraindicados — verificar washout de 2 semanas. Verificar ISRSs (síndrome serotoninérgica). Checar histórico cardiovascular. Orientar corretamente o uso de cada formulação (comprimido, ODT, spray nasal). Alertar sobre limite de 10mg/24h. Verificar uso de outros triptanos ou ergotamina nas 24h anteriores.",
     "quando_procurar_medico": "Procure emergência imediatamente se: dor intensa no peito com irradiação para braço ou mandíbula, dificuldade súbita para falar ou entender, fraqueza em um lado do corpo, visão turva súbita, ou febre com agitação extrema e tremores (síndrome serotoninérgica). Retorne ao médico se estiver usando triptanos mais de 10 dias por mês ou se as crises estiverem se tornando mais frequentes.",
     "interacoes": "Cimetidina (inibidor CYP1A2): dobra AUC da zolmitriptana — reduzir dose máxima para 5mg/24h. IMAOs (inibem MAO-A): contraindicados — esperar 2 semanas de washout. ISRSs e ISRNs: risco de síndrome serotoninérgica. Ergotamina e derivados: intervalo mínimo de 24h. Outros triptanos: não combinar dentro de 24h. Quinolonas (ciprofloxacino, que inibe CYP1A2): podem elevar moderadamente os níveis. Propranolol e betabloqueadores: não há interação farmacocinética clinicamente relevante, mas monitorar."
+  },
+  {
+    "nome": "Imatinibe 100mg - 400mg",
+    "generico": "imatinibe",
+    "tipo": "Antineoplásico — Inibidor de Tirosina Quinase (BCR-ABL / c-KIT / PDGFR)",
+    "sinonimos": [
+      "Imatinibe",
+      "Gleevec",
+      "Glivec",
+      "Mesilato de imatinibe"
+    ],
+    "descricao": "O imatinibe é o protótipo dos inibidores de tirosina quinase (ITKs), inaugurando a era da oncologia molecular alvo-dirigida. Desenvolvido para a leucemia mieloide crônica (LMC) com cromossomo Philadelphia (BCR-ABL), transformou o prognóstico da doença — antes fatal em anos, hoje controlável por décadas. Seu mecanismo consiste em bloquear seletivamente a proteína BCR-ABL (produto da translocação cromossômica t(9;22)), impedindo a proliferação das células leucêmicas. Também inibe c-KIT e PDGFR-alfa/beta, o que fundamenta seu uso nos tumores estromais gastrointestinais (GIST), onde mutações de c-KIT ou PDGFR são o evento driver. Metabolizado principalmente pela CYP3A4 e inibidor de CYP2C9.",
+    "receita": "Sim",
+    "receita_display": "🔴 Receita Obrigatória",
+    "receita_cor": "#dc3545",
+    "receita_descricao": "Medicamento oncológico de uso exclusivo mediante prescrição médica especializada. Dispensado pelo SUS em Centros de Alta Complexidade em Oncologia (CACON) ou Unidades de Assistência de Alta Complexidade (UNACON).",
+    "receita_nota": "Receita Médica Comum. Dispensação exclusiva em farmácias de alto custo do SUS ou farmácias especializadas credenciadas. Prescrição por oncologista ou hematologista.",
+    "efeitos": "Náuseas e vômitos (comuns, especialmente no início), edema periférico e periorbital (característica marcante — cumulativo com o tempo), fadiga, cãibras musculares, diarreia, erupção cutânea, cefaleia. Laboratório: elevação de transaminases (hepatotoxicidade — monitorar), neutropenia e trombocitopenia (mielossupressão — monitorar hemograma). Dor óssea e muscular são frequentes, especialmente na fase inicial. Derrame pleural ou pericárdico em uso prolongado.",
+    "aviso_grave": "O imatinibe inibe a CYP2C9 e pode elevar significativamente o INR em usuários de varfarina — monitorar INR com frequência. Indutores potentes de CYP3A4 (rifampicina, carbamazepina, fenitoína) reduzem os níveis de imatinibe em até 70%, comprometendo gravemente o tratamento. Hepatotoxicidade pode ser grave e requer suspensão temporária ou definitiva — monitorar transaminases mensalmente nos primeiros meses.",
+    "recomendacao": "Tomar imatinibe com alimentos e água abundante para minimizar náuseas — o alimento retarda a absorção mas reduz a irritação gástrica. Tomar sempre no mesmo horário. Não triturar nem mastigar os comprimidos. Em caso de dose esquecida no mesmo dia, tomar assim que lembrar; se já passou para o dia seguinte, pular e continuar normalmente — nunca dobrar a dose. Informe todos os médicos sobre o uso de imatinibe (especialmente se for prescrito anticoagulante ou antifúngico).",
+    "educacao": "O imatinibe inaugurou uma nova era no tratamento do câncer: em vez de quimioterapia não seletiva, ataca especificamente a proteína que causa a leucemia. Para pacientes com LMC, isso significou uma revolução — muitos atingem remissão molecular profunda e vivem décadas com boa qualidade de vida. O tratamento é de longa duração (muitas vezes vitalício em LMC) — a adesão rigorosa é fundamental para não desenvolver resistência. Pequenas interrupções podem permitir o reaparecimento de células resistentes.",
+    "resposta_rapida": [
+      "Oncológico (LMC e GIST)",
+      "Inibidor de tirosina quinase",
+      "Tomar com alimentos",
+      "Monitorar hemograma e fígado"
+    ],
+    "receita_obrigatoria": true,
+    "tipo_receita": "Receita Médica Comum (dispensação em farmácia de alto custo SUS)",
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Por que o imatinibe mudou o tratamento da leucemia mieloide crônica?",
+        "resposta": "Antes do imatinibe, a LMC tinha uma sobrevida média de 3 a 5 anos — o tratamento era transplante de medula óssea, com alta mortalidade. O imatinibe inibe especificamente a proteína BCR-ABL que causa a proliferação das células leucêmicas no cromossomo Philadelphia. Com o imatinibe, mais de 80% dos pacientes com LMC em fase crônica atingem remissão molecular e vivem décadas com qualidade de vida. Foi o primeiro medicamento a demonstrar que o câncer pode ser tratado como doença crônica controlável."
+      },
+      {
+        "pergunta": "Posso tomar anti-inflamatório (ibuprofeno, diclofenaco) junto com imatinibe?",
+        "resposta": "Com cautela. AINEs como ibuprofeno e diclofenaco já têm risco gastrointestinal e de sangramento por si só. O imatinibe aumenta o risco de sangramento ao elevar os níveis de varfarina (se em uso) e pode causar trombocitopenia. Se precisar de analgésico, prefira paracetamol — mas limitado a 2g/dia, pois o imatinibe também interfere no metabolismo do paracetamol, aumentando o risco de hepatotoxicidade. Converse sempre com seu oncologista antes de usar qualquer medicamento."
+      },
+      {
+        "pergunta": "Com que frequência preciso fazer exames de sangue durante o tratamento?",
+        "resposta": "Nos primeiros 3 meses, o hemograma completo e a função hepática (transaminases) devem ser monitorados a cada 2 semanas — é quando o risco de citopenias e hepatotoxicidade é maior. Após estabilização, a frequência passa para mensal por 3 a 6 meses e, depois, a cada 2 a 3 meses. Além disso, exames moleculares (PCR para BCR-ABL) são feitos periodicamente para avaliar a resposta ao tratamento e detectar resistência precocemente."
+      },
+      {
+        "pergunta": "O edema ao redor dos olhos é preocupante?",
+        "resposta": "O edema periorbital (ao redor dos olhos) é um efeito adverso característico e muito comum do imatinibe, causado pela retenção de fluidos mediada por inibição de PDGFR. Na maioria dos casos é cosmético e não representa perigo — o médico pode recomendar diurético se for incômodo ou significativo. Porém, edema muito intenso, generalizado ou acompanhado de ganho de peso rápido, dispneia ou edema de membros inferiores importantes requer avaliação médica para descartar derrame pericárdico ou pleural."
+      }
+    ],
+    "descricao_seo": "Imatinibe 100mg e 400mg (Gleevec/Glivec): inibidor de tirosina quinase para leucemia mieloide crônica (LMC) e GIST. Saiba efeitos, interações com varfarina e receita.",
+    "alerta_farmaceutico": "Verificar uso de varfarina — imatinibe inibe CYP2C9 e pode elevar INR gravemente. Checar uso de rifampicina, carbamazepina ou fenitoína — reduzem imatinibe em 70%. Verificar cetoconazol/itraconazol — aumentam imatinibe. Limitar paracetamol a 2g/dia (inibição de UGT1A6). Orientar sobre edema periorbital esperado e benigno. Monitorar hemograma (citopenia) e transaminases (hepatotoxicidade) conforme protocolo.",
+    "quando_procurar_medico": "Procure atendimento médico urgente se apresentar: febre acima de 38°C (possível neutropenia febril — emergência oncológica), sangramentos espontâneos (petéquias, hematomas, sangue nas fezes), icterícia ou dor abdominal intensa (hepatotoxicidade), dispneia progressiva ou tosse seca (derrame pleural ou pericárdico), edema muito intenso ou generalizado. Retorne ao oncologista em qualquer alteração grave no exame de sangue.",
+    "interacoes": "Varfarina/acenocumarol: imatinibe inibe CYP2C9 → elevação do INR → risco de sangramento — monitorar INR frequentemente. Rifampicina/carbamazepina/fenitoína (indutores CYP3A4): reduzem níveis de imatinibe em 70% → falha terapêutica — contraindicado. Cetoconazol/itraconazol/claritromicina (inibidores CYP3A4): aumentam imatinibe em ~40% → toxicidade. Paracetamol: imatinibe inibe UGT1A6 → hepatotoxicidade — limitar a 2g/dia. Sinvastatina/lovastatina: imatinibe inibe OATP1B1 → miopatia — preferir rosuvastatina ou pravastatina."
+  },
+  {
+    "nome": "Erlotinibe 25mg - 100mg - 150mg",
+    "generico": "erlotinibe",
+    "tipo": "Antineoplásico — Inibidor de Tirosina Quinase EGFR (1ª geração)",
+    "sinonimos": [
+      "Erlotinibe",
+      "Tarceva",
+      "Erlotinib"
+    ],
+    "descricao": "O erlotinibe é um inibidor reversível do receptor do fator de crescimento epidérmico (EGFR/HER1), utilizado no tratamento do carcinoma pulmonar não pequenas células (CPNPC) com mutação ativadora de EGFR e do câncer de pâncreas avançado. O EGFR é uma proteína transmembrana com atividade de tirosina quinase — mutações nos éxons 19 (deleção) e 21 (L858R) tornam-no hiperfuncional e dirigem a proliferação tumoral. Ao bloquear competitivamente o sítio de ligação do ATP no domínio quinase do EGFR mutado, o erlotinibe interrompe a sinalização oncogênica. Substrato de CYP3A4 e CYP1A2. Requer pH ácido para adequada dissolução e absorção — IBPs comprometem significativamente a biodisponibilidade.",
+    "receita": "Sim",
+    "receita_display": "🔴 Receita Obrigatória",
+    "receita_cor": "#dc3545",
+    "receita_descricao": "Medicamento antineoplásico oral de uso exclusivo mediante prescrição médica oncológica especializada.",
+    "receita_nota": "Receita Médica Comum com validade de 30 dias. Dispensação em farmácias de alto custo do SUS ou farmácias especializadas. Uso restrito a pacientes com mutação EGFR documentada por biópsia molecular.",
+    "efeitos": "Erupção cutânea acneiforme (rash papulopustular — sinal de atividade biológica e resposta terapêutica), diarreia, fadiga, anorexia, náuseas, mucosite, conjuntivite seca, alopecia, elevação de transaminases. Complicações graves: pneumonite intersticial (rara, 1–3%, mas potencialmente fatal), perfuração gastrointestinal (muito rara), crise ocular aguda (em pacientes com uso de lentes de contato).",
+    "aviso_grave": "Pneumonite intersticial aguda é rara, mas pode ser fatal — suspender erlotinibe imediatamente se surgir dispneia inexplicada, tosse seca persistente ou febre. IBPs (omeprazol, esomeprazol, pantoprazol) reduzem a absorção do erlotinibe em mais de 70% — são praticamente contraindicados. Tabagismo ativo reduz os níveis plasmáticos em 50–60% por indução de CYP1A2 — a cessação tabágica é parte integrante do tratamento.",
+    "recomendacao": "Tomar erlotinibe em jejum (pelo menos 1 hora antes ou 2 horas após as refeições), com água, sempre no mesmo horário. Evitar completamente IBPs (omeprazol, pantoprazol, esomeprazol) — se necessário protetor gástrico, usar bloqueador H2 (ranitidina, famotidina) administrado ao menos 10 horas antes ou 2 horas após o erlotinibe. Não fumar — o cigarro reduz a eficácia do medicamento pela metade. O rash cutâneo geralmente aparece nas primeiras 2 semanas e é um marcador de resposta: não abandone o tratamento por causa dele.",
+    "educacao": "O rash cutâneo acneiforme que aparece no rosto e tronco durante o tratamento é, paradoxalmente, um bom sinal — estudos mostram que pacientes que desenvolvem rash têm melhor resposta e maior sobrevida. Ele ocorre porque o EGFR também está presente nos queratinócitos da pele. Cuidados dermatológicos específicos (hidratação, protetor solar, antibióticos tópicos) ajudam a controlar o desconforto sem precisar reduzir a dose. Informe seu dermatologista que você está em tratamento oncológico.",
+    "resposta_rapida": [
+      "CPNPC com mutação EGFR",
+      "1ª ou 2ª linha",
+      "Tomar em jejum",
+      "Evitar IBPs e cigarro"
+    ],
+    "receita_obrigatoria": true,
+    "tipo_receita": "Receita Médica Comum (dispensação em farmácia de alto custo SUS)",
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Por que não posso usar omeprazol com erlotinibe?",
+        "resposta": "O erlotinibe precisa ser dissolvido em pH ácido para ser absorvido pelo intestino. Os inibidores de bomba de prótons (IBPs) como omeprazol, pantoprazol e esomeprazol elevam o pH gástrico de forma sustentada, reduzindo a absorção do erlotinibe em mais de 70% — praticamente inviabilizando o tratamento. Se você precisar de proteção gástrica, o oncologista pode autorizar o uso de bloqueador H2 (ranitidina, famotidina), que tem duração de ação mais curta e pode ser espaçado temporalmente do erlotinibe."
+      },
+      {
+        "pergunta": "O rash (erupção cutânea) que apareceu no meu rosto é perigoso?",
+        "resposta": "Não — e é até um bom sinal! O rash acneiforme (pústulas e pápulas vermelhas, principalmente no rosto, couro cabeludo e tronco) é um efeito adverso esperado do erlotinibe e de outros inibidores de EGFR. Estudos mostram que pacientes que desenvolvem rash moderado a intenso têm melhor resposta ao tratamento e maior sobrevida. Ele ocorre porque o EGFR também existe nas células da pele. O manejo inclui hidratação, protetor solar e antibióticos tópicos ou orais — converse com seu oncologista para orientação dermatológica."
+      },
+      {
+        "pergunta": "Posso continuar fumando durante o tratamento com erlotinibe?",
+        "resposta": "Não. O tabaco induz enzimas hepáticas (CYP1A2) que metabolizam o erlotinibe, reduzindo seus níveis no sangue em 50–60% em fumantes ativos. Isso significa que um fumante que toma 150mg/dia de erlotinibe pode ter a exposição equivalente a apenas 60–75mg/dia — subterapêutico. A cessação tabágica não é apenas recomendada — é parte do tratamento. Ao parar de fumar, os níveis de erlotinibe aumentam, e o médico deve estar ciente para ajustar a dose se necessário e monitorar toxicidade."
+      },
+      {
+        "pergunta": "Como sei se o erlotinibe está funcionando?",
+        "resposta": "A resposta é avaliada por tomografia de tórax (e outras imagens conforme necessário) geralmente após 6 a 12 semanas de tratamento. Uma resposta favorável é vista como redução ou estabilização do tumor. O desenvolvimento de rash cutâneo nas primeiras 2 semanas também é um marcador clínico de resposta. Se surgir progressão (tumor crescendo apesar do tratamento), o oncologista avaliará a necessidade de repetir biópsia molecular para detectar mutação de resistência (como T790M) e considerar tratamento com inibidor de 3ª geração como osimertinibe."
+      }
+    ],
+    "descricao_seo": "Erlotinibe 25mg-150mg (Tarceva): inibidor de EGFR para CPNPC com mutação EGFR. Saiba por que evitar IBPs, cigarro e como lidar com o rash cutâneo.",
+    "alerta_farmaceutico": "IBPs são praticamente contraindicados — verificar omeprazol, pantoprazol, esomeprazol. Orientar tomar em jejum (1h antes ou 2h após refeição). Verificar tabagismo ativo (reduz níveis 50-60% — CYP1A2). Checar rifampicina ou carbamazepina (indutores CYP3A4 — reduzem erlotinibe 66%). Monitorar transaminases. Orientar sobre rash cutâneo e manejo dermatológico. Vigilância para pneumonite (tosse seca, dispneia — suspender imediatamente).",
+    "quando_procurar_medico": "Suspenda o erlotinibe e procure atendimento imediatamente se surgir: dispneia súbita ou progressiva, tosse seca intensa e inexplicada, febre (possível pneumonite intersticial — emergência). Procure o oncologista urgentemente para: erupção cutânea muito intensa ou com bolhas (grau 3-4), diarreia grave com desidratação, dor ou vermelhidão intensa nos olhos, sangramentos. Retorne ao oncologista na data agendada para avaliação de resposta por imagem.",
+    "interacoes": "IBPs (omeprazol, pantoprazol, esomeprazol): reduzem absorção >70% — praticamente contraindicados; usar bloqueador H2 com espaçamento adequado. Rifampicina/carbamazepina/fenitoína (indutores CYP3A4): reduzem AUC do erlotinibe em 66% — contraindicado. Tabaco: induz CYP1A2 → reduz erlotinibe 50-60% — cessação tabágica obrigatória. Cetoconazol/itraconazol (inibidores CYP3A4): aumentam erlotinibe → toxicidade. Varfarina: erlotinibe pode alterar INR — monitorar."
+  },
+  {
+    "nome": "Lapatinibe 250mg",
+    "generico": "lapatinibe",
+    "tipo": "Antineoplásico — Inibidor de Tirosina Quinase HER2/EGFR (Duplo)",
+    "sinonimos": [
+      "Lapatinibe",
+      "Tykerb",
+      "Tyverb",
+      "Lapatinib"
+    ],
+    "descricao": "O lapatinibe é um inibidor reversível de dupla tirosina quinase — bloqueia simultaneamente HER2 (ErbB2) e EGFR (HER1/ErbB1), dois receptores frequentemente superexpressos no câncer de mama agressivo. Ao contrário do trastuzumabe (anticorpo monoclonal), o lapatinibe é uma molécula pequena que penetra nas células e pode ser ativa em tumores que progrediram com trastuzumabe ou que têm metástases cerebrais (onde o trastuzumabe tem dificuldade de penetrar). Metabolizado extensamente pela CYP3A4 e CYP3A5, com alto efeito de primeira passagem. Requer pH ácido e alimentos para absorção ideal. Inibidor da P-glicoproteína.",
+    "receita": "Sim",
+    "receita_display": "🔴 Receita Obrigatória",
+    "receita_cor": "#dc3545",
+    "receita_descricao": "Antineoplásico oral de uso exclusivo mediante prescrição médica oncológica especializada para câncer de mama HER2+.",
+    "receita_nota": "Receita Médica Comum. Dispensação em farmácias de alto custo do SUS ou farmácias especializadas. Uso restrito a pacientes com HER2+ confirmado por HIC 3+ ou FISH amplificado.",
+    "efeitos": "Diarreia (muito comum e pode ser grave — grau 3-4 em até 15% dos pacientes, exigindo manejo ativo), erupção cutânea acneiforme, fadiga, náuseas, vômitos, mucosite, hepatotoxicidade (elevação de transaminases — pode ser grave), pneumonite intersticial (rara), prolongamento do intervalo QTc (monitorar ECG). Síndrome palmo-plantar (eritrodisestesia) quando combinado com capecitabina.",
+    "aviso_grave": "Lapatinibe prolonga o intervalo QTc de forma dose-dependente — não combinar com outros prolongadores do QT (amiodarona, sotalol, haloperidol, metadona, azitromicina). Hepatotoxicidade grave pode ocorrer — monitorar transaminases a cada 4-6 semanas. Diarreia intensa pode ser grave e levar à desidratação — iniciar loperamida precocemente. IBPs reduzem a absorção do lapatinibe. Grapefruit (toranja) inibe CYP3A4 intestinal e pode elevar os níveis de forma imprevisível.",
+    "recomendacao": "Tomar lapatinibe pelo menos 1 hora antes ou 1 hora após as refeições, sempre de forma consistente (não variar a relação com alimentos). Tomar toda a dose diária de uma só vez, nunca dividida ao longo do dia. Evitar completamente grapefruit, suco de toranja e suco de laranja azeda (Sevilla). Se diarreia surgir, iniciar loperamida 4mg na primeira evacuação diarreia e 2mg a cada 2 horas até ficar sem fezes por 12 horas — informar o oncologista se diarreia for intensa ou persistir por mais de 24 horas.",
+    "educacao": "A diarreia é o efeito adverso mais comum e importante do lapatinibe — não subestime e não ignore. Ter loperamida sempre à disposição é fundamental. Hidratação adequada (água, soro caseiro) é essencial durante episódios de diarreia. O lapatinibe pode ter vantagem sobre o trastuzumabe em metástases cerebrais de câncer de mama HER2+, pois sendo uma molécula pequena, atravessa melhor a barreira hematoencefálica.",
+    "resposta_rapida": [
+      "Câncer de mama HER2+",
+      "Duplo bloqueio HER2/EGFR",
+      "Tomar longe das refeições",
+      "Monitorar diarreia e QT"
+    ],
+    "receita_obrigatoria": true,
+    "tipo_receita": "Receita Médica Comum (dispensação em farmácia de alto custo SUS)",
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Por que a diarreia com lapatinibe pode ser tão grave?",
+        "resposta": "O lapatinibe inibe o EGFR nas células intestinais, que normalmente regulam a absorção de sódio e água. A inibição desregula esse processo e provoca diarreia secretória intensa em uma parcela significativa dos pacientes. A diarreia grau 3-4 (mais de 7 evacuações acima do basal, com deidratação) ocorre em 10–15% dos casos e pode exigir internação. A abordagem proativa é essencial: ter loperamida sempre disponível e iniciar desde a primeira evacuação diarreica, além de manter hidratação intensa."
+      },
+      {
+        "pergunta": "Posso usar protetor gástrico (omeprazol) com lapatinibe?",
+        "resposta": "Não é recomendado. O lapatinibe precisa de pH ácido para se dissolver e ser absorvido adequadamente. IBPs como omeprazol, pantoprazol e esomeprazol elevam o pH gástrico de forma sustentada, reduzindo a biodisponibilidade do lapatinibe. Se você precisar de proteção gástrica, converse com seu oncologista — bloqueadores H2 de curta duração podem ser uma alternativa, desde que administrados com espaçamento adequado."
+      },
+      {
+        "pergunta": "O lapatinibe pode afetar meu coração?",
+        "resposta": "Sim — o lapatinibe prolonga o intervalo QT no eletrocardiograma, o que pode, em casos raros, predispor a arritmias ventriculares graves (Torsades de Pointes). O risco aumenta quando associado a outros medicamentos que também prolongam o QT (como amiodarona, sotalol, haloperidol, metadona ou alguns antibióticos). Um ECG basal é recomendado antes de iniciar o lapatinibe, e outros medicamentos que prolongam o QT devem ser evitados. Mantenha seus eletrólitos (potássio e magnésio) em níveis normais."
+      },
+      {
+        "pergunta": "Qual a diferença entre lapatinibe e trastuzumabe (Herceptin)?",
+        "resposta": "Ambos bloqueiam o HER2, mas de maneiras diferentes. O trastuzumabe é um anticorpo monoclonal que age na superfície celular — é eficaz como 1ª linha, mas sua molécula grande dificulta a penetração na barreira hematoencefálica. O lapatinibe é uma molécula pequena que entra na célula e bloqueia o sinal por dentro — pode ser ativo em tumores que progrediram com trastuzumabe e tem melhor penetração no sistema nervoso central, sendo uma opção importante para metástases cerebrais de câncer de mama HER2+."
+      }
+    ],
+    "descricao_seo": "Lapatinibe 250mg (Tykerb): inibidor de HER2/EGFR para câncer de mama HER2+ avançado. Saiba sobre diarreia, QT prolongado, interações com grapefruit e IBPs.",
+    "alerta_farmaceutico": "Verificar uso de amiodarona, sotalol, haloperidol, metadona ou azitromicina (QT prolongado — alto risco). Verificar IBPs (reduzem absorção). Orientar sobre grapefruit (CYP3A4). Verificar rifampicina/carbamazepina (indutores CYP3A4 — reduzem lapatinibe 72%). Monitorar transaminases a cada 4-6 semanas. Orientar manejo proativo da diarreia com loperamida. Confirmar HER2 positivo documentado. ECG basal recomendado.",
+    "quando_procurar_medico": "Procure atendimento urgente se: palpitações ou desmaio (possível arritmia por QT prolongado), diarreia muito intensa com sangue ou desidratação (diarreia grau 3-4 — emergência), icterícia ou dor abdominal intensa (hepatotoxicidade), dispneia progressiva (pneumonite intersticial — suspender imediatamente). Retorne ao oncologista para monitoramento de transaminases e resposta tumoral nas datas agendadas.",
+    "interacoes": "Amiodarona/sotalol/dronedarona/haloperidol/metadona (prolongadores QT): associação proibida — Torsades de Pointes. IBPs: reduzem absorção — evitar. Grapefruit (CYP3A4 intestinal): aumenta lapatinibe imprevisível. Rifampicina/carbamazepina/fenitoína (indutores CYP3A4): reduzem lapatinibe em 72% — contraindicado. Cetoconazol/itraconazol (inibidores CYP3A4): aumentam lapatinibe — monitorar toxicidade. Capecitabina e letrozol: combinações aprovadas e utilizadas — monitorar síndrome palmo-plantar e hepatotoxicidade."
+  },
+  {
+    "nome": "Gefitinibe 250mg",
+    "generico": "gefitinibe",
+    "tipo": "Antineoplásico — Inibidor de Tirosina Quinase EGFR (1ª geração)",
+    "sinonimos": [
+      "Gefitinibe",
+      "Iressa",
+      "Gefitinib"
+    ],
+    "descricao": "O gefitinibe foi o primeiro inibidor de EGFR aprovado para uso clínico, pioneiro na oncologia de precisão pulmonar. Age bloqueando competitivamente o sítio de ligação do ATP na tirosina quinase do EGFR mutado (HER1), inibindo a autofosforilação e a sinalização downstream que estimula proliferação, sobrevida e metastatização tumoral. Sua eficácia é estreitamente dependente da presença de mutações ativadoras de EGFR — especialmente a deleção do éxon 19 e a mutação pontual L858R do éxon 21, presentes em cerca de 10–15% dos pacientes com CPNPC no Brasil (e até 50% em populações asiáticas). Em tumores sem mutação, o gefitinibe não é eficaz. Metabolizado principalmente pela CYP3A4 e CYP2D6.",
+    "receita": "Sim",
+    "receita_display": "🔴 Receita Obrigatória",
+    "receita_cor": "#dc3545",
+    "receita_descricao": "Antineoplásico oral de uso exclusivo mediante prescrição médica oncológica especializada, restrito a pacientes com mutação EGFR documentada.",
+    "receita_nota": "Receita Médica Comum. Dispensação em farmácias de alto custo do SUS ou farmácias especializadas. Necessário resultado de biópsia molecular (NGS ou PCR) comprovando mutação de EGFR.",
+    "efeitos": "Erupção cutânea acneiforme (marcador de resposta terapêutica), diarreia, elevação de transaminases, anorexia, conjuntivite seca, alterações ungueais, alopecia leve. Complicações graves: pneumonite intersticial (1–4%, maior frequência no Japão — requer vigilância contínua), perfuração gastrointestinal (muito rara), ceratite ocular (rara, principalmente em usuários de lentes de contato).",
+    "aviso_grave": "Pneumonite intersticial aguda pode ser fatal — suspender gefitinibe imediatamente ao surgir dispneia inexplicada, tosse seca persistente ou febre, e comunicar ao oncologista com urgência. A rifampicina reduz os níveis de gefitinibe em até 83% — combinação clinicamente inviável. IBPs comprometem a absorção de forma significativa. Em pacientes com histórico de ceratite ou úlcera corneal, usar com extrema cautela.",
+    "recomendacao": "O gefitinibe pode ser tomado com ou sem alimentos, sempre no mesmo horário. Para pacientes com dificuldade de deglutição, os comprimidos podem ser dissolvidos em meio copo de água não gaseificada por 15 minutos, agitando, e ingerir imediatamente — o resíduo pode ser misturado com meia quantidade adicional de água e ingerido. Antiácidos à base de hidróxido de alumínio ou magnésio devem ser espaçados em pelo menos 2 horas. Evitar IBPs.",
+    "educacao": "O gefitinibe é específico para pacientes cujo tumor tem mutação de EGFR — sem essa mutação, o medicamento não funciona. É por isso que a biópsia molecular é obrigatória antes de iniciar o tratamento. O gefitinibe e o erlotinibe pertencem à mesma geração de inibidores de EGFR e têm mecanismo similar; a escolha entre eles depende de fatores como interações, tolerabilidade e protocolo institucional. Para pacientes que desenvolvem resistência com mutação T790M, existem inibidores de 3ª geração como o osimertinibe.",
+    "resposta_rapida": [
+      "CPNPC com mutação EGFR",
+      "1ª geração de EGFR-TKI",
+      "Pode tomar com alimentos",
+      "Vigilância para pneumonite"
+    ],
+    "receita_obrigatoria": true,
+    "tipo_receita": "Receita Médica Comum (dispensação em farmácia de alto custo SUS)",
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Qual a diferença entre gefitinibe e erlotinibe?",
+        "resposta": "Gefitinibe e erlotinibe são inibidores de EGFR de 1ª geração com mecanismo de ação muito similar — ambos bloqueiam reversivelmente a tirosina quinase do EGFR mutado. As diferenças práticas são: o gefitinibe pode ser tomado com ou sem alimentos (mais conveniente), enquanto o erlotinibe deve ser tomado em jejum. A relação entre o rash cutâneo e a resposta parece semelhante. A escolha entre os dois depende de protocolo institucional, disponibilidade, tolerabilidade individual e interações medicamentosas do paciente."
+      },
+      {
+        "pergunta": "O que é a pneumonite intersticial e como reconhecê-la?",
+        "resposta": "A pneumonite intersticial por gefitinibe é uma complicação rara (1-4%), mas potencialmente grave — é a inflamação do tecido pulmonar causada pela toxicidade do medicamento. Ela se manifesta com dispneia progressiva (falta de ar que piora gradualmente), tosse seca persistente (sem catarro), febre e, às vezes, hipoxia (queda da saturação de oxigênio). É mais frequente nas primeiras 4-8 semanas de tratamento. Ao surgir esses sintomas, suspenda o gefitinibe imediatamente e procure o oncologista ou pronto-socorro — o tratamento com corticoides pode ser necessário."
+      },
+      {
+        "pergunta": "Preciso fazer biópsia molecular para usar gefitinibe?",
+        "resposta": "Sim — é obrigatória. O gefitinibe só é eficaz em tumores com mutação ativadora de EGFR (principalmente deleção do éxon 19 ou mutação L858R do éxon 21). Sem essas mutações, o gefitinibe não tem benefício comprovado e expõe o paciente aos efeitos adversos sem ganho terapêutico. O resultado da biópsia molecular (NGS ou PCR) é exigido tanto pelo protocolo clínico quanto pelo SUS para liberação do medicamento."
+      },
+      {
+        "pergunta": "Posso usar antiácido com gefitinibe?",
+        "resposta": "Com cuidado. O gefitinibe precisa de pH ácido para ser adequadamente absorvido. Os IBPs (omeprazol, pantoprazol) elevam o pH gástrico de forma sustentada e comprometem a absorção — devem ser evitados. Os antiácidos à base de hidróxido de alumínio ou magnésio (Mylanta, Gastrobom) têm efeito mais curto, mas ainda assim devem ser administrados com pelo menos 2 horas de intervalo do gefitinibe. Bloqueadores H2 (famotidina) com espaçamento de 6 horas são geralmente tolerados — discuta com o oncologista."
+      }
+    ],
+    "descricao_seo": "Gefitinibe 250mg (Iressa): inibidor de EGFR para câncer de pulmão com mutação EGFR. Saiba sobre pneumonite intersticial, interações com IBPs e rifampicina.",
+    "alerta_farmaceutico": "Confirmar mutação EGFR documentada por biópsia molecular. Verificar IBPs (reduzem absorção — contraindicados). Verificar rifampicina (reduz gefitinibe 83% — contraindicado). Checar cetoconazol/itraconazol (aumentam gefitinibe). Verificar varfarina (gefitinibe pode elevar INR — monitorar). Vigilância rigorosa para pneumonite intersticial (tosse seca + dispneia = suspender imediatamente). Orientar sobre rash cutâneo como marcador de resposta. Verificar tabagismo (reduz efeito via CYP1A2).",
+    "quando_procurar_medico": "Suspenda o gefitinibe imediatamente e procure atendimento de emergência se: dispneia súbita ou progressiva, tosse seca intensa inexplicada, febre associada a sintomas respiratórios (possível pneumonite intersticial — suspensão imediata é mandatória). Procure o oncologista para: rash intenso com bolhas, dor ou vermelhidão ocular persistente, diarreia intensa, sangramentos ou elevação significativa de transaminases nos exames.",
+    "interacoes": "Rifampicina/carbamazepina/fenitoína (indutores CYP3A4): reduzem gefitinibe em 83% — contraindicado. IBPs (omeprazol, pantoprazol): reduzem absorção — evitar. Cetoconazol/itraconazol (inibidores CYP3A4): aumentam gefitinibe → toxicidade. Varfarina/acenocumarol: gefitinibe pode alterar INR — monitorar frequentemente. Antiácidos (Al/Mg): espaçar 2h. Metronidazol: pode elevar INR em uso concomitante com varfarina e gefitinibe — vigilância."
+  },
+  {
+    "nome": "Lenalidomida 2,5mg - 5mg - 10mg - 15mg - 25mg",
+    "generico": "lenalidomida",
+    "tipo": "Antineoplásico Imunomodulador (IMiD — Agente Imunomodulador de 2ª geração)",
+    "sinonimos": [
+      "Lenalidomida",
+      "Revlimid",
+      "Lenalidomide"
+    ],
+    "descricao": "A lenalidomida é um agente imunomodulador de 2ª geração, análogo estrutural da talidomida, com maior potência e perfil de segurança distinto (menor neuropatia, sem sedação). Age por múltiplos mecanismos: inibe a proteína cereblon (substrato de E3 ubiquitina ligase), levando à degradação de fatores de transcrição oncogênicos (Ikaros/Aiolos); modula a imunidade (aumenta atividade de células T e NK); inibe angiogênese e proliferação de células plasmáticas malignas. Indicada no mieloma múltiplo (tratamento e manutenção), síndrome mielodisplásica com deleção 5q e linfoma de células do manto. IMPORTANTE: compartilha com a talidomida o risco teratogênico grave e exige programa de controle de risco rigoroso.",
+    "receita": "Sim",
+    "receita_display": "🔴 Receita Obrigatória (Controlada Especial)",
+    "receita_cor": "#dc3545",
+    "receita_descricao": "Medicamento de controle especial com programa de gestão de risco obrigatório — análogo da talidomida com potencial teratogênico grave. Prescrição exclusiva por oncologista ou hematologista cadastrado no programa.",
+    "receita_nota": "Receita de Controle Especial Branca (2 vias). Dispensação exclusiva em farmácias credenciadas no programa de gestão de risco (Programa Revlimid/RevAssist). Exige termo de consentimento informado, teste de gravidez negativo (para mulheres em idade fértil) e confirmação de uso de dupla contracepção.",
+    "efeitos": "Neutropenia e trombocitopenia (dose-limitantes e frequentes — monitorar hemograma semanal inicialmente), fadiga, diarreia, constipação, prurido cutâneo, rash, tromboembolismo venoso e arterial (risco significativo — profilaxia antitrombótica geralmente obrigatória), neuropatia periférica (menos frequente que com talidomida), hipotireoidismo (monitorar TSH), infecções (pela imunossupressão), síndrome de lise tumoral no início do tratamento.",
+    "aviso_grave": "TERATOGÊNICA: causa defeitos congênitos graves e morte fetal — gravidez é contraindicação ABSOLUTA. Mulheres em idade fértil devem usar dupla contracepção eficaz (método hormonal + barreira física) durante e por 4 semanas após o tratamento. Risco de tromboembolismo venoso e arterial é aumentado — profilaxia com AAS ou heparina de baixo peso molecular é geralmente obrigatória, especialmente em mieloma múltiplo. Ajuste de dose é essencial na insuficiência renal (principal via de excreção é renal).",
+    "recomendacao": "Tomar lenalidomida com ou sem alimentos, sempre no mesmo horário do dia. Engolir a cápsula inteira — não abrir, mastigar nem partir. Em caso de ruptura acidental da cápsula, evitar contato do pó com pele e mucosas (teratogênico e potencialmente irritante). Mulheres em idade fértil: realizar teste de gravidez antes de cada ciclo de tratamento conforme exigido pelo programa. Informar imediatamente ao médico qualquer atraso menstrual ou suspeita de gravidez.",
+    "educacao": "A lenalidomida é uma das terapias mais eficazes no mieloma múltiplo, mas seu potencial teratogênico exige comprometimento rigoroso com o programa de controle de risco. O risco trombótico é real e subestimado — não abandone a profilaxia antitrombótica prescrita. A contagem sanguínea (neutrófilos e plaquetas) diminui previsívelmente nas primeiras semanas — os ajustes de dose são parte do protocolo e não indicam falha do tratamento. Mantenha contato frequente com a equipe de hematologia.",
+    "resposta_rapida": [
+      "Mieloma múltiplo e SMD del5q",
+      "Teratogênica — contracepção obrigatória",
+      "Risco de trombose — profilaxia",
+      "Monitorar hemograma e rim"
+    ],
+    "receita_obrigatoria": true,
+    "tipo_receita": "Receita de Controle Especial Branca (programa de gestão de risco)",
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Por que a lenalidomida exige controle tão rigoroso de gravidez?",
+        "resposta": "A lenalidomida é um análogo da talidomida — o medicamento que nos anos 1960 causou milhares de casos de focomelia (ausência de membros) em crianças. Embora a lenalidomida tenha menos neuropatia e sedação, ela compartilha o potencial teratogênico grave da talidomida. Mesmo uma única cápsula tomada durante a gravidez pode causar defeitos congênitos severos. Por isso, o programa de controle de risco exige: teste de gravidez negativo antes de cada ciclo, dupla contracepção eficaz durante e após o tratamento, e consentimento informado documentado."
+      },
+      {
+        "pergunta": "Qual o risco de coágulos (trombose) com lenalidomida?",
+        "resposta": "O risco é significativo — especialmente quando a lenalidomida é combinada com dexametasona em altas doses ou com eritropoetina no tratamento do mieloma múltiplo. A lenalidomida aumenta a atividade pró-coagulante e a agregação plaquetária. Por isso, profilaxia antitrombótica é geralmente obrigatória: aspirina em baixa dose (100mg/dia) para pacientes de baixo risco, ou heparina de baixo peso molecular (enoxaparina) ou varfarina para pacientes de alto risco (histórico de TVP, imobilidade, cirurgia recente). Não interrompa a profilaxia sem orientação do hematologista."
+      },
+      {
+        "pergunta": "Por que meu hemograma (leucócitos e plaquetas) cai durante o tratamento?",
+        "resposta": "A queda de neutrófilos (neutropenia) e plaquetas (trombocitopenia) é esperada e dose-dependente — é um dos efeitos mais comuns da lenalidomida. Ela acontece porque o medicamento suprime a proliferação das células malignas na medula, mas também afeta temporariamente a produção normal. O protocolo inclui monitoramento semanal do hemograma nas primeiras 8 semanas e ajuste de dose conforme os valores. Neutropenia grave (< 500/μL) ou trombocitopenia severa (< 25.000/μL) geralmente requerem suspensão temporária ou redução de dose — não abandone o tratamento sem orientação."
+      },
+      {
+        "pergunta": "Meus rins podem ser afetados pela lenalidomida?",
+        "resposta": "A lenalidomida é eliminada principalmente pelos rins — pacientes com insuficiência renal acumulam o medicamento e têm maior risco de toxicidade. A dose deve ser ajustada de acordo com a depuração de creatinina (ClCr) antes de iniciar e durante o tratamento. Para pacientes em hemodiálise, existem esquemas posológicos especiais. É fundamental monitorar a função renal regularmente durante o tratamento. Pacientes com mieloma também têm risco aumentado de comprometimento renal pela própria doença — controlar a doença com lenalidomida pode, paradoxalmente, melhorar a função renal."
+      }
+    ],
+    "descricao_seo": "Lenalidomida (Revlimid): imunomodulador para mieloma múltiplo e SMD del5q. Saiba sobre o risco teratogênico, trombose, neutropenia e programa de controle obrigatório.",
+    "alerta_farmaceutico": "TERATOGÊNICA: confirmar dupla contracepção e teste de gravidez negativo antes de dispensar. Verificar programa de controle de risco (receita especial de controle). Verificar profilaxia antitrombótica prescrita (AAS ou HBPM). Verificar função renal (ajuste de dose em insuficiência renal). Monitorar hemograma semanalmente no início. Verificar uso de eritropoetina (risco trombótico aditivo — alto risco). Verificar digoxina (lenalidomida aumenta Cmax). Orientar sobre síndrome de lise tumoral no início.",
+    "quando_procurar_medico": "Procure atendimento urgente se: febre acima de 38°C (neutropenia febril — emergência hematológica), sangramento intenso ou espontâneo (trombocitopenia grave), dor e edema em perna com vermelhidão (TVP) ou falta de ar súbita com dor no peito (embolia pulmonar — emergência). Procure imediatamente o hematologista se suspeitar de gravidez durante o tratamento. Retorne para hemograma semanal nas primeiras 8 semanas conforme protocolo.",
+    "interacoes": "Eritropoetina (epoetina): combinação com altíssimo risco trombótico — profilaxia antitrombótica agressiva obrigatória. Varfarina/warfarina: lenalidomida pode alterar INR — monitorar. Anticoagulantes (enoxaparina, apixabana): profilaxia indicada no mieloma — não é contraindicação, é protocolo. Digoxina: lenalidomida aumenta Cmax da digoxina em ~14% — monitorar nível sérico. Pregabalina: sedação aditiva e risco de neuropatia — monitorar. Dexametasona em altas doses: aumenta drasticamente o risco trombótico na combinação — profilaxia com HBPM é padrão."
   }
 ]

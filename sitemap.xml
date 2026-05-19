@@ -5670,4 +5670,34 @@
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
+  <url>
+    <loc>https://medicheck.med.br/medicamentos/imatinibe/</loc>
+    <lastmod>2026-05-19</lastmod>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://medicheck.med.br/medicamentos/erlotinibe/</loc>
+    <lastmod>2026-05-19</lastmod>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://medicheck.med.br/medicamentos/lapatinibe/</loc>
+    <lastmod>2026-05-19</lastmod>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://medicheck.med.br/medicamentos/gefitinibe/</loc>
+    <lastmod>2026-05-19</lastmod>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://medicheck.med.br/medicamentos/lenalidomida/</loc>
+    <lastmod>2026-05-19</lastmod>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
 </urlset>
