@@ -1084,8 +1084,7 @@ border-radius:0 0 20px 20px;
                 .mc-chip.moderado:hover { background: #e8751a; color: white; }
                 .mc-chip.baixo { background: #e8f8f0; color: #27ae60; border: 1px solid #27ae60; }
                 .mc-chip.baixo:hover { background: #27ae60; color: white; }
-                .mc-resultado-ia { border-radius: 12px; overflow: hidden; margin-bottom: 16px; border: 2px solid #ddd; display: none; }
-                .mc-resultado-ia.show { display: block; }
+                .mc-resultado-ia { border-radius: 12px; overflow: hidden; margin-bottom: 16px; border: 2px solid #ddd; }
                 .mc-nivel-ia { padding: 14px 18px; color: white; font-weight: 700; font-size: 15px; }
                 .mc-nivel-ia.alto { background: #c0392b; }
                 .mc-nivel-ia.moderado { background: #e8751a; }
@@ -1098,6 +1097,12 @@ border-radius:0 0 20px 20px;
                 .mc-spinner { display: inline-block; width: 28px; height: 28px; border: 3px solid #ddd; border-top-color: #c0392b; border-radius: 50%; animation: mcSpin 0.8s linear infinite; }
                 @keyframes mcSpin { to { transform: rotate(360deg); } }
                 .mc-spinner-txt { font-size: 14px; color: #666; margin-top: 10px; }
+                .mc-campos-extras { display: none; }
+                .mc-btn-row { display: flex; gap: 10px; margin-top: 10px; flex-wrap: wrap; }
+                .mc-btn-mais { flex: 1; padding: 10px 16px; background: white; border: 2px dashed #667eea; border-radius: 8px; color: #667eea; font-weight: 700; font-size: 14px; cursor: pointer; font-family: inherit; transition: 0.2s; }
+                .mc-btn-mais:hover { background: #f0f4ff; }
+                .mc-resultados-container { margin-top: 4px; }
+                .mc-pair-label { font-size: 12px; font-weight: 700; color: rgba(255,255,255,0.85); margin-bottom: 4px; letter-spacing: 0.3px; }
                 </style>
 
                 <div class="mc-header">
@@ -1126,6 +1131,25 @@ border-radius:0 0 20px 20px;
                             <input type="text" id="mc-inter2" placeholder="💊 Medicamento 2 (ex: codeína)" oninput="mcFiltrarAuto(this,'mc-ac2')" onblur="mcFecharAuto('mc-ac2',300)" autocomplete="off" />
                             <div id="mc-ac2" class="mc-autocomplete"></div>
                         </div>
+                    </div>
+                    <div class="mc-campos-extras" id="mc-campos-extras">
+                        <div class="mc-busca-ia" style="margin-top:8px;">
+                            <div class="mc-busca-wrap">
+                                <input type="text" id="mc-inter3" placeholder="💊 Medicamento 3 (opcional)" oninput="mcFiltrarAuto(this,'mc-ac3')" onblur="mcFecharAuto('mc-ac3',300)" autocomplete="off" />
+                                <div id="mc-ac3" class="mc-autocomplete"></div>
+                            </div>
+                            <div class="mc-busca-wrap">
+                                <input type="text" id="mc-inter4" placeholder="💊 Medicamento 4 (opcional)" oninput="mcFiltrarAuto(this,'mc-ac4')" onblur="mcFecharAuto('mc-ac4',300)" autocomplete="off" />
+                                <div id="mc-ac4" class="mc-autocomplete"></div>
+                            </div>
+                            <div class="mc-busca-wrap">
+                                <input type="text" id="mc-inter5" placeholder="💊 Medicamento 5 (opcional)" oninput="mcFiltrarAuto(this,'mc-ac5')" onblur="mcFecharAuto('mc-ac5',300)" autocomplete="off" />
+                                <div id="mc-ac5" class="mc-autocomplete"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mc-btn-row">
+                        <button class="mc-btn-mais" id="mc-btn-mais" onclick="mcToggleExtras()">＋ Verificar até 5 medicamentos</button>
                         <button class="mc-btn-verificar" id="mc-btn" onclick="mcVerificar()">🔍 Verificar</button>
                     </div>
 
@@ -1139,10 +1163,7 @@ border-radius:0 0 20px 20px;
                         <button class="mc-chip baixo" onclick="mcTestar('paracetamol','dipirona')">Paracetamol + Dipirona</button>
                     </div>
 
-                    <div id="mc-resultado-ia" class="mc-resultado-ia">
-                        <div id="mc-nivel-ia" class="mc-nivel-ia neutro"></div>
-                        <div id="mc-corpo-ia" class="mc-corpo-ia"></div>
-                    </div>
+                    <div id="mc-resultados-container" class="mc-resultados-container"></div>
                 </div>
 
                 <!-- PAINEL LISTA -->
@@ -1265,12 +1286,12 @@ border-radius:0 0 20px 20px;
                     if (val.length < 2) { ac.classList.remove('show'); return; }
                     const matches = mcMedNomes.filter(n => n.toLowerCase().includes(val)).slice(0, 8);
                     if (!matches.length) { ac.classList.remove('show'); return; }
-                    ac.innerHTML = matches.map(n => '<div class="mc-autocomplete-item" onmousedown="mcSelecionarAuto(\'' + acId + '\',\'' + n + '\')">' + n + '</div>').join('');
+                    ac.innerHTML = matches.map(n => '<div class="mc-autocomplete-item" onmousedown="mcSelecionarAuto(\'' + acId + '\',\'' + n.replace(/'/g, "\\'") + '\')">' + n + '</div>').join('');
                     ac.classList.add('show');
                 }
 
                 function mcSelecionarAuto(acId, nome) {
-                    const inputId = acId === 'mc-ac1' ? 'mc-inter1' : 'mc-inter2';
+                    const inputId = acId.replace('mc-ac', 'mc-inter');
                     document.getElementById(inputId).value = nome;
                     document.getElementById(acId).classList.remove('show');
                 }
@@ -1279,9 +1300,31 @@ border-radius:0 0 20px 20px;
                     setTimeout(() => document.getElementById(acId).classList.remove('show'), delay);
                 }
 
+                function mcToggleExtras() {
+                    const ext = document.getElementById('mc-campos-extras');
+                    const btn = document.getElementById('mc-btn-mais');
+                    const abrindo = ext.style.display === 'none' || ext.style.display === '';
+                    ext.style.display = abrindo ? 'block' : 'none';
+                    btn.textContent = abrindo ? '－ Ocultar campos extras' : '＋ Verificar até 5 medicamentos';
+                    if (!abrindo) {
+                        ['mc-inter3','mc-inter4','mc-inter5'].forEach(id => {
+                            const el = document.getElementById(id);
+                            if (el) el.value = '';
+                        });
+                        ['mc-ac3','mc-ac4','mc-ac5'].forEach(id => {
+                            const el = document.getElementById(id);
+                            if (el) el.classList.remove('show');
+                        });
+                    }
+                }
+
                 function mcTestar(m1, m2) {
                     document.getElementById('mc-inter1').value = m1;
                     document.getElementById('mc-inter2').value = m2;
+                    ['mc-inter3','mc-inter4','mc-inter5'].forEach(id => {
+                        const el = document.getElementById(id);
+                        if (el) el.value = '';
+                    });
                     mcVerificar();
                 }
 
@@ -1300,52 +1343,99 @@ border-radius:0 0 20px 20px;
                 }
 
                 async function mcVerificar() {
-                    const m1 = mcNorm(document.getElementById('mc-inter1').value.trim());
-                    const m2 = mcNorm(document.getElementById('mc-inter2').value.trim());
-                    if (!m1 || !m2) { alert('Por favor, preencha os dois medicamentos.'); return; }
+                    const ids = ['mc-inter1','mc-inter2','mc-inter3','mc-inter4','mc-inter5'];
+                    const meds = ids.map(id => {
+                        const el = document.getElementById(id);
+                        return el ? mcNorm(el.value.trim()) : '';
+                    }).filter(Boolean);
 
-                    const resultado = document.getElementById('mc-resultado-ia');
-                    const nivel = document.getElementById('mc-nivel-ia');
-                    const corpo = document.getElementById('mc-corpo-ia');
+                    if (meds.length < 2) { alert('Por favor, preencha ao menos 2 medicamentos.'); return; }
+
+                    // Gerar todos os pares possíveis (C(n,2))
+                    const pares = [];
+                    for (let i = 0; i < meds.length; i++) {
+                        for (let j = i + 1; j < meds.length; j++) {
+                            pares.push([meds[i], meds[j]]);
+                        }
+                    }
+
+                    const container = document.getElementById('mc-resultados-container');
                     const btn = document.getElementById('mc-btn');
+                    btn.disabled = true;
+                    container.innerHTML = '';
 
-                    resultado.classList.add('show');
+                    if (pares.length > 1) {
+                        const resumo = document.createElement('div');
+                        resumo.style.cssText = 'font-size:13px;color:#666;margin-bottom:12px;font-weight:600;';
+                        resumo.textContent = '🔎 Verificando ' + pares.length + ' combinações entre ' + meds.length + ' medicamentos...';
+                        container.appendChild(resumo);
+                    }
 
-                    // 1. Verificar duplicação terapêutica (antes da base fixa)
+                    // Criar placeholder para cada par
+                    const cartoes = pares.map(([m1, m2]) => {
+                        const card = document.createElement('div');
+                        card.className = 'mc-resultado-ia';
+                        card.innerHTML =
+                            '<div class="mc-nivel-ia neutro">' +
+                                '<div class="mc-pair-label">💊 ' + m1 + ' + ' + m2 + '</div>' +
+                                '<span>✦ Verificando...</span>' +
+                            '</div>' +
+                            '<div class="mc-corpo-ia"><div class="mc-spinner-wrap"><div class="mc-spinner"></div></div></div>';
+                        container.appendChild(card);
+                        return { card, m1, m2 };
+                    });
+
+                    // Processar pares sequencialmente para não sobrecarregar a API
+                    for (const { card, m1, m2 } of cartoes) {
+                        await mcVerificarPar(m1, m2, card);
+                    }
+
+                    btn.disabled = false;
+                }
+
+                async function mcVerificarPar(m1, m2, card) {
+                    const nivelEl = card.querySelector('.mc-nivel-ia');
+                    const corpoEl = card.querySelector('.mc-corpo-ia');
+                    const pairLabel = '<div class="mc-pair-label">💊 ' + m1 + ' + ' + m2 + '</div>';
+                    const rodape = '<p style="font-size:11px;color:#999;margin-top:8px;">Base de dados fixa — Conteúdo educacional revisado por farmacêutica responsável.</p>';
+                    const rodapeIA = '<p style="font-size:11px;color:#999;margin-top:8px;">✦ Analisado por Inteligência Artificial — Conteúdo educacional. Consulte sempre seu farmacêutico.</p>';
+
+                    // 1. Duplicação terapêutica
                     const dupl = mcDetectarDuplicacao(m1.toLowerCase(), m2.toLowerCase());
                     if (dupl) {
                         const textosDupl = { alto: '🔴 RISCO ALTO', moderado: '🟡 RISCO MODERADO' };
-                        nivel.className = 'mc-nivel-ia ' + dupl.nivel;
-                        nivel.textContent = (textosDupl[dupl.nivel] || '⚠️') + ' — ' + dupl.titulo;
-                        corpo.innerHTML = '<p style="background:#fff3e0;padding:10px 14px;border-radius:8px;border-left:4px solid #e8751a;margin-bottom:12px;font-size:13px;"><strong>🔄 DUPLICAÇÃO TERAPÊUTICA</strong> — Os dois medicamentos pertencem à mesma classe (<strong>' + dupl.classe + '</strong>). Usar dois da mesma classe raramente é indicado e pode ser perigoso.</p><p><strong>⚠️ O que pode acontecer:</strong><br>' + dupl.efeito + '</p><p><strong>✅ O que fazer:</strong><br>' + dupl.conduta + '</p><p style="font-size:11px;color:#999;margin-top:8px;">Base de dados fixa — Conteúdo educacional revisado por farmacêutica responsável.</p>';
+                        nivelEl.className = 'mc-nivel-ia ' + dupl.nivel;
+                        nivelEl.innerHTML = pairLabel + '<span>' + (textosDupl[dupl.nivel] || '⚠️') + ' — ' + dupl.titulo + '</span>';
+                        corpoEl.innerHTML = '<p style="background:#fff3e0;padding:10px 14px;border-radius:8px;border-left:4px solid #e8751a;margin-bottom:12px;font-size:13px;"><strong>🔄 DUPLICAÇÃO TERAPÊUTICA</strong> — Os dois medicamentos pertencem à mesma classe (<strong>' + dupl.classe + '</strong>). Usar dois da mesma classe raramente é indicado e pode ser perigoso.</p><p><strong>⚠️ O que pode acontecer:</strong><br>' + dupl.efeito + '</p><p><strong>✅ O que fazer:</strong><br>' + dupl.conduta + '</p>' + rodape;
                         return;
                     }
 
-                    // 2. Verificar interação na base fixa
+                    // 2. Base fixa
                     const fixo = mcBuscarFixo(m1.toLowerCase(), m2.toLowerCase());
                     if (fixo) {
                         const gravBadge = { contraindicado: '🚫 CONTRAINDICADO', grave: '🔴 RISCO GRAVE', moderada: '🟡 RISCO MODERADO', leve: '🟢 RISCO LEVE' };
                         const textos = { alto: '🔴 RISCO ALTO', moderado: '🟡 RISCO MODERADO', baixo: '🟢 RISCO BAIXO' };
                         const gravLabel = (fixo.gravidade && gravBadge[fixo.gravidade]) ? gravBadge[fixo.gravidade] : textos[fixo.nivel];
-                        nivel.className = 'mc-nivel-ia ' + fixo.nivel;
-                        nivel.textContent = gravLabel + ' — ' + fixo.titulo;
-                        corpo.innerHTML = (fixo.mecanismo ? '<p><strong>🔬 Mecanismo:</strong><br>' + fixo.mecanismo + '</p>' : '') + '<p><strong>⚠️ O que pode acontecer:</strong><br>' + fixo.efeito + '</p><p><strong>✅ O que fazer:</strong><br>' + fixo.conduta + '</p><p style="font-size:11px;color:#999;margin-top:8px;">Base de dados fixa — Conteúdo educacional revisado por farmacêutica responsável.</p>';
+                        nivelEl.className = 'mc-nivel-ia ' + fixo.nivel;
+                        nivelEl.innerHTML = pairLabel + '<span>' + gravLabel + ' — ' + fixo.titulo + '</span>';
+                        corpoEl.innerHTML = (fixo.mecanismo ? '<p><strong>🔬 Mecanismo:</strong><br>' + fixo.mecanismo + '</p>' : '') + '<p><strong>⚠️ O que pode acontecer:</strong><br>' + fixo.efeito + '</p><p><strong>✅ O que fazer:</strong><br>' + fixo.conduta + '</p>' + rodape;
                         return;
                     }
 
+                    // 3. Cache IA
                     const cacheKey = [m1.toLowerCase(), m2.toLowerCase()].sort().join('|');
                     if (mcCacheIA[cacheKey]) {
                         const c = mcCacheIA[cacheKey];
-                        nivel.className = 'mc-nivel-ia ' + c.nivel;
-                        nivel.textContent = c.titulo;
-                        corpo.innerHTML = c.html + '<p style="font-size:11px;color:#999;margin-top:8px;">✦ Analisado por IA — <span style="background:#e8f0fe;padding:2px 8px;border-radius:10px;color:#667eea;font-weight:700;">CACHE</span> — Conteúdo educacional.</p>';
+                        nivelEl.className = 'mc-nivel-ia ' + c.nivel;
+                        nivelEl.innerHTML = pairLabel + '<span>' + c.titulo + '</span>';
+                        corpoEl.innerHTML = c.html + '<p style="font-size:11px;color:#999;margin-top:8px;">✦ Analisado por IA — <span style="background:#e8f0fe;padding:2px 8px;border-radius:10px;color:#667eea;font-weight:700;">CACHE</span> — Conteúdo educacional.</p>';
                         return;
                     }
 
-                    nivel.className = 'mc-nivel-ia neutro';
-                    nivel.textContent = '✦ Analisando com Inteligência Artificial...';
-                    corpo.innerHTML = '<div class="mc-spinner-wrap"><div class="mc-spinner"></div><div class="mc-spinner-txt">Consultando a IA sobre <strong>' + m1 + '</strong> + <strong>' + m2 + '</strong>...</div></div>';
-                    btn.disabled = true;
+                    // 4. Chamar IA
+                    nivelEl.className = 'mc-nivel-ia neutro';
+                    nivelEl.innerHTML = pairLabel + '<span>✦ Analisando com Inteligência Artificial...</span>';
+                    corpoEl.innerHTML = '<div class="mc-spinner-wrap"><div class="mc-spinner"></div><div class="mc-spinner-txt">Consultando a IA sobre <strong>' + m1 + '</strong> + <strong>' + m2 + '</strong>...</div></div>';
 
                     try {
                         const res = await fetch('https://api.anthropic.com/v1/messages', {
@@ -1365,21 +1455,19 @@ border-radius:0 0 20px 20px;
 
                         const cores = { alto: 'alto', moderado: 'moderado', baixo: 'baixo', nenhum: 'baixo' };
                         const icones = { alto: '🔴 RISCO ALTO', moderado: '🟡 RISCO MODERADO', baixo: '🟢 RISCO BAIXO', nenhum: '🟢 Sem interação relevante encontrada' };
-
                         const html = '<p><strong>⚠️ Efeito da interação:</strong><br>' + (parsed.efeito || 'Não identificado.') + '</p>' + (parsed.mecanismo ? '<p><strong>🔬 Mecanismo:</strong><br>' + parsed.mecanismo + '</p>' : '') + '<p><strong>✅ Conduta recomendada:</strong><br>' + (parsed.conduta || 'Consulte seu médico ou farmacêutico.') + '</p>';
-
                         const cor = cores[parsed.nivel] || 'baixo';
                         const tituloFinal = (icones[parsed.nivel] || icones.nenhum) + (parsed.titulo ? ' — ' + parsed.titulo : '');
-                        nivel.className = 'mc-nivel-ia ' + cor;
-                        nivel.textContent = tituloFinal;
-                        corpo.innerHTML = html + '<p style="font-size:11px;color:#999;margin-top:8px;">✦ Analisado por Inteligência Artificial — Conteúdo educacional. Consulte sempre seu farmacêutico.</p>';
+
+                        nivelEl.className = 'mc-nivel-ia ' + cor;
+                        nivelEl.innerHTML = pairLabel + '<span>' + tituloFinal + '</span>';
+                        corpoEl.innerHTML = html + rodapeIA;
                         mcCacheIA[cacheKey] = { nivel: cor, titulo: tituloFinal, html: html };
                     } catch(e) {
-                        nivel.className = 'mc-nivel-ia neutro';
-                        nivel.textContent = '⚠️ Análise por IA temporariamente indisponível';
-                        corpo.innerHTML = '<p>No momento a análise por IA está temporariamente indisponível. Use a aba <strong>Interações Conhecidas</strong> para consultar nossa base com 557 combinações cadastradas.</p>';
+                        nivelEl.className = 'mc-nivel-ia neutro';
+                        nivelEl.innerHTML = pairLabel + '<span>⚠️ Análise por IA temporariamente indisponível</span>';
+                        corpoEl.innerHTML = '<p>No momento a análise por IA está temporariamente indisponível. Use a aba <strong>Interações Conhecidas</strong> para consultar nossa base com 821 combinações cadastradas.</p>';
                     }
-                    btn.disabled = false;
                 }
 
                 function mcMudarTab(panelId, el) {
