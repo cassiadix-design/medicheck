@@ -9656,6 +9656,469 @@
       "mecanismo": "A clortalidona tem ação prolongada (meia-vida de 45–60h) e causa depleção volumétrica e sódica sustentada, ativando o sistema renina-angiotensina. A introdução de IECA ou BRA nesse contexto bloqueia abruptamente o eixo renina-angiotensina, podendo causar queda intensa da PA.",
       "efeito": "Hipotensão aguda e ortostática — tontura, síncope e, nos casos graves, insuficiência renal aguda pré-renal. O risco é maior em idosos, pacientes com depleção volumétrica ou que recebem doses altas de clortalidona.",
       "conduta": "⚠️ Iniciar IECA/BRA com a menor dose disponível. Orientar a tomar a primeira dose à noite, deitado. Monitorar PA e creatinina/ureia nas primeiras semanas. A associação é amplamente usada e eficaz após o ajuste de doses."
+    },
+    {
+      "med1": [
+        "atazanavir",
+        "reyataz"
+      ],
+      "med2": [
+        "sinvastatina",
+        "lovastatina",
+        "atorvastatina"
+      ],
+      "nivel": "alto",
+      "titulo": "Atazanavir + Estatina (Rabdomiólise por Inibição de CYP3A4)",
+      "mecanismo": "O atazanavir é forte inibidor de CYP3A4. Sinvastatina e lovastatina são metabolizadas quase exclusivamente pela CYP3A4 — a co-administração eleva seus níveis em 5–10 vezes, com risco de miopatia e rabdomiólise. A atorvastatina é afetada em menor grau, mas ainda significativamente.",
+      "efeito": "Miopatia grave — dor muscular intensa, fraqueza e elevação de CK. Nos casos graves: rabdomiólise com insuficiência renal aguda e urina cor de chá.",
+      "conduta": "🚫 Sinvastatina e lovastatina são contraindicadas com atazanavir. Usar rosuvastatina (dose máxima 10mg/dia) ou pravastatina como alternativas mais seguras. Atorvastatina: dose máxima 20mg/dia com monitoração."
+    },
+    {
+      "med1": [
+        "atazanavir",
+        "reyataz"
+      ],
+      "med2": [
+        "midazolam",
+        "triazolam",
+        "halcion"
+      ],
+      "nivel": "alto",
+      "titulo": "Atazanavir + Midazolam / Triazolam (Sedação Excessiva — Contraindicado)",
+      "mecanismo": "O atazanavir inibe fortemente a CYP3A4, que é responsável pelo metabolismo do midazolam e do triazolam oral. A co-administração eleva os níveis de benzodiazepínicos em múltiplas vezes, com risco de sedação prolongada e depressão respiratória grave.",
+      "efeito": "Sedação profunda e prolongada, amnésia e depressão respiratória potencialmente fatal. O efeito pode durar horas além do esperado.",
+      "conduta": "🚫 Midazolam oral e triazolam são contraindicados com atazanavir. Se sedação for necessária, pode-se usar midazolam IV com dose única em ambiente monitorado. Considerar lorazepam ou oxazepam (metabolismo independente de CYP3A4) como alternativas."
+    },
+    {
+      "med1": [
+        "atazanavir",
+        "reyataz"
+      ],
+      "med2": [
+        "antiácido",
+        "hidróxido de alumínio",
+        "hidróxido de magnésio",
+        "carbonato de cálcio",
+        "bicarbonato"
+      ],
+      "nivel": "moderado",
+      "titulo": "Atazanavir + Antiácido (Redução da Absorção por Elevação de pH)",
+      "mecanismo": "O atazanavir necessita de pH gástrico ácido para se dissolver e ser absorvido. Antiácidos elevam temporariamente o pH gástrico, reduzindo a solubilidade do atazanavir e sua biodisponibilidade em 20–30%. O efeito é menor que o dos IBPs, mas ainda relevante.",
+      "efeito": "Redução da absorção do atazanavir — níveis plasmáticos mais baixos com risco de falha virológica a médio prazo.",
+      "conduta": "⚠️ Separar a tomada de antiácidos do atazanavir por pelo menos 2 horas (tomar o atazanavir 2h antes ou 1h depois do antiácido). IBPs são contraindicados sem ritonavir/cobicistat — com booster, permitir apenas omeprazol ≤20mg/dia."
+    },
+    {
+      "med1": [
+        "darunavir",
+        "prezista"
+      ],
+      "med2": [
+        "sinvastatina",
+        "lovastatina"
+      ],
+      "nivel": "alto",
+      "titulo": "Darunavir/Ritonavir + Sinvastatina / Lovastatina (Rabdomiólise)",
+      "mecanismo": "O darunavir é administrado com ritonavir ou cobicistat — ambos são inibidores potentes de CYP3A4. Sinvastatina e lovastatina são substratos exclusivos de CYP3A4, e seus níveis podem aumentar em até 10 vezes, causando toxicidade muscular grave.",
+      "efeito": "Miopatia, dor muscular intensa, fraqueza e, nos casos graves, rabdomiólise com insuficiência renal aguda.",
+      "conduta": "🚫 Sinvastatina e lovastatina são contraindicadas com darunavir/ritonavir. Preferir rosuvastatina (máx. 10mg/dia) ou pravastatina. Evitar atorvastatina em doses elevadas."
+    },
+    {
+      "med1": [
+        "darunavir",
+        "prezista"
+      ],
+      "med2": [
+        "midazolam",
+        "triazolam",
+        "halcion"
+      ],
+      "nivel": "alto",
+      "titulo": "Darunavir/Ritonavir + Midazolam / Triazolam (Sedação Grave — Contraindicado)",
+      "mecanismo": "Darunavir boosted com ritonavir/cobicistat inibe intensamente a CYP3A4. Midazolam oral e triazolam são metabolizados quase exclusivamente por essa via — a combinação pode elevar seus níveis em 10–20 vezes, com risco de sedação prolongada e depressão respiratória.",
+      "efeito": "Sedação grave e prolongada, depressão respiratória com risco de óbito. O paciente pode permanecer sedado por horas além do previsto.",
+      "conduta": "🚫 Contraindicado. Usar lorazepam ou oxazepam (glicuronoconjugação, sem CYP3A4) como alternativas. Midazolam IV dose única em ambiente monitorado pode ser usado com extrema cautela."
+    },
+    {
+      "med1": [
+        "darunavir",
+        "prezista"
+      ],
+      "med2": [
+        "etinilestradiol",
+        "levonorgestrel",
+        "desogestrel",
+        "drospirenona",
+        "anticoncepcional oral",
+        "anticontraceptivo"
+      ],
+      "nivel": "moderado",
+      "titulo": "Darunavir/Ritonavir + Contraceptivo Hormonal Oral (Redução da Eficácia)",
+      "mecanismo": "O ritonavir (booster do darunavir) induz a CYP3A4 para alguns substratos enquanto inibe para outros. Com contraceptivos contendo etinilestradiol, há redução de até 40% nos níveis hormonais, comprometendo a proteção contraceptiva.",
+      "efeito": "Risco de falha contraceptiva e gravidez não planejada, especialmente em mulheres em uso de anticontraceptivos de baixa dose.",
+      "conduta": "⚠️ Utilizar método contraceptivo adicional não hormonal (preservativo, DIU de cobre) durante o uso de darunavir/ritonavir. Discutir com a paciente a troca para DIU hormonal ou implante, menos dependentes de absorção oral."
+    },
+    {
+      "med1": [
+        "indinavir",
+        "crixivan"
+      ],
+      "med2": [
+        "sinvastatina",
+        "lovastatina"
+      ],
+      "nivel": "alto",
+      "titulo": "Indinavir + Sinvastatina / Lovastatina (Rabdomiólise por Inibição de CYP3A4)",
+      "mecanismo": "O indinavir inibe a CYP3A4, elevando os níveis de sinvastatina e lovastatina em múltiplas vezes. Ao contrário de outros IPs, o indinavir não requer booster, mas sua própria ação inibitória sobre CYP3A4 é suficiente para causar interação clinicamente significativa.",
+      "efeito": "Miopatia, dor e fraqueza muscular, elevação de CK e, nos casos graves, rabdomiólise com insuficiência renal.",
+      "conduta": "🚫 Sinvastatina e lovastatina contraindicadas com indinavir. Usar rosuvastatina (máx. 10mg/dia) ou pravastatina como alternativas."
+    },
+    {
+      "med1": [
+        "indinavir",
+        "crixivan"
+      ],
+      "med2": [
+        "midazolam",
+        "triazolam",
+        "halcion"
+      ],
+      "nivel": "alto",
+      "titulo": "Indinavir + Midazolam / Triazolam (Sedação Excessiva — Contraindicado)",
+      "mecanismo": "O indinavir inibe a CYP3A4 e eleva os níveis de midazolam oral e triazolam em múltiplas vezes, com risco de sedação grave e depressão respiratória.",
+      "efeito": "Sedação prolongada e profunda, amnésia e risco de depressão respiratória.",
+      "conduta": "🚫 Contraindicado. Substituir por lorazepam ou oxazepam quando sedação ansiolítica for necessária."
+    },
+    {
+      "med1": [
+        "nelfinavir",
+        "viracept"
+      ],
+      "med2": [
+        "rifampicina",
+        "rifampin"
+      ],
+      "nivel": "alto",
+      "titulo": "Nelfinavir + Rifampicina (Indução Máxima de CYP3A4 — Falha Antirretroviral)",
+      "mecanismo": "A rifampicina é o indutor mais potente de CYP3A4. O nelfinavir é substrato de CYP3A4 e CYP2C19, e tem seus níveis reduzidos em 82% com a co-administração de rifampicina, tornando os níveis antirretrovirais subterapêuticos.",
+      "efeito": "Falha virológica — supressão inadequada do HIV com risco de progressão da doença, desenvolvimento de infecções oportunistas e seleção de mutações de resistência.",
+      "conduta": "🚫 Contraindicado. A rifampicina é incompatível com todos os IPs. Para tuberculose em paciente usando nelfinavir, substituir rifampicina por rifabutina (indutora mais fraca) e ajustar dose do nelfinavir conforme protocolo."
+    },
+    {
+      "med1": [
+        "nelfinavir",
+        "viracept"
+      ],
+      "med2": [
+        "sinvastatina",
+        "lovastatina"
+      ],
+      "nivel": "alto",
+      "titulo": "Nelfinavir + Sinvastatina / Lovastatina (Rabdomiólise)",
+      "mecanismo": "O nelfinavir inibe moderadamente a CYP3A4 — elevando os níveis de sinvastatina e lovastatina de forma clinicamente relevante, com risco de toxicidade muscular.",
+      "efeito": "Miopatia e risco de rabdomiólise com insuficiência renal aguda.",
+      "conduta": "🚫 Sinvastatina e lovastatina contraindicadas. Preferir rosuvastatina (máx. 10mg) ou pravastatina."
+    },
+    {
+      "med1": [
+        "nelfinavir",
+        "viracept"
+      ],
+      "med2": [
+        "midazolam",
+        "triazolam",
+        "halcion"
+      ],
+      "nivel": "alto",
+      "titulo": "Nelfinavir + Midazolam / Triazolam (Contraindicado)",
+      "mecanismo": "O nelfinavir inibe a CYP3A4, elevando os níveis de midazolam oral e triazolam com risco de sedação grave e depressão respiratória.",
+      "efeito": "Sedação excessiva e prolongada, risco de depressão respiratória.",
+      "conduta": "🚫 Contraindicado. Usar lorazepam ou oxazepam como alternativas."
+    },
+    {
+      "med1": [
+        "saquinavir",
+        "invirase"
+      ],
+      "med2": [
+        "amiodarona",
+        "dronedarona",
+        "sotalol",
+        "moxifloxacino",
+        "haloperidol",
+        "quetiapina",
+        "metadona"
+      ],
+      "nivel": "alto",
+      "titulo": "Saquinavir + Prolongadores de QT (Torsades de Pointes — Contraindicado)",
+      "mecanismo": "O saquinavir prolonga o intervalo QT e QTc de forma dose-dependente. Sua combinação com outros fármacos prolongadores de QT (antiarrítmicos, antipsicóticos, metadona) é sinérgica e aumenta dramaticamente o risco de taquicardia ventricular polimórfica.",
+      "efeito": "Torsades de Pointes — taquicardia ventricular polimórfica potencialmente fatal, podendo evoluir para fibrilação ventricular e morte súbita.",
+      "conduta": "🚫 Contraindicado com outros prolongadores de QT. Realizar ECG antes e após início do saquinavir. Corrigir hipocalemia e hipomagnesemia antes do tratamento. Se não houver alternativa ao IP, considerar atazanavir ou darunavir (menor risco de QT)."
+    },
+    {
+      "med1": [
+        "saquinavir",
+        "invirase"
+      ],
+      "med2": [
+        "sinvastatina",
+        "lovastatina"
+      ],
+      "nivel": "alto",
+      "titulo": "Saquinavir/Ritonavir + Sinvastatina / Lovastatina (Rabdomiólise)",
+      "mecanismo": "Saquinavir é sempre administrado com ritonavir, que é o inibidor de CYP3A4 mais potente disponível. A combinação eleva os níveis de sinvastatina e lovastatina em mais de 10 vezes.",
+      "efeito": "Miopatia grave e rabdomiólise com risco de insuficiência renal aguda.",
+      "conduta": "🚫 Sinvastatina e lovastatina contraindicadas. Usar rosuvastatina (máx. 10mg) ou pravastatina."
+    },
+    {
+      "med1": [
+        "nevirapina",
+        "viramune"
+      ],
+      "med2": [
+        "etinilestradiol",
+        "levonorgestrel",
+        "desogestrel",
+        "drospirenona",
+        "anticoncepcional oral",
+        "gestodeno",
+        "noretisterona"
+      ],
+      "nivel": "alto",
+      "titulo": "Nevirapina + Contraceptivo Hormonal Oral (Falha Contraceptiva por Indução de CYP3A4)",
+      "mecanismo": "A nevirapina é autoindutor potente de CYP3A4 e CYP2B6. Os estrogênios e progestágenos dos contraceptivos orais são substratos de CYP3A4, e seus níveis caem em 20–50% com a co-administração de nevirapina, comprometendo a eficácia contraceptiva.",
+      "efeito": "Falha contraceptiva com risco de gravidez não planejada — risco adicional e crítico em mulheres soropositivas em uso de ARV.",
+      "conduta": "🚫 Contraceptivos orais são insuficientes com nevirapina. Usar método contraceptivo de alta eficácia não dependente de metabolismo hepático: DIU de cobre, DIU hormonal (levonorgestrel intrauterino tem menor impacto), implante subdérmico ou injeção de medroxiprogesterona. Sempre associar preservativo."
+    },
+    {
+      "med1": [
+        "nevirapina",
+        "viramune"
+      ],
+      "med2": [
+        "metadona",
+        "methadone"
+      ],
+      "nivel": "alto",
+      "titulo": "Nevirapina + Metadona (Síndrome de Abstinência por Indução Enzimática)",
+      "mecanismo": "A nevirapina induz CYP3A4 e CYP2B6, principais enzimas do metabolismo da metadona. A co-administração reduz os níveis plasmáticos de metadona em 50–60%, precipitando síndrome de abstinência aguda em pacientes em terapia de manutenção para dependência de opioides.",
+      "efeito": "Síndrome de abstinência de opioides — ansiedade, sudorese, tremores, taquicardia, diarreia, náuseas, dor muscular e intensa fissura — podendo levar à recaída do uso de drogas ilícitas.",
+      "conduta": "⚠️ Monitorar sintomas de abstinência ao iniciar nevirapina em usuários de metadona. Aumentar a dose de metadona de 5–10mg por dia conforme necessário. Comunicar a equipe de tratamento de dependência química. Considerar uso de efavirenz (mesma questão, mas melhor documentada) ou dolutegravir (sem interação com metadona)."
+    },
+    {
+      "med1": [
+        "nevirapina",
+        "viramune"
+      ],
+      "med2": [
+        "ketoconazol",
+        "cetoconazol"
+      ],
+      "nivel": "moderado",
+      "titulo": "Nevirapina + Cetoconazol (Interação Bidirecional — Redução Mútua dos Níveis)",
+      "mecanismo": "A nevirapina induz CYP3A4, reduzindo os níveis de cetoconazol. Ao mesmo tempo, o cetoconazol inibe CYP3A4 e pode elevar transitoriamente os níveis de nevirapina. A interação é bidirecional e resulta em eficácia reduzida de ambos.",
+      "efeito": "Falha antifúngica por níveis inadequados de cetoconazol. Possível variação imprevisível dos níveis de nevirapina.",
+      "conduta": "⚠️ Evitar a combinação. Para tratamento de candidíase sistêmica em paciente em uso de nevirapina, preferir fluconazol (menor impacto, embora também iniba CYP3A4 em menor grau) e monitorar resposta clínica."
+    },
+    {
+      "med1": [
+        "rilpivirina",
+        "edurant"
+      ],
+      "med2": [
+        "antiácido",
+        "hidróxido de alumínio",
+        "hidróxido de magnésio",
+        "carbonato de cálcio"
+      ],
+      "nivel": "moderado",
+      "titulo": "Rilpivirina + Antiácido (Redução da Absorção — Separar 4 Horas)",
+      "mecanismo": "A rilpivirina necessita de pH gástrico ácido para dissolução e absorção adequadas. Antiácidos elevam o pH gástrico temporariamente, reduzindo a biodisponibilidade da rilpivirina em até 30–50%.",
+      "efeito": "Níveis plasmáticos de rilpivirina abaixo do terapêutico com risco de falha virológica e seleção de mutações de resistência (especialmente mutação K101E, E138A, V179L, Y181C, Y188L).",
+      "conduta": "⚠️ Separar a tomada do antiácido e da rilpivirina por pelo menos 4 horas (tomar rilpivirina 4h depois do antiácido, ou 2h antes). Bloqueadores H2: separar por 12h (antes) ou 4h (depois). IBPs: contraindicados."
+    },
+    {
+      "med1": [
+        "rilpivirina",
+        "edurant"
+      ],
+      "med2": [
+        "carbamazepina",
+        "fenitoína",
+        "fenobarbital",
+        "oxcarbazepina"
+      ],
+      "nivel": "alto",
+      "titulo": "Rilpivirina + Anticonvulsivante Indutor (Falha Virológica por Indução de CYP3A4)",
+      "mecanismo": "Carbamazepina, fenitoína e fenobarbital são indutores potentes de CYP3A4, principal via de metabolismo da rilpivirina. A co-administração reduz os níveis da rilpivirina em 46–80%, tornando-a ineficaz.",
+      "efeito": "Falha virológica — supressão inadequada do HIV com risco de progressão da doença e desenvolvimento de resistência ao ITRNN.",
+      "conduta": "🚫 Contraindicado. Para pacientes HIV+ em uso de anticonvulsivantes indutores, preferir regime baseado em inibidor de integrase (dolutegravir, bictegravir) que não dependem de CYP3A4 para metabolismo."
+    },
+    {
+      "med1": [
+        "rilpivirina",
+        "edurant"
+      ],
+      "med2": [
+        "metadona",
+        "methadone"
+      ],
+      "nivel": "moderado",
+      "titulo": "Rilpivirina + Metadona (Prolongamento de QTc Aditivo)",
+      "mecanismo": "A rilpivirina prolonga discretamente o intervalo QTc. A metadona é um dos fármacos com maior potencial de prolongamento de QT entre todos os medicamentos. A associação pode ser aditiva para o risco de Torsades de Pointes, especialmente em doses elevadas de metadona.",
+      "efeito": "Prolongamento do QTc com risco de Torsades de Pointes — especialmente quando a dose de metadona for elevada (>100mg/dia) ou houver hipocalemia associada.",
+      "conduta": "⚠️ Realizar ECG basal e repetir após 4 semanas de uso concomitante. Monitorar eletrólitos (K⁺ e Mg²⁺). Se QTc > 500ms, reconsiderar o regime antirretroviral."
+    },
+    {
+      "med1": [
+        "ketoconazol",
+        "cetoconazol",
+        "nizoral"
+      ],
+      "med2": [
+        "ciclosporina",
+        "sandimmun",
+        "neoral"
+      ],
+      "nivel": "alto",
+      "titulo": "Cetoconazol + Ciclosporina (Toxicidade da Ciclosporina por Inibição de CYP3A4)",
+      "mecanismo": "O cetoconazol é um dos inibidores mais potentes de CYP3A4 e P-gp. A ciclosporina é metabolizada quase exclusivamente pela CYP3A4. A co-administração eleva os níveis de ciclosporina em 4–5 vezes, com risco de toxicidade grave em órgão-alvo.",
+      "efeito": "Nefrotoxicidade aguda (elevação de creatinina, oligúria), neurotoxicidade (tremor, convulsão), hepatotoxicidade e hipertensão grave. Em transplantados: risco de perda do enxerto.",
+      "conduta": "🚫 Evitar a combinação. Se inevitável (ex.: tratamento de candidíase em transplantado), reduzir dose de ciclosporina em 50–75% e monitorar nível sérico diariamente. Restaurar dose original ao suspender cetoconazol — risco de rejeição por queda abrupta dos níveis."
+    },
+    {
+      "med1": [
+        "ketoconazol",
+        "cetoconazol",
+        "nizoral"
+      ],
+      "med2": [
+        "sinvastatina",
+        "lovastatina",
+        "atorvastatina"
+      ],
+      "nivel": "alto",
+      "titulo": "Cetoconazol + Estatina (Rabdomiólise por Inibição de CYP3A4)",
+      "mecanismo": "O cetoconazol sistêmico inibe fortemente a CYP3A4 e eleva os níveis de sinvastatina, lovastatina e atorvastatina em múltiplas vezes, com risco de toxicidade muscular grave.",
+      "efeito": "Miopatia, dor e fraqueza muscular, elevação de CK e risco de rabdomiólise com insuficiência renal aguda.",
+      "conduta": "🚫 Sinvastatina e lovastatina contraindicadas com cetoconazol sistêmico. Suspender estatina temporariamente ou usar rosuvastatina/pravastatina (menor dependência de CYP3A4). Retomar a estatina após completar o tratamento antifúngico."
+    },
+    {
+      "med1": [
+        "ketoconazol",
+        "cetoconazol",
+        "nizoral"
+      ],
+      "med2": [
+        "budesonida",
+        "fluticasona",
+        "beclometasona",
+        "triancinolona",
+        "dexametasona"
+      ],
+      "nivel": "alto",
+      "titulo": "Cetoconazol + Corticosteroide Inalatório / Tópico (Síndrome de Cushing Iatrogênica)",
+      "mecanismo": "O cetoconazol inibe fortemente a CYP3A4, que é responsável pelo metabolismo de corticosteroides inalatórios (budesonida, fluticasona) e tópicos. A inibição aumenta drasticamente a exposição sistêmica ao corticosteroide, mesmo em doses inalatórias ou tópicas, podendo causar supressão do eixo HPA.",
+      "efeito": "Síndrome de Cushing iatrogênica — ganho de peso, hiperglicemia, hipertensão, osteoporose, imunossupressão, face em lua cheia. Risco de insuficiência adrenal ao suspender o corticosteroide.",
+      "conduta": "⚠️ Evitar a associação, especialmente com budesonida e fluticasona (alta dependência de CYP3A4). Se inevitável, monitorar sinais de hipercortisolismo. Considerar redução gradual da dose do corticosteroide durante o uso de cetoconazol sistêmico."
+    },
+    {
+      "med1": [
+        "ketoconazol",
+        "cetoconazol",
+        "nizoral"
+      ],
+      "med2": [
+        "midazolam",
+        "triazolam",
+        "halcion",
+        "alprazolam"
+      ],
+      "nivel": "alto",
+      "titulo": "Cetoconazol + Midazolam / Triazolam (Sedação Excessiva — Contraindicado)",
+      "mecanismo": "O cetoconazol é o inibidor de CYP3A4 mais potente entre os antifúngicos. Midazolam oral e triazolam têm praticamente todo o seu metabolismo via CYP3A4, e seus níveis podem elevar-se em 10–15 vezes com a co-administração.",
+      "efeito": "Sedação profunda e prolongada, amnésia anterograde e depressão respiratória com risco de apneia e óbito.",
+      "conduta": "🚫 Midazolam oral e triazolam contraindicados com cetoconazol sistêmico. Midazolam IV pode ser usado com dose única reduzida em ambiente monitorado. Alprazolam: reduzir dose em 50–75%. Preferir lorazepam ou oxazepam."
+    },
+    {
+      "med1": [
+        "posaconazol",
+        "noxafil"
+      ],
+      "med2": [
+        "sinvastatina",
+        "lovastatina",
+        "atorvastatina"
+      ],
+      "nivel": "alto",
+      "titulo": "Posaconazol + Estatina (Rabdomiólise por Inibição de CYP3A4)",
+      "mecanismo": "O posaconazol é inibidor potente de CYP3A4. Sinvastatina e lovastatina são metabolizadas quase exclusivamente por CYP3A4 — seus níveis podem elevar-se em 5–10 vezes com co-administração de posaconazol.",
+      "efeito": "Miopatia, dor muscular severa e risco de rabdomiólise com insuficiência renal aguda.",
+      "conduta": "🚫 Sinvastatina e lovastatina contraindicadas durante o uso de posaconazol. Suspender estatina temporariamente (prophylaxis antifúngica dura semanas a meses) ou usar rosuvastatina/pravastatina em baixas doses com monitoração."
+    },
+    {
+      "med1": [
+        "posaconazol",
+        "noxafil"
+      ],
+      "med2": [
+        "midazolam",
+        "triazolam",
+        "halcion"
+      ],
+      "nivel": "alto",
+      "titulo": "Posaconazol + Midazolam / Triazolam (Sedação Grave — Contraindicado)",
+      "mecanismo": "O posaconazol inibe fortemente a CYP3A4, elevando os níveis de midazolam oral e triazolam em múltiplas vezes, com risco de sedação prolongada e depressão respiratória.",
+      "efeito": "Sedação excessiva e prolongada, depressão respiratória e risco de apneia.",
+      "conduta": "🚫 Midazolam oral e triazolam contraindicados com posaconazol. Usar lorazepam ou oxazepam como alternativas."
+    },
+    {
+      "med1": [
+        "posaconazol",
+        "noxafil"
+      ],
+      "med2": [
+        "metadona",
+        "methadone"
+      ],
+      "nivel": "alto",
+      "titulo": "Posaconazol + Metadona (QT Prolongado e Aumento dos Níveis de Metadona)",
+      "mecanismo": "O posaconazol inibe CYP3A4 e possivelmente CYP2D6, aumentando os níveis de metadona. Adicionalmente, ambos prolongam o intervalo QT — o efeito combinado é aditivo para o risco de Torsades de Pointes.",
+      "efeito": "Elevação dos níveis de metadona com risco de toxicidade opioide (sedação, depressão respiratória) e prolongamento adicional do QTc com risco de Torsades de Pointes.",
+      "conduta": "⚠️ Monitorar ECG (intervalo QTc) e sinais de toxicidade opioide ao iniciar posaconazol em paciente em metadona. Considerar redução da dose de metadona. Manter eletrólitos normais (K⁺ ≥ 4,0, Mg²⁺ ≥ 0,8)."
+    },
+    {
+      "med1": [
+        "tamoxifeno",
+        "nolvadex",
+        "tamoxan"
+      ],
+      "med2": [
+        "etinilestradiol",
+        "anticoncepcional oral",
+        "anticontraceptivo",
+        "estrogênio"
+      ],
+      "nivel": "alto",
+      "titulo": "Tamoxifeno + Estrogênio / Anticoncepcional Oral (Antagonismo e Tromboembolismo)",
+      "mecanismo": "O tamoxifeno antagoniza o receptor de estrogênio no tecido mamário. A adição de estrogênio exógeno (anticoncepcional oral, TRH) pode antagonizar o efeito antitumoral do tamoxifeno no tecido mamário e, ao mesmo tempo, potencializar o risco trombótico — já elevado pelo tamoxifeno via ação pró-estrogênica no fígado.",
+      "efeito": "Risco aumentado de tromboembolismo venoso (TVP, TEP) e potencial redução da eficácia do tratamento do câncer de mama. O risco tromboembólico com a combinação é maior que com cada fármaco isoladamente.",
+      "conduta": "🚫 Contraceptivos hormonais com estrogênio são contraindicados com tamoxifeno. Usar métodos não hormonais (preservativo, DIU de cobre) ou progestágeno isolado (desogestrel, DIU de levonorgestrel) com avaliação oncológica prévia."
+    },
+    {
+      "med1": [
+        "tamoxifeno",
+        "nolvadex",
+        "tamoxan"
+      ],
+      "med2": [
+        "rifampicina",
+        "rifampin"
+      ],
+      "nivel": "alto",
+      "titulo": "Tamoxifeno + Rifampicina (Redução do Metabólito Ativo por Indução de CYP3A4)",
+      "mecanismo": "O tamoxifeno é metabolizado pela CYP3A4 a N-desmetiltamoxifeno e, posteriormente, pela CYP2D6 ao endoxifeno (principal metabólito ativo). A rifampicina induz CYP3A4, desviando o metabolismo e reduzindo os níveis de endoxifeno, comprometendo a eficácia anticâncer.",
+      "efeito": "Redução significativa dos níveis de endoxifeno — metabólito 30–100 vezes mais ativo que o tamoxifeno — com potencial redução da eficácia do tratamento do câncer de mama.",
+      "conduta": "⚠️ Evitar rifampicina em pacientes em uso de tamoxifeno. Se tuberculose for diagnosticada, substituir rifampicina por rifabutina (indutor mais fraco) com monitoração clínica rigorosa da resposta ao tamoxifeno."
     }
   ],
   "duplicacao": [
