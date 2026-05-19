@@ -1180,6 +1180,7 @@ border-radius:0 0 20px 20px;
                 </div>
 
                 <script src="/mc-interacoes-data-v3.js"></script>
+                <script src="/config.js" onerror="void 0"></script>
 
                 <script>
                 /* mcInteracoesDB movido para mc-interacoes-data-v3.js */
@@ -1437,10 +1438,17 @@ border-radius:0 0 20px 20px;
                     nivelEl.innerHTML = pairLabel + '<span>✦ Analisando com Inteligência Artificial...</span>';
                     corpoEl.innerHTML = '<div class="mc-spinner-wrap"><div class="mc-spinner"></div><div class="mc-spinner-txt">Consultando a IA sobre <strong>' + m1 + '</strong> + <strong>' + m2 + '</strong>...</div></div>';
 
+                    const apiKey = (typeof ANTHROPIC_API_KEY !== 'undefined') ? ANTHROPIC_API_KEY : '';
+
                     try {
                         const res = await fetch('https://api.anthropic.com/v1/messages', {
                             method: 'POST',
-                            headers: { 'Content-Type': 'application/json' },
+                            headers: {
+                                'Content-Type': 'application/json',
+                                'x-api-key': apiKey,
+                                'anthropic-version': '2023-06-01',
+                                'anthropic-dangerous-direct-browser-access': 'true'
+                            },
                             body: JSON.stringify({
                                 model: 'claude-sonnet-4-20250514',
                                 max_tokens: 1000,
@@ -1448,10 +1456,16 @@ border-radius:0 0 20px 20px;
                                 messages: [{ role: 'user', content: 'Analise a interação entre: ' + m1 + ' e ' + m2 }]
                             })
                         });
+
+                        if (!res.ok) {
+                            const errData = await res.json().catch(() => ({}));
+                            throw new Error(errData.error?.message || 'HTTP ' + res.status);
+                        }
+
                         const data = await res.json();
                         const texto = (data.content && data.content[0] && data.content[0].text) ? data.content[0].text : '{}';
                         let parsed;
-                        try { parsed = JSON.parse(texto); } catch(e) { parsed = { nivel: 'nenhum', titulo: 'Erro ao processar', efeito: texto, conduta: 'Consulte seu farmacêutico.', mecanismo: '' }; }
+                        try { parsed = JSON.parse(texto); } catch(e) { parsed = { nivel: 'nenhum', titulo: 'Erro ao processar resposta', efeito: texto, conduta: 'Consulte seu farmacêutico.', mecanismo: '' }; }
 
                         const cores = { alto: 'alto', moderado: 'moderado', baixo: 'baixo', nenhum: 'baixo' };
                         const icones = { alto: '🔴 RISCO ALTO', moderado: '🟡 RISCO MODERADO', baixo: '🟢 RISCO BAIXO', nenhum: '🟢 Sem interação relevante encontrada' };
@@ -1462,11 +1476,13 @@ border-radius:0 0 20px 20px;
                         nivelEl.className = 'mc-nivel-ia ' + cor;
                         nivelEl.innerHTML = pairLabel + '<span>' + tituloFinal + '</span>';
                         corpoEl.innerHTML = html + rodapeIA;
+                        // Só cacheia respostas bem-sucedidas da IA
                         mcCacheIA[cacheKey] = { nivel: cor, titulo: tituloFinal, html: html };
                     } catch(e) {
                         nivelEl.className = 'mc-nivel-ia neutro';
                         nivelEl.innerHTML = pairLabel + '<span>⚠️ Análise por IA temporariamente indisponível</span>';
                         corpoEl.innerHTML = '<p>No momento a análise por IA está temporariamente indisponível. Use a aba <strong>Interações Conhecidas</strong> para consultar nossa base com 821 combinações cadastradas.</p>';
+                        // Não cacheia falhas — próxima tentativa tentará a API novamente
                     }
                 }
 
