@@ -10119,6 +10119,406 @@
       "mecanismo": "O tamoxifeno é metabolizado pela CYP3A4 a N-desmetiltamoxifeno e, posteriormente, pela CYP2D6 ao endoxifeno (principal metabólito ativo). A rifampicina induz CYP3A4, desviando o metabolismo e reduzindo os níveis de endoxifeno, comprometendo a eficácia anticâncer.",
       "efeito": "Redução significativa dos níveis de endoxifeno — metabólito 30–100 vezes mais ativo que o tamoxifeno — com potencial redução da eficácia do tratamento do câncer de mama.",
       "conduta": "⚠️ Evitar rifampicina em pacientes em uso de tamoxifeno. Se tuberculose for diagnosticada, substituir rifampicina por rifabutina (indutor mais fraco) com monitoração clínica rigorosa da resposta ao tamoxifeno."
+    },
+    {
+      "med1": [
+        "oxicodona",
+        "oxycontin"
+      ],
+      "med2": [
+        "diazepam",
+        "alprazolam",
+        "clonazepam",
+        "bromazepam",
+        "lorazepam",
+        "midazolam",
+        "zolpidem",
+        "zopiclona"
+      ],
+      "nivel": "alto",
+      "titulo": "Oxicodona + Benzodiazepínico / Hipnótico (Depressão Respiratória Fatal)",
+      "mecanismo": "A oxicodona deprime o SNC e o drive respiratório via agonismo μ-opioide. Benzodiazepínicos e hipnóticos potencializam esse efeito por mecanismos GABAérgicos independentes. A combinação é sinérgica para depressão respiratória — responsável pela maioria das mortes por overdose de opioides nos EUA e em crescimento no Brasil.",
+      "efeito": "Depressão respiratória grave, apneia, sedação profunda e óbito — mesmo em doses individuais dentro do range terapêutico de cada fármaco. Risco especialmente elevado em pacientes sem tolerância prévia a opioides.",
+      "conduta": "🚫 Evitar a combinação sempre que possível. Se absolutamente necessária (ex.: dor oncológica grave + ansiedade), iniciar com as menores doses, monitorar SpO₂ e ter naloxona disponível. Orientar familiares sobre uso de naloxona intranasal em emergência."
+    },
+    {
+      "med1": [
+        "oxicodona",
+        "oxycontin"
+      ],
+      "med2": [
+        "álcool",
+        "alcool",
+        "etanol",
+        "bebida alcoólica"
+      ],
+      "nivel": "alto",
+      "titulo": "Oxicodona + Álcool (Overdose Fatal — Contraindicado)",
+      "mecanismo": "O álcool potencializa a depressão do SNC da oxicodona por mecanismos aditivos e sinérgicos. Adicionalmente, o álcool pode alterar a cinética de liberação de formulações de liberação prolongada (LP), aumentando os picos plasmáticos — fenômeno chamado \"dose dumping\" — com risco de overdose aguda.",
+      "efeito": "Depressão respiratória grave, sedação profunda, hipotensão e óbito. O \"dose dumping\" com formulas LP pode elevar os níveis de oxicodona em até 2-3x rapidamente.",
+      "conduta": "🚫 Álcool é absolutamente contraindicado com oxicodona. Orientar firmemente o paciente e familiares. Alertar que inclui cerveja, vinho e destilados — qualquer quantidade aumenta o risco."
+    },
+    {
+      "med1": [
+        "oxicodona",
+        "oxycontin"
+      ],
+      "med2": [
+        "cetoconazol",
+        "ketoconazol",
+        "itraconazol",
+        "voriconazol",
+        "posaconazol",
+        "claritromicina",
+        "ritonavir"
+      ],
+      "nivel": "moderado",
+      "titulo": "Oxicodona + Inibidor de CYP3A4 (Aumento dos Níveis — Risco de Toxicidade Opioide)",
+      "mecanismo": "A oxicodona é metabolizada principalmente pela CYP3A4 (N-desmetilação). Inibidores potentes desta via elevam os níveis de oxicodona em 50–170%, com risco de toxicidade opioide mesmo sem mudança de dose.",
+      "efeito": "Sedação excessiva, náuseas, constipação intensa, miose e, em casos graves, depressão respiratória. Pode mascarar progressão de doença oncológica por sedação excessiva.",
+      "conduta": "⚠️ Reduzir a dose de oxicodona ao iniciar inibidores potentes de CYP3A4. Monitorar sinais de toxicidade opioide. Ao suspender o inibidor, reverter gradualmente para a dose original para evitar abstinência abrupta."
+    },
+    {
+      "med1": [
+        "metildopa",
+        "aldomet"
+      ],
+      "med2": [
+        "amitriptilina",
+        "imipramina",
+        "nortriptilina",
+        "clomipramina"
+      ],
+      "nivel": "moderado",
+      "titulo": "Metildopa + Antidepressivo Tricíclico (Perda do Efeito Anti-hipertensivo)",
+      "mecanismo": "Os antidepressivos tricíclicos bloqueiam a recaptação de noradrenalina nos terminais adrenérgicos e, ao mesmo tempo, bloqueiam receptores α-adrenérgicos, antagonizando o mecanismo central de ação da metildopa (que depende de ativação de receptores α₂ para reduzir o tônus simpático).",
+      "efeito": "Redução ou perda do efeito anti-hipertensivo da metildopa — com possível elevação da pressão arterial. Risco especialmente importante em gestantes em uso de metildopa para hipertensão gestacional.",
+      "conduta": "⚠️ Evitar antidepressivos tricíclicos em pacientes em uso de metildopa. Se necessário tratar depressão, preferir ISRSs (sertralina é mais estudada na gestação) ou mirtazapina, avaliando o contexto clínico."
+    },
+    {
+      "med1": [
+        "metildopa",
+        "aldomet"
+      ],
+      "med2": [
+        "haloperidol",
+        "haldol"
+      ],
+      "nivel": "moderado",
+      "titulo": "Metildopa + Haloperidol (Toxicidade no SNC)",
+      "mecanismo": "A associação de metildopa (agonista α₂ central com efeito sedativo) e haloperidol (antagonista dopaminérgico com efeitos extrapiramidais) pode resultar em toxicidade aditiva no SNC. Casos de demência reversível, confusão mental e sintomas extrapiramidais foram relatados com a combinação.",
+      "efeito": "Confusão mental, sedação excessiva, irritabilidade, rigidez e sintomas extrapiramidais — podendo simular demência ou quadro psicótico agudo.",
+      "conduta": "⚠️ Monitorar sinais de toxicidade no SNC ao combinar metildopa e haloperidol. Se confusão mental ou rigidez aparecerem, suspender um dos fármacos e reavaliar. A combinação deve ser usada com cautela, especialmente em idosos."
+    },
+    {
+      "med1": [
+        "metildopa",
+        "aldomet"
+      ],
+      "med2": [
+        "sulfato ferroso",
+        "ferro",
+        "fumarato ferroso",
+        "gluconato ferroso"
+      ],
+      "nivel": "moderado",
+      "titulo": "Metildopa + Suplemento de Ferro (Quelação — Redução da Absorção)",
+      "mecanismo": "O ferro forma quelatos insolúveis com a metildopa no trato gastrointestinal, reduzindo sua absorção oral em 70–80%. O efeito ocorre independentemente da forma do ferro (sulfato, fumarato, gluconato).",
+      "efeito": "Redução significativa dos níveis plasmáticos de metildopa com perda do controle da pressão arterial — risco especialmente grave em gestantes com hipertensão tratada com metildopa e anemia ferropriva concomitante (situação clínica comum).",
+      "conduta": "⚠️ Separar a administração de metildopa e ferro por pelo menos 2 horas. Monitorar PA com maior atenção ao iniciar ou ajustar suplementação de ferro em pacientes em uso de metildopa."
+    },
+    {
+      "med1": [
+        "sirolimo",
+        "rapamune",
+        "rapamicina",
+        "everolimo",
+        "afinitor",
+        "certican"
+      ],
+      "med2": [
+        "rifampicina",
+        "rifampin"
+      ],
+      "nivel": "alto",
+      "titulo": "Sirolimo / Everolimo + Rifampicina (Indução Máxima de CYP3A4 — Perda do Efeito Imunossupressor)",
+      "mecanismo": "A rifampicina é o indutor mais potente de CYP3A4 e P-gp. Sirolimo e everolimo são substratos exclusivos dessa via — a co-administração reduz a AUC do sirolimo em mais de 80%, tornando os níveis imunossupressores completamente subterapêuticos.",
+      "efeito": "Perda do efeito imunossupressor com risco de rejeição aguda do enxerto transplantado. Em oncologia: perda da eficácia antitumoral.",
+      "conduta": "🚫 Contraindicado. A rifampicina é incompatível com sirolimo e everolimo. Para tuberculose em transplantado em uso dessas drogas, substituir rifampicina por rifabutina e aumentar drasticamente a dose do imunossupressor com monitoração sérica intensiva."
+    },
+    {
+      "med1": [
+        "sirolimo",
+        "rapamune",
+        "rapamicina",
+        "everolimo",
+        "afinitor",
+        "certican"
+      ],
+      "med2": [
+        "ciclosporina",
+        "sandimmun",
+        "neoral"
+      ],
+      "nivel": "moderado",
+      "titulo": "Sirolimo / Everolimo + Ciclosporina (Nefrotoxicidade Potencializada)",
+      "mecanismo": "A ciclosporina inibe a CYP3A4 e P-gp, elevando os níveis de sirolimo/everolimo. Adicionalmente, a combinação tem efeito nefrotóxico aditivo — a ciclosporina causa vasoconstrição da arteríola aferente e o sirolimo prejudica a recuperação após injúria renal.",
+      "efeito": "Nefrotoxicidade cumulativa — elevação de creatinina, proteinúria e risco de perda acelerada da função renal do enxerto com uso prolongado.",
+      "conduta": "⚠️ Quando usados juntos (protocolos de transplante), monitorar função renal e nível sérico de sirolimo/everolimo com frequência. Em muitos protocolos atuais, a ciclosporina é retirada após período inicial precisamente para reduzir nefrotoxicidade cumulativa."
+    },
+    {
+      "med1": [
+        "sirolimo",
+        "rapamune",
+        "rapamicina",
+        "everolimo",
+        "afinitor",
+        "certican"
+      ],
+      "med2": [
+        "cetoconazol",
+        "ketoconazol",
+        "itraconazol",
+        "voriconazol",
+        "posaconazol",
+        "claritromicina",
+        "ritonavir"
+      ],
+      "nivel": "alto",
+      "titulo": "Sirolimo / Everolimo + Inibidor Potente de CYP3A4 (Toxicidade por Acúmulo)",
+      "mecanismo": "Sirolimo e everolimo têm índice terapêutico estreito e são metabolizados exclusivamente pela CYP3A4. Inibidores potentes (antifúngicos azólicos, claritromicina, inibidores de protease) elevam a AUC em 4–11 vezes, causando toxicidade em múltiplos sistemas.",
+      "efeito": "Imunossupressão excessiva com risco aumentado de infecções oportunistas, pneumonite intersticial, estomatite grave, trombocitopenia, hiperlipidemia e nefrotoxicidade.",
+      "conduta": "⚠️ Reduzir dose de sirolimo/everolimo em 70–80% ao iniciar inibidor potente de CYP3A4. Monitorar nível sérico diariamente nas primeiras semanas. Ao suspender o inibidor, restaurar dose original gradualmente para evitar rejeição."
+    },
+    {
+      "med1": [
+        "flecainida",
+        "tambocor"
+      ],
+      "med2": [
+        "fluoxetina",
+        "paroxetina"
+      ],
+      "nivel": "moderado",
+      "titulo": "Flecainida + Fluoxetina / Paroxetina (Toxicidade por Inibição de CYP2D6)",
+      "mecanismo": "A flecainida é metabolizada principalmente pela CYP2D6. Fluoxetina e paroxetina são inibidores potentes dessa enzima — a co-administração pode elevar os níveis de flecainida em 50–300%, dependendo do fenótipo do paciente (metabolizadores lentos são mais vulneráveis).",
+      "efeito": "Toxicidade por flecainida: alargamento excessivo do QRS (>25% do basal), prolongamento do PR, bradicardia, efeito pró-arrítmico paradoxal e taquicardia ventricular. Pode precipitar flutter atrial com condução AV acelerada (risco de FA com resposta ventricular rápida).",
+      "conduta": "⚠️ Reduzir dose de flecainida ao iniciar fluoxetina ou paroxetina. Monitorar ECG (QRS, PR e frequência cardíaca). Preferir sertralina ou escitalopram como antidepressivo — menor inibição de CYP2D6."
+    },
+    {
+      "med1": [
+        "flecainida",
+        "tambocor"
+      ],
+      "med2": [
+        "verapamil",
+        "diltiazem"
+      ],
+      "nivel": "alto",
+      "titulo": "Flecainida + Verapamil / Diltiazem (Depressão Miocárdica Grave)",
+      "mecanismo": "A flecainida reduz a velocidade de condução intraventricular (bloqueio de canal de sódio) e tem efeito inotrópico negativo. Verapamil e diltiazem adicionam bloqueio de canal de cálcio com efeitos cronotrópico, dromotrópico e inotrópico negativos pronunciados. O efeito combinado é aditivo sobre a contratilidade e condução cardíaca.",
+      "efeito": "Depressão miocárdica grave — risco de bradicardia severa, bloqueio AV de alto grau, hipotensão significativa e insuficiência cardíaca aguda. Maior risco em pacientes com função sistólica já reduzida.",
+      "conduta": "🚫 Evitar a combinação em pacientes com disfunção sistólica. Se necessário para controle de frequência na FA, monitorar ECG e função cardíaca rigorosamente. Iniciar com doses mínimas e aumentar gradualmente."
+    },
+    {
+      "med1": [
+        "flecainida",
+        "tambocor"
+      ],
+      "med2": [
+        "digoxina",
+        "lanoxin"
+      ],
+      "nivel": "moderado",
+      "titulo": "Flecainida + Digoxina (Aumento dos Níveis de Digoxina)",
+      "mecanismo": "A flecainida pode elevar os níveis séricos de digoxina em 15–25% por redução da distribuição e depuração da digoxina, possivelmente via inibição de P-gp. Adicionalmente, ambos prolongam o intervalo PR — a combinação tem efeito aditivo na condução AV.",
+      "efeito": "Risco de toxicidade digitálica (náuseas, bradicardia, bloqueio AV) e alargamento do intervalo PR com potencial de bloqueio de condução AV.",
+      "conduta": "⚠️ Monitorar nível sérico de digoxina ao iniciar ou ajustar flecainida. Realizar ECG com atenção ao intervalo PR. Manter digoxinemia na metade inferior do range terapêutico (0,5–0,9 ng/mL)."
+    },
+    {
+      "med1": [
+        "quinidina",
+        "quinidex"
+      ],
+      "med2": [
+        "warfarina",
+        "varfarina",
+        "acenocumarol",
+        "sintrom"
+      ],
+      "nivel": "alto",
+      "titulo": "Quinidina + Anticoagulante Cumarínico (Aumento do INR por Múltiplos Mecanismos)",
+      "mecanismo": "A quinidina eleva o efeito anticoagulante da warfarina por dois mecanismos: (1) inibição de CYP2C9, reduzindo o metabolismo do S-warfarina (enantiômero mais ativo); (2) redução da síntese dos fatores de coagulação dependentes de vitamina K por mecanismo direto. O efeito combinado é superior ao de outros inibidores de CYP2C9 isolados.",
+      "efeito": "Elevação significativa do INR com risco de sangramento maior — equimoses espontâneas, epistaxe, hematúria, sangramento gastrointestinal e hemorragia intracraniana.",
+      "conduta": "⚠️ Monitorar INR com frequência dobrada ao iniciar ou suspender quinidina. Reduzir dose de warfarina preventivamente. Alertar o paciente sobre sinais de sangramento."
+    },
+    {
+      "med1": [
+        "quinidina",
+        "quinidex"
+      ],
+      "med2": [
+        "metoprolol",
+        "propranolol",
+        "carvedilol",
+        "bisoprolol"
+      ],
+      "nivel": "moderado",
+      "titulo": "Quinidina + Beta-bloqueador (Inibição de CYP2D6 — Bradicardia e Hipotensão)",
+      "mecanismo": "A quinidina é inibidor potente de CYP2D6, enzima responsável pelo metabolismo de metoprolol, propranolol e carvedilol. A co-administração eleva os níveis desses beta-bloqueadores em 2–5 vezes, potencializando seus efeitos cronotrópico e inotrópico negativos.",
+      "efeito": "Bradicardia sintomática, hipotensão e possível insuficiência cardíaca — especialmente em pacientes já com função sistólica reduzida. Risco de bloqueio AV.",
+      "conduta": "⚠️ Reduzir dose do beta-bloqueador ao iniciar quinidina. Monitorar FC e PA. Preferir atenolol (excretado por via renal, sem metabolismo por CYP2D6) se beta-bloqueador for necessário."
+    },
+    {
+      "med1": [
+        "procainamida",
+        "pronestyl"
+      ],
+      "med2": [
+        "amiodarona",
+        "cordarone",
+        "ancoron"
+      ],
+      "nivel": "alto",
+      "titulo": "Procainamida + Amiodarona (QT Prolongado Aditivo e Aumento dos Níveis de Procainamida)",
+      "mecanismo": "A amiodarona prolonga o intervalo QT e inibe CYP2D6 e P-gp, reduzindo a depuração da procainamida e do seu metabólito ativo NAPA. O acúmulo combinado de procainamida e NAPA agrava o prolongamento do QT de forma aditiva ao efeito da amiodarona.",
+      "efeito": "Prolongamento marcado do QTc com risco elevado de Torsades de Pointes e fibrilação ventricular. Toxicidade da procainamida: hipotensão, alargamento do QRS e lupus induzido.",
+      "conduta": "🚫 Evitar a combinação. Se necessário em arritmias refratárias (uso hospitalar), monitorar ECG contínuo, níveis séricos de procainamida e NAPA, e eletrólitos. Ter desfibrilador disponível."
+    },
+    {
+      "med1": [
+        "procainamida",
+        "pronestyl"
+      ],
+      "med2": [
+        "cimetidina",
+        "tagamet"
+      ],
+      "nivel": "moderado",
+      "titulo": "Procainamida + Cimetidina (Redução da Depuração Renal — Aumento dos Níveis)",
+      "mecanismo": "A cimetidina inibe a secreção tubular renal de cátions orgânicos, reduzindo a eliminação renal da procainamida e do NAPA. Os níveis de procainamida podem elevar-se em 30–50% com cimetidina, com risco de toxicidade.",
+      "efeito": "Acúmulo de procainamida e NAPA — prolongamento do QTc, alargamento do QRS, hipotensão e risco de Torsades de Pointes.",
+      "conduta": "⚠️ Monitorar níveis séricos de procainamida e NAPA ao usar cimetidina concomitantemente. Considerar substituir cimetidina por famotidina ou ranitidina (menor interação com secreção tubular de cátions) ou por um IBP."
+    },
+    {
+      "med1": [
+        "procainamida",
+        "pronestyl"
+      ],
+      "med2": [
+        "quinidina",
+        "quinidex"
+      ],
+      "nivel": "alto",
+      "titulo": "Procainamida + Quinidina (Prolongamento Aditivo do QT — Torsades de Pointes)",
+      "mecanismo": "Procainamida e quinidina são ambos antiarrítmicos classe IA com mecanismo de prolongamento do intervalo QT. A associação é aditiva para esse efeito — tornando o risco de Torsades de Pointes cumulativo e significativamente aumentado.",
+      "efeito": "QTc muito prolongado com risco de Torsades de Pointes, síncope e morte súbita. Ambos também têm efeito pró-arrítmico individual — o risco combinado é substancialmente maior.",
+      "conduta": "🚫 Contraindicado. Antiarrítmicos da mesma classe (IA) não devem ser combinados. Se refratariedade arrítmica, considerar amiodarona em monoterapia sob monitoração hospitalar."
+    },
+    {
+      "med1": [
+        "almotriptana",
+        "axert",
+        "almogran"
+      ],
+      "med2": [
+        "ergotamina",
+        "di-hidroergotamina",
+        "ergot",
+        "cafergot"
+      ],
+      "nivel": "alto",
+      "titulo": "Almotriptana + Ergotamina / Di-hidroergotamina (Vasoespasmo Coronariano e Cerebral)",
+      "mecanismo": "Almotriptana e derivados do ergot causam vasoconstrição via receptores 5-HT1B/1D e α-adrenérgicos, respectivamente. A combinação é sinérgica para vasoconstrição — com risco de espasmo de artérias coronarianas, cerebrais e periféricas.",
+      "efeito": "Vasoespasmo grave — dor torácica isquêmica, isquemia de extremidades e risco de AVC isquêmico. Casos de infarto agudo do miocárdio foram relatados com a combinação de triptanos e ergotamínicos.",
+      "conduta": "🚫 Contraindicado. Separar almotriptana de ergotamina/di-hidroergotamina por pelo menos 24 horas. Se a crise não ceder com o triptano, procurar serviço de urgência — não associar ergotamínico."
+    },
+    {
+      "med1": [
+        "almotriptana",
+        "axert",
+        "almogran"
+      ],
+      "med2": [
+        "cetoconazol",
+        "ketoconazol",
+        "itraconazol",
+        "eritromicina"
+      ],
+      "nivel": "moderado",
+      "titulo": "Almotriptana + Inibidor de CYP3A4 (Aumento dos Níveis)",
+      "mecanismo": "A almotriptana é parcialmente metabolizada pela CYP3A4 e MAO-A. Inibidores de CYP3A4 (cetoconazol, itraconazol) elevam a AUC da almotriptana em 60–80%, embora o intervalo terapêutico seja amplo e o risco seja menor que com eletriptana.",
+      "efeito": "Elevação dos níveis de almotriptana com possível aumento dos efeitos vasoconstritores (pressão torácica, parestesias) e do risco cardiovascular.",
+      "conduta": "⚠️ Reduzir a dose de almotriptana para 6,25mg (metade do comprimido padrão) ao usar inibidores potentes de CYP3A4. Não exceder 12,5mg em 24h nessa combinação."
+    },
+    {
+      "med1": [
+        "eletriptana",
+        "relpax"
+      ],
+      "med2": [
+        "cetoconazol",
+        "ketoconazol",
+        "itraconazol",
+        "voriconazol",
+        "claritromicina",
+        "ritonavir",
+        "nelfinavir"
+      ],
+      "nivel": "alto",
+      "titulo": "Eletriptana + Inibidor Potente de CYP3A4 (Aumento Drástico dos Níveis — Contraindicado)",
+      "mecanismo": "A eletriptana é metabolizada quase exclusivamente pela CYP3A4. Inibidores potentes (antifúngicos azólicos, claritromicina, inibidores de protease) elevam sua AUC em 3–6 vezes — muito mais que para outros triptanos — por sua alta dependência dessa via.",
+      "efeito": "Risco aumentado de vasoconstrição coronariana e cerebral, pressão torácica, parestesias e eventos isquêmicos com os níveis elevados de eletriptana.",
+      "conduta": "🚫 Contraindicado dentro de 72h do uso de inibidores potentes de CYP3A4. Usar almotriptana ou naratriptana (menor dependência de CYP3A4) como alternativa em pacientes em uso de antifúngicos azólicos ou inibidores de protease."
+    },
+    {
+      "med1": [
+        "eletriptana",
+        "relpax"
+      ],
+      "med2": [
+        "ergotamina",
+        "di-hidroergotamina",
+        "ergot",
+        "cafergot"
+      ],
+      "nivel": "alto",
+      "titulo": "Eletriptana + Ergotamina (Vasoespasmo — Contraindicado)",
+      "mecanismo": "Combinação sinérgica de vasoconstritores — eletriptana (agonista 5-HT1B/1D) e ergotamina (agonista α-adrenérgico e serotoninérgico) causam vasoconstrição aditiva de artérias coronarianas e cerebrais.",
+      "efeito": "Vasoespasmo grave com risco de isquemia miocárdica e cerebral. Casos de infarto do miocárdio foram relatados.",
+      "conduta": "🚫 Contraindicado. Separar por pelo menos 24 horas. Não usar ergotamina como resgate após falha do triptano."
+    },
+    {
+      "med1": [
+        "zolmitriptana",
+        "zomig"
+      ],
+      "med2": [
+        "cimetidina",
+        "tagamet"
+      ],
+      "nivel": "moderado",
+      "titulo": "Zolmitriptana + Cimetidina (Inibição de CYP1A2 — Duplicação dos Níveis)",
+      "mecanismo": "A zolmitriptana é metabolizada primariamente pela CYP1A2 ao metabólito ativo N-desmetilzolmitriptana. A cimetidina inibe a CYP1A2 e reduz a depuração tubular renal de cátions, elevando a AUC da zolmitriptana em 50–100%. É uma das interações mais específicas dos triptanos com anti-H2.",
+      "efeito": "Duplicação dos níveis de zolmitriptana e seu metabólito ativo — com aumento dos efeitos vasoconstritores, parestesias e risco cardiovascular.",
+      "conduta": "⚠️ Reduzir a dose de zolmitriptana para 2,5mg (dose máxima de 5mg/24h) ao usar cimetidina. Preferir famotidina ou omeprazol como alternativas para controle ácido — sem interação com CYP1A2."
+    },
+    {
+      "med1": [
+        "zolmitriptana",
+        "zomig"
+      ],
+      "med2": [
+        "ergotamina",
+        "di-hidroergotamina",
+        "ergot",
+        "cafergot"
+      ],
+      "nivel": "alto",
+      "titulo": "Zolmitriptana + Ergotamina (Vasoespasmo — Contraindicado)",
+      "mecanismo": "Combinação sinérgica de vasoconstritores. Zolmitriptana (agonista 5-HT1B/1D) e ergotamina/di-hidroergotamina causam vasoconstrição aditiva de artérias coronarianas, cerebrais e periféricas.",
+      "efeito": "Vasoespasmo grave com risco de isquemia coronariana e cerebral. Elevação da pressão arterial. Casos de infarto periférico foram relatados.",
+      "conduta": "🚫 Contraindicado. Separar por pelo menos 24 horas. Não combinar como estratégia de resgate na crise migranosa."
     }
   ],
   "duplicacao": [

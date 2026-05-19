@@ -1,0 +1,590 @@
+[
+  {
+    "nome": "Levofloxacino 250mg - 500mg - 750mg",
+    "generico": "levofloxacino",
+    "tipo": "Antibiótico Fluoroquinolônico de 3ª Geração",
+    "sinonimos": ["Levofloxacino", "Tavanic", "Levaquin"],
+    "descricao": "O levofloxacino é um antibiótico fluoroquinolônico de amplo espectro, isômero ativo do ofloxacino, que atua inibindo as enzimas DNA girase e topoisomerase IV bacterianas, impedindo a replicação e o reparo do DNA das bactérias. É indicado para o tratamento de infecções respiratórias (pneumonia adquirida na comunidade, sinusite, exacerbação aguda de bronquite crônica), infecções urinárias complicadas, pielonefrite, infecções de pele e partes moles, e infecções por antraz. Sua alta biodisponibilidade oral (próxima a 100%) permite a transição intravenosa-oral sem perda de eficácia. Por ser uma fluoroquinolona de geração mais recente, apresenta excelente atividade contra pneumococos resistentes à penicilina.",
+    "receita": "Sim",
+    "receita_display": "🔴 Receita Obrigatória",
+    "receita_cor": "#dc3545",
+    "receita_descricao": "Medicamento antibiótico sujeito a prescrição médica obrigatória. O uso inadequado de antibióticos favorece o desenvolvimento de resistência bacteriana e pode causar efeitos adversos graves.",
+    "receita_nota": "Receita Médica Comum, sem retenção na farmácia. A receita é válida por 10 dias e pode ser aviada em duas partes.",
+    "efeitos": "Os efeitos adversos mais comuns incluem náusea, diarreia, cefaleia e tontura. Podem ocorrer tendinopatia e ruptura de tendão, especialmente do tendão de Aquiles, com risco aumentado em idosos acima de 60 anos, usuários de corticosteroide e transplantados. Fotossensibilidade com exposição solar pode causar queimaduras graves. Efeitos no sistema nervoso central incluem insônia, agitação, raramente convulsões e episódios psicóticos, especialmente em idosos. Hipoglicemia pode ocorrer em diabéticos, sobretudo os que usam sulfonilureias. Prolongamento do intervalo QT com risco de arritmias graves é possível, especialmente em pacientes com hipocalemia ou em uso de outros medicamentos que prolongam o QT.",
+    "aviso_grave": "Risco de ruptura de tendão (principalmente tendão de Aquiles): suspender imediatamente ao sentir dor, inchaço ou inflamação em qualquer tendão e procurar atendimento médico. Contraindicado em pacientes com miastenia gravis pois pode precipitar crise de fraqueza muscular potencialmente fatal.",
+    "recomendacao": "Tomar com ou sem alimentos, pois a alimentação não afeta significativamente a absorção. Manter hidratação adequada durante o tratamento. Evitar antiácidos contendo cálcio, magnésio, alumínio, suplementos de ferro ou zinco por pelo menos 2 horas antes ou 6 horas após a tomada do levofloxacino. Usar protetor solar e roupas protetoras durante o tratamento e evitar exposição solar direta.",
+    "educacao": "Complete o curso completo de antibiótico mesmo que os sintomas melhorem antes do fim do tratamento, pois interromper precocemente pode levar ao retorno da infecção com bactérias resistentes. Nunca guarde sobras de antibiótico para uso futuro ou compartilhe com outras pessoas. Informe seu médico sobre todos os medicamentos que usa, especialmente antiácidos, suplementos minerais e medicamentos para o coração.",
+    "resposta_rapida": ["Antibiótico", "Fluoroquinolona", "Evitar sol", "Sem antiácidos 2h"],
+    "receita_obrigatoria": true,
+    "tipo_receita": "Receita Médica Comum",
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Posso tomar levofloxacino junto com antiácido?",
+        "resposta": "Não. Antiácidos contendo cálcio, magnésio ou alumínio reduzem drasticamente a absorção do levofloxacino, comprometendo sua eficácia. O mesmo vale para suplementos de ferro e zinco. Respeite um intervalo mínimo de 2 horas antes ou 6 horas após tomar o levofloxacino para usar esses produtos."
+      },
+      {
+        "pergunta": "Por que devo evitar o sol durante o tratamento?",
+        "resposta": "O levofloxacino causa fotossensibilidade, tornando a pele muito mais suscetível a queimaduras solares mesmo com exposição curta. Use protetor solar de fator alto, roupas protetoras e prefira ambientes com sombra durante o tratamento. A reação pode ocorrer mesmo em dias nublados."
+      },
+      {
+        "pergunta": "O que fazer se sentir dor no tendão durante o uso?",
+        "resposta": "Dor, inchaço ou rigidez em qualquer tendão — especialmente no tendão de Aquiles (atrás do calcanhar) — deve ser tratada como sinal de alerta grave. Pare de tomar o medicamento imediatamente e procure seu médico. Continuar o uso pode levar à ruptura completa do tendão, que exige cirurgia."
+      },
+      {
+        "pergunta": "Levofloxacino pode ser tomado por gestantes?",
+        "resposta": "O levofloxacino é contraindicado durante a gestação e a amamentação. Estudos em animais mostraram efeitos adversos sobre cartilagens articulares em desenvolvimento. Existem antibióticos mais seguros para uso na gestação; converse com seu médico sobre alternativas adequadas."
+      }
+    ],
+    "descricao_seo": "Levofloxacino 500mg (Tavanic): antibiótico fluoroquinolônico para pneumonia, ITU e sinusite. Riscos de tendão, fotossensibilidade e QT longo.",
+    "alerta_farmaceutico": "Orientar sobre risco de tendinopatia (suspender ao sentir dor em tendão), contraindicação absoluta em miastenia gravis, fotossensibilidade e interação com antiácidos. Verificar se o paciente usa outros medicamentos que prolongam o QT ou hipoglicemiantes. Alertar diabéticos sobre risco de hipoglicemia.",
+    "quando_procurar_medico": "Procure atendimento urgente se sentir dor, inchaço ou estalo em qualquer tendão; se apresentar fraqueza muscular súbita; se tiver batimentos cardíacos irregulares ou palpitações intensas; se desenvolver convulsão; se apresentar confusão mental aguda ou alucinações; ou se tiver reação alérgica grave (urticária, dificuldade de respirar, inchaço de face).",
+    "interacoes": "Antiácidos com Ca²⁺, Mg²⁺, Al³⁺, Fe²⁺ e Zn²⁺ reduzem absorção (intervalo de 2-6h obrigatório). Medicamentos que prolongam QT (amiodarona, haloperidol, antidepressivos tricíclicos) aumentam risco de arritmia. Sulfonilureias e insulina aumentam risco de hipoglicemia. AINEs podem aumentar risco de convulsão. Varfarina: monitorar RNI pois pode ter efeito aditivo anticoagulante."
+  },
+  {
+    "nome": "Norfloxacino 400mg",
+    "generico": "norfloxacino",
+    "tipo": "Antibiótico Fluoroquinolônico (uso urológico)",
+    "sinonimos": ["Norfloxacino", "Floxacin", "Noroxin", "UTI 400"],
+    "descricao": "O norfloxacino é um antibiótico fluoroquinolônico de espectro amplo com uso predominantemente urológico, pois apresenta baixa biodisponibilidade sistêmica mas concentra-se bem no trato urinário, próstata e tecido gastrointestinal. Atua inibindo a DNA girase e a topoisomerase IV bacteriana, bloqueando a replicação do DNA. É indicado principalmente para infecções urinárias não complicadas (cistite aguda), prostatite bacteriana crônica e, em alguns casos, profilaxia de infecções do trato urinário de repetição. Sua ação é eficaz contra gram-negativos (E. coli, Klebsiella, Proteus) e alguns gram-positivos.",
+    "receita": "Sim",
+    "receita_display": "🔴 Receita Obrigatória",
+    "receita_cor": "#dc3545",
+    "receita_descricao": "Antibiótico de uso restrito a prescrição médica. O uso indiscriminado de quinolonas é uma das principais causas de resistência bacteriana em infecções urinárias.",
+    "receita_nota": "Receita Médica Comum, sem retenção na farmácia. Válida por 10 dias a partir da data de emissão.",
+    "efeitos": "Os efeitos adversos mais frequentes são náusea, azia, dor abdominal, diarreia e cefaleia. Podem ocorrer tendinopatia e risco de ruptura de tendão, como em toda a classe das fluoroquinolonas. Fotossensibilidade com exposição solar é descrita. Efeitos no sistema nervoso central incluem tontura, insônia e, raramente, convulsão. Prolongamento do intervalo QT pode ocorrer, com risco de arritmias. Reações de hipersensibilidade incluem rash cutâneo e, raramente, anafilaxia.",
+    "aviso_grave": "Risco de tendinopatia e ruptura de tendão, com maior incidência em idosos, usuários de corticosteroide e transplantados. Contraindicado em pacientes com miastenia gravis. O norfloxacino não deve ser utilizado para infecções sistêmicas devido à sua baixa biodisponibilidade fora do trato urinário.",
+    "recomendacao": "Tomar em jejum, pelo menos 1 hora antes ou 2 horas após as refeições, pois alimentos reduzem significativamente sua absorção. Beber pelo menos 1,5 a 2 litros de água por dia durante o tratamento para facilitar a eliminação das bactérias e proteger os rins. Evitar antiácidos com metais divalentes por pelo menos 2 horas antes e 2 horas após cada dose. Usar protetor solar durante o período de tratamento.",
+    "educacao": "Siga rigorosamente o horário em jejum indicado, pois a alimentação pode reduzir a quantidade do antibiótico absorvida e comprometer o tratamento. Tome todas as doses prescritas, mesmo se os sintomas melhorarem antes do fim do curso. Não use norfloxacino para gripes, resfriados ou qualquer infecção que não seja urinária ou intestinal.",
+    "resposta_rapida": ["Antibiótico", "ITU", "Jejum obrigatório", "Sem antiácidos 2h"],
+    "receita_obrigatoria": true,
+    "tipo_receita": "Receita Médica Comum",
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Por que tenho que tomar em jejum?",
+        "resposta": "Os alimentos, especialmente laticínios e outros ricos em minerais, reduzem a absorção do norfloxacino de forma significativa, diminuindo os níveis do medicamento no sangue e na urina. Para garantir a concentração adequada no trato urinário, é fundamental tomar em jejum, esperando ao menos 1 hora antes ou 2 horas após as refeições."
+      },
+      {
+        "pergunta": "Norfloxacino trata qualquer tipo de infecção?",
+        "resposta": "Não. O norfloxacino tem baixa absorção sistêmica e concentra-se principalmente na urina e na próstata, sendo eficaz apenas para infecções urinárias e prostáticas. Para infecções em outros locais, como pneumonia ou infecções de pele, são necessários antibióticos com melhor distribuição sistêmica."
+      },
+      {
+        "pergunta": "Posso tomar leite ou iogurte junto com o norfloxacino?",
+        "resposta": "Não. Laticínios e alimentos ricos em cálcio interferem na absorção do norfloxacino, assim como antiácidos e suplementos minerais. Tome sempre com água e no estômago vazio para garantir máxima eficácia do antibiótico."
+      },
+      {
+        "pergunta": "Quanto tempo dura o tratamento para ITU com norfloxacino?",
+        "resposta": "Para cistite aguda não complicada em mulheres jovens saudáveis, o tratamento costuma durar 3 a 7 dias. Para prostatite bacteriana crônica, o tratamento pode durar de 4 a 6 semanas. Siga exatamente a duração prescrita pelo médico, mesmo se os sintomas desaparecerem antes."
+      }
+    ],
+    "descricao_seo": "Norfloxacino 400mg (Floxacin, UTI 400): antibiótico para infecção urinária e prostatite. Tomar em jejum. Riscos: tendão, fotossensibilidade, QT.",
+    "alerta_farmaceutico": "Reforçar obrigatoriamente a instrução de tomar em jejum — é o principal determinante de falha terapêutica. Alertar sobre interação com antiácidos e minerais. Verificar uso concomitante de medicamentos que prolongam QT. Lembrar que não é adequado para infecções sistêmicas. Orientar hidratação abundante.",
+    "quando_procurar_medico": "Procure atendimento urgente se sentir dor ou estalo em tendão, fraqueza muscular súbita, batimentos cardíacos irregulares, convulsão, confusão mental ou reação alérgica grave. Se os sintomas urinários não melhorarem em 48-72h ou piorarem, retorne ao médico para reavaliação e possível urocultura.",
+    "interacoes": "Antiácidos com Mg²⁺, Al³⁺, Ca²⁺, Fe²⁺ e Zn²⁺ reduzem absorção (intervalo de 2h obrigatório). Sucralfato também reduz absorção. Varfarina: pode potencializar efeito anticoagulante. Medicamentos que prolongam QT aumentam risco de arritmia. Ciclosporina: pode elevar níveis séricos da ciclosporina. AINEs: risco levemente aumentado de convulsão."
+  },
+  {
+    "nome": "Naproxeno 250mg - 500mg - 550mg",
+    "generico": "naproxeno",
+    "tipo": "Anti-Inflamatório Não Esteroidal (AINE) — Inibidor não seletivo de COX",
+    "sinonimos": ["Naproxeno", "Naprosyn", "Flanax", "Naprox", "Naprobene"],
+    "descricao": "O naproxeno é um anti-inflamatório não esteroidal (AINE) derivado do ácido propiônico que inibe de forma não seletiva as enzimas ciclo-oxigenase 1 e 2 (COX-1 e COX-2), reduzindo a síntese de prostaglandinas responsáveis pela dor, febre e inflamação. Sua principal vantagem frente ao ibuprofeno é a meia-vida longa (12 a 17 horas), permitindo posologia de apenas duas vezes ao dia. É indicado para alívio de dor e inflamação na artrite reumatoide, osteoartrite, espondilite anquilosante, gota aguda, dismenorreia primária, dor musculoesquelética e cefaleia tensional. Disponível em formas de venda livre para dor e febre em adultos.",
+    "receita": "Não",
+    "receita_display": "🟢 Venda Livre",
+    "receita_cor": "#28a745",
+    "receita_descricao": "Disponível sem receita para uso adulto em doses padrão para dor e febre. Doses mais altas e uso prolongado requerem orientação e acompanhamento médico.",
+    "receita_nota": "Venda sem receita em doses OTC (até 500mg). Para tratamentos prolongados ou em condições específicas, recomenda-se prescrição médica.",
+    "efeitos": "Os efeitos adversos gastrointestinais são os mais comuns: dispepsia, azia, náusea, dor epigástrica e, com uso prolongado, risco de úlcera péptica e hemorragia digestiva. Retenção hídrica com edema de membros inferiores pode ocorrer. Aumento da pressão arterial com uso crônico. Comprometimento da função renal, especialmente em pacientes com insuficiência renal prévia, insuficiência cardíaca ou desidratação. Cefaleia e tontura são efeitos leves relatados. Rash cutâneo e, raramente, reações alérgicas graves (síndrome de Stevens-Johnson) são possíveis.",
+    "aviso_grave": "Contraindicado no terceiro trimestre de gestação por risco de fechamento prematuro do ducto arterioso fetal e comprometimento da função renal do feto. Uso prolongado aumenta risco cardiovascular (infarto e AVC), especialmente em pacientes com doença cardiovascular preexistente.",
+    "recomendacao": "Tomar sempre com alimentos, leite ou antiácidos para minimizar a irritação gástrica. A dose deve ser a menor eficaz pelo menor tempo possível. Se for necessário uso por mais de 10 dias, consulte um médico. Manter boa hidratação durante o tratamento.",
+    "educacao": "Não combine naproxeno com outros AINEs (como ibuprofeno ou aspirina em doses anti-inflamatórias), pois o risco de efeitos adversos gastrointestinais e renais aumenta sem benefício adicional. Se fizer uso regular deste medicamento, seu médico pode recomendar um protetor gástrico como o omeprazol para proteger o estômago. Informe todos os seus médicos sobre o uso deste medicamento.",
+    "resposta_rapida": ["AINE", "Dor e inflamação", "Meia-vida longa", "Evitar em grávidas"],
+    "receita_obrigatoria": false,
+    "tipo_receita": "Venda sem receita (uso adulto — doses mais altas requerem orientação médica)",
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Qual a diferença entre naproxeno e ibuprofeno?",
+        "resposta": "Ambos são AINEs com mecanismo similar, mas o naproxeno tem meia-vida muito mais longa (12-17h versus 4-6h do ibuprofeno), permitindo apenas 2 tomadas diárias. O naproxeno pode ter perfil cardiovascular levemente mais favorável que o ibuprofeno, mas ambos aumentam risco de problemas gástricos e renais com uso prolongado."
+      },
+      {
+        "pergunta": "Grávidas podem usar naproxeno?",
+        "resposta": "O naproxeno é contraindicado no terceiro trimestre de gestação porque pode causar fechamento prematuro do ducto arterioso fetal (estrutura cardíaca essencial no feto) e comprometer a função renal do bebê. No primeiro e segundo trimestres, o uso deve ser evitado sempre que possível e nunca feito sem orientação médica."
+      },
+      {
+        "pergunta": "Posso usar naproxeno junto com anticoagulantes?",
+        "resposta": "O uso combinado de naproxeno com anticoagulantes como varfarina é perigoso e deve ser evitado ou feito apenas com rigorosa supervisão médica. O naproxeno inibe as plaquetas e pode irritar o estômago, potencializando o risco de sangramento em pacientes anticoagulados. Informe sempre seu médico sobre todos os medicamentos em uso."
+      },
+      {
+        "pergunta": "Por quanto tempo posso tomar naproxeno sem consultar um médico?",
+        "resposta": "Para dor ou febre aguda em adultos saudáveis, o uso sem prescrição médica não deve ultrapassar 10 dias para dor ou 3 dias para febre. Se os sintomas persistirem ou piorarem, é necessário consultar um médico. Pacientes com doenças crônicas, idosos ou em uso de outros medicamentos devem consultar o médico antes de usar."
+      }
+    ],
+    "descricao_seo": "Naproxeno 500mg (Flanax, Naprosyn): AINE de meia-vida longa para dor e inflamação. Contraindicado no 3º trimestre. Interação com anticoagulantes.",
+    "alerta_farmaceutico": "Orientar sobre risco gastrointestinal e recomendar uso com alimentos. Verificar uso de anticoagulantes, outros AINEs ou corticosteroides. Contraindicado no 3º trimestre de gestação. Alertar pacientes com insuficiência renal, cardíaca ou hipertensão. Sugerir protetor gástrico para uso prolongado. Não recomendar para menores de 12 anos sem prescrição.",
+    "quando_procurar_medico": "Procure atendimento urgente se apresentar fezes escuras ou com sangue, vômito com sangue ou aparência de borra de café, dor abdominal intensa, inchaço súbito de pernas e pés, diminuição da quantidade de urina, dificuldade para respirar, dor no peito, ou reação alérgica com urticária, falta de ar e inchaço de face.",
+    "interacoes": "Anticoagulantes (varfarina, heparina): potencializa sangramento. Outros AINEs e aspirina: risco aditivo de úlcera e sangramento. Corticosteroides: risco aumentado de hemorragia digestiva. Anti-hipertensivos (IECA, BRA, diuréticos): redução da eficácia anti-hipertensiva e risco renal. Lítio: aumenta nível sérico de lítio. Metotrexato: reduz eliminação renal do metotrexato (toxicidade). ISRS: potencializa risco de sangramento GI."
+  },
+  {
+    "nome": "Oxicodona 5mg - 10mg - 20mg - 40mg - 80mg",
+    "generico": "oxicodona",
+    "tipo": "Opioide Forte — Agonista μ (mi) Opioide",
+    "sinonimos": ["Oxicodona", "OxyContin", "Oxycodone", "Oxicodona HCl"],
+    "descricao": "A oxicodona é um opioide semissintético agonista potente dos receptores mu (μ), delta e kappa, com ação analgésica central intensa indicada para o controle de dor moderada a severa que não responde adequadamente a analgésicos não opioides. Disponível em formulação de liberação prolongada (LP ou CR), projetada para liberar o medicamento de forma gradual ao longo de 12 horas, garantindo controle contínuo da dor. É utilizada em dor crônica oncológica, dor neuropática intensa e dor pós-operatória severa. Por seu elevado potencial de abuso e dependência, é controlada como Lista A2 pela ANVISA, exigindo Notificação de Receita Amarela.",
+    "receita": "Sim",
+    "receita_display": "🔴 Receita Especial Obrigatória",
+    "receita_cor": "#dc3545",
+    "receita_descricao": "Sujeita a controle especial pela ANVISA (Lista A2 — substância entorpecente). Exige Notificação de Receita Amarela, emitida em duas vias, retida na farmácia no momento da dispensação.",
+    "receita_nota": "Notificação de Receita Amarela (A2) — retida na farmácia. Receita válida por 30 dias a partir da data de emissão. Dispensação apenas em farmácias habilitadas para manipulação de psicotrópicos e entorpecentes.",
+    "efeitos": "Constipação intestinal é o efeito adverso mais comum e persistente — raramente desenvolve tolerância. Náusea e vômito são frequentes no início do tratamento. Sedação, sonolência e lentidão psicomotora ocorrem especialmente nas primeiras semanas. Depressão respiratória é o efeito mais perigoso, potencializado por álcool e outros depressores do SNC. Prurido (coceira) é comum com o início do uso. Retenção urinária pode ocorrer. Dependência física desenvolve-se com uso regular, e a dependência psíquica varia conforme predisposição individual.",
+    "aviso_grave": "Os comprimidos de liberação prolongada NUNCA devem ser partidos, mastigados, dissolvidos ou triturados — isso elimina o mecanismo de liberação prolongada e libera dose potencialmente letal de uma só vez. Nunca combinar com álcool, benzodiazepínicos, outros opioides ou depressores do SNC — risco de parada respiratória e morte.",
+    "recomendacao": "Engolir os comprimidos inteiros, sem partir ou mastigar, com água suficiente. A dose deve ser individualizada pelo médico, iniciando pela menor dose eficaz. Não aumentar a dose por conta própria. Não interromper abruptamente — a suspensão deve ser gradual para evitar síndrome de abstinência. Tomar com ou sem alimentos.",
+    "educacao": "A dependência física é esperada com o uso regular de opioides e não significa que você está 'viciado' — é uma adaptação fisiológica. Por isso, nunca pare abruptamente sem orientação médica. Guarde o medicamento em local seguro, longe de crianças e de pessoas não autorizadas. Considere ter naloxona (antídoto) disponível em casa se você ou um familiar usa doses elevadas.",
+    "resposta_rapida": ["Opioide forte", "Lista A2", "Não partir/mastigar", "Risco dependência"],
+    "receita_obrigatoria": true,
+    "tipo_receita": "Receita de Controle Especial — Lista A2 (Notificação de Receita Amarela — retida na farmácia)",
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Por que não posso partir o comprimido de oxicodona?",
+        "resposta": "Os comprimidos de liberação prolongada possuem uma matriz especial projetada para liberar o medicamento lentamente ao longo de 12 horas. Ao partir, mastigar ou triturar, toda a dose é absorvida de uma vez, podendo causar overdose fatal com depressão respiratória grave. Sempre engula os comprimidos inteiros."
+      },
+      {
+        "pergunta": "O que é a Notificação de Receita Amarela?",
+        "resposta": "É o documento oficial exigido pela ANVISA para dispensação de medicamentos da Lista A2 (entorpecentes). Emitida em duas vias pelo médico, uma via fica retida na farmácia e a outra fica com o paciente. A receita tem validade de 30 dias e só pode ser aviada uma vez."
+      },
+      {
+        "pergunta": "Posso beber álcool enquanto uso oxicodona?",
+        "resposta": "Não. O álcool potencializa de forma perigosa a depressão do sistema nervoso central causada pela oxicodona, podendo resultar em sedação profunda, parada respiratória e morte. Essa combinação é uma das principais causas de overdose fatal por opioides. O uso de álcool é absolutamente contraindicado durante o tratamento."
+      },
+      {
+        "pergunta": "Como funciona a naloxona e quando devo usá-la?",
+        "resposta": "A naloxona (Narcan) é um antagonista opioide que reverte rapidamente os efeitos da overdose de oxicodona, especialmente a depressão respiratória. Deve ser usada em emergência se a pessoa estiver com respiração muito lenta ou ausente, inconsciente e irresponsiva. Após aplicar, ligue imediatamente para o SAMU (192) pois o efeito da naloxona é temporário."
+      }
+    ],
+    "descricao_seo": "Oxicodona (OxyContin): opioide forte Lista A2 para dor severa. Receita amarela obrigatória. Não partir comprimido LP. Risco de depressão respiratória.",
+    "alerta_farmaceutico": "Verificar validade e autenticidade da Notificação de Receita Amarela (A2). Reter uma via da receita. Orientar rigorosamente sobre não partir/mastigar comprimidos LP. Alertar sobre interação fatal com álcool e benzodiazepínicos. Verificar se há prescrição de naloxona como antídoto. Checar se paciente tem outras prescrições de opioides (polifarmácia opioide).",
+    "quando_procurar_medico": "Ligue para o SAMU (192) imediatamente se: respiração muito lenta, superficial ou ausente; lábios ou unhas azulados; impossibilidade de acordar a pessoa; pupilas muito contraídas (puntiformes); convulsão. Procure o médico se: constipação intensa sem melhora, retenção urinária, confusão mental persistente, ou se sentir necessidade de aumentar a dose frequentemente.",
+    "interacoes": "Álcool, benzodiazepínicos, outros opioides, hipnóticos e antihistamínicos sedativos: depressão aditiva do SNC com risco fatal. Inibidores de CYP3A4 (cetoconazol, ritonavir, claritromicina): aumentam níveis de oxicodona. Indutores de CYP3A4 (rifampicina, carbamazepina): reduzem eficácia. Inibidores de CYP2D6 (fluoxetina, paroxetina): também afetam metabolismo. IMAOs: contraindicados — risco de síndrome serotoninérgica e depressão respiratória grave."
+  },
+  {
+    "nome": "Metildopa 250mg - 500mg",
+    "generico": "metildopa",
+    "tipo": "Anti-hipertensivo — Agonista Alfa-2 Adrenérgico Central",
+    "sinonimos": ["Metildopa", "Aldomet", "Methyldopa", "Alpha-metildopa"],
+    "descricao": "A metildopa é um anti-hipertensivo de ação central que, após conversão no sistema nervoso central para alfa-metil-norepinefrina, estimula os receptores alfa-2 adrenérgicos centrais, reduzindo o tônus simpático e, consequentemente, a pressão arterial. É considerada o anti-hipertensivo de primeira escolha na hipertensão gestacional e pré-eclâmpsia, por apresentar extensa evidência de segurança para o feto e para o recém-nascido. Seu efeito anti-hipertensivo é gradual, sem causar queda brusca da pressão ou taquicardia reflexa. Pode ser utilizada em adultos não gestantes que não toleraram outros anti-hipertensivos, embora esteja em desuso nessa população.",
+    "receita": "Sim",
+    "receita_display": "🔴 Receita Obrigatória",
+    "receita_cor": "#dc3545",
+    "receita_descricao": "Medicamento anti-hipertensivo de uso exclusivo mediante prescrição médica, especialmente importante no contexto da gestação onde o controle da pressão arterial é crítico para a saúde da mãe e do bebê.",
+    "receita_nota": "Receita Médica Comum, sem retenção na farmácia. Válida por 30 dias. Para gestantes, recomenda-se acompanhamento médico regular.",
+    "efeitos": "Sedação e sonolência são os efeitos adversos mais frequentes, especialmente nas primeiras semanas de tratamento, podendo comprometer a capacidade de dirigir ou operar máquinas. Boca seca, congestão nasal e leve ganho de peso podem ocorrer. Teste de Coombs direto torna-se positivo em até 20% dos pacientes com uso prolongado, embora raramente evolua para anemia hemolítica clinicamente significativa. Hepatotoxicidade é rara, mas pode ser grave; recomenda-se monitorar enzimas hepáticas nos primeiros 3 meses. Depressão e disfunção erétil são descritas com uso prolongado.",
+    "aviso_grave": "Anemia hemolítica autoimune é uma complicação rara, porém grave, que se manifesta com teste de Coombs positivo associado à queda da hemoglobina — requer suspensão imediata do medicamento. Hepatotoxicidade com febre, icterícia e alteração de transaminases também exige suspensão urgente.",
+    "recomendacao": "Tomar conforme prescrito, geralmente duas a três vezes ao dia, com ou sem alimentos. Levantar-se lentamente da posição deitada ou sentada nas primeiras semanas para evitar tontura por hipotensão postural. Não interromper o uso abruptamente — reduzir a dose gradualmente conforme orientação médica.",
+    "educacao": "A metildopa é uma das opções mais seguras para controlar a pressão arterial durante a gravidez, com décadas de dados de segurança para o bebê. A sedação inicial tende a melhorar com o tempo. Mantenha consultas de pré-natal regulares para monitoramento da pressão arterial e realização dos exames solicitados pelo médico.",
+    "resposta_rapida": ["Anti-hipertensivo", "1ª escolha na gravidez", "Sedação", "Teste de Coombs positivo"],
+    "receita_obrigatoria": true,
+    "tipo_receita": "Receita Médica Comum",
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "A metildopa é segura para o bebê durante a gravidez?",
+        "resposta": "Sim. A metildopa é o anti-hipertensivo com maior histórico de segurança comprovada durante a gestação, sendo utilizada há mais de 50 anos. Estudos de longo prazo acompanharam crianças expostas durante a gestação e não demonstraram efeitos adversos no desenvolvimento neurológico ou físico."
+      },
+      {
+        "pergunta": "O que significa o teste de Coombs positivo causado pela metildopa?",
+        "resposta": "O teste de Coombs positivo indica a presença de anticorpos ligados às hemácias, um efeito colateral que ocorre em até 20% dos pacientes com uso prolongado. Na maioria dos casos, isso não causa problemas, mas em raras situações pode evoluir para anemia hemolítica. O médico monitorará com hemograma periódico."
+      },
+      {
+        "pergunta": "A sonolência causada pela metildopa é permanente?",
+        "resposta": "Não. A sedação é mais intensa nas primeiras 2 a 4 semanas de tratamento e tende a diminuir com a adaptação do organismo. Porém, em algumas pessoas, pode persistir. Informe seu médico se a sonolência estiver comprometendo suas atividades — pode ser necessário ajustar a dose ou o horário de administração."
+      },
+      {
+        "pergunta": "Posso parar de tomar metildopa de repente?",
+        "resposta": "Não é recomendado. A interrupção abrupta pode causar rebote da pressão arterial (hipertensão de rebote), especialmente se a dose for alta. A dose deve ser reduzida gradualmente conforme orientação médica. Em gestantes, a interrupção sem supervisão pode ser especialmente perigosa."
+      }
+    ],
+    "descricao_seo": "Metildopa 250mg (Aldomet): anti-hipertensivo de 1ª escolha na gestação. Causa sedação e Coombs positivo. Monitorar função hepática no início.",
+    "alerta_farmaceutico": "Orientar sobre sedação inicial e risco de hipotensão postural. Alertar para sinais de hepatotoxicidade (icterícia, dor abdominal, febre) e anemia hemolítica (fadiga intensa, urina escura). Lembrar que o teste de Coombs positivo assintomático não requer suspensão. Não interromper abruptamente. Verificar interações com outros anti-hipertensivos.",
+    "quando_procurar_medico": "Procure atendimento urgente se apresentar icterícia (olhos ou pele amarelados), urina escura, cansaço intenso e súbito, falta de ar, febre sem causa aparente ou palidez acentuada. Retorne ao médico se a pressão arterial não estiver controlada, se a sonolência for incapacitante ou se notar sinais de depressão.",
+    "interacoes": "Outros anti-hipertensivos: efeito hipotensor aditivo (monitorar hipotensão). IMAOs: contraindicados — podem causar crise hipertensiva paradoxal. Levodopa: antagonismo mútuo (redução de efeito da levodopa e potencial redução do efeito da metildopa). Ferro oral: reduz absorção da metildopa — administrar com intervalo de 2h. Lítio: risco aumentado de toxicidade por lítio. Haloperidol: risco de sedação aditiva e efeitos extrapiramidais."
+  },
+  {
+    "nome": "Sirolimo 0,5mg - 1mg - 2mg",
+    "generico": "sirolimo",
+    "tipo": "Imunossupressor — Inibidor de mTOR (mammalian Target of Rapamycin)",
+    "sinonimos": ["Sirolimo", "Rapamune", "Rapamicina", "Sirolimus"],
+    "descricao": "O sirolimo (rapamicina) é um imunossupressor macrolídeo que atua inibindo a proteína mTOR (alvo da rapamicina em mamíferos), bloqueando a proliferação de linfócitos T em resposta a citocinas como a IL-2, sem interferir diretamente na produção dessas citocinas. Diferentemente da ciclosporina e do tacrolimo, não possui nefrotoxicidade direta, tornando-se uma alternativa valiosa em pacientes com comprometimento renal após transplante. É aprovado para prevenção de rejeição de transplante renal e para o tratamento de linfangioleiomiomatose pulmonar (LAM). Possui índice terapêutico estreito, exigindo monitorização dos níveis séricos (TDM) para garantir eficácia e segurança.",
+    "receita": "Sim",
+    "receita_display": "🔴 Receita Obrigatória",
+    "receita_cor": "#dc3545",
+    "receita_descricao": "Imunossupressor de uso exclusivamente especializado, prescrito e monitorado por equipes de transplante ou especialistas em doenças raras. A prescrição requer acompanhamento periódico com dosagem sérica.",
+    "receita_nota": "Receita Médica Comum. Uso exclusivo em serviço especializado (centros de transplante). Requer monitorização de nível sérico periódica.",
+    "efeitos": "Hiperlipidemia (hipertrigliceridemia e hipercolesterolemia) é frequente e pode requerer tratamento específico. Trombocitopenia e anemia são comuns, especialmente no início do tratamento. Comprometimento da cicatrização é um efeito importante — aumenta risco de deiscência de ferida cirúrgica. Infecções oportunistas pelo estado de imunossupressão. Pneumonite intersticial não infecciosa é rara, porém grave, manifestando-se com dispneia progressiva e tosse seca. Edema periférico. Oligospermia com potencial impacto na fertilidade masculina.",
+    "aviso_grave": "O sirolimo compromete a cicatrização de feridas e deve ser suspenso antes de procedimentos cirúrgicos eletivos (geralmente 1-2 semanas antes). A pneumonite intersticial, embora rara, pode ser grave e exige suspensão imediata ao surgir dispneia e tosse seca inexplicadas.",
+    "recomendacao": "Tomar sempre no mesmo horário, consistentemente com ou sem alimentos (não variar a relação com alimentos, pois afeta a absorção). Evitar completamente grapefruit (toranja) e suco de laranja-azeda (Sevilla), que inibem o metabolismo e podem elevar os níveis de forma perigosa. Comparecer regularmente às dosagens de nível sérico conforme orientação da equipe de transplante.",
+    "educacao": "O nível sérico do sirolimo deve ser monitorado regularmente para garantir que está dentro da faixa terapêutica — abaixo da faixa aumenta risco de rejeição; acima, aumenta efeitos adversos e infecções. Nunca altere a dose por conta própria. Informe qualquer médico que for te atender (inclusive dentistas) que você usa sirolimo, pois ele interage com muitos medicamentos.",
+    "resposta_rapida": ["Imunossupressor", "Transplante renal", "Nível sérico obrigatório", "Evitar grapefruit"],
+    "receita_obrigatoria": true,
+    "tipo_receita": "Receita Médica Comum (uso exclusivo em serviço especializado — transplante)",
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Por que preciso fazer dosagem do nível sérico do sirolimo?",
+        "resposta": "O sirolimo tem um índice terapêutico estreito: níveis muito baixos não protegem contra rejeição do transplante, enquanto níveis muito altos aumentam os efeitos adversos e o risco de infecções graves. A dosagem sérica periódica permite ao médico ajustar a dose para manter o medicamento na faixa eficaz e segura."
+      },
+      {
+        "pergunta": "Por que não posso comer grapefruit usando sirolimo?",
+        "resposta": "O grapefruit contém compostos que inibem a enzima CYP3A4 no intestino e no fígado, responsável pelo metabolismo do sirolimo. Com essa enzima bloqueada, os níveis do medicamento no sangue podem triplicar ou quadruplicar, aumentando drasticamente o risco de toxicidade. Mesmo pequenas quantidades de grapefruit ou seu suco devem ser evitadas."
+      },
+      {
+        "pergunta": "Por que devo avisar o cirurgião sobre o uso de sirolimo?",
+        "resposta": "O sirolimo compromete significativamente a cicatrização de feridas ao inibir a proliferação celular necessária para o reparo tecidual. Pacientes em uso de sirolimo têm risco aumentado de deiscência de ferida (abertura da cicatriz) após cirurgias. Por isso, a equipe cirúrgica geralmente suspende o sirolimo 1 a 2 semanas antes de procedimentos eletivos."
+      },
+      {
+        "pergunta": "Sirolimo pode afetar minha fertilidade?",
+        "resposta": "Sim. O sirolimo pode causar oligospermia (redução na produção de espermatozoides) em homens, com impacto potencial na fertilidade. Esse efeito é geralmente reversível após a suspensão do medicamento. Pacientes que desejam ter filhos devem discutir esse risco com seu médico antes e durante o tratamento."
+      }
+    ],
+    "descricao_seo": "Sirolimo (Rapamune): imunossupressor inibidor de mTOR para transplante renal. Monitorar nível sérico. Evitar grapefruit. Compromete cicatrização.",
+    "alerta_farmaceutico": "Verificar aderência ao monitoramento de nível sérico. Alertar sobre interação com grapefruit e inibidores/indutores de CYP3A4. Orientar sobre risco de cicatrização comprometida e necessidade de informar cirurgiões. Monitorar lipídeos e hemograma. Orientar sobre sinais de pneumonite (tosse seca, dispneia progressiva). Verificar interação com ciclosporina ou tacrolimo.",
+    "quando_procurar_medico": "Procure urgentemente se desenvolver dispneia progressiva ou tosse seca persistente (possível pneumonite). Também procure atendimento para: febre com sinais de infecção, sangramento ou equimoses espontâneas (trombocitopenia), icterícia, ou qualquer sinal de rejeição do órgão transplantado (pode variar conforme o órgão — orientar conforme transplante específico).",
+    "interacoes": "Inibidores de CYP3A4/P-gp (cetoconazol, voriconazol, claritromicina, ritonavir, grapefruit): aumentam drasticamente os níveis de sirolimo. Indutores de CYP3A4 (rifampicina, fenitoína, carbamazepina, erva-de-são-joão): reduzem níveis de sirolimo. Ciclosporina: combinação potencializa nefrotoxicidade; administrar sirolimo 4h após ciclosporina. Vacinas vivas: contraindicadas durante imunossupressão. Inibidores de IECA: risco aumentado de edema angioneurótico."
+  },
+  {
+    "nome": "Everolimo 0,25mg - 0,5mg - 0,75mg - 2,5mg - 5mg - 10mg",
+    "generico": "everolimo",
+    "tipo": "Imunossupressor / Antineoplásico — Inibidor de mTOR",
+    "sinonimos": ["Everolimo", "Afinitor", "Certican", "Zortress", "Everolimus"],
+    "descricao": "O everolimo é um derivado semissintético do sirolimo que inibe a proteína mTOR, bloqueando a proliferação celular em resposta a fatores de crescimento. Possui dupla indicação: como imunossupressor para prevenção de rejeição em transplante renal e cardíaco (Certican/Zortress, em doses menores), e como antineoplásico no tratamento de cânceres avançados como carcinoma de células renais, tumores neuroendócrinos pancreáticos, câncer de mama avançado (em combinação com exemestane) e astrocitoma subependimário de células gigantes (Afinitor, em doses maiores). Substrato de CYP3A4 e P-glicoproteína, com índice terapêutico estreito exigindo monitorização sérica no contexto de transplante.",
+    "receita": "Sim",
+    "receita_display": "🔴 Receita Obrigatória",
+    "receita_cor": "#dc3545",
+    "receita_descricao": "Medicamento de uso oncológico ou imunossupressor de alta complexidade, prescrito exclusivamente por especialistas (oncologistas ou equipes de transplante) com acompanhamento multidisciplinar.",
+    "receita_nota": "Receita Médica Comum. No contexto oncológico, geralmente dispensado em farmácias de alto custo do SUS ou farmácias especializadas. Monitorização sérica obrigatória no transplante.",
+    "efeitos": "Estomatite (aftas orais) é o efeito adverso limitante de dose mais comum, ocorrendo em até 60% dos pacientes em doses oncológicas — pode ser grave o suficiente para reduzir a dose. Pneumonite intersticial não infecciosa ocorre em cerca de 10-14% dos pacientes, manifestando-se com dispneia e tosse seca. Hiperglicemia pode descompensar diabéticos ou precipitar novo diabetes. Hiperlipidemia. Imunossupressão com maior susceptibilidade a infecções, incluindo infecções oportunistas. Edema periférico. Fadiga intensa em pacientes oncológicos.",
+    "aviso_grave": "Pneumonite intersticial não infecciosa pode ser grave e exige diagnóstico precoce — dispneia progressiva e tosse seca sem infecção documentada devem ser investigadas imediatamente. A hiperglicemia não controlada pode ser severa e requerer início de insulinoterapia durante o tratamento.",
+    "recomendacao": "Para a estomatite, recomenda-se bochechos com solução de dexametasona (não usar enxaguante com álcool nem antifúngicos azólicos topicamente) e manutenção de higiene oral rigorosa. Tomar sempre com ou sem alimentos de forma consistente. Evitar grapefruit. Para o contexto de transplante, tomar a dose ao mesmo horário todos os dias.",
+    "educacao": "As aftas na boca causadas pelo everolimo são o efeito adverso mais comum e podem ser desconfortáveis, mas existem estratégias eficazes para tratá-las — não abandone o tratamento sem antes conversar com seu médico. Comunique imediatamente qualquer falta de ar nova ou tosse persistente, pois pode indicar inflamação pulmonar que requer atenção rápida.",
+    "resposta_rapida": ["Imunossupressor", "Oncologia e transplante", "Estomatite frequente", "Nível sérico"],
+    "receita_obrigatoria": true,
+    "tipo_receita": "Receita Médica Comum",
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Como tratar as aftas causadas pelo everolimo?",
+        "resposta": "A estomatite por everolimo responde bem a bochechos com solução de dexametasona (corticosteroide), que devem ser feitos várias vezes ao dia sem engolir. Manter higiene oral rigorosa com escova macia e evitar alimentos muito ácidos, quentes ou condimentados. Cremes anestésicos tópicos podem aliviar a dor. Não use antifúngicos azólicos topicamente sem orientação — eles interagem com o everolimo."
+      },
+      {
+        "pergunta": "O que é a pneumonite por everolimo?",
+        "resposta": "É uma inflamação nos pulmões causada pelo próprio medicamento (não por infecção), que ocorre em até 14% dos pacientes. Os sintomas são tosse seca, falta de ar progressiva e, por vezes, febre. O diagnóstico requer exames de imagem e, às vezes, broncoscopia. O tratamento pode incluir redução da dose ou suspensão do everolimo, com uso de corticosteroide."
+      },
+      {
+        "pergunta": "Everolimo pode afetar o açúcar no sangue?",
+        "resposta": "Sim. O everolimo inibe a sinalização de insulina, podendo causar hiperglicemia (açúcar alto) mesmo em pessoas sem diabetes. Em diabéticos, pode descompensar o controle glicêmico e exigir ajuste de medicamentos. Monitorar a glicemia regularmente é importante durante o tratamento, especialmente nas primeiras semanas."
+      },
+      {
+        "pergunta": "Qual a diferença entre Certican e Afinitor?",
+        "resposta": "Ambos contêm everolimo, mas são aprovados para indicações e faixas de dose diferentes. O Certican é usado em doses menores (0,75mg duas vezes ao dia) como imunossupressor no transplante renal e cardíaco. O Afinitor é usado em doses maiores (2,5 a 10mg/dia) no tratamento de cânceres como carcinoma renal, tumores neuroendócrinos e câncer de mama avançado."
+      }
+    ],
+    "descricao_seo": "Everolimo (Afinitor, Certican): inibidor de mTOR para transplante e oncologia. Estomatite frequente, pneumonite e hiperglicemia. Monitorar nível sérico.",
+    "alerta_farmaceutico": "Orientar sobre manejo da estomatite com dexametasona tópica. Alertar sobre pneumonite (tosse seca + dispneia = urgência). Verificar glicemia e lipídeos na dispensação. Alertar sobre grapefruit e inibidores de CYP3A4. Conferir se dose corresponde à indicação (transplante vs. oncologia — doses muito diferentes). Vacinas vivas são contraindicadas.",
+    "quando_procurar_medico": "Procure urgentemente se desenvolver dispneia nova ou progressiva e tosse seca (possível pneumonite). Também: febre com calafrios (infecção oportunista), glicemia muito elevada, aftas graves que impeçam alimentação, sinais de infecção pulmonar ou sistêmica, reações alérgicas ou edema súbito.",
+    "interacoes": "Inibidores de CYP3A4 e P-gp (cetoconazol, itraconazol, claritromicina, ritonavir, grapefruit): aumentam nível de everolimo substancialmente. Indutores de CYP3A4 (rifampicina, fenitoína, carbamazepina): reduzem eficácia. Inibidores de IECA: risco de edema angioneurótico. Ciclosporina: potencializa nefrotoxicidade mútua. Vacinas vivas: contraindicadas. Inibidores de CYP2C8 e outros agentes que prolongam QT: monitorar."
+  },
+  {
+    "nome": "Cimetidina 200mg - 400mg - 800mg",
+    "generico": "cimetidina",
+    "tipo": "Bloqueador H2 (Anti-histamínico H2) — Redutor da Acidez Gástrica",
+    "sinonimos": ["Cimetidina", "Tagamet", "Cimetidine"],
+    "descricao": "A cimetidina é o primeiro bloqueador dos receptores histamínico H2 desenvolvido clinicamente, atuando inibindo competitivamente a histamina nas células parietais gástricas e reduzindo a secreção de ácido clorídrico. É indicada para úlcera péptica gástrica e duodenal, doença do refluxo gastroesofágico leve a moderada, esofagite de refluxo, síndrome de Zollinger-Ellison e azia. Embora eficaz, foi amplamente substituída pelos inibidores da bomba de prótons (IBPs) e pelos outros bloqueadores H2 (famotidina) por ser o anti-H2 com maior número de interações medicamentosas clinicamente significativas, decorrente de sua inibição inespecífica das enzimas CYP450.",
+    "receita": "Não",
+    "receita_display": "🟢 Venda Livre",
+    "receita_cor": "#28a745",
+    "receita_descricao": "Disponível sem receita em doses menores (200mg) para alívio de azia e indigestão ácida. Doses maiores e uso prolongado devem ser orientados por médico.",
+    "receita_nota": "Venda sem receita em doses OTC (200mg). Doses de 400mg e 800mg geralmente requerem prescrição médica para garantir uso adequado e monitoramento de interações.",
+    "efeitos": "Os efeitos adversos mais comuns são cefaleia, tontura, diarreia ou constipação. Com uso prolongado em doses altas, efeito antiandrogênico pode causar ginecomastia (aumento das mamas em homens), galactorreia e disfunção erétil. Em idosos, pode atravessar a barreira hematoencefálica e causar confusão mental, alucinações e desorientação. Pode elevar falsamente a creatinina sérica por inibição da secreção tubular, sem indicar dano renal real. Leucopenia e trombocitopenia são raras.",
+    "aviso_grave": "Pacientes idosos (≥65 anos) têm alto risco de efeitos neurológicos (confusão, delirium) com cimetidina, sendo listada nos Critérios de Beers como medicamento a evitar nessa população. Inibe múltiplas enzimas CYP450, podendo elevar a toxicidade de diversos medicamentos de uso comum.",
+    "recomendacao": "Tomar com ou sem alimentos. Para alívio de azia, pode ser tomado antes das refeições que causam os sintomas. Para tratamento de úlcera, tomar conforme prescrição médica, geralmente ao deitar (dose única noturna) para supressão da secreção ácida noturna. Não usar por mais de 2 semanas sem avaliação médica.",
+    "educacao": "A cimetidina interage com uma quantidade muito grande de medicamentos ao bloquear enzimas do fígado que metabolizam diversas drogas. Sempre informe o farmacêutico e o médico que você usa cimetidina antes de iniciar qualquer novo medicamento. Modernamente existem opções mais seguras e igualmente eficazes, como a famotidina ou os IBPs — pergunte ao seu médico.",
+    "resposta_rapida": ["Anti-H2", "Azia e úlcera", "Inibe CYP450", "Muitas interações"],
+    "receita_obrigatoria": false,
+    "tipo_receita": "Venda sem receita (doses OTC)",
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Por que a cimetidina tem tantas interações medicamentosas?",
+        "resposta": "A cimetidina inibe de forma não seletiva múltiplas enzimas do sistema CYP450 no fígado (CYP1A2, CYP2C9, CYP2C19, CYP2D6, CYP3A4), que são responsáveis pelo metabolismo de centenas de medicamentos. Ao bloqueá-las, a cimetidina faz com que esses medicamentos se acumulem mais no organismo, aumentando seu efeito e risco de toxicidade. Isso a diferencia dos outros anti-H2 como a famotidina."
+      },
+      {
+        "pergunta": "Cimetidina pode causar ginecomastia em homens?",
+        "resposta": "Sim. Em doses altas e com uso prolongado, a cimetidina tem efeito antiandrogênico — bloqueia receptores de andrógeno e pode elevar os níveis de prolactina. Isso pode causar ginecomastia (crescimento das mamas em homens), galactorreia e redução da libido ou disfunção erétil. Esse efeito é dose-dependente e reversível com a suspensão."
+      },
+      {
+        "pergunta": "Por que idosos devem evitar a cimetidina?",
+        "resposta": "A cimetidina atravessa a barreira hematoencefálica com mais facilidade em idosos, podendo causar confusão mental, desorientação, alucinações e agitação — um quadro chamado delirium. Por isso, está listada nos Critérios de Beers como medicamento potencialmente inapropriado para maiores de 65 anos. A famotidina é uma alternativa mais segura nessa faixa etária."
+      },
+      {
+        "pergunta": "A cimetidina aumenta o resultado da creatinina no exame de sangue?",
+        "resposta": "Sim. A cimetidina inibe a secreção tubular da creatinina pelo rim, causando um acúmulo que eleva os valores séricos de creatinina. Isso pode levar a diagnóstico errado de insuficiência renal. Esse efeito não representa dano renal verdadeiro, mas é importante que o laboratório e o médico saibam sobre o uso do medicamento ao interpretar esses exames."
+      }
+    ],
+    "descricao_seo": "Cimetidina (Tagamet): bloqueador H2 para azia e úlcera. Múltiplas interações por inibição de CYP450. Evitar em idosos. Efeitos antiandrogênicos com uso prolongado.",
+    "alerta_farmaceutico": "Sempre rastrear o perfil medicamentoso completo — interações clinicamente relevantes incluem varfarina, fenitoína, teofilina, metformina, metoprolol, ciclosporina, entre outros. Contraindicada em idosos (Critérios de Beers). Alertar homens sobre ginecomastia com uso crônico. Não recomendar para uso > 2 semanas sem avaliação médica. Famotidina é alternativa mais segura.",
+    "quando_procurar_medico": "Procure atendimento se apresentar confusão mental, agitação ou alucinações durante o uso (especialmente idosos). Também procure o médico se os sintomas de azia não melhorarem em 2 semanas, se houver dificuldade para engolir, vômito com sangue, fezes negras ou perda de peso não intencional — esses podem indicar condição mais grave.",
+    "interacoes": "Inibe CYP1A2, CYP2C9, CYP2C19, CYP2D6 e CYP3A4: eleva níveis de varfarina (risco de sangramento), fenitoína (toxicidade), teofilina (convulsão), metoprolol, propranolol, amitriptilina, diazepam, carbamazepina, quinidina e ciclosporina. Antiácidos reduzem absorção da cimetidina (intervalo de 1-2h). Cetoconazol e itraconazol: redução da absorção (necessitam de pH ácido). Metformina: pode elevar AUC da metformina."
+  },
+  {
+    "nome": "Flecainida 50mg - 100mg - 150mg",
+    "generico": "flecainida",
+    "tipo": "Antiarrítmico Classe IC — Bloqueador de Canal de Sódio",
+    "sinonimos": ["Flecainida", "Tambocor", "Flecainide", "Acetato de flecainida"],
+    "descricao": "A flecainida é um antiarrítmico da classe IC que bloqueia potentemente os canais de sódio rápidos no tecido cardíaco, reduzindo a velocidade de condução elétrica sem afetar significativamente a duração do potencial de ação. É indicada para tratamento e profilaxia de fibrilação atrial paroxística e flutter atrial em pacientes com coração estruturalmente normal, bem como para taquicardias supraventriculares e arritmias ventriculares em pacientes sem cardiopatia estrutural. O estudo CAST (1989) demonstrou aumento de mortalidade em pacientes pós-infarto tratados com antiarrítmicos classe IC, limitando drasticamente seu uso a pacientes criteriosamente selecionados.",
+    "receita": "Sim",
+    "receita_display": "🔴 Receita Obrigatória",
+    "receita_cor": "#dc3545",
+    "receita_descricao": "Medicamento antiarrítmico de uso exclusivamente cardiológico, que deve ser prescrito e monitorado por cardiologista. Requer avaliação eletrocardiográfica periódica durante o tratamento.",
+    "receita_nota": "Receita Médica Comum, sem retenção na farmácia. O uso deve ser iniciado apenas com cardiologista e com ECG basal documentado.",
+    "efeitos": "Tontura, visão borrada e cefaleia são os efeitos adversos mais comuns. Alargamento do complexo QRS é um efeito farmacológico esperado e serve como marcador de exposição ao medicamento. Pode prolongar o intervalo PR. Efeito pró-arrítmico é possível, com risco de flutter atrial com condução acelerada (1:1) se usado sem agente de controle da frequência ventricular. Piora da insuficiência cardíaca em pacientes predispostos. Raramente, neuropatia periférica com uso prolongado.",
+    "aviso_grave": "Absolutamente contraindicado em pacientes com infarto do miocárdio prévio e em qualquer forma de cardiopatia estrutural (insuficiência cardíaca, cardiomiopatia, doença coronariana), pois aumenta significativamente o risco de morte súbita por arritmia ventricular maligna — conforme demonstrado pelo estudo CAST.",
+    "recomendacao": "Tomar com ou sem alimentos. Não alterar a dose por conta própria. Manter as consultas de acompanhamento cardiológico com realização periódica de eletrocardiograma. Se estiver em uso para FA paroxística com estratégia 'pill-in-the-pocket', seguir rigorosamente o protocolo definido pelo cardiologista, geralmente com uso concomitante de betabloqueador ou bloqueador de canal de cálcio.",
+    "educacao": "A flecainida deve ser usada somente se você tem um coração estruturalmente normal — nunca compartilhe ou use este medicamento sem avaliação cardiológica completa, incluindo ecocardiograma e ECG. Informe imediatamente seu médico se sentir palpitações novas, tontura intensa, síncope (desmaio) ou piora do cansaço.",
+    "resposta_rapida": ["Antiarrítmico", "FA paroxística", "Coração normal apenas", "ECG periódico"],
+    "receita_obrigatoria": true,
+    "tipo_receita": "Receita Médica Comum",
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Por que a flecainida não pode ser usada em quem teve infarto?",
+        "resposta": "O estudo CAST (Cardiac Arrhythmia Suppression Trial) demonstrou em 1989 que antiarrítmicos classe IC, incluindo a flecainida, aumentam a mortalidade em pacientes pós-infarto, mesmo suprimindo as arritmias. Em corações danificados, a flecainida pode desencadear arritmias ventriculares malignas fatais ao invés de preveni-las."
+      },
+      {
+        "pergunta": "O que é a estratégia 'pill-in-the-pocket' com flecainida?",
+        "resposta": "É uma estratégia em que o paciente com FA paroxística carrega a flecainida consigo e a toma apenas quando sente o início da crise — ao invés de tomá-la diariamente. É usada em pacientes selecionados com coração normal, FA infrequente e sintomática. Geralmente exige uso concomitante de betabloqueador e deve ser validada pelo cardiologista antes de ser implementada."
+      },
+      {
+        "pergunta": "Por que preciso tomar betabloqueador junto com a flecainida para FA?",
+        "resposta": "A flecainida pode transformar uma fibrilação atrial em flutter atrial, que às vezes conduz para os ventrículos com frequência muito alta (condução 1:1), causando taquicardia ventricular perigosa. O betabloqueador ou bloqueador de cálcio (diltiazem/verapamil) é adicionado para bloquear a condução no nó AV e prevenir essa condução ventricular acelerada."
+      },
+      {
+        "pergunta": "O alargamento do QRS no ECG é perigoso com a flecainida?",
+        "resposta": "Um alargamento moderado do QRS (até 25% acima do basal) é esperado com a flecainida e indica que o medicamento está agindo. Porém, alargamento excessivo pode indicar toxicidade ou dose demasiadamente alta e deve ser comunicado ao cardiologista. Esse é um dos motivos pelos quais o ECG periódico é fundamental durante o tratamento."
+      }
+    ],
+    "descricao_seo": "Flecainida (Tambocor): antiarrítmico classe IC para FA paroxística em coração normal. Contraindicado pós-IAM. Monitorar ECG. Estudo CAST.",
+    "alerta_farmaceutico": "Verificar se o paciente tem documentação de coração estruturalmente normal (ecocardiograma, história de IAM). Alertar sobre contraindicação absoluta em cardiopatia estrutural. Checar uso concomitante de agente para controle de frequência (betabloqueador ou BCC). Verificar interação com inibidores de CYP2D6. Orientar sobre sinais de pró-arritmia (palpitações novas, síncope).",
+    "quando_procurar_medico": "Procure atendimento de emergência imediatamente se sentir: palpitações novas ou diferentes das habituais, tontura intensa, desmaio ou quase-desmaio, dor no peito, falta de ar súbita, ou batimentos cardíacos muito rápidos ou irregulares. Esses podem ser sinais de arritmia grave induzida pelo medicamento.",
+    "interacoes": "Inibidores de CYP2D6 (fluoxetina, paroxetina, bupropiona, quinidina): elevam níveis de flecainida aumentando risco de toxicidade. Amiodarona: eleva nível de flecainida — reduzir dose. Digoxina: flecainida aumenta nível de digoxina. Betabloqueadores: efeito inotrópico negativo aditivo — monitorar função cardíaca. Verapamil e diltiazem: combinação pode causar depressão hemodinâmica significativa. Alcalinizantes urinários: aumentam reabsorção e elevam níveis de flecainida."
+  },
+  {
+    "nome": "Quinidina 200mg - 300mg",
+    "generico": "quinidina",
+    "tipo": "Antiarrítmico Classe IA — Bloqueador de Canal de Sódio com prolongamento de QT",
+    "sinonimos": ["Quinidina", "Quinidex", "Quinicardine", "Sulfato de quinidina"],
+    "descricao": "A quinidina é um antiarrítmico da classe IA e o estereoisômero da quinina, alcaloide da casca de cinchona. Atua bloqueando os canais de sódio rápidos e também os canais de potássio (IKr), resultando em redução da velocidade de condução e prolongamento da repolarização — o que se manifesta no ECG como alargamento do QRS e prolongamento do intervalo QT. Historicamente usada para manutenção do ritmo sinusal na fibrilação atrial, foi amplamente substituída por antiarrítmicos mais seguros (amiodarona, dronedarona, propafenona) devido ao seu perfil de efeitos adversos peculiares, incluindo o cinconismo e o risco de Torsades de Pointes.",
+    "receita": "Sim",
+    "receita_display": "🔴 Receita Obrigatória",
+    "receita_cor": "#dc3545",
+    "receita_descricao": "Antiarrítmico de uso exclusivamente cardiológico, prescrito e monitorado por cardiologista com acompanhamento eletrocardiográfico periódico e dosagem sérica quando necessário.",
+    "receita_nota": "Receita Médica Comum, sem retenção na farmácia. Uso atual muito restrito dado o perfil de segurança desfavorável em comparação a alternativas modernas.",
+    "efeitos": "Cinconismo é o conjunto de sintomas de intoxicação específico desta classe: zumbido no ouvido (tinnitus), visão turva, cefaleia, náusea, vômito e confusão mental — indica dose tóxica ou intoxicação. Prolongamento do QT com risco de Torsades de Pointes e morte súbita. Diarreia é o efeito adverso mais comum com uso crônico. Trombocitopenia imuno-mediada, raramente grave. Reações de hipersensibilidade incluindo febre e lúpus-like. Hipotensão com a formulação IV.",
+    "aviso_grave": "A síncope por quinidina é causada principalmente por Torsades de Pointes — arritmia ventricular polimórfica potencialmente fatal associada ao prolongamento do QT. Pacientes com hipocalemia, hipomagnesemia ou em uso de outros medicamentos que prolongam o QT têm risco especialmente elevado.",
+    "recomendacao": "Tomar com alimentos para reduzir irritação gástrica, que é frequente. Manter ingestão adequada de potássio e magnésio, pois a hipocalemia potencializa os efeitos sobre o QT. Realizar ECG periódico e, se disponível, dosagem sérica para orientar a dose segura. Comunicar imediatamente qualquer zumbido no ouvido ou visão turva ao médico.",
+    "educacao": "O zumbido nos ouvidos ou visão turva que surgem durante o uso de quinidina são sinais de cinconismo, um alerta de que o nível do medicamento no sangue está muito alto. Informe imediatamente seu médico ou farmacêutico se tiver esses sintomas. Nunca aumente a dose por conta própria e evite qualquer outro medicamento que possa prolongar o ritmo cardíaco sem antes consultar seu cardiologista.",
+    "resposta_rapida": ["Antiarrítmico", "QT prolongado", "Cinconismo", "Potencia digoxina"],
+    "receita_obrigatoria": true,
+    "tipo_receita": "Receita Médica Comum",
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "O que é cinconismo?",
+        "resposta": "Cinconismo é uma síndrome de intoxicação característica dos alcaloides da cinchona (quinidina e quinina), que inclui zumbido nos ouvidos (tinnitus), visão turva, cefaleia intensa, náusea, vômito e confusão mental. É um sinal de que o nível do medicamento no sangue está perigosamente alto e requer suspensão imediata e avaliação médica urgente."
+      },
+      {
+        "pergunta": "O que são Torsades de Pointes?",
+        "resposta": "São um tipo especial de taquicardia ventricular que ocorre em corações com QT prolongado. No ECG, aparece como um padrão que parece 'girar' em torno de uma linha base. Pode causar síncope (desmaio) e pode evoluir para fibrilação ventricular e parada cardíaca. É a principal causa de morte súbita associada à quinidina e a outros medicamentos que prolongam o QT."
+      },
+      {
+        "pergunta": "Por que a quinidina aumenta o nível de digoxina?",
+        "resposta": "A quinidina é um potente inibidor da P-glicoproteína e do CYP2D6, reduzindo a eliminação renal e o metabolismo da digoxina. Isso pode dobrar ou triplicar os níveis séricos de digoxina, causando intoxicação digitálica (náusea, visão amarelada, bloqueios cardíacos). Ao iniciar quinidina em um paciente que usa digoxina, a dose de digoxina deve ser reduzida em aproximadamente 50%."
+      },
+      {
+        "pergunta": "A quinidina ainda é muito usada atualmente?",
+        "resposta": "Não. O uso da quinidina diminuiu drasticamente nas últimas décadas com o advento de alternativas mais seguras como amiodarona, dronedarona, propafenona e flecainida. Atualmente, a quinidina é reservada para situações específicas, como certos tipos de síndromes genéticas de canais iônicos (síndrome de Brugada, síndrome de QT curto) onde, paradoxalmente, pode ser benéfica."
+      }
+    ],
+    "descricao_seo": "Quinidina (sulfato): antiarrítmico Classe IA com risco de cinconismo e Torsades de Pointes. Potencia digoxina. Uso atual muito restrito em cardiologia.",
+    "alerta_farmaceutico": "Verificar potássio e magnésio séricos (hipocalemia potencializa QT). Checar se paciente usa digoxina — dose de digoxina deve ser reduzida pela metade. Alertar sobre cinconismo (zumbido, visão turva = toxicidade). Verificar uso de outros medicamentos que prolongam QT. Monitorar ECG basal e QTc. Rastrear interações com inibidores e indutores de CYP2D6 e P-gp.",
+    "quando_procurar_medico": "Procure emergência imediatamente se sentir: desmaio ou quase-desmaio, palpitações em salva (batimentos rápidos irregulares), zumbido intenso nos ouvidos associado a visão turva ou confusão mental, ou batimentos cardíacos muito lentos. Esses sintomas podem indicar toxicidade grave ou arritmia potencialmente fatal.",
+    "interacoes": "Digoxina: quinidina eleva nível em até 100% — reduzir dose de digoxina em 50%. Varfarina: potencializa anticoagulação (inibe CYP2C9). Betabloqueadores metabolizados por CYP2D6 (metoprolol, carvedilol): elevação de níveis. Amiodarona: prolongamento aditivo do QT — combinação perigosa. Outros medicamentos que prolongam QT (haloperidol, ondansetrona, antidepressivos tricíclicos): risco aditivo de Torsades de Pointes. Rifampicina: induz CYP3A4 e reduz eficácia da quinidina. Antagonistas de vitamina K: monitorar RNI rigorosamente."
+  },
+  {
+    "nome": "Procainamida 250mg - 500mg / Injetável 100mg/mL",
+    "generico": "procainamida",
+    "tipo": "Antiarrítmico Classe IA — Bloqueador de Canal de Sódio",
+    "sinonimos": ["Procainamida", "Pronestyl", "Procan", "Procainamide HCl"],
+    "descricao": "A procainamida é um antiarrítmico da classe IA derivado da procaína (anestésico local), que bloqueia canais de sódio e, por meio de seu metabólito ativo N-acetilprocainamida (NAPA), também bloqueia canais de potássio, resultando em prolongamento do QRS e do QT. A forma intravenosa é utilizada em ambiente hospitalar para controle de taquicardia ventricular e fibrilação ventricular refratárias, e para reversão de FA de início recente. O uso oral crônico foi amplamente abandonado devido ao risco elevado de lúpus eritematoso induzido por droga (LEID), que ocorre em 15-30% dos pacientes com uso prolongado.",
+    "receita": "Sim",
+    "receita_display": "🔴 Receita Obrigatória",
+    "receita_cor": "#dc3545",
+    "receita_descricao": "Antiarrítmico de uso hospitalar (forma IV) ou ambulatorial restrito (forma oral), prescrito exclusivamente por cardiologistas com monitorização clínica e laboratorial periódica.",
+    "receita_nota": "Receita Médica Comum, sem retenção. A forma intravenosa é de uso exclusivo hospitalar, com administração lenta monitorizada. O uso oral crônico é atualmente raro.",
+    "efeitos": "Lúpus eritematoso induzido por droga (LEID) ocorre em 15 a 30% dos pacientes com uso crônico, manifestando-se com artralgia, febre, pleurite e anticorpos antinucleares (ANA) positivos — regride com a suspensão do medicamento. Hipotensão arterial durante infusão IV (infundir lentamente). Prolongamento do QT com risco de Torsades de Pointes. Agranulocitose, embora rara, pode ser grave e fatal — hemograma deve ser monitorado. Náusea, vômito e anorexia com uso oral.",
+    "aviso_grave": "O metabólito ativo NAPA prolonga o QT mais do que a procainamida em si e acumula em pacientes com insuficiência renal, aumentando drasticamente o risco de Torsades de Pointes. Ajuste de dose obrigatório em insuficiência renal, com monitorização sérica de procainamida e NAPA.",
+    "recomendacao": "Para uso oral: tomar com alimentos para reduzir desconforto gástrico. Manter posologia regular conforme prescrito. Na forma IV hospitalar: a velocidade de infusão não deve exceder 50mg/min para evitar hipotensão grave; monitorar ECG continuamente durante a infusão. Realizar hemograma e função renal periodicamente com o uso crônico.",
+    "educacao": "Relate imediatamente ao seu médico qualquer sintoma de dores nas articulações, febre persistente sem causa aparente, dor no peito ao respirar ou pleurite — esses podem ser sinais de lúpus induzido pela procainamida. O tratamento é suspenso nesses casos e os sintomas geralmente regridem. Não interrompa o medicamento abruptamente sem orientação médica.",
+    "resposta_rapida": ["Antiarrítmico", "Lúpus induzido", "Uso IV hospitalar", "NAPA ativo"],
+    "receita_obrigatoria": true,
+    "tipo_receita": "Receita Médica Comum",
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "O que é o lúpus induzido pela procainamida?",
+        "resposta": "É uma síndrome que mimetiza o lúpus eritematoso sistêmico, com artralgia (dores nas articulações), febre, pleurite (inflamação na pleura) e anticorpos ANA positivos. Ocorre em 15-30% dos pacientes com uso oral crônico, sendo mais frequente em acetiladores lentos. Ao contrário do lúpus verdadeiro, os sintomas regridem completamente após a suspensão da procainamida."
+      },
+      {
+        "pergunta": "O que é o NAPA e por que ele é importante?",
+        "resposta": "O NAPA (N-acetilprocainamida) é o principal metabólito ativo da procainamida, formado por acetilação no fígado. Ele tem atividade antiarrítmica própria, mas prolonga o intervalo QT mais intensamente que a procainamida. Em pacientes com insuficiência renal, o NAPA acumula, aumentando o risco de Torsades de Pointes. Por isso, a dosagem sérica de ambos (procainamida e NAPA) é necessária nesses pacientes."
+      },
+      {
+        "pergunta": "Por que a infusão de procainamida deve ser feita lentamente?",
+        "resposta": "A administração IV rápida de procainamida causa hipotensão arterial grave por vasodilatação direta. A taxa máxima recomendada é de 50mg/min, com monitorização contínua do ECG e da pressão arterial. A infusão deve ser interrompida imediatamente se o QRS alargar mais de 50% do basal ou se houver hipotensão sintomática."
+      },
+      {
+        "pergunta": "Procainamida pode causar problemas sanguíneos?",
+        "resposta": "Sim. A agranulocitose (queda grave dos neutrófilos) é uma complicação rara, porém potencialmente fatal. O risco é maior no início do tratamento e em pacientes idosos. Recomenda-se monitorar o hemograma periodicamente durante o uso. Febre, úlceras na boca ou infecções de repetição devem ser imediatamente comunicadas ao médico."
+      }
+    ],
+    "descricao_seo": "Procainamida (Pronestyl): antiarrítmico classe IA com risco de lúpus induzido em 15-30% dos casos. Metabólito NAPA prolonga QT. Uso IV em TV hospitalar.",
+    "alerta_farmaceutico": "Alertar sobre risco de LEID (artralgia + febre + ANA positivo = suspender). Verificar função renal — acúmulo de NAPA em IRC aumenta QT. Orientar monitoramento de hemograma (agranulocitose). Checar outros medicamentos que prolongam QT. Na dispensação oral (rara), reforçar importância dos exames periódicos e da comunicação de sintomas articulares e febre.",
+    "quando_procurar_medico": "Procure atendimento urgente se sentir: dores nas articulações com febre (possível LEID), dor no peito ao respirar, batimentos cardíacos irregulares ou muito rápidos, desmaio ou tonturas intensas, febre com úlceras na boca ou infecções repetidas (possível agranulocitose), ou qualquer reação alérgica severa.",
+    "interacoes": "Amiodarona e outros agentes que prolongam QT: risco aditivo de Torsades de Pointes. Cimetidina e ranitidina: inibem secreção tubular da procainamida — elevam níveis séricos. Trimetoprim: mecanismo similar à cimetidina, eleva procainamida e NAPA. Álcool: pode alterar metabolismo (acetilação). Bloqueadores neuromusculares: procainamida potencializa bloqueio neuromuscular. Anti-hipertensivos: hipotensão aditiva durante infusão IV."
+  },
+  {
+    "nome": "Almotriptana 12,5mg",
+    "generico": "almotriptana",
+    "tipo": "Triptano — Agonista Seletivo de Receptores 5-HT1B/1D (Antimigranoso)",
+    "sinonimos": ["Almotriptana", "Axert", "Almogran", "Malato de almotriptana"],
+    "descricao": "A almotriptana é um triptano de segunda geração, agonista seletivo dos receptores serotoninérgicos 5-HT1B e 5-HT1D, indicado para o tratamento agudo da crise de enxaqueca com ou sem aura em adultos. Seu mecanismo de ação envolve vasoconstrição seletiva das artérias cranianas dilatadas durante a crise migranosa e inibição da liberação de neuropeptídeos inflamatórios (como CGRP) nas terminações trigeminais, interrompendo o processo fisiopatológico da enxaqueca. Possui boa biodisponibilidade oral (aproximadamente 70%) e perfil de efeitos adversos relativamente favorável em relação a outros triptanos, com menor incidência de sensação de aperto torácico.",
+    "receita": "Sim",
+    "receita_display": "🔴 Receita Obrigatória",
+    "receita_cor": "#dc3545",
+    "receita_descricao": "Medicamento específico para enxaqueca, de uso exclusivo mediante prescrição médica. O diagnóstico correto de enxaqueca e a exclusão de contraindicações cardiovasculares são essenciais antes do uso.",
+    "receita_nota": "Receita Médica Comum, sem retenção na farmácia. Prescrição neurológica ou clínica com diagnóstico estabelecido de enxaqueca.",
+    "efeitos": "Os efeitos adversos mais comuns são tontura, sonolência, náusea, cefaleia e parestesias (formigamento). Sensação de aperto, pressão ou calor no tórax, pescoço ou mandíbula pode ocorrer e é geralmente de origem não cardíaca (mediada por receptores 5-HT1B vasculares), porém deve ser avaliada em pacientes com risco cardiovascular. Astenia (fraqueza) transitória. Vasoconstrição coronariana é rara, mas possível em pacientes predispostos.",
+    "aviso_grave": "Contraindicado em pacientes com doença arterial coronariana estabelecida, AVC ou AIT prévio, doença arterial periférica grave, hipertensão não controlada, enxaqueca hemiplégica ou basilar. Risco de síndrome serotoninérgica quando combinado com ISRSs, IMAOs ou outros serotoninérgicos.",
+    "recomendacao": "Tomar o mais cedo possível ao sentir o início da crise de enxaqueca — a eficácia diminui quando tomado no pico da dor. Dose de 12,5mg pode ser repetida após 2 horas se os sintomas retornarem, mas não mais do que 2 comprimidos em 24 horas. Não usar para enxaqueca hemiplégica, basilar ou em cefaleia de tipo diferente do habitual. Não combinar com outro triptano ou ergotamina nas 24 horas anteriores ou seguintes.",
+    "educacao": "A almotriptana trata a crise aguda de enxaqueca, mas não previne novas crises. Se você tem mais de 4 crises por mês ou se as crises são muito incapacitantes, converse com seu médico sobre medicamentos preventivos. O uso frequente de triptanos (mais de 10 dias por mês) pode paradoxalmente piorar a frequência de cefaleias — fenômeno chamado cefaleia por uso excessivo de medicamentos.",
+    "resposta_rapida": ["Triptano", "Enxaqueca aguda", "Usar na crise", "Não é preventivo"],
+    "receita_obrigatoria": true,
+    "tipo_receita": "Receita Médica Comum",
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Quando exatamente devo tomar a almotriptana?",
+        "resposta": "Tome a almotriptana logo no início da crise de enxaqueca, de preferência assim que os primeiros sintomas de dor surgem. Se você tem aura (distúrbios visuais que precedem a dor), tome no início da aura ou no início da dor — não há evidência de benefício ao tomar durante a fase de aura somente. A eficácia reduz significativamente se tomada no pico da dor intensa."
+      },
+      {
+        "pergunta": "Posso usar almotriptana todo dia para prevenir enxaqueca?",
+        "resposta": "Não. A almotriptana é um tratamento agudo (abortivo) das crises, não um preventivo. Usá-la com muita frequência (mais de 10 dias por mês) pode paradoxalmente aumentar a frequência de cefaleias — uma condição chamada cefaleia por uso excessivo de medicamentos. Para prevenção, existem medicamentos específicos como propranolol, topiramato, amitriptilina e os anticorpos anti-CGRP."
+      },
+      {
+        "pergunta": "A dor no peito causada pela almotriptana é perigosa?",
+        "resposta": "A sensação de aperto ou pressão no tórax com triptanos é, na maioria das vezes, não cardíaca — mediada por receptores em musculatura esofágica ou vasoespasmo de vasos não coronarianos. Porém, em pacientes com fatores de risco cardiovascular, essa sensação deve ser avaliada com cuidado. Procure atendimento de emergência se a dor for intensa, irradiar para o braço ou mandíbula, ou acompanhada de falta de ar."
+      },
+      {
+        "pergunta": "Por que não posso combinar almotriptana com ergotamina?",
+        "resposta": "Ambos os medicamentos causam vasoconstrição das artérias cranianas e sistêmicas. A combinação aumenta o risco de vasoespasmo grave, incluindo vasoespasmo coronariano que pode causar angina ou infarto. Por isso, é necessário um intervalo de pelo menos 24 horas entre o uso de um triptano e qualquer derivado do ergot (ergotamina, di-hidroergotamina)."
+      }
+    ],
+    "descricao_seo": "Almotriptana 12,5mg (Axert, Almogran): triptano para tratamento agudo de enxaqueca. Usar no início da crise. Contraindicado em doenças cardiovasculares e HAS não controlada.",
+    "alerta_farmaceutico": "Verificar histórico cardiovascular antes de dispensar (coronariopatia, AVC = contraindicação absoluta). Checar uso concomitante de ISRSs, IMAOs (síndrome serotoninérgica). Alertar sobre limite de 2 comprimidos em 24h. Orientar que não é preventivo e que uso frequente pode causar cefaleia por abuso. Verificar pressão arterial — HAS não controlada é contraindicação.",
+    "quando_procurar_medico": "Procure emergência se sentir: dor intensa no peito com irradiação para braço ou mandíbula, falta de ar, batimentos irregulares, fraqueza ou dormência súbita em face, braço ou perna (sinais de AVC), ou confusão mental após tomar o medicamento. Retorne ao médico se as crises de enxaqueca estiverem ocorrendo com maior frequência ou se o medicamento parou de funcionar.",
+    "interacoes": "IMAOs: contraindicados — inibem metabolismo da serotonina, risco de síndrome serotoninérgica grave. ISRSs e ISRNs: risco de síndrome serotoninérgica (fraqueza, tremor, agitação, febre, taquicardia). Outros triptanos: não combinar dentro de 24h. Ergotamina e derivados: não combinar dentro de 24h (vasoespasmo). Inibidores de CYP3A4 e MAO-A: podem elevar níveis de almotriptana (ajustar dose)."
+  },
+  {
+    "nome": "Eletriptana 20mg - 40mg",
+    "generico": "eletriptana",
+    "tipo": "Triptano — Agonista Seletivo de Receptores 5-HT1B/1D (Antimigranoso)",
+    "sinonimos": ["Eletriptana", "Relpax", "Eletriptan", "Bromidrato de eletriptana"],
+    "descricao": "A eletriptana é um triptano de segunda geração com alta lipofilia, o que confere excelente penetração no sistema nervoso central — característica vantajosa para atingir os mecanismos centrais da enxaqueca, como a sensibilização dos neurônios do trigêmio no tronco cerebral. Atua como agonista seletivo dos receptores 5-HT1B (vasoconstrição de artérias cranianas) e 5-HT1D (inibição da liberação de neuropeptídeos trigêmino-vasculares, incluindo CGRP e substância P). É indicada para o tratamento agudo de crises de enxaqueca com ou sem aura em adultos, apresentando boa eficácia mesmo em crises moderadas a graves. Metabolizada principalmente pela CYP3A4.",
+    "receita": "Sim",
+    "receita_display": "🔴 Receita Obrigatória",
+    "receita_cor": "#dc3545",
+    "receita_descricao": "Triptano de uso exclusivo mediante prescrição médica. Avaliação cardiovascular e neurológica prévia ao início do tratamento é necessária para exclusão de contraindicações.",
+    "receita_nota": "Receita Médica Comum, sem retenção na farmácia. Diagnóstico confirmado de enxaqueca é necessário para prescrição.",
+    "efeitos": "Os efeitos adversos mais frequentes incluem tontura, sonolência, náusea, astenia e parestesias. Sensação de aperto, pressão ou calor no tórax e pescoço é possível, geralmente benigna mas deve ser avaliada em pacientes com risco cardiovascular. Cefaleia rebote com uso frequente. Raramente, isquemia coronariana em pacientes com doença arterial não diagnosticada.",
+    "aviso_grave": "Inibidores potentes de CYP3A4 (cetoconazol, itraconazol, eritromicina, claritromicina, ritonavir e outros antirretrovirais inibidores de protease) podem elevar os níveis de eletriptana em 3 a 6 vezes, aumentando risco de vasoespasmo grave. A combinação com esses medicamentos é contraindicada ou requer cautela extrema.",
+    "recomendacao": "Tomar o mais cedo possível ao início da crise, com água, com ou sem alimentos. A dose inicial de 40mg é geralmente mais eficaz; doses de 20mg para pacientes mais sensíveis. Se os sintomas retornarem após melhora inicial, uma segunda dose pode ser tomada após pelo menos 2 horas, não excedendo 80mg em 24 horas. Não usar dentro de 24 horas após outro triptano ou ergotamina.",
+    "educacao": "A alta penetração da eletriptana no cérebro pode torná-la mais eficaz que outros triptanos para crises que estão bem estabelecidas, mas isso também pode intensificar a sonolência. Planeje atividades com cuidado ao usar este medicamento. Guarde-o para as crises de enxaqueca confirmadas e não use para cefaleia tensional ou outros tipos de dor de cabeça.",
+    "resposta_rapida": ["Triptano", "Enxaqueca aguda", "Metabolismo CYP3A4", "Não usar com ergotamina"],
+    "receita_obrigatoria": true,
+    "tipo_receita": "Receita Médica Comum",
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Qual é a diferença entre eletriptana e outros triptanos?",
+        "resposta": "A eletriptana é uma das mais lipofilicas da classe, com melhor penetração no SNC, o que pode conferir vantagem para crises já bem estabelecidas. Sua eficácia em ensaios clínicos foi comparável ou superior ao sumatriptano. A principal limitação é sua dependência do metabolismo pela CYP3A4, criando interações com muitos medicamentos comuns."
+      },
+      {
+        "pergunta": "Posso usar eletriptana com antifúngicos azólicos?",
+        "resposta": "Não. Cetoconazol, itraconazol, fluconazol e outros azólicos são potentes inibidores da CYP3A4 e podem elevar os níveis de eletriptana em 3 a 6 vezes, aumentando drasticamente o risco de vasoespasmo coronariano e outros efeitos adversos graves. Essa combinação é contraindicada; informe sempre o farmacêutico sobre todos os medicamentos em uso."
+      },
+      {
+        "pergunta": "Posso tomar eletriptana se tiver pressão alta?",
+        "resposta": "Hipertensão não controlada é uma contraindicação ao uso de eletriptana e de todos os triptanos, pois eles causam vasoconstrição que pode elevar ainda mais a pressão arterial e aumentar o risco cardiovascular. Se sua hipertensão estiver bem controlada com medicamentos, discuta com seu neurologista se um triptano pode ser seguro no seu caso específico."
+      },
+      {
+        "pergunta": "O que fazer se a cefaleia voltar horas depois de tomar eletriptana?",
+        "resposta": "O retorno da cefaleia (recorrência) após melhora inicial é comum com triptanos, ocorrendo em 20-40% dos pacientes. Uma segunda dose pode ser tomada após pelo menos 2 horas da primeira, desde que o total não ultrapasse 80mg em 24 horas. Se a cefaleia for recorrente com frequência, consulte seu médico sobre estratégia de tratamento ajustada."
+      }
+    ],
+    "descricao_seo": "Eletriptana 40mg (Relpax): triptano lipofílico para enxaqueca aguda. Metabolismo por CYP3A4 — evitar azólicos e macrolídeos. Máximo 80mg/24h.",
+    "alerta_farmaceutico": "Rastrear uso de inibidores potentes de CYP3A4 (azólicos, macrolídeos, inibidores de protease) — contraindicação. Verificar histórico cardiovascular (coronariopatia, AVC = contraindicação). Alertar sobre intervalo de 24h entre triptanos e ergotamina. Orientar limite de 80mg/24h. Síndrome serotoninérgica com ISRSs e IMAOs. Orientar que não é preventivo.",
+    "quando_procurar_medico": "Procure emergência imediatamente se tiver: dor intensa no peito com irradiação, dificuldade para falar, fraqueza súbita em um lado do corpo, alteração visual súbita, ou perda de consciência após usar o medicamento. Retorne ao médico se as crises aumentarem em frequência, se o medicamento perder eficácia ou se usar triptanos mais de 10 dias por mês.",
+    "interacoes": "Inibidores potentes de CYP3A4 (cetoconazol, itraconazol, claritromicina, eritromicina, ritonavir, nelfinavir): contraindicados — elevam eletriptana 3-6x. Ergotamina e derivados: intervalo mínimo de 24h (vasoespasmo aditivo). Outros triptanos: não combinar dentro de 24h. IMAOs: contraindicados. ISRSs e ISRNs: risco de síndrome serotoninérgica. Lítio: aumenta risco serotoninérgico. Propranolol: pode elevar moderadamente a exposição à eletriptana."
+  },
+  {
+    "nome": "Zolmitriptana 2,5mg - 5mg",
+    "generico": "zolmitriptana",
+    "tipo": "Triptano — Agonista Seletivo de Receptores 5-HT1B/1D (Antimigranoso)",
+    "sinonimos": ["Zolmitriptana", "Zomig", "Zolmitriptan"],
+    "descricao": "A zolmitriptana é um triptano de segunda geração, agonista seletivo dos receptores 5-HT1B e 5-HT1D, com a vantagem de estar disponível em múltiplas formas farmacêuticas: comprimido convencional, comprimido de dissolução oral (ODT) e spray nasal. O spray nasal tem ação mais rápida e é especialmente útil para pacientes que apresentam náusea e vômito intensos durante a crise, impossibilitando a ingestão oral. É indicada para tratamento agudo de enxaqueca com ou sem aura e, em sua formulação nasal, para cefaleia em salvas (cluster headache) — uma das poucas indicações aprovadas de triptano para esta condição. Substrato de CYP1A2 e MAO-A.",
+    "receita": "Sim",
+    "receita_display": "🔴 Receita Obrigatória",
+    "receita_cor": "#dc3545",
+    "receita_descricao": "Triptano de uso exclusivo mediante prescrição médica neurológica ou clínica especializada. A indicação para cefaleia em salvas requer diagnóstico especializado prévio.",
+    "receita_nota": "Receita Médica Comum, sem retenção. O spray nasal pode ter dispensação e prescrição diferenciada conforme a indicação (enxaqueca vs. cefaleia em salvas).",
+    "efeitos": "Tontura, sonolência, parestesia (formigamento) e sensação de aperto ou pressão no tórax são os efeitos adversos mais comuns. Náusea e boca seca podem ocorrer. Disgeusia (alteração do gosto) é frequente com o spray nasal. Astenia transitória. Vasoconstrição coronariana é rara mas possível. Cefaleia por uso excessivo com uso frequente (>10 dias/mês).",
+    "aviso_grave": "A cimetidina (inibidor de CYP1A2) pode dobrar os níveis plasmáticos de zolmitriptana — reduzir a dose máxima para 5mg/24h nessa combinação. IMAOs são contraindicados por risco de síndrome serotoninérgica grave, com período de washout de pelo menos 2 semanas após suspensão do IMAO.",
+    "recomendacao": "Tomar no início da crise de enxaqueca ou cefaleia em salvas. Para o comprimido ODT, colocar sobre a língua e deixar dissolver sem água. O spray nasal deve ser administrado com a cabeça ereta — inserir o bico em uma narina e pressionar o frasco enquanto respira gentilmente pela boca; não aspirar profundamente. Dose máxima: 10mg em 24 horas.",
+    "educacao": "A zolmitriptana oferece a vantagem de formas de administração alternativas ao comprimido convencional, o que pode ser decisivo quando as náuseas tornam impossível engolir um comprimido durante a crise. O comprimido ODT dissolve na língua sem necessidade de água — prático para crises em qualquer situação. Lembre-se: nenhum triptano previne novas crises, apenas trata as que já começaram.",
+    "resposta_rapida": ["Triptano", "Enxaqueca e cefaleia em salvas", "Comprimido ou spray nasal", "Não é preventivo"],
+    "receita_obrigatoria": true,
+    "tipo_receita": "Receita Médica Comum",
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Zolmitriptana trata cefaleia em salvas?",
+        "resposta": "Sim. O spray nasal de zolmitriptana é uma das raras formas de triptano com indicação aprovada para cefaleia em salvas (cluster headache). As crises de salvas são intensas e breves, tornando a administração rápida via spray nasal vantajosa. O comprimido convencional não é aprovado para essa indicação. O diagnóstico de cefaleia em salvas requer avaliação neurológica especializada."
+      },
+      {
+        "pergunta": "Como usar o comprimido ODT de zolmitriptana?",
+        "resposta": "O comprimido ODT (orodispersível) deve ser colocado sobre a língua seca, sem água, e deixado dissolver completamente. Não mastigue, não engula inteiro e não parta. A absorção pela mucosa oral pode ser ligeiramente mais rápida que o comprimido convencional, e é muito prática quando náuseas ou situações sem água dificultam a deglutição."
+      },
+      {
+        "pergunta": "Por que devo evitar cimetidina com zolmitriptana?",
+        "resposta": "A cimetidina inibe a enzima CYP1A2, principal via de metabolismo da zolmitriptana, elevando seus níveis no sangue em até duas vezes. Isso aumenta o risco de efeitos adversos cardiovasculares e de outros efeitos dose-dependentes. Se precisar usar cimetidina, a dose máxima de zolmitriptana deve ser reduzida para 5mg nas 24 horas. A famotidina é uma alternativa mais segura para azia nessa situação."
+      },
+      {
+        "pergunta": "Por quanto tempo devo esperar após parar um IMAO para usar zolmitriptana?",
+        "resposta": "É necessário um intervalo (washout) de pelo menos 2 semanas após a suspensão de qualquer IMAO (isocarboxazida, fenelzina, tranilcipromina) antes de usar zolmitriptana com segurança. Os IMAOs inibem a MAO-A, que é responsável pelo metabolismo da zolmitriptana e da serotonina, aumentando drasticamente o risco de síndrome serotoninérgica potencialmente fatal."
+      }
+    ],
+    "descricao_seo": "Zolmitriptana 2,5mg e 5mg (Zomig): triptano em comprimido, ODT e spray nasal. Indicado para enxaqueca e cefaleia em salvas. Interação com cimetidina e IMAOs.",
+    "alerta_farmaceutico": "Verificar uso de cimetidina (reduzir dose máxima para 5mg/24h). IMAOs são contraindicados — verificar washout de 2 semanas. Verificar ISRSs (síndrome serotoninérgica). Checar histórico cardiovascular. Orientar corretamente o uso de cada formulação (comprimido, ODT, spray nasal). Alertar sobre limite de 10mg/24h. Verificar uso de outros triptanos ou ergotamina nas 24h anteriores.",
+    "quando_procurar_medico": "Procure emergência imediatamente se: dor intensa no peito com irradiação para braço ou mandíbula, dificuldade súbita para falar ou entender, fraqueza em um lado do corpo, visão turva súbita, ou febre com agitação extrema e tremores (síndrome serotoninérgica). Retorne ao médico se estiver usando triptanos mais de 10 dias por mês ou se as crises estiverem se tornando mais frequentes.",
+    "interacoes": "Cimetidina (inibidor CYP1A2): dobra AUC da zolmitriptana — reduzir dose máxima para 5mg/24h. IMAOs (inibem MAO-A): contraindicados — esperar 2 semanas de washout. ISRSs e ISRNs: risco de síndrome serotoninérgica. Ergotamina e derivados: intervalo mínimo de 24h. Outros triptanos: não combinar dentro de 24h. Quinolonas (ciprofloxacino, que inibe CYP1A2): podem elevar moderadamente os níveis. Propranolol e betabloqueadores: não há interação farmacocinética clinicamente relevante, mas monitorar."
+  }
+]
