@@ -64146,5 +64146,514 @@
     "alerta_farmaceutico": "Hipocalemia é o principal risco — monitorar potássio, especialmente em uso de digoxina ou antiarrítmicos (risco de arritmia fatal). Hiperuricemia pode precipitar gota. Interação com AINEs (redução do efeito e risco renal). Monitorar glicemia em diabéticos. Meia-vida longa: efeitos adversos persistem 2-3 dias após suspensão.",
     "quando_procurar_medico": "Procure médico se: câimbras intensas ou fraqueza muscular (hipocalemia), tontura intensa ou desmaio, diminuição abrupta da urina, dor articular intensa (gota), piora do diabetes, ou confusão mental em idosos (hiponatremia).",
     "interacoes": []
+  },
+  {
+    "nome": "Atazanavir 150mg - 200mg - 300mg",
+    "generico": "atazanavir",
+    "tipo": "Antirretroviral — Inibidor de Protease",
+    "sinonimos": [
+      "Atazanavir",
+      "Reyataz",
+      "Atazanavir sulfato"
+    ],
+    "descricao": "O atazanavir é um antirretroviral da classe dos inibidores de protease, utilizado no tratamento da infecção pelo HIV-1 em adultos e crianças. Ele age bloqueando a enzima protease do HIV, impedindo a maturação das partículas virais e reduzindo a carga viral no organismo. É frequentemente combinado com outros antirretrovirais em esquemas de terapia antirretroviral combinada (TARc) para maior eficácia e prevenção de resistência. No Brasil, é dispensado gratuitamente pelo SUS nos Serviços de Assistência Especializada (SAE). Uma característica marcante é causar amarelamento dos olhos (icterícia escleral) por hiperbilirrubinemia indireta benigna, que não indica dano hepático.",
+    "receita": "Sim",
+    "receita_display": "🔴 Receita Obrigatória",
+    "receita_cor": "#dc3545",
+    "receita_descricao": "O atazanavir é um medicamento controlado para tratamento do HIV, exigindo acompanhamento médico especializado e prescrição médica para dispensação.",
+    "receita_nota": "Dispensado exclusivamente em Serviços de Assistência Especializada (SAE) do SUS. A prescrição deve ser feita por médico credenciado no programa de HIV/AIDS. Receita Médica Comum válida por 30 dias.",
+    "efeitos": "Hiperbilirrubinemia indireta com icterícia escleral (amarelamento dos olhos — benigno e reversível), náuseas, diarreia, dor abdominal, cefaleia, fadiga, rash cutâneo, prolongamento do intervalo PR e QT no eletrocardiograma, nefrolitíase (cálculos renais), lipodistrofia com uso prolongado e elevação de enzimas hepáticas.",
+    "aviso_grave": "O atazanavir requer pH ácido gástrico para ser absorvido: inibidores de bomba de prótons (omeprazol, pantoprazol, esomeprazol) são CONTRAINDICADOS em pacientes sem ritonavir, pois eliminam quase completamente a absorção do medicamento. Além disso, pode causar prolongamento do intervalo PR, aumentando o risco de bloqueios cardíacos, especialmente em pacientes com doença cardíaca preexistente.",
+    "recomendacao": "Tomar atazanavir sempre com alimentos para melhorar a absorção. Em esquemas com ritonavir (booster), tomar ambos juntos com a refeição. Não esmagar ou mastigar os comprimidos. Manter horário fixo diário para garantir níveis plasmáticos estáveis. Evitar antiácidos, bloqueadores H2 e IBPs próximos ao horário de administração.",
+    "educacao": "O tratamento com atazanavir é para toda a vida — não interrompa sem orientação médica, mesmo que se sinta bem, pois o HIV pode desenvolver resistência rapidamente. O amarelamento dos olhos que pode ocorrer é esperado e inofensivo, diferente da icterícia por dano hepático. Mantenha suas consultas e exames regulares no SAE para monitorar carga viral e CD4.",
+    "resposta_rapida": [
+      "HIV",
+      "Inibidor de Protease",
+      "Tomar com alimentos",
+      "Evitar IBPs"
+    ],
+    "receita_obrigatoria": true,
+    "tipo_receita": "Receita Médica Comum (dispensação exclusiva em SAE/SUS)",
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Por que meus olhos ficaram amarelos tomando atazanavir?",
+        "resposta": "O amarelamento dos olhos (icterícia escleral) é um efeito adverso muito comum do atazanavir, causado pelo acúmulo de bilirrubina indireta no sangue — a mesma substância que causa a icterícia em recém-nascidos. Esse efeito é benigno e reversível, não indica dano ao fígado, e geralmente não requer suspensão do medicamento. Informe seu médico, que avaliará se é necessário algum ajuste."
+      },
+      {
+        "pergunta": "Posso tomar omeprazol junto com atazanavir?",
+        "resposta": "Em geral, não. O atazanavir precisa de um ambiente ácido no estômago para ser absorvido, e os inibidores de bomba de prótons (IBPs) como omeprazol, pantoprazol e esomeprazol reduzem drasticamente o pH gástrico, comprometendo a absorção do medicamento. Se você precisar de um IBP, converse com seu médico infectologista, pois pode ser necessário ajustar o esquema antirretroviral."
+      },
+      {
+        "pergunta": "Posso tomar atazanavir em jejum?",
+        "resposta": "Não é recomendado. O atazanavir deve ser tomado sempre com alimentos, pois a presença de comida no estômago aumenta significativamente sua absorção e eficácia. Tomar em jejum pode resultar em níveis plasmáticos insuficientes do medicamento, reduzindo o controle do HIV e aumentando o risco de resistência."
+      },
+      {
+        "pergunta": "Onde posso retirar o atazanavir gratuitamente?",
+        "resposta": "O atazanavir é distribuído gratuitamente pelo Sistema Único de Saúde (SUS) nos Serviços de Assistência Especializada (SAE) em HIV/AIDS. Você deve ser acompanhado por um médico credenciado nesse serviço, que emitirá a prescrição. Leve sempre o cartão SUS, documento de identidade e a receita atualizada para retirar sua medicação."
+      }
+    ],
+    "descricao_seo": "Atazanavir (Reyataz): antirretroviral inibidor de protease para HIV. Saiba posologia, efeitos colaterais e interações com IBPs.",
+    "alerta_farmaceutico": "Verificar se o paciente usa IBPs (omeprazol, pantoprazol) — são contraindicados sem ritonavir. Orientar sobre a icterícia escleral benigna para evitar abandono do tratamento. Confirmar que o medicamento está sendo retirado regularmente no SAE e que há adesão ao tratamento.",
+    "quando_procurar_medico": "Procure atendimento médico imediatamente se apresentar: icterícia intensa com pele também amarelada, dor forte no flanco ou nas costas (possível cálculo renal), urina muito escura, fezes esbranquiçadas, palpitações ou desmaios, rash cutâneo extenso, ou qualquer sinal de reação alérgica grave.",
+    "interacoes": "O atazanavir é forte inibidor do CYP3A4, podendo aumentar os níveis de estatinas (sinvastatina e lovastatina são contraindicadas), sildenafila, midazolam, triazolam e imunossupressores como ciclosporina e tacrolimo. IBPs são contraindicados sem ritonavir. Antiácidos e bloqueadores H2 devem ser espaçados adequadamente. Rifampicina é contraindicada. Tenofovir reduz os níveis de atazanavir — necessita de booster com ritonavir."
+  },
+  {
+    "nome": "Darunavir 400mg - 600mg - 800mg",
+    "generico": "darunavir",
+    "tipo": "Antirretroviral — Inibidor de Protease",
+    "sinonimos": [
+      "Darunavir",
+      "Prezista"
+    ],
+    "descricao": "O darunavir é considerado o inibidor de protease mais potente disponível atualmente para o tratamento do HIV-1, sendo recomendado tanto para pacientes nunca tratados (virgens de tratamento) quanto para aqueles com histórico de falha terapêutica. Seu mecanismo de ação consiste em inibir a protease do HIV, enzima essencial para a formação de novas partículas virais maduras e infectantes. O darunavir deve ser sempre administrado com um potenciador farmacocinético — ritonavir 100mg ou cobicistat 150mg — que inibe o metabolismo hepático do darunavir, aumentando seus níveis plasmáticos e prolongando seu efeito. Possui alta barreira genética à resistência, tornando-o uma escolha preferencial em esquemas modernos de TARc.",
+    "receita": "Sim",
+    "receita_display": "🔴 Receita Obrigatória",
+    "receita_cor": "#dc3545",
+    "receita_descricao": "O darunavir é um antirretroviral de uso controlado, prescrito exclusivamente por médico especialista em HIV/AIDS para tratamento da infecção pelo HIV.",
+    "receita_nota": "Dispensado exclusivamente em Serviços de Assistência Especializada (SAE) do SUS. Deve ser sempre prescrito em conjunto com ritonavir ou cobicistat (booster). Receita Médica Comum válida por 30 dias.",
+    "efeitos": "Diarreia, náuseas, vômitos, dor abdominal, rash cutâneo (pode ser grave em pacientes com alergia a sulfonamidas), cefaleia, fadiga, elevação de transaminases hepáticas, hiperglicemia, dislipidemia (aumento de triglicérides e colesterol), lipodistrofia com uso prolongado e, raramente, hepatotoxicidade grave.",
+    "aviso_grave": "O darunavir contém um radical sulfonamida em sua estrutura química. Pacientes com histórico de alergia grave a medicamentos sulfonamídicos (como sulfametoxazol) devem ser monitorados com atenção, pois há risco de reação cruzada. Em caso de rash cutâneo progressivo, eritema multiforme ou síndrome de Stevens-Johnson, o medicamento deve ser suspenso imediatamente e avaliação médica urgente é necessária.",
+    "recomendacao": "Tomar darunavir obrigatoriamente com alimentos — a refeição aumenta a absorção do medicamento em até 30%. Tomar sempre junto com ritonavir 100mg ou cobicistat 150mg no mesmo horário. Não partir, esmagar ou mastigar os comprimidos. Manter regularidade nos horários para garantir eficácia máxima do tratamento.",
+    "educacao": "A adesão rigorosa ao tratamento com darunavir é fundamental para manter a carga viral indetectável e preservar o sistema imunológico. Nunca pule doses nem interrompa o tratamento sem orientação médica — o HIV pode desenvolver mutações de resistência rapidamente. Mantenha acompanhamento regular no SAE com exames de carga viral e CD4 a cada 3 a 6 meses.",
+    "resposta_rapida": [
+      "HIV",
+      "Inibidor de Protease",
+      "Sempre com booster",
+      "Tomar com alimentos"
+    ],
+    "receita_obrigatoria": true,
+    "tipo_receita": "Receita Médica Comum (dispensação exclusiva em SAE/SUS)",
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Por que preciso tomar ritonavir junto com darunavir?",
+        "resposta": "O ritonavir (ou cobicistat) funciona como um potenciador farmacocinético — ele inibe a enzima hepática CYP3A4, que normalmente degrada o darunavir rapidamente. Com o bloqueio dessa enzima, o darunavir permanece em concentrações muito mais altas no sangue por mais tempo, aumentando sua eficácia e permitindo doses menores. Sem o booster, os níveis de darunavir seriam insuficientes para controlar o HIV adequadamente."
+      },
+      {
+        "pergunta": "Tenho alergia a sulfas — posso tomar darunavir?",
+        "resposta": "O darunavir contém um radical sulfonamida em sua estrutura, o que pode causar reação cruzada em pessoas alérgicas a medicamentos sulfonamídicos como o sulfametoxazol (Bactrim). Informe seu médico sobre qualquer alergia prévia a sulfonamidas antes de iniciar o tratamento. Em muitos casos, o uso é possível com monitoramento cuidadoso, mas a decisão deve ser individualizada pelo especialista."
+      },
+      {
+        "pergunta": "Posso tomar darunavir em jejum?",
+        "resposta": "Não. O darunavir deve ser tomado obrigatoriamente com alimentos. A presença de comida no estômago aumenta significativamente a absorção do medicamento, garantindo que ele atinja os níveis plasmáticos necessários para suprimir o HIV. Tomar em jejum pode resultar em concentrações insuficientes e comprometer a eficácia do tratamento."
+      },
+      {
+        "pergunta": "O darunavir causa algum efeito nos lipídios do sangue?",
+        "resposta": "Sim. O darunavir, especialmente quando potenciado com ritonavir, pode causar dislipidemia — elevação de colesterol total, LDL e triglicérides. Isso ocorre porque o ritonavir interfere no metabolismo lipídico. Seu médico solicitará exames de perfil lipídico periodicamente e poderá recomendar mudanças na dieta ou introdução de medicamentos para controle dos lipídios, quando necessário."
+      }
+    ],
+    "descricao_seo": "Darunavir (Prezista): inibidor de protease para HIV. Entenda por que deve ser usado com ritonavir, efeitos e cuidados essenciais.",
+    "alerta_farmaceutico": "Confirmar que o paciente está retirando o booster (ritonavir ou cobicistat) junto com darunavir — não dispensar um sem o outro. Alertar sobre a necessidade de tomar com alimentos. Investigar histórico de alergia a sulfonamidas. Orientar sobre monitoramento de lipídios e exames hepáticos periódicos.",
+    "quando_procurar_medico": "Busque atendimento médico imediatamente em caso de: rash cutâneo extenso ou bolhoso, febre associada a erupção na pele, icterícia (pele ou olhos amarelos), dor abdominal intensa, urina escura, fraqueza extrema, palpitações ou dificuldade para respirar.",
+    "interacoes": "O darunavir/ritonavir é forte inibidor de CYP3A4: aumenta drasticamente os níveis de estatinas (sinvastatina e lovastatina contraindicadas), midazolam, triazolam, amiodarona, sildenafila, imunossupressores (ciclosporina, tacrolimo) e vários outros medicamentos. Rifampicina é contraindicada. Indutores potentes de CYP3A4 (carbamazepina, fenitoína, erva-de-são-joão) reduzem os níveis de darunavir. Sempre verificar interações antes de qualquer nova prescrição."
+  },
+  {
+    "nome": "Indinavir 200mg - 400mg",
+    "generico": "indinavir",
+    "tipo": "Antirretroviral — Inibidor de Protease",
+    "sinonimos": [
+      "Indinavir",
+      "Crixivan",
+      "Sulfato de indinavir"
+    ],
+    "descricao": "O indinavir é um dos primeiros inibidores de protease desenvolvidos para o tratamento do HIV-1, aprovado desde 1996 e parte dos esquemas que revolucionaram a terapia antirretroviral combinada. Apesar de menos utilizado nos esquemas modernos — em razão do perfil de efeitos adversos e da necessidade de administração a cada 8 horas — ainda pode estar presente em pacientes com longa história de tratamento. Seu mecanismo de ação é inibir a protease do HIV, impedindo a montagem correta de novos vírus. Uma característica crítica é sua tendência a precipitar nos rins e vias urinárias, formando cálculos renais, o que torna a hidratação abundante um requisito obrigatório do tratamento.",
+    "receita": "Sim",
+    "receita_display": "🔴 Receita Obrigatória",
+    "receita_cor": "#dc3545",
+    "receita_descricao": "O indinavir é um antirretroviral de uso controlado que requer prescrição médica especializada e acompanhamento contínuo no serviço de saúde.",
+    "receita_nota": "Dispensado exclusivamente em Serviços de Assistência Especializada (SAE) do SUS. Receita Médica Comum válida por 30 dias, emitida por médico credenciado no programa de HIV/AIDS.",
+    "efeitos": "Nefrolitíase (cálculos renais) — principal efeito preocupante, hiperbilirrubinemia indireta com icterícia escleral, náuseas, dor abdominal, diarreia, cefaleia, fadiga, alopecia (queda de cabelo), ressecamento de pele e mucosas, alterações das unhas, lipodistrofia, dislipidemia e hiperglicemia com uso prolongado.",
+    "aviso_grave": "A nefrolitíase (formação de cálculos renais) é o principal risco do indinavir. O medicamento pode precipitar nas vias urinárias, especialmente quando a ingestão de líquidos é insuficiente. É OBRIGATÓRIO ingerir pelo menos 1,5 litro de água por dia durante o tratamento. Em caso de dor lombar intensa, hematúria (sangue na urina) ou dificuldade para urinar, procure atendimento de emergência imediatamente.",
+    "recomendacao": "Tomar indinavir em jejum ou com refeição muito leve e sem gordura — alimentos gordurosos reduzem significativamente sua absorção. Ingerir pelo menos 1,5 litro de água distribuído ao longo do dia. O medicamento é geralmente administrado a cada 8 horas (3 vezes ao dia), mantendo intervalos regulares. Quando usado com ritonavir (booster), pode ser administrado de forma diferente — siga a orientação do seu médico.",
+    "educacao": "A hidratação adequada não é opcional durante o uso de indinavir — é uma medida de segurança fundamental para proteger seus rins. Carregue sempre uma garrafinha de água e estabeleça um hábito de beber líquidos regularmente ao longo do dia. Informe seu médico imediatamente sobre qualquer dor nas costas ou no flanco, pois pode ser sinal de cálculo renal.",
+    "resposta_rapida": [
+      "HIV",
+      "Inibidor de Protease",
+      "Beber 1,5L água/dia",
+      "Jejum ou refeição leve"
+    ],
+    "receita_obrigatoria": true,
+    "tipo_receita": "Receita Médica Comum (dispensação exclusiva em SAE/SUS)",
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Por que preciso beber tanta água tomando indinavir?",
+        "resposta": "O indinavir tem baixa solubilidade urinária e pode precipitar nas vias urinárias — especialmente no ureter — formando cálculos renais dolorosos. A ingestão de pelo menos 1,5 litro de água por dia dilui a urina e impede que o medicamento se deposite. Essa recomendação é obrigatória e deve ser mantida durante todo o tratamento, não apenas nos primeiros dias."
+      },
+      {
+        "pergunta": "Posso tomar indinavir com as refeições normais?",
+        "resposta": "Não. O indinavir deve ser tomado em jejum ou com uma refeição muito leve e sem gordura (como torrada simples e água). Refeições ricas em gordura, proteínas ou calorias reduzem a absorção do medicamento em até 77%, comprometendo sua eficácia. Se o horário de administração coincidir com uma refeição principal, tome o medicamento pelo menos 1 hora antes ou 2 horas depois de comer."
+      },
+      {
+        "pergunta": "Quais são os sinais de cálculo renal que devo ficar atento?",
+        "resposta": "Os principais sinais de nefrolitíase (cálculo renal) são: dor intensa e súbita no flanco (lateral das costas), irradiando para a virilha ou abdome inferior; sangue na urina (urina rosada, avermelhada ou marrom); dificuldade ou dor para urinar; náuseas e vômitos associados à dor; febre (indica infecção — emergência). Em qualquer desses casos, procure atendimento de emergência imediatamente."
+      },
+      {
+        "pergunta": "O indinavir ainda é muito usado no Brasil?",
+        "resposta": "O indinavir foi um medicamento revolucionário quando lançado nos anos 1990, mas hoje é pouco utilizado nos esquemas de primeira linha devido ao perfil de efeitos adversos (principalmente nefrolitíase) e à necessidade de 3 doses diárias. Os esquemas modernos preferem medicamentos mais toleráveis e com posologia mais simples. Entretanto, alguns pacientes com longa história de tratamento ainda o utilizam por questões de resistência ou histórico de resposta terapêutica."
+      }
+    ],
+    "descricao_seo": "Indinavir (Crixivan): antirretroviral IP para HIV. Saiba por que beber 1,5L de água/dia é obrigatório e como evitar cálculos renais.",
+    "alerta_farmaceutico": "Reforçar com ênfase a necessidade de ingerir 1,5 litro de água por dia — este é o alerta mais importante para prevenção de nefrolitíase. Confirmar que o paciente entende que deve tomar em jejum ou com refeição sem gordura. Verificar hidratação e orientar sobre sinais de cálculo renal que exigem atendimento de emergência.",
+    "quando_procurar_medico": "Procure emergência imediatamente se sentir dor intensa e súbita no flanco ou nas costas, urina com sangue, febre durante episódio de dor lombar, dificuldade para urinar ou parada de urina, náuseas e vômitos intensos. Consulte seu médico também em caso de icterícia intensa, fraqueza extrema ou sinais de infecção.",
+    "interacoes": "O indinavir é substrato e inibidor moderado do CYP3A4. Rifampicina é contraindicada (reduz 89% dos níveis). Não usar com sinvastatina, lovastatina (contraindicadas), midazolam oral ou triazolam. Cuidado com sildenafila (aumenta risco de hipotensão e priapismo). Antiácidos reduzem absorção — espaçar por 1 hora. Erva-de-são-joão reduz drasticamente os níveis. Didanosina (ddI) em formulação tamponada deve ser administrada em horários separados."
+  },
+  {
+    "nome": "Nelfinavir 250mg - 625mg",
+    "generico": "nelfinavir",
+    "tipo": "Antirretroviral — Inibidor de Protease",
+    "sinonimos": [
+      "Nelfinavir",
+      "Viracept",
+      "Mesilato de nelfinavir"
+    ],
+    "descricao": "O nelfinavir é um inibidor de protease do HIV aprovado para uso em adultos e crianças, sendo um dos poucos inibidores de protease que não requerem booster farmacocinético — ou seja, pode ser utilizado sem ritonavir ou cobicistat, o que o diferencia dos demais membros da classe. Sua absorção é significativamente aumentada quando administrado com alimentos, podendo dobrar ou triplicar a biodisponibilidade em comparação ao jejum. O efeito adverso mais frequente é a diarreia, que afeta a maioria dos pacientes mas geralmente pode ser manejada. Embora menos utilizado nos esquemas modernos, mantém importância clínica em populações específicas, incluindo gestantes, pois não utiliza ritonavir.",
+    "receita": "Sim",
+    "receita_display": "🔴 Receita Obrigatória",
+    "receita_cor": "#dc3545",
+    "receita_descricao": "O nelfinavir é um antirretroviral de uso controlado para tratamento do HIV, exigindo prescrição médica especializada e dispensação em serviços credenciados.",
+    "receita_nota": "Dispensado exclusivamente em Serviços de Assistência Especializada (SAE) do SUS. Receita Médica Comum válida por 30 dias, emitida por médico credenciado no programa de HIV/AIDS.",
+    "efeitos": "Diarreia (muito frequente — afeta mais de 20% dos pacientes), náuseas, flatulência, dor abdominal, erupção cutânea, astenia, hiperglicemia, dislipidemia (especialmente hipertrigliceridemia), lipodistrofia com redistribuição de gordura corporal, e elevação de transaminases hepáticas.",
+    "aviso_grave": "A diarreia causada pelo nelfinavir pode ser intensa e persistente, levando a desidratação e desequilíbrio eletrolítico, especialmente em crianças e idosos. Caso a diarreia seja grave ou não melhore com medidas dietéticas e uso de loperamida, informe seu médico — pode ser necessário ajuste do esquema terapêutico. Não interrompa o antirretroviral por conta própria.",
+    "recomendacao": "Tomar nelfinavir sempre com alimentos — de preferência refeição com teor moderado a alto de gordura, que aumenta a absorção em 2 a 3 vezes. Os comprimidos de 250mg podem ser dissolvidos em água ou suco não ácido para pacientes com dificuldade de deglutição. Manter o horário regular das doses. Para controle da diarreia, adotar dieta pobre em fibras insolúveis e usar loperamida conforme orientação médica.",
+    "educacao": "A diarreia frequente pode ser desanimadora no início do tratamento, mas geralmente melhora com o tempo e com ajustes na dieta. Mantenha boa hidratação para compensar as perdas líquidas. Não abandone o tratamento por causa desse efeito colateral — informe seu médico, que poderá indicar loperamida ou outros recursos para controlar a diarreia. O controle do HIV é muito mais importante a longo prazo.",
+    "resposta_rapida": [
+      "HIV",
+      "Inibidor de Protease",
+      "Tomar com alimentos",
+      "Diarreia frequente"
+    ],
+    "receita_obrigatoria": true,
+    "tipo_receita": "Receita Médica Comum (dispensação exclusiva em SAE/SUS)",
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Por que a diarreia é tão comum com nelfinavir?",
+        "resposta": "O nelfinavir causa diarreia osmótica — ele interfere na absorção de água e eletrólitos no intestino. Esse efeito adverso é muito frequente e esperado, afetando a maioria dos pacientes em algum grau. Geralmente pode ser controlado com medidas simples como dieta pobre em alimentos gordurosos ou de alto teor de fibras, boa hidratação e uso de loperamida (antidiarreico de venda livre) conforme orientação médica."
+      },
+      {
+        "pergunta": "O nelfinavir precisa ser tomado com ritonavir?",
+        "resposta": "Não. O nelfinavir é um dos únicos inibidores de protease que não necessita de potenciador farmacocinético (booster). Ele possui atividade metabólica autopotenciada suficiente para manter níveis plasmáticos adequados. Isso pode ser uma vantagem em situações onde o ritonavir não é adequado, como em certas condições de saúde ou interações medicamentosas específicas."
+      },
+      {
+        "pergunta": "Posso esmagar os comprimidos de nelfinavir?",
+        "resposta": "Os comprimidos de 250mg de nelfinavir podem ser dissolvidos em uma pequena quantidade de água, leite, fórmula infantil, pudim ou sorvete para facilitar a administração, especialmente em crianças ou adultos com dificuldade de deglutição. Evite misturar com alimentos ácidos como suco de laranja ou maçã, pois podem alterar o sabor. Os comprimidos de 625mg não devem ser fracionados sem orientação."
+      },
+      {
+        "pergunta": "O nelfinavir interfere com métodos anticoncepcionais hormonais?",
+        "resposta": "Sim. O nelfinavir pode reduzir os níveis de hormônios contraceptivos orais (estrogênio e progesterona), diminuindo a eficácia da pílula anticoncepcional. Mulheres em idade fértil em uso de nelfinavir devem utilizar método contraceptivo adicional (como preservativo) para garantir a proteção. Converse com seu médico sobre as opções mais seguras de anticoncepção durante o tratamento."
+      }
+    ],
+    "descricao_seo": "Nelfinavir (Viracept): antirretroviral IP sem necessidade de booster para HIV. Saiba como controlar a diarreia e posologia correta.",
+    "alerta_farmaceutico": "Orientar sobre a necessidade de tomar com alimentos para garantir absorção adequada. Alertar sobre a diarreia como efeito adverso esperado e instruir sobre uso de loperamida e hidratação. Verificar se o paciente usa anticonceptivos hormonais — necessidade de método adicional. Reforçar adesão ao tratamento mesmo com desconforto gastrointestinal.",
+    "quando_procurar_medico": "Procure atendimento médico se apresentar diarreia muito intensa com desidratação (boca seca, tontura ao levantar, urina muito escura), sangue nas fezes, febre, dor abdominal intensa, icterícia, erupção cutânea generalizada, ou qualquer sinal de reação alérgica grave.",
+    "interacoes": "O nelfinavir é inibidor moderado do CYP3A4 e CYP2C19. Rifampicina é contraindicada (reduz 82% dos níveis). Cuidado com sinvastatina e lovastatina (risco de miopatia — preferir pravastatina ou rosuvastatina). Antiácidos, didanosina tamponada e omeprazol podem alterar absorção. Pode reduzir eficácia de contraceptivos orais. Erva-de-são-joão reduz drasticamente os níveis de nelfinavir."
+  },
+  {
+    "nome": "Saquinavir 500mg",
+    "generico": "saquinavir",
+    "tipo": "Antirretroviral — Inibidor de Protease",
+    "sinonimos": [
+      "Saquinavir",
+      "Invirase",
+      "Mesilato de saquinavir"
+    ],
+    "descricao": "O saquinavir foi o primeiro inibidor de protease aprovado para o tratamento do HIV, em 1995, inaugurando uma nova era na terapia antirretroviral combinada. Apesar de ser um dos membros mais antigos da classe, ainda é utilizado em esquemas salvação e em pacientes com longa história de tratamento. O saquinavir deve ser sempre administrado com ritonavir como booster farmacocinético, pois sua biodisponibilidade isolada é muito baixa (cerca de 4%). Um aspecto crítico de segurança é seu potencial de prolongar o intervalo QT e PR no eletrocardiograma, o que requer avaliação cardíaca antes do início e atenção às interações com outros medicamentos que afetam o ritmo cardíaco.",
+    "receita": "Sim",
+    "receita_display": "🔴 Receita Obrigatória",
+    "receita_cor": "#dc3545",
+    "receita_descricao": "O saquinavir é um antirretroviral de uso controlado que requer prescrição médica especializada e é dispensado exclusivamente em serviços de saúde credenciados.",
+    "receita_nota": "Dispensado exclusivamente em Serviços de Assistência Especializada (SAE) do SUS. Deve ser sempre prescrito com ritonavir como potenciador. Recomenda-se ECG basal antes do início do tratamento. Receita Médica Comum válida por 30 dias.",
+    "efeitos": "Diarreia, náuseas, dor abdominal, vômitos, flatulência, cefaleia, fadiga, prolongamento dos intervalos QT e PR no ECG (risco de arritmia), dislipidemia, hiperglicemia, lipodistrofia, elevação de enzimas hepáticas e rash cutâneo.",
+    "aviso_grave": "O saquinavir causa prolongamento do intervalo QT no eletrocardiograma, aumentando o risco de arritmia ventricular grave (Torsades de Pointes) que pode ser fatal. É CONTRAINDICADO em pacientes com prolongamento congênito do QT, bloqueio cardíaco de alto grau ou que já usam outros medicamentos prolongadores do QT (amiodarona, cloroquina, haloperidol, metadona, entre outros). Um ECG deve ser realizado antes e após o início do tratamento.",
+    "recomendacao": "Tomar saquinavir obrigatoriamente com alimentos — a refeição é essencial para garantir absorção adequada. Administrar sempre junto com ritonavir 100mg duas vezes ao dia. Engolir os comprimidos inteiros com água. Não interromper o tratamento sem orientação médica. Realizar ECG antes de iniciar e monitorar periodicamente durante o tratamento.",
+    "educacao": "O saquinavir é um medicamento com história importante no tratamento do HIV, mas requer cuidados específicos com o coração. Informe sempre todos os médicos que te atendem (cardiologista, clínico geral) sobre o uso deste medicamento. Qualquer sensação de palpitações, batimentos irregulares, tontura ou desmaio deve ser comunicada imediatamente ao seu médico.",
+    "resposta_rapida": [
+      "HIV",
+      "Inibidor de Protease",
+      "Sempre com ritonavir",
+      "Risco de QT prolongado"
+    ],
+    "receita_obrigatoria": true,
+    "tipo_receita": "Receita Médica Comum (dispensação exclusiva em SAE/SUS)",
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Por que o saquinavir precisa obrigatoriamente de ritonavir?",
+        "resposta": "O saquinavir tem biodisponibilidade oral muito baixa — sem booster, apenas cerca de 4% da dose chega à corrente sanguínea. O ritonavir inibe a enzima CYP3A4 no intestino e no fígado, bloqueando a degradação do saquinavir antes que ele seja absorvido. Com ritonavir, os níveis plasmáticos de saquinavir aumentam em mais de 20 vezes, tornando o tratamento eficaz. Por isso, tomar um sem o outro é clinicamente inadequado."
+      },
+      {
+        "pergunta": "O que é prolongamento do QT e por que é perigoso?",
+        "resposta": "O intervalo QT é uma medida do tempo que o coração leva para se recuperar entre batimentos, visível no eletrocardiograma (ECG). Quando esse intervalo se prolonga — o que pode ser causado pelo saquinavir — aumenta o risco de uma arritmia grave chamada Torsades de Pointes, que pode degenerar para fibrilação ventricular e causar morte súbita. Por isso, é fundamental realizar um ECG antes de iniciar o tratamento e informar ao médico sobre todos os outros medicamentos em uso."
+      },
+      {
+        "pergunta": "Existe alguma restrição alimentar com saquinavir?",
+        "resposta": "O principal requisito alimentar é tomar saquinavir com alimentos, pois a refeição aumenta significativamente sua absorção. Não há restrições específicas quanto ao tipo de alimento, mas é prudente evitar excesso de grapefruit (toranja), pois pode aumentar os níveis do medicamento de forma imprevisível. Evite também álcool em excesso, que pode sobrecarregar o fígado em combinação com o antirretroviral."
+      },
+      {
+        "pergunta": "O saquinavir ainda é muito prescrito atualmente?",
+        "resposta": "O saquinavir é menos frequentemente prescrito em novos esquemas, pois os inibidores de protease mais modernos (como darunavir) têm perfil de segurança mais favorável, maior barreira genética e posologia mais simples. Entretanto, ainda pode estar presente em pacientes com histórico longo de tratamento que mantêm boa resposta ao esquema atual. A substituição do esquema sempre deve ser avaliada pelo médico especialista."
+      }
+    ],
+    "descricao_seo": "Saquinavir (Invirase): primeiro IP aprovado para HIV. Entenda o risco cardíaco de QT prolongado, posologia com ritonavir e cuidados.",
+    "alerta_farmaceutico": "Verificar histórico cardíaco do paciente — contraindicado em QT longo congênito. Confirmar que o ritonavir também está sendo dispensado. Alertar sobre sinais de arritmia (palpitações, tontura, desmaio). Verificar outros medicamentos que prolongam o QT na farmacoterapia do paciente. Orientar sobre necessidade de ECG de acompanhamento.",
+    "quando_procurar_medico": "Procure atendimento de emergência imediatamente se sentir palpitações rápidas ou irregulares, tontura intensa, desmaio ou perda de consciência, dor no peito. Consulte seu médico também em caso de icterícia, rash cutâneo extenso, febre, diarreia intensa com desidratação ou qualquer efeito adverso preocupante.",
+    "interacoes": "O saquinavir/ritonavir é forte inibidor do CYP3A4. CONTRAINDICADO com outros prolongadores de QT: amiodarona, cloroquina, haloperidol, metadona, azitromicina em altas doses. Rifampicina é contraindicada. Sinvastatina e lovastatina contraindicadas (risco de rabdomiólise). Não usar com midazolam oral, triazolam, ergotamina. Monitorar imunossupressores (ciclosporina, tacrolimo) — níveis aumentados."
+  },
+  {
+    "nome": "Nevirapina 200mg - 400mg XR",
+    "generico": "nevirapina",
+    "tipo": "Antirretroviral — Inibidor da Transcriptase Reversa Não Nucleosídeo (ITRNN)",
+    "sinonimos": [
+      "Nevirapina",
+      "Viramune",
+      "Viramune XR"
+    ],
+    "descricao": "A nevirapina é um antirretroviral da classe dos inibidores da transcriptase reversa não nucleosídeos (ITRNN), utilizada no tratamento do HIV-1 em adultos e crianças. Ela age ligando-se diretamente à enzima transcriptase reversa do HIV, bloqueando a conversão do RNA viral em DNA e interrompendo a replicação do vírus. Uma característica importante é a indução enzimática do CYP3A4 — ela aumenta seu próprio metabolismo (autoindutor) e pode alterar os níveis de outros medicamentos. Existe uma formulação de liberação prolongada (XR — Extended Release) que permite administração uma vez ao dia, melhorando a adesão. O início do tratamento exige um período obrigatório de 14 dias com dose reduzida para minimizar o risco de reações cutâneas e hepáticas graves.",
+    "receita": "Sim",
+    "receita_display": "🔴 Receita Obrigatória",
+    "receita_cor": "#dc3545",
+    "receita_descricao": "A nevirapina é um antirretroviral de uso controlado para tratamento do HIV, exigindo prescrição médica especializada e monitoramento rigoroso, especialmente nas primeiras semanas.",
+    "receita_nota": "Dispensada exclusivamente em Serviços de Assistência Especializada (SAE) do SUS. Contraindicada em mulheres com CD4 > 250 cél/mm³ e homens com CD4 > 400 cél/mm³ por risco aumentado de hepatotoxicidade grave. Receita Médica Comum válida por 30 dias.",
+    "efeitos": "Rash cutâneo (muito comum, especialmente nas primeiras 6 semanas — pode ser grave), hepatotoxicidade (elevação de transaminases, podendo ser grave nas primeiras 18 semanas), síndrome de Stevens-Johnson e necrólise epidérmica tóxica (raros mas potencialmente fatais), febre, fadiga, náuseas, cefaleia, e síndrome de hipersensibilidade com febre, rash e comprometimento de órgãos internos.",
+    "aviso_grave": "A nevirapina possui dois riscos graves que exigem atenção máxima nas primeiras 18 semanas de tratamento: (1) Hepatotoxicidade grave, potencialmente fatal, com risco muito aumentado em mulheres com CD4 > 250 cél/mm³ e homens com CD4 > 400 cél/mm³ — CONTRAINDICADA nessas situações. (2) Síndrome de Stevens-Johnson — reação cutânea grave e potencialmente fatal que começa com rash, bolhas na pele e mucosas. Qualquer rash grave, febre, lesões na boca ou dificuldade de engolir requer suspensão IMEDIATA e avaliação médica de emergência.",
+    "recomendacao": "Iniciar SEMPRE com dose de indução: 200mg uma vez ao dia pelos primeiros 14 dias, antes de aumentar para a dose plena de 400mg/dia (ou 400mg XR uma vez ao dia). Essa fase de indução reduz o risco de rash grave. Pode ser tomada com ou sem alimentos. Monitorar função hepática (TGO, TGP) nas primeiras semanas — conforme protocolo médico. A formulação XR deve ser engolida inteira, sem partir ou esmagar.",
+    "educacao": "As primeiras 18 semanas de tratamento com nevirapina são o período de maior vigilância. Observe sua pele diariamente — qualquer surgimento de manchas vermelhas, bolhas ou descamação deve ser comunicado imediatamente ao seu médico ou serviço de emergência. Não ignore sinais cutâneos achando que vão passar sozinhos. Após esse período de maior risco, a nevirapina geralmente é bem tolerada.",
+    "resposta_rapida": [
+      "HIV",
+      "ITRNN",
+      "Dose de indução 14 dias",
+      "Risco hepatotoxicidade"
+    ],
+    "receita_obrigatoria": true,
+    "tipo_receita": "Receita Médica Comum (dispensação exclusiva em SAE/SUS)",
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Por que preciso começar com dose menor de nevirapina por 14 dias?",
+        "resposta": "A dose de indução de 200mg por 14 dias é obrigatória para reduzir o risco de reações cutâneas graves (especialmente rash e síndrome de Stevens-Johnson) e hepatotoxicidade. Essa estratégia permite que o organismo se adapte gradualmente ao medicamento. Pular essa fase e começar diretamente com a dose plena aumenta significativamente o risco de reações adversas graves. Nunca pule o período de indução."
+      },
+      {
+        "pergunta": "Minha CD4 está alta — posso usar nevirapina?",
+        "resposta": "Depende do seu nível de CD4 e do seu sexo. A nevirapina é contraindicada em mulheres com CD4 acima de 250 células/mm³ e em homens com CD4 acima de 400 células/mm³, pois nessas situações o risco de hepatotoxicidade grave é significativamente maior. Se seu CD4 estiver acima desses limites, seu médico deverá optar por outro antirretroviral da classe ITRNN, como efavirenz ou rilpivirina."
+      },
+      {
+        "pergunta": "Qual é a diferença entre Viramune e Viramune XR?",
+        "resposta": "O Viramune é a formulação de liberação imediata (200mg), tomada duas vezes ao dia após o período de indução. O Viramune XR é a formulação de liberação prolongada (400mg), tomada apenas uma vez ao dia — o que facilita a adesão ao tratamento. Ambas têm a mesma eficácia, mas o comprimido XR não pode ser partido ou esmagado, pois isso destrói o mecanismo de liberação controlada. A formulação XR ainda requer os 14 dias de indução com o comprimido de 200mg convencional."
+      },
+      {
+        "pergunta": "O que fazer se aparecer manchas na pele usando nevirapina?",
+        "resposta": "Se aparecer qualquer rash cutâneo durante o uso de nevirapina, especialmente nas primeiras 18 semanas, não ignore. Se o rash for leve (manchas rosadas sem bolhas, sem febre, sem envolvimento de mucosas), informe seu médico na próxima consulta, mas continue o medicamento temporariamente até avaliação. Se o rash for grave — bolhas, descamação, lesões na boca, febre, dificuldade para engolir — SUSPENDA imediatamente a nevirapina e procure emergência. Não reinicie sem orientação médica."
+      }
+    ],
+    "descricao_seo": "Nevirapina (Viramune): ITRNN para HIV. Entenda a dose de indução obrigatória de 14 dias e os riscos de hepatotoxicidade e Stevens-Johnson.",
+    "alerta_farmaceutico": "Verificar CD4 na receita — contraindicada em mulheres com CD4 > 250 e homens com CD4 > 400. Confirmar que o paciente entende a fase de indução de 14 dias. Orientar sobre sinais de rash grave e hepatotoxicidade — suspensão imediata e emergência médica. Verificar se é a formulação convencional ou XR e orientar corretamente sobre administração.",
+    "quando_procurar_medico": "Procure emergência IMEDIATAMENTE se aparecer rash cutâneo com bolhas, descamação, lesões na boca ou genitais, febre associada a rash, dificuldade para engolir, vermelhidão nos olhos, ou qualquer sintoma de reação grave. Também procure seu médico urgentemente se tiver icterícia, dor abdominal intensa, urina escura ou fezes esbranquiçadas (sinais de hepatite grave).",
+    "interacoes": "A nevirapina é indutora potente de CYP3A4 e CYP2B6. Reduz os níveis de inibidores de protease (não combinar sem ajuste), metadona (pode precipitar síndrome de abstinência), contraceptivos orais hormonais (usar método adicional), antifúngicos azólicos, e imunossupressores (ciclosporina, tacrolimo). Rifampicina potencializa a indução — evitar combinação. Fluconazol aumenta os níveis de nevirapina."
+  },
+  {
+    "nome": "Rilpivirina 25mg",
+    "generico": "rilpivirina",
+    "tipo": "Antirretroviral — Inibidor da Transcriptase Reversa Não Nucleosídeo (ITRNN) de 2ª geração",
+    "sinonimos": [
+      "Rilpivirina",
+      "Edurant"
+    ],
+    "descricao": "A rilpivirina é um antirretroviral de segunda geração da classe dos inibidores da transcriptase reversa não nucleosídeos (ITRNN), caracterizado por melhor perfil de tolerabilidade em comparação com os ITRNN mais antigos, especialmente no que se refere a efeitos neuropsiquiátricos. É indicada para pacientes virgens de tratamento com carga viral inferior a 100.000 cópias/mL no início da terapia. Seu diferencial é a posologia simples — uma vez ao dia — e a ausência dos efeitos sobre o sono (pesadelos, sonhos vívidos) e alterações neurológicas comuns com efavirenz. Uma característica farmacológica fundamental é a necessidade absoluta de absorção em meio ácido: a rilpivirina deve ser tomada com refeição calórica para garantir absorção adequada.",
+    "receita": "Sim",
+    "receita_display": "🔴 Receita Obrigatória",
+    "receita_cor": "#dc3545",
+    "receita_descricao": "A rilpivirina é um antirretroviral de uso controlado para tratamento do HIV, exigindo prescrição médica especializada e dispensação em serviços credenciados.",
+    "receita_nota": "Dispensada exclusivamente em Serviços de Assistência Especializada (SAE) do SUS. Contraindicada em pacientes com carga viral basal > 100.000 cópias/mL. Receita Médica Comum válida por 30 dias.",
+    "efeitos": "Depressão, insônia, cefaleia, tontura (em menor intensidade que efavirenz), rash cutâneo, náuseas, dor abdominal, fadiga, elevação de transaminases hepáticas, e prolongamento do intervalo QT (menor que com outros ITRNN). Em comparação com efavirenz, tem significativamente menos efeitos neuropsiquiátricos.",
+    "aviso_grave": "Os inibidores de bomba de prótons (IBPs) — omeprazol, pantoprazol, esomeprazol, lansoprazol — são CONTRAINDICADOS com rilpivirina, pois reduzem o pH gástrico e diminuem a absorção do medicamento em até 40%, comprometendo a supressão viral. Além disso, tomar rilpivirina sem alimentos reduz a absorção em cerca de 40% — a refeição calórica com no mínimo 390 kcal é obrigatória.",
+    "recomendacao": "Tomar rilpivirina uma vez ao dia, OBRIGATORIAMENTE com uma refeição calórica contendo pelo menos 390 kcal — café da manhã ou almoço substancial são ideais. Não tomar em jejum ou com apenas um copo de suco. Antiácidos devem ser tomados 2 horas antes ou 4 horas depois da rilpivirina. Bloqueadores H2 (ranitidina, famotidina) devem ser tomados 12 horas antes ou pelo menos 4 horas depois. IBPs são contraindicados.",
+    "educacao": "A rilpivirina oferece um tratamento mais confortável que medicamentos mais antigos da mesma classe — você não terá pesadelos ou a tontura intensa do efavirenz. O segredo para que funcione bem é sempre tomar com uma refeição de verdade. Um café da manhã caprichado ou um bom almoço garantem que o medicamento seja absorvido adequadamente. Nunca tome em jejum, mesmo que esteja com pressa.",
+    "resposta_rapida": [
+      "HIV",
+      "ITRNN",
+      "Tomar com refeição calórica",
+      "IBPs contraindicados"
+    ],
+    "receita_obrigatoria": true,
+    "tipo_receita": "Receita Médica Comum (dispensação exclusiva em SAE/SUS)",
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "O que é uma refeição calórica suficiente para tomar rilpivirina?",
+        "resposta": "A rilpivirina requer uma refeição com pelo menos 390 kcal para garantir absorção adequada. Isso equivale a um café da manhã reforçado (pão com manteiga, ovo mexido e suco), um almoço normal ou um jantar com porção completa. Um copo de suco, uma fruta ou biscoito não são suficientes. Quanto mais calórica e gordurosa a refeição, melhor será a absorção do medicamento."
+      },
+      {
+        "pergunta": "Tomo omeprazol todos os dias — posso usar rilpivirina?",
+        "resposta": "Os inibidores de bomba de prótons (IBPs) como omeprazol, pantoprazol e esomeprazol são contraindicados com rilpivirina, pois elevam o pH gástrico e reduzem significativamente a absorção do antirretroviral — comprometendo o controle do HIV. Se você precisa de proteção gástrica, converse com seu médico: bloqueadores H2 (como famotidina) podem ser usados com horários específicos, ou seu esquema antirretroviral pode precisar de ajuste."
+      },
+      {
+        "pergunta": "A rilpivirina tem os mesmos efeitos do efavirenz no sono e na cabeça?",
+        "resposta": "Não. Essa é uma das principais vantagens da rilpivirina. O efavirenz é conhecido por causar sonhos vívidos, pesadelos, tontura intensa, dificuldade de concentração e até alterações de humor, especialmente no início do tratamento. A rilpivirina tem perfil neuropsiquiátrico muito mais favorável — embora possa causar alguma cefaleia ou insônia leve, os efeitos no sono e na cognição são muito menos intensos."
+      },
+      {
+        "pergunta": "Por que a rilpivirina não pode ser usada com carga viral muito alta?",
+        "resposta": "A rilpivirina possui barreira genética relativamente baixa à resistência — isso significa que pequenas falhas na adesão em pacientes com alta carga viral (acima de 100.000 cópias/mL) podem permitir que o vírus selecione mutações de resistência ao medicamento mais rapidamente. Em pacientes com cargas virais mais altas, o risco de falha terapêutica e desenvolvimento de resistência é maior com rilpivirina do que com efavirenz ou inibidores de integrase."
+      }
+    ],
+    "descricao_seo": "Rilpivirina (Edurant): ITRNN de 2ª geração para HIV. Saiba por que tomar com refeição calórica e por que IBPs são contraindicados.",
+    "alerta_farmaceutico": "Verificar se o paciente usa IBPs (omeprazol, pantoprazol) — são contraindicados. Reforçar com ênfase absoluta que deve ser tomada com refeição calórica (≥390 kcal), não em jejum. Verificar carga viral basal — contraindicada acima de 100.000 cópias/mL. Orientar sobre espaçamento correto de antiácidos e bloqueadores H2.",
+    "quando_procurar_medico": "Procure seu médico se apresentar sinais de depressão ou pensamentos de autolesão, rash cutâneo, icterícia (amarelamento da pele ou olhos), palpitações ou sensação de batimento cardíaco irregular, ou se sua carga viral começar a aumentar (detectável) nos exames de acompanhamento.",
+    "interacoes": "A rilpivirina é substrato de CYP3A4. IBPs são contraindicados. Antiácidos devem ser espaçados 2h antes ou 4h depois. Bloqueadores H2 devem ser tomados 12h antes ou 4h depois. Rifampicina, rifabutina, carbamazepina, fenitoína e erva-de-são-joão reduzem drasticamente os níveis — contraindicados. Dexametasona sistêmica (mais de uma dose) reduz eficácia. Metadona pode ter nível reduzido. Medicamentos prolongadores do QT exigem cautela."
+  },
+  {
+    "nome": "Metadona 5mg - 10mg - 40mg",
+    "generico": "metadona",
+    "tipo": "Opioide Agonista de Ação Prolongada",
+    "sinonimos": [
+      "Metadona",
+      "Methadone",
+      "Metadon"
+    ],
+    "descricao": "A metadona é um opioide sintético agonista de receptores mu com características farmacológicas únicas que a diferenciam dos demais opioides: meia-vida de eliminação extremamente longa (24 a 36 horas, podendo chegar a 150 horas em alguns pacientes), além de atividade antagonista de receptores NMDA. É utilizada para duas indicações principais: tratamento de substituição na dependência de opioides (como heroína e morfina) e tratamento da dor crônica severa, especialmente dor oncológica refratária a outros opioides. Sua longa meia-vida torna o risco de acumulação e superdosagem uma preocupação real, especialmente nos primeiros dias de tratamento e após qualquer ajuste de dose. No Brasil, é classificada como Lista A3 (Notificação de Receita Amarela).",
+    "receita": "Sim",
+    "receita_display": "🔴 Receita Especial Obrigatória",
+    "receita_cor": "#dc3545",
+    "receita_descricao": "A metadona é uma substância entorpecente (Lista A3) que exige Notificação de Receita Amarela (talonário especial), com retenção obrigatória da receita na farmácia.",
+    "receita_nota": "Notificação de Receita Amarela — Lista A3 — com retenção obrigatória. A receita permite dispensar apenas para 30 dias. Em tratamento de dependência, a dispensação é feita exclusivamente em unidades autorizadas pela ANVISA (geralmente CAPS AD). Talonário numerado emitido por médico credenciado.",
+    "efeitos": "Constipação intestinal (muito frequente), sedação, tontura, náuseas, vômitos, boca seca, sudorese, prurido, prolongamento do intervalo QT com risco de Torsades de Pointes, depressão respiratória (especialmente na fase de acumulação), hipotensão ortostática, retenção urinária, miose (pupila contraída), e dependência física com síndrome de abstinência na suspensão abrupta.",
+    "aviso_grave": "A metadona tem meia-vida muito longa e risco de acumulação — o efeito máximo pode ocorrer dias após o início ou ajuste de dose, aumentando o risco de superdosagem tardia e depressão respiratória fatal. Além disso, prolonga significativamente o intervalo QT, com risco de Torsades de Pointes, especialmente em doses altas ou com interações medicamentosas. Nunca ajuste a dose por conta própria. Em caso de sonolência excessiva ou respiração lenta, busque emergência imediatamente.",
+    "recomendacao": "Tomar metadona exatamente como prescrito, no horário definido pelo médico, com ou sem alimentos. Nunca alterar a dose por iniciativa própria — a longa meia-vida torna perigoso o auto-ajuste. Não ingerir bebidas alcoólicas durante o tratamento. Em caso de dor ou insatisfação com a dose, contatar o médico prescritor. Guardar o medicamento em local seguro, longe de crianças e de outras pessoas.",
+    "educacao": "A metadona é um medicamento poderoso que requer disciplina e acompanhamento médico rigoroso. Ao contrário de outros analgésicos, seus efeitos se acumulam nos primeiros dias — não aumente a dose achando que não está fazendo efeito. O risco de superdosagem é maior no início do tratamento e após ajustes. Nunca compartilhe este medicamento com ninguém — pode ser fatal para pessoas não habituadas a opioides.",
+    "resposta_rapida": [
+      "Opioide",
+      "Lista A3",
+      "QT prolongado",
+      "Meia-vida longa"
+    ],
+    "receita_obrigatoria": true,
+    "tipo_receita": "Receita de Controle Especial — Lista A3 (Notificação de Receita Amarela)",
+    "retencao_receita": true,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Por que a metadona é mais perigosa que outros opioides?",
+        "resposta": "A metadona tem meia-vida de eliminação muito longa e variável (24 a 150 horas dependendo do paciente). Isso significa que o medicamento se acumula no organismo durante os primeiros dias de uso — o paciente pode sentir efeitos crescentes mesmo tomando a mesma dose, e o risco de superdosagem (com depressão respiratória) é maior nas fases iniciais. Além disso, prolonga o intervalo QT no coração, aumentando o risco de arritmia grave. Essas características exigem titulação lenta e monitoramento cuidadoso."
+      },
+      {
+        "pergunta": "O que é o intervalo QT e por que a metadona afeta o coração?",
+        "resposta": "O intervalo QT é uma medida no eletrocardiograma que representa o tempo de recuperação elétrica do coração entre batimentos. A metadona bloqueia canais de potássio no coração, prolongando esse intervalo. Quando o QT fica muito longo, pode ocorrer uma arritmia grave chamada Torsades de Pointes — que pode causar desmaio e, se não tratada, degenerar para parada cardíaca. O risco é maior em doses altas, em pacientes com fatores predisponentes (hipocalemia, hipomagnesemia) e com o uso concomitante de outros medicamentos que também prolongam o QT."
+      },
+      {
+        "pergunta": "A metadona causa dependência?",
+        "resposta": "Sim. A metadona é um opioide e causa dependência física — isso significa que a suspensão abrupta provoca síndrome de abstinência, com sintomas como agitação intensa, dor muscular, insônia, ansiedade, suor frio, náuseas e diarreia. No contexto do tratamento de dependência de opioides, a metadona substitui drogas mais problemáticas (heroína, morfina) por uma substância com efeito mais estável e longo, permitindo reabilitação. A retirada da metadona, quando indicada, deve ser feita lentamente e com supervisão médica."
+      },
+      {
+        "pergunta": "Posso beber álcool enquanto uso metadona?",
+        "resposta": "Não. O álcool potencializa de forma perigosa os efeitos depressores do sistema nervoso central da metadona — aumenta a sedação, a depressão respiratória e o risco de superdosagem fatal. A combinação de metadona com álcool é responsável por grande parte das mortes relacionadas ao medicamento. Mesmo pequenas quantidades de álcool devem ser evitadas durante todo o tratamento com metadona."
+      }
+    ],
+    "descricao_seo": "Metadona: opioide Lista A3 para dor crônica e dependência de opioides. Saiba sobre o risco cardíaco de QT longo e acumulação por meia-vida longa.",
+    "alerta_farmaceutico": "Receita Amarela com retenção obrigatória — reter e registrar no SNGPC. Verificar se há outros medicamentos prolongadores do QT (risco de arritmia). Alertar sobre risco de acumulação nos primeiros dias — não aumentar dose por conta própria. Orientar sobre proibição absoluta de álcool. Verificar se o paciente tem suporte familiar/social adequado. Guardar longe de crianças.",
+    "quando_procurar_medico": "Ligue para emergência (SAMU 192) imediatamente se o paciente apresentar respiração muito lenta ou difícil, lábios ou unhas azulados, sonolência extrema com dificuldade para acordar, desmaio, ou batimentos cardíacos irregulares. Procure seu médico se sentir palpitações, tontura ao levantar, constipação intensa, ou qualquer sinal de superdosagem.",
+    "interacoes": "Metadona é substrato e inibidor de CYP2D6 e CYP3A4. Depressores do SNC (álcool, benzodiazepínicos, barbitúricos, antipsicóticos) potencializam a depressão respiratória — combinação perigosa. Medicamentos que prolongam o QT são contraindicados ou exigem cautela extrema (amiodarona, cloroquina, haloperidol, fluconazol, saquinavir). Rifampicina e carbamazepina reduzem os níveis de metadona precipitando abstinência. Antirretrovirais (especialmente nevirapina, efavirenz, lopinavir/r) podem reduzir os níveis de metadona."
+  },
+  {
+    "nome": "Ketoconazol 200mg / Creme 2% / Shampoo 2%",
+    "generico": "ketoconazol",
+    "tipo": "Antifúngico — Imidazólico",
+    "sinonimos": [
+      "Ketoconazol",
+      "Nizoral",
+      "Ketoconazol creme",
+      "Ketoconazol shampoo"
+    ],
+    "descricao": "O ketoconazol é um antifúngico imidazólico que age inibindo a síntese de ergosterol, componente essencial da membrana celular dos fungos, levando à morte do microrganismo. Existe em três formas: comprimido oral de 200mg, creme tópico 2% e shampoo 2%. As formas tópicas (creme e shampoo) são amplamente utilizadas e seguras para tratamento de infecções fúngicas superficiais de pele e couro cabeludo, como tinea versicolor, dermatofitoses e caspa grave (dermatite seborreica). O comprimido, no entanto, teve seu uso sistêmico drasticamente restrito pela ANVISA e agências regulatórias internacionais em razão do risco de hepatotoxicidade grave e insuficiência adrenal — sendo atualmente reservado apenas para uso hospitalar em situações específicas onde outros antifúngicos não podem ser usados.",
+    "receita": "Sim",
+    "receita_display": "🔴 Receita Obrigatória (comprimido)",
+    "receita_cor": "#dc3545",
+    "receita_descricao": "O comprimido de ketoconazol requer receita médica e tem uso sistêmico muito restrito pela ANVISA. As formas tópicas (creme e shampoo) são de venda livre.",
+    "receita_nota": "Comprimido de 200mg: uso hospitalar/especializado restrito — requer receita médica. Hepatotoxicidade grave pode ocorrer mesmo com poucos dias de uso sistêmico. Formas tópicas (creme 2% e shampoo 2%) são isentas de prescrição e amplamente disponíveis em farmácias.",
+    "efeitos": "Formas tópicas: irritação local, ressecamento, prurido ou ardência leves, raramente dermatite de contato. Comprimido oral (sistêmico): hepatotoxicidade grave (elevação de transaminases, hepatite fulminante — raro mas grave), náuseas, vômitos, dor abdominal, insuficiência adrenal (supressão do eixo HPA), ginecomastia, disfunção erétil, distúrbios menstruais e múltiplas interações medicamentosas graves por inibição potente do CYP3A4 e CYP2C9.",
+    "aviso_grave": "O uso sistêmico (comprimido) de ketoconazol foi restrito pela ANVISA por risco de hepatotoxicidade grave, incluindo casos de hepatite fulminante e óbito. Este risco ocorre mesmo com poucos dias de tratamento e pode aparecer sem aviso. O ketoconazol sistêmico também suprime a produção de cortisol pela glândula adrenal (insuficiência adrenal), podendo causar crise adrenal grave. Se você foi prescrito o comprimido, é uso hospitalar com indicação muito específica — relate imediatamente qualquer sinal de problema hepático.",
+    "recomendacao": "Shampoo: aplicar no cabelo e couro cabeludo úmidos, esfregar suavemente, deixar agir por 3 a 5 minutos e enxaguar bem. Usar 2 vezes por semana por 2 a 4 semanas para tratamento, depois 1 vez por semana para manutenção. Creme: aplicar fina camada na área afetada e ao redor, 1 a 2 vezes ao dia, por 2 a 6 semanas conforme orientação médica. Comprimido: apenas sob supervisão médica hospitalar, com monitorização de função hepática.",
+    "educacao": "O shampoo e o creme de ketoconazol são seguros e eficazes para uso externo nas condições indicadas. Não use o shampoo nos olhos — se ocorrer contato, enxaguar abundantemente com água. Para o shampoo anticaspa, a regularidade do uso é mais importante que a frequência exagerada. Se usar o comprimido (raro, sob prescrição médica), relate imediatamente qualquer cansaço excessivo, icterícia ou dor abdominal.",
+    "resposta_rapida": [
+      "Antifúngico",
+      "Uso tópico preferencial",
+      "Hepatotoxicidade sistêmica",
+      "Fortes interações"
+    ],
+    "receita_obrigatoria": true,
+    "tipo_receita": "Receita Médica Comum (comprimido — uso hospitalar restrito)",
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "O shampoo de ketoconazol trata só caspa ou tem outras indicações?",
+        "resposta": "O shampoo de ketoconazol 2% trata principalmente dermatite seborreica (caspa) e pitiríase versicolor (manchas claras ou escurecidas na pele, especialmente no tronco). Também pode ser usado para prevenir recorrências dessas condições em pessoas com tendência. O produto age combatendo o fungo Malassezia, que está envolvido em ambas as condições. Para dermatofitoses (tinea capitis — micose do couro cabeludo), é necessário tratamento oral além do tópico."
+      },
+      {
+        "pergunta": "Por que o comprimido de ketoconazol foi restrito?",
+        "resposta": "Em 2013, a FDA (EUA) e a EMA (Europa), seguidas pela ANVISA no Brasil, restringiram severamente o uso sistêmico do ketoconazol após análise de casos de hepatotoxicidade grave — incluindo hepatite fulminante e mortes. O risco de dano hepático grave supera os benefícios na maioria das indicações, especialmente porque existem antifúngicos mais seguros e eficazes disponíveis (fluconazol, itraconazol, voriconazol). O comprimido ficou restrito a pouquíssimas situações clínicas específicas onde não há alternativa."
+      },
+      {
+        "pergunta": "Posso usar o creme de ketoconazol no rosto?",
+        "resposta": "O creme de ketoconazol pode ser usado no rosto para tratar dermatite seborreica facial (na linha do nariz, ao redor da boca e sobrancelhas) e outras infecções fúngicas superficiais localizadas. Aplique em fina camada, evitando contato com os olhos e mucosas. Use pelo tempo recomendado (geralmente 2 a 4 semanas) — interromper cedo pode resultar em recidiva. Se não houver melhora em 4 semanas, consulte um dermatologista."
+      },
+      {
+        "pergunta": "O ketoconazol interfere com outros medicamentos?",
+        "resposta": "O comprimido de ketoconazol é um inibidor potentíssimo de CYP3A4 e CYP2C9, causando interações graves com inúmeros medicamentos — aumentando drasticamente os níveis de estatinas (risco de rabdomiólise), imunossupressores (ciclosporina, tacrolimo), anticoagulantes, antiarrítmicos e muitos outros. As formas tópicas (shampoo e creme) têm absorção sistêmica mínima e praticamente não causam interações medicamentosas relevantes."
+      }
+    ],
+    "descricao_seo": "Ketoconazol (Nizoral): antifúngico tópico seguro vs comprimido restrito pela ANVISA. Entenda os riscos de hepatotoxicidade e indicações corretas.",
+    "alerta_farmaceutico": "Se dispensar o comprimido, confirmar que é prescrição hospitalar/especializada com indicação muito específica. Alertar sobre risco de hepatotoxicidade grave — instruir o paciente a interromper e buscar médico imediatamente em caso de icterícia, fadiga intensa ou dor abdominal. Para formas tópicas, orientar sobre modo de uso correto e não uso em olhos/mucosas.",
+    "quando_procurar_medico": "Se usando o comprimido: procure médico imediatamente se sentir cansaço intenso e incomum, icterícia (amarelamento da pele ou olhos), urina escura, fezes claras, dor abdominal intensa, tontura extrema ou desmaio (possível crise adrenal). Para formas tópicas: consulte médico se a condição não melhorar em 4 semanas ou piorar.",
+    "interacoes": "Comprimido: inibidor potente de CYP3A4 e CYP2C9. Contraindicado com: sinvastatina, lovastatina, midazolam oral, triazolam, cisaprida, ergotamina. Aumenta significativamente os níveis de: ciclosporina, tacrolimo, varfarina, corticosteroides (aumenta risco de Cushing), anticoagulantes orais, sildenafila. Antiácidos, IBPs e bloqueadores H2 reduzem absorção do comprimido — espaçar por 2 horas. Formas tópicas: sem interações sistêmicas relevantes."
+  },
+  {
+    "nome": "Posaconazol 100mg - 40mg/mL suspensão",
+    "generico": "posaconazol",
+    "tipo": "Antifúngico — Triazólico de 2ª Geração",
+    "sinonimos": [
+      "Posaconazol",
+      "Noxafil",
+      "Posanol"
+    ],
+    "descricao": "O posaconazol é um antifúngico triazólico de segunda geração com o mais amplo espectro de ação entre os azólicos disponíveis, sendo particularmente valioso na profilaxia de infecções fúngicas invasivas em pacientes gravemente imunodeprimidos — como receptores de transplante de células-tronco hematopoéticas (TCTH) com doença do enxerto contra o hospedeiro (DECH) e pacientes com leucemia mieloide aguda em indução de quimioterapia. Age inibindo a síntese de ergosterol da membrana fúngica. Está disponível em três formulações: suspensão oral (40mg/mL), comprimido de liberação retardada (100mg) e solução intravenosa. A biodisponibilidade da suspensão oral é altamente dependente de alimentos — refeição gordurosa ou suplemento nutricional é obrigatório para garantir absorção adequada. Os comprimidos de liberação retardada têm biodisponibilidade mais estável e previsível.",
+    "receita": "Sim",
+    "receita_display": "🔴 Receita Obrigatória",
+    "receita_cor": "#dc3545",
+    "receita_descricao": "O posaconazol é um antifúngico especializado para pacientes imunodeprimidos, exigindo prescrição médica para seu uso em profilaxia ou tratamento de micoses invasivas.",
+    "receita_nota": "Receita Médica Comum. Uso principalmente em contexto hospitalar ou ambulatorial especializado em Hematologia, Oncologia e Infectologia. Monitorização de função hepática e ECG recomendados durante o tratamento.",
+    "efeitos": "Náuseas, vômitos, diarreia, dor abdominal (mais comuns com a suspensão), cefaleia, febre, fadiga, elevação de transaminases hepáticas, prolongamento do intervalo QT, hipocalemia (queda de potássio — importante pois agrava o risco de QT longo), rash cutâneo e, raramente, hepatotoxicidade grave.",
+    "aviso_grave": "O posaconazol prolonga o intervalo QT e é contraindicado com outros medicamentos que também prolongam o QT (quinidina, pimozida, astemizol). Além disso, é forte inibidor de CYP3A4, causando aumento significativo nos níveis de imunossupressores como ciclosporina e tacrolimo — é obrigatório reduzir a dose desses medicamentos ao iniciar o posaconazol e monitorar os níveis séricos com frequência. A hipocalemia deve ser corrigida antes do início do tratamento.",
+    "recomendacao": "Suspensão oral: tomar obrigatoriamente com refeição gordurosa ou com suplemento nutricional líquido (como Ensure, Fortini) — a absorção pode dobrar em comparação ao jejum. Dose de 200mg 3 vezes ao dia ou 400mg 2 vezes ao dia conforme prescrito. Comprimido de liberação retardada (100mg): tomar com alimentos (qualquer refeição), uma vez ao dia; não partir, esmagar ou mastigar. Solução IV: administrar em infusão lenta — não misturar com soro fisiológico 4,2%.",
+    "educacao": "O posaconazol funciona como um escudo protetor para você durante o período de maior vulnerabilidade do seu sistema imune. Para que ele funcione bem na suspensão, a refeição gordurosa é parte do tratamento — não é opcional. Se você tiver enjoo e dificuldade de comer, use suplementos nutricionais líquidos junto com o medicamento. Informe seu médico sobre todos os outros medicamentos que usa, pois o posaconazol pode aumentar os níveis de muitas drogas importantes.",
+    "resposta_rapida": [
+      "Antifúngico",
+      "Profilaxia fúngica",
+      "Tomar com alimentos",
+      "Fortes interações"
+    ],
+    "receita_obrigatoria": true,
+    "tipo_receita": "Receita Médica Comum",
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Por que a suspensão de posaconazol precisa ser tomada com alimento gorduroso?",
+        "resposta": "A absorção da suspensão oral de posaconazol é altamente dependente de lipídios (gorduras) no trato gastrointestinal. Refeições ricas em gordura aumentam a solubilização e a absorção do medicamento em 3 a 4 vezes em comparação ao jejum. Se o paciente não conseguir fazer uma refeição gordurosa, suplementos nutricionais líquidos com teor calórico e lipídico adequado (como Ensure Plus ou similar) podem substituir a refeição. Tomar em jejum resulta em níveis plasmáticos insuficientes para proteger contra infecções fúngicas graves."
+      },
+      {
+        "pergunta": "Qual é a diferença entre a suspensão e o comprimido de posaconazol?",
+        "resposta": "A suspensão oral (40mg/mL) tem absorção muito dependente de alimentos gordurosos e requer 3 doses por dia, com maior variabilidade nos níveis plasmáticos. O comprimido de liberação retardada (100mg — Noxafil comprimido) tem biodisponibilidade superior e mais estável, é menos dependente do tipo de refeição e pode ser tomado apenas uma vez ao dia — facilitando a adesão e garantindo níveis mais previsíveis. Para pacientes que podem engolir comprimidos, a formulação de liberação retardada é geralmente preferida."
+      },
+      {
+        "pergunta": "Preciso ajustar os meus imunossupressores ao iniciar posaconazol?",
+        "resposta": "Sim, isso é fundamental. O posaconazol é forte inibidor de CYP3A4, a enzima que metaboliza ciclosporina, tacrolimo e sirolimo. Ao iniciar posaconazol, os níveis desses imunossupressores podem aumentar de 2 a 4 vezes, causando toxicidade grave — especialmente nefrotoxicidade. O médico deverá reduzir preventivamente as doses dos imunossupressores antes de iniciar posaconazol e monitorar os níveis séricos com muito mais frequência durante o período de ajuste."
+      },
+      {
+        "pergunta": "O posaconazol é usado para tratar ou prevenir infecções fúngicas?",
+        "resposta": "O posaconazol tem aprovação tanto para profilaxia (prevenção) quanto para tratamento de micoses invasivas. Sua principal indicação é a profilaxia em pacientes de alto risco: receptores de TCTH com DECH grave em uso de corticosteroides, e pacientes com leucemia durante quimioterapia de indução. Para tratamento, é indicado em aspergilose, candidíase orofaríngea refratária, e infecções fúngicas raras como mucormicose (em combinação ou como alternativa). A escolha entre profilaxia e tratamento define a dose e o esquema posológico."
+      }
+    ],
+    "descricao_seo": "Posaconazol (Noxafil): antifúngico para profilaxia em imunodeprimidos. Saiba por que a refeição gordurosa é obrigatória com a suspensão.",
+    "alerta_farmaceutico": "Identificar a formulação (suspensão vs comprimido) — posologias diferentes. Reforçar obrigatoriedade de refeição gordurosa com a suspensão. Verificar se o paciente usa imunossupressores (ciclosporina, tacrolimo, sirolimo) — redução de dose obrigatória ao iniciar posaconazol. Monitorar QT e corrigir hipocalemia. Verificar interações com outros medicamentos que prolongam o QT.",
+    "quando_procurar_medico": "Procure atendimento médico imediatamente se apresentar: palpitações ou batimentos irregulares, tontura intensa ou desmaio, icterícia, dor abdominal intensa, febre alta (pode indicar falha terapêutica com infecção fúngica ativa), ou qualquer sinal de toxicidade dos imunossupressores (diminuição da urina, inchaço, pressão alta).",
+    "interacoes": "Forte inibidor de CYP3A4. Contraindicado com: quinidina, pimozida, astemizol (risco de arritmia grave); sirolimo (nível aumenta mais de 9 vezes — contraindicado). Aumenta significativamente: ciclosporina (reduzir 25% da dose), tacrolimo (reduzir 2/3 da dose), ergotamina, midazolam, estatinas, vinca-alcaloides. Rifampicina, cimetidina e antiácidos com magnésio/alumínio reduzem a absorção do posaconazol. Fenitoína reduz os níveis de posaconazol."
   }
 ]
