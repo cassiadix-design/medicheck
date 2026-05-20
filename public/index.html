@@ -1194,6 +1194,7 @@ border-radius:0 0 20px 20px;
                 const mcCacheIA = {};
 
                 const mcAlias = {
+                    'varfarina':'warfarina','varfarin':'warfarina','coumadin':'warfarina','marevan':'warfarina',
                     'aurorix':'moclobemida','moclox':'moclobemida',
                     'nardil':'fenelzina',
                     'flufenan':'flufenazina','moditen':'flufenazina','prolixin':'flufenazina',
@@ -1397,6 +1398,19 @@ border-radius:0 0 20px 20px;
                     }
 
                     btn.disabled = false;
+
+                    // Botão Limpar após exibir resultados
+                    const btnLimpar = document.createElement('button');
+                    btnLimpar.textContent = '🗑️ Limpar campos';
+                    btnLimpar.style.cssText = 'margin-top:12px;padding:8px 18px;border:none;border-radius:8px;background:#f0f0f0;color:#555;font-size:13px;cursor:pointer;display:block;';
+                    btnLimpar.onclick = () => {
+                        ['mc-inter1','mc-inter2','mc-inter3','mc-inter4','mc-inter5'].forEach(id => {
+                            const el = document.getElementById(id);
+                            if (el) el.value = '';
+                        });
+                        container.innerHTML = '';
+                    };
+                    container.appendChild(btnLimpar);
                 }
 
                 async function mcVerificarPar(m1, m2, card) {
