@@ -30,11 +30,13 @@ jobs:
           API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
           cp CNAME public/CNAME
+          cp sw.js public/sw.js
           node -e "
             const fs = require('fs');
             let html = fs.readFileSync('public/index.html', 'utf8');
             const data = fs.readFileSync('public/mc-interacoes-data-v3.js', 'utf8');
             const apiKey = process.env.API_KEY || '';
+            const sha = process.env.GITHUB_SHA ? process.env.GITHUB_SHA.slice(0,7) : Date.now().toString();
             // Injeta dados inline
             html = html.replace(
               '<script src=\"/mc-interacoes-data-v3.js\"></script>',
@@ -46,7 +48,11 @@ jobs:
               () => '<script>window.ANTHROPIC_API_KEY = ' + JSON.stringify(apiKey) + ';</script>'
             );
             fs.writeFileSync('public/index.html', html);
-            console.log('Injeção concluída. API key presente:', apiKey.length > 0);
+            // Bumpa versão do cache no service worker a cada deploy
+            let sw = fs.readFileSync('public/sw.js', 'utf8');
+            sw = sw.replace(/medicheck-v\d+/g, 'medicheck-' + sha);
+            fs.writeFileSync('public/sw.js', sw);
+            console.log('Injeção concluída. API key presente:', apiKey.length > 0, '| Cache version: medicheck-' + sha);
           "
 
       - name: Upload artifact para GitHub Pages
