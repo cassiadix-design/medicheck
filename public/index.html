@@ -1399,18 +1399,23 @@ border-radius:0 0 20px 20px;
 
                     btn.disabled = false;
 
-                    // Botão Limpar após exibir resultados
-                    const btnLimpar = document.createElement('button');
-                    btnLimpar.textContent = '🗑️ Limpar campos';
-                    btnLimpar.style.cssText = 'margin-top:12px;padding:8px 18px;border:none;border-radius:8px;background:#f0f0f0;color:#555;font-size:13px;cursor:pointer;display:block;';
-                    btnLimpar.onclick = () => {
+                    // Banner + botão Nova Consulta no topo dos resultados
+                    const mcLimparTudo = () => {
                         ['mc-inter1','mc-inter2','mc-inter3','mc-inter4','mc-inter5'].forEach(id => {
                             const el = document.getElementById(id);
                             if (el) el.value = '';
                         });
                         container.innerHTML = '';
                     };
-                    container.appendChild(btnLimpar);
+                    const banner = document.createElement('div');
+                    banner.style.cssText = 'display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px;background:#f8fdf8;border:1px solid #c8e6c9;border-radius:10px;padding:10px 14px;margin-bottom:14px;font-size:13px;color:#2e7d32;';
+                    banner.innerHTML = '<span>✅ Verificação concluída — clique em <strong>Nova Consulta</strong> para testar outros medicamentos</span>';
+                    const btnNova = document.createElement('button');
+                    btnNova.textContent = '🔄 Nova Consulta';
+                    btnNova.style.cssText = 'padding:7px 16px;border:1.5px solid #aaa;border-radius:8px;background:#fff;color:#444;font-size:13px;font-weight:600;cursor:pointer;white-space:nowrap;';
+                    btnNova.onclick = mcLimparTudo;
+                    banner.appendChild(btnNova);
+                    container.insertBefore(banner, container.firstChild);
                 }
 
                 async function mcVerificarPar(m1, m2, card) {
