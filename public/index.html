@@ -1345,6 +1345,9 @@ border-radius:0 0 20px 20px;
                 }
 
                 async function mcVerificar() {
+                    console.log('[MediCheck] mcInteracoesDB:', Array.isArray(mcInteracoesDB) ? 'OK (' + mcInteracoesDB.length + ' entradas)' : 'UNDEFINED');
+                    console.log('[MediCheck] mcClassesDuplicacao:', Array.isArray(mcClassesDuplicacao) ? 'OK (' + mcClassesDuplicacao.length + ' entradas)' : 'UNDEFINED');
+                    console.log('[MediCheck] window.ANTHROPIC_API_KEY:', window.ANTHROPIC_API_KEY ? 'definida (começa com ' + String(window.ANTHROPIC_API_KEY).slice(0,10) + '...)' : 'UNDEFINED ou vazia');
                     const ids = ['mc-inter1','mc-inter2','mc-inter3','mc-inter4','mc-inter5'];
                     const meds = ids.map(id => {
                         const el = document.getElementById(id);
@@ -1480,6 +1483,7 @@ border-radius:0 0 20px 20px;
                         // Só cacheia respostas bem-sucedidas da IA
                         mcCacheIA[cacheKey] = { nivel: cor, titulo: tituloFinal, html: html };
                     } catch(e) {
+                        console.error('[MediCheck] Erro na chamada à API para ' + m1 + ' + ' + m2 + ':', e.message, e);
                         nivelEl.className = 'mc-nivel-ia neutro';
                         nivelEl.innerHTML = pairLabel + '<span>⚠️ Análise por IA temporariamente indisponível</span>';
                         corpoEl.innerHTML = '<p>No momento a análise por IA está temporariamente indisponível. Use a aba <strong>Interações Conhecidas</strong> para consultar nossa base com 821 combinações cadastradas.</p>';
