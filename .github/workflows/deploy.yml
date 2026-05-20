@@ -25,7 +25,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - - name: Gerar config.js com API key
+      - name: Gerar config.js com API key
           env:
             API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           run: |
