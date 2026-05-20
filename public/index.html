@@ -1271,6 +1271,7 @@ border-radius:0 0 20px 20px;
                         const em2 = cls.medicamentos.some(m => m2.includes(m) || m.includes(m2));
                         if (em1 && em2) return cls;
                     }
+                    if (!Array.isArray(mcIECAnomes) || !Array.isArray(mcBRAnomes)) return null;
                     const isIECA1 = mcIECAnomes.some(m => m1.includes(m) || m.includes(m1));
                     const isBRA2  = mcBRAnomes.some(m => m2.includes(m) || m.includes(m2));
                     const isBRA1  = mcBRAnomes.some(m => m1.includes(m) || m.includes(m1));
