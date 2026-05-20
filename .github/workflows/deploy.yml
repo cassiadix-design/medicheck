@@ -30,6 +30,7 @@ jobs:
           API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
           echo "window.ANTHROPIC_API_KEY = '${API_KEY}';" > public/config.js
+          cp CNAME public/CNAME
 
       - name: Upload artifact para GitHub Pages
         uses: actions/upload-pages-artifact@v3
