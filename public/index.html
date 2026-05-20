@@ -1468,9 +1468,18 @@ border-radius:0 0 20px 20px;
                         }
 
                         const data = await res.json();
-                        const texto = (data.content && data.content[0] && data.content[0].text) ? data.content[0].text : '{}';
+                        const textoRaw = (data.content && data.content[0] && data.content[0].text) ? data.content[0].text : '{}';
+                        // Remove markdown de código (```json ... ``` ou ``` ... ```)
+                        const texto = textoRaw.replace(/^```(?:json)?\s*/i, '').replace(/\s*```\s*$/, '').trim();
                         let parsed;
-                        try { parsed = JSON.parse(texto); } catch(e) { parsed = { nivel: 'nenhum', titulo: 'Erro ao processar resposta', efeito: texto, conduta: 'Consulte seu farmacêutico.', mecanismo: '' }; }
+                        try {
+                            parsed = JSON.parse(texto);
+                        } catch(e) {
+                            // Tenta extrair JSON embutido no texto
+                            const match = texto.match(/\{[\s\S]*\}/);
+                            try { parsed = match ? JSON.parse(match[0]) : null; } catch(e2) { parsed = null; }
+                            if (!parsed) parsed = { nivel: 'nenhum', titulo: 'Sem dados', efeito: 'Não foi possível analisar a resposta da IA.', conduta: 'Consulte seu farmacêutico.', mecanismo: '' };
+                        }
 
                         const cores = { alto: 'alto', moderado: 'moderado', baixo: 'baixo', nenhum: 'baixo' };
                         const icones = { alto: '🔴 RISCO ALTO', moderado: '🟡 RISCO MODERADO', baixo: '🟢 RISCO BAIXO', nenhum: '🟢 Sem interação relevante encontrada' };
