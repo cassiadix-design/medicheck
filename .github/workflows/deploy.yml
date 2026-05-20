@@ -25,13 +25,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Gerar config.js com API key
-        env:
-          API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: |
-          echo "window.ANTHROPIC_API_KEY = '${API_KEY}';" > config.jsGerar config.js com API key
-        run: |
-          echo "const ANTHROPIC_API_KEY = '${{ secrets.ANTHROPIC_API_KEY }}';" > config.js
+      - - name: Gerar config.js com API key
+          env:
+            API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          run: |
+            echo "window.ANTHROPIC_API_KEY = '${API_KEY}';" > config.js
 
       - name: Upload artifact para GitHub Pages
         uses: actions/upload-pages-artifact@v3
