@@ -1267,6 +1267,7 @@ border-radius:0 0 20px 20px;
                 function mcDetectarDuplicacao(m1, m2) {
                     if (!Array.isArray(mcClassesDuplicacao)) return null;
                     for (const cls of mcClassesDuplicacao) {
+                        if (!Array.isArray(cls.medicamentos)) continue;
                         const em1 = cls.medicamentos.some(m => m1.includes(m) || m.includes(m1));
                         const em2 = cls.medicamentos.some(m => m2.includes(m) || m.includes(m2));
                         if (em1 && em2) return cls;
