@@ -1,11 +1,18 @@
 /*
   X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
 
 /index.html
-  Cache-Control: no-store
+  Cache-Control: no-cache, no-store, must-revalidate
+  Pragma: no-cache
+  Expires: 0
 
-/mc-interacoes-data.js
-  Cache-Control: public, max-age=3600, must-revalidate
+/*.js
+  Cache-Control: no-cache, no-store, must-revalidate
+  Pragma: no-cache
+  Expires: 0
 
-/mc-interacoes-data-v3.js
-  Cache-Control: public, max-age=3600, must-revalidate
+/sw.js
+  Cache-Control: no-cache, no-store, must-revalidate
+  Pragma: no-cache
+  Expires: 0
