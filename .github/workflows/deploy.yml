@@ -25,12 +25,23 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Gerar config.js com API key
+      - name: Preparar arquivos para deploy
         env:
           API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
           echo "window.ANTHROPIC_API_KEY = '${API_KEY}';" > public/config.js
           cp CNAME public/CNAME
+          node -e "
+            const fs = require('fs');
+            const html = fs.readFileSync('public/index.html', 'utf8');
+            const data = fs.readFileSync('public/mc-interacoes-data-v3.js', 'utf8');
+            const result = html.replace(
+              '<script src=\"/mc-interacoes-data-v3.js\"></script>',
+              '<script>' + data + '</script>'
+            );
+            fs.writeFileSync('public/index.html', result);
+            console.log('Injetado mc-interacoes-data-v3.js inline no index.html');
+          "
 
       - name: Upload artifact para GitHub Pages
         uses: actions/upload-pages-artifact@v3
