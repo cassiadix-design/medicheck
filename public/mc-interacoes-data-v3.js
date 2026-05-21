@@ -1279,5 +1279,79 @@ mcInteracoesDB = mcInteracoesDB.concat([
   }
 ]);
 
+
+mcInteracoesDB = mcInteracoesDB.concat([
+  {
+    "med1": [
+      "ácido mefenâmico",
+      "acido mefenanico",
+      "ponstan",
+      "ponstil"
+    ],
+    "med2": [
+      "varfarina",
+      "warfarina",
+      "acenocumarol",
+      "rivaroxabana",
+      "apixabana",
+      "dabigatrana",
+      "edoxabana"
+    ],
+    "nivel": "alto",
+    "titulo": "Ácido Mefenâmico + Anticoagulante (Risco Elevado de Sangramento)",
+    "mecanismo": "AINEs inibem a agregação plaquetária via COX-1 (reduzindo tromboxano A2) e lesam a mucosa gástrica, aumentando o risco de hemorragia em pacientes anticoagulados. O ácido mefenâmico também pode deslocar a varfarina de proteínas plasmáticas, elevando a fração livre e o efeito anticoagulante.",
+    "efeito": "Risco elevado de hemorragia gastrointestinal grave, sangramento em mucosas e, em casos extremos, hemorragia intracraniana.",
+    "conduta": "❌ Evitar combinação. Para analgesia em pacientes anticoagulados, preferir paracetamol. Se o AINE for indispensável, monitorar INR com frequência e associar protetor gástrico (IBP). Orientar o paciente a relatar qualquer sinal de sangramento."
+  },
+  {
+    "med1": [
+      "ácido mefenâmico",
+      "acido mefenanico",
+      "ponstan",
+      "ponstil"
+    ],
+    "med2": [
+      "lítio",
+      "carbonato de lítio"
+    ],
+    "nivel": "moderado",
+    "titulo": "Ácido Mefenâmico + Lítio (Elevação do Nível Sérico)",
+    "mecanismo": "AINEs inibem a síntese de prostaglandinas renais (especialmente PGE2), que regulam a excreção de sódio e lítio. Com a redução das prostaglandinas, a reabsorção renal de lítio aumenta, elevando os níveis séricos até 25–50% acima do basal.",
+    "efeito": "Elevação do nível sérico de lítio com risco de toxicidade: tremores finos progredindo para grosseiros, confusão mental, ataxia, vômitos, arritmias e convulsões em casos graves.",
+    "conduta": "⚠️ Monitorar litemia ao iniciar, alterar dose ou suspender o AINE. Alertar o paciente sobre sintomas de toxicidade pelo lítio. Paracetamol é alternativa mais segura para analgesia. Se necessário usar AINE, ajustar dose de lítio com acompanhamento psiquiátrico."
+  },
+  {
+    "med1": [
+      "ácido mefenâmico",
+      "acido mefenanico",
+      "ponstan",
+      "ponstil"
+    ],
+    "med2": [
+      "enalapril",
+      "captopril",
+      "lisinopril",
+      "ramipril",
+      "losartana",
+      "valsartana",
+      "irbesartana",
+      "olmesartana",
+      "amlodipino",
+      "anlodipino",
+      "hidroclorotiazida",
+      "furosemida",
+      "espironolactona",
+      "atenolol",
+      "propranolol",
+      "metoprolol"
+    ],
+    "nivel": "moderado",
+    "titulo": "Ácido Mefenâmico + Anti-hipertensivo (Redução do Efeito e Risco Renal)",
+    "mecanismo": "AINEs inibem prostaglandinas vasodilatadoras renais (PGE2, PGI2), antagonizando o efeito dos IECA, BRA e diuréticos. Essa interação também reduz o fluxo sanguíneo renal, com risco de lesão renal aguda — especialmente na tríade IECA/BRA + AINE + diurético (síndrome dos três pilares).",
+    "efeito": "Redução do efeito anti-hipertensivo com elevação da pressão arterial. Em pacientes de risco (idosos, insuficiência cardíaca, desidratados), pode precipitar lesão renal aguda.",
+    "conduta": "⚠️ Monitorar pressão arterial ao iniciar ou suspender o AINE. Usar a menor dose pelo menor tempo possível. Evitar a combinação IECA/BRA + AINE + diurético (risco renal). Preferir paracetamol para controle da dor em hipertensos."
+  }
+]);
+
 var mcIECAnomes = ["captopril","enalapril","lisinopril","ramipril","perindopril"];
 var mcBRAnomes  = ["losartana","valsartana","olmesartana","irbesartana","candesartana","telmisartana"];
