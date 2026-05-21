@@ -1214,5 +1214,70 @@ mcInteracoesDB = mcInteracoesDB.concat([
   }
 ]);
 
+
+mcInteracoesDB = mcInteracoesDB.concat([
+  {
+    "med1": [
+      "teofilina",
+      "aminofilina"
+    ],
+    "med2": [
+      "tabaco",
+      "cigarro",
+      "fumo",
+      "tabagismo"
+    ],
+    "nivel": "grave",
+    "titulo": "Teofilina + Tabaco / Tabagismo (Indução CYP1A2 — Níveis Séricos Reduzidos em 40–70%)",
+    "mecanismo": "Os hidrocarbonetos policíclicos aromáticos da fumaça do cigarro são indutores potentes da CYP1A2, principal enzima que metaboliza a teofilina. Fumantes crônicos têm clearance de teofilina 40–70% maior que não-fumantes — precisando de doses significativamente maiores para atingir o mesmo nível sérico. Ao parar de fumar, a indução da CYP1A2 reverte em 1–4 semanas e os níveis de teofilina sobem progressivamente com a mesma dose.",
+    "efeito": "Em fumantes: níveis subterapêuticos de teofilina → falha no controle do broncoespasmo ou da apneia. Ao cessar o tabagismo: elevação progressiva dos níveis séricos → toxicidade (náusea, vômito, taquicardia, arritmias, convulsões), mesmo com doses previamente bem toleradas.",
+    "conduta": "🚨 Perguntar sobre tabagismo ao iniciar teofilina — fumantes podem precisar de doses 40–70% maiores. AO PARAR DE FUMAR: reduzir dose de teofilina em 25–30% após 1 semana; monitorar nível sérico semanalmente por 4 semanas (alvo: 5–15 mg/L). Toxicidade exige dosagem urgente e ajuste imediato."
+  },
+  {
+    "med1": [
+      "anticoncepcional oral",
+      "estroprogestativo",
+      "pílula anticoncepcional",
+      "contraceptivo oral combinado",
+      "desogestrel",
+      "levonorgestrel",
+      "gestodeno",
+      "drospirenona",
+      "noretisterona",
+      "etinilestradiol combinado"
+    ],
+    "med2": [
+      "tabaco",
+      "cigarro",
+      "fumo",
+      "tabagismo"
+    ],
+    "nivel": "moderado",
+    "titulo": "Anticoncepcional Oral Combinado + Tabaco (Risco Tromboembólico e Cardiovascular Elevado)",
+    "mecanismo": "O etinilestradiol dos anticoncepcionais combinados promove estado de hipercoagulabilidade ao aumentar fatores pró-coagulantes (fatores II, VII, X) e reduzir anticoagulantes naturais. O tabaco amplifica esse risco por mecanismos independentes: ativação plaquetária, vasoconstrição, disfunção endotelial e aumento de fibrinogênio. A combinação é sinérgica para eventos tromboembólicos — risco 10× maior de AVC isquêmico em fumantes pesadas com ACO versus não-fumantes sem ACO.",
+    "efeito": "Risco elevado de trombose venosa profunda, embolia pulmonar, AVC isquêmico e infarto agudo do miocárdico. Risco cresce com a idade (>35 anos) e número de cigarros (>15/dia). Em fumantes acima de 35 anos, a combinação é contraindicação absoluta pela maioria dos guidelines.",
+    "conduta": "❌ Contraindicação absoluta em mulheres fumantes com >35 anos. Em jovens fumantes: orientar fortemente a cessar o tabagismo; se não cessar, preferir anticoncepcional não-estrogênico (apenas progestogênio: desogestrel isolado, DIU hormonal, implante). Nunca minimizar o risco — comunicar claramente ao dispensar."
+  },
+  {
+    "med1": [
+      "warfarina",
+      "varfarina",
+      "acenocumarol",
+      "sintrom"
+    ],
+    "med2": [
+      "tabaco",
+      "cigarro",
+      "fumo",
+      "tabagismo"
+    ],
+    "nivel": "moderado",
+    "titulo": "Warfarina + Tabaco (Indução CYP1A2/CYP2C9 — Alteração do INR ao Iniciar ou Cessar)",
+    "mecanismo": "Os hidrocarbonetos policíclicos da fumaça de cigarro induzem CYP1A2 e, em menor grau, CYP2C9 (principal enzima que metaboliza a S-warfarina, isômero mais ativo). A indução aumenta o clearance da warfarina, reduzindo seu efeito anticoagulante — fumantes costumam precisar de doses maiores para atingir o INR alvo. Ao cessar o tabagismo, a indução reverte em 1–4 semanas e o INR pode subir inesperadamente com a mesma dose.",
+    "efeito": "Fumantes ativos: INR subterapêutico com doses habituais → necessidade de doses maiores. Ao parar de fumar: INR sobe progressivamente → risco de sobreanticoagulação e sangramento.",
+    "conduta": "⚠️ Monitorar INR com frequência ao iniciar ou cessar o tabagismo. AO PARAR DE FUMAR: monitorar INR semanalmente por 4–6 semanas; considerar redução preventiva de 10–25% da dose se INR subir acima do alvo. Orientar o paciente sobre esta interação ao encorajar cessação tabágica."
+  }
+]);
+
 var mcIECAnomes = ["captopril","enalapril","lisinopril","ramipril","perindopril"];
 var mcBRAnomes  = ["losartana","valsartana","olmesartana","irbesartana","candesartana","telmisartana"];
