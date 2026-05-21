@@ -7,7 +7,9 @@
     "build": "astro build",
     "preview": "astro preview",
     "sync": "node sync-faqs.cjs",
-    "gerar-faqs": "node gerar-faqs.cjs"
+    "gerar-faqs": "node gerar-faqs.cjs",
+    "sync:meds": "node -e \"const fs=require('fs');fs.copyFileSync('medicamentos.json','public/medicamentos.json');console.log('\\u2713 public/medicamentos.json atualizado');\"",
+    "prepare": "git config core.hooksPath .githooks || true"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.95.2",

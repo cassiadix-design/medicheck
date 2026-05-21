@@ -1,0 +1,8 @@
+#!/bin/sh
+# Sincroniza medicamentos.json → public/medicamentos.json antes de cada commit.
+# Só executa se medicamentos.json estiver no stage (evita cópia desnecessária).
+if git diff --cached --name-only | grep -q "^medicamentos\.json$"; then
+  cp medicamentos.json public/medicamentos.json
+  git add public/medicamentos.json
+  echo "✓ pre-commit: public/medicamentos.json sincronizado"
+fi
