@@ -1186,5 +1186,33 @@ mcInteracoesDB = mcInteracoesDB.concat([
   }
 ]);
 
+
+mcInteracoesDB = mcInteracoesDB.concat([
+  {
+    "med1": [
+      "acetilcisteína",
+      "n-acetilcisteína",
+      "nac",
+      "fluimucil"
+    ],
+    "med2": [
+      "amoxicilina",
+      "cefalexina",
+      "cefuroxima",
+      "ampicilina",
+      "eritromicina",
+      "tetraciclina",
+      "doxiciclina",
+      "ciprofloxacino",
+      "norfloxacino"
+    ],
+    "nivel": "moderado",
+    "titulo": "Acetilcisteína (NAC) + Antibióticos Orais (Separar Administração em 2 Horas)",
+    "mecanismo": "A acetilcisteína possui grupos sulfidrila reativos que podem quelar íons metálicos e formar complexos com alguns antibióticos, reduzindo sua absorção oral. O impacto é mais relevante com aminopenicilinas (amoxicilina, ampicilina), cefalosporinas e tetraciclinas. Além disso, o ambiente ácido criado pela NAC pode afetar a estabilidade de alguns antibióticos no trato GI.",
+    "efeito": "Redução potencial da biodisponibilidade do antibiótico oral — menor concentração sérica e menor eficácia terapêutica. O impacto clínico varia por antibiótico e forma de administração.",
+    "conduta": "⚠️ Separar a administração de acetilcisteína e antibióticos orais por pelo menos 2 horas. Preferir tomar o antibiótico primeiro; aguardar 2h antes de tomar a NAC. Esta separação não é necessária para antibióticos injetáveis (IV/IM). Não suspender nenhum dos dois sem orientação médica."
+  }
+]);
+
 var mcIECAnomes = ["captopril","enalapril","lisinopril","ramipril","perindopril"];
 var mcBRAnomes  = ["losartana","valsartana","olmesartana","irbesartana","candesartana","telmisartana"];

@@ -63130,5 +63130,96 @@
         "conduta": "⚠️ Usar apenas um AINE por vez. Para dor mais intensa, associar paracetamol é mais seguro."
       }
     ]
+  },
+  {
+    "nome": "Acebrofilina (Acebrox) — Xantina + Mucolítico",
+    "generico": "Acebrofilina",
+    "tipo": "Broncodilatador Xantínico + Mucolítico",
+    "descricao": "Acebrofilina é um derivado da xantina (estrutura relacionada à teofilina) com dupla ação: broncodilatadora (relaxamento do músculo liso brônquico por inibição da fosfodiesterase) e mucolítica/expectorante (fluidifica o muco brônquico facilitando a eliminação). Indicada no tratamento sintomático de bronquite crônica, DPOC e condições respiratórias com hipersecreção brônquica.",
+    "receita": "Sim",
+    "receita_nota": "Prescrição médica obrigatória.",
+    "efeitos": "Náusea, vômito, dor abdominal, diarreia, palpitações, taquicardia, cefaleia, insônia, tremores leves (efeitos xantínicos). Em doses elevadas: arritmias, convulsões.",
+    "aviso_grave": "Por conter estrutura xantínica semelhante à teofilina, tem janela terapêutica estreita. Risco de toxicidade com superdosagem: arritmias graves, convulsões e hipotensão. Macrolídeos e fluoroquinolonas podem elevar seus níveis. Evitar em pacientes com arritmias não controladas.",
+    "recomendacao": "⚠️ Informar médico sobre todos os medicamentos em uso — especialmente antibióticos e antiepilépticos. Não aumentar a dose por conta própria. Tomar com alimento para reduzir irritação gástrica.",
+    "educacao": "Tomar sempre com alimento para reduzir o desconforto gástrico. Evitar cafeína em excesso durante o tratamento (soma-se ao efeito estimulante). Não suspender abruptamente sem orientação médica.",
+    "resposta_rapida": [
+      "Broncodilatador + mucolítico para bronquite e DPOC",
+      "Tomar com alimento para reduzir náusea",
+      "Evitar excesso de cafeína",
+      "Informar médico se usar antibiótico junto"
+    ],
+    "sinonimos": [
+      "acebrox",
+      "acebrofiline",
+      "acebrofilina xantina"
+    ],
+    "classe_receita": "TARJADO_PRATICA",
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos, conforme legislação vigente.",
+    "receita_cor": "vermelho",
+    "receita_obrigatoria": true,
+    "tipo_receita": "simples",
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Para que serve a acebrofilina?",
+        "resposta": "Acebrofilina é usada para aliviar sintomas respiratórios de bronquite crônica e DPOC: tosse com catarro difícil de eliminar e falta de ar. Age de duas formas: dilata os brônquios (broncodilatador) e fluidifica o muco (mucolítico), facilitando a expectoração."
+      },
+      {
+        "pergunta": "Acebrofilina pode causar palpitações?",
+        "resposta": "Sim. Por ser um derivado xantínico (mesma família da teofilina), pode causar palpitações, taquicardia e tremores — especialmente em doses altas ou em pessoas sensíveis a estimulantes. Informe seu médico se sentir coração acelerado ou irregular."
+      },
+      {
+        "pergunta": "Posso tomar acebrofilina com café ou chá?",
+        "resposta": "Com moderação. Café, chá e guaraná contêm cafeína — também uma xantina — e podem somar-se ao efeito estimulante da acebrofilina, aumentando o risco de palpitações, insônia e tremores. Prefira limitar o consumo durante o tratamento."
+      },
+      {
+        "pergunta": "Acebrofilina pode ser tomada com antibiótico?",
+        "resposta": "Depende do antibiótico. Macrolídeos (eritromicina, claritromicina) e fluoroquinolonas (ciprofloxacino) podem aumentar os níveis de xantinas no sangue, elevando o risco de toxicidade. Sempre informe o médico que prescreve o antibiótico que você está usando acebrofilina."
+      },
+      {
+        "pergunta": "Como tomar a acebrofilina para fazer mais efeito?",
+        "resposta": "Tome no horário prescrito, sempre com alimento para reduzir o desconforto gástrico. Beba bastante água ao longo do dia — a hidratação ajuda a fluidificar o muco e potencializa o efeito mucolítico. Não aumente a dose por conta própria."
+      },
+      {
+        "pergunta": "Acebrofilina pode ser usada na gravidez?",
+        "resposta": "Não há dados suficientes de segurança na gravidez. Xantinas atravessam a placenta e podem causar taquicardia e irritabilidade no recém-nascido se usadas próximo ao parto. Use somente com orientação médica e se o benefício superar o risco."
+      },
+      {
+        "pergunta": "Qual a diferença entre acebrofilina, ambroxol e acetilcisteína?",
+        "resposta": "Ambroxol e acetilcisteína são mucolíticos puros — só fluidificam o muco. Acebrofilina tem ação dupla: além de fluidificar o muco, é broncodilatadora (dilata os brônquios). Por isso é mais indicada quando há tanto secreção quanto broncoespasmo associados."
+      },
+      {
+        "pergunta": "Posso parar de usar acebrofilina quando a tosse melhorar?",
+        "resposta": "Siga o tempo prescrito pelo médico. Em quadros agudos, o tratamento costuma durar 7–14 dias. Em DPOC e bronquite crônica, o uso pode ser mais prolongado. Não suspenda abruptamente sem orientação, pois os sintomas podem retornar."
+      }
+    ],
+    "descricao_seo": "Acebrofilina (Acebrox) é um medicamento broncodilatador e mucolítico derivado das xantinas. Indicado para: bronquite crônica, DPOC e condições respiratórias com hipersecreção brônquica. Efeitos colaterais mais relatados: náusea, palpitações, cefaleia, insônia. Atenção: por ter estrutura xantínica, pode interagir com antibióticos macrolídeos e fluoroquinolonas. Acebrofilina é vendida somente com receita médica.",
+    "alerta_farmaceutico": "Atenção no balcão: por ser derivado xantínico, acebrofilina tem perfil de interações semelhante à teofilina. Macrolídeos (eritromicina, claritromicina) e fluoroquinolonas (ciprofloxacino, norfloxacino) inibem o metabolismo — risco de acúmulo e toxicidade. Questionar paciente sobre uso de antibióticos antes de dispensar.",
+    "quando_procurar_medico": "Procure médico se: coração acelerado ou irregular persistente, tremores intensos, vômitos que não cessam, confusão mental, convulsões, piora da falta de ar, ou febre durante o tratamento.",
+    "interacoes": [
+      {
+        "com": [
+          "eritromicina",
+          "claritromicina",
+          "azitromicina"
+        ],
+        "nivel": "moderado",
+        "titulo": "Acebrofilina + Macrolídeo (Elevação dos Níveis Xantínicos)",
+        "efeito": "Macrolídeos inibem o metabolismo hepático (CYP1A2) de xantinas — risco de acúmulo, palpitações e toxicidade.",
+        "conduta": "⚠️ Monitorar sinais de toxicidade xantínica (palpitações, tremores, vômito). Considerar redução de dose com macrolídeos de uso prolongado."
+      },
+      {
+        "com": [
+          "ciprofloxacino",
+          "norfloxacino",
+          "levofloxacino"
+        ],
+        "nivel": "moderado",
+        "titulo": "Acebrofilina + Fluoroquinolona (Inibição CYP1A2 — Toxicidade Xantínica)",
+        "efeito": "Fluoroquinolonas inibem CYP1A2 e elevam níveis de xantinas — taquicardia, insônia, convulsões em casos graves.",
+        "conduta": "⚠️ Monitorar sinais de toxicidade. Ciprofloxacino tem maior impacto que levofloxacino. Informar médico que prescreveu o antibiótico."
+      }
+    ]
   }
 ]
