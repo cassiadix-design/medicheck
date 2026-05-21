@@ -936,7 +936,9 @@
       "transamin",
       "hemoblock",
       "ácido tranexâmico 500mg",
-      "tranexamic acid"
+      "tranexamic acid",
+      "acido tranexamico",
+      "transamine"
     ],
     "descricao": "Antifibrinolítico que age inibindo a ativação do plasminogênio em plasmina, reduzindo a fibrinólise e estabilizando coágulos já formados. Usado para controle de sangramentos em cirurgias, menorragia, epistaxe, hemorragia pós-parto e hemorragias associadas a trauma.",
     "receita": "Sim",
@@ -2218,7 +2220,9 @@
     ],
     "sinonimos": [
       "Nesina Met",
-      "Alogliptina + Metformina Takeda"
+      "Alogliptina + Metformina Takeda",
+      "alogliptina",
+      "metformina"
     ],
     "perguntas_frequentes": [
       {
@@ -2911,7 +2915,8 @@
     "sinonimos": [
       "Mantidan",
       "Amantadina EMS",
-      "Symmetrel"
+      "Symmetrel",
+      "Amantadina"
     ],
     "classe_receita": "C1",
     "receita_display": "🔴 Controlado — Receituário Branco em 2 Vias (C1)",
@@ -3979,7 +3984,10 @@
     "sinonimos": [
       "Caduet",
       "Anlot",
-      "Anlodipino+Atorvastatina Genérico"
+      "Anlodipino+Atorvastatina Genérico",
+      "anlodipino",
+      "atorvastatina",
+      "amlodipino"
     ],
     "classe_receita": "TARJADO_PRATICA",
     "receita_display": "🔴 Receita Simples",
@@ -4271,7 +4279,10 @@
     "sinonimos": [
       "anlodipino hidroclorotiazida",
       "amlodipino hidroclorotiazida",
-      "norvasc hct"
+      "norvasc hct",
+      "anlodipino",
+      "hidroclorotiazida",
+      "amlodipino"
     ],
     "descricao": "Combinação de anlodipino (bloqueador de canal de cálcio) com hidroclorotiazida (diurético tiazídico) em um único comprimido para hipertensão arterial. A combinação tem efeito sinérgico — cada componente age por mecanismo diferente, potencializando o controle da pressão.",
     "receita": "Sim",
@@ -4630,7 +4641,11 @@
       "Elani",
       "Microvlar",
       "Ciclo 21",
-      "Gynera"
+      "Gynera",
+      "etinilestradiol",
+      "progestogênio",
+      "anticoncepcional oral",
+      "estroprogestativo"
     ],
     "classe_receita": "TARJADO_PRATICA",
     "receita_display": "🔴 Receita Simples",
@@ -5348,7 +5363,8 @@
     "sinonimos": [
       "Strattera",
       "Atomoxetina EMS",
-      "Attentin"
+      "Attentin",
+      "Atomoxetina"
     ],
     "classe_receita": "C1",
     "receita_display": "🔴 Controlado — Receituário Branco em 2 Vias (C1)",
@@ -5440,7 +5456,9 @@
     ],
     "sinonimos": [
       "Atozet",
-      "Liptruzet"
+      "Liptruzet",
+      "atorvastatina",
+      "ezetimiba"
     ],
     "classe_receita": "TARJADO_PRATICA",
     "receita_display": "🔴 Receita Simples",
@@ -7583,7 +7601,9 @@
     "sinonimos": [
       "Concor Plus",
       "Biconcor",
-      "Ziac"
+      "Ziac",
+      "bisoprolol",
+      "hidroclorotiazida"
     ],
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
@@ -9153,7 +9173,8 @@
     "sinonimos": [
       "Buspirona EMS",
       "Buspar",
-      "Ansitec"
+      "Ansitec",
+      "Buspirona"
     ],
     "classe_receita": "C1",
     "receita_display": "🔴 Controlado — Receituário Branco em 2 Vias (C1)",
@@ -9250,7 +9271,11 @@
     "sinonimos": [
       "Buscopan Composto",
       "Buscapina Composta",
-      "Espasmo Buscopan"
+      "Espasmo Buscopan",
+      "butilbrometo de escopolamina",
+      "escopolamina",
+      "dipirona",
+      "hioscina"
     ],
     "perguntas_frequentes": [
       {
@@ -9739,6 +9764,11 @@
         "efeito": "IBPs reduzem a acidez necessária para absorver cálcio — uso prolongado aumenta risco de osteoporose e fraturas de quadril, punho e coluna.",
         "conduta": "⚠️ Preferir citrato de cálcio (não depende de ácido). Monitorar densidade óssea em uso crônico. Suplementar vitamina D. Usar IBP pela menor dose e tempo necessários."
       }
+    ],
+    "sinonimos": [
+      "cálcio",
+      "calcio",
+      "vitamina d"
     ]
   },
   {
@@ -9827,7 +9857,10 @@
     "descricao_seo": "Calcitriol 0,25mcg é um medicamento usado para: forma ativa da vitamina D3, indicado para tratar distúrbios do metabolismo ósseo e cálcio, como osteoporose, osteodistrofia renal em pacientes com insuficiência renal crônica (especialmente em hemodiálise), hipoparatireoidismo e raquitismo. Os efeitos colaterais mais relatados são: hipercalcemia (nível elevado de cálcio no sangue), hipercalciúria. Monitore cálcio e fósforo sérico regularmente. Calcitriol 0,25mcg é vendido somente com receita médica — nunca use sem orientação de um profissional de saúde.",
     "alerta_farmaceutico": "Erro comum no balcão: paciente toma suplemento de ferro, cálcio ou magnésio no mesmo horário que outros medicamentos (antibióticos, levotiroxina, bisfosfonatos) — minerais reduzem a absorção de vários medicamentos. Tomar com pelo menos 2h de intervalo.",
     "quando_procurar_medico": "Procure médico se: sintomas que motivaram o uso não melhorarem após 30 dias, surgir náusea ou dor abdominal intensa, ou exames mostrarem valores muito acima do normal (hipervitaminose).",
-    "interacoes": []
+    "interacoes": [],
+    "sinonimos": [
+      "1,25-dihidroxivitamina d"
+    ]
   },
   {
     "nome": "Canagliflozina 100mg - 300mg (Invokana)",
@@ -12516,7 +12549,8 @@
       "Miosan",
       "Flexeril",
       "Ciclobenzaprina EMS",
-      "Yurelax"
+      "Yurelax",
+      "Ciclobenzaprina"
     ],
     "classe_receita": "TARJADO_PRATICA",
     "receita_display": "🔴 Receita Simples",
@@ -13413,7 +13447,8 @@
       "Serofene",
       "Indux",
       "Clomifeno EMS",
-      "Clomid"
+      "Clomid",
+      "Clomifeno"
     ],
     "classe_receita": "TARJADO_PRATICA",
     "receita_display": "🔴 Receita Simples",
@@ -14185,7 +14220,10 @@
     "descricao_seo": "Cloreto de Sódio 0,9% Nasal - Solução Fisiológica (Neosoro) é um medicamento usado para: indicado para higienização e hidratação das vias nasais em gripes, resfriados, rinites, sinusites e ressecamento da mucosa nasal. Remove secreções, crostas e alérgenos (poeira, pólen) das fossas nasais. Os efeitos colaterais mais relatados são: praticamente sem efeitos colaterais. Pode causar desconforto leve na aplicação ou coriza transitória após o uso. Pode ser usado quantas vezes forem necessárias ao dia — não causa dependência nem ressecamento. Em bebês, a lavagem nasal antes das mamadas melhora muito a alimentação. Mesmo sendo vendido sem receita, converse com um farmacêutico ou médico antes de usar Cloreto de Sódio 0,9% Nasal - Solução Fisiológica (Neosoro).",
     "alerta_farmaceutico": "Erro comum no balcão: paciente usa descongestionante nasal tópico (oximetazolina, nafazolina) por mais de 3–5 dias — causa rinite medicamentosa (congestionamento de rebote pior que o original). Uso restrito a 3 dias consecutivos.",
     "quando_procurar_medico": "Procure médico se: congestão persistir após 7–10 dias, surgir secreção amarelada ou esverdeada com febre (sinusite bacteriana), dor forte na face sobre os seios da face ou necessidade de uso contínuo do descongestionante.",
-    "interacoes": []
+    "interacoes": [],
+    "sinonimos": [
+      "Cloreto"
+    ]
   },
   {
     "nome": "Cloreto de Sódio 0,9% Spray Nasal (Sorine / Soro Fisiológico Nasal)",
@@ -14993,7 +15031,8 @@
       "gluconato de cobre",
       "bisglicinato de cobre",
       "copper",
-      "cobre 2mg"
+      "cobre 2mg",
+      "cobre / Bisglicinato de cobre"
     ],
     "descricao": "Mineral essencial para formação de hemoglobina, colágeno, melanina e função imunológica. A deficiência de cobre é rara mas pode ocorrer em pessoas que suplementam muito zinco (zinco em excesso bloqueia a absorção de cobre), após cirurgia bariátrica ou em síndromes de má absorção.",
     "receita": "Não",
@@ -16156,7 +16195,8 @@
       "condroflex",
       "artroflex",
       "movexx",
-      "condroitina glucosamina"
+      "condroitina glucosamina",
+      "condroitina + Sulfato de glucosamina"
     ],
     "descricao": "Usados no tratamento da osteoartrite (artrose) de joelho, quadril e outras articulações. A glucosamina participa da síntese de cartilagem e a condroitina retém água nas articulações, melhorando a lubrificação e reduzindo a dor.",
     "receita": "Sim",
@@ -16506,7 +16546,9 @@
     ],
     "sinonimos": [
       "Xigduo",
-      "Xigduo XR"
+      "Xigduo XR",
+      "dapagliflozina",
+      "metformina"
     ],
     "classe_receita": "TARJADO_PRATICA",
     "receita_display": "🔴 Receita Simples",
@@ -16961,7 +17003,11 @@
     ],
     "sinonimos": [
       "Depakote Sprinkle",
-      "Divalproato Sprinkle"
+      "Divalproato Sprinkle",
+      "divalproato",
+      "valproato",
+      "ácido valproico",
+      "depakote"
     ],
     "classe_receita": "RECEITA_ESPECIAL",
     "receita_display": "🔴 Receita Simples",
@@ -17584,7 +17630,9 @@
       "celestamine",
       "dexclorfeniramina betametasona",
       "anti-histamínico corticoide",
-      "alergia corticoide"
+      "alergia corticoide",
+      "dexclorfeniramina",
+      "betametasona"
     ],
     "descricao": "Combinação de anti-histamínico de primeira geração (dexclorfeniramina 2mg) com corticoide sistêmico (betametasona 0,25mg). Indicado para reações alérgicas agudas moderadas a graves: urticária intensa, angioedema, rinite alérgica grave e dermatoses alérgicas que não respondem a anti-histamínico isolado.",
     "receita": "Sim",
@@ -18232,6 +18280,16 @@
         "efeito": "Dois AINEs aumentam o risco de sangramento no estômago e intestino sem melhorar a dor — os efeitos colaterais se somam, mas o alívio não aumenta.",
         "conduta": "⚠️ Usar apenas um AINE por vez, na menor dose e pelo menor tempo possível. Para dor mais intensa, associar paracetamol é mais seguro do que combinar dois AINEs."
       }
+    ],
+    "sinonimos": [
+      "diclofenaco",
+      "diclofenaco de sódio",
+      "diclofenaco de potassio",
+      "diclofenaco sodico",
+      "diclofenaco potassico",
+      "voltaren",
+      "cataflam",
+      "Diclofenaco de Sódio / Diclofenaco"
     ]
   },
   {
@@ -18512,7 +18570,8 @@
       "diclofenaco potassico",
       "diclofenaco de potassio",
       "cataflam 50mg",
-      "diclofenaco potassico 50mg"
+      "diclofenaco potassico 50mg",
+      "Diclofenaco"
     ],
     "descricao": "Forma de ação mais rápida do diclofenaco. Indicado para dor aguda, cólica menstrual, dor de dente, dor pós-operatória e situações onde se precisa de alívio mais rápido. A forma potássica é absorvida mais rapidamente que a sódica.",
     "receita": "Não",
@@ -18777,7 +18836,8 @@
       "voltaren 50mg",
       "voltaren injetavel",
       "diclofenaco sodico 50mg",
-      "diclofenaco sodico 75mg"
+      "diclofenaco sodico 75mg",
+      "Diclofenaco"
     ],
     "descricao": "Anti-inflamatório potente usado para dor e inflamação em artrite reumatoide, osteoartrose, dor lombar, cólica menstrual, dor pós-operatória e dor aguda. A forma sódica tem absorção mais lenta que o potássico, com ação mais duradoura.",
     "receita": "Não",
@@ -19765,7 +19825,8 @@
       "Eranz",
       "Aricept",
       "Donepezila EMS",
-      "Dozil"
+      "Dozil",
+      "Donepezila"
     ],
     "classe_receita": "RECEITA_ESPECIAL",
     "receita_display": "🔴 Receita Controlada C1",
@@ -19870,7 +19931,10 @@
     ],
     "sinonimos": [
       "Dorflex",
-      "Dorflex composto"
+      "Dorflex composto",
+      "dipirona",
+      "orfenadrina",
+      "cafeína"
     ],
     "perguntas_frequentes": [
       {
@@ -21522,6 +21586,11 @@
         "efeito": "Heparina bloqueia a síntese de aldosterona, retendo potássio — combinação com IECA ou BRA (que também elevam o potássio) pode causar hipercalemia grave, com risco de arritmias fatais. O risco é maior em pacientes com insuficiência renal.",
         "conduta": "⚠️ Monitorar potássio sérico durante o uso de heparina ou enoxaparina em pacientes que tomam IECA ou BRA. Atenção especial em insuficiência renal."
       }
+    ],
+    "sinonimos": [
+      "enoxaparina",
+      "clexane",
+      "lovenox"
     ]
   },
   {
@@ -21533,7 +21602,8 @@
       "eritromicina gel",
       "eritromicina 2%",
       "eryacne",
-      "eryderm"
+      "eryderm",
+      "eritromicina"
     ],
     "descricao": "Antibiótico macrolídeo de uso tópico para tratamento de acne inflamatória (pápulas e pústulas). Age reduzindo a proliferação de Cutibacterium acnes (bactéria relacionada à acne) e tem efeito anti-inflamatório local.",
     "receita": "Sim",
@@ -21737,7 +21807,11 @@
       "Eprex",
       "Hemax",
       "Bionephril",
-      "Epoetina EMS"
+      "Epoetina EMS",
+      "epoetina",
+      "eritropoetina",
+      "alfaepoetina",
+      "eritropoetina alfa"
     ],
     "classe_receita": "TARJADO_PRATICA",
     "receita_display": "🔴 Receita Simples",
@@ -22329,6 +22403,10 @@
         "efeito": "Omeprazol e esomeprazol inibem CYP2C19 — podem elevar os níveis de diazepam, prolongando sua sedação e efeito ansiolítico.",
         "conduta": "✅ Risco geralmente baixo. Atenção em idosos ou doses altas de diazepam. Pantoprazol ou rabeprazol são alternativas com menor inibição do CYP2C19."
       }
+    ],
+    "sinonimos": [
+      "esomeprazol",
+      "nexium"
     ]
   },
   {
@@ -22351,7 +22429,9 @@
     "sinonimos": [
       "Aldactazine",
       "Espironolactona + HCT Genérico",
-      "Aldopur"
+      "Aldopur",
+      "espironolactona",
+      "hidroclorotiazida"
     ],
     "classe_receita": "TARJADO_PRATICA",
     "receita_display": "🔴 Receita Simples",
@@ -24001,7 +24081,10 @@
       "Durogesic",
       "Fentanila EMS",
       "Matrifen",
-      "Victanyl"
+      "Victanyl",
+      "fentanila",
+      "fentanyl",
+      "duragesic"
     ],
     "classe_receita": "OPIOIDE_A",
     "receita_display": "🔴 Receita Especial A — Opioide Forte",
@@ -24265,7 +24348,10 @@
     "descricao_seo": "Fentolamina 40mg - Injetável é um medicamento usado para: indicado para tratar a disfunção erétil (dificuldade de ter ou manter uma ereção satisfatória para a atividade sexual), geralmente aplicado por injeção diretamente no pênis. Os efeitos colaterais mais relatados são: os mais comuns incluem queda de pressão (que pode causar tontura), coração acelerado (taquicardia), vermelhidão no rosto e nariz entupido. Importante: ATENÇÃO: Usar fentolamina injetável sem orientação médica adequada pode causar danos permanentes ao pênis e perder definitivamente a capacidade de ter ereções. Fentolamina 40mg - Injetável é vendido somente com receita médica — nunca use sem orientação de um profissional de saúde.",
     "alerta_farmaceutico": "Erro comum no balcão: paciente usa nitrato (isossorbida, nitroglicerina) para angina e compra sildenafila sem informar o médico — a combinação causa hipotensão grave e pode ser fatal. Nitrato e inibidores da PDE-5 são absolutamente contraindicados juntos.",
     "quando_procurar_medico": "Procure atendimento imediato se: dor no peito, tontura intensa ou desmaio após tomar o medicamento (especialmente se usar nitratos), ereção dolorosa que não cede após 4 horas (priapismo — emergência urológica) ou perda súbita de visão.",
-    "interacoes": []
+    "interacoes": [],
+    "sinonimos": [
+      "Fentolamina"
+    ]
   },
   {
     "nome": "Ferro Injetável (Sacarato de Hidróxido Férrico)",
@@ -24404,6 +24490,12 @@
         "efeito": "IBPs reduzem o ácido gástrico necessário para absorver o ferro — podem comprometer o tratamento da anemia ferropriva e retardar a recuperação dos estoques de ferro.",
         "conduta": "⚠️ Tomar sulfato ferroso em jejum, separado do IBP por pelo menos 2 horas. Monitorar ferritina e hemograma durante o tratamento."
       }
+    ],
+    "sinonimos": [
+      "ferro",
+      "ferro injetável",
+      "ferro iv",
+      "sacarato"
     ]
   },
   {
@@ -24539,6 +24631,12 @@
         "efeito": "IBPs reduzem o ácido gástrico necessário para absorver o ferro — podem comprometer o tratamento da anemia ferropriva e retardar a recuperação dos estoques de ferro.",
         "conduta": "⚠️ Tomar sulfato ferroso em jejum, separado do IBP por pelo menos 2 horas. Monitorar ferritina e hemograma durante o tratamento."
       }
+    ],
+    "sinonimos": [
+      "ferro",
+      "ferro quelato",
+      "bisglicinato de ferro",
+      "ferro oral"
     ]
   },
   {
@@ -24708,7 +24806,8 @@
     ],
     "sinonimos": [
       "Toviaz",
-      "Fesoterodina EMS"
+      "Fesoterodina EMS",
+      "Fesoterodina"
     ],
     "classe_receita": "TARJADO_PRATICA",
     "receita_display": "🔴 Receita Simples",
@@ -25467,7 +25566,9 @@
       "Vannair",
       "Formoterol+Budesonida Genérico",
       "Bufomix",
-      "Alenia"
+      "Alenia",
+      "formoterol",
+      "budesonida"
     ],
     "classe_receita": "TARJADO_PRATICA",
     "receita_display": "🔴 Receita Simples",
@@ -25559,7 +25660,9 @@
     ],
     "sinonimos": [
       "Lugano",
-      "Formoterol + Fluticasona"
+      "Formoterol + Fluticasona",
+      "formoterol",
+      "fluticasona"
     ],
     "receita_obrigatoria": true,
     "tipo_receita": "simples",
@@ -25636,7 +25739,8 @@
       "formoterol",
       "oxis",
       "formoterol isolado",
-      "formoterol turbuhaler"
+      "formoterol turbuhaler",
+      "formoterol di-hidratado"
     ],
     "descricao": "Broncodilatador de longa duração (até 12 horas) usado na manutenção de asma e DPOC. Mantém os brônquios abertos de forma sustentada. Diferente do salbutamol (curta duração), não é indicado como resgate em crises agudas.",
     "receita": "Sim",
@@ -25829,7 +25933,8 @@
       "Nasonex",
       "Mometasona EMS",
       "Asocort",
-      "Moment Nasal"
+      "Moment Nasal",
+      "Mometasona"
     ],
     "classe_receita": "TARJADO_PRATICA",
     "receita_display": "🔴 Receita Simples",
@@ -27187,6 +27292,10 @@
         "efeito": "Heparina bloqueia a síntese de aldosterona, retendo potássio — combinação com IECA ou BRA (que também elevam o potássio) pode causar hipercalemia grave, com risco de arritmias fatais. O risco é maior em pacientes com insuficiência renal.",
         "conduta": "⚠️ Monitorar potássio sérico durante o uso de heparina ou enoxaparina em pacientes que tomam IECA ou BRA. Atenção especial em insuficiência renal."
       }
+    ],
+    "sinonimos": [
+      "heparina",
+      "heparina não fracionada"
     ]
   },
   {
@@ -28070,7 +28179,8 @@
       "Hixizine",
       "Ucerax",
       "Hidroxizina EMS",
-      "Vistagan"
+      "Vistagan",
+      "Hidroxizina"
     ],
     "classe_receita": "TARJADO_PRATICA",
     "receita_display": "🔴 Receita Simples",
@@ -28176,7 +28286,8 @@
       "ibandronate",
       "bonviva 150mg",
       "ibandronato 150mg",
-      "bondronat"
+      "bondronat",
+      "Ácido ibandrônico / Ibandronato"
     ],
     "descricao": "Bisfosfonato usado no tratamento da osteoporose em mulheres na pós-menopausa. Reduz a reabsorção óssea, aumentando a densidade mineral dos ossos e reduzindo o risco de fraturas. Disponível em comprimido mensal (150mg) e injeção trimestral.",
     "receita": "Sim",
@@ -30263,6 +30374,13 @@
         "efeito": "Corticoides elevam a glicemia ao aumentar a resistência à insulina e a produção de glicose pelo fígado — o antidiabético ou a insulina podem não ser suficientes para controlar o açúcar durante o uso do corticoide.",
         "conduta": "⚠️ Monitorar glicemia com mais frequência durante o corticoide. Pode ser necessário aumentar a dose do antidiabético temporariamente. Avisar o médico ao iniciar ou suspender o corticoide."
       }
+    ],
+    "sinonimos": [
+      "insulina regular",
+      "insulina",
+      "insulina humana",
+      "humulin r",
+      "novolin r"
     ]
   },
   {
@@ -32476,6 +32594,14 @@
         "efeito": "Amiodarona contém 37% de iodo e inibe a conversão de T4 em T3 — pode causar hipotireoidismo ou hipertireoidismo mesmo após anos de uso, alterando a necessidade de levotiroxina.",
         "conduta": "⚠️ Monitorar TSH, T3 e T4 a cada 3–6 meses. Ajuste da dose de levotiroxina pode ser necessário. Alertar médico ao iniciar ou suspender amiodarona."
       }
+    ],
+    "sinonimos": [
+      "levotiroxina",
+      "t4",
+      "puran t4",
+      "euthyrox",
+      "synthroid",
+      "tiroxina"
     ]
   },
   {
@@ -33055,7 +33181,9 @@
     ],
     "sinonimos": [
       "Lisador",
-      "Lisador composto"
+      "Lisador composto",
+      "dipirona",
+      "prometazina"
     ],
     "perguntas_frequentes": [
       {
@@ -33190,7 +33318,8 @@
     "sinonimos": [
       "Vyvanse",
       "Venvanse",
-      "Lisdexanfetamina EMS"
+      "Lisdexanfetamina EMS",
+      "lisdexanfetamina"
     ],
     "classe_receita": "A",
     "receita_display": "🔴 Controlado A — Notificação Amarela",
@@ -33907,6 +34036,11 @@
         "efeito": "Oxicodona é metabolizada principalmente pelo CYP3A4 — fluconazol, itraconazol, claritromicina e ritonavir bloqueiam essa enzima, fazendo o nível de oxicodona subir de forma significativa (em média 50 a 150%). O resultado é sedação intensa e desproporcional à dose, com risco real de depressão respiratória grave e overdose mesmo em quem usa oxicodona regularmente.",
         "conduta": "❌ Evitar a combinação sempre que possível. Se antifúngico for necessário, preferir fluconazol em dose única (menor impacto) ou anfotericina B. Se antibiótico for necessário, preferir azitromicina. Caso a combinação seja inevitável, reduzir a dose de oxicodona em 30 a 50% e monitorar nível de consciência e frequência respiratória com atenção."
       }
+    ],
+    "sinonimos": [
+      "lopinavir",
+      "ritonavir",
+      "kaletra"
     ]
   },
   {
@@ -35163,7 +35297,8 @@
     "sinonimos": [
       "Depo-Provera",
       "Contracep",
-      "Medroxiprogesterona Depot"
+      "Medroxiprogesterona Depot",
+      "Medroxiprogesterona"
     ],
     "classe_receita": "TARJADO_PRATICA",
     "receita_display": "🔴 Receita Simples",
@@ -35550,7 +35685,8 @@
       "Ebix",
       "Memantine EMS",
       "Namenda",
-      "Akatinol"
+      "Akatinol",
+      "Memantina"
     ],
     "classe_receita": "TARJADO_PRATICA",
     "receita_display": "🔴 Receita Simples",
@@ -37606,7 +37742,12 @@
     "descricao_seo": "Montelucaste 4mg - 5mg - 10mg é um medicamento usado para: indicado para o tratamento de manutenção da asma (prevenção de crises, não é broncodilatador de alívio) e alívio dos sintomas da rinite alérgica sazonal e perene em adultos e crianças a partir de 2 anos. Os efeitos colaterais mais relatados são: geralmente bem tolerado. Os efeitos mais comuns são dor de cabeça, dor abdominal e sonolência. Um efeito importante e pouco discutido são as alterações neuropsiquiátricas — pesadelos, insônia. Importante: Em 2020, o FDA emitiu alerta sobre risco de efeitos neuropsiquiátricos graves, incluindo pensamentos suicidas. Fique atento a mudanças de humor, comportamento ou sono, especialmente em crianças e adolescentes. Montelucaste 4mg - 5mg - 10mg é vendido somente com receita médica — nunca use sem orientação de um profissional de saúde.",
     "alerta_farmaceutico": "Erro comum no balcão: paciente para o broncodilatador de manutenção quando os sintomas melhoram — o medicamento de fundo deve ser usado diariamente para prevenir as crises, independentemente de como o paciente se sente no dia.",
     "quando_procurar_medico": "Procure médico se: falta de ar não melhora após uso do broncodilatador, frequência cardíaca muito elevada, tremores intensos, ou crises de asma que não cedem com o inalador de resgate — procure pronto-socorro.",
-    "interacoes": []
+    "interacoes": [],
+    "sinonimos": [
+      "montelucaste",
+      "singulair",
+      "montelair"
+    ]
   },
   {
     "nome": "Morfina 10mg - 30mg - 10mg/mL Injetável",
@@ -37629,7 +37770,8 @@
       "Dimorf",
       "MST Continus",
       "Morfina EMS",
-      "MS Contin"
+      "MS Contin",
+      "Morfina"
     ],
     "classe_receita": "OPIOIDE_A",
     "receita_display": "🔴 Receita Especial A — Opioide Forte",
@@ -37894,7 +38036,8 @@
     "sinonimos": [
       "Avalox",
       "Moxifloxacino EMS",
-      "Avelon"
+      "Avelon",
+      "Moxifloxacino"
     ],
     "classe_receita": "RECEITA_ANTIBIOTICO",
     "receita_display": "🔴 Receita Obrigatória — Antibiótico",
@@ -39254,7 +39397,10 @@
     ],
     "sinonimos": [
       "Neosaldina",
-      "Cefalium"
+      "Cefalium",
+      "dipirona",
+      "cafeína",
+      "isometepteno"
     ],
     "perguntas_frequentes": [
       {
@@ -39688,7 +39834,9 @@
     ],
     "sinonimos": [
       "Nivux",
-      "Nimesulida + Ciclobenzaprina"
+      "Nimesulida + Ciclobenzaprina",
+      "nimesulida",
+      "ciclobenzaprina"
     ],
     "perguntas_frequentes": [
       {
@@ -40460,7 +40608,9 @@
       "novalgina gotas",
       "novalgina comprimido",
       "novalgina injetavel",
-      "dipirona novalgina"
+      "dipirona novalgina",
+      "dipirona",
+      "metamizol"
     ],
     "descricao": "Novalgina é o nome comercial mais conhecido da dipirona no Brasil. Usada para dor de cabeça, dor de dente, cólica, febre e dores em geral. Age inibindo a síntese de prostaglandinas e atuando diretamente no centro da dor e da febre no sistema nervoso central.",
     "receita": "Não",
@@ -40866,7 +41016,11 @@
       "omega 3 concentrado",
       "omega 3 1000mg",
       "fish oil",
-      "oleo de peixe"
+      "oleo de peixe",
+      "ômega-3",
+      "epa",
+      "dha",
+      "acidos graxos omega-3"
     ],
     "descricao": "Suplemento de ácidos graxos poli-insaturados ômega-3 (EPA e DHA) de alta concentração. Usado para redução de triglicerídeos, saúde cardiovascular, anti-inflamatório, saúde cerebral e ocular. A forma concentrada tem maior quantidade de EPA+DHA por cápsula que o óleo de peixe comum.",
     "receita": "Não",
@@ -40997,7 +41151,12 @@
       "Naturomega",
       "Epax",
       "Lovaza (prescrição)",
-      "Vascepa"
+      "Vascepa",
+      "ômega-3",
+      "epa",
+      "dha",
+      "ácido eicosapentaenoico",
+      "acidos graxos omega-3"
     ],
     "classe_receita": "MIP",
     "receita_display": "🟢 Venda Livre — MIP",
@@ -41838,7 +41997,8 @@
       "Retemic",
       "Oxibutinina EMS",
       "Ditropan",
-      "Kentera (adesivo)"
+      "Kentera (adesivo)",
+      "Oxibutinina"
     ],
     "classe_receita": "TARJADO_PRATICA",
     "receita_display": "🔴 Receita Simples",
@@ -42307,6 +42467,11 @@
         "efeito": "Atazanavir requer pH ácido para dissolução e absorção — IBPs reduzem drasticamente seus níveis séricos com risco de falha no tratamento antirretroviral e resistência viral.",
         "conduta": "❌ Atazanavir é contraindicado com IBPs. Substituir antirretroviral ou o IBP com orientação do infectologista. Dar preferência a antiácidos ou antagonistas H2."
       }
+    ],
+    "sinonimos": [
+      "pantoprazol",
+      "pantozol",
+      "zurcal"
     ]
   },
   {
@@ -44014,7 +44179,8 @@
     "sinonimos": [
       "Sifrol",
       "Mirapex",
-      "Pramipexol EMS"
+      "Pramipexol EMS",
+      "Pramipexol"
     ],
     "classe_receita": "C1",
     "receita_display": "🔴 Controlado — Receituário Branco em 2 Vias (C1)",
@@ -45367,7 +45533,8 @@
     "sinonimos": [
       "Pariet",
       "Rabeloc",
-      "Rabeprazol EMS"
+      "Rabeprazol EMS",
+      "rabeprazol"
     ],
     "classe_receita": "TARJADO_PRATICA",
     "receita_display": "🔴 Receita Simples",
@@ -45897,7 +46064,8 @@
     ],
     "sinonimos": [
       "Azilect",
-      "Rasagilina EMS"
+      "Rasagilina EMS",
+      "Rasagilina"
     ],
     "classe_receita": "C1",
     "receita_display": "🔴 Controlado — Receituário Branco em 2 Vias (C1)",
@@ -47800,7 +47968,9 @@
     ],
     "sinonimos": [
       "Entresto",
-      "Vymada"
+      "Vymada",
+      "sacubitril",
+      "valsartana"
     ],
     "classe_receita": "TARJADO_PRATICA",
     "receita_display": "🔴 Receita Simples",
@@ -48075,7 +48245,9 @@
       "Seretide",
       "Advair",
       "Salmeterol+Fluticasona Genérico",
-      "Seretide Diskus"
+      "Seretide Diskus",
+      "salmeterol",
+      "fluticasona"
     ],
     "classe_receita": "TARJADO_PRATICA",
     "receita_display": "🔴 Receita Simples",
@@ -48573,7 +48745,8 @@
       "selênio",
       "selenometionina",
       "selenio 200mcg",
-      "selênio orgânico"
+      "selênio orgânico",
+      "Selenometionina / Selenito"
     ],
     "descricao": "Mineral essencial com função antioxidante, componente de enzimas importantes como a glutationa peroxidase. Usado em deficiência de selênio, suporte à tireoide (tireoidite de Hashimoto), função imunológica e como antioxidante. O Brasil tem solos pobres em selênio — deficiência é comum.",
     "receita": "Não",
@@ -49864,7 +50037,8 @@
     "sinonimos": [
       "Vesicare",
       "Solifenacina EMS",
-      "Vesitab"
+      "Vesitab",
+      "Solifenacina"
     ],
     "classe_receita": "TARJADO_PRATICA",
     "receita_display": "🔴 Receita Simples",
@@ -50846,7 +51020,8 @@
       "Imigran",
       "Sumax",
       "Sumatriptana EMS",
-      "Imitrex"
+      "Imitrex",
+      "sumatriptana"
     ],
     "classe_receita": "TARJADO_PRATICA",
     "receita_display": "🔴 Receita Simples",
@@ -51430,7 +51605,8 @@
     "sinonimos": [
       "Palexia",
       "Tapentadol EMS",
-      "Nucynta"
+      "Nucynta",
+      "Tapentadol"
     ],
     "classe_receita": "OPIOIDE_A",
     "receita_display": "🔴 Receita Especial A — Opioide Forte",
@@ -51730,7 +51906,11 @@
     "descricao_seo": "Tenofovir 300mg é um medicamento usado para: usado no tratamento do HIV, sempre em combinação com outros antirretrovirais como parte do coquetel. Também é usado no tratamento da hepatite B crônica e como PrEP (profilaxia pré-exposição) — medicamento tomado por pessoas HIV negativas com alto. Os efeitos colaterais mais relatados são: os efeitos mais comuns são náusea, diarreia, dor de cabeça e cansaço, geralmente mais intensos no início do tratamento. Importante: Informe o médico imediatamente se notar redução na quantidade de urina, inchaço nas pernas ou cansaço extremo — podem ser sinais de problema nos rins. Tenofovir 300mg é vendido somente com receita médica — nunca use sem orientação de um profissional de saúde.",
     "alerta_farmaceutico": "Erro comum no balcão: paciente solicita ômega-3, suplemento ou fitoterápico sem informar ao médico — muitas interações entre antirretrovirais e outros produtos são graves. A adesão rigorosa e sem adições não orientadas é fundamental para evitar resistência.",
     "quando_procurar_medico": "Procure médico se: sintomas não melhorarem em 48-72h, surgir febre muito alta, dificuldade para respirar, confusão mental, ou sinais de desidratação grave.",
-    "interacoes": []
+    "interacoes": [],
+    "sinonimos": [
+      "tenofovir",
+      "viread"
+    ]
   },
   {
     "nome": "Tenoxicam 20mg",
@@ -53365,7 +53545,8 @@
     "sinonimos": [
       "Modulon",
       "Trimebutina EMS",
-      "Debridat"
+      "Debridat",
+      "Trimebutina"
     ],
     "classe_receita": "TARJADO_PRATICA",
     "receita_display": "🔴 Receita Simples",
@@ -53821,6 +54002,14 @@
         "efeito": "Antibióticos carbapenem (meropenem, imipenem) reduzem os níveis de valproato em 60–90% nas primeiras 24h — risco de convulsões com falha abrupta do tratamento antiepiléptico.",
         "conduta": "❌ Evitar combinação. Se inevitável, monitorar nível sérico de valproato intensivamente e considerar anticonvulsivante alternativo."
       }
+    ],
+    "sinonimos": [
+      "valproato",
+      "ácido valproico",
+      "valproato de sódio",
+      "depakene",
+      "valpakine",
+      "Ácido Valproico / Valproato"
     ]
   },
   {
@@ -53845,7 +54034,10 @@
       "Depakote ER",
       "Depakote LP",
       "Valpakine CR",
-      "Depakene LP"
+      "Depakene LP",
+      "valproato",
+      "ácido valproico",
+      "divalproato"
     ],
     "classe_receita": "RECEITA_ESPECIAL",
     "receita_display": "🔴 Receita Simples",
@@ -55185,6 +55377,12 @@
         "efeito": "Uso de IBP por mais de 1 ano reduz a absorção de vitamina B12 — risco de deficiência com anemia megaloblástica, fadiga e neuropatia periférica.",
         "conduta": "⚠️ Monitorar vitamina B12 anualmente em uso prolongado. Suplementar se níveis baixos ou sintomas neurológicos (formigamento, fraqueza)."
       }
+    ],
+    "sinonimos": [
+      "cianocobalamina",
+      "vitamina b12",
+      "cobalamina",
+      "b12"
     ]
   },
   {
@@ -55349,7 +55547,10 @@
       "Addera D3 50.000",
       "Vitamina D3 EMS",
       "Deltius",
-      "Vit D3 Legrand"
+      "Vit D3 Legrand",
+      "colecalciferol",
+      "vitamina d",
+      "vitamina d3"
     ],
     "classe_receita": "TARJADO_PRATICA",
     "receita_display": "🔴 Receita Simples",
@@ -55485,7 +55686,8 @@
       "vitamina e 400ui",
       "alfa tocoferol",
       "evion",
-      "ephynal"
+      "ephynal",
+      "tocoferol (Vitamina E)"
     ],
     "descricao": "Vitamina lipossolúvel com potente ação antioxidante, que protege as células dos danos causados pelos radicais livres. Usada para deficiência de vitamina E, suplementação antioxidante, saúde da pele e como coadjuvante em doenças hepáticas gordurosas não alcoólicas (DHGNA/NASH).",
     "receita": "Não",
@@ -56124,6 +56326,12 @@
         "efeito": "Warfarina existe em duas formas no organismo (R e S): a forma R é eliminada pelo CYP1A2 e a forma S pelo CYP2C9 — fluvoxamina inibe os dois, impedindo a eliminação de ambas. O resultado é acúmulo de warfarina e aumento expressivo do INR, com risco de sangramento grave: hematomas espontâneos, sangramento digestivo, urinário ou, nos casos mais sérios, hemorragia cerebral.",
         "conduta": "❌ Monitorar o INR com muita frequência (a cada 3–5 dias) nas primeiras 2–3 semanas após iniciar a fluvoxamina. A dose de warfarina geralmente precisa ser reduzida em 30 a 50%. Se possível, substituir a fluvoxamina por outro antidepressivo com menor impacto nas enzimas do CYP (sertralina ou escitalopram têm menor efeito sobre CYP1A2 e CYP2C9)."
       }
+    ],
+    "sinonimos": [
+      "warfarina",
+      "varfarina",
+      "coumadin",
+      "marevan"
     ]
   },
   {
@@ -59509,7 +59717,9 @@
       "calsan",
       "calbion",
       "vitacalcin",
-      "osteo-vite"
+      "osteo-vite",
+      "cálcio",
+      "antiácido"
     ],
     "descricao": "Principal suplemento de cálcio usado no Brasil para prevenir e tratar osteoporose, raquitismo e hipocalcemia. O carbonato de cálcio contém a maior proporção de cálcio elementar entre os suplementos (40%) — por isso as cápsulas/comprimidos precisam ser menores para fornecer a mesma quantidade de cálcio que o citrato de cálcio. Também funciona como antiácido (neutraliza o ácido do estômago) e é ingrediente de marmoraria, mas nas formulações farmacêuticas é de grau alimentício.",
     "receita": "Não",
