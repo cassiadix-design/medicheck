@@ -1165,5 +1165,26 @@ mcInteracoesDB = mcInteracoesDB.concat([
   }
 ]);
 
+
+mcInteracoesDB = mcInteracoesDB.concat([
+  {
+    "med1": [
+      "espironolactona",
+      "aldactone",
+      "spirotone"
+    ],
+    "med2": [
+      "carbonato de lítio",
+      "lítio",
+      "litio"
+    ],
+    "nivel": "moderado",
+    "titulo": "Espironolactona + Lítio (Variação dos Níveis Séricos — Monitorar Toxicidade)",
+    "mecanismo": "A espironolactona, ao antagonizar a aldosterona, reduz a reabsorção de sódio no túbulo coletor e pode interferir na manipulação renal de lítio — íon cujo transporte tubular compete com o sódio. Diferentemente dos diuréticos tiazídicos (que retêm lítio de forma consistente), a espironolactona pode tanto elevar quanto reduzir os níveis séricos de lítio dependendo do estado de sódio e hidratação do paciente. O risco clínico é de flutuação imprevisível do nível sérico, com potencial para toxicidade por lítio em casos de depleção de sódio concomitante.",
+    "efeito": "Variação dos níveis séricos de lítio com risco de toxicidade: tremores finos que progridem para grosseiros, confusão mental, ataxia, náuseas, diarreia, e em casos graves — convulsões e insuficiência renal. A janela terapêutica do lítio é estreita (0,6–1,2 mEq/L), e pequenas elevações podem ser clinicamente significativas.",
+    "conduta": "⚠️ Monitorar litemia 5–7 dias após iniciar ou ajustar dose de espironolactona, e a cada mudança de dose subsequente. Manter hidratação adequada e evitar dieta hipossódica excessiva. Orientar paciente sobre sinais de toxicidade por lítio (tremores intensos, confusão, diarreia persistente). Considerar redução preventiva da dose de lítio se houver depleção de sódio associada."
+  }
+]);
+
 var mcIECAnomes = ["captopril","enalapril","lisinopril","ramipril","perindopril"];
 var mcBRAnomes  = ["losartana","valsartana","olmesartana","irbesartana","candesartana","telmisartana"];
