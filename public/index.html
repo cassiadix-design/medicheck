@@ -2026,16 +2026,17 @@ window.addEventListener('DOMContentLoaded', () => {
         });
 
         searchInput.addEventListener('input', (e) => {
-            const term = e.target.value.toLowerCase();
+            const normStr = s => (s || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+            const term = normStr(e.target.value);
             if (term === '') {
                 searchResults = medicamentosData;
             } else {
                 searchResults = medicamentosData.filter(med => {
-    const sinonimos = (med.sinonimos || []).join(' ').toLowerCase();
-    return med.nome.toLowerCase().includes(term) ||
-           med.generico.toLowerCase().includes(term) ||
-           sinonimos.includes(term);
-});
+                    const sinonimos = (med.sinonimos || []).join(' ');
+                    return normStr(med.nome).includes(term) ||
+                           normStr(med.generico).includes(term) ||
+                           normStr(sinonimos).includes(term);
+                });
             }
             renderMedicines(0);
         });
