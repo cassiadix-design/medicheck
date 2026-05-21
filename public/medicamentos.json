@@ -1243,6 +1243,108 @@
     ]
   },
   {
+    "nome": "Adalimumabe (Humira) — Imunobiológico Anti-TNF",
+    "generico": "Adalimumabe",
+    "tipo": "Agente Biológico — Anticorpo Monoclonal Anti-TNF-α",
+    "descricao": "Adalimumabe é um anticorpo monoclonal totalmente humano que se liga especificamente ao TNF-α (fator de necrose tumoral alfa), uma citocina pró-inflamatória central em diversas doenças autoimunes. Ao bloquear o TNF-α, reduz a cascata inflamatória e o dano tecidual progressivo. É indicado para artrite reumatoide moderada a grave (quando metotrexato isolado é insuficiente), artrite psoriásica, espondilite anquilosante, doença de Crohn moderada a grave, retocolite ulcerativa, psoríase em placas moderada a grave, uveíte não infecciosa e artrite idiopática juvenil. Disponível pelo SUS para indicações aprovadas no PCDT do Ministério da Saúde. Administrado via injeção subcutânea — geralmente a cada 2 semanas para artrite reumatoide.",
+    "receita": "Sim",
+    "receita_nota": "Exige prescrição médica especializada (reumatologista, gastroenterologista, dermatologista ou oftalmologista). Medicamento de alto custo dispensado pelo SUS via componente especializado.",
+    "efeitos": "Infecções das vias aéreas superiores (resfriado, sinusite, bronquite) são os efeitos mais comuns — o imunossupressor facilita infecções oportunistas. Reações no local da injeção: dor, vermelhidão e inchaço (em cerca de 20% dos pacientes). Cefaleia, náusea e elevação de enzimas hepáticas. Riscos mais graves (menos frequentes): tuberculose reativada, infecções graves (pneumonia, sepse, infecções fúngicas invasivas), linfomas e outros cânceres — especialmente com uso prolongado.",
+    "aviso_grave": "TRIAGEM OBRIGATÓRIA PARA TUBERCULOSE antes de iniciar — teste tuberculínico (PPD) e/ou IGRA (QuantiFERON). TB latente deve ser tratada por pelo menos 1 mês (geralmente 9 meses) antes do adalimumabe. Monitorar sinais de infecção durante todo o tratamento — febre, tosse persistente, suores noturnos exigem investigação imediata. Não usar em insuficiência cardíaca grave (NYHA III/IV). SUSPENDER imediatamente se infecção grave ou sepse. Não administrar vacinas de vírus vivo durante o tratamento. Risco aumentado de linfoma e câncer de pele não melanoma — proteção solar e dermatologista anual.",
+    "recomendacao": "☎️ LIGUE SAMU (192) se: febre alta com calafrios, dificuldade para respirar intensa, confusão mental ou pressão muito baixa — podem indicar infecção grave ou sepse.",
+    "educacao": "A injeção subcutânea pode ser aprendida para aplicação em casa — o médico ou enfermeiro orientará a técnica. Alternar o local de aplicação a cada injeção (abdome, coxas). Guardar sempre na geladeira (2–8°C), nunca no freezer — retirar 30 min antes de aplicar para atingir temperatura ambiente e reduzir a dor. Não pular doses sem avisar o reumatologista. Atualizar vacinas inativadas (influenza anual, pneumococo, hepatite B) antes ou durante o tratamento.",
+    "resposta_rapida": [
+      "Imunobiológico anti-TNF — artrite, psoríase, Crohn, espondilite",
+      "Injeção subcutânea a cada 2 semanas (AR)",
+      "Triagem obrigatória para TB antes de iniciar",
+      "Guardar na geladeira — nunca congelar",
+      "Relatar qualquer febre ou infecção ao médico imediatamente"
+    ],
+    "sinonimos": [
+      "humira",
+      "adalimumab",
+      "adalimumabe biosimilar",
+      "cyltezo",
+      "hadlima",
+      "hyrimoz",
+      "imraldi"
+    ],
+    "classe_receita": "TARJADO_PRATICA",
+    "receita_display": "🔴 Receita Simples",
+    "receita_descricao": "Exige prescrição médica especializada. Medicamento de alto custo dispensado pelo SUS.",
+    "receita_cor": "vermelho",
+    "receita_obrigatoria": true,
+    "tipo_receita": "simples",
+    "retencao_receita": false,
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Para que serve o adalimumabe (Humira)?",
+        "resposta": "O adalimumabe é um medicamento biológico usado para tratar doenças autoimunes inflamatórias moderadas a graves quando os tratamentos convencionais (como metotrexato) não foram suficientes. As principais indicações incluem: artrite reumatoide, artrite psoriásica, psoríase em placas, doença de Crohn, retocolite ulcerativa, espondilite anquilosante e uveíte não infecciosa."
+      },
+      {
+        "pergunta": "O adalimumabe está disponível pelo SUS?",
+        "resposta": "Sim, para indicações aprovadas no Protocolo Clínico e Diretrizes Terapêuticas (PCDT) do Ministério da Saúde. O paciente precisa de laudo médico de especialista, documentação da falha de tratamentos anteriores e solicitação via Sistema Único de Saúde. A dispensação ocorre nas farmácias de componente especializado (alto custo) do SUS. Biosimilares do adalimumabe também estão disponíveis, com eficácia e segurança equivalentes."
+      },
+      {
+        "pergunta": "Por que preciso fazer exame de tuberculose antes de iniciar o adalimumabe?",
+        "resposta": "O adalimumabe suprime o TNF-α, que é fundamental na formação dos granulomas que 'encapsulam' a tuberculose latente. Ao bloquear o TNF-α, o organismo perde a capacidade de manter a TB controlada, e a infecção latente pode se reativar — às vezes de forma grave e disseminada. Por isso, todo paciente deve ser rastreado (PPD/IGRA) e, se positivo, tratar a TB latente antes de iniciar o biológico."
+      },
+      {
+        "pergunta": "Posso tomar vacinas durante o tratamento com adalimumabe?",
+        "resposta": "Vacinas inativadas (influenza, pneumococo, hepatite B, tétano) são seguras e altamente recomendadas — idealmente atualizar antes de iniciar o tratamento, quando a resposta imune ainda é plena. Vacinas de vírus vivos (febre amarela, varicela, BCG, sarampo) são CONTRAINDICADAS durante o tratamento. Se precisar de vacina de febre amarela por viagem, discuta com o reumatologista sobre janela terapêutica."
+      },
+      {
+        "pergunta": "A injeção do adalimumabe dói muito?",
+        "resposta": "A maioria dos pacientes descreve a injeção como de leve a moderada — semelhante a uma picada. Para reduzir o desconforto: retire da geladeira 30 minutos antes, aplique gelo local por 2–3 minutos antes, injete devagar e alterne os locais de aplicação (abdome, coxas, braços). A dor tende a diminuir com o tempo à medida que o paciente se familiariza com a técnica."
+      },
+      {
+        "pergunta": "Posso engravidar tomando adalimumabe?",
+        "resposta": "Os dados disponíveis não indicam risco aumentado de malformações. O adalimumabe atravessa a placenta especialmente no 2º e 3º trimestres, e bebês expostos in utero têm imunossupressão temporária — não devem receber vacinas de vírus vivos nos primeiros 6 meses de vida. Discuta com o reumatologista e o obstetra antes de engravidar — a decisão envolve equilíbrio entre atividade da doença e risco fetal."
+      },
+      {
+        "pergunta": "Quanto tempo leva para o adalimumabe fazer efeito?",
+        "resposta": "A resposta inicial pode ser percebida em 2–4 semanas, mas a melhora máxima costuma ocorrer em 3–6 meses de tratamento. Não interrompa por falta de resposta precoce — dê o tempo necessário. Se após 6 meses não houver melhora significativa, o reumatologista avaliará trocar para outro biológico."
+      },
+      {
+        "pergunta": "Posso usar adalimumabe com metotrexato?",
+        "resposta": "Sim — a combinação é frequente e bem estabelecida na artrite reumatoide. O metotrexato potencializa o efeito do adalimumabe e reduz a formação de anticorpos anti-medicamento (que podem diminuir sua eficácia com o tempo). É necessário monitorar enzimas hepáticas regularmente, pois ambos os medicamentos têm potencial hepatotóxico somado."
+      }
+    ],
+    "descricao_seo": "Adalimumabe (Humira) é um anticorpo monoclonal anti-TNF-α indicado para: artrite reumatoide, psoríase, doença de Crohn, retocolite ulcerativa e espondilite anquilosante. Administrado por injeção subcutânea a cada 2 semanas. Disponível pelo SUS. Efeitos colaterais mais relatados: infecções e reações no local da injeção. Atenção: triagem obrigatória para tuberculose antes de iniciar.",
+    "alerta_farmaceutico": "Dispensação especializada. Verificar: (1) Triagem TB realizada e documentada. (2) Não associar com outros biológicos — risco de infecção grave e reações graves. (3) Contraindicado em IC grave (NYHA III/IV). (4) Vacinas vivas contraindicadas. (5) Armazenamento: 2–8°C — verificar cadeia de frio antes de dispensar. Biosimilares disponíveis — verificar indicação e concordância com o prescritor antes de substituição.",
+    "quando_procurar_medico": "Procure médico URGENTE se: febre alta (>38,5°C) com calafrios, tosse persistente com expectoração (possível TB reativada), dificuldade para respirar, confusão mental, sinais de infecção grave. Procure em breve: reação intensa no local da injeção que não melhora, nódulos, manchas na pele novas, sintomas neurológicos (formigamento, fraqueza).",
+    "interacoes": [
+      {
+        "com": [
+          "metotrexato"
+        ],
+        "nivel": "moderado",
+        "titulo": "Adalimumabe + Metotrexato (Combinação Frequente — Monitorar Hepatotoxicidade)",
+        "efeito": "Combinação amplamente usada na AR — aumenta a eficácia e reduz anticorpos anti-adalimumabe. Porém, hepatotoxicidade pode ser aditiva.",
+        "conduta": "⚠️ Monitorar enzimas hepáticas (TGO, TGP) a cada 3 meses. Suplementar ácido fólico conforme prescrito. Evitar álcool."
+      },
+      {
+        "com": [
+          "anakinra",
+          "abatacepte",
+          "tocilizumabe",
+          "rituximabe",
+          "certolizumabe",
+          "golimumabe",
+          "infliximabe",
+          "etanercepte",
+          "secuquinumabe",
+          "ixequizumabe",
+          "ustequinumabe"
+        ],
+        "nivel": "alto",
+        "titulo": "Adalimumabe + Outro Biológico (Contraindicado — Risco de Infecção Grave)",
+        "efeito": "Imunossupressão excessiva — infecções graves, sepse e morte foram relatados.",
+        "conduta": "❌ Contraindicado. Nunca combinar dois biológicos. Respeitar período de washout ao trocar de biológico."
+      }
+    ]
+  },
+  {
     "nome": "Adapaleno 0,1% - 0,3% Gel",
     "generico": "Adapaleno",
     "tipo": "Retinoide Tópico / Antiacneico",
@@ -5150,7 +5252,7 @@
     "descricao": "É indicada para o alívio de dores leves a moderadas (cabeça, dente, garganta, muscular, articular, menstrual, nas costas) e para febre e dores em gripes e resfriados",
     "receita": "Não",
     "efeitos": "Úlcera, hemorragia gastrointestinal, Síndrome de Reye em crianças",
-    "aviso_grave": "",
+    "aviso_grave": "Em crianças e adolescentes com quadros virais (gripe, varicela): CONTRAINDICADO — risco de Síndrome de Reye, doença rara e potencialmente fatal que afeta cérebro e fígado. Usar paracetamol ou ibuprofeno nesses casos. Em doses antiagregantes (100–200 mg/dia): NUNCA suspender abruptamente em pacientes com stent coronário sem orientação do cardiologista — risco de trombose do stent com infarto. Risco de sangramento gastrointestinal aumenta com AINEs, varfarina e álcool. Contraindicado em pacientes com histórico de úlcera ativa ou sangramento GI recente.",
     "recomendacao": "☎️ LIGUE SAMU (192) em caso de reação alérgica severa, dificuldade respiratória ou perda de consciência",
     "educacao": "Sempre consulte um farmacêutico ou médico antes de usar",
     "resposta_rapida": [
@@ -5348,6 +5450,16 @@
         "efeito": "AAS inibe prostaglandinas vasodilatadoras — pode atenuar o efeito anti-hipertensivo e a proteção renal dos IECAs, especialmente em doses acima de 100mg.",
         "conduta": "⚠️ Doses cardioprotetoras (100mg/dia) têm impacto clínico mínimo. Evitar AAS em doses altas em pacientes com IECA para hipertensão ou insuficiência cardíaca."
       }
+    ],
+    "sinonimos": [
+      "aas",
+      "aspirina",
+      "melhoral",
+      "ácido acetilsalicílico",
+      "aspirin",
+      "acido acetilsalicilico",
+      "bufferin",
+      "infantil aspirina"
     ]
   },
   {
@@ -11084,7 +11196,7 @@
     "receita": "Sim",
     "receita_nota": "Prescrição médica obrigatória. Receita válida por 30 dias.",
     "efeitos": "Movimentos involuntários, alucinações",
-    "aviso_grave": "",
+    "aviso_grave": "NUNCA interromper abruptamente — risco de síndrome maligna da levodopa (hipertermia, rigidez muscular intensa, instabilidade autonômica, semelhante à síndrome maligna dos neurolépticos). Reduzir sempre de forma gradual com supervisão neurológica. IMAOs não seletivos (fenelzina, tranilcipromina) são CONTRAINDICADOS — risco de crise hipertensiva grave. Hipotensão ortostática é comum — paciente deve sentar antes de se levantar. Alucinações e distúrbios do controle de impulsos (jogo patológico, hipersexualidade) podem ocorrer — relatar ao neurologista.",
     "recomendacao": "☎️ LIGUE SAMU (192) se alucinações severas",
     "educacao": "Requer monitoramento contínuo",
     "resposta_rapida": [
@@ -11183,6 +11295,15 @@
         "efeito": "Antipsicóticos típicos (haloperidol, risperidona, clorpromazina) bloqueiam receptores de dopamina — efeito diretamente oposto ao da levodopa e do pramipexol, que estimulam o sistema dopaminérgico. A combinação anula o tratamento do Parkinson e pode precipitar crise parkinsônica grave com rigidez extrema.",
         "conduta": "❌ Contraindicado em pacientes com Doença de Parkinson. Se sedação ou antipsicótico for necessário em parkinsoniano, usar clozapina ou quetiapina em dose baixa (são os únicos com menor bloqueio dopaminérgico nigroestriatal)."
       }
+    ],
+    "sinonimos": [
+      "sinemet",
+      "prolopa",
+      "levodopa",
+      "carbidopa",
+      "levodopa + carbidopa",
+      "levodopa + benserazida",
+      "madopar"
     ]
   },
   {
@@ -42008,7 +42129,10 @@
     "sinonimos": [
       "Zofran",
       "Zofran ODT",
-      "Ondansetrona EMS"
+      "Ondansetrona EMS",
+      "Vonau",
+      "Vonau Flash",
+      "ondansetron"
     ],
     "receita_obrigatoria": true,
     "tipo_receita": "simples",

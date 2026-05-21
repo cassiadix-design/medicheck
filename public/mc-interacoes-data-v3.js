@@ -1764,5 +1764,203 @@ mcInteracoesDB = mcInteracoesDB.concat([
   }
 ]);
 
+
+mcInteracoesDB = mcInteracoesDB.concat([
+  {
+    "med1": [
+      "ácido acetilsalicílico",
+      "aas",
+      "aspirina",
+      "melhoral"
+    ],
+    "med2": [
+      "warfarina",
+      "varfarina",
+      "acenocumarol",
+      "rivaroxabana",
+      "apixabana",
+      "dabigatrana",
+      "edoxabana"
+    ],
+    "nivel": "alto",
+    "titulo": "AAS + Anticoagulante (Risco Elevado de Hemorragia)",
+    "mecanismo": "O AAS inibe irreversivelmente a COX-1 plaquetária, suprimindo a síntese de tromboxano A2 e reduzindo a agregação plaquetária. Combinado com anticoagulantes orais (varfarina ou NOACs), o duplo bloqueio da hemostasia — antiagregação + anticoagulação — multiplica o risco de hemorragia gastrointestinal, intracraniana e em outros sítios. O risco é dose-dependente para o AAS: doses acima de 100 mg/dia associam-se a risco significativamente maior.",
+    "efeito": "Risco muito elevado de sangramento grave — hemorragia GI, hematúria, sangramento intracraniano. O risco de sangramento GI é 3–4 vezes maior do que com cada fármaco isolado.",
+    "conduta": "⚠️ A combinação é usada em indicações específicas (ex: síndrome coronariana aguda + FA com anticoagulação), sempre com avaliação rigorosa do risco-benefício pelo cardiologista. Fora dessas indicações: EVITAR. Monitorar INR regularmente se usando varfarina. Associar protetor gástrico (IBP) obrigatoriamente quando a combinação é necessária."
+  },
+  {
+    "med1": [
+      "ácido acetilsalicílico",
+      "aas",
+      "aspirina"
+    ],
+    "med2": [
+      "ibuprofeno",
+      "naproxeno",
+      "cetoprofeno"
+    ],
+    "nivel": "moderado",
+    "titulo": "AAS (Dose Baixa) + Ibuprofeno / Naproxeno (Bloqueio Competitivo da COX-1 — Perda do Efeito Antiagregante)",
+    "mecanismo": "O efeito antiagregante do AAS em dose baixa (100 mg) depende da acetilação irreversível do sítio ativo da COX-1 plaquetária. AINEs como ibuprofeno e naproxeno se ligam reversivelmente ao mesmo sítio ANTES do AAS — se tomados juntos ou pouco antes — impedindo fisicamente o acesso do AAS à COX-1. Isso impede a acetilação irreversível e elimina o efeito antiagregante do AAS, que é transitório, não cumprindo a proteção cardiovascular esperada.",
+    "efeito": "Perda do efeito antiagregante do AAS — especialmente relevante em pacientes com doença coronariana, stent ou AVC prévio que dependem do AAS para prevenção de eventos trombóticos.",
+    "conduta": "⚠️ Se necessário usar AINE, tomar o AAS pelo menos 30 minutos ANTES do ibuprofeno/naproxeno — ou preferir paracetamol, que não interfere. Celecoxibe e outros inibidores seletivos de COX-2 não interferem no efeito do AAS. Alertar o paciente sobre esse conflito."
+  },
+  {
+    "med1": [
+      "ácido acetilsalicílico",
+      "aas",
+      "aspirina"
+    ],
+    "med2": [
+      "metotrexato"
+    ],
+    "nivel": "alto",
+    "titulo": "AAS + Metotrexato (Elevação da Toxicidade do Metotrexato)",
+    "mecanismo": "O AAS compete com o metotrexato pela secreção tubular renal (via transportadores orgânicos OAT1/OAT3), reduzindo a eliminação renal e elevando os níveis séricos do metotrexato. Em doses altas de AAS (analgésicas/anti-inflamatórias) o risco é maior. Em doses antiagregantes baixas (≤100 mg) o impacto clínico é menor mas presente — especialmente em pacientes com função renal reduzida.",
+    "efeito": "Acúmulo de metotrexato com risco de toxicidade hematológica (mielossupressão), mucosa (mucosite) e renal — mesmo em doses baixas de metotrexato para artrite.",
+    "conduta": "⚠️ Monitorar hemograma e função renal regularmente. Informar ao reumatologista se usar AAS além da dose antiagregante habitual. Dose baixa de AAS (100 mg/dia) em pacientes estáveis em metotrexato semanal costuma ser razoável com monitoramento."
+  },
+  {
+    "med1": [
+      "ondansetrona",
+      "vonau",
+      "vonau flash",
+      "zofran"
+    ],
+    "med2": [
+      "amiodarona",
+      "ancoron",
+      "sotalol",
+      "haloperidol",
+      "haldol",
+      "clorpromazina",
+      "droperidol",
+      "azitromicina",
+      "ciprofloxacino",
+      "levofloxacino",
+      "fluconazol",
+      "citalopram",
+      "escitalopram",
+      "metadona"
+    ],
+    "nivel": "alto",
+    "titulo": "Ondansetrona + Fármacos que Prolongam o QT (Risco de Torsades de Pointes)",
+    "mecanismo": "A ondansetrona bloqueia receptores 5-HT3 mas também inibe canais de potássio hERG, prolongando o intervalo QTc de forma dose-dependente — mais relevante com doses altas (IV > 32 mg dose única, ou ≥ 32 mg/dia oral). Combinada com outros fármacos que prolongam o QT (antiarrítmicos, antipsicóticos, antibióticos, antidepressivos), o prolongamento se soma, elevando o risco de taquicardia ventricular polimórfica (torsades de pointes — TdP), que pode degenerar em fibrilação ventricular.",
+    "efeito": "Prolongamento do QTc com risco de arritmia ventricular grave (torsades de pointes) e morte súbita cardíaca.",
+    "conduta": "⚠️ Monitorar o ECG (QTc) ao combinar ondansetrona com outros fármacos que prolongam o QT. Limitar a dose máxima de ondansetrona IV a 16 mg por dose (e 32 mg/dia). Corrigir hipocalemia e hipomagnesemia antes de administrar. Evitar a associação em pacientes com QTc basal > 500 ms ou síndrome do QT longo congênito."
+  },
+  {
+    "med1": [
+      "ondansetrona",
+      "vonau",
+      "zofran"
+    ],
+    "med2": [
+      "tramadol",
+      "tramal"
+    ],
+    "nivel": "moderado",
+    "titulo": "Ondansetrona + Tramadol (Redução do Efeito Analgésico do Tramadol)",
+    "mecanismo": "O tramadol exerce parte de seu efeito analgésico através de mecanismo serotoninérgico, incluindo agonismo indireto em receptores 5-HT3. A ondansetrona, sendo antagonista 5-HT3, bloqueia essa via e pode reduzir o componente analgésico serotonérgico do tramadol. Estudos clínicos demonstraram redução de 30–50% na eficácia analgésica do tramadol quando co-administrado com ondansetrona.",
+    "efeito": "Redução significativa do efeito analgésico do tramadol — o paciente pode necessitar de doses maiores ou de analgésico alternativo para controle adequado da dor.",
+    "conduta": "⚠️ Evitar a combinação em pacientes que precisam de analgesia com tramadol. Preferir analgésicos sem componente 5-HT3 (paracetamol, dipirona, opioides puros) quando ondansetrona for necessária. Se ambos forem usados, monitorar eficácia analgésica e considerar aumentar dose do tramadol ou trocar o analgésico."
+  },
+  {
+    "med1": [
+      "ondansetrona",
+      "vonau",
+      "zofran"
+    ],
+    "med2": [
+      "sertralina",
+      "fluoxetina",
+      "paroxetina",
+      "escitalopram",
+      "citalopram",
+      "venlafaxina",
+      "duloxetina"
+    ],
+    "nivel": "moderado",
+    "titulo": "Ondansetrona + ISRS / IRSN (Síndrome Serotoninérgica — Risco Baixo mas Presente)",
+    "mecanismo": "Paradoxalmente, embora a ondansetrona bloqueie receptores 5-HT3, o bloqueio desse subtipo em neurônios inibitórios pode, em alguns casos, aumentar a atividade serotoninérgica líquida em outras vias. Associada a antidepressivos que aumentam a serotonina sináptica (ISRS, IRSN), há relatos de síndrome serotoninérgica leve a moderada — embora o risco seja menor do que com outros antiemético (metoclopramida, por exemplo).",
+    "efeito": "Síndrome serotoninérgica leve: agitação, tremores, hiperreflexia, diarreia e sudorese excessiva. Em casos raros, síndrome mais grave.",
+    "conduta": "⚠️ Monitorar sinais de síndrome serotoninérgica ao usar a combinação: agitação súbita, tremor, diarreia, sudorese ou temperatura elevada. Se sintomas surgirem, suspender e buscar avaliação médica. O risco aumenta com doses altas de ondansetrona IV."
+  },
+  {
+    "med1": [
+      "levodopa",
+      "carbidopa + levodopa",
+      "sinemet",
+      "prolopa",
+      "levodopa + benserazida"
+    ],
+    "med2": [
+      "fenelzina",
+      "tranilcipromina",
+      "isocarboxazida"
+    ],
+    "nivel": "alto",
+    "titulo": "Levodopa + IMAO Não Seletivo (Crise Hipertensiva Grave — Contraindicado)",
+    "mecanismo": "IMAOs não seletivos (fenelzina, tranilcipromina) inibem a monoaminoxidase A e B, bloqueando a degradação de dopamina, norepinefrina e serotonina. A levodopa aumenta a disponibilidade de dopamina e seus precursores. A combinação causa acúmulo maciço de catecolaminas — levando a crise hipertensiva grave, taquiarritmias e risco de hemorragia intracraniana.",
+    "efeito": "Crise hipertensiva (PA diastólica >120 mmHg), taquiarritmia, dor de cabeça excruciante, sudorese intensa e risco de AVC hemorrágico.",
+    "conduta": "❌ CONTRAINDICADO. Suspender o IMAO não seletivo pelo menos 14 dias antes de iniciar a levodopa. Selegilina e rasagilina (IMAOs seletivos-B, usados no próprio Parkinson) podem ser combinados com cautela e sob protocolo específico. Safinamida tem perfil de interação diferente — verificar com o neurologista."
+  },
+  {
+    "med1": [
+      "levodopa",
+      "carbidopa + levodopa",
+      "sinemet",
+      "prolopa"
+    ],
+    "med2": [
+      "sulfato ferroso",
+      "fumarato ferroso",
+      "gluconato ferroso",
+      "ferro polimaltosado"
+    ],
+    "nivel": "moderado",
+    "titulo": "Levodopa + Ferro Oral (Redução Significativa da Absorção)",
+    "mecanismo": "Íons de ferro (Fe²⁺ e Fe³⁺) formam quelatos insolúveis com a levodopa no trato gastrointestinal, reduzindo sua absorção em até 50%. O efeito é dose-dependente da quantidade de ferro e da proximidade temporal entre as administrações. A carbidopa sofre a mesma quelação.",
+    "efeito": "Redução de até 50% na biodisponibilidade da levodopa — piora do controle dos sintomas de Parkinson, com retorno de tremor, rigidez e bradicinesia.",
+    "conduta": "⚠️ Separar a administração de levodopa e ferro oral por pelo menos 2 horas (ferro primeiro, levodopa depois; ou levodopa primeiro e ferro 2h depois). Se ferro for imprescindível, monitorar o controle do Parkinson e considerar ajuste de dose com o neurologista."
+  },
+  {
+    "med1": [
+      "adalimumabe",
+      "humira"
+    ],
+    "med2": [
+      "metotrexato"
+    ],
+    "nivel": "moderado",
+    "titulo": "Adalimumabe + Metotrexato (Combinação Sinérgica — Monitorar Hepatotoxicidade)",
+    "mecanismo": "A combinação de adalimumabe com metotrexato é a estratégia padrão em artrite reumatoide moderada a grave — o metotrexato reduz a imunogenicidade (formação de anticorpos anti-adalimumabe) e potencializa o efeito terapêutico. No entanto, ambos têm potencial hepatotóxico: o metotrexato causa lesão hepática cumulativa e o adalimumabe pode elevar enzimas hepáticas independentemente. A imunossupressão combinada também eleva o risco infeccioso.",
+    "efeito": "Hepatotoxicidade aditiva (elevação de TGO/TGP, raramente fibrose hepática com metotrexato prolongado) e imunossupressão aumentada com maior suscetibilidade a infecções.",
+    "conduta": "⚠️ Monitorar enzimas hepáticas (TGO, TGP, fosfatase alcalina) a cada 1–3 meses. Suplementar ácido fólico (5–10 mg/semana) para reduzir toxicidade do metotrexato. Evitar álcool. Rastrear e tratar TB latente antes de iniciar a combinação. Vacinas inativadas em dia."
+  },
+  {
+    "med1": [
+      "adalimumabe",
+      "humira",
+      "infliximabe",
+      "etanercepte",
+      "certolizumabe",
+      "golimumabe"
+    ],
+    "med2": [
+      "prednisolona",
+      "prednisona",
+      "metilprednisolona",
+      "dexametasona",
+      "budesonida"
+    ],
+    "nivel": "moderado",
+    "titulo": "Anti-TNF + Corticóide Sistêmico (Imunossupressão Cumulativa — Infecções e TB)",
+    "mecanismo": "Biológicos anti-TNF e corticóides sistêmicos têm efeitos imunossupressores distintos mas complementares — anti-TNF bloqueando a via do TNF-α e corticóides suprimindo amplamente a imunidade celular e humoral. A combinação eleva substancialmente o risco de infecções oportunistas (tuberculose, pneumocistose, fungos invasivos, infecções bacterianas graves).",
+    "efeito": "Risco aumentado de infecções graves e oportunistas — especialmente tuberculose, pneumonia por Pneumocystis jirovecii e fungos invasivos.",
+    "conduta": "⚠️ Usar a menor dose de corticóide pelo menor tempo possível. Manter triagem e profilaxia para TB em dia. Considerar profilaxia para Pneumocystis em uso prolongado de doses imunossupressoras de corticóide. Monitorar sinais de infecção ativamente."
+  }
+]);
+
 var mcIECAnomes = ["captopril","enalapril","lisinopril","ramipril","perindopril"];
 var mcBRAnomes  = ["losartana","valsartana","olmesartana","irbesartana","candesartana","telmisartana"];
