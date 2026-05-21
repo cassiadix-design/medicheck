@@ -1271,7 +1271,7 @@ border-radius:0 0 20px 20px;
                     'iressa':'gefitinibe','gefitinib':'gefitinibe',
                     'revlimid':'lenalidomida','lenalidomide':'lenalidomida',
                 };
-                function mcNorm(n) { const k = n.toLowerCase().trim(); return mcAlias[k] || n; }
+                function mcNorm(n) { const normStr = s => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase(); const k = normStr(n.trim()); return mcAlias[k] || n; }
 
                 // ===== DETECÇÃO DE DUPLICAÇÃO TERAPÊUTICA =====
                 /* mcClassesDuplicacao movido para mc-interacoes-data.js */
@@ -1346,13 +1346,15 @@ border-radius:0 0 20px 20px;
 
                 function mcBuscarFixo(m1, m2) {
                     if (!Array.isArray(mcInteracoesDB)) return null;
+                    const normStr = s => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+                    const n1 = normStr(m1), n2 = normStr(m2);
                     for (const inter of mcInteracoesDB) {
                         // Sentido direto: m1 ∈ med1 e m2 ∈ med2
-                        const direto = inter.med1.some(m => m1.includes(m) || m.includes(m1)) &&
-                                       inter.med2.some(m => m2.includes(m) || m.includes(m2));
+                        const direto = inter.med1.some(m => { const nm = normStr(m); return n1.includes(nm) || nm.includes(n1); }) &&
+                                       inter.med2.some(m => { const nm = normStr(m); return n2.includes(nm) || nm.includes(n2); });
                         // Sentido inverso: m1 ∈ med2 e m2 ∈ med1
-                        const inverso = inter.med2.some(m => m1.includes(m) || m.includes(m1)) &&
-                                        inter.med1.some(m => m2.includes(m) || m.includes(m2));
+                        const inverso = inter.med2.some(m => { const nm = normStr(m); return n1.includes(nm) || nm.includes(n1); }) &&
+                                        inter.med1.some(m => { const nm = normStr(m); return n2.includes(nm) || nm.includes(n2); });
                         if (direto || inverso) return inter;
                     }
                     return null;
@@ -1438,7 +1440,8 @@ border-radius:0 0 20px 20px;
                     const rodapeIA = '<p style="font-size:11px;color:#999;margin-top:8px;">✦ Analisado por Inteligência Artificial — Conteúdo educacional. Consulte sempre seu farmacêutico.</p>';
 
                     // 1. Duplicação terapêutica
-                    const dupl = mcDetectarDuplicacao(m1.toLowerCase(), m2.toLowerCase());
+                    const normStrVP = s => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+                    const dupl = mcDetectarDuplicacao(normStrVP(m1), normStrVP(m2));
                     if (dupl) {
                         const textosDupl = { alto: '🔴 RISCO ALTO', moderado: '🟡 RISCO MODERADO' };
                         nivelEl.className = 'mc-nivel-ia ' + dupl.nivel;
