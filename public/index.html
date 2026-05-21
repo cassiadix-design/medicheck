@@ -1182,7 +1182,10 @@ border-radius:0 0 20px 20px;
                     <small>MediCheck © 2026 — Não substitui orientação médica ou farmacêutica profissional.</small>
                 </div>
 
-                <script src="/mc-interacoes-data-v3.js"></script>
+                <script>
+                /* Cache-busting: injeta o script com ?v=timestamp para forçar download da versão mais recente */
+                document.write('\x3Cscript src="/mc-interacoes-data-v3.js?v=' + Date.now() + '"\x3E\x3C\/script\x3E');
+                </script>
                 <script src="/config.js" onerror="void 0"></script>
 
                 <script>
@@ -1799,7 +1802,7 @@ border-radius:0 0 20px 20px;
 
 // Carrega os medicamentos após a página renderizar (lazy loading)
 window.addEventListener('DOMContentLoaded', () => {
-    fetch('/medicamentos.json')
+    fetch('/medicamentos.json?v=' + Date.now())
         .then(r => r.json())
         .then(data => {
             medicamentosData = data;

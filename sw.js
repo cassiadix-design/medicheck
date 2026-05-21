@@ -1,12 +1,12 @@
 // MediCheck Service Worker
-const CACHE_NAME = 'medicheck-v7';
+const CACHE_NAME = 'medicheck-v8';
 const STATIC_ASSETS = [
   '/manifest.json',
   '/icons/icon-192.png',
   '/icons/icon-512.png',
   '/favicon.png'
 ];
-const DATA_CACHE = 'medicheck-data-v7';
+const DATA_CACHE = 'medicheck-data-v8';
 
 // Instala e faz cache dos arquivos estáticos (resiliente: falha individual não cancela install)
 self.addEventListener('install', event => {
@@ -36,29 +36,37 @@ self.addEventListener('activate', event => {
 self.addEventListener('fetch', event => {
   const url = new URL(event.request.url);
 
-  // medicamentos.json: cache-first com fallback de rede
-  if (url.pathname === '/medicamentos.json') {
+  // mc-interacoes-data-v3.js: sempre buscar da rede (cache-busting via ?v=timestamp)
+  if (url.pathname === '/mc-interacoes-data-v3.js') {
     event.respondWith(
-      caches.open(DATA_CACHE).then(async cache => {
-        const cached = await cache.match(event.request);
-        if (cached) {
-          // Atualiza em background sem bloquear
-          fetch(event.request)
-            .then(res => { if (res.ok) cache.put(event.request, res); })
-            .catch(() => {});
-          return cached;
-        }
-        const response = await fetch(event.request);
-        if (response.ok) cache.put(event.request, response.clone());
-        return response;
-      })
+      fetch(event.request).catch(() => caches.match('/mc-interacoes-data-v3.js'))
     );
     return;
   }
 
-  // Arquivos estáticos: cache-first
+  // medicamentos.json: network-first, fallback para cache sem query string
+  if (url.pathname === '/medicamentos.json') {
+    event.respondWith(
+      fetch(event.request)
+        .then(response => {
+          if (response.ok) {
+            const clone = response.clone();
+            // Armazena sem query string para reutilizar como fallback offline
+            caches.open(DATA_CACHE).then(cache =>
+              cache.put(new Request('/medicamentos.json'), clone)
+            );
+          }
+          return response;
+        })
+        .catch(() => caches.match('/medicamentos.json'))
+    );
+    return;
+  }
+
+  // Arquivos estáticos: cache-first (sem cache para URLs com query string)
   if (
     event.request.method === 'GET' &&
+    !url.search &&
     (url.origin === location.origin || url.pathname.startsWith('/icons/'))
   ) {
     event.respondWith(
