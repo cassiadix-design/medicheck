@@ -1962,5 +1962,38 @@ mcInteracoesDB = mcInteracoesDB.concat([
   }
 ]);
 
+
+mcInteracoesDB = mcInteracoesDB.concat([
+  {
+    "med1": [
+      "ácido tranexâmico",
+      "acido tranexamico",
+      "transamin",
+      "hemoblock",
+      "tranexamic acid"
+    ],
+    "med2": [
+      "heparina",
+      "heparina não fracionada",
+      "heparina de baixo peso molecular",
+      "enoxaparina",
+      "dalteparina",
+      "fondaparinux",
+      "warfarina",
+      "varfarina",
+      "acenocumarol",
+      "rivaroxabana",
+      "apixabana",
+      "dabigatrana",
+      "edoxabana"
+    ],
+    "nivel": "alto",
+    "titulo": "Ácido Tranexâmico + Anticoagulante (Risco de Trombose — Antagonismo Farmacológico)",
+    "mecanismo": "O ácido tranexâmico é um antifibrinolítico — inibe a conversão de plasminogênio em plasmina, estabilizando coágulos já formados e reduzindo a fibrinólise. Os anticoagulantes (heparina, varfarina, NOACs) agem nas etapas de formação do coágulo (cascata de coagulação). A combinação cria desequilíbrio hemostático em direção à trombose: o antifibrinolítico impede a dissolução de coágulos enquanto os anticoagulantes bloqueiam apenas a formação de novos — coágulos já formados ficam protegidos da lise e podem crescer ou embolizar. Em situações específicas a combinação é usada deliberadamente (ex: cirurgia em paciente anticoagulado com sangramento ativo), mas exige controle rigoroso.",
+    "efeito": "Risco aumentado de trombose venosa (TVP, TEP) e arterial (AVC, IAM), especialmente em pacientes com fatores de risco trombótico preexistentes. A fibrinólise inibida pelo tranexâmico remove o mecanismo fisiológico de dissolução dos trombos que o anticoagulante não cobre.",
+    "conduta": "❌ Evitar a combinação fora de contexto hospitalar especializado. Em situações de emergência hemorrágica em paciente anticoagulado, o uso de tranexâmico pode ser necessário — porém com monitoramento intensivo de parâmetros de coagulação (tempo de protrombina, TTPa, anti-Xa) e vigilância para sinais de trombose (dor e edema em membros, dispneia súbita, déficit neurológico focal). Suspender o tranexâmico assim que o sangramento estiver controlado."
+  }
+]);
+
 var mcIECAnomes = ["captopril","enalapril","lisinopril","ramipril","perindopril"];
 var mcBRAnomes  = ["losartana","valsartana","olmesartana","irbesartana","candesartana","telmisartana"];
