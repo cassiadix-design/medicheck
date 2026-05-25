@@ -166,6 +166,7 @@ border-radius:0 0 20px 20px;
             text-align: left;
             font-weight: 600;
             color: #333;
+            text-decoration: none;
             transition: 0.3s;
             font-size: 16px;
             display: flex;
@@ -1952,35 +1953,16 @@ window.addEventListener('DOMContentLoaded', () => {
             const end = start + itemsPerPage;
             const pageMeds = searchResults.slice(start, end);
 
-            let currentMedicineIndex = -1;
-
-            pageMeds.forEach((med, index) => {
-                const btn = document.createElement('button');
+            pageMeds.forEach((med) => {
+                const btn = document.createElement('a');
                 btn.className = 'medicine-btn';
+                btn.href = '/medicamento/' + slugify(med.nome) + '/';
                 const cor = med.receita_cor === 'verde' ? '#27ae60' : med.receita_cor === 'amarelo' ? '#e8751a' : '#c0392b';
                 const bgCor = med.receita_cor === 'verde' ? '#e8f8f0' : med.receita_cor === 'amarelo' ? '#fef3e2' : '#fde8e8';
                 const icone = med.receita_cor === 'verde' ? '🟢' : med.receita_cor === 'amarelo' ? '🟡' : '🔴';
                 const textoReceita = med.receita_cor === 'verde' ? 'Venda Livre' : med.receita_cor === 'amarelo' ? 'Tarjado' : 'Com Receita';
                 btn.innerHTML = '<span style="flex:1;text-align:left;">' + med.nome + '</span><span style="font-size:11px;font-weight:700;padding:3px 10px;border-radius:12px;white-space:nowrap;background:' + bgCor + ';color:' + cor + ';border:1px solid ' + cor + ';">' + icone + ' ' + textoReceita + '</span>';
                 btn.style.cssText = 'display:flex;align-items:center;gap:10px;justify-content:space-between;';
-                btn.onclick = () => openMedicineModal(med);
-                btn.addEventListener('keydown', (e) => {
-                    if (e.key === 'Enter') {
-                        e.preventDefault();
-                        currentMedicineIndex = index;
-                        // Próximo medicamento
-                        if (currentMedicineIndex < pageMeds.length - 1) {
-                            const nextBtn = medicineGrid.querySelectorAll('.medicine-btn')[currentMedicineIndex + 1];
-                            if (nextBtn) nextBtn.focus();
-                        } else if (currentPage < totalPages - 1) {
-                            renderMedicines(currentPage + 1);
-                            setTimeout(() => {
-                                const firstBtn = medicineGrid.querySelector('.medicine-btn');
-                                if (firstBtn) firstBtn.focus();
-                            }, 100);
-                        }
-                    }
-                });
                 medicineGrid.appendChild(btn);
             });
 
