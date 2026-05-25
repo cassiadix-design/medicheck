@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página não encontrada — MediCheck</title>
+    <meta name="robots" content="noindex">
+    <!-- Fallback meta-refresh sem parâmetros -->
+    <meta http-equiv="refresh" content="5; url=https://medicheck.med.br/">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        .card {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            max-width: 500px;
+            width: 100%;
+            padding: 50px 40px;
+            text-align: center;
+        }
+        .emoji { font-size: 64px; margin-bottom: 20px; }
+        h1 {
+            font-size: 28px;
+            color: #667eea;
+            margin-bottom: 12px;
+            font-weight: 700;
+        }
+        p {
+            font-size: 16px;
+            color: #555;
+            line-height: 1.7;
+            margin-bottom: 8px;
+        }
+        .counter {
+            font-size: 14px;
+            color: #999;
+            margin-top: 20px;
+        }
+        .btn {
+            display: inline-block;
+            margin-top: 24px;
+            padding: 14px 32px;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 16px;
+            transition: opacity 0.2s;
+        }
+        .btn:hover { opacity: 0.88; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="emoji">💊</div>
+        <h1>Página não encontrada</h1>
+        <p>A URL que você acessou não existe no MediCheck.</p>
+        <p>Você será redirecionado automaticamente para a página inicial.</p>
+        <div class="counter" id="counter">Redirecionando em <strong id="secs">5</strong> segundos...</div>
+        <a href="https://medicheck.med.br/" class="btn" id="homeBtn">Ir para o MediCheck agora</a>
+    </div>
+
+    <script>
+        (function () {
+            // Preserva query string da URL original, se houver
+            var qs = window.location.search;
+            var dest = 'https://medicheck.med.br/' + (qs || '');
+
+            // Atualiza o link do botão com o destino correto
+            document.getElementById('homeBtn').href = dest;
+
+            // Contador regressivo
+            var secs = 5;
+            var el = document.getElementById('secs');
+            var timer = setInterval(function () {
+                secs -= 1;
+                if (el) el.textContent = secs;
+                if (secs <= 0) {
+                    clearInterval(timer);
+                    window.location.replace(dest);
+                }
+            }, 1000);
+        })();
+    </script>
+</body>
+</html>
