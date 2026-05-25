@@ -23,8 +23,12 @@ const receitaTxt = medicine.receita_cor === 'verde' ? '#155724'
 
 const descricao  = medicine.descricao || '';
 const metaDesc   = descricao.length > 155 ? descricao.slice(0, 155) + '…' : descricao;
-const canonical  = `https://medicheck.med.br/medicamento/${medicine.slug}/`;
-const pageTitle  = `${medicine.nome} — Para que serve, efeitos e receita | MediCheck`;
+const canonical  = 'https://medicheck.med.br/medicamento/' + medicine.slug + '/';
+const pageTitle  = medicine.nome + ' — Para que serve, efeitos e receita | MediCheck';
+
+// Pré-computados no frontmatter para evitar template literals no JSX
+const badgeStyle = 'color:' + receitaCor;
+const boxStyle   = 'background:' + receitaBg + ';color:' + receitaTxt;
 ---
 
 <Layout title={pageTitle} description={metaDesc} canonical={canonical}>
@@ -260,10 +264,10 @@ const pageTitle  = `${medicine.nome} — Para que serve, efeitos e receita | Med
       <div class="med-section-title">🛑 Necessita receita?</div>
       {medicine.receita_display ? (
         <div>
-          <div class="med-receita-badge" style={`color:${receitaCor}`}>
+          <div class="med-receita-badge" style={badgeStyle}>
             {medicine.receita_display}
           </div>
-          <div class="med-receita-box" style={`background:${receitaBg};color:${receitaTxt}`}>
+          <div class="med-receita-box" style={boxStyle}>
             {medicine.receita_descricao}
             {medicine.receita_nota && (
               <div style="margin-top:6px;font-size:13px;">ℹ️ {medicine.receita_nota}</div>
@@ -290,8 +294,10 @@ const pageTitle  = `${medicine.nome} — Para que serve, efeitos e receita | Med
 
       <!-- Educação -->
       {medicine.educacao && (
-        <div class="med-section-title">💡 Saiba mais</div>
-        <div class="med-educacao">{medicine.educacao}</div>
+        <Fragment>
+          <div class="med-section-title">💡 Saiba mais</div>
+          <div class="med-educacao">{medicine.educacao}</div>
+        </Fragment>
       )}
 
       <!-- Genérico -->
@@ -306,7 +312,7 @@ const pageTitle  = `${medicine.nome} — Para que serve, efeitos e receita | Med
         <div>
           <div class="med-section-title">❓ Perguntas frequentes</div>
           <div class="med-faq">
-            {(medicine.perguntas_frequentes as Array<{pergunta: string; resposta: string}>).map((faq) => (
+            {(medicine.perguntas_frequentes as any[]).map((faq: any) => (
               <details>
                 <summary>❓ {faq.pergunta}</summary>
                 <div class="faq-resp">{faq.resposta}</div>
