@@ -249,8 +249,8 @@ const boxStyle   = 'background:' + receitaBg + ';color:' + receitaTxt;
         <div class="med-rr">
           <div class="med-rr-label">⚡ Resumo rápido</div>
           <div class="med-rr-chips">
-            {(medicine.resposta_rapida as string[]).map((item) => (
-              <span class="med-rr-chip">✔ {item}</span>
+            {(medicine.resposta_rapida as any[]).map((item) => (
+              <span class="med-rr-chip">✔ {typeof item === 'string' ? item : item.texto}</span>
             ))}
           </div>
         </div>
