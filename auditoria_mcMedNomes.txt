@@ -1,0 +1,753 @@
+═══════════════════════════════════════════════════════════════════
+  AUDITORIA: mc-interacoes-data-v3.js × mcMedNomes (index.html)
+  Data: 21/05/2026
+═══════════════════════════════════════════════════════════════════
+
+  Nomes únicos nas interações:  1100
+  Já presentes no mcMedNomes:   367
+  Excluídos (alimentos/classes): 162
+  ADICIONADOS ao mcMedNomes:    571
+  Total mcMedNomes após update:  1004
+
+─── ADICIONADOS ────────────────────────────────────────────────────
+  (571 nomes)
+
+  + 1,25-dihidroxivitamina D
+  + Aas
+  + Abatacepte
+  + Abelcet
+  + Acarbose
+  + Accolate
+  + Aceclofenaco
+  + Acetaminofeno
+  + Acetato de Medroxiprogesterona
+  + Acetilcisteina
+  + Acido Tranexamico
+  + Aclidínio
+  + Acyclovir
+  + Adalimumabe
+  + Adenosina
+  + Adrenalina
+  + Agomelatina
+  + Airtal
+  + Alcaçuz
+  + Alfacalcidol
+  + Alho
+  + Alinia
+  + Aliskiren
+  + Allegra
+  + Almogran
+  + Alogliptina
+  + Amantadina
+  + Ambisome
+  + Amicacina
+  + Aminofilina
+  + Amlodipino
+  + Amoxicilina Clavulanato
+  + Amphotericin
+  + Ampicilina
+  + Anakinra
+  + Anastrozol
+  + Androgel
+  + Anfotericina
+  + Annita
+  + Apomorfina
+  + Apresolina
+  + Arcapta
+  + Asacol
+  + Asmanex
+  + Aspirina
+  + Atarax
+  + Atazanavir/ritonavir
+  + Atomoxetina
+  + Atomoxetine
+  + Atracúrio
+  + Atropina
+  + Avanafila
+  + AZT
+  + Azulfidine
+  + Baricitinibe
+  + Baymycard
+  + Bendroflumetiazida
+  + Benzbromaron
+  + Betahistine
+  + Betaserc
+  + Betmiga
+  + Bilastina
+  + Botox
+  + Botulinum Toxin
+  + Bretaris
+  + Brivaracetam
+  + Briviact
+  + Brometo de Glicopirrônio
+  + Brometo de Umeclidínio
+  + Bromoprida
+  + Bumetanida
+  + Buspar
+  + Buspirona
+  + Buspirone
+  + Bydureon
+  + Byetta
+  + Cafergot
+  + Calcijex
+  + Calcitriol
+  + Canabidiol
+  + Canabidiol / Tetrahidrocanabinol
+  + Cannabidiol
+  + Cannabis Medicinal
+  + Carbidopa
+  + Cariprazina
+  + Carvao Ativado
+  + Carvão Ativado
+  + CBD
+  + Cefuroxima
+  + Celestamine
+  + Cellcept
+  + Cetamina
+  + Cialis
+  + Cianocobalamina
+  + Ciclosporin
+  + Ciclosporina
+  + Cipro
+  + Ciprofloxacin
+  + Cisaprida
+  + Cisplatina
+  + Citrato de Tofacitinibe
+  + Clobazam
+  + Clobutinol
+  + Clomipramina
+  + Clordiazepoxido
+  + Clordiazepóxido
+  + Clorfeniramina
+  + Cloridrato de Atomoxetina
+  + Cloridrato de Buspirona
+  + Cloridrato de Cariprazina
+  + Cloridrato de Clomipramina
+  + Cloridrato de Hidroxizina
+  + Cloridrato de Imipramina
+  + Cloridrato de Lurasidona
+  + Cloridrato de Nortriptilina
+  + Cloridrato de Raloxifeno
+  + Cloridrato de Tansulosina
+  + Clorotiazida
+  + Clorpromazina
+  + Clorpropamida
+  + Cobicistate
+  + Codeina
+  + Coenzima Q10
+  + Colesevelam
+  + Colestipol
+  + Complexo Protrombínico
+  + Concentrado de Complexo Protrombínico
+  + Conjugated Estrogens
+  + Contraste Radiológico
+  + Copegus
+  + Coq10
+  + Cyklokapron
+  + Cymevene
+  + Cytotec
+  + Cytovene
+  + Daliresp
+  + Darifenacina
+  + Darunavir/cobicistate
+  + Darunavir/ritonavir
+  + Daxas
+  + DDI
+  + Deflazacorte
+  + Demadex
+  + Desipramina
+  + Dexclorfeniramina
+  + Dexclorfeniramina + Betametasona
+  + Dextromethorphan
+  + Di-hidroergotamina
+  + Diamox
+  + Diazóxido
+  + Didanosina
+  + Difenidramina
+  + Digesan
+  + Digitoxina
+  + Digoxin
+  + Dimenidrinato
+  + Dinitrato de Isossorbida
+  + Dogmatil
+  + Domperidona
+  + Doxazosina
+  + Dronabinol
+  + Droperidol
+  + Dupilumabe
+  + Dupixent
+  + Dysport
+  + Efavirenz
+  + Efedrina
+  + Eldepryl
+  + Elocon
+  + Elvitegravir/cobicistate
+  + Encainida
+  + Enoxacino
+  + EPA
+  + Epelin
+  + Epinefrina
+  + Epinephrine
+  + Eplerenona
+  + Epoetina
+  + Epoetina Beta
+  + Equilid
+  + Ergot
+  + Ergotamina
+  + Eritromicina
+  + Ertapeném
+  + Erva-de-são-joão
+  + Escopolamina
+  + Eskazole
+  + Estavudina
+  + Estradiol
+  + Estradiol Hemi-hidratado
+  + Estreptomicina
+  + Estriol
+  + Etambutol
+  + Etanercepte
+  + Ethosuximide
+  + Etinil Estradiol
+  + Etonogestrel
+  + Etossuximida
+  + Evista
+  + Exemestano
+  + Exenatida
+  + Extrato de Alcaçuz
+  + Extrato de Ginkgo
+  + Famotidina
+  + Febuxostat
+  + Feiba
+  + Felbamato
+  + Feldene
+  + Felodipina
+  + Femara
+  + Fenilbutazona
+  + Fenobarbital
+  + Fentolamina
+  + Fesoterodina
+  + Fexofenadina
+  + Fexofenadine
+  + Flagentyl
+  + Flomax
+  + Flufenan
+  + Fluticasona
+  + Fluvoxamina
+  + Folato
+  + Formoterol
+  + Formoterol + Fluticasona
+  + Forteo
+  + Fosfomicina
+  + Frisium
+  + Frovatriptana
+  + Fumarato de Fesoterodina
+  + Fumarato Ferroso
+  + Fungizone
+  + Furadantina
+  + Furoato de Mometasona
+  + Fycompa
+  + Galantamina
+  + Ganciclovir
+  + Genfibrozila
+  + Gengibre
+  + Gentamicina
+  + Glicazida
+  + Gliclazida
+  + Glicopirrônio
+  + Glimepirida
+  + Glipizida
+  + Glucoformin
+  + Gluconato Ferroso
+  + Glycyrrhiza
+  + Hemoblock
+  + Heparina Não Fracionada
+  + Hidantal
+  + Hidantoína
+  + Hidralazina
+  + Hidrazida
+  + Hidroxicloroquina
+  + Hidroxiureia
+  + Hioscina
+  + Hipericão
+  + Hipérico
+  + Hydralazine
+  + Hygroton
+  + Hypericum Perforatum
+  + Hytos
+  + Hytos Plus
+  + Ibandronato
+  + Imipeném
+  + Imipramina
+  + Imuran
+  + Inapsine
+  + Incruse
+  + Indacaterol
+  + Indometacina
+  + Inh
+  + Insulina Asparte
+  + Insulina Detemir
+  + Insulina Lispro
+  + Irbesartana
+  + Isoflavona
+  + Ivermectin
+  + Kaletra
+  + Ketoprofeno
+  + Ketorolaco
+  + Labetalol
+  + Lacosamida
+  + Lasix
+  + Latuda
+  + Laxante Osmótico
+  + Letrozol
+  + Levitra
+  + Levocetirizina
+  + Levodopa
+  + Levodopa + Carbidopa
+  + Levodropropizina
+  + Levomepromazina
+  + Librium
+  + Lidocaína
+  + Linezolida
+  + Litio
+  + Livial
+  + Lopinavir
+  + Lovastatina
+  + Ludiomil
+  + Lurasidona
+  + Luvox
+  + Lítio
+  + Macrobid
+  + Macrodantin
+  + Maleato de Indacaterol
+  + Maprotilina
+  + Marinol
+  + Mebendazol
+  + Medroxiprogesterona
+  + Melatonina
+  + Meperidina
+  + Mercaptopurina
+  + Meridia
+  + Meropeném
+  + Mesalamine
+  + Mesilato de Fentolamina
+  + Metamizol
+  + Methadone
+  + Methotrexate
+  + Metilfolato
+  + Metilprednisolona
+  + Metimazol
+  + Mezavant
+  + Micofenolato
+  + Midazolam
+  + Minociclina
+  + Mirabegrona
+  + Misoprostol
+  + Mobiflex
+  + Modiodal
+  + Mofetila de Micofenolato
+  + Mometasona
+  + Mononitrato de Isossorbida
+  + Monurol
+  + Mounjaro
+  + Myambutol
+  + Myfortic
+  + Myrbetriq
+  + Nabilona
+  + Nadolol
+  + Naratriptana
+  + Nasonex
+  + Nebido
+  + Nebivolol
+  + Neomicina
+  + Neoral
+  + Neostigmina
+  + Nesina
+  + Niacina
+  + Nitazoxanida
+  + Nitrato
+  + Nitratos
+  + Nitrazepam
+  + Nitrofurantoína
+  + Nitroprussiato
+  + Nolvadex
+  + Normix
+  + Nortriptilina
+  + Novacseven
+  + Ocitocina
+  + Ofloxacino
+  + Olmesartana
+  + Olumiant
+  + Omnic
+  + Onbrez
+  + Ondansetrona
+  + Onfi
+  + Onglyza
+  + Orap
+  + Oxitocina
+  + Paliperidona
+  + Pamidronato
+  + Pancurônio
+  + Pantelmin
+  + Paxil
+  + Pentasa
+  + Pepcid
+  + Perampanel
+  + Perindopril
+  + Petidina
+  + Pindolol
+  + Pirazinamida
+  + Piridostigmina
+  + Piridoxina
+  + Piroxicam
+  + Pitavastatina
+  + Pitocin
+  + Pomalidomida
+  + Pravastatina
+  + Praziquantel
+  + Preductal
+  + Premarin
+  + Preservex
+  + Primidona
+  + Probenecida
+  + Progesterona Micronizada
+  + Prograf
+  + Propafenona
+  + Propiltiouracil
+  + Propionato de Fluticasona
+  + Propofol
+  + Propylthiouracil
+  + Pth 1-34
+  + PTU
+  + Puran
+  + Purinethol
+  + Pyrazinamide
+  + Questran
+  + Raloxifeno
+  + Ramipril
+  + Ranitidina
+  + Ranolazina
+  + Rapamicina
+  + Reagila
+  + Rebetol
+  + Regitine
+  + Renedil
+  + Retrovir
+  + Revectina
+  + Ribavirina
+  + Rifabutina
+  + Rifampin
+  + Rifaximina
+  + Risedronato
+  + Ritonavir
+  + Rituximabe
+  + Rivastigmina
+  + Rizatriptana
+  + Rocaltrol
+  + Rocurônio
+  + Roflumilaste
+  + Ropinirol
+  + Rotigotina
+  + Rupatadina
+  + Rybelsus
+  + Sacubitril
+  + Sacubitril Valsartana
+  + Salazopyrin
+  + Salicilato
+  + Salmeterol
+  + Salmeterol + Propionato de Fluticasona
+  + Sandimmun
+  + Savaysa
+  + Saxagliptina
+  + Saxenda
+  + Secnidal
+  + Secnidazol
+  + Seebri
+  + Serc
+  + Seretide
+  + Sibutramina
+  + Sibutramine
+  + Sinemet
+  + Spiriva
+  + Spirotone
+  + Strattera
+  + Stromectol
+  + Succinilcolina
+  + Sucralfato
+  + Sulfametoxazol
+  + Sulfametoxazol + Trimetoprima
+  + Sulfassalazina
+  + Sulfinpirazona
+  + Sulpirida
+  + Sulpiride
+  + Sumatriptana
+  + Suplemento de Alho
+  + Suplemento de Gengibre
+  + Suplemento de Potássio
+  + Suplemento Vitamina a
+  + Suxametônio
+  + Synthroid
+  + Syntocinon
+  + Syscor
+  + T4
+  + Tamoxan
+  + Tamoxifen
+  + Tansulosina
+  + Tapazole
+  + Tartarato de Ergotamina
+  + Tenofovir
+  + Tenofovir Alafenamida
+  + Tenoxicam
+  + Teriparatida
+  + Testosterona
+  + Testosterona Cipionato
+  + Testosterona Enantato
+  + Testosterona Undecanoato
+  + Tetraciclina
+  + Thalidomida
+  + THC
+  + THC Medicinal
+  + Tibolona
+  + Tilatil
+  + Timolol
+  + Tinidazol
+  + Tiotrópio
+  + Tiroxina
+  + Tirzepatida
+  + Tobramicina
+  + Tocilizumabe
+  + Tocoferol
+  + Tofacitinibe
+  + Topamax
+  + Torasemida
+  + Torsemida
+  + Toviaz
+  + Toxina Botulinica
+  + Toxina Botulínica
+  + Tradjenta
+  + Transamine
+  + Triancinolona
+  + Tricíclico
+  + Triexifenidil
+  + Trifluoperazina
+  + Trimetazidina
+  + Trimetoprima
+  + Trometamol de Fosfomicina
+  + Ubiquinona
+  + Ucerax
+  + Umeclidínio
+  + Uno Alfa
+  + Urbanol
+  + Utrogestan
+  + Valaciclovir
+  + Valcivir
+  + Valdoxan
+  + Valerato de Estradiol
+  + Valeriana
+  + Valproate
+  + Valproato de Sódio
+  + Valtrex
+  + Vardenafila
+  + Vastarel
+  + Vecurônio
+  + Vermox
+  + Viagra
+  + Videx
+  + Vilanterol
+  + Vimpat
+  + Vitamina a
+  + Vitamina B12
+  + Vitamina B6
+  + Vitamina C
+  + Vitamina D
+  + Vitamina D Ativa
+  + Vitamina e
+  + Vraylar
+  + Wegovy
+  + Welchol
+  + Xeljanz
+  + Xeomin
+  + Xifaxan
+  + Zafirlucaste
+  + Zantac
+  + Zarontin
+  + Zentel
+  + Zepbound
+  + Zidovudina
+  + Ziprasidona
+  + Zonegran
+  + Zonisamida
+  + Zovirax
+  + Ácido Acetilsalicílico
+  + Ácido Ascórbico
+  + Ácido Eicosapentaenoico
+  + Ácido Etacrínico
+  + Ácido Nicotínico
+  + Ácido Tranexâmico
+
+─── EXCLUÍDOS (alimentos, bebidas, classes genéricas) ───────────────
+  (162 termos)
+
+  ✗ aine
+  ✗ alcool
+  ✗ alface
+  ✗ amilase
+  ✗ amilase pancreática
+  ✗ aminoglicosídeo
+  ✗ aminoglicosídeos
+  ✗ anti-hipertensivo
+  ✗ anti-histamínico
+  ✗ anti-inflamatório
+  ✗ anti-tnf
+  ✗ antiarrítmico
+  ✗ anticoagulante
+  ✗ anticoagulante oral
+  ✗ anticoncepcional oral
+  ✗ anticontraceptivo
+  ✗ antidepressivo
+  ✗ antidepressivo tricíclico
+  ✗ antidiabético
+  ✗ antipsicótico típico
+  ✗ antiretroviral
+  ✗ antirretroviral
+  ✗ antiácido
+  ✗ antiácido com alumínio
+  ✗ antiácido com mg
+  ✗ arando
+  ✗ barbitúrico
+  ✗ bcg
+  ✗ bebida
+  ✗ bebida alcoólica
+  ✗ bebida energética
+  ✗ benzodiazepínico
+  ✗ betabloqueador
+  ✗ betabloqueadores
+  ✗ bicarbonato
+  ✗ bicarbonato de sódio
+  ✗ biologico
+  ✗ bloqueador neuromuscular
+  ✗ bra
+  ✗ brócolis
+  ✗ cachaça
+  ✗ café
+  ✗ café coado
+  ✗ café expresso
+  ✗ carbonato de cálcio
+  ✗ carne
+  ✗ carne defumada
+  ✗ cefalosporinas
+  ✗ cerveja
+  ✗ chá
+  ✗ chá preto
+  ✗ chá verde
+  ✗ cigarro
+  ✗ citrato de cálcio
+  ✗ cloreto de potássio
+  ✗ coentro
+  ✗ contraceptivo
+  ✗ contraceptivo oral
+  ✗ contraceptivo oral combinado
+  ✗ corticoide
+  ✗ corticosteroide
+  ✗ corticosteroide sistêmico
+  ✗ couve
+  ✗ couve-de-bruxelas
+  ✗ cranberry
+  ✗ cálcio
+  ✗ depressor snc
+  ✗ descongestionante
+  ✗ diurético
+  ✗ diurético tiazídico
+  ✗ diuréticos tiazídicos
+  ✗ embutidos
+  ✗ enzimas digestivas
+  ✗ espinafre
+  ✗ estatinas
+  ✗ estrogeno
+  ✗ estrogênio
+  ✗ farelo de aveia
+  ✗ farelo de trigo
+  ✗ fator ix
+  ✗ fator vii
+  ✗ ferro
+  ✗ ferro iv
+  ✗ ferro oral
+  ✗ ferro sacarato
+  ✗ fibras
+  ✗ fluoroquinolona
+  ✗ frango
+  ✗ frios
+  ✗ fumo
+  ✗ fígado
+  ✗ gadolínio
+  ✗ gluconato de potássio
+  ✗ grapefruit
+  ✗ hidróxido de alumínio
+  ✗ hidróxido de magnésio
+  ✗ ibp
+  ✗ ieca
+  ✗ imao
+  ✗ imunossupressor
+  ✗ inibidor cox-2
+  ✗ inibidor da eca
+  ✗ inibidor de bomba de prótons
+  ✗ inibidor de mao
+  ✗ inibidor mao
+  ✗ inibidor pde5
+  ✗ insulina
+  ✗ isrs
+  ✗ laba
+  ✗ laranja
+  ✗ laticínios
+  ✗ leite
+  ✗ leite de soja
+  ✗ limão
+  ✗ linguiça
+  ✗ molho de soja
+  ✗ mucolytic
+  ✗ nicotina
+  ✗ opioide
+  ✗ opioides
+  ✗ peixe
+  ✗ penicilina
+  ✗ potássio
+  ✗ progestogênio
+  ✗ proteína
+  ✗ psyllium
+  ✗ queijo curado
+  ✗ queijo maturado
+  ✗ quinolona
+  ✗ repolho
+  ✗ sais de alumínio
+  ✗ sais de potássio
+  ✗ sal de potássio
+  ✗ sal diet
+  ✗ sal light
+  ✗ salaminho
+  ✗ salsinha
+  ✗ sartana
+  ✗ soja
+  ✗ suco de cranberry
+  ✗ suco de grapefruit
+  ✗ suco de laranja
+  ✗ suco de maçã
+  ✗ suco de toranja
+  ✗ sulfonilureia
+  ✗ sumo de toranja
+  ✗ tabaco
+  ✗ tabagismo
+  ✗ tiazídico
+  ✗ tiramina
+  ✗ tofu
+  ✗ toranja
+  ✗ triptano
+  ✗ vacina bcg
+  ✗ vacina de vírus vivo
+  ✗ vacina febre amarela
+  ✗ vacina rotavírus
+  ✗ vacina sarampo
+  ✗ vacina varicela
+  ✗ vacina viva
+  ✗ vinho
+  ✗ vinho tinto
+
+═══════════════════════════════════════════════════════════════════

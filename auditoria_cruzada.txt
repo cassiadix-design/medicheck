@@ -1,0 +1,428 @@
+═══════════════════════════════════════════════════════════════════════════
+  AUDITORIA CRUZADA: medicamentos.json × mc-interacoes-data-v3.js
+  Data: 21/05/2026
+═══════════════════════════════════════════════════════════════════════════
+
+  Total medicamentos.json:              549
+  Excluídos (tópicos/vitaminas/insumos): analisados individualmente
+  Com interação cadastrada:              467
+  SEM interação cadastrada:              26
+
+  Nomes únicos nas interações:           1298
+  Sem entrada no medicamentos.json:      376
+
+───────────────────────────────────────────────────────────────────────────
+  GRUPO 1 — No medicamentos.json mas SEM interação cadastrada (26)
+───────────────────────────────────────────────────────────────────────────
+  (excluídos tópicos, vitaminas simples e insumos)
+
+  ○ Acebrofilina
+  ○ Ácido Hialurônico
+  ○ Ácido Salicílico
+  ○ Albumina Humana
+  ○ Ambroxol
+  ○ Amoxicilina + Sulbactam
+  ○ Benzilpenicilina G Benzatina
+  ○ Benzocaína + Tirotricina
+  ○ Benzoíla Peroxida
+  ○ Bisacodil
+  ○ Bromexina
+  ○ Cloreto de Sódio
+  ○ Cloreto de Sódio 0,9% Solução Nasal
+  ○ Cloreto de Sódio 3% Solução Nasal Hipertônica
+  ○ Diclofenaco de colestiramina
+  ○ Diclorobenzil álcool + Amilmetacresol
+  ○ Diclorobenzil álcool + Amilmetacresol + Mentol
+  ○ Extrato de inhame (Dioscorea spp.) — produto fitoterápico / fórmula magistral
+  ○ Hidroquinona
+  ○ Imunoglobulina humana normal
+  ○ Macrogol 3350 + Bicarbonato de sódio + Cloreto de sódio + Cloreto de potássio
+  ○ Maleato de Trimebutina
+  ○ Proxetila de cefpodoxima
+  ○ Simeticona
+  ○ Solução de sulfato de magnésio anidro com álcool e componentes auxiliares (fórmula varia conforme o fabricante)
+  ○ Timomodulina
+
+───────────────────────────────────────────────────────────────────────────
+  GRUPO 2 — Nas interações mas SEM entrada no medicamentos.json (376)
+───────────────────────────────────────────────────────────────────────────
+  (filtradas classes genéricas, alimentos, eletrólitos e inespecíficos)
+
+  ✗ abatacepte
+  ✗ abelcet
+  ✗ acetaminofeno
+  ✗ acido ascorbico
+  ✗ acido etacrinico
+  ✗ acido nicotinico
+  ✗ aclidinio
+  ✗ acyclovir
+  ✗ adenosina
+  ✗ adrenalina
+  ✗ agonista glp-1
+  ✗ airtal
+  ✗ alcacuz
+  ✗ alfabloqueador
+  ✗ alfuzosina
+  ✗ alinia
+  ✗ aliskiren
+  ✗ ambisome
+  ✗ amicacina
+  ✗ amilorida
+  ✗ amoxicilina + clavulanato
+  ✗ amoxicilina clavulanato
+  ✗ amoxicilina clavulanico
+  ✗ amphotericin
+  ✗ ampicilina
+  ✗ anakinra
+  ✗ anfotericina
+  ✗ annita
+  ✗ anti-emetico
+  ✗ anticolinergico
+  ✗ anticoncepcional
+  ✗ antifungico
+  ✗ antineoplasico
+  ✗ antipsicotico tipico
+  ✗ apomorfina
+  ✗ apresolina
+  ✗ ara ii
+  ✗ asmanex
+  ✗ atarax
+  ✗ atazanavir/ritonavir
+  ✗ atomoxetine
+  ✗ atracurio
+  ✗ atropina
+  ✗ auranofin
+  ✗ avanafila
+  ✗ azt
+  ✗ baymycard
+  ✗ belimumabe
+  ✗ bendroflumetiazida
+  ✗ benzbromaron
+  ✗ benzodiazepinico
+  ✗ betahistine
+  ✗ betaserc
+  ✗ bilastina
+  ✗ bisfosfonato
+  ✗ bretaris
+  ✗ bumetanida
+  ✗ buspirone
+  ✗ cannabidiol
+  ✗ cannabis medicinal
+  ✗ carbidopa+levodopa
+  ✗ carbonato de magnesio
+  ✗ carvao ativado
+  ✗ cefadril
+  ✗ certolizumabe
+  ✗ cetamina
+  ✗ cialis
+  ✗ ciclosporine
+  ✗ cipro
+  ✗ ciprofloxacin
+  ✗ cisaprida
+  ✗ cisplatina
+  ✗ claritin d
+  ✗ clorambucila
+  ✗ clorfeniramina
+  ✗ clorotiazida
+  ✗ clorpropamida
+  ✗ cobicistate
+  ✗ coenzima q10
+  ✗ complexo protrombinico
+  ✗ concentrado de complexo protrombinico
+  ✗ conjugated estrogens
+  ✗ contraste iodado
+  ✗ contraste radiologico
+  ✗ copegus
+  ✗ coq10
+  ✗ cyklokapron
+  ✗ cymevene
+  ✗ cytovene
+  ✗ daktarin
+  ✗ daliresp
+  ✗ darifenacina
+  ✗ darunavir/cobicistate
+  ✗ darunavir/ritonavir
+  ✗ ddi
+  ✗ decaris
+  ✗ deflazacorte
+  ✗ demadex
+  ✗ denol
+  ✗ desipramina
+  ✗ dextromethorphan
+  ✗ di-hidroergotamina
+  ✗ diazoxido
+  ✗ didanosina
+  ✗ difenidramina
+  ✗ digitoxina
+  ✗ dinitrato de isossorbida
+  ✗ diuretico poupador de potassio
+  ✗ doxorrubicina
+  ✗ dronabinol
+  ✗ drospirenona
+  ✗ duricef
+  ✗ efedrina
+  ✗ eldepryl
+  ✗ elocon
+  ✗ elvitegravir/cobicistate
+  ✗ encainida
+  ✗ enoxacino
+  ✗ epelin
+  ✗ epinefrina
+  ✗ epinephrine
+  ✗ epoetina beta
+  ✗ ergamisol
+  ✗ ertapenem
+  ✗ erva de sao joao
+  ✗ erva-de-sao-joao
+  ✗ eskazole
+  ✗ estatina
+  ✗ estavudina
+  ✗ estradiol
+  ✗ estreptomicina
+  ✗ estriol
+  ✗ estrogenio
+  ✗ estrogenios conjugados
+  ✗ etinil estradiol
+  ✗ etinilestradiol combinado
+  ✗ exemestano
+  ✗ extrato de alcacuz
+  ✗ extrato de ginkgo
+  ✗ fator ix
+  ✗ fator vii
+  ✗ feiba
+  ✗ felbamato
+  ✗ felodipina
+  ✗ fenilbutazona
+  ✗ fenilefrina
+  ✗ fenoterol
+  ✗ fentanil
+  ✗ ferro polimaltosado
+  ✗ fexodina d
+  ✗ fexofenadin pseudoefedrina
+  ✗ fexofenadine
+  ✗ fitomenadiona
+  ✗ fitoquinona
+  ✗ flagentyl
+  ✗ flomax
+  ✗ flufenan
+  ✗ folato
+  ✗ fosfomicina
+  ✗ frovatriptana
+  ✗ fumarato ferroso
+  ✗ fungizone
+  ✗ furadantina
+  ✗ galvusmet
+  ✗ gelmax
+  ✗ genfibrozila
+  ✗ gentamicina
+  ✗ gestodeno
+  ✗ glipizida
+  ✗ glucoformin
+  ✗ gluconato ferroso
+  ✗ glycyrrhiza
+  ✗ guanetidina
+  ✗ haldol
+  ✗ heparina de baixo peso molecular
+  ✗ hepatotoxico
+  ✗ hidantal
+  ✗ hidantoina
+  ✗ hidrazida
+  ✗ hidroxiureia
+  ✗ higrotona
+  ✗ hipericao
+  ✗ hiperico
+  ✗ hydralazine
+  ✗ hygroton
+  ✗ hypericum
+  ✗ hypericum perforatum
+  ✗ hytos
+  ✗ icandra
+  ✗ imipenem
+  ✗ inapsine
+  ✗ inh
+  ✗ inibidor da pde-5
+  ✗ inibidor jak
+  ✗ irsn
+  ✗ isoflavona
+  ✗ ivermectin
+  ✗ jak1
+  ✗ jak2
+  ✗ ketoprofeno
+  ✗ ketorolaco
+  ✗ labetalol
+  ✗ lamictal
+  ✗ laxante osmotico
+  ✗ levodropropizina
+  ✗ litio
+  ✗ litio carbonato
+  ✗ lopid
+  ✗ loratadina pseudoefedrina
+  ✗ loratemp d
+  ✗ lovastatina
+  ✗ macrodantin
+  ✗ magnesio
+  ✗ marinol
+  ✗ meclicot
+  ✗ meperidina
+  ✗ mercaptopurina
+  ✗ meridia
+  ✗ meropenem
+  ✗ mesalamine
+  ✗ metilfolato
+  ✗ mezavant
+  ✗ micoset
+  ✗ mobiflex
+  ✗ modiodal
+  ✗ monurol
+  ✗ mounjaro
+  ✗ myambutol
+  ✗ mylanta
+  ✗ nabilona
+  ✗ nadolol
+  ✗ natalizumabe
+  ✗ nefazodona
+  ✗ neostigmina
+  ✗ niacina
+  ✗ nitrato
+  ✗ nitratos
+  ✗ nitroprussiato
+  ✗ noretisterona
+  ✗ normix
+  ✗ novacseven
+  ✗ novaldex
+  ✗ ocitocina
+  ✗ ofloxacino
+  ✗ omnic
+  ✗ ondansetrona
+  ✗ opiaceo
+  ✗ orencia
+  ✗ orlistate
+  ✗ ouro
+  ✗ oxitocina
+  ✗ pamidronato
+  ✗ pancuronio
+  ✗ pantelmin
+  ✗ paracetamol fenilefrina clorfeniramina
+  ✗ paracetamol pseudoefedrina
+  ✗ paregorica
+  ✗ paxil
+  ✗ pepcid
+  ✗ petidina
+  ✗ pilula anticoncepcional
+  ✗ pindolol
+  ✗ piridostigmina
+  ✗ piridoxina
+  ✗ pitavastatina
+  ✗ pitocin
+  ✗ plasil
+  ✗ pomalidomida
+  ✗ prasozina
+  ✗ pravastatina
+  ✗ praziquantel
+  ✗ preductal
+  ✗ premarin
+  ✗ primidona
+  ✗ probenecida
+  ✗ progesterona
+  ✗ propionato de fluticasona
+  ✗ propofol
+  ✗ propylthiouracil
+  ✗ pseudoefedrina
+  ✗ pth 1-34
+  ✗ puran
+  ✗ purinethol
+  ✗ pyrazinamide
+  ✗ quimioterapia
+  ✗ rebetol
+  ✗ regitine
+  ✗ renedil
+  ✗ repoflor
+  ✗ reserpina
+  ✗ retrovir
+  ✗ revectina
+  ✗ rifabutina
+  ✗ rifampin
+  ✗ rimactane
+  ✗ rizatriptana
+  ✗ rocuronio
+  ✗ ropinirol
+  ✗ rotigotina
+  ✗ rupatadina
+  ✗ sacubitril valsartana
+  ✗ sais de ouro
+  ✗ salicilato
+  ✗ saxenda
+  ✗ secnidal
+  ✗ serc
+  ✗ seresta
+  ✗ sibutramine
+  ✗ sinutab
+  ✗ stromectol
+  ✗ succinilcolina
+  ✗ sulfametoxazol
+  ✗ sulfinpirazona
+  ✗ sulpiride
+  ✗ suplemento de alho
+  ✗ suplemento de gengibre
+  ✗ suplemento de potassio
+  ✗ suplemento vitamina a
+  ✗ suxametonio
+  ✗ suxamonio
+  ✗ syntocinon
+  ✗ talidomida
+  ✗ tamoxan
+  ✗ tamoxifen
+  ✗ tegretol
+  ✗ tenofovir alafenamida
+  ✗ terapia de reposicao hormonal
+  ✗ testosterona cipionato
+  ✗ testosterona enantato
+  ✗ testosterona undecanoato
+  ✗ tetraciclina
+  ✗ thalidomida
+  ✗ thc
+  ✗ thc medicinal
+  ✗ tiopurina
+  ✗ tiotropio
+  ✗ tobramicina
+  ✗ topamax
+  ✗ torsemida
+  ✗ tradjenta
+  ✗ tramal
+  ✗ triancinolona
+  ✗ triantereno
+  ✗ triciclico
+  ✗ triexifenidil
+  ✗ trimedal
+  ✗ trimetoprima
+  ✗ tysabri
+  ✗ uno alfa
+  ✗ upadacitinibe
+  ✗ urbanol
+  ✗ valcivir
+  ✗ valerato de estradiol
+  ✗ valeriana
+  ✗ valproate
+  ✗ vecuronio
+  ✗ vermox
+  ✗ viagra
+  ✗ victoza
+  ✗ videx
+  ✗ vilanterol
+  ✗ vildagliptina metformina
+  ✗ vincristina
+  ✗ vitamina a
+  ✗ vitamina b6
+  ✗ vitamina d ativa
+  ✗ vitamina k
+  ✗ welchol
+  ✗ xenical
+  ✗ xifaxan
+  ✗ zantac
+  ✗ zentel
+  ✗ zepbound
+  ✗ zidovudina
+  ✗ zinco
+  ✗ zovirax
+
+═══════════════════════════════════════════════════════════════════════════

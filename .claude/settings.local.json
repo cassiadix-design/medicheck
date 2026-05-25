@@ -43,7 +43,13 @@
       "PowerShell(claude doctor *)",
       "Bash(git *)",
       "PowerShell(node -e \"const fs=require\\('fs'\\); const data=JSON.parse\\(fs.readFileSync\\('C:/Users/Usuario/Desktop/medicheck/medicamentos.json','utf8'\\)\\); console.log\\('JSON valido. Total:', data.length\\); console.log\\('Ultimo:', data[data.length-1].nome\\);\")",
-      "Bash(grep -n \"// ===== FIM\\\\|mcInteracoesDB\\\\s*=\\\\|^\\\\s*\\\\];\\\\s*$\" /c/Users/Usuario/Desktop/medicheck/index.html)"
+      "Bash(grep -n \"// ===== FIM\\\\|mcInteracoesDB\\\\s*=\\\\|^\\\\s*\\\\];\\\\s*$\" /c/Users/Usuario/Desktop/medicheck/index.html)",
+      "PowerShell($json = Get-Content \"C:\\\\Users\\\\Usuario\\\\Desktop\\\\medicheck\\\\src\\\\data\\\\medicamento.json\" -Raw | ConvertFrom-Json; $json | ForEach-Object { $_.slug } | Sort-Object)",
+      "PowerShell(Get-ChildItem \"C:\\\\Users\\\\Usuario\\\\Desktop\\\\medicheck\\\\dist\" -Recurse | Where-Object { $_.Name -eq \"index.html\" } | Select-Object -ExpandProperty FullName)",
+      "PowerShell(Get-ChildItem \"C:\\\\Users\\\\Usuario\\\\Desktop\\\\medicheck\\\\medicamentos\" -Directory | Where-Object { $_.Name -match \"^\\(moclobemida|fenelzina|flufenazina|isocarboxazida|dextrometorfano|modafinil|pimozida|selegilina|tioridazina|tolterodina|tranilcipromina|triazolam|tizanidina|mesoridazina\\)\" } | Select-Object -ExpandProperty Name)",
+      "PowerShell($esp = Get-Content 'C:\\\\Users\\\\Usuario\\\\Desktop\\\\medicheck\\\\especiais.json' | ConvertFrom-Json; Write-Host \"especiais.json: $\\($esp.Count\\) medications\")",
+      "PowerShell($src = Get-Content 'C:\\\\Users\\\\Usuario\\\\Desktop\\\\medicheck\\\\src\\\\data\\\\medicamento.json' | ConvertFrom-Json; Write-Host \"src/data/medicamento.json: $\\($src.Count\\) medications\")",
+      "PowerShell($lote2 = Get-Content 'C:\\\\Users\\\\Usuario\\\\Desktop\\\\medicheck\\\\lote2.json' | ConvertFrom-Json; Write-Host \"lote2.json: $\\($lote2.Count\\) medications\")"
     ]
   }
 }
