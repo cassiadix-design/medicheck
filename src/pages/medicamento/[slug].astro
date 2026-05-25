@@ -3,67 +3,331 @@ import Layout from '../../layouts/Layout.astro';
 import medicamentos from '../../data/medicamento.json';
 
 export function getStaticPaths() {
-  return medicamentos.map(m => ({
+  return (medicamentos as any[]).map((m) => ({
     params: { slug: m.slug },
     props: { medicine: m },
   }));
 }
 
-const { medicine } = Astro.props;
+const { medicine } = Astro.props as { medicine: any };
+
+const receitaCor = medicine.receita_cor === 'verde' ? '#27ae60'
+                 : medicine.receita_cor === 'amarelo' ? '#e8751a'
+                 : '#c0392b';
+const receitaBg  = medicine.receita_cor === 'verde' ? '#e8f8f0'
+                 : medicine.receita_cor === 'amarelo' ? '#fef3e2'
+                 : '#fde8e8';
+const receitaTxt = medicine.receita_cor === 'verde' ? '#155724'
+                 : medicine.receita_cor === 'amarelo' ? '#856404'
+                 : '#721c24';
+
+const descricao  = medicine.descricao || '';
+const metaDesc   = descricao.length > 155 ? descricao.slice(0, 155) + '…' : descricao;
+const canonical  = `https://medicheck.med.br/medicamento/${medicine.slug}/`;
+const pageTitle  = `${medicine.nome} — Para que serve, efeitos e receita | MediCheck`;
 ---
-<Layout title={`${medicine.nome} - MediCheck`}>
+
+<Layout title={pageTitle} description={metaDesc} canonical={canonical}>
+  <style is:global>
+    .container { max-width: 860px !important; }
+
+    /* ---- medicine page ---- */
+    .med-back {
+      display: inline-block;
+      color: rgba(255,255,255,0.88);
+      font-size: 13px;
+      text-decoration: none;
+      margin-bottom: 12px;
+      opacity: 0.9;
+    }
+    .med-back:hover { opacity: 1; }
+    .med-tipo {
+      display: inline-block;
+      background: rgba(255,255,255,0.2);
+      border: 1px solid rgba(255,255,255,0.35);
+      border-radius: 20px;
+      padding: 3px 12px;
+      font-size: 12px;
+      font-weight: 600;
+      margin-top: 8px;
+      letter-spacing: 0.4px;
+    }
+    .med-section-title {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 17px;
+      font-weight: 700;
+      color: #333;
+      margin: 22px 0 10px;
+    }
+    .med-section-content {
+      font-size: 15px;
+      color: #555;
+      line-height: 1.8;
+      padding-left: 4px;
+    }
+    .med-receita-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 16px;
+      font-weight: 700;
+      margin-bottom: 8px;
+    }
+    .med-receita-box {
+      padding: 10px 14px;
+      border-radius: 8px;
+      font-size: 14px;
+      line-height: 1.6;
+    }
+    .med-aviso {
+      background: #ffe6e6;
+      border-left: 6px solid #dc3545;
+      border-radius: 8px;
+      padding: 14px 16px;
+      margin: 16px 0;
+      font-size: 14px;
+      color: #721c24;
+      line-height: 1.7;
+      font-weight: 600;
+    }
+    .med-recomendacao {
+      background: #fff3cd;
+      border-left: 6px solid #ffc107;
+      border-radius: 8px;
+      padding: 14px 16px;
+      margin: 14px 0;
+      font-size: 14px;
+      color: #856404;
+      line-height: 1.7;
+      font-weight: 600;
+    }
+    .med-educacao {
+      background: #d4edda;
+      border-left: 6px solid #28a745;
+      border-radius: 8px;
+      padding: 14px 16px;
+      margin: 14px 0;
+      font-size: 14px;
+      color: #155724;
+      line-height: 1.7;
+    }
+    .med-rr {
+      background: linear-gradient(135deg, #e8f4fd, #d0e8f8);
+      border: 2px solid #2196F3;
+      border-radius: 10px;
+      padding: 12px 16px;
+      margin: 14px 0;
+    }
+    .med-rr-label {
+      font-weight: 700;
+      font-size: 13px;
+      color: #1565c0;
+      margin-bottom: 8px;
+    }
+    .med-rr-chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 7px;
+    }
+    .med-rr-chip {
+      background: white;
+      border: 1px solid #90caf9;
+      border-radius: 20px;
+      padding: 4px 12px;
+      font-size: 13px;
+      color: #1565c0;
+      font-weight: 500;
+    }
+    /* FAQ com details/summary */
+    .med-faq { margin: 6px 0 18px; }
+    .med-faq details {
+      border: 1px solid #e8eaf6;
+      border-radius: 8px;
+      margin-bottom: 8px;
+      overflow: hidden;
+    }
+    .med-faq summary {
+      padding: 12px 16px;
+      background: #f8f9ff;
+      font-weight: 700;
+      font-size: 14px;
+      color: #333;
+      cursor: pointer;
+      list-style: none;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .med-faq summary::-webkit-details-marker { display: none; }
+    .med-faq summary::before {
+      content: '▶';
+      font-size: 11px;
+      color: #667eea;
+      transition: transform 0.2s;
+      flex-shrink: 0;
+    }
+    .med-faq details[open] summary::before { content: '▼'; }
+    .med-faq summary:hover { background: #e8eaf6; }
+    .med-faq .faq-resp {
+      padding: 12px 16px;
+      font-size: 14px;
+      color: #444;
+      line-height: 1.7;
+      background: white;
+      border-top: 1px solid #e8eaf6;
+    }
+    .med-generico-box {
+      background: #f8f9fa;
+      border: 1px solid #dee2e6;
+      border-radius: 8px;
+      padding: 10px 14px;
+      font-size: 14px;
+      color: #444;
+      line-height: 1.6;
+    }
+    .med-disclaimer {
+      background: #e7f3ff;
+      border-left: 4px solid #2196F3;
+      border-radius: 8px;
+      padding: 14px 16px;
+      font-size: 13px;
+      color: #0c5aa0;
+      line-height: 1.6;
+      margin-top: 24px;
+    }
+    .med-crf {
+      text-align: center;
+      padding: 14px;
+      font-size: 13px;
+      color: #888;
+      border-top: 1px solid #eee;
+      margin-top: 20px;
+    }
+    .med-btn-home {
+      display: block;
+      width: 100%;
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      color: white;
+      text-align: center;
+      padding: 13px;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 15px;
+      margin-top: 20px;
+      transition: opacity 0.2s;
+    }
+    .med-btn-home:hover { opacity: 0.88; }
+
+    @media (max-width: 600px) {
+      .med-section-title { font-size: 15px; }
+      .med-section-content { font-size: 14px; }
+    }
+  </style>
+
   <div class="container">
     <div class="header">
-      <h1>💊 MediCheck</h1>
-      <p>Seu medicamento explicado em linguagem simples</p>
+      <a href="/" class="med-back">← Voltar ao MediCheck</a>
+      <h1 style="font-size:26px;margin-bottom:6px;">💊 {medicine.nome}</h1>
+      {medicine.tipo && <span class="med-tipo">{medicine.tipo}</span>}
     </div>
 
     <div class="content">
-      <div class="medicine-card" style="animation:slideIn 0.5s ease;">
-        <h2>💊 {medicine.nome}</h2>
-      </div>
 
-      <div class="section">
-        <div class="section-title"><span class="icon">❓</span> Para quê serve?</div>
-        <div class="section-content">{medicine.paraQue}</div>
-      </div>
+      <!-- Princípio ativo -->
+      <div style="font-size:14px;color:#888;margin-bottom:4px;font-weight:600;">PRINCÍPIO ATIVO</div>
+      <div style="font-size:17px;font-weight:700;color:#333;margin-bottom:16px;">{medicine.generico}</div>
 
-      <div class="section">
-        <div class="section-title"><span class="icon">⏰</span> Como tomar?</div>
-        <div class="section-content">{medicine.comoTomar}</div>
-      </div>
-
-      <div class="section">
-        <div class="section-title"><span class="icon">😷</span> Efeitos colaterais</div>
-        <div class="section-content">{medicine.efeitos}</div>
-      </div>
-
-      {medicine.avisos && (
-        <div class="warning">
-          <strong>⚠️ Aviso Importante:</strong> {medicine.avisos}
+      <!-- Resposta rápida -->
+      {medicine.resposta_rapida && medicine.resposta_rapida.length > 0 && (
+        <div class="med-rr">
+          <div class="med-rr-label">⚡ Resumo rápido</div>
+          <div class="med-rr-chips">
+            {(medicine.resposta_rapida as string[]).map((item) => (
+              <span class="med-rr-chip">✔ {item}</span>
+            ))}
+          </div>
         </div>
       )}
 
-      {medicine.interacoes && (
-        <div class="danger">
-          <strong>🚫 Cuidado com Interações:</strong> {medicine.interacoes}
+      <!-- Para que serve -->
+      <div class="med-section-title">📝 Para que serve</div>
+      <div class="med-section-content">{medicine.descricao}</div>
+
+      <!-- Receita -->
+      <div class="med-section-title">🛑 Necessita receita?</div>
+      {medicine.receita_display ? (
+        <div>
+          <div class="med-receita-badge" style={`color:${receitaCor}`}>
+            {medicine.receita_display}
+          </div>
+          <div class="med-receita-box" style={`background:${receitaBg};color:${receitaTxt}`}>
+            {medicine.receita_descricao}
+            {medicine.receita_nota && (
+              <div style="margin-top:6px;font-size:13px;">ℹ️ {medicine.receita_nota}</div>
+            )}
+          </div>
+        </div>
+      ) : (
+        <div class="med-section-content">{medicine.receita === 'Sim' ? '🔴 Sim — Sob prescrição médica' : '🟢 Não — Venda livre'}</div>
+      )}
+
+      <!-- Efeitos colaterais -->
+      <div class="med-section-title">⚠️ Efeitos colaterais</div>
+      <div class="med-section-content">{medicine.efeitos}</div>
+
+      <!-- Aviso grave -->
+      {medicine.aviso_grave && (
+        <div class="med-aviso">⚠️ <strong>Aviso importante:</strong> {medicine.aviso_grave}</div>
+      )}
+
+      <!-- Recomendação -->
+      {medicine.recomendacao && (
+        <div class="med-recomendacao">{medicine.recomendacao}</div>
+      )}
+
+      <!-- Educação -->
+      {medicine.educacao && (
+        <div class="med-section-title">💡 Saiba mais</div>
+        <div class="med-educacao">{medicine.educacao}</div>
+      )}
+
+      <!-- Genérico -->
+      <div class="med-section-title">🔄 Princípio ativo (genérico)</div>
+      <div class="med-generico-box">
+        O princípio ativo deste medicamento é <strong>{medicine.generico}</strong>.
+        Medicamentos genéricos com o mesmo princípio ativo são bioequivalentes ao produto de referência e têm a mesma eficácia.
+      </div>
+
+      <!-- FAQ -->
+      {medicine.perguntas_frequentes && medicine.perguntas_frequentes.length > 0 && (
+        <div>
+          <div class="med-section-title">❓ Perguntas frequentes</div>
+          <div class="med-faq">
+            {(medicine.perguntas_frequentes as Array<{pergunta: string; resposta: string}>).map((faq) => (
+              <details>
+                <summary>❓ {faq.pergunta}</summary>
+                <div class="faq-resp">{faq.resposta}</div>
+              </details>
+            ))}
+          </div>
         </div>
       )}
 
-      <div class="success">
-        <strong>💰 Sobre Genérico:</strong> {medicine.generico}
+      <!-- Disclaimer -->
+      <div class="med-disclaimer">
+        <strong>📋 Nota educacional:</strong> As informações desta página são de caráter educacional e foram revisadas por farmacêutica responsável. Não substituem consulta médica ou farmacêutica profissional. Em caso de dúvidas, procure um profissional de saúde. Emergências: ligue 192 (SAMU).
       </div>
 
-      <div class="section">
-        <div class="section-title"><span class="icon">💡</span> Dica importante</div>
-        <div class="section-content">{medicine.dica}</div>
+      <div class="med-crf">
+        Revisado por <strong>Rita de Cássia Oliveira Soares da Silva</strong> — CRF-SP 33.109 · Farmacêutica responsável<br/>
+        <small>MediCheck © 2026 — medicheck.med.br</small>
       </div>
 
-      <div class="disclaimer">
-        <strong>⚠️ Aviso Importante:</strong> Este aplicativo fornece informações educacionais apenas. NÃO substitui consulta com médico ou farmacêutico. Se tiver dúvidas, sempre converse com um profissional de saúde. Para emergência: ligue 192 (SAMU) ou procure pronto-socorro.
-      </div>
+      <a href="/" class="med-btn-home">🔍 Buscar outro medicamento</a>
 
-      <a class="btn-reset" href={import.meta.env.BASE_URL}>🔄 Buscar Outro Medicamento</a>
     </div>
   </div>
 </Layout>
