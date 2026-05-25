@@ -25,6 +25,15 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Instalar dependências
+        run: npm ci
+
       - name: Preparar arquivos para deploy
         env:
           API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
@@ -55,10 +64,13 @@ jobs:
             console.log('Injeção concluída. API key presente:', apiKey.length > 0, '| Cache version: medicheck-' + sha);
           "
 
+      - name: Build Astro
+        run: npm run build
+
       - name: Upload artifact para GitHub Pages
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './public'
+          path: './dist'
 
       - name: Deploy para GitHub Pages
         id: deployment
