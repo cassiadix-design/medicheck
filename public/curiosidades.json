@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "titulo": "Coca-Cola era vendida como remédio",
+    "conteudo": "Quando foi criada em 1886 pelo farmacêutico John Pemberton, a Coca-Cola era vendida em farmácias como um tônico medicinal para dores de cabeça e cansaço. A fórmula original continha extrato de folha de coca (precursor da cocaína) e nozes de cola com cafeína. Só depois de se tornar popular como bebida refrescante é que a empresa optou por comercializá-la como refrigerante — mas a origem é 100% farmacêutica.",
+    "categoria": "História",
+    "emoji": "🥤",
+    "fonte_referencia": "Pendergrast, M. (1993). For God, Country, and Coca-Cola. Basic Books."
+  },
+  {
+    "id": 2,
+    "titulo": "Dipirona: proibida nos EUA, essencial no Brasil",
+    "conteudo": "A dipirona (metamizol) é um dos medicamentos mais populares no Brasil e está entre os mais vendidos do país. No entanto, ela foi retirada do mercado dos Estados Unidos nos anos 1970 por suspeita de causar agranulocitose (redução grave de glóbulos brancos). Estudos posteriores mostraram que o risco é muito raro — cerca de 1 caso por 1 milhão de usuários — e a dipirona continua amplamente usada na Europa, América Latina e outros países como analgésico eficaz e seguro.",
+    "categoria": "Polêmica",
+    "emoji": "💊",
+    "fonte_referencia": "Andrade SE et al. (1998). Agranulocitose e dipirona. Pharmacoepidemiology and Drug Safety."
+  },
+  {
+    "id": 3,
+    "titulo": "O medicamento mais caro do mundo: Zolgensma",
+    "conteudo": "O Zolgensma (onasemnogene abeparvovec) é utilizado para tratar a Atrofia Muscular Espinhal (AME) tipo 1, uma doença genética rara que paralisa progressivamente os músculos de bebês. Uma única dose — administrada em infusão — custa cerca de US$ 2,1 milhões (aprox. R$ 10 milhões). O tratamento, porém, pode ser transformador: crianças que antes não sobreviveriam ao primeiro ano de vida passaram a sentar, engatinhar e até caminhar.",
+    "categoria": "Ciência",
+    "emoji": "💉",
+    "fonte_referencia": "Novartis Gene Therapies. (2023). Zolgensma Prescribing Information."
+  },
+  {
+    "id": 4,
+    "titulo": "Penicilina: o acidente que salvou bilhões de vidas",
+    "conteudo": "Em 1928, o bacteriologista escocês Alexander Fleming voltou de férias e encontrou suas placas de cultura contaminadas por um fungo — o Penicillium notatum. Ao invés de descartar o material, ele notou que ao redor do fungo as bactérias estavam mortas. Esse 'descuido' se tornou a descoberta do antibiótico mais importante da história. Estima-se que a penicilina salvou mais de 200 milhões de vidas desde que começou a ser produzida em escala industrial na Segunda Guerra Mundial.",
+    "categoria": "História",
+    "emoji": "🔬",
+    "fonte_referencia": "Fleming A. (1929). On the antibacterial action of cultures of a Penicillium. British Journal of Experimental Pathology."
+  },
+  {
+    "id": 5,
+    "titulo": "Aspirina: mais de 125 anos de história",
+    "conteudo": "O ácido acetilsalicílico foi sintetizado pela Bayer em 1897, tornando-se um dos medicamentos mais antigos ainda em uso no mundo. Originalmente desenvolvido para tratar dor e febre, a aspirina ganhou novos usos ao longo do século XX: anticoagulante, protetor cardiovascular e até investigado como preventivo de certos cânceres. Curioso: o nome 'Aspirina' é uma marca registrada que se tornou tão popular que virou sinônimo da substância em vários idiomas.",
+    "categoria": "História",
+    "emoji": "💊",
+    "fonte_referencia": "Jeffreys D. (2004). Aspirin: The Remarkable Story of a Wonder Drug. Bloomsbury Publishing."
+  },
+  {
+    "id": 6,
+    "titulo": "Viagra: outro acidente da medicina",
+    "conteudo": "O sildenafil foi desenvolvido pela Pfizer na década de 1990 para tratar angina pectoris (dores no peito por problemas cardíacos). Nos testes clínicos, os pesquisadores notaram que os participantes masculinos relutavam em devolver os comprimidos restantes — e revelaram o motivo: o medicamento estava causando ereções. A Pfizer rapidamente redirecionou os estudos, e em 1998 o Viagra foi aprovado para tratar disfunção erétil, tornando-se um dos medicamentos mais lucrativos da história.",
+    "categoria": "História",
+    "emoji": "💙",
+    "fonte_referencia": "Boolell M et al. (1996). Sildenafil: an orally active type 5 cyclic GMP-specific phosphodiesterase inhibitor. Int J Impot Res."
+  },
+  {
+    "id": 7,
+    "titulo": "Botox: uma toxina mortal usada com segurança",
+    "conteudo": "A toxina botulínica tipo A (Botox) é produzida pela bactéria Clostridium botulinum — a mesma responsável pelo botulismo, uma intoxicação alimentar potencialmente fatal. Em doses minúsculas e controladas, porém, essa mesma toxina é usada com segurança para reduzir rugas, tratar enxaquecas crônicas, hipersudorese, espasmos musculares e até depressão. A diferença entre veneno e remédio está — literalmente — na dose.",
+    "categoria": "Ciência",
+    "emoji": "💉",
+    "fonte_referencia": "Carruthers A, Carruthers J. (2009). Botulinum toxin type A: history and current cosmetic use. Clinics in Dermatology."
+  },
+  {
+    "id": 8,
+    "titulo": "Morfina: da papoula ao alívio da dor",
+    "conteudo": "A morfina é extraída do suco da papoula (Papaver somniferum) e foi isolada pela primeira vez em 1804 pelo farmacêutico alemão Friedrich Sertürner. Batizada em homenagem a Morfeu, o deus grego dos sonhos, ela ainda é considerada o padrão-ouro para dor intensa — como em cânceres avançados e pós-operatório de grande porte. Seu uso clínico adequado, sob prescrição médica, é seguro e essencial; o problema ocorre apenas no uso indevido e dependência.",
+    "categoria": "Ciência",
+    "emoji": "🌸",
+    "fonte_referencia": "Macht DI. (1915). The history of opium and some of its preparations and alkaloids. JAMA."
+  },
+  {
+    "id": 9,
+    "titulo": "Insulina: 100 anos salvando vidas",
+    "conteudo": "Antes de 1921, um diagnóstico de diabetes tipo 1 era praticamente uma sentença de morte — os pacientes morriam em meses. Em outubro daquele ano, os canadenses Frederick Banting e Charles Best isolaram a insulina e a testaram com sucesso em humanos. Em poucos meses, crianças que estavam em coma diabético voltaram a se alimentar, brincar e viver. Hoje, mais de 500 milhões de pessoas vivem com diabetes no mundo, e a insulina segue sendo um dos medicamentos mais essenciais da medicina.",
+    "categoria": "História",
+    "emoji": "🩸",
+    "fonte_referencia": "Bliss M. (1982). The Discovery of Insulin. University of Chicago Press."
+  },
+  {
+    "id": 10,
+    "titulo": "Talidomida: da tragédia à reabilitação",
+    "conteudo": "Nos anos 1950, a talidomida foi comercializada como sedativo seguro para gestantes — e causou malformações congênitas em cerca de 10.000 bebês ao redor do mundo. A tragédia revolucionou a regulamentação farmacêutica global. Décadas depois, porém, a talidomida foi reabilitada: hoje é usada no tratamento do mieloma múltiplo (câncer de medula), hanseníase e outras condições graves, com uso estritamente controlado para evitar exposição gestacional.",
+    "categoria": "Polêmica",
+    "emoji": "⚠️",
+    "fonte_referencia": "Kim JH, Scialli AR. (2011). Thalidomide: the tragedy of birth defects and the effective treatment of disease. Toxicological Sciences."
+  },
+  {
+    "id": 11,
+    "titulo": "Paracetamol: o mais vendido do mundo",
+    "conteudo": "O paracetamol (acetaminofen) é o medicamento mais consumido no planeta — estima-se que bilhões de comprimidos sejam tomados por ano globalmente. Apesar de ser vendido sem receita e ter fama de 'inofensivo', o paracetamol é a principal causa de insuficiência hepática aguda nos Estados Unidos e Reino Unido quando usado em doses excessivas. A mensagem é clara: mesmo medicamentos de venda livre exigem respeito à dose máxima recomendada.",
+    "categoria": "Ciência",
+    "emoji": "💊",
+    "fonte_referencia": "Larson AM et al. (2005). Acetaminophen-induced acute liver failure. Hepatology."
+  },
+  {
+    "id": 12,
+    "titulo": "Antibióticos não funcionam contra vírus",
+    "conteudo": "Gripes, resfriados, COVID-19, dengue e a maioria das faringites são causadas por vírus — e antibióticos não têm nenhum efeito sobre eles. Mesmo assim, a automedicação com antibióticos é muito comum no Brasil. Isso é preocupante porque o uso inadequado contribui para a resistência bacteriana: um problema de saúde pública tão grave que a OMS considera uma das maiores ameaças à saúde global nas próximas décadas.",
+    "categoria": "Ciência",
+    "emoji": "🦠",
+    "fonte_referencia": "OMS — World Health Organization. (2023). Global action plan on antimicrobial resistance."
+  },
+  {
+    "id": 13,
+    "titulo": "O efeito placebo é real — e poderoso",
+    "conteudo": "Quando alguém recebe um tratamento inerte (como uma pílula de açúcar) acreditando que é um medicamento real, o cérebro libera neurotransmissores como endorfinas e dopamina — e a melhora clínica acontece de verdade. O efeito placebo é tão robusto que estudos mostram melhora mesmo quando o paciente sabe que está tomando um placebo. Esse fenômeno é levado a sério pela ciência e é fundamental para entender como mente e corpo se comunicam.",
+    "categoria": "Ciência",
+    "emoji": "🧠",
+    "fonte_referencia": "Kaptchuk TJ et al. (2010). Placebos without deception. PLOS ONE."
+  },
+  {
+    "id": 14,
+    "titulo": "Mel: um medicamento com milênios de história",
+    "conteudo": "O mel é usado com fins medicinais há pelo menos 8.000 anos — registros no antigo Egito e na Grécia antiga descrevem seu uso para curar feridas, queimaduras e infecções. Hoje sabemos o porquê: o mel possui propriedades antibacterianas naturais pelo seu pH ácido, baixa atividade de água e produção de peróxido de hidrogênio. O mel de Manuka (da Nova Zelândia) é inclusive aprovado em alguns países para uso em curativos hospitalares.",
+    "categoria": "Mundo",
+    "emoji": "🍯",
+    "fonte_referencia": "Molan PC. (1992). The antibacterial activity of honey. Bee World."
+  },
+  {
+    "id": 15,
+    "titulo": "Brasil entre os maiores consumidores de ansiolíticos",
+    "conteudo": "O Brasil está entre os países com maior consumo per capita de benzodiazepínicos — como diazepam, clonazepam e alprazolam — no mundo. Esses medicamentos são eficazes para crises de ansiedade aguda, mas o uso prolongado causa dependência, comprometimento de memória e aumento do risco de demência. A OMS recomenda que o uso não ultrapasse 4 semanas; no Brasil, muitos pacientes os tomam por anos sem acompanhamento adequado.",
+    "categoria": "Polêmica",
+    "emoji": "🇧🇷",
+    "fonte_referencia": "ANVISA. (2022). Relatório de Venda de Medicamentos Controlados. Agência Nacional de Vigilância Sanitária."
+  },
+  {
+    "id": 16,
+    "titulo": "Genéricos são tão eficazes quanto os de referência",
+    "conteudo": "Muitas pessoas desconfiam dos medicamentos genéricos achando que são 'versões fracas' dos originais. Na realidade, a legislação brasileira exige que todo genérico passe por testes de bioequivalência: a prova científica de que o genérico libera a mesma quantidade do princípio ativo no sangue, no mesmo tempo, que o medicamento referência. A diferença no preço — que pode chegar a 70% menos — vem apenas da ausência de custos com pesquisa e marketing, não da qualidade.",
+    "categoria": "Ciência",
+    "emoji": "🔄",
+    "fonte_referencia": "ANVISA. (2023). Medicamentos Genéricos: o que são e como são aprovados. Agência Nacional de Vigilância Sanitária."
+  },
+  {
+    "id": 17,
+    "titulo": "O curare: veneno de flecha que virou anestésico",
+    "conteudo": "Tribos indígenas da Amazônia usavam o curare — extraído de plantas como a Strychnos toxifera — para envenenar pontas de flechas na caça e na guerra. O veneno paralisa os músculos, incluindo os respiratórios, causando morte por asfixia. No século XX, os cientistas estudaram essa substância e transformaram derivados do curare nos relaxantes musculares modernos usados em cirurgias — essenciais para que os pacientes não se movam durante as operações.",
+    "categoria": "Mundo",
+    "emoji": "🏹",
+    "fonte_referencia": "McIntyre AR. (1947). Curare: Its History, Nature and Clinical Use. University of Chicago Press."
+  },
+  {
+    "id": 18,
+    "titulo": "Estatinas: o medicamento mais prescrito do mundo",
+    "conteudo": "As estatinas — como sinvastatina, atorvastatina e rosuvastatina — são a classe de medicamentos mais prescrita globalmente, com centenas de milhões de usuários. Elas reduzem o colesterol LDL e diminuem o risco de infarto e AVC em pessoas com doença cardiovascular. Curiosamente, a primeira estatina foi descoberta em 1973 pelo pesquisador japonês Akira Endo a partir de um fungo do arroz fermentado — inspirado nas penicilinas, ele buscava uma substância que bloqueasse o colesterol nos microrganismos.",
+    "categoria": "Ciência",
+    "emoji": "❤️",
+    "fonte_referencia": "Endo A. (1992). The discovery and development of HMG-CoA reductase inhibitors. Journal of Lipid Research."
+  },
+  {
+    "id": 19,
+    "titulo": "Vacinas: a intervenção médica que mais salvou vidas",
+    "conteudo": "A varíola matou mais de 300 milhões de pessoas no século XX — e foi completamente erradicada em 1980, graças a uma campanha global de vacinação coordenada pela OMS. É a única doença humana erradicada pela vacinação. A poliomielite, que antes paralisava centenas de milhares de crianças por ano, hoje existe em apenas dois países. As vacinas são consideradas pela comunidade científica a intervenção de saúde pública com melhor relação custo-benefício da história da medicina.",
+    "categoria": "História",
+    "emoji": "💉",
+    "fonte_referencia": "OMS. (2023). Immunization coverage. World Health Organization."
+  },
+  {
+    "id": 20,
+    "titulo": "Álcool como antídoto: uma estratégia médica real",
+    "conteudo": "Parece absurdo, mas o etanol (álcool comum) é o antídoto oficial para intoxicações por metanol (álcool metílico, presente em bebidas adulteradas e alguns solventes) e etilenoglicol (anticongelante). Ambas as substâncias são metabolizadas em ácidos tóxicos que destroem os rins e causam cegueira. O etanol compete com as mesmas enzimas, bloqueando esse processo. Em hospitais de emergência, quando não há o antídoto específico disponível, soro com glicose e etanol pode salvar vidas.",
+    "categoria": "Ciência",
+    "emoji": "🍺",
+    "fonte_referencia": "Brent J. (2009). Fomepizole for ethylene glycol and methanol poisoning. New England Journal of Medicine."
+  },
+  {
+    "id": 21,
+    "titulo": "A pílula anticoncepcional mudou a sociedade",
+    "conteudo": "Aprovada nos EUA em 1960, a pílula anticoncepcional foi muito além de um avanço médico — transformou a sociedade. Pela primeira vez na história, mulheres puderam planejar a maternidade com alta confiabilidade, o que impactou diretamente sua participação no mercado de trabalho, na educação superior e na autonomia sobre o próprio corpo. Hoje, mais de 150 milhões de mulheres no mundo usam algum método hormonal de contracepção. A pílula original foi desenvolvida pelo biólogo Gregory Pincus com financiamento da ativista Margaret Sanger.",
+    "categoria": "História",
+    "emoji": "🌸",
+    "fonte_referencia": "Asbell B. (1995). The Pill: A Biography of the Drug that Changed the World. Random House."
+  },
+  {
+    "id": 22,
+    "titulo": "Remédio feito de veneno de cobra",
+    "conteudo": "O captopril, um dos medicamentos mais importantes para tratar hipertensão e insuficiência cardíaca, foi desenvolvido a partir do veneno da jararaca (Bothrops jararaca), uma cobra brasileira. O pesquisador Sérgio Ferreira, da USP, descobriu nos anos 1940 que o veneno da jararaca continha peptídeos que baixavam drasticamente a pressão arterial. Essa pesquisa, realizada no Brasil, levou ao desenvolvimento de toda a classe dos inibidores da ECA — hoje usados por dezenas de milhões de pessoas no mundo.",
+    "categoria": "Mundo",
+    "emoji": "🐍",
+    "fonte_referencia": "Ferreira SH. (1965). A bradykinin-potentiating factor (BPF) present in the venom of Bothrops jararaca. British Journal of Pharmacology."
+  },
+  {
+    "id": 23,
+    "titulo": "Lítio: descoberto como remédio por acidente",
+    "conteudo": "Em 1949, o psiquiatra australiano John Cade estava pesquisando a urina de pacientes com mania tentando identificar substâncias tóxicas. Para testar sua hipótese, precisou dissolver compostos de ureia em uma solução — e usou lítio como solvente. Ao injetar a mistura em cobaias, notou que os animais ficavam calmos. Percebendo que o efeito era do lítio, ele o testou em seus pacientes mais agitados — com resultados surpreendentes. O carbonato de lítio segue sendo até hoje o tratamento de referência para transtorno bipolar.",
+    "categoria": "História",
+    "emoji": "🧪",
+    "fonte_referencia": "Cade JF. (1949). Lithium salts in the treatment of psychotic excitement. Medical Journal of Australia."
+  },
+  {
+    "id": 24,
+    "titulo": "Propranolol: o remédio dos músicos nervosos",
+    "conteudo": "O propranolol é um betabloqueador originalmente desenvolvido para tratar pressão alta e doenças cardíacas. Mas ganhou fama paralela entre músicos, atores e oradores: usado em baixas doses antes de apresentações, ele bloqueia os sintomas físicos do nervosismo — tremor das mãos, coração acelerado, voz trêmula — sem causar sedação nem afetar o raciocínio. É uma das substâncias mais usadas nos bastidores de grandes concertos e competições musicais, embora seu uso fora das indicações médicas não seja oficialmente recomendado.",
+    "categoria": "Polêmica",
+    "emoji": "🎵",
+    "fonte_referencia": "James IM et al. (1977). Effect of oxprenolol on stage-fright in musicians. The Lancet."
+  },
+  {
+    "id": 25,
+    "titulo": "Warfarina: do veneno de rato ao anticoagulante",
+    "conteudo": "A warfarina começou como veneno para roedores nos anos 1940 — colocada em iscas, ela impedia a coagulação do sangue dos ratos, que morriam de hemorragia interna. Pouco depois, pesquisadores perceberam que em doses controladas e muito menores, a mesma substância poderia ser usada para prevenir coágulos em humanos. Desde os anos 1950, a warfarina é um dos principais anticoagulantes da medicina, usado em fibrilação atrial, próteses valvares e tromboses. O nome 'warfarin' vem de WARF — Wisconsin Alumni Research Foundation.",
+    "categoria": "História",
+    "emoji": "🐀",
+    "fonte_referencia": "Wardrop D, Keeling D. (2008). The story of the discovery of heparin and warfarin. British Journal of Haematology."
+  },
+  {
+    "id": 26,
+    "titulo": "Metformina: o medicamento com mais de 60 anos ainda em primeiro lugar",
+    "conteudo": "A metformina foi aprovada para uso no diabetes tipo 2 em 1957 na França e é até hoje o medicamento de primeira escolha para essa condição — recomendada por praticamente todas as diretrizes médicas do mundo. Mais surpreendente ainda: pesquisadores estão investigando seu potencial para retardar o envelhecimento celular e reduzir o risco de certos cânceres. Um medicamento com mais de 60 anos de uso clínico ainda sendo alvo de pesquisas de ponta é algo extremamente raro na farmacologia.",
+    "categoria": "Ciência",
+    "emoji": "🔬",
+    "fonte_referencia": "Bailey CJ. (2017). Metformin: historical overview. Diabetologia."
+  },
+  {
+    "id": 27,
+    "titulo": "O antidepressivo descoberto em pacientes de tuberculose",
+    "conteudo": "Na década de 1950, médicos tratando pacientes com tuberculose com um novo medicamento chamado iproniazida notaram algo inesperado: os pacientes ficavam eufóricos, dançavam nos corredores e relatavam melhora do humor — mesmo gravemente doentes. Investigações mostraram que o medicamento inibia a enzima MAO, responsável por degradar a serotonina e a dopamina no cérebro. A iproniazida se tornou o primeiro antidepressivo da história, inaugurando toda uma era de tratamento para depressão.",
+    "categoria": "História",
+    "emoji": "😊",
+    "fonte_referencia": "Lopez-Munoz F, Alamo C. (2009). Monoaminergic neurotransmission: the history of the discovery of antidepressants. Current Pharmaceutical Design."
+  },
+  {
+    "id": 28,
+    "titulo": "Interação perigosa: queijo e antidepressivos IMAO",
+    "conteudo": "Os antidepressivos IMAO (inibidores da monoaminaoxidase) — como a fenelzina e a tranilcipromina — têm uma interação potencialmente fatal com alimentos ricos em tiramina: queijos curados, vinho tinto, salame, fígado e outros fermentados. A tiramina, normalmente degradada pela enzima MAO, se acumula no sangue quando a enzima está bloqueada — e provoca crises hipertensivas graves que podem causar AVC. Esse é um dos poucos casos em que comer queijo pode ser perigoso para a vida.",
+    "categoria": "Polêmica",
+    "emoji": "🧀",
+    "fonte_referencia": "Blackwell B. (1963). Hypertensive crisis due to monoamine-oxidase inhibitors. The Lancet."
+  },
+  {
+    "id": 29,
+    "titulo": "Soro antiofídico: uma invenção brasileira",
+    "conteudo": "O Instituto Butantan, fundado em São Paulo em 1901, é um dos maiores produtores de soros antiofídicos do mundo — e foi pioneiro no desenvolvimento dessa tecnologia. O médico Vital Brazil foi o responsável pela criação dos primeiros soros específicos para diferentes espécies de cobra no Brasil, salvando milhares de vidas de trabalhadores rurais. Hoje o Butantan produz mais de um milhão de doses de soros e vacinas por ano, sendo referência internacional em toxinologia e imunobiológicos.",
+    "categoria": "Mundo",
+    "emoji": "🇧🇷",
+    "fonte_referencia": "Instituto Butantan. (2023). História do Instituto Butantan. butantan.gov.br"
+  },
+  {
+    "id": 30,
+    "titulo": "Roacutan: o medicamento que exige contrato",
+    "conteudo": "A isotretinoína (Roacutan) é um dos medicamentos mais eficazes para tratar acne grave — e um dos que exige mais cuidados na prescrição. No Brasil, a ANVISA exige um Termo de Esclarecimento e Responsabilidade assinado pelo paciente a cada dispensação, além de exames periódicos de sangue. O motivo: a isotretinoína é altamente teratogênica — causa malformações graves em fetos com quase 100% de chance se usada na gravidez. Mulheres em idade fértil precisam usar dois métodos contraceptivos durante todo o tratamento.",
+    "categoria": "Polêmica",
+    "emoji": "📋",
+    "fonte_referencia": "ANVISA. (2023). Nota de Esclarecimento sobre Isotretinoína. Agência Nacional de Vigilância Sanitária."
+  }
+]

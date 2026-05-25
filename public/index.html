@@ -434,6 +434,21 @@ border-radius:0 0 20px 20px;
             line-height: 1.8;
         }
 
+        .faq-section { margin-top: 6px; margin-bottom: 20px; }
+        .faq-item { border: 1px solid #e8eaf6; border-radius: 8px; margin-bottom: 8px; overflow: hidden; }
+        .faq-pergunta {
+            padding: 13px 16px; background: #f8f9ff; font-weight: 700;
+            font-size: 15px; color: #333; cursor: pointer;
+            display: flex; justify-content: space-between; align-items: center; gap: 10px;
+        }
+        .faq-pergunta:hover { background: #e8eaf6; }
+        .faq-resposta {
+            display: none; padding: 13px 16px; font-size: 15px;
+            color: #555; line-height: 1.7; background: white;
+            border-top: 1px solid #e8eaf6;
+        }
+        .faq-resposta.aberta { display: block; }
+
         .about-content {
             display: none;
             position: fixed;
@@ -720,6 +735,69 @@ border-radius:0 0 20px 20px;
             text-align: center;
         }
     
+        /* CURIOSIDADES */
+        .curiosidades-content { display: none; }
+        .curiosidades-content.active { display: block; }
+        .curio-header {
+            background: linear-gradient(135deg, #4a148c, #1565c0);
+            color: white; padding: 20px; border-radius: 12px;
+            margin-bottom: 20px; text-align: center;
+        }
+        .curio-header h2 { font-size: 22px; margin-bottom: 8px; }
+        .curio-header p { font-size: 13px; opacity: 0.92; line-height: 1.6; }
+        .curio-filtros { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 18px; }
+        .curio-filtro {
+            padding: 6px 14px; border-radius: 20px; font-size: 12px;
+            font-weight: 700; cursor: pointer; border: 2px solid;
+            transition: 0.2s; font-family: inherit; background: white;
+        }
+        .curio-filtro.todos { border-color: #667eea; color: #667eea; }
+        .curio-filtro.todos.ativo, .curio-filtro.todos:hover { background: #667eea; color: white; }
+        .curio-filtro.historia { border-color: #f39c12; color: #f39c12; }
+        .curio-filtro.historia.ativo, .curio-filtro.historia:hover { background: #f39c12; color: white; }
+        .curio-filtro.ciencia { border-color: #16a085; color: #16a085; }
+        .curio-filtro.ciencia.ativo, .curio-filtro.ciencia:hover { background: #16a085; color: white; }
+        .curio-filtro.polemica { border-color: #e74c3c; color: #e74c3c; }
+        .curio-filtro.polemica.ativo, .curio-filtro.polemica:hover { background: #e74c3c; color: white; }
+        .curio-filtro.mundo { border-color: #2980b9; color: #2980b9; }
+        .curio-filtro.mundo.ativo, .curio-filtro.mundo:hover { background: #2980b9; color: white; }
+        .curio-card {
+            border-radius: 10px; margin-bottom: 12px;
+            overflow: hidden; border: 1px solid #eee;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+        }
+        .curio-card-header {
+            padding: 14px 16px; display: flex; align-items: center;
+            gap: 12px; cursor: pointer; user-select: none;
+        }
+        .curio-card-header.historia { background: #fef9e7; border-left: 5px solid #f39c12; }
+        .curio-card-header.ciencia  { background: #e8f8f5; border-left: 5px solid #16a085; }
+        .curio-card-header.polemica { background: #fde8e8; border-left: 5px solid #e74c3c; }
+        .curio-card-header.mundo    { background: #e8f4fb; border-left: 5px solid #2980b9; }
+        .curio-card-header:hover { filter: brightness(0.97); }
+        .curio-emoji { font-size: 26px; flex-shrink: 0; }
+        .curio-titulo-wrap { flex: 1; min-width: 0; }
+        .curio-titulo { font-size: 15px; font-weight: 700; color: #222; line-height: 1.4; }
+        .curio-badge {
+            font-size: 10px; font-weight: 700; padding: 2px 8px;
+            border-radius: 10px; margin-top: 4px; display: inline-block;
+        }
+        .curio-badge.historia { background: #fde8b0; color: #b7770d; }
+        .curio-badge.ciencia  { background: #c8ede6; color: #0e6655; }
+        .curio-badge.polemica { background: #fbd0d0; color: #c0392b; }
+        .curio-badge.mundo    { background: #d0e8f6; color: #1a5276; }
+        .curio-seta { font-size: 12px; color: #aaa; flex-shrink: 0; }
+        .curio-card-corpo {
+            display: none; padding: 14px 16px;
+            font-size: 14px; color: #444; line-height: 1.8;
+            background: white; border-top: 1px solid #f0f0f0;
+        }
+        .curio-card-corpo.aberto { display: block; }
+        .curio-fonte {
+            font-size: 11px; color: #999; margin-top: 10px;
+            font-style: italic; border-top: 1px solid #f0f0f0; padding-top: 8px;
+        }
+
         @media (max-width: 480px) {
             .header {
                 padding: 30px 20px;
@@ -829,6 +907,7 @@ border-radius:0 0 20px 20px;
                 <button class="nav-btn active" data-tab="home">🏠 Home</button>
                 <button class="nav-btn" data-tab="idosos">🧓 Idosos</button>
                 <button class="nav-btn" data-tab="interacoes">⚡ Interações</button>
+                <button class="nav-btn" data-tab="curiosidades">🧪 Curiosidades</button>
                 <button class="nav-btn" data-tab="privacidade">🔒 Privacidade</button>
                 <button class="nav-btn" data-tab="termos">📋 Termos</button>
                 <button class="nav-btn" data-tab="contato">📧 Contato</button>
@@ -1565,6 +1644,26 @@ border-radius:0 0 20px 20px;
                 </script>
             </div>
 
+            <!-- CURIOSIDADES -->
+            <div id="curiosidades" class="curiosidades-content">
+                <div class="curio-header">
+                    <h2>🧪 Curiosidades sobre Medicamentos</h2>
+                    <p>Histórias fascinantes, polêmicas e descobertas surpreendentes<br>do mundo da farmacologia e da medicina</p>
+                </div>
+                <div class="curio-filtros">
+                    <button class="curio-filtro todos ativo" onclick="curioFiltrar('Todos', this)">📋 Todos</button>
+                    <button class="curio-filtro historia" onclick="curioFiltrar('História', this)">📜 História</button>
+                    <button class="curio-filtro ciencia" onclick="curioFiltrar('Ciência', this)">🔬 Ciência</button>
+                    <button class="curio-filtro polemica" onclick="curioFiltrar('Polêmica', this)">⚠️ Polêmica</button>
+                    <button class="curio-filtro mundo" onclick="curioFiltrar('Mundo', this)">🌍 Mundo</button>
+                </div>
+                <div id="curioGrid"></div>
+                <div class="beers-rodape">
+                    Conteúdo educacional revisado por <strong>Rita de Cássia Oliveira Soares da Silva — CRF-SP 33.109 — Farmacêutica</strong><br>
+                    <small>MediCheck © 2026 — Não substitui orientação médica ou farmacêutica profissional.</small>
+                </div>
+            </div>
+
             <!-- POLÍTICA DE PRIVACIDADE -->
             <div id="privacidade" class="inst-content">
                 <div class="inst-header">
@@ -1943,6 +2042,19 @@ window.addEventListener('DOMContentLoaded', () => {
                 rrHtml = `<div class="resposta-rapida"><div class="rr-label">⚡ Resposta Rápida</div><div class="rr-items">${rrItems}</div></div>`;
             }
 
+            // Build perguntas_frequentes block
+            let faqHtml = '';
+            if (medicine.perguntas_frequentes && medicine.perguntas_frequentes.length > 0) {
+                const faqItems = medicine.perguntas_frequentes.map(item =>
+                    `<div class="faq-item">` +
+                    `<div class="faq-pergunta" onclick="this.nextElementSibling.classList.toggle('aberta');this.querySelector('.faq-seta').textContent=this.nextElementSibling.classList.contains('aberta')?'▲':'▼';">` +
+                    `❓ ${item.pergunta} <span class="faq-seta" style="flex-shrink:0;font-size:13px;color:#667eea;">▼</span></div>` +
+                    `<div class="faq-resposta">${item.resposta}</div>` +
+                    `</div>`
+                ).join('');
+                faqHtml = `<div class="section-title">❓ Perguntas Frequentes</div><div class="faq-section">${faqItems}</div>`;
+            }
+
             const seoTexto = medicine.descricao_seo || medicine.descricao || '';
 
             medicineCard.innerHTML = `
@@ -1987,7 +2099,9 @@ window.addEventListener('DOMContentLoaded', () => {
                 <div class="section-content">${medicine.efeitos}</div>
                 
                 ${avisoHtml}
-                
+
+                ${faqHtml}
+
                 <div class="danger">
                     <strong>📋 NOTA EDUCACIONAL:</strong> Este é conteúdo educacional fornecido por farmacêutica responsável. Sempre consulte um profissional de saúde antes de usar qualquer medicamento. MediCheck não substitui orientação profissional.
                 </div>
@@ -2103,6 +2217,64 @@ window.addEventListener('DOMContentLoaded', () => {
             seta.textContent = corpo.classList.contains('aberto') ? '▲' : '▼';
         }
 
+        // ===== CURIOSIDADES =====
+        let curiosidadesData = [];
+        let curiosidadesCarregadas = false;
+
+        function curioSlug(cat) {
+            return {'História':'historia','Ciência':'ciencia','Polêmica':'polemica','Mundo':'mundo'}[cat] || 'todos';
+        }
+
+        function curioRender(data) {
+            const grid = document.getElementById('curioGrid');
+            if (!grid) return;
+            grid.innerHTML = '';
+            if (!data.length) {
+                grid.innerHTML = '<p style="text-align:center;color:#999;padding:30px;">Nenhuma curiosidade encontrada.</p>';
+                return;
+            }
+            data.forEach(item => {
+                const slug = curioSlug(item.categoria);
+                const card = document.createElement('div');
+                card.className = 'curio-card';
+                card.innerHTML =
+                    '<div class="curio-card-header ' + slug + '" onclick="' +
+                        "this.nextElementSibling.classList.toggle('aberto');" +
+                        "this.querySelector('.curio-seta').textContent=this.nextElementSibling.classList.contains('aberto')?'▲':'▼';" +
+                    '">' +
+                        '<span class="curio-emoji">' + item.emoji + '</span>' +
+                        '<div class="curio-titulo-wrap">' +
+                            '<div class="curio-titulo">' + item.titulo + '</div>' +
+                            '<span class="curio-badge ' + slug + '">' + item.categoria + '</span>' +
+                        '</div>' +
+                        '<span class="curio-seta">▼</span>' +
+                    '</div>' +
+                    '<div class="curio-card-corpo">' +
+                        item.conteudo +
+                        (item.fonte_referencia ? '<div class="curio-fonte">📚 ' + item.fonte_referencia + '</div>' : '') +
+                    '</div>';
+                grid.appendChild(card);
+            });
+        }
+
+        function curioFiltrar(cat, btn) {
+            document.querySelectorAll('.curio-filtro').forEach(b => b.classList.remove('ativo'));
+            btn.classList.add('ativo');
+            curioRender(cat === 'Todos' ? curiosidadesData : curiosidadesData.filter(c => c.categoria === cat));
+        }
+
+        function curioCarregar() {
+            if (curiosidadesCarregadas) return;
+            curiosidadesCarregadas = true;
+            fetch('/curiosidades.json?v=' + Date.now())
+                .then(r => r.json())
+                .then(data => { curiosidadesData = data; curioRender(data); })
+                .catch(() => {
+                    const grid = document.getElementById('curioGrid');
+                    if (grid) grid.innerHTML = '<p style="color:red;text-align:center;padding:20px;">Erro ao carregar curiosidades.</p>';
+                });
+        }
+
         tabButtons.forEach(btn => {
             btn.addEventListener('click', () => {
                 const tab = btn.dataset.tab;
@@ -2111,7 +2283,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
                 // Esconde tudo
                 document.getElementById('home').style.display = 'none';
-                ['idosos','interacoes','privacidade','termos','contato'].forEach(id => {
+                ['idosos','interacoes','curiosidades','privacidade','termos','contato'].forEach(id => {
                     const el = document.getElementById(id);
                     if (el) el.classList.remove('active');
                 });
@@ -2123,6 +2295,7 @@ window.addEventListener('DOMContentLoaded', () => {
                 } else {
                     const el = document.getElementById(tab);
                     if (el) el.classList.add('active');
+                    if (tab === 'curiosidades') curioCarregar();
                 }
             });
         });
