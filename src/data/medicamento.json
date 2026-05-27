@@ -67609,7 +67609,94 @@
     "descricao_seo": "Atazanavir (Reyataz): antirretroviral inibidor de protease para HIV. Saiba posologia, efeitos colaterais e interações com IBPs.",
     "alerta_farmaceutico": "Verificar se o paciente usa IBPs (omeprazol, pantoprazol) — são contraindicados sem ritonavir. Orientar sobre a icterícia escleral benigna para evitar abandono do tratamento. Confirmar que o medicamento está sendo retirado regularmente no SAE e que há adesão ao tratamento.",
     "quando_procurar_medico": "Procure atendimento médico imediatamente se apresentar: icterícia intensa com pele também amarelada, dor forte no flanco ou nas costas (possível cálculo renal), urina muito escura, fezes esbranquiçadas, palpitações ou desmaios, rash cutâneo extenso, ou qualquer sinal de reação alérgica grave.",
-    "interacoes": "O atazanavir é forte inibidor do CYP3A4, podendo aumentar os níveis de estatinas (sinvastatina e lovastatina são contraindicadas), sildenafila, midazolam, triazolam e imunossupressores como ciclosporina e tacrolimo. IBPs são contraindicados sem ritonavir. Antiácidos e bloqueadores H2 devem ser espaçados adequadamente. Rifampicina é contraindicada. Tenofovir reduz os níveis de atazanavir — necessita de booster com ritonavir.",
+    "interacoes": [
+      {
+        "com": [
+          "sinvastatina",
+          "lovastatina"
+        ],
+        "nivel": "alto",
+        "titulo": "Atazanavir + Sinvastatina / Lovastatina",
+        "efeito": "Atazanavir inibe fortemente o CYP3A4 — eleva muito os níveis de sinvastatina e lovastatina, com risco grave de miopatia e rabdomiólise (destruição muscular que pode causar insuficiência renal).",
+        "conduta": "❌ Contraindicado. Substituir por rosuvastatina (máx. 10mg) ou pravastatina. Nunca usar sinvastatina ou lovastatina com atazanavir."
+      },
+      {
+        "com": [
+          "sildenafila",
+          "tadalafila",
+          "vardenafila"
+        ],
+        "nivel": "alto",
+        "titulo": "Atazanavir + Inibidor de PDE-5",
+        "efeito": "Atazanavir inibe CYP3A4 — eleva muito os níveis de sildenafila e tadalafila, com risco de hipotensão grave, priapismo e distúrbios visuais.",
+        "conduta": "❌ Evitar. Se necessário para disfunção erétil, usar dose mínima (sildenafila 25mg) com intervalo de 48h. Nunca usar sildenafila para hipertensão pulmonar com atazanavir — contraindicado."
+      },
+      {
+        "com": [
+          "midazolam",
+          "triazolam"
+        ],
+        "nivel": "alto",
+        "titulo": "Atazanavir + Midazolam / Triazolam (oral)",
+        "efeito": "Atazanavir inibe CYP3A4 — eleva drasticamente os níveis de midazolam e triazolam orais, com risco de sedação prolongada e depressão respiratória grave.",
+        "conduta": "❌ Contraindicado (via oral). O uso injetável de midazolam pode ser feito com monitoramento intensivo em ambiente hospitalar."
+      },
+      {
+        "com": [
+          "ciclosporina",
+          "tacrolimo",
+          "sirolimo"
+        ],
+        "nivel": "alto",
+        "titulo": "Atazanavir + Imunossupressor",
+        "efeito": "Atazanavir inibe CYP3A4 — eleva significativamente os níveis de ciclosporina, tacrolimo e sirolimo, com risco de nefrotoxicidade e toxicidade sistêmica.",
+        "conduta": "❌ Monitorar nível sérico do imunossupressor frequentemente. Reduzir a dose conforme necessário. Uso somente com supervisão especializada em transplante."
+      },
+      {
+        "com": [
+          "omeprazol",
+          "pantoprazol",
+          "esomeprazol",
+          "lansoprazol",
+          "rabeprazol"
+        ],
+        "nivel": "alto",
+        "titulo": "Atazanavir + IBP (sem ritonavir)",
+        "efeito": "Os IBPs elevam o pH gástrico e reduzem drasticamente a absorção do atazanavir — perda significativa de eficácia antirretroviral e risco de falha terapêutica.",
+        "conduta": "❌ Contraindicado sem ritonavir. Com ritonavir (boosting), pode-se usar omeprazol máx. 20mg/dia em horário separado. Comunicar ao infectologista."
+      },
+      {
+        "com": [
+          "rifampicina"
+        ],
+        "nivel": "alto",
+        "titulo": "Atazanavir + Rifampicina",
+        "efeito": "Rifampicina é indutor potente do CYP3A4 — reduz os níveis de atazanavir a ponto de eliminar a eficácia antirretroviral.",
+        "conduta": "❌ Contraindicado. Substituir a rifampicina por rifabutina (com ajuste de dose) para tratar tuberculose. Comunicar imediatamente ao infectologista."
+      },
+      {
+        "com": [
+          "tenofovir",
+          "tenofovir desoproxila"
+        ],
+        "nivel": "moderado",
+        "titulo": "Atazanavir + Tenofovir",
+        "efeito": "Tenofovir reduz os níveis de atazanavir em cerca de 25% — pode comprometer a eficácia antirretroviral se não houver boosting farmacocinético.",
+        "conduta": "⚠️ A combinação exige ritonavir ou cobicistate como booster. Não usar atazanavir sem booster junto com tenofovir. Ajuste apenas sob orientação do infectologista."
+      },
+      {
+        "com": [
+          "antiácido",
+          "hidróxido de alumínio",
+          "hidróxido de magnésio",
+          "carbonato de cálcio"
+        ],
+        "nivel": "moderado",
+        "titulo": "Atazanavir + Antiácido / Bloqueador H2",
+        "efeito": "Antiácidos e bloqueadores H2 aumentam o pH gástrico e reduzem a absorção do atazanavir — comprometimento da eficácia antirretroviral.",
+        "conduta": "⚠️ Espaçar antiácidos por 2h após o atazanavir. Bloqueadores H2 devem ser tomados com intervalo adequado. Comunicar ao infectologista sobre todo uso de antiácido."
+      }
+    ],
     "slug": "atazanavir-150mg-200mg-300mg"
   },
   {
@@ -67660,7 +67747,80 @@
     "descricao_seo": "Darunavir (Prezista): inibidor de protease para HIV. Entenda por que deve ser usado com ritonavir, efeitos e cuidados essenciais.",
     "alerta_farmaceutico": "Confirmar que o paciente está retirando o booster (ritonavir ou cobicistat) junto com darunavir — não dispensar um sem o outro. Alertar sobre a necessidade de tomar com alimentos. Investigar histórico de alergia a sulfonamidas. Orientar sobre monitoramento de lipídios e exames hepáticos periódicos.",
     "quando_procurar_medico": "Busque atendimento médico imediatamente em caso de: rash cutâneo extenso ou bolhoso, febre associada a erupção na pele, icterícia (pele ou olhos amarelos), dor abdominal intensa, urina escura, fraqueza extrema, palpitações ou dificuldade para respirar.",
-    "interacoes": "O darunavir/ritonavir é forte inibidor de CYP3A4: aumenta drasticamente os níveis de estatinas (sinvastatina e lovastatina contraindicadas), midazolam, triazolam, amiodarona, sildenafila, imunossupressores (ciclosporina, tacrolimo) e vários outros medicamentos. Rifampicina é contraindicada. Indutores potentes de CYP3A4 (carbamazepina, fenitoína, erva-de-são-joão) reduzem os níveis de darunavir. Sempre verificar interações antes de qualquer nova prescrição.",
+    "interacoes": [
+      {
+        "com": [
+          "sinvastatina",
+          "lovastatina"
+        ],
+        "nivel": "alto",
+        "titulo": "Darunavir + Sinvastatina / Lovastatina",
+        "efeito": "Darunavir/ritonavir inibe fortemente CYP3A4 — eleva drasticamente os níveis de sinvastatina e lovastatina, com risco grave de rabdomiólise e insuficiência renal.",
+        "conduta": "❌ Contraindicado. Usar rosuvastatina (máx. 10mg) ou pravastatina como alternativa."
+      },
+      {
+        "com": [
+          "midazolam",
+          "triazolam"
+        ],
+        "nivel": "alto",
+        "titulo": "Darunavir + Midazolam / Triazolam (oral)",
+        "efeito": "Darunavir/ritonavir inibe CYP3A4 — eleva drasticamente os níveis de midazolam e triazolam orais, com risco de sedação prolongada e depressão respiratória.",
+        "conduta": "❌ Contraindicado (via oral). Midazolam IV pode ser usado com monitorização intensiva."
+      },
+      {
+        "com": [
+          "amiodarona"
+        ],
+        "nivel": "alto",
+        "titulo": "Darunavir + Amiodarona",
+        "efeito": "Darunavir/ritonavir inibe CYP3A4 — eleva os níveis de amiodarona com risco de toxicidade cardíaca grave (bradiarritmia, prolongamento QT).",
+        "conduta": "❌ Contraindicado. Comunicar ao cardiologista e infectologista para avaliação de alternativa ao antiarrítmico."
+      },
+      {
+        "com": [
+          "sildenafila",
+          "tadalafila",
+          "vardenafila"
+        ],
+        "nivel": "alto",
+        "titulo": "Darunavir + Inibidor de PDE-5",
+        "efeito": "Darunavir/ritonavir inibe CYP3A4 — eleva muito os níveis de sildenafila e tadalafila, com risco de hipotensão grave e priapismo.",
+        "conduta": "❌ Sildenafila para hipertensão pulmonar é contraindicada. Para disfunção erétil: usar dose mínima (sildenafila 25mg a cada 48h). Comunicar ao médico."
+      },
+      {
+        "com": [
+          "ciclosporina",
+          "tacrolimo",
+          "sirolimo"
+        ],
+        "nivel": "alto",
+        "titulo": "Darunavir + Imunossupressor",
+        "efeito": "Darunavir/ritonavir inibe CYP3A4 — eleva significativamente os níveis de imunossupressores com risco de nefrotoxicidade e toxicidade sistêmica.",
+        "conduta": "❌ Monitorar nível sérico do imunossupressor frequentemente. Ajustar dose sob supervisão especializada."
+      },
+      {
+        "com": [
+          "rifampicina"
+        ],
+        "nivel": "alto",
+        "titulo": "Darunavir + Rifampicina",
+        "efeito": "Rifampicina induz fortemente CYP3A4 — reduz os níveis de darunavir a ponto de eliminar a eficácia antirretroviral.",
+        "conduta": "❌ Contraindicado. Substituir rifampicina por rifabutina (com ajuste de dose). Comunicar ao infectologista."
+      },
+      {
+        "com": [
+          "carbamazepina",
+          "fenitoína",
+          "hipericão",
+          "erva-de-são-joão"
+        ],
+        "nivel": "alto",
+        "titulo": "Darunavir + Indutor Potente do CYP3A4",
+        "efeito": "Carbamazepina, fenitoína e hipericão induzem fortemente o CYP3A4 — reduzem os níveis de darunavir comprometendo a supressão viral.",
+        "conduta": "❌ Evitar. Buscar anticonvulsivante que não induza CYP3A4 (ex: levetiracetam). Nunca usar hipericão (erva-de-são-joão) durante terapia antirretroviral."
+      }
+    ],
     "slug": "darunavir-400mg-600mg-800mg"
   },
   {
@@ -67712,7 +67872,78 @@
     "descricao_seo": "Indinavir (Crixivan): antirretroviral IP para HIV. Saiba por que beber 1,5L de água/dia é obrigatório e como evitar cálculos renais.",
     "alerta_farmaceutico": "Reforçar com ênfase a necessidade de ingerir 1,5 litro de água por dia — este é o alerta mais importante para prevenção de nefrolitíase. Confirmar que o paciente entende que deve tomar em jejum ou com refeição sem gordura. Verificar hidratação e orientar sobre sinais de cálculo renal que exigem atendimento de emergência.",
     "quando_procurar_medico": "Procure emergência imediatamente se sentir dor intensa e súbita no flanco ou nas costas, urina com sangue, febre durante episódio de dor lombar, dificuldade para urinar ou parada de urina, náuseas e vômitos intensos. Consulte seu médico também em caso de icterícia intensa, fraqueza extrema ou sinais de infecção.",
-    "interacoes": "O indinavir é substrato e inibidor moderado do CYP3A4. Rifampicina é contraindicada (reduz 89% dos níveis). Não usar com sinvastatina, lovastatina (contraindicadas), midazolam oral ou triazolam. Cuidado com sildenafila (aumenta risco de hipotensão e priapismo). Antiácidos reduzem absorção — espaçar por 1 hora. Erva-de-são-joão reduz drasticamente os níveis. Didanosina (ddI) em formulação tamponada deve ser administrada em horários separados.",
+    "interacoes": [
+      {
+        "com": [
+          "rifampicina"
+        ],
+        "nivel": "alto",
+        "titulo": "Indinavir + Rifampicina",
+        "efeito": "Rifampicina induz fortemente CYP3A4 — reduz os níveis de indinavir em até 89%, tornando o antirretroviral ineficaz.",
+        "conduta": "❌ Contraindicado. Substituir por rifabutina com ajuste de dose. Comunicar ao infectologista imediatamente."
+      },
+      {
+        "com": [
+          "sinvastatina",
+          "lovastatina"
+        ],
+        "nivel": "alto",
+        "titulo": "Indinavir + Sinvastatina / Lovastatina",
+        "efeito": "Indinavir inibe CYP3A4 — eleva os níveis de sinvastatina e lovastatina com risco de miopatia e rabdomiólise.",
+        "conduta": "❌ Contraindicado. Substituir por rosuvastatina ou pravastatina."
+      },
+      {
+        "com": [
+          "midazolam",
+          "triazolam"
+        ],
+        "nivel": "alto",
+        "titulo": "Indinavir + Midazolam / Triazolam (oral)",
+        "efeito": "Indinavir inibe CYP3A4 — eleva drasticamente os níveis de midazolam e triazolam orais, com risco de sedação grave e depressão respiratória.",
+        "conduta": "❌ Contraindicado (via oral)."
+      },
+      {
+        "com": [
+          "sildenafila",
+          "tadalafila",
+          "vardenafila"
+        ],
+        "nivel": "alto",
+        "titulo": "Indinavir + Inibidor de PDE-5",
+        "efeito": "Indinavir inibe CYP3A4 — eleva muito os níveis de sildenafila com risco de hipotensão grave e priapismo.",
+        "conduta": "❌ Sildenafila para hipertensão pulmonar é contraindicada. Para disfunção erétil, usar dose mínima com intervalo de 48h. Comunicar ao médico."
+      },
+      {
+        "com": [
+          "hipericão",
+          "erva-de-são-joão"
+        ],
+        "nivel": "alto",
+        "titulo": "Indinavir + Hipericão (Erva-de-São-João)",
+        "efeito": "Hipericão induz fortemente CYP3A4 — reduz drasticamente os níveis de indinavir com risco de falha terapêutica e resistência viral.",
+        "conduta": "❌ Contraindicado. Nunca usar fitoterápicos sem comunicar ao infectologista. Proibido durante qualquer terapia antirretroviral."
+      },
+      {
+        "com": [
+          "antiácido",
+          "hidróxido de alumínio",
+          "hidróxido de magnésio"
+        ],
+        "nivel": "moderado",
+        "titulo": "Indinavir + Antiácido",
+        "efeito": "Antiácidos reduzem a absorção do indinavir — comprometimento da eficácia antirretroviral.",
+        "conduta": "⚠️ Espaçar antiácidos por pelo menos 1 hora após o indinavir. Comunicar ao infectologista."
+      },
+      {
+        "com": [
+          "didanosina"
+        ],
+        "nivel": "moderado",
+        "titulo": "Indinavir + Didanosina (formulação tamponada)",
+        "efeito": "A formulação tamponada da didanosina eleva o pH gástrico e reduz a absorção do indinavir.",
+        "conduta": "⚠️ Administrar em horários separados — tomar indinavir 1h antes ou 2h após a didanosina tamponada."
+      }
+    ],
     "slug": "indinavir-200mg-400mg"
   },
   {
@@ -67764,7 +67995,60 @@
     "descricao_seo": "Nelfinavir (Viracept): antirretroviral IP sem necessidade de booster para HIV. Saiba como controlar a diarreia e posologia correta.",
     "alerta_farmaceutico": "Orientar sobre a necessidade de tomar com alimentos para garantir absorção adequada. Alertar sobre a diarreia como efeito adverso esperado e instruir sobre uso de loperamida e hidratação. Verificar se o paciente usa anticonceptivos hormonais — necessidade de método adicional. Reforçar adesão ao tratamento mesmo com desconforto gastrointestinal.",
     "quando_procurar_medico": "Procure atendimento médico se apresentar diarreia muito intensa com desidratação (boca seca, tontura ao levantar, urina muito escura), sangue nas fezes, febre, dor abdominal intensa, icterícia, erupção cutânea generalizada, ou qualquer sinal de reação alérgica grave.",
-    "interacoes": "O nelfinavir é inibidor moderado do CYP3A4 e CYP2C19. Rifampicina é contraindicada (reduz 82% dos níveis). Cuidado com sinvastatina e lovastatina (risco de miopatia — preferir pravastatina ou rosuvastatina). Antiácidos, didanosina tamponada e omeprazol podem alterar absorção. Pode reduzir eficácia de contraceptivos orais. Erva-de-são-joão reduz drasticamente os níveis de nelfinavir.",
+    "interacoes": [
+      {
+        "com": [
+          "rifampicina"
+        ],
+        "nivel": "alto",
+        "titulo": "Nelfinavir + Rifampicina",
+        "efeito": "Rifampicina induz fortemente CYP3A4 — reduz os níveis de nelfinavir em até 82%, eliminando a eficácia antirretroviral.",
+        "conduta": "❌ Contraindicado. Substituir por rifabutina com ajuste de dose. Comunicar ao infectologista imediatamente."
+      },
+      {
+        "com": [
+          "sinvastatina",
+          "lovastatina"
+        ],
+        "nivel": "alto",
+        "titulo": "Nelfinavir + Sinvastatina / Lovastatina",
+        "efeito": "Nelfinavir inibe CYP3A4 — eleva os níveis de sinvastatina e lovastatina com risco de miopatia e rabdomiólise.",
+        "conduta": "❌ Contraindicado. Preferir rosuvastatina ou pravastatina (menor interação)."
+      },
+      {
+        "com": [
+          "hipericão",
+          "erva-de-são-joão"
+        ],
+        "nivel": "alto",
+        "titulo": "Nelfinavir + Hipericão (Erva-de-São-João)",
+        "efeito": "Hipericão induz fortemente CYP3A4 — reduz drasticamente os níveis de nelfinavir com risco de falha antirretroviral e resistência viral.",
+        "conduta": "❌ Contraindicado. Proibido usar qualquer fitoterápico sem comunicar ao infectologista durante terapia antirretroviral."
+      },
+      {
+        "com": [
+          "etinilestradiol",
+          "anticoncepcional",
+          "contraceptivo oral",
+          "levonorgestrel"
+        ],
+        "nivel": "moderado",
+        "titulo": "Nelfinavir + Anticoncepcional Oral",
+        "efeito": "Nelfinavir pode reduzir os níveis dos hormônios contraceptivos — risco de falha contraceptiva e gravidez indesejada.",
+        "conduta": "⚠️ Usar método contraceptivo adicional não hormonal (camisinha) durante o tratamento. Comunicar ao ginecologista."
+      },
+      {
+        "com": [
+          "omeprazol",
+          "pantoprazol",
+          "esomeprazol"
+        ],
+        "nivel": "moderado",
+        "titulo": "Nelfinavir + IBP / Antiácido / Didanosina",
+        "efeito": "Alterações no pH gástrico causadas por IBPs, antiácidos e didanosina tamponada podem comprometer a absorção do nelfinavir.",
+        "conduta": "⚠️ Espaçar os horários adequadamente. Comunicar ao infectologista sobre qualquer medicamento para estômago em uso."
+      }
+    ],
     "slug": "nelfinavir-250mg-625mg"
   },
   {
@@ -67816,7 +68100,62 @@
     "descricao_seo": "Saquinavir (Invirase): primeiro IP aprovado para HIV. Entenda o risco cardíaco de QT prolongado, posologia com ritonavir e cuidados.",
     "alerta_farmaceutico": "Verificar histórico cardíaco do paciente — contraindicado em QT longo congênito. Confirmar que o ritonavir também está sendo dispensado. Alertar sobre sinais de arritmia (palpitações, tontura, desmaio). Verificar outros medicamentos que prolongam o QT na farmacoterapia do paciente. Orientar sobre necessidade de ECG de acompanhamento.",
     "quando_procurar_medico": "Procure atendimento de emergência imediatamente se sentir palpitações rápidas ou irregulares, tontura intensa, desmaio ou perda de consciência, dor no peito. Consulte seu médico também em caso de icterícia, rash cutâneo extenso, febre, diarreia intensa com desidratação ou qualquer efeito adverso preocupante.",
-    "interacoes": "O saquinavir/ritonavir é forte inibidor do CYP3A4. CONTRAINDICADO com outros prolongadores de QT: amiodarona, cloroquina, haloperidol, metadona, azitromicina em altas doses. Rifampicina é contraindicada. Sinvastatina e lovastatina contraindicadas (risco de rabdomiólise). Não usar com midazolam oral, triazolam, ergotamina. Monitorar imunossupressores (ciclosporina, tacrolimo) — níveis aumentados.",
+    "interacoes": [
+      {
+        "com": [
+          "amiodarona",
+          "cloroquina",
+          "haloperidol",
+          "metadona",
+          "azitromicina"
+        ],
+        "nivel": "alto",
+        "titulo": "Saquinavir + Medicamento que Prolonga QT",
+        "efeito": "Saquinavir/ritonavir prolonga o intervalo QT — combinação com outros medicamentos que também prolongam o QT multiplica o risco de arritmia grave (torsades de pointes) e parada cardíaca.",
+        "conduta": "❌ Contraindicado. Verificar sempre o perfil de QT de qualquer medicamento novo com o cardiologista antes de iniciar."
+      },
+      {
+        "com": [
+          "rifampicina"
+        ],
+        "nivel": "alto",
+        "titulo": "Saquinavir + Rifampicina",
+        "efeito": "Rifampicina induz fortemente CYP3A4 — reduz os níveis de saquinavir a ponto de eliminar a eficácia antirretroviral.",
+        "conduta": "❌ Contraindicado. Substituir rifampicina por rifabutina. Comunicar ao infectologista imediatamente."
+      },
+      {
+        "com": [
+          "sinvastatina",
+          "lovastatina"
+        ],
+        "nivel": "alto",
+        "titulo": "Saquinavir + Sinvastatina / Lovastatina",
+        "efeito": "Saquinavir/ritonavir inibe CYP3A4 — eleva drasticamente os níveis dessas estatinas com risco grave de rabdomiólise.",
+        "conduta": "❌ Contraindicado. Substituir por rosuvastatina ou pravastatina."
+      },
+      {
+        "com": [
+          "midazolam",
+          "triazolam",
+          "ergotamina"
+        ],
+        "nivel": "alto",
+        "titulo": "Saquinavir + Midazolam / Triazolam / Ergotamina",
+        "efeito": "Saquinavir/ritonavir inibe CYP3A4 — eleva drasticamente os níveis desses medicamentos com risco de sedação grave e vasoespasmo (ergotamina).",
+        "conduta": "❌ Contraindicado. Midazolam oral e triazolam são proibidos. Ergotamina e derivados são contraindicados."
+      },
+      {
+        "com": [
+          "ciclosporina",
+          "tacrolimo",
+          "sirolimo"
+        ],
+        "nivel": "alto",
+        "titulo": "Saquinavir + Imunossupressor",
+        "efeito": "Saquinavir/ritonavir inibe CYP3A4 — eleva significativamente os níveis de imunossupressores com risco de toxicidade grave.",
+        "conduta": "❌ Monitorar nível sérico frequentemente e reduzir doses conforme necessário. Uso somente com supervisão especializada."
+      }
+    ],
     "slug": "saquinavir-500mg"
   },
   {
@@ -67868,7 +68207,70 @@
     "descricao_seo": "Nevirapina (Viramune): ITRNN para HIV. Entenda a dose de indução obrigatória de 14 dias e os riscos de hepatotoxicidade e Stevens-Johnson.",
     "alerta_farmaceutico": "Verificar CD4 na receita — contraindicada em mulheres com CD4 > 250 e homens com CD4 > 400. Confirmar que o paciente entende a fase de indução de 14 dias. Orientar sobre sinais de rash grave e hepatotoxicidade — suspensão imediata e emergência médica. Verificar se é a formulação convencional ou XR e orientar corretamente sobre administração.",
     "quando_procurar_medico": "Procure emergência IMEDIATAMENTE se aparecer rash cutâneo com bolhas, descamação, lesões na boca ou genitais, febre associada a rash, dificuldade para engolir, vermelhidão nos olhos, ou qualquer sintoma de reação grave. Também procure seu médico urgentemente se tiver icterícia, dor abdominal intensa, urina escura ou fezes esbranquiçadas (sinais de hepatite grave).",
-    "interacoes": "A nevirapina é indutora potente de CYP3A4 e CYP2B6. Reduz os níveis de inibidores de protease (não combinar sem ajuste), metadona (pode precipitar síndrome de abstinência), contraceptivos orais hormonais (usar método adicional), antifúngicos azólicos, e imunossupressores (ciclosporina, tacrolimo). Rifampicina potencializa a indução — evitar combinação. Fluconazol aumenta os níveis de nevirapina.",
+    "interacoes": [
+      {
+        "com": [
+          "ciclosporina",
+          "tacrolimo",
+          "sirolimo"
+        ],
+        "nivel": "alto",
+        "titulo": "Nevirapina + Imunossupressor",
+        "efeito": "Nevirapina induz fortemente CYP3A4 e CYP2B6 — reduz os níveis de ciclosporina, tacrolimo e sirolimo, com risco de rejeição em transplantados.",
+        "conduta": "❌ Monitorar nível sérico do imunossupressor e ajustar dose. Uso apenas com supervisão especializada em transplante."
+      },
+      {
+        "com": [
+          "metadona"
+        ],
+        "nivel": "alto",
+        "titulo": "Nevirapina + Metadona",
+        "efeito": "Nevirapina induz CYP2B6 — reduz significativamente os níveis de metadona, podendo precipitar síndrome de abstinência de opioides nos primeiros dias.",
+        "conduta": "❌ Monitorar sinais de abstinência ao iniciar nevirapina. Pode ser necessário aumentar a dose de metadona. Comunicar ao médico imediatamente se surgirem agitação, suores, dor ou ansiedade."
+      },
+      {
+        "com": [
+          "etinilestradiol",
+          "anticoncepcional",
+          "contraceptivo oral",
+          "levonorgestrel"
+        ],
+        "nivel": "alto",
+        "titulo": "Nevirapina + Anticoncepcional Oral Hormonal",
+        "efeito": "Nevirapina induz CYP3A4 — reduz os níveis dos hormônios contraceptivos com risco real de falha contraceptiva e gravidez indesejada.",
+        "conduta": "❌ Usar método contraceptivo não hormonal (camisinha) durante todo o tratamento. Comunicar ao ginecologista."
+      },
+      {
+        "com": [
+          "rifampicina"
+        ],
+        "nivel": "alto",
+        "titulo": "Nevirapina + Rifampicina",
+        "efeito": "Rifampicina potencializa a indução do CYP3A4 já promovida pela nevirapina — redução ainda maior dos níveis com risco de falha antirretroviral grave.",
+        "conduta": "❌ Evitar a combinação. Comunicar ao infectologista para ajuste do esquema terapêutico de tuberculose + HIV."
+      },
+      {
+        "com": [
+          "ketoconazol",
+          "itraconazol",
+          "fluconazol",
+          "voriconazol"
+        ],
+        "nivel": "alto",
+        "titulo": "Nevirapina + Antifúngico Azólico",
+        "efeito": "Nevirapina induz CYP3A4 — reduz os níveis dos antifúngicos azólicos, comprometendo o tratamento de infecções fúngicas.",
+        "conduta": "❌ Monitorar a resposta ao antifúngico. Pode ser necessário aumentar a dose ou trocar o antifúngico. Comunicar ao infectologista."
+      },
+      {
+        "com": [
+          "fluconazol"
+        ],
+        "nivel": "moderado",
+        "titulo": "Nevirapina + Fluconazol",
+        "efeito": "Ao contrário de outros azólicos que têm seus níveis reduzidos pela nevirapina, o fluconazol pode elevar os níveis de nevirapina por inibição do CYP3A4 — risco de hepatotoxicidade.",
+        "conduta": "⚠️ Monitorar função hepática durante o uso concomitante. Comunicar ao médico sintomas de hepatotoxicidade (icterícia, dor abdominal)."
+      }
+    ],
     "slug": "nevirapina-200mg-400mg-xr"
   },
   {
@@ -67919,7 +68321,76 @@
     "descricao_seo": "Rilpivirina (Edurant): ITRNN de 2ª geração para HIV. Saiba por que tomar com refeição calórica e por que IBPs são contraindicados.",
     "alerta_farmaceutico": "Verificar se o paciente usa IBPs (omeprazol, pantoprazol) — são contraindicados. Reforçar com ênfase absoluta que deve ser tomada com refeição calórica (≥390 kcal), não em jejum. Verificar carga viral basal — contraindicada acima de 100.000 cópias/mL. Orientar sobre espaçamento correto de antiácidos e bloqueadores H2.",
     "quando_procurar_medico": "Procure seu médico se apresentar sinais de depressão ou pensamentos de autolesão, rash cutâneo, icterícia (amarelamento da pele ou olhos), palpitações ou sensação de batimento cardíaco irregular, ou se sua carga viral começar a aumentar (detectável) nos exames de acompanhamento.",
-    "interacoes": "A rilpivirina é substrato de CYP3A4. IBPs são contraindicados. Antiácidos devem ser espaçados 2h antes ou 4h depois. Bloqueadores H2 devem ser tomados 12h antes ou 4h depois. Rifampicina, rifabutina, carbamazepina, fenitoína e erva-de-são-joão reduzem drasticamente os níveis — contraindicados. Dexametasona sistêmica (mais de uma dose) reduz eficácia. Metadona pode ter nível reduzido. Medicamentos prolongadores do QT exigem cautela.",
+    "interacoes": [
+      {
+        "com": [
+          "omeprazol",
+          "pantoprazol",
+          "esomeprazol",
+          "lansoprazol",
+          "rabeprazol"
+        ],
+        "nivel": "alto",
+        "titulo": "Rilpivirina + IBP (Inibidor de Bomba de Prótons)",
+        "efeito": "Os IBPs elevam o pH gástrico — reduzem drasticamente a absorção da rilpivirina (que precisa de ambiente ácido), comprometendo toda a eficácia antirretroviral.",
+        "conduta": "❌ Contraindicado. Nunca usar IBP com rilpivirina. Substituir por bloqueador H2 com espaçamento adequado. Comunicar ao infectologista."
+      },
+      {
+        "com": [
+          "rifampicina",
+          "rifabutina",
+          "carbamazepina",
+          "fenitoína",
+          "hipericão",
+          "erva-de-são-joão"
+        ],
+        "nivel": "alto",
+        "titulo": "Rilpivirina + Indutor do CYP3A4",
+        "efeito": "Indutores potentes do CYP3A4 reduzem os níveis de rilpivirina drasticamente — perda da supressão viral e risco de falha antirretroviral com emergência de resistência.",
+        "conduta": "❌ Contraindicado. Comunicar ao infectologista para avaliação de alternativa ao indutor ou ao antirretroviral."
+      },
+      {
+        "com": [
+          "dexametasona"
+        ],
+        "nivel": "moderado",
+        "titulo": "Rilpivirina + Dexametasona Sistêmica",
+        "efeito": "Dexametasona sistêmica (mais de uma dose) induz CYP3A4 — pode reduzir os níveis de rilpivirina e comprometer a eficácia antirretroviral.",
+        "conduta": "⚠️ Evitar dexametasona sistêmica por mais de uma dose com rilpivirina. Usar alternativa (prednisona) se necessário tratamento prolongado com corticoide. Comunicar ao infectologista."
+      },
+      {
+        "com": [
+          "metadona"
+        ],
+        "nivel": "moderado",
+        "titulo": "Rilpivirina + Metadona",
+        "efeito": "Rilpivirina pode reduzir moderadamente os níveis de metadona — risco de sintomas de abstinência.",
+        "conduta": "⚠️ Monitorar sinais de abstinência ao iniciar rilpivirina. Comunicar ao médico se surgirem agitação, suores ou ansiedade."
+      },
+      {
+        "com": [
+          "antiácido",
+          "hidróxido de alumínio",
+          "hidróxido de magnésio"
+        ],
+        "nivel": "moderado",
+        "titulo": "Rilpivirina + Antiácido",
+        "efeito": "Antiácidos elevam o pH gástrico e reduzem a absorção da rilpivirina.",
+        "conduta": "⚠️ Tomar antiácidos pelo menos 2h antes ou 4h depois da rilpivirina."
+      },
+      {
+        "com": [
+          "amiodarona",
+          "sotalol",
+          "haloperidol",
+          "quetiapina"
+        ],
+        "nivel": "moderado",
+        "titulo": "Rilpivirina + Medicamento que Prolonga QT",
+        "efeito": "Rilpivirina prolonga levemente o QT — combinação com outros fármacos que também prolongam o QT pode aumentar o risco de arritmia.",
+        "conduta": "⚠️ Usar com cautela. Monitorar ECG. Comunicar ao cardiologista sobre todos os medicamentos em uso."
+      }
+    ],
     "slug": "rilpivirina-25mg"
   },
   {
@@ -67971,7 +68442,65 @@
     "descricao_seo": "Metadona: opioide Lista A3 para dor crônica e dependência de opioides. Saiba sobre o risco cardíaco de QT longo e acumulação por meia-vida longa.",
     "alerta_farmaceutico": "Receita Amarela com retenção obrigatória — reter e registrar no SNGPC. Verificar se há outros medicamentos prolongadores do QT (risco de arritmia). Alertar sobre risco de acumulação nos primeiros dias — não aumentar dose por conta própria. Orientar sobre proibição absoluta de álcool. Verificar se o paciente tem suporte familiar/social adequado. Guardar longe de crianças.",
     "quando_procurar_medico": "Ligue para emergência (SAMU 192) imediatamente se o paciente apresentar respiração muito lenta ou difícil, lábios ou unhas azulados, sonolência extrema com dificuldade para acordar, desmaio, ou batimentos cardíacos irregulares. Procure seu médico se sentir palpitações, tontura ao levantar, constipação intensa, ou qualquer sinal de superdosagem.",
-    "interacoes": "Metadona é substrato e inibidor de CYP2D6 e CYP3A4. Depressores do SNC (álcool, benzodiazepínicos, barbitúricos, antipsicóticos) potencializam a depressão respiratória — combinação perigosa. Medicamentos que prolongam o QT são contraindicados ou exigem cautela extrema (amiodarona, cloroquina, haloperidol, fluconazol, saquinavir). Rifampicina e carbamazepina reduzem os níveis de metadona precipitando abstinência. Antirretrovirais (especialmente nevirapina, efavirenz, lopinavir/r) podem reduzir os níveis de metadona.",
+    "interacoes": [
+      {
+        "com": [
+          "álcool",
+          "alcool",
+          "diazepam",
+          "clonazepam",
+          "alprazolam",
+          "lorazepam",
+          "bromazepam",
+          "midazolam",
+          "fenobarbital",
+          "haloperidol",
+          "risperidona",
+          "quetiapina",
+          "olanzapina"
+        ],
+        "nivel": "alto",
+        "titulo": "Metadona + Depressor do SNC",
+        "efeito": "Metadona já é depressora potente do SNC e respiratório — a combinação com benzodiazepínicos, barbitúricos, álcool ou antipsicóticos potencializa a depressão respiratória com risco real de morte.",
+        "conduta": "❌ Contraindicado na maioria dos casos. Se inevitável sob supervisão médica, usar a menor dose possível e monitorar saturação de oxigênio. Nunca combinar por conta própria."
+      },
+      {
+        "com": [
+          "amiodarona",
+          "cloroquina",
+          "haloperidol",
+          "fluconazol",
+          "saquinavir",
+          "levofloxacina"
+        ],
+        "nivel": "alto",
+        "titulo": "Metadona + Medicamento que Prolonga QT",
+        "efeito": "Metadona em doses mais altas prolonga o intervalo QT — combinação com outros medicamentos que também prolongam o QT eleva muito o risco de arritmia grave (torsades de pointes) e parada cardíaca.",
+        "conduta": "❌ Contraindicado ou exige cautela extrema. Monitorar ECG antes e durante o tratamento. Comunicar ao médico todos os medicamentos em uso."
+      },
+      {
+        "com": [
+          "rifampicina",
+          "carbamazepina"
+        ],
+        "nivel": "alto",
+        "titulo": "Metadona + Rifampicina / Carbamazepina",
+        "efeito": "Rifampicina e carbamazepina induzem fortemente CYP3A4 — reduzem os níveis de metadona podendo precipitar síndrome de abstinência (agitação, suores, dor, diarreia).",
+        "conduta": "❌ Evitar a combinação. Se necessária, monitorar sinais de abstinência e ajustar a dose de metadona sob supervisão médica."
+      },
+      {
+        "com": [
+          "nevirapina",
+          "efavirenz",
+          "lopinavir",
+          "ritonavir"
+        ],
+        "nivel": "moderado",
+        "titulo": "Metadona + Antirretroviral Indutor",
+        "efeito": "Nevirapina, efavirenz e lopinavir/ritonavir induzem enzimas hepáticas — reduzem os níveis de metadona e podem precipitar sintomas de abstinência.",
+        "conduta": "⚠️ Monitorar sinais de abstinência ao iniciar ou trocar antirretrovirais. Pode ser necessário aumentar a dose de metadona. Comunicar ao médico."
+      }
+    ],
     "slug": "metadona-5mg-10mg-40mg"
   },
   {
@@ -68024,7 +68553,74 @@
     "descricao_seo": "Ketoconazol (Nizoral): antifúngico tópico seguro vs comprimido restrito pela ANVISA. Entenda os riscos de hepatotoxicidade e indicações corretas.",
     "alerta_farmaceutico": "Se dispensar o comprimido, confirmar que é prescrição hospitalar/especializada com indicação muito específica. Alertar sobre risco de hepatotoxicidade grave — instruir o paciente a interromper e buscar médico imediatamente em caso de icterícia, fadiga intensa ou dor abdominal. Para formas tópicas, orientar sobre modo de uso correto e não uso em olhos/mucosas.",
     "quando_procurar_medico": "Se usando o comprimido: procure médico imediatamente se sentir cansaço intenso e incomum, icterícia (amarelamento da pele ou olhos), urina escura, fezes claras, dor abdominal intensa, tontura extrema ou desmaio (possível crise adrenal). Para formas tópicas: consulte médico se a condição não melhorar em 4 semanas ou piorar.",
-    "interacoes": "Comprimido: inibidor potente de CYP3A4 e CYP2C9. Contraindicado com: sinvastatina, lovastatina, midazolam oral, triazolam, cisaprida, ergotamina. Aumenta significativamente os níveis de: ciclosporina, tacrolimo, varfarina, corticosteroides (aumenta risco de Cushing), anticoagulantes orais, sildenafila. Antiácidos, IBPs e bloqueadores H2 reduzem absorção do comprimido — espaçar por 2 horas. Formas tópicas: sem interações sistêmicas relevantes.",
+    "interacoes": [
+      {
+        "com": [
+          "sinvastatina",
+          "lovastatina"
+        ],
+        "nivel": "alto",
+        "titulo": "Ketoconazol (comprimido) + Sinvastatina / Lovastatina",
+        "efeito": "Ketoconazol é inibidor potente de CYP3A4 — eleva drasticamente os níveis de sinvastatina e lovastatina com risco grave de rabdomiólise (destruição muscular e insuficiência renal).",
+        "conduta": "❌ Contraindicado. Suspender sinvastatina/lovastatina durante o tratamento com ketoconazol oral. Substituir por pravastatina se necessário."
+      },
+      {
+        "com": [
+          "midazolam",
+          "triazolam"
+        ],
+        "nivel": "alto",
+        "titulo": "Ketoconazol (comprimido) + Midazolam / Triazolam (oral)",
+        "efeito": "Ketoconazol inibe CYP3A4 — eleva drasticamente os níveis de midazolam e triazolam orais, com risco de sedação prolongada e depressão respiratória.",
+        "conduta": "❌ Contraindicado (via oral). Comunicar ao médico se uso de sedativos for necessário."
+      },
+      {
+        "com": [
+          "ciclosporina",
+          "tacrolimo"
+        ],
+        "nivel": "alto",
+        "titulo": "Ketoconazol (comprimido) + Imunossupressor",
+        "efeito": "Ketoconazol inibe CYP3A4 — eleva significativamente os níveis de ciclosporina e tacrolimo com risco de nefrotoxicidade e hepatotoxicidade.",
+        "conduta": "❌ Monitorar nível sérico do imunossupressor frequentemente. Reduzir dose conforme necessário. Uso somente com supervisão especializada."
+      },
+      {
+        "com": [
+          "warfarina",
+          "varfarina",
+          "acenocumarol"
+        ],
+        "nivel": "alto",
+        "titulo": "Ketoconazol (comprimido) + Anticoagulante Oral",
+        "efeito": "Ketoconazol inibe CYP2C9 — potencializa fortemente o efeito anticoagulante da varfarina/acenocumarol com risco de hemorragia grave.",
+        "conduta": "❌ Monitorar INR frequentemente ao iniciar, durante e após o ketoconazol. Reduzir dose do anticoagulante conforme necessário."
+      },
+      {
+        "com": [
+          "sildenafila",
+          "tadalafila",
+          "vardenafila"
+        ],
+        "nivel": "alto",
+        "titulo": "Ketoconazol (comprimido) + Inibidor de PDE-5",
+        "efeito": "Ketoconazol inibe CYP3A4 — eleva muito os níveis de sildenafila e tadalafila com risco de hipotensão grave.",
+        "conduta": "❌ Evitar. Se necessário, usar dose mínima de sildenafila (25mg) e aumentar o intervalo entre as doses."
+      },
+      {
+        "com": [
+          "omeprazol",
+          "pantoprazol",
+          "esomeprazol",
+          "antiácido",
+          "hidróxido de alumínio",
+          "hidróxido de magnésio"
+        ],
+        "nivel": "moderado",
+        "titulo": "Ketoconazol (comprimido) + IBP / Antiácido / Bloqueador H2",
+        "efeito": "IBPs, antiácidos e bloqueadores H2 elevam o pH gástrico — reduzem a absorção do ketoconazol, que precisa de ambiente ácido para se dissolver.",
+        "conduta": "⚠️ Espaçar antiácidos por pelo menos 2h após o ketoconazol. IBPs comprometem substancialmente a absorção — considerar forma alternativa de antifúngico."
+      }
+    ],
     "slug": "ketoconazol-200mg-creme-2-shampoo-2"
   },
   {
@@ -68076,7 +68672,84 @@
     "descricao_seo": "Posaconazol (Noxafil): antifúngico para profilaxia em imunodeprimidos. Saiba por que a refeição gordurosa é obrigatória com a suspensão.",
     "alerta_farmaceutico": "Identificar a formulação (suspensão vs comprimido) — posologias diferentes. Reforçar obrigatoriedade de refeição gordurosa com a suspensão. Verificar se o paciente usa imunossupressores (ciclosporina, tacrolimo, sirolimo) — redução de dose obrigatória ao iniciar posaconazol. Monitorar QT e corrigir hipocalemia. Verificar interações com outros medicamentos que prolongam o QT.",
     "quando_procurar_medico": "Procure atendimento médico imediatamente se apresentar: palpitações ou batimentos irregulares, tontura intensa ou desmaio, icterícia, dor abdominal intensa, febre alta (pode indicar falha terapêutica com infecção fúngica ativa), ou qualquer sinal de toxicidade dos imunossupressores (diminuição da urina, inchaço, pressão alta).",
-    "interacoes": "Forte inibidor de CYP3A4. Contraindicado com: quinidina, pimozida, astemizol (risco de arritmia grave); sirolimo (nível aumenta mais de 9 vezes — contraindicado). Aumenta significativamente: ciclosporina (reduzir 25% da dose), tacrolimo (reduzir 2/3 da dose), ergotamina, midazolam, estatinas, vinca-alcaloides. Rifampicina, cimetidina e antiácidos com magnésio/alumínio reduzem a absorção do posaconazol. Fenitoína reduz os níveis de posaconazol.",
+    "interacoes": [
+      {
+        "com": [
+          "quinidina",
+          "pimozida"
+        ],
+        "nivel": "alto",
+        "titulo": "Posaconazol + Quinidina / Pimozida",
+        "efeito": "Posaconazol inibe CYP3A4 — eleva muito os níveis de quinidina e pimozida, com risco grave de arritmia (torsades de pointes) e parada cardíaca.",
+        "conduta": "❌ Contraindicado. Nunca associar posaconazol com quinidina ou pimozida."
+      },
+      {
+        "com": [
+          "sirolimo"
+        ],
+        "nivel": "alto",
+        "titulo": "Posaconazol + Sirolimo",
+        "efeito": "Posaconazol inibe CYP3A4 e P-gp — eleva os níveis de sirolimo em mais de 9 vezes, com risco de toxicidade grave (nefrotoxicidade, imunossupressão excessiva).",
+        "conduta": "❌ Contraindicado. Comunicar ao médico transplantologista imediatamente se o uso conjunto for considerado."
+      },
+      {
+        "com": [
+          "ergotamina",
+          "diidroergotamina"
+        ],
+        "nivel": "alto",
+        "titulo": "Posaconazol + Ergotamina",
+        "efeito": "Posaconazol inibe CYP3A4 — eleva muito os níveis de ergotamina, com risco de vasoespasmo grave, isquemia de extremidades e eventos neurológicos.",
+        "conduta": "❌ Contraindicado. Nunca usar derivados do ergot com posaconazol."
+      },
+      {
+        "com": [
+          "ciclosporina"
+        ],
+        "nivel": "alto",
+        "titulo": "Posaconazol + Ciclosporina",
+        "efeito": "Posaconazol inibe CYP3A4 — eleva significativamente os níveis de ciclosporina com risco de nefrotoxicidade e neurotoxicidade.",
+        "conduta": "❌ Reduzir a dose de ciclosporina em 25% ao iniciar posaconazol. Monitorar nível sérico com frequência. Uso somente com supervisão especializada."
+      },
+      {
+        "com": [
+          "tacrolimo"
+        ],
+        "nivel": "alto",
+        "titulo": "Posaconazol + Tacrolimo",
+        "efeito": "Posaconazol inibe CYP3A4 — eleva muito os níveis de tacrolimo com risco de nefrotoxicidade grave.",
+        "conduta": "❌ Reduzir a dose de tacrolimo em aproximadamente 2/3 ao iniciar posaconazol. Monitorar nível sérico rigorosamente."
+      },
+      {
+        "com": [
+          "rifampicina",
+          "fenitoína"
+        ],
+        "nivel": "alto",
+        "titulo": "Posaconazol + Rifampicina / Fenitoína",
+        "efeito": "Rifampicina e fenitoína induzem CYP3A4 — reduzem significativamente os níveis de posaconazol, comprometendo o tratamento antifúngico.",
+        "conduta": "❌ Evitar. Se necessário, aumentar a frequência de dose do posaconazol e monitorar resposta clínica. Comunicar ao médico."
+      },
+      {
+        "com": [
+          "midazolam"
+        ],
+        "nivel": "moderado",
+        "titulo": "Posaconazol + Midazolam",
+        "efeito": "Posaconazol inibe CYP3A4 — eleva os níveis de midazolam potencializando a sedação e o risco de depressão respiratória.",
+        "conduta": "⚠️ Usar midazolam em dose reduzida com monitoração. O midazolam oral deve ser evitado."
+      },
+      {
+        "com": [
+          "cimetidina",
+          "antiácido"
+        ],
+        "nivel": "moderado",
+        "titulo": "Posaconazol + Cimetidina / Antiácido",
+        "efeito": "Cimetidina e antiácidos com magnésio/alumínio reduzem a absorção da suspensão oral de posaconazol.",
+        "conduta": "⚠️ Espaçar por pelo menos 2h. Preferir o comprimido de liberação modificada de posaconazol quando disponível, pois é menos afetado pelo pH."
+      }
+    ],
     "slug": "posaconazol-100mg-40mgml-suspensao"
   },
   {
@@ -68128,7 +68801,73 @@
     "descricao_seo": "Levofloxacino 500mg (Tavanic): antibiótico fluoroquinolônico para pneumonia, ITU e sinusite. Riscos de tendão, fotossensibilidade e QT longo.",
     "alerta_farmaceutico": "Orientar sobre risco de tendinopatia (suspender ao sentir dor em tendão), contraindicação absoluta em miastenia gravis, fotossensibilidade e interação com antiácidos. Verificar se o paciente usa outros medicamentos que prolongam o QT ou hipoglicemiantes. Alertar diabéticos sobre risco de hipoglicemia.",
     "quando_procurar_medico": "Procure atendimento urgente se sentir dor, inchaço ou estalo em qualquer tendão; se apresentar fraqueza muscular súbita; se tiver batimentos cardíacos irregulares ou palpitações intensas; se desenvolver convulsão; se apresentar confusão mental aguda ou alucinações; ou se tiver reação alérgica grave (urticária, dificuldade de respirar, inchaço de face).",
-    "interacoes": "Antiácidos com Ca²⁺, Mg²⁺, Al³⁺, Fe²⁺ e Zn²⁺ reduzem absorção (intervalo de 2-6h obrigatório). Medicamentos que prolongam QT (amiodarona, haloperidol, antidepressivos tricíclicos) aumentam risco de arritmia. Sulfonilureias e insulina aumentam risco de hipoglicemia. AINEs podem aumentar risco de convulsão. Varfarina: monitorar RNI pois pode ter efeito aditivo anticoagulante.",
+    "interacoes": [
+      {
+        "com": [
+          "amiodarona",
+          "sotalol",
+          "haloperidol",
+          "amitriptilina",
+          "imipramina",
+          "clomipramina"
+        ],
+        "nivel": "alto",
+        "titulo": "Levofloxacino + Medicamento que Prolonga QT",
+        "efeito": "Levofloxacino prolonga o intervalo QT — combinação com outros fármacos que também prolongam o QT (amiodarona, antipsicóticos, antidepressivos tricíclicos) multiplica o risco de arritmia grave (torsades de pointes).",
+        "conduta": "❌ Evitar a combinação. Se imprescindível, monitorar ECG. Comunicar ao cardiologista."
+      },
+      {
+        "com": [
+          "warfarina",
+          "varfarina",
+          "acenocumarol"
+        ],
+        "nivel": "moderado",
+        "titulo": "Levofloxacino + Anticoagulante Oral",
+        "efeito": "Levofloxacino pode potencializar o efeito anticoagulante da varfarina — elevação do INR com risco de sangramento.",
+        "conduta": "⚠️ Monitorar INR em 2–3 dias após iniciar o antibiótico. Alertar sobre sinais de sangramento (urina avermelhada, fezes escuras, hematomas)."
+      },
+      {
+        "com": [
+          "insulina",
+          "glibenclamida",
+          "gliclazida",
+          "glimepirida",
+          "metformina"
+        ],
+        "nivel": "moderado",
+        "titulo": "Levofloxacino + Antidiabético",
+        "efeito": "Fluoroquinolonas podem causar tanto hipoglicemia quanto hiperglicemia — desregulação glicêmica imprevisível em diabéticos.",
+        "conduta": "⚠️ Monitorar glicemia com mais frequência durante o tratamento. Ajustar antidiabético conforme orientação médica."
+      },
+      {
+        "com": [
+          "antiácido",
+          "hidróxido de alumínio",
+          "hidróxido de magnésio",
+          "carbonato de cálcio",
+          "sulfato ferroso",
+          "ferro"
+        ],
+        "nivel": "moderado",
+        "titulo": "Levofloxacino + Antiácido / Ferro / Zinco / Cálcio",
+        "efeito": "Antiácidos com alumínio, magnésio ou cálcio, além de ferro e zinco, quelam o levofloxacino no intestino — reduzem significativamente sua absorção e eficácia.",
+        "conduta": "⚠️ Tomar levofloxacino 2h antes ou 6h depois de antiácidos, ferro ou suplementos de cálcio. Nunca tomar junto."
+      },
+      {
+        "com": [
+          "ibuprofeno",
+          "diclofenaco",
+          "naproxeno",
+          "nimesulida",
+          "meloxicam"
+        ],
+        "nivel": "moderado",
+        "titulo": "Levofloxacino + AINE",
+        "efeito": "AINEs combinados com fluoroquinolonas aumentam o risco de convulsões — antagonismo do GABA no SNC.",
+        "conduta": "⚠️ Evitar AINEs durante o tratamento. Preferir paracetamol ou dipirona para dor e febre."
+      }
+    ],
     "slug": "levofloxacino-250mg-500mg-750mg"
   },
   {
@@ -68182,7 +68921,95 @@
     "descricao_seo": "Naproxeno 500mg (Flanax, Naprosyn): AINE de meia-vida longa para dor e inflamação. Contraindicado no 3º trimestre. Interação com anticoagulantes.",
     "alerta_farmaceutico": "Orientar sobre risco gastrointestinal e recomendar uso com alimentos. Verificar uso de anticoagulantes, outros AINEs ou corticosteroides. Contraindicado no 3º trimestre de gestação. Alertar pacientes com insuficiência renal, cardíaca ou hipertensão. Sugerir protetor gástrico para uso prolongado. Não recomendar para menores de 12 anos sem prescrição.",
     "quando_procurar_medico": "Procure atendimento urgente se apresentar fezes escuras ou com sangue, vômito com sangue ou aparência de borra de café, dor abdominal intensa, inchaço súbito de pernas e pés, diminuição da quantidade de urina, dificuldade para respirar, dor no peito, ou reação alérgica com urticária, falta de ar e inchaço de face.",
-    "interacoes": "Anticoagulantes (varfarina, heparina): potencializa sangramento. Outros AINEs e aspirina: risco aditivo de úlcera e sangramento. Corticosteroides: risco aumentado de hemorragia digestiva. Anti-hipertensivos (IECA, BRA, diuréticos): redução da eficácia anti-hipertensiva e risco renal. Lítio: aumenta nível sérico de lítio. Metotrexato: reduz eliminação renal do metotrexato (toxicidade). ISRS: potencializa risco de sangramento GI.",
+    "interacoes": [
+      {
+        "com": [
+          "warfarina",
+          "varfarina",
+          "acenocumarol",
+          "heparina"
+        ],
+        "nivel": "alto",
+        "titulo": "Naproxeno + Anticoagulante",
+        "efeito": "Naproxeno potencializa o efeito anticoagulante e tem efeito antiagregante plaquetário próprio — combinação eleva muito o risco de sangramento grave, especialmente gastrointestinal.",
+        "conduta": "❌ Evitar. Se necessário, monitorar INR frequentemente. Preferir paracetamol para dor em pacientes anticoagulados."
+      },
+      {
+        "com": [
+          "metotrexato"
+        ],
+        "nivel": "alto",
+        "titulo": "Naproxeno + Metotrexato",
+        "efeito": "Naproxeno reduz a eliminação renal do metotrexato — eleva seus níveis séricos com risco de toxicidade grave (mucosite, supressão da medula óssea, hepatotoxicidade).",
+        "conduta": "❌ Evitar. Comunicar ao reumatologista ou oncologista antes de usar qualquer AINE com metotrexato."
+      },
+      {
+        "com": [
+          "ibuprofeno",
+          "diclofenaco",
+          "ácido acetilsalicílico",
+          "aspirina",
+          "aas",
+          "celecoxibe",
+          "meloxicam"
+        ],
+        "nivel": "alto",
+        "titulo": "Naproxeno + Outro AINE / Aspirina",
+        "efeito": "Dois AINEs ao mesmo tempo somam o risco de úlcera péptica, sangramento gastrointestinal e lesão renal sem aumento proporcional do benefício analgésico.",
+        "conduta": "❌ Nunca usar dois AINEs simultaneamente. A aspirina em dose antiagregante (75–100mg) potencializa o risco de sangramento GI — usar protetor gástrico (omeprazol) se necessário."
+      },
+      {
+        "com": [
+          "prednisona",
+          "prednisolona",
+          "dexametasona",
+          "betametasona"
+        ],
+        "nivel": "alto",
+        "titulo": "Naproxeno + Corticoide",
+        "efeito": "A combinação de AINE + corticoide multiplica o risco de hemorragia digestiva alta — ambos lesionam a mucosa gástrica por mecanismos complementares.",
+        "conduta": "❌ Evitar. Se necessário, sempre usar protetor gástrico (omeprazol). Monitorar dor abdominal e sinais de sangramento."
+      },
+      {
+        "com": [
+          "captopril",
+          "enalapril",
+          "lisinopril",
+          "losartana",
+          "valsartana",
+          "hidroclorotiazida",
+          "furosemida"
+        ],
+        "nivel": "moderado",
+        "titulo": "Naproxeno + Anti-hipertensivo (IECA / BRA / Diurético)",
+        "efeito": "AINEs retêm sódio e água e reduzem prostaglandinas vasodilatadoras — antagonizam o efeito anti-hipertensivo e aumentam o risco de lesão renal aguda, especialmente em idosos.",
+        "conduta": "⚠️ Evitar uso crônico. Se necessário, monitorar pressão arterial e função renal. Preferir paracetamol em cardiopatas e hipertensos."
+      },
+      {
+        "com": [
+          "carbonato de lítio",
+          "lítio"
+        ],
+        "nivel": "moderado",
+        "titulo": "Naproxeno + Lítio",
+        "efeito": "Naproxeno reduz a excreção renal do lítio — eleva seus níveis séricos com risco de toxicidade por lítio (tremores, confusão, arritmia).",
+        "conduta": "⚠️ Monitorar nível sérico de lítio ao iniciar ou ajustar o AINE. Alertar o paciente sobre sintomas de toxicidade. Comunicar ao psiquiatra."
+      },
+      {
+        "com": [
+          "fluoxetina",
+          "sertralina",
+          "escitalopram",
+          "paroxetina",
+          "venlafaxina",
+          "duloxetina"
+        ],
+        "nivel": "moderado",
+        "titulo": "Naproxeno + ISRS / IRSN",
+        "efeito": "ISRS e IRSN têm efeito antiagregante plaquetário — combinados com naproxeno, potencializam o risco de sangramento gastrointestinal.",
+        "conduta": "⚠️ Usar com cautela. Considerar protetor gástrico (omeprazol). Monitorar sinais de sangramento (fezes escuras, dor abdominal)."
+      }
+    ],
     "slug": "naproxeno-250mg-500mg-550mg"
   },
   {
@@ -68235,7 +69062,70 @@
     "descricao_seo": "Sirolimo (Rapamune): imunossupressor inibidor de mTOR para transplante renal. Monitorar nível sérico. Evitar grapefruit. Compromete cicatrização.",
     "alerta_farmaceutico": "Verificar aderência ao monitoramento de nível sérico. Alertar sobre interação com grapefruit e inibidores/indutores de CYP3A4. Orientar sobre risco de cicatrização comprometida e necessidade de informar cirurgiões. Monitorar lipídeos e hemograma. Orientar sobre sinais de pneumonite (tosse seca, dispneia progressiva). Verificar interação com ciclosporina ou tacrolimo.",
     "quando_procurar_medico": "Procure urgentemente se desenvolver dispneia progressiva ou tosse seca persistente (possível pneumonite). Também procure atendimento para: febre com sinais de infecção, sangramento ou equimoses espontâneas (trombocitopenia), icterícia, ou qualquer sinal de rejeição do órgão transplantado (pode variar conforme o órgão — orientar conforme transplante específico).",
-    "interacoes": "Inibidores de CYP3A4/P-gp (cetoconazol, voriconazol, claritromicina, ritonavir, grapefruit): aumentam drasticamente os níveis de sirolimo. Indutores de CYP3A4 (rifampicina, fenitoína, carbamazepina, erva-de-são-joão): reduzem níveis de sirolimo. Ciclosporina: combinação potencializa nefrotoxicidade; administrar sirolimo 4h após ciclosporina. Vacinas vivas: contraindicadas durante imunossupressão. Inibidores de IECA: risco aumentado de edema angioneurótico.",
+    "interacoes": [
+      {
+        "com": [
+          "cetoconazol",
+          "voriconazol",
+          "claritromicina",
+          "ritonavir",
+          "ciclosporina"
+        ],
+        "nivel": "alto",
+        "titulo": "Sirolimo + Inibidor Potente do CYP3A4 / P-gp",
+        "efeito": "Inibidores potentes do CYP3A4 e P-gp elevam drasticamente os níveis de sirolimo — risco de imunossupressão excessiva, infecções oportunistas e nefrotoxicidade grave.",
+        "conduta": "❌ Evitar ou reduzir drasticamente a dose de sirolimo. Monitorar nível sérico com muita frequência. Uso somente com supervisão especializada em transplante."
+      },
+      {
+        "com": [
+          "rifampicina",
+          "fenitoína",
+          "carbamazepina",
+          "hipericão",
+          "erva-de-são-joão"
+        ],
+        "nivel": "alto",
+        "titulo": "Sirolimo + Indutor Potente do CYP3A4",
+        "efeito": "Indutores potentes do CYP3A4 reduzem drasticamente os níveis de sirolimo — risco de falha imunossupressora e rejeição do órgão transplantado.",
+        "conduta": "❌ Evitar. Se rifampicina for necessária, aumentar a dose de sirolimo e monitorar nível sérico com frequência. Nunca usar hipericão em transplantados."
+      },
+      {
+        "com": [
+          "ciclosporina"
+        ],
+        "nivel": "alto",
+        "titulo": "Sirolimo + Ciclosporina",
+        "efeito": "A combinação potencializa a nefrotoxicidade mútua — risco elevado de lesão renal progressiva em transplantados.",
+        "conduta": "❌ Administrar sirolimo 4 horas após a ciclosporina para reduzir o pico de interação. Monitorar função renal e nível sérico de ambos frequentemente."
+      },
+      {
+        "com": [
+          "captopril",
+          "enalapril",
+          "lisinopril",
+          "ramipril"
+        ],
+        "nivel": "moderado",
+        "titulo": "Sirolimo + IECA",
+        "efeito": "A combinação de sirolimo com inibidores da ECA aumenta o risco de edema angioneurótico (inchaço súbito de lábios, língua, garganta) — mecanismo não totalmente esclarecido.",
+        "conduta": "⚠️ Monitorar sinais de edema angioneurótico. Comunicar ao médico imediatamente se surgir inchaço súbito de face ou garganta — é uma emergência médica."
+      },
+      {
+        "com": [
+          "vacina",
+          "vacinas vivas",
+          "febre amarela",
+          "sarampo",
+          "caxumba",
+          "rubéola",
+          "varicela"
+        ],
+        "nivel": "alto",
+        "titulo": "Sirolimo + Vacinas Vivas",
+        "efeito": "Sirolimo é imunossupressor — vacinas com vírus vivos atenuados podem causar infecção real em pacientes imunossuprimidos, com risco de doença grave.",
+        "conduta": "❌ Contraindicado. Nunca aplicar vacinas com vírus vivos (febre amarela, varicela, SCR) durante uso de sirolimo. Comunicar ao médico antes de qualquer vacinação."
+      }
+    ],
     "slug": "sirolimo-05mg-1mg-2mg"
   },
   {
@@ -68289,7 +69179,74 @@
     "descricao_seo": "Everolimo (Afinitor, Certican): inibidor de mTOR para transplante e oncologia. Estomatite frequente, pneumonite e hiperglicemia. Monitorar nível sérico.",
     "alerta_farmaceutico": "Orientar sobre manejo da estomatite com dexametasona tópica. Alertar sobre pneumonite (tosse seca + dispneia = urgência). Verificar glicemia e lipídeos na dispensação. Alertar sobre grapefruit e inibidores de CYP3A4. Conferir se dose corresponde à indicação (transplante vs. oncologia — doses muito diferentes). Vacinas vivas são contraindicadas.",
     "quando_procurar_medico": "Procure urgentemente se desenvolver dispneia nova ou progressiva e tosse seca (possível pneumonite). Também: febre com calafrios (infecção oportunista), glicemia muito elevada, aftas graves que impeçam alimentação, sinais de infecção pulmonar ou sistêmica, reações alérgicas ou edema súbito.",
-    "interacoes": "Inibidores de CYP3A4 e P-gp (cetoconazol, itraconazol, claritromicina, ritonavir, grapefruit): aumentam nível de everolimo substancialmente. Indutores de CYP3A4 (rifampicina, fenitoína, carbamazepina): reduzem eficácia. Inibidores de IECA: risco de edema angioneurótico. Ciclosporina: potencializa nefrotoxicidade mútua. Vacinas vivas: contraindicadas. Inibidores de CYP2C8 e outros agentes que prolongam QT: monitorar.",
+    "interacoes": [
+      {
+        "com": [
+          "cetoconazol",
+          "itraconazol",
+          "claritromicina",
+          "ritonavir"
+        ],
+        "nivel": "alto",
+        "titulo": "Everolimo + Inibidor Potente do CYP3A4 / P-gp",
+        "efeito": "Inibidores potentes do CYP3A4 e P-gp elevam substancialmente os níveis de everolimo — risco de toxicidade grave (nefrotoxicidade, hepatotoxicidade, imunossupressão excessiva).",
+        "conduta": "❌ Evitar ou reduzir drasticamente a dose de everolimo. Monitorar nível sérico frequentemente. Uso somente com supervisão especializada."
+      },
+      {
+        "com": [
+          "rifampicina",
+          "fenitoína",
+          "carbamazepina"
+        ],
+        "nivel": "alto",
+        "titulo": "Everolimo + Indutor Potente do CYP3A4",
+        "efeito": "Indutores potentes do CYP3A4 reduzem drasticamente os níveis de everolimo — risco de falha imunossupressora ou antineoplásica.",
+        "conduta": "❌ Evitar. Se necessário, aumentar a dose de everolimo e monitorar nível sérico. Comunicar ao médico especialista."
+      },
+      {
+        "com": [
+          "ciclosporina"
+        ],
+        "nivel": "alto",
+        "titulo": "Everolimo + Ciclosporina",
+        "efeito": "A combinação potencializa a nefrotoxicidade de ambos — risco elevado de lesão renal em transplantados.",
+        "conduta": "❌ Monitorar função renal e nível sérico de everolimo e ciclosporina frequentemente. Reduzir doses conforme necessário sob supervisão especializada."
+      },
+      {
+        "com": [
+          "captopril",
+          "enalapril",
+          "lisinopril",
+          "ramipril"
+        ],
+        "nivel": "moderado",
+        "titulo": "Everolimo + IECA",
+        "efeito": "A combinação de everolimo com inibidores da ECA aumenta o risco de edema angioneurótico — inchaço súbito que pode obstruir a via aérea.",
+        "conduta": "⚠️ Monitorar sinais de edema angioneurótico. Comunicar ao médico imediatamente se surgir inchaço súbito de face, lábios ou garganta."
+      },
+      {
+        "com": [
+          "suco de grapefruit",
+          "toranja"
+        ],
+        "nivel": "moderado",
+        "titulo": "Everolimo + Suco de Grapefruit",
+        "efeito": "Suco de grapefruit inibe CYP3A4 intestinal — eleva os níveis de everolimo de forma imprevisível, com risco de toxicidade.",
+        "conduta": "⚠️ Evitar suco de grapefruit (toranja) durante o tratamento com everolimo."
+      },
+      {
+        "com": [
+          "vacina",
+          "vacinas vivas",
+          "febre amarela",
+          "varicela"
+        ],
+        "nivel": "alto",
+        "titulo": "Everolimo + Vacinas Vivas",
+        "efeito": "Everolimo é imunossupressor — vacinas com vírus vivos podem causar infecção real em pacientes imunossuprimidos.",
+        "conduta": "❌ Contraindicado. Nunca aplicar vacinas com vírus vivos durante uso de everolimo. Comunicar ao médico antes de qualquer vacinação."
+      }
+    ],
     "slug": "everolimo-025mg-05mg-075mg-25mg-5mg-10mg"
   },
   {
@@ -68341,7 +69298,87 @@
     "descricao_seo": "Cimetidina (Tagamet): bloqueador H2 para azia e úlcera. Múltiplas interações por inibição de CYP450. Evitar em idosos. Efeitos antiandrogênicos com uso prolongado.",
     "alerta_farmaceutico": "Sempre rastrear o perfil medicamentoso completo — interações clinicamente relevantes incluem varfarina, fenitoína, teofilina, metformina, metoprolol, ciclosporina, entre outros. Contraindicada em idosos (Critérios de Beers). Alertar homens sobre ginecomastia com uso crônico. Não recomendar para uso > 2 semanas sem avaliação médica. Famotidina é alternativa mais segura.",
     "quando_procurar_medico": "Procure atendimento se apresentar confusão mental, agitação ou alucinações durante o uso (especialmente idosos). Também procure o médico se os sintomas de azia não melhorarem em 2 semanas, se houver dificuldade para engolir, vômito com sangue, fezes negras ou perda de peso não intencional — esses podem indicar condição mais grave.",
-    "interacoes": "Inibe CYP1A2, CYP2C9, CYP2C19, CYP2D6 e CYP3A4: eleva níveis de varfarina (risco de sangramento), fenitoína (toxicidade), teofilina (convulsão), metoprolol, propranolol, amitriptilina, diazepam, carbamazepina, quinidina e ciclosporina. Antiácidos reduzem absorção da cimetidina (intervalo de 1-2h). Cetoconazol e itraconazol: redução da absorção (necessitam de pH ácido). Metformina: pode elevar AUC da metformina.",
+    "interacoes": [
+      {
+        "com": [
+          "warfarina",
+          "varfarina",
+          "acenocumarol"
+        ],
+        "nivel": "alto",
+        "titulo": "Cimetidina + Anticoagulante Oral",
+        "efeito": "Cimetidina inibe CYP1A2, CYP2C9 e CYP3A4 — eleva os níveis de varfarina/acenocumarol com risco de hemorragia grave.",
+        "conduta": "❌ Monitorar INR com frequência ao iniciar ou ajustar cimetidina. Preferir ranitidina, famotidina ou omeprazol como alternativas mais seguras."
+      },
+      {
+        "com": [
+          "fenitoína"
+        ],
+        "nivel": "alto",
+        "titulo": "Cimetidina + Fenitoína",
+        "efeito": "Cimetidina inibe CYP2C19 — eleva os níveis de fenitoína com risco de toxicidade (tontura, diplopia, ataxia, nistagmo).",
+        "conduta": "❌ Monitorar nível sérico de fenitoína e sinais de toxicidade ao iniciar cimetidina. Preferir alternativa ao antiácido (ranitidina é mais segura)."
+      },
+      {
+        "com": [
+          "teofilina"
+        ],
+        "nivel": "alto",
+        "titulo": "Cimetidina + Teofilina",
+        "efeito": "Cimetidina inibe CYP1A2 — eleva os níveis de teofilina com risco de toxicidade grave (náusea, vômito, taquicardia, convulsões).",
+        "conduta": "❌ Monitorar nível sérico de teofilina e sinais de toxicidade. Preferir ranitidina ou famotidina como antiácido alternativo."
+      },
+      {
+        "com": [
+          "metoprolol",
+          "propranolol",
+          "carvedilol"
+        ],
+        "nivel": "moderado",
+        "titulo": "Cimetidina + Betabloqueador",
+        "efeito": "Cimetidina inibe CYP2D6 — pode elevar os níveis de metoprolol, propranolol e carvedilol, potencializando bradicardia e hipotensão.",
+        "conduta": "⚠️ Monitorar frequência cardíaca e pressão arterial. Preferir ranitidina ou famotidina como alternativa mais segura."
+      },
+      {
+        "com": [
+          "diazepam",
+          "alprazolam",
+          "lorazepam"
+        ],
+        "nivel": "moderado",
+        "titulo": "Cimetidina + Benzodiazepínico",
+        "efeito": "Cimetidina inibe CYP3A4 e CYP2C19 — pode elevar os níveis de benzodiazepínicos metabolizados por essas vias, potencializando a sedação.",
+        "conduta": "⚠️ Monitorar sedação excessiva. Preferir lorazepam ou oxazepam (metabolismo por glucuronidação, menos afetado). Ou substituir a cimetidina por ranitidina."
+      },
+      {
+        "com": [
+          "carbamazepina"
+        ],
+        "nivel": "moderado",
+        "titulo": "Cimetidina + Carbamazepina",
+        "efeito": "Cimetidina pode elevar moderadamente os níveis de carbamazepina nas primeiras semanas de uso, com risco de toxicidade (visão dupla, tontura, náusea).",
+        "conduta": "⚠️ Monitorar sinais de toxicidade por carbamazepina. Preferir ranitidina ou famotidina como antiácido."
+      },
+      {
+        "com": [
+          "metformina"
+        ],
+        "nivel": "moderado",
+        "titulo": "Cimetidina + Metformina",
+        "efeito": "Cimetidina inibe a secreção tubular renal da metformina — pode elevar sua concentração sérica com risco de acúmulo, especialmente em função renal reduzida.",
+        "conduta": "⚠️ Monitorar função renal. Em pacientes idosos ou com função renal limítrofe, preferir ranitidina ou omeprazol como alternativa."
+      },
+      {
+        "com": [
+          "ketoconazol",
+          "itraconazol"
+        ],
+        "nivel": "moderado",
+        "titulo": "Cimetidina + Antifúngico Azólico",
+        "efeito": "Cimetidina eleva o pH gástrico e reduz a absorção de ketoconazol e itraconazol, que precisam de ambiente ácido para se dissolver.",
+        "conduta": "⚠️ Tomar o antifúngico 2h antes da cimetidina. Considerar voriconazol ou fluconazol como alternativa menos dependente do pH."
+      }
+    ],
     "slug": "cimetidina-200mg-400mg-800mg"
   },
   {
@@ -68394,7 +69431,61 @@
     "descricao_seo": "Flecainida (Tambocor): antiarrítmico classe IC para FA paroxística em coração normal. Contraindicado pós-IAM. Monitorar ECG. Estudo CAST.",
     "alerta_farmaceutico": "Verificar se o paciente tem documentação de coração estruturalmente normal (ecocardiograma, história de IAM). Alertar sobre contraindicação absoluta em cardiopatia estrutural. Checar uso concomitante de agente para controle de frequência (betabloqueador ou BCC). Verificar interação com inibidores de CYP2D6. Orientar sobre sinais de pró-arritmia (palpitações novas, síncope).",
     "quando_procurar_medico": "Procure atendimento de emergência imediatamente se sentir: palpitações novas ou diferentes das habituais, tontura intensa, desmaio ou quase-desmaio, dor no peito, falta de ar súbita, ou batimentos cardíacos muito rápidos ou irregulares. Esses podem ser sinais de arritmia grave induzida pelo medicamento.",
-    "interacoes": "Inibidores de CYP2D6 (fluoxetina, paroxetina, bupropiona, quinidina): elevam níveis de flecainida aumentando risco de toxicidade. Amiodarona: eleva nível de flecainida — reduzir dose. Digoxina: flecainida aumenta nível de digoxina. Betabloqueadores: efeito inotrópico negativo aditivo — monitorar função cardíaca. Verapamil e diltiazem: combinação pode causar depressão hemodinâmica significativa. Alcalinizantes urinários: aumentam reabsorção e elevam níveis de flecainida.",
+    "interacoes": [
+      {
+        "com": [
+          "fluoxetina",
+          "paroxetina",
+          "bupropiona",
+          "quinidina"
+        ],
+        "nivel": "alto",
+        "titulo": "Flecainida + Inibidor do CYP2D6",
+        "efeito": "Fluoxetina, paroxetina, bupropiona e quinidina inibem CYP2D6 — elevam os níveis de flecainida com risco de toxicidade cardíaca (bradicardia grave, bloqueio AV, taquicardia ventricular).",
+        "conduta": "❌ Evitar a combinação. Se necessário, reduzir a dose de flecainida em 50% e monitorar ECG rigorosamente. Comunicar ao cardiologista."
+      },
+      {
+        "com": [
+          "amiodarona"
+        ],
+        "nivel": "alto",
+        "titulo": "Flecainida + Amiodarona",
+        "efeito": "Amiodarona inibe CYP2D6 e CYP3A4 — eleva os níveis de flecainida com risco de toxicidade cardíaca grave.",
+        "conduta": "❌ Reduzir a dose de flecainida em 50% ao iniciar amiodarona. Monitorar ECG com frequência. Comunicar ao cardiologista."
+      },
+      {
+        "com": [
+          "verapamil",
+          "diltiazem"
+        ],
+        "nivel": "alto",
+        "titulo": "Flecainida + Verapamil / Diltiazem",
+        "efeito": "A combinação de flecainida com verapamil ou diltiazem pode causar depressão hemodinâmica significativa — redução da contratilidade cardíaca, bloqueio AV e hipotensão.",
+        "conduta": "❌ Evitar em pacientes com disfunção sistólica. Se necessário, usar doses mínimas com monitorização cardiológica intensiva."
+      },
+      {
+        "com": [
+          "digoxina"
+        ],
+        "nivel": "moderado",
+        "titulo": "Flecainida + Digoxina",
+        "efeito": "Flecainida pode elevar os níveis séricos de digoxina em cerca de 15–25% — risco de toxicidade digitálica (náusea, bradicardia, visão amarelada).",
+        "conduta": "⚠️ Monitorar nível sérico de digoxina ao iniciar flecainida. Monitorar ECG e sinais de toxicidade."
+      },
+      {
+        "com": [
+          "atenolol",
+          "metoprolol",
+          "carvedilol",
+          "bisoprolol",
+          "propranolol"
+        ],
+        "nivel": "moderado",
+        "titulo": "Flecainida + Betabloqueador",
+        "efeito": "Ambos têm efeito inotrópico negativo — a combinação pode deprimir a função cardíaca de forma aditiva, com risco de bradicardia e insuficiência cardíaca em pacientes predispostos.",
+        "conduta": "⚠️ Monitorar frequência cardíaca e função cardíaca. Combinação pode ser intencional em certos casos — usar apenas com orientação cardiológica."
+      }
+    ],
     "slug": "flecainida-50mg-100mg-150mg"
   },
   {
@@ -68447,7 +69538,73 @@
     "descricao_seo": "Quinidina (sulfato): antiarrítmico Classe IA com risco de cinconismo e Torsades de Pointes. Potencia digoxina. Uso atual muito restrito em cardiologia.",
     "alerta_farmaceutico": "Verificar potássio e magnésio séricos (hipocalemia potencializa QT). Checar se paciente usa digoxina — dose de digoxina deve ser reduzida pela metade. Alertar sobre cinconismo (zumbido, visão turva = toxicidade). Verificar uso de outros medicamentos que prolongam QT. Monitorar ECG basal e QTc. Rastrear interações com inibidores e indutores de CYP2D6 e P-gp.",
     "quando_procurar_medico": "Procure emergência imediatamente se sentir: desmaio ou quase-desmaio, palpitações em salva (batimentos rápidos irregulares), zumbido intenso nos ouvidos associado a visão turva ou confusão mental, ou batimentos cardíacos muito lentos. Esses sintomas podem indicar toxicidade grave ou arritmia potencialmente fatal.",
-    "interacoes": "Digoxina: quinidina eleva nível em até 100% — reduzir dose de digoxina em 50%. Varfarina: potencializa anticoagulação (inibe CYP2C9). Betabloqueadores metabolizados por CYP2D6 (metoprolol, carvedilol): elevação de níveis. Amiodarona: prolongamento aditivo do QT — combinação perigosa. Outros medicamentos que prolongam QT (haloperidol, ondansetrona, antidepressivos tricíclicos): risco aditivo de Torsades de Pointes. Rifampicina: induz CYP3A4 e reduz eficácia da quinidina. Antagonistas de vitamina K: monitorar RNI rigorosamente.",
+    "interacoes": [
+      {
+        "com": [
+          "digoxina"
+        ],
+        "nivel": "alto",
+        "titulo": "Quinidina + Digoxina",
+        "efeito": "Quinidina inibe a P-glicoproteína e reduz a eliminação renal da digoxina — eleva seus níveis em até 100%, com risco elevado de toxicidade digitálica (bradicardia grave, bloqueios, arritmia).",
+        "conduta": "❌ Reduzir a dose de digoxina em 50% ao iniciar quinidina. Monitorar nível sérico de digoxina e ECG frequentemente."
+      },
+      {
+        "com": [
+          "warfarina",
+          "varfarina",
+          "acenocumarol"
+        ],
+        "nivel": "alto",
+        "titulo": "Quinidina + Anticoagulante Oral",
+        "efeito": "Quinidina inibe CYP2C9 — potencializa o efeito anticoagulante da varfarina/acenocumarol com risco de sangramento grave.",
+        "conduta": "❌ Monitorar INR frequentemente ao iniciar ou ajustar quinidina. Reduzir dose do anticoagulante conforme necessário."
+      },
+      {
+        "com": [
+          "amiodarona",
+          "sotalol",
+          "dronedarona"
+        ],
+        "nivel": "alto",
+        "titulo": "Quinidina + Amiodarona / Sotalol / Dronedarona",
+        "efeito": "Quinidina prolonga o intervalo QT — combinação com outros antiarrítmicos que também prolongam o QT multiplica o risco de torsades de pointes e parada cardíaca.",
+        "conduta": "❌ Contraindicado. Nunca combinar dois antiarrítmicos que prolongam o QT sem supervisão cardiológica especializada."
+      },
+      {
+        "com": [
+          "haloperidol",
+          "quetiapina",
+          "risperidona",
+          "ondansetrona",
+          "amitriptilina",
+          "imipramina"
+        ],
+        "nivel": "alto",
+        "titulo": "Quinidina + Medicamento que Prolonga QT",
+        "efeito": "Combinação com outros fármacos que prolongam o QT (antipsicóticos, antieméticos, tricíclicos) multiplica o risco de arritmia grave.",
+        "conduta": "❌ Evitar. Verificar sempre o perfil de QT de qualquer medicamento novo com o cardiologista antes de iniciar."
+      },
+      {
+        "com": [
+          "rifampicina"
+        ],
+        "nivel": "moderado",
+        "titulo": "Quinidina + Rifampicina",
+        "efeito": "Rifampicina induz CYP3A4 — reduz os níveis de quinidina comprometendo o controle da arritmia.",
+        "conduta": "⚠️ Monitorar resposta clínica e nível sérico de quinidina ao iniciar rifampicina. Pode ser necessário aumentar a dose."
+      },
+      {
+        "com": [
+          "metoprolol",
+          "carvedilol",
+          "propranolol"
+        ],
+        "nivel": "moderado",
+        "titulo": "Quinidina + Betabloqueador (CYP2D6)",
+        "efeito": "Quinidina inibe CYP2D6 — eleva os níveis de metoprolol, carvedilol e propranolol com potencialização de bradicardia e hipotensão.",
+        "conduta": "⚠️ Monitorar frequência cardíaca e pressão arterial. Reduzir dose do betabloqueador se necessário."
+      }
+    ],
     "slug": "quinidina-200mg-300mg"
   },
   {
@@ -68500,7 +69657,68 @@
     "descricao_seo": "Procainamida (Pronestyl): antiarrítmico classe IA com risco de lúpus induzido em 15-30% dos casos. Metabólito NAPA prolonga QT. Uso IV em TV hospitalar.",
     "alerta_farmaceutico": "Alertar sobre risco de LEID (artralgia + febre + ANA positivo = suspender). Verificar função renal — acúmulo de NAPA em IRC aumenta QT. Orientar monitoramento de hemograma (agranulocitose). Checar outros medicamentos que prolongam QT. Na dispensação oral (rara), reforçar importância dos exames periódicos e da comunicação de sintomas articulares e febre.",
     "quando_procurar_medico": "Procure atendimento urgente se sentir: dores nas articulações com febre (possível LEID), dor no peito ao respirar, batimentos cardíacos irregulares ou muito rápidos, desmaio ou tonturas intensas, febre com úlceras na boca ou infecções repetidas (possível agranulocitose), ou qualquer reação alérgica severa.",
-    "interacoes": "Amiodarona e outros agentes que prolongam QT: risco aditivo de Torsades de Pointes. Cimetidina e ranitidina: inibem secreção tubular da procainamida — elevam níveis séricos. Trimetoprim: mecanismo similar à cimetidina, eleva procainamida e NAPA. Álcool: pode alterar metabolismo (acetilação). Bloqueadores neuromusculares: procainamida potencializa bloqueio neuromuscular. Anti-hipertensivos: hipotensão aditiva durante infusão IV.",
+    "interacoes": [
+      {
+        "com": [
+          "amiodarona",
+          "sotalol",
+          "haloperidol",
+          "quinidina",
+          "dronedarona",
+          "ondansetrona"
+        ],
+        "nivel": "alto",
+        "titulo": "Procainamida + Medicamento que Prolonga QT",
+        "efeito": "Procainamida prolonga o intervalo QT — combinação com outros fármacos que também prolongam o QT eleva muito o risco de torsades de pointes e parada cardíaca.",
+        "conduta": "❌ Contraindicado ou exige cautela extrema. Monitorar ECG continuamente. Uso somente em ambiente hospitalar com cardiologista."
+      },
+      {
+        "com": [
+          "bloqueadores neuromusculares",
+          "succinilcolina",
+          "rocurônio",
+          "vecurônio",
+          "atracúrio"
+        ],
+        "nivel": "alto",
+        "titulo": "Procainamida + Bloqueador Neuromuscular",
+        "efeito": "Procainamida potencializa o bloqueio neuromuscular — risco de paralisia respiratória prolongada, especialmente em uso intravenoso.",
+        "conduta": "❌ Evitar. Se necessário, monitorar função neuromuscular e ter suporte ventilatório disponível."
+      },
+      {
+        "com": [
+          "cimetidina",
+          "ranitidina"
+        ],
+        "nivel": "moderado",
+        "titulo": "Procainamida + Cimetidina / Ranitidina",
+        "efeito": "Cimetidina e ranitidina inibem a secreção tubular renal da procainamida e seu metabólito ativo (NAPA) — elevam os níveis séricos com risco de toxicidade (arritmia, hipotensão).",
+        "conduta": "⚠️ Monitorar nível sérico de procainamida e NAPA. Considerar ajuste de dose. Preferir omeprazol ou famotidina como antiácido alternativo."
+      },
+      {
+        "com": [
+          "trimetoprima",
+          "trimetoprim"
+        ],
+        "nivel": "moderado",
+        "titulo": "Procainamida + Trimetoprima",
+        "efeito": "Trimetoprima inibe a secreção tubular renal da procainamida — eleva seus níveis séricos de forma similar à cimetidina.",
+        "conduta": "⚠️ Monitorar nível sérico de procainamida e sinais de toxicidade cardíaca ao usar a combinação."
+      },
+      {
+        "com": [
+          "captopril",
+          "enalapril",
+          "losartana",
+          "anlodipino",
+          "hidroclorotiazida"
+        ],
+        "nivel": "moderado",
+        "titulo": "Procainamida + Anti-hipertensivo (IV)",
+        "efeito": "A administração intravenosa de procainamida pode causar hipotensão que se soma ao efeito de anti-hipertensivos — risco de colapso circulatório.",
+        "conduta": "⚠️ Monitorar pressão arterial continuamente durante infusão intravenosa de procainamida em pacientes em uso de anti-hipertensivos."
+      }
+    ],
     "slug": "procainamida-250mg-500mg-injetavel-100mgml"
   },
   {
@@ -68553,7 +69771,72 @@
     "descricao_seo": "Almotriptana 12,5mg (Axert, Almogran): triptano para tratamento agudo de enxaqueca. Usar no início da crise. Contraindicado em doenças cardiovasculares e HAS não controlada.",
     "alerta_farmaceutico": "Verificar histórico cardiovascular antes de dispensar (coronariopatia, AVC = contraindicação absoluta). Checar uso concomitante de ISRSs, IMAOs (síndrome serotoninérgica). Alertar sobre limite de 2 comprimidos em 24h. Orientar que não é preventivo e que uso frequente pode causar cefaleia por abuso. Verificar pressão arterial — HAS não controlada é contraindicação.",
     "quando_procurar_medico": "Procure emergência se sentir: dor intensa no peito com irradiação para braço ou mandíbula, falta de ar, batimentos irregulares, fraqueza ou dormência súbita em face, braço ou perna (sinais de AVC), ou confusão mental após tomar o medicamento. Retorne ao médico se as crises de enxaqueca estiverem ocorrendo com maior frequência ou se o medicamento parou de funcionar.",
-    "interacoes": "IMAOs: contraindicados — inibem metabolismo da serotonina, risco de síndrome serotoninérgica grave. ISRSs e ISRNs: risco de síndrome serotoninérgica (fraqueza, tremor, agitação, febre, taquicardia). Outros triptanos: não combinar dentro de 24h. Ergotamina e derivados: não combinar dentro de 24h (vasoespasmo). Inibidores de CYP3A4 e MAO-A: podem elevar níveis de almotriptana (ajustar dose).",
+    "interacoes": [
+      {
+        "com": [
+          "rasagilina",
+          "selegilina",
+          "tranilcipromina",
+          "fenelzina",
+          "isocarboxazida"
+        ],
+        "nivel": "alto",
+        "titulo": "Almotriptana + IMAO",
+        "efeito": "IMAOs inibem o metabolismo da serotonina — combinação com almotriptana (agonista serotoninérgico) causa risco grave de síndrome serotoninérgica (agitação, tremores, febre alta, convulsões).",
+        "conduta": "❌ Contraindicado. Aguardar pelo menos 14 dias após suspender o IMAO antes de usar almotriptana."
+      },
+      {
+        "com": [
+          "fluoxetina",
+          "sertralina",
+          "escitalopram",
+          "paroxetina",
+          "citalopram",
+          "venlafaxina",
+          "duloxetina"
+        ],
+        "nivel": "alto",
+        "titulo": "Almotriptana + ISRS / IRSN",
+        "efeito": "A combinação de triptano com antidepressivos serotoninérgicos aumenta o risco de síndrome serotoninérgica — fraqueza, tremor, agitação, sudorese, taquicardia e febre.",
+        "conduta": "❌ Usar com cautela e comunicar ao médico. Monitorar sintomas de síndrome serotoninérgica nas primeiras horas após o uso."
+      },
+      {
+        "com": [
+          "sumatriptana",
+          "rizatriptana",
+          "zolmitriptana",
+          "naratriptana",
+          "eletriptana",
+          "frovatriptana"
+        ],
+        "nivel": "alto",
+        "titulo": "Almotriptana + Outro Triptano",
+        "efeito": "Combinar dois triptanos em menos de 24h soma os efeitos vasoconstritores — risco de isquemia coronariana e cerebral, especialmente em pacientes com fatores de risco cardiovascular.",
+        "conduta": "❌ Não usar dois triptanos dentro de um intervalo de 24 horas. Escolher apenas um por crise de enxaqueca."
+      },
+      {
+        "com": [
+          "ergotamina",
+          "diidroergotamina"
+        ],
+        "nivel": "alto",
+        "titulo": "Almotriptana + Ergotamina / Derivados do Ergot",
+        "efeito": "Ambos causam vasoconstrição — combinação multiplica o risco de vasoespasmo grave, isquemia de extremidades e eventos cerebrovasculares.",
+        "conduta": "❌ Não usar dentro de 24 horas entre si. Combinar ergotamina e triptano é contraindicado."
+      },
+      {
+        "com": [
+          "cetoconazol",
+          "itraconazol",
+          "ritonavir",
+          "nelfinavir"
+        ],
+        "nivel": "moderado",
+        "titulo": "Almotriptana + Inibidor do CYP3A4",
+        "efeito": "Inibidores potentes do CYP3A4 podem elevar os níveis de almotriptana, aumentando o risco de efeitos adversos cardiovasculares.",
+        "conduta": "⚠️ Usar a menor dose eficaz de almotriptana. Comunicar ao médico sobre o uso de antifúngicos ou antiretrovirais."
+      }
+    ],
     "slug": "almotriptana-125mg"
   },
   {
@@ -68606,7 +69889,91 @@
     "descricao_seo": "Eletriptana 40mg (Relpax): triptano lipofílico para enxaqueca aguda. Metabolismo por CYP3A4 — evitar azólicos e macrolídeos. Máximo 80mg/24h.",
     "alerta_farmaceutico": "Rastrear uso de inibidores potentes de CYP3A4 (azólicos, macrolídeos, inibidores de protease) — contraindicação. Verificar histórico cardiovascular (coronariopatia, AVC = contraindicação). Alertar sobre intervalo de 24h entre triptanos e ergotamina. Orientar limite de 80mg/24h. Síndrome serotoninérgica com ISRSs e IMAOs. Orientar que não é preventivo.",
     "quando_procurar_medico": "Procure emergência imediatamente se tiver: dor intensa no peito com irradiação, dificuldade para falar, fraqueza súbita em um lado do corpo, alteração visual súbita, ou perda de consciência após usar o medicamento. Retorne ao médico se as crises aumentarem em frequência, se o medicamento perder eficácia ou se usar triptanos mais de 10 dias por mês.",
-    "interacoes": "Inibidores potentes de CYP3A4 (cetoconazol, itraconazol, claritromicina, eritromicina, ritonavir, nelfinavir): contraindicados — elevam eletriptana 3-6x. Ergotamina e derivados: intervalo mínimo de 24h (vasoespasmo aditivo). Outros triptanos: não combinar dentro de 24h. IMAOs: contraindicados. ISRSs e ISRNs: risco de síndrome serotoninérgica. Lítio: aumenta risco serotoninérgico. Propranolol: pode elevar moderadamente a exposição à eletriptana.",
+    "interacoes": [
+      {
+        "com": [
+          "cetoconazol",
+          "itraconazol",
+          "claritromicina",
+          "eritromicina",
+          "ritonavir",
+          "nelfinavir"
+        ],
+        "nivel": "alto",
+        "titulo": "Eletriptana + Inibidor Potente do CYP3A4",
+        "efeito": "Inibidores potentes do CYP3A4 elevam os níveis de eletriptana em 3 a 6 vezes — risco elevado de toxicidade cardiovascular (vasoespasmo, isquemia).",
+        "conduta": "❌ Contraindicado. Não usar eletriptana dentro de 72 horas após uso de inibidor potente do CYP3A4."
+      },
+      {
+        "com": [
+          "rasagilina",
+          "selegilina",
+          "tranilcipromina",
+          "fenelzina"
+        ],
+        "nivel": "alto",
+        "titulo": "Eletriptana + IMAO",
+        "efeito": "IMAOs potencializam efeitos serotoninérgicos — combinação com eletriptana aumenta risco de síndrome serotoninérgica grave.",
+        "conduta": "❌ Contraindicado. Aguardar pelo menos 14 dias após suspender o IMAO."
+      },
+      {
+        "com": [
+          "fluoxetina",
+          "sertralina",
+          "escitalopram",
+          "paroxetina",
+          "venlafaxina",
+          "duloxetina"
+        ],
+        "nivel": "alto",
+        "titulo": "Eletriptana + ISRS / IRSN",
+        "efeito": "Combinação de triptano com ISRS/IRSN aumenta risco de síndrome serotoninérgica.",
+        "conduta": "❌ Usar com cautela extrema. Monitorar sinais de síndrome serotoninérgica (agitação, tremores, febre) após o uso."
+      },
+      {
+        "com": [
+          "sumatriptana",
+          "almotriptana",
+          "rizatriptana",
+          "zolmitriptana",
+          "naratriptana",
+          "frovatriptana"
+        ],
+        "nivel": "alto",
+        "titulo": "Eletriptana + Outro Triptano",
+        "efeito": "Combinar dois triptanos dentro de 24h soma efeitos vasoconstritores com risco de vasoespasmo e isquemia.",
+        "conduta": "❌ Não usar dois triptanos em menos de 24 horas. Escolher apenas um por crise."
+      },
+      {
+        "com": [
+          "ergotamina",
+          "diidroergotamina"
+        ],
+        "nivel": "alto",
+        "titulo": "Eletriptana + Ergotamina",
+        "efeito": "Soma de vasoconstritores — risco de isquemia grave de extremidades e eventos cerebrovasculares.",
+        "conduta": "❌ Não usar dentro de 24 horas entre si. Combinação contraindicada."
+      },
+      {
+        "com": [
+          "carbonato de lítio",
+          "lítio"
+        ],
+        "nivel": "moderado",
+        "titulo": "Eletriptana + Lítio",
+        "efeito": "Lítio tem efeito serotoninérgico — combinação com triptanos pode aumentar o risco de síndrome serotoninérgica.",
+        "conduta": "⚠️ Usar com cautela. Monitorar sinais de síndrome serotoninérgica. Comunicar ao psiquiatra."
+      },
+      {
+        "com": [
+          "propranolol"
+        ],
+        "nivel": "moderado",
+        "titulo": "Eletriptana + Propranolol",
+        "efeito": "Propranolol pode inibir moderadamente o metabolismo da eletriptana — eleva sua exposição plasmática em cerca de 30%.",
+        "conduta": "⚠️ Clinicamente relevante apenas em doses altas de propranolol. Monitorar efeitos adversos da eletriptana. Usar dose mínima eficaz."
+      }
+    ],
     "slug": "eletriptana-20mg-40mg"
   },
   {
@@ -68658,7 +70025,76 @@
     "descricao_seo": "Zolmitriptana 2,5mg e 5mg (Zomig): triptano em comprimido, ODT e spray nasal. Indicado para enxaqueca e cefaleia em salvas. Interação com cimetidina e IMAOs.",
     "alerta_farmaceutico": "Verificar uso de cimetidina (reduzir dose máxima para 5mg/24h). IMAOs são contraindicados — verificar washout de 2 semanas. Verificar ISRSs (síndrome serotoninérgica). Checar histórico cardiovascular. Orientar corretamente o uso de cada formulação (comprimido, ODT, spray nasal). Alertar sobre limite de 10mg/24h. Verificar uso de outros triptanos ou ergotamina nas 24h anteriores.",
     "quando_procurar_medico": "Procure emergência imediatamente se: dor intensa no peito com irradiação para braço ou mandíbula, dificuldade súbita para falar ou entender, fraqueza em um lado do corpo, visão turva súbita, ou febre com agitação extrema e tremores (síndrome serotoninérgica). Retorne ao médico se estiver usando triptanos mais de 10 dias por mês ou se as crises estiverem se tornando mais frequentes.",
-    "interacoes": "Cimetidina (inibidor CYP1A2): dobra AUC da zolmitriptana — reduzir dose máxima para 5mg/24h. IMAOs (inibem MAO-A): contraindicados — esperar 2 semanas de washout. ISRSs e ISRNs: risco de síndrome serotoninérgica. Ergotamina e derivados: intervalo mínimo de 24h. Outros triptanos: não combinar dentro de 24h. Quinolonas (ciprofloxacino, que inibe CYP1A2): podem elevar moderadamente os níveis. Propranolol e betabloqueadores: não há interação farmacocinética clinicamente relevante, mas monitorar.",
+    "interacoes": [
+      {
+        "com": [
+          "cimetidina"
+        ],
+        "nivel": "alto",
+        "titulo": "Zolmitriptana + Cimetidina",
+        "efeito": "Cimetidina inibe CYP1A2 — dobra a exposição à zolmitriptana, aumentando o risco de efeitos adversos cardiovasculares (opressão torácica, vasoespasmo).",
+        "conduta": "❌ Não exceder 5mg/24h de zolmitriptana ao usar com cimetidina. Preferir ranitidina ou omeprazol como antiácido alternativo."
+      },
+      {
+        "com": [
+          "rasagilina",
+          "selegilina",
+          "tranilcipromina",
+          "fenelzina"
+        ],
+        "nivel": "alto",
+        "titulo": "Zolmitriptana + IMAO",
+        "efeito": "IMAOs inibem o metabolismo da serotonina e da zolmitriptana via MAO-A — risco grave de síndrome serotoninérgica e elevação excessiva dos níveis do triptano.",
+        "conduta": "❌ Contraindicado. Aguardar pelo menos 2 semanas após suspender o IMAO antes de usar zolmitriptana."
+      },
+      {
+        "com": [
+          "fluoxetina",
+          "sertralina",
+          "escitalopram",
+          "paroxetina",
+          "venlafaxina",
+          "duloxetina"
+        ],
+        "nivel": "alto",
+        "titulo": "Zolmitriptana + ISRS / IRSN",
+        "efeito": "Combinação de triptano com ISRS/IRSN aumenta o risco de síndrome serotoninérgica.",
+        "conduta": "❌ Usar com cautela extrema. Monitorar sinais de síndrome serotoninérgica nas primeiras horas após o uso."
+      },
+      {
+        "com": [
+          "ergotamina",
+          "diidroergotamina"
+        ],
+        "nivel": "alto",
+        "titulo": "Zolmitriptana + Ergotamina",
+        "efeito": "Soma de vasoconstritores — risco de vasoespasmo grave, isquemia de extremidades e eventos cerebrovasculares.",
+        "conduta": "❌ Intervalo mínimo de 24 horas entre ergotamina e zolmitriptana. Combinação contraindicada no mesmo dia."
+      },
+      {
+        "com": [
+          "sumatriptana",
+          "almotriptana",
+          "eletriptana",
+          "rizatriptana",
+          "naratriptana",
+          "frovatriptana"
+        ],
+        "nivel": "alto",
+        "titulo": "Zolmitriptana + Outro Triptano",
+        "efeito": "Combinar dois triptanos soma efeitos vasoconstritores com risco de vasoespasmo e isquemia.",
+        "conduta": "❌ Não usar dois triptanos em menos de 24 horas. Um triptano por crise."
+      },
+      {
+        "com": [
+          "ciprofloxacino"
+        ],
+        "nivel": "moderado",
+        "titulo": "Zolmitriptana + Ciprofloxacino",
+        "efeito": "Ciprofloxacino inibe CYP1A2 — pode elevar moderadamente os níveis de zolmitriptana, potencializando efeitos adversos.",
+        "conduta": "⚠️ Usar a menor dose eficaz de zolmitriptana durante tratamento com ciprofloxacino. Monitorar sintomas."
+      }
+    ],
     "slug": "zolmitriptana-25mg-5mg"
   },
   {
@@ -68711,7 +70147,61 @@
     "descricao_seo": "Imatinibe 100mg e 400mg (Gleevec/Glivec): inibidor de tirosina quinase para leucemia mieloide crônica (LMC) e GIST. Saiba efeitos, interações com varfarina e receita.",
     "alerta_farmaceutico": "Verificar uso de varfarina — imatinibe inibe CYP2C9 e pode elevar INR gravemente. Checar uso de rifampicina, carbamazepina ou fenitoína — reduzem imatinibe em 70%. Verificar cetoconazol/itraconazol — aumentam imatinibe. Limitar paracetamol a 2g/dia (inibição de UGT1A6). Orientar sobre edema periorbital esperado e benigno. Monitorar hemograma (citopenia) e transaminases (hepatotoxicidade) conforme protocolo.",
     "quando_procurar_medico": "Procure atendimento médico urgente se apresentar: febre acima de 38°C (possível neutropenia febril — emergência oncológica), sangramentos espontâneos (petéquias, hematomas, sangue nas fezes), icterícia ou dor abdominal intensa (hepatotoxicidade), dispneia progressiva ou tosse seca (derrame pleural ou pericárdico), edema muito intenso ou generalizado. Retorne ao oncologista em qualquer alteração grave no exame de sangue.",
-    "interacoes": "Varfarina/acenocumarol: imatinibe inibe CYP2C9 → elevação do INR → risco de sangramento — monitorar INR frequentemente. Rifampicina/carbamazepina/fenitoína (indutores CYP3A4): reduzem níveis de imatinibe em 70% → falha terapêutica — contraindicado. Cetoconazol/itraconazol/claritromicina (inibidores CYP3A4): aumentam imatinibe em ~40% → toxicidade. Paracetamol: imatinibe inibe UGT1A6 → hepatotoxicidade — limitar a 2g/dia. Sinvastatina/lovastatina: imatinibe inibe OATP1B1 → miopatia — preferir rosuvastatina ou pravastatina.",
+    "interacoes": [
+      {
+        "com": [
+          "warfarina",
+          "varfarina",
+          "acenocumarol"
+        ],
+        "nivel": "alto",
+        "titulo": "Imatinibe + Anticoagulante Oral",
+        "efeito": "Imatinibe inibe CYP2C9 — eleva os níveis de varfarina/acenocumarol com risco de sangramento grave por potencialização do efeito anticoagulante.",
+        "conduta": "❌ Monitorar INR com muita frequência ao iniciar, ajustar ou suspender imatinibe. Preferir heparina de baixo peso molecular ou rivaroxabana como alternativa (menor interação via CYP2C9)."
+      },
+      {
+        "com": [
+          "rifampicina",
+          "carbamazepina",
+          "fenitoína",
+          "hipericão"
+        ],
+        "nivel": "alto",
+        "titulo": "Imatinibe + Indutor Potente do CYP3A4",
+        "efeito": "Rifampicina, carbamazepina e fenitoína induzem fortemente CYP3A4 — reduzem os níveis de imatinibe em até 70%, comprometendo o tratamento oncológico.",
+        "conduta": "❌ Contraindicado. Buscar alternativas ao indutor enzimático. Se rifampicina for indispensável (tuberculose), comunicar ao oncologista para ajuste ou troca do antineoplásico."
+      },
+      {
+        "com": [
+          "cetoconazol",
+          "itraconazol",
+          "claritromicina"
+        ],
+        "nivel": "moderado",
+        "titulo": "Imatinibe + Inibidor do CYP3A4",
+        "efeito": "Inibidores do CYP3A4 elevam os níveis de imatinibe em cerca de 40% — risco de toxicidade (náusea, edema, fadiga intensa, mielossupressão).",
+        "conduta": "⚠️ Monitorar sinais de toxicidade. Comunicar ao oncologista antes de iniciar qualquer antifúngico ou antibiótico macrolídeo."
+      },
+      {
+        "com": [
+          "paracetamol"
+        ],
+        "nivel": "moderado",
+        "titulo": "Imatinibe + Paracetamol (dose alta)",
+        "efeito": "Imatinibe inibe UGT1A6, enzima responsável pelo metabolismo do paracetamol — pode elevar a exposição ao metabólito hepatotóxico do paracetamol com risco de hepatotoxicidade.",
+        "conduta": "⚠️ Limitar paracetamol a no máximo 2g/dia durante o tratamento com imatinibe. Evitar uso simultâneo com álcool."
+      },
+      {
+        "com": [
+          "sinvastatina",
+          "lovastatina"
+        ],
+        "nivel": "moderado",
+        "titulo": "Imatinibe + Sinvastatina / Lovastatina",
+        "efeito": "Imatinibe inibe OATP1B1 e CYP3A4 — eleva os níveis de sinvastatina e lovastatina com risco de miopatia.",
+        "conduta": "⚠️ Preferir rosuvastatina ou pravastatina (menor interação). Se manter sinvastatina, usar dose baixa e monitorar dor ou fraqueza muscular."
+      }
+    ],
     "slug": "imatinibe-100mg-400mg"
   },
   {
@@ -68763,7 +70253,66 @@
     "descricao_seo": "Erlotinibe 25mg-150mg (Tarceva): inibidor de EGFR para CPNPC com mutação EGFR. Saiba por que evitar IBPs, cigarro e como lidar com o rash cutâneo.",
     "alerta_farmaceutico": "IBPs são praticamente contraindicados — verificar omeprazol, pantoprazol, esomeprazol. Orientar tomar em jejum (1h antes ou 2h após refeição). Verificar tabagismo ativo (reduz níveis 50-60% — CYP1A2). Checar rifampicina ou carbamazepina (indutores CYP3A4 — reduzem erlotinibe 66%). Monitorar transaminases. Orientar sobre rash cutâneo e manejo dermatológico. Vigilância para pneumonite (tosse seca, dispneia — suspender imediatamente).",
     "quando_procurar_medico": "Suspenda o erlotinibe e procure atendimento imediatamente se surgir: dispneia súbita ou progressiva, tosse seca intensa e inexplicada, febre (possível pneumonite intersticial — emergência). Procure o oncologista urgentemente para: erupção cutânea muito intensa ou com bolhas (grau 3-4), diarreia grave com desidratação, dor ou vermelhidão intensa nos olhos, sangramentos. Retorne ao oncologista na data agendada para avaliação de resposta por imagem.",
-    "interacoes": "IBPs (omeprazol, pantoprazol, esomeprazol): reduzem absorção >70% — praticamente contraindicados; usar bloqueador H2 com espaçamento adequado. Rifampicina/carbamazepina/fenitoína (indutores CYP3A4): reduzem AUC do erlotinibe em 66% — contraindicado. Tabaco: induz CYP1A2 → reduz erlotinibe 50-60% — cessação tabágica obrigatória. Cetoconazol/itraconazol (inibidores CYP3A4): aumentam erlotinibe → toxicidade. Varfarina: erlotinibe pode alterar INR — monitorar.",
+    "interacoes": [
+      {
+        "com": [
+          "omeprazol",
+          "pantoprazol",
+          "esomeprazol",
+          "lansoprazol",
+          "rabeprazol"
+        ],
+        "nivel": "alto",
+        "titulo": "Erlotinibe + IBP (Inibidor de Bomba de Prótons)",
+        "efeito": "Os IBPs elevam o pH gástrico — reduzem a absorção do erlotinibe em mais de 70%, comprometendo gravemente o tratamento oncológico.",
+        "conduta": "❌ Praticamente contraindicado. Se necessário, substituir por bloqueador H2 (ranitidina), tomado 10h antes e 2h após o erlotinibe. Comunicar ao oncologista."
+      },
+      {
+        "com": [
+          "rifampicina",
+          "carbamazepina",
+          "fenitoína",
+          "hipericão"
+        ],
+        "nivel": "alto",
+        "titulo": "Erlotinibe + Indutor Potente do CYP3A4",
+        "efeito": "Indutores potentes do CYP3A4 reduzem a AUC do erlotinibe em cerca de 66%, comprometendo gravemente o tratamento do câncer.",
+        "conduta": "❌ Contraindicado. Substituir indutor por alternativa não indutora de CYP3A4. Comunicar ao oncologista para avaliação do esquema."
+      },
+      {
+        "com": [
+          "tabaco",
+          "cigarro",
+          "fumo"
+        ],
+        "nivel": "alto",
+        "titulo": "Erlotinibe + Tabagismo",
+        "efeito": "O tabaco induz CYP1A2 — reduz os níveis de erlotinibe em 50–60%, comprometendo significativamente a eficácia do tratamento oncológico.",
+        "conduta": "❌ A cessação tabágica é obrigatória durante o tratamento com erlotinibe. Comunicar ao oncologista se o paciente fumar — pode ser necessário ajuste de dose."
+      },
+      {
+        "com": [
+          "cetoconazol",
+          "itraconazol",
+          "claritromicina"
+        ],
+        "nivel": "moderado",
+        "titulo": "Erlotinibe + Inibidor do CYP3A4",
+        "efeito": "Inibidores do CYP3A4 elevam os níveis de erlotinibe — risco de toxicidade (diarreia grave, erupção cutânea, hepatotoxicidade).",
+        "conduta": "⚠️ Monitorar toxicidade ao usar antifúngico ou antibiótico macrolídeo. Comunicar ao oncologista antes de iniciar qualquer novo medicamento."
+      },
+      {
+        "com": [
+          "warfarina",
+          "varfarina",
+          "acenocumarol"
+        ],
+        "nivel": "moderado",
+        "titulo": "Erlotinibe + Anticoagulante Oral",
+        "efeito": "Erlotinibe pode alterar o metabolismo da varfarina, levando a elevação ou redução do INR de forma imprevisível.",
+        "conduta": "⚠️ Monitorar INR com frequência durante o tratamento. Comunicar ao médico qualquer alteração no esquema de erlotinibe."
+      }
+    ],
     "slug": "erlotinibe-25mg-100mg-150mg"
   },
   {
@@ -68816,7 +70365,67 @@
     "descricao_seo": "Lapatinibe 250mg (Tykerb): inibidor de HER2/EGFR para câncer de mama HER2+ avançado. Saiba sobre diarreia, QT prolongado, interações com grapefruit e IBPs.",
     "alerta_farmaceutico": "Verificar uso de amiodarona, sotalol, haloperidol, metadona ou azitromicina (QT prolongado — alto risco). Verificar IBPs (reduzem absorção). Orientar sobre grapefruit (CYP3A4). Verificar rifampicina/carbamazepina (indutores CYP3A4 — reduzem lapatinibe 72%). Monitorar transaminases a cada 4-6 semanas. Orientar manejo proativo da diarreia com loperamida. Confirmar HER2 positivo documentado. ECG basal recomendado.",
     "quando_procurar_medico": "Procure atendimento urgente se: palpitações ou desmaio (possível arritmia por QT prolongado), diarreia muito intensa com sangue ou desidratação (diarreia grau 3-4 — emergência), icterícia ou dor abdominal intensa (hepatotoxicidade), dispneia progressiva (pneumonite intersticial — suspender imediatamente). Retorne ao oncologista para monitoramento de transaminases e resposta tumoral nas datas agendadas.",
-    "interacoes": "Amiodarona/sotalol/dronedarona/haloperidol/metadona (prolongadores QT): associação proibida — Torsades de Pointes. IBPs: reduzem absorção — evitar. Grapefruit (CYP3A4 intestinal): aumenta lapatinibe imprevisível. Rifampicina/carbamazepina/fenitoína (indutores CYP3A4): reduzem lapatinibe em 72% — contraindicado. Cetoconazol/itraconazol (inibidores CYP3A4): aumentam lapatinibe — monitorar toxicidade. Capecitabina e letrozol: combinações aprovadas e utilizadas — monitorar síndrome palmo-plantar e hepatotoxicidade.",
+    "interacoes": [
+      {
+        "com": [
+          "amiodarona",
+          "sotalol",
+          "dronedarona",
+          "haloperidol",
+          "metadona",
+          "ondansetrona"
+        ],
+        "nivel": "alto",
+        "titulo": "Lapatinibe + Medicamento que Prolonga QT",
+        "efeito": "Lapatinibe prolonga o intervalo QT — combinação com outros fármacos que também prolongam o QT multiplica o risco de torsades de pointes e parada cardíaca.",
+        "conduta": "❌ Contraindicado. Verificar o perfil de QT de qualquer medicamento com o cardiologista antes de iniciar."
+      },
+      {
+        "com": [
+          "rifampicina",
+          "carbamazepina",
+          "fenitoína",
+          "hipericão"
+        ],
+        "nivel": "alto",
+        "titulo": "Lapatinibe + Indutor Potente do CYP3A4",
+        "efeito": "Indutores potentes do CYP3A4 reduzem os níveis de lapatinibe em até 72% — comprometimento grave da eficácia antineoplásica.",
+        "conduta": "❌ Contraindicado. Buscar alternativas ao indutor enzimático. Comunicar ao oncologista."
+      },
+      {
+        "com": [
+          "omeprazol",
+          "pantoprazol",
+          "esomeprazol",
+          "lansoprazol"
+        ],
+        "nivel": "moderado",
+        "titulo": "Lapatinibe + IBP",
+        "efeito": "IBPs elevam o pH gástrico — reduzem a absorção do lapatinibe, comprometendo o tratamento oncológico.",
+        "conduta": "⚠️ Evitar IBPs. Se necessário, substituir por bloqueador H2 com espaçamento adequado. Comunicar ao oncologista."
+      },
+      {
+        "com": [
+          "cetoconazol",
+          "itraconazol",
+          "claritromicina"
+        ],
+        "nivel": "moderado",
+        "titulo": "Lapatinibe + Inibidor do CYP3A4",
+        "efeito": "Inibidores do CYP3A4 elevam os níveis de lapatinibe — risco de toxicidade cardíaca e hepática.",
+        "conduta": "⚠️ Monitorar ECG e função hepática. Comunicar ao oncologista antes de iniciar antifúngico ou antibiótico macrolídeo."
+      },
+      {
+        "com": [
+          "suco de grapefruit",
+          "toranja"
+        ],
+        "nivel": "moderado",
+        "titulo": "Lapatinibe + Suco de Grapefruit",
+        "efeito": "Suco de grapefruit inibe CYP3A4 intestinal — eleva os níveis de lapatinibe de forma imprevisível, aumentando risco de toxicidade.",
+        "conduta": "⚠️ Evitar suco de grapefruit (toranja) durante o tratamento com lapatinibe."
+      }
+    ],
     "slug": "lapatinibe-250mg"
   },
   {
@@ -68868,7 +70477,65 @@
     "descricao_seo": "Gefitinibe 250mg (Iressa): inibidor de EGFR para câncer de pulmão com mutação EGFR. Saiba sobre pneumonite intersticial, interações com IBPs e rifampicina.",
     "alerta_farmaceutico": "Confirmar mutação EGFR documentada por biópsia molecular. Verificar IBPs (reduzem absorção — contraindicados). Verificar rifampicina (reduz gefitinibe 83% — contraindicado). Checar cetoconazol/itraconazol (aumentam gefitinibe). Verificar varfarina (gefitinibe pode elevar INR — monitorar). Vigilância rigorosa para pneumonite intersticial (tosse seca + dispneia = suspender imediatamente). Orientar sobre rash cutâneo como marcador de resposta. Verificar tabagismo (reduz efeito via CYP1A2).",
     "quando_procurar_medico": "Suspenda o gefitinibe imediatamente e procure atendimento de emergência se: dispneia súbita ou progressiva, tosse seca intensa inexplicada, febre associada a sintomas respiratórios (possível pneumonite intersticial — suspensão imediata é mandatória). Procure o oncologista para: rash intenso com bolhas, dor ou vermelhidão ocular persistente, diarreia intensa, sangramentos ou elevação significativa de transaminases nos exames.",
-    "interacoes": "Rifampicina/carbamazepina/fenitoína (indutores CYP3A4): reduzem gefitinibe em 83% — contraindicado. IBPs (omeprazol, pantoprazol): reduzem absorção — evitar. Cetoconazol/itraconazol (inibidores CYP3A4): aumentam gefitinibe → toxicidade. Varfarina/acenocumarol: gefitinibe pode alterar INR — monitorar frequentemente. Antiácidos (Al/Mg): espaçar 2h. Metronidazol: pode elevar INR em uso concomitante com varfarina e gefitinibe — vigilância.",
+    "interacoes": [
+      {
+        "com": [
+          "rifampicina",
+          "carbamazepina",
+          "fenitoína",
+          "hipericão"
+        ],
+        "nivel": "alto",
+        "titulo": "Gefitinibe + Indutor Potente do CYP3A4",
+        "efeito": "Indutores potentes do CYP3A4 reduzem os níveis de gefitinibe em até 83% — comprometimento grave da eficácia antineoplásica.",
+        "conduta": "❌ Contraindicado. Comunicar ao oncologista para avaliação de alternativas ao indutor ou ajuste de dose do gefitinibe."
+      },
+      {
+        "com": [
+          "omeprazol",
+          "pantoprazol",
+          "esomeprazol",
+          "lansoprazol"
+        ],
+        "nivel": "alto",
+        "titulo": "Gefitinibe + IBP",
+        "efeito": "IBPs elevam o pH gástrico — reduzem substancialmente a absorção do gefitinibe (que precisa de ambiente ácido), comprometendo o tratamento.",
+        "conduta": "❌ Evitar. Substituir por bloqueador H2 ou considerar alternativa. Comunicar ao oncologista."
+      },
+      {
+        "com": [
+          "cetoconazol",
+          "itraconazol",
+          "claritromicina"
+        ],
+        "nivel": "moderado",
+        "titulo": "Gefitinibe + Inibidor do CYP3A4",
+        "efeito": "Inibidores do CYP3A4 podem elevar os níveis de gefitinibe — risco de toxicidade (diarreia grave, pneumonite, hepatotoxicidade).",
+        "conduta": "⚠️ Monitorar toxicidade. Comunicar ao oncologista antes de iniciar qualquer antifúngico ou antibiótico macrolídeo."
+      },
+      {
+        "com": [
+          "warfarina",
+          "varfarina",
+          "acenocumarol"
+        ],
+        "nivel": "moderado",
+        "titulo": "Gefitinibe + Anticoagulante Oral",
+        "efeito": "Gefitinibe pode alterar o metabolismo da varfarina, levando a variação do INR com risco de sangramento ou perda de efeito anticoagulante.",
+        "conduta": "⚠️ Monitorar INR com frequência durante o tratamento. Comunicar ao médico qualquer alteração no esquema de gefitinibe."
+      },
+      {
+        "com": [
+          "antiácido",
+          "hidróxido de alumínio",
+          "hidróxido de magnésio"
+        ],
+        "nivel": "moderado",
+        "titulo": "Gefitinibe + Antiácido",
+        "efeito": "Antiácidos com alumínio/magnésio alteram o pH e podem reduzir a absorção do gefitinibe.",
+        "conduta": "⚠️ Espaçar antiácidos por pelo menos 2h após o gefitinibe. Comunicar ao oncologista."
+      }
+    ],
     "slug": "gefitinibe-250mg"
   },
   {
@@ -68920,7 +70587,58 @@
     "descricao_seo": "Lenalidomida (Revlimid): imunomodulador para mieloma múltiplo e SMD del5q. Saiba sobre o risco teratogênico, trombose, neutropenia e programa de controle obrigatório.",
     "alerta_farmaceutico": "TERATOGÊNICA: confirmar dupla contracepção e teste de gravidez negativo antes de dispensar. Verificar programa de controle de risco (receita especial de controle). Verificar profilaxia antitrombótica prescrita (AAS ou HBPM). Verificar função renal (ajuste de dose em insuficiência renal). Monitorar hemograma semanalmente no início. Verificar uso de eritropoetina (risco trombótico aditivo — alto risco). Verificar digoxina (lenalidomida aumenta Cmax). Orientar sobre síndrome de lise tumoral no início.",
     "quando_procurar_medico": "Procure atendimento urgente se: febre acima de 38°C (neutropenia febril — emergência hematológica), sangramento intenso ou espontâneo (trombocitopenia grave), dor e edema em perna com vermelhidão (TVP) ou falta de ar súbita com dor no peito (embolia pulmonar — emergência). Procure imediatamente o hematologista se suspeitar de gravidez durante o tratamento. Retorne para hemograma semanal nas primeiras 8 semanas conforme protocolo.",
-    "interacoes": "Eritropoetina (epoetina): combinação com altíssimo risco trombótico — profilaxia antitrombótica agressiva obrigatória. Varfarina/warfarina: lenalidomida pode alterar INR — monitorar. Anticoagulantes (enoxaparina, apixabana): profilaxia indicada no mieloma — não é contraindicação, é protocolo. Digoxina: lenalidomida aumenta Cmax da digoxina em ~14% — monitorar nível sérico. Pregabalina: sedação aditiva e risco de neuropatia — monitorar. Dexametasona em altas doses: aumenta drasticamente o risco trombótico na combinação — profilaxia com HBPM é padrão.",
+    "interacoes": [
+      {
+        "com": [
+          "eritropoetina",
+          "epoetina",
+          "darbepoetina"
+        ],
+        "nivel": "alto",
+        "titulo": "Lenalidomida + Eritropoetina / Epoetina",
+        "efeito": "A combinação de lenalidomida com agentes estimuladores da eritropoiese em pacientes com mieloma múltiplo eleva drasticamente o risco de trombose venosa profunda e embolia pulmonar.",
+        "conduta": "❌ Contraindicado sem profilaxia antitrombótica agressiva. A combinação exige anticoagulação preventiva obrigatória (heparina de baixo peso molecular). Comunicar ao hematologista."
+      },
+      {
+        "com": [
+          "dexametasona"
+        ],
+        "nivel": "alto",
+        "titulo": "Lenalidomida + Dexametasona (dose alta)",
+        "efeito": "A combinação de lenalidomida com dexametasona em altas doses no mieloma múltiplo aumenta drasticamente o risco trombótico — a taxa de eventos tromboembólicos sem profilaxia é muito alta.",
+        "conduta": "❌ A profilaxia com HBPM (heparina de baixo peso molecular) é padrão e obrigatória nesse esquema. Nunca iniciar sem anticoagulação profilática prescrita pelo hematologista."
+      },
+      {
+        "com": [
+          "digoxina"
+        ],
+        "nivel": "moderado",
+        "titulo": "Lenalidomida + Digoxina",
+        "efeito": "Lenalidomida pode aumentar a concentração máxima (Cmax) da digoxina em cerca de 14% — risco de elevação dos níveis com potencial toxicidade digitálica.",
+        "conduta": "⚠️ Monitorar nível sérico de digoxina ao iniciar lenalidomida. Monitorar ECG e sinais de toxicidade (náusea, bradicardia, visão amarelada)."
+      },
+      {
+        "com": [
+          "pregabalina",
+          "gabapentina"
+        ],
+        "nivel": "moderado",
+        "titulo": "Lenalidomida + Pregabalina / Gabapentina",
+        "efeito": "A combinação soma efeitos sedativos e pode potencializar o risco de neuropatia periférica — efeito adverso já comum com lenalidomida.",
+        "conduta": "⚠️ Monitorar sedação excessiva e sinais de neuropatia (formigamento, dormência nas mãos e pés). Comunicar ao hematologista."
+      },
+      {
+        "com": [
+          "warfarina",
+          "varfarina",
+          "acenocumarol"
+        ],
+        "nivel": "moderado",
+        "titulo": "Lenalidomida + Anticoagulante Oral",
+        "efeito": "Lenalidomida pode alterar os níveis de varfarina de forma variável — monitoramento do INR necessário para garantir anticoagulação adequada e segura.",
+        "conduta": "⚠️ Monitorar INR com frequência durante o tratamento. Comunicar ao médico qualquer alteração no esquema de lenalidomida."
+      }
+    ],
     "slug": "lenalidomida-25mg-5mg-10mg-15mg-25mg"
   },
   {
