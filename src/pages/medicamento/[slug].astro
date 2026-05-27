@@ -34,6 +34,13 @@ const pageTitle  = medicine.nome + ' — Para que serve, efeitos e receita | Med
 // Pré-computados no frontmatter para evitar template literals no JSX
 const badgeStyle = 'color:' + receitaCor;
 const boxStyle   = 'background:' + receitaBg + ';color:' + receitaTxt;
+
+// Normaliza nivel: aceita "alto"/"grave" → 'alto' | "moderado" → 'moderado' | "baixo"/"leve" → 'baixo'
+const normalizeNivel = (n: string) =>
+  (n === 'alto'  || n === 'grave') ? 'alto'  :
+  (n === 'baixo' || n === 'leve')  ? 'baixo' : 'moderado';
+const badgeLabel = (n: string) =>
+  n === 'alto' ? '🔴 Grave' : n === 'moderado' ? '🟡 Moderada' : '🟢 Leve';
 ---
 
 <Layout title={pageTitle} description={metaDesc} canonical={canonical}>
@@ -269,15 +276,15 @@ const boxStyle   = 'background:' + receitaBg + ';color:' + receitaTxt;
       flex-shrink: 0;
     }
     .med-inter-card[open] summary::after { content: '▼'; }
-    .med-inter-card.nivel-grave { border: 1px solid #f5c6cb; }
-    .med-inter-card.nivel-grave summary { background: #fff5f5; }
-    .med-inter-card.nivel-grave summary:hover { background: #fde8e8; }
+    .med-inter-card.nivel-alto { border: 1px solid #f5c6cb; }
+    .med-inter-card.nivel-alto summary { background: #fff5f5; }
+    .med-inter-card.nivel-alto summary:hover { background: #fde8e8; }
     .med-inter-card.nivel-moderado { border: 1px solid #ffeeba; }
     .med-inter-card.nivel-moderado summary { background: #fffdf0; }
     .med-inter-card.nivel-moderado summary:hover { background: #fff3cd; }
-    .med-inter-card.nivel-leve { border: 1px solid #c3e6cb; }
-    .med-inter-card.nivel-leve summary { background: #f4fff6; }
-    .med-inter-card.nivel-leve summary:hover { background: #d4edda; }
+    .med-inter-card.nivel-baixo { border: 1px solid #c3e6cb; }
+    .med-inter-card.nivel-baixo summary { background: #f4fff6; }
+    .med-inter-card.nivel-baixo summary:hover { background: #d4edda; }
     .med-inter-badge {
       display: inline-block;
       border-radius: 20px;
@@ -287,9 +294,9 @@ const boxStyle   = 'background:' + receitaBg + ';color:' + receitaTxt;
       white-space: nowrap;
       flex-shrink: 0;
     }
-    .badge-grave    { background: #f8d7da; color: #721c24; }
+    .badge-alto     { background: #f8d7da; color: #721c24; }
     .badge-moderado { background: #fff3cd; color: #856404; }
-    .badge-leve     { background: #d4edda; color: #155724; }
+    .badge-baixo    { background: #d4edda; color: #155724; }
     .med-inter-body {
       padding: 12px 14px;
       font-size: 13px;
@@ -417,11 +424,13 @@ const boxStyle   = 'background:' + receitaBg + ';color:' + receitaTxt;
             Informe sempre seu médico ou farmacêutico sobre todos os medicamentos, suplementos e fitoterápicos que você usa.
           </div>
           <div class="med-inter-list">
-            {(medicine.interacoes as any[]).map((inter: any) => (
-              <details class={'med-inter-card nivel-' + (inter.nivel || 'moderado')}>
+            {(medicine.interacoes as any[]).map((inter: any) => {
+              const nv = normalizeNivel(inter.nivel || 'moderado');
+              return (
+              <details class={'med-inter-card nivel-' + nv}>
                 <summary>
-                  <span class={'med-inter-badge badge-' + (inter.nivel || 'moderado')}>
-                    {inter.nivel === 'grave' ? '🔴 Grave' : inter.nivel === 'moderado' ? '🟡 Moderada' : '🟢 Leve'}
+                  <span class={'med-inter-badge badge-' + nv}>
+                    {badgeLabel(nv)}
                   </span>
                   {inter.titulo}
                 </summary>
@@ -438,7 +447,8 @@ const boxStyle   = 'background:' + receitaBg + ';color:' + receitaTxt;
                   <div class="med-inter-conduta">💡 {inter.conduta}</div>
                 </div>
               </details>
-            ))}
+              );
+            })}
           </div>
         </Fragment>
       )}
