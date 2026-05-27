@@ -11,14 +11,19 @@ export function getStaticPaths() {
 
 const { medicine } = Astro.props as { medicine: any };
 
-const receitaCor = medicine.receita_cor === 'verde' ? '#27ae60'
+const isProcedimento = medicine.tipo_receita === 'procedimento_clinico';
+
+const receitaCor = medicine.receita_cor === 'verde'   ? '#27ae60'
                  : medicine.receita_cor === 'amarelo' ? '#e8751a'
+                 : medicine.receita_cor === 'azul'    ? '#1565c0'
                  : '#c0392b';
-const receitaBg  = medicine.receita_cor === 'verde' ? '#e8f8f0'
+const receitaBg  = medicine.receita_cor === 'verde'   ? '#e8f8f0'
                  : medicine.receita_cor === 'amarelo' ? '#fef3e2'
+                 : medicine.receita_cor === 'azul'    ? '#e3f0ff'
                  : '#fde8e8';
-const receitaTxt = medicine.receita_cor === 'verde' ? '#155724'
+const receitaTxt = medicine.receita_cor === 'verde'   ? '#155724'
                  : medicine.receita_cor === 'amarelo' ? '#856404'
+                 : medicine.receita_cor === 'azul'    ? '#0d3c7a'
                  : '#721c24';
 
 const descricao  = medicine.descricao || '';
@@ -84,6 +89,9 @@ const boxStyle   = 'background:' + receitaBg + ';color:' + receitaTxt;
       border-radius: 8px;
       font-size: 14px;
       line-height: 1.6;
+    }
+    .med-receita-procedimento {
+      border: 2px dashed #90bce8;
     }
     .med-aviso {
       background: #ffe6e6;
@@ -260,9 +268,21 @@ const boxStyle   = 'background:' + receitaBg + ';color:' + receitaTxt;
       <div class="med-section-title">📝 Para que serve</div>
       <div class="med-section-content">{medicine.descricao}</div>
 
-      <!-- Receita -->
-      <div class="med-section-title">🛑 Necessita receita?</div>
-      {medicine.receita_display ? (
+      <!-- Receita / Procedimento clínico -->
+      <div class="med-section-title">{isProcedimento ? '🏥 Forma de administração' : '🛑 Necessita receita?'}</div>
+      {isProcedimento ? (
+        <div>
+          <div class="med-receita-badge" style={badgeStyle}>
+            🏥 Procedimento Clínico
+          </div>
+          <div class="med-receita-box med-receita-procedimento" style={boxStyle}>
+            {medicine.receita_descricao || 'Aplicação exclusiva em clínicas e hospitais por profissional habilitado. Não é vendida em farmácias.'}
+            {medicine.receita_nota && (
+              <div style="margin-top:6px;font-size:13px;">ℹ️ {medicine.receita_nota}</div>
+            )}
+          </div>
+        </div>
+      ) : medicine.receita_display ? (
         <div>
           <div class="med-receita-badge" style={badgeStyle}>
             {medicine.receita_display}
