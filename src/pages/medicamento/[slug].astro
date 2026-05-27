@@ -35,10 +35,6 @@ const pageTitle  = medicine.nome + ' — Para que serve, efeitos e receita | Med
 const badgeStyle = 'color:' + receitaCor;
 const boxStyle   = 'background:' + receitaBg + ';color:' + receitaTxt;
 
-// Normaliza nivel: aceita "alto"/"grave" → 'alto' | "moderado" → 'moderado' | "baixo"/"leve" → 'baixo'
-const normalizeNivel = (n: string) =>
-  (n === 'alto'  || n === 'grave') ? 'alto'  :
-  (n === 'baixo' || n === 'leve')  ? 'baixo' : 'moderado';
 const badgeLabel = (n: string) =>
   n === 'alto' ? '🔴 Grave' : n === 'moderado' ? '🟡 Moderada' : '🟢 Leve';
 ---
@@ -425,7 +421,7 @@ const badgeLabel = (n: string) =>
           </div>
           <div class="med-inter-list">
             {(medicine.interacoes as any[]).map((inter: any) => {
-              const nv = normalizeNivel(inter.nivel || 'moderado');
+              const nv = inter.nivel || 'moderado';
               return (
               <details class={'med-inter-card nivel-' + nv}>
                 <summary>

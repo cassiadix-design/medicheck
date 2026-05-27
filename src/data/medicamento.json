@@ -1058,7 +1058,7 @@
           "Anticoncepcionais orais combinados",
           "Estrogênio + Progestagênio"
         ],
-        "nivel": "grave",
+        "nivel": "alto",
         "titulo": "Risco tromboembólico aditivo",
         "efeito": "Ácido tranexâmico é antifibrinolítico; combinado com anticoncepcionais que já aumentam o risco de trombose, o risco de TVP, TEP e AVC fica significativamente elevado.",
         "conduta": "Usar com extrema cautela. Avaliar risco-benefício individualmente. Monitorar sinais de trombose."
@@ -1071,7 +1071,7 @@
           "Rivaroxabana",
           "Apixabana"
         ],
-        "nivel": "grave",
+        "nivel": "alto",
         "titulo": "Antagonismo e risco trombótico",
         "efeito": "Ácido tranexâmico antagoniza o sistema fibrinolítico; combinado com anticoagulantes em contexto inadequado, pode criar desequilíbrio hemostático com risco de trombose.",
         "conduta": "A combinação pode ser usada em hemorragias específicas (ex: pós-operatório cardíaco), mas apenas sob protocolo médico rigoroso."
@@ -1083,7 +1083,7 @@
           "Estreptoquinase",
           "Tenecteplase"
         ],
-        "nivel": "grave",
+        "nivel": "alto",
         "titulo": "Antagonismo direto — CONTRAINDICADO",
         "efeito": "Ácido tranexâmico bloqueia a fibrinólise, antagonizando diretamente o mecanismo terapêutico dos trombolíticos.",
         "conduta": "CONTRAINDICADO. Não usar ácido tranexâmico com trombolíticos."
@@ -3213,7 +3213,7 @@
           "Biperideno",
           "Escopolamina"
         ],
-        "nivel": "grave",
+        "nivel": "alto",
         "titulo": "Efeitos anticolinérgicos graves",
         "efeito": "Amantadina tem efeito anticolinérgico moderado; combinada com anticolinérgicos, pode causar alucinações, confusão, retenção urinária e glaucoma agudo.",
         "conduta": "Usar com cautela; reduzir dose do anticolinérgico ou da amantadina se surgirem efeitos adversos. Monitorar estado mental."
@@ -3243,7 +3243,7 @@
         "com": [
           "Álcool"
         ],
-        "nivel": "leve",
+        "nivel": "baixo",
         "titulo": "Aumento de efeitos adversos do SNC",
         "efeito": "Álcool pode potencializar os efeitos do SNC da amantadina, como tontura e confusão.",
         "conduta": "Evitar consumo de álcool durante tratamento com amantadina."
@@ -9184,7 +9184,7 @@
         "com": [
           "Ergotamina"
         ],
-        "nivel": "grave",
+        "nivel": "alto",
         "titulo": "Vasoconstrição aditiva e ergotismo",
         "efeito": "Bromocriptina é derivado do ergot; associada à ergotamina, potencializa vasoconstrição periférica grave, podendo causar isquemia de extremidades.",
         "conduta": "CONTRAINDICADO. Não combinar bromocriptina com ergotamina ou outros derivados do ergot."
@@ -9196,7 +9196,7 @@
           "Risperidona",
           "Clorpromazina"
         ],
-        "nivel": "grave",
+        "nivel": "alto",
         "titulo": "Antagonismo dopaminérgico",
         "efeito": "Antipsicóticos bloqueiam receptores de dopamina, antagonizando diretamente o mecanismo de ação da bromocriptina e eliminando seu benefício.",
         "conduta": "Evitar associação. Se necessário antipsicótico, discutir substituição da bromocriptina com o neurologista/endocrinologista."
@@ -14395,7 +14395,7 @@
           "Eritromicina",
           "Azitromicina"
         ],
-        "nivel": "grave",
+        "nivel": "alto",
         "titulo": "Antagonismo antibacteriano",
         "efeito": "Eritromicina e clindamicina competem pelo mesmo sítio de ligação no ribossomo bacteriano (50S), reduzindo a eficácia de ambas.",
         "conduta": "Evitar uso concomitante. Escolha um dos dois conforme o perfil do agente infeccioso."
@@ -14407,7 +14407,7 @@
           "Vecurônio",
           "Succinilcolina"
         ],
-        "nivel": "grave",
+        "nivel": "alto",
         "titulo": "Potencialização do bloqueio neuromuscular",
         "efeito": "Clindamicina potencializa o efeito dos bloqueadores neuromusculares, podendo prolongar a paralisia muscular e causar apneia.",
         "conduta": "Monitoramento rigoroso em ambiente cirúrgico. Dose do bloqueador deve ser ajustada pelo anestesiologista."
@@ -14435,7 +14435,7 @@
         "com": [
           "Antiácidos com caolim"
         ],
-        "nivel": "leve",
+        "nivel": "baixo",
         "titulo": "Redução da absorção oral da clindamicina",
         "efeito": "Caolim-pectina reduz a absorção gastrointestinal da clindamicina oral em até 90% se tomados simultaneamente.",
         "conduta": "Tomar clindamicina oral 2 horas antes ou 3–4 horas após antiácidos com caolim."
@@ -15184,7 +15184,7 @@
           "Barbitúricos",
           "Outros benzodiazepínicos"
         ],
-        "nivel": "grave",
+        "nivel": "alto",
         "titulo": "Depressão profunda do SNC",
         "efeito": "Clordiazepóxido somado a outros depressores do SNC causa sedação intensa, risco de queda, confusão mental e depressão respiratória.",
         "conduta": "Evitar uso concomitante. Paciente deve ser alertado sobre risco com álcool."
@@ -15196,7 +15196,7 @@
           "Codeína",
           "Tramadol"
         ],
-        "nivel": "grave",
+        "nivel": "alto",
         "titulo": "Depressão respiratória grave",
         "efeito": "A combinação de clordiazepóxido com opioides é uma das causas mais comuns de overdose fatal.",
         "conduta": "Contraindicado na maioria dos casos. Monitoramento rigoroso se inevitável."
@@ -15224,7 +15224,7 @@
       {
         "tipo": "duplicacao",
         "classe": "benzodiazepínico",
-        "nivel": "grave",
+        "nivel": "alto",
         "titulo": "Duplicação de benzodiazepínico",
         "efeito": "Dois benzodiazepínicos aumentam risco de dependência, sedação excessiva e depressão respiratória.",
         "conduta": "Usar apenas um benzodiazepínico por vez."
@@ -15698,7 +15698,7 @@
           "Haloperidol",
           "Azitromicina"
         ],
-        "nivel": "grave",
+        "nivel": "alto",
         "titulo": "Prolongamento do QT e arritmias graves",
         "efeito": "Cloroquina prolonga o intervalo QT; combinada com outros fármacos que também prolongam o QT, aumenta o risco de torsades de pointes e parada cardíaca.",
         "conduta": "Contraindicado com amiodarona e outros prolongadores de QT. Realizar ECG antes e durante o tratamento."
@@ -15707,7 +15707,7 @@
         "com": [
           "Mefloquina"
         ],
-        "nivel": "grave",
+        "nivel": "alto",
         "titulo": "Convulsões e arritmias — CONTRAINDICADO",
         "efeito": "A associação de cloroquina com mefloquina aumenta o risco de convulsões e toxicidade cardíaca.",
         "conduta": "CONTRAINDICADO. Não combinar cloroquina com mefloquina."
@@ -15730,7 +15730,7 @@
           "Hidróxido de magnésio",
           "Hidróxido de alumínio"
         ],
-        "nivel": "leve",
+        "nivel": "baixo",
         "titulo": "Redução da absorção da cloroquina",
         "efeito": "Antiácidos reduzem a absorção gastrointestinal da cloroquina, diminuindo sua eficácia.",
         "conduta": "Tomar cloroquina 2 horas antes ou 4 horas após antiácidos."
@@ -21584,7 +21584,7 @@
           "Quinolonas",
           "Eritromicina"
         ],
-        "nivel": "grave",
+        "nivel": "alto",
         "titulo": "Prolongamento do QT e torsades de pointes",
         "efeito": "Droperidol prolonga o intervalo QT; combinado com outros prolongadores do QT, aumenta o risco de arritmias ventriculares graves potencialmente fatais.",
         "conduta": "Monitorar ECG antes e após administração de droperidol. Evitar com outros fármacos que prolongam o QT."
@@ -21596,7 +21596,7 @@
           "Fentanil",
           "Tramadol"
         ],
-        "nivel": "grave",
+        "nivel": "alto",
         "titulo": "Potencialização da sedação e depressão respiratória",
         "efeito": "Droperidol potencializa os efeitos sedativos e depressores respiratórios dos opioides, especialmente em ambiente perioperatório.",
         "conduta": "Reduzir dose do opioide quando usado com droperidol. Manter suporte ventilatório disponível."
@@ -21739,7 +21739,7 @@
           "Gliclazida",
           "Sulfonilureias"
         ],
-        "nivel": "grave",
+        "nivel": "alto",
         "titulo": "Hipoglicemia potencializada",
         "efeito": "Dulaglutida aumenta a secreção de insulina dependente de glicose; combinada com insulina ou sulfonilureias, o risco de hipoglicemia é significativamente elevado.",
         "conduta": "Reduzir dose de insulina ou sulfonilureia ao iniciar dulaglutida. Monitorar glicemia com mais frequência e orientar paciente sobre sinais de hipoglicemia."
@@ -21769,7 +21769,7 @@
       {
         "tipo": "duplicacao",
         "classe": "agonista_glp1",
-        "nivel": "grave",
+        "nivel": "alto",
         "titulo": "Duplicação de agonista GLP-1",
         "efeito": "Associar dulaglutida com semaglutida, exenatida ou liraglutida causa hipoglicemia grave, náuseas intensas e pancreatite sem benefício adicional.",
         "conduta": "CONTRAINDICADO. Nunca combinar dois agonistas de GLP-1."
@@ -24472,7 +24472,7 @@
           "Rifampicina",
           "Pirazinamida"
         ],
-        "nivel": "leve",
+        "nivel": "baixo",
         "titulo": "Monitoramento da hepatotoxicidade no esquema RIPE",
         "efeito": "Embora o etambutol em si tenha baixa hepatotoxicidade, faz parte do esquema com outros três hepatotóxicos que exigem vigilância.",
         "conduta": "Monitorar função hepática e acuidade visual mensalmente durante o tratamento."
@@ -24810,7 +24810,7 @@
           "Gliclazida",
           "Sulfonilureias"
         ],
-        "nivel": "grave",
+        "nivel": "alto",
         "titulo": "Hipoglicemia potencializada",
         "efeito": "Exenatida estimula a secreção de insulina; combinada com sulfonilureias ou insulina, o risco de hipoglicemia grave é significativamente elevado.",
         "conduta": "Reduzir dose de sulfonilureia ou insulina ao iniciar exenatida. Monitorar glicemia com frequência e orientar sobre sinais de hipoglicemia."
@@ -24840,7 +24840,7 @@
       {
         "tipo": "duplicacao",
         "classe": "agonista_glp1",
-        "nivel": "grave",
+        "nivel": "alto",
         "titulo": "Duplicação de agonista GLP-1",
         "efeito": "Combinar exenatida com dulaglutida, semaglutida ou liraglutida causa hipoglicemia grave, náuseas e pancreatite sem benefício adicional.",
         "conduta": "CONTRAINDICADO. Nunca combinar dois agonistas de GLP-1."
@@ -28006,7 +28006,7 @@
           "Escopolamina",
           "Clorfeniramina"
         ],
-        "nivel": "grave",
+        "nivel": "alto",
         "titulo": "Antagonismo direto da ação colinérgica",
         "efeito": "Anticolinérgicos antagonizam o mecanismo de ação da galantamina, eliminando seu benefício cognitivo em pacientes com doença de Alzheimer.",
         "conduta": "Evitar uso concomitante. Revisar necessidade de medicamentos anticolinérgicos; considerar alternativas não anticolinérgicas."
@@ -33277,7 +33277,7 @@
           "Alprazolam",
           "Barbitúricos"
         ],
-        "nivel": "leve",
+        "nivel": "baixo",
         "titulo": "Potencial aumento da sedação",
         "efeito": "Ivermectina pode intensificar efeitos depressores do SNC de benzodiazepínicos e barbitúricos, especialmente em doses altas ou em crianças.",
         "conduta": "Monitorar sedação. Evitar doses altas de ivermectina em pacientes em uso de sedativos."
@@ -33286,7 +33286,7 @@
         "com": [
           "Álcool"
         ],
-        "nivel": "leve",
+        "nivel": "baixo",
         "titulo": "Aumento de efeitos adversos",
         "efeito": "Álcool pode potencializar tontura e efeitos no SNC associados à ivermectina.",
         "conduta": "Evitar álcool no dia da tomada da ivermectina."
@@ -33294,7 +33294,7 @@
       {
         "tipo": "duplicacao",
         "classe": "antiparasitario",
-        "nivel": "leve",
+        "nivel": "baixo",
         "titulo": "Avaliação de duplicação antiparasitária",
         "efeito": "Uso simultâneo com albendazol é às vezes intencional (filariose), mas deve ser prescrito com indicação específica.",
         "conduta": "Associação só se indicada por protocolo específico (ex: filariose linfática). Consultar infectologista."
@@ -38406,7 +38406,7 @@
           "Levodopa",
           "Carbidopa + Levodopa"
         ],
-        "nivel": "grave",
+        "nivel": "alto",
         "titulo": "Antagonismo e piora do parkinsonismo",
         "efeito": "Metildopa pode antagonizar a ação da levodopa e piorar os sintomas da doença de Parkinson. A metildopa também é convertida em falso neurotransmissor.",
         "conduta": "Evitar associação em pacientes com doença de Parkinson. Escolher anti-hipertensivo alternativo."
@@ -40104,7 +40104,7 @@
           "Ocitocina",
           "Dinoprostona"
         ],
-        "nivel": "grave",
+        "nivel": "alto",
         "titulo": "Hiperstimulação uterina grave",
         "efeito": "Misoprostol e ocitocina têm efeitos uterotônicos aditivos; a combinação pode causar hiperstimulação uterina, sofrimento fetal e ruptura uterina.",
         "conduta": "Não administrar misoprostol e ocitocina simultaneamente. Aguardar pelo menos 4 horas após misoprostol vaginal antes de iniciar ocitocina."
@@ -40125,7 +40125,7 @@
         "com": [
           "Antiácidos com magnésio"
         ],
-        "nivel": "leve",
+        "nivel": "baixo",
         "titulo": "Aumento da motilidade intestinal",
         "efeito": "Antiácidos com magnésio e misoprostol têm efeitos aditivos na motilidade intestinal, podendo intensificar diarreia.",
         "conduta": "Evitar antiácidos com magnésio durante uso de misoprostol. Preferir hidróxido de alumínio se necessário."
@@ -40133,7 +40133,7 @@
       {
         "tipo": "duplicacao",
         "classe": "uterotônico_prostaglandina",
-        "nivel": "grave",
+        "nivel": "alto",
         "titulo": "Duplicação de uterotônico",
         "efeito": "Combinação com outros uterotônicos (ocitocina, metilergometrina) causa hiperstimulação uterina com risco para mãe e feto.",
         "conduta": "Não associar misoprostol com outros uterotônicos sem protocolo obstétrico específico."
@@ -42840,7 +42840,7 @@
           "Outros benzodiazepínicos",
           "Zolpidem"
         ],
-        "nivel": "grave",
+        "nivel": "alto",
         "titulo": "Depressão grave do SNC",
         "efeito": "Nitrazepam somado a outros depressores do SNC causa sedação profunda, prejuízo respiratório e risco de morte, especialmente em idosos.",
         "conduta": "Evitar uso concomitante. Alertar paciente para não consumir álcool durante o tratamento."
@@ -42852,7 +42852,7 @@
           "Codeína",
           "Tramadol"
         ],
-        "nivel": "grave",
+        "nivel": "alto",
         "titulo": "Depressão respiratória grave",
         "efeito": "A associação de benzodiazepínico com opioide pode causar depressão respiratória severa, sedação profunda e morte.",
         "conduta": "Contraindicado na maioria dos casos. Se absolutamente necessário, usar doses mínimas, com monitoramento de saturação de O₂."
@@ -42869,7 +42869,7 @@
       {
         "tipo": "duplicacao",
         "classe": "benzodiazepínico",
-        "nivel": "grave",
+        "nivel": "alto",
         "titulo": "Duplicação de benzodiazepínico",
         "efeito": "Dois benzodiazepínicos sem indicação específica aumentam o risco de dependência e depressão do SNC.",
         "conduta": "Evitar combinação. Discutir esquema com médico especialista."
@@ -44381,7 +44381,7 @@
           "Outros benzodiazepínicos",
           "Barbitúricos"
         ],
-        "nivel": "grave",
+        "nivel": "alto",
         "titulo": "Depressão grave do SNC",
         "efeito": "A associação de oxazepam com depressores do SNC potencializa sedação profunda, perda de coordenação e risco de queda e depressão respiratória.",
         "conduta": "Evitar uso concomitante. Contraindicado com álcool. Alertar paciente sobre risco de quedas, especialmente idosos."
@@ -44393,7 +44393,7 @@
           "Codeína",
           "Tramadol"
         ],
-        "nivel": "grave",
+        "nivel": "alto",
         "titulo": "Depressão respiratória grave",
         "efeito": "Benzodiazepínico com opioide: risco de depressão respiratória severa e morte. Combinação com alta mortalidade documentada.",
         "conduta": "Evitar. Se uso simultâneo for inevitável, usar doses mínimas, monitorar saturação de O₂ e ter naloxona disponível."
@@ -44402,7 +44402,7 @@
         "com": [
           "Clozapina"
         ],
-        "nivel": "grave",
+        "nivel": "alto",
         "titulo": "Hipotensão grave e parada respiratória",
         "efeito": "Associação de oxazepam com clozapina pode causar hipotensão grave, colapso cardiovascular e parada respiratória.",
         "conduta": "Contraindicado. Não usar oxazepam em pacientes em uso de clozapina."
@@ -44410,7 +44410,7 @@
       {
         "tipo": "duplicacao",
         "classe": "benzodiazepínico",
-        "nivel": "grave",
+        "nivel": "alto",
         "titulo": "Duplicação de benzodiazepínico",
         "efeito": "Dois benzodiazepínicos aumentam risco de sedação, dependência e depressão respiratória.",
         "conduta": "Evitar. Usar o benzodiazepínico mais adequado ao perfil do paciente."
@@ -53919,7 +53919,7 @@
         "com": [
           "Metotrexato"
         ],
-        "nivel": "grave",
+        "nivel": "alto",
         "titulo": "Toxicidade hematológica aditiva",
         "efeito": "Sulfassalazina e metotrexato têm efeitos mielossupressores aditivos, aumentando o risco de leucopenia grave e infecções oportunistas.",
         "conduta": "Combinação usada em artrite reumatoide (DMARD duplo), mas exige monitoramento frequente do hemograma completo."
@@ -56236,7 +56236,7 @@
         "com": [
           "Digoxina"
         ],
-        "nivel": "grave",
+        "nivel": "alto",
         "titulo": "Toxicidade da digoxina por hipocalemia",
         "efeito": "Torasemida causa perda renal de potássio; a hipocalemia potencializa a toxicidade da digoxina, gerando risco de arritmias graves.",
         "conduta": "Monitorar potássio sérico e ECG. Suplementar potássio se necessário."
@@ -56248,7 +56248,7 @@
           "Amicacina",
           "Tobramicina"
         ],
-        "nivel": "grave",
+        "nivel": "alto",
         "titulo": "Ototoxicidade aditiva",
         "efeito": "Torasemida e aminoglicosídeos são ototóxicos; a combinação aumenta significativamente o risco de surdez irreversível.",
         "conduta": "Evitar uso simultâneo sempre que possível. Se necessário, monitorar função auditiva e níveis séricos dos aminoglicosídeos."
@@ -56257,7 +56257,7 @@
         "com": [
           "Lítio"
         ],
-        "nivel": "grave",
+        "nivel": "alto",
         "titulo": "Toxicidade do lítio",
         "efeito": "Torasemida pode reduzir a excreção renal de lítio, elevando sua concentração plasmática e o risco de toxicidade.",
         "conduta": "Monitorar litemia regularmente; ajustar dose do lítio sob orientação médica."
@@ -62346,7 +62346,7 @@
           "Antiácidos com magnésio",
           "Hidróxido de magnésio"
         ],
-        "nivel": "leve",
+        "nivel": "baixo",
         "titulo": "Redução da absorção da nitrofurantoína",
         "efeito": "Antiácidos com magnésio reduzem a biodisponibilidade oral da nitrofurantoína.",
         "conduta": "Tomar nitrofurantoína 2 horas antes ou 2 horas após antiácidos com magnésio."
@@ -62355,7 +62355,7 @@
         "com": [
           "Álcool"
         ],
-        "nivel": "leve",
+        "nivel": "baixo",
         "titulo": "Aumento de efeitos adversos gastrointestinais",
         "efeito": "O álcool pode potencializar náuseas e desconforto gástrico causados pela nitrofurantoína.",
         "conduta": "Evitar álcool durante o tratamento. Tomar o medicamento com alimentos para reduzir efeitos GI."
@@ -62897,7 +62897,7 @@
           "Zolpidem",
           "Anti-histamínicos sedativos"
         ],
-        "nivel": "grave",
+        "nivel": "alto",
         "titulo": "Depressão grave do sistema nervoso central",
         "efeito": "A combinação de clobazam com depressores do SNC potencializa sedação, risco de parada respiratória e morte, especialmente com opioides.",
         "conduta": "Evitar associação. Se inevitável, usar doses mínimas, monitorar respiração e alertar para risco de depressão respiratória."
@@ -62938,7 +62938,7 @@
       {
         "tipo": "duplicacao",
         "classe": "benzodiazepínico",
-        "nivel": "grave",
+        "nivel": "alto",
         "titulo": "Duplicação de benzodiazepínico",
         "efeito": "Associação de dois benzodiazepínicos aumenta risco de sedação excessiva, depressão respiratória e dependência.",
         "conduta": "Evitar combinação de dois benzodiazepínicos. Discutir esquema com neurologista ou psiquiatra."
@@ -63945,7 +63945,7 @@
           "Varfarina",
           "Acenocumarol"
         ],
-        "nivel": "grave",
+        "nivel": "alto",
         "titulo": "Risco aumentado de sangramento",
         "efeito": "Cilostazol tem efeito antiagregante plaquetário; combinado com anticoagulantes, o risco de sangramento grave é significativamente aumentado.",
         "conduta": "Monitorar INR e sinais de sangramento. Uso combinado exige vigilância clínica rigorosa."
@@ -63959,7 +63959,7 @@
           "Claritromicina",
           "Fluconazol"
         ],
-        "nivel": "grave",
+        "nivel": "alto",
         "titulo": "Aumento dos níveis plasmáticos de cilostazol",
         "efeito": "Inibidores do CYP3A4 reduzem o metabolismo do cilostazol, podendo dobrar sua concentração plasmática e aumentar efeitos adversos cardiovasculares.",
         "conduta": "Reduzir dose de cilostazol para 50mg duas vezes ao dia quando associado a inibidores potentes de CYP3A4. Monitorar efeitos adversos."
@@ -64047,7 +64047,7 @@
           "Naproxeno",
           "Diclofenaco"
         ],
-        "nivel": "grave",
+        "nivel": "alto",
         "titulo": "Risco de sangramento aditivo",
         "efeito": "AINEs inibem a função plaquetária e causam lesão da mucosa gástrica, aumentando consideravelmente o risco de sangramento com heparinas.",
         "conduta": "Evitar uso simultâneo. Preferir paracetamol. Se necessário AINE, associar proteção gástrica com IBP e monitorar sangramento."
@@ -64059,7 +64059,7 @@
           "Clopidogrel",
           "Ticagrelor"
         ],
-        "nivel": "grave",
+        "nivel": "alto",
         "titulo": "Antiagregação e anticoagulação simultâneas",
         "efeito": "A combinação de antiagregante plaquetário com heparina de baixo peso molecular aumenta significativamente o risco de sangramento.",
         "conduta": "Uso combinado só em indicações específicas (SCA, stent). Monitorar ativamente sinais de sangramento."
@@ -64070,7 +64070,7 @@
           "Alteplase",
           "Estreptoquinase"
         ],
-        "nivel": "grave",
+        "nivel": "alto",
         "titulo": "Risco de sangramento grave",
         "efeito": "A associação de heparina com trombolítico aumenta drasticamente o risco de sangramento, inclusive intracraniano.",
         "conduta": "Uso apenas em protocolos hospitalares específicos com monitoramento intensivo."
@@ -64089,7 +64089,7 @@
       {
         "tipo": "duplicacao",
         "classe": "anticoagulante_heparina",
-        "nivel": "grave",
+        "nivel": "alto",
         "titulo": "Duplicação de anticoagulação heparínica",
         "efeito": "Combinação com outras heparinas (enoxaparina, nadroparina, fondaparinux) aumenta drasticamente o risco de sangramento.",
         "conduta": "Nunca combinar duas heparinas ou heparina com fondaparinux sem protocolo específico."
@@ -64191,7 +64191,7 @@
         "com": [
           "Rifampicina"
         ],
-        "nivel": "grave",
+        "nivel": "alto",
         "titulo": "Redução significativa dos níveis de edoxabana",
         "efeito": "Rifampicina é potente indutor de CYP3A4 e P-glicoproteína, reduzindo drasticamente a concentração plasmática de edoxabana e sua eficácia anticoagulante.",
         "conduta": "Evitar combinação. Considerar anticoagulante alternativo durante e até 2 semanas após suspensão da rifampicina."
@@ -64204,7 +64204,7 @@
           "Naproxeno",
           "Aspirina em dose alta"
         ],
-        "nivel": "grave",
+        "nivel": "alto",
         "titulo": "Risco aumentado de sangramento",
         "efeito": "AINEs inibem a função plaquetária e causam lesão gástrica, potencializando o risco de sangramento gastrointestinal com edoxabana.",
         "conduta": "Evitar uso concomitante. Preferir paracetamol. Se AINE necessário, usar por menor tempo possível com proteção gástrica (IBP)."
@@ -64229,7 +64229,7 @@
           "Rivaroxabana",
           "Apixabana"
         ],
-        "nivel": "grave",
+        "nivel": "alto",
         "titulo": "Risco de sangramento grave por duplicação anticoagulante",
         "efeito": "Sobreposição de anticoagulantes sem protocolo de transição aumenta o risco de sangramento potencialmente fatal.",
         "conduta": "Transição entre anticoagulantes deve ser realizada conforme protocolo específico, sob orientação médica."
@@ -64237,7 +64237,7 @@
       {
         "tipo": "duplicacao",
         "classe": "anticoagulante_oral",
-        "nivel": "grave",
+        "nivel": "alto",
         "titulo": "Duplicação de anticoagulante oral",
         "efeito": "Combinação com outros anticoagulantes orais (rivaroxabana, apixabana, varfarina) sem protocolo de transição é perigosa.",
         "conduta": "Nunca combinar dois anticoagulantes sem protocolo médico específico de transição."
@@ -64884,7 +64884,7 @@
           "Moclobemida",
           "Selegilina"
         ],
-        "nivel": "grave",
+        "nivel": "alto",
         "titulo": "Síndrome serotoninérgica — CONTRAINDICADO",
         "efeito": "IMAOs inibem o metabolismo da serotonina; dextrometorfano inibe sua recaptação. A combinação pode causar síndrome serotoninérgica grave (hipertermia, rigidez, convulsões, morte).",
         "conduta": "CONTRAINDICADO. Aguardar pelo menos 14 dias após suspensão do IMAO antes de usar dextrometorfano."
@@ -64894,7 +64894,7 @@
           "Fluoxetina",
           "Paroxetina"
         ],
-        "nivel": "grave",
+        "nivel": "alto",
         "titulo": "Síndrome serotoninérgica e acúmulo de dextrometorfano",
         "efeito": "Fluoxetina e paroxetina são inibidores potentes do CYP2D6, responsável pelo metabolismo do dextrometorfano. A combinação eleva drasticamente seus níveis e pode causar síndrome serotoninérgica.",
         "conduta": "Evitar associação. Considerar substituto não-serotoninérgico para tosse (guaifenesina, ibuprofeno para tosse pós-viral)."
@@ -64903,7 +64903,7 @@
         "com": [
           "Sibutramina"
         ],
-        "nivel": "grave",
+        "nivel": "alto",
         "titulo": "Síndrome serotoninérgica",
         "efeito": "Sibutramina inibe a recaptação de serotonina; combinada com dextrometorfano, o risco de síndrome serotoninérgica é significativo.",
         "conduta": "Evitar associação. Usar alternativa para tosse sem ação serotoninérgica."
@@ -65481,7 +65481,7 @@
         "com": [
           "Ciprofloxacino"
         ],
-        "nivel": "grave",
+        "nivel": "alto",
         "titulo": "Aumento drástico dos níveis de tizanidina — CONTRAINDICADO",
         "efeito": "Ciprofloxacino inibe fortemente o CYP1A2, responsável pelo metabolismo da tizanidina. A concentração plasmática pode aumentar mais de 10 vezes, causando hipotensão grave, bradicardia e sedação profunda.",
         "conduta": "CONTRAINDICADO. Não usar tizanidina com ciprofloxacino. Substituir o antibiótico ou suspender tizanidina."
@@ -65490,7 +65490,7 @@
         "com": [
           "Fluvoxamina"
         ],
-        "nivel": "grave",
+        "nivel": "alto",
         "titulo": "Aumento muito significativo dos níveis de tizanidina — CONTRAINDICADO",
         "efeito": "Fluvoxamina é inibidor potente de CYP1A2; a associação com tizanidina causa aumento de mais de 30 vezes na concentração plasmática, com risco de hipotensão grave e colapso.",
         "conduta": "CONTRAINDICADO. Não combinar fluvoxamina com tizanidina."
@@ -66202,7 +66202,7 @@
         "com": [
           "Digoxina"
         ],
-        "nivel": "grave",
+        "nivel": "alto",
         "titulo": "Toxicidade da digoxina por hipocalemia",
         "efeito": "Clortalidona causa perda de potássio; a hipocalemia resultante potencializa a toxicidade da digoxina, podendo causar arritmias graves.",
         "conduta": "Monitorar potássio sérico e sinais de toxicidade digitálica regularmente. Suplementar potássio se necessário."
@@ -66211,7 +66211,7 @@
         "com": [
           "Lítio"
         ],
-        "nivel": "grave",
+        "nivel": "alto",
         "titulo": "Toxicidade do lítio",
         "efeito": "Clortalidona reduz a excreção renal de lítio, elevando seus níveis plasmáticos e o risco de toxicidade (tremores, confusão, arritmia).",
         "conduta": "Monitorar litemia com frequência; ajustar dose do lítio sob orientação médica."
@@ -68166,7 +68166,7 @@
           "Isossorbida",
           "Nitroprussiato"
         ],
-        "nivel": "grave",
+        "nivel": "alto",
         "titulo": "Hipotensão grave — CONTRAINDICADO",
         "efeito": "A combinação de vardenafila com nitratos causa hipotensão arterial grave e potencialmente fatal por efeito vasodilatador sinérgico.",
         "conduta": "CONTRAINDICADO. Não usar vardenafila em pacientes que fazem uso de qualquer forma de nitrato (incluindo amil nitrito)."
@@ -68178,7 +68178,7 @@
           "Tansulosina",
           "Prazosina"
         ],
-        "nivel": "grave",
+        "nivel": "alto",
         "titulo": "Hipotensão ortostática grave",
         "efeito": "Alfa-bloqueadores e vardenafila somam efeito vasodilatador, causando queda grave da pressão arterial ao levantar, com risco de desmaio.",
         "conduta": "Iniciar alfa-bloqueador na dose mais baixa e estabilizar antes de introduzir vardenafila. Monitorar pressão arterial."
@@ -68192,7 +68192,7 @@
           "Eritromicina",
           "Claritromicina"
         ],
-        "nivel": "grave",
+        "nivel": "alto",
         "titulo": "Aumento significativo dos níveis de vardenafila",
         "efeito": "Inibidores potentes do CYP3A4 aumentam muito os níveis plasmáticos de vardenafila, elevando risco de priapismo, hipotensão e efeitos cardíacos.",
         "conduta": "Evitar combinação. Com ritonavir, vardenafila é contraindicada. Com outros inibidores moderados, reduzir dose e ampliar intervalo."
@@ -68204,7 +68204,7 @@
           "Amiodarona",
           "Sotalol"
         ],
-        "nivel": "grave",
+        "nivel": "alto",
         "titulo": "Prolongamento do intervalo QT",
         "efeito": "Vardenafila prolonga o QT; combinada com antiarrítmicos que também prolongam o QT, aumenta o risco de arritmias graves (torsades de pointes).",
         "conduta": "CONTRAINDICADO com antiarrítmicos que prolongam o QT. Realizar ECG antes de iniciar vardenafila em pacientes de risco."
@@ -68278,7 +68278,7 @@
           "Naratriptano",
           "Rizatriptano"
         ],
-        "nivel": "grave",
+        "nivel": "alto",
         "titulo": "Vasoconstrição aditiva grave — CONTRAINDICADO",
         "efeito": "Ergotamina e triptanos são vasoconstritores; a combinação causa vasospasmo coronariano e periférico grave, com risco de isquemia e infarto.",
         "conduta": "CONTRAINDICADO. Não usar ergotamina nas 24 horas antes ou após triptano."
@@ -68290,7 +68290,7 @@
           "Claritromicina",
           "Azitromicina"
         ],
-        "nivel": "grave",
+        "nivel": "alto",
         "titulo": "Ergotismo por inibição do CYP3A4 — CONTRAINDICADO",
         "efeito": "Macrolídeos inibem o CYP3A4, elevando drasticamente os níveis de ergotamina e causando ergotismo (vasospasmo, gangrena de extremidades).",
         "conduta": "CONTRAINDICADO. Usar antibiótico alternativo (doxiciclina, amoxicilina) em pacientes em uso de ergotamina."
@@ -68302,7 +68302,7 @@
           "Lopinavir",
           "Indinavir"
         ],
-        "nivel": "grave",
+        "nivel": "alto",
         "titulo": "Ergotismo grave — CONTRAINDICADO",
         "efeito": "Inibidores de protease são inibidores potentes do CYP3A4, elevando os níveis de ergotamina a concentrações tóxicas.",
         "conduta": "CONTRAINDICADO. Suspender ergotamina antes de iniciar inibidores de protease."
@@ -68321,7 +68321,7 @@
       {
         "tipo": "duplicacao",
         "classe": "derivado_ergot",
-        "nivel": "grave",
+        "nivel": "alto",
         "titulo": "Duplicação de derivado do ergot",
         "efeito": "Associação com outros derivados do ergot (diidroergotamina, metilergometrina) causa vasospasmo grave e ergotismo.",
         "conduta": "CONTRAINDICADO. Nunca combinar dois derivados do ergot."
