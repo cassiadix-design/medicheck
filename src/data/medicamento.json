@@ -29210,7 +29210,67 @@
     "descricao_seo": "Hidralazina 25mg - 50mg - Injetável é um medicamento usado para: indicado para tratar pressão alta (hipertensão) moderada a grave, geralmente combinado com outros medicamentos. Também é usado em emergências de pressão muito alta e em casos de pré-eclâmpsia (complicação grave da gravidez em que a pressão sobe de. Os efeitos colaterais mais relatados são: os efeitos mais comuns incluem dor de cabeça, coração acelerado (taquicardia), palpitações (sensação de batimentos fortes no peito), rosto vermelho e quente. Importante: A Hidralazina pode causar Lúpus Induzido por Medicamento em 5 a 8% dos pacientes, provocando dores nas articulações e músculos, febre e, em casos graves. Hidralazina 25mg - 50mg - Injetável é vendido somente com receita médica — nunca use sem orientação de um profissional de saúde.",
     "alerta_farmaceutico": "Erro comum no balcão: paciente para o medicamento quando a pressão normaliza — a hipertensão é crônica e a pressão voltará a subir sem o tratamento. Hipertensão controlada não é hipertensão curada.",
     "quando_procurar_medico": "Procure médico se: pressão acima de 180/110 mesmo tomando o remédio, dor de cabeça intensa e súbita, visão turva, falta de ar, dor no peito, inchaço súbito nos pés e pernas, ou pressão muito baixa com tontura ao levantar.",
-    "interacoes": [],
+    "interacoes": [
+      {
+        "com": [
+          "atenolol",
+          "metoprolol",
+          "carvedilol",
+          "bisoprolol",
+          "propranolol",
+          "nebivolol"
+        ],
+        "nivel": "moderado",
+        "titulo": "Hidralazina + Betabloqueador",
+        "efeito": "A associação é usada clinicamente em insuficiência cardíaca (especialmente em afrodescendentes), mas soma efeitos hipotensores — risco de hipotensão postural, tontura e quedas, especialmente ao iniciar ou ajustar doses.",
+        "conduta": "⚠️ Combinação frequentemente intencional. Monitorar pressão arterial ao iniciar e ajustar doses. Orientar o paciente a levantar devagar. Risco maior em idosos."
+      },
+      {
+        "com": [
+          "ibuprofeno",
+          "diclofenaco",
+          "naproxeno",
+          "nimesulida",
+          "meloxicam",
+          "aine"
+        ],
+        "nivel": "moderado",
+        "titulo": "Hidralazina + Anti-inflamatório (AINE)",
+        "efeito": "AINEs causam retenção de sódio e água e reduzem a síntese de prostaglandinas vasodilatadoras — antagonizam o efeito anti-hipertensivo da hidralazina, dificultando o controle da pressão.",
+        "conduta": "⚠️ Evitar AINEs durante o tratamento. Preferir paracetamol ou dipirona para dor e febre. Monitorar pressão arterial se o uso for necessário."
+      },
+      {
+        "com": [
+          "sildenafila",
+          "tadalafila",
+          "vardenafila"
+        ],
+        "nivel": "alto",
+        "titulo": "Hidralazina + Inibidor de PDE-5 (Sildenafila / Tadalafila)",
+        "efeito": "Ambos causam vasodilatação — a combinação pode provocar hipotensão grave e sintomática, com risco de síncope, queda e eventos cardiovasculares.",
+        "conduta": "❌ Evitar a associação. Se o paciente usa sildenafila ou tadalafila para disfunção erétil ou hipertensão pulmonar, comunicar ao médico antes de iniciar hidralazina."
+      },
+      {
+        "com": [
+          "diazóxido",
+          "diazoxido"
+        ],
+        "nivel": "alto",
+        "titulo": "Hidralazina + Diazóxido",
+        "efeito": "Ambos são vasodilatadores potentes — a combinação provoca hipotensão grave e rápida, podendo causar colapso circulatório.",
+        "conduta": "❌ Contraindicado o uso simultâneo em bolus. Se utilizados sequencialmente em crise hipertensiva, manter monitorização hemodinâmica contínua."
+      },
+      {
+        "com": [
+          "álcool",
+          "alcool"
+        ],
+        "nivel": "moderado",
+        "titulo": "Hidralazina + Álcool",
+        "efeito": "O álcool tem efeito vasodilatador e pode potencializar a hipotensão causada pela hidralazina — risco de tontura, queda de pressão ao levantar e síncope.",
+        "conduta": "⚠️ Evitar álcool durante o tratamento. Risco aumentado de hipotensão postural e quedas, especialmente em idosos."
+      }
+    ],
     "sinonimos": [
       "Apresolina",
       "Apresoline"
@@ -33290,7 +33350,78 @@
     "descricao_seo": "Ivabradina 5mg - 7,5mg (Procoralan) é um medicamento usado para: medicamento cardíaco indicado para insuficiência cardíaca crônica estável e angina crônica estável em pacientes que não toleram ou têm contraindicação a betabloqueadores. Os efeitos colaterais mais relatados são: o efeito mais característico é a fosfenesia — fenômeno visual de flashes de luz brilhante no campo de visão, especialmente ao olhar para fontes de luz. Geralmente leve e reversível. Importante: Não usar em frequência cardíaca abaixo de 70 batimentos por minuto em repouso. Contraindicada em insuficiência cardíaca descompensada e gravidez. Ivabradina 5mg - 7,5mg (Procoralan) é vendido somente com receita médica — nunca use sem orientação de um profissional de saúde.",
     "alerta_farmaceutico": "Erro comum no balcão: não alertar sobre o risco de interação com medicamentos que alteram o potássio (diuréticos) — nível baixo de potássio aumenta drasticamente a toxicidade de glicosídeos cardíacos. Monitorar eletrólitos regularmente.",
     "quando_procurar_medico": "Procure médico imediatamente se: náusea, visão amarelada com halos (intoxicação digitálica), batimentos muito lentos ou irregulares, inchaço súbito nas pernas com falta de ar em repouso ou ganho de 2 kg em 3 dias (retenção hídrica).",
-    "interacoes": [],
+    "interacoes": [
+      {
+        "com": [
+          "verapamil",
+          "diltiazem"
+        ],
+        "nivel": "alto",
+        "titulo": "Ivabradina + Verapamil / Diltiazem",
+        "efeito": "Verapamil e diltiazem inibem o CYP3A4 (elevando os níveis de ivabradina) e também reduzem a frequência cardíaca — o efeito bradicárdico se soma, com risco de bradicardia grave e sintomática.",
+        "conduta": "❌ Contraindicado. Não usar ivabradina junto com verapamil ou diltiazem. Comunicar ao cardiologista para ajuste do esquema terapêutico."
+      },
+      {
+        "com": [
+          "atenolol",
+          "metoprolol",
+          "carvedilol",
+          "bisoprolol",
+          "propranolol",
+          "nebivolol"
+        ],
+        "nivel": "alto",
+        "titulo": "Ivabradina + Betabloqueador",
+        "efeito": "Ambos reduzem a frequência cardíaca — a combinação soma os efeitos bradicárdicos com risco de bradicardia grave, tontura, síncope e intolerância ao esforço.",
+        "conduta": "❌ Uso em conjunto é contraindicado na maioria dos casos. Se o médico indicar a associação em casos específicos de insuficiência cardíaca, monitorar frequência cardíaca em repouso — não deve ser inferior a 50 bpm."
+      },
+      {
+        "com": [
+          "cetoconazol",
+          "itraconazol",
+          "claritromicina",
+          "eritromicina",
+          "ritonavir",
+          "indinavir"
+        ],
+        "nivel": "alto",
+        "titulo": "Ivabradina + Inibidor Potente do CYP3A4",
+        "efeito": "Inibidores potentes do CYP3A4 bloqueiam o metabolismo da ivabradina — elevam seus níveis séricos em até 7x, com risco grave de bradicardia, bloqueio atrioventricular e arritmia.",
+        "conduta": "❌ Contraindicado. Buscar alternativas terapêuticas. Comunicar ao médico ou farmacêutico antes de iniciar qualquer antifúngico, antibiótico macrolídeo ou antiretroviral."
+      },
+      {
+        "com": [
+          "rifampicina",
+          "carbamazepina",
+          "fenitoína",
+          "fenobarbital"
+        ],
+        "nivel": "moderado",
+        "titulo": "Ivabradina + Indutor Enzimático (CYP3A4)",
+        "efeito": "Indutores do CYP3A4 aceleram o metabolismo da ivabradina — reduzem seus níveis séricos e comprometem o controle da frequência cardíaca.",
+        "conduta": "⚠️ Monitorar frequência cardíaca e sintomas de angina. Pode ser necessário ajustar a dose de ivabradina. Comunicar ao médico."
+      },
+      {
+        "com": [
+          "suco de grapefruit",
+          "toranja",
+          "suco de toranja"
+        ],
+        "nivel": "moderado",
+        "titulo": "Ivabradina + Suco de Grapefruit",
+        "efeito": "O suco de grapefruit inibe CYP3A4 intestinal — eleva os níveis de ivabradina em aproximadamente 2x, aumentando o risco de bradicardia.",
+        "conduta": "⚠️ Evitar suco de grapefruit (toranja) durante o tratamento com ivabradina."
+      },
+      {
+        "com": [
+          "amiodarona"
+        ],
+        "nivel": "alto",
+        "titulo": "Ivabradina + Amiodarona",
+        "efeito": "Amiodarona reduz a frequência cardíaca por mecanismo independente — a combinação com ivabradina soma os efeitos bradicárdicos com risco de bradicardia grave e sintomática.",
+        "conduta": "❌ Evitar a combinação. Se necessária sob supervisão especializada, monitorar frequência cardíaca continuamente e suspender se FC < 50 bpm em repouso."
+      }
+    ],
     "slug": "ivabradina-5mg-75mg-procoralan"
   },
   {
@@ -49312,7 +49443,91 @@
     "descricao_seo": "Ranolazina 500mg - 1000mg é um medicamento usado para: medicamento para angina crônica estável refratária a outros tratamentos. Age por mecanismo único — inibe a corrente de sódio tardia no coração, reduzindo a sobrecarga de cálcio e melhorando a função cardíaca sem alterar a frequência cardíaca ou. Os efeitos colaterais mais relatados são: tontura, cefaleia, constipação, náusea, prolongamento do QT (risco de arritmia). Importante: Contraindicada com inibidores potentes do CYP3A4 (cetoconazol, itraconazol, claritromicina) — aumentam muito os níveis de ranolazina. Monitorar ECG regularmente. Ranolazina 500mg - 1000mg é vendido somente com receita médica — nunca use sem orientação de um profissional de saúde.",
     "alerta_farmaceutico": "Erro comum no balcão: paciente interrompe o medicamento por conta própria ao sentir melhora, sem comunicar o médico — muitos tratamentos precisam de duração definida para ser efetivos. Sempre orientar a não alterar a posologia sem orientação médica.",
     "quando_procurar_medico": "Procure médico se: sintomas não melhorarem no tempo esperado, surgirem efeitos colaterais intensos, a condição piorar durante o tratamento, surgir febre ou reação alérgica (urticária, inchaço, dificuldade para respirar).",
-    "interacoes": [],
+    "interacoes": [
+      {
+        "com": [
+          "cetoconazol",
+          "itraconazol",
+          "claritromicina",
+          "nefazodona",
+          "ritonavir",
+          "indinavir",
+          "nelfinavir"
+        ],
+        "nivel": "alto",
+        "titulo": "Ranolazina + Inibidor Potente do CYP3A4",
+        "efeito": "Inibidores potentes do CYP3A4 bloqueiam o metabolismo da ranolazina — elevam seus níveis plasmáticos em até 3,5x, aumentando muito o risco de prolongamento do QT e arritmia grave.",
+        "conduta": "❌ Contraindicado. Não iniciar ranolazina em pacientes usando inibidores potentes do CYP3A4. Comunicar ao cardiologista para avaliação de alternativas."
+      },
+      {
+        "com": [
+          "rifampicina",
+          "fenitoína",
+          "carbamazepina",
+          "fenobarbital",
+          "hipericão"
+        ],
+        "nivel": "alto",
+        "titulo": "Ranolazina + Indutor Potente do CYP3A4",
+        "efeito": "Indutores potentes do CYP3A4 aceleram drasticamente o metabolismo da ranolazina — reduzem seus níveis a ponto de eliminar a eficácia antianginal.",
+        "conduta": "❌ Contraindicado. A combinação torna o tratamento ineficaz. Buscar anticonvulsivante ou antituberculoso alternativo, ou substituir a ranolazina por outro antianginal."
+      },
+      {
+        "com": [
+          "diltiazem",
+          "verapamil"
+        ],
+        "nivel": "alto",
+        "titulo": "Ranolazina + Diltiazem / Verapamil",
+        "efeito": "Diltiazem e verapamil são inibidores moderados/fortes do CYP3A4 — elevam os níveis de ranolazina significativamente (diltiazem: +1,5x; verapamil: +2x), aumentando risco de prolongamento do QT.",
+        "conduta": "❌ Evitar a combinação ou usar com cautela máxima sob supervisão cardiológica. Monitorar ECG regularmente. Não exceder 500mg 2x/dia de ranolazina se diltiazem for necessário."
+      },
+      {
+        "com": [
+          "digoxina"
+        ],
+        "nivel": "moderado",
+        "titulo": "Ranolazina + Digoxina",
+        "efeito": "Ranolazina inibe a P-glicoproteína — eleva os níveis séricos de digoxina em cerca de 50%, aumentando risco de toxicidade digitálica (náusea, bradicardia, visão amarelada).",
+        "conduta": "⚠️ Reduzir a dose de digoxina ao iniciar ranolazina. Monitorar nível sérico de digoxina e ECG. Comunicar ao médico qualquer sintoma de toxicidade."
+      },
+      {
+        "com": [
+          "sinvastatina",
+          "sinvastatin"
+        ],
+        "nivel": "moderado",
+        "titulo": "Ranolazina + Sinvastatina",
+        "efeito": "Ranolazina inibe CYP3A4 — aumenta a exposição à sinvastatina em aproximadamente 2x, elevando o risco de miopatia e rabdomiólise (destruição muscular com risco de lesão renal).",
+        "conduta": "⚠️ Limitar a dose de sinvastatina a 20mg/dia em pacientes usando ranolazina. Monitorar dor ou fraqueza muscular. Considerar troca para rosuvastatina ou pravastatina."
+      },
+      {
+        "com": [
+          "quinidina",
+          "procainamida",
+          "disopiramida",
+          "amiodarona",
+          "sotalol",
+          "dronedarona",
+          "dofetilida"
+        ],
+        "nivel": "alto",
+        "titulo": "Ranolazina + Antiarrítmico Classe IA ou III",
+        "efeito": "Ranolazina prolonga o intervalo QT — combinação com antiarrítmicos das classes IA (quinidina, procainamida) ou III (amiodarona, sotalol, dronedarona) multiplica o risco de torsades de pointes e parada cardíaca.",
+        "conduta": "❌ Evitar a combinação. Se inevitável, monitorar ECG continuamente. Uso apenas com avaliação e acompanhamento rigoroso do cardiologista."
+      },
+      {
+        "com": [
+          "suco de grapefruit",
+          "toranja",
+          "suco de toranja"
+        ],
+        "nivel": "moderado",
+        "titulo": "Ranolazina + Suco de Grapefruit",
+        "efeito": "O suco de grapefruit inibe CYP3A4 intestinal — pode elevar os níveis de ranolazina e aumentar risco de efeitos adversos (tontura, náusea, prolongamento de QT).",
+        "conduta": "⚠️ Evitar suco de grapefruit (toranja) durante o tratamento com ranolazina."
+      }
+    ],
     "slug": "ranolazina-500mg-1000mg"
   },
   {
@@ -66515,7 +66730,77 @@
     "descricao_seo": "Felodipino 2,5mg a 10mg é um bloqueador de canal de cálcio diidropiridínico para hipertensão arterial e angina. Comprimido de liberação prolongada — não partir. Evitar grapefruit: risco de hipotensão grave. Efeito colateral mais comum: edema de tornozelo.",
     "alerta_farmaceutico": "Interação importante com suco de grapefruit — inibição de CYP3A4 intestinal pode triplicar os níveis. Verificar uso concomitante de outros anti-hipertensivos (hipotensão aditiva). Associação com betabloqueador é segura e frequentemente usada para hipertensão + angina.",
     "quando_procurar_medico": "Procure médico se: pressão muito baixa com tontura intensa ou desmaio, edema súbito e intenso com falta de ar, dor no peito ou palpitações persistentes, ou rubor e cefaleia intensa que não melhora.",
-    "interacoes": [],
+    "interacoes": [
+      {
+        "com": [
+          "suco de grapefruit",
+          "toranja",
+          "suco de toranja"
+        ],
+        "nivel": "alto",
+        "titulo": "Felodipino + Suco de Grapefruit",
+        "efeito": "O felodipino é o bloqueador de canal de cálcio com maior interação com grapefruit — o suco pode elevar seus níveis em até 3x, causando hipotensão grave, rubor intenso, cefaleia pulsátil e taquicardia reflexa.",
+        "conduta": "❌ Contraindicado. Não consumir suco de grapefruit (toranja) durante o tratamento com felodipino, em nenhuma quantidade ou horário."
+      },
+      {
+        "com": [
+          "rifampicina",
+          "fenitoína",
+          "carbamazepina",
+          "fenobarbital"
+        ],
+        "nivel": "alto",
+        "titulo": "Felodipino + Indutor Potente do CYP3A4",
+        "efeito": "Rifampicina, fenitoína e carbamazepina induzem fortemente o CYP3A4 — reduzem os níveis de felodipino de forma drástica (rifampicina pode reduzir em mais de 90%), tornando o tratamento ineficaz.",
+        "conduta": "❌ Evitar a combinação. Comunicar ao médico para substituição do felodipino por anti-hipertensivo sem dependência do CYP3A4, ou troca do indutor enzimático."
+      },
+      {
+        "com": [
+          "cetoconazol",
+          "itraconazol",
+          "eritromicina",
+          "claritromicina",
+          "ritonavir"
+        ],
+        "nivel": "alto",
+        "titulo": "Felodipino + Inibidor Potente do CYP3A4",
+        "efeito": "Inibidores potentes do CYP3A4 bloqueiam o metabolismo do felodipino — elevam seus níveis séricos significativamente, com risco de hipotensão grave, edema periférico intenso e taquicardia reflexa.",
+        "conduta": "❌ Evitar a combinação. Se necessário, reduzir a dose de felodipino e monitorar pressão arterial rigorosamente. Comunicar ao médico."
+      },
+      {
+        "com": [
+          "atenolol",
+          "metoprolol",
+          "carvedilol",
+          "bisoprolol",
+          "propranolol",
+          "nebivolol"
+        ],
+        "nivel": "moderado",
+        "titulo": "Felodipino + Betabloqueador",
+        "efeito": "Combinação frequentemente usada em hipertensão e angina — o betabloqueador controla a taquicardia reflexa do felodipino, mas o efeito hipotensor se soma com risco de hipotensão excessiva.",
+        "conduta": "⚠️ Combinação geralmente intencional e bem tolerada. Monitorar pressão arterial e frequência cardíaca ao iniciar ou ajustar doses."
+      },
+      {
+        "com": [
+          "cimetidina"
+        ],
+        "nivel": "moderado",
+        "titulo": "Felodipino + Cimetidina",
+        "efeito": "Cimetidina inibe CYP3A4 — pode elevar os níveis de felodipino em cerca de 50%, potencializando o efeito hipotensor e os efeitos adversos.",
+        "conduta": "⚠️ Preferir ranitidina ou omeprazol como alternativa ao antiácido/anti-ulceroso. Se cimetidina for mantida, monitorar pressão arterial."
+      },
+      {
+        "com": [
+          "ciclosporina",
+          "tacrolimo"
+        ],
+        "nivel": "moderado",
+        "titulo": "Felodipino + Ciclosporina / Tacrolimo",
+        "efeito": "Felodipino pode inibir o metabolismo de ciclosporina e tacrolimo via CYP3A4 — eleva os níveis desses imunossupressores com risco de nefrotoxicidade e toxicidade sistêmica.",
+        "conduta": "⚠️ Monitorar níveis séricos de ciclosporina ou tacrolimo ao iniciar, ajustar ou suspender felodipino. Comunicar ao médico transplantologista."
+      }
+    ],
     "slug": "felodipino-25mg-5mg-10mg"
   },
   {
@@ -66582,7 +66867,86 @@
     "descricao_seo": "Nifedipino 10mg a 30mg é um bloqueador de canal de cálcio para hipertensão e angina. O uso sublingual é CONTRAINDICADO — risco de AVC e infarto. Evitar grapefruit. Formulações OROS/retard não devem ser partidas. Efeito colateral mais comum: edema de tornozelo.",
     "alerta_farmaceutico": "Uso sublingual absolutamente contraindicado — risco de hipotensão grave e eventos cardiovasculares isquêmicos. Interação com grapefruit (inibição CYP3A4). Verificar associações com outros anti-hipertensivos. Formulação OROS: casca nas fezes é normal.",
     "quando_procurar_medico": "Procure médico se: tontura intensa ou desmaio, dor no peito, palpitações persistentes, edema intenso com falta de ar, ou pressão muito baixa.",
-    "interacoes": [],
+    "interacoes": [
+      {
+        "com": [
+          "rifampicina"
+        ],
+        "nivel": "alto",
+        "titulo": "Nifedipino + Rifampicina",
+        "efeito": "Rifampicina é indutor potente do CYP3A4 — reduz os níveis de nifedipino em até 90%, tornando o medicamento praticamente ineficaz no controle da pressão arterial e da angina.",
+        "conduta": "❌ Contraindicado. A combinação elimina o efeito do nifedipino. Comunicar ao médico para substituição do anti-hipertensivo ou do antibiótico."
+      },
+      {
+        "com": [
+          "cetoconazol",
+          "itraconazol",
+          "claritromicina",
+          "eritromicina",
+          "ritonavir"
+        ],
+        "nivel": "alto",
+        "titulo": "Nifedipino + Inibidor Potente do CYP3A4",
+        "efeito": "Inibidores potentes do CYP3A4 bloqueiam o metabolismo do nifedipino — elevam muito seus níveis, podendo causar hipotensão grave, rubor intenso, cefaleia e taquicardia reflexa.",
+        "conduta": "❌ Evitar a combinação. Se necessário, reduzir a dose de nifedipino e monitorar pressão arterial com frequência. Comunicar ao médico."
+      },
+      {
+        "com": [
+          "atenolol",
+          "metoprolol",
+          "carvedilol",
+          "bisoprolol",
+          "propranolol",
+          "nebivolol"
+        ],
+        "nivel": "moderado",
+        "titulo": "Nifedipino + Betabloqueador",
+        "efeito": "Combinação frequentemente usada em cardiopatia isquêmica e hipertensão — o betabloqueador controla a taquicardia reflexa do nifedipino, mas o efeito hipotensor se soma, com risco de hipotensão excessiva em alguns pacientes.",
+        "conduta": "⚠️ Combinação geralmente bem tolerada. Monitorar pressão arterial e frequência cardíaca ao iniciar ou ajustar doses. Orientar sobre tontura postural."
+      },
+      {
+        "com": [
+          "fenitoína",
+          "carbamazepina",
+          "fenobarbital"
+        ],
+        "nivel": "moderado",
+        "titulo": "Nifedipino + Anticonvulsivante Indutor Enzimático",
+        "efeito": "Fenitoína, carbamazepina e fenobarbital induzem CYP3A4 — reduzem os níveis de nifedipino e comprometem o controle da pressão arterial e da angina.",
+        "conduta": "⚠️ Monitorar pressão arterial e sintomas de angina. Pode ser necessário aumentar a dose de nifedipino ou substituir o anticonvulsivante por opção que não induza CYP3A4."
+      },
+      {
+        "com": [
+          "digoxina"
+        ],
+        "nivel": "moderado",
+        "titulo": "Nifedipino + Digoxina",
+        "efeito": "Nifedipino pode reduzir a eliminação renal da digoxina — eleva moderadamente seus níveis séricos com risco de toxicidade digitálica (náusea, bradicardia, distúrbios visuais).",
+        "conduta": "⚠️ Monitorar nível sérico de digoxina ao iniciar ou ajustar nifedipino. Monitorar ECG e sinais de toxicidade."
+      },
+      {
+        "com": [
+          "suco de grapefruit",
+          "toranja",
+          "suco de toranja"
+        ],
+        "nivel": "alto",
+        "titulo": "Nifedipino + Suco de Grapefruit",
+        "efeito": "O suco de grapefruit inibe fortemente o CYP3A4 intestinal — aumenta significativamente a absorção do nifedipino, podendo causar hipotensão sintomática, rubor intenso e cefaleia.",
+        "conduta": "❌ Evitar completamente o suco de grapefruit (toranja) durante o tratamento com nifedipino."
+      },
+      {
+        "com": [
+          "sildenafila",
+          "tadalafila",
+          "vardenafila"
+        ],
+        "nivel": "alto",
+        "titulo": "Nifedipino + Inibidor de PDE-5 (Sildenafila / Tadalafila)",
+        "efeito": "Ambos causam vasodilatação — a combinação pode causar hipotensão grave e sintomática, com risco de síncope, tontura intensa e eventos cardiovasculares.",
+        "conduta": "❌ Evitar a associação. Se o paciente usa sildenafila ou tadalafila por outra indicação, comunicar ao médico antes de iniciar nifedipino."
+      }
+    ],
     "slug": "nifedipino-10mg-20mg-30mg"
   },
   {
@@ -66645,7 +67009,83 @@
     "descricao_seo": "Nimodipino 30mg é um bloqueador de canal de cálcio cerebrovascular. Indicado para vasoespasmo pós-hemorragia subaracnóidea, vertigem e distúrbios cognitivos. ATENÇÃO: a ampola NUNCA deve ser injetada na veia — uso oral ou por sonda. Evitar grapefruit.",
     "alerta_farmaceutico": "Alerta crítico: a ampola de nimodipino é exclusivamente para uso oral/enteral — administração IV direta é potencialmente fatal. Monitorar hipotensão ao associar com outros anti-hipertensivos. Interação com grapefruit (inibição CYP3A4). Iniciar em até 4 dias após hemorragia subaracnóidea.",
     "quando_procurar_medico": "Procure médico imediatamente se: tontura intensa ou desmaio, cefaleia súbita e explosiva (especialmente em pós-operatório de aneurisma), pressão muito baixa, ou qualquer novo sintoma neurológico (fraqueza, fala arrastada, confusão).",
-    "interacoes": [],
+    "interacoes": [
+      {
+        "com": [
+          "rifampicina"
+        ],
+        "nivel": "alto",
+        "titulo": "Nimodipino + Rifampicina",
+        "efeito": "Rifampicina é indutor potente do CYP3A4 — reduz os níveis de nimodipino em até 90%, eliminando praticamente toda a eficácia neuroprotetora, crítica no contexto de hemorragia subaracnóidea (HSA).",
+        "conduta": "❌ Contraindicado. A combinação torna o tratamento ineficaz numa situação de alta gravidade. Buscar antibiótico alternativo que não induza CYP3A4."
+      },
+      {
+        "com": [
+          "cetoconazol",
+          "itraconazol",
+          "claritromicina",
+          "ritonavir",
+          "indinavir"
+        ],
+        "nivel": "alto",
+        "titulo": "Nimodipino + Inibidor Potente do CYP3A4",
+        "efeito": "Inibidores potentes do CYP3A4 bloqueiam o metabolismo do nimodipino — elevam muito seus níveis séricos com risco de hipotensão grave, especialmente perigosa no contexto de HSA onde a pressão de perfusão cerebral é crítica.",
+        "conduta": "❌ Contraindicado. Buscar alternativas terapêuticas. Comunicar imediatamente ao médico responsável em ambiente hospitalar."
+      },
+      {
+        "com": [
+          "captopril",
+          "enalapril",
+          "lisinopril",
+          "losartana",
+          "valsartana",
+          "anlodipino",
+          "hidroclorotiazida",
+          "furosemida",
+          "metoprolol",
+          "atenolol"
+        ],
+        "nivel": "alto",
+        "titulo": "Nimodipino + Anti-hipertensivo",
+        "efeito": "Nimodipino já causa hipotensão como efeito adverso — a combinação com qualquer outro anti-hipertensivo soma os efeitos e pode causar hipotensão grave, comprometendo a perfusão cerebral em pacientes com HSA.",
+        "conduta": "❌ Usar com cautela extrema em HSA — hipotensão pode agravar isquemia cerebral. Monitorar pressão arterial continuamente. Ajustar doses sob supervisão neurológica intensiva."
+      },
+      {
+        "com": [
+          "fenitoína",
+          "carbamazepina",
+          "fenobarbital",
+          "oxcarbazepina"
+        ],
+        "nivel": "alto",
+        "titulo": "Nimodipino + Anticonvulsivante Indutor Enzimático",
+        "efeito": "Indutores do CYP3A4 reduzem drasticamente os níveis de nimodipino — comprometem a neuroproteção no contexto de HSA, exatamente quando anticonvulsivantes podem ser co-prescritos para prevenir convulsões pós-hemorragia.",
+        "conduta": "❌ Evitar sempre que possível. Se necessário, monitorar níveis e resposta clínica. Considerar levetiracetam como anticonvulsivante alternativo (não indutor de CYP3A4)."
+      },
+      {
+        "com": [
+          "suco de grapefruit",
+          "toranja",
+          "suco de toranja"
+        ],
+        "nivel": "moderado",
+        "titulo": "Nimodipino + Suco de Grapefruit",
+        "efeito": "O suco de grapefruit inibe CYP3A4 intestinal — pode elevar os níveis de nimodipino e potencializar a hipotensão, especialmente relevante no uso oral ambulatorial (pós-HSA).",
+        "conduta": "⚠️ Evitar suco de grapefruit (toranja) durante o tratamento com nimodipino."
+      },
+      {
+        "com": [
+          "valproato",
+          "ácido valpróico",
+          "acido valproico",
+          "valproato de sódio"
+        ],
+        "nivel": "moderado",
+        "titulo": "Nimodipino + Valproato",
+        "efeito": "O valproato pode inibir o metabolismo do nimodipino — estudos relatam elevação dos níveis plasmáticos de nimodipino com potencialização do efeito hipotensor.",
+        "conduta": "⚠️ Monitorar pressão arterial ao usar a combinação. Comunicar ao médico para ajuste de doses se necessário."
+      }
+    ],
     "slug": "nimodipino-30mg"
   },
   {
