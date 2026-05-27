@@ -1,0 +1,860 @@
+[
+  {
+    "nome": "Hemoglobina",
+    "categoria": "Hemograma",
+    "descricao": "A hemoglobina é a proteína dentro das células vermelhas do sangue responsável por transportar oxigênio dos pulmões para todo o corpo. Quando está baixa, o corpo não recebe oxigênio suficiente — isso é chamado de anemia.",
+    "valores_normais": "Homens: 13,5 a 17,5 g/dL | Mulheres: 12,0 a 15,5 g/dL | Crianças: 11,0 a 16,0 g/dL (varia com a idade)",
+    "o_que_significa_alto": "Pode indicar desidratação, tabagismo intenso, doença pulmonar crônica ou, raramente, problemas na medula óssea. O corpo produz mais células vermelhas quando sente falta de oxigênio por algum motivo.",
+    "o_que_significa_baixo": "Hemoglobina baixa é anemia. As causas mais comuns são falta de ferro, deficiência de vitamina B12 ou ácido fólico, sangramentos, doenças crônicas ou problemas na medula óssea. Os sintomas mais comuns são cansaço, palidez e falta de ar.",
+    "quando_pedir": "Suspeita de anemia, cansaço excessivo sem explicação, palidez, exame de rotina anual, acompanhamento de doenças crônicas, antes de cirurgias ou durante gravidez.",
+    "preparo": "Nenhum preparo especial. Não precisa de jejum. Pode ser coletado a qualquer hora do dia.",
+    "descricao_seo": "A hemoglobina é o principal exame para detectar anemia. Valores abaixo do normal causam cansaço, palidez e falta de ar. Saiba o que significa seu resultado e quando se preocupar.",
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Hemoglobina baixa tem cura?",
+        "resposta": "Depende da causa. Anemia por falta de ferro melhora com suplementação de ferro. Anemia por falta de vitamina B12 melhora com injeções ou comprimidos. O médico identifica a causa e indica o tratamento correto."
+      },
+      {
+        "pergunta": "Que alimentos aumentam a hemoglobina?",
+        "resposta": "Carnes vermelhas, fígado, feijão, lentilha, espinafre e folhas verde-escuras são ricos em ferro. Consumir junto com vitamina C (suco de laranja) ajuda o corpo a absorver melhor o ferro dos alimentos."
+      },
+      {
+        "pergunta": "Hemoglobina 11 é grave?",
+        "resposta": "É anemia leve a moderada. Geralmente causa sintomas como cansaço e palidez, mas raramente é emergência. O médico avaliará a causa e indicará o tratamento. Não ignore — anemia sem tratamento piora com o tempo."
+      },
+      {
+        "pergunta": "Precisa de jejum para fazer o exame de hemoglobina?",
+        "resposta": "Não. O exame de hemoglobina não exige jejum e pode ser feito em qualquer horário do dia sem restrições alimentares."
+      },
+      {
+        "pergunta": "Hemoglobina alta é perigosa?",
+        "resposta": "Depende da causa. Pode ser simples desidratação, que se corrige bebendo água. Mas valores muito altos aumentam o risco de trombose. Informe ao médico para investigar a causa."
+      }
+    ]
+  },
+  {
+    "nome": "Hematócrito",
+    "categoria": "Hemograma",
+    "descricao": "O hematócrito mostra qual porcentagem do seu sangue é formada por células vermelhas (glóbulos vermelhos). É um exame simples que ajuda a diagnosticar anemia e outras alterações do sangue.",
+    "valores_normais": "Homens: 41% a 53% | Mulheres: 36% a 46% | Crianças: 33% a 45% (varia com a idade)",
+    "o_que_significa_alto": "Pode indicar desidratação (o volume do sangue diminui, concentrando as células), tabagismo, doença pulmonar crônica ou condições mais raras que aumentam a produção de células vermelhas.",
+    "o_que_significa_baixo": "Indica anemia — o sangue tem poucas células vermelhas para carregar oxigênio. As causas são as mesmas da hemoglobina baixa: falta de ferro, B12, sangramento ou doenças crônicas.",
+    "quando_pedir": "Sempre junto com o hemograma completo. Investigação de anemia, cansaço, palidez, antes de cirurgias, exame de rotina.",
+    "preparo": "Nenhum preparo especial. Não precisa de jejum.",
+    "descricao_seo": "O hematócrito mede a porcentagem de células vermelhas no sangue. Valores baixos indicam anemia. Entenda o que significa seu resultado de hematócrito.",
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Hematócrito e hemoglobina são a mesma coisa?",
+        "resposta": "Não. A hemoglobina mede a quantidade da proteína que carrega oxigênio, enquanto o hematócrito mede a porcentagem de células vermelhas no sangue. Os dois são complementares e andam juntos no hemograma."
+      },
+      {
+        "pergunta": "Hematócrito 33 é anemia?",
+        "resposta": "Para mulheres adultas, abaixo de 36% já é considerado anemia. Para homens, o corte é 41%. Um resultado de 33% indica anemia leve a moderada e merece investigação da causa."
+      },
+      {
+        "pergunta": "Hematócrito pode variar no dia a dia?",
+        "resposta": "Sim. Hidratação, altitude, exercício intenso e até a posição na hora da coleta podem influenciar levemente. Por isso o médico avalia o resultado junto com outros exames e sintomas."
+      },
+      {
+        "pergunta": "Hematócrito alto é sinal de problema sério?",
+        "resposta": "Na maioria das vezes é causado por desidratação, o que se resolve bebendo mais água. Mas valores persistentemente altos merecem investigação médica para descartar doenças mais raras."
+      },
+      {
+        "pergunta": "Precisa de jejum para fazer hematócrito?",
+        "resposta": "Não. O hematócrito faz parte do hemograma e não requer jejum. Pode ser coletado em qualquer horário."
+      }
+    ]
+  },
+  {
+    "nome": "Leucócitos (Glóbulos Brancos)",
+    "categoria": "Hemograma",
+    "descricao": "Os leucócitos são as células de defesa do seu corpo — o exército do sistema imunológico. Eles combatem infecções, vírus, bactérias e outras ameaças. O exame mede quantos glóbulos brancos você tem por milímetro cúbico de sangue.",
+    "valores_normais": "4.000 a 11.000 células/mm³ — O resultado costuma vir com a contagem de cada tipo: neutrófilos, linfócitos, monócitos, eosinófilos e basófilos.",
+    "o_que_significa_alto": "Leucócitos altos (leucocitose) geralmente indicam infecção bacteriana, inflamação ou estresse físico intenso. Pode ocorrer também após uso de corticoides ou em algumas leucemias. Não significa necessariamente doença grave.",
+    "o_que_significa_baixo": "Leucócitos baixos (leucopenia) enfraquecem o sistema imunológico, deixando o corpo mais vulnerável a infecções. Pode ocorrer em infecções virais (como dengue e HIV), uso de quimioterapia, deficiências nutricionais ou doenças autoimunes.",
+    "quando_pedir": "Suspeita de infecção, febre, acompanhamento de doenças crônicas, monitoramento de quimioterapia, exame de rotina.",
+    "preparo": "Nenhum preparo especial. Não precisa de jejum.",
+    "descricao_seo": "Os leucócitos são as células de defesa do organismo. Valores altos indicam infecção ou inflamação, valores baixos comprometem a imunidade. Entenda seu resultado de glóbulos brancos.",
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Leucócitos altos sempre significa infecção?",
+        "resposta": "Não necessariamente. Estresse físico intenso, uso de corticoides, tabagismo e até emoções fortes podem elevar os leucócitos temporariamente. O médico avalia junto com os sintomas e outros exames."
+      },
+      {
+        "pergunta": "Leucócitos 12.000 é perigoso?",
+        "resposta": "É levemente acima do normal e pode indicar infecção leve ou inflamação. Dificilmente é emergência. O médico avaliará junto com os sintomas para decidir se é necessário tratar."
+      },
+      {
+        "pergunta": "O que significa neutrófilos baixos no resultado?",
+        "resposta": "Os neutrófilos são o principal tipo de glóbulo branco que combate bactérias. Quando estão baixos (neutropenia), o risco de infecções bacterianas sérias aumenta. É comum após quimioterapia e exige atenção médica."
+      },
+      {
+        "pergunta": "Dengue baixa os leucócitos?",
+        "resposta": "Sim. A dengue é uma das causas clássicas de leucopenia — os leucócitos caem durante a infecção, especialmente os linfócitos. Por isso o hemograma é pedido quando há suspeita de dengue."
+      },
+      {
+        "pergunta": "Eosinófilos altos o que significa?",
+        "resposta": "Eosinófilos elevados geralmente indicam reação alérgica ou infecção por parasitas (verminoses). Se estiverem muito altos sem causa aparente, o médico investigará outras causas mais raras."
+      }
+    ]
+  },
+  {
+    "nome": "Plaquetas",
+    "categoria": "Hemograma",
+    "descricao": "As plaquetas são pequenas células do sangue responsáveis pela coagulação — quando você se machuca, elas se agrupam para tampar o ferimento e estancar o sangramento. O exame mede quantas plaquetas circulam no seu sangue.",
+    "valores_normais": "150.000 a 400.000/mm³",
+    "o_que_significa_alto": "Plaquetas acima de 400.000 (trombocitose) podem ocorrer após infecções, inflamações, deficiência de ferro ou, raramente, doenças da medula óssea. Valores muito altos aumentam o risco de coágulos.",
+    "o_que_significa_baixo": "Plaquetas baixas (trombocitopenia) aumentam o risco de sangramento. As causas incluem dengue (causa clássica), púrpura imunológica, medicamentos, alcoolismo, doenças autoimunes e problemas na medula.",
+    "quando_pedir": "Dengue suspeita, sangramentos frequentes ou difíceis de estancar, hematomas fáceis, antes de cirurgias, acompanhamento de quimioterapia, doenças autoimunes.",
+    "preparo": "Nenhum preparo especial. Não precisa de jejum.",
+    "descricao_seo": "As plaquetas são responsáveis pela coagulação do sangue. Plaquetas baixas aumentam o risco de hemorragia — são o principal exame monitorado na dengue. Entenda seu resultado.",
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Plaquetas 100.000 é grave?",
+        "resposta": "É abaixo do normal, mas raramente causa sangramento espontâneo com esse valor. O médico avaliará a causa. Abaixo de 50.000 o risco aumenta; abaixo de 20.000 pode ser emergência."
+      },
+      {
+        "pergunta": "Dengue sempre baixa as plaquetas?",
+        "resposta": "Sim, a queda de plaquetas é característica da dengue e começa por volta do 3º ao 5º dia da doença. É por isso que o médico pede hemograma seriado em casos de dengue para monitorar essa queda."
+      },
+      {
+        "pergunta": "O que aumenta as plaquetas naturalmente?",
+        "resposta": "Não existe alimento comprovado que aumente plaquetas de forma significativa. O tratamento depende da causa da trombocitopenia. Evite automedicação — o uso incorreto de remédios pode piorar o quadro."
+      },
+      {
+        "pergunta": "Posso fazer cirurgia com plaquetas baixas?",
+        "resposta": "Depende do valor e do tipo de cirurgia. Cirurgias eletivas geralmente são adiadas se as plaquetas estiverem abaixo de 50.000. O médico e o anestesista avaliam cada caso individualmente."
+      },
+      {
+        "pergunta": "Plaquetas altas causam trombose?",
+        "resposta": "Plaquetas muito acima de 1.000.000 (trombocitemia essencial) aumentam o risco de trombose. Elevações moderadas raramente causam problema e geralmente se resolvem com o tratamento da causa de base."
+      }
+    ]
+  },
+  {
+    "nome": "Glicemia em Jejum",
+    "categoria": "Metabolismo",
+    "descricao": "A glicemia mede a quantidade de açúcar (glicose) no sangue após um período de jejum. É o principal exame para rastrear e diagnosticar diabetes e pré-diabetes.",
+    "valores_normais": "Normal: abaixo de 100 mg/dL | Pré-diabetes: 100 a 125 mg/dL | Diabetes: 126 mg/dL ou acima (confirmado em dois exames)",
+    "o_que_significa_alto": "Glicemia alta (hiperglicemia) em jejum indica que o corpo não está conseguindo controlar adequadamente o açúcar no sangue — sinal de pré-diabetes ou diabetes. Causas: resistência à insulina, deficiência de insulina, dieta inadequada, sedentarismo, estresse.",
+    "o_que_significa_baixo": "Glicemia abaixo de 70 mg/dL é hipoglicemia. Pode causar tontura, tremor, suor frio, confusão mental e desmaio. Comum em diabéticos que tomam insulina ou antidiabéticos, mas também pode ocorrer em pessoas que ficaram muito tempo sem comer.",
+    "quando_pedir": "Exame de rotina anual a partir dos 45 anos (ou mais cedo se houver fatores de risco), sobrepeso, histórico familiar de diabetes, hipertensão, síndrome dos ovários policísticos, gestação.",
+    "preparo": "Jejum de 8 a 12 horas obrigatório. Pode beber água. Não praticar exercícios intensos antes do exame.",
+    "descricao_seo": "A glicemia em jejum é o principal exame para diagnosticar diabetes e pré-diabetes. Saiba quais são os valores normais, o que significa glicemia alta e como se preparar para o exame.",
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Glicemia 110 em jejum é diabetes?",
+        "resposta": "Não ainda. Valores entre 100 e 125 mg/dL são classificados como pré-diabetes — um sinal de alerta importante. Com mudanças no estilo de vida (dieta e exercício), muitas pessoas conseguem voltar ao normal antes de desenvolver diabetes."
+      },
+      {
+        "pergunta": "Posso tomar água antes do exame de glicemia?",
+        "resposta": "Sim. Água não interfere no resultado. Apenas evite café, sucos, chás e qualquer alimento ou bebida com calorias durante o jejum."
+      },
+      {
+        "pergunta": "Estresse pode elevar a glicemia?",
+        "resposta": "Sim. O estresse libera cortisol e adrenalina, que aumentam a glicose no sangue. Uma glicemia levemente alterada em momento de estresse intenso deve ser repetida em condições normais antes de concluir o diagnóstico."
+      },
+      {
+        "pergunta": "Diabetes tem cura?",
+        "resposta": "O diabetes tipo 1 não tem cura — requer insulina para toda a vida. O diabetes tipo 2 pode entrar em remissão (glicemia normalizada sem medicamentos) com perda de peso significativa e mudança de hábitos, mas exige acompanhamento contínuo."
+      },
+      {
+        "pergunta": "Qual a diferença entre glicemia de jejum e hemoglobina glicada?",
+        "resposta": "A glicemia de jejum é uma foto do momento atual. A hemoglobina glicada (HbA1c) mostra a média do açúcar no sangue nos últimos 3 meses — muito mais útil para acompanhar o controle do diabetes ao longo do tempo."
+      }
+    ]
+  },
+  {
+    "nome": "Hemoglobina Glicada (HbA1c)",
+    "categoria": "Metabolismo",
+    "descricao": "A hemoglobina glicada mede a porcentagem de hemoglobina que ficou 'grudada' com glicose nos últimos 2 a 3 meses. Como as células vermelhas vivem cerca de 90 dias, esse exame revela como esteve o controle do açúcar no sangue nesse período — independentemente do que você comeu no dia anterior.",
+    "valores_normais": "Normal: abaixo de 5,7% | Pré-diabetes: 5,7% a 6,4% | Diabetes: 6,5% ou acima | Meta de controle para diabéticos: abaixo de 7% (individualizada pelo médico)",
+    "o_que_significa_alto": "HbA1c alta indica controle inadequado do diabetes nos últimos meses — mais do que uma glicemia pontualmente elevada. Está associada a maior risco de complicações como retinopatia, nefropatia, neuropatia e doenças cardiovasculares.",
+    "o_que_significa_baixo": "HbA1c muito baixa em diabéticos pode indicar episódios frequentes de hipoglicemia. Abaixo de 5,7% em não diabéticos é normal e desejável.",
+    "quando_pedir": "Diagnóstico e acompanhamento do diabetes. Deve ser repetida a cada 3 a 6 meses em diabéticos, dependendo do controle. Também usada no rastreio do pré-diabetes.",
+    "preparo": "Não precisa de jejum. Pode ser coletado em qualquer horário.",
+    "descricao_seo": "A hemoglobina glicada (HbA1c) mostra o controle do açúcar no sangue nos últimos 3 meses. É o exame mais importante no acompanhamento do diabetes. Entenda o que significa seu resultado.",
+    "perguntas_frequentes": [
+      {
+        "pergunta": "HbA1c 6,8% é controlado?",
+        "resposta": "Está acima da meta de 6,5% para diagnóstico e indica diabetes. A meta de controle é geralmente abaixo de 7%, mas pode variar conforme a idade e condições do paciente. Converse com seu médico para individualizar o objetivo."
+      },
+      {
+        "pergunta": "Precisa de jejum para fazer hemoglobina glicada?",
+        "resposta": "Não. Esta é uma das vantagens do exame — pode ser feito em qualquer horário, sem jejum, pois mede uma média dos últimos 3 meses e não é influenciado pela última refeição."
+      },
+      {
+        "pergunta": "Anemia afeta o resultado da HbA1c?",
+        "resposta": "Sim. A anemia hemolítica e outras condições que alteram a sobrevida das células vermelhas podem falsear o resultado. Em pacientes com anemia, o médico pode preferir outros exames para avaliar o controle glicêmico."
+      },
+      {
+        "pergunta": "Com que frequência repetir a hemoglobina glicada?",
+        "resposta": "Para diabéticos com bom controle: a cada 6 meses. Para quem está ajustando o tratamento ou com controle inadequado: a cada 3 meses. Para rastreio de pré-diabetes: anualmente."
+      },
+      {
+        "pergunta": "Posso ter HbA1c normal e ainda ter diabetes?",
+        "resposta": "Em raras situações (anemia, hemoglobinopatias), sim. Por isso o diagnóstico de diabetes pode ser feito por outros critérios — glicemia de jejum ou teste oral de tolerância à glicose — e o médico escolhe o método mais adequado para cada paciente."
+      }
+    ]
+  },
+  {
+    "nome": "Colesterol Total e Frações",
+    "categoria": "Metabolismo",
+    "descricao": "O exame de colesterol mede os diferentes tipos de gordura no sangue: o colesterol total, o LDL (o 'ruim', que entope artérias), o HDL (o 'bom', que protege o coração) e os triglicerídeos. Juntos, eles formam o perfil lipídico — fundamental para avaliar o risco cardiovascular.",
+    "valores_normais": "Colesterol Total: desejável abaixo de 190 mg/dL | LDL: abaixo de 130 mg/dL (em risco alto, abaixo de 70 mg/dL) | HDL: acima de 40 mg/dL (homens) e 50 mg/dL (mulheres) | Triglicerídeos: abaixo de 150 mg/dL",
+    "o_que_significa_alto": "LDL alto e HDL baixo aumentam o risco de aterosclerose — o acúmulo de placas nas artérias que pode causar infarto e AVC. Triglicerídeos muito altos aumentam o risco de pancreatite.",
+    "o_que_significa_baixo": "HDL baixo é um fator de risco cardiovascular independente — quanto menor o HDL, maior o risco de infarto. LDL muito baixo raramente causa problemas, mas pode ocorrer em doenças hepáticas graves ou má absorção.",
+    "quando_pedir": "A partir dos 35 anos em homens e 45 em mulheres (ou mais cedo com fatores de risco). Exame de rotina a cada 5 anos se normal, anual se alterado ou em tratamento.",
+    "preparo": "Jejum de 12 horas. Evitar álcool 72 horas antes e refeições gordurosas na véspera para resultado mais preciso dos triglicerídeos.",
+    "descricao_seo": "O perfil lipídico avalia colesterol LDL, HDL e triglicerídeos — essencial para prevenir infarto e AVC. Entenda o que significa cada valor do seu exame de colesterol.",
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Colesterol 220 é perigoso?",
+        "resposta": "Depende das frações. O colesterol total isolado tem pouco valor — o que importa é o LDL, o HDL e o risco cardiovascular global do paciente. Uma pessoa com 220 de colesterol total mas HDL alto e LDL controlado pode ter risco menor que outra com colesterol 190 e HDL baixo."
+      },
+      {
+        "pergunta": "Ovo aumenta o colesterol?",
+        "resposta": "O consenso científico atual é que o ovo tem impacto pequeno no colesterol do sangue para a maioria das pessoas — o colesterol da dieta afeta menos do que as gorduras saturadas e trans. Pessoas com diabetes ou predisposição genética devem seguir orientação médica específica."
+      },
+      {
+        "pergunta": "Estatina tem que tomar para sempre?",
+        "resposta": "Em geral, sim — para pacientes com doença cardiovascular estabelecida ou risco alto. A estatina não cura o problema; ela controla. Interromper o tratamento faz o colesterol voltar aos valores anteriores. Converse sempre com seu médico antes de parar."
+      },
+      {
+        "pergunta": "Exercício aumenta o HDL?",
+        "resposta": "Sim. O exercício aeróbico regular (caminhada, corrida, natação, ciclismo) é uma das formas mais eficazes de elevar o HDL. Parar de fumar e perder peso também aumentam o HDL de forma significativa."
+      },
+      {
+        "pergunta": "Triglicerídeos 300 é perigoso?",
+        "resposta": "É moderadamente alto. Acima de 500 mg/dL há risco de pancreatite aguda. Os triglicerídeos respondem bem a mudanças de estilo de vida: reduzir açúcar, álcool e carboidratos refinados, e aumentar a atividade física costuma normalizar os valores em poucos meses."
+      }
+    ]
+  },
+  {
+    "nome": "TSH (Hormônio Tireoestimulante)",
+    "categoria": "Hormônios",
+    "descricao": "O TSH é produzido pela hipófise (uma glândula no cérebro) e regula o funcionamento da tireoide — a glândula no pescoço responsável pelo metabolismo, energia, temperatura corporal, peso e humor. Quando a tireoide não funciona bem, o TSH sobe ou desce como sinal de alerta.",
+    "valores_normais": "0,4 a 4,0 mUI/L (adultos) — valores de referência variam levemente entre laboratórios. Em gestantes os limites são menores. Em idosos, TSH levemente acima de 4 pode ser aceitável.",
+    "o_que_significa_alto": "TSH alto indica hipotireoidismo — a tireoide está trabalhando pouco. Sintomas: cansaço intenso, ganho de peso sem explicação, frio excessivo, pele seca, queda de cabelo, intestino preso, depressão, raciocínio lento.",
+    "o_que_significa_baixo": "TSH baixo indica hipertireoidismo — a tireoide está hiperativa. Sintomas: perda de peso, coração acelerado, ansiedade, tremores, suor excessivo, insônia, diarreia.",
+    "quando_pedir": "Cansaço inexplicável, ganho ou perda de peso sem causa aparente, alterações de humor, queda de cabelo, irregularidade menstrual, gestação, histórico familiar de doença da tireoide, rotina após os 40 anos (especialmente mulheres).",
+    "preparo": "Nenhum preparo especial. Não precisa de jejum. Pode ser coletado em qualquer horário.",
+    "descricao_seo": "O TSH é o principal exame para avaliar a tireoide. TSH alto indica hipotireoidismo; TSH baixo indica hipertireoidismo. Entenda o que significa seu resultado e quais são os sintomas.",
+    "perguntas_frequentes": [
+      {
+        "pergunta": "TSH 6 é hipotireoidismo?",
+        "resposta": "Sim, acima de 4,0 mUI/L já é considerado hipotireoidismo. Com TSH 6, o médico avaliará os sintomas e os hormônios T3 e T4 livre para decidir se o tratamento com levotiroxina é necessário."
+      },
+      {
+        "pergunta": "TSH alterado engorda?",
+        "resposta": "Hipotireoidismo (TSH alto) pode causar ganho de peso de 2 a 5 kg, principalmente por retenção de líquidos e metabolismo lento. Mas raramente causa obesidade sozinho — a dieta e o sedentarismo são fatores muito mais determinantes."
+      },
+      {
+        "pergunta": "Levotiroxina engorda ou emagrece?",
+        "resposta": "A levotiroxina corrige o hipotireoidismo e normaliza o metabolismo — pode haver perda de peso quando o hipotireoidismo estava causando retenção. Mas não emagrece em pessoas com tireoide normal. Não deve ser usada como emagrecedor."
+      },
+      {
+        "pergunta": "Precisa fazer TSH em jejum?",
+        "resposta": "Não. O TSH não é afetado pela alimentação e pode ser coletado em qualquer horário. Porém, se estiver tomando levotiroxina, o ideal é coletar o sangue antes de tomar o comprimido do dia."
+      },
+      {
+        "pergunta": "Com que frequência repetir o TSH?",
+        "resposta": "Após iniciar ou ajustar a levotiroxina, repetir em 6 a 8 semanas. Quando o TSH está estável na faixa ideal, repetir anualmente. Em gestantes, o controle é mais frequente — a cada 4 a 6 semanas no primeiro trimestre."
+      }
+    ]
+  },
+  {
+    "nome": "Creatinina e Ureia",
+    "categoria": "Função Renal",
+    "descricao": "A creatinina e a ureia são resíduos produzidos pelo metabolismo do corpo e eliminados pelos rins. Quando os rins não funcionam bem, esses resíduos se acumulam no sangue. Juntos, eles formam os principais marcadores da função renal.",
+    "valores_normais": "Creatinina: Homens: 0,7 a 1,2 mg/dL | Mulheres: 0,5 a 1,0 mg/dL | Ureia: 15 a 40 mg/dL (adultos)",
+    "o_que_significa_alto": "Creatinina e ureia elevadas indicam que os rins estão com dificuldade de filtrar o sangue — pode ser insuficiência renal aguda (de início rápido) ou crônica (lenta e progressiva). Causas: desidratação, diabetes mal controlado, hipertensão, uso de medicamentos nefrotóxicos, infecções graves.",
+    "o_que_significa_baixo": "Creatinina baixa é comum em idosos, pessoas com pouca massa muscular e gestantes — não é preocupante. Ureia muito baixa pode indicar desnutrição proteica ou doença hepática grave.",
+    "quando_pedir": "Acompanhamento de diabetes e hipertensão (principais causas de doença renal), uso de medicamentos que afetam os rins (AINEs, antibióticos aminoglicosídeos, contraste radiológico), edema, diminuição do volume de urina, rotina em adultos acima de 40 anos.",
+    "preparo": "Nenhum preparo especial. Não precisa de jejum para creatinina. Para a ureia, evitar refeição muito rica em proteínas nas horas anteriores.",
+    "descricao_seo": "Creatinina e ureia avaliam o funcionamento dos rins. Valores elevados podem indicar insuficiência renal. Entenda o que significa seu resultado e quando se preocupar.",
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Creatinina 1,4 é grave?",
+        "resposta": "Para homens, está levemente acima do normal; para mulheres, é mais significativo. Isoladamente, um valor levemente elevado pode ser variação normal, desidratação ou maior massa muscular. O médico avaliará junto com outros exames renais e o histórico do paciente."
+      },
+      {
+        "pergunta": "O que faz mal para os rins?",
+        "resposta": "Os principais inimigos dos rins são: diabetes mal controlado, hipertensão sem tratamento, uso abusivo de anti-inflamatórios (ibuprofeno, nimesulida, diclofenaco), contraste de exames de imagem sem hidratação adequada e algumas infecções. Beber pouca água também sobrecarrega os rins."
+      },
+      {
+        "pergunta": "Posso tomar anti-inflamatório com creatinina alterada?",
+        "resposta": "Anti-inflamatórios como ibuprofeno e diclofenaco reduzem o fluxo sanguíneo nos rins e podem piorar a função renal. Com creatinina alterada, o uso deve ser evitado ou feito com extrema cautela e orientação médica."
+      },
+      {
+        "pergunta": "Doença renal tem sintomas?",
+        "resposta": "Frequentemente não — a doença renal crônica é silenciosa por anos. Por isso o rastreio com exames de sangue e urina é tão importante em diabéticos e hipertensos. Quando os sintomas aparecem (inchaço, urina espumosa, cansaço), a doença já pode estar avançada."
+      },
+      {
+        "pergunta": "Qual a diferença entre creatinina e TFG?",
+        "resposta": "A creatinina é o valor bruto medido no sangue. A TFG (Taxa de Filtração Glomerular) é calculada a partir da creatinina, levando em conta idade, sexo e raça — ela estima quanto os rins estão filtrando por minuto. A TFG é mais precisa para classificar o estágio da doença renal."
+      }
+    ]
+  },
+  {
+    "nome": "TGO e TGP (Transaminases)",
+    "categoria": "Função Hepática",
+    "descricao": "TGO (aspartato aminotransferase) e TGP (alanina aminotransferase) são enzimas encontradas principalmente nas células do fígado. Quando o fígado está inflamado ou lesionado, essas células liberam as enzimas no sangue — e os valores sobem. São os principais marcadores de saúde hepática.",
+    "valores_normais": "TGO: até 40 U/L | TGP: até 41 U/L (homens) e até 31 U/L (mulheres) — valores variam conforme o laboratório.",
+    "o_que_significa_alto": "Transaminases elevadas indicam alguma agressão ao fígado. As causas mais comuns são: hepatite viral (A, B ou C), gordura no fígado (esteatose), uso de álcool, medicamentos hepatotóxicos (paracetamol em excesso, estatinas, alguns antibióticos), obesidade e diabetes. Elevações muito altas (10 vezes acima do normal) sugerem hepatite aguda grave.",
+    "o_que_significa_baixo": "Valores baixos ou no limite inferior são normais e sem significado clínico.",
+    "quando_pedir": "Avaliação de saúde do fígado, uso de álcool, suspeita de hepatite, uso de medicamentos que afetam o fígado, obesidade, diabetes, exame de rotina.",
+    "preparo": "Nenhum preparo especial. Não precisa de jejum. Evitar exercício físico intenso nas 24 horas antes (TGO pode subir com esforço muscular).",
+    "descricao_seo": "TGO e TGP são enzimas que indicam a saúde do fígado. Valores elevados podem indicar hepatite, gordura no fígado ou lesão por medicamentos. Entenda o que significa seu resultado.",
+    "perguntas_frequentes": [
+      {
+        "pergunta": "TGP 60 é grave?",
+        "resposta": "Está levemente acima do normal. O médico avaliará a causa — pode ser esteatose (gordura no fígado), uso de medicamentos, álcool ou exercício intenso recente. Raramente é emergência com esse valor, mas merece investigação."
+      },
+      {
+        "pergunta": "Gordura no fígado eleva as transaminases?",
+        "resposta": "Sim. A esteatose hepática não alcoólica (fígado gorduroso) é uma das causas mais comuns de TGO e TGP levemente elevadas. Com mudanças no estilo de vida — perda de peso, dieta e exercício — as enzimas costumam normalizar."
+      },
+      {
+        "pergunta": "Paracetamol pode elevar TGO e TGP?",
+        "resposta": "Sim. O paracetamol em doses excessivas é uma das principais causas de hepatite tóxica — e as transaminases sobem muito rapidamente. Nunca ultrapasse 4g por dia (2 comprimidos de 500mg a cada 6 horas, no máximo)."
+      },
+      {
+        "pergunta": "Posso tomar estatina com transaminases altas?",
+        "resposta": "Depende do valor. Elevações leves (até 3 vezes o normal) geralmente não contraindicam o uso de estatinas. Valores acima disso exigem avaliação médica antes de iniciar ou continuar o tratamento."
+      },
+      {
+        "pergunta": "TGO e TGP normais garantem que o fígado está saudável?",
+        "resposta": "Não completamente. Na cirrose compensada, as transaminases podem ser normais ou levemente alteradas mesmo com dano hepático avançado. Outros exames — como albumina, bilirrubinas, tempo de protrombina e ultrassom — completam a avaliação do fígado."
+      }
+    ]
+  },
+  {
+    "nome": "PCR (Proteína C-Reativa)",
+    "categoria": "Inflamação e Infecção",
+    "descricao": "A PCR é uma proteína produzida pelo fígado em resposta a inflamações, infecções e lesões teciduais. É um dos marcadores inflamatórios mais sensíveis e rápidos do organismo — sobe em poucas horas após o início de uma inflamação ou infecção.",
+    "valores_normais": "PCR convencional: abaixo de 5,0 mg/L | PCR ultrassensível (para risco cardiovascular): abaixo de 1,0 mg/L (baixo risco); 1,0 a 3,0 mg/L (risco intermediário); acima de 3,0 mg/L (alto risco cardiovascular)",
+    "o_que_significa_alto": "PCR elevada indica inflamação ou infecção ativa no corpo. Causas: infecções bacterianas ou virais, doenças autoimunes (lúpus, artrite reumatoide), infarto do miocárdio, pós-operatório, câncer, obesidade, tabagismo. Quanto mais alta, mais intensa é a resposta inflamatória.",
+    "o_que_significa_baixo": "PCR baixa ou indetectável é desejável — indica ausência de inflamação significativa.",
+    "quando_pedir": "Suspeita de infecção bacteriana (para diferenciar de viral), monitoramento de doenças inflamatórias crônicas, avaliação de risco cardiovascular (PCR ultrassensível), acompanhamento pós-operatório, febre sem causa aparente.",
+    "preparo": "Nenhum preparo especial. Não precisa de jejum.",
+    "descricao_seo": "A PCR (Proteína C-Reativa) detecta inflamações e infecções no organismo. É também usada para avaliar risco cardiovascular. Entenda o que significa seu resultado de PCR.",
+    "perguntas_frequentes": [
+      {
+        "pergunta": "PCR alta sempre significa infecção?",
+        "resposta": "Não. Qualquer inflamação eleva a PCR — incluindo doenças autoimunes, infarto, pós-operatório, cânceres e até obesidade grave. A PCR indica que algo está inflamando o corpo, mas não diz o quê. O médico interpretará junto com os sintomas e outros exames."
+      },
+      {
+        "pergunta": "PCR 20 é perigoso?",
+        "resposta": "É moderadamente elevada e indica inflamação ou infecção ativa significativa. O médico avaliará a causa. PCR acima de 100 sugere infecção bacteriana grave ou condição inflamatória severa e requer atenção imediata."
+      },
+      {
+        "pergunta": "PCR serve para diagnosticar COVID-19?",
+        "resposta": "Não especificamente. A PCR pode estar elevada na COVID-19 grave, mas não confirma a doença. O diagnóstico da COVID-19 é feito com o RT-PCR para o vírus (um exame com nome parecido, mas completamente diferente) ou teste de antígeno."
+      },
+      {
+        "pergunta": "O que é PCR ultrassensível?",
+        "resposta": "É uma versão mais sensível do exame, capaz de detectar inflamações crônicas e de baixo grau. É usada para avaliar risco cardiovascular — inflamação crônica nas artérias aumenta o risco de infarto mesmo sem colesterol muito alto."
+      },
+      {
+        "pergunta": "Posso fazer o exame de PCR com febre?",
+        "resposta": "Sim, e é exatamente quando o médico costuma pedi-lo — a febre é um sinal de inflamação e a PCR ajuda a avaliar a intensidade do processo. O exame pode ser coletado em qualquer horário, mesmo com febre ou sintomas."
+      }
+    ]
+  },
+  {
+    "nome": "Ferritina",
+    "categoria": "Metabolismo do Ferro",
+    "descricao": "A ferritina é a proteína que armazena o ferro no corpo. Enquanto a hemoglobina mede o ferro em circulação, a ferritina revela os estoques — como um reservatório. Ela cai antes de a anemia aparecer, tornando-se o exame mais precoce para detectar deficiência de ferro.",
+    "valores_normais": "Homens: 30 a 300 ng/mL | Mulheres: 13 a 150 ng/mL | Abaixo de 30 ng/mL: estoques baixos (mesmo sem anemia)",
+    "o_que_significa_alto": "Ferritina alta pode indicar inflamação, infecção, doença hepática, hemocromatose (acúmulo de ferro por causa genética) ou, raramente, alguns tipos de câncer. Durante infecções, o fígado libera mais ferritina como mecanismo de defesa — por isso um valor alto isolado deve ser interpretado com cautela.",
+    "o_que_significa_baixo": "Ferritina baixa indica estoques de ferro esgotados — mesmo que a hemoglobina ainda esteja normal. Causa cansaço, queda de cabelo difusa, unhas quebradiças, dificuldade de concentração e piora do desempenho físico.",
+    "quando_pedir": "Queda de cabelo inexplicável, cansaço mesmo com hemoglobina normal, suspeita de deficiência de ferro, gestantes, vegetarianos e veganos, doadores de sangue frequentes, mulheres com menstruação intensa.",
+    "preparo": "Nenhum preparo especial. Não precisa de jejum. Evitar fazer o exame durante infecções ou inflamações ativas — o resultado pode estar falsamente elevado.",
+    "descricao_seo": "A ferritina mede os estoques de ferro no organismo. Ferritina baixa causa cansaço e queda de cabelo mesmo antes da anemia aparecer. Entenda o que significa seu resultado de ferritina.",
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Ferritina baixa causa queda de cabelo?",
+        "resposta": "Sim. Ferritina abaixo de 30 ng/mL é uma das causas mais comuns de queda de cabelo difusa em mulheres — mesmo com hemoglobina normal. A reposição de ferro melhora o quadro em 3 a 6 meses."
+      },
+      {
+        "pergunta": "Ferritina 8 é anemia?",
+        "resposta": "Ferritina muito baixa indica estoques de ferro esgotados. Mesmo que a hemoglobina esteja normal, o corpo já está com deficiência de ferro. O médico iniciará suplementação e investigará a causa da perda de ferro."
+      },
+      {
+        "pergunta": "Por que a ferritina pode estar alta na infecção?",
+        "resposta": "Durante infecções e inflamações, o fígado libera mais ferritina como parte da resposta imunológica. Por isso, um exame de ferritina feito durante uma infecção pode estar falsamente alto — não representando excesso real de ferro."
+      },
+      {
+        "pergunta": "Posso tomar suplemento de ferro sem exame?",
+        "resposta": "Não é recomendado. Excesso de ferro também é prejudicial — pode causar constipação, náusea e, a longo prazo, danos ao fígado e outros órgãos. O suplemento deve ser usado apenas com diagnóstico e orientação médica."
+      },
+      {
+        "pergunta": "Em quanto tempo a ferritina normaliza com suplemento de ferro?",
+        "resposta": "A hemoglobina melhora em 4 a 6 semanas de tratamento. Mas repor os estoques de ferritina leva de 3 a 6 meses de suplementação contínua. Por isso é importante completar o tratamento mesmo após se sentir melhor."
+      }
+    ]
+  },
+  {
+    "nome": "Vitamina D",
+    "categoria": "Vitaminas e Minerais",
+    "descricao": "A vitamina D é essencial para a absorção de cálcio, saúde dos ossos, funcionamento do sistema imunológico e regulação do humor. A principal fonte é a exposição solar, mas muitos brasileiros têm deficiência mesmo morando em país tropical — especialmente quem trabalha em ambiente fechado.",
+    "valores_normais": "Abaixo de 20 ng/mL: deficiência | 20 a 30 ng/mL: insuficiência | 30 a 100 ng/mL: suficiência (ideal acima de 40 ng/mL para a maioria dos especialistas)",
+    "o_que_significa_alto": "Vitamina D acima de 100 ng/mL pode causar toxicidade — hipercalcemia (cálcio alto no sangue), que provoca náusea, fraqueza, pedra nos rins e, em casos graves, arritmia cardíaca. Ocorre quase exclusivamente por suplementação excessiva, nunca pela exposição ao sol.",
+    "o_que_significa_baixo": "Deficiência de vitamina D causa fraqueza muscular, dores nos ossos, maior risco de fraturas, imunidade baixa e pode contribuir para depressão. Em crianças graves causa raquitismo.",
+    "quando_pedir": "Investigação de dores nos ossos e músculos, quedas frequentes em idosos, osteoporose, imunidade baixa, depressão, doenças autoimunes, pessoas com pouca exposição solar, gestantes e idosos.",
+    "preparo": "Nenhum preparo especial. Não precisa de jejum.",
+    "descricao_seo": "A vitamina D é essencial para ossos, imunidade e humor. Deficiência é muito comum no Brasil. Entenda o que significa seu resultado de vitamina D e como tratar a deficiência.",
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Vitamina D 18 é muito baixa?",
+        "resposta": "Sim, é deficiência (abaixo de 20 ng/mL). O médico recomendará suplementação, geralmente com doses semanais ou mensais de vitamina D3, e orientará sobre exposição solar adequada."
+      },
+      {
+        "pergunta": "Tomar sol realmente aumenta a vitamina D?",
+        "resposta": "Sim. Expor braços e pernas ao sol (sem protetor) por 15 a 20 minutos entre 10h e 15h, de 3 a 5 vezes por semana, é suficiente para produzir vitamina D para a maioria das pessoas. Protetor solar bloqueia a produção."
+      },
+      {
+        "pergunta": "Posso tomar vitamina D sem exame?",
+        "resposta": "Doses baixas (até 1.000-2.000 UI/dia) são geralmente seguras sem exame. Mas doses altas — muito usadas atualmente — podem causar toxicidade. O ideal é dosar antes de suplementar e repetir após 3 meses para ajustar a dose."
+      },
+      {
+        "pergunta": "Vitamina D ajuda na imunidade?",
+        "resposta": "Sim. A vitamina D regula importantes células do sistema imunológico. Deficiência está associada a maior suscetibilidade a infecções respiratórias. Mas tomar vitamina D a mais do que o necessário não aumenta a imunidade além do normal."
+      },
+      {
+        "pergunta": "Com que frequência repetir o exame de vitamina D?",
+        "resposta": "Após iniciar a suplementação, repetir em 3 meses para verificar se os níveis normalizaram. Quem está com valores adequados pode repetir anualmente ou conforme orientação médica."
+      }
+    ]
+  },
+  {
+    "nome": "Ácido Úrico",
+    "categoria": "Metabolismo",
+    "descricao": "O ácido úrico é um resíduo formado quando o corpo quebra as purinas — substâncias encontradas em carnes vermelhas, frutos do mar, cerveja e alguns alimentos. Normalmente é eliminado pelos rins. Quando se acumula em excesso, pode formar cristais nas articulações, causando gota.",
+    "valores_normais": "Homens: 3,4 a 7,0 mg/dL | Mulheres: 2,4 a 5,7 mg/dL",
+    "o_que_significa_alto": "Ácido úrico alto (hiperuricemia) pode causar gota — crises de dor intensa nas articulações, principalmente no dedão do pé, joelho e tornozelo. Também está associado a pedras nos rins (litíase renal). Causas: dieta rica em purinas, álcool (especialmente cerveja), desidratação, medicamentos como diuréticos.",
+    "o_que_significa_baixo": "Ácido úrico baixo é raro e geralmente sem importância clínica. Pode ocorrer em pessoas com dieta pobre em proteínas ou em uso de alguns medicamentos específicos.",
+    "quando_pedir": "Investigação de crises de dor articular intensa (gota), pedras nos rins, acompanhamento de pacientes com gota, uso de medicamentos que elevam o ácido úrico (diuréticos tiazídicos), antes de quimioterapia.",
+    "preparo": "Nenhum preparo especial. Não precisa de jejum. Evitar consumo excessivo de carnes e álcool nos 2 dias anteriores para um resultado mais representativo.",
+    "descricao_seo": "O ácido úrico alto causa gota e pedras nos rins. Carnes vermelhas, frutos do mar e álcool são os principais vilões. Entenda o que significa seu resultado de ácido úrico.",
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Ácido úrico 8 causa gota?",
+        "resposta": "Está acima do normal e aumenta o risco de gota, mas nem toda hiperuricemia causa crises. Muitas pessoas têm ácido úrico alto por anos sem desenvolver gota. O médico avaliará se é necessário tratamento com base nos sintomas e no histórico."
+      },
+      {
+        "pergunta": "O que comer para baixar o ácido úrico?",
+        "resposta": "Evitar carnes vermelhas em excesso, miúdos (fígado, rim), frutos do mar, sardinha, anchovas e cerveja. Beber bastante água (2 litros/dia), consumir cerejas e alimentos ricos em vitamina C pode ajudar a reduzir o ácido úrico."
+      },
+      {
+        "pergunta": "Cerveja é a pior bebida para ácido úrico?",
+        "resposta": "Sim. A cerveja eleva o ácido úrico por dois motivos: contém purinas e o álcool reduz a eliminação de ácido úrico pelos rins. Outras bebidas alcoólicas também elevam, mas a cerveja é a pior. Água com gás não causa o mesmo problema."
+      },
+      {
+        "pergunta": "Alopurinol serve para quê?",
+        "resposta": "O alopurinol reduz a produção de ácido úrico no corpo. É o principal medicamento para tratar hiperuricemia crônica e prevenir crises de gota e pedras nos rins. Deve ser iniciado longe das crises agudas e mantido de forma contínua."
+      },
+      {
+        "pergunta": "Dor no dedão do pé sempre é gota?",
+        "resposta": "A dor intensa no dedão do pé é clássica da gota — mas outras condições como bursite, artrite e trauma também causam dor no mesmo local. O diagnóstico de gota é feito com o exame de ácido úrico e avaliação médica dos sintomas."
+      }
+    ]
+  },
+  {
+    "nome": "Urina Tipo 1 (EAS)",
+    "categoria": "Função Renal",
+    "descricao": "O exame de urina tipo 1 (também chamado EAS — Elementos Anormais e Sedimento) analisa a composição da urina para detectar infecções urinárias, doenças dos rins, diabetes e outras condições. É um dos exames de triagem mais completos e baratos disponíveis.",
+    "valores_normais": "Ausência de bactérias, leucócitos (glóbulos brancos), hemácias (sangue), proteínas e glicose na urina. pH entre 4,5 e 8,0. Densidade entre 1.005 e 1.030.",
+    "o_que_significa_alto": "Leucócitos na urina indicam infecção ou inflamação urinária. Bactérias confirmam infecção. Proteína na urina pode indicar doença renal ou hipertensão. Glicose na urina ocorre quando a glicemia está muito alta (diabetes descontrolado). Sangue na urina pode ser cálculo renal, infecção, tumor ou lesão.",
+    "o_que_significa_baixo": "Urina muito diluída (densidade baixa) pode indicar ingestão excessiva de água, diabetes insipidus ou doença renal. Urina muito concentrada (densidade alta) sugere desidratação.",
+    "quando_pedir": "Ardência ao urinar, urina turva ou com odor forte, sangue na urina, febre de origem desconhecida, acompanhamento do diabetes e hipertensão, gestação, exame de rotina.",
+    "preparo": "Coletar a urina do meio do jato (desprezar o início e o fim). Usar frasco estéril. Coletar preferencialmente a primeira urina da manhã. Higiene íntima antes da coleta. Não é necessário jejum.",
+    "descricao_seo": "O exame de urina tipo 1 detecta infecções urinárias, problemas renais, diabetes e outras condições. Entenda o que significa cada resultado do seu EAS.",
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Leucócitos na urina sempre é infecção urinária?",
+        "resposta": "Leucócitos na urina indicam inflamação ou infecção, mas podem ocorrer também por contaminação durante a coleta. Se houver sintomas (ardência, urina turva, febre), o médico indicará a urocultura para confirmar a infecção e identificar a bactéria."
+      },
+      {
+        "pergunta": "O que é urocultura e quando é pedida?",
+        "resposta": "A urocultura cultiva a urina para identificar qual bactéria está causando a infecção e qual antibiótico a elimina (antibiograma). É pedida quando há infecção confirmada ou suspeita, especialmente em gestantes, homens e infecções de repetição."
+      },
+      {
+        "pergunta": "Sangue na urina é sempre grave?",
+        "resposta": "Nem sempre, mas sempre merece investigação. Pode ser causado por cálculo renal, infecção, exercício intenso, menstruação (contaminação), medicamentos anticoagulantes ou, mais raramente, tumor. O médico solicitará exames complementares conforme os sintomas."
+      },
+      {
+        "pergunta": "Proteína na urina o que significa?",
+        "resposta": "Proteína na urina (proteinúria) indica que o filtro do rim está deixando passar proteínas que deveriam ficar no sangue — sinal de lesão renal. É um marcador precoce de doença renal em diabéticos e hipertensos. Deve ser investigada com exames complementares."
+      },
+      {
+        "pergunta": "Posso tomar antibiótico antes de fazer a urina?",
+        "resposta": "Não. O antibiótico pode eliminar as bactérias da urina antes do exame, dando um resultado falsamente normal. Se possível, colete o exame antes de iniciar o antibiótico ou aguarde 48 a 72 horas após terminar o tratamento para repetir."
+      }
+    ]
+  },
+  {
+    "nome": "Vitamina B12",
+    "categoria": "Vitaminas e Minerais",
+    "descricao": "A vitamina B12 é essencial para a formação das células vermelhas do sangue, o funcionamento do sistema nervoso e a síntese de DNA. O corpo não a produz — precisa obtê-la pela alimentação (carnes, ovos, laticínios) ou suplementação. Sua deficiência pode causar danos neurológicos irreversíveis se não tratada.",
+    "valores_normais": "200 a 900 pg/mL — Abaixo de 200 pg/mL: deficiência | 200 a 300 pg/mL: zona cinzenta (sintomas possíveis mesmo com valor 'normal')",
+    "o_que_significa_alto": "B12 muito alta raramente ocorre pela alimentação. Pode indicar doença hepática, doenças mieloproliferativas (como leucemia) ou uso de suplementação em doses altas. Valores altos por suplementação geralmente não causam toxicidade.",
+    "o_que_significa_baixo": "Deficiência de B12 causa anemia megaloblástica (glóbulos vermelhos grandes e disfuncionais), formigamento e dormência nas mãos e pés, fraqueza, perda de equilíbrio, alterações de memória e humor, e glossite (língua vermelha e dolorida). Em casos graves, causa danos neurológicos permanentes.",
+    "quando_pedir": "Vegetarianos e veganos (B12 é encontrada apenas em alimentos de origem animal), idosos (absorção diminui com a idade), uso de metformina por longos períodos (reduz absorção de B12), anemia, sintomas neurológicos como formigamento, gastrite atrófica e cirurgia bariátrica.",
+    "preparo": "Nenhum preparo especial. Não precisa de jejum.",
+    "descricao_seo": "A vitamina B12 é essencial para o sistema nervoso e a formação do sangue. Deficiência é comum em veganos, idosos e usuários de metformina. Entenda o que significa seu resultado.",
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Veganos precisam suplementar B12?",
+        "resposta": "Sim, obrigatoriamente. A vitamina B12 existe em quantidades significativas apenas em alimentos de origem animal. Veganos que não suplementam desenvolvem deficiência com o tempo — o problema é que os estoques no fígado duram anos, e os sintomas aparecem tarde, quando o dano já pode ser avançado."
+      },
+      {
+        "pergunta": "Metformina baixa a vitamina B12?",
+        "resposta": "Sim. O uso prolongado de metformina interfere na absorção de B12 no intestino. Pacientes usando metformina por mais de 4 anos têm risco aumentado de deficiência. A ANVISA recomenda monitoramento periódico de B12 em usuários crônicos de metformina."
+      },
+      {
+        "pergunta": "B12 baixa causa formigamento?",
+        "resposta": "Sim. O formigamento e a dormência nas extremidades (mãos e pés) são sintomas clássicos de deficiência de B12 — causados pela desmielinização dos nervos. Se não tratado, pode progredir para fraqueza muscular e problemas de equilíbrio. O tratamento precoce geralmente reverte os sintomas."
+      },
+      {
+        "pergunta": "Qual a diferença entre B12 oral e injetável?",
+        "resposta": "Para quem absorve bem (jovens sem gastrite), a B12 oral em doses altas funciona tão bem quanto a injetável. Para idosos, pessoas com gastrite atrófica ou que fizeram cirurgia bariátrica, a absorção oral é prejudicada — e a injeção intramuscular é mais eficaz."
+      },
+      {
+        "pergunta": "B12 alta é perigosa?",
+        "resposta": "Em geral não, quando causada por suplementação. A B12 é uma vitamina hidrossolúvel e o excesso é eliminado pela urina. Porém, B12 muito alta sem suplementação pode indicar doença hepática ou hematológica e merece investigação médica."
+      }
+    ]
+  },
+  {
+    "nome": "PSA (Antígeno Prostático Específico)",
+    "categoria": "Rastreio de Câncer",
+    "descricao": "O PSA é uma proteína produzida pela próstata e presente no sangue em pequenas quantidades. Quando a próstata está inflamada, aumentada (hiperplasia benigna) ou com câncer, os níveis de PSA sobem. É o principal exame de rastreio para o câncer de próstata — mas deve ser interpretado com muito cuidado.",
+    "valores_normais": "Abaixo de 40 anos: até 2,5 ng/mL | 40 a 50 anos: até 2,5 ng/mL | 50 a 60 anos: até 3,5 ng/mL | 60 a 70 anos: até 4,5 ng/mL | Acima de 70 anos: até 6,5 ng/mL",
+    "o_que_significa_alto": "PSA elevado pode indicar câncer de próstata, mas também hiperplasia prostática benigna (aumento não canceroso muito comum em homens acima de 50 anos), prostatite (inflamação), infecção urinária, ou até ejaculação recente. Um PSA alto não confirma câncer — exige investigação com biópsia.",
+    "o_que_significa_baixo": "PSA baixo para a faixa etária é tranquilizador, mas não exclui completamente o câncer de próstata — tumores pequenos podem não elevar o PSA.",
+    "quando_pedir": "A Sociedade Brasileira de Urologia recomenda oferecer o exame a partir dos 50 anos (ou 45 para negros e com histórico familiar). A decisão de rastrear deve ser discutida individualmente com o médico — considerando os benefícios e os riscos de falsos positivos e tratamentos desnecessários.",
+    "preparo": "Evitar ejaculação nas 48 a 72 horas antes do exame. Evitar exame de toque retal ou ultrassom prostático nas 24 horas antes. Não fazer após biopsia prostática recente. Informe se há infecção urinária ativa.",
+    "descricao_seo": "O PSA é o principal exame de rastreio para o câncer de próstata. Valores elevados podem indicar câncer, hiperplasia ou inflamação. Entenda o que significa seu resultado de PSA.",
+    "perguntas_frequentes": [
+      {
+        "pergunta": "PSA 5 é câncer?",
+        "resposta": "Não necessariamente. PSA 5 está acima do normal para homens até 60 anos, mas pode ser causado por hiperplasia prostática benigna, prostatite ou ejaculação recente. O urologista avaliará a velocidade de elevação do PSA, o toque retal e decidirá sobre a necessidade de biópsia."
+      },
+      {
+        "pergunta": "Toque retal altera o PSA?",
+        "resposta": "O toque retal simples pode elevar levemente o PSA. Por isso a recomendação é colher o sangue para PSA antes de realizar o toque — ou aguardar 24 horas. Ultrassom transretal, biópsia e cateterismo elevam muito mais e exigem espera maior."
+      },
+      {
+        "pergunta": "Câncer de próstata tem sintomas?",
+        "resposta": "O câncer de próstata inicial geralmente é assintomático — daí a importância do rastreio. Sintomas como dificuldade para urinar, jato fraco, urinar várias vezes à noite e sangue na urina são mais comuns na hiperplasia benigna ou em estágios avançados do câncer."
+      },
+      {
+        "pergunta": "PSA em jejum?",
+        "resposta": "Não é necessário jejum para o exame de PSA. A alimentação não interfere no resultado. O que mais importa é evitar ejaculação e procedimentos prostáticos nas horas antes da coleta."
+      },
+      {
+        "pergunta": "Com que frequência fazer o PSA?",
+        "resposta": "Depende do valor basal. PSA abaixo de 1 ng/mL: repetir a cada 2 anos. PSA entre 1 e 3 ng/mL: repetir anualmente. PSA acima de 3 ng/mL: acompanhamento com urologista. A frequência é individualizada conforme o risco e a idade."
+      }
+    ]
+  },
+  {
+    "nome": "Resistência à Insulina (HOMA-IR)",
+    "categoria": "Metabolismo",
+    "descricao": "O HOMA-IR (Homeostatic Model Assessment of Insulin Resistance) é um índice calculado automaticamente pelo laboratório a partir dos valores de glicemia e insulina em jejum coletados ao mesmo tempo. Ele estima o quanto o seu corpo está resistente à ação da insulina — condição que antecede o diabetes tipo 2 e é a base da síndrome metabólica.",
+    "valores_normais": "Abaixo de 2,5: sensibilidade à insulina normal | Entre 2,5 e 3,8: resistência à insulina provável | Acima de 3,8: resistência à insulina intensa (os valores de corte podem variar entre laboratórios)",
+    "o_que_significa_alto": "HOMA-IR alto indica resistência à insulina — o pâncreas precisa produzir quantidades cada vez maiores de insulina para manter a glicose em níveis normais. Com o tempo, isso leva ao esgotamento do pâncreas, pré-diabetes e diabetes tipo 2. Também está associado a síndrome metabólica, acúmulo de gordura abdominal, esteatose hepática e maior risco cardiovascular.",
+    "o_que_significa_baixo": "Valores baixos indicam boa sensibilidade à insulina — o corpo responde bem ao hormônio com quantidades menores. É o resultado desejável e está associado a menor risco de diabetes e doenças cardiovasculares.",
+    "quando_pedir": "Suspeita de resistência à insulina, síndrome metabólica, sobrepeso ou obesidade, síndrome dos ovários policísticos (SOP), pré-diabetes, histórico familiar de diabetes tipo 2, esteatose hepática não alcoólica, acantose nigricans (escurecimento das dobras da pele).",
+    "preparo": "Jejum de 8 a 12 horas obrigatório. O HOMA-IR não é coletado diretamente — é calculado a partir da glicemia em jejum e da insulina em jejum, que devem ser coletadas ao mesmo tempo. Informe ao médico se usa algum medicamento que interfira na glicose ou na insulina.",
+    "descricao_seo": "O HOMA-IR mede a resistência à insulina — o fator que antecede o diabetes tipo 2 e a síndrome metabólica. Entenda o que é o índice HOMA-IR, quais são os valores normais e o que significa um resultado elevado.",
+    "perguntas_frequentes": [
+      {
+        "pergunta": "O que é resistência à insulina, em termos simples?",
+        "resposta": "Imagine que a insulina é uma chave e as células do corpo são fechaduras. Na resistência à insulina, a fechadura trava — a chave não abre mais tão bem. O pâncreas precisa fazer mais chaves (produzir mais insulina) para manter a glicose no nível certo. Com o tempo, o pâncreas se cansa e a glicose começa a subir."
+      },
+      {
+        "pergunta": "HOMA-IR 3,0 é diabetes?",
+        "resposta": "Não. HOMA-IR 3,0 indica resistência à insulina provável, mas não é diabetes. Significa que o risco de desenvolver pré-diabetes e diabetes tipo 2 está aumentado. Com mudanças no estilo de vida — alimentação, exercício físico e perda de peso — é possível reverter esse quadro antes que vire diabetes."
+      },
+      {
+        "pergunta": "Como reduzir o HOMA-IR?",
+        "resposta": "Exercício físico regular (especialmente musculação e aeróbico combinados), redução de carboidratos refinados e açúcares, perda de peso, sono adequado e redução do estresse são as principais estratégias. Em alguns casos, o médico pode prescrever metformina. Não existe suplemento mágico comprovado."
+      },
+      {
+        "pergunta": "Qual a diferença entre HOMA-IR e glicemia em jejum?",
+        "resposta": "A glicemia em jejum mede apenas o açúcar no sangue. O HOMA-IR vai além — ele avalia se o pâncreas está trabalhando demais para manter essa glicose normal. Uma pessoa pode ter glicemia normal, mas HOMA-IR alto, indicando que o corpo já está sobrecarregado antes de a glicose subir."
+      },
+      {
+        "pergunta": "Precisa de jejum para calcular o HOMA-IR?",
+        "resposta": "Sim, é obrigatório. Tanto a glicemia quanto a insulina que compõem o cálculo precisam ser coletadas em jejum de 8 a 12 horas. Um resultado sem jejum adequado não é confiável para esse índice."
+      }
+    ]
+  },
+  {
+    "nome": "Insulina em Jejum",
+    "categoria": "Metabolismo",
+    "descricao": "A insulina é um hormônio produzido pelo pâncreas que permite que a glicose entre nas células para ser usada como energia. O exame de insulina em jejum mede a quantidade desse hormônio circulando no sangue após horas sem comer — e é fundamental para identificar resistência à insulina, hiperinsulinemia e risco aumentado de diabetes tipo 2.",
+    "valores_normais": "2,6 a 24,9 µUI/mL (os valores de referência variam conforme o laboratório e o método utilizado; alguns adotam até 15 µUI/mL como ideal em jejum)",
+    "o_que_significa_alto": "Insulina alta em jejum (hiperinsulinemia) indica que o pâncreas está trabalhando muito para compensar a resistência à insulina — o corpo precisa de mais insulina para fazer a mesma função. É comum em pessoas com sobrepeso, síndrome metabólica, síndrome dos ovários policísticos (SOP) e pré-diabetes. Raramente pode indicar insulinoma (tumor produtor de insulina no pâncreas).",
+    "o_que_significa_baixo": "Insulina muito baixa pode indicar diabetes tipo 1 (destruição das células beta do pâncreas pelo sistema imunológico) ou fases avançadas do diabetes tipo 2, quando o pâncreas já não consegue mais produzir insulina suficiente.",
+    "quando_pedir": "Suspeita de resistência à insulina, síndrome metabólica, SOP, pré-diabetes, investigação de hipoglicemia em jejum (valores baixos inexplicados de glicose), cálculo do índice HOMA-IR, acompanhamento de pacientes com obesidade e histórico familiar de diabetes.",
+    "preparo": "Jejum de 8 a 12 horas obrigatório. Não usar insulina exógena ou antidiabéticos orais antes do exame sem orientação médica. Estresse intenso e exercício físico vigoroso antes da coleta podem alterar o resultado.",
+    "descricao_seo": "A insulina em jejum avalia o funcionamento do pâncreas e detecta resistência à insulina antes que a glicose suba. Entenda o que significa insulina alta em jejum e como esse exame se relaciona com diabetes e síndrome metabólica.",
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Insulina alta em jejum com glicemia normal é possível?",
+        "resposta": "Sim, e é exatamente o estágio inicial da resistência à insulina. O pâncreas está compensando — produzindo insulina em excesso para manter a glicose dentro do normal. Se não houver mudança de hábitos, com o tempo o pâncreas se esgota e a glicemia começa a subir."
+      },
+      {
+        "pergunta": "Qual a diferença entre insulina em jejum e HOMA-IR?",
+        "resposta": "A insulina em jejum é um valor isolado do hormônio. O HOMA-IR é um índice calculado combinando a insulina em jejum com a glicemia em jejum — ele é mais informativo porque considera os dois valores juntos e estima o grau de resistência à insulina de forma padronizada."
+      },
+      {
+        "pergunta": "Insulina em jejum 30 é alta?",
+        "resposta": "Sim, está acima do valor de referência da maioria dos laboratórios (até 24,9 µUI/mL). Indica hiperinsulinemia e provável resistência à insulina. O médico avaliará junto com a glicemia, HOMA-IR e sintomas para orientar as melhores medidas."
+      },
+      {
+        "pergunta": "Como diminuir a insulina em jejum?",
+        "resposta": "Reduzir o consumo de açúcar e carboidratos refinados é o passo mais eficaz. Associar exercício físico regular, perder peso e dormir bem também ajudam muito. Em alguns casos, o médico indica metformina ou outros medicamentos para sensibilizar o organismo à insulina."
+      },
+      {
+        "pergunta": "Precisa de jejum para o exame de insulina?",
+        "resposta": "Sim, jejum de 8 a 12 horas é obrigatório. Qualquer ingestão de alimentos estimula o pâncreas a liberar insulina, o que elevaria artificialmente o resultado e tornaria o exame inválido."
+      }
+    ]
+  },
+  {
+    "nome": "Magnésio",
+    "categoria": "Minerais e Eletrólitos",
+    "descricao": "O magnésio é um mineral essencial que participa de mais de 300 reações químicas no corpo humano — produção de energia, contração muscular, ritmo cardíaco, funcionamento do sistema nervoso e síntese de proteínas. O exame de magnésio sérico verifica se os níveis estão adequados no sangue.",
+    "valores_normais": "1,7 a 2,4 mg/dL (ou 0,70 a 1,00 mmol/L)",
+    "o_que_significa_alto": "Hipermagnesemia (magnésio alto) é incomum e quase sempre está relacionada à insuficiência renal grave, quando os rins não conseguem eliminar o excesso. Também pode ocorrer por uso excessivo de antiácidos ou laxantes que contêm magnésio. Pode causar fraqueza muscular, queda de pressão arterial, sonolência excessiva e, em valores muito elevados, alterações no ritmo cardíaco.",
+    "o_que_significa_baixo": "Hipomagnesemia (magnésio baixo) é mais comum do que se imagina e muitas vezes passa despercebida. Pode causar câimbras musculares, tremores, fraqueza, insônia, ansiedade, irritabilidade, dor de cabeça, palpitações e formigamento. Causas frequentes: dieta pobre em vegetais e grãos, alcoolismo, uso prolongado de diuréticos, diabetes mal controlado, diarreia crônica e uso de inibidores de bomba de prótons (omeprazol).",
+    "quando_pedir": "Câimbras musculares frequentes, fraqueza sem causa aparente, arritmias cardíacas, investigação de hipocalcemia ou hipopotassemia resistente ao tratamento (magnésio baixo impede a correção de outros eletrólitos), alcoolismo, uso prolongado de diuréticos, diabetes, má absorção intestinal, uso crônico de omeprazol.",
+    "preparo": "Nenhum preparo especial obrigatório. Alguns laboratórios recomendam jejum de 4 horas. Informe ao médico se usa suplementos de magnésio.",
+    "descricao_seo": "O magnésio é fundamental para músculos, coração e sistema nervoso. Magnésio baixo causa câimbras, arritmias e insônia. Saiba o que é o exame de magnésio sérico, quais são os valores normais e o que significa o resultado alterado.",
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Câimbras podem ser por causa de magnésio baixo?",
+        "resposta": "Sim, a hipomagnesemia é uma causa clássica de câimbras musculares, especialmente à noite. Mas câimbras também podem ser causadas por baixo potássio, desidratação, circulação ruim ou excesso de exercício. O médico pedirá os exames adequados para identificar a causa."
+      },
+      {
+        "pergunta": "Omeprazol pode baixar o magnésio?",
+        "resposta": "Sim. O uso prolongado de inibidores de bomba de prótons como omeprazol, pantoprazol e esomeprazol interfere na absorção intestinal de magnésio. Quem usa esses medicamentos cronicamente deve ter o magnésio monitorado periodicamente."
+      },
+      {
+        "pergunta": "Preciso tomar suplemento de magnésio?",
+        "resposta": "Só se houver deficiência confirmada ou risco aumentado. O magnésio está presente em alimentos como folhas verde-escuras, sementes de abóbora, amêndoas, castanha-do-pará, feijão, lentilha e chocolate amargo. A suplementação sem necessidade e em doses altas pode causar diarreia e outros efeitos adversos."
+      },
+      {
+        "pergunta": "Magnésio baixo afeta o coração?",
+        "resposta": "Sim. O magnésio é essencial para o ritmo cardíaco normal. Níveis baixos podem causar palpitações, extrassístoles e arritmias. É por isso que o magnésio é monitorado em pacientes hospitalizados com doenças cardíacas."
+      },
+      {
+        "pergunta": "Qual a diferença entre magnésio sérico e magnésio eritrocitário?",
+        "resposta": "O magnésio sérico mede o mineral no plasma — é o exame de rotina. O magnésio eritrocitário (dentro das células vermelhas) reflete com mais fidelidade os estoques intracelulares, mas não é feito de rotina. Um magnésio sérico normal não exclui completamente deficiência intracelular."
+      }
+    ]
+  },
+  {
+    "nome": "Potássio",
+    "categoria": "Minerais e Eletrólitos",
+    "descricao": "O potássio é o principal mineral dentro das células do corpo. Ele controla o ritmo cardíaco, a contração muscular, o equilíbrio de fluidos e o funcionamento dos nervos. O exame de potássio sérico mede a concentração desse mineral no sangue — desequilíbrios, tanto para cima quanto para baixo, podem ser perigosos.",
+    "valores_normais": "3,5 a 5,0 mEq/L (ou mmol/L)",
+    "o_que_significa_alto": "Hipercalemia (potássio alto) pode ser causada por insuficiência renal (causa mais comum), uso de medicamentos como poupadores de potássio, IECA (captopril, enalapril) e ARA-II, acidose metabólica, trauma muscular grave ou coleta inadequada da amostra. Potássio acima de 6,0 mEq/L é uma emergência médica — pode causar arritmias cardíacas graves e parada cardíaca.",
+    "o_que_significa_baixo": "Hipocalemia (potássio baixo) causa fraqueza muscular, câimbras, constipação, fadiga, palpitações e, em casos graves, paralisia e arritmias. Causas mais comuns: uso de diuréticos (tiazídicos, furosemida), vômitos prolongados, diarreia, sudorese intensa, alcoolismo e baixa ingestão alimentar.",
+    "quando_pedir": "Monitoramento de uso de diuréticos ou medicamentos que alteram o potássio, hipertensão arterial, insuficiência renal, insuficiência cardíaca, fraqueza muscular inexplicada, diarreia ou vômitos prolongados, investigação de arritmias, antes e após cirurgias, avaliações de emergência.",
+    "preparo": "Nenhum preparo especial. Alguns laboratórios recomendam jejum de 4 a 8 horas. É importante não apertar o punho (torniquete prolongado) durante a coleta, pois isso pode elevar falsamente o potássio — um fenômeno chamado pseudo-hipercalemia.",
+    "descricao_seo": "O potássio controla o ritmo cardíaco e a contração muscular. Potássio alto ou baixo pode ser perigoso. Entenda os valores normais do potássio sérico, o que causa desequilíbrio e quando o resultado exige atenção médica urgente.",
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Potássio 3,2 é perigoso?",
+        "resposta": "Está abaixo do normal (3,5 mEq/L) e indica hipocalemia leve. Pode causar fraqueza, câimbras e cansaço. Raramente é emergência nesse valor, mas merece tratamento — geralmente reposição oral de potássio e investigação da causa. O médico avaliará a necessidade de reposição."
+      },
+      {
+        "pergunta": "Potássio alto sempre significa problema renal?",
+        "resposta": "Não sempre, mas é a causa mais comum. Coleta inadequada (hemólise da amostra, torniquete prolongado) também pode elevar falsamente o resultado. Por isso, um potássio alto deve ser repetido antes de tomar condutas. O médico avaliará os outros exames renais e os medicamentos em uso."
+      },
+      {
+        "pergunta": "Que alimentos são ricos em potássio?",
+        "resposta": "Banana, abacate, batata, batata-doce, feijão, laranja, espinafre, iogurte, salmão e amendoim são excelentes fontes. A maioria das pessoas com alimentação variada não precisa de suplemento — quem mais perde potássio são os que usam diuréticos ou têm vômitos e diarreia frequentes."
+      },
+      {
+        "pergunta": "Diurético sempre baixa o potássio?",
+        "resposta": "Os diuréticos de alça (furosemida) e tiazídicos causam perda de potássio pela urina. Já os diuréticos poupadores de potássio (espironolactona, amilorida) fazem o oposto — retêm potássio. Por isso é importante saber qual diurético está sendo usado ao interpretar o resultado."
+      },
+      {
+        "pergunta": "Precisa de jejum para o exame de potássio?",
+        "resposta": "Geralmente não é obrigatório, mas alguns laboratórios recomendam jejum de 4 a 8 horas para reduzir variações. O mais importante é que a coleta seja feita sem torniquete prolongado e que a amostra seja processada rapidamente para evitar hemólise, que altera o resultado."
+      }
+    ]
+  },
+  {
+    "nome": "Sódio",
+    "categoria": "Minerais e Eletrólitos",
+    "descricao": "O sódio é o principal mineral fora das células e regula o volume de água no corpo, a pressão arterial e o funcionamento dos nervos e músculos. O exame de sódio sérico é um dos mais básicos e importantes para avaliar o equilíbrio hídrico do organismo e é rotineiramente pedido em internações e avaliações clínicas.",
+    "valores_normais": "136 a 145 mEq/L (ou mmol/L)",
+    "o_que_significa_alto": "Hipernatremia (sódio alto) indica que o corpo está com excesso de sódio em relação à água — geralmente por desidratação importante. Causas: baixa ingestão de água, diarreia ou vômitos intensos, febre alta prolongada, diabetes insipidus. Sintomas: sede intensa, boca seca, confusão mental, fraqueza e, em casos graves, convulsões e coma.",
+    "o_que_significa_baixo": "Hiponatremia (sódio baixo) é uma das alterações eletrolíticas mais comuns, especialmente em idosos e pacientes hospitalizados. Pode ser causada por excesso de ingestão de água, uso de diuréticos, insuficiência cardíaca, cirrose hepática, insuficiência adrenal, hipotireoidismo ou síndrome de secreção inapropriada de ADH. Sintomas: náusea, dor de cabeça, confusão mental, tontura, convulsões (nos casos mais graves).",
+    "quando_pedir": "Avaliação do estado de hidratação, monitoramento de uso de diuréticos, insuficiência cardíaca, doença renal crônica, cirrose hepática, investigação de confusão mental (especialmente em idosos), antes e após cirurgias, pacientes em internação hospitalar, síndromes de má absorção.",
+    "preparo": "Nenhum preparo especial. Não precisa de jejum. A hidratação normal antes da coleta não interfere no resultado.",
+    "descricao_seo": "O sódio sérico avalia o equilíbrio de água e sal no corpo. Sódio fora do normal pode indicar desidratação, uso de diuréticos ou doenças renais, cardíacas e hepáticas. Entenda o que significa o resultado do exame de sódio.",
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Sódio baixo é sinal de que estou comendo pouco sal?",
+        "resposta": "Não necessariamente. A hiponatremia raramente é causada apenas por dieta com pouco sal. Na maioria das vezes, indica excesso de água no corpo (diluição do sódio) por insuficiência cardíaca, doença renal, medicamentos ou outras causas. O médico avaliará o contexto clínico para identificar a causa correta."
+      },
+      {
+        "pergunta": "Sódio 130 é grave?",
+        "resposta": "É hiponatremia moderada e merece atenção médica. Abaixo de 125 mEq/L o risco de sintomas neurológicos aumenta. Abaixo de 120 mEq/L pode ser emergência. A velocidade de queda importa tanto quanto o valor — uma queda rápida é mais perigosa do que um sódio cronicamente baixo."
+      },
+      {
+        "pergunta": "Beber muita água pode baixar o sódio?",
+        "resposta": "Sim. Em casos extremos — maratonistas, atletas de endurance que bebem água em excesso durante provas longas — pode ocorrer hiponatremia por diluição (intoxicação hídrica). É raro no cotidiano normal, mas real em contextos esportivos de ultra-resistência."
+      },
+      {
+        "pergunta": "Sódio alto significa que preciso comer menos sal?",
+        "resposta": "Nem sempre. A hipernatremia mais comum indica desidratação — falta de água, não excesso de sal. O tratamento principal é reidratação. Claro que, em quadros de hipertensão arterial, reduzir o sal da dieta é importante, mas isso não se reflete diretamente no sódio sérico em pessoas saudáveis."
+      },
+      {
+        "pergunta": "O exame de sódio precisa de jejum?",
+        "resposta": "Não. O sódio sérico não é influenciado pela última refeição e pode ser coletado em qualquer horário do dia, sem necessidade de jejum prévio."
+      }
+    ]
+  },
+  {
+    "nome": "Bilirrubinas",
+    "categoria": "Função Hepática",
+    "descricao": "A bilirrubina é um pigmento amarelo formado quando o corpo destrói células vermelhas antigas. O fígado capta essa bilirrubina, processa e elimina pela bile para o intestino. O exame mede a bilirrubina total e suas frações — direta (conjugada, já processada pelo fígado) e indireta (não conjugada, ainda não processada). É essencial para avaliar a saúde do fígado, detectar icterícia e investigar anemia hemolítica.",
+    "valores_normais": "Bilirrubina Total: até 1,2 mg/dL | Bilirrubina Direta: até 0,3 mg/dL | Bilirrubina Indireta: até 0,9 mg/dL (valores podem variar entre laboratórios)",
+    "o_que_significa_alto": "Bilirrubina elevada causa icterícia — amarelamento progressivo da pele, olhos e mucosas. Bilirrubina indireta alta indica destruição excessiva de células vermelhas (anemia hemolítica) ou síndrome de Gilbert (condição benigna, genética e muito comum, sem implicações graves). Bilirrubina direta alta indica problema no fígado (hepatite, cirrose) ou obstrução das vias biliares (cálculos na vesícula, tumor, colangite).",
+    "o_que_significa_baixo": "Bilirrubina abaixo dos valores de referência não tem significado clínico relevante — não indica nenhuma doença.",
+    "quando_pedir": "Icterícia (amarelamento da pele ou olhos), suspeita de hepatite viral (A, B, C), dor no quadrante superior direito do abdome, avaliação de função hepática, investigação de anemia hemolítica, acompanhamento de doenças hepáticas crônicas, uso de medicamentos hepatotóxicos, icterícia neonatal, cálculos na vesícula.",
+    "preparo": "Jejum de 4 a 8 horas é recomendado. Evitar alimentos muito ricos em beta-caroteno (cenoura, abóbora em grandes quantidades) no dia anterior, pois podem interferir na coloração da amostra. A amostra deve ser protegida da luz, pois a bilirrubina se degrada rapidamente com a exposição solar.",
+    "descricao_seo": "As bilirrubinas avaliam a saúde do fígado e das vias biliares. Bilirrubina alta causa icterícia — amarelamento da pele e dos olhos. Entenda o que significam os valores de bilirrubina total, direta e indireta e o que pode causar alteração.",
+    "perguntas_frequentes": [
+      {
+        "pergunta": "O que é a síndrome de Gilbert?",
+        "resposta": "É uma condição genética benigna e muito comum (afeta cerca de 5 a 10% da população) em que a bilirrubina indireta fica levemente elevada — geralmente entre 1,2 e 3 mg/dL. Não causa doença hepática, não precisa de tratamento e não é perigosa. Situações de estresse, jejum prolongado ou infecção podem elevar temporariamente a bilirrubina nessas pessoas."
+      },
+      {
+        "pergunta": "Bilirrubina alta sempre significa problema no fígado?",
+        "resposta": "Não necessariamente. Depende de qual fração está alta. Bilirrubina indireta alta isolada pode ser síndrome de Gilbert (benigna) ou hemólise. Bilirrubina direta alta é mais preocupante e aponta para o fígado ou as vias biliares. O médico analisará as frações e outros exames para identificar a causa."
+      },
+      {
+        "pergunta": "Quais os sintomas de bilirrubina muito alta?",
+        "resposta": "O principal é a icterícia — amarelamento dos olhos (escleróticas) e da pele, que começa quando a bilirrubina ultrapassa cerca de 2 mg/dL. Outros sintomas incluem urina escura (cor de coca-cola), fezes claras (esbranquiçadas), coceira intensa pelo corpo e cansaço — dependendo da causa de base."
+      },
+      {
+        "pergunta": "Icterícia em recém-nascido é normal?",
+        "resposta": "A icterícia neonatal fisiológica é muito comum — aparece entre o 2º e o 4º dia de vida e se resolve espontaneamente em cerca de uma semana. Ocorre porque o fígado do bebê ainda está imaturo para processar toda a bilirrubina gerada. Quando muito intensa ou precoce, é tratada com fototerapia (luz azul) para evitar sequelas neurológicas."
+      },
+      {
+        "pergunta": "Precisa de jejum para o exame de bilirrubinas?",
+        "resposta": "Sim, jejum de 4 a 8 horas é recomendado. Além disso, é importante que a amostra de sangue seja protegida da luz após a coleta — a exposição à luz solar destrói a bilirrubina e pode falsamente diminuir o resultado."
+      }
+    ]
+  },
+  {
+    "nome": "Albumina",
+    "categoria": "Função Hepática",
+    "descricao": "A albumina é a proteína mais abundante no sangue — produzida exclusivamente pelo fígado. Ela transporta substâncias pelo corpo (medicamentos, hormônios, ácidos graxos), mantém o equilíbrio de fluidos entre os vasos sanguíneos e os tecidos, e reflete o estado nutricional e a capacidade funcional do fígado. É um dos marcadores mais antigos e ainda essenciais da medicina clínica.",
+    "valores_normais": "3,5 a 5,0 g/dL",
+    "o_que_significa_alto": "Albumina acima do normal é rara e geralmente causada por desidratação — há menos água no sangue, concentrando as proteínas. Não tem significado clínico importante isoladamente e se corrige com hidratação adequada.",
+    "o_que_significa_baixo": "Albumina baixa (hipoalbuminemia) indica que o fígado não está produzindo proteína suficiente ou que o corpo está perdendo ou consumindo proteína em excesso. Causas: desnutrição proteica, cirrose hepática avançada, síndrome nefrótica (perda de albumina pela urina), doenças inflamatórias intestinais, queimaduras extensas, infecções graves e câncer. Causa edema nos pés e pernas, ascite (líquido no abdômen) e maior vulnerabilidade a infecções e medicamentos.",
+    "quando_pedir": "Avaliação da função hepática, investigação de edema sem causa aparente, desnutrição, cirrose hepática, síndrome nefrótica, doenças inflamatórias crônicas, avaliação pré-operatória, monitoramento de pacientes em terapia intensiva e acompanhamento nutricional.",
+    "preparo": "Nenhum preparo especial obrigatório. Alguns laboratórios recomendam jejum de 4 horas. Informe ao médico se usa corticoides, pois podem elevar a albumina.",
+    "descricao_seo": "A albumina é produzida pelo fígado e indica o estado nutricional e a função hepática. Albumina baixa pode indicar desnutrição, cirrose ou doenças renais. Entenda o que significa seu resultado de albumina sérica e por que esse exame é tão importante.",
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Por que albumina baixa causa inchaço nas pernas?",
+        "resposta": "A albumina funciona como uma esponja que retém água dentro dos vasos sanguíneos. Quando está baixa, a pressão oncótica cai — a água vaza dos vasos para os tecidos, causando inchaço (edema), especialmente nos pés, tornozelos e pernas. O mesmo processo pode causar acúmulo de líquido no abdômen (ascite) e nos pulmões."
+      },
+      {
+        "pergunta": "Comer mais proteína aumenta a albumina?",
+        "resposta": "Em casos de desnutrição leve, sim — melhorar a ingestão de proteínas pode normalizar a albumina ao longo de semanas. Mas quando a causa é doença hepática grave (cirrose avançada) ou síndrome nefrótica, aumentar proteína na dieta não resolve, pois o problema é na produção ou na perda de albumina, e não na falta de matéria-prima."
+      },
+      {
+        "pergunta": "Albumina 3,0 é grave?",
+        "resposta": "Está abaixo do normal (3,5 g/dL) e indica hipoalbuminemia. O grau de gravidade depende da causa. Em pacientes hospitalizados, albumina abaixo de 3,0 g/dL é um marcador de pior prognóstico e está associada a maior risco de complicações. O médico avaliará a causa e indicará o tratamento."
+      },
+      {
+        "pergunta": "A albumina baixa afeta os medicamentos que tomo?",
+        "resposta": "Sim. Muitos medicamentos se ligam à albumina para ser transportados no sangue. Quando a albumina está baixa, a fração livre (ativa) do medicamento aumenta — o que pode elevar seus efeitos e riscos de toxicidade. Por isso é importante informar ao médico sobre a albumina baixa ao ajustar doses de medicamentos."
+      },
+      {
+        "pergunta": "Qual a diferença entre albumina e proteínas totais?",
+        "resposta": "As proteínas totais medem todas as proteínas do sangue, incluindo as globulinas (anticorpos e outras). A albumina é a fração predominante — representa cerca de 60% das proteínas totais. A relação albumina/globulina (A/G) também é avaliada: quando invertida (globulinas maiores que albumina), pode indicar doenças inflamatórias crônicas ou doenças hepáticas."
+      }
+    ]
+  },
+  {
+    "nome": "Anti-TPO (Anticorpos Anti-Tireoperoxidase)",
+    "categoria": "Tireoide",
+    "descricao": "O Anti-TPO mede a presença de anticorpos que o próprio sistema imunológico produz contra a tireoperoxidase — uma enzima essencial na produção dos hormônios da tireoide. Quando esses anticorpos estão elevados, indicam que o sistema imunológico está atacando a tireoide. É o principal marcador laboratorial de doenças autoimunes da tireoide.",
+    "valores_normais": "Abaixo de 35 UI/mL (resultado negativo é o esperado — os valores de referência variam conforme o laboratório e o método)",
+    "o_que_significa_alto": "Anti-TPO elevado indica ataque autoimune à tireoide. É o marcador principal da Tireoidite de Hashimoto — a causa mais comum de hipotireoidismo no mundo —, na qual o sistema imunológico destrói progressivamente o tecido tireoidiano. Também está elevado na Doença de Graves (causa mais comum de hipertireoidismo) e em outras condições autoimunes. Quanto mais alto o valor, mais intenso tende a ser o processo inflamatório.",
+    "o_que_significa_baixo": "Anti-TPO negativo ou abaixo do valor de referência é o resultado esperado e indica ausência de autoimunidade detectável contra a tireoide.",
+    "quando_pedir": "Hipotireoidismo confirmado ou suspeito, hipertireoidismo, nódulos na tireoide, bócio (aumento da glândula), investigação de TSH alterado, histórico familiar de doença autoimune da tireoide, sintomas como fadiga intensa, ganho de peso sem causa aparente, queda de cabelo, intolerância ao frio, constipação, infertilidade ou abortos de repetição.",
+    "preparo": "Nenhum preparo especial. Não precisa de jejum. Pode ser coletado em qualquer horário do dia.",
+    "descricao_seo": "O Anti-TPO detecta anticorpos contra a tireoide e é o principal exame para diagnosticar a Tireoidite de Hashimoto. Saiba o que significa Anti-TPO positivo ou elevado, qual a relação com o hipotireoidismo e quando esse exame deve ser pedido.",
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Anti-TPO positivo significa que tenho hipotireoidismo?",
+        "resposta": "Não necessariamente. Anti-TPO elevado indica que há autoimunidade contra a tireoide, mas a função da glândula pode ainda estar normal. Com o tempo, muitas pessoas com Anti-TPO alto desenvolvem hipotireoidismo — por isso o médico monitora o TSH periodicamente mesmo quando ele ainda está normal."
+      },
+      {
+        "pergunta": "O que é a Tireoidite de Hashimoto?",
+        "resposta": "É uma doença autoimune em que o sistema imunológico ataca e destrói progressivamente as células da tireoide. É a causa mais comum de hipotireoidismo no mundo. Afeta principalmente mulheres entre 30 e 50 anos. Pode causar cansaço, ganho de peso, queda de cabelo, intolerância ao frio, constipação e lentidão do raciocínio."
+      },
+      {
+        "pergunta": "Anti-TPO 200 é grave?",
+        "resposta": "Está significativamente acima do valor de referência (geralmente abaixo de 35 UI/mL) e confirma autoimunidade tireoidiana ativa. O médico avaliará o TSH e o T4 Livre para verificar se a função da tireoide está comprometida e decidir se o tratamento com levotiroxina já é necessário."
+      },
+      {
+        "pergunta": "Existe tratamento para reduzir o Anti-TPO?",
+        "resposta": "Não há tratamento específico que elimine os anticorpos. O foco é tratar o hipotireoidismo resultante com levotiroxina, caso ele se instale. Alguns estudos sugerem que a suplementação de selênio pode reduzir os níveis de Anti-TPO em pacientes com Hashimoto, mas ainda não é recomendação universal — converse com seu médico."
+      },
+      {
+        "pergunta": "Anti-TPO alto tem relação com infertilidade?",
+        "resposta": "Sim. A autoimunidade tireoidiana está associada a maior risco de dificuldade para engravidar, abortos espontâneos e complicações na gestação. Por isso o Anti-TPO é pedido na investigação de infertilidade e durante o acompanhamento pré-natal, especialmente em mulheres com TSH elevado."
+      }
+    ]
+  },
+  {
+    "nome": "T4 Livre (T4L)",
+    "categoria": "Tireoide",
+    "descricao": "O T4 Livre (tiroxina livre) é a fração ativa do hormônio tiroxina que circula livremente no sangue — sem estar ligada às proteínas transportadoras. É produzido pela tireoide e regula o metabolismo, a temperatura corporal, o ritmo cardíaco, o crescimento e a energia. Junto com o TSH, é o exame mais utilizado para avaliar a função da tireoide.",
+    "valores_normais": "0,7 a 1,8 ng/dL (os valores de referência variam entre laboratórios e métodos — alguns usam pmol/L como unidade; 1 ng/dL ≈ 12,9 pmol/L)",
+    "o_que_significa_alto": "T4 Livre alto indica que a tireoide está produzindo hormônio em excesso — hipertireoidismo. Causas: Doença de Graves (autoimune), nódulos tóxicos, tireoidite subaguda, excesso de dose de levotiroxina. Sintomas: coração acelerado (taquicardia), perda de peso sem dieta, ansiedade, tremores nas mãos, suor excessivo, dificuldade para dormir, intolerância ao calor e evacuações frequentes.",
+    "o_que_significa_baixo": "T4 Livre baixo indica hipotireoidismo — a tireoide não produz hormônio suficiente. Causas: Tireoidite de Hashimoto (causa mais comum), tireoidectomia total ou parcial, radioterapia na região do pescoço, deficiência grave de iodo, uso de certos medicamentos (amiodarona, lítio). Sintomas: cansaço intenso, ganho de peso, intolerância ao frio, queda de cabelo, pele seca, constipação, raciocínio lento e depressão.",
+    "quando_pedir": "Sempre em conjunto com o TSH para avaliação completa da função tireoidiana. Diagnóstico e acompanhamento do hipotireoidismo e hipertireoidismo, ajuste de dose de levotiroxina, gestação (função da tireoide é fundamental para o desenvolvimento fetal), investigação de nódulos e bócio, suspeita de doença de Graves ou Hashimoto.",
+    "preparo": "Nenhum preparo especial. Não precisa de jejum. Se faz uso de levotiroxina (Puran T4, Euthyrox), colete o exame antes de tomar o comprimido do dia — ou conforme orientação do médico — para evitar interferência no resultado.",
+    "descricao_seo": "O T4 Livre é o principal hormônio da tireoide avaliado no sangue. T4 alto indica hipertireoidismo; T4 baixo indica hipotireoidismo. Entenda o que significa seu resultado de T4 Livre, como interpretá-lo junto com o TSH e quando o exame é necessário.",
+    "perguntas_frequentes": [
+      {
+        "pergunta": "Qual a diferença entre TSH e T4 Livre?",
+        "resposta": "O TSH é produzido pela hipófise (glândula no cérebro) e funciona como um termostato — quando a tireoide produz pouco T4, o TSH sobe para estimulá-la; quando produz demais, o TSH cai. O T4 Livre é o próprio hormônio da tireoide circulando no sangue. Juntos, os dois exames formam uma imagem completa da função tireoidiana."
+      },
+      {
+        "pergunta": "T4 Livre pode estar normal com TSH alterado?",
+        "resposta": "Sim. No hipotireoidismo subclínico, o TSH está alto, mas o T4 Livre ainda está dentro do normal — a tireoide ainda consegue produzir o suficiente, mas já está trabalhando no limite. Com o tempo, o T4 tende a cair. É uma fase importante de alerta que o médico monitora antes de decidir tratar ou não."
+      },
+      {
+        "pergunta": "Posso tomar levotiroxina antes de fazer o T4 Livre?",
+        "resposta": "Não é recomendado. Tome o exame em jejum ou não, mas antes de ingerir o comprimido de levotiroxina do dia. Isso porque a levotiroxina é absorvida rapidamente e pode elevar artificialmente o T4 Livre logo após a ingestão, mascarando o resultado real."
+      },
+      {
+        "pergunta": "T4 Livre baixo sempre precisa de tratamento?",
+        "resposta": "Quando o T4 Livre está baixo junto com TSH alto, o hipotireoidismo é confirmado e geralmente indica tratamento com levotiroxina. A decisão depende dos sintomas, dos valores dos exames e de fatores individuais como idade, gestação e doenças associadas — o médico fará essa avaliação."
+      },
+      {
+        "pergunta": "Hipotireoidismo pode causar depressão?",
+        "resposta": "Sim. O T4 Livre baixo afeta diretamente o sistema nervoso central — reduz a produção de serotonina e dopamina, causando lentidão do raciocínio, humor deprimido, apatia e falta de memória. É por isso que o TSH e o T4 Livre fazem parte da investigação de depressão — especialmente em mulheres acima de 40 anos."
+      }
+    ]
+  }
+]

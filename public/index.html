@@ -739,6 +739,32 @@ border-radius:0 0 20px 20px;
         /* CURIOSIDADES */
         .curiosidades-content { display: none; }
         .curiosidades-content.active { display: block; }
+        .exames-content { display: none; }
+        .exames-content.active { display: block; }
+        .exame-card { border: 1px solid #e0e7ff; border-radius: 10px; margin-bottom: 10px; overflow: hidden; }
+        .exame-card-header {
+            padding: 14px 16px; cursor: pointer; display: flex; align-items: center;
+            justify-content: space-between; background: #f8f9ff;
+            font-weight: 700; font-size: 14px; color: #333;
+        }
+        .exame-card-header:hover { filter: brightness(0.97); }
+        .exame-card-corpo {
+            display: none; padding: 14px 16px; font-size: 14px;
+            line-height: 1.7; color: #444; background: white; border-top: 1px solid #e0e7ff;
+        }
+        .exame-card-corpo.aberto { display: block; }
+        .exame-valores { background: #e8f4fd; border-radius: 8px; padding: 10px 14px; margin: 8px 0; font-size: 13px; }
+        .exame-alto    { background: #fde8e8; border-radius: 8px; padding: 10px 14px; margin: 6px 0; font-size: 13px; }
+        .exame-baixo   { background: #e8f8f0; border-radius: 8px; padding: 10px 14px; margin: 6px 0; font-size: 13px; }
+        .exame-info    { background: #f8f9fa; border-radius: 8px; padding: 10px 14px; margin: 6px 0; font-size: 13px; }
+        .exame-badge   { font-size: 11px; font-weight: 600; padding: 3px 10px; border-radius: 12px; background: #e0e7ff; color: #3c3caa; white-space: nowrap; }
+        .exame-faq { margin-top: 12px; }
+        .exame-faq details { border: 1px solid #e8eaf6; border-radius: 6px; margin-bottom: 6px; overflow: hidden; }
+        .exame-faq summary { padding: 10px 14px; background: #f8f9ff; font-weight: 600; font-size: 13px; color: #333; cursor: pointer; list-style: none; }
+        .exame-faq summary::-webkit-details-marker { display: none; }
+        .exame-faq summary::before { content: '▶ '; font-size: 10px; color: #667eea; }
+        .exame-faq details[open] summary::before { content: '▼ '; }
+        .exame-faq-resp { padding: 10px 14px; font-size: 13px; color: #444; line-height: 1.7; background: white; border-top: 1px solid #e8eaf6; }
         .curio-header {
             background: linear-gradient(135deg, #4a148c, #1565c0);
             color: white; padding: 20px; border-radius: 12px;
@@ -909,6 +935,7 @@ border-radius:0 0 20px 20px;
                 <button class="nav-btn" data-tab="idosos">🧓 Idosos</button>
                 <button class="nav-btn" data-tab="interacoes">⚡ Interações</button>
                 <button class="nav-btn" data-tab="curiosidades">🧪 Curiosidades</button>
+                <button class="nav-btn" data-tab="exames">🔬 Exames</button>
                 <button class="nav-btn" data-tab="privacidade">🔒 Privacidade</button>
                 <button class="nav-btn" data-tab="termos">📋 Termos</button>
                 <button class="nav-btn" data-tab="contato">📧 Contato</button>
@@ -1665,6 +1692,20 @@ border-radius:0 0 20px 20px;
                 </div>
             </div>
 
+            <!-- EXAMES -->
+            <div id="exames" class="exames-content">
+                <div class="curio-header">
+                    <h2>🔬 Exames Laboratoriais</h2>
+                    <p>Entenda o que significa cada resultado dos seus exames de sangue e urina</p>
+                </div>
+                <div id="examesFiltros" class="curio-filtros"></div>
+                <div id="examesGrid"></div>
+                <div class="beers-rodape">
+                    Conteúdo educacional revisado por <strong>Rita de Cássia Oliveira Soares da Silva — CRF-SP 33.109 — Farmacêutica</strong><br>
+                    <small>MediCheck © 2026 — Não substitui orientação médica ou farmacêutica profissional.</small>
+                </div>
+            </div>
+
             <!-- POLÍTICA DE PRIVACIDADE -->
             <div id="privacidade" class="inst-content">
                 <div class="inst-header">
@@ -2257,6 +2298,63 @@ window.addEventListener('DOMContentLoaded', () => {
                 });
         }
 
+        // ── EXAMES ──────────────────────────────────────────────────────────
+        let examesData = [];
+        let examesCarregados = false;
+
+        function examesRender(lista) {
+            const grid = document.getElementById('examesGrid');
+            grid.innerHTML = '';
+            lista.forEach(ex => {
+                const card = document.createElement('div');
+                card.className = 'exame-card';
+                const faqHtml = (ex.perguntas_frequentes || []).map(faq =>
+                    '<details><summary>' + faq.pergunta + '</summary><div class="exame-faq-resp">' + faq.resposta + '</div></details>'
+                ).join('');
+                card.innerHTML =
+                    '<div class="exame-card-header" onclick="this.nextElementSibling.classList.toggle(\'aberto\');this.querySelector(\'.exame-seta\').textContent=this.nextElementSibling.classList.contains(\'aberto\')?\'▲\':\'▼\';">' +
+                    '<span>🔬 ' + ex.nome + '</span>' +
+                    '<span style="display:flex;align-items:center;gap:8px;"><span class="exame-badge">' + ex.categoria + '</span><span class="exame-seta">▼</span></span>' +
+                    '</div>' +
+                    '<div class="exame-card-corpo">' +
+                    '<p>' + ex.descricao + '</p>' +
+                    '<div class="exame-valores">📊 <strong>Valores de referência:</strong> ' + ex.valores_normais + '</div>' +
+                    (ex.o_que_significa_alto ? '<div class="exame-alto">🔴 <strong>Alto:</strong> ' + ex.o_que_significa_alto + '</div>' : '') +
+                    (ex.o_que_significa_baixo ? '<div class="exame-baixo">🟢 <strong>Baixo:</strong> ' + ex.o_que_significa_baixo + '</div>' : '') +
+                    '<div class="exame-info">📋 <strong>Quando pedir:</strong> ' + ex.quando_pedir + '</div>' +
+                    '<div class="exame-info">⏱️ <strong>Preparo:</strong> ' + ex.preparo + '</div>' +
+                    (faqHtml ? '<div class="exame-faq"><strong style="font-size:13px;color:#333;">❓ Perguntas frequentes</strong>' + faqHtml + '</div>' : '') +
+                    '</div>';
+                grid.appendChild(card);
+            });
+        }
+
+        function exameFiltrar(cat, btn) {
+            document.querySelectorAll('#examesFiltros .curio-filtro').forEach(b => b.classList.remove('ativo'));
+            btn.classList.add('ativo');
+            examesRender(cat === 'Todos' ? examesData : examesData.filter(e => e.categoria === cat));
+        }
+
+        function examesCarregar() {
+            if (examesCarregados) return;
+            examesCarregados = true;
+            fetch('/exames.json?v=' + Date.now())
+                .then(r => r.json())
+                .then(data => {
+                    examesData = data;
+                    const cats = ['Todos', ...[...new Set(data.map(e => e.categoria))]];
+                    const filtros = document.getElementById('examesFiltros');
+                    filtros.innerHTML = cats.map((c, i) =>
+                        '<button class="curio-filtro' + (i === 0 ? ' ativo' : '') + '" onclick="exameFiltrar(\'' + c.replace(/'/g, "\\'") + '\', this)">' + c + '</button>'
+                    ).join('');
+                    examesRender(data);
+                })
+                .catch(() => {
+                    const grid = document.getElementById('examesGrid');
+                    if (grid) grid.innerHTML = '<p style="color:red;text-align:center;padding:20px;">Erro ao carregar exames.</p>';
+                });
+        }
+
         tabButtons.forEach(btn => {
             btn.addEventListener('click', () => {
                 const tab = btn.dataset.tab;
@@ -2265,7 +2363,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
                 // Esconde tudo
                 document.getElementById('home').style.display = 'none';
-                ['idosos','interacoes','curiosidades','privacidade','termos','contato'].forEach(id => {
+                ['idosos','interacoes','curiosidades','exames','privacidade','termos','contato'].forEach(id => {
                     const el = document.getElementById(id);
                     if (el) el.classList.remove('active');
                 });
@@ -2278,6 +2376,7 @@ window.addEventListener('DOMContentLoaded', () => {
                     const el = document.getElementById(tab);
                     if (el) el.classList.add('active');
                     if (tab === 'curiosidades') curioCarregar();
+                    if (tab === 'exames') examesCarregar();
                 }
             });
         });
