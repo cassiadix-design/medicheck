@@ -1052,7 +1052,51 @@
     "descricao_seo": "Ácido Tranexâmico 500mg - 1000mg é um antifibrinolítico hemostático usado para controle de sangramentos em menorragia, cirurgias, trauma e hemorragia pós-parto. Age estabilizando coágulos já formados ao inibir a fibrinólise. Os efeitos colaterais mais relatados são: náusea, vômito e tontura. Contraindicado em trombose ativa. Ácido Tranexâmico é vendido somente com receita médica — nunca use sem orientação de um profissional de saúde.",
     "alerta_farmaceutico": "Erro comum no balcão: paciente interrompe o medicamento por conta própria ao sentir melhora, sem comunicar o médico — muitos tratamentos precisam de duração definida para ser efetivos. Sempre orientar a não alterar a posologia sem orientação médica.",
     "quando_procurar_medico": "Procure médico se: sintomas não melhorarem no tempo esperado, surgirem efeitos colaterais intensos, a condição piorar durante o tratamento, surgir febre ou reação alérgica (urticária, inchaço, dificuldade para respirar).",
-    "interacoes": [],
+    "interacoes": [
+      {
+        "com": [
+          "Anticoncepcionais orais combinados",
+          "Estrogênio + Progestagênio"
+        ],
+        "nivel": "grave",
+        "titulo": "Risco tromboembólico aditivo",
+        "efeito": "Ácido tranexâmico é antifibrinolítico; combinado com anticoncepcionais que já aumentam o risco de trombose, o risco de TVP, TEP e AVC fica significativamente elevado.",
+        "conduta": "Usar com extrema cautela. Avaliar risco-benefício individualmente. Monitorar sinais de trombose."
+      },
+      {
+        "com": [
+          "Anticoagulantes",
+          "Varfarina",
+          "Heparina",
+          "Rivaroxabana",
+          "Apixabana"
+        ],
+        "nivel": "grave",
+        "titulo": "Antagonismo e risco trombótico",
+        "efeito": "Ácido tranexâmico antagoniza o sistema fibrinolítico; combinado com anticoagulantes em contexto inadequado, pode criar desequilíbrio hemostático com risco de trombose.",
+        "conduta": "A combinação pode ser usada em hemorragias específicas (ex: pós-operatório cardíaco), mas apenas sob protocolo médico rigoroso."
+      },
+      {
+        "com": [
+          "Trombolíticos",
+          "Alteplase",
+          "Estreptoquinase",
+          "Tenecteplase"
+        ],
+        "nivel": "grave",
+        "titulo": "Antagonismo direto — CONTRAINDICADO",
+        "efeito": "Ácido tranexâmico bloqueia a fibrinólise, antagonizando diretamente o mecanismo terapêutico dos trombolíticos.",
+        "conduta": "CONTRAINDICADO. Não usar ácido tranexâmico com trombolíticos."
+      },
+      {
+        "tipo": "duplicacao",
+        "classe": "antifibrinolítico",
+        "nivel": "moderado",
+        "titulo": "Duplicação de antifibrinolítico",
+        "efeito": "Associação com ácido aminocaproico sem indicação aumenta o risco de trombose sem benefício adicional.",
+        "conduta": "Não combinar dois antifibrinolíticos."
+      }
+    ],
     "slug": "acido-tranexamico-500mg-1000mg"
   },
   {
@@ -3161,7 +3205,58 @@
     "descricao_seo": "Amantadina 100mg é um medicamento usado para: medicamento com dupla ação: antiparkinsoniano (aumenta liberação de dopamina e bloqueia receptores NMDA) e antiviral (influenza A — uso histórico). Em Parkinson, trata discinesias induzidas pela levodopa. Também usado em fadiga na esclerose múltipla. Os efeitos colaterais mais relatados são: livedo reticularis (manchas arroxeadas rendadas na pele — inofensivo), edema de tornozelo, confusão, alucinações, boca seca, insônia. Importante: Não interromper abruptamente em parkinsonianos — pode desencadear síndrome neuroléptica maligna-like. Ajustar dose em insuficiência renal. Amantadina 100mg é vendido somente com receita médica — nunca use sem orientação de um profissional de saúde.",
     "alerta_farmaceutico": "Erro comum no balcão: não alertar sobre o risco de hipotensão ortostática nas primeiras semanas — paciente com Parkinson já tem risco de quedas aumentado e a tontura ao levantar pode causar fraturas graves. Orientar a levantar devagar.",
     "quando_procurar_medico": "Procure médico se: tontura intensa ao levantar com quedas, alucinações visuais (ver coisas que não existem), impulsos compulsivos como jogo ou compras excessivas (efeito de agonistas dopaminérgicos), ou piora súbita do tremor e rigidez.",
-    "interacoes": [],
+    "interacoes": [
+      {
+        "com": [
+          "Anticolinérgicos",
+          "Triexifenidil",
+          "Biperideno",
+          "Escopolamina"
+        ],
+        "nivel": "grave",
+        "titulo": "Efeitos anticolinérgicos graves",
+        "efeito": "Amantadina tem efeito anticolinérgico moderado; combinada com anticolinérgicos, pode causar alucinações, confusão, retenção urinária e glaucoma agudo.",
+        "conduta": "Usar com cautela; reduzir dose do anticolinérgico ou da amantadina se surgirem efeitos adversos. Monitorar estado mental."
+      },
+      {
+        "com": [
+          "Trimetoprima",
+          "Cotrimoxazol (TMP-SMX)"
+        ],
+        "nivel": "moderado",
+        "titulo": "Acúmulo de amantadina por redução da excreção renal",
+        "efeito": "Trimetoprima reduz a secreção tubular renal de amantadina, elevando sua concentração plasmática e risco de toxicidade (confusão, alucinação).",
+        "conduta": "Monitorar sinais de toxicidade da amantadina. Considerar antibiótico alternativo."
+      },
+      {
+        "com": [
+          "Estimulantes dopaminérgicos",
+          "Anfetaminas",
+          "Metilfenidato"
+        ],
+        "nivel": "moderado",
+        "titulo": "Potencialização dopaminérgica e risco de psicose",
+        "efeito": "A combinação pode causar superestimulação dopaminérgica com risco de psicose, alucinações e agitação.",
+        "conduta": "Evitar combinação. Monitorar estado mental do paciente."
+      },
+      {
+        "com": [
+          "Álcool"
+        ],
+        "nivel": "leve",
+        "titulo": "Aumento de efeitos adversos do SNC",
+        "efeito": "Álcool pode potencializar os efeitos do SNC da amantadina, como tontura e confusão.",
+        "conduta": "Evitar consumo de álcool durante tratamento com amantadina."
+      },
+      {
+        "tipo": "duplicacao",
+        "classe": "agente_dopaminérgico",
+        "nivel": "moderado",
+        "titulo": "Duplicação dopaminérgica",
+        "efeito": "Associação com levodopa/carbidopa ou rasagilina pode causar discinesias e psicose dopaminérgica.",
+        "conduta": "Usar combinação apenas sob orientação neurológica rigorosa, com titulação cuidadosa."
+      }
+    ],
     "slug": "amantadina-100mg"
   },
   {
@@ -9084,7 +9179,57 @@
     "descricao_seo": "Bromocriptina 2,5mg é um medicamento usado para: tratamento de níveis altos de prolactina (hormônio), problemas menstruais (ausência ou irregularidade), infertilidade feminina, tumores da hipófise que produzem prolactina, acromegalia (aumento anormal de partes do corpo), Parkinson. Os efeitos colaterais mais relatados são: tontura, náusea, alucinações. Tome com alimentos. Bromocriptina 2,5mg é vendido somente com receita médica — nunca use sem orientação de um profissional de saúde.",
     "alerta_farmaceutico": "Erro comum no balcão: paciente interrompe o medicamento por conta própria ao sentir melhora, sem comunicar o médico — muitos tratamentos precisam de duração definida para ser efetivos. Sempre orientar a não alterar a posologia sem orientação médica.",
     "quando_procurar_medico": "Procure médico se: sintomas não melhorarem no tempo esperado, surgirem efeitos colaterais intensos, a condição piorar durante o tratamento, surgir febre ou reação alérgica (urticária, inchaço, dificuldade para respirar).",
-    "interacoes": [],
+    "interacoes": [
+      {
+        "com": [
+          "Ergotamina"
+        ],
+        "nivel": "grave",
+        "titulo": "Vasoconstrição aditiva e ergotismo",
+        "efeito": "Bromocriptina é derivado do ergot; associada à ergotamina, potencializa vasoconstrição periférica grave, podendo causar isquemia de extremidades.",
+        "conduta": "CONTRAINDICADO. Não combinar bromocriptina com ergotamina ou outros derivados do ergot."
+      },
+      {
+        "com": [
+          "Antipsicóticos",
+          "Haloperidol",
+          "Risperidona",
+          "Clorpromazina"
+        ],
+        "nivel": "grave",
+        "titulo": "Antagonismo dopaminérgico",
+        "efeito": "Antipsicóticos bloqueiam receptores de dopamina, antagonizando diretamente o mecanismo de ação da bromocriptina e eliminando seu benefício.",
+        "conduta": "Evitar associação. Se necessário antipsicótico, discutir substituição da bromocriptina com o neurologista/endocrinologista."
+      },
+      {
+        "com": [
+          "Macrolídeos",
+          "Eritromicina",
+          "Claritromicina"
+        ],
+        "nivel": "moderado",
+        "titulo": "Aumento dos níveis de bromocriptina",
+        "efeito": "Macrolídeos inibem o CYP3A4, reduzindo o metabolismo da bromocriptina e elevando seus níveis plasmáticos com risco de hipotensão e náuseas.",
+        "conduta": "Monitorar efeitos adversos (hipotensão ortostática, náuseas). Considerar antibiótico alternativo."
+      },
+      {
+        "com": [
+          "Anti-hipertensivos"
+        ],
+        "nivel": "moderado",
+        "titulo": "Hipotensão aditiva",
+        "efeito": "Bromocriptina pode causar hipotensão ortostática, especialmente no início do tratamento; combinada com anti-hipertensivos, o efeito é amplificado.",
+        "conduta": "Iniciar bromocriptina na dose mais baixa. Monitorar pressão arterial, especialmente nas primeiras semanas."
+      },
+      {
+        "tipo": "duplicacao",
+        "classe": "agonista_dopaminergico",
+        "nivel": "moderado",
+        "titulo": "Duplicação de agonista dopaminérgico",
+        "efeito": "Associação com cabergolina ou pramipexol sem indicação específica aumenta risco de hipotensão, psicose e discinesias.",
+        "conduta": "Usar apenas um agonista dopaminérgico por vez, salvo protocolo específico."
+      }
+    ],
     "sinonimos": [
       "Parlodel",
       "Cycloset",
@@ -14244,7 +14389,66 @@
     "descricao_seo": "Clindamicina 150mg - 300mg - Injetável é um medicamento usado para: antibiótico indicado para tratar infecções causadas por bactérias sensíveis, como infecções na pele e tecidos moles (feridas, abscessos), vias respiratórias (garganta, pulmão), ossos e articulações, dentes (abscesso dentário). Os efeitos colaterais mais relatados são: os efeitos mais comuns são intestinais: diarreia, náusea, vômito e dor de barriga. O efeito mais grave, embora raro, é a colite pseudomembranosa — uma inflamação intestinal séria causada pela. Não interrompa o tratamento, mesmo que se sinta melhor. Clindamicina 150mg - 300mg - Injetável é vendido somente com receita médica — nunca use sem orientação de um profissional de saúde.",
     "alerta_farmaceutico": "Erro comum no balcão: paciente interrompe o antibiótico quando os sintomas melhoram — bactérias mais resistentes sobrevivem e a infecção pode voltar mais forte e difícil de tratar. Complete sempre o curso completo.",
     "quando_procurar_medico": "Procure médico se: febre não ceder em 48h após início do antibiótico, surgir rash cutâneo, urticária ou dificuldade para respirar, diarreia intensa com sangue ou muco, sintomas piorarem em vez de melhorar, ou aparecer candidíase oral ou vaginal intensa.",
-    "interacoes": [],
+    "interacoes": [
+      {
+        "com": [
+          "Eritromicina",
+          "Azitromicina"
+        ],
+        "nivel": "grave",
+        "titulo": "Antagonismo antibacteriano",
+        "efeito": "Eritromicina e clindamicina competem pelo mesmo sítio de ligação no ribossomo bacteriano (50S), reduzindo a eficácia de ambas.",
+        "conduta": "Evitar uso concomitante. Escolha um dos dois conforme o perfil do agente infeccioso."
+      },
+      {
+        "com": [
+          "Bloqueadores neuromusculares",
+          "Rocurônio",
+          "Vecurônio",
+          "Succinilcolina"
+        ],
+        "nivel": "grave",
+        "titulo": "Potencialização do bloqueio neuromuscular",
+        "efeito": "Clindamicina potencializa o efeito dos bloqueadores neuromusculares, podendo prolongar a paralisia muscular e causar apneia.",
+        "conduta": "Monitoramento rigoroso em ambiente cirúrgico. Dose do bloqueador deve ser ajustada pelo anestesiologista."
+      },
+      {
+        "com": [
+          "Loperamida"
+        ],
+        "nivel": "moderado",
+        "titulo": "Risco aumentado de colite por C. difficile",
+        "efeito": "Loperamida retarda o trânsito intestinal, podendo acumular toxinas de Clostridioides difficile e agravar colite associada à clindamicina.",
+        "conduta": "Evitar loperamida em pacientes com diarreia em uso de clindamicina; investigar C. difficile."
+      },
+      {
+        "com": [
+          "Varfarina",
+          "Acenocumarol"
+        ],
+        "nivel": "moderado",
+        "titulo": "Aumento do efeito anticoagulante",
+        "efeito": "Clindamicina pode alterar a flora intestinal produtora de vitamina K, aumentando o INR em pacientes anticoagulados.",
+        "conduta": "Monitorar INR com mais frequência durante e após o curso de clindamicina."
+      },
+      {
+        "com": [
+          "Antiácidos com caolim"
+        ],
+        "nivel": "leve",
+        "titulo": "Redução da absorção oral da clindamicina",
+        "efeito": "Caolim-pectina reduz a absorção gastrointestinal da clindamicina oral em até 90% se tomados simultaneamente.",
+        "conduta": "Tomar clindamicina oral 2 horas antes ou 3–4 horas após antiácidos com caolim."
+      },
+      {
+        "tipo": "duplicacao",
+        "classe": "lincosamida",
+        "nivel": "moderado",
+        "titulo": "Duplicação de antibiótico lincosamida",
+        "efeito": "Combinação sem benefício adicional e com maior risco de efeitos adversos e resistência bacteriana.",
+        "conduta": "Não combinar dois antibióticos da mesma classe."
+      }
+    ],
     "sinonimos": [
       "Dalacin",
       "Cleocin",
@@ -14972,7 +15176,60 @@
     "descricao_seo": "Clordiazepóxido 5mg - 25mg (Librium) é o primeiro benzodiazepínico desenvolvido clinicamente, com meia-vida longa. Indicado para ansiedade e abstinência alcoólica. Os efeitos colaterais mais relatados são: sedação, ataxia e risco de dependência. Acúmulo em idosos e hepatopatas. Clordiazepóxido é controlado (tarja preta) — vendido somente com receita de controle especial.",
     "alerta_farmaceutico": "Erro comum no balcão: paciente relata que \"o medicamento não está mais fazendo efeito\" e pede dose maior — é tolerância farmacológica, e aumentar a dose por conta própria acelera a dependência física. O médico deve ser consultado para reavaliação.",
     "quando_procurar_medico": "Procure médico se: confusão mental intensa, dificuldade para respirar, dependência (necessidade de doses maiores), ou crise de abstinência ao tentar parar.",
-    "interacoes": [],
+    "interacoes": [
+      {
+        "com": [
+          "Álcool",
+          "Anti-histamínicos sedativos",
+          "Barbitúricos",
+          "Outros benzodiazepínicos"
+        ],
+        "nivel": "grave",
+        "titulo": "Depressão profunda do SNC",
+        "efeito": "Clordiazepóxido somado a outros depressores do SNC causa sedação intensa, risco de queda, confusão mental e depressão respiratória.",
+        "conduta": "Evitar uso concomitante. Paciente deve ser alertado sobre risco com álcool."
+      },
+      {
+        "com": [
+          "Opioides",
+          "Morfina",
+          "Codeína",
+          "Tramadol"
+        ],
+        "nivel": "grave",
+        "titulo": "Depressão respiratória grave",
+        "efeito": "A combinação de clordiazepóxido com opioides é uma das causas mais comuns de overdose fatal.",
+        "conduta": "Contraindicado na maioria dos casos. Monitoramento rigoroso se inevitável."
+      },
+      {
+        "com": [
+          "Cimetidina"
+        ],
+        "nivel": "moderado",
+        "titulo": "Aumento dos efeitos sedativos",
+        "efeito": "Cimetidina inibe o metabolismo hepático do clordiazepóxido, prolongando e intensificando a sedação.",
+        "conduta": "Monitorar sedação. Substituir cimetidina por ranitidina ou IBP quando possível."
+      },
+      {
+        "com": [
+          "Antidepressivos tricíclicos",
+          "Amitriptilina",
+          "Imipramina"
+        ],
+        "nivel": "moderado",
+        "titulo": "Efeitos anticolinérgicos e sedativos aditivos",
+        "efeito": "Combinação causa boca seca intensa, constipação, retenção urinária, confusão e sedação, especialmente em idosos.",
+        "conduta": "Usar com cautela em idosos. Monitorar efeitos anticolinérgicos e cognitivos."
+      },
+      {
+        "tipo": "duplicacao",
+        "classe": "benzodiazepínico",
+        "nivel": "grave",
+        "titulo": "Duplicação de benzodiazepínico",
+        "efeito": "Dois benzodiazepínicos aumentam risco de dependência, sedação excessiva e depressão respiratória.",
+        "conduta": "Usar apenas um benzodiazepínico por vez."
+      }
+    ],
     "slug": "clordiazepoxido-5mg-25mg"
   },
   {
@@ -15431,7 +15688,62 @@
     "descricao_seo": "Cloroquina 250mg é um medicamento usado para: indicada para o tratamento e prevenção da malária e de doenças autoimunes, como lúpus eritematoso sistêmico (doença em que o sistema imune ataca o próprio organismo. Os efeitos colaterais mais relatados são: os efeitos mais comuns são náusea, diarreia, dor de estômago, dor de cabeça, coceira e queda de cabelo. Importante: Pode causar danos permanentes à visão com uso prolongado. Consultas oftalmológicas regulares são obrigatórias. Cloroquina 250mg é vendido somente com receita médica — nunca use sem orientação de um profissional de saúde.",
     "alerta_farmaceutico": "Erro comum no balcão: paciente não é orientado sobre o acompanhamento oftalmológico obrigatório — hidroxicloroquina usada cronicamente pode causar retinopatia irreversível. Exame de fundo de olho anual é obrigatório após 5 anos de uso.",
     "quando_procurar_medico": "Procure médico se: visão turva, dificuldade para enxergar cores, pontos cegos no campo visual, erupção cutânea extensa ou fraqueza muscular — alguns são sinais de toxicidade ocular ou muscular.",
-    "interacoes": [],
+    "interacoes": [
+      {
+        "com": [
+          "Amiodarona",
+          "Sotalol",
+          "Quinidina",
+          "Antipsicóticos",
+          "Haloperidol",
+          "Azitromicina"
+        ],
+        "nivel": "grave",
+        "titulo": "Prolongamento do QT e arritmias graves",
+        "efeito": "Cloroquina prolonga o intervalo QT; combinada com outros fármacos que também prolongam o QT, aumenta o risco de torsades de pointes e parada cardíaca.",
+        "conduta": "Contraindicado com amiodarona e outros prolongadores de QT. Realizar ECG antes e durante o tratamento."
+      },
+      {
+        "com": [
+          "Mefloquina"
+        ],
+        "nivel": "grave",
+        "titulo": "Convulsões e arritmias — CONTRAINDICADO",
+        "efeito": "A associação de cloroquina com mefloquina aumenta o risco de convulsões e toxicidade cardíaca.",
+        "conduta": "CONTRAINDICADO. Não combinar cloroquina com mefloquina."
+      },
+      {
+        "com": [
+          "Insulina",
+          "Sulfonilureias",
+          "Glibenclamida",
+          "Metformina"
+        ],
+        "nivel": "moderado",
+        "titulo": "Hipoglicemia potencializada",
+        "efeito": "Cloroquina tem efeito hipoglicemiante; combinada com antidiabéticos, pode causar hipoglicemia significativa.",
+        "conduta": "Monitorar glicemia com mais frequência durante uso de cloroquina. Ajustar dose do antidiabético se necessário."
+      },
+      {
+        "com": [
+          "Antiácidos",
+          "Hidróxido de magnésio",
+          "Hidróxido de alumínio"
+        ],
+        "nivel": "leve",
+        "titulo": "Redução da absorção da cloroquina",
+        "efeito": "Antiácidos reduzem a absorção gastrointestinal da cloroquina, diminuindo sua eficácia.",
+        "conduta": "Tomar cloroquina 2 horas antes ou 4 horas após antiácidos."
+      },
+      {
+        "tipo": "duplicacao",
+        "classe": "antimalárico_aminoquinolona",
+        "nivel": "moderado",
+        "titulo": "Duplicação de antimalárico aminoquinolona",
+        "efeito": "Associação com hidroxicloroquina sem indicação aumenta toxicidade ocular e cardíaca sem benefício adicional.",
+        "conduta": "Não combinar cloroquina com hidroxicloroquina."
+      }
+    ],
     "sinonimos": [
       "Reuquinol",
       "Aralen",
@@ -21262,7 +21574,64 @@
     "descricao_seo": "Droperidol 2,5mg Injetável é um medicamento usado para: indicado para prevenir e tratar náuseas e vômitos após cirurgias ou exames. Também é usado em situações de emergência para acalmar pessoas muito agitadas e como apoio no controle da dor intensa. Os efeitos colaterais mais relatados são: os efeitos mais comuns incluem sonolência intensa, queda de pressão, tremores e sensação de inquietação ou rigidez muscular (sintomas extrapiramidais — movimentos involuntários do corpo). Importante: Este medicamento pode causar arritmias cardíacas graves (alterações no ritmo do coração que podem ser perigosas) e potencialmente fatais. Por isso, recebeu um alerta especial de segurança. Droperidol 2,5mg Injetável é vendido somente com receita médica — nunca use sem orientação de um profissional de saúde.",
     "alerta_farmaceutico": "Erro comum no balcão: paciente interrompe o medicamento por conta própria ao sentir melhora, sem comunicar o médico — muitos tratamentos precisam de duração definida para ser efetivos. Sempre orientar a não alterar a posologia sem orientação médica.",
     "quando_procurar_medico": "Procure médico se: febre alta com rigidez muscular (síndrome neuroléptica maligna), movimentos involuntários, arritmia cardíaca ou sonolência excessiva.",
-    "interacoes": [],
+    "interacoes": [
+      {
+        "com": [
+          "Antiarrítmicos classe IA e III",
+          "Quinidina",
+          "Amiodarona",
+          "Sotalol",
+          "Quinolonas",
+          "Eritromicina"
+        ],
+        "nivel": "grave",
+        "titulo": "Prolongamento do QT e torsades de pointes",
+        "efeito": "Droperidol prolonga o intervalo QT; combinado com outros prolongadores do QT, aumenta o risco de arritmias ventriculares graves potencialmente fatais.",
+        "conduta": "Monitorar ECG antes e após administração de droperidol. Evitar com outros fármacos que prolongam o QT."
+      },
+      {
+        "com": [
+          "Opioides",
+          "Morfina",
+          "Fentanil",
+          "Tramadol"
+        ],
+        "nivel": "grave",
+        "titulo": "Potencialização da sedação e depressão respiratória",
+        "efeito": "Droperidol potencializa os efeitos sedativos e depressores respiratórios dos opioides, especialmente em ambiente perioperatório.",
+        "conduta": "Reduzir dose do opioide quando usado com droperidol. Manter suporte ventilatório disponível."
+      },
+      {
+        "com": [
+          "Anti-hipertensivos",
+          "Anlodipino",
+          "Enalapril",
+          "Metoprolol"
+        ],
+        "nivel": "moderado",
+        "titulo": "Hipotensão aditiva",
+        "efeito": "Droperidol tem efeito alfa-bloqueador e pode causar hipotensão, agravada por anti-hipertensivos concomitantes.",
+        "conduta": "Monitorar pressão arterial após administração de droperidol. Ter suporte vasopressor disponível em ambiente de uso hospitalar."
+      },
+      {
+        "com": [
+          "Levodopa",
+          "Agonistas dopaminérgicos"
+        ],
+        "nivel": "moderado",
+        "titulo": "Antagonismo dopaminérgico",
+        "efeito": "Droperidol bloqueia receptores D2, antagonizando o efeito da levodopa e podendo piorar sintomas parkinsonianos.",
+        "conduta": "Evitar droperidol em pacientes com doença de Parkinson. Usar antiemético alternativo (ondansetrona)."
+      },
+      {
+        "tipo": "duplicacao",
+        "classe": "antipsicótico_típico",
+        "nivel": "moderado",
+        "titulo": "Duplicação de bloqueador dopaminérgico",
+        "efeito": "Associação com haloperidol ou outros antipsicóticos típicos aumenta risco de prolongamento do QT e efeitos extrapiramidais.",
+        "conduta": "Evitar dois antipsicóticos/neurolépticos em dose antiemética sem indicação específica."
+      }
+    ],
     "sinonimos": [
       "Droperol",
       "Inapsine"
@@ -21361,7 +21730,51 @@
     "descricao_seo": "Dulaglutida (Trulicity) é um medicamento usado para: análogo do GLP-1 de administração subcutânea semanal para diabetes tipo 2. Estimula a secreção de insulina dependente de glicose, reduz o glucagon, retarda o esvaziamento gástrico e reduz o apetite. Também tem benefícios cardiovasculares comprovados. Os efeitos colaterais mais relatados são: náusea, vômito, diarreia, dor abdominal (especialmente no início), perda de apetite e peso. Raramente: pancreatite. Importante: Contraindicada em histórico pessoal ou familiar de carcinoma medular de tireoide ou neoplasia endócrina múltipla tipo 2 (NEM 2). Suspender se houver suspeita de pancreatite. Dulaglutida (Trulicity) é vendido somente com receita médica — nunca use sem orientação de um profissional de saúde.",
     "alerta_farmaceutico": "Erro comum no balcão: paciente armazena agonista GLP-1 em temperatura ambiente — devem ser refrigerados (2°C–8°C) antes do uso. Após aberto, o prazo e temperatura variam por produto; conferir sempre a bula específica.",
     "quando_procurar_medico": "Procure médico se: glicemia acima de 200 mg/dL persistente, glicemia acima de 300 mg/dL é emergência — vá ao pronto-socorro, sintomas de hipoglicemia (tremor, suor frio, confusão mental), vômitos que impeçam tomar o medicamento, febre alta em diabético (agrava o controle glicêmico) ou piora progressiva dos valores mesmo seguindo o tratamento.",
-    "interacoes": [],
+    "interacoes": [
+      {
+        "com": [
+          "Insulina",
+          "Glibenclamida",
+          "Glimepirida",
+          "Gliclazida",
+          "Sulfonilureias"
+        ],
+        "nivel": "grave",
+        "titulo": "Hipoglicemia potencializada",
+        "efeito": "Dulaglutida aumenta a secreção de insulina dependente de glicose; combinada com insulina ou sulfonilureias, o risco de hipoglicemia é significativamente elevado.",
+        "conduta": "Reduzir dose de insulina ou sulfonilureia ao iniciar dulaglutida. Monitorar glicemia com mais frequência e orientar paciente sobre sinais de hipoglicemia."
+      },
+      {
+        "com": [
+          "Varfarina",
+          "Acenocumarol"
+        ],
+        "nivel": "moderado",
+        "titulo": "Alteração do INR",
+        "efeito": "Dulaglutida retarda o esvaziamento gástrico, podendo alterar a absorção da varfarina e modificar o INR de forma imprevisível.",
+        "conduta": "Monitorar INR mais frequentemente nas primeiras semanas após início de dulaglutida em pacientes anticoagulados."
+      },
+      {
+        "com": [
+          "Medicamentos com janela terapêutica estreita",
+          "Digoxina",
+          "Levotiroxina",
+          "Anticoncepcionais orais"
+        ],
+        "nivel": "moderado",
+        "titulo": "Alteração da absorção por retardo do esvaziamento gástrico",
+        "efeito": "Agonistas GLP-1 retardam o esvaziamento gástrico, podendo reduzir e atrasar a absorção de medicamentos de janela estreita, afetando sua eficácia.",
+        "conduta": "Tomar medicamentos com janela estreita no horário habitual, mas monitorar níveis séricos ou efeito clínico. Anticoncepcionais orais devem ser tomados pelo menos 1 hora antes da injeção de dulaglutida."
+      },
+      {
+        "tipo": "duplicacao",
+        "classe": "agonista_glp1",
+        "nivel": "grave",
+        "titulo": "Duplicação de agonista GLP-1",
+        "efeito": "Associar dulaglutida com semaglutida, exenatida ou liraglutida causa hipoglicemia grave, náuseas intensas e pancreatite sem benefício adicional.",
+        "conduta": "CONTRAINDICADO. Nunca combinar dois agonistas de GLP-1."
+      }
+    ],
     "slug": "dulaglutida-trulicity"
   },
   {
@@ -24032,7 +24445,47 @@
     "descricao_seo": "Etambutol 400mg - Solução Oral é um medicamento usado para: indicado para o tratamento da tuberculose (infecção causada por uma bactéria que geralmente ataca os pulmões, mas pode afetar outras partes do corpo). Os efeitos colaterais mais relatados são: os efeitos mais comuns incluem: dor nas articulações, dor abdominal, náuseas, vômitos, dor de cabeça e formigamento nos dedos das mãos ou pés. Importante: ATENÇÃO: Este medicamento pode afetar seriamente sua visão. Avise imediatamente seu médico se notar: visão embaçada, dificuldade para ver cores (principalmente verde e vermelho). Etambutol 400mg - Solução Oral é vendido somente com receita médica — nunca use sem orientação de um profissional de saúde.",
     "alerta_farmaceutico": "Erro comum no balcão: paciente interrompe o antibiótico quando os sintomas melhoram — bactérias mais resistentes sobrevivem e a infecção pode voltar mais forte e difícil de tratar. Complete sempre o curso completo.",
     "quando_procurar_medico": "Procure médico se: visão turva ou alteração de cores (Etambutol), formigamento nas mãos e pés, icterícia, urina escura, ou febre persistente durante o tratamento.",
-    "interacoes": [],
+    "interacoes": [
+      {
+        "com": [
+          "Antiácidos com hidróxido de alumínio"
+        ],
+        "nivel": "moderado",
+        "titulo": "Redução da absorção do etambutol",
+        "efeito": "Antiácidos com alumínio formam quelatos com o etambutol, reduzindo sua absorção gastrointestinal e eficácia antituberculosa.",
+        "conduta": "Tomar etambutol 2 horas antes ou 4 horas após antiácidos com alumínio."
+      },
+      {
+        "com": [
+          "Outros agentes nefrotóxicos",
+          "Aminoglicosídeos",
+          "Anfotericina B"
+        ],
+        "nivel": "moderado",
+        "titulo": "Acúmulo de etambutol em insuficiência renal",
+        "efeito": "Etambutol é eliminado pelos rins; agentes nefrotóxicos reduzem sua excreção, elevando seus níveis e risco de neurite óptica.",
+        "conduta": "Monitorar função renal e acuidade visual regularmente. Ajustar dose em pacientes com comprometimento renal."
+      },
+      {
+        "com": [
+          "Isoniazida",
+          "Rifampicina",
+          "Pirazinamida"
+        ],
+        "nivel": "leve",
+        "titulo": "Monitoramento da hepatotoxicidade no esquema RIPE",
+        "efeito": "Embora o etambutol em si tenha baixa hepatotoxicidade, faz parte do esquema com outros três hepatotóxicos que exigem vigilância.",
+        "conduta": "Monitorar função hepática e acuidade visual mensalmente durante o tratamento."
+      },
+      {
+        "tipo": "duplicacao",
+        "classe": "antituberculoso",
+        "nivel": "moderado",
+        "titulo": "Esquema antituberculoso — não modificar sem indicação",
+        "efeito": "Etambutol é parte do esquema RIPE padronizado. Modificações não protocoladas aumentam risco de resistência.",
+        "conduta": "Seguir protocolo do Ministério da Saúde. Modificações apenas por especialista."
+      }
+    ],
     "sinonimos": [
       "Miambutol",
       "Etambu",
@@ -24348,7 +24801,51 @@
     "descricao_seo": "Exenatida (Byetta / Bydureon) é um medicamento usado para: análogo do GLP-1 para diabetes tipo 2. Disponível em duas formas: Byetta (injeção 2x/dia) e Bydureon (injeção semanal de liberação prolongada). Os efeitos colaterais mais relatados são: náusea (muito comum no início), vômito, diarreia, reação no local da injeção. Raramente: pancreatite. Importante: Contraindicada em histórico pessoal ou familiar de carcinoma medular de tireoide ou NEM tipo 2. Suspender se houver suspeita de pancreatite. Exenatida (Byetta / Bydureon) é vendido somente com receita médica — nunca use sem orientação de um profissional de saúde.",
     "alerta_farmaceutico": "Erro comum no balcão: paciente armazena agonista GLP-1 em temperatura ambiente — devem ser refrigerados (2°C–8°C) antes do uso. Após aberto, o prazo e temperatura variam por produto; conferir sempre a bula específica.",
     "quando_procurar_medico": "Procure médico se: glicemia acima de 200 mg/dL persistente, glicemia acima de 300 mg/dL é emergência — vá ao pronto-socorro, sintomas de hipoglicemia (tremor, suor frio, confusão mental), vômitos que impeçam tomar o medicamento, febre alta em diabético (agrava o controle glicêmico) ou piora progressiva dos valores mesmo seguindo o tratamento.",
-    "interacoes": [],
+    "interacoes": [
+      {
+        "com": [
+          "Insulina",
+          "Glibenclamida",
+          "Glimepirida",
+          "Gliclazida",
+          "Sulfonilureias"
+        ],
+        "nivel": "grave",
+        "titulo": "Hipoglicemia potencializada",
+        "efeito": "Exenatida estimula a secreção de insulina; combinada com sulfonilureias ou insulina, o risco de hipoglicemia grave é significativamente elevado.",
+        "conduta": "Reduzir dose de sulfonilureia ou insulina ao iniciar exenatida. Monitorar glicemia com frequência e orientar sobre sinais de hipoglicemia."
+      },
+      {
+        "com": [
+          "Varfarina",
+          "Acenocumarol"
+        ],
+        "nivel": "moderado",
+        "titulo": "Alteração do INR",
+        "efeito": "Exenatida retarda o esvaziamento gástrico, podendo alterar a absorção da varfarina e modificar o INR de forma imprevisível.",
+        "conduta": "Monitorar INR com maior frequência após início de exenatida em pacientes anticoagulados."
+      },
+      {
+        "com": [
+          "Digoxina",
+          "Levotiroxina",
+          "Anticoncepcionais orais",
+          "Medicamentos com janela estreita"
+        ],
+        "nivel": "moderado",
+        "titulo": "Alteração da absorção por retardo do esvaziamento gástrico",
+        "efeito": "O retardo do esvaziamento gástrico causado pela exenatida pode atrasar e reduzir a absorção de outros medicamentos, afetando sua eficácia.",
+        "conduta": "Tomar medicamentos orais críticos (anticoncepcionais, antibióticos) pelo menos 1 hora antes da injeção de exenatida. Monitorar níveis séricos quando aplicável."
+      },
+      {
+        "tipo": "duplicacao",
+        "classe": "agonista_glp1",
+        "nivel": "grave",
+        "titulo": "Duplicação de agonista GLP-1",
+        "efeito": "Combinar exenatida com dulaglutida, semaglutida ou liraglutida causa hipoglicemia grave, náuseas e pancreatite sem benefício adicional.",
+        "conduta": "CONTRAINDICADO. Nunca combinar dois agonistas de GLP-1."
+      }
+    ],
     "slug": "exenatida-byetta-bydureon"
   },
   {
@@ -27500,7 +27997,65 @@
     "descricao_seo": "Galantamina 8mg - 16mg - 24mg é um medicamento usado para: inibidor da colinesterase indicado para tratamento sintomático da doença de Alzheimer leve a moderada. Age aumentando os níveis de acetilcolina no cérebro, melhorando cognição e memória. Os efeitos colaterais mais relatados são: náusea, vômito, diarreia, perda de apetite, tontura, cefaleia, bradicardia. Importante: Cuidado em pacientes com problemas cardíacos (bradicardia, bloqueio AV). Não interromper abruptamente. Galantamina 8mg - 16mg - 24mg é vendido somente com receita médica — nunca use sem orientação de um profissional de saúde.",
     "alerta_farmaceutico": "Erro comum no balcão: paciente interrompe o medicamento por conta própria ao sentir melhora, sem comunicar o médico — muitos tratamentos precisam de duração definida para ser efetivos. Sempre orientar a não alterar a posologia sem orientação médica.",
     "quando_procurar_medico": "Procure médico se: sintomas não melhorarem no tempo esperado, surgirem efeitos colaterais intensos, a condição piorar durante o tratamento, surgir febre ou reação alérgica (urticária, inchaço, dificuldade para respirar).",
-    "interacoes": [],
+    "interacoes": [
+      {
+        "com": [
+          "Anticolinérgicos",
+          "Oxibutinina",
+          "Biperideno",
+          "Escopolamina",
+          "Clorfeniramina"
+        ],
+        "nivel": "grave",
+        "titulo": "Antagonismo direto da ação colinérgica",
+        "efeito": "Anticolinérgicos antagonizam o mecanismo de ação da galantamina, eliminando seu benefício cognitivo em pacientes com doença de Alzheimer.",
+        "conduta": "Evitar uso concomitante. Revisar necessidade de medicamentos anticolinérgicos; considerar alternativas não anticolinérgicas."
+      },
+      {
+        "com": [
+          "Betabloqueadores",
+          "Atenolol",
+          "Propranolol",
+          "Metoprolol"
+        ],
+        "nivel": "moderado",
+        "titulo": "Bradicardia aditiva",
+        "efeito": "Galantamina aumenta o tônus colinérgico no coração, causando bradicardia que pode ser agravada por betabloqueadores.",
+        "conduta": "Monitorar frequência cardíaca. Considerar ECG de base antes de iniciar galantamina em pacientes com betabloqueadores."
+      },
+      {
+        "com": [
+          "Inibidores de CYP2D6",
+          "Fluoxetina",
+          "Paroxetina",
+          "Duloxetina"
+        ],
+        "nivel": "moderado",
+        "titulo": "Aumento dos níveis de galantamina",
+        "efeito": "Inibidores do CYP2D6 reduzem o metabolismo da galantamina, podendo elevar seus níveis plasmáticos e aumentar efeitos adversos colinérgicos (náusea, vômito).",
+        "conduta": "Monitorar efeitos adversos gastrointestinais. Ajustar dose de galantamina se necessário."
+      },
+      {
+        "com": [
+          "Inibidores de CYP3A4",
+          "Cetoconazol",
+          "Eritromicina",
+          "Ritonavir"
+        ],
+        "nivel": "moderado",
+        "titulo": "Aumento dos níveis de galantamina",
+        "efeito": "Inibidores de CYP3A4 também contribuem para elevação dos níveis de galantamina, potencializando efeitos adversos.",
+        "conduta": "Monitorar tolerabilidade; reduzir dose de galantamina se necessário durante uso do inibidor."
+      },
+      {
+        "tipo": "duplicacao",
+        "classe": "inibidor_colinesterase",
+        "nivel": "moderado",
+        "titulo": "Duplicação de inibidor da colinesterase",
+        "efeito": "Associar galantamina com donepezila ou rivastigmina não traz benefício adicional e aumenta risco de toxicidade colinérgica (bradicardia, convulsões).",
+        "conduta": "Usar apenas um inibidor de colinesterase por vez."
+      }
+    ],
     "slug": "galantamina-8mg-16mg-24mg"
   },
   {
@@ -32704,7 +33259,47 @@
     "descricao_seo": "Ivermectina 6mg é um medicamento usado para: indicada para tratar parasitoses intestinais e cutâneas: estrongiloidíase (Strongyloides stercoralis), oncocercose (cegueira dos rios), escabiose (sarna) e pediculose (piolho). Os efeitos colaterais mais relatados são: geralmente bem tolerada. Os efeitos mais comuns são tontura, náusea, diarreia e coceira — muitas vezes relacionados à morte dos parasitas (reação de Mazzotti na oncocercose). Importante: NÃO foi comprovada eficácia contra COVID-19 — todos os estudos clínicos sérios (incluindo o estudo Together no Brasil) não encontraram benefício. Ivermectina 6mg é vendido somente com receita médica — nunca use sem orientação de um profissional de saúde.",
     "alerta_farmaceutico": "Erro comum no balcão: tratar apenas um membro da família quando há parasitose intestinal — outros conviventes podem estar infectados e causar reinfecção de quem foi tratado. O médico deve avaliar o tratamento de todos os contatos domiciliares.",
     "quando_procurar_medico": "Procure médico se: sintomas não melhorarem em 3 dias, surgir febre alta, icterícia, diarreia com sangue, ou reação alérgica intensa.",
-    "interacoes": [],
+    "interacoes": [
+      {
+        "com": [
+          "Varfarina",
+          "Acenocumarol"
+        ],
+        "nivel": "moderado",
+        "titulo": "Aumento do efeito anticoagulante",
+        "efeito": "Ivermectina pode elevar o INR em pacientes anticoagulados, provavelmente por inibição do metabolismo da varfarina via CYP450.",
+        "conduta": "Monitorar INR 3–7 dias após uso de ivermectina em pacientes anticoagulados. Ajustar dose de varfarina se necessário."
+      },
+      {
+        "com": [
+          "Benzodiazepínicos",
+          "Diazepam",
+          "Alprazolam",
+          "Barbitúricos"
+        ],
+        "nivel": "leve",
+        "titulo": "Potencial aumento da sedação",
+        "efeito": "Ivermectina pode intensificar efeitos depressores do SNC de benzodiazepínicos e barbitúricos, especialmente em doses altas ou em crianças.",
+        "conduta": "Monitorar sedação. Evitar doses altas de ivermectina em pacientes em uso de sedativos."
+      },
+      {
+        "com": [
+          "Álcool"
+        ],
+        "nivel": "leve",
+        "titulo": "Aumento de efeitos adversos",
+        "efeito": "Álcool pode potencializar tontura e efeitos no SNC associados à ivermectina.",
+        "conduta": "Evitar álcool no dia da tomada da ivermectina."
+      },
+      {
+        "tipo": "duplicacao",
+        "classe": "antiparasitario",
+        "nivel": "leve",
+        "titulo": "Avaliação de duplicação antiparasitária",
+        "efeito": "Uso simultâneo com albendazol é às vezes intencional (filariose), mas deve ser prescrito com indicação específica.",
+        "conduta": "Associação só se indicada por protocolo específico (ex: filariose linfática). Consultar infectologista."
+      }
+    ],
     "sinonimos": [
       "Revectina",
       "Mectizan",
@@ -37805,7 +38400,56 @@
     "descricao_seo": "Metildopa 250mg - 500mg (Aldomet) é o anti-hipertensivo de primeira escolha na gravidez, com extenso histórico de segurança gestacional. Age de forma central reduzindo o tônus simpático. Os efeitos colaterais mais relatados são: sedação intensa, boca seca, fadiga e tontura. Monitorar função hepática periodicamente. Metildopa é vendida somente com receita médica — nunca use sem orientação de um profissional de saúde.",
     "alerta_farmaceutico": "Erro comum no balcão: paciente para o medicamento quando a pressão normaliza — a hipertensão é crônica e a pressão voltará a subir sem o tratamento. Hipertensão controlada não é hipertensão curada.",
     "quando_procurar_medico": "Procure médico se: pressão acima de 180/110 mmHg, cefaleia intensa e súbita, visão turva, falta de ar, dor no peito ou inchaço rápido nos pés — podem indicar crise hipertensiva ou emergência cardiovascular.",
-    "interacoes": [],
+    "interacoes": [
+      {
+        "com": [
+          "Levodopa",
+          "Carbidopa + Levodopa"
+        ],
+        "nivel": "grave",
+        "titulo": "Antagonismo e piora do parkinsonismo",
+        "efeito": "Metildopa pode antagonizar a ação da levodopa e piorar os sintomas da doença de Parkinson. A metildopa também é convertida em falso neurotransmissor.",
+        "conduta": "Evitar associação em pacientes com doença de Parkinson. Escolher anti-hipertensivo alternativo."
+      },
+      {
+        "com": [
+          "Lítio"
+        ],
+        "nivel": "moderado",
+        "titulo": "Aumento dos níveis de lítio e toxicidade",
+        "efeito": "Metildopa pode aumentar os níveis plasmáticos do lítio, elevando o risco de toxicidade (tremores, confusão, arritmia).",
+        "conduta": "Monitorar litemia com frequência. Ajustar dose do lítio conforme necessário."
+      },
+      {
+        "com": [
+          "AINEs",
+          "Ibuprofeno",
+          "Naproxeno"
+        ],
+        "nivel": "moderado",
+        "titulo": "Redução do efeito anti-hipertensivo",
+        "efeito": "AINEs reduzem a eficácia dos anti-hipertensivos por retenção de sódio e inibição das prostaglandinas renais.",
+        "conduta": "Monitorar pressão arterial. Preferir paracetamol para analgesia."
+      },
+      {
+        "com": [
+          "Suplementos de ferro",
+          "Sulfato ferroso"
+        ],
+        "nivel": "moderado",
+        "titulo": "Redução da absorção da metildopa",
+        "efeito": "O ferro quelata a metildopa no trato gastrointestinal, reduzindo significativamente sua absorção e eficácia anti-hipertensiva.",
+        "conduta": "Tomar metildopa e suplemento de ferro com intervalo mínimo de 2 horas."
+      },
+      {
+        "tipo": "duplicacao",
+        "classe": "anti_hipertensivo_acao_central",
+        "nivel": "moderado",
+        "titulo": "Duplicação de anti-hipertensivo de ação central",
+        "efeito": "Associar metildopa com clonidina ou moxonidina aumenta risco de hipotensão grave e bradicardia sem benefício adicional.",
+        "conduta": "Evitar dois anti-hipertensivos de ação central. Associar classes diferentes conforme necessidade."
+      }
+    ],
     "slug": "metildopa-250mg-500mg"
   },
   {
@@ -39454,7 +40098,47 @@
     "descricao_seo": "Misoprostol 25mcg - 200mcg é um medicamento usado para: análogo sintético da prostaglandina E1 com múltiplas indicações: proteção gástrica em usuários de AINEs (prevenção de úlcera), indução do parto, tratamento de hemorragia pós-parto e esvaziamento uterino. Os efeitos colaterais mais relatados são: diarreia, cólicas abdominais, náusea, sangramento uterino (quando usado em ginecologia). Importante: CONTRAINDICADO na gravidez quando a intenção é manter a gestação — causa contrações uterinas e pode levar ao aborto. Uso obstétrico apenas em ambiente hospitalar supervisionado. Misoprostol 25mcg - 200mcg é vendido somente com receita médica — nunca use sem orientação de um profissional de saúde.",
     "alerta_farmaceutico": "Erro comum no balcão: paciente interrompe o medicamento por conta própria ao sentir melhora, sem comunicar o médico — muitos tratamentos precisam de duração definida para ser efetivos. Sempre orientar a não alterar a posologia sem orientação médica.",
     "quando_procurar_medico": "Procure médico se: sintomas não melhorarem no tempo esperado, surgirem efeitos colaterais intensos, a condição piorar durante o tratamento, surgir febre ou reação alérgica (urticária, inchaço, dificuldade para respirar).",
-    "interacoes": [],
+    "interacoes": [
+      {
+        "com": [
+          "Ocitocina",
+          "Dinoprostona"
+        ],
+        "nivel": "grave",
+        "titulo": "Hiperstimulação uterina grave",
+        "efeito": "Misoprostol e ocitocina têm efeitos uterotônicos aditivos; a combinação pode causar hiperstimulação uterina, sofrimento fetal e ruptura uterina.",
+        "conduta": "Não administrar misoprostol e ocitocina simultaneamente. Aguardar pelo menos 4 horas após misoprostol vaginal antes de iniciar ocitocina."
+      },
+      {
+        "com": [
+          "AINEs",
+          "Ibuprofeno",
+          "Naproxeno",
+          "Diclofenaco"
+        ],
+        "nivel": "moderado",
+        "titulo": "Interferência na atividade uterina em contexto obstétrico",
+        "efeito": "Em uso obstétrico, AINEs (inibidores da ciclo-oxigenase) podem antagonizar parcialmente o efeito uterotônico do misoprostol.",
+        "conduta": "Evitar AINEs durante o processo de indução do parto com misoprostol. Em uso para gastroproteção, a combinação é intencional e geralmente segura."
+      },
+      {
+        "com": [
+          "Antiácidos com magnésio"
+        ],
+        "nivel": "leve",
+        "titulo": "Aumento da motilidade intestinal",
+        "efeito": "Antiácidos com magnésio e misoprostol têm efeitos aditivos na motilidade intestinal, podendo intensificar diarreia.",
+        "conduta": "Evitar antiácidos com magnésio durante uso de misoprostol. Preferir hidróxido de alumínio se necessário."
+      },
+      {
+        "tipo": "duplicacao",
+        "classe": "uterotônico_prostaglandina",
+        "nivel": "grave",
+        "titulo": "Duplicação de uterotônico",
+        "efeito": "Combinação com outros uterotônicos (ocitocina, metilergometrina) causa hiperstimulação uterina com risco para mãe e feto.",
+        "conduta": "Não associar misoprostol com outros uterotônicos sem protocolo obstétrico específico."
+      }
+    ],
     "slug": "misoprostol-25mcg-200mcg"
   },
   {
@@ -42148,7 +42832,49 @@
     "descricao_seo": "Nitrazepam 5mg - 10mg (Mogadon) é um benzodiazepínico hipnótico de meia-vida longa indicado para insônia e epilepsia infantil (síndrome de West). Os efeitos colaterais mais relatados são: sedação residual diurna, ataxia e risco de dependência. Nitrazepam é controlado (tarja preta) — vendido somente com receita de controle especial.",
     "alerta_farmaceutico": "Erro comum no balcão: paciente relata que \"o medicamento não está mais fazendo efeito\" e pede dose maior — é tolerância farmacológica, e aumentar a dose por conta própria acelera a dependência física. O médico deve ser consultado para reavaliação.",
     "quando_procurar_medico": "Procure médico se: dificuldade para respirar durante o sono, confusão mental intensa, comportamentos automáticos sem memória, dependência (necessidade de doses maiores), ou crise de abstinência ao tentar parar (tremores, suor, convulsão).",
-    "interacoes": [],
+    "interacoes": [
+      {
+        "com": [
+          "Álcool",
+          "Anti-histamínicos sedativos",
+          "Outros benzodiazepínicos",
+          "Zolpidem"
+        ],
+        "nivel": "grave",
+        "titulo": "Depressão grave do SNC",
+        "efeito": "Nitrazepam somado a outros depressores do SNC causa sedação profunda, prejuízo respiratório e risco de morte, especialmente em idosos.",
+        "conduta": "Evitar uso concomitante. Alertar paciente para não consumir álcool durante o tratamento."
+      },
+      {
+        "com": [
+          "Opioides",
+          "Morfina",
+          "Codeína",
+          "Tramadol"
+        ],
+        "nivel": "grave",
+        "titulo": "Depressão respiratória grave",
+        "efeito": "A associação de benzodiazepínico com opioide pode causar depressão respiratória severa, sedação profunda e morte.",
+        "conduta": "Contraindicado na maioria dos casos. Se absolutamente necessário, usar doses mínimas, com monitoramento de saturação de O₂."
+      },
+      {
+        "com": [
+          "Cimetidina"
+        ],
+        "nivel": "moderado",
+        "titulo": "Aumento dos níveis de nitrazepam",
+        "efeito": "Cimetidina inibe o metabolismo hepático do nitrazepam, prolongando e intensificando seus efeitos sedativos.",
+        "conduta": "Monitorar sedação excessiva; preferir ranitidina ou IBP como alternativa à cimetidina."
+      },
+      {
+        "tipo": "duplicacao",
+        "classe": "benzodiazepínico",
+        "nivel": "grave",
+        "titulo": "Duplicação de benzodiazepínico",
+        "efeito": "Dois benzodiazepínicos sem indicação específica aumentam o risco de dependência e depressão do SNC.",
+        "conduta": "Evitar combinação. Discutir esquema com médico especialista."
+      }
+    ],
     "slug": "nitrazepam-5mg-10mg"
   },
   {
@@ -43647,7 +44373,49 @@
     "descricao_seo": "Oxazepam 15mg é um benzodiazepínico ansiolítico seguro para hepatopatas e idosos, pois não depende do metabolismo hepático via CYP450. Indicado para ansiedade e abstinência alcoólica. Os efeitos colaterais mais relatados são: sedação, tontura e ataxia. Oxazepam é controlado (tarja preta) — vendido somente com receita de controle especial.",
     "alerta_farmaceutico": "Erro comum no balcão: paciente relata que \"o medicamento não está mais fazendo efeito\" e pede dose maior — é tolerância farmacológica, e aumentar a dose por conta própria acelera a dependência física. O médico deve ser consultado para reavaliação.",
     "quando_procurar_medico": "Procure médico se: dificuldade para respirar durante o sono, confusão mental intensa, comportamentos automáticos sem memória, dependência (necessidade de doses maiores), ou crise de abstinência ao tentar parar (tremores, suor, convulsão).",
-    "interacoes": [],
+    "interacoes": [
+      {
+        "com": [
+          "Álcool",
+          "Anti-histamínicos sedativos",
+          "Outros benzodiazepínicos",
+          "Barbitúricos"
+        ],
+        "nivel": "grave",
+        "titulo": "Depressão grave do SNC",
+        "efeito": "A associação de oxazepam com depressores do SNC potencializa sedação profunda, perda de coordenação e risco de queda e depressão respiratória.",
+        "conduta": "Evitar uso concomitante. Contraindicado com álcool. Alertar paciente sobre risco de quedas, especialmente idosos."
+      },
+      {
+        "com": [
+          "Opioides",
+          "Morfina",
+          "Codeína",
+          "Tramadol"
+        ],
+        "nivel": "grave",
+        "titulo": "Depressão respiratória grave",
+        "efeito": "Benzodiazepínico com opioide: risco de depressão respiratória severa e morte. Combinação com alta mortalidade documentada.",
+        "conduta": "Evitar. Se uso simultâneo for inevitável, usar doses mínimas, monitorar saturação de O₂ e ter naloxona disponível."
+      },
+      {
+        "com": [
+          "Clozapina"
+        ],
+        "nivel": "grave",
+        "titulo": "Hipotensão grave e parada respiratória",
+        "efeito": "Associação de oxazepam com clozapina pode causar hipotensão grave, colapso cardiovascular e parada respiratória.",
+        "conduta": "Contraindicado. Não usar oxazepam em pacientes em uso de clozapina."
+      },
+      {
+        "tipo": "duplicacao",
+        "classe": "benzodiazepínico",
+        "nivel": "grave",
+        "titulo": "Duplicação de benzodiazepínico",
+        "efeito": "Dois benzodiazepínicos aumentam risco de sedação, dependência e depressão respiratória.",
+        "conduta": "Evitar. Usar o benzodiazepínico mais adequado ao perfil do paciente."
+      }
+    ],
     "slug": "oxazepam-15mg"
   },
   {
@@ -45979,7 +46747,53 @@
     "descricao_seo": "Pirazinamida 500mg é um medicamento usado para: usada exclusivamente no tratamento da tuberculose (TB), sempre em associação com outros antibióticos antituberculosos como rifampicina e isoniazida. É um dos quatro medicamentos do esquema básico de primeira linha adotado pelo Ministério da Saúde. Os efeitos colaterais mais relatados são: o efeito colateral mais comum é a hiperuricemia (aumento do ácido úrico no sangue), que pode causar dores nas articulações semelhantes à gota — especialmente nos tornozelos, joelhos e dedos dos pés. Importante: Sinais de problema no fígado exigem atenção imediata: pele ou olhos amarelados (icterícia), urina escura, dor abdominal intensa e vômitos persistentes. Informe o médico imediatamente. Pirazinamida 500mg é vendido somente com receita médica — nunca use sem orientação de um profissional de saúde.",
     "alerta_farmaceutico": "Erro comum no balcão: paciente interrompe o antibiótico quando os sintomas melhoram — bactérias mais resistentes sobrevivem e a infecção pode voltar mais forte e difícil de tratar. Complete sempre o curso completo.",
     "quando_procurar_medico": "Procure médico se: visão turva ou alteração de cores (Etambutol), formigamento nas mãos e pés, icterícia, urina escura, ou febre persistente durante o tratamento.",
-    "interacoes": [],
+    "interacoes": [
+      {
+        "com": [
+          "Alopurinol"
+        ],
+        "nivel": "moderado",
+        "titulo": "Antagonismo no tratamento da hiperuricemia",
+        "efeito": "Pirazinamida causa hiperuricemia por inibição da excreção renal de ácido úrico, antagonizando o efeito do alopurinol e podendo desencadear crises de gota.",
+        "conduta": "Monitorar uricemia durante o tratamento com pirazinamida. Aumentar ingestão de líquidos; ajustar dose do alopurinol se necessário."
+      },
+      {
+        "com": [
+          "Álcool"
+        ],
+        "nivel": "moderado",
+        "titulo": "Hepatotoxicidade aumentada",
+        "efeito": "O álcool potencializa a hepatotoxicidade da pirazinamida, aumentando o risco de lesão hepática grave.",
+        "conduta": "Proibir consumo de álcool durante todo o tratamento com pirazinamida. Monitorar enzimas hepáticas (ALT, AST)."
+      },
+      {
+        "com": [
+          "Rifampicina",
+          "Isoniazida"
+        ],
+        "nivel": "moderado",
+        "titulo": "Hepatotoxicidade aditiva do esquema RIPE",
+        "efeito": "Os três antituberculosos têm potencial hepatotóxico; a combinação (parte do esquema RIPE) exige monitoramento hepático rigoroso.",
+        "conduta": "Monitorar função hepática mensalmente durante tratamento. Suspender se ALT > 3× o limite superior da normalidade com sintomas."
+      },
+      {
+        "com": [
+          "Probenecida"
+        ],
+        "nivel": "moderado",
+        "titulo": "Antagonismo uricosúrico",
+        "efeito": "Pirazinamida antagoniza o efeito uricosúrico da probenecida, reduzindo sua eficácia no tratamento da gota.",
+        "conduta": "Monitorar uricemia; avaliar alternativas ao tratamento simultâneo."
+      },
+      {
+        "tipo": "duplicacao",
+        "classe": "antituberculoso",
+        "nivel": "moderado",
+        "titulo": "Esquema antituberculoso — não duplicar fora do protocolo",
+        "efeito": "Pirazinamida é parte do esquema RIPE padronizado. Modificações fora do protocolo aumentam risco de resistência e toxicidade.",
+        "conduta": "Manter esquema conforme protocolo do Ministério da Saúde. Modificações apenas por infectologista ou pneumologista."
+      }
+    ],
     "sinonimos": [
       "Pirazinamida EMS",
       "Rifater"
@@ -46900,7 +47714,49 @@
     "descricao_seo": "Progesterona Micronizada 100mg - 200mg é um medicamento usado para: progesterona idêntica à produzida pelo ovário, usada em terapia de reposição hormonal, insuficiência do corpo lúteo, suporte à luteal em reprodução assistida, ameaça de aborto e prevenção de parto prematuro (via vaginal). Os efeitos colaterais mais relatados são: oral: sonolência (efeito sedativo — tomar à noite), tontura, cefaleia. Vaginal: irritação local, corrimento. Importante: Contraindicada em sangramento vaginal não diagnosticado, doença tromboembólica ativa e câncer hormônio-dependente. Diferente dos progestogênios sintéticos — perfil de efeitos mais favorável. Progesterona Micronizada 100mg - 200mg é vendido somente com receita médica — nunca use sem orientação de um profissional de saúde.",
     "alerta_farmaceutico": "Erro comum no balcão: paciente interrompe o medicamento por conta própria ao sentir melhora, sem comunicar o médico — muitos tratamentos precisam de duração definida para ser efetivos. Sempre orientar a não alterar a posologia sem orientação médica.",
     "quando_procurar_medico": "Procure médico se: sintomas não melhorarem no tempo esperado, surgirem efeitos colaterais intensos, a condição piorar durante o tratamento, surgir febre ou reação alérgica (urticária, inchaço, dificuldade para respirar).",
-    "interacoes": [],
+    "interacoes": [
+      {
+        "com": [
+          "Rifampicina",
+          "Rifabutina"
+        ],
+        "nivel": "moderado",
+        "titulo": "Redução dos níveis de progesterona por indução enzimática",
+        "efeito": "Rifampicina é potente indutor do CYP3A4, aumentando o metabolismo da progesterona e reduzindo sua eficácia (suporte lúteo, anticoncepção).",
+        "conduta": "Considerar forma não hormonal ou ajustar dose durante e até 4 semanas após rifampicina. Avaliar com ginecologista."
+      },
+      {
+        "com": [
+          "Carbamazepina",
+          "Fenitoína",
+          "Fenobarbital",
+          "Oxcarbazepina"
+        ],
+        "nivel": "moderado",
+        "titulo": "Redução da eficácia por indução do CYP3A4",
+        "efeito": "Antiepilépticos indutores enzimáticos aumentam o metabolismo da progesterona, podendo reduzir sua eficácia como suporte lúteo ou contraceptivo.",
+        "conduta": "Usar método contraceptivo adicional não hormonal. Discutir com médico alternativas de suporte lúteo."
+      },
+      {
+        "com": [
+          "Cetoconazol",
+          "Itraconazol",
+          "Inibidores de CYP3A4"
+        ],
+        "nivel": "moderado",
+        "titulo": "Aumento dos níveis de progesterona",
+        "efeito": "Inibidores de CYP3A4 reduzem o metabolismo da progesterona, podendo elevar seus níveis e intensificar efeitos (sonolência, tontura).",
+        "conduta": "Monitorar efeitos adversos. Ajustar dose de progesterona se necessário."
+      },
+      {
+        "tipo": "duplicacao",
+        "classe": "progestagênio",
+        "nivel": "moderado",
+        "titulo": "Duplicação de progestagênio",
+        "efeito": "Associação com acetato de medroxiprogesterona, levonorgestrel ou outro progestagênio sem indicação específica pode causar irregularidade menstrual e efeitos adversos desnecessários.",
+        "conduta": "Usar apenas um progestagênio por vez, salvo protocolo específico orientado pelo ginecologista."
+      }
+    ],
     "slug": "progesterona-micronizada-100mg-200mg"
   },
   {
@@ -53058,7 +53914,54 @@
     "descricao_seo": "Sulfassalazina 500mg é um medicamento usado para: usado no tratamento de doença inflamatória intestinal (retocolite ulcerativa, doença de Crohn leve a moderada) e como DMARD (medicamento modificador do curso da doença) em artrite reumatoide e artrite psoriásica. Os efeitos colaterais mais relatados são: náusea, cefaleia, anorexia, oligospermia reversível em homens (redução de espermatozoides — reversível após suspensão), coloração alaranjada da urina. Importante: Deficiência de G6PD é contraindicação — pode causar anemia hemolítica. Alérgicos a sulfonamidas ou aspirina podem ter reação cruzada. Monitorar hemograma e função hepática. Sulfassalazina 500mg é vendido somente com receita médica — nunca use sem orientação de um profissional de saúde.",
     "alerta_farmaceutico": "Erro comum no balcão: paciente combina anti-inflamatório com AAS ou outro analgésico sem perceber — muitos antigripais e analgésicos compostos já contêm anti-inflamatório, levando à sobredose inadvertida.",
     "quando_procurar_medico": "Procure médico se: dor de estômago intensa, fezes escuras, inchaço nos pés, pressão alta ou sintomas que não melhoram em 3–5 dias de uso.",
-    "interacoes": [],
+    "interacoes": [
+      {
+        "com": [
+          "Metotrexato"
+        ],
+        "nivel": "grave",
+        "titulo": "Toxicidade hematológica aditiva",
+        "efeito": "Sulfassalazina e metotrexato têm efeitos mielossupressores aditivos, aumentando o risco de leucopenia grave e infecções oportunistas.",
+        "conduta": "Combinação usada em artrite reumatoide (DMARD duplo), mas exige monitoramento frequente do hemograma completo."
+      },
+      {
+        "com": [
+          "Varfarina",
+          "Acenocumarol"
+        ],
+        "nivel": "moderado",
+        "titulo": "Potencialização do efeito anticoagulante",
+        "efeito": "Sulfassalazina pode deslocar a varfarina de ligações proteicas plasmáticas, elevando a fração livre e o risco de sangramento.",
+        "conduta": "Monitorar INR com maior frequência ao iniciar ou suspender sulfassalazina."
+      },
+      {
+        "com": [
+          "Digoxina"
+        ],
+        "nivel": "moderado",
+        "titulo": "Redução da absorção da digoxina",
+        "efeito": "Sulfassalazina reduz a absorção intestinal da digoxina, podendo diminuir seus níveis plasmáticos e eficácia.",
+        "conduta": "Monitorar níveis séricos de digoxina e efeito clínico (frequência cardíaca) ao iniciar ou suspender sulfassalazina."
+      },
+      {
+        "com": [
+          "Ácido fólico",
+          "Sulfato ferroso"
+        ],
+        "nivel": "moderado",
+        "titulo": "Redução da absorção da sulfassalazina",
+        "efeito": "Ferro e ácido fólico podem reduzir a absorção da sulfassalazina quando tomados simultaneamente.",
+        "conduta": "Tomar sulfassalazina e suplementos com intervalo de 2 horas."
+      },
+      {
+        "tipo": "duplicacao",
+        "classe": "aminossalicilato",
+        "nivel": "moderado",
+        "titulo": "Duplicação de aminossalicilato",
+        "efeito": "Associação com mesalazina sem indicação formal aumenta o risco de toxicidade renal e hematológica.",
+        "conduta": "Não combinar sulfassalazina com mesalazina sem orientação do reumatologista ou gastroenterologista."
+      }
+    ],
     "slug": "sulfassalazina-500mg"
   },
   {
@@ -55328,7 +56231,68 @@
     "descricao_seo": "Torasemida 5mg - 20mg é um diurético de alça com maior biodisponibilidade oral que a furosemida, indicado para insuficiência cardíaca, edema e hipertensão. Os efeitos colaterais mais relatados são: hipocalemia, desidratação, câimbras e tontura. Tomar pela manhã e monitorar eletrólitos. Torasemida é vendida somente com receita médica — nunca use sem orientação de um profissional de saúde.",
     "alerta_farmaceutico": "Erro comum no balcão: paciente para o diurético sozinho por sentir tontura ou cãibra — esses sintomas podem indicar desequilíbrio eletrolítico (baixo potássio ou sódio) que precisa de ajuste da dose, não de interrupção abrupta.",
     "quando_procurar_medico": "Procure médico se: cãibras musculares intensas, fraqueza muscular, palpitações ou batimentos irregulares (sinal de baixo potássio), tontura intensa ao levantar, inchaço que piora ou diminuição brusca do volume de urina.",
-    "interacoes": [],
+    "interacoes": [
+      {
+        "com": [
+          "Digoxina"
+        ],
+        "nivel": "grave",
+        "titulo": "Toxicidade da digoxina por hipocalemia",
+        "efeito": "Torasemida causa perda renal de potássio; a hipocalemia potencializa a toxicidade da digoxina, gerando risco de arritmias graves.",
+        "conduta": "Monitorar potássio sérico e ECG. Suplementar potássio se necessário."
+      },
+      {
+        "com": [
+          "Aminoglicosídeos",
+          "Gentamicina",
+          "Amicacina",
+          "Tobramicina"
+        ],
+        "nivel": "grave",
+        "titulo": "Ototoxicidade aditiva",
+        "efeito": "Torasemida e aminoglicosídeos são ototóxicos; a combinação aumenta significativamente o risco de surdez irreversível.",
+        "conduta": "Evitar uso simultâneo sempre que possível. Se necessário, monitorar função auditiva e níveis séricos dos aminoglicosídeos."
+      },
+      {
+        "com": [
+          "Lítio"
+        ],
+        "nivel": "grave",
+        "titulo": "Toxicidade do lítio",
+        "efeito": "Torasemida pode reduzir a excreção renal de lítio, elevando sua concentração plasmática e o risco de toxicidade.",
+        "conduta": "Monitorar litemia regularmente; ajustar dose do lítio sob orientação médica."
+      },
+      {
+        "com": [
+          "Anti-inflamatórios (AINEs)",
+          "Ibuprofeno",
+          "Naproxeno"
+        ],
+        "nivel": "moderado",
+        "titulo": "Redução do efeito diurético",
+        "efeito": "AINEs inibem prostaglandinas renais, antagonizando o efeito diurético da torasemida e podendo levar à retenção de sódio e água.",
+        "conduta": "Preferir paracetamol como analgésico. Monitorar edema, pressão arterial e função renal."
+      },
+      {
+        "com": [
+          "Antidiabéticos",
+          "Insulina",
+          "Metformina"
+        ],
+        "nivel": "moderado",
+        "titulo": "Hiperglicemia",
+        "efeito": "Diuréticos de alça podem elevar a glicemia, interferindo no controle do diabetes.",
+        "conduta": "Monitorar glicemia; ajustar dose do antidiabético se necessário."
+      },
+      {
+        "tipo": "duplicacao",
+        "classe": "diuretico_ansa",
+        "nivel": "moderado",
+        "titulo": "Duplicação de diurético de alça",
+        "efeito": "Associar torasemida com furosemida ou bumetanida aumenta o risco de desidratação, hipocalemia e insuficiência renal aguda.",
+        "conduta": "Evitar combinação de dois diuréticos de alça. Discussão médica obrigatória."
+      }
+    ],
     "slug": "torasemida-5mg-20mg"
   },
   {
@@ -61355,7 +62319,56 @@
     "descricao_seo": "Nitrofurantoína (Macrodantina) é antibiótico para infecção urinária baixa (cistite). Saiba por que a urina fica escura, quando não usar e como tomar corretamente.",
     "alerta_farmaceutico": "Não usar em insuficiência renal com ClCr < 30 mL/min. Antiácidos com magnésio reduzem absorção — separar por 2h. Probenecida reduz excreção urinária e diminui eficácia. Risco de neuropatia periférica em uso prolongado — monitorar. Não usar em combinação com quinolonas para mesma infecção (interação antagonista).",
     "quando_procurar_medico": "Imediatamente: febre acima de 38°C com calafrios e dor nas costas ou flancos (infecção renal), falta de ar ou tosse durante o tratamento (reação pulmonar rara), sintomas que não melhoram após 48h de tratamento. Retorno: ITU de repetição (mais de 3 episódios por ano).",
-    "interacoes": [],
+    "interacoes": [
+      {
+        "com": [
+          "Probenecida",
+          "Sulfinpirazona"
+        ],
+        "nivel": "moderado",
+        "titulo": "Redução da excreção renal e aumento da toxicidade",
+        "efeito": "Probenecida e sulfinpirazona reduzem a secreção tubular renal de nitrofurantoína, elevando seus níveis séricos e reduzindo concentrações urinárias (perda de eficácia).",
+        "conduta": "Evitar associação. Escolher antibiótico alternativo para infecção urinária."
+      },
+      {
+        "com": [
+          "Quinolonas",
+          "Norfloxacina",
+          "Ciprofloxacino"
+        ],
+        "nivel": "moderado",
+        "titulo": "Antagonismo antibacteriano",
+        "efeito": "Quinolonas e nitrofurantoína podem ser antagonistas em alguns isolados bacterianos, reduzindo a eficácia de ambas.",
+        "conduta": "Não combinar rotineiramente; escolher um dos dois conforme antibiograma."
+      },
+      {
+        "com": [
+          "Antiácidos com magnésio",
+          "Hidróxido de magnésio"
+        ],
+        "nivel": "leve",
+        "titulo": "Redução da absorção da nitrofurantoína",
+        "efeito": "Antiácidos com magnésio reduzem a biodisponibilidade oral da nitrofurantoína.",
+        "conduta": "Tomar nitrofurantoína 2 horas antes ou 2 horas após antiácidos com magnésio."
+      },
+      {
+        "com": [
+          "Álcool"
+        ],
+        "nivel": "leve",
+        "titulo": "Aumento de efeitos adversos gastrointestinais",
+        "efeito": "O álcool pode potencializar náuseas e desconforto gástrico causados pela nitrofurantoína.",
+        "conduta": "Evitar álcool durante o tratamento. Tomar o medicamento com alimentos para reduzir efeitos GI."
+      },
+      {
+        "tipo": "duplicacao",
+        "classe": "antibiotico_urinario",
+        "nivel": "moderado",
+        "titulo": "Duplicação de antibiótico urinário",
+        "efeito": "Associação com fosfomicina ou outro antibiótico urinário sem indicação aumenta o risco de efeitos adversos sem ganho de eficácia.",
+        "conduta": "Usar monoterapia conforme antibiograma; discutir combinação com médico se infecção complicada."
+      }
+    ],
     "slug": "nitrofurantoina-100mg-100mg-macrocristal"
   },
   {
@@ -61875,7 +62888,62 @@
     "descricao_seo": "Clobazam (Urbanyl) é anticonvulsivante benzodiazepínico para epilepsia refratária e Síndrome de Lennox-Gastaut. Saiba como usar, por que não parar abruptamente e diferenças do clonazepam.",
     "alerta_farmaceutico": "Carbamazepina e oxcarbazepina induzem metabolismo do clobazam, reduzindo sua concentração mas aumentando o metabólito ativo N-desmetilclobazam (sedação). Fluconazol, fluvoxamina e omeprazol inibem CYP2C19 e elevam o N-desmetilclobazam — maior sedação. Álcool e outros depressores do SNC potencializam sedação.",
     "quando_procurar_medico": "Emergência: crises convulsivas sem controle, agitação extrema ou confusão após redução de dose (abstinência), sedação muito profunda com dificuldade para respirar. Programada: perda gradual de eficácia (tolerância), comportamento incomum em crianças, planejamento de gravidez.",
-    "interacoes": [],
+    "interacoes": [
+      {
+        "com": [
+          "Álcool",
+          "Opioides",
+          "Outros benzodiazepínicos",
+          "Zolpidem",
+          "Anti-histamínicos sedativos"
+        ],
+        "nivel": "grave",
+        "titulo": "Depressão grave do sistema nervoso central",
+        "efeito": "A combinação de clobazam com depressores do SNC potencializa sedação, risco de parada respiratória e morte, especialmente com opioides.",
+        "conduta": "Evitar associação. Se inevitável, usar doses mínimas, monitorar respiração e alertar para risco de depressão respiratória."
+      },
+      {
+        "com": [
+          "Inibidores de CYP2C19",
+          "Fluconazol",
+          "Fluvoxamina",
+          "Omeprazol",
+          "Esomeprazol"
+        ],
+        "nivel": "moderado",
+        "titulo": "Aumento do metabólito ativo (N-desmetilclobazam)",
+        "efeito": "Inibidores de CYP2C19 reduzem o metabolismo do principal metabólito ativo do clobazam, aumentando sedação e efeitos adversos.",
+        "conduta": "Monitorar sedação excessiva; reduzir dose de clobazam se necessário. Considerar substituto para o inibidor de CYP2C19."
+      },
+      {
+        "com": [
+          "Carbamazepina",
+          "Fenitoína",
+          "Rifampicina"
+        ],
+        "nivel": "moderado",
+        "titulo": "Redução dos níveis de clobazam por indução enzimática",
+        "efeito": "Indutores enzimáticos aumentam o metabolismo do clobazam, reduzindo sua eficácia como antiepilético.",
+        "conduta": "Monitorar controle das crises epilépticas; pode ser necessário ajuste de dose de clobazam."
+      },
+      {
+        "com": [
+          "Valproato de sódio"
+        ],
+        "nivel": "moderado",
+        "titulo": "Inibição do metabolismo do clobazam",
+        "efeito": "Valproato inibe o CYP2C19, elevando os níveis do metabólito ativo do clobazam e potencializando a sedação.",
+        "conduta": "Monitorar sedação e ajustar dose de clobazam se necessário. Combinação usada em epilepsia — avaliar com neurologista."
+      },
+      {
+        "tipo": "duplicacao",
+        "classe": "benzodiazepínico",
+        "nivel": "grave",
+        "titulo": "Duplicação de benzodiazepínico",
+        "efeito": "Associação de dois benzodiazepínicos aumenta risco de sedação excessiva, depressão respiratória e dependência.",
+        "conduta": "Evitar combinação de dois benzodiazepínicos. Discutir esquema com neurologista ou psiquiatra."
+      }
+    ],
     "slug": "clobazam"
   },
   {
@@ -62870,7 +63938,62 @@
         "resposta": "Sim, é o efeito colateral mais comum — afeta até 30% dos pacientes. Costuma diminuir com o tempo. Se for insuportável, fale com o médico."
       }
     ],
-    "slug": "cilostazol-50mg-100mg"
+    "slug": "cilostazol-50mg-100mg",
+    "interacoes": [
+      {
+        "com": [
+          "Varfarina",
+          "Acenocumarol"
+        ],
+        "nivel": "grave",
+        "titulo": "Risco aumentado de sangramento",
+        "efeito": "Cilostazol tem efeito antiagregante plaquetário; combinado com anticoagulantes, o risco de sangramento grave é significativamente aumentado.",
+        "conduta": "Monitorar INR e sinais de sangramento. Uso combinado exige vigilância clínica rigorosa."
+      },
+      {
+        "com": [
+          "Inibidores de CYP3A4",
+          "Cetoconazol",
+          "Itraconazol",
+          "Eritromicina",
+          "Claritromicina",
+          "Fluconazol"
+        ],
+        "nivel": "grave",
+        "titulo": "Aumento dos níveis plasmáticos de cilostazol",
+        "efeito": "Inibidores do CYP3A4 reduzem o metabolismo do cilostazol, podendo dobrar sua concentração plasmática e aumentar efeitos adversos cardiovasculares.",
+        "conduta": "Reduzir dose de cilostazol para 50mg duas vezes ao dia quando associado a inibidores potentes de CYP3A4. Monitorar efeitos adversos."
+      },
+      {
+        "com": [
+          "Omeprazol",
+          "Lansoprazol",
+          "Inibidores de CYP2C19"
+        ],
+        "nivel": "moderado",
+        "titulo": "Aumento dos níveis de cilostazol por inibição do CYP2C19",
+        "efeito": "Inibidores do CYP2C19 aumentam a exposição ao metabólito ativo do cilostazol, podendo intensificar efeitos adversos.",
+        "conduta": "Reduzir dose de cilostazol para 50mg duas vezes ao dia. Monitorar palpitações, dor de cabeça e diarreia."
+      },
+      {
+        "com": [
+          "Aspirina",
+          "AAS"
+        ],
+        "nivel": "moderado",
+        "titulo": "Antiagregação aditiva",
+        "efeito": "A combinação aumenta o efeito antiagregante plaquetário; embora usada clinicamente em alguns casos, eleva o risco de sangramento.",
+        "conduta": "Usar com cautela. Monitorar sinais de sangramento gastrointestinal e hematomas."
+      },
+      {
+        "tipo": "duplicacao",
+        "classe": "antiagregante_plaquetario",
+        "nivel": "moderado",
+        "titulo": "Duplicação de antiagregante plaquetário",
+        "efeito": "Associação com clopidogrel, ticagrelor ou prasugrel sem indicação formal aumenta o risco de sangramento sem benefício adicional comprovado.",
+        "conduta": "Avaliar risco-benefício da tripla antiagregação com o cardiologista."
+      }
+    ]
   },
   {
     "nome": "Dalteparina 2.500 - 5.000 - 10.000 UI",
@@ -62915,7 +64038,63 @@
         "resposta": "Em doses profiláticas geralmente não. Em doses terapêuticas ou pacientes especiais (gestantes, obesos, insuficiência renal), o médico pode pedir monitoramento com anti-Xa."
       }
     ],
-    "slug": "dalteparina-2500-5000-10000-ui"
+    "slug": "dalteparina-2500-5000-10000-ui",
+    "interacoes": [
+      {
+        "com": [
+          "AINEs",
+          "Ibuprofeno",
+          "Naproxeno",
+          "Diclofenaco"
+        ],
+        "nivel": "grave",
+        "titulo": "Risco de sangramento aditivo",
+        "efeito": "AINEs inibem a função plaquetária e causam lesão da mucosa gástrica, aumentando consideravelmente o risco de sangramento com heparinas.",
+        "conduta": "Evitar uso simultâneo. Preferir paracetamol. Se necessário AINE, associar proteção gástrica com IBP e monitorar sangramento."
+      },
+      {
+        "com": [
+          "Aspirina",
+          "AAS",
+          "Clopidogrel",
+          "Ticagrelor"
+        ],
+        "nivel": "grave",
+        "titulo": "Antiagregação e anticoagulação simultâneas",
+        "efeito": "A combinação de antiagregante plaquetário com heparina de baixo peso molecular aumenta significativamente o risco de sangramento.",
+        "conduta": "Uso combinado só em indicações específicas (SCA, stent). Monitorar ativamente sinais de sangramento."
+      },
+      {
+        "com": [
+          "Trombolíticos",
+          "Alteplase",
+          "Estreptoquinase"
+        ],
+        "nivel": "grave",
+        "titulo": "Risco de sangramento grave",
+        "efeito": "A associação de heparina com trombolítico aumenta drasticamente o risco de sangramento, inclusive intracraniano.",
+        "conduta": "Uso apenas em protocolos hospitalares específicos com monitoramento intensivo."
+      },
+      {
+        "com": [
+          "Inibidores da ECA",
+          "Espironolactona",
+          "Suplementos de potássio"
+        ],
+        "nivel": "moderado",
+        "titulo": "Hipercalemia",
+        "efeito": "Heparinas podem inibir a síntese de aldosterona, causando hipercalemia, especialmente quando combinadas com outros agentes que elevam o potássio.",
+        "conduta": "Monitorar potássio sérico durante uso prolongado de heparina, especialmente em pacientes com insuficiência renal."
+      },
+      {
+        "tipo": "duplicacao",
+        "classe": "anticoagulante_heparina",
+        "nivel": "grave",
+        "titulo": "Duplicação de anticoagulação heparínica",
+        "efeito": "Combinação com outras heparinas (enoxaparina, nadroparina, fondaparinux) aumenta drasticamente o risco de sangramento.",
+        "conduta": "Nunca combinar duas heparinas ou heparina com fondaparinux sem protocolo específico."
+      }
+    ]
   },
   {
     "nome": "Dipiridamol 25mg - 75mg - 100mg",
@@ -63006,7 +64185,64 @@
         "resposta": "O andexanet alfa reverte inibidores do fator Xa (incluindo edoxabana) em situações de emergência, mas disponibilidade no Brasil ainda é limitada."
       }
     ],
-    "slug": "edoxabana-15mg-30mg-60mg"
+    "slug": "edoxabana-15mg-30mg-60mg",
+    "interacoes": [
+      {
+        "com": [
+          "Rifampicina"
+        ],
+        "nivel": "grave",
+        "titulo": "Redução significativa dos níveis de edoxabana",
+        "efeito": "Rifampicina é potente indutor de CYP3A4 e P-glicoproteína, reduzindo drasticamente a concentração plasmática de edoxabana e sua eficácia anticoagulante.",
+        "conduta": "Evitar combinação. Considerar anticoagulante alternativo durante e até 2 semanas após suspensão da rifampicina."
+      },
+      {
+        "com": [
+          "AINEs",
+          "Ibuprofeno",
+          "Diclofenaco",
+          "Naproxeno",
+          "Aspirina em dose alta"
+        ],
+        "nivel": "grave",
+        "titulo": "Risco aumentado de sangramento",
+        "efeito": "AINEs inibem a função plaquetária e causam lesão gástrica, potencializando o risco de sangramento gastrointestinal com edoxabana.",
+        "conduta": "Evitar uso concomitante. Preferir paracetamol. Se AINE necessário, usar por menor tempo possível com proteção gástrica (IBP)."
+      },
+      {
+        "com": [
+          "Amiodarona",
+          "Verapamil",
+          "Quinidina",
+          "Dronedarona"
+        ],
+        "nivel": "moderado",
+        "titulo": "Aumento dos níveis de edoxabana por inibição de P-gp",
+        "efeito": "Estes fármacos inibem a P-glicoproteína, reduzindo a eliminação de edoxabana e elevando seus níveis plasmáticos com risco de sangramento.",
+        "conduta": "Reduzir dose de edoxabana para 30mg/dia quando associada a esses inibidores de P-gp. Monitorar sangramento."
+      },
+      {
+        "com": [
+          "Outros anticoagulantes",
+          "Heparina",
+          "Varfarina",
+          "Rivaroxabana",
+          "Apixabana"
+        ],
+        "nivel": "grave",
+        "titulo": "Risco de sangramento grave por duplicação anticoagulante",
+        "efeito": "Sobreposição de anticoagulantes sem protocolo de transição aumenta o risco de sangramento potencialmente fatal.",
+        "conduta": "Transição entre anticoagulantes deve ser realizada conforme protocolo específico, sob orientação médica."
+      },
+      {
+        "tipo": "duplicacao",
+        "classe": "anticoagulante_oral",
+        "nivel": "grave",
+        "titulo": "Duplicação de anticoagulante oral",
+        "efeito": "Combinação com outros anticoagulantes orais (rivaroxabana, apixabana, varfarina) sem protocolo de transição é perigosa.",
+        "conduta": "Nunca combinar dois anticoagulantes sem protocolo médico específico de transição."
+      }
+    ]
   },
   {
     "nome": "Fondaparinux 1,5mg - 2,5mg - 5mg - 7,5mg - 10mg",
@@ -63639,7 +64875,57 @@
     "descricao_seo": "Dextrometorfano 15mg/5mL é um antitussígeno para tosse seca de venda livre. Não usar com IMAO — risco de síndrome serotoninérgica grave. Presente em muitos antigripais combinados — atenção à dose dupla.",
     "alerta_farmaceutico": "Verificar se paciente usa IMAO — interação potencialmente fatal. Fluoxetina e paroxetina inibem CYP2D6 e aumentam muito os níveis de DXM. Presente em dezenas de antigripais — perguntar sobre todos os medicamentos em uso para evitar superdosagem acidental.",
     "quando_procurar_medico": "Procure emergência se: febre, agitação extrema, confusão após uso com antidepressivo (síndrome serotoninérgica), taquicardia intensa, convulsão. Procure médico se: tosse persiste por mais de 7 dias, acompanhada de febre ou expectoração com sangue.",
-    "interacoes": [],
+    "interacoes": [
+      {
+        "com": [
+          "IMAOs",
+          "Tranilcipromina",
+          "Fenelzina",
+          "Moclobemida",
+          "Selegilina"
+        ],
+        "nivel": "grave",
+        "titulo": "Síndrome serotoninérgica — CONTRAINDICADO",
+        "efeito": "IMAOs inibem o metabolismo da serotonina; dextrometorfano inibe sua recaptação. A combinação pode causar síndrome serotoninérgica grave (hipertermia, rigidez, convulsões, morte).",
+        "conduta": "CONTRAINDICADO. Aguardar pelo menos 14 dias após suspensão do IMAO antes de usar dextrometorfano."
+      },
+      {
+        "com": [
+          "Fluoxetina",
+          "Paroxetina"
+        ],
+        "nivel": "grave",
+        "titulo": "Síndrome serotoninérgica e acúmulo de dextrometorfano",
+        "efeito": "Fluoxetina e paroxetina são inibidores potentes do CYP2D6, responsável pelo metabolismo do dextrometorfano. A combinação eleva drasticamente seus níveis e pode causar síndrome serotoninérgica.",
+        "conduta": "Evitar associação. Considerar substituto não-serotoninérgico para tosse (guaifenesina, ibuprofeno para tosse pós-viral)."
+      },
+      {
+        "com": [
+          "Sibutramina"
+        ],
+        "nivel": "grave",
+        "titulo": "Síndrome serotoninérgica",
+        "efeito": "Sibutramina inibe a recaptação de serotonina; combinada com dextrometorfano, o risco de síndrome serotoninérgica é significativo.",
+        "conduta": "Evitar associação. Usar alternativa para tosse sem ação serotoninérgica."
+      },
+      {
+        "com": [
+          "Álcool"
+        ],
+        "nivel": "moderado",
+        "titulo": "Depressão do SNC aditiva",
+        "efeito": "Álcool potencializa os efeitos depressores do SNC do dextrometorfano, causando tontura, confusão e sedação.",
+        "conduta": "Evitar álcool durante uso de dextrometorfano."
+      },
+      {
+        "tipo": "duplicacao",
+        "classe": "antitussígeno_central",
+        "nivel": "moderado",
+        "titulo": "Duplicação de antitussígeno central",
+        "efeito": "Associação com codeína ou outros antitussígenos centrais aumenta depressão respiratória sem benefício adicional.",
+        "conduta": "Usar apenas um antitussígeno por vez."
+      }
+    ],
     "slug": "dextrometorfano-15mg5ml-xarope"
   },
   {
@@ -64190,7 +65476,66 @@
     "descricao_seo": "Tizanidina 2mg - 4mg (Sirdalud) é um relaxante muscular central para espasticidade e contraturas. Receita simples. Sedação intensa — não dirigir. Interação grave com ciprofloxacino. Monitorar fígado e pressão arterial.",
     "alerta_farmaceutico": "Interação grave e contraindicada com ciprofloxacino e fluvoxamina (inibem CYP1A2 — aumentam muito os níveis). Hipotensão aditiva com anti-hipertensivos e álcool. Verificar função hepática antes de dispensar cronicamente. Não interromper abruptamente após uso prolongado.",
     "quando_procurar_medico": "Procure médico se: tontura muito intensa ao levantar (hipotensão), icterícia, urina escura ou dor abdominal (hepatotoxicidade), alucinações. Informe o médico antes de usar qualquer antibiótico (especialmente ciprofloxacino ou levofloxacino).",
-    "interacoes": [],
+    "interacoes": [
+      {
+        "com": [
+          "Ciprofloxacino"
+        ],
+        "nivel": "grave",
+        "titulo": "Aumento drástico dos níveis de tizanidina — CONTRAINDICADO",
+        "efeito": "Ciprofloxacino inibe fortemente o CYP1A2, responsável pelo metabolismo da tizanidina. A concentração plasmática pode aumentar mais de 10 vezes, causando hipotensão grave, bradicardia e sedação profunda.",
+        "conduta": "CONTRAINDICADO. Não usar tizanidina com ciprofloxacino. Substituir o antibiótico ou suspender tizanidina."
+      },
+      {
+        "com": [
+          "Fluvoxamina"
+        ],
+        "nivel": "grave",
+        "titulo": "Aumento muito significativo dos níveis de tizanidina — CONTRAINDICADO",
+        "efeito": "Fluvoxamina é inibidor potente de CYP1A2; a associação com tizanidina causa aumento de mais de 30 vezes na concentração plasmática, com risco de hipotensão grave e colapso.",
+        "conduta": "CONTRAINDICADO. Não combinar fluvoxamina com tizanidina."
+      },
+      {
+        "com": [
+          "Anti-hipertensivos",
+          "Losartana",
+          "Enalapril",
+          "Anlodipino"
+        ],
+        "nivel": "moderado",
+        "titulo": "Hipotensão aditiva",
+        "efeito": "Tizanidina tem ação agonista alfa-2 central com propriedade hipotensora; combinada com anti-hipertensivos, pode causar hipotensão sintomática.",
+        "conduta": "Monitorar pressão arterial regularmente, especialmente ao levantar. Ajustar doses se necessário."
+      },
+      {
+        "com": [
+          "Álcool",
+          "Benzodiazepínicos",
+          "Opioides"
+        ],
+        "nivel": "moderado",
+        "titulo": "Sedação aditiva",
+        "efeito": "Depressores do SNC potencializam o efeito sedativo da tizanidina, aumentando risco de sonolência excessiva e acidentes.",
+        "conduta": "Evitar álcool. Usar com cautela combinações com outros sedativos. Alertar paciente para não dirigir."
+      },
+      {
+        "com": [
+          "Anticoncepcionais orais"
+        ],
+        "nivel": "moderado",
+        "titulo": "Aumento dos níveis de tizanidina",
+        "efeito": "Contraceptivos orais inibem parcialmente o CYP1A2, podendo elevar os níveis plasmáticos de tizanidina e intensificar seus efeitos.",
+        "conduta": "Iniciar tizanidina com dose menor em mulheres em uso de anticoncepcionais orais; ajustar conforme resposta."
+      },
+      {
+        "tipo": "duplicacao",
+        "classe": "relaxante_muscular_central",
+        "nivel": "moderado",
+        "titulo": "Duplicação de relaxante muscular de ação central",
+        "efeito": "Associação com baclofeno ou ciclobenzaprina aumenta sedação e hipotensão sem benefício adicional.",
+        "conduta": "Evitar combinação de dois relaxantes musculares de ação central."
+      }
+    ],
     "slug": "tizanidina-2mg-4mg"
   },
   {
@@ -64852,7 +66197,69 @@
     "descricao_seo": "Clortalidona 12,5mg a 50mg (Higroton) é um diurético tiazídico de ação prolongada (45-60h) para hipertensão e edema. Superior à hidroclorotiazida na proteção cardiovascular. Monitorar potássio. Tomar de manhã. Pode elevar ácido úrico e glicemia.",
     "alerta_farmaceutico": "Hipocalemia é o principal risco — monitorar potássio, especialmente em uso de digoxina ou antiarrítmicos (risco de arritmia fatal). Hiperuricemia pode precipitar gota. Interação com AINEs (redução do efeito e risco renal). Monitorar glicemia em diabéticos. Meia-vida longa: efeitos adversos persistem 2-3 dias após suspensão.",
     "quando_procurar_medico": "Procure médico se: câimbras intensas ou fraqueza muscular (hipocalemia), tontura intensa ou desmaio, diminuição abrupta da urina, dor articular intensa (gota), piora do diabetes, ou confusão mental em idosos (hiponatremia).",
-    "interacoes": [],
+    "interacoes": [
+      {
+        "com": [
+          "Digoxina"
+        ],
+        "nivel": "grave",
+        "titulo": "Toxicidade da digoxina por hipocalemia",
+        "efeito": "Clortalidona causa perda de potássio; a hipocalemia resultante potencializa a toxicidade da digoxina, podendo causar arritmias graves.",
+        "conduta": "Monitorar potássio sérico e sinais de toxicidade digitálica regularmente. Suplementar potássio se necessário."
+      },
+      {
+        "com": [
+          "Lítio"
+        ],
+        "nivel": "grave",
+        "titulo": "Toxicidade do lítio",
+        "efeito": "Clortalidona reduz a excreção renal de lítio, elevando seus níveis plasmáticos e o risco de toxicidade (tremores, confusão, arritmia).",
+        "conduta": "Monitorar litemia com frequência; ajustar dose do lítio sob orientação médica."
+      },
+      {
+        "com": [
+          "Anti-inflamatórios (AINEs)",
+          "Ibuprofeno",
+          "Naproxeno",
+          "Diclofenaco"
+        ],
+        "nivel": "moderado",
+        "titulo": "Redução do efeito diurético e anti-hipertensivo",
+        "efeito": "AINEs inibem a síntese de prostaglandinas renais, reduzindo a eficácia da clortalidona e podendo elevar a pressão arterial.",
+        "conduta": "Preferir paracetamol como analgésico. Se AINE for necessário, monitorar pressão e função renal."
+      },
+      {
+        "com": [
+          "Insulina",
+          "Metformina",
+          "Glibenclamida",
+          "Antidiabéticos orais"
+        ],
+        "nivel": "moderado",
+        "titulo": "Hiperglicemia e piora do controle glicêmico",
+        "efeito": "Diuréticos tiazídicos podem elevar a glicemia, reduzindo a eficácia dos antidiabéticos.",
+        "conduta": "Monitorar glicemia com mais frequência; ajustar dose do antidiabético se necessário."
+      },
+      {
+        "com": [
+          "Corticosteroides",
+          "Prednisona",
+          "Dexametasona"
+        ],
+        "nivel": "moderado",
+        "titulo": "Hipocalemia aditiva",
+        "efeito": "Corticosteroides e clortalidona causam perda de potássio de forma aditiva, aumentando o risco de hipocalemia grave.",
+        "conduta": "Monitorar potássio sérico; considerar suplementação de potássio se necessário."
+      },
+      {
+        "tipo": "duplicacao",
+        "classe": "diuretico_tiazidico",
+        "nivel": "moderado",
+        "titulo": "Duplicação de diurético tiazídico",
+        "efeito": "Combinação com hidroclorotiazida ou outros tiazídicos sem benefício adicional e com maior risco de desidratação e hipocalemia.",
+        "conduta": "Evitar associação de dois diuréticos tiazídicos. Discutir com médico se necessário escalonamento."
+      }
+    ],
     "slug": "clortalidona-125mg-25mg-50mg"
   },
   {
@@ -66750,7 +68157,67 @@
     "descricao_seo": "Vardenafila (Levitra/Staxyn) é indicada para disfunção erétil. Age em 25–60 min com duração de 4–6h. Nunca combinar com nitratos — risco fatal. Requer receita médica.",
     "quando_procurar_medico": "Urgência: ereção por mais de 4 horas (priapismo), dor no peito, tontura intensa ou desmaio após uso, alterações visuais súbitas ou perda de visão.",
     "alerta_farmaceutico": "Verificar uso concomitante de nitratos antes de dispensar — contraindicação absoluta. Atenção a pacientes que usam alfa-bloqueadores (doxazosina, tansulosina) — hipotensão aditiva: recomendar intervalo de pelo menos 6 horas. Não dispensar para menores de 18 anos.",
-    "slug": "vardenafila-5mg-10mg-20mg-levitra-staxyn"
+    "slug": "vardenafila-5mg-10mg-20mg-levitra-staxyn",
+    "interacoes": [
+      {
+        "com": [
+          "Nitratos",
+          "Nitroglicerina",
+          "Isossorbida",
+          "Nitroprussiato"
+        ],
+        "nivel": "grave",
+        "titulo": "Hipotensão grave — CONTRAINDICADO",
+        "efeito": "A combinação de vardenafila com nitratos causa hipotensão arterial grave e potencialmente fatal por efeito vasodilatador sinérgico.",
+        "conduta": "CONTRAINDICADO. Não usar vardenafila em pacientes que fazem uso de qualquer forma de nitrato (incluindo amil nitrito)."
+      },
+      {
+        "com": [
+          "Alfa-bloqueadores",
+          "Doxazosina",
+          "Tansulosina",
+          "Prazosina"
+        ],
+        "nivel": "grave",
+        "titulo": "Hipotensão ortostática grave",
+        "efeito": "Alfa-bloqueadores e vardenafila somam efeito vasodilatador, causando queda grave da pressão arterial ao levantar, com risco de desmaio.",
+        "conduta": "Iniciar alfa-bloqueador na dose mais baixa e estabilizar antes de introduzir vardenafila. Monitorar pressão arterial."
+      },
+      {
+        "com": [
+          "Inibidores de CYP3A4",
+          "Ritonavir",
+          "Cetoconazol",
+          "Itraconazol",
+          "Eritromicina",
+          "Claritromicina"
+        ],
+        "nivel": "grave",
+        "titulo": "Aumento significativo dos níveis de vardenafila",
+        "efeito": "Inibidores potentes do CYP3A4 aumentam muito os níveis plasmáticos de vardenafila, elevando risco de priapismo, hipotensão e efeitos cardíacos.",
+        "conduta": "Evitar combinação. Com ritonavir, vardenafila é contraindicada. Com outros inibidores moderados, reduzir dose e ampliar intervalo."
+      },
+      {
+        "com": [
+          "Antiarrítmicos classe IA e III",
+          "Quinidina",
+          "Amiodarona",
+          "Sotalol"
+        ],
+        "nivel": "grave",
+        "titulo": "Prolongamento do intervalo QT",
+        "efeito": "Vardenafila prolonga o QT; combinada com antiarrítmicos que também prolongam o QT, aumenta o risco de arritmias graves (torsades de pointes).",
+        "conduta": "CONTRAINDICADO com antiarrítmicos que prolongam o QT. Realizar ECG antes de iniciar vardenafila em pacientes de risco."
+      },
+      {
+        "tipo": "duplicacao",
+        "classe": "inibidor_pde5",
+        "nivel": "moderado",
+        "titulo": "Duplicação de inibidor de PDE5",
+        "efeito": "Associação com sildenafila ou tadalafila sem indicação aumenta risco de hipotensão grave e priapismo.",
+        "conduta": "Não combinar dois inibidores de PDE5."
+      }
+    ]
   },
   {
     "nome": "Ergotamina + Cafeína (Cafertil / Cafergot)",
@@ -66801,7 +68268,65 @@
     "descricao_seo": "Ergotamina (Cafertil/Cafergot) é usada no tratamento agudo da enxaqueca. Vasoconstritor potente — nunca combinar com triptanos. Contraindicado na gravidez. Limite de uso: 10mg/semana.",
     "quando_procurar_medico": "Urgência: dedos ou pés frios, azulados ou com dor intensa após uso (ergotismo), dor no peito, enxaquecas mais frequentes que 2x/semana (risco de cefaleia de rebote) ou ausência de resposta ao tratamento.",
     "alerta_farmaceutico": "Verificar frequência de uso — mais de 10 dias/mês indica risco de cefaleia por uso excessivo. Contraindicado em gestantes, pacientes com doença vascular, coronariopatia ou uso de macrolídeos/azóis (elevam ergotamina a níveis tóxicos). Produto com margem de segurança estreita.",
-    "slug": "ergotamina-cafeina-cafertil-cafergot"
+    "slug": "ergotamina-cafeina-cafertil-cafergot",
+    "interacoes": [
+      {
+        "com": [
+          "Triptanos",
+          "Sumatriptano",
+          "Zolmitriptano",
+          "Naratriptano",
+          "Rizatriptano"
+        ],
+        "nivel": "grave",
+        "titulo": "Vasoconstrição aditiva grave — CONTRAINDICADO",
+        "efeito": "Ergotamina e triptanos são vasoconstritores; a combinação causa vasospasmo coronariano e periférico grave, com risco de isquemia e infarto.",
+        "conduta": "CONTRAINDICADO. Não usar ergotamina nas 24 horas antes ou após triptano."
+      },
+      {
+        "com": [
+          "Macrolídeos",
+          "Eritromicina",
+          "Claritromicina",
+          "Azitromicina"
+        ],
+        "nivel": "grave",
+        "titulo": "Ergotismo por inibição do CYP3A4 — CONTRAINDICADO",
+        "efeito": "Macrolídeos inibem o CYP3A4, elevando drasticamente os níveis de ergotamina e causando ergotismo (vasospasmo, gangrena de extremidades).",
+        "conduta": "CONTRAINDICADO. Usar antibiótico alternativo (doxiciclina, amoxicilina) em pacientes em uso de ergotamina."
+      },
+      {
+        "com": [
+          "Inibidores de protease",
+          "Ritonavir",
+          "Lopinavir",
+          "Indinavir"
+        ],
+        "nivel": "grave",
+        "titulo": "Ergotismo grave — CONTRAINDICADO",
+        "efeito": "Inibidores de protease são inibidores potentes do CYP3A4, elevando os níveis de ergotamina a concentrações tóxicas.",
+        "conduta": "CONTRAINDICADO. Suspender ergotamina antes de iniciar inibidores de protease."
+      },
+      {
+        "com": [
+          "Betabloqueadores",
+          "Propranolol",
+          "Atenolol"
+        ],
+        "nivel": "moderado",
+        "titulo": "Vasoconstrição periférica aditiva",
+        "efeito": "Betabloqueadores podem aumentar a vasoconstrição periférica induzida pela ergotamina, com risco de isquemia de extremidades.",
+        "conduta": "Usar com cautela. Monitorar sinais de isquemia periférica (palidez, frio, dor nas extremidades)."
+      },
+      {
+        "tipo": "duplicacao",
+        "classe": "derivado_ergot",
+        "nivel": "grave",
+        "titulo": "Duplicação de derivado do ergot",
+        "efeito": "Associação com outros derivados do ergot (diidroergotamina, metilergometrina) causa vasospasmo grave e ergotismo.",
+        "conduta": "CONTRAINDICADO. Nunca combinar dois derivados do ergot."
+      }
+    ]
   },
   {
     "nome": "Implanon NXT (Etonogestrel 68mg — Implante Subdérmico)",
