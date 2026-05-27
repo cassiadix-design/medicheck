@@ -233,6 +233,95 @@ const boxStyle   = 'background:' + receitaBg + ';color:' + receitaTxt;
     }
     .med-btn-home:hover { opacity: 0.88; }
 
+    /* Interações medicamentosas */
+    .med-inter-intro {
+      font-size: 13px;
+      color: #666;
+      margin-bottom: 10px;
+      padding: 8px 12px;
+      background: #f8f9fa;
+      border-radius: 6px;
+      border-left: 3px solid #adb5bd;
+      line-height: 1.6;
+    }
+    .med-inter-list { margin: 4px 0 18px; display: flex; flex-direction: column; gap: 6px; }
+    .med-inter-card {
+      border-radius: 8px;
+      overflow: hidden;
+    }
+    .med-inter-card summary {
+      padding: 10px 14px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      list-style: none;
+      font-size: 14px;
+      font-weight: 600;
+      color: #333;
+    }
+    .med-inter-card summary::-webkit-details-marker { display: none; }
+    .med-inter-card summary::after {
+      content: '▶';
+      font-size: 10px;
+      color: #999;
+      margin-left: auto;
+      flex-shrink: 0;
+    }
+    .med-inter-card[open] summary::after { content: '▼'; }
+    .med-inter-card.nivel-grave { border: 1px solid #f5c6cb; }
+    .med-inter-card.nivel-grave summary { background: #fff5f5; }
+    .med-inter-card.nivel-grave summary:hover { background: #fde8e8; }
+    .med-inter-card.nivel-moderado { border: 1px solid #ffeeba; }
+    .med-inter-card.nivel-moderado summary { background: #fffdf0; }
+    .med-inter-card.nivel-moderado summary:hover { background: #fff3cd; }
+    .med-inter-card.nivel-leve { border: 1px solid #c3e6cb; }
+    .med-inter-card.nivel-leve summary { background: #f4fff6; }
+    .med-inter-card.nivel-leve summary:hover { background: #d4edda; }
+    .med-inter-badge {
+      display: inline-block;
+      border-radius: 20px;
+      padding: 2px 10px;
+      font-size: 11px;
+      font-weight: 700;
+      white-space: nowrap;
+      flex-shrink: 0;
+    }
+    .badge-grave    { background: #f8d7da; color: #721c24; }
+    .badge-moderado { background: #fff3cd; color: #856404; }
+    .badge-leve     { background: #d4edda; color: #155724; }
+    .med-inter-body {
+      padding: 12px 14px;
+      font-size: 13px;
+      color: #444;
+      line-height: 1.7;
+      background: white;
+      border-top: 1px solid #eee;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+    .med-inter-com { color: #555; }
+    .med-inter-efeito { color: #555; }
+    .med-inter-conduta {
+      background: #f0f7ff;
+      border-left: 3px solid #2196F3;
+      padding: 7px 10px;
+      border-radius: 4px;
+      color: #0c5aa0;
+      font-weight: 500;
+    }
+    .med-inter-dup-tag {
+      display: inline-block;
+      background: #fff3cd;
+      border: 1px solid #ffc107;
+      border-radius: 4px;
+      padding: 2px 8px;
+      font-size: 12px;
+      color: #856404;
+      font-weight: 600;
+    }
+
     @media (max-width: 600px) {
       .med-section-title { font-size: 15px; }
       .med-section-content { font-size: 14px; }
@@ -317,6 +406,40 @@ const boxStyle   = 'background:' + receitaBg + ';color:' + receitaTxt;
         <Fragment>
           <div class="med-section-title">💡 Saiba mais</div>
           <div class="med-educacao">{medicine.educacao}</div>
+        </Fragment>
+      )}
+
+      <!-- Interações medicamentosas -->
+      {Array.isArray(medicine.interacoes) && medicine.interacoes.length > 0 && (
+        <Fragment>
+          <div class="med-section-title">⚡ Interações medicamentosas</div>
+          <div class="med-inter-intro">
+            Informe sempre seu médico ou farmacêutico sobre todos os medicamentos, suplementos e fitoterápicos que você usa.
+          </div>
+          <div class="med-inter-list">
+            {(medicine.interacoes as any[]).map((inter: any) => (
+              <details class={'med-inter-card nivel-' + (inter.nivel || 'moderado')}>
+                <summary>
+                  <span class={'med-inter-badge badge-' + (inter.nivel || 'moderado')}>
+                    {inter.nivel === 'grave' ? '🔴 Grave' : inter.nivel === 'moderado' ? '🟡 Moderada' : '🟢 Leve'}
+                  </span>
+                  {inter.titulo}
+                </summary>
+                <div class="med-inter-body">
+                  {inter.tipo === 'duplicacao' && (
+                    <span class="med-inter-dup-tag">⚠️ Duplicação terapêutica — {inter.classe}</span>
+                  )}
+                  {inter.tipo !== 'duplicacao' && inter.com && inter.com.length > 0 && (
+                    <div class="med-inter-com">
+                      <strong>Interage com:</strong> {(inter.com as string[]).join(', ')}
+                    </div>
+                  )}
+                  <div class="med-inter-efeito">{inter.efeito}</div>
+                  <div class="med-inter-conduta">💡 {inter.conduta}</div>
+                </div>
+              </details>
+            ))}
+          </div>
         </Fragment>
       )}
 
