@@ -67,6 +67,9 @@ jobs:
       - name: Build Astro
         run: npm run build
 
+      - name: Copiar páginas de exames para dist
+        run: cp -r exames dist/exames
+
       - name: Upload artifact para GitHub Pages
         uses: actions/upload-pages-artifact@v3
         with:
