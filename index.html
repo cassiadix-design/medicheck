@@ -3656,7 +3656,24 @@ border-radius:0 0 20px 20px;
                     const ac = document.getElementById(acId);
                     mcAutoIdx[acId] = -1;
                     if (val.length < 2) { ac.classList.remove('show'); return; }
-                    const matches = mcMedNomes.filter(n => mcSemAcento(n.toLowerCase()).includes(val)).slice(0, 8);
+
+                    // 1. matches diretos no nome
+                    const diretos = mcMedNomes.filter(n => mcSemAcento(n.toLowerCase()).includes(val));
+
+                    // 2. matches via aliases → resolve para nome principal em mcMedNomes
+                    const viaAlias = [];
+                    for (const alias of Object.keys(mcAlias)) {
+                        if (mcSemAcento(alias).includes(val)) {
+                            const alvo = mcAlias[alias]; // ex: 'metformina'
+                            mcMedNomes.forEach(n => {
+                                if (mcSemAcento(n.toLowerCase()).includes(alvo) && !diretos.includes(n) && !viaAlias.includes(n))
+                                    viaAlias.push(n);
+                            });
+                        }
+                    }
+
+                    // 3. diretos primeiro, aliases depois, máx 8
+                    const matches = [...diretos, ...viaAlias].slice(0, 8);
                     if (!matches.length) { ac.classList.remove('show'); return; }
                     ac.innerHTML = matches.map(n => '<div class="mc-autocomplete-item" onmousedown="mcSelecionarAuto(\'' + acId + '\',\'' + n + '\')">' + n + '</div>').join('');
                     ac.classList.add('show');
