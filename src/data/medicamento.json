@@ -3108,7 +3108,10 @@
         "conduta": "❌ Nunca usar dois benzodiazepínicos simultaneamente sem indicação hospitalar. Se recebeu duas prescrições, avise o médico — provavelmente um substituirá o outro gradualmente."
       }
     ],
-    "slug": "alprazolam-025mg-05mg-10mg-20mg"
+    "slug": "alprazolam-025mg-05mg-10mg-20mg",
+    "categoria_beers": [
+      "evitar"
+    ]
   },
   {
     "nome": "Amantadina 100mg",
@@ -3747,7 +3750,11 @@
       "Tryptanol",
       "Limbitrol"
     ],
-    "slug": "amitriptilina-10mg-e-25mg"
+    "slug": "amitriptilina-10mg-e-25mg",
+    "categoria_beers": [
+      "cognitivo",
+      "evitar"
+    ]
   },
   {
     "nome": "Amoxicilina + Clavulanato 500mg/125mg - 875mg/125mg",
@@ -4660,7 +4667,11 @@
         "conduta": "⚠️ Evitar. Apenas uma estatina por vez. Se o colesterol não está controlado, trocar de estatina ou associar ezetimiba — nunca duas estatinas simultaneamente."
       }
     ],
-    "slug": "anlodipino-atorvastatina-5mg10mg-10mg20mg"
+    "slug": "anlodipino-atorvastatina-5mg10mg-10mg20mg",
+    "alerta_idoso": true,
+    "categoria_beers": [
+      "queda"
+    ]
   },
   {
     "nome": "Anlodipino + Hidroclorotiazida",
@@ -4868,7 +4879,11 @@
         "conduta": "⚠️ Orientar o paciente a levantar devagar (deitar → sentar → levantar em etapas). Monitorar pressão arterial deitado e em pé. Revisar necessidade e dose do anti-hipertensivo. Risco muito alto de queda em idosos."
       }
     ],
-    "slug": "anlodipino-hidroclorotiazida"
+    "slug": "anlodipino-hidroclorotiazida",
+    "alerta_idoso": true,
+    "categoria_beers": [
+      "queda"
+    ]
   },
   {
     "nome": "Anlodipino 5mg - 10mg",
@@ -5011,7 +5026,11 @@
       "Amlodipin",
       "Amlod"
     ],
-    "slug": "anlodipino-5mg-10mg"
+    "slug": "anlodipino-5mg-10mg",
+    "alerta_idoso": true,
+    "categoria_beers": [
+      "queda"
+    ]
   },
   {
     "nome": "Anticoncepcional Combinado (Yasmin / Diane 35 / Selene)",
@@ -5367,7 +5386,11 @@
       "Aristada",
       "Aripipin"
     ],
-    "slug": "aripiprazol-10mg"
+    "slug": "aripiprazol-10mg",
+    "alerta_idoso": true,
+    "categoria_beers": [
+      "cautela"
+    ]
   },
   {
     "nome": "Aspirina 500mg - Ácido Acetilsalicílico 500mg",
@@ -5764,7 +5787,11 @@
       "Atenol",
       "Natenol"
     ],
-    "slug": "atenolol-25mg-50mg-100mg"
+    "slug": "atenolol-25mg-50mg-100mg",
+    "alerta_idoso": true,
+    "categoria_beers": [
+      "queda"
+    ]
   },
   {
     "nome": "Atomoxetina 10mg - 18mg - 25mg - 40mg - 60mg - 80mg",
@@ -8848,7 +8875,10 @@
         "conduta": "❌ Nunca usar dois benzodiazepínicos simultaneamente sem indicação hospitalar. Se recebeu duas prescrições, avise o médico — provavelmente um substituirá o outro gradualmente."
       }
     ],
-    "slug": "bromazepam-3mg-e-6mg"
+    "slug": "bromazepam-3mg-e-6mg",
+    "categoria_beers": [
+      "evitar"
+    ]
   },
   {
     "nome": "Brometo de Escopolamina (Hioscina) 10mg",
@@ -11394,7 +11424,11 @@
       "Capril",
       "Catopril"
     ],
-    "slug": "captopril-125mg-25mg-50mg"
+    "slug": "captopril-125mg-25mg-50mg",
+    "alerta_idoso": true,
+    "categoria_beers": [
+      "cautela"
+    ]
   },
   {
     "nome": "Carbamazepina 200mg - 400mg - Suspensão",
@@ -11666,7 +11700,11 @@
       "Epitol",
       "Equetro"
     ],
-    "slug": "carbamazepina-200mg-400mg-suspensao"
+    "slug": "carbamazepina-200mg-400mg-suspensao",
+    "alerta_idoso": true,
+    "categoria_beers": [
+      "queda"
+    ]
   },
   {
     "nome": "Carbidopa/Levodopa 25/100mg - 25/250mg - 50/200mg",
@@ -12047,7 +12085,11 @@
     "alerta_farmaceutico": "Erro comum no balcão: paciente não é alertado sobre a sedação significativa — relaxantes musculares de ação central (ciclobenzaprina, carisoprodol) causam sonolência intensa e não devem ser combinados com álcool ou outros sedativos.",
     "quando_procurar_medico": "Procure médico se: sonolência que impede atividades normais ou dirigir, dificuldade para urinar (retenção urinária), batimentos cardíacos irregulares, confusão mental ou dor muscular que piora em vez de melhorar após 5–7 dias.",
     "interacoes": [],
-    "slug": "carisoprodol-325mg-350mg"
+    "slug": "carisoprodol-325mg-350mg",
+    "alerta_idoso": true,
+    "categoria_beers": [
+      "evitar"
+    ]
   },
   {
     "nome": "Carnitina 500mg",
@@ -13455,7 +13497,11 @@
         "conduta": "⚠️ Usar apenas um AINE por vez, na menor dose e pelo menor tempo possível. Para dor mais intensa, associar paracetamol é mais seguro do que combinar dois AINEs."
       }
     ],
-    "slug": "cetoprofeno-50mg-100mg-150mg-injetavel-25-gel"
+    "slug": "cetoprofeno-50mg-100mg-150mg-injetavel-25-gel",
+    "alerta_idoso": true,
+    "categoria_beers": [
+      "evitar"
+    ]
   },
   {
     "nome": "Ciclobenzaprina 5mg - 10mg",
@@ -13631,7 +13677,11 @@
         "conduta": "⚠️ Evitar a combinação. Preferir anti-histamínicos não sedativos (cetirizina, loratadina) se necessário."
       }
     ],
-    "slug": "ciclobenzaprina-5mg-10mg"
+    "slug": "ciclobenzaprina-5mg-10mg",
+    "alerta_idoso": true,
+    "categoria_beers": [
+      "evitar"
+    ]
   },
   {
     "nome": "Ciprofloxacino 250mg - 500mg - 750mg - Injetável e Colírio Oftálmico",
@@ -14141,7 +14191,11 @@
       "Citabax",
       "Citapram"
     ],
-    "slug": "citalopram-20mg"
+    "slug": "citalopram-20mg",
+    "alerta_idoso": true,
+    "categoria_beers": [
+      "queda"
+    ]
   },
   {
     "nome": "Claritromicina 250mg - 500mg",
@@ -14720,7 +14774,12 @@
         "conduta": "❌ Evitar a combinação. Se antidepressivo for necessário, preferir ISRS (sertralina, escitalopram) que têm menor risco de QT. Se a combinação for inevitável, fazer ECG antes e após 5-7 dias de tratamento. Suspender se QTc > 500ms."
       }
     ],
-    "slug": "clomipramina-10mg-25mg-75mg"
+    "slug": "clomipramina-10mg-25mg-75mg",
+    "alerta_idoso": true,
+    "categoria_beers": [
+      "cognitivo",
+      "evitar"
+    ]
   },
   {
     "nome": "Clonazepam - Solução oral 2,5mg/mL, 0,5mg e 2mg, 0,25mg",
@@ -14918,7 +14977,10 @@
         "conduta": "❌ Nunca usar dois benzodiazepínicos simultaneamente sem indicação hospitalar. Se recebeu duas prescrições, avise o médico — provavelmente um substituirá o outro gradualmente."
       }
     ],
-    "slug": "clonazepam-solucao-oral-25mgml-05mg-e-2mg-025mg"
+    "slug": "clonazepam-solucao-oral-25mgml-05mg-e-2mg-025mg",
+    "categoria_beers": [
+      "evitar"
+    ]
   },
   {
     "nome": "Clonidina 0,1mg - 0,2mg",
@@ -15009,7 +15071,11 @@
     "alerta_farmaceutico": "Erro comum no balcão: paciente para o medicamento quando a pressão normaliza — a hipertensão é crônica e a pressão voltará a subir sem o tratamento. Hipertensão controlada não é hipertensão curada.",
     "quando_procurar_medico": "Procure médico se: pressão acima de 180/110 mesmo tomando o remédio, dor de cabeça intensa e súbita, visão turva, falta de ar, dor no peito, inchaço súbito nos pés e pernas, ou pressão muito baixa com tontura ao levantar.",
     "interacoes": [],
-    "slug": "clonidina-01mg-02mg"
+    "slug": "clonidina-01mg-02mg",
+    "alerta_idoso": true,
+    "categoria_beers": [
+      "queda"
+    ]
   },
   {
     "nome": "Clopidogrel 75mg",
@@ -15935,7 +16001,11 @@
         "conduta": "❌ Contraindicado em pacientes com Doença de Parkinson. Se sedação ou antipsicótico for necessário em parkinsoniano, usar clozapina ou quetiapina em dose baixa (são os únicos com menor bloqueio dopaminérgico nigroestriatal)."
       }
     ],
-    "slug": "clorpromazina-25mg-100mg"
+    "slug": "clorpromazina-25mg-100mg",
+    "categoria_beers": [
+      "cognitivo",
+      "evitar"
+    ]
   },
   {
     "nome": "Clotrimazol 1% creme - solução",
@@ -16545,7 +16615,12 @@
       "Codein",
       "Codebrat"
     ],
-    "slug": "codeina-30mg-60mg-xarope-e-injetavel"
+    "slug": "codeina-30mg-60mg-xarope-e-injetavel",
+    "alerta_idoso": true,
+    "categoria_beers": [
+      "cautela",
+      "queda"
+    ]
   },
   {
     "nome": "Coenzima Q10 100mg",
@@ -17799,7 +17874,11 @@
         "conduta": "⚠️ Reduzir dose de dabigatrana se houver comprometimento renal. Monitorar sinais de sangramento. Preferir amlodipino como bloqueador de canal de cálcio quando possível."
       }
     ],
-    "slug": "dabigatrana-75mg-110mg-150mg"
+    "slug": "dabigatrana-75mg-110mg-150mg",
+    "alerta_idoso": true,
+    "categoria_beers": [
+      "cautela"
+    ]
   },
   {
     "nome": "Dapagliflozina + Metformina (Xigduo)",
@@ -18968,7 +19047,11 @@
       "Dexacort",
       "Dexametil"
     ],
-    "slug": "dexametasona-05mg-40mg-xarope-injetavel"
+    "slug": "dexametasona-05mg-40mg-xarope-injetavel",
+    "alerta_idoso": true,
+    "categoria_beers": [
+      "cognitivo"
+    ]
   },
   {
     "nome": "Dexclorfeniramina + Betametasona (Celestamine)",
@@ -19144,7 +19227,12 @@
         "conduta": "⚠️ Evitar Leucogen durante tratamento com corticoide em alta dose para doenças autoimunes ou inflamatórias graves. Se o uso for para infecções de repetição durante corticoterapia leve (como em asma), discutir com o médico — a relação benefício-risco pode ser favorável em doses baixas de corticoide. Sempre informar todos os medicamentos, inclusive suplementos, ao médico."
       }
     ],
-    "slug": "dexclorfeniramina-betametasona-celestamine"
+    "slug": "dexclorfeniramina-betametasona-celestamine",
+    "alerta_idoso": true,
+    "categoria_beers": [
+      "cognitivo",
+      "evitar"
+    ]
   },
   {
     "nome": "Diazepam comprimido 5mg - 10 mg - Injetavel",
@@ -19392,7 +19480,10 @@
       "Dienpax",
       "Compaz"
     ],
-    "slug": "diazepam-comprimido-5mg-10-mg-injetavel"
+    "slug": "diazepam-comprimido-5mg-10-mg-injetavel",
+    "categoria_beers": [
+      "evitar"
+    ]
   },
   {
     "nome": "Diclofenaco 50mg - 75mg - 100mg - Injetável",
@@ -19646,7 +19737,11 @@
       "cataflam",
       "Diclofenaco de Sódio / Diclofenaco"
     ],
-    "slug": "diclofenaco-50mg-75mg-100mg-injetavel"
+    "slug": "diclofenaco-50mg-75mg-100mg-injetavel",
+    "alerta_idoso": true,
+    "categoria_beers": [
+      "evitar"
+    ]
   },
   {
     "nome": "Diclofenaco de Colestiramina — Voltaren Suave",
@@ -19916,7 +20011,11 @@
         "conduta": "⚠️ Usar apenas um AINE por vez, na menor dose e pelo menor tempo possível. Para dor mais intensa, associar paracetamol é mais seguro do que combinar dois AINEs."
       }
     ],
-    "slug": "diclofenaco-de-colestiramina-voltaren-suave"
+    "slug": "diclofenaco-de-colestiramina-voltaren-suave",
+    "alerta_idoso": true,
+    "categoria_beers": [
+      "evitar"
+    ]
   },
   {
     "nome": "Diclofenaco Potássico — Cataflam",
@@ -20181,7 +20280,11 @@
         "conduta": "⚠️ Usar apenas um AINE por vez, na menor dose e pelo menor tempo possível. Para dor mais intensa, associar paracetamol é mais seguro do que combinar dois AINEs."
       }
     ],
-    "slug": "diclofenaco-potassico-cataflam"
+    "slug": "diclofenaco-potassico-cataflam",
+    "alerta_idoso": true,
+    "categoria_beers": [
+      "evitar"
+    ]
   },
   {
     "nome": "Diclofenaco Sódico — Voltaren",
@@ -20434,7 +20537,11 @@
         "conduta": "⚠️ Usar apenas um AINE por vez, na menor dose e pelo menor tempo possível. Para dor mais intensa, associar paracetamol é mais seguro do que combinar dois AINEs."
       }
     ],
-    "slug": "diclofenaco-sodico-voltaren"
+    "slug": "diclofenaco-sodico-voltaren",
+    "alerta_idoso": true,
+    "categoria_beers": [
+      "evitar"
+    ]
   },
   {
     "nome": "Digoxina comprimido 0,25 mg - Solução",
@@ -20602,7 +20709,11 @@
       "Cardioxin",
       "Digoxina"
     ],
-    "slug": "digoxina-comprimido-025-mg-solucao"
+    "slug": "digoxina-comprimido-025-mg-solucao",
+    "categoria_beers": [
+      "cognitivo",
+      "evitar"
+    ]
   },
   {
     "nome": "Diltiazem 30mg - 60mg",
@@ -21190,7 +21301,12 @@
       "Peridon",
       "Domperan"
     ],
-    "slug": "domperidona-10mg-suspensao"
+    "slug": "domperidona-10mg-suspensao",
+    "alerta_idoso": true,
+    "categoria_beers": [
+      "cognitivo",
+      "evitar"
+    ]
   },
   {
     "nome": "Donepezila 5mg - 10mg",
@@ -21999,7 +22115,11 @@
       "Dulane",
       "Yentreve"
     ],
-    "slug": "duloxetina-60mg"
+    "slug": "duloxetina-60mg",
+    "alerta_idoso": true,
+    "categoria_beers": [
+      "queda"
+    ]
   },
   {
     "nome": "Dupilumabe (Dupixent)",
@@ -22972,7 +23092,11 @@
       "Enalaprin",
       "Eupressin"
     ],
-    "slug": "enalapril-5mg-10mg-20mg"
+    "slug": "enalapril-5mg-10mg-20mg",
+    "alerta_idoso": true,
+    "categoria_beers": [
+      "cautela"
+    ]
   },
   {
     "nome": "Enoxaparina 20mg - 40mg - 60mg - 80mg - 100mg Injetável",
@@ -23738,7 +23862,11 @@
       "Reconter",
       "Cipralex"
     ],
-    "slug": "escitalopram-10mg-15mg-20mg-gotas"
+    "slug": "escitalopram-10mg-15mg-20mg-gotas",
+    "alerta_idoso": true,
+    "categoria_beers": [
+      "queda"
+    ]
   },
   {
     "nome": "Esomeprazol 20mg - 40mg",
@@ -23947,7 +24075,11 @@
       "esomeprazol",
       "nexium"
     ],
-    "slug": "esomeprazol-20mg-40mg"
+    "slug": "esomeprazol-20mg-40mg",
+    "alerta_idoso": true,
+    "categoria_beers": [
+      "cautela"
+    ]
   },
   {
     "nome": "Espironolactona + Hidroclorotiazida 25mg/25mg - 50mg/50mg",
@@ -25564,7 +25696,11 @@
       "Dilantin",
       "Epamin"
     ],
-    "slug": "fenitoina-100mg-injetavel"
+    "slug": "fenitoina-100mg-injetavel",
+    "alerta_idoso": true,
+    "categoria_beers": [
+      "queda"
+    ]
   },
   {
     "nome": "Fenofibrato 145mg - 200mg",
@@ -25966,7 +26102,13 @@
         "conduta": "❌ Contraindicado. Nunca combinar dois opioides sem supervisão hospitalar rigorosa. Se em uso acidental, procure emergência imediatamente."
       }
     ],
-    "slug": "fentanila-adesivo-12mcgh-25mcgh-50mcgh-100mcgh"
+    "slug": "fentanila-adesivo-12mcgh-25mcgh-50mcgh-100mcgh",
+    "alerta_idoso": true,
+    "categoria_beers": [
+      "cautela",
+      "cognitivo",
+      "queda"
+    ]
   },
   {
     "nome": "Fentolamina 40mg - Injetável",
@@ -26584,7 +26726,12 @@
     "alerta_farmaceutico": "Erro comum no balcão: dispensar anticolinérgico para idoso com glaucoma de ângulo fechado ou hiperplasia prostática — pode precipitar retenção urinária aguda e aumento da pressão ocular. Sempre perguntar sobre essas condições antes de dispensar.",
     "quando_procurar_medico": "Procure médico se: dificuldade ou impossibilidade de urinar (retenção urinária aguda), dor no olho com visão turva e náusea (glaucoma agudo), confusão mental intensa em idosos (síndrome anticolinérgica) ou constipação intensa com distensão abdominal.",
     "interacoes": [],
-    "slug": "fesoterodina-4mg-8mg"
+    "slug": "fesoterodina-4mg-8mg",
+    "alerta_idoso": true,
+    "categoria_beers": [
+      "cognitivo",
+      "evitar"
+    ]
   },
   {
     "nome": "Finasterida 1mg - 5mg",
@@ -27268,7 +27415,11 @@
         "conduta": "❌ Evitar. Trocar de ISRS exige período sem o medicamento antigo (washout) orientado pelo médico. Nunca usar os dois ao mesmo tempo sem prescrição específica."
       }
     ],
-    "slug": "fluoxetina-20mg"
+    "slug": "fluoxetina-20mg",
+    "alerta_idoso": true,
+    "categoria_beers": [
+      "queda"
+    ]
   },
   {
     "nome": "Formoterol + Budesonida 6mcg/200mcg - 12mcg/400mcg",
@@ -27909,7 +28060,11 @@
         "conduta": "⚠️ Monitorar potássio e magnésio séricos com frequência. Repor eletrólitos conforme necessário. Evitar furosemida em altas doses durante anfotericina, se possível."
       }
     ],
-    "slug": "furosemida-40mg"
+    "slug": "furosemida-40mg",
+    "alerta_idoso": true,
+    "categoria_beers": [
+      "cautela"
+    ]
   },
   {
     "nome": "Gabapentina 300mg - 400mg - 600mg - 800mg",
@@ -28027,7 +28182,11 @@
       "Gabatin",
       "Gabanext"
     ],
-    "slug": "gabapentina-300mg-400mg-600mg-800mg"
+    "slug": "gabapentina-300mg-400mg-600mg-800mg",
+    "alerta_idoso": true,
+    "categoria_beers": [
+      "queda"
+    ]
   },
   {
     "nome": "Galantamina 8mg - 16mg - 24mg",
@@ -28436,7 +28595,10 @@
       "Gliben",
       "Micronase"
     ],
-    "slug": "glibenclamida-5mg"
+    "slug": "glibenclamida-5mg",
+    "categoria_beers": [
+      "evitar"
+    ]
   },
   {
     "nome": "Glicazida 30mg - 60mg - 80mg MR",
@@ -28974,7 +29136,11 @@
       "Haloperil",
       "Haloperidon"
     ],
-    "slug": "haloperidol-1mg-5mg-gotas-injetavel"
+    "slug": "haloperidol-1mg-5mg-gotas-injetavel",
+    "categoria_beers": [
+      "cognitivo",
+      "evitar"
+    ]
   },
   {
     "nome": "Heparina Injetável",
@@ -30192,7 +30358,11 @@
         "conduta": "❌ Evitar prometazina com qualquer opioide — a FDA contraindicou essa combinação em crianças. Em adultos, usar ondansetrona como antiemético alternativo. Se hidroxizina for necessária, usar a menor dose possível com monitoramento da respiração."
       }
     ],
-    "slug": "hidroxizina-10mg-25mg-50mg"
+    "slug": "hidroxizina-10mg-25mg-50mg",
+    "categoria_beers": [
+      "cognitivo",
+      "evitar"
+    ]
   },
   {
     "nome": "Ibandronato (Bonviva)",
@@ -30538,7 +30708,11 @@
       "Motrin",
       "Brufen"
     ],
-    "slug": "ibuprofeno-200mg-400mg-600mg-gotas"
+    "slug": "ibuprofeno-200mg-400mg-600mg-gotas",
+    "alerta_idoso": true,
+    "categoria_beers": [
+      "evitar"
+    ]
   },
   {
     "nome": "Imipramina 10mg - 25mg",
@@ -30657,7 +30831,11 @@
         "conduta": "❌ Evitar a combinação. Se antidepressivo for necessário, preferir ISRS (sertralina, escitalopram) que têm menor risco de QT. Se a combinação for inevitável, fazer ECG antes e após 5-7 dias de tratamento. Suspender se QTc > 500ms."
       }
     ],
-    "slug": "imipramina-10mg-25mg"
+    "slug": "imipramina-10mg-25mg",
+    "categoria_beers": [
+      "cognitivo",
+      "evitar"
+    ]
   },
   {
     "nome": "Imunoglobulina Humana",
@@ -31056,7 +31234,11 @@
         "conduta": "❌ Evitar. Usar paracetamol para dor em pacientes anticoagulados."
       }
     ],
-    "slug": "indometacina-indocid-anti-inflamatorio"
+    "slug": "indometacina-indocid-anti-inflamatorio",
+    "alerta_idoso": true,
+    "categoria_beers": [
+      "evitar"
+    ]
   },
   {
     "nome": "Infliximabe 100mg (injetável)",
@@ -31362,7 +31544,11 @@
         "conduta": "⚠️ Monitorar glicemia com mais frequência durante o corticoide. Pode ser necessário aumentar a dose do antidiabético temporariamente. Avisar o médico ao iniciar ou suspender o corticoide."
       }
     ],
-    "slug": "insulina-asparte-100uiml-novorapid"
+    "slug": "insulina-asparte-100uiml-novorapid",
+    "alerta_idoso": true,
+    "categoria_beers": [
+      "cautela"
+    ]
   },
   {
     "nome": "Insulina Detemir (Levemir)",
@@ -31573,7 +31759,11 @@
         "conduta": "⚠️ Monitorar glicemia com mais frequência durante o corticoide. Pode ser necessário aumentar a dose do antidiabético temporariamente. Avisar o médico ao iniciar ou suspender o corticoide."
       }
     ],
-    "slug": "insulina-detemir-levemir"
+    "slug": "insulina-detemir-levemir",
+    "alerta_idoso": true,
+    "categoria_beers": [
+      "cautela"
+    ]
   },
   {
     "nome": "Insulina Glargina 100UI/mL (Lantus / Basaglar)",
@@ -31779,7 +31969,11 @@
         "conduta": "⚠️ Monitorar glicemia com mais frequência durante o corticoide. Pode ser necessário aumentar a dose do antidiabético temporariamente. Avisar o médico ao iniciar ou suspender o corticoide."
       }
     ],
-    "slug": "insulina-glargina-100uiml-lantus-basaglar"
+    "slug": "insulina-glargina-100uiml-lantus-basaglar",
+    "alerta_idoso": true,
+    "categoria_beers": [
+      "cautela"
+    ]
   },
   {
     "nome": "Insulina Lispro 100UI/mL (Humalog)",
@@ -31984,7 +32178,11 @@
         "conduta": "⚠️ Monitorar glicemia com mais frequência durante o corticoide. Pode ser necessário aumentar a dose do antidiabético temporariamente. Avisar o médico ao iniciar ou suspender o corticoide."
       }
     ],
-    "slug": "insulina-lispro-100uiml-humalog"
+    "slug": "insulina-lispro-100uiml-humalog",
+    "alerta_idoso": true,
+    "categoria_beers": [
+      "cautela"
+    ]
   },
   {
     "nome": "Insulina NPH 100U/ml",
@@ -32195,7 +32393,11 @@
       "Insulina Humana NPH",
       "Protafane"
     ],
-    "slug": "insulina-nph-100uml"
+    "slug": "insulina-nph-100uml",
+    "alerta_idoso": true,
+    "categoria_beers": [
+      "cautela"
+    ]
   },
   {
     "nome": "Insulina Regular 100U/ml",
@@ -32403,7 +32605,11 @@
       "humulin r",
       "novolin r"
     ],
-    "slug": "insulina-regular-100uml"
+    "slug": "insulina-regular-100uml",
+    "alerta_idoso": true,
+    "categoria_beers": [
+      "cautela"
+    ]
   },
   {
     "nome": "Iodo — Iodeto de Potássio",
@@ -34184,7 +34390,11 @@
         "conduta": "❌ Atazanavir é contraindicado com IBPs. Substituir antirretroviral ou o IBP com orientação do infectologista. Dar preferência a antiácidos ou antagonistas H2."
       }
     ],
-    "slug": "lansoprazol-15mg-30mg"
+    "slug": "lansoprazol-15mg-30mg",
+    "alerta_idoso": true,
+    "categoria_beers": [
+      "cautela"
+    ]
   },
   {
     "nome": "Leflunomida 10mg - 20mg",
@@ -35860,7 +36070,11 @@
         "conduta": "❌ Evitar prometazina com qualquer opioide — a FDA contraindicou essa combinação em crianças. Em adultos, usar ondansetrona como antiemético alternativo. Se hidroxizina for necessária, usar a menor dose possível com monitoramento da respiração."
       }
     ],
-    "slug": "lisador-dipirona-adifenina-prometazina"
+    "slug": "lisador-dipirona-adifenina-prometazina",
+    "categoria_beers": [
+      "cognitivo",
+      "evitar"
+    ]
   },
   {
     "nome": "Lisdexanfetamina 20mg - 30mg - 50mg - 70mg",
@@ -37035,7 +37249,11 @@
         "conduta": "❌ Nunca usar dois benzodiazepínicos simultaneamente sem indicação hospitalar. Se recebeu duas prescrições, avise o médico — provavelmente um substituirá o outro gradualmente."
       }
     ],
-    "slug": "lorazepam-1mg-2mg"
+    "slug": "lorazepam-1mg-2mg",
+    "alerta_idoso": true,
+    "categoria_beers": [
+      "evitar"
+    ]
   },
   {
     "nome": "Losartana 50mg - 100mg",
@@ -37311,7 +37529,11 @@
       "Losartec",
       "Hyzaar"
     ],
-    "slug": "losartana-50mg-100mg"
+    "slug": "losartana-50mg-100mg",
+    "alerta_idoso": true,
+    "categoria_beers": [
+      "cautela"
+    ]
   },
   {
     "nome": "Lurasidona (Latuda)",
@@ -38332,7 +38554,11 @@
         "conduta": "⚠️ Usar apenas um AINE por vez, na menor dose e pelo menor tempo possível. Para dor mais intensa, associar paracetamol é mais seguro do que combinar dois AINEs."
       }
     ],
-    "slug": "meloxicam-75mg-15mg"
+    "slug": "meloxicam-75mg-15mg",
+    "alerta_idoso": true,
+    "categoria_beers": [
+      "evitar"
+    ]
   },
   {
     "nome": "Memantina 10mg - 20mg",
@@ -39103,7 +39329,11 @@
         "conduta": "⚠️ Monitorar glicemia com mais frequência. Ajustar antidiabéticos com orientação médica."
       }
     ],
-    "slug": "metilprednisolona-depo-medrol-solu-medrol-medrol-corticosteroide"
+    "slug": "metilprednisolona-depo-medrol-solu-medrol-medrol-corticosteroide",
+    "alerta_idoso": true,
+    "categoria_beers": [
+      "cognitivo"
+    ]
   },
   {
     "nome": "Metocarbamol 750mg",
@@ -39320,7 +39550,11 @@
       "Reglan",
       "Metoclop"
     ],
-    "slug": "metoclopramida-10mg-gotas-injetavel"
+    "slug": "metoclopramida-10mg-gotas-injetavel",
+    "categoria_beers": [
+      "cognitivo",
+      "evitar"
+    ]
   },
   {
     "nome": "Metoprolol 25mg - 50mg - 100mg",
@@ -39499,7 +39733,11 @@
       "Toprol-XL",
       "Metopril"
     ],
-    "slug": "metoprolol-25mg-50mg-100mg"
+    "slug": "metoprolol-25mg-50mg-100mg",
+    "alerta_idoso": true,
+    "categoria_beers": [
+      "queda"
+    ]
   },
   {
     "nome": "Metotrexato 2,5mg - 7,5mg - 10mg - 15mg - 25mg - Injetável",
@@ -40045,7 +40283,11 @@
         "conduta": "❌ Nunca usar dois benzodiazepínicos simultaneamente sem indicação hospitalar. Se recebeu duas prescrições, avise o médico — provavelmente um substituirá o outro gradualmente."
       }
     ],
-    "slug": "midazolam-5mgml-15mg-comprimido"
+    "slug": "midazolam-5mgml-15mg-comprimido",
+    "alerta_idoso": true,
+    "categoria_beers": [
+      "evitar"
+    ]
   },
   {
     "nome": "Minociclina 50mg - 100mg",
@@ -40879,7 +41121,13 @@
         "conduta": "❌ Contraindicado. Nunca combinar dois opioides sem supervisão hospitalar rigorosa. Se em uso acidental, procure emergência imediatamente."
       }
     ],
-    "slug": "morfina-10mg-30mg-10mgml-injetavel"
+    "slug": "morfina-10mg-30mg-10mgml-injetavel",
+    "alerta_idoso": true,
+    "categoria_beers": [
+      "cautela",
+      "cognitivo",
+      "queda"
+    ]
   },
   {
     "nome": "Mounjaro (Tirzepatida)",
@@ -41688,7 +41936,11 @@
         "conduta": "⚠️ Usar apenas um AINE por vez, na menor dose e pelo menor tempo possível. Para dor mais intensa, associar paracetamol é mais seguro do que combinar dois AINEs."
       }
     ],
-    "slug": "naproxeno-250mg-500mg"
+    "slug": "naproxeno-250mg-500mg",
+    "alerta_idoso": true,
+    "categoria_beers": [
+      "evitar"
+    ]
   },
   {
     "nome": "Naratriptana 2,5mg",
@@ -42463,7 +42715,12 @@
     "alerta_farmaceutico": "Erro comum no balcão: paciente para o antipsicótico abruptamente quando se sente bem — a melhora é efeito do medicamento, não cura. Interrupção abrupta pode causar recaída da psicose em dias e síndrome de retirada com náuseas e insônia intensa.",
     "quando_procurar_medico": "Procure médico se: febre alta com rigidez muscular e confusão (síndrome neuroléptica maligna — emergência), movimentos involuntários da face ou corpo (discinesia), ou sonolência excessiva que impeça atividades diárias.",
     "interacoes": [],
-    "slug": "neozine-levomepromazina-gotas-25mg-100mg"
+    "slug": "neozine-levomepromazina-gotas-25mg-100mg",
+    "alerta_idoso": true,
+    "categoria_beers": [
+      "cognitivo",
+      "evitar"
+    ]
   },
   {
     "nome": "Neuleptil — Periciazina 1% - 4% gotas - 10mg comprimido",
@@ -42560,7 +42817,12 @@
     "alerta_farmaceutico": "Erro comum no balcão: paciente para o antipsicótico abruptamente quando se sente bem — a melhora é efeito do medicamento, não cura. Interrupção abrupta pode causar recaída da psicose em dias e síndrome de retirada com náuseas e insônia intensa.",
     "quando_procurar_medico": "Procure médico se: febre alta com rigidez muscular, movimentos involuntários da face, sonolência extrema ou pressão muito baixa.",
     "interacoes": [],
-    "slug": "neuleptil-periciazina-1-4-gotas-10mg-comprimido"
+    "slug": "neuleptil-periciazina-1-4-gotas-10mg-comprimido",
+    "alerta_idoso": true,
+    "categoria_beers": [
+      "cognitivo",
+      "evitar"
+    ]
   },
   {
     "nome": "Nifedipina 10mg - 20mg - 30mg Retard (Liberação Prolongada)",
@@ -42880,7 +43142,11 @@
         "conduta": "⚠️ Usar apenas um AINE por vez, na menor dose e pelo menor tempo possível. Para dor mais intensa, associar paracetamol é mais seguro do que combinar dois AINEs."
       }
     ],
-    "slug": "nimesulida-ciclobenzaprina-nivux"
+    "slug": "nimesulida-ciclobenzaprina-nivux",
+    "alerta_idoso": true,
+    "categoria_beers": [
+      "evitar"
+    ]
   },
   {
     "nome": "Nimesulida 100mg - Suspensão",
@@ -43306,7 +43572,11 @@
         "conduta": "Evitar combinação. Discutir esquema com médico especialista."
       }
     ],
-    "slug": "nitrazepam-5mg-10mg"
+    "slug": "nitrazepam-5mg-10mg",
+    "alerta_idoso": true,
+    "categoria_beers": [
+      "evitar"
+    ]
   },
   {
     "nome": "Nitroglicerina / Trinitrato de Glicerina Spray 0,4mg/dose",
@@ -43527,7 +43797,11 @@
         "conduta": "❌ Evitar a combinação. Se antidepressivo for necessário, preferir ISRS (sertralina, escitalopram) que têm menor risco de QT. Se a combinação for inevitável, fazer ECG antes e após 5-7 dias de tratamento. Suspender se QTc > 500ms."
       }
     ],
-    "slug": "nortriptilina-10mg-25mg-50mg-75mg"
+    "slug": "nortriptilina-10mg-25mg-50mg-75mg",
+    "categoria_beers": [
+      "cognitivo",
+      "evitar"
+    ]
   },
   {
     "nome": "Novalgina — Dipirona Sódica",
@@ -43842,7 +44116,11 @@
       "Zalasta",
       "Olanzap"
     ],
-    "slug": "olanzapina-25mg-5mg-10mg-15mg-20mg"
+    "slug": "olanzapina-25mg-5mg-10mg-15mg-20mg",
+    "alerta_idoso": true,
+    "categoria_beers": [
+      "cautela"
+    ]
   },
   {
     "nome": "Olmesartana 20mg - 40mg",
@@ -44401,7 +44679,11 @@
       "Mepral",
       "Prilosec"
     ],
-    "slug": "omeprazol-10mg-20mg-40mg"
+    "slug": "omeprazol-10mg-20mg-40mg",
+    "alerta_idoso": true,
+    "categoria_beers": [
+      "cautela"
+    ]
   },
   {
     "nome": "Ondansetrom 4mg - 8mg - Injetável",
@@ -45111,7 +45393,11 @@
         "conduta": "⚠️ Evitar múltiplos anticolinérgicos. Revisar se o biperideno (usado para efeitos extrapiramidais) ainda é necessário. Preferir antipsicóticos com menor carga anticolinérgica (haloperidol, risperidona) quando anticolinérgico for imprescindível."
       }
     ],
-    "slug": "oxibutinina-5mg-10mg"
+    "slug": "oxibutinina-5mg-10mg",
+    "categoria_beers": [
+      "cognitivo",
+      "evitar"
+    ]
   },
   {
     "nome": "Oximetazolina 0,05% Spray Nasal (Afrin)",
@@ -45483,7 +45769,11 @@
       "pantozol",
       "zurcal"
     ],
-    "slug": "pantoprazol-20mg-40mg"
+    "slug": "pantoprazol-20mg-40mg",
+    "alerta_idoso": true,
+    "categoria_beers": [
+      "cautela"
+    ]
   },
   {
     "nome": "Paracetamol + Fenilefrina + Clorfeniramina (Resfenol / Coristina D / Naldecon)",
@@ -46344,7 +46634,11 @@
       "Cebrilin",
       "Paxil"
     ],
-    "slug": "paroxetina-10mg-20mg-40mg"
+    "slug": "paroxetina-10mg-20mg-40mg",
+    "alerta_idoso": true,
+    "categoria_beers": [
+      "queda"
+    ]
   },
   {
     "nome": "Perampanel 2mg - 4mg - 6mg - 8mg - 10mg - 12mg",
@@ -47749,7 +48043,11 @@
         "conduta": "⚠️ Evitar Leucogen durante tratamento com corticoide em alta dose para doenças autoimunes ou inflamatórias graves. Se o uso for para infecções de repetição durante corticoterapia leve (como em asma), discutir com o médico — a relação benefício-risco pode ser favorável em doses baixas de corticoide. Sempre informar todos os medicamentos, inclusive suplementos, ao médico."
       }
     ],
-    "slug": "prednisolona-5mg-20mg-40mg-comprimido"
+    "slug": "prednisolona-5mg-20mg-40mg-comprimido",
+    "alerta_idoso": true,
+    "categoria_beers": [
+      "cognitivo"
+    ]
   },
   {
     "nome": "Prednisona 5mg - 20mg",
@@ -47990,7 +48288,11 @@
       "Deltacortene",
       "Sterapred"
     ],
-    "slug": "prednisona-5mg-20mg"
+    "slug": "prednisona-5mg-20mg",
+    "alerta_idoso": true,
+    "categoria_beers": [
+      "cognitivo"
+    ]
   },
   {
     "nome": "Pregabalina 25mg - 50mg - 75mg - 150mg - 300mg",
@@ -48104,7 +48406,11 @@
       "Prebictal",
       "Pregarica"
     ],
-    "slug": "pregabalina-25mg-50mg-75mg-150mg-300mg"
+    "slug": "pregabalina-25mg-50mg-75mg-150mg-300mg",
+    "alerta_idoso": true,
+    "categoria_beers": [
+      "queda"
+    ]
   },
   {
     "nome": "Progesterona Micronizada 100mg - 200mg",
@@ -48372,7 +48678,11 @@
       "Phenergan",
       "Prometil"
     ],
-    "slug": "prometazina-25mg-creme-xarope-injetavel"
+    "slug": "prometazina-25mg-creme-xarope-injetavel",
+    "categoria_beers": [
+      "cognitivo",
+      "evitar"
+    ]
   },
   {
     "nome": "Propafenona (Rytmonorm) — Antiarrítmico",
@@ -48676,7 +48986,11 @@
       "Sumial",
       "Prolol"
     ],
-    "slug": "propranolol-10mg-40mg-80mg"
+    "slug": "propranolol-10mg-40mg-80mg",
+    "alerta_idoso": true,
+    "categoria_beers": [
+      "queda"
+    ]
   },
   {
     "nome": "Quetiapina 25mg - 50mg - 100mg - 200mg - 300mg - XR (Liberação Prolongada)",
@@ -48901,7 +49215,11 @@
       "Quetros",
       "Quetiax"
     ],
-    "slug": "quetiapina-25mg-50mg-100mg-200mg-300mg-xr-liberacao-prolongada"
+    "slug": "quetiapina-25mg-50mg-100mg-200mg-300mg-xr-liberacao-prolongada",
+    "alerta_idoso": true,
+    "categoria_beers": [
+      "cautela"
+    ]
   },
   {
     "nome": "Rabeprazol 10mg - 20mg",
@@ -49256,7 +49574,11 @@
         "conduta": "⚠️ Usar apenas um IECA por vez. Se a pressão não está controlada, adicionar medicamento de outra classe com orientação médica."
       }
     ],
-    "slug": "ramipril-25mg-5mg-10mg"
+    "slug": "ramipril-25mg-5mg-10mg",
+    "alerta_idoso": true,
+    "categoria_beers": [
+      "cautela"
+    ]
   },
   {
     "nome": "Ranitidina 150mg - 300mg - Solução - Injetável",
@@ -50639,7 +50961,11 @@
       "Ridal",
       "Risperidon"
     ],
-    "slug": "risperidona-05mg-1mg-2mg-3mg-4mg-solucao-oral"
+    "slug": "risperidona-05mg-1mg-2mg-3mg-4mg-solucao-oral",
+    "alerta_idoso": true,
+    "categoria_beers": [
+      "cautela"
+    ]
   },
   {
     "nome": "Rivaroxabana 10mg - 15mg - 20mg (Xarelto)",
@@ -50809,7 +51135,11 @@
       "Rivarox",
       "Rivaroxaban"
     ],
-    "slug": "rivaroxabana-10mg-15mg-20mg-xarelto"
+    "slug": "rivaroxabana-10mg-15mg-20mg-xarelto",
+    "alerta_idoso": true,
+    "categoria_beers": [
+      "cautela"
+    ]
   },
   {
     "nome": "Rivastigmina 1,5mg - 3mg - 4,5mg - 6mg - Adesivo",
@@ -51714,7 +52044,11 @@
         "conduta": "⚠️ Usar apenas uma sartana por vez. Ajustar dose ou associar medicamento de outra classe com orientação médica."
       }
     ],
-    "slug": "sacubitril-valsartana-entresto"
+    "slug": "sacubitril-valsartana-entresto",
+    "alerta_idoso": true,
+    "categoria_beers": [
+      "cautela"
+    ]
   },
   {
     "nome": "Salbutamol Spray Inalatório - Solução para Nebulização",
@@ -52834,7 +53168,11 @@
       "Tolrest",
       "Serenata"
     ],
-    "slug": "sertralina-25mg-50mg-75mg-100mg"
+    "slug": "sertralina-25mg-50mg-75mg-100mg",
+    "alerta_idoso": true,
+    "categoria_beers": [
+      "queda"
+    ]
   },
   {
     "nome": "Sibutramina 10mg - 15mg",
@@ -53831,7 +54169,12 @@
         "conduta": "⚠️ Evitar múltiplos anticolinérgicos. Revisar se o biperideno (usado para efeitos extrapiramidais) ainda é necessário. Preferir antipsicóticos com menor carga anticolinérgica (haloperidol, risperidona) quando anticolinérgico for imprescindível."
       }
     ],
-    "slug": "solifenacina-5mg-10mg"
+    "slug": "solifenacina-5mg-10mg",
+    "alerta_idoso": true,
+    "categoria_beers": [
+      "cognitivo",
+      "evitar"
+    ]
   },
   {
     "nome": "Strepsils — Pastilha para Garganta",
@@ -57279,7 +57622,13 @@
       "Cronodol",
       "Ultram"
     ],
-    "slug": "tramadol-50mg-100mg-gotas-injetavel"
+    "slug": "tramadol-50mg-100mg-gotas-injetavel",
+    "alerta_idoso": true,
+    "categoria_beers": [
+      "cautela",
+      "cognitivo",
+      "queda"
+    ]
   },
   {
     "nome": "Trazodona 50mg - 100mg - 150mg",
@@ -57599,7 +57948,12 @@
     "alerta_farmaceutico": "Erro comum no balcão: paciente para o antipsicótico abruptamente quando se sente bem — a melhora é efeito do medicamento, não cura. Interrupção abrupta pode causar recaída da psicose em dias e síndrome de retirada com náuseas e insônia intensa.",
     "quando_procurar_medico": "Procure médico se: febre alta com rigidez muscular e confusão (síndrome neuroléptica maligna — emergência), movimentos involuntários da face ou corpo (discinesia), ou sonolência excessiva que impeça atividades diárias.",
     "interacoes": [],
-    "slug": "trifluoperazina-5mg"
+    "slug": "trifluoperazina-5mg",
+    "alerta_idoso": true,
+    "categoria_beers": [
+      "cognitivo",
+      "evitar"
+    ]
   },
   {
     "nome": "Trimebutina 100mg - 200mg",
@@ -58091,7 +58445,11 @@
       "valpakine",
       "Ácido Valproico / Valproato"
     ],
-    "slug": "valproato-de-sodio-250mg-500mg-solucao-oral"
+    "slug": "valproato-de-sodio-250mg-500mg-solucao-oral",
+    "alerta_idoso": true,
+    "categoria_beers": [
+      "queda"
+    ]
   },
   {
     "nome": "Valproato de Sódio LP 250mg - 500mg (Liberação Prolongada)",
@@ -58209,7 +58567,11 @@
         "conduta": "❌ Evitar combinação. Se inevitável, monitorar nível sérico de valproato intensivamente e considerar anticonvulsivante alternativo."
       }
     ],
-    "slug": "valproato-de-sodio-lp-250mg-500mg-liberacao-prolongada"
+    "slug": "valproato-de-sodio-lp-250mg-500mg-liberacao-prolongada",
+    "alerta_idoso": true,
+    "categoria_beers": [
+      "queda"
+    ]
   },
   {
     "nome": "Valsartana 80mg - 160mg - 320mg",
@@ -58397,7 +58759,11 @@
       "Valsacor",
       "Blopress V"
     ],
-    "slug": "valsartana-80mg-160mg-320mg"
+    "slug": "valsartana-80mg-160mg-320mg",
+    "alerta_idoso": true,
+    "categoria_beers": [
+      "cautela"
+    ]
   },
   {
     "nome": "Vancomicina 500mg - 1g (injetável)",
@@ -58778,7 +59144,11 @@
       "Venlift",
       "Vandral"
     ],
-    "slug": "venlafaxina-375mg-75mg-150mg-xr-liberacao-prolongada"
+    "slug": "venlafaxina-375mg-75mg-150mg-xr-liberacao-prolongada",
+    "alerta_idoso": true,
+    "categoria_beers": [
+      "queda"
+    ]
   },
   {
     "nome": "Verapamil 80mg - 120mg - 240mg - Injetável",
@@ -60453,7 +60823,11 @@
       "coumadin",
       "marevan"
     ],
-    "slug": "warfarina-varfarina-1mg-25mg-5mg"
+    "slug": "warfarina-varfarina-1mg-25mg-5mg",
+    "alerta_idoso": true,
+    "categoria_beers": [
+      "cautela"
+    ]
   },
   {
     "nome": "Zafirlucaste 20mg",
@@ -60965,7 +61339,11 @@
       "Zolpiclear",
       "Zolpidex"
     ],
-    "slug": "zolpidem-5mg-10mg"
+    "slug": "zolpidem-5mg-10mg",
+    "alerta_idoso": true,
+    "categoria_beers": [
+      "evitar"
+    ]
   },
   {
     "nome": "Zonisamida 25mg - 50mg - 100mg",
@@ -61261,7 +61639,11 @@
       "Zopimed",
       "Zopiclon"
     ],
-    "slug": "zopiclona-375mg-75mg"
+    "slug": "zopiclona-375mg-75mg",
+    "alerta_idoso": true,
+    "categoria_beers": [
+      "evitar"
+    ]
   },
   {
     "nome": "Clobutinol — Hytos Plus",
@@ -63067,7 +63449,11 @@
         "conduta": "Usar monoterapia conforme antibiograma; discutir combinação com médico se infecção complicada."
       }
     ],
-    "slug": "nitrofurantoina-100mg-100mg-macrocristal"
+    "slug": "nitrofurantoina-100mg-100mg-macrocristal",
+    "alerta_idoso": true,
+    "categoria_beers": [
+      "evitar"
+    ]
   },
   {
     "nome": "Norfloxacino",
@@ -63400,7 +63786,11 @@
         "conduta": "⚠️ Usar a menor dose eficaz do antidepressivo. Adicionar protetor gástrico (IBP). Monitorar sinais de sangramento (fezes escuras, tontura). Evitar AINEs concomitantes."
       }
     ],
-    "slug": "apixabana"
+    "slug": "apixabana",
+    "alerta_idoso": true,
+    "categoria_beers": [
+      "cautela"
+    ]
   },
   {
     "nome": "Fenobarbital",
@@ -63642,7 +64032,11 @@
         "conduta": "Evitar combinação de dois benzodiazepínicos. Discutir esquema com neurologista ou psiquiatra."
       }
     ],
-    "slug": "clobazam"
+    "slug": "clobazam",
+    "alerta_idoso": true,
+    "categoria_beers": [
+      "evitar"
+    ]
   },
   {
     "nome": "Melatonina",
@@ -63890,7 +64284,12 @@
         "conduta": "❌ Evitar a combinação. Se antidepressivo for necessário, preferir ISRS (sertralina, escitalopram) que têm menor risco de QT. Se a combinação for inevitável, fazer ECG antes e após 5-7 dias de tratamento. Suspender se QTc > 500ms."
       }
     ],
-    "slug": "nortriptilina"
+    "slug": "nortriptilina",
+    "alerta_idoso": true,
+    "categoria_beers": [
+      "cognitivo",
+      "evitar"
+    ]
   },
   {
     "nome": "Fexofenadina",
@@ -64031,7 +64430,12 @@
     "alerta_farmaceutico": "Efeitos anticolinérgicos somados com tricíclicos, antipsicóticos, escopolamina — risco de retenção urinária, glaucoma, confusão. Depressores do SNC (álcool, opioides, benzodiazepínicos) somam sedação — risco elevado. Contraindicada em glaucoma de ângulo fechado, hipertrofia de próstata e asma grave. IMAOs prolongam e intensificam o efeito anticolinérgico.",
     "quando_procurar_medico": "Reação alérgica grave com dificuldade para respirar (emergência), sintomas de retenção urinária, visão muito embaçada, confusão mental em idosos, uso em crianças menores de 2 anos ou na gravidez.",
     "interacoes": [],
-    "slug": "dexclorfeniramina"
+    "slug": "dexclorfeniramina",
+    "alerta_idoso": true,
+    "categoria_beers": [
+      "cognitivo",
+      "evitar"
+    ]
   },
   {
     "nome": "Nistatina",
@@ -65614,7 +66018,12 @@
     "alerta_farmaceutico": "Alta potência dopaminérgica — maior risco de EPS e discinesia tardia entre os fenotiazínicos. Verificar uso concomitante de outros antipsicóticos. Atenção ao prolongamento de QT com outros fármacos cardiotóxicos.",
     "quando_procurar_medico": "Procure emergência se: pescoço rígido ou inclinado (distonia cervical), olhos virados (crise oculogira), dificuldade de engolir, febre com rigidez muscular (síndrome neuroléptica maligna). Informe o médico se: movimentos involuntários da língua, face ou membros, ou inquietação intensa (acatisia).",
     "interacoes": [],
-    "slug": "flufenazina-1mg-5mg"
+    "slug": "flufenazina-1mg-5mg",
+    "alerta_idoso": true,
+    "categoria_beers": [
+      "cognitivo",
+      "evitar"
+    ]
   },
   {
     "nome": "Isocarboxazida 10mg",
@@ -66049,7 +66458,12 @@
     "alerta_farmaceutico": "Alto risco de prolongamento QT — verificar todos os medicamentos concomitantes. Interação grave com CYP3A4 — inibidores aumentam muito os níveis de pimozida. Azitromicina, eritromicina e cetoconazol são contraindicados. Verificar eletrólitos (cálcio, magnésio, potássio).",
     "quando_procurar_medico": "Procure emergência se: palpitações, síncope, tontura intensa ou desmaio (possível arritmia). Procure médico antes de usar qualquer medicamento novo (risco de interação cardíaca), se sentir o coração acelerado ou irregular.",
     "interacoes": [],
-    "slug": "pimozida-1mg-4mg"
+    "slug": "pimozida-1mg-4mg",
+    "alerta_idoso": true,
+    "categoria_beers": [
+      "cognitivo",
+      "evitar"
+    ]
   },
   {
     "nome": "Selegilina 5mg - 10mg",
@@ -66292,7 +66706,12 @@
     "alerta_farmaceutico": "Verificar glaucoma e obstrução prostática antes de dispensar — contraindicações absolutas. Em idosos, avaliar com o médico alternativas mais seguras (mirabegrona tem menor risco cognitivo). Atenção a interações com outros anticolinérgicos (efeito aditivo — xerostomia, constipação, retenção urinária).",
     "quando_procurar_medico": "Procure médico se: dor aguda nos olhos com visão embaçada e olho vermelho (glaucoma agudo), dificuldade súbita de urinar (retenção urinária), confusão mental em idosos. Informe o médico se os sintomas urinários não melhorarem em 8 semanas.",
     "interacoes": [],
-    "slug": "tolterodina-2mg-4mg"
+    "slug": "tolterodina-2mg-4mg",
+    "alerta_idoso": true,
+    "categoria_beers": [
+      "cognitivo",
+      "evitar"
+    ]
   },
   {
     "nome": "Tranilcipromina 10mg",
@@ -66490,7 +66909,11 @@
     "alerta_farmaceutico": "Ultracurta ação mas alto potencial de dependência. Inibidores de CYP3A4 (cetoconazol, eritromicina, sumo de toranja) aumentam muito os níveis — risco de toxicidade. Contraindicado em idosos. Verificar outros depressores do SNC em uso.",
     "quando_procurar_medico": "Procure médico se: dificuldade de parar de usar, insônia pior que antes de iniciar (rebote), episódios de sonambulismo ou comportamentos sem memória, ansiedade ou tremores ao tentar parar (abstinência).",
     "interacoes": [],
-    "slug": "triazolam-0125mg-025mg"
+    "slug": "triazolam-0125mg-025mg",
+    "alerta_idoso": true,
+    "categoria_beers": [
+      "evitar"
+    ]
   },
   {
     "nome": "Tizanidina 2mg - 4mg",
@@ -66947,7 +67370,11 @@
         "conduta": "❌ Evitar a associação. Se o paciente usa sildenafila ou tadalafila por outra indicação, comunicar ao médico antes de iniciar nifedipino."
       }
     ],
-    "slug": "nifedipino-10mg-20mg-30mg"
+    "slug": "nifedipino-10mg-20mg-30mg",
+    "alerta_idoso": true,
+    "categoria_beers": [
+      "queda"
+    ]
   },
   {
     "nome": "Nimodipino 30mg",
@@ -69010,7 +69437,11 @@
         "conduta": "⚠️ Usar com cautela. Considerar protetor gástrico (omeprazol). Monitorar sinais de sangramento (fezes escuras, dor abdominal)."
       }
     ],
-    "slug": "naproxeno-250mg-500mg-550mg"
+    "slug": "naproxeno-250mg-500mg-550mg",
+    "alerta_idoso": true,
+    "categoria_beers": [
+      "evitar"
+    ]
   },
   {
     "nome": "Sirolimo 0,5mg - 1mg - 2mg",
@@ -70802,7 +71233,11 @@
         "conduta": "⚠️ Usar apenas um AINE por vez. Para dor mais intensa, associar paracetamol é mais seguro."
       }
     ],
-    "slug": "piroxicam-10mg-20mg"
+    "slug": "piroxicam-10mg-20mg",
+    "alerta_idoso": true,
+    "categoria_beers": [
+      "evitar"
+    ]
   },
   {
     "nome": "Acebrofilina (Acebrox) — Xantina + Mucolítico",
@@ -71716,7 +72151,11 @@
     "descricao_seo": "Doxazosina (Carduran/Aradois) trata hipertensão e HPB (próstata). Risco de hipotensão postural na primeira dose. Avisar médico antes de cirurgia de catarata. Receita simples.",
     "quando_procurar_medico": "Urgência: desmaio ou queda após início do tratamento, dificuldade total de urinar (retenção urinária), pressão muito baixa com mal-estar.",
     "alerta_farmaceutico": "Síndrome da íris flácida — orientar pacientes a informar o oftalmologista antes de cirurgia de catarata (risco mesmo após descontinuação). Cautela em idosos: risco de queda. Não substituir formulação convencional por GITS sem ajuste de dose.",
-    "slug": "doxazosina-2mg-4mg-8mg-carduran-aradois"
+    "slug": "doxazosina-2mg-4mg-8mg-carduran-aradois",
+    "alerta_idoso": true,
+    "categoria_beers": [
+      "queda"
+    ]
   },
   {
     "nome": "Endoxan (Ciclofosfamida)",
