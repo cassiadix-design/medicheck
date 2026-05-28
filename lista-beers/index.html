@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Beers 2023 — Medicamentos Perigosos para Idosos | MediCheck</title>
+    <meta name="description" content="Conheça os medicamentos potencialmente inapropriados para idosos segundo os Critérios de Beers 2023. Lista completa com explicações em linguagem simples." />
+    <meta name="keywords" content="Critérios de Beers, medicamentos para idosos, medicamentos inapropriados idosos, Beers 2023, polifarmácia, segurança medicamentos idosos" />
+    <meta property="og:title" content="Lista de Beers 2023 — Medicamentos Perigosos para Idosos | MediCheck" />
+    <meta property="og:description" content="Conheça os medicamentos potencialmente inapropriados para idosos segundo os Critérios de Beers 2023. Lista completa com explicações em linguagem simples." />
+    <meta property="og:url" content="https://medicheck.med.br/lista-beers/" />
+    <meta property="og:type" content="article" />
+    <meta property="og:image" content="https://medicheck.med.br/icons/icon-512.png" />
+    <meta property="og:site_name" content="MediCheck" />
+    <link rel="canonical" href="https://medicheck.med.br/lista-beers/" />
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalWebPage",
+  "name": "Lista de Beers 2023 — Medicamentos Perigosos para Idosos",
+  "description": "Conheça os medicamentos potencialmente inapropriados para idosos segundo os Critérios de Beers 2023. Lista completa com explicações em linguagem simples.",
+  "url": "https://medicheck.med.br/lista-beers/",
+  "about": {
+    "@type": "MedicalCause",
+    "name": "Uso inadequado de medicamentos em idosos"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "MediCheck",
+    "url": "https://medicheck.med.br"
+  },
+  "author": {
+    "@type": "Person",
+    "name": "Rita de Cássia Oliveira Soares da Silva",
+    "honorificSuffix": "Farmacêutica CRF-SP 33.109"
+  }
+}
+    </script>
+    <style>
+        * { margin:0; padding:0; box-sizing:border-box; }
+        body {
+            font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;
+            background:linear-gradient(135deg,#667eea 0%,#764ba2 100%);
+            min-height:100vh;
+            padding:20px;
+        }
+        .container {
+            background:white;
+            border-radius:20px;
+            box-shadow:0 20px 60px rgba(0,0,0,.3);
+            max-width:900px;
+            width:100%;
+            margin:0 auto;
+            overflow:hidden;
+        }
+        .header {
+            background:linear-gradient(135deg,#667eea 0%,#764ba2 100%);
+            color:white;
+            padding:40px 30px 30px;
+            text-align:center;
+        }
+        .header a {
+            color:rgba(255,255,255,.85);
+            text-decoration:none;
+            font-size:14px;
+            display:inline-block;
+            margin-bottom:16px;
+            border:1px solid rgba(255,255,255,.4);
+            padding:5px 14px;
+            border-radius:20px;
+            transition:.2s;
+        }
+        .header a:hover { background:rgba(255,255,255,.15); }
+        .header h1 { font-size:30px; font-weight:700; margin-bottom:8px; }
+        .header .subtitulo { font-size:15px; opacity:.9; margin-bottom:4px; }
+        .header .referencia { font-size:13px; opacity:.75; }
+        .content { padding:35px 30px; }
+
+        .aviso {
+            background:#fff8e1;
+            border:2px solid #ffc107;
+            border-radius:12px;
+            padding:16px 20px;
+            margin-bottom:28px;
+            font-size:14px;
+            color:#5d4037;
+            line-height:1.7;
+        }
+
+        /* índice rápido */
+        .indice {
+            display:flex;
+            flex-wrap:wrap;
+            gap:10px;
+            margin-bottom:32px;
+        }
+        .indice a {
+            padding:8px 16px;
+            border-radius:20px;
+            font-size:13px;
+            font-weight:700;
+            text-decoration:none;
+            transition:.2s;
+        }
+        .indice a.evitar    { background:#fde8e8; color:#c0392b; border:1px solid #c0392b; }
+        .indice a.cautela   { background:#fef3e2; color:#e8751a; border:1px solid #e8751a; }
+        .indice a.queda     { background:#f3e8fe; color:#8e44ad; border:1px solid #8e44ad; }
+        .indice a.cognitivo { background:#e8f4fd; color:#2980b9; border:1px solid #2980b9; }
+        .indice a.polifarmacia { background:#e8f8f0; color:#27ae60; border:1px solid #27ae60; }
+        .indice a:hover { opacity:.75; }
+
+        /* categorias */
+        .beers-categoria { margin-bottom:32px; }
+        .beers-categoria-titulo {
+            color:white;
+            padding:14px 20px;
+            border-radius:10px 10px 0 0;
+            font-size:17px;
+            font-weight:700;
+            letter-spacing:.3px;
+        }
+        .beers-categoria-titulo.evitar    { background:#c0392b; }
+        .beers-categoria-titulo.cautela   { background:#e8751a; }
+        .beers-categoria-titulo.queda     { background:#8e44ad; }
+        .beers-categoria-titulo.cognitivo { background:#2980b9; }
+        .beers-categoria-titulo.polifarmacia { background:#27ae60; }
+
+        .beers-lista {
+            border:2px solid #eee;
+            border-top:none;
+            border-radius:0 0 10px 10px;
+            overflow:hidden;
+        }
+        .beers-item {
+            padding:16px 20px;
+            border-bottom:1px solid #f0f0f0;
+            line-height:1.7;
+            font-size:15px;
+        }
+        .beers-item:last-child { border-bottom:none; }
+        .beers-item strong { color:#222; font-size:15px; }
+        .beers-badge {
+            display:inline-block;
+            padding:2px 10px;
+            border-radius:12px;
+            font-size:11px;
+            font-weight:700;
+            margin-left:8px;
+            vertical-align:middle;
+            letter-spacing:.5px;
+        }
+        .badge-evitar    { background:#fde8e8; color:#c0392b; border:1px solid #c0392b; }
+        .badge-cautela   { background:#fef3e2; color:#e8751a; border:1px solid #e8751a; }
+        .badge-queda     { background:#f3e8fe; color:#8e44ad; border:1px solid #8e44ad; }
+        .badge-cognitivo { background:#e8f4fd; color:#2980b9; border:1px solid #2980b9; }
+        .motivo {
+            display:block;
+            margin-top:6px;
+            font-size:14px;
+            color:#555;
+            line-height:1.8;
+        }
+
+        .back-link {
+            display:inline-block;
+            margin-top:30px;
+            padding:14px 28px;
+            background:linear-gradient(135deg,#667eea,#764ba2);
+            color:white;
+            text-decoration:none;
+            border-radius:10px;
+            font-weight:700;
+            font-size:16px;
+            transition:.3s;
+        }
+        .back-link:hover { transform:translateY(-2px); box-shadow:0 6px 20px rgba(102,126,234,.4); }
+
+        .footer-crf {
+            text-align:center;
+            padding:18px 30px;
+            font-size:13px;
+            color:#888;
+            border-top:1px solid #eee;
+            background:#fafafa;
+        }
+
+        @media(max-width:600px) {
+            .header h1 { font-size:22px; }
+            .content { padding:20px 16px; }
+            .beers-item { padding:14px 16px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <a href="https://medicheck.med.br/">← Voltar ao MediCheck</a>
+            <h1>🧓 Lista de Beers 2023</h1>
+            <div class="subtitulo">Medicamentos Potencialmente Inapropriados para Idosos</div>
+            <div class="referencia">American Geriatrics Society — Referência internacional para geriatras e farmacêuticos</div>
+        </div>
+
+        <div class="content">
+
+            <div class="aviso">
+                ⚠️ <strong>Importante:</strong> Esta página é educacional e baseada nos Critérios de Beers 2023. Cada paciente é único — nunca interrompa ou substitua medicamentos sem orientação médica ou farmacêutica. Conteúdo revisado por <strong>Rita de Cássia Oliveira Soares da Silva — CRF-SP 33.109</strong>.
+            </div>
+
+            <nav class="indice">
+                <a href="#evitar" class="evitar">🚫 EVITAR</a>
+                <a href="#cautela" class="cautela">⚠️ CAUTELA</a>
+                <a href="#queda" class="queda">🦯 RISCO DE QUEDAS</a>
+                <a href="#cognitivo" class="cognitivo">🧠 RISCO COGNITIVO</a>
+                <a href="#polifarmacia" class="polifarmacia">💊 POLIFARMÁCIA</a>
+            </nav>
+
+            <!-- EVITAR -->
+            <div class="beers-categoria" id="evitar">
+                <div class="beers-categoria-titulo evitar">🚫 Medicamentos a EVITAR em Idosos</div>
+                <div class="beers-lista">
+                    <div class="beers-item">
+                        <strong>Benzodiazepínicos</strong> <span class="beers-badge badge-evitar">EVITAR</span>
+                        <span class="motivo">Diazepam, Clonazepam, Alprazolam, Bromazepam — Aumentam risco de sedação excessiva, quedas, fraturas e comprometimento cognitivo. Idosos metabolizam mais lentamente, acumulando o medicamento no organismo.</span>
+                    </div>
+                    <div class="beers-item">
+                        <strong>Anti-histamínicos de 1ª geração</strong> <span class="beers-badge badge-evitar">EVITAR</span>
+                        <span class="motivo">Prometazina — Forte ação anticolinérgica. Causa confusão mental, retenção urinária, constipação e visão turva em idosos. Risco de delirium.</span>
+                    </div>
+                    <div class="beers-item">
+                        <strong>Antidepressivos tricíclicos</strong> <span class="beers-badge badge-evitar">EVITAR</span>
+                        <span class="motivo">Amitriptilina — Altamente anticolinérgico e sedativo. Causa hipotensão ortostática (tontura ao levantar), aumentando risco de queda e fratura de quadril.</span>
+                    </div>
+                    <div class="beers-item">
+                        <strong>Anti-inflamatórios (AINEs) de uso contínuo</strong> <span class="beers-badge badge-evitar">EVITAR</span>
+                        <span class="motivo">Ibuprofeno, Diclofenaco, Nimesulida — Uso crônico aumenta risco de sangramento gastrointestinal, insuficiência renal e elevação da pressão arterial em idosos.</span>
+                    </div>
+                    <div class="beers-item">
+                        <strong>Hipnóticos Z-drugs</strong> <span class="beers-badge badge-evitar">EVITAR</span>
+                        <span class="motivo">Zolpidem, Zopiclona — Aumentam risco de quedas, fraturas, delirium e acidentes de trânsito. Efeitos sedativos são mais intensos e prolongados em idosos.</span>
+                    </div>
+                    <div class="beers-item">
+                        <strong>Relaxantes musculares</strong> <span class="beers-badge badge-evitar">EVITAR</span>
+                        <span class="motivo">Baclofen — Causa sedação excessiva, confusão mental e fraqueza muscular em idosos, aumentando o risco de quedas.</span>
+                    </div>
+                    <div class="beers-item">
+                        <strong>Anticolinérgicos para bexiga</strong> <span class="beers-badge badge-evitar">EVITAR</span>
+                        <span class="motivo">Biperideno — Causa retenção urinária, constipação, confusão mental e visão turva. Risco aumentado de delirium em idosos.</span>
+                    </div>
+                    <div class="beers-item">
+                        <strong>Glibenclamida</strong> <span class="beers-badge badge-evitar">EVITAR</span>
+                        <span class="motivo">Sulfonilureia de longa duração — causa hipoglicemia grave e prolongada em idosos. Idosos frequentemente têm hipoglicemia assintomática (não sentem os sintomas), tornando o quadro ainda mais perigoso. Os Critérios de Beers recomendam evitar — prefira antidiabéticos mais seguros como metformina ou inibidores DPP-4.</span>
+                    </div>
+                    <div class="beers-item">
+                        <strong>Digoxina em doses altas (acima de 0,125mg/dia)</strong> <span class="beers-badge badge-evitar">EVITAR</span>
+                        <span class="motivo">Rins dos idosos eliminam a digoxina mais lentamente, aumentando o risco de intoxicação mesmo em doses consideradas normais para adultos jovens.</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CAUTELA -->
+            <div class="beers-categoria" id="cautela">
+                <div class="beers-categoria-titulo cautela">⚠️ Usar com CAUTELA em Idosos</div>
+                <div class="beers-lista">
+                    <div class="beers-item">
+                        <strong>Inibidores da ECA e BRAs</strong> <span class="beers-badge badge-cautela">CAUTELA</span>
+                        <span class="motivo">Enalapril, Losartana, Captopril — Monitorar função renal e potássio regularmente. Risco de hipotensão e tontura ao levantar.</span>
+                    </div>
+                    <div class="beers-item">
+                        <strong>Diuréticos</strong> <span class="beers-badge badge-cautela">CAUTELA</span>
+                        <span class="motivo">Furosemida, Hidroclorotiazida — Podem causar desidratação, desequilíbrio de eletrólitos e hipotensão em idosos. Monitorar sódio, potássio e função renal.</span>
+                    </div>
+                    <div class="beers-item">
+                        <strong>Anticoagulantes orais</strong> <span class="beers-badge badge-cautela">CAUTELA</span>
+                        <span class="motivo">Warfarina, Rivaroxabana — Idosos têm maior risco de sangramento. Monitoramento rigoroso do INR e sinais de sangramento é essencial.</span>
+                    </div>
+                    <div class="beers-item">
+                        <strong>Antipsicóticos</strong> <span class="beers-badge badge-cautela">CAUTELA</span>
+                        <span class="motivo">Haloperidol, Quetiapina, Risperidona, Olanzapina — Em idosos com demência, aumentam risco de AVC e morte. Usar apenas quando benefício supera claramente o risco.</span>
+                    </div>
+                    <div class="beers-item">
+                        <strong>Opioides</strong> <span class="beers-badge badge-cautela">CAUTELA</span>
+                        <span class="motivo">Codeína, Tramadol — Maior risco de sedação, constipação grave, confusão mental e quedas. Tramadol pode causar hipoglicemia em idosos diabéticos.</span>
+                    </div>
+                    <div class="beers-item">
+                        <strong>Inibidores de bomba de prótons crônicos</strong> <span class="beers-badge badge-cautela">CAUTELA</span>
+                        <span class="motivo">Omeprazol, Pantoprazol — Uso prolongado em idosos aumenta risco de deficiência de vitamina B12, magnésio, fraturas ósseas e infecções intestinais.</span>
+                    </div>
+                    <div class="beers-item">
+                        <strong>Insulinas (Regular e NPH)</strong> <span class="beers-badge badge-cautela">CAUTELA</span>
+                        <span class="motivo">Idosos têm maior risco de hipoglicemia grave com insulina — menor percepção dos sintomas (hipoglicemia assintomática), alimentação irregular, função renal reduzida e múltiplos medicamentos aumentam o risco. Monitoramento frequente da glicemia é essencial. Metas glicêmicas menos rígidas são recomendadas para idosos frágeis. Mantenha sempre açúcar ou suco por perto.</span>
+                    </div>
+                    <div class="beers-item">
+                        <strong>Metformina</strong> <span class="beers-badge badge-cautela">CAUTELA</span>
+                        <span class="motivo">Monitorar função renal regularmente. Contraindicada em insuficiência renal grave. Risco de acidose lática aumentado com a piora da função renal que ocorre com o envelhecimento.</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- RISCO DE QUEDAS -->
+            <div class="beers-categoria" id="queda">
+                <div class="beers-categoria-titulo queda">🦯 Medicamentos com RISCO DE QUEDAS</div>
+                <div class="beers-lista">
+                    <div class="beers-item">
+                        <strong>Benzodiazepínicos e Z-drugs</strong> <span class="beers-badge badge-queda">QUEDA</span>
+                        <span class="motivo">Diazepam, Clonazepam, Zolpidem — Sedação e comprometimento do equilíbrio. Principal causa de fraturas de quadril em idosos.</span>
+                    </div>
+                    <div class="beers-item">
+                        <strong>Anti-hipertensivos</strong> <span class="beers-badge badge-queda">QUEDA</span>
+                        <span class="motivo">Anlodipino, Atenolol, Metoprolol, Losartana — Hipotensão ortostática ao levantar rápido. Idosos devem levantar devagar e segurar em apoios.</span>
+                    </div>
+                    <div class="beers-item">
+                        <strong>Diuréticos</strong> <span class="beers-badge badge-queda">QUEDA</span>
+                        <span class="motivo">Furosemida, Hidroclorotiazida — Urgência urinária e pressa ao se levantar para ir ao banheiro aumentam risco de queda, especialmente à noite.</span>
+                    </div>
+                    <div class="beers-item">
+                        <strong>Antidepressivos</strong> <span class="beers-badge badge-queda">QUEDA</span>
+                        <span class="motivo">Amitriptilina, Mirtazapina, Trazodona — Sedação, tontura e hipotensão ortostática. Atenção especial nas primeiras semanas de tratamento.</span>
+                    </div>
+                    <div class="beers-item">
+                        <strong>Antipsicóticos</strong> <span class="beers-badge badge-queda">QUEDA</span>
+                        <span class="motivo">Haloperidol, Quetiapina — Sedação, hipotensão e rigidez muscular comprometem o equilíbrio e aumentam risco de quedas.</span>
+                    </div>
+                    <div class="beers-item">
+                        <strong>Opioides</strong> <span class="beers-badge badge-queda">QUEDA</span>
+                        <span class="motivo">Tramadol, Codeína — Tontura, sedação e comprometimento da coordenação motora. Risco dobrado de quedas nos primeiros dias de uso.</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- RISCO COGNITIVO -->
+            <div class="beers-categoria" id="cognitivo">
+                <div class="beers-categoria-titulo cognitivo">🧠 Medicamentos com RISCO COGNITIVO e DEMÊNCIA</div>
+                <div class="beers-lista">
+                    <div class="beers-item">
+                        <strong>Anticolinérgicos em geral</strong> <span class="beers-badge badge-cognitivo">COGNITIVO</span>
+                        <span class="motivo">Biperideno, Prometazina, Amitriptilina — Bloqueiam a acetilcolina, neurotransmissor essencial para a memória. Uso prolongado associado a maior risco de demência.</span>
+                    </div>
+                    <div class="beers-item">
+                        <strong>Benzodiazepínicos</strong> <span class="beers-badge badge-cognitivo">COGNITIVO</span>
+                        <span class="motivo">Diazepam, Clonazepam, Alprazolam — Comprometem a memória, atenção e aprendizado. Uso crônico associado ao aumento do risco de Alzheimer.</span>
+                    </div>
+                    <div class="beers-item">
+                        <strong>Hipnóticos</strong> <span class="beers-badge badge-cognitivo">COGNITIVO</span>
+                        <span class="motivo">Zolpidem, Zopiclona — Além de comprometer a memória, podem causar comportamentos automáticos durante a noite sem que o idoso se lembre.</span>
+                    </div>
+                    <div class="beers-item">
+                        <strong>Corticoides sistêmicos em altas doses</strong> <span class="beers-badge badge-cognitivo">COGNITIVO</span>
+                        <span class="motivo">Prednisona, Dexametasona — Uso prolongado pode causar psicose esteroidal, confusão mental e alterações de humor em idosos.</span>
+                    </div>
+                    <div class="beers-item">
+                        <strong>Opioides</strong> <span class="beers-badge badge-cognitivo">COGNITIVO</span>
+                        <span class="motivo">Tramadol, Codeína — Causam confusão mental, delirium e comprometimento da memória. Risco aumentado em idosos com demência prévia.</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- POLIFARMÁCIA -->
+            <div class="beers-categoria" id="polifarmacia">
+                <div class="beers-categoria-titulo polifarmacia">💊 Alerta de POLIFARMÁCIA</div>
+                <div class="beers-lista">
+                    <div class="beers-item">
+                        <strong>O que é polifarmácia?</strong>
+                        <span class="motivo">Uso simultâneo de 5 ou mais medicamentos. Muito comum em idosos — quanto mais medicamentos, maior o risco de interações perigosas e efeitos adversos.</span>
+                    </div>
+                    <div class="beers-item">
+                        <strong>Cascata de prescrição</strong>
+                        <span class="motivo">Ocorre quando o efeito colateral de um medicamento é tratado com outro medicamento, que gera outro efeito colateral, e assim por diante. Muito frequente em idosos.</span>
+                    </div>
+                    <div class="beers-item">
+                        <strong>Combinações de alto risco</strong>
+                        <span class="motivo">⚠️ Anti-hipertensivo + Diurético + Opioide = alto risco de queda<br>
+                        ⚠️ Benzodiazepínico + Antipsicótico = risco elevado de sedação grave<br>
+                        ⚠️ Anticoagulante + AINE = risco elevado de sangramento<br>
+                        ⚠️ Múltiplos anticolinérgicos = risco de delirium e demência</span>
+                    </div>
+                    <div class="beers-item">
+                        <strong>O que fazer?</strong>
+                        <span class="motivo">✅ Leve todos os medicamentos (incluindo os sem receita) nas consultas<br>
+                        ✅ Peça ao médico ou farmacêutico uma revisão completa anual dos remédios<br>
+                        ✅ Questione se cada medicamento ainda é necessário<br>
+                        ✅ Nunca pare um medicamento por conta própria — converse com o profissional de saúde</span>
+                    </div>
+                </div>
+            </div>
+
+            <div style="background:#f8f9fa;border:1px solid #dee2e6;border-radius:10px;padding:18px 20px;margin-top:10px;font-size:13px;color:#666;line-height:1.8;">
+                <strong>📚 Referência:</strong> American Geriatrics Society Beers Criteria® Update Expert Panel. 2023 AGS Beers Criteria® for Potentially Inappropriate Medication Use in Older Adults. <em>J Am Geriatr Soc.</em> 2023.<br>
+                Conteúdo educacional revisado por <strong>Rita de Cássia Oliveira Soares da Silva — CRF-SP 33.109 — Farmacêutica</strong>
+            </div>
+
+            <a href="https://medicheck.med.br/" class="back-link">← Voltar ao MediCheck</a>
+        </div>
+
+        <div class="footer-crf">
+            Conteúdo elaborado por <strong>Rita de Cássia Oliveira Soares da Silva — Farmacêutica CRF-SP 33.109</strong><br>
+            Para fins informativos. Consulte sempre um profissional de saúde.
+        </div>
+    </div>
+</body>
+</html>

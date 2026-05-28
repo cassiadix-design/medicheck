@@ -7,6 +7,12 @@
     <changefreq>weekly</changefreq>
   </url>
   <url>
+    <loc>https://medicheck.med.br/lista-beers/</loc>
+    <lastmod>2026-05-28</lastmod>
+    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://medicheck.med.br/sobre/</loc>
     <lastmod>2026-05-27</lastmod>
     <priority>0.8</priority>
