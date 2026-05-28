@@ -238,5 +238,125 @@
     "categoria": "Polêmica",
     "emoji": "📋",
     "fonte_referencia": "ANVISA. (2023). Nota de Esclarecimento sobre Isotretinoína. Agência Nacional de Vigilância Sanitária."
+  },
+  {
+    "id": 31,
+    "titulo": "O remédio para pressão que virou Viagra",
+    "conteudo": "A sildenafila (Viagra) foi desenvolvida originalmente para tratar angina e hipertensão arterial. Nos testes clínicos, os pacientes relatavam um efeito colateral inusitado — ereção. A Pfizer rapidamente mudou o foco do desenvolvimento e lançou o medicamento para disfunção erétil em 1998. Hoje é um dos remédios mais vendidos do mundo.",
+    "categoria": "História",
+    "emoji": "💊",
+    "fonte_referencia": "Pfizer / FDA"
+  },
+  {
+    "id": 32,
+    "titulo": "O veneno que salva vidas: a história da warfarina",
+    "conteudo": "A warfarina foi desenvolvida como veneno para ratos na década de 1940. Quando um soldado americano tentou se suicidar ingerindo o produto e sobreviveu, os cientistas perceberam que em doses controladas poderia ser útil. Hoje é um dos anticoagulantes mais usados no mundo para prevenir derrames e tromboses.",
+    "categoria": "Polêmica",
+    "emoji": "🐀",
+    "fonte_referencia": "American Heart Association"
+  },
+  {
+    "id": 33,
+    "titulo": "Por que anestesia geral só existe há 180 anos?",
+    "conteudo": "Antes de 1846, cirurgias eram feitas com o paciente acordado ou com doses perigosas de álcool e ópio. A primeira cirurgia com éter foi realizada em Boston em 1846 — e foi transmitida ao vivo para uma plateia de médicos estarrecidos. Antes disso, a velocidade do cirurgião era o único anestésico: os melhores amputavam uma perna em menos de 90 segundos.",
+    "categoria": "História",
+    "emoji": "🏥",
+    "fonte_referencia": "New England Journal of Medicine"
+  },
+  {
+    "id": 34,
+    "titulo": "O Brasil é o maior consumidor de ansiolíticos do mundo",
+    "conteudo": "O Brasil consome mais benzodiazepínicos per capita do que qualquer outro país. Clonazepam (Rivotril) chegou a ser o medicamento mais vendido no país por vários anos. Especialistas atribuem ao estresse crônico, ao acesso fácil a receitas e à cultura de medicalizar a ansiedade — um problema que preocupa farmacêuticos e psiquiatras.",
+    "categoria": "Polêmica",
+    "emoji": "😴",
+    "fonte_referencia": "ANVISA / CFM"
+  },
+  {
+    "id": 35,
+    "titulo": "A cafeína é o psicoativo mais consumido no mundo",
+    "conteudo": "A cafeína presente no café, chá, refrigerante e chocolate é tecnicamente uma droga psicoativa — age no cérebro bloqueando receptores de adenosina, que causam sono. Funciona como um estimulante natural. Em doses muito altas (acima de 10g) pode ser fatal, mas uma xícara tem apenas 80-100mg. O corpo desenvolve tolerância e dependência física real.",
+    "categoria": "Ciência",
+    "emoji": "☕",
+    "fonte_referencia": "FDA / EFSA"
+  },
+  {
+    "id": 36,
+    "titulo": "Remédios genéricos são iguais aos de marca?",
+    "conteudo": "Sim — por lei, genéricos precisam ter o mesmo princípio ativo, mesma dose, mesma via de administração e comprovar bioequivalência com o medicamento de referência em testes rigorosos na ANVISA. A diferença está apenas nos excipientes (corantes, conservantes) e no preço — em média 35% mais barato. Muitos médicos e farmacêuticos usam genéricos para suas próprias famílias.",
+    "categoria": "Ciência",
+    "emoji": "💊",
+    "fonte_referencia": "ANVISA"
+  },
+  {
+    "id": 37,
+    "titulo": "O antibiótico que nasceu de um fungo esquecido",
+    "conteudo": "Em 1928, Alexander Fleming voltou de férias e encontrou suas placas de cultura contaminadas por um fungo — o Penicillium. Em vez de descartar, observou que o fungo matava as bactérias ao redor. Mas a penicilina só foi desenvolvida de fato por Florey e Chain em 1940. Estima-se que o antibiótico já salvou mais de 200 milhões de vidas.",
+    "categoria": "História",
+    "emoji": "🍄",
+    "fonte_referencia": "Nobel Prize Organization"
+  },
+  {
+    "id": 38,
+    "titulo": "Omeprazol: o remédio para azia que virou hábito perigoso",
+    "conteudo": "O omeprazol é um dos medicamentos mais vendidos do Brasil — e um dos mais usados sem necessidade. O uso crônico e sem indicação médica pode causar deficiência de vitamina B12, magnésio e cálcio, além de aumentar o risco de infecções intestinais. A ANVISA alerta que ele não deveria ser usado por mais de 8 semanas sem reavaliação médica.",
+    "categoria": "Polêmica",
+    "emoji": "🔥",
+    "fonte_referencia": "ANVISA / Sociedade Brasileira de Gastroenterologia"
+  },
+  {
+    "id": 39,
+    "titulo": "Como a sífilis criou a farmacologia moderna",
+    "conteudo": "Em 1909, Paul Ehrlich criou o Salvarsan — o primeiro medicamento desenvolvido sistematicamente para tratar uma doença específica (sífilis). Antes disso, remédios eram descobertos por acaso. Ehrlich testou mais de 600 compostos antes de encontrar o 606 (Salvarsan). Essa abordagem metódica deu origem à farmacologia moderna e ao conceito de bala mágica — um remédio específico para cada doença.",
+    "categoria": "História",
+    "emoji": "🔬",
+    "fonte_referencia": "Nobel Prize Organization"
+  },
+  {
+    "id": 40,
+    "titulo": "Por que alguns remédios não podem ser partidos ao meio?",
+    "conteudo": "Comprimidos de liberação prolongada (LP, XR, ER, Retard) têm uma estrutura especial que libera o medicamento aos poucos ao longo do dia. Partir ao meio destrói esse mecanismo, liberando toda a dose de uma vez — podendo causar superdosagem e efeitos adversos graves. Sempre verifique com o farmacêutico antes de partir qualquer comprimido.",
+    "categoria": "Ciência",
+    "emoji": "✂️",
+    "fonte_referencia": "ANVISA / CFF"
+  },
+  {
+    "id": 41,
+    "titulo": "A dipirona que divide o mundo",
+    "conteudo": "A dipirona é proibida nos EUA, Alemanha, Japão e vários outros países por risco de agranulocitose (queda grave dos glóbulos brancos). No Brasil, é o analgésico mais vendido e amplamente prescrito. A OMS mantém posição cautelosa. Farmacologistas brasileiros defendem que o risco é muito baixo (1 em 1 milhão) e que o benefício supera o risco quando usada corretamente.",
+    "categoria": "Polêmica",
+    "emoji": "🌍",
+    "fonte_referencia": "OMS / ANVISA"
+  },
+  {
+    "id": 42,
+    "titulo": "O coração da mandioca e o cianeto",
+    "conteudo": "A mandioca brava contém linamarina, que o organismo converte em cianeto de hidrogênio. Povos indígenas brasileiros desenvolveram técnicas milenares de processamento — ralação, prensagem e torração — para eliminar o veneno. A farinha de mandioca que comemos hoje é o resultado de séculos de farmacologia popular. A mandioca mansa (aipim) tem níveis muito baixos e é segura crua.",
+    "categoria": "Mundo",
+    "emoji": "🌿",
+    "fonte_referencia": "Embrapa / FAO"
+  },
+  {
+    "id": 43,
+    "titulo": "Vacinas: o maior feito da medicina preventiva",
+    "conteudo": "A varíola matou mais de 300 milhões de pessoas no século XX — e foi completamente erradicada em 1980 graças à vacinação global. A poliomielite, que causava paralisia em crianças, está quase erradicada. Estima-se que vacinas evitam 2 a 3 milhões de mortes por ano. Edward Jenner, o criador da primeira vacina em 1796, usou pus de varíola bovina em um menino de 8 anos.",
+    "categoria": "Ciência",
+    "emoji": "💉",
+    "fonte_referencia": "OMS / CDC"
+  },
+  {
+    "id": 44,
+    "titulo": "O remédio que nasceu da urina de freiras",
+    "conteudo": "A gonadotrofina menopáusica humana (hMG), usada em tratamentos de fertilidade, foi originalmente extraída da urina de mulheres na menopausa. Na década de 1950, o cientista Piero Donini coletou urina de freiras italianas em conventos para produzir o medicamento. Hoje é produzida por biotecnologia, mas a versão urinária ainda é usada em alguns países.",
+    "categoria": "História",
+    "emoji": "🏛️",
+    "fonte_referencia": "ESHRE / Ferring Pharmaceuticals"
+  },
+  {
+    "id": 45,
+    "titulo": "Por que remédios têm prazo de validade?",
+    "conteudo": "O prazo de validade não significa que o remédio vira veneno depois da data — mas que o fabricante não garante mais a potência original. Estudos do exército americano mostraram que 90% dos medicamentos mantêm eficácia por anos após o vencimento se armazenados corretamente. A exceção são colírios, insulinas, antibióticos líquidos e nitroglicerina, que se degradam de forma clinicamente relevante.",
+    "categoria": "Ciência",
+    "emoji": "⏰",
+    "fonte_referencia": "FDA / Journal of Pharmaceutical Sciences"
   }
 ]
