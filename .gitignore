@@ -3,3 +3,4 @@ dist/
 .astro/
 *.html.html
 config.js
+.env
