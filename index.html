@@ -5462,25 +5462,64 @@ window.addEventListener('DOMContentLoaded', () => {
             const container = document.getElementById('beers-meds-lista');
             if (!container) return;
             const beers = medicamentosData.filter(m => m.alerta_idoso === true);
-            beers.sort((a, b) => a.nome.localeCompare(b.nome, 'pt-BR'));
             if (beers.length === 0) {
                 container.innerHTML = '<p style="color:#999;font-size:13px;padding:10px;text-align:center;">Carregando dados...</p>';
                 return;
             }
-            container.innerHTML = '';
+
+            const grupos = {
+                evitar:    { emoji: '🚫', label: 'Medicamentos a EVITAR em Idosos',            cor: '#c0392b', bg: '#fde8e8', meds: [] },
+                cautela:   { emoji: '⚠️', label: 'Usar com CAUTELA em Idosos',                 cor: '#e8751a', bg: '#fef3e8', meds: [] },
+                queda:     { emoji: '🦯', label: 'Medicamentos com RISCO DE QUEDAS',            cor: '#8e44ad', bg: '#f3e8fe', meds: [] },
+                cognitivo: { emoji: '🧠', label: 'Medicamentos com RISCO COGNITIVO / DELIRIUM', cor: '#2980b9', bg: '#e8f4fd', meds: [] },
+            };
+
             beers.forEach(med => {
-                const btn = document.createElement('button');
-                btn.className = 'medicine-btn';
-                const slug = slugify(med.nome);
-                btn.innerHTML =
-                    '<span style="flex:1;text-align:left;">' + med.nome + '</span>' +
-                    '<span style="display:flex;gap:6px;align-items:center;flex-shrink:0;">' +
-                        '<span style="font-size:11px;font-weight:700;padding:3px 10px;border-radius:12px;background:#fde8e8;color:#c0392b;border:1px solid #c0392b;white-space:nowrap;">⚠️ Beers</span>' +
-                    '</span>';
-                btn.style.cssText = 'display:flex;align-items:center;gap:10px;justify-content:space-between;';
-                btn.onclick = () => openMedicineModal(med);
-                container.appendChild(btn);
+                const cats = Array.isArray(med.categoria_beers)
+                    ? med.categoria_beers
+                    : [med.categoria_beers || 'evitar'];
+                cats.forEach(cat => { if (grupos[cat]) grupos[cat].meds.push(med); });
             });
+
+            Object.values(grupos).forEach(g =>
+                g.meds.sort((a, b) => a.nome.localeCompare(b.nome, 'pt-BR'))
+            );
+
+            container.style.display = 'block';
+            container.innerHTML = '';
+
+            for (const [cat, g] of Object.entries(grupos)) {
+                if (g.meds.length === 0) continue;
+
+                const sec = document.createElement('div');
+                sec.style.cssText = 'margin-bottom:22px;';
+
+                const titulo = document.createElement('div');
+                titulo.className = 'beers-categoria-titulo ' + cat;
+                titulo.textContent = g.emoji + ' ' + g.label + ' (' + g.meds.length + ')';
+                sec.appendChild(titulo);
+
+                const grid = document.createElement('div');
+                grid.className = 'medicine-grid';
+                grid.style.marginTop = '10px';
+
+                g.meds.forEach(med => {
+                    const btn = document.createElement('button');
+                    btn.className = 'medicine-btn';
+                    btn.innerHTML =
+                        '<span style="flex:1;text-align:left;">' + med.nome + '</span>' +
+                        '<span style="flex-shrink:0;font-size:11px;font-weight:700;padding:3px 10px;' +
+                        'border-radius:12px;background:' + g.bg + ';color:' + g.cor + ';' +
+                        'border:1px solid ' + g.cor + ';white-space:nowrap;">' + g.emoji + ' ' +
+                        cat.charAt(0).toUpperCase() + cat.slice(1) + '</span>';
+                    btn.style.cssText = 'display:flex;align-items:center;gap:10px;justify-content:space-between;';
+                    btn.onclick = () => openMedicineModal(med);
+                    grid.appendChild(btn);
+                });
+
+                sec.appendChild(grid);
+                container.appendChild(sec);
+            }
         }
 
         function openExameModal(exame) {
