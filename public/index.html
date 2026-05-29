@@ -1626,7 +1626,7 @@ border-radius:0 0 20px 20px;
                                 'anthropic-dangerous-direct-browser-access': 'true'
                             },
                             body: JSON.stringify({
-                                model: 'claude-sonnet-4-20250514',
+                                model: 'claude-sonnet-4-6',
                                 max_tokens: 1000,
                                 system: 'Você é uma farmacêutica especialista em interações medicamentosas. Analise a combinação e responda APENAS em JSON válido, sem markdown, sem explicação extra.\n\nFormato obrigatório:\n{"nivel":"alto"|"moderado"|"baixo"|"nenhum","titulo":"texto curto","efeito":"descrição clara do efeito","conduta":"conduta recomendada com emoji ❌ ⚠️ ou ✅","mecanismo":"mecanismo em 1 frase"}\n\nSe não houver interação relevante conhecida, use nivel "nenhum". Nunca invente interações graves que não existem.',
                                 messages: [{ role: 'user', content: 'Analise a interação entre: ' + m1 + ' e ' + m2 }]
