@@ -1,3 +1,9 @@
+[[redirects]]
+  from = "/medicamentos/*"
+  to = "/medicamento/:splat"
+  status = 301
+  force = true
+
 [build]
   publish = "."
   command = ""
