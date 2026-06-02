@@ -589,6 +589,18 @@
   status = 301
   force = true
 
+[[redirects]]
+  from = "/medicamentos/"
+  to = "/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/termos-de-uso/"
+  to = "/"
+  status = 301
+  force = true
+
 # Wildcard: redireciona qualquer /medicamentos/* restante para /medicamento/:splat
 [[redirects]]
   from = "/medicamentos/*"
