@@ -1,3 +1,595 @@
+# Redirects específicos 301 para URLs com 404 no GSC (slugs alterados)
+# Devem vir ANTES do wildcard para ter precedência
+
+[[redirects]]
+  from = "/medicamentos/espironolactona-25mg-50mg-100mg/"
+  to = "/medicamento/espironolactona-25mg-50mg-100mg/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/medicamentos/alopurinol-100mg-300mg/"
+  to = "/medicamento/alopurinol-100mg-300mg/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/medicamentos/zolpidem-5mg-10mg/"
+  to = "/medicamento/zolpidem-5mg-10mg/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/medicamentos/isotretinoina-10mg-20mg/"
+  to = "/medicamento/isotretinoina-10mg-20mg/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/medicamentos/curcumina-curcuma/"
+  to = "/medicamento/curcumina-curcuma/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/medicamentos/anlodipino-5mg-10mg/"
+  to = "/medicamento/anlodipino-5mg-10mg/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/medicamentos/lamotrigina/"
+  to = "/medicamento/lamotrigina-25mg-50mg-100mg-150mg-200mg/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/medicamentos/brometo-de-escopolamina/"
+  to = "/medicamento/brometo-de-escopolamina-hioscina-10mg/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/medicamentos/escitalopram-gotas/"
+  to = "/medicamento/escitalopram-10mg-15mg-20mg-gotas/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/medicamentos/aspirina-acido-acetilsalicilico/"
+  to = "/medicamento/aspirina-500mg-acido-acetilsalicilico-500mg/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/medicamentos/oseltamivir-suspensao/"
+  to = "/medicamento/oseltamivir-75mg-suspensao/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/medicamentos/ibuprofeno-gotas/"
+  to = "/medicamento/ibuprofeno-200mg-400mg-600mg-gotas/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/medicamentos/metotrexato-injetavel/"
+  to = "/medicamento/metotrexato-25mg-75mg-10mg-15mg-25mg-injetavel/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/medicamentos/codeina-xarope-e-injetavel/"
+  to = "/medicamento/codeina-30mg-60mg-xarope-e-injetavel/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/medicamentos/bromazepam-e/"
+  to = "/medicamento/bromazepam-3mg-e-6mg/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/medicamentos/ranitidina-solucao-injetavel/"
+  to = "/medicamento/ranitidina-150mg-300mg-solucao-injetavel/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/medicamentos/ciprofloxacino-injetavel-e-colirio-oftalmico/"
+  to = "/medicamento/ciprofloxacino-250mg-500mg-750mg-injetavel-e-colirio-oftalmico/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/medicamentos/cetirizina-e-xarope/"
+  to = "/medicamento/cetirizina-10mg-e-xarope/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/medicamentos/cefalexina-suspensao/"
+  to = "/medicamento/cefalexina-500mg-10g-suspensao/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/medicamentos/miconazol-creme-po-gel-oral/"
+  to = "/medicamento/miconazol-creme-po-gel-oral/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/medicamentos/beclometasona-spray-nasal/"
+  to = "/medicamento/beclometasona-spray-nasal/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/medicamentos/furosemida-injetavel/"
+  to = "/medicamento/furosemida-40mg/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/medicamentos/mebendazol-suspensao/"
+  to = "/medicamento/mebendazol-100mg-suspensao/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/medicamentos/diazepam-comprimido-injetavel/"
+  to = "/medicamento/diazepam-comprimido-5mg-10-mg-injetavel/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/medicamentos/droperidol-injetavel/"
+  to = "/medicamento/droperidol-25mg-injetavel/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/medicamentos/nitazoxanida-suspensao/"
+  to = "/medicamento/nitazoxanida-500mg-suspensao/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/medicamentos/simeticona-gotas/"
+  to = "/medicamento/simeticona/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/medicamentos/risperidona-solucao-oral/"
+  to = "/medicamento/risperidona-05mg-1mg-2mg-3mg-4mg-solucao-oral/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/medicamentos/etambutol-solucao-oral/"
+  to = "/medicamento/etambutol-400mg-solucao-oral/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/medicamentos/clindamicina-injetavel/"
+  to = "/medicamento/clindamicina-150mg-300mg-injetavel/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/medicamentos/hidralazina-injetavel/"
+  to = "/medicamento/hidralazina-25mg-50mg-injetavel/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/medicamentos/lactulose-xarope/"
+  to = "/medicamento/lactulose-667mgml-xarope/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/medicamentos/nimesulida-suspensao/"
+  to = "/medicamento/nimesulida-100mg-suspensao/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/medicamentos/prometazina-creme-xarope-injetavel/"
+  to = "/medicamento/prometazina-25mg-creme-xarope-injetavel/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/medicamentos/acido-hialuronico-serum/"
+  to = "/medicamento/acido-hialuronico-serum/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/medicamentos/haloperidol-gotas-injetavel/"
+  to = "/medicamento/haloperidol-1mg-5mg-gotas-injetavel/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/medicamentos/hidrocortisona-injetavel-pomada/"
+  to = "/medicamento/hidrocortisona-injetavel-pomada/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/medicamentos/rifampicina-capsula-suspensao/"
+  to = "/medicamento/rifampicina-300mg-capsula-suspensao/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/medicamentos/fenitoina-injetavel/"
+  to = "/medicamento/fenitoina-100mg-injetavel/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/medicamentos/azitromicina-suspensao/"
+  to = "/medicamento/azitromicina-500mg-10g-suspensao-600mg-900mg-1500mg/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/medicamentos/desloratadina-xarope/"
+  to = "/medicamento/desloratadina-5mg-xarope/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/medicamentos/paracetamol-gotas-xarope/"
+  to = "/medicamento/paracetamol-500mg-750mg-gotas-xarope/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/medicamentos/metoclopramida-gotas-injetavel/"
+  to = "/medicamento/metoclopramida-10mg-gotas-injetavel/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/medicamentos/quetiapina-xr/"
+  to = "/medicamento/quetiapina-25mg-50mg-100mg-200mg-300mg-xr-liberacao-prolongada/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/medicamentos/salbutamol-spray-inalatorio-solucao-para-nebulizacao/"
+  to = "/medicamento/salbutamol-spray-inalatorio-solucao-para-nebulizacao/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/medicamentos/sucralfato-suspensao/"
+  to = "/medicamento/sucralfato-1g-suspensao/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/medicamentos/cloreto-de-sodio-nasal-solucao-fisiologica/"
+  to = "/medicamento/cloreto-de-sodio-09-nasal-solucao-fisiologica-neosoro/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/medicamentos/neomicina-pomada/"
+  to = "/medicamento/neomicina-pomada/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/medicamentos/dexametasona-xarope-injetavel/"
+  to = "/medicamento/dexametasona-05mg-40mg-xarope-injetavel/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/medicamentos/buprenorfina-e/"
+  to = "/medicamento/buprenorfina-adesivo-transdermico-norspan/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/medicamentos/venlafaxina-xr/"
+  to = "/medicamento/venlafaxina-375mg-75mg-150mg-xr-liberacao-prolongada/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/medicamentos/saxenda/"
+  to = "/medicamento/saxenda-liraglutida-6mgml/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/medicamentos/terbinafina-creme/"
+  to = "/medicamento/terbinafina-250mg-creme/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/medicamentos/domperidona-suspensao/"
+  to = "/medicamento/domperidona-10mg-suspensao/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/medicamentos/esomeprazol/"
+  to = "/medicamento/esomeprazol-20mg-40mg/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/medicamentos/cetoconazol-shampoo-e-creme/"
+  to = "/medicamento/cetoconazol-shampoo-200mg-e-creme/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/medicamentos/amiodarona/"
+  to = "/medicamento/amiodarona-100mg-200mg/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/medicamentos/coenzima-q10/"
+  to = "/medicamento/coenzima-q10-100mg/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/medicamentos/fluoxetina-gotas/"
+  to = "/medicamento/fluoxetina-20mg/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/medicamentos/benzilpenicilina-1/"
+  to = "/medicamento/benzilpenicilina-benzetacil-600000ui-1200000ui/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/medicamentos/aciclovir-creme/"
+  to = "/medicamento/aciclovir-200mg-400mg-creme/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/medicamentos/betametasona-topica/"
+  to = "/medicamento/betametasona-topica/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/medicamentos/citalopram/"
+  to = "/medicamento/citalopram-20mg/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/medicamentos/litio-carbonato/"
+  to = "/medicamento/litio-carbonato-300mg/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/medicamentos/digoxina-comprimido-solucao/"
+  to = "/medicamento/digoxina-comprimido-025-mg-solucao/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/medicamentos/efavirenz-solucao/"
+  to = "/medicamento/efavirenz-200mg-600mg-solucao/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/medicamentos/vitamina-d3-gotas/"
+  to = "/medicamento/vitamina-d3-1000ui-2000ui-5000ui-7000ui-10000ui-gotas/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/medicamentos/secnidazol-suspensao/"
+  to = "/medicamento/secnidazol-1g-2g-suspensao/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/medicamentos/fluconazol-suspensao-injetavel/"
+  to = "/medicamento/fluconazol-50mg-100mg-150mg-200mg-suspensao-injetavel/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/medicamentos/sulfametoxazol-trimetoprima-suspensao/"
+  to = "/medicamento/sulfametoxazol-trimetoprima-400mg80mg-800mg160mg-suspensao/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/medicamentos/verapamil-injetavel/"
+  to = "/medicamento/verapamil-80mg-120mg-240mg-injetavel/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/medicamentos/ceftriaxona-injetavel/"
+  to = "/medicamento/ceftriaxona-250mg-500mg-10g-injetavel/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/medicamentos/sildenafila/"
+  to = "/medicamento/sildenafila-25mg-50mg-100mg/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/medicamentos/calcitriol/"
+  to = "/medicamento/calcitriol-025mcg/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/medicamentos/clonazepam-solucao-oral-e/"
+  to = "/medicamento/clonazepam-solucao-oral-25mgml-05mg-e-2mg-025mg/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/medicamentos/loratadina-xarope/"
+  to = "/medicamento/loratadina-10mg-xarope/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/medicamentos/peroxido-de-hidrogenio-agua-oxigenada/"
+  to = "/medicamento/peroxido-de-hidrogenio-3-agua-oxigenada/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/medicamentos/alprazolam/"
+  to = "/medicamento/alprazolam-025mg-05mg-10mg-20mg/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/medicamentos/minoxidil-solucao-topica-espuma/"
+  to = "/medicamento/minoxidil-2-5-solucao-topica-espuma/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/medicamentos/sulfato-ferroso-gotas-xarope-injetavel/"
+  to = "/medicamento/sulfato-ferroso-40mg-300mg-gotas-xarope-injetavel/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/medicamentos/acido-ascorbico/"
+  to = "/medicamento/acido-ascorbico-5-20/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/medicamentos/metformina-xr/"
+  to = "/medicamento/metformina-500mg-850mg-1000mg-xr-liberacao-prolongada/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/medicamentos/brometo-de-ipratropio/"
+  to = "/medicamento/brometo-de-ipratropio/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/medicamentos/albendazol-suspensao-e-comprimido-mastigavel/"
+  to = "/medicamento/albendazol-400mg-suspensao-e-comprimido-mastigavel/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/medicamentos/benzoila-peroxida/"
+  to = "/medicamento/benzoila-peroxida/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/medicamentos/mounjaro/"
+  to = "/medicamento/mounjaro-tirzepatida/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/medicamentos/carbamazepina-suspensao/"
+  to = "/medicamento/carbamazepina-200mg-400mg-suspensao/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/medicamentos/levetiracetam-solucao-oral/"
+  to = "/medicamento/levetiracetam-250mg-500mg-750mg-1000mg-solucao-oral/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/medicamentos/tretinoina-creme/"
+  to = "/medicamento/tretinoina-0025-005-01-creme/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/medicamentos/zopiclona/"
+  to = "/medicamento/zopiclona-375mg-75mg/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/medicamentos/clorexidina/"
+  to = "/medicamento/clorexidina-012/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/medicamentos/dipirona-comprimido-gotas-xarope-injetavel/"
+  to = "/medicamento/dipirona-comprimido-500-mg-10-g-gotas-xarope-injetavel/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/medicamentos/tadalafila/"
+  to = "/medicamento/tadalafila-5mg-10mg-20mg/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/medicamentos/fosfomicina-granulado-para-solucao-oral/"
+  to = "/medicamento/fosfomicina-3g-granulado-para-solucao-oral/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/medicamentos/ferro-quelato-bisglicinato/"
+  to = "/medicamento/ferro-quelato-bisglicinato/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/medicamentos/ondansetrom-injetavel/"
+  to = "/medicamento/ondansetrom-4mg-8mg-injetavel/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/medicamentos/lopinavirritonavir-comprimido-solucao-oral/"
+  to = "/medicamento/lopinavirritonavir-200mg50mg-comprimido-solucao-oral/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/medicamentos/propranolol/"
+  to = "/medicamento/propranolol-10mg-40mg-80mg/"
+  status = 301
+  force = true
+
+# Wildcard: redireciona qualquer /medicamentos/* restante para /medicamento/:splat
 [[redirects]]
   from = "/medicamentos/*"
   to = "/medicamento/:splat"
