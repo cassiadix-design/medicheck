@@ -1,982 +1,768 @@
-[
-  {
-    "nome": "Apixabana 2,5mg - 5mg",
-    "generico": "Apixabana",
-    "tipo": "Anticoagulante oral — Inibidor direto do fator Xa",
-    "sinonimos": ["apixabana", "eliquis", "apixabana 2,5mg", "apixabana 5mg"],
-    "descricao": "Anticoagulante oral de ação direta que inibe o fator Xa da cascata de coagulação. Indicado para prevenção de AVC e embolia sistêmica em fibrilação atrial não valvar, tratamento e prevenção de trombose venosa profunda (TVP) e embolia pulmonar, e profilaxia de TVP após cirurgia ortopédica.",
-    "receita": "Sim",
-    "receita_display": "🔴 Receita Simples",
-    "receita_cor": "vermelho",
-    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia na maioria dos casos.",
-    "receita_nota": "Dose padrão para FA: 5mg 2x/dia. Dose reduzida 2,5mg 2x/dia em pacientes com critérios específicos (idade ≥80 anos, peso ≤60kg ou creatinina ≥1,5mg/dL — se dois dos três presentes).",
-    "efeitos": "Sangramento (principal risco), hematomas, anemia, náusea. Risco de hemorragia interna grave.",
-    "aviso_grave": "Não existe antídoto amplamente disponível (andexanet alfa existe mas é de uso restrito). Interromper antes de cirurgias. Não usar na gravidez. Interação com antiinflamatórios e outros anticoagulantes aumenta risco de sangramento.",
-    "recomendacao": "⚠️ Nunca interromper sem orientação médica — risco de trombose de rebote. Não substituir por outros anticoagulantes sem prescrição específica.",
-    "educacao": "Diferente da warfarina, a apixabana não requer monitoramento de INR. Porém qualquer sangramento incomum (urina avermelhada, fezes escuras, sangramento prolongado) deve ser relatado ao médico imediatamente.",
-    "resposta_rapida": [
-      "Anticoagulante oral",
-      "FA não valvar, TVP, embolia pulmonar",
-      "Receita simples",
-      "Não requer monitoramento de INR",
-      "Atenção: risco de sangramento"
-    ],
-    "receita_obrigatoria": true,
-    "tipo_receita": "simples",
-    "retencao_receita": false,
-    "perguntas_frequentes": [
-      {
-        "pergunta": "Apixabana precisa de exame de sangue regular?",
-        "resposta": "Não requer monitoramento de INR como a warfarina. Porém o médico pode solicitar avaliação da função renal periodicamente, pois a apixabana é parcialmente excretada pelos rins."
-      },
-      {
-        "pergunta": "Posso tomar apixabana com ibuprofeno?",
-        "resposta": "Não é recomendado. Anti-inflamatórios como ibuprofeno aumentam o risco de sangramento gastrointestinal quando combinados com anticoagulantes. Use paracetamol para dor se necessário."
-      },
-      {
-        "pergunta": "O que fazer se esquecer uma dose de apixabana?",
-        "resposta": "Tomar assim que lembrar no mesmo dia. Se já for hora da próxima dose, pular a esquecida e continuar normalmente. Nunca tomar dose dupla."
-      },
-      {
-        "pergunta": "Apixabana pode ser tomada com alimentos?",
-        "resposta": "Sim, pode ser tomada com ou sem alimentos. Não há restrições alimentares como ocorre com a warfarina."
-      },
-      {
-        "pergunta": "Apixabana tem antídoto?",
-        "resposta": "Existe o andexanet alfa como antídoto específico, mas é de uso hospitalar restrito e alto custo. Em casos de sangramento grave, o manejo é feito em ambiente hospitalar."
-      }
-    ],
-    "descricao_seo": "Apixabana 2,5mg - 5mg é um medicamento usado para: anticoagulante oral de ação direta que inibe o fator Xa da cascata de coagulação. Indicado para prevenção de AVC e embolia sistêmica em fibrilação atrial não valvar, tratamento e prevenção de trombose venosa profunda (TVP) e embolia pulmonar. Os efeitos colaterais mais relatados são: sangramento, hematomas, anemia, náusea. Importante: não existe antídoto amplamente disponível — nunca interromper sem orientação médica. Apixabana é vendida somente com receita médica — nunca use sem orientação de um profissional de saúde."
-  },
-  {
-    "nome": "Dabigatrana 110mg - 150mg",
-    "generico": "Dabigatrana etexilato",
-    "tipo": "Anticoagulante oral — Inibidor direto da trombina",
-    "sinonimos": ["dabigatrana", "pradaxa", "dabigatrana 110mg", "dabigatrana 150mg", "dabigatran"],
-    "descricao": "Anticoagulante oral de ação direta que inibe a trombina (fator IIa). Indicado para prevenção de AVC e embolia sistêmica em fibrilação atrial não valvar, tratamento de TVP e embolia pulmonar, e profilaxia de TVP após artroplastia de quadril ou joelho.",
-    "receita": "Sim",
-    "receita_display": "🔴 Receita Simples",
-    "receita_cor": "vermelho",
-    "receita_descricao": "Exige prescrição médica. A receita não é retida na farmácia.",
-    "receita_nota": "Dose padrão para FA: 150mg 2x/dia. Dose reduzida 110mg 2x/dia em pacientes com risco aumentado de sangramento ou ≥80 anos.",
-    "efeitos": "Dispepsia, dor epigástrica, sangramento. A dispepsia é mais frequente que com outros anticoagulantes orais diretos.",
-    "aviso_grave": "Possui antídoto específico: idarucizumabe (Praxbind) — disponível em ambiente hospitalar. Contraindicado em insuficiência renal grave (ClCr <30mL/min). Interações com inibidores de P-gp.",
-    "recomendacao": "⚠️ Tomar com alimentos para reduzir a dispepsia. Manter a cápsula intacta — não abrir, mastigar ou esmagar. Armazenar na embalagem original (sensível à umidade).",
-    "educacao": "A dabigatrana tem antídoto específico (idarucizumabe), o que é uma vantagem em situações de emergência cirúrgica ou sangramento grave. Comunicar ao médico e dentista antes de qualquer procedimento.",
-    "resposta_rapida": [
-      "Anticoagulante oral — inibe trombina",
-      "FA não valvar, TVP, embolia pulmonar",
-      "Receita simples",
-      "Tem antídoto: idarucizumabe",
-      "Tomar com alimentos — pode causar dispepsia"
-    ],
-    "receita_obrigatoria": true,
-    "tipo_receita": "simples",
-    "retencao_receita": false,
-    "perguntas_frequentes": [
-      {
-        "pergunta": "Dabigatrana tem antídoto?",
-        "resposta": "Sim. O idarucizumabe (Praxbind) é o antídoto específico da dabigatrana, disponível em ambiente hospitalar. É uma vantagem em relação a outros anticoagulantes diretos."
-      },
-      {
-        "pergunta": "Por que dabigatrana causa dor de estômago?",
-        "resposta": "A formulação contém ácido tartárico que facilita a absorção, mas pode irritar a mucosa gástrica. Tomar sempre com alimentos e não abrir as cápsulas ajuda a reduzir a dispepsia."
-      },
-      {
-        "pergunta": "Posso tomar dabigatrana se tiver doença renal?",
-        "resposta": "Depende do grau. A dabigatrana é contraindicada em insuficiência renal grave (ClCr <30mL/min). Para insuficiência moderada, pode ser necessário ajuste de dose."
-      },
-      {
-        "pergunta": "Dabigatrana e warfarina: qual é melhor?",
-        "resposta": "A dabigatrana não requer monitoramento de INR e tem menos interações alimentares. A warfarina tem custo menor e antídoto mais acessível (vitamina K). A escolha depende do perfil de cada paciente."
-      },
-      {
-        "pergunta": "Como armazenar a dabigatrana?",
-        "resposta": "Deve ser armazenada na embalagem original, ao abrigo da umidade. Uma vez aberto o frasco, usar em até 4 meses. Não transferir para porta-comprimidos — a umidade degrada o medicamento."
-      }
-    ],
-    "descricao_seo": "Dabigatrana 110mg - 150mg (Pradaxa) é um anticoagulante oral usado para prevenção de AVC na fibrilação atrial e tratamento de trombose venosa profunda. Inibe diretamente a trombina. Os efeitos colaterais mais relatados são: dispepsia, dor epigástrica e risco de sangramento. Possui antídoto específico: idarucizumabe. Dabigatrana é vendida somente com receita médica — nunca use sem orientação de um profissional de saúde."
-  },
-  {
-    "nome": "Ácido Tranexâmico 500mg - 1000mg",
-    "generico": "Ácido Tranexâmico",
-    "tipo": "Antifibrinolítico — Hemostático",
-    "sinonimos": ["ácido tranexâmico", "transamin", "hemoblock", "ácido tranexâmico 500mg", "tranexamic acid"],
-    "descricao": "Antifibrinolítico que age inibindo a ativação do plasminogênio em plasmina, reduzindo a fibrinólise e estabilizando coágulos já formados. Usado para controle de sangramentos em cirurgias, menorragia, epistaxe, hemorragia pós-parto e hemorragias associadas a trauma.",
-    "receita": "Sim",
-    "receita_display": "🔴 Receita Simples",
-    "receita_cor": "vermelho",
-    "receita_descricao": "Exige prescrição médica.",
-    "receita_nota": "Para menorragia: 1g (2 comp. 500mg) 3x/dia por até 4 dias durante a menstruação. Para uso cirúrgico: dose definida pelo médico/anestesista.",
-    "efeitos": "Náusea, vômito, diarreia, tontura. Risco de trombose em pacientes com fatores de risco.",
-    "aviso_grave": "Contraindicado em histórico de trombose arterial ou venosa ativa, doença renal grave e distúrbios de visão de cor. Não usar em hematúria de origem renal superior (pode causar obstrução por coágulo).",
-    "recomendacao": "⚠️ Não usar como automedicação para sangramento sem avaliação médica — é necessário identificar a causa do sangramento. Em menorragia, pode ser uma alternativa eficaz a anti-inflamatórios.",
-    "educacao": "O ácido tranexâmico não é um coagulante direto — ele impede que coágulos já formados sejam dissolvidos. Muito usado em cirurgias para reduzir necessidade de transfusão sanguínea.",
-    "resposta_rapida": [
-      "Antifibrinolítico — estabiliza coágulos",
-      "Menorragia, cirurgias, trauma",
-      "Receita simples",
-      "Não usar em trombose ativa",
-      "Não é coagulante direto"
-    ],
-    "receita_obrigatoria": true,
-    "tipo_receita": "simples",
-    "retencao_receita": false,
-    "perguntas_frequentes": [
-      {
-        "pergunta": "Ácido tranexâmico serve para menstruação abundante?",
-        "resposta": "Sim. É indicado para menorragia (menstruação excessiva), reduzindo o volume de sangramento em até 50%. Tomar apenas nos dias de fluxo intenso, por no máximo 4-5 dias."
-      },
-      {
-        "pergunta": "Ácido tranexâmico causa trombose?",
-        "resposta": "Em pacientes com risco de trombose, pode aumentar o risco. Deve ser evitado por quem teve trombose venosa profunda, embolia pulmonar ou AVC. O médico avalia o risco-benefício."
-      },
-      {
-        "pergunta": "Ácido tranexâmico pode ser usado na gravidez?",
-        "resposta": "Pode ser usado em hemorragia pós-parto com supervisão médica. O uso durante a gestação deve ser cuidadosamente avaliado pelo obstetra."
-      },
-      {
-        "pergunta": "Qual a diferença entre ácido tranexâmico e vitamina K?",
-        "resposta": "Mecanismos diferentes: o ácido tranexâmico inibe a dissolução de coágulos (antifibrinolítico), enquanto a vitamina K é necessária para a síntese de fatores de coagulação. São complementares em certos contextos."
-      },
-      {
-        "pergunta": "Ácido tranexâmico pode ser usado para sangramento nasal?",
-        "resposta": "Sim, pode ser usado para epistaxe (sangramento nasal) recorrente, tanto oral quanto em spray nasal. Sempre com orientação médica."
-      }
-    ],
-    "descricao_seo": "Ácido Tranexâmico 500mg - 1000mg é um antifibrinolítico hemostático usado para controle de sangramentos em menorragia, cirurgias, trauma e hemorragia pós-parto. Age estabilizando coágulos já formados ao inibir a fibrinólise. Os efeitos colaterais mais relatados são: náusea, vômito e tontura. Contraindicado em trombose ativa. Ácido Tranexâmico é vendido somente com receita médica — nunca use sem orientação de um profissional de saúde."
-  },
-  {
-    "nome": "Naproxeno 250mg - 500mg",
-    "generico": "Naproxeno sódico / Naproxeno",
-    "tipo": "Anti-inflamatório não esteroidal (AINE)",
-    "sinonimos": ["naproxeno", "flanax", "naprosyn", "naproxeno sódico", "naproxeno 500mg", "naproxeno 250mg"],
-    "descricao": "Anti-inflamatório não esteroidal (AINE) de ação prolongada, com meia-vida de 12-17 horas. Indicado para artrite reumatoide, osteoartrose, espondilite anquilosante, gota aguda, dismenorreia primária, tendinite, bursite e dores musculoesqueléticas em geral.",
-    "receita": "Não",
-    "receita_display": "🟡 Venda Livre",
-    "receita_cor": "amarelo",
-    "receita_descricao": "Disponível sem receita em baixas doses (250mg). Doses maiores podem exigir prescrição dependendo da apresentação.",
-    "receita_nota": "Dose usual: 250-500mg 2x/dia com as refeições. Para gota aguda: 750mg na 1ª dose, depois 250mg a cada 8 horas. Dose máxima: 1.250mg/dia.",
-    "efeitos": "Dor epigástrica, náusea, azia, cefaleia, tontura, edema periférico. Risco gastrointestinal e cardiovascular no uso prolongado.",
-    "aviso_grave": "Não usar com outros AINEs (ibuprofeno, diclofenaco). Contraindicado em úlcera péptica ativa, insuficiência renal grave, insuficiência cardíaca e último trimestre da gravidez. Risco de sangramento gastrointestinal.",
-    "recomendacao": "⚠️ Tomar sempre com alimentos ou leite. Vantagem: pode ser tomado apenas 2x ao dia devido à meia-vida longa. Associar a protetor gástrico (omeprazol) em uso prolongado.",
-    "educacao": "O naproxeno tem meia-vida mais longa que o ibuprofeno, o que permite dosagem 2 vezes ao dia. Isso pode melhorar a adesão ao tratamento. Porém, como todo AINE, tem riscos cardiovasculares e gastrointestinais.",
-    "resposta_rapida": [
-      "Anti-inflamatório AINE",
-      "Artrite, dor musculoesquelética, gota",
-      "Venda livre em baixas doses",
-      "2x ao dia (meia-vida longa)",
-      "Tomar com alimentos"
-    ],
-    "receita_obrigatoria": false,
-    "tipo_receita": "isento",
-    "retencao_receita": false,
-    "perguntas_frequentes": [
-      {
-        "pergunta": "Naproxeno é mais forte que ibuprofeno?",
-        "resposta": "Têm potência similar, mas o naproxeno tem efeito mais prolongado (dura 12 horas vs 6-8 horas do ibuprofeno). O naproxeno pode ser tomado apenas 2 vezes ao dia."
-      },
-      {
-        "pergunta": "Naproxeno pode ser tomado durante a menstruação?",
-        "resposta": "Sim, é muito eficaz para dismenorreia (cólica menstrual). Iniciar no primeiro sinal de dor ou um dia antes do início esperado da menstruação."
-      },
-      {
-        "pergunta": "Naproxeno faz mal ao estômago?",
-        "resposta": "Como todos os AINEs, pode causar irritação gástrica. Sempre tomar com alimentos. Em uso prolongado ou em pacientes com histórico de úlcera, associar com protetor gástrico."
-      },
-      {
-        "pergunta": "Naproxeno serve para gota?",
-        "resposta": "Sim. É um dos AINEs mais usados na crise de gota aguda, com dose de ataque de 750mg e depois 250mg a cada 8 horas. Sempre com prescrição médica para gota."
-      },
-      {
-        "pergunta": "Posso tomar naproxeno e paracetamol juntos?",
-        "resposta": "Sim, essa combinação é geralmente segura e permite doses menores de cada um. O paracetamol não afeta a mucosa gástrica, sendo um bom complemento ao naproxeno para dor."
-      }
-    ],
-    "descricao_seo": "Naproxeno 250mg - 500mg (Flanax) é um anti-inflamatório não esteroidal (AINE) de ação prolongada, tomado 2 vezes ao dia. Indicado para artrite, gota, dismenorreia e dores musculoesqueléticas. Os efeitos colaterais mais relatados são: dor epigástrica, náusea e azia. Tomar sempre com alimentos. Naproxeno 500mg pode exigir receita médica — consulte um profissional de saúde antes de usar."
-  },
-  {
-    "nome": "Clonidina 0,1mg - 0,2mg",
-    "generico": "Clonidina",
-    "tipo": "Anti-hipertensivo — Agonista alfa-2 adrenérgico central",
-    "sinonimos": ["clonidina", "atensina", "catapresan", "clonidina 0,1mg", "clonidina 0,2mg"],
-    "descricao": "Anti-hipertensivo de ação central que estimula receptores alfa-2 adrenérgicos no tronco cerebral, reduzindo o tônus simpático e consequentemente a pressão arterial e a frequência cardíaca. Também utilizado em síndrome de abstinência de opioides, TDAH (uso off-label), ondas de calor da menopausa e como adjuvante em dor crônica.",
-    "receita": "Sim",
-    "receita_display": "🔴 Receita Simples",
-    "receita_cor": "vermelho",
-    "receita_descricao": "Exige prescrição médica.",
-    "receita_nota": "Iniciar com 0,1mg 2x/dia. Aumentar gradualmente conforme necessidade. Não interromper abruptamente.",
-    "efeitos": "Boca seca, sedação, tontura, fadiga, constipação, bradicardia, hipotensão ortostática.",
-    "aviso_grave": "Nunca interromper abruptamente — pode causar hipertensão rebote grave e perigosa. Reduzir a dose gradualmente em 7-14 dias. Interação com álcool e depressores do SNC.",
-    "recomendacao": "⚠️ A retirada abrupta da clonidina pode causar crise hipertensiva grave com risco de AVC. Sempre reduzir a dose progressivamente com orientação médica.",
-    "educacao": "A clonidina tem uma propriedade importante: seu efeito anti-hipertensivo depende de estímulo simpático, então tem menos eficácia em repouso. O efeito sedativo pode ser aproveitado ao tomar a maior dose à noite.",
-    "resposta_rapida": [
-      "Anti-hipertensivo de ação central",
-      "HAS, abstinência de opioides",
-      "Receita simples",
-      "NUNCA interromper abruptamente",
-      "Causa sedação e boca seca"
-    ],
-    "receita_obrigatoria": true,
-    "tipo_receita": "simples",
-    "retencao_receita": false,
-    "perguntas_frequentes": [
-      {
-        "pergunta": "Por que não posso parar de tomar clonidina de repente?",
-        "resposta": "A interrupção abrupta pode causar hipertensão rebote grave — a pressão sobe muito rapidamente, com risco de AVC ou infarto. A dose deve ser reduzida gradualmente em pelo menos 1-2 semanas."
-      },
-      {
-        "pergunta": "Clonidina dá muito sono?",
-        "resposta": "Sim, sedação é um efeito colateral comum, especialmente no início. Com o tempo tende a diminuir. Tomar a dose maior à noite pode ajudar a aproveitar o efeito sedativo."
-      },
-      {
-        "pergunta": "Clonidina serve para TDAH?",
-        "resposta": "Sim, é usada off-label no TDAH, especialmente em crianças que não toleram estimulantes ou como adjuvante. Reduz a hiperatividade e impulsividade."
-      },
-      {
-        "pergunta": "Clonidina ajuda na abstinência de drogas?",
-        "resposta": "Sim, é usada para controlar sintomas de abstinência de opioides (como sudorese, taquicardia, ansiedade), pois reduz a atividade do sistema nervoso simpático."
-      },
-      {
-        "pergunta": "Clonidina pode ser usada na gravidez?",
-        "resposta": "Deve ser evitada — especialmente no 3º trimestre. Para hipertensão na gestação, a metildopa é a primeira escolha. Consulte seu obstetra."
-      }
-    ],
-    "descricao_seo": "Clonidina 0,1mg - 0,2mg (Atensina) é um anti-hipertensivo de ação central indicado para hipertensão arterial, síndrome de abstinência de opioides e TDAH. Age reduzindo o tônus simpático. Os efeitos colaterais mais relatados são: sedação, boca seca, tontura e constipação. Atenção: nunca interromper abruptamente — risco de hipertensão rebote grave. Clonidina é vendida somente com receita médica."
-  },
-  {
-    "nome": "Metildopa 250mg - 500mg",
-    "generico": "Metildopa",
-    "tipo": "Anti-hipertensivo — Agonista alfa-2 adrenérgico central",
-    "sinonimos": ["metildopa", "aldomet", "metildopa 250mg", "metildopa 500mg", "methyldopa"],
-    "descricao": "Anti-hipertensivo de ação central, pró-fármaco convertido em alfa-metilnoradrenalina no cérebro, que estimula receptores alfa-2 reduzindo o tônus simpático. É o anti-hipertensivo de escolha na hipertensão durante a gravidez (especialmente pré-eclâmpsia) por seu longo histórico de segurança no uso gestacional.",
-    "receita": "Sim",
-    "receita_display": "🔴 Receita Simples",
-    "receita_cor": "vermelho",
-    "receita_descricao": "Exige prescrição médica.",
-    "receita_nota": "Dose usual: 250mg 2-3x/dia. Dose máxima: 3g/dia. Efeito máximo em 4-6 horas após dose oral.",
-    "efeitos": "Sedação intensa (especialmente no início), boca seca, fadiga, tontura, bradicardia, edema, impotência sexual masculina, anemia hemolítica (raro).",
-    "aviso_grave": "Hepatotoxicidade rara mas grave — monitorar enzimas hepáticas. Teste de Coombs pode tornar-se positivo. Não interromper abruptamente. Contraindicada em doença hepática ativa.",
-    "recomendacao": "⚠️ A sedação é intensa no início — tomar a dose maior à noite e evitar dirigir nas primeiras semanas. Monitorar função hepática periodicamente.",
-    "educacao": "A metildopa é a primeira escolha para hipertensão na gestação pelo extenso histórico de segurança em grávidas e lactantes. Porém, o efeito sedativo pronunciado pode ser limitante em não gestantes.",
-    "resposta_rapida": [
-      "Anti-hipertensivo para gestantes",
-      "Hipertensão na gravidez — 1ª escolha",
-      "Receita simples",
-      "Causa sedação intensa",
-      "Monitorar fígado"
-    ],
-    "receita_obrigatoria": true,
-    "tipo_receita": "simples",
-    "retencao_receita": false,
-    "perguntas_frequentes": [
-      {
-        "pergunta": "Por que metildopa é usada na gravidez?",
-        "resposta": "É o anti-hipertensivo com maior histórico de segurança documentada em gestantes — mais de 50 anos de uso. Não há evidências de malformações fetais nas doses terapêuticas habituais."
-      },
-      {
-        "pergunta": "Metildopa causa muito sono?",
-        "resposta": "Sim, sedação é o efeito colateral mais comum, especialmente nas primeiras semanas. Tomar a dose maior à noite e iniciar com doses baixas ajuda a tolerar melhor."
-      },
-      {
-        "pergunta": "Metildopa pode ser amamentada?",
-        "resposta": "Sim. É compatível com a amamentação segundo a maioria dos guias. Passa ao leite materno em pequenas quantidades sem efeitos adversos significativos para o bebê."
-      },
-      {
-        "pergunta": "Metildopa e função hepática: preciso monitorar?",
-        "resposta": "Sim. Hepatotoxicidade é um efeito adverso raro mas grave. Recomenda-se monitoramento das enzimas hepáticas, especialmente nos primeiros meses de uso."
-      },
-      {
-        "pergunta": "Posso parar de tomar metildopa de repente?",
-        "resposta": "Não é recomendado. A interrupção abrupta pode causar hipertensão rebote. A dose deve ser reduzida gradualmente com orientação médica."
-      }
-    ],
-    "descricao_seo": "Metildopa 250mg - 500mg (Aldomet) é o anti-hipertensivo de primeira escolha na gravidez, com extenso histórico de segurança gestacional. Age de forma central reduzindo o tônus simpático. Os efeitos colaterais mais relatados são: sedação intensa, boca seca, fadiga e tontura. Monitorar função hepática periodicamente. Metildopa é vendida somente com receita médica — nunca use sem orientação de um profissional de saúde."
-  },
-  {
-    "nome": "Indapamida 1,5mg - 2,5mg",
-    "generico": "Indapamida",
-    "tipo": "Diurético — Tiazídico-símile",
-    "sinonimos": ["indapamida", "natrilix", "indapamida 1,5mg", "indapamida 2,5mg", "natrilix sr"],
-    "descricao": "Diurético tiazídico-símile com ação anti-hipertensiva. Atua na redução da resistência vascular periférica e tem discreta ação diurética. Indicado para hipertensão arterial, especialmente em pacientes idosos e diabéticos. Apresenta menor impacto metabólico sobre glicose e lipídios comparado a outros tiazídicos.",
-    "receita": "Sim",
-    "receita_display": "🔴 Receita Simples",
-    "receita_cor": "vermelho",
-    "receita_descricao": "Exige prescrição médica.",
-    "receita_nota": "Dose usual: 1,5mg (liberação modificada) 1x/dia ou 2,5mg 1x/dia pela manhã.",
-    "efeitos": "Hipocalemia (queda de potássio), hiponatremia, câimbras, fadiga, tontura, cefaleia, hiperglicemia discreta.",
-    "aviso_grave": "Monitorar eletrólitos (potássio, sódio) periodicamente. Contraindicada em insuficiência renal grave e hipopotassemia não corrigida. Risco de hiponatremia em idosos.",
-    "recomendacao": "⚠️ Tomar pela manhã para evitar diurese noturna. Monitorar potássio sérico — pode ser necessário suplementação ou associação com poupador de potássio (espironolactona).",
-    "educacao": "A indapamida tem menor impacto metabólico que a hidroclorotiazida — provoca menos alterações em glicose e colesterol, sendo preferida em diabéticos hipertensos.",
-    "resposta_rapida": [
-      "Diurético tiazídico-símile",
-      "Hipertensão arterial",
-      "Receita simples",
-      "Tomar pela manhã",
-      "Monitorar potássio"
-    ],
-    "receita_obrigatoria": true,
-    "tipo_receita": "simples",
-    "retencao_receita": false,
-    "perguntas_frequentes": [
-      {
-        "pergunta": "Qual a diferença entre indapamida e hidroclorotiazida?",
-        "resposta": "A indapamida tem menor impacto metabólico — provoca menos hiperglicemia e dislipidemia, sendo preferida em diabéticos. Também tem menor perda de potássio que a hidroclorotiazida."
-      },
-      {
-        "pergunta": "Indapamida precisa de suplemento de potássio?",
-        "resposta": "Depende. Se os exames mostrarem queda de potássio (hipocalemia), o médico pode indicar suplemento de potássio ou associar um poupador de potássio como a espironolactona."
-      },
-      {
-        "pergunta": "Posso tomar indapamida à noite?",
-        "resposta": "Não é recomendado. Tomar pela manhã é preferível para que o efeito diurético ocorra durante o dia, evitando interrupções do sono para urinar."
-      },
-      {
-        "pergunta": "Indapamida é indicada para idosos?",
-        "resposta": "Sim, é amplamente usada em idosos por seu perfil metabólico favorável. Porém, idosos têm maior risco de hiponatremia, que deve ser monitorada com exames periódicos."
-      },
-      {
-        "pergunta": "Indapamida pode ser usada em diabéticos?",
-        "resposta": "Sim, tem menor impacto na glicemia que outros diuréticos tiazídicos. É considerada uma boa opção para hipertensão em pacientes diabéticos."
-      }
-    ],
-    "descricao_seo": "Indapamida 1,5mg - 2,5mg (Natrilix) é um diurético tiazídico-símile anti-hipertensivo com menor impacto metabólico, indicado para hipertensão arterial. Os efeitos colaterais mais relatados são: hipocalemia, câimbras, fadiga e tontura. Tomar pela manhã e monitorar eletrólitos periodicamente. Indapamida é vendida somente com receita médica — nunca use sem orientação de um profissional de saúde."
-  },
-  {
-    "nome": "Torasemida 5mg - 20mg",
-    "generico": "Torasemida",
-    "tipo": "Diurético de alça",
-    "sinonimos": ["torasemida", "toraldex", "torsemide", "torasemida 5mg", "torasemida 10mg"],
-    "descricao": "Diurético de alça de alta potência que inibe o cotransportador Na-K-2Cl na alça de Henle. Similar à furosemida, porém com maior biodisponibilidade oral (80-90% vs 50-60% da furosemida) e duração de ação mais prolongada. Indicado para edema na insuficiência cardíaca, renal e hepática, e hipertensão arterial.",
-    "receita": "Sim",
-    "receita_display": "🔴 Receita Simples",
-    "receita_cor": "vermelho",
-    "receita_descricao": "Exige prescrição médica.",
-    "receita_nota": "Dose usual para ICC: 5-20mg 1x/dia pela manhã. Dose máxima: 200mg/dia. Mais previsível que furosemida pela melhor absorção oral.",
-    "efeitos": "Hipocalemia, hiponatremia, hipomagnesemia, desidratação, câimbras, tontura, cefaleia, ototoxicidade em altas doses.",
-    "aviso_grave": "Monitorar eletrólitos (potássio, sódio, magnésio) e função renal regularmente. Ototoxicidade em doses elevadas. Contraindicado em anúria e hipersensibilidade a sulfonamidas.",
-    "recomendacao": "⚠️ Vantagem sobre furosemida: absorção mais previsível e menor variabilidade de resposta. Tomar pela manhã. Monitorar peso diariamente em pacientes com ICC.",
-    "educacao": "A torasemida tem maior biodisponibilidade oral que a furosemida, o que resulta em efeito mais previsível. Em insuficiência cardíaca, a má absorção intestinal da furosemida pode ser um problema — nesse caso a torasemida é preferida.",
-    "resposta_rapida": [
-      "Diurético de alça",
-      "ICC, edema, hipertensão",
-      "Receita simples",
-      "Maior biodisponibilidade que furosemida",
-      "Monitorar eletrólitos"
-    ],
-    "receita_obrigatoria": true,
-    "tipo_receita": "simples",
-    "retencao_receita": false,
-    "perguntas_frequentes": [
-      {
-        "pergunta": "Torasemida é melhor que furosemida?",
-        "resposta": "Não necessariamente melhor, mas tem maior biodisponibilidade oral (mais previsível). Em ICC com edema intestinal, a furosemida tem absorção errática e a torasemida pode ser mais eficaz."
-      },
-      {
-        "pergunta": "Torasemida e potássio: preciso tomar suplemento?",
-        "resposta": "Frequentemente sim. Diuréticos de alça causam perda de potássio. O médico avaliará pelos exames se é necessário suplemento de potássio ou poupador de potássio."
-      },
-      {
-        "pergunta": "Posso substituir furosemida por torasemida?",
-        "resposta": "Apenas com orientação médica. A equivalência aproximada é: 20mg de furosemida ≈ 10mg de torasemida, mas a troca deve ser supervisionada por médico."
-      },
-      {
-        "pergunta": "Torasemida pode ser tomada à noite?",
-        "resposta": "Não é recomendado para manter qualidade de sono. Tomar pela manhã permite que o efeito diurético ocorra durante o dia. Em casos específicos, o médico pode ajustar o horário."
-      },
-      {
-        "pergunta": "Torasemida afeta os rins?",
-        "resposta": "O acompanhamento da função renal é necessário. Perdas excessivas de volume podem reduzir a perfusão renal. Monitoramento regular da creatinina e ureia é importante."
-      }
-    ],
-    "descricao_seo": "Torasemida 5mg - 20mg é um diurético de alça com maior biodisponibilidade oral que a furosemida, indicado para insuficiência cardíaca, edema e hipertensão. Os efeitos colaterais mais relatados são: hipocalemia, desidratação, câimbras e tontura. Tomar pela manhã e monitorar eletrólitos. Torasemida é vendida somente com receita médica — nunca use sem orientação de um profissional de saúde."
-  },
-  {
-    "nome": "Famotidina 20mg - 40mg",
-    "generico": "Famotidina",
-    "tipo": "Antiulceroso — Antagonista H2 (Anti-histamínico H2)",
-    "sinonimos": ["famotidina", "famox", "pepcidin", "famotidina 20mg", "famotidina 40mg"],
-    "descricao": "Antagonista dos receptores H2 da histamina que inibe a secreção ácida gástrica. Indicado para úlcera péptica, doença do refluxo gastroesofágico (DRGE), síndrome de Zollinger-Ellison e alívio da azia e dispepsia. É cerca de 20-50 vezes mais potente que a cimetidina.",
-    "receita": "Não",
-    "receita_display": "🟡 Venda Livre",
-    "receita_cor": "amarelo",
-    "receita_descricao": "Disponível sem receita em baixas doses para alívio da azia. Doses maiores e uso prolongado requerem avaliação médica.",
-    "receita_nota": "Para azia: 10-20mg conforme necessidade. Para úlcera: 40mg à noite ou 20mg 2x/dia por 4-8 semanas.",
-    "efeitos": "Cefaleia, tontura, constipação ou diarreia, boca seca. Geralmente bem tolerada.",
-    "aviso_grave": "Uso prolongado pode mascarar sintomas de câncer gástrico — investigar antes de usar cronicamente. Ajuste de dose em insuficiência renal grave.",
-    "recomendacao": "⚠️ Os inibidores de bomba de prótons (omeprazol, pantoprazol) são mais eficazes para DRGE e úlceras que os antagonistas H2. A famotidina pode ser útil para azia ocasional ou como adjuvante.",
-    "educacao": "A famotidina não tem as interações medicamentosas da cimetidina (que inibe enzimas hepáticas). É mais segura em idosos e em pacientes que usam múltiplos medicamentos.",
-    "resposta_rapida": [
-      "Antagonista H2",
-      "Azia, DRGE, úlcera péptica",
-      "Venda livre em baixas doses",
-      "Menos interações que cimetidina",
-      "IBPs são mais eficazes para DRGE"
-    ],
-    "receita_obrigatoria": false,
-    "tipo_receita": "isento",
-    "retencao_receita": false,
-    "perguntas_frequentes": [
-      {
-        "pergunta": "Famotidina ou omeprazol: qual é melhor?",
-        "resposta": "O omeprazol (IBP) é mais eficaz para DRGE e úlceras. A famotidina age mais rapidamente e é boa para azia ocasional. Para uso crônico, o omeprazol é preferido pelo médico."
-      },
-      {
-        "pergunta": "Famotidina pode ser tomada na gravidez?",
-        "resposta": "É considerada relativamente segura na gravidez, preferida à cimetidina. Porém, qualquer medicamento na gestação deve ter indicação médica ou da obstetriz."
-      },
-      {
-        "pergunta": "Famotidina em quanto tempo faz efeito?",
-        "resposta": "O efeito começa em cerca de 1 hora e dura até 12 horas. É mais rápida que os IBPs para alívio da azia aguda."
-      },
-      {
-        "pergunta": "Posso tomar famotidina todo dia?",
-        "resposta": "Para uso eventual sim, mas o uso diário crônico requer avaliação médica. Sintomas persistentes de azia ou refluxo merecem investigação para descartar causas mais graves."
-      },
-      {
-        "pergunta": "Famotidina tem menos efeitos colaterais que cimetidina?",
-        "resposta": "Sim. A cimetidina tem muitas interações medicamentosas e efeitos hormonais (ginecomastia). A famotidina tem perfil de segurança mais favorável e poucas interações."
-      }
-    ],
-    "descricao_seo": "Famotidina 20mg - 40mg é um antagonista H2 antiulceroso indicado para azia, DRGE e úlcera péptica. Reduz a produção de ácido gástrico. Os efeitos colaterais mais relatados são: cefaleia, tontura e constipação. Age mais rapidamente que os IBPs para azia aguda. Disponível sem receita em baixas doses — consulte um médico para uso prolongado."
-  },
-  {
-    "nome": "Clotrimazol 1% creme - solução",
-    "generico": "Clotrimazol",
-    "tipo": "Antifúngico — Imidazólico tópico",
-    "sinonimos": ["clotrimazol", "canesten", "gyno-canesten", "clotrimazol creme", "clotrimazol 1%", "clotrimazol vaginal"],
-    "descricao": "Antifúngico imidazólico de amplo espectro para uso tópico (pele, mucosas e vaginal). Age inibindo a síntese de ergosterol da parede celular fúngica. Eficaz contra Candida spp., dermatófitos (Tinea pedis, corporis, cruris) e outras infecções fúngicas superficiais.",
-    "receita": "Não",
-    "receita_display": "🟡 Venda Livre",
-    "receita_cor": "amarelo",
-    "receita_descricao": "Disponível sem receita para uso tópico e vaginal.",
-    "receita_nota": "Aplicar 2-3x/dia na área afetada. Para candidíase vaginal: creme ou óvulo vaginal 1x/noite por 3-7 dias dependendo da concentração.",
-    "efeitos": "Ardor, irritação local, eritema — geralmente leve e transitório.",
-    "aviso_grave": "Não usar internamente (só tópico). Candidíase vaginal recorrente (>4 episódios/ano) requer investigação de causas subjacentes (diabetes, imunossupressão).",
-    "recomendacao": "⚠️ Para candidíase vulvovaginal, manter o tratamento pelo tempo indicado mesmo com melhora dos sintomas. Parceiro sexual deve ser avaliado se houver recidivas frequentes.",
-    "educacao": "O clotrimazol é um dos antifúngicos tópicos mais usados no mundo. A candidíase vaginal recorrente pode indicar diabetes não diagnosticado, HIV ou uso prolongado de antibióticos — investigar.",
-    "resposta_rapida": [
-      "Antifúngico tópico",
-      "Candidíase, micoses de pele",
-      "Venda livre",
-      "Uso externo apenas",
-      "Candidíase recorrente: investigar causas"
-    ],
-    "receita_obrigatoria": false,
-    "tipo_receita": "isento",
-    "retencao_receita": false,
-    "perguntas_frequentes": [
-      {
-        "pergunta": "Clotrimazol serve para candidíase vaginal?",
-        "resposta": "Sim, é muito eficaz. Disponível como creme vaginal e óvulos. O tratamento de 3-7 dias elimina a maioria dos casos. Para forma recorrente, o médico pode indicar fluconazol oral."
-      },
-      {
-        "pergunta": "Clotrimazol pode ser usado na gravidez?",
-        "resposta": "Sim, o clotrimazol tópico e vaginal é considerado seguro durante a gestação e é a opção preferida para candidíase vaginal na grávida (o fluconazol oral é contraindicado)."
-      },
-      {
-        "pergunta": "Quanto tempo o clotrimazol leva para fazer efeito?",
-        "resposta": "Alívio dos sintomas começa em 1-3 dias. O tratamento completo (3-7 dias) deve ser mantido para eliminar o fungo e prevenir recidiva."
-      },
-      {
-        "pergunta": "Clotrimazol serve para micose de pé (frieira)?",
-        "resposta": "Sim, é eficaz contra tinea pedis (pé de atleta). Aplicar 2x ao dia por 2-4 semanas. Manter os pés secos e usar meias de algodão para melhorar o resultado."
-      },
-      {
-        "pergunta": "Posso usar clotrimazol na mucosa oral?",
-        "resposta": "Não — o creme e a solução tópica não são para mucosa oral. Para candidíase oral (sapinho), usar nistatina suspensão oral ou anfotericina B."
-      }
-    ],
-    "descricao_seo": "Clotrimazol 1% creme/solução (Canesten) é um antifúngico tópico imidazólico indicado para candidíase vaginal, micoses de pele (tinea pedis, corporis) e outras infecções fúngicas superficiais. Os efeitos colaterais mais relatados são: ardor e irritação local leve. Disponível sem receita — candidíase vaginal recorrente requer avaliação médica para descartar causas subjacentes."
-  },
-  {
-    "nome": "Voriconazol 200mg",
-    "generico": "Voriconazol",
-    "tipo": "Antifúngico — Triazólico de segunda geração",
-    "sinonimos": ["voriconazol", "vfend", "voriconazol 200mg", "voriconazole"],
-    "descricao": "Antifúngico triazólico de amplo espectro de segunda geração. Primeira escolha para aspergilose invasiva, candidemia em pacientes refratários e infecções por Fusarium e Scedosporium. Disponível em apresentações oral e intravenosa. Tem ação fungicida contra Aspergillus e fungistática contra Candida.",
-    "receita": "Sim",
-    "receita_display": "🔴 Receita Simples",
-    "receita_cor": "vermelho",
-    "receita_descricao": "Exige prescrição médica. Uso geralmente hospitalar ou especializado.",
-    "receita_nota": "Dose oral adultos: 200mg 2x/dia (com dose de ataque de 400mg 2x/dia no 1º dia). Tomar 1 hora antes ou 2 horas após refeições.",
-    "efeitos": "Distúrbios visuais (fotofobia, visão borrada, alteração de cores) — muito comuns e geralmente reversíveis. Hepatotoxicidade, fotossensibilidade cutânea, alucinações visuais.",
-    "aviso_grave": "Monitorar função hepática durante o tratamento. Múltiplas interações medicamentosas via CYP450 (metabólito de muitos medicamentos). Fototoxicidade — proteger da luz solar. Contraindicado com rifampicina, carbamazepina, fenitoína.",
-    "recomendacao": "⚠️ Os distúrbios visuais são esperados (até 30% dos pacientes) — fotofobia, cores mais intensas, visão borrada. São transitórios e não indicam interrupção. Evitar sol intenso.",
-    "educacao": "O voriconazol é monitorado pelo nível sérico (concentração plasmática) para otimizar eficácia e reduzir toxicidade. É metabolizado pelo sistema CYP450 com variabilidade genética significativa.",
-    "resposta_rapida": [
-      "Antifúngico triazólico de 2ª geração",
-      "Aspergilose invasiva, candidemia refratária",
-      "Receita simples — uso especializado",
-      "Causa distúrbios visuais transitórios",
-      "Muitas interações medicamentosas"
-    ],
-    "receita_obrigatoria": true,
-    "tipo_receita": "simples",
-    "retencao_receita": false,
-    "perguntas_frequentes": [
-      {
-        "pergunta": "Por que voriconazol causa distúrbios visuais?",
-        "resposta": "Afeta os fotorreceptores da retina de forma transitória. O paciente pode ver cores mais intensas, ter fotofobia ou visão borrada, especialmente nos primeiros dias. Geralmente melhora com a continuação do tratamento."
-      },
-      {
-        "pergunta": "Voriconazol pode ser tomado com outros medicamentos?",
-        "resposta": "Tem muitas interações via CYP450. Rifampicina, carbamazepina e fenitoína são contraindicados. Sempre informar ao médico todos os medicamentos em uso."
-      },
-      {
-        "pergunta": "Quanto tempo dura o tratamento com voriconazol?",
-        "resposta": "Depende da infecção. Aspergilose invasiva pode exigir meses de tratamento até resolução clínica e radiológica completa. O médico especialista definirá a duração."
-      },
-      {
-        "pergunta": "Voriconazol causa dano ao fígado?",
-        "resposta": "Hepatotoxicidade é um efeito adverso possível. Por isso, as enzimas hepáticas devem ser monitoradas durante o tratamento — especialmente em pacientes com doença hepática prévia."
-      },
-      {
-        "pergunta": "Posso me expor ao sol enquanto uso voriconazol?",
-        "resposta": "Deve-se evitar exposição solar intensa — o voriconazol causa fototoxicidade e fotossensibilidade. Usar protetor solar e roupas protetoras. Uso prolongado pode estar associado a carcinoma de células escamosas."
-      }
-    ],
-    "descricao_seo": "Voriconazol 200mg (Vfend) é um antifúngico triazólico de segunda geração, primeira escolha para aspergilose invasiva e candidemia refratária. Os efeitos colaterais mais relatados são: distúrbios visuais transitórios, hepatotoxicidade e fotossensibilidade. Possui muitas interações medicamentosas via CYP450. Voriconazol é vendido somente com receita médica — uso especializado."
-  },
-  {
-    "nome": "Lorazepam 1mg - 2mg",
-    "generico": "Lorazepam",
-    "tipo": "Benzodiazepínico — Ansiolítico, anticonvulsivante",
-    "sinonimos": ["lorazepam", "lorax", "ativan", "lorazepam 1mg", "lorazepam 2mg"],
-    "descricao": "Benzodiazepínico de meia-vida intermediária com potente ação ansiolítica, sedativa, anticonvulsivante e amnésica. Potencializa o efeito do GABA no SNC. Indicado para transtornos de ansiedade, insônia situacional, pré-medicação anestésica, controle de convulsões agudas (status epilepticus) e sedação em UTI.",
-    "receita": "Sim",
-    "receita_display": "🔴 Receita de Controle Especial (Lista C1)",
-    "receita_cor": "azul",
-    "receita_descricao": "Receita de Controle Especial (tarja preta) — a receita é retida na farmácia. Emissão em duas vias.",
-    "receita_nota": "Dose ansiolítica: 0,5-2mg 2-3x/dia. Para insônia: 1-2mg à noite. Para status epilepticus IV: 0,1mg/kg. Dose máxima: 10mg/dia.",
-    "efeitos": "Sedação, sonolência, tontura, amnésia anterógrada, ataxia, depressão respiratória em altas doses. Dependência física com uso prolongado.",
-    "aviso_grave": "Risco de dependência e abstinência grave com uso prolongado. Depressão respiratória grave ao combinar com álcool, opioides ou outros depressores do SNC. Nunca interromper abruptamente após uso crônico.",
-    "recomendacao": "⚠️ Uso limitado ao menor tempo necessário. Não combinar com álcool. A retirada após uso prolongado deve ser gradual para evitar convulsões e síndrome de abstinência grave.",
-    "educacao": "O lorazepam tem vantagem sobre o diazepam no status epilepticus por ter menor volume de distribuição, ação mais rápida e mais prolongada no SNC. Em emergências, é um dos BZDs preferidos.",
-    "resposta_rapida": [
-      "Benzodiazepínico",
-      "Ansiedade, insônia, convulsões agudas",
-      "Receita de controle especial",
-      "Risco de dependência",
-      "Nunca combinar com álcool"
-    ],
-    "receita_obrigatoria": true,
-    "tipo_receita": "especial",
-    "retencao_receita": true,
-    "perguntas_frequentes": [
-      {
-        "pergunta": "Lorazepam causa dependência?",
-        "resposta": "Sim. Com uso prolongado (mais de 2-4 semanas), pode causar dependência física. A interrupção abrupta pode provocar síndrome de abstinência grave, incluindo convulsões. A retirada deve ser gradual."
-      },
-      {
-        "pergunta": "Lorazepam pode ser usado para ansiedade aguda?",
-        "resposta": "Sim, é eficaz para crises agudas de ansiedade e pânico. Porém, para ansiedade crônica, não é recomendado o uso contínuo prolongado devido ao risco de dependência."
-      },
-      {
-        "pergunta": "Posso tomar lorazepam com álcool?",
-        "resposta": "Absolutamente não. A combinação potencializa a depressão do SNC e pode causar sedação extrema, parada respiratória e morte."
-      },
-      {
-        "pergunta": "Lorazepam é mais forte que diazepam?",
-        "resposta": "São comparáveis em potência por mg, mas o lorazepam é mais potente por unidade de dose. Tem menor volume de distribuição e não produz metabólitos ativos, ao contrário do diazepam."
-      },
-      {
-        "pergunta": "Lorazepam pode ser usado em idosos?",
-        "resposta": "Com muito cuidado. Idosos são mais sensíveis a benzodiazepínicos — maior risco de quedas, confusão mental e depressão respiratória. Doses menores e monitoramento próximo são essenciais."
-      }
-    ],
-    "descricao_seo": "Lorazepam 1mg - 2mg (Lorax) é um benzodiazepínico indicado para transtornos de ansiedade, insônia situacional e convulsões agudas. Os efeitos colaterais mais relatados são: sedação, sonolência, ataxia e risco de dependência. Nunca combinar com álcool. Lorazepam é controlado (tarja preta) e vendido somente com receita de controle especial — nunca use sem prescrição médica."
-  },
-  {
-    "nome": "Midazolam 5mg/mL - 15mg comprimido",
-    "generico": "Midazolam",
-    "tipo": "Benzodiazepínico — Sedativo, ansiolítico, anticonvulsivante",
-    "sinonimos": ["midazolam", "dormicum", "midazolam 5mg", "midazolam 15mg", "dormonid"],
-    "descricao": "Benzodiazepínico de meia-vida curta com potente ação sedativa, ansiolítica e amnésica. Amplamente usado como pré-anestésico, sedação em procedimentos, tratamento de convulsões agudas e sedação em UTI. Em adultos, o comprimido oral de 15mg é usado para insônia situacional.",
-    "receita": "Sim",
-    "receita_display": "🔴 Receita de Controle Especial (Lista C1)",
-    "receita_cor": "azul",
-    "receita_descricao": "Receita de Controle Especial (tarja preta) — a receita é retida na farmácia.",
-    "receita_nota": "Comprimido oral (15mg): 1 comprimido 30-60 min antes de dormir, uso ocasional. A forma injetável é de uso exclusivamente hospitalar.",
-    "efeitos": "Sedação profunda, amnésia anterógrada (não lembra eventos após a dose), depressão respiratória, hipotensão, tontura.",
-    "aviso_grave": "Depressão respiratória grave — manter equipamento de ressuscitação disponível no uso parenteral. Flumazenil é o antídoto. Não combinar com opioides (risco aumentado de apneia fatal). Dependência com uso prolongado.",
-    "recomendacao": "⚠️ A amnésia anterógrada é esperada — o paciente pode não recordar eventos pós-medicação. Não dirigir ou operar máquinas até efeito completamente desaparecido.",
-    "educacao": "O midazolam é o benzodiazepínico mais usado em ambiente hospitalar para sedação em procedimentos (colonoscopia, endoscopia) por sua ação rápida e curta duração. O flumazenil pode reverter rapidamente seu efeito.",
-    "resposta_rapida": [
-      "Benzodiazepínico de ação curta",
-      "Sedação, pré-anestesia, convulsão aguda",
-      "Receita controle especial",
-      "Causa amnésia anterógrada",
-      "Antídoto: flumazenil"
-    ],
-    "receita_obrigatoria": true,
-    "tipo_receita": "especial",
-    "retencao_receita": true,
-    "perguntas_frequentes": [
-      {
-        "pergunta": "Por que não me lembro do procedimento após midazolam?",
-        "resposta": "O midazolam causa amnésia anterógrada — bloqueia a formação de novas memórias. É um efeito esperado e útil em procedimentos médicos para reduzir o estresse do paciente."
-      },
-      {
-        "pergunta": "Midazolam tem antídoto?",
-        "resposta": "Sim. O flumazenil (Lanexat) reverte os efeitos sedativos do midazolam e outros benzodiazepínicos. É de uso hospitalar."
-      },
-      {
-        "pergunta": "Posso tomar midazolam oral para insônia?",
-        "resposta": "O comprimido de 15mg existe para uso ocasional na insônia. Porém, como todo benzodiazepínico, o uso não deve ser prolongado. Sempre sob prescrição médica."
-      },
-      {
-        "pergunta": "Midazolam pode ser usado em crianças?",
-        "resposta": "Sim, tem uso pediátrico em procedimentos e convulsões agudas. O midazolam intranasal ou bucal é muito usado para cessar crises convulsivas em crianças fora do ambiente hospitalar."
-      },
-      {
-        "pergunta": "Qual a diferença entre midazolam e diazepam?",
-        "resposta": "O midazolam tem ação mais rápida e curta que o diazepam, sem metabólitos ativos. É preferido para procedimentos rápidos. O diazepam tem duração mais longa, sendo útil para controle sustentado."
-      }
-    ],
-    "descricao_seo": "Midazolam 5mg/mL - 15mg (Dormicum/Dormonid) é um benzodiazepínico de ação curta usado para sedação em procedimentos, pré-anestesia, convulsões agudas e insônia situacional. Os efeitos colaterais mais relatados são: sedação, amnésia anterógrada e depressão respiratória. Antídoto: flumazenil. Midazolam é controlado (tarja preta) — vendido somente com receita de controle especial."
-  },
-  {
-    "nome": "Oxazepam 15mg",
-    "generico": "Oxazepam",
-    "tipo": "Benzodiazepínico — Ansiolítico",
-    "sinonimos": ["oxazepam", "serax", "oxazepam 15mg"],
-    "descricao": "Benzodiazepínico de meia-vida intermediária com ação ansiolítica e sedativa. Diferentemente de outros benzodiazepínicos, não é metabolizado pelo fígado via CYP450 — é conjugado diretamente com glucurônico, o que o torna mais seguro em hepatopatas e idosos. Indicado para ansiedade e abstinência alcoólica.",
-    "receita": "Sim",
-    "receita_display": "🔴 Receita de Controle Especial (Lista C1)",
-    "receita_cor": "azul",
-    "receita_descricao": "Receita de Controle Especial (tarja preta) — a receita é retida na farmácia.",
-    "receita_nota": "Dose usual: 10-30mg 3-4x/dia. Para abstinência alcoólica: doses maiores conforme protocolo médico.",
-    "efeitos": "Sedação, tontura, ataxia, confusão em idosos. Menor risco de acúmulo por ausência de metabólitos ativos.",
-    "aviso_grave": "Risco de dependência com uso prolongado. Abstinência pode causar convulsões. Não combinar com álcool ou outros depressores do SNC.",
-    "recomendacao": "⚠️ Vantagem em pacientes com doença hepática e idosos — metabolismo mais previsível e seguro. Ainda assim, usar pelo menor tempo necessário.",
-    "educacao": "A LOT rule dos benzodiazepínicos: Lorazepam, Oxazepam e Temazepam são os mais seguros em pacientes com doença hepática por não dependerem do metabolismo hepático via CYP450.",
-    "resposta_rapida": [
-      "Benzodiazepínico — ansiolítico",
-      "Ansiedade, abstinência alcoólica",
-      "Receita controle especial",
-      "Seguro em hepatopatas e idosos",
-      "Sem metabólitos ativos"
-    ],
-    "receita_obrigatoria": true,
-    "tipo_receita": "especial",
-    "retencao_receita": true,
-    "perguntas_frequentes": [
-      {
-        "pergunta": "Por que oxazepam é mais seguro para o fígado?",
-        "resposta": "Ao contrário de diazepam e alprazolam, o oxazepam é metabolizado por simples conjugação com ácido glucurônico — um processo que não depende das enzimas hepáticas CYP450. Isso o torna mais seguro em hepatopatas."
-      },
-      {
-        "pergunta": "Oxazepam serve para abstinência de álcool?",
-        "resposta": "Sim, é um dos benzodiazepínicos usados para tratar síndrome de abstinência alcoólica — previne convulsões e delirium tremens durante a desintoxicação."
-      },
-      {
-        "pergunta": "Oxazepam é indicado para idosos?",
-        "resposta": "É um dos BZDs preferíveis em idosos por não acumular (sem metabólitos ativos de longa duração). Porém, mesmo em idosos, os riscos de sedação e quedas existem e devem ser monitorados."
-      },
-      {
-        "pergunta": "Posso parar oxazepam de repente?",
-        "resposta": "Não. A interrupção abrupta pode causar síndrome de abstinência com ansiedade, insônia, tremores e convulsões. A dose deve ser reduzida gradualmente."
-      },
-      {
-        "pergunta": "Oxazepam causa amnésia?",
-        "resposta": "Pode causar amnésia anterógrada leve, mas é geralmente menor que midazolam ou lorazepam. O efeito sedativo é mais moderado."
-      }
-    ],
-    "descricao_seo": "Oxazepam 15mg é um benzodiazepínico ansiolítico seguro para hepatopatas e idosos, pois não depende do metabolismo hepático via CYP450. Indicado para ansiedade e abstinência alcoólica. Os efeitos colaterais mais relatados são: sedação, tontura e ataxia. Oxazepam é controlado (tarja preta) — vendido somente com receita de controle especial."
-  },
-  {
-    "nome": "Nitrazepam 5mg - 10mg",
-    "generico": "Nitrazepam",
-    "tipo": "Benzodiazepínico — Hipnótico, anticonvulsivante",
-    "sinonimos": ["nitrazepam", "mogadon", "nitrazepam 5mg", "nitrazepam 10mg"],
-    "descricao": "Benzodiazepínico de meia-vida longa com potente ação hipnótica e anticonvulsivante. Indicado para insônia e, em pediatria, para síndrome de West (espasmos infantis) e outras epilepsias de difícil controle. A meia-vida longa pode causar sedação residual diurna.",
-    "receita": "Sim",
-    "receita_display": "🔴 Receita de Controle Especial (Lista C1)",
-    "receita_cor": "azul",
-    "receita_descricao": "Receita de Controle Especial (tarja preta) — a receita é retida na farmácia.",
-    "receita_nota": "Para insônia: 5-10mg antes de dormir. Para epilepsia infantil: dose calculada pelo peso pela neuropediatria.",
-    "efeitos": "Sedação residual diurna (ressaca), ataxia, amnésia, hipotonia muscular, tolerância e dependência com uso prolongado.",
-    "aviso_grave": "Meia-vida longa (15-38h) — acúmulo em uso regular e em idosos. Contraindicado na apneia do sono. Risco elevado de dependência. Não combinar com álcool.",
-    "recomendacao": "⚠️ A sedação residual no dia seguinte pode prejudicar a condução de veículos e tarefas que exigem atenção. Usar pelo menor tempo possível para insônia.",
-    "educacao": "Em neuropediatria, o nitrazepam é uma das opções para síndrome de West refratária a outros tratamentos. Na insônia em adultos, sua meia-vida longa é uma desvantagem comparado a hipnóticos mais modernos.",
-    "resposta_rapida": [
-      "Benzodiazepínico hipnótico",
-      "Insônia, epilepsia infantil (Sínd. de West)",
-      "Receita controle especial",
-      "Meia-vida longa — ressaca diurna",
-      "Não combinar com álcool"
-    ],
-    "receita_obrigatoria": true,
-    "tipo_receita": "especial",
-    "retencao_receita": true,
-    "perguntas_frequentes": [
-      {
-        "pergunta": "Por que fico sonolento no dia seguinte ao nitrazepam?",
-        "resposta": "O nitrazepam tem meia-vida longa (15-38 horas), o que causa acúmulo e sedação residual diurna. Essa 'ressaca' é um efeito esperado, especialmente nas primeiras semanas."
-      },
-      {
-        "pergunta": "Nitrazepam serve para epilepsia em crianças?",
-        "resposta": "Sim, é usado na síndrome de West (espasmos infantis) e outras epilepsias mioclônicas de difícil controle em crianças. Uso especializado em neuropediatria."
-      },
-      {
-        "pergunta": "Nitrazepam é seguro para idosos?",
-        "resposta": "Não é recomendado. Idosos têm metabolismo mais lento e o nitrazepam acumula mais, aumentando muito o risco de quedas, confusão e depressão respiratória."
-      },
-      {
-        "pergunta": "Posso tomar nitrazepam todo dia para dormir?",
-        "resposta": "O uso crônico não é recomendado — desenvolve-se tolerância (o efeito diminui) e dependência. Para insônia crônica, abordagens não farmacológicas e medicamentos sem risco de dependência são preferíveis."
-      },
-      {
-        "pergunta": "Qual a diferença entre nitrazepam e zolpidem para insônia?",
-        "resposta": "O zolpidem tem meia-vida muito mais curta e menos risco de ressaca diurna. O nitrazepam, por ter meia-vida longa, acumula mais — hoje o zolpidem é mais usado para insônia no adulto."
-      }
-    ],
-    "descricao_seo": "Nitrazepam 5mg - 10mg (Mogadon) é um benzodiazepínico hipnótico de meia-vida longa indicado para insônia e epilepsia infantil (síndrome de West). Os efeitos colaterais mais relatados são: sedação residual diurna, ataxia e risco de dependência. Nitrazepam é controlado (tarja preta) — vendido somente com receita de controle especial."
-  },
-  {
-    "nome": "Clordiazepóxido 5mg - 25mg",
-    "generico": "Clordiazepóxido",
-    "tipo": "Benzodiazepínico — Ansiolítico, tratamento de abstinência alcoólica",
-    "sinonimos": ["clordiazepóxido", "librium", "psicosedin", "clordiazepoxide", "clordiazepóxido 5mg", "clordiazepóxido 25mg"],
-    "descricao": "Primeiro benzodiazepínico desenvolvido clinicamente (1960). Tem meia-vida longa e metabólitos ativos de longa duração. Indicado para ansiedade, abstinência alcoólica e pré-medicação em procedimentos. Por sua meia-vida muito longa, é particularmente útil no tratamento da síndrome de abstinência alcoólica.",
-    "receita": "Sim",
-    "receita_display": "🔴 Receita de Controle Especial (Lista C1)",
-    "receita_cor": "azul",
-    "receita_descricao": "Receita de Controle Especial (tarja preta) — a receita é retida na farmácia.",
-    "receita_nota": "Para ansiedade: 5-25mg 3-4x/dia. Para abstinência alcoólica: regime de dose decrescente definido pelo médico.",
-    "efeitos": "Sedação, ataxia, confusão, amnésia, tolerância e dependência física com uso prolongado.",
-    "aviso_grave": "Meia-vida muito longa com metabólitos ativos — acúmulo significativo especialmente em idosos e hepatopatas. Não combinar com álcool ou outros depressores do SNC. Risco elevado de dependência.",
-    "recomendacao": "⚠️ Por ter metabólitos ativos de longa duração, o acúmulo pode ser problemático em idosos e pacientes com insuficiência hepática. Preferir oxazepam ou lorazepam nesses grupos.",
-    "educacao": "O clordiazepóxido foi o primeiro benzodiazepínico descoberto por Leo Sternbach em 1955. Sua meia-vida longa é vantajosa na abstinência alcoólica (auto-desmame gradual), mas desvantajosa em idosos por acúmulo excessivo.",
-    "resposta_rapida": [
-      "1º benzodiazepínico desenvolvido",
-      "Ansiedade, abstinência alcoólica",
-      "Receita controle especial",
-      "Meia-vida muito longa",
-      "Acúmulo em idosos e hepatopatas"
-    ],
-    "receita_obrigatoria": true,
-    "tipo_receita": "especial",
-    "retencao_receita": true,
-    "perguntas_frequentes": [
-      {
-        "pergunta": "Clordiazepóxido é o primeiro benzodiazepínico?",
-        "resposta": "Sim. Foi o primeiro BZD desenvolvido clinicamente, comercializado em 1960 como Librium. Apesar de ser mais antigo, ainda tem uso clínico relevante, especialmente na abstinência alcoólica."
-      },
-      {
-        "pergunta": "Por que clordiazepóxido é usado na abstinência de álcool?",
-        "resposta": "Sua meia-vida muito longa permite um 'desmame' gradual natural — os níveis caem lentamente, o que previne convulsões e delirium tremens sem necessitar de muitos ajustes de dose."
-      },
-      {
-        "pergunta": "Clordiazepóxido é seguro para idosos?",
-        "resposta": "Não é preferível em idosos — seus metabólitos ativos de longa duração se acumulam e podem causar sedação excessiva, quedas e confusão mental. Oxazepam ou lorazepam são preferidos."
-      },
-      {
-        "pergunta": "Qual a diferença entre clordiazepóxido e diazepam?",
-        "resposta": "Ambos têm meia-vida longa com metabólitos ativos. O diazepam é mais potente por mg e tem absorção mais rápida. O clordiazepóxido tem potência um pouco menor e absorção mais gradual."
-      },
-      {
-        "pergunta": "Posso parar clordiazepóxido abruptamente?",
-        "resposta": "Não. A retirada abrupta pode causar síndrome de abstinência grave incluindo convulsões, mesmo com a meia-vida longa. A redução deve ser gradual e supervisionada."
-      }
-    ],
-    "descricao_seo": "Clordiazepóxido 5mg - 25mg (Librium) é o primeiro benzodiazepínico desenvolvido clinicamente, com meia-vida longa. Indicado para ansiedade e abstinência alcoólica. Os efeitos colaterais mais relatados são: sedação, ataxia e risco de dependência. Acúmulo em idosos e hepatopatas. Clordiazepóxido é controlado (tarja preta) — vendido somente com receita de controle especial."
-  },
-  {
-    "nome": "Clorpromazina 25mg - 100mg",
-    "generico": "Clorpromazina",
-    "tipo": "Antipsicótico típico — Fenotiazínico",
-    "sinonimos": ["clorpromazina", "amplictil", "largactil", "clorpromazina 25mg", "clorpromazina 100mg"],
-    "descricao": "Primeiro antipsicótico desenvolvido (1952), fenotiazínico de baixa potência com amplo bloqueio de receptores dopaminérgicos, histaminérgicos, muscarínicos e alfa-adrenérgicos. Indicado para esquizofrenia, mania aguda, agitação psicomotora, soluço intratável, náuseas e vômitos refratários.",
-    "receita": "Sim",
-    "receita_display": "🔴 Receita de Controle Especial (Lista C1)",
-    "receita_cor": "azul",
-    "receita_descricao": "Receita de Controle Especial (tarja preta) — a receita é retida na farmácia.",
-    "receita_nota": "Para psicose: iniciar com 25-50mg 3x/dia, aumentar gradualmente. Para soluço intratável: 25-50mg 3x/dia.",
-    "efeitos": "Sedação intensa, hipotensão ortostática, boca seca, constipação, fotossensibilidade, discinesias tardias, acatisia, síndrome neuroléptica maligna (raro mas grave).",
-    "aviso_grave": "Síndrome neuroléptica maligna (SNN) — emergência médica: febre alta, rigidez muscular, instabilidade autonômica. Discinesia tardia com uso prolongado pode ser irreversível. Fotossensibilidade — evitar sol sem proteção.",
-    "recomendacao": "⚠️ Usar protetor solar — a clorpromazina causa fotossensibilidade intensa. Monitorar sintomas extrapiramidais. Atualmente antipsicóticos atípicos são preferidos por melhor perfil de segurança.",
-    "educacao": "A clorpromazina foi o primeiro antipsicótico desenvolvido, revolucionando o tratamento da esquizofrenia. Hoje é considerada de segunda linha pelos efeitos extrapiramidais e metabólicos, mas ainda tem uso específico, como no soluço intratável.",
-    "resposta_rapida": [
-      "Antipsicótico típico — 1º antipsicótico",
-      "Esquizofrenia, mania, soluço intratável",
-      "Receita controle especial",
-      "Sedação intensa e fotossensibilidade",
-      "Risco: discinesia tardia e SNN"
-    ],
-    "receita_obrigatoria": true,
-    "tipo_receita": "especial",
-    "retencao_receita": true,
-    "perguntas_frequentes": [
-      {
-        "pergunta": "Clorpromazina ainda é usada hoje?",
-        "resposta": "Sim, mas cada vez menos para psicose — antipsicóticos atípicos (risperidona, olanzapina) têm perfil de segurança melhor. A clorpromazina ainda é usada para soluço intratável e agitação grave."
-      },
-      {
-        "pergunta": "O que é discinesia tardia causada pela clorpromazina?",
-        "resposta": "Movimentos involuntários repetitivos (especialmente de boca, língua e face) que podem ser irreversíveis após uso prolongado. É um dos principais riscos dos antipsicóticos típicos."
-      },
-      {
-        "pergunta": "Por que não posso me expor ao sol ao tomar clorpromazina?",
-        "resposta": "A clorpromazina causa fotossensibilidade intensa — a pele fica muito suscetível a queimaduras e pode ocorrer pigmentação cinza-azulada permanente da pele com exposição solar prolongada."
-      },
-      {
-        "pergunta": "Clorpromazina serve para vômito?",
-        "resposta": "Sim, tem ação antiemética. É usada para náuseas e vômitos refratários a outros tratamentos, como quimioterapia resistente a ondansetrona."
-      },
-      {
-        "pergunta": "O que é síndrome neuroléptica maligna?",
-        "resposta": "É uma emergência médica rara mas grave causada por antipsicóticos: febre alta, rigidez muscular intensa, confusão mental e instabilidade dos sinais vitais. Requer internação imediata."
-      }
-    ],
-    "descricao_seo": "Clorpromazina 25mg - 100mg (Amplictil) é o primeiro antipsicótico desenvolvido, indicado para esquizofrenia, mania aguda e soluço intratável. Os efeitos colaterais mais relatados são: sedação, hipotensão, fotossensibilidade e risco de discinesia tardia. Evitar sol sem proteção. Clorpromazina é controlada (tarja preta) — vendida somente com receita de controle especial."
-  },
-  {
-    "nome": "Trifluoperazina 5mg",
-    "generico": "Trifluoperazina",
-    "tipo": "Antipsicótico típico — Fenotiazínico de alta potência",
-    "sinonimos": ["trifluoperazina", "stelazine", "trifluoperazina 5mg"],
-    "descricao": "Antipsicótico típico fenotiazínico de alta potência com potente bloqueio de receptores D2 dopaminérgicos. Indicado para esquizofrenia, psicoses agudas e estados de ansiedade grave não responsivos a outros tratamentos. Tem menor efeito sedativo que a clorpromazina, mas maior risco de efeitos extrapiramidais.",
-    "receita": "Sim",
-    "receita_display": "🔴 Receita de Controle Especial (Lista C1)",
-    "receita_cor": "azul",
-    "receita_descricao": "Receita de Controle Especial (tarja preta) — a receita é retida na farmácia.",
-    "receita_nota": "Dose para psicose: 2-5mg 2-3x/dia, aumentando gradualmente conforme resposta. Para ansiedade: doses menores (1-2mg 2x/dia).",
-    "efeitos": "Efeitos extrapiramidais acentuados (acatisia, distonia, parkinsonismo), discinesia tardia, menor sedação que clorpromazina, boca seca, constipação.",
-    "aviso_grave": "Alto risco de efeitos extrapiramidais — distonia aguda pode ocorrer nas primeiras doses (tratada com biperideno). Síndrome neuroléptica maligna. Discinesia tardia irreversível com uso prolongado.",
-    "recomendacao": "⚠️ Por ser antipsicótico típico de alta potência, tem maior risco de efeitos extrapiramidais. Antipsicóticos atípicos são preferidos atualmente. Monitorar sinais de discinesia.",
-    "educacao": "Os antipsicóticos típicos de alta potência (trifluoperazina, haloperidol) têm maior risco de efeitos extrapiramidais mas menor sedação e menor efeito cardiovascular que os de baixa potência (clorpromazina). O antiparkinsônico biperideno pode ser usado para tratar ou prevenir os efeitos extrapiramidais agudos.",
-    "resposta_rapida": [
-      "Antipsicótico típico de alta potência",
-      "Esquizofrenia, psicoses agudas",
-      "Receita controle especial",
-      "Alto risco de efeitos extrapiramidais",
-      "Antídoto de distonia: biperideno"
-    ],
-    "receita_obrigatoria": true,
-    "tipo_receita": "especial",
-    "retencao_receita": true,
-    "perguntas_frequentes": [
-      {
-        "pergunta": "Trifluoperazina causa muito tremor e rigidez?",
-        "resposta": "Sim. Por ser antipsicótico típico de alta potência, tem elevado risco de parkinsonismo medicamentoso (tremor, rigidez, lentidão). O biperideno é frequentemente prescrito junto para prevenir esses efeitos."
-      },
-      {
-        "pergunta": "Qual a diferença entre trifluoperazina e clorpromazina?",
-        "resposta": "A trifluoperazina é de alta potência (menor dose, maior efeito D2) com mais efeitos extrapiramidais e menos sedação. A clorpromazina é de baixa potência, mais sedativa e com mais efeitos cardiovasculares."
-      },
-      {
-        "pergunta": "O que é acatisia causada por antipsicóticos?",
-        "resposta": "É uma sensação angustiante de inquietação interna, necessidade compulsiva de movimentar-se. É um efeito extrapiramidal comum com antipsicóticos típicos. Tratada com beta-bloqueadores ou anticolinérgicos."
-      },
-      {
-        "pergunta": "Trifluoperazina pode ser usada na ansiedade?",
-        "resposta": "Em doses baixas, já foi usada para ansiedade grave refratária. Porém, hoje é raramente indicada para isso — os riscos dos antipsicóticos típicos superam o benefício em ansiedade."
-      },
-      {
-        "pergunta": "Existe substituto mais seguro para trifluoperazina?",
-        "resposta": "Sim. Os antipsicóticos atípicos (risperidona, quetiapina, olanzapina) têm menor risco de efeitos extrapiramidais e são hoje os de primeira escolha na maioria das indicações."
-      }
-    ],
-    "descricao_seo": "Trifluoperazina 5mg (Stelazine) é um antipsicótico típico de alta potência indicado para esquizofrenia e psicoses agudas. Os efeitos colaterais mais relatados são: efeitos extrapiramidais (acatisia, distonia, parkinsonismo) e discinesia tardia. Trifluoperazina é controlada (tarja preta) — vendida somente com receita de controle especial."
-  },
-  {
-    "nome": "Maprotilina 25mg - 75mg",
-    "generico": "Maprotilina",
-    "tipo": "Antidepressivo tetracíclico — Inibidor da recaptação de noradrenalina",
-    "sinonimos": ["maprotilina", "ludiomil", "maprotilina 25mg", "maprotilina 75mg"],
-    "descricao": "Antidepressivo tetracíclico que inibe seletivamente a recaptação de noradrenalina com ação histaminérgica (sedativa). Estruturalmente relacionado aos tricíclicos, mas com menor afinidade pelos receptores muscarínicos. Indicado para depressão, especialmente com componente ansioso-agitado e insônia.",
-    "receita": "Sim",
-    "receita_display": "🔴 Receita Simples",
-    "receita_cor": "vermelho",
-    "receita_descricao": "Exige prescrição médica.",
-    "receita_nota": "Iniciar com 25mg 1-3x/dia. Dose de manutenção: 75-150mg/dia. Dose máxima: 150mg/dia. O efeito antidepressivo começa em 2-4 semanas.",
-    "efeitos": "Sedação intensa (efeito mais pronunciado), boca seca, constipação, tontura, ganho de peso, rebaixamento do limiar convulsivo.",
-    "aviso_grave": "Risco de convulsões — não usar em pacientes com histórico de epilepsia. Risco cardiotóxico similar aos tricíclicos em overdose. Síndrome serotoninérgica ao combinar com IMAOs.",
-    "recomendacao": "⚠️ O efeito sedativo intenso pode ser aproveitado na depressão com insônia — tomar a dose maior à noite. Evitar dirigir nas primeiras semanas. Não combinar com IMAOs.",
-    "educacao": "A maprotilina tem mecanismo de ação similar aos tricíclicos (TCAs), mas é mais seletiva para noradrenalina. A sedação intensa limita seu uso diurno, mas pode ser benéfica em pacientes com depressão acompanhada de insônia grave.",
-    "resposta_rapida": [
-      "Antidepressivo tetracíclico",
-      "Depressão com ansiedade/insônia",
-      "Receita simples",
-      "Sedação intensa",
-      "Não combinar com IMAOs"
-    ],
-    "receita_obrigatoria": true,
-    "tipo_receita": "simples",
-    "retencao_receita": false,
-    "perguntas_frequentes": [
-      {
-        "pergunta": "Maprotilina é melhor que amitriptilina?",
-        "resposta": "Têm eficácia similar para depressão. A maprotilina tem menor ação anticolinérgica que a amitriptilina (menos boca seca intensa, retenção urinária), mas ambas causam sedação acentuada."
-      },
-      {
-        "pergunta": "Maprotilina causa convulsão?",
-        "resposta": "Sim, reduz o limiar convulsivo, especialmente em doses altas. Contraindicada em epilepsia. O risco de convulsão é maior que com os ISRSs modernos."
-      },
-      {
-        "pergunta": "Maprotilina faz engordar?",
-        "resposta": "Sim, ganho de peso é um efeito colateral comum, relacionado ao bloqueio de receptores histaminérgicos H1 (mesmo mecanismo da mirtazapina)."
-      },
-      {
-        "pergunta": "Quanto tempo leva para a maprotilina fazer efeito?",
-        "resposta": "O efeito antidepressivo completo leva 2-4 semanas. O efeito sedativo começa imediatamente, o que pode ser benéfico para a insônia desde as primeiras doses."
-      },
-      {
-        "pergunta": "Posso parar maprotilina de repente?",
-        "resposta": "Não é recomendado. Descontinuação abrupta pode causar síndrome de retirada (náusea, insônia, irritabilidade). Reduzir a dose gradualmente com orientação médica."
-      }
-    ],
-    "descricao_seo": "Maprotilina 25mg - 75mg (Ludiomil) é um antidepressivo tetracíclico indicado para depressão com componente ansioso e insônia. Inibe a recaptação de noradrenalina. Os efeitos colaterais mais relatados são: sedação intensa, boca seca, constipação e ganho de peso. Não combinar com IMAOs. Maprotilina é vendida somente com receita médica — nunca use sem orientação de um profissional de saúde."
-  },
-  {
-    "nome": "Etossuximida 250mg - 500mg",
-    "generico": "Etossuximida",
-    "tipo": "Anticonvulsivante — Inibidor de canais de cálcio T",
-    "sinonimos": ["etossuximida", "zarontin", "ethosuximide", "etossuximida 250mg", "etossuximida 500mg"],
-    "descricao": "Anticonvulsivante único em seu mecanismo: inibe canais de cálcio do tipo T (T-type calcium channels) no tálamo, reduzindo as descargas tálamo-corticais responsáveis pelas crises de ausência. É a droga de primeira escolha para epilepsia de ausência (petit mal) típica na infância, sem efeito em outros tipos de crise.",
-    "receita": "Sim",
-    "receita_display": "🔴 Receita Simples",
-    "receita_cor": "vermelho",
-    "receita_descricao": "Exige prescrição médica.",
-    "receita_nota": "Crianças <6 anos: 250mg/dia inicialmente. Crianças >6 anos e adultos: 500mg/dia, aumentando 250mg a cada 4-7 dias. Dose máxima: 1,5g/dia.",
-    "efeitos": "Náusea, vômito, anorexia, dor abdominal, sonolência, cefaleia, irritabilidade. Efeitos GI são comuns no início.",
-    "aviso_grave": "Discrasias sanguíneas raras mas graves (aplasia medular, agranulocitose) — monitorar hemograma. Síndrome de Stevens-Johnson rara. Não eficaz para crises tônico-clônicas — se houver combinação de tipos de crise, associar outro anticonvulsivante.",
-    "recomendacao": "⚠️ A etossuximida é seletiva para crises de ausência — não protege contra outras formas de epilepsia. Monitorar hemograma periodicamente.",
-    "educacao": "A epilepsia de ausência é caracterizada por breves episódios de 'desligamento' (5-30 segundos) sem queda, com início e fim abruptos. A etossuximida, valproato e lamotrigina são as principais opções terapêuticas para esse tipo específico de crise.",
-    "resposta_rapida": [
-      "Anticonvulsivante para ausência (petit mal)",
-      "Epilepsia de ausência típica",
-      "Receita simples",
-      "Não protege contra outras crises",
-      "Monitorar hemograma"
-    ],
-    "receita_obrigatoria": true,
-    "tipo_receita": "simples",
-    "retencao_receita": false,
-    "perguntas_frequentes": [
-      {
-        "pergunta": "Etossuximida serve para qual tipo de epilepsia?",
-        "resposta": "Exclusivamente para epilepsia de ausência (petit mal) típica — episódios breves de 'desligamento' com olhar vago. Não tem efeito em crises tônico-clônicas, mioclônicas ou focais."
-      },
-      {
-        "pergunta": "Etossuximida ou valproato: qual é melhor para ausência?",
-        "resposta": "Estudos mostram que etossuximida e valproato têm eficácia similar para ausência pura. A etossuximida tem menos efeitos cognitivos, sendo preferida em crianças sem outros tipos de crise."
-      },
-      {
-        "pergunta": "A etossuximida pode ser tomada com alimentos?",
-        "resposta": "Sim e é recomendado. Tomar com alimentos reduz significativamente a náusea e desconforto gastrointestinal, especialmente nas primeiras semanas."
-      },
-      {
-        "pergunta": "Por que monitorar o hemograma com etossuximida?",
-        "resposta": "Discrasias sanguíneas (aplasia medular, agranulocitose) são efeitos adversos raros mas graves. Monitoramento periódico do hemograma é recomendado durante o tratamento."
-      },
-      {
-        "pergunta": "Crianças podem tomar etossuximida?",
-        "resposta": "Sim, é especialmente indicada para crianças com epilepsia de ausência. A dosagem é ajustada pelo peso e as doses são iniciadas baixas e aumentadas gradualmente."
-      }
-    ],
-    "descricao_seo": "Etossuximida 250mg - 500mg (Zarontin) é o anticonvulsivante de primeira escolha para epilepsia de ausência (petit mal) típica na infância. Age inibindo canais de cálcio tipo T. Os efeitos colaterais mais relatados são: náusea, vômito, anorexia e sonolência. Não é eficaz para outros tipos de crise epiléptica. Etossuximida é vendida somente com receita médica."
-  }
+﻿[
+    {
+        "nome":  "Apixabana 2,5mg - 5mg",
+        "generico":  "Apixabana",
+        "tipo":  "Anticoagulante oral â€” Inibidor direto do fator Xa",
+        "sinonimos":  [
+                          "apixabana",
+                          "eliquis",
+                          "apixabana 2,5mg",
+                          "apixabana 5mg"
+                      ],
+        "descricao":  "Anticoagulante oral de aÃ§Ã£o direta que inibe o fator Xa da cascata de coagulaÃ§Ã£o. Indicado para prevenÃ§Ã£o de AVC e embolia sistÃªmica em fibrilaÃ§Ã£o atrial nÃ£o valvar, tratamento e prevenÃ§Ã£o de trombose venosa profunda (TVP) e embolia pulmonar, e profilaxia de TVP apÃ³s cirurgia ortopÃ©dica.",
+        "receita":  "Sim",
+        "receita_display":  "ðŸ”´ Receita Simples",
+        "receita_cor":  "vermelho",
+        "receita_descricao":  "Exige prescriÃ§Ã£o mÃ©dica. A receita nÃ£o Ã© retida na farmÃ¡cia na maioria dos casos.",
+        "receita_nota":  "Dose padrÃ£o para FA: 5mg 2x/dia. Dose reduzida 2,5mg 2x/dia em pacientes com critÃ©rios especÃ­ficos (idade â‰¥80 anos, peso â‰¤60kg ou creatinina â‰¥1,5mg/dL â€” se dois dos trÃªs presentes).",
+        "efeitos":  "Sangramento (principal risco), hematomas, anemia, nÃ¡usea. Risco de hemorragia interna grave.",
+        "aviso_grave":  "NÃ£o existe antÃ­doto amplamente disponÃ­vel (andexanet alfa existe mas Ã© de uso restrito). Interromper antes de cirurgias. NÃ£o usar na gravidez. InteraÃ§Ã£o com antiinflamatÃ³rios e outros anticoagulantes aumenta risco de sangramento.",
+        "recomendacao":  "âš ï¸ Nunca interromper sem orientaÃ§Ã£o mÃ©dica â€” risco de trombose de rebote. NÃ£o substituir por outros anticoagulantes sem prescriÃ§Ã£o especÃ­fica.",
+        "educacao":  "Diferente da warfarina, a apixabana nÃ£o requer monitoramento de INR. PorÃ©m qualquer sangramento incomum (urina avermelhada, fezes escuras, sangramento prolongado) deve ser relatado ao mÃ©dico imediatamente.",
+        "resposta_rapida":  [
+                                "Anticoagulante oral",
+                                "FA nÃ£o valvar, TVP, embolia pulmonar",
+                                "Receita simples",
+                                "NÃ£o requer monitoramento de INR",
+                                "AtenÃ§Ã£o: risco de sangramento"
+                            ],
+        "receita_obrigatoria":  true,
+        "tipo_receita":  "simples",
+        "retencao_receita":  false,
+        "perguntas_frequentes":  [
+                                     {
+                                         "pergunta":  "Apixabana precisa de exame de sangue regular?",
+                                         "resposta":  "NÃ£o requer monitoramento de INR como a warfarina. PorÃ©m o mÃ©dico pode solicitar avaliaÃ§Ã£o da funÃ§Ã£o renal periodicamente, pois a apixabana Ã© parcialmente excretada pelos rins."
+                                     },
+                                     {
+                                         "pergunta":  "Posso tomar apixabana com ibuprofeno?",
+                                         "resposta":  "NÃ£o Ã© recomendado. Anti-inflamatÃ³rios como ibuprofeno aumentam o risco de sangramento gastrointestinal quando combinados com anticoagulantes. Use paracetamol para dor se necessÃ¡rio."
+                                     },
+                                     {
+                                         "pergunta":  "O que fazer se esquecer uma dose de apixabana?",
+                                         "resposta":  "Tomar assim que lembrar no mesmo dia. Se jÃ¡ for hora da prÃ³xima dose, pular a esquecida e continuar normalmente. Nunca tomar dose dupla."
+                                     },
+                                     {
+                                         "pergunta":  "Apixabana pode ser tomada com alimentos?",
+                                         "resposta":  "Sim, pode ser tomada com ou sem alimentos. NÃ£o hÃ¡ restriÃ§Ãµes alimentares como ocorre com a warfarina."
+                                     },
+                                     {
+                                         "pergunta":  "Apixabana tem antÃ­doto?",
+                                         "resposta":  "Existe o andexanet alfa como antÃ­doto especÃ­fico, mas Ã© de uso hospitalar restrito e alto custo. Em casos de sangramento grave, o manejo Ã© feito em ambiente hospitalar."
+                                     }
+                                 ],
+        "descricao_seo":  "Apixabana 2,5mg - 5mg Ã© um medicamento usado para: anticoagulante oral de aÃ§Ã£o direta que inibe o fator Xa da cascata de coagulaÃ§Ã£o. Indicado para prevenÃ§Ã£o de AVC e embolia sistÃªmica em fibrilaÃ§Ã£o atrial nÃ£o valvar, tratamento e prevenÃ§Ã£o de trombose venosa profunda (TVP) e embolia pulmonar. Os efeitos colaterais mais relatados sÃ£o: sangramento, hematomas, anemia, nÃ¡usea. Importante: nÃ£o existe antÃ­doto amplamente disponÃ­vel â€” nunca interromper sem orientaÃ§Ã£o mÃ©dica. Apixabana Ã© vendida somente com receita mÃ©dica â€” nunca use sem orientaÃ§Ã£o de um profissional de saÃºde."
+    },
+    {
+        "nome":  "Dabigatrana 110mg - 150mg",
+        "generico":  "Dabigatrana etexilato",
+        "tipo":  "Anticoagulante oral â€” Inibidor direto da trombina",
+        "sinonimos":  [
+                          "dabigatrana",
+                          "pradaxa",
+                          "dabigatrana 110mg",
+                          "dabigatrana 150mg",
+                          "dabigatran"
+                      ],
+        "descricao":  "Anticoagulante oral de aÃ§Ã£o direta que inibe a trombina (fator IIa). Indicado para prevenÃ§Ã£o de AVC e embolia sistÃªmica em fibrilaÃ§Ã£o atrial nÃ£o valvar, tratamento de TVP e embolia pulmonar, e profilaxia de TVP apÃ³s artroplastia de quadril ou joelho.",
+        "receita":  "Sim",
+        "receita_display":  "ðŸ”´ Receita Simples",
+        "receita_cor":  "vermelho",
+        "receita_descricao":  "Exige prescriÃ§Ã£o mÃ©dica. A receita nÃ£o Ã© retida na farmÃ¡cia.",
+        "receita_nota":  "Dose padrÃ£o para FA: 150mg 2x/dia. Dose reduzida 110mg 2x/dia em pacientes com risco aumentado de sangramento ou â‰¥80 anos.",
+        "efeitos":  "Dispepsia, dor epigÃ¡strica, sangramento. A dispepsia Ã© mais frequente que com outros anticoagulantes orais diretos.",
+        "aviso_grave":  "Possui antÃ­doto especÃ­fico: idarucizumabe (Praxbind) â€” disponÃ­vel em ambiente hospitalar. Contraindicado em insuficiÃªncia renal grave (ClCr \u003c30mL/min). InteraÃ§Ãµes com inibidores de P-gp.",
+        "recomendacao":  "âš ï¸ Tomar com alimentos para reduzir a dispepsia. Manter a cÃ¡psula intacta â€” nÃ£o abrir, mastigar ou esmagar. Armazenar na embalagem original (sensÃ­vel Ã  umidade).",
+        "educacao":  "A dabigatrana tem antÃ­doto especÃ­fico (idarucizumabe), o que Ã© uma vantagem em situaÃ§Ãµes de emergÃªncia cirÃºrgica ou sangramento grave. Comunicar ao mÃ©dico e dentista antes de qualquer procedimento.",
+        "resposta_rapida":  [
+                                "Anticoagulante oral â€” inibe trombina",
+                                "FA nÃ£o valvar, TVP, embolia pulmonar",
+                                "Receita simples",
+                                "Tem antÃ­doto: idarucizumabe",
+                                "Tomar com alimentos â€” pode causar dispepsia"
+                            ],
+        "receita_obrigatoria":  true,
+        "tipo_receita":  "simples",
+        "retencao_receita":  false,
+        "perguntas_frequentes":  [
+                                     {
+                                         "pergunta":  "Dabigatrana tem antÃ­doto?",
+                                         "resposta":  "Sim. O idarucizumabe (Praxbind) Ã© o antÃ­doto especÃ­fico da dabigatrana, disponÃ­vel em ambiente hospitalar. Ã‰ uma vantagem em relaÃ§Ã£o a outros anticoagulantes diretos."
+                                     },
+                                     {
+                                         "pergunta":  "Por que dabigatrana causa dor de estÃ´mago?",
+                                         "resposta":  "A formulaÃ§Ã£o contÃ©m Ã¡cido tartÃ¡rico que facilita a absorÃ§Ã£o, mas pode irritar a mucosa gÃ¡strica. Tomar sempre com alimentos e nÃ£o abrir as cÃ¡psulas ajuda a reduzir a dispepsia."
+                                     },
+                                     {
+                                         "pergunta":  "Posso tomar dabigatrana se tiver doenÃ§a renal?",
+                                         "resposta":  "Depende do grau. A dabigatrana Ã© contraindicada em insuficiÃªncia renal grave (ClCr \u003c30mL/min). Para insuficiÃªncia moderada, pode ser necessÃ¡rio ajuste de dose."
+                                     },
+                                     {
+                                         "pergunta":  "Dabigatrana e warfarina: qual Ã© melhor?",
+                                         "resposta":  "A dabigatrana nÃ£o requer monitoramento de INR e tem menos interaÃ§Ãµes alimentares. A warfarina tem custo menor e antÃ­doto mais acessÃ­vel (vitamina K). A escolha depende do perfil de cada paciente."
+                                     },
+                                     {
+                                         "pergunta":  "Como armazenar a dabigatrana?",
+                                         "resposta":  "Deve ser armazenada na embalagem original, ao abrigo da umidade. Uma vez aberto o frasco, usar em atÃ© 4 meses. NÃ£o transferir para porta-comprimidos â€” a umidade degrada o medicamento."
+                                     }
+                                 ],
+        "descricao_seo":  "Dabigatrana 110mg - 150mg (Pradaxa) Ã© um anticoagulante oral usado para prevenÃ§Ã£o de AVC na fibrilaÃ§Ã£o atrial e tratamento de trombose venosa profunda. Inibe diretamente a trombina. Os efeitos colaterais mais relatados sÃ£o: dispepsia, dor epigÃ¡strica e risco de sangramento. Possui antÃ­doto especÃ­fico: idarucizumabe. Dabigatrana Ã© vendida somente com receita mÃ©dica â€” nunca use sem orientaÃ§Ã£o de um profissional de saÃºde."
+    },
+    {
+        "nome":  "Ãcido TranexÃ¢mico 500mg - 1000mg",
+        "generico":  "Ãcido TranexÃ¢mico",
+        "tipo":  "AntifibrinolÃ­tico â€” HemostÃ¡tico",
+        "sinonimos":  [
+                          "Ã¡cido tranexÃ¢mico",
+                          "transamin",
+                          "hemoblock",
+                          "Ã¡cido tranexÃ¢mico 500mg",
+                          "tranexamic acid"
+                      ],
+        "descricao":  "AntifibrinolÃ­tico que age inibindo a ativaÃ§Ã£o do plasminogÃªnio em plasmina, reduzindo a fibrinÃ³lise e estabilizando coÃ¡gulos jÃ¡ formados. Usado para controle de sangramentos em cirurgias, menorragia, epistaxe, hemorragia pÃ³s-parto e hemorragias associadas a trauma.",
+        "receita":  "Sim",
+        "receita_display":  "ðŸ”´ Receita Simples",
+        "receita_cor":  "vermelho",
+        "receita_descricao":  "Exige prescriÃ§Ã£o mÃ©dica.",
+        "receita_nota":  "Para menorragia: 1g (2 comp. 500mg) 3x/dia por atÃ© 4 dias durante a menstruaÃ§Ã£o. Para uso cirÃºrgico: dose definida pelo mÃ©dico/anestesista.",
+        "efeitos":  "NÃ¡usea, vÃ´mito, diarreia, tontura. Risco de trombose em pacientes com fatores de risco.",
+        "aviso_grave":  "Contraindicado em histÃ³rico de trombose arterial ou venosa ativa, doenÃ§a renal grave e distÃºrbios de visÃ£o de cor. NÃ£o usar em hematÃºria de origem renal superior (pode causar obstruÃ§Ã£o por coÃ¡gulo).",
+        "recomendacao":  "âš ï¸ NÃ£o usar como automedicaÃ§Ã£o para sangramento sem avaliaÃ§Ã£o mÃ©dica â€” Ã© necessÃ¡rio identificar a causa do sangramento. Em menorragia, pode ser uma alternativa eficaz a anti-inflamatÃ³rios.",
+        "educacao":  "O Ã¡cido tranexÃ¢mico nÃ£o Ã© um coagulante direto â€” ele impede que coÃ¡gulos jÃ¡ formados sejam dissolvidos. Muito usado em cirurgias para reduzir necessidade de transfusÃ£o sanguÃ­nea.",
+        "resposta_rapida":  [
+                                "AntifibrinolÃ­tico â€” estabiliza coÃ¡gulos",
+                                "Menorragia, cirurgias, trauma",
+                                "Receita simples",
+                                "NÃ£o usar em trombose ativa",
+                                "NÃ£o Ã© coagulante direto"
+                            ],
+        "receita_obrigatoria":  true,
+        "tipo_receita":  "simples",
+        "retencao_receita":  false,
+        "perguntas_frequentes":  [
+                                     {
+                                         "pergunta":  "Ãcido tranexÃ¢mico serve para menstruaÃ§Ã£o abundante?",
+                                         "resposta":  "Sim. Ã‰ indicado para menorragia (menstruaÃ§Ã£o excessiva), reduzindo o volume de sangramento em atÃ© 50%. Tomar apenas nos dias de fluxo intenso, por no mÃ¡ximo 4-5 dias."
+                                     },
+                                     {
+                                         "pergunta":  "Ãcido tranexÃ¢mico causa trombose?",
+                                         "resposta":  "Em pacientes com risco de trombose, pode aumentar o risco. Deve ser evitado por quem teve trombose venosa profunda, embolia pulmonar ou AVC. O mÃ©dico avalia o risco-benefÃ­cio."
+                                     },
+                                     {
+                                         "pergunta":  "Ãcido tranexÃ¢mico pode ser usado na gravidez?",
+                                         "resposta":  "Pode ser usado em hemorragia pÃ³s-parto com supervisÃ£o mÃ©dica. O uso durante a gestaÃ§Ã£o deve ser cuidadosamente avaliado pelo obstetra."
+                                     },
+                                     {
+                                         "pergunta":  "Qual a diferenÃ§a entre Ã¡cido tranexÃ¢mico e vitamina K?",
+                                         "resposta":  "Mecanismos diferentes: o Ã¡cido tranexÃ¢mico inibe a dissoluÃ§Ã£o de coÃ¡gulos (antifibrinolÃ­tico), enquanto a vitamina K Ã© necessÃ¡ria para a sÃ­ntese de fatores de coagulaÃ§Ã£o. SÃ£o complementares em certos contextos."
+                                     },
+                                     {
+                                         "pergunta":  "Ãcido tranexÃ¢mico pode ser usado para sangramento nasal?",
+                                         "resposta":  "Sim, pode ser usado para epistaxe (sangramento nasal) recorrente, tanto oral quanto em spray nasal. Sempre com orientaÃ§Ã£o mÃ©dica."
+                                     }
+                                 ],
+        "descricao_seo":  "Ãcido TranexÃ¢mico 500mg - 1000mg Ã© um antifibrinolÃ­tico hemostÃ¡tico usado para controle de sangramentos em menorragia, cirurgias, trauma e hemorragia pÃ³s-parto. Age estabilizando coÃ¡gulos jÃ¡ formados ao inibir a fibrinÃ³lise. Os efeitos colaterais mais relatados sÃ£o: nÃ¡usea, vÃ´mito e tontura. Contraindicado em trombose ativa. Ãcido TranexÃ¢mico Ã© vendido somente com receita mÃ©dica â€” nunca use sem orientaÃ§Ã£o de um profissional de saÃºde."
+    },
+    {
+        "nome":  "Naproxeno 250mg - 500mg",
+        "generico":  "Naproxeno sÃ³dico / Naproxeno",
+        "tipo":  "Anti-inflamatÃ³rio nÃ£o esteroidal (AINE)",
+        "sinonimos":  [
+                          "naproxeno",
+                          "flanax",
+                          "naprosyn",
+                          "naproxeno sÃ³dico",
+                          "naproxeno 500mg",
+                          "naproxeno 250mg"
+                      ],
+        "descricao":  "Anti-inflamatÃ³rio nÃ£o esteroidal (AINE) de aÃ§Ã£o prolongada, com meia-vida de 12-17 horas. Indicado para artrite reumatoide, osteoartrose, espondilite anquilosante, gota aguda, dismenorreia primÃ¡ria, tendinite, bursite e dores musculoesquelÃ©ticas em geral.",
+        "receita":  "NÃ£o",
+        "receita_display":  "ðŸŸ¡ Venda Livre",
+        "receita_cor":  "amarelo",
+        "receita_descricao":  "DisponÃ­vel sem receita em baixas doses (250mg). Doses maiores podem exigir prescriÃ§Ã£o dependendo da apresentaÃ§Ã£o.",
+        "receita_nota":  "Dose usual: 250-500mg 2x/dia com as refeiÃ§Ãµes. Para gota aguda: 750mg na 1Âª dose, depois 250mg a cada 8 horas. Dose mÃ¡xima: 1.250mg/dia.",
+        "efeitos":  "Dor epigÃ¡strica, nÃ¡usea, azia, cefaleia, tontura, edema perifÃ©rico. Risco gastrointestinal e cardiovascular no uso prolongado.",
+        "aviso_grave":  "NÃ£o usar com outros AINEs (ibuprofeno, diclofenaco). Contraindicado em Ãºlcera pÃ©ptica ativa, insuficiÃªncia renal grave, insuficiÃªncia cardÃ­aca e Ãºltimo trimestre da gravidez. Risco de sangramento gastrointestinal.",
+        "recomendacao":  "âš ï¸ Tomar sempre com alimentos ou leite. Vantagem: pode ser tomado apenas 2x ao dia devido Ã  meia-vida longa. Associar a protetor gÃ¡strico (omeprazol) em uso prolongado.",
+        "educacao":  "O naproxeno tem meia-vida mais longa que o ibuprofeno, o que permite dosagem 2 vezes ao dia. Isso pode melhorar a adesÃ£o ao tratamento. PorÃ©m, como todo AINE, tem riscos cardiovasculares e gastrointestinais.",
+        "resposta_rapida":  [
+                                "Anti-inflamatÃ³rio AINE",
+                                "Artrite, dor musculoesquelÃ©tica, gota",
+                                "Venda livre em baixas doses",
+                                "2x ao dia (meia-vida longa)",
+                                "Tomar com alimentos"
+                            ],
+        "receita_obrigatoria":  false,
+        "tipo_receita":  "isento",
+        "retencao_receita":  false,
+        "perguntas_frequentes":  [
+                                     {
+                                         "pergunta":  "Naproxeno Ã© mais forte que ibuprofeno?",
+                                         "resposta":  "TÃªm potÃªncia similar, mas o naproxeno tem efeito mais prolongado (dura 12 horas vs 6-8 horas do ibuprofeno). O naproxeno pode ser tomado apenas 2 vezes ao dia."
+                                     },
+                                     {
+                                         "pergunta":  "Naproxeno pode ser tomado durante a menstruaÃ§Ã£o?",
+                                         "resposta":  "Sim, Ã© muito eficaz para dismenorreia (cÃ³lica menstrual). Iniciar no primeiro sinal de dor ou um dia antes do inÃ­cio esperado da menstruaÃ§Ã£o."
+                                     },
+                                     {
+                                         "pergunta":  "Naproxeno faz mal ao estÃ´mago?",
+                                         "resposta":  "Como todos os AINEs, pode causar irritaÃ§Ã£o gÃ¡strica. Sempre tomar com alimentos. Em uso prolongado ou em pacientes com histÃ³rico de Ãºlcera, associar com protetor gÃ¡strico."
+                                     },
+                                     {
+                                         "pergunta":  "Naproxeno serve para gota?",
+                                         "resposta":  "Sim. Ã‰ um dos AINEs mais usados na crise de gota aguda, com dose de ataque de 750mg e depois 250mg a cada 8 horas. Sempre com prescriÃ§Ã£o mÃ©dica para gota."
+                                     },
+                                     {
+                                         "pergunta":  "Posso tomar naproxeno e paracetamol juntos?",
+                                         "resposta":  "Sim, essa combinaÃ§Ã£o Ã© geralmente segura e permite doses menores de cada um. O paracetamol nÃ£o afeta a mucosa gÃ¡strica, sendo um bom complemento ao naproxeno para dor."
+                                     }
+                                 ],
+        "descricao_seo":  "Naproxeno 250mg - 500mg (Flanax) Ã© um anti-inflamatÃ³rio nÃ£o esteroidal (AINE) de aÃ§Ã£o prolongada, tomado 2 vezes ao dia. Indicado para artrite, gota, dismenorreia e dores musculoesquelÃ©ticas. Os efeitos colaterais mais relatados sÃ£o: dor epigÃ¡strica, nÃ¡usea e azia. Tomar sempre com alimentos. Naproxeno 500mg pode exigir receita mÃ©dica â€” consulte um profissional de saÃºde antes de usar."
+    },
+    {
+        "nome":  "Torasemida 5mg - 20mg",
+        "generico":  "Torasemida",
+        "tipo":  "DiurÃ©tico de alÃ§a",
+        "sinonimos":  [
+                          "torasemida",
+                          "toraldex",
+                          "torsemide",
+                          "torasemida 5mg",
+                          "torasemida 10mg"
+                      ],
+        "descricao":  "DiurÃ©tico de alÃ§a de alta potÃªncia que inibe o cotransportador Na-K-2Cl na alÃ§a de Henle. Similar Ã  furosemida, porÃ©m com maior biodisponibilidade oral (80-90% vs 50-60% da furosemida) e duraÃ§Ã£o de aÃ§Ã£o mais prolongada. Indicado para edema na insuficiÃªncia cardÃ­aca, renal e hepÃ¡tica, e hipertensÃ£o arterial.",
+        "receita":  "Sim",
+        "receita_display":  "ðŸ”´ Receita Simples",
+        "receita_cor":  "vermelho",
+        "receita_descricao":  "Exige prescriÃ§Ã£o mÃ©dica.",
+        "receita_nota":  "Dose usual para ICC: 5-20mg 1x/dia pela manhÃ£. Dose mÃ¡xima: 200mg/dia. Mais previsÃ­vel que furosemida pela melhor absorÃ§Ã£o oral.",
+        "efeitos":  "Hipocalemia, hiponatremia, hipomagnesemia, desidrataÃ§Ã£o, cÃ¢imbras, tontura, cefaleia, ototoxicidade em altas doses.",
+        "aviso_grave":  "Monitorar eletrÃ³litos (potÃ¡ssio, sÃ³dio, magnÃ©sio) e funÃ§Ã£o renal regularmente. Ototoxicidade em doses elevadas. Contraindicado em anÃºria e hipersensibilidade a sulfonamidas.",
+        "recomendacao":  "âš ï¸ Vantagem sobre furosemida: absorÃ§Ã£o mais previsÃ­vel e menor variabilidade de resposta. Tomar pela manhÃ£. Monitorar peso diariamente em pacientes com ICC.",
+        "educacao":  "A torasemida tem maior biodisponibilidade oral que a furosemida, o que resulta em efeito mais previsÃ­vel. Em insuficiÃªncia cardÃ­aca, a mÃ¡ absorÃ§Ã£o intestinal da furosemida pode ser um problema â€” nesse caso a torasemida Ã© preferida.",
+        "resposta_rapida":  [
+                                "DiurÃ©tico de alÃ§a",
+                                "ICC, edema, hipertensÃ£o",
+                                "Receita simples",
+                                "Maior biodisponibilidade que furosemida",
+                                "Monitorar eletrÃ³litos"
+                            ],
+        "receita_obrigatoria":  true,
+        "tipo_receita":  "simples",
+        "retencao_receita":  false,
+        "perguntas_frequentes":  [
+                                     {
+                                         "pergunta":  "Torasemida Ã© melhor que furosemida?",
+                                         "resposta":  "NÃ£o necessariamente melhor, mas tem maior biodisponibilidade oral (mais previsÃ­vel). Em ICC com edema intestinal, a furosemida tem absorÃ§Ã£o errÃ¡tica e a torasemida pode ser mais eficaz."
+                                     },
+                                     {
+                                         "pergunta":  "Torasemida e potÃ¡ssio: preciso tomar suplemento?",
+                                         "resposta":  "Frequentemente sim. DiurÃ©ticos de alÃ§a causam perda de potÃ¡ssio. O mÃ©dico avaliarÃ¡ pelos exames se Ã© necessÃ¡rio suplemento de potÃ¡ssio ou poupador de potÃ¡ssio."
+                                     },
+                                     {
+                                         "pergunta":  "Posso substituir furosemida por torasemida?",
+                                         "resposta":  "Apenas com orientaÃ§Ã£o mÃ©dica. A equivalÃªncia aproximada Ã©: 20mg de furosemida â‰ˆ 10mg de torasemida, mas a troca deve ser supervisionada por mÃ©dico."
+                                     },
+                                     {
+                                         "pergunta":  "Torasemida pode ser tomada Ã  noite?",
+                                         "resposta":  "NÃ£o Ã© recomendado para manter qualidade de sono. Tomar pela manhÃ£ permite que o efeito diurÃ©tico ocorra durante o dia. Em casos especÃ­ficos, o mÃ©dico pode ajustar o horÃ¡rio."
+                                     },
+                                     {
+                                         "pergunta":  "Torasemida afeta os rins?",
+                                         "resposta":  "O acompanhamento da funÃ§Ã£o renal Ã© necessÃ¡rio. Perdas excessivas de volume podem reduzir a perfusÃ£o renal. Monitoramento regular da creatinina e ureia Ã© importante."
+                                     }
+                                 ],
+        "descricao_seo":  "Torasemida 5mg - 20mg Ã© um diurÃ©tico de alÃ§a com maior biodisponibilidade oral que a furosemida, indicado para insuficiÃªncia cardÃ­aca, edema e hipertensÃ£o. Os efeitos colaterais mais relatados sÃ£o: hipocalemia, desidrataÃ§Ã£o, cÃ¢imbras e tontura. Tomar pela manhÃ£ e monitorar eletrÃ³litos. Torasemida Ã© vendida somente com receita mÃ©dica â€” nunca use sem orientaÃ§Ã£o de um profissional de saÃºde."
+    },
+    {
+        "nome":  "Famotidina 20mg - 40mg",
+        "generico":  "Famotidina",
+        "tipo":  "Antiulceroso â€” Antagonista H2 (Anti-histamÃ­nico H2)",
+        "sinonimos":  [
+                          "famotidina",
+                          "famox",
+                          "pepcidin",
+                          "famotidina 20mg",
+                          "famotidina 40mg"
+                      ],
+        "descricao":  "Antagonista dos receptores H2 da histamina que inibe a secreÃ§Ã£o Ã¡cida gÃ¡strica. Indicado para Ãºlcera pÃ©ptica, doenÃ§a do refluxo gastroesofÃ¡gico (DRGE), sÃ­ndrome de Zollinger-Ellison e alÃ­vio da azia e dispepsia. Ã‰ cerca de 20-50 vezes mais potente que a cimetidina.",
+        "receita":  "NÃ£o",
+        "receita_display":  "ðŸŸ¡ Venda Livre",
+        "receita_cor":  "amarelo",
+        "receita_descricao":  "DisponÃ­vel sem receita em baixas doses para alÃ­vio da azia. Doses maiores e uso prolongado requerem avaliaÃ§Ã£o mÃ©dica.",
+        "receita_nota":  "Para azia: 10-20mg conforme necessidade. Para Ãºlcera: 40mg Ã  noite ou 20mg 2x/dia por 4-8 semanas.",
+        "efeitos":  "Cefaleia, tontura, constipaÃ§Ã£o ou diarreia, boca seca. Geralmente bem tolerada.",
+        "aviso_grave":  "Uso prolongado pode mascarar sintomas de cÃ¢ncer gÃ¡strico â€” investigar antes de usar cronicamente. Ajuste de dose em insuficiÃªncia renal grave.",
+        "recomendacao":  "âš ï¸ Os inibidores de bomba de prÃ³tons (omeprazol, pantoprazol) sÃ£o mais eficazes para DRGE e Ãºlceras que os antagonistas H2. A famotidina pode ser Ãºtil para azia ocasional ou como adjuvante.",
+        "educacao":  "A famotidina nÃ£o tem as interaÃ§Ãµes medicamentosas da cimetidina (que inibe enzimas hepÃ¡ticas). Ã‰ mais segura em idosos e em pacientes que usam mÃºltiplos medicamentos.",
+        "resposta_rapida":  [
+                                "Antagonista H2",
+                                "Azia, DRGE, Ãºlcera pÃ©ptica",
+                                "Venda livre em baixas doses",
+                                "Menos interaÃ§Ãµes que cimetidina",
+                                "IBPs sÃ£o mais eficazes para DRGE"
+                            ],
+        "receita_obrigatoria":  false,
+        "tipo_receita":  "isento",
+        "retencao_receita":  false,
+        "perguntas_frequentes":  [
+                                     {
+                                         "pergunta":  "Famotidina ou omeprazol: qual Ã© melhor?",
+                                         "resposta":  "O omeprazol (IBP) Ã© mais eficaz para DRGE e Ãºlceras. A famotidina age mais rapidamente e Ã© boa para azia ocasional. Para uso crÃ´nico, o omeprazol Ã© preferido pelo mÃ©dico."
+                                     },
+                                     {
+                                         "pergunta":  "Famotidina pode ser tomada na gravidez?",
+                                         "resposta":  "Ã‰ considerada relativamente segura na gravidez, preferida Ã  cimetidina. PorÃ©m, qualquer medicamento na gestaÃ§Ã£o deve ter indicaÃ§Ã£o mÃ©dica ou da obstetriz."
+                                     },
+                                     {
+                                         "pergunta":  "Famotidina em quanto tempo faz efeito?",
+                                         "resposta":  "O efeito comeÃ§a em cerca de 1 hora e dura atÃ© 12 horas. Ã‰ mais rÃ¡pida que os IBPs para alÃ­vio da azia aguda."
+                                     },
+                                     {
+                                         "pergunta":  "Posso tomar famotidina todo dia?",
+                                         "resposta":  "Para uso eventual sim, mas o uso diÃ¡rio crÃ´nico requer avaliaÃ§Ã£o mÃ©dica. Sintomas persistentes de azia ou refluxo merecem investigaÃ§Ã£o para descartar causas mais graves."
+                                     },
+                                     {
+                                         "pergunta":  "Famotidina tem menos efeitos colaterais que cimetidina?",
+                                         "resposta":  "Sim. A cimetidina tem muitas interaÃ§Ãµes medicamentosas e efeitos hormonais (ginecomastia). A famotidina tem perfil de seguranÃ§a mais favorÃ¡vel e poucas interaÃ§Ãµes."
+                                     }
+                                 ],
+        "descricao_seo":  "Famotidina 20mg - 40mg Ã© um antagonista H2 antiulceroso indicado para azia, DRGE e Ãºlcera pÃ©ptica. Reduz a produÃ§Ã£o de Ã¡cido gÃ¡strico. Os efeitos colaterais mais relatados sÃ£o: cefaleia, tontura e constipaÃ§Ã£o. Age mais rapidamente que os IBPs para azia aguda. DisponÃ­vel sem receita em baixas doses â€” consulte um mÃ©dico para uso prolongado."
+    },
+    {
+        "nome":  "Clotrimazol 1% creme - soluÃ§Ã£o",
+        "generico":  "Clotrimazol",
+        "tipo":  "AntifÃºngico â€” ImidazÃ³lico tÃ³pico",
+        "sinonimos":  [
+                          "clotrimazol",
+                          "canesten",
+                          "gyno-canesten",
+                          "clotrimazol creme",
+                          "clotrimazol 1%",
+                          "clotrimazol vaginal"
+                      ],
+        "descricao":  "AntifÃºngico imidazÃ³lico de amplo espectro para uso tÃ³pico (pele, mucosas e vaginal). Age inibindo a sÃ­ntese de ergosterol da parede celular fÃºngica. Eficaz contra Candida spp., dermatÃ³fitos (Tinea pedis, corporis, cruris) e outras infecÃ§Ãµes fÃºngicas superficiais.",
+        "receita":  "NÃ£o",
+        "receita_display":  "ðŸŸ¡ Venda Livre",
+        "receita_cor":  "amarelo",
+        "receita_descricao":  "DisponÃ­vel sem receita para uso tÃ³pico e vaginal.",
+        "receita_nota":  "Aplicar 2-3x/dia na Ã¡rea afetada. Para candidÃ­ase vaginal: creme ou Ã³vulo vaginal 1x/noite por 3-7 dias dependendo da concentraÃ§Ã£o.",
+        "efeitos":  "Ardor, irritaÃ§Ã£o local, eritema â€” geralmente leve e transitÃ³rio.",
+        "aviso_grave":  "NÃ£o usar internamente (sÃ³ tÃ³pico). CandidÃ­ase vaginal recorrente (\u003e4 episÃ³dios/ano) requer investigaÃ§Ã£o de causas subjacentes (diabetes, imunossupressÃ£o).",
+        "recomendacao":  "âš ï¸ Para candidÃ­ase vulvovaginal, manter o tratamento pelo tempo indicado mesmo com melhora dos sintomas. Parceiro sexual deve ser avaliado se houver recidivas frequentes.",
+        "educacao":  "O clotrimazol Ã© um dos antifÃºngicos tÃ³picos mais usados no mundo. A candidÃ­ase vaginal recorrente pode indicar diabetes nÃ£o diagnosticado, HIV ou uso prolongado de antibiÃ³ticos â€” investigar.",
+        "resposta_rapida":  [
+                                "AntifÃºngico tÃ³pico",
+                                "CandidÃ­ase, micoses de pele",
+                                "Venda livre",
+                                "Uso externo apenas",
+                                "CandidÃ­ase recorrente: investigar causas"
+                            ],
+        "receita_obrigatoria":  false,
+        "tipo_receita":  "isento",
+        "retencao_receita":  false,
+        "perguntas_frequentes":  [
+                                     {
+                                         "pergunta":  "Clotrimazol serve para candidÃ­ase vaginal?",
+                                         "resposta":  "Sim, Ã© muito eficaz. DisponÃ­vel como creme vaginal e Ã³vulos. O tratamento de 3-7 dias elimina a maioria dos casos. Para forma recorrente, o mÃ©dico pode indicar fluconazol oral."
+                                     },
+                                     {
+                                         "pergunta":  "Clotrimazol pode ser usado na gravidez?",
+                                         "resposta":  "Sim, o clotrimazol tÃ³pico e vaginal Ã© considerado seguro durante a gestaÃ§Ã£o e Ã© a opÃ§Ã£o preferida para candidÃ­ase vaginal na grÃ¡vida (o fluconazol oral Ã© contraindicado)."
+                                     },
+                                     {
+                                         "pergunta":  "Quanto tempo o clotrimazol leva para fazer efeito?",
+                                         "resposta":  "AlÃ­vio dos sintomas comeÃ§a em 1-3 dias. O tratamento completo (3-7 dias) deve ser mantido para eliminar o fungo e prevenir recidiva."
+                                     },
+                                     {
+                                         "pergunta":  "Clotrimazol serve para micose de pÃ© (frieira)?",
+                                         "resposta":  "Sim, Ã© eficaz contra tinea pedis (pÃ© de atleta). Aplicar 2x ao dia por 2-4 semanas. Manter os pÃ©s secos e usar meias de algodÃ£o para melhorar o resultado."
+                                     },
+                                     {
+                                         "pergunta":  "Posso usar clotrimazol na mucosa oral?",
+                                         "resposta":  "NÃ£o â€” o creme e a soluÃ§Ã£o tÃ³pica nÃ£o sÃ£o para mucosa oral. Para candidÃ­ase oral (sapinho), usar nistatina suspensÃ£o oral ou anfotericina B."
+                                     }
+                                 ],
+        "descricao_seo":  "Clotrimazol 1% creme/soluÃ§Ã£o (Canesten) Ã© um antifÃºngico tÃ³pico imidazÃ³lico indicado para candidÃ­ase vaginal, micoses de pele (tinea pedis, corporis) e outras infecÃ§Ãµes fÃºngicas superficiais. Os efeitos colaterais mais relatados sÃ£o: ardor e irritaÃ§Ã£o local leve. DisponÃ­vel sem receita â€” candidÃ­ase vaginal recorrente requer avaliaÃ§Ã£o mÃ©dica para descartar causas subjacentes."
+    },
+    {
+        "nome":  "Voriconazol 200mg",
+        "generico":  "Voriconazol",
+        "tipo":  "AntifÃºngico â€” TriazÃ³lico de segunda geraÃ§Ã£o",
+        "sinonimos":  [
+                          "voriconazol",
+                          "vfend",
+                          "voriconazol 200mg",
+                          "voriconazole"
+                      ],
+        "descricao":  "AntifÃºngico triazÃ³lico de amplo espectro de segunda geraÃ§Ã£o. Primeira escolha para aspergilose invasiva, candidemia em pacientes refratÃ¡rios e infecÃ§Ãµes por Fusarium e Scedosporium. DisponÃ­vel em apresentaÃ§Ãµes oral e intravenosa. Tem aÃ§Ã£o fungicida contra Aspergillus e fungistÃ¡tica contra Candida.",
+        "receita":  "Sim",
+        "receita_display":  "ðŸ”´ Receita Simples",
+        "receita_cor":  "vermelho",
+        "receita_descricao":  "Exige prescriÃ§Ã£o mÃ©dica. Uso geralmente hospitalar ou especializado.",
+        "receita_nota":  "Dose oral adultos: 200mg 2x/dia (com dose de ataque de 400mg 2x/dia no 1Âº dia). Tomar 1 hora antes ou 2 horas apÃ³s refeiÃ§Ãµes.",
+        "efeitos":  "DistÃºrbios visuais (fotofobia, visÃ£o borrada, alteraÃ§Ã£o de cores) â€” muito comuns e geralmente reversÃ­veis. Hepatotoxicidade, fotossensibilidade cutÃ¢nea, alucinaÃ§Ãµes visuais.",
+        "aviso_grave":  "Monitorar funÃ§Ã£o hepÃ¡tica durante o tratamento. MÃºltiplas interaÃ§Ãµes medicamentosas via CYP450 (metabÃ³lito de muitos medicamentos). Fototoxicidade â€” proteger da luz solar. Contraindicado com rifampicina, carbamazepina, fenitoÃ­na.",
+        "recomendacao":  "âš ï¸ Os distÃºrbios visuais sÃ£o esperados (atÃ© 30% dos pacientes) â€” fotofobia, cores mais intensas, visÃ£o borrada. SÃ£o transitÃ³rios e nÃ£o indicam interrupÃ§Ã£o. Evitar sol intenso.",
+        "educacao":  "O voriconazol Ã© monitorado pelo nÃ­vel sÃ©rico (concentraÃ§Ã£o plasmÃ¡tica) para otimizar eficÃ¡cia e reduzir toxicidade. Ã‰ metabolizado pelo sistema CYP450 com variabilidade genÃ©tica significativa.",
+        "resposta_rapida":  [
+                                "AntifÃºngico triazÃ³lico de 2Âª geraÃ§Ã£o",
+                                "Aspergilose invasiva, candidemia refratÃ¡ria",
+                                "Receita simples â€” uso especializado",
+                                "Causa distÃºrbios visuais transitÃ³rios",
+                                "Muitas interaÃ§Ãµes medicamentosas"
+                            ],
+        "receita_obrigatoria":  true,
+        "tipo_receita":  "simples",
+        "retencao_receita":  false,
+        "perguntas_frequentes":  [
+                                     {
+                                         "pergunta":  "Por que voriconazol causa distÃºrbios visuais?",
+                                         "resposta":  "Afeta os fotorreceptores da retina de forma transitÃ³ria. O paciente pode ver cores mais intensas, ter fotofobia ou visÃ£o borrada, especialmente nos primeiros dias. Geralmente melhora com a continuaÃ§Ã£o do tratamento."
+                                     },
+                                     {
+                                         "pergunta":  "Voriconazol pode ser tomado com outros medicamentos?",
+                                         "resposta":  "Tem muitas interaÃ§Ãµes via CYP450. Rifampicina, carbamazepina e fenitoÃ­na sÃ£o contraindicados. Sempre informar ao mÃ©dico todos os medicamentos em uso."
+                                     },
+                                     {
+                                         "pergunta":  "Quanto tempo dura o tratamento com voriconazol?",
+                                         "resposta":  "Depende da infecÃ§Ã£o. Aspergilose invasiva pode exigir meses de tratamento atÃ© resoluÃ§Ã£o clÃ­nica e radiolÃ³gica completa. O mÃ©dico especialista definirÃ¡ a duraÃ§Ã£o."
+                                     },
+                                     {
+                                         "pergunta":  "Voriconazol causa dano ao fÃ­gado?",
+                                         "resposta":  "Hepatotoxicidade Ã© um efeito adverso possÃ­vel. Por isso, as enzimas hepÃ¡ticas devem ser monitoradas durante o tratamento â€” especialmente em pacientes com doenÃ§a hepÃ¡tica prÃ©via."
+                                     },
+                                     {
+                                         "pergunta":  "Posso me expor ao sol enquanto uso voriconazol?",
+                                         "resposta":  "Deve-se evitar exposiÃ§Ã£o solar intensa â€” o voriconazol causa fototoxicidade e fotossensibilidade. Usar protetor solar e roupas protetoras. Uso prolongado pode estar associado a carcinoma de cÃ©lulas escamosas."
+                                     }
+                                 ],
+        "descricao_seo":  "Voriconazol 200mg (Vfend) Ã© um antifÃºngico triazÃ³lico de segunda geraÃ§Ã£o, primeira escolha para aspergilose invasiva e candidemia refratÃ¡ria. Os efeitos colaterais mais relatados sÃ£o: distÃºrbios visuais transitÃ³rios, hepatotoxicidade e fotossensibilidade. Possui muitas interaÃ§Ãµes medicamentosas via CYP450. Voriconazol Ã© vendido somente com receita mÃ©dica â€” uso especializado."
+    },
+    {
+        "nome":  "Lorazepam 1mg - 2mg",
+        "generico":  "Lorazepam",
+        "tipo":  "BenzodiazepÃ­nico â€” AnsiolÃ­tico, anticonvulsivante",
+        "sinonimos":  [
+                          "lorazepam",
+                          "lorax",
+                          "ativan",
+                          "lorazepam 1mg",
+                          "lorazepam 2mg"
+                      ],
+        "descricao":  "BenzodiazepÃ­nico de meia-vida intermediÃ¡ria com potente aÃ§Ã£o ansiolÃ­tica, sedativa, anticonvulsivante e amnÃ©sica. Potencializa o efeito do GABA no SNC. Indicado para transtornos de ansiedade, insÃ´nia situacional, prÃ©-medicaÃ§Ã£o anestÃ©sica, controle de convulsÃµes agudas (status epilepticus) e sedaÃ§Ã£o em UTI.",
+        "receita":  "Sim",
+        "receita_display":  "ðŸ”´ Receita de Controle Especial (Lista C1)",
+        "receita_cor":  "azul",
+        "receita_descricao":  "Receita de Controle Especial (tarja preta) â€” a receita Ã© retida na farmÃ¡cia. EmissÃ£o em duas vias.",
+        "receita_nota":  "Dose ansiolÃ­tica: 0,5-2mg 2-3x/dia. Para insÃ´nia: 1-2mg Ã  noite. Para status epilepticus IV: 0,1mg/kg. Dose mÃ¡xima: 10mg/dia.",
+        "efeitos":  "SedaÃ§Ã£o, sonolÃªncia, tontura, amnÃ©sia anterÃ³grada, ataxia, depressÃ£o respiratÃ³ria em altas doses. DependÃªncia fÃ­sica com uso prolongado.",
+        "aviso_grave":  "Risco de dependÃªncia e abstinÃªncia grave com uso prolongado. DepressÃ£o respiratÃ³ria grave ao combinar com Ã¡lcool, opioides ou outros depressores do SNC. Nunca interromper abruptamente apÃ³s uso crÃ´nico.",
+        "recomendacao":  "âš ï¸ Uso limitado ao menor tempo necessÃ¡rio. NÃ£o combinar com Ã¡lcool. A retirada apÃ³s uso prolongado deve ser gradual para evitar convulsÃµes e sÃ­ndrome de abstinÃªncia grave.",
+        "educacao":  "O lorazepam tem vantagem sobre o diazepam no status epilepticus por ter menor volume de distribuiÃ§Ã£o, aÃ§Ã£o mais rÃ¡pida e mais prolongada no SNC. Em emergÃªncias, Ã© um dos BZDs preferidos.",
+        "resposta_rapida":  [
+                                "BenzodiazepÃ­nico",
+                                "Ansiedade, insÃ´nia, convulsÃµes agudas",
+                                "Receita de controle especial",
+                                "Risco de dependÃªncia",
+                                "Nunca combinar com Ã¡lcool"
+                            ],
+        "receita_obrigatoria":  true,
+        "tipo_receita":  "especial",
+        "retencao_receita":  true,
+        "perguntas_frequentes":  [
+                                     {
+                                         "pergunta":  "Lorazepam causa dependÃªncia?",
+                                         "resposta":  "Sim. Com uso prolongado (mais de 2-4 semanas), pode causar dependÃªncia fÃ­sica. A interrupÃ§Ã£o abrupta pode provocar sÃ­ndrome de abstinÃªncia grave, incluindo convulsÃµes. A retirada deve ser gradual."
+                                     },
+                                     {
+                                         "pergunta":  "Lorazepam pode ser usado para ansiedade aguda?",
+                                         "resposta":  "Sim, Ã© eficaz para crises agudas de ansiedade e pÃ¢nico. PorÃ©m, para ansiedade crÃ´nica, nÃ£o Ã© recomendado o uso contÃ­nuo prolongado devido ao risco de dependÃªncia."
+                                     },
+                                     {
+                                         "pergunta":  "Posso tomar lorazepam com Ã¡lcool?",
+                                         "resposta":  "Absolutamente nÃ£o. A combinaÃ§Ã£o potencializa a depressÃ£o do SNC e pode causar sedaÃ§Ã£o extrema, parada respiratÃ³ria e morte."
+                                     },
+                                     {
+                                         "pergunta":  "Lorazepam Ã© mais forte que diazepam?",
+                                         "resposta":  "SÃ£o comparÃ¡veis em potÃªncia por mg, mas o lorazepam Ã© mais potente por unidade de dose. Tem menor volume de distribuiÃ§Ã£o e nÃ£o produz metabÃ³litos ativos, ao contrÃ¡rio do diazepam."
+                                     },
+                                     {
+                                         "pergunta":  "Lorazepam pode ser usado em idosos?",
+                                         "resposta":  "Com muito cuidado. Idosos sÃ£o mais sensÃ­veis a benzodiazepÃ­nicos â€” maior risco de quedas, confusÃ£o mental e depressÃ£o respiratÃ³ria. Doses menores e monitoramento prÃ³ximo sÃ£o essenciais."
+                                     }
+                                 ],
+        "descricao_seo":  "Lorazepam 1mg - 2mg (Lorax) Ã© um benzodiazepÃ­nico indicado para transtornos de ansiedade, insÃ´nia situacional e convulsÃµes agudas. Os efeitos colaterais mais relatados sÃ£o: sedaÃ§Ã£o, sonolÃªncia, ataxia e risco de dependÃªncia. Nunca combinar com Ã¡lcool. Lorazepam Ã© controlado (tarja preta) e vendido somente com receita de controle especial â€” nunca use sem prescriÃ§Ã£o mÃ©dica."
+    },
+    {
+        "nome":  "Oxazepam 15mg",
+        "generico":  "Oxazepam",
+        "tipo":  "BenzodiazepÃ­nico â€” AnsiolÃ­tico",
+        "sinonimos":  [
+                          "oxazepam",
+                          "serax",
+                          "oxazepam 15mg"
+                      ],
+        "descricao":  "BenzodiazepÃ­nico de meia-vida intermediÃ¡ria com aÃ§Ã£o ansiolÃ­tica e sedativa. Diferentemente de outros benzodiazepÃ­nicos, nÃ£o Ã© metabolizado pelo fÃ­gado via CYP450 â€” Ã© conjugado diretamente com glucurÃ´nico, o que o torna mais seguro em hepatopatas e idosos. Indicado para ansiedade e abstinÃªncia alcoÃ³lica.",
+        "receita":  "Sim",
+        "receita_display":  "ðŸ”´ Receita de Controle Especial (Lista C1)",
+        "receita_cor":  "azul",
+        "receita_descricao":  "Receita de Controle Especial (tarja preta) â€” a receita Ã© retida na farmÃ¡cia.",
+        "receita_nota":  "Dose usual: 10-30mg 3-4x/dia. Para abstinÃªncia alcoÃ³lica: doses maiores conforme protocolo mÃ©dico.",
+        "efeitos":  "SedaÃ§Ã£o, tontura, ataxia, confusÃ£o em idosos. Menor risco de acÃºmulo por ausÃªncia de metabÃ³litos ativos.",
+        "aviso_grave":  "Risco de dependÃªncia com uso prolongado. AbstinÃªncia pode causar convulsÃµes. NÃ£o combinar com Ã¡lcool ou outros depressores do SNC.",
+        "recomendacao":  "âš ï¸ Vantagem em pacientes com doenÃ§a hepÃ¡tica e idosos â€” metabolismo mais previsÃ­vel e seguro. Ainda assim, usar pelo menor tempo necessÃ¡rio.",
+        "educacao":  "A LOT rule dos benzodiazepÃ­nicos: Lorazepam, Oxazepam e Temazepam sÃ£o os mais seguros em pacientes com doenÃ§a hepÃ¡tica por nÃ£o dependerem do metabolismo hepÃ¡tico via CYP450.",
+        "resposta_rapida":  [
+                                "BenzodiazepÃ­nico â€” ansiolÃ­tico",
+                                "Ansiedade, abstinÃªncia alcoÃ³lica",
+                                "Receita controle especial",
+                                "Seguro em hepatopatas e idosos",
+                                "Sem metabÃ³litos ativos"
+                            ],
+        "receita_obrigatoria":  true,
+        "tipo_receita":  "especial",
+        "retencao_receita":  true,
+        "perguntas_frequentes":  [
+                                     {
+                                         "pergunta":  "Por que oxazepam Ã© mais seguro para o fÃ­gado?",
+                                         "resposta":  "Ao contrÃ¡rio de diazepam e alprazolam, o oxazepam Ã© metabolizado por simples conjugaÃ§Ã£o com Ã¡cido glucurÃ´nico â€” um processo que nÃ£o depende das enzimas hepÃ¡ticas CYP450. Isso o torna mais seguro em hepatopatas."
+                                     },
+                                     {
+                                         "pergunta":  "Oxazepam serve para abstinÃªncia de Ã¡lcool?",
+                                         "resposta":  "Sim, Ã© um dos benzodiazepÃ­nicos usados para tratar sÃ­ndrome de abstinÃªncia alcoÃ³lica â€” previne convulsÃµes e delirium tremens durante a desintoxicaÃ§Ã£o."
+                                     },
+                                     {
+                                         "pergunta":  "Oxazepam Ã© indicado para idosos?",
+                                         "resposta":  "Ã‰ um dos BZDs preferÃ­veis em idosos por nÃ£o acumular (sem metabÃ³litos ativos de longa duraÃ§Ã£o). PorÃ©m, mesmo em idosos, os riscos de sedaÃ§Ã£o e quedas existem e devem ser monitorados."
+                                     },
+                                     {
+                                         "pergunta":  "Posso parar oxazepam de repente?",
+                                         "resposta":  "NÃ£o. A interrupÃ§Ã£o abrupta pode causar sÃ­ndrome de abstinÃªncia com ansiedade, insÃ´nia, tremores e convulsÃµes. A dose deve ser reduzida gradualmente."
+                                     },
+                                     {
+                                         "pergunta":  "Oxazepam causa amnÃ©sia?",
+                                         "resposta":  "Pode causar amnÃ©sia anterÃ³grada leve, mas Ã© geralmente menor que midazolam ou lorazepam. O efeito sedativo Ã© mais moderado."
+                                     }
+                                 ],
+        "descricao_seo":  "Oxazepam 15mg Ã© um benzodiazepÃ­nico ansiolÃ­tico seguro para hepatopatas e idosos, pois nÃ£o depende do metabolismo hepÃ¡tico via CYP450. Indicado para ansiedade e abstinÃªncia alcoÃ³lica. Os efeitos colaterais mais relatados sÃ£o: sedaÃ§Ã£o, tontura e ataxia. Oxazepam Ã© controlado (tarja preta) â€” vendido somente com receita de controle especial."
+    },
+    {
+        "nome":  "ClordiazepÃ³xido 5mg - 25mg",
+        "generico":  "ClordiazepÃ³xido",
+        "tipo":  "BenzodiazepÃ­nico â€” AnsiolÃ­tico, tratamento de abstinÃªncia alcoÃ³lica",
+        "sinonimos":  [
+                          "clordiazepÃ³xido",
+                          "librium",
+                          "psicosedin",
+                          "clordiazepoxide",
+                          "clordiazepÃ³xido 5mg",
+                          "clordiazepÃ³xido 25mg"
+                      ],
+        "descricao":  "Primeiro benzodiazepÃ­nico desenvolvido clinicamente (1960). Tem meia-vida longa e metabÃ³litos ativos de longa duraÃ§Ã£o. Indicado para ansiedade, abstinÃªncia alcoÃ³lica e prÃ©-medicaÃ§Ã£o em procedimentos. Por sua meia-vida muito longa, Ã© particularmente Ãºtil no tratamento da sÃ­ndrome de abstinÃªncia alcoÃ³lica.",
+        "receita":  "Sim",
+        "receita_display":  "ðŸ”´ Receita de Controle Especial (Lista C1)",
+        "receita_cor":  "azul",
+        "receita_descricao":  "Receita de Controle Especial (tarja preta) â€” a receita Ã© retida na farmÃ¡cia.",
+        "receita_nota":  "Para ansiedade: 5-25mg 3-4x/dia. Para abstinÃªncia alcoÃ³lica: regime de dose decrescente definido pelo mÃ©dico.",
+        "efeitos":  "SedaÃ§Ã£o, ataxia, confusÃ£o, amnÃ©sia, tolerÃ¢ncia e dependÃªncia fÃ­sica com uso prolongado.",
+        "aviso_grave":  "Meia-vida muito longa com metabÃ³litos ativos â€” acÃºmulo significativo especialmente em idosos e hepatopatas. NÃ£o combinar com Ã¡lcool ou outros depressores do SNC. Risco elevado de dependÃªncia.",
+        "recomendacao":  "âš ï¸ Por ter metabÃ³litos ativos de longa duraÃ§Ã£o, o acÃºmulo pode ser problemÃ¡tico em idosos e pacientes com insuficiÃªncia hepÃ¡tica. Preferir oxazepam ou lorazepam nesses grupos.",
+        "educacao":  "O clordiazepÃ³xido foi o primeiro benzodiazepÃ­nico descoberto por Leo Sternbach em 1955. Sua meia-vida longa Ã© vantajosa na abstinÃªncia alcoÃ³lica (auto-desmame gradual), mas desvantajosa em idosos por acÃºmulo excessivo.",
+        "resposta_rapida":  [
+                                "1Âº benzodiazepÃ­nico desenvolvido",
+                                "Ansiedade, abstinÃªncia alcoÃ³lica",
+                                "Receita controle especial",
+                                "Meia-vida muito longa",
+                                "AcÃºmulo em idosos e hepatopatas"
+                            ],
+        "receita_obrigatoria":  true,
+        "tipo_receita":  "especial",
+        "retencao_receita":  true,
+        "perguntas_frequentes":  [
+                                     {
+                                         "pergunta":  "ClordiazepÃ³xido Ã© o primeiro benzodiazepÃ­nico?",
+                                         "resposta":  "Sim. Foi o primeiro BZD desenvolvido clinicamente, comercializado em 1960 como Librium. Apesar de ser mais antigo, ainda tem uso clÃ­nico relevante, especialmente na abstinÃªncia alcoÃ³lica."
+                                     },
+                                     {
+                                         "pergunta":  "Por que clordiazepÃ³xido Ã© usado na abstinÃªncia de Ã¡lcool?",
+                                         "resposta":  "Sua meia-vida muito longa permite um \u0027desmame\u0027 gradual natural â€” os nÃ­veis caem lentamente, o que previne convulsÃµes e delirium tremens sem necessitar de muitos ajustes de dose."
+                                     },
+                                     {
+                                         "pergunta":  "ClordiazepÃ³xido Ã© seguro para idosos?",
+                                         "resposta":  "NÃ£o Ã© preferÃ­vel em idosos â€” seus metabÃ³litos ativos de longa duraÃ§Ã£o se acumulam e podem causar sedaÃ§Ã£o excessiva, quedas e confusÃ£o mental. Oxazepam ou lorazepam sÃ£o preferidos."
+                                     },
+                                     {
+                                         "pergunta":  "Qual a diferenÃ§a entre clordiazepÃ³xido e diazepam?",
+                                         "resposta":  "Ambos tÃªm meia-vida longa com metabÃ³litos ativos. O diazepam Ã© mais potente por mg e tem absorÃ§Ã£o mais rÃ¡pida. O clordiazepÃ³xido tem potÃªncia um pouco menor e absorÃ§Ã£o mais gradual."
+                                     },
+                                     {
+                                         "pergunta":  "Posso parar clordiazepÃ³xido abruptamente?",
+                                         "resposta":  "NÃ£o. A retirada abrupta pode causar sÃ­ndrome de abstinÃªncia grave incluindo convulsÃµes, mesmo com a meia-vida longa. A reduÃ§Ã£o deve ser gradual e supervisionada."
+                                     }
+                                 ],
+        "descricao_seo":  "ClordiazepÃ³xido 5mg - 25mg (Librium) Ã© o primeiro benzodiazepÃ­nico desenvolvido clinicamente, com meia-vida longa. Indicado para ansiedade e abstinÃªncia alcoÃ³lica. Os efeitos colaterais mais relatados sÃ£o: sedaÃ§Ã£o, ataxia e risco de dependÃªncia. AcÃºmulo em idosos e hepatopatas. ClordiazepÃ³xido Ã© controlado (tarja preta) â€” vendido somente com receita de controle especial."
+    },
+    {
+        "nome":  "Trifluoperazina 5mg",
+        "generico":  "Trifluoperazina",
+        "tipo":  "AntipsicÃ³tico tÃ­pico â€” FenotiazÃ­nico de alta potÃªncia",
+        "sinonimos":  [
+                          "trifluoperazina",
+                          "stelazine",
+                          "trifluoperazina 5mg"
+                      ],
+        "descricao":  "AntipsicÃ³tico tÃ­pico fenotiazÃ­nico de alta potÃªncia com potente bloqueio de receptores D2 dopaminÃ©rgicos. Indicado para esquizofrenia, psicoses agudas e estados de ansiedade grave nÃ£o responsivos a outros tratamentos. Tem menor efeito sedativo que a clorpromazina, mas maior risco de efeitos extrapiramidais.",
+        "receita":  "Sim",
+        "receita_display":  "ðŸ”´ Receita de Controle Especial (Lista C1)",
+        "receita_cor":  "azul",
+        "receita_descricao":  "Receita de Controle Especial (tarja preta) â€” a receita Ã© retida na farmÃ¡cia.",
+        "receita_nota":  "Dose para psicose: 2-5mg 2-3x/dia, aumentando gradualmente conforme resposta. Para ansiedade: doses menores (1-2mg 2x/dia).",
+        "efeitos":  "Efeitos extrapiramidais acentuados (acatisia, distonia, parkinsonismo), discinesia tardia, menor sedaÃ§Ã£o que clorpromazina, boca seca, constipaÃ§Ã£o.",
+        "aviso_grave":  "Alto risco de efeitos extrapiramidais â€” distonia aguda pode ocorrer nas primeiras doses (tratada com biperideno). SÃ­ndrome neurolÃ©ptica maligna. Discinesia tardia irreversÃ­vel com uso prolongado.",
+        "recomendacao":  "âš ï¸ Por ser antipsicÃ³tico tÃ­pico de alta potÃªncia, tem maior risco de efeitos extrapiramidais. AntipsicÃ³ticos atÃ­picos sÃ£o preferidos atualmente. Monitorar sinais de discinesia.",
+        "educacao":  "Os antipsicÃ³ticos tÃ­picos de alta potÃªncia (trifluoperazina, haloperidol) tÃªm maior risco de efeitos extrapiramidais mas menor sedaÃ§Ã£o e menor efeito cardiovascular que os de baixa potÃªncia (clorpromazina). O antiparkinsÃ´nico biperideno pode ser usado para tratar ou prevenir os efeitos extrapiramidais agudos.",
+        "resposta_rapida":  [
+                                "AntipsicÃ³tico tÃ­pico de alta potÃªncia",
+                                "Esquizofrenia, psicoses agudas",
+                                "Receita controle especial",
+                                "Alto risco de efeitos extrapiramidais",
+                                "AntÃ­doto de distonia: biperideno"
+                            ],
+        "receita_obrigatoria":  true,
+        "tipo_receita":  "especial",
+        "retencao_receita":  true,
+        "perguntas_frequentes":  [
+                                     {
+                                         "pergunta":  "Trifluoperazina causa muito tremor e rigidez?",
+                                         "resposta":  "Sim. Por ser antipsicÃ³tico tÃ­pico de alta potÃªncia, tem elevado risco de parkinsonismo medicamentoso (tremor, rigidez, lentidÃ£o). O biperideno Ã© frequentemente prescrito junto para prevenir esses efeitos."
+                                     },
+                                     {
+                                         "pergunta":  "Qual a diferenÃ§a entre trifluoperazina e clorpromazina?",
+                                         "resposta":  "A trifluoperazina Ã© de alta potÃªncia (menor dose, maior efeito D2) com mais efeitos extrapiramidais e menos sedaÃ§Ã£o. A clorpromazina Ã© de baixa potÃªncia, mais sedativa e com mais efeitos cardiovasculares."
+                                     },
+                                     {
+                                         "pergunta":  "O que Ã© acatisia causada por antipsicÃ³ticos?",
+                                         "resposta":  "Ã‰ uma sensaÃ§Ã£o angustiante de inquietaÃ§Ã£o interna, necessidade compulsiva de movimentar-se. Ã‰ um efeito extrapiramidal comum com antipsicÃ³ticos tÃ­picos. Tratada com beta-bloqueadores ou anticolinÃ©rgicos."
+                                     },
+                                     {
+                                         "pergunta":  "Trifluoperazina pode ser usada na ansiedade?",
+                                         "resposta":  "Em doses baixas, jÃ¡ foi usada para ansiedade grave refratÃ¡ria. PorÃ©m, hoje Ã© raramente indicada para isso â€” os riscos dos antipsicÃ³ticos tÃ­picos superam o benefÃ­cio em ansiedade."
+                                     },
+                                     {
+                                         "pergunta":  "Existe substituto mais seguro para trifluoperazina?",
+                                         "resposta":  "Sim. Os antipsicÃ³ticos atÃ­picos (risperidona, quetiapina, olanzapina) tÃªm menor risco de efeitos extrapiramidais e sÃ£o hoje os de primeira escolha na maioria das indicaÃ§Ãµes."
+                                     }
+                                 ],
+        "descricao_seo":  "Trifluoperazina 5mg (Stelazine) Ã© um antipsicÃ³tico tÃ­pico de alta potÃªncia indicado para esquizofrenia e psicoses agudas. Os efeitos colaterais mais relatados sÃ£o: efeitos extrapiramidais (acatisia, distonia, parkinsonismo) e discinesia tardia. Trifluoperazina Ã© controlada (tarja preta) â€” vendida somente com receita de controle especial."
+    },
+    {
+        "nome":  "Maprotilina 25mg - 75mg",
+        "generico":  "Maprotilina",
+        "tipo":  "Antidepressivo tetracÃ­clico â€” Inibidor da recaptaÃ§Ã£o de noradrenalina",
+        "sinonimos":  [
+                          "maprotilina",
+                          "ludiomil",
+                          "maprotilina 25mg",
+                          "maprotilina 75mg"
+                      ],
+        "descricao":  "Antidepressivo tetracÃ­clico que inibe seletivamente a recaptaÃ§Ã£o de noradrenalina com aÃ§Ã£o histaminÃ©rgica (sedativa). Estruturalmente relacionado aos tricÃ­clicos, mas com menor afinidade pelos receptores muscarÃ­nicos. Indicado para depressÃ£o, especialmente com componente ansioso-agitado e insÃ´nia.",
+        "receita":  "Sim",
+        "receita_display":  "ðŸ”´ Receita Simples",
+        "receita_cor":  "vermelho",
+        "receita_descricao":  "Exige prescriÃ§Ã£o mÃ©dica.",
+        "receita_nota":  "Iniciar com 25mg 1-3x/dia. Dose de manutenÃ§Ã£o: 75-150mg/dia. Dose mÃ¡xima: 150mg/dia. O efeito antidepressivo comeÃ§a em 2-4 semanas.",
+        "efeitos":  "SedaÃ§Ã£o intensa (efeito mais pronunciado), boca seca, constipaÃ§Ã£o, tontura, ganho de peso, rebaixamento do limiar convulsivo.",
+        "aviso_grave":  "Risco de convulsÃµes â€” nÃ£o usar em pacientes com histÃ³rico de epilepsia. Risco cardiotÃ³xico similar aos tricÃ­clicos em overdose. SÃ­ndrome serotoninÃ©rgica ao combinar com IMAOs.",
+        "recomendacao":  "âš ï¸ O efeito sedativo intenso pode ser aproveitado na depressÃ£o com insÃ´nia â€” tomar a dose maior Ã  noite. Evitar dirigir nas primeiras semanas. NÃ£o combinar com IMAOs.",
+        "educacao":  "A maprotilina tem mecanismo de aÃ§Ã£o similar aos tricÃ­clicos (TCAs), mas Ã© mais seletiva para noradrenalina. A sedaÃ§Ã£o intensa limita seu uso diurno, mas pode ser benÃ©fica em pacientes com depressÃ£o acompanhada de insÃ´nia grave.",
+        "resposta_rapida":  [
+                                "Antidepressivo tetracÃ­clico",
+                                "DepressÃ£o com ansiedade/insÃ´nia",
+                                "Receita simples",
+                                "SedaÃ§Ã£o intensa",
+                                "NÃ£o combinar com IMAOs"
+                            ],
+        "receita_obrigatoria":  true,
+        "tipo_receita":  "simples",
+        "retencao_receita":  false,
+        "perguntas_frequentes":  [
+                                     {
+                                         "pergunta":  "Maprotilina Ã© melhor que amitriptilina?",
+                                         "resposta":  "TÃªm eficÃ¡cia similar para depressÃ£o. A maprotilina tem menor aÃ§Ã£o anticolinÃ©rgica que a amitriptilina (menos boca seca intensa, retenÃ§Ã£o urinÃ¡ria), mas ambas causam sedaÃ§Ã£o acentuada."
+                                     },
+                                     {
+                                         "pergunta":  "Maprotilina causa convulsÃ£o?",
+                                         "resposta":  "Sim, reduz o limiar convulsivo, especialmente em doses altas. Contraindicada em epilepsia. O risco de convulsÃ£o Ã© maior que com os ISRSs modernos."
+                                     },
+                                     {
+                                         "pergunta":  "Maprotilina faz engordar?",
+                                         "resposta":  "Sim, ganho de peso Ã© um efeito colateral comum, relacionado ao bloqueio de receptores histaminÃ©rgicos H1 (mesmo mecanismo da mirtazapina)."
+                                     },
+                                     {
+                                         "pergunta":  "Quanto tempo leva para a maprotilina fazer efeito?",
+                                         "resposta":  "O efeito antidepressivo completo leva 2-4 semanas. O efeito sedativo comeÃ§a imediatamente, o que pode ser benÃ©fico para a insÃ´nia desde as primeiras doses."
+                                     },
+                                     {
+                                         "pergunta":  "Posso parar maprotilina de repente?",
+                                         "resposta":  "NÃ£o Ã© recomendado. DescontinuaÃ§Ã£o abrupta pode causar sÃ­ndrome de retirada (nÃ¡usea, insÃ´nia, irritabilidade). Reduzir a dose gradualmente com orientaÃ§Ã£o mÃ©dica."
+                                     }
+                                 ],
+        "descricao_seo":  "Maprotilina 25mg - 75mg (Ludiomil) Ã© um antidepressivo tetracÃ­clico indicado para depressÃ£o com componente ansioso e insÃ´nia. Inibe a recaptaÃ§Ã£o de noradrenalina. Os efeitos colaterais mais relatados sÃ£o: sedaÃ§Ã£o intensa, boca seca, constipaÃ§Ã£o e ganho de peso. NÃ£o combinar com IMAOs. Maprotilina Ã© vendida somente com receita mÃ©dica â€” nunca use sem orientaÃ§Ã£o de um profissional de saÃºde."
+    },
+    {
+        "nome":  "Etossuximida 250mg - 500mg",
+        "generico":  "Etossuximida",
+        "tipo":  "Anticonvulsivante â€” Inibidor de canais de cÃ¡lcio T",
+        "sinonimos":  [
+                          "etossuximida",
+                          "zarontin",
+                          "ethosuximide",
+                          "etossuximida 250mg",
+                          "etossuximida 500mg"
+                      ],
+        "descricao":  "Anticonvulsivante Ãºnico em seu mecanismo: inibe canais de cÃ¡lcio do tipo T (T-type calcium channels) no tÃ¡lamo, reduzindo as descargas tÃ¡lamo-corticais responsÃ¡veis pelas crises de ausÃªncia. Ã‰ a droga de primeira escolha para epilepsia de ausÃªncia (petit mal) tÃ­pica na infÃ¢ncia, sem efeito em outros tipos de crise.",
+        "receita":  "Sim",
+        "receita_display":  "ðŸ”´ Receita Simples",
+        "receita_cor":  "vermelho",
+        "receita_descricao":  "Exige prescriÃ§Ã£o mÃ©dica.",
+        "receita_nota":  "CrianÃ§as \u003c6 anos: 250mg/dia inicialmente. CrianÃ§as \u003e6 anos e adultos: 500mg/dia, aumentando 250mg a cada 4-7 dias. Dose mÃ¡xima: 1,5g/dia.",
+        "efeitos":  "NÃ¡usea, vÃ´mito, anorexia, dor abdominal, sonolÃªncia, cefaleia, irritabilidade. Efeitos GI sÃ£o comuns no inÃ­cio.",
+        "aviso_grave":  "Discrasias sanguÃ­neas raras mas graves (aplasia medular, agranulocitose) â€” monitorar hemograma. SÃ­ndrome de Stevens-Johnson rara. NÃ£o eficaz para crises tÃ´nico-clÃ´nicas â€” se houver combinaÃ§Ã£o de tipos de crise, associar outro anticonvulsivante.",
+        "recomendacao":  "âš ï¸ A etossuximida Ã© seletiva para crises de ausÃªncia â€” nÃ£o protege contra outras formas de epilepsia. Monitorar hemograma periodicamente.",
+        "educacao":  "A epilepsia de ausÃªncia Ã© caracterizada por breves episÃ³dios de \u0027desligamento\u0027 (5-30 segundos) sem queda, com inÃ­cio e fim abruptos. A etossuximida, valproato e lamotrigina sÃ£o as principais opÃ§Ãµes terapÃªuticas para esse tipo especÃ­fico de crise.",
+        "resposta_rapida":  [
+                                "Anticonvulsivante para ausÃªncia (petit mal)",
+                                "Epilepsia de ausÃªncia tÃ­pica",
+                                "Receita simples",
+                                "NÃ£o protege contra outras crises",
+                                "Monitorar hemograma"
+                            ],
+        "receita_obrigatoria":  true,
+        "tipo_receita":  "simples",
+        "retencao_receita":  false,
+        "perguntas_frequentes":  [
+                                     {
+                                         "pergunta":  "Etossuximida serve para qual tipo de epilepsia?",
+                                         "resposta":  "Exclusivamente para epilepsia de ausÃªncia (petit mal) tÃ­pica â€” episÃ³dios breves de \u0027desligamento\u0027 com olhar vago. NÃ£o tem efeito em crises tÃ´nico-clÃ´nicas, mioclÃ´nicas ou focais."
+                                     },
+                                     {
+                                         "pergunta":  "Etossuximida ou valproato: qual Ã© melhor para ausÃªncia?",
+                                         "resposta":  "Estudos mostram que etossuximida e valproato tÃªm eficÃ¡cia similar para ausÃªncia pura. A etossuximida tem menos efeitos cognitivos, sendo preferida em crianÃ§as sem outros tipos de crise."
+                                     },
+                                     {
+                                         "pergunta":  "A etossuximida pode ser tomada com alimentos?",
+                                         "resposta":  "Sim e Ã© recomendado. Tomar com alimentos reduz significativamente a nÃ¡usea e desconforto gastrointestinal, especialmente nas primeiras semanas."
+                                     },
+                                     {
+                                         "pergunta":  "Por que monitorar o hemograma com etossuximida?",
+                                         "resposta":  "Discrasias sanguÃ­neas (aplasia medular, agranulocitose) sÃ£o efeitos adversos raros mas graves. Monitoramento periÃ³dico do hemograma Ã© recomendado durante o tratamento."
+                                     },
+                                     {
+                                         "pergunta":  "CrianÃ§as podem tomar etossuximida?",
+                                         "resposta":  "Sim, Ã© especialmente indicada para crianÃ§as com epilepsia de ausÃªncia. A dosagem Ã© ajustada pelo peso e as doses sÃ£o iniciadas baixas e aumentadas gradualmente."
+                                     }
+                                 ],
+        "descricao_seo":  "Etossuximida 250mg - 500mg (Zarontin) Ã© o anticonvulsivante de primeira escolha para epilepsia de ausÃªncia (petit mal) tÃ­pica na infÃ¢ncia. Age inibindo canais de cÃ¡lcio tipo T. Os efeitos colaterais mais relatados sÃ£o: nÃ¡usea, vÃ´mito, anorexia e sonolÃªncia. NÃ£o Ã© eficaz para outros tipos de crise epilÃ©ptica. Etossuximida Ã© vendida somente com receita mÃ©dica."
+    }
 ]
