@@ -609,7 +609,7 @@
   force = true
 
 [build]
-  publish = "."
+  publish = "dist"
   command = ""
 
 [[headers]]
