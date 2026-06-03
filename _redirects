@@ -1,3 +1,5 @@
+/medicamento/:slug/  /medicamento/:slug/index.html  200
+
 /medicamentos/acarbose/ /medicamento/acarbose/ 301!
 /medicamentos/acarbose-50mg-100mg/ /medicamento/acarbose/ 301!
 /medicamentos/aceclofenaco/ /medicamento/aceclofenaco-100mg/ 301!
