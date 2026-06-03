@@ -609,7 +609,7 @@
   force = true
 
 [build]
-  publish = "dist"
+  publish = "."
   command = ""
 
 [[headers]]
@@ -635,3 +635,8 @@
   for = "/lote*.json"
   [headers.values]
     X-Robots-Tag = "noindex"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
