@@ -1679,4 +1679,298 @@ border-radius:0 0 20px 20px;
         .premium-logado-hero h2 { font-size: 26px; font-weight: 800; margin-bottom: 8px; }
         .premium-login-aviso { background: #f8f4ff; border: 2px solid #c5b3f7; border-radius: 12px; padding: 20px; text-align: center; margin-bottom: 20px; }
         .premium-login-aviso p { color: #4a3580; font-size: 15px; margin-bottom: 14px; }
-    
+
+
+/* ============================================================
+   PÁGINAS INDIVIDUAIS DE MEDICAMENTO — classes med-*
+   ============================================================ */
+
+/* Navegação de volta */
+.med-back {
+    display: block;
+    color: #667eea;
+    font-size: 14px;
+    padding: 12px 20px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: opacity 0.2s;
+}
+.med-back:hover { opacity: 0.8; }
+
+/* Subtítulo do medicamento no header */
+.med-tipo {
+    font-size: 16px;
+    color: rgba(255,255,255,0.9);
+    margin-top: 8px;
+    display: block;
+}
+
+/* Títulos de seção */
+.med-section-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #333;
+    margin-top: 28px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 2px solid #667eea;
+    padding-bottom: 8px;
+}
+
+.med-section-content {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 16px;
+}
+
+/* Resposta rápida */
+.med-rr {
+    background: #e8f4fd;
+    border: 2px solid #2196F3;
+    border-radius: 12px;
+    padding: 16px 20px;
+    margin: 16px 0;
+}
+
+.med-rr-label {
+    font-weight: 700;
+    color: #1565C0;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.med-rr-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.med-rr-chip {
+    background: white;
+    border: 1px solid #90CAF9;
+    border-radius: 20px;
+    padding: 5px 13px;
+    font-size: 13px;
+    color: #1565C0;
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+/* Avisos e recomendações */
+.med-aviso {
+    background: #ffe6e6;
+    border-left: 6px solid #dc3545;
+    border-radius: 8px;
+    padding: 16px 20px;
+    margin: 16px 0;
+    color: #721c24;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+.med-recomendacao {
+    background: #fff3cd;
+    border-left: 6px solid #ffc107;
+    border-radius: 8px;
+    padding: 16px 20px;
+    margin: 16px 0;
+    color: #856404;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+.med-educacao {
+    background: #d4edda;
+    border-left: 6px solid #28a745;
+    border-radius: 8px;
+    padding: 16px 20px;
+    margin: 16px 0;
+    color: #155724;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+/* Receita */
+.med-receita-badge {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 15px;
+    margin-bottom: 8px;
+}
+
+.med-receita-box {
+    border-radius: 8px;
+    padding: 12px 16px;
+    font-size: 14px;
+    line-height: 1.7;
+    margin-top: 6px;
+}
+
+/* Interações medicamentosas */
+.med-inter-intro {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.7;
+    margin-bottom: 12px;
+    font-style: italic;
+}
+
+.med-inter-list {
+    margin-top: 12px;
+}
+
+.med-inter-card {
+    border: 1px solid #eee;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    overflow: hidden;
+}
+
+.med-inter-card summary {
+    padding: 12px 14px;
+    font-weight: 700;
+    font-size: 14px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    list-style: none;
+}
+.med-inter-card summary::-webkit-details-marker { display: none; }
+
+.med-inter-card.nivel-alto summary   { background: #fde8e8; color: #c0392b; border-left: 5px solid #c0392b; }
+.med-inter-card.nivel-moderado summary { background: #fef3e2; color: #e8751a; border-left: 5px solid #e8751a; }
+.med-inter-card.nivel-baixo summary  { background: #e8f8f0; color: #27ae60; border-left: 5px solid #27ae60; }
+
+.med-inter-badge {
+    display: inline-block;
+    padding: 2px 10px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: 700;
+    flex-shrink: 0;
+}
+
+.badge-alto     { background: #fde8e8; color: #c0392b; border: 1px solid #c0392b; }
+.badge-moderado { background: #fef3e2; color: #e8751a; border: 1px solid #e8751a; }
+.badge-baixo    { background: #e8f8f0; color: #27ae60; border: 1px solid #27ae60; }
+
+.med-inter-body {
+    padding: 12px 14px;
+    font-size: 13px;
+    color: #444;
+    line-height: 1.8;
+    background: #fafafa;
+    border-top: 1px solid #eee;
+}
+
+.med-inter-com {
+    margin-bottom: 8px;
+    font-size: 13px;
+    color: #555;
+}
+
+.med-inter-efeito {
+    margin-bottom: 8px;
+    font-size: 13px;
+    color: #444;
+    line-height: 1.7;
+}
+
+.med-inter-conduta {
+    background: #f0f7ff;
+    border-radius: 6px;
+    padding: 8px 12px;
+    font-size: 13px;
+    color: #1a5276;
+    line-height: 1.7;
+    margin-top: 4px;
+}
+
+/* Genérico / princípio ativo */
+.med-generico-box {
+    background: #d4edda;
+    border-left: 6px solid #28a745;
+    border-radius: 8px;
+    padding: 14px 18px;
+    margin: 16px 0;
+    color: #155724;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+/* FAQ */
+.med-faq {
+    margin-top: 8px;
+}
+
+.med-faq details {
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    margin-bottom: 8px;
+    overflow: hidden;
+}
+
+.med-faq details summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 18px;
+    font-weight: 700;
+    font-size: 15px;
+    color: #333;
+    background: #f8f9ff;
+    cursor: pointer;
+    list-style: none;
+}
+.med-faq details summary::-webkit-details-marker { display: none; }
+.med-faq details[open] summary { background: #eef0fb; color: #667eea; }
+
+.faq-resp {
+    padding: 14px 18px;
+    font-size: 15px;
+    color: #555;
+    line-height: 1.7;
+    background: white;
+    border-top: 1px solid #eee;
+}
+
+/* Disclaimer e rodapé */
+.med-disclaimer {
+    background: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 14px 18px;
+    font-size: 13px;
+    color: #555;
+    line-height: 1.7;
+    margin-top: 24px;
+}
+
+.med-crf {
+    text-align: center;
+    padding: 14px;
+    font-size: 13px;
+    color: #888;
+    margin-top: 8px;
+    line-height: 1.7;
+}
+
+/* Botão voltar ao home */
+.med-btn-home {
+    display: block;
+    text-align: center;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    padding: 14px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 15px;
+    margin: 20px 0;
+    transition: opacity 0.2s;
+}
+.med-btn-home:hover { opacity: 0.9; }
