@@ -1686,9 +1686,16 @@ border-radius:0 0 20px 20px;
    ============================================================ */
 
 /* Navegação de volta */
+.med-header {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 40px 30px;
+    text-align: center;
+}
+
 .med-back {
     display: block;
-    color: #667eea;
+    color: rgba(255,255,255,0.9);
     font-size: 14px;
     padding: 12px 20px;
     text-decoration: none;
