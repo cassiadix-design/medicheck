@@ -4924,7 +4924,7 @@ window.addEventListener('DOMContentLoaded', () => {
             // Build resposta_rapida block
             let rrHtml = '';
             if (medicine.resposta_rapida && medicine.resposta_rapida.length > 0) {
-                const rrItems = medicine.resposta_rapida.map(item => `<span class="rr-item">✔ ${item}</span>`).join('');
+                const rrItems = medicine.resposta_rapida.map(item => { const t = typeof item === 'string' ? item : (item.texto || item.label || item.valor || ''); return `<span class="rr-item">✔ ${t}</span>`; }).join('');
                 rrHtml = `<div class="resposta-rapida"><div class="rr-label">⚡ Resposta Rápida</div><div class="rr-items">${rrItems}</div></div>`;
             }
 
