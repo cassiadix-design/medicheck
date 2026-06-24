@@ -4799,6 +4799,7 @@ window.addEventListener('DOMContentLoaded', () => {
         .then(data => {
             curiosidadesData = data;
             curiosidadesFiltradas = [...curiosidadesData];
+        renderCuriosidades();
         })
         .catch(err => {
             console.error('Erro ao carregar curiosidades:', err);
