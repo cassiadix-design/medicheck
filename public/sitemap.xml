@@ -1,3548 +1,3542 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://medicheck.med.br/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>1.0</priority>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/curiosidades/</loc>
-    <lastmod>2026-05-28</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.8</priority>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/lista-beers/</loc>
-    <lastmod>2026-05-28</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/sobre/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/contato/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/politica-de-privacidade/</loc>
-    <lastmod>2026-05-27</lastmod>
-    <priority>0.5</priority>
-    <changefreq>yearly</changefreq>
-  </url>
-  <url>
-    <loc>https://medicheck.med.br/termos-de-uso/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.5</priority>
     <changefreq>yearly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/aceclofenaco-100mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/acetazolamida-250mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/acetilcisteina-100mg-200mg-600mg-injetavel/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/aciclovir-200mg-400mg-creme/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/acido-ascorbico-5-20/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/acido-folico-5mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/acido-hialuronico-serum/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/acido-mefenamico-ponstan-anti-inflamatorio/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/acido-salicilico-2/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/acido-tranexamico-500mg-1000mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/acitretina-10mg-25mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/adalimumabe-humira-imunobiologico-anti-tnf/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/adapaleno-01-03-gel/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/agomelatina-25mg-50mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/agua-inglesa/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/albendazol-400mg-suspensao-e-comprimido-mastigavel/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/albumina-humana-20-25-solucao-injetavel/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/alcool-etilico-70/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/alendronato-70mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/allegra-d-fexofenadina-60mg-pseudoefedrina-120mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/alogliptina-metformina-nesina-met/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/alogliptina-625mg-125mg-25mg-nesina/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/alopurinol-100mg-300mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/alprazolam-025mg-05mg-10mg-20mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/amantadina-100mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/ambroxol-15mg5ml-30mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/amiodarona-100mg-200mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/amitriptilina-10mg-e-25mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/amoxicilina-clavulanato-500mg125mg-875mg125mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/amoxicilina-sulbactam-875mg125mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/amoxicilina-250mg-500mg-suspensao/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/anastrozol-arimidex-tratamento-do-cancer-de-mama/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/anfotericina-b/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/anlodipino-atorvastatina-5mg10mg-10mg20mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/anlodipino-hidroclorotiazida/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/anlodipino-5mg-10mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/anticoncepcional-combinado-yasmin-diane-35-selene/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/aripiprazol-10mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/aspirina-500mg-acido-acetilsalicilico-500mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/atenolol-25mg-50mg-100mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/atomoxetina-10mg-18mg-25mg-40mg-60mg-80mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/atorvastatina-ezetimiba-atozet-liptruzet/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/atorvastatina-10mg-20mg-40mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/azatioprina-50mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/azitromicina-500mg-10g-suspensao-600mg-900mg-1500mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/baclofen-10mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/balsamo-branco/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/baricitinibe-olumiant/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/beclometasona-spray-nasal/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/benalet-pastilha-para-garganta/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/benzidamina-015-spray-e-colutorio-tantum-verde-benflogin/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/benzilpenicilina-benzetacil-600000ui-1200000ui/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/benzoila-peroxida/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/betaistina-8mg-16mg-24mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/betametasona-topica/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/biotina-vitamina-b7/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/biperideno-2mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/bisacodil-5mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/bismuto-subcitrato-de-bismuto/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/bisoprolol-hidroclorotiazida-5mg625mg-10mg625mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/bisoprolol-25mg-5mg-10mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/brivaracetam-10mg-25mg-50mg-75mg-100mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/bromazepam-3mg-e-6mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/brometo-de-escopolamina-hioscina-10mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/brometo-de-ipratropio/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/bromexina-4mg-8mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/bromocriptina-25mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/bromoprida-10mg-gotas/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/budesonida-32mcgdose-64mcgdose-spray-nasal/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/buprenorfina-adesivo-transdermico-norspan/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/bupropiona-150mg-300mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/buscopan-butilbrometo-de-escopolamina-10mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/buspirona-5mg-10mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/butilbrometo-de-escopolamina-dipirona-buscopan-composto/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/cabergolina-05mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/cafeina/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/calcio-vitamina-d/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/calcitriol-025mcg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/canagliflozina-100mg-300mg-invokana/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/candesartana-8mg-16mg-32mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/cannabis-medicinal-cbd-thc/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/captopril-125mg-25mg-50mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/carbamazepina-200mg-400mg-suspensao/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/carbidopalevodopa-25100mg-25250mg-50200mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/carbocisteina-250mg-375mg-xarope-e-capsulas/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/cariprazina-reagila/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/carisoprodol-325mg-350mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/carnitina-500mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/carvedilol-3125mg-625mg-125mg-25mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/cefadroxila-500mg-1g/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/cefalexina-500mg-10g-suspensao/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/cefpodoxima-100mg-200mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/ceftriaxona-250mg-500mg-10g-injetavel/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/cefuroxima-250mg-500mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/celecoxibe-100mg-200mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/cetirizina-10mg-e-xarope/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/cetoconazol-shampoo-200mg-e-creme/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/cetoprofeno-50mg-100mg-150mg-injetavel-25-gel/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/ciclobenzaprina-5mg-10mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/ciprofloxacino-250mg-500mg-750mg-injetavel-e-colirio-oftalmico/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/citalopram-20mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/claritromicina-250mg-500mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/clindamicina-150mg-300mg-injetavel/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/clomifeno-50mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/clomipramina-10mg-25mg-75mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/clonazepam-solucao-oral-25mgml-05mg-e-2mg-025mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/clonidina-01mg-02mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/clopidogrel-75mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/clordiazepoxido-5mg-25mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/cloreto-de-sodio-09-nasal-solucao-fisiologica-neosoro/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/cloreto-de-sodio-09-spray-nasal-sorine-soro-fisiologico-nasal/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/cloreto-de-sodio-3-spray-nasal-hipertonico-rhinosoro/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/clorexidina-012/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/cloroquina-250mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/clorpromazina-25mg-100mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/clotrimazol-1-creme-solucao/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/clozapina-25mg-100mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/cobre-gluconato-ou-bisglicinato-de-cobre/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/codeina-30mg-60mg-xarope-e-injetavel/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/coenzima-q10-100mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/colagenase-cloranfenicol-pomada/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/colagenase-pomada/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/colageno-hidrolisado/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/colchicina-05mg-1mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/colesevelam-625mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/colestipol-10g/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/colestiramina-4g-sache/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/complexo-b-b1b2b3b5b6b7b9b12/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/condroitina-glucosamina/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/curcumina-curcuma/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/dabigatrana-75mg-110mg-150mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/dapagliflozina-metformina-xigduo/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/dapagliflozina-10mg-forxiga/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/denosumabe-60mg-120mg-injetavel/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/depakote-sprinkle-125mg-liberacao-enterica/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/desloratadina-5mg-xarope/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/desmopressina-ddavp/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/desogestrel-75mcg-cerazette-minipilula/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/dexametasona-05mg-40mg-xarope-injetavel/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/dexclorfeniramina-betametasona-celestamine/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/diazepam-comprimido-5mg-10-mg-injetavel/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/diclofenaco-50mg-75mg-100mg-injetavel/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/diclofenaco-de-colestiramina-voltaren-suave/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/diclofenaco-potassico-cataflam/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/diclofenaco-sodico-voltaren/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/digoxina-comprimido-025-mg-solucao/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/diltiazem-30mg-60mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/dimenidrinato-50mg-dramin/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/dipirona-comprimido-500-mg-10-g-gotas-xarope-injetavel/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/dissulfiram-250mg-500mg-descontinuado/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/domperidona-10mg-suspensao/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/donepezila-5mg-10mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/dorflex-dipirona-orfenadrina-cafeina/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/doxiciclina-100mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/droperidol-25mg-injetavel/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/dulaglutida-trulicity/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/duloxetina-60mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/dupilumabe-dupixent/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/dutasterida-05mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/efavirenz-200mg-600mg-solucao/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/elixir-de-inhame/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/elixir-paregorico/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/empagliflozina-10mg-25mg-jardiance/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/enalapril-5mg-10mg-20mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/enoxaparina-20mg-40mg-60mg-80mg-100mg-injetavel/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/eritromicina-topica-2/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/eritropoetina-alfa-epoetina-alfa-2000ui-4000ui-10000ui/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/escitalopram-10mg-15mg-20mg-gotas/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/esomeprazol-20mg-40mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/espironolactona-hidroclorotiazida-25mg25mg-50mg50mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/espironolactona-25mg-50mg-100mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/estradiol-gel-topico-transdermico/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/etambutol-400mg-solucao-oral/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/etoricoxibe-30mg-60mg-90mg-120mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/etossuximida-250mg-500mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/exenatida-byetta-bydureon/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/ezetimiba-10mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/famotidina-20mg-40mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/febuxostate-40mg-80mg-120mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/febuxostato-40mg-80mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/fenitoina-100mg-injetavel/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/fenofibrato-145mg-200mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/fenoterol-01mgdose-spray-5mgml-solucao/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/fentanila-adesivo-12mcgh-25mcgh-50mcgh-100mcgh/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/fentolamina-40mg-injetavel/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/ferro-injetavel-sacarato-de-hidroxido-ferrico/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/ferro-quelato-bisglicinato/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/ferro-sacarato-sacarato-de-hidroxido-ferrico-100mg-injetavel/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/fesoterodina-4mg-8mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/finasterida-1mg-5mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/fluconazol-50mg-100mg-150mg-200mg-suspensao-injetavel/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/fluoxetina-20mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/formoterol-budesonida-6mcg200mcg-12mcg400mcg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/formoterol-propionato-de-fluticasona-lugano/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/formoterol-isolado-12mcg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/fosfomicina-3g-granulado-para-solucao-oral/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/furoato-de-mometasona-50mcgdose-spray-nasal/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/furosemida-40mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/gabapentina-300mg-400mg-600mg-800mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/galantamina-8mg-16mg-24mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/ganciclovir-500mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/glibenclamida-5mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/glicazida-30mg-60mg-80mg-mr/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/glicopirronio-seebri/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/griseofulvina-125mg-500mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/haloperidol-1mg-5mg-gotas-injetavel/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/heparina-injetavel/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/hidralazina-25mg-50mg-injetavel/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/hidroclorotiazida-125mg-25mg-50mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/hidrocortisona-injetavel-pomada/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/hidroquinona-2-4-creme/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/hidroxicloroquina-400mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/hidroxido-de-aluminio/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/hidroxido-de-magnesio-hidroxido-de-aluminio-leite-de-magnesia/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/hidroxizina-10mg-25mg-50mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/ibandronato-bonviva/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/ibuprofeno-200mg-400mg-600mg-gotas/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/imipramina-10mg-25mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/imunoglobulina-humana/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/indacaterol-onbrez/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/indapamida-15mg-25mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/indometacina-indocid-anti-inflamatorio/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/infliximabe-100mg-injetavel/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/insulina-asparte-100uiml-novorapid/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/insulina-detemir-levemir/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/insulina-glargina-100uiml-lantus-basaglar/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/insulina-lispro-100uiml-humalog/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/insulina-nph-100uml/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/insulina-regular-100uml/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/iodo-iodeto-de-potassio/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/irbesartana-150mg-300mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/isoniazida-300mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/isossorbida-5mg-10mg-20mg-40mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/isotretinoina-10mg-20mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/itraconazol-100mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/ivabradina-5mg-75mg-procoralan/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/ivermectina-6mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/ivermectina-topica-1-soolantra-rosacea/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/lacosamida-50mg-100mg-150mg-200mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/lactulose-667mgml-xarope/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/lamotrigina-25mg-50mg-100mg-150mg-200mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/lansoprazol-15mg-30mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/leflunomida-10mg-20mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/levamisol-80mg-150mg-descontinuado/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/levetiracetam-250mg-500mg-750mg-1000mg-solucao-oral/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/levocetirizina-xyzal-zyrtec-l-antialergico/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/levofloxacina-500mg-750mg-injetavel/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/levonorgestrel-diu-mirena-kyleena/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/levotiroxina-25mcg-50mcg-75mcg-100mcg-125mcg-150mcg-puran-t4/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/lidocaina-gel-2/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/linagliptina-5mg-trayenta/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/linezolida-400mg-600mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/lisador-dipirona-adifenina-prometazina/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/lisdexanfetamina-20mg-30mg-50mg-70mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/lisinopril-5mg-10mg-20mg-30mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/litio-carbonato-300mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/loperamida-2mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/lopinavirritonavir-200mg50mg-comprimido-solucao-oral/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/loratadina-pseudoefedrina/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/loratadina-10mg-xarope/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/lorazepam-1mg-2mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/losartana-50mg-100mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/lurasidona-latuda/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/magnesio-quelato-dimalato-150mg-300mg-400mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/magnesio-treonato-magtein/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/maprotilina-25mg-75mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/mebendazol-100mg-suspensao/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/meclizina-25mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/medroxiprogesterona-injetavel-depo-provera/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/meloxicam-75mg-15mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/memantina-10mg-20mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/mesalazina-mesalamina-400mg-800mg-1g/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/metformina-500mg-850mg-1000mg-xr-liberacao-prolongada/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/metildopa-250mg-500mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/metilfenidato-ritalina-concerta/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/metilprednisolona-depo-medrol-solu-medrol-medrol-corticosteroide/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/metocarbamol-750mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/metoclopramida-10mg-gotas-injetavel/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/metoprolol-25mg-50mg-100mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/metotrexato-25mg-75mg-10mg-15mg-25mg-injetavel/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/metronidazol-250mg-400mg-500mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/miconazol-creme-po-gel-oral/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/midazolam-5mgml-15mg-comprimido/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/minociclina-50mg-100mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/minoxidil-2-5-solucao-topica-espuma/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/mirabegrona-25mg-50mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/mirtazapina-15mg-30mg-45mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/misoprostol-25mcg-200mcg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/montelucaste-4mg-5mg-10mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/morfina-10mg-30mg-10mgml-injetavel/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/mounjaro-tirzepatida/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/moxifloxacino-400mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/mupirocina-2-pomada/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/nac-600mg-n-acetilcisteina/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/naloxona-narcan/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/naltrexona-50mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/naproxeno-250mg-500mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/naratriptana-25mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/nebivolol-5mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/neo-angin-pastilha-para-garganta/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/neomicina-pomada/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/neosaldina-dipirona-cafeina-isometepteno/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/neozine-levomepromazina-gotas-25mg-100mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/neuleptil-periciazina-1-4-gotas-10mg-comprimido/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/nifedipina-10mg-20mg-30mg-retard-liberacao-prolongada/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/nimesulida-ciclobenzaprina-nivux/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/nimesulida-100mg-suspensao/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/nitazoxanida-500mg-suspensao/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/nitrazepam-5mg-10mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/nitroglicerina-trinitrato-de-glicerina-spray-04mgdose/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/nortriptilina-10mg-25mg-50mg-75mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/novalgina-dipirona-sodica/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/olanzapina-25mg-5mg-10mg-15mg-20mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/olmesartana-20mg-40mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/omega-3-concentrado-epa-dha/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/omega-3-epadha-1g/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/omeprazol-10mg-20mg-40mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/ondansetrom-4mg-8mg-injetavel/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/ondansetrona-odt-4mg-8mg-zofran/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/oseltamivir-75mg-suspensao/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/oxazepam-15mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/oxcarbazepina-300mg-600mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/oxibutinina-5mg-10mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/oximetazolina-005-spray-nasal-afrin/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/paliperidona-3mg-6mg-9mg-12mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/pantoprazol-20mg-40mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/paracetamol-fenilefrina-clorfeniramina-resfenol-coristina-d-naldecon/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/paracetamol-maleato-de-clorfeniramina-fenilefrina-benegrip/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/paracetamol-pseudoefedrina-tylenol-sinus/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/paracetamol-500mg-750mg-gotas-xarope/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/paroxetina-10mg-20mg-40mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/perampanel-2mg-4mg-6mg-8mg-10mg-12mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/perindopril-coversyl-acertil-anti-hipertensivo/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/permetrina-1-5-locao-creme/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/peroxido-de-benzoila-25-5-10-gel/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/peroxido-de-hidrogenio-3-agua-oxigenada/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/picolinato-de-cromo/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/pimecrolimo-1-creme/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/pioglitazona-15mg-30mg-45mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/pirazinamida-500mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/polietilenoglicol-movicol-muvinlax/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/pramipexol-0125mg-025mg-1mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/prednisolona-5mg-20mg-40mg-comprimido/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/prednisona-5mg-20mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/pregabalina-25mg-50mg-75mg-150mg-300mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/progesterona-micronizada-100mg-200mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/prometazina-25mg-creme-xarope-injetavel/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/propafenona-rytmonorm-antiarritmico/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/propionato-de-clobetasol-005-creme-pomada-solucao-capilar/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/propranolol-10mg-40mg-80mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/quetiapina-25mg-50mg-100mg-200mg-300mg-xr-liberacao-prolongada/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/rabeprazol-10mg-20mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/raloxifeno-evista/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/ramipril-25mg-5mg-10mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/ranitidina-150mg-300mg-solucao-injetavel/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/ranolazina-500mg-1000mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/rasagilina-1mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/repaglinida-05mg-1mg-2mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/resveratrol/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/ribavirina-200mg-250mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/rifamicina-spray/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/rifampicina-300mg-capsula-suspensao/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/rifaximina-200mg-550mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/risedronato-actonel-osteoporose/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/risperidona-05mg-1mg-2mg-3mg-4mg-solucao-oral/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/rivaroxabana-10mg-15mg-20mg-xarelto/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/rivastigmina-15mg-3mg-45mg-6mg-adesivo/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/rizatriptana-5mg-10mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/roflumilaste-daxas/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/rosuvastatina-5mg-10mg-20mg-40mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/rybelsus-3mg-7mg-14mg-semaglutida-oral/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/saccharomyces-boulardii-floratil/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/sacubitril-valsartana-entresto/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/salbutamol-spray-inalatorio-solucao-para-nebulizacao/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/salmeterol-fluticasona-25mcg125mcg-50mcg250mcg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/saxagliptina-25mg-5mg-onglyza/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/saxenda-liraglutida-6mgml/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/secnidazol-1g-2g-suspensao/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/selenio-55mcg-200mcg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/semaglutida-025mg-05mg-1mg-24mg-ozempic-wegovy-poviztra-extensior/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/sertralina-25mg-50mg-75mg-100mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/sibutramina-10mg-15mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/sildenafila-25mg-50mg-100mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/silodosina-4mg-8mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/sinvastatina-10mg-20mg-40mg-80mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/sitagliptina-100mg-januvia/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/solifenacina-5mg-10mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/strepsils-pastilha-para-garganta/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/sucralfato-1g-suspensao/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/sulfadiazina-de-prata-1-creme/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/sulfametoxazol-trimetoprima-400mg80mg-800mg160mg-suspensao/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/sulfassalazina-500mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/sulfato-ferroso-40mg-300mg-gotas-xarope-injetavel/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/sulpirida-50mg-200mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/sumatriptana-50mg-100mg-6mg05ml-injetavel/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/tacrolimo-003-01-pomada/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/tadalafila-5mg-10mg-20mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/tansulosina-04mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/tapentadol-50mg-100mg-150mg-200mg-250mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/telmisartana-40mg-80mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/tenofovir-300mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/tenoxicam-20mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/teofilina-100mg-200mg-300mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/terbinafina-250mg-creme/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/teriparatida-forteo/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/testosterona/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/tibolona-25mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/timolol-timoftol-blocadren-colirio-para-glaucoma/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/tinidazol-fasigyn-amentyl-antiprotozoario-antibacteriano/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/tiotropio-18mcg-inalador/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/tofacitinibe-xeljanz/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/topiramato-25mg-50mg-100mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/torasemida-5mg-20mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/toxina-botulinica-botox/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/tramadol-50mg-100mg-gotas-injetavel/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/trazodona-50mg-100mg-150mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/tretinoina-0025-005-01-creme/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/trifluoperazina-5mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/trimebutina-100mg-200mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/trimetazidina-20mg-35mg-mr/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/tropinal-homatropina-hiosciamina-hioscina-dipirona/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/umeclidinio-incruse/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/valproato-de-sodio-250mg-500mg-solucao-oral/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/valproato-de-sodio-lp-250mg-500mg-liberacao-prolongada/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/valsartana-80mg-160mg-320mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/vancomicina-500mg-1g-injetavel/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/vareniclina-champix-descontinuado/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/venlafaxina-375mg-75mg-150mg-xr-liberacao-prolongada/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/verapamil-80mg-120mg-240mg-injetavel/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/vildagliptina-metformina-galvus-met/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/vildagliptina-50mg-galvus/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/vitamina-b1-tiamina-100mg-300mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/vitamina-b12-500mcg-1000mcg-injetavel/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/vitamina-d3-1000ui-2000ui-5000ui-7000ui-10000ui-gotas/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/vitamina-d3-50000ui-capsula-semanal/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/vitamina-e-tocoferol/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/vitamina-k2-mk-7/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/voriconazol-200mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/warfarina-varfarina-1mg-25mg-5mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/zafirlucaste-20mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/zinco-7mg-20mg-40mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/ziprasidona-20mg-40mg-60mg-80mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/zolendronato-acido-zoledronico-4mg-5mg-injetavel/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/zolpidem-5mg-10mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/zonisamida-25mg-50mg-100mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/zopiclona-375mg-75mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/clobutinol-hytos-plus/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/leucogen-timomodulina/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/ciclosporina/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/propiltiouracil-ptu/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/metimazol-tapazol/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/fluvoxamina/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/oxicodona/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/valaciclovir/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/tamoxifeno/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/letrozol/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/gliclazida/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/glimepirida/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/acarbose/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/nitrofurantoina-100mg-100mg-macrocristal/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/norfloxacino/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/apixabana/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/fenobarbital/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/clobazam/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/melatonina/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/buspirona/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/nortriptilina/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/fexofenadina/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/dexclorfeniramina/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/nistatina/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/simeticona/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/carbonato-de-calcio/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/isossorbida-mononitrato/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/acenocumarol-1mg-4mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/cilostazol-50mg-100mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/dalteparina-2500-5000-10000-ui/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/dipiridamol-25mg-75mg-100mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/edoxabana-15mg-30mg-60mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/fondaparinux-15mg-25mg-5mg-75mg-10mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/nadroparina-2850-3800-5700-7600-9500-ui/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/prasugrel-5mg-10mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/ticagrelor-60mg-90mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/moclobemida-150mg-300mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/fenelzina-15mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/flufenazina-1mg-5mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/isocarboxazida-10mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/dextrometorfano-15mg5ml-xarope/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/modafinil-100mg-200mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/pimozida-1mg-4mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/selegilina-5mg-10mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/tioridazina-25mg-100mg-descontinuada/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/tolterodina-2mg-4mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/tranilcipromina-10mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/triazolam-0125mg-025mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/tizanidina-2mg-4mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/mesoridazina-10mg-50mg-descontinuada/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/felodipino-25mg-5mg-10mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/nifedipino-10mg-20mg-30mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/nimodipino-30mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/nisoldipino-5mg-10mg-20mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/dronedarona-400mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/sotalol-80mg-160mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/clortalidona-125mg-25mg-50mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/atazanavir-150mg-200mg-300mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/darunavir-400mg-600mg-800mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/indinavir-200mg-400mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/nelfinavir-250mg-625mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/saquinavir-500mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/nevirapina-200mg-400mg-xr/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/rilpivirina-25mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/metadona-5mg-10mg-40mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/ketoconazol-200mg-creme-2-shampoo-2/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/posaconazol-100mg-40mgml-suspensao/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/levofloxacino-250mg-500mg-750mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/naproxeno-250mg-500mg-550mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/sirolimo-05mg-1mg-2mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/everolimo-025mg-05mg-075mg-25mg-5mg-10mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/cimetidina-200mg-400mg-800mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/flecainida-50mg-100mg-150mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/quinidina-200mg-300mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/procainamida-250mg-500mg-injetavel-100mgml/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/almotriptana-125mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/eletriptana-20mg-40mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/zolmitriptana-25mg-5mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/imatinibe-100mg-400mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/erlotinibe-25mg-100mg-150mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/lapatinibe-250mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/gefitinibe-250mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/lenalidomida-25mg-5mg-10mg-15mg-25mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/piroxicam-10mg-20mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/acebrofilina-acebrox-xantina-mucolitico/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/ozempic-wegovy-semaglutida-injetavel/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/mabthera-mabtera-rituximabe/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/actemra-tocilizumabe/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/prograf-advagraf-tacrolimo-sistemico/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/vardenafila-5mg-10mg-20mg-levitra-staxyn/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/ergotamina-cafeina-cafertil-cafergot/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/implanon-nxt-etonogestrel-68mg-implante-subdermico/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/enbrel-benepali-etanercepte/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/cellcept-myfortic-micofenolato/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/doxazosina-2mg-4mg-8mg-carduran-aradois/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/endoxan-ciclofosfamida/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/simponi-golimumabe/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/inspra-eplerenona/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/penicilamina-250mg-cupripen-trolovol/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/viviant-conbriza-bazedoxifeno-20mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/aclasta-zometa-zoledronato-acido-zoledronico/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/miacalcin-calcimar-calcitonina-salmao/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/one-alpha-alfacalcidol-025mcg-05mcg-1mcg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/talidomida-50mg-100mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/upadacitinibe-15mg-30mg-45mg/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/natalizumabe-300mg-injetavel-iv/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/abatacepte-125mg-injetavel-sc-250mg-iv/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/medicamento/certolizumabe-pegol-200mg-injetavel-sc/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/exames/acido-urico/</loc>
-    <lastmod>2026-05-28</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/exames/albumina/</loc>
-    <lastmod>2026-05-28</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/exames/anti-tpo-anticorpos-anti-tireoperoxidase/</loc>
-    <lastmod>2026-05-28</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/exames/bilirrubinas/</loc>
-    <lastmod>2026-05-28</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/exames/calcio-serico/</loc>
-    <lastmod>2026-05-28</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/exames/colesterol-total-e-fracoes/</loc>
-    <lastmod>2026-05-28</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/exames/creatinina-e-ureia/</loc>
-    <lastmod>2026-05-28</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/exames/ferritina/</loc>
-    <lastmod>2026-05-28</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/exames/ggt-gama-gt/</loc>
-    <lastmod>2026-05-28</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/exames/glicemia-em-jejum/</loc>
-    <lastmod>2026-05-28</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/exames/hematocrito/</loc>
-    <lastmod>2026-05-28</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/exames/hemoglobina/</loc>
-    <lastmod>2026-05-28</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/exames/hemoglobina-glicada-hba1c/</loc>
-    <lastmod>2026-05-28</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/exames/insulina-em-jejum/</loc>
-    <lastmod>2026-05-28</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/exames/leucocitos-globulos-brancos/</loc>
-    <lastmod>2026-05-28</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/exames/magnesio/</loc>
-    <lastmod>2026-05-28</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/exames/pcr-proteina-c-reativa/</loc>
-    <lastmod>2026-05-28</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/exames/plaquetas/</loc>
-    <lastmod>2026-05-28</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/exames/potassio/</loc>
-    <lastmod>2026-05-28</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/exames/psa-antigeno-prostatico-especifico/</loc>
-    <lastmod>2026-05-28</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/exames/resistencia-a-insulina-homa-ir/</loc>
-    <lastmod>2026-05-28</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/exames/reticulocitos/</loc>
-    <lastmod>2026-05-28</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/exames/sodio/</loc>
-    <lastmod>2026-05-28</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/exames/t4-livre-t4l/</loc>
-    <lastmod>2026-05-28</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/exames/tgo-e-tgp-transaminases/</loc>
-    <lastmod>2026-05-28</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/exames/tsh-hormonio-tireoestimulante/</loc>
-    <lastmod>2026-05-28</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/exames/urina-tipo-1-eas/</loc>
-    <lastmod>2026-05-28</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/exames/vhs-velocidade-de-hemossedimentacao/</loc>
-    <lastmod>2026-05-28</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/exames/vitamina-b12/</loc>
-    <lastmod>2026-05-28</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://medicheck.med.br/exames/vitamina-d/</loc>
-    <lastmod>2026-05-28</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
