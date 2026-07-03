@@ -6,3 +6,12 @@ if git diff --cached --name-only | grep -q "^medicamentos\.json$"; then
   git add public/medicamentos.json
   echo "✓ pre-commit: public/medicamentos.json sincronizado"
 fi
+
+# Estampa ?v=<hash> de med-style.css nas páginas de medicamento antes de cada
+# commit. Roda se o CSS mudou (hash muda) ou se uma página nova/editada foi
+# adicionada ao stage (garante que ela já saia com o hash correto).
+if git diff --cached --name-only | grep -qE "^med-style\.css$|^medicamento/.*/index\.html$"; then
+  node cache-bust-css.cjs
+  git add medicamento
+  echo "✓ pre-commit: cache-busting de med-style.css sincronizado"
+fi
