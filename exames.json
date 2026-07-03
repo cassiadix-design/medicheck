@@ -988,5 +988,71 @@
         "resposta": "Recomenda-se jejum de 4 a 8 horas. Além disso, informe ao laboratório e ao médico se você toma suplementos de cálcio ou vitamina D, pois podem elevar o resultado."
       }
     ]
+  },
+  {
+    "nome": "D-dímero",
+    "categoria": "Coagulação/Hematologia",
+    "descricao": "O D-dímero é um fragmento liberado no sangue quando o corpo dissolve um coágulo já formado. É usado principalmente na investigação de trombose venosa profunda (TVP) e embolia pulmonar (TEP) — quando vem normal, ajuda a descartar essas condições com segurança; quando vem alto, não confirma o diagnóstico sozinho.",
+    "valores_normais": "Geralmente abaixo de 500 ng/mL FEU (o valor de corte varia conforme o método do laboratório). Em pessoas acima de 50 anos, muitos laboratórios usam um corte ajustado pela idade (idade x 10 ng/mL FEU) para reduzir resultados falsamente positivos.",
+    "o_que_significa_alto": "D-dímero alto sugere que há formação e quebra de coágulos em algum lugar do corpo, mas é um exame pouco específico — não fecha diagnóstico de trombose ou embolia sozinho. Pode subir também na gravidez, após cirurgias recentes, em infecções, inflamações, câncer e simplesmente com o avanço da idade. Por isso, um resultado alto quase sempre exige exame de imagem complementar (doppler de membros inferiores, angiotomografia de artérias pulmonares) para confirmar ou descartar o coágulo.",
+    "o_que_significa_baixo": "D-dímero não tem um valor 'baixo' com significado clínico — ele não indica nenhuma doença quando está reduzido. O que existe é o resultado normal (dentro do valor de referência), que tem grande utilidade para descartar trombose venosa profunda e embolia pulmonar, principalmente em pacientes com probabilidade clínica baixa a moderada (avaliada por escores como Wells ou Geneva). Ou seja: o D-dímero serve muito mais para excluir esses diagnósticos quando vem normal do que para confirmá-los quando vem alto.",
+    "quando_pedir": "Suspeita de trombose venosa profunda (inchaço, dor e vermelhidão em uma perna, geralmente de um lado só) ou embolia pulmonar (falta de ar súbita, dor no peito, coração acelerado), sempre em conjunto com a avaliação da probabilidade clínica pelo médico.",
+    "preparo": "Nenhum preparo especial. Não precisa de jejum. Informe ao médico se está grávida, fez cirurgia recente ou tem infecção ativa, pois isso influencia a interpretação do resultado.",
+    "descricao_seo": "O D-dímero ajuda a investigar trombose venosa profunda e embolia pulmonar. Entenda por que um resultado alto não fecha o diagnóstico sozinho e por que o exame é mais usado para descartar do que para confirmar.",
+    "perguntas_frequentes": [
+      {
+        "pergunta": "D-dímero alto significa que eu tenho trombose?",
+        "resposta": "Não necessariamente. O D-dímero alto mostra que há quebra de coágulos no corpo, mas isso também acontece na gravidez, em infecções, após cirurgias e com o avançar da idade. Um resultado alto quase sempre precisa ser confirmado com exame de imagem, como doppler ou angiotomografia."
+      },
+      {
+        "pergunta": "D-dímero normal descarta embolia pulmonar?",
+        "resposta": "Em pacientes com probabilidade clínica baixa a moderada (avaliada pelo médico com escores como Wells), um D-dímero normal tem alto valor para descartar embolia pulmonar e trombose venosa profunda, evitando exames de imagem desnecessários. Em pacientes de alta probabilidade clínica, o exame de imagem costuma ser indicado de qualquer forma."
+      },
+      {
+        "pergunta": "Grávida pode ter D-dímero alto sem ter trombose?",
+        "resposta": "Sim. A gravidez normalmente eleva o D-dímero de forma progressiva ao longo dos trimestres, mesmo sem nenhum coágulo. Por isso, em gestantes, o resultado precisa ser interpretado com muito mais cautela e quase sempre em conjunto com exame de imagem."
+      },
+      {
+        "pergunta": "Por que o valor de corte do D-dímero muda com a idade?",
+        "resposta": "Pessoas mais velhas tendem a ter D-dímero naturalmente mais alto, mesmo sem trombose, o que gerava muitos resultados falsamente positivos. O corte ajustado pela idade (idade x 10 ng/mL FEU após os 50 anos) reduz esses falsos positivos sem perder a capacidade de descartar trombose com segurança."
+      },
+      {
+        "pergunta": "Precisa repetir o D-dímero depois de um resultado alto?",
+        "resposta": "Geralmente não é o D-dímero que se repete — o próximo passo é o exame de imagem (doppler venoso ou angiotomografia de pulmão) para confirmar ou descartar o coágulo. Repetir só o D-dímero isoladamente não esclarece o diagnóstico."
+      }
+    ]
+  },
+  {
+    "nome": "BI-RADS (Classificação Mamográfica)",
+    "categoria": "Imagem/Rastreio",
+    "descricao": "BI-RADS (Breast Imaging Reporting and Data System) é o sistema padronizado usado para classificar os achados de mamografia, ultrassom ou ressonância das mamas por categorias — de 0 a 6 — de acordo com o risco de câncer de mama. Não é um exame em si, mas a forma como o radiologista resume o resultado desses exames de imagem.",
+    "valores_normais": "BI-RADS 1: exame normal, sem achados | BI-RADS 2: achado benigno (cisto simples, calcificação benigna) | BI-RADS 0: inconclusivo, precisa de exame de imagem adicional para comparação | BI-RADS 3: achado provavelmente benigno (risco de malignidade menor que 2%), com reavaliação em 6 meses",
+    "o_que_significa_alto": "BI-RADS 4 (subdividido em 4A, 4B e 4C) indica achado suspeito, com risco de malignidade que varia de baixo a moderado-alto conforme a subcategoria — biópsia é recomendada. BI-RADS 5 indica achado altamente sugestivo de câncer (mais de 95% de probabilidade de malignidade) — biópsia é obrigatória. BI-RADS 6 confirma câncer já comprovado por biópsia anterior, geralmente usado para acompanhar o tratamento.",
+    "o_que_significa_baixo": "BI-RADS 1 e 2 indicam achados normais ou benignos, sem necessidade de investigação adicional além do rastreio de rotina. BI-RADS 3 também tem risco muito baixo de malignidade, mas exige reavaliação por imagem em 6 meses para confirmar que o achado permanece estável antes de ser considerado definitivamente benigno.",
+    "quando_pedir": "Rastreio de rotina do câncer de mama (geralmente anual a partir dos 40-50 anos, conforme diretriz e fatores de risco), investigação de nódulo palpável ou outra alteração na mama, acompanhamento de achados prévios classificados como BI-RADS 3.",
+    "preparo": "Evitar uso de desodorante, talco, cremes ou perfume nas mamas e axilas no dia do exame, pois podem simular calcificações na imagem. Se possível, agendar entre o 7º e o 10º dia do ciclo menstrual, quando as mamas costumam estar menos sensíveis e densas. Levar exames de imagem anteriores para comparação.",
+    "descricao_seo": "O BI-RADS classifica os achados de mamografia e ultrassom de mama por risco de câncer, de 0 a 6. Entenda o que significa cada categoria e quando a biópsia é recomendada.",
+    "perguntas_frequentes": [
+      {
+        "pergunta": "BI-RADS 3 é câncer?",
+        "resposta": "Não. BI-RADS 3 significa achado provavelmente benigno, com risco de malignidade abaixo de 2%. A conduta padrão é repetir a imagem em 6 meses para confirmar que o achado não mudou, em vez de biopsiar imediatamente."
+      },
+      {
+        "pergunta": "BI-RADS 4 sempre precisa de biópsia?",
+        "resposta": "Sim, de forma geral. BI-RADS 4 é um achado suspeito e a biópsia é a forma de esclarecer se é benigno ou maligno. A categoria é dividida em 4A, 4B e 4C conforme o grau de suspeita, mas em todas elas a biópsia costuma ser recomendada."
+      },
+      {
+        "pergunta": "O que fazer ao receber um resultado BI-RADS 0?",
+        "resposta": "BI-RADS 0 significa que o exame não pôde ser totalmente conclusivo e são necessárias imagens adicionais — como incidências extras na mamografia ou um ultrassom complementar — antes de definir a categoria final."
+      },
+      {
+        "pergunta": "BI-RADS 5 é sempre câncer confirmado?",
+        "resposta": "BI-RADS 5 indica altíssima suspeita de malignidade (mais de 95% de probabilidade), mas a confirmação definitiva só acontece com a biópsia. Ainda assim, essa categoria exige biópsia com urgência e acompanhamento próximo."
+      },
+      {
+        "pergunta": "Por que meu exame anterior é importante para a classificação BI-RADS?",
+        "resposta": "Comparar com exames anteriores ajuda o radiologista a saber se um achado é novo ou estável há anos, o que muda completamente a interpretação. Um nódulo estável há muito tempo tende a ser classificado como benigno, enquanto um achado novo pode ser considerado suspeito."
+      }
+    ]
   }
 ]

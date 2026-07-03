@@ -3540,4 +3540,16 @@
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
+  <url>
+    <loc>https://medicheck.med.br/exames/d-dimero/</loc>
+    <lastmod>2026-07-03</lastmod>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://medicheck.med.br/exames/bi-rads-classificacao-mamografica/</loc>
+    <lastmod>2026-07-03</lastmod>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
 </urlset>
